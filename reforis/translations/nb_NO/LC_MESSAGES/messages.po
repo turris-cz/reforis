@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-08 15:54+0100\n"
-"PO-Revision-Date: 2021-11-05 11:57+0000\n"
-"Last-Translator: Josef Schlehofer <pepe@bloodkings.eu>\n"
+"PO-Revision-Date: 2021-11-10 17:50+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
+"reforis/nb_NO/>\n"
 "Language: nb_NO\n"
-"Language-Team: Norwegian Bokmål "
-"<https://hosted.weblate.org/projects/turris/reforis/nb_NO/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/about/About.js:23 js/src/main/pages.js:105 js/src/main/pages.js:224
@@ -30,10 +31,13 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Her kan du finne mer info om enheten din. Inkluder det i meldingen hvis du "
+"kontakter vår <a href=\"mailto:tech.support@turris.cz\" target=\"_blank\""
+">brukerstøtte</a>"
 
 #: js/src/about/About.js:55
 msgid "Device"
-msgstr ""
+msgstr "Enhet"
 
 #: js/src/about/About.js:63
 #, fuzzy
@@ -47,11 +51,11 @@ msgstr "Kjerneversjon"
 
 #: js/src/about/About.js:71
 msgid "Turris OS version"
-msgstr ""
+msgstr "Turris OS-versjon"
 
 #: js/src/about/About.js:76
 msgid "Turris OS branch"
-msgstr ""
+msgstr "Turris OS-forgrening"
 
 #: js/src/about/About.js:79
 msgid ""
@@ -59,6 +63,8 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
+"Turris OS utgis i forskjellige forgreninger, som har forskjellige funksjoner "
+"og varierende stabilitet – du kan velge den forgreningen du ønsker å teste."
 
 #: js/src/about/About.js:105
 msgid "Kernel version"
@@ -616,6 +622,8 @@ msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
+"Dette valget lar deg sette en båndbreddegrense for gjestenettverket, slik at "
+"ditt hovednettverk ikke blir merkbart tregere på grunn av det."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
@@ -669,6 +677,9 @@ msgid ""
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
+"Nettverket inneholder for tiden ingen enheter. Endringer du gjør her vil "
+"effektueres etter at du tildeler et nettverksgrensesnitt til dette "
+"nettverket."
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:16
 msgid "All network interfaces of this network are currently down."
@@ -1257,6 +1268,8 @@ msgid ""
 "Router mode means that this device manages the LAN (acts as a router, can"
 " assign IP addresses, etc.)."
 msgstr ""
+"Rutermodus betyr at denne enheten håndterer lokalnettet (fungerer som ruter, "
+"kan tildele IP-adresser, osv.)"
 
 #: js/src/lan/LANForm.js:21
 msgid ""
@@ -1264,6 +1277,9 @@ msgid ""
 " acts similarly to WAN, but it has opened ports for configuration "
 "interfaces and other services."
 msgstr ""
+"Datamaskinsmodus betyr at denne enheten opptrer som en klient i dette "
+"nettverket. Den arter seg lignende WAN, men har åpnede porter for "
+"oppsettsgrensesnitt og andre tjenester."
 
 #: js/src/lan/LANForm.js:33
 msgid "Computer"
@@ -1710,7 +1726,7 @@ msgstr "Avskrudd"
 
 #: js/src/overview/Cards/DataCollectionCard.js:44
 msgid "Threat Detection"
-msgstr ""
+msgstr "Trusselsoppdagelse"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:24
 msgid "Dynamic Firewall"
@@ -2238,6 +2254,12 @@ msgid ""
 "                        } list. Please enter another, more secure "
 "password."
 msgstr ""
+"Passordet du har skrevet inn har ikke blitt lagret. Det er kjent og "
+"figurerer ${\n"
+"                            forisPassword.count || rootPassword.count\n"
+"                        } ganger i ${\n"
+"                            forisPassword.list || rootPassword.list\n"
+"                        }-listen. Velg et annet og sikrere passord."
 
 #: js/src/password/Password.js:89
 #, fuzzy
@@ -2254,10 +2276,12 @@ msgid ""
 "Here you can set password for the administration interface. Make sure to "
 "set a secure password that is long and unique."
 msgstr ""
+"Har kan du sette et passord for administrasjonsgrensesnittet. Forsikre deg "
+"om at det er et sikkert passord som er langt og unikt."
 
 #: js/src/password/Password.js:193 js/src/password/Password.js:197
 msgid "The password confirmation does not match."
-msgstr ""
+msgstr "Passordbekreftelsen stemmer ikke overens."
 
 #: js/src/password/Password.js:212
 #, fuzzy
@@ -2433,6 +2457,8 @@ msgid ""
 "Useful in cases, when a specific MAC address is required by your internet"
 " service provider."
 msgstr ""
+"Nytt i tilfeller der en spesifikk MAC-adresse kreves av din internett-"
+"tjenestetilbyder."
 
 #: js/src/wan/MACForm.js:17
 msgid "Colon is used as a separator, for example 00:11:22:33:44:55"
@@ -2466,6 +2492,11 @@ msgid ""
 "router to the network, it is usually not necessary to change this "
 "setting."
 msgstr ""
+"Her kan du angi dine WAN-portinnstillinger. Vanligvis kan du levne disse "
+"valgene uendret, med mindre du får beskjed om noe annet av din internett-"
+"tjenestetilbyder. I fall det er et kabel- eller DSL-modem som kobler din "
+"ruter til nettverket er det vanligvis ikke nødvendig å endre denne "
+"innstillingen."
 
 #: js/src/wan/WAN.js:51
 msgid ""
@@ -2474,6 +2505,10 @@ msgid ""
 "a while before the connection is fully initialized. So it might be useful"
 " to wait for a while before running this test."
 msgstr ""
+"Her kan du teste tilkoblingsinnstillingene dine. Husk å klikke på "
+"<b>Lagre</b>-knappen før du kjører testen. Merk at noen ganger tar det en "
+"stund før tilkoblingen er helt oppstartet. Det kan derfor være nyttig å "
+"vente en stund før du kjører denne testen."
 
 #: js/src/wan/WAN6Form.js:26
 #, fuzzy
@@ -2651,6 +2686,10 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
+"Hvis du vil bruke ruteren din som et Wi-Fi-tilgangspunkt kan du skru på Wi-"
+"Fi her og fylle inn SSID (navnet på aksesspunktet) og tilhørende passord. Du "
+"kan deretter sette opp dine mobilenheter ved bruk av QR-koden tilgjengelig i "
+"skjemaet."
 
 #: reforis/views.py:52
 msgid "Wrong password."
@@ -2757,11 +2796,11 @@ msgstr "Spor:"
 
 #: reforis/templates/errors/401.html:4
 msgid "401 - Unauthorized"
-msgstr ""
+msgstr "401 – ingen tilgang"
 
 #: reforis/templates/errors/401.html:9
 msgid "You have to authenticate first."
-msgstr ""
+msgstr "Du må identitetsbekrefte deg først."
 
 #: reforis/templates/errors/401.html:10
 #, python-format
@@ -2783,4 +2822,3 @@ msgstr "Tjenerfeil"
 #: reforis/templates/errors/500.html:8
 msgid "500 - Server error"
 msgstr "500 - Tjenerfeil"
-
