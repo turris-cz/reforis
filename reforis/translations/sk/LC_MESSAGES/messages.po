@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-08 15:54+0100\n"
-"PO-Revision-Date: 2021-09-22 19:34+0000\n"
+"PO-Revision-Date: 2021-11-10 17:50+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
+">\n"
 "Language: sk\n"
-"Language-Team: Slovak "
-"<https://hosted.weblate.org/projects/turris/reforis/sk/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.9.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/about/About.js:23 js/src/main/pages.js:105 js/src/main/pages.js:224
@@ -30,28 +31,29 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Tu nájdete niektoré informácie o vašom zariadení. Ak sa rozhodnete "
+"kontaktovať našu <a href=\"mailto:tech.support@turris.cz\" target=\"_blank\""
+">zákaznícku podporu</a>, prosím, priložte ich do vašej správy."
 
 #: js/src/about/About.js:55
 msgid "Device"
-msgstr ""
+msgstr "Zariadenie"
 
 #: js/src/about/About.js:63
-#, fuzzy
 msgid "Serial number"
-msgstr "Port musí byť číslo."
+msgstr "Sériové číslo"
 
 #: js/src/about/About.js:67
-#, fuzzy
 msgid "reForis version"
-msgstr "Verzia kernelu"
+msgstr "Verzia reForis"
 
 #: js/src/about/About.js:71
 msgid "Turris OS version"
-msgstr ""
+msgstr "Verzia Turris OS"
 
 #: js/src/about/About.js:76
 msgid "Turris OS branch"
-msgstr ""
+msgstr "Vetva Turris OS"
 
 #: js/src/about/About.js:79
 msgid ""
@@ -59,6 +61,9 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
+"Turris OS sa vydáva vo viacerých vetvách, v ktorých má rozdielne "
+"funkcionality a rôznu stabilitu – môžete si vybrať, ktorú vetvu chcete "
+"vyskúšať."
 
 #: js/src/about/About.js:105
 msgid "Kernel version"
@@ -595,6 +600,8 @@ msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
+"Táto možnosť vám umožňuje nastaviť limit šírky pásma siete pre hostí, takže "
+"nedôjde k spomaleniu vašej hlavnej siete."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
@@ -648,6 +655,8 @@ msgid ""
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
+"Táto sieť aktuálne neobsahuje žiadne zariadenia. Zmeny, ktoré tu vykonáte, "
+"sa stanú plne funkčnými až keď tejto sieti priradíte sieťové rozhranie."
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:16
 msgid "All network interfaces of this network are currently down."
@@ -1216,6 +1225,8 @@ msgid ""
 "Router mode means that this device manages the LAN (acts as a router, can"
 " assign IP addresses, etc.)."
 msgstr ""
+"Režim router znamená, že toto zariadenie spravuje LAN (funguje ako smerovač, "
+"môže prideľovať IP adresy atď.)."
 
 #: js/src/lan/LANForm.js:21
 msgid ""
@@ -1223,6 +1234,9 @@ msgid ""
 " acts similarly to WAN, but it has opened ports for configuration "
 "interfaces and other services."
 msgstr ""
+"Režim počítač znamená, že toto zariadenie sa v tejto sieti správa ako "
+"klient. Funguje podobne ako WAN, ale má otvorené porty pre konfiguračné "
+"rozhrania a iné služby."
 
 #: js/src/lan/LANForm.js:33
 msgid "Computer"
@@ -1652,7 +1666,7 @@ msgstr "Zakázané"
 
 #: js/src/overview/Cards/DataCollectionCard.js:44
 msgid "Threat Detection"
-msgstr ""
+msgstr "Detekcia hrozieb"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:24
 msgid "Dynamic Firewall"
@@ -1716,7 +1730,6 @@ msgid "More details"
 msgstr "Ďalšie podrobnosti"
 
 #: js/src/packageManagement/packages/Packages.js:21
-#, fuzzy
 msgid ""
 "Apart from the standard installation, you can optionally select bundles "
 "of additional software that'd be installed on the router. This software "
@@ -1725,14 +1738,11 @@ msgid ""
 "and not marked as community-supported is actually supported by Turris "
 "team."
 msgstr ""
-"\n"
 "Okrem štandardnej inštalácie si môžete vybrať voliteľné balíčky ďalšieho "
-"softwaru, ktoré sa nainštalujú do routera.\n"
-"Tento software si môžete vybrať z nasledujúceho zoznamu. Upozorňujeme, že"
-" tím Turris podporuje len software,\n"
-"ktorý je súčasťou TurrisOS alebo bol nainštalovaný zo zoznamu balíčkov a "
-"nie je označený ako podporovaný komunitou.\n"
-"        "
+"softwaru, ktoré sa do routera nainštalujú. Tento software si môžete vybrať z "
+"nasledujúceho zoznamu. Upozorňujeme, že tím Turris podporuje len software, "
+"ktorý je súčasťou TurrisOS alebo bol nainštalovaný zo zoznamu balíčkov a nie "
+"je označený ako podporovaný komunitou."
 
 #: js/src/packageManagement/packages/PackagesForm.js:29
 msgid "Packages List"
@@ -2166,41 +2176,44 @@ msgid ""
 "                        } list. Please enter another, more secure "
 "password."
 msgstr ""
+"Heslo, ktoré ste zadali, nebolo uložené. Bolo kompromitované a objavuje sa ${"
+"\n"
+"                            forisPassword.count || rootPassword.count\n"
+"                        } krát v ${\n"
+"                            forisPassword.list || rootPassword.list\n"
+"                        } zozname. Prosím, zadajte iné, bezpečnejšie heslo."
 
 #: js/src/password/Password.js:89
-#, fuzzy
 msgid "Password changed successfully."
-msgstr "Nastavenie DNS preposielania bolo uložené."
+msgstr "Heslo bolo úspešne zmenené."
 
 #: js/src/password/Password.js:147
-#, fuzzy
 msgid "Password Settings"
-msgstr "Nastavenia siete"
+msgstr "Nastavenie hesla"
 
 #: js/src/password/Password.js:176
 msgid ""
 "Here you can set password for the administration interface. Make sure to "
 "set a secure password that is long and unique."
 msgstr ""
+"Tu môžete nastaviť heslo do administrátorského rozhrania. Ubezpečte sa, že "
+"nastavované heslo je bezpečné, dlhé a jedinečné."
 
 #: js/src/password/Password.js:193 js/src/password/Password.js:197
 msgid "The password confirmation does not match."
-msgstr ""
+msgstr "Potvrdenie hesiel nesúhlasí."
 
 #: js/src/password/Password.js:212
-#, fuzzy
 msgid "Password can't be empty."
-msgstr "Nemôže byť prázdne."
+msgstr "Heslo nemôže byť prázdne."
 
 #: js/src/password/Password.js:214
-#, fuzzy
 msgid "Password should have min 6 symbols."
-msgstr "TLS pin by mal obsahovať aspoň jeden znak."
+msgstr "Heslo musí mať najmenej 6 znakov."
 
 #: js/src/password/Password.js:217
-#, fuzzy
 msgid "Password should have max 128 symbols."
-msgstr "TLS pin by mal obsahovať aspoň jeden znak."
+msgstr "Heslo môže mať najviac 128 znakov."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -2343,14 +2356,16 @@ msgid ""
 "Please report this error to our support team via e-mail: <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 msgstr ""
-"Prosím, nahláste túto chybu našej technickej podpore e-mailom na <a "
-"href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
+"Prosím, nahláste túto chybu našej technickej podpore e-mailom na: <a href="
+"\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 
 #: js/src/wan/MACForm.js:14
 msgid ""
 "Useful in cases, when a specific MAC address is required by your internet"
 " service provider."
 msgstr ""
+"Užitočné v prípadoch, keď poskytovateľ internetového pripojenia vyžaduje "
+"konkrétnu MAC adresu."
 
 #: js/src/wan/MACForm.js:17
 msgid "Colon is used as a separator, for example 00:11:22:33:44:55"
@@ -2384,6 +2399,10 @@ msgid ""
 "router to the network, it is usually not necessary to change this "
 "setting."
 msgstr ""
+"Tu môžete zadať nastavenia portu WAN. Zvyčajne môžete tieto možnosti "
+"ponechať nezmenené, pokiaľ vám poskytovateľ internetového pripojenia neurčí "
+"inak. Aj v prípade, ak je k sieti pripojený káblový alebo DSL modem, "
+"zvyčajne nie je potrebné tieto nastavenia meniť."
 
 #: js/src/wan/WAN.js:51
 msgid ""
@@ -2392,6 +2411,10 @@ msgid ""
 "a while before the connection is fully initialized. So it might be useful"
 " to wait for a while before running this test."
 msgstr ""
+"Tu môžete otestovať nastavenia pripojenia. Pred spustením testu nezabudnite "
+"kliknúť na tlačidlo <b>Uložiť</b>. Upozorňujeme, že niekedy chvíľu trvá, kým "
+"sa pripojenie úplne inicializuje. Preto môže byť užitočné pred spustením "
+"tohto testu chvíľu počkať."
 
 #: js/src/wan/WAN6Form.js:26
 msgid "DUID which will be provided to the DHCPv6 server."
@@ -2559,6 +2582,10 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
+"Ak chcete používať router ako prístupový bod Wi-Fi, povoľte tu Wi-Fi a "
+"vyplňte SSID (názov prístupového bodu) a príslušné heslo. Potom môžete "
+"nastaviť svoje mobilné zariadenia pomocou QR kódu, ktorý je k dispozícii vo "
+"formulári."
 
 #: reforis/views.py:52
 msgid "Wrong password."
@@ -2665,11 +2692,11 @@ msgstr "Cesta:"
 
 #: reforis/templates/errors/401.html:4
 msgid "401 - Unauthorized"
-msgstr ""
+msgstr "401 - Neoprávnené"
 
 #: reforis/templates/errors/401.html:9
 msgid "You have to authenticate first."
-msgstr ""
+msgstr "Najskôr sa musíte prihlásiť."
 
 #: reforis/templates/errors/401.html:10
 #, python-format
@@ -2691,4 +2718,3 @@ msgstr "Chyba servera"
 #: reforis/templates/errors/500.html:8
 msgid "500 - Server error"
 msgstr "500 – Chyba servera"
-
