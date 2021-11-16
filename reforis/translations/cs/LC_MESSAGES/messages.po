@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-08 15:54+0100\n"
-"PO-Revision-Date: 2021-11-10 17:50+0000\n"
-"Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
+"PO-Revision-Date: 2021-11-16 10:32+0000\n"
+"Last-Translator: Karel Kočí <karel.koci@nic.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
 "\n"
 "Language: cs\n"
@@ -2585,7 +2585,7 @@ msgstr ""
 
 #: reforis/views.py:52
 msgid "Wrong password."
-msgstr "Nesprávné heslo."
+msgstr "Špatné heslo."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -2656,7 +2656,7 @@ msgstr "Příručka"
 
 #: reforis/templates/login.html:33
 msgid "Log in"
-msgstr "Přihlásit se"
+msgstr "Přihlášení"
 
 #: reforis/templates/login.html:35
 msgid "Go to LuCI"
