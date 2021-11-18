@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-08 15:54+0100\n"
-"PO-Revision-Date: 2021-11-10 17:50+0000\n"
+"PO-Revision-Date: 2021-11-19 23:50+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"X-Generator: Weblate 4.9.1\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/about/About.js:23 js/src/main/pages.js:105 js/src/main/pages.js:224
@@ -2660,7 +2660,7 @@ msgstr "Sprievodca"
 
 #: reforis/templates/login.html:33
 msgid "Log in"
-msgstr "Prihlásiť sa"
+msgstr "Prihlásenie"
 
 #: reforis/templates/login.html:35
 msgid "Go to LuCI"
