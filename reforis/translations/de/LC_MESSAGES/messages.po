@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-11-08 15:54+0100\n"
-"PO-Revision-Date: 2021-09-24 19:35+0000\n"
-"Last-Translator: CryptKid <CryptKiddie@chaospott.de>\n"
+"PO-Revision-Date: 2021-11-22 10:52+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/turris/reforis/de/"
+">\n"
 "Language: de\n"
-"Language-Team: German "
-"<https://hosted.weblate.org/projects/turris/reforis/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/about/About.js:23 js/src/main/pages.js:105 js/src/main/pages.js:224
@@ -2355,7 +2356,7 @@ msgstr ""
 
 #: reforis/views.py:52
 msgid "Wrong password."
-msgstr ""
+msgstr "Falsches Passwort."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -2417,7 +2418,7 @@ msgstr ""
 
 #: reforis/templates/login.html:33
 msgid "Log in"
-msgstr ""
+msgstr "Anmelden"
 
 #: reforis/templates/login.html:35
 msgid "Go to LuCI"
@@ -2475,4 +2476,3 @@ msgstr ""
 #: reforis/templates/errors/500.html:8
 msgid "500 - Server error"
 msgstr ""
-
