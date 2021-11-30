@@ -1,4 +1,4 @@
-#  Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -68,11 +68,23 @@ def test_api_get_endpoint_foris_controller_calls(client, endpoint, module, actio
 
 @pytest.mark.parametrize(
     'endpoint, module, action, request_data', [
-        ('lan/set_client', 'lan', 'set_dhcp_client', {
-            'ip': '192.168.1.15',
-            'hostname':'whatever',
-            'mac':'aa:7c:8d:62:2e:25'
-        }),
+        ('lan/set_client', 'lan', 'set_dhcp_client',
+            {
+                'ip': '192.168.1.15',
+                'hostname':'whatever',
+                'mac':'aa:7c:8d:62:2e:25'
+            },
+        ),
+        ('lan/update_client', 'lan', 'update_dhcp_client',
+            {
+                'ip': '192.168.1.18',
+                'hostname': 'anotherhostname',
+                'mac': 'aa:7c:8d:62:2e:25',
+            },
+        ),
+        ('lan/delete_client', 'lan', 'delete_dhcp_client',
+            {'mac': 'aa:7c:8d:62:2e:25'},
+        ),
         ('wifi-reset', 'wifi', 'reset', {}),
         ('connection-test', 'wan', 'connection_test_trigger', {}),
         ('dns/test', 'wan', 'connection_test_trigger', {}),
