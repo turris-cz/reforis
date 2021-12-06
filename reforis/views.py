@@ -9,10 +9,9 @@ any logic in them because all further communication between client and server go
 which is done in `ForisAPI` Blueprint.
 """
 
-from flask import Blueprint, current_app, redirect, render_template, request, session, url_for
-from flask_babel import gettext as _
+from flask import Blueprint, current_app, redirect, render_template, request, url_for
 
-from .auth import logout_from_foris, is_user_logged
+from .auth import is_user_logged
 
 # pylint: disable=invalid-name
 views = Blueprint('Views', __name__)
@@ -24,13 +23,6 @@ views = Blueprint('Views', __name__)
 def index(path):
     """Main page."""
     return render_template('index.html', user_is_logged={'logged': is_user_logged()})
-
-
-@views.route('/logout', methods=['GET'])
-def logout():
-    """Logout from foris."""
-    logout_from_foris()
-    return redirect(url_for('Views.login'))
 
 
 # pylint: disable=inconsistent-return-statements

@@ -1,4 +1,4 @@
-#  Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -19,7 +19,6 @@ from http import HTTPStatus
 from flask import Blueprint, jsonify, make_response
 
 # pylint: disable=invalid-name
-from reforis.auth import logout_from_foris
 
 api = Blueprint('reForisAPI', __name__, url_prefix='/api')
 
@@ -32,10 +31,3 @@ def health_check():
     response.headers.add('Access-Control-Allow-Methods', 'GET, OPTIONS')
     response.headers.add('Access-Control-Allow-Headers', 'Origin, Accept, Content-Type, X-Requested-With')
     return response
-
-
-@api.route('/logout', methods=['POST'])
-def logout():
-    """Logout from foris."""
-    logout_from_foris()
-    return 'Logout successfully.', HTTPStatus.ACCEPTED
