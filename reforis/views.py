@@ -11,8 +11,6 @@ which is done in `ForisAPI` Blueprint.
 
 from flask import Blueprint, current_app, redirect, render_template, request, url_for
 
-from .auth import is_user_logged
-
 # pylint: disable=invalid-name
 views = Blueprint('Views', __name__)
 
@@ -22,7 +20,7 @@ views = Blueprint('Views', __name__)
 @views.route('/<path:path>')
 def index(path):
     """Main page."""
-    return render_template('index.html', user_is_logged={'logged': is_user_logged()})
+    return render_template('index.html')
 
 
 # pylint: disable=inconsistent-return-statements
