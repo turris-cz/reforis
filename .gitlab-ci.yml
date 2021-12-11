@@ -13,6 +13,15 @@ test:
     - make compile-messages
     - make test
 
+test-js-build:
+  image: node:12-bullseye-slim
+  stage: test
+  script:
+    - cd js
+    - npm install
+    - npm run-script build -- -o /tmp/app.min.js
+  
+
 lint:
   stage: test
   script:
