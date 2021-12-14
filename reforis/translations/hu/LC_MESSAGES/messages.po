@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-08 15:54+0100\n"
+"POT-Creation-Date: 2021-12-14 19:54+0300\n"
 "PO-Revision-Date: 2021-01-08 14:32+0000\n"
 "Last-Translator: Zoli <boritek@gmail.com>\n"
 "Language: hu\n"
@@ -142,6 +142,11 @@ msgstr "Útmutató"
 msgid "Expires"
 msgstr "Lejárat"
 
+#: js/src/common/network/DHCP6ClientsList.js:76
+#: js/src/common/network/DHCPClientsList.js:74
+msgid "Never"
+msgstr ""
+
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
 msgstr "A DHCP-kiszolgálónak megadott gépnév."
@@ -173,11 +178,11 @@ msgstr "MAC-cím"
 msgid "Active"
 msgstr "Aktív"
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is active"
 msgstr ""
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 #, fuzzy
 msgid "Device is inactive"
 msgstr "TLS gépnév"

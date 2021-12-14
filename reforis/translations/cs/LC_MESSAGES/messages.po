@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-08 15:54+0100\n"
-"PO-Revision-Date: 2021-08-25 09:43+0000\n"
-"Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
+"POT-Creation-Date: 2021-12-14 19:54+0300\n"
+"PO-Revision-Date: 2021-11-16 10:32+0000\n"
+"Last-Translator: Karel Kočí <karel.koci@nic.cz>\n"
 "Language: cs\n"
 "Language-Team: Czech "
 "<https://hosted.weblate.org/projects/turris/reforis/cs/>\n"
@@ -30,28 +30,30 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Zde můžete najít některé informace o svém zařízení. Vložte je prosím do "
+"své zprávy, pokud kontaktujete naši <a "
+"href=\"mailto:tech.support@turris.cz\" target=\"_blank\">zákaznickou "
+"podporu</a>."
 
 #: js/src/about/About.js:55
 msgid "Device"
-msgstr ""
+msgstr "Zařízení"
 
 #: js/src/about/About.js:63
-#, fuzzy
 msgid "Serial number"
-msgstr "Port je číslo."
+msgstr "Sériové číslo"
 
 #: js/src/about/About.js:67
-#, fuzzy
 msgid "reForis version"
-msgstr "Verze kernelu"
+msgstr "Verze reForisu"
 
 #: js/src/about/About.js:71
 msgid "Turris OS version"
-msgstr ""
+msgstr "Verze Turris OS"
 
 #: js/src/about/About.js:76
 msgid "Turris OS branch"
-msgstr ""
+msgstr "Větev Turris OS"
 
 #: js/src/about/About.js:79
 msgid ""
@@ -59,6 +61,8 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
+"Turris OS se nyní vydává v různých větvích, které mají různé funkce a "
+"rozdílnou stabilitu – můžete si vybrat, kterou větev chcete testovat."
 
 #: js/src/about/About.js:105
 msgid "Kernel version"
@@ -140,6 +144,11 @@ msgstr "DUID"
 msgid "Expires"
 msgstr "Platnost končí"
 
+#: js/src/common/network/DHCP6ClientsList.js:76
+#: js/src/common/network/DHCPClientsList.js:74
+msgid "Never"
+msgstr ""
+
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
 msgstr "Název stroje, který bude poskytnut DHCP serveru."
@@ -172,11 +181,11 @@ msgstr "MAC adresa"
 msgid "Active"
 msgstr "Aktivní"
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is active"
 msgstr "Zařízení je aktivní"
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is inactive"
 msgstr "Zařízení je neaktivní"
 
@@ -592,6 +601,8 @@ msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
+"Tato volba vám umožňuje nastavit limit přenosové rychlosti sítě pro "
+"hosty, takže nebude zpomalovat vaši hlavní síť."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
@@ -645,6 +656,8 @@ msgid ""
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
+"Tato síť nyní neobsahuje žádná zařízení. Změny, které provedete, se plně "
+"projeví poté, co k této síti přiřadíte nějaké síťové rozhraní."
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:16
 msgid "All network interfaces of this network are currently down."
@@ -1217,6 +1230,8 @@ msgid ""
 "Router mode means that this device manages the LAN (acts as a router, can"
 " assign IP addresses, etc.)."
 msgstr ""
+"Režim routeru znamená, že toto zařízení spravuje LAN (funguje jako "
+"router, může přidělovat IP adresy apod.)."
 
 #: js/src/lan/LANForm.js:21
 msgid ""
@@ -1224,6 +1239,9 @@ msgid ""
 " acts similarly to WAN, but it has opened ports for configuration "
 "interfaces and other services."
 msgstr ""
+"Režim počítače znamená, že toto zařízení vystupuje v této síti jako "
+"klient. Funguje podobně jako WAN, ale má otevřené porty pro konfigurační "
+"rozhraní a jiné služby."
 
 #: js/src/lan/LANForm.js:33
 msgid "Computer"
@@ -1655,7 +1673,7 @@ msgstr "Vypnuto"
 
 #: js/src/overview/Cards/DataCollectionCard.js:44
 msgid "Threat Detection"
-msgstr ""
+msgstr "Detekce hrozeb"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:24
 msgid "Dynamic Firewall"
@@ -1719,7 +1737,6 @@ msgid "More details"
 msgstr "Další podrobnosti"
 
 #: js/src/packageManagement/packages/Packages.js:21
-#, fuzzy
 msgid ""
 "Apart from the standard installation, you can optionally select bundles "
 "of additional software that'd be installed on the router. This software "
@@ -1728,15 +1745,12 @@ msgid ""
 "and not marked as community-supported is actually supported by Turris "
 "team."
 msgstr ""
-"\n"
 "Kromě standardní instalace můžete volitelně vybrat balíčky dalšího "
-"softwaru, které by byly nainstalovány na\n"
-"router. Tento software lze vybrat z následujícího seznamu. Vezměte prosím"
-" na vědomí, že týmem Turris\n"
-"je podporován pouze software, který je součástí TurrisOS nebo který byl "
-"nainstalován ze seznamu balíčků\n"
-"a není označen jako podporovaný komunitou.\n"
-"        "
+"softwaru, které by byly nainstalovány na router. Tento software lze "
+"vybrat z následujícího seznamu. Vezměte prosím na vědomí, že týmem Turris"
+" je podporován pouze software, který je součástí TurrisOS nebo který byl "
+"nainstalován ze seznamu balíčků a není označen jako podporovaný "
+"komunitou."
 
 #: js/src/packageManagement/packages/PackagesForm.js:29
 msgid "Packages List"
@@ -2163,41 +2177,44 @@ msgid ""
 "                        } list. Please enter another, more secure "
 "password."
 msgstr ""
+"Heslo, které jste vložili, nebylo uloženo. Bylo prolomeno a vyskytuje se "
+"${\n"
+"                            forisPassword.count || rootPassword.count\n"
+"                        }krát v seznamu ${\n"
+"                            forisPassword.list || rootPassword.list\n"
+"                        }. Vložte prosím jiné, bezpečnější heslo."
 
 #: js/src/password/Password.js:89
-#, fuzzy
 msgid "Password changed successfully."
-msgstr "Nastavení přeposílání DNS dotazů bylo úspěšně uloženo."
+msgstr "Heslo bylo úspěšně změněno."
 
 #: js/src/password/Password.js:147
-#, fuzzy
 msgid "Password Settings"
-msgstr "Nastavení sítě"
+msgstr "Nastavení hesla"
 
 #: js/src/password/Password.js:176
 msgid ""
 "Here you can set password for the administration interface. Make sure to "
 "set a secure password that is long and unique."
 msgstr ""
+"Zde můžete nastavit heslo do administračního rozhraní. Ujistěte se, že "
+"nastavujete bezpečné heslo, které je dlouhé a jedinečné."
 
 #: js/src/password/Password.js:193 js/src/password/Password.js:197
 msgid "The password confirmation does not match."
-msgstr ""
+msgstr "Potvrzení hesla se neshoduje."
 
 #: js/src/password/Password.js:212
-#, fuzzy
 msgid "Password can't be empty."
-msgstr "Je třeba vyplnit."
+msgstr "Heslo nesmí být prázdné."
 
 #: js/src/password/Password.js:214
-#, fuzzy
 msgid "Password should have min 6 symbols."
-msgstr "TLS pin by měl obsahovat alespoň jeden symbol."
+msgstr "Heslo by mělo mít nejméně 6 znaků."
 
 #: js/src/password/Password.js:217
-#, fuzzy
 msgid "Password should have max 128 symbols."
-msgstr "TLS pin by měl obsahovat alespoň jeden symbol."
+msgstr "Heslo by mělo mít nejméně 128 znaků."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -2350,6 +2367,8 @@ msgid ""
 "Useful in cases, when a specific MAC address is required by your internet"
 " service provider."
 msgstr ""
+"Užitečné v případech, kdy váš poskytovatel internetových služeb požaduje "
+"konkrétní MAC adresu."
 
 #: js/src/wan/MACForm.js:17
 msgid "Colon is used as a separator, for example 00:11:22:33:44:55"
@@ -2383,6 +2402,10 @@ msgid ""
 "router to the network, it is usually not necessary to change this "
 "setting."
 msgstr ""
+"Zde zadáte nastavení portu WAN. Obvykle můžete tyto možnosti nechat "
+"nedotčené, pokud od poskytovatele přístupu k Internetu nedostanete jiné "
+"instrukce. Tedy v případě, že je váš router připojen do sítě přes "
+"kabelový nebo DSL modem, obvykle není nutné toto nastavení měnit."
 
 #: js/src/wan/WAN.js:51
 msgid ""
@@ -2391,6 +2414,10 @@ msgid ""
 "a while before the connection is fully initialized. So it might be useful"
 " to wait for a while before running this test."
 msgstr ""
+"Zde můžete otestovat nastavení svého připojení. Nezapomeňte před testem "
+"stisknout tlačítko <b>Uložit</b>. Mějte na paměti, že někdy může chvíli "
+"trvat, než je připojení plně inicializováno. Proto může být užitečné "
+"chvíli počkat, než spustíte tento test."
 
 #: js/src/wan/WAN6Form.js:26
 msgid "DUID which will be provided to the DHCPv6 server."
@@ -2559,10 +2586,14 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
+"Pokud chcete používat váš router jako přístupový bod Wi-Fi, povolte zde "
+"Wi-Fi a vyplňte SSID (název přístupového bodu) a příslušné heslo. Potom "
+"můžete nastavit svá mobilní zařízení pomocí QR kódu zobrazovaného uvnitř "
+"formuláře."
 
 #: reforis/views.py:52
 msgid "Wrong password."
-msgstr "Nesprávné heslo."
+msgstr "Špatné heslo."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -2633,7 +2664,7 @@ msgstr "Příručka"
 
 #: reforis/templates/login.html:33
 msgid "Log in"
-msgstr "Přihlásit se"
+msgstr "Přihlášení"
 
 #: reforis/templates/login.html:35
 msgid "Go to LuCI"
@@ -2665,11 +2696,11 @@ msgstr "Trace:"
 
 #: reforis/templates/errors/401.html:4
 msgid "401 - Unauthorized"
-msgstr ""
+msgstr "401 - Neoprávněné"
 
 #: reforis/templates/errors/401.html:9
 msgid "You have to authenticate first."
-msgstr ""
+msgstr "Nejprve se musíte ověřit."
 
 #: reforis/templates/errors/401.html:10
 #, python-format

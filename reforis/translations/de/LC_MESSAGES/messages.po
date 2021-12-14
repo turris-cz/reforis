@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-08 15:54+0100\n"
-"PO-Revision-Date: 2021-09-24 19:35+0000\n"
-"Last-Translator: CryptKid <CryptKiddie@chaospott.de>\n"
+"POT-Creation-Date: 2021-12-14 19:54+0300\n"
+"PO-Revision-Date: 2021-11-22 10:52+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language: de\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/turris/reforis/de/>\n"
@@ -143,6 +143,11 @@ msgstr ""
 msgid "Expires"
 msgstr "Verfällt"
 
+#: js/src/common/network/DHCP6ClientsList.js:76
+#: js/src/common/network/DHCPClientsList.js:74
+msgid "Never"
+msgstr ""
+
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
 msgstr "Hostname, der dem DHCP-Server zur Verfügung gestellt wird."
@@ -176,11 +181,11 @@ msgstr "MAC-Adresse"
 msgid "Active"
 msgstr "Aktiv"
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is active"
 msgstr ""
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 #, fuzzy
 msgid "Device is inactive"
 msgstr "DHCP Hostname"
@@ -2355,7 +2360,7 @@ msgstr ""
 
 #: reforis/views.py:52
 msgid "Wrong password."
-msgstr ""
+msgstr "Falsches Passwort."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -2417,7 +2422,7 @@ msgstr ""
 
 #: reforis/templates/login.html:33
 msgid "Log in"
-msgstr ""
+msgstr "Anmelden"
 
 #: reforis/templates/login.html:35
 msgid "Go to LuCI"

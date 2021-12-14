@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-08 15:54+0100\n"
-"PO-Revision-Date: 2021-07-24 09:35+0000\n"
-"Last-Translator: Florian <flo.site@zaclys.net>\n"
+"POT-Creation-Date: 2021-12-14 19:54+0300\n"
+"PO-Revision-Date: 2021-11-22 10:52+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language: fr\n"
 "Language-Team: French "
 "<https://hosted.weblate.org/projects/turris/reforis/fr/>\n"
@@ -30,28 +30,30 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Vous trouverez ici des informations sur votre appareil. Veuillez les "
+"inclure dans votre message si vous contactez notre <a "
+"href=\"mailto:tech.support@turris.cz\" target=\"_blank\">assistance "
+"client</a>."
 
 #: js/src/about/About.js:55
 msgid "Device"
-msgstr ""
+msgstr "Appareil"
 
 #: js/src/about/About.js:63
-#, fuzzy
 msgid "Serial number"
-msgstr "Le port est un numéro."
+msgstr "Numéro de série"
 
 #: js/src/about/About.js:67
-#, fuzzy
 msgid "reForis version"
-msgstr "Version du noyau"
+msgstr "version reForis"
 
 #: js/src/about/About.js:71
 msgid "Turris OS version"
-msgstr ""
+msgstr "Version du système d'exploitation Turris"
 
 #: js/src/about/About.js:76
 msgid "Turris OS branch"
-msgstr ""
+msgstr "Branche Turris OS"
 
 #: js/src/about/About.js:79
 msgid ""
@@ -59,6 +61,9 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
+"Turris OS est actuellement publié en plusieurs branches, qui ont des "
+"fonctions différentes et une stabilité variable – vous pouvez choisir la "
+"branche que vous voulez tester."
 
 #: js/src/about/About.js:105
 msgid "Kernel version"
@@ -72,11 +77,11 @@ msgstr "Réinitialiser"
 #: js/src/dns/DNSSECDisableModal.js:30
 #: js/src/notificationsSettings/TestNotification.js:146
 msgid "Warning!"
-msgstr "Attention !"
+msgstr "Attention !"
 
 #: js/src/common/FactoryResetButton.js:68
 msgid "Are you sure you want to reset the router?"
-msgstr "Êtes-vous sûr de vouloir réinitialiser le routeur ?"
+msgstr "Voulez-vous vraiment réinitialiser le routeur ?"
 
 #: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:71
 #: js/src/dns/DNSSECDisableModal.js:41
@@ -102,7 +107,7 @@ msgstr "Confirmer le redémarrage"
 
 #: js/src/common/ScrollToTopArrow.js:30
 msgid "Go to top"
-msgstr "Haut de la page"
+msgstr "Aller en haut"
 
 #: js/src/common/network/DHCP6ClientsList.js:24
 msgid "IPv6 DHCP Client List"
@@ -140,6 +145,11 @@ msgstr "DUID"
 msgid "Expires"
 msgstr "Expire le"
 
+#: js/src/common/network/DHCP6ClientsList.js:76
+#: js/src/common/network/DHCPClientsList.js:74
+msgid "Never"
+msgstr ""
+
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
 msgstr "Nom d’hôte qui sera assigné au serveur DHCP."
@@ -172,11 +182,11 @@ msgstr "Adresse MAC"
 msgid "Active"
 msgstr "Actif"
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is active"
 msgstr "L’appareil est actif"
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is inactive"
 msgstr "L’appareil est inactif"
 
@@ -234,7 +244,7 @@ msgstr "L'adresse est déjà réservée à d'autres fins."
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr ""
 "Trop d'adresses demandées. Définissez un nombre inférieur ou modifiez le "
-"démarrage DHCP."
+"début du DHCP."
 
 #: js/src/common/network/DHCPValidators.js:138
 msgid ""
@@ -406,9 +416,8 @@ msgstr ""
 " »."
 
 #: js/src/dns/DNSForm.js:67
-#, fuzzy
 msgid "DNS Settings"
-msgstr "Paramètres de mise à jour"
+msgstr "Paramètres DNS"
 
 #: js/src/dns/DNSForm.js:84
 msgid "Use forwarding"
@@ -460,7 +469,6 @@ msgid "Add custom forwarder"
 msgstr "Ajouter un expéditeur personnalisé"
 
 #: js/src/dns/Forwarders/ForwardersTable.js:37
-#, fuzzy
 msgid "Forwarders"
 msgstr "Ré-expéditeurs"
 
@@ -481,7 +489,6 @@ msgid "Delete"
 msgstr "Supprimer"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:23
-#, fuzzy
 msgid "Base 64 encoded SHA-256."
 msgstr "sha256 encodé en base64."
 
@@ -2608,7 +2615,7 @@ msgstr ""
 
 #: reforis/views.py:52
 msgid "Wrong password."
-msgstr "Mot de passe incorrect."
+msgstr "Mot de passe erroné."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -2697,7 +2704,7 @@ msgstr "retour pour sélectionner"
 
 #: reforis/templates/errors/400.html:4 reforis/templates/errors/400.html:8
 msgid "400 - Bad Request"
-msgstr "400 - Bad Request"
+msgstr "400 - Mauvaise requête"
 
 #: reforis/templates/errors/400.html:9 reforis/templates/errors/500.html:9
 msgid "Error:"

@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-08 15:54+0100\n"
-"PO-Revision-Date: 2021-08-15 11:36+0000\n"
-"Last-Translator: Artem <Localizer_in_Russian@protonmail.com>\n"
+"POT-Creation-Date: 2021-12-14 19:54+0300\n"
+"PO-Revision-Date: 2021-12-01 06:52+0000\n"
+"Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
 "Language: ru\n"
 "Language-Team: Russian "
 "<https://hosted.weblate.org/projects/turris/reforis/ru/>\n"
@@ -31,28 +31,30 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Здесь вы можете найти некоторую информацию о вашем устройстве. Включите "
+"его в свое сообщение, если вы обратитесь в нашу <a "
+"href=\"mailto:tech.support@turris.cz\" target=\"_blank\"> службу "
+"поддержки </a>."
 
 #: js/src/about/About.js:55
 msgid "Device"
-msgstr ""
+msgstr "Устройство"
 
 #: js/src/about/About.js:63
-#, fuzzy
 msgid "Serial number"
-msgstr "Порт-это номер."
+msgstr "Серийный номер"
 
 #: js/src/about/About.js:67
-#, fuzzy
 msgid "reForis version"
-msgstr "Версия ядра"
+msgstr "Версия reForis"
 
 #: js/src/about/About.js:71
 msgid "Turris OS version"
-msgstr ""
+msgstr "Версия OS Turris"
 
 #: js/src/about/About.js:76
 msgid "Turris OS branch"
-msgstr ""
+msgstr "Ветка OS Turris"
 
 #: js/src/about/About.js:79
 msgid ""
@@ -60,6 +62,9 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
+"OS Turris в настоящее время выпускается в различных ветках, которые имеют"
+" разные функции и разную стабильность - вы можете выбрать, какую ветку вы"
+" хотите протестировать."
 
 #: js/src/about/About.js:105
 msgid "Kernel version"
@@ -141,6 +146,11 @@ msgstr "Уникальный идентификатор DHCP (DUID)"
 msgid "Expires"
 msgstr "Истекает"
 
+#: js/src/common/network/DHCP6ClientsList.js:76
+#: js/src/common/network/DHCPClientsList.js:74
+msgid "Never"
+msgstr ""
+
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
 msgstr "Имя хоста, которое будет предоставлено серверу DHCP."
@@ -173,11 +183,11 @@ msgstr "MAC адрес"
 msgid "Active"
 msgstr "Активный"
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is active"
 msgstr "Устройство активно"
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is inactive"
 msgstr "Устройство неактивно"
 
@@ -591,6 +601,8 @@ msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
+"Эта опция позволяет вам установить ограничение пропускной способности для"
+" гостевой сети, чтобы скорость в вашей основной сети не снижалась."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
@@ -644,6 +656,9 @@ msgid ""
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
+"В настоящее время в этой сети нет устройств. Внесенные здесь изменения "
+"станут полностью функциональными после того, как вы назначите сетевой "
+"интерфейс для этой сети."
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:16
 msgid "All network interfaces of this network are currently down."
@@ -1211,6 +1226,8 @@ msgid ""
 "Router mode means that this device manages the LAN (acts as a router, can"
 " assign IP addresses, etc.)."
 msgstr ""
+"Режим маршрутизатора означает, что это устройство управляет локальной "
+"сетью (действует как маршрутизатор, может назначать IP-адреса и т.д.)."
 
 #: js/src/lan/LANForm.js:21
 msgid ""
@@ -1218,6 +1235,9 @@ msgid ""
 " acts similarly to WAN, but it has opened ports for configuration "
 "interfaces and other services."
 msgstr ""
+"Режим компьютера означает, что это устройство действует как клиент в этой"
+" сети. Он действует аналогично WAN, но имеет открытые порты для "
+"интерфейсов конфигурации и других служб."
 
 #: js/src/lan/LANForm.js:33
 msgid "Computer"
@@ -1647,7 +1667,7 @@ msgstr "Отключён"
 
 #: js/src/overview/Cards/DataCollectionCard.js:44
 msgid "Threat Detection"
-msgstr ""
+msgstr "Обнаружение угроз"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:24
 msgid "Dynamic Firewall"
@@ -1711,7 +1731,6 @@ msgid "More details"
 msgstr "Дополнительная информация"
 
 #: js/src/packageManagement/packages/Packages.js:21
-#, fuzzy
 msgid ""
 "Apart from the standard installation, you can optionally select bundles "
 "of additional software that'd be installed on the router. This software "
@@ -1720,15 +1739,13 @@ msgid ""
 "and not marked as community-supported is actually supported by Turris "
 "team."
 msgstr ""
-"\n"
 "Помимо стандартной установки, вы можете дополнительно выбрать комплекты "
 "дополнительного программного обеспечения, которое будет установлено на "
 "роутер. Это программное обеспечение можно выбрать из следующего списка. "
 "Обратите внимание, что команда Turris на самом деле поддерживает только "
 "программное обеспечение, которое является частью TurrisOS или которое "
 "было установлено из списка пакетов и не помечено как поддерживаемое "
-"сообществом.\n"
-"        "
+"сообществом."
 
 #: js/src/packageManagement/packages/PackagesForm.js:29
 msgid "Packages List"
@@ -2130,41 +2147,42 @@ msgid ""
 "                        } list. Please enter another, more secure "
 "password."
 msgstr ""
+"Введенный вами пароль не сохранен. Он был скомпрометирован и встречается "
+"$ {forisPassword.count || rootPassword.count} раз в $ {forisPassword.list"
+" || rootPassword.list} списке. Пожалуйста, введите другой, более надежный"
+" пароль."
 
 #: js/src/password/Password.js:89
-#, fuzzy
 msgid "Password changed successfully."
-msgstr "Сервер пересылки успешно сохранен."
+msgstr "Пароль успешно изменен."
 
 #: js/src/password/Password.js:147
-#, fuzzy
 msgid "Password Settings"
-msgstr "Сетевые настройки"
+msgstr "Настройки пароля"
 
 #: js/src/password/Password.js:176
 msgid ""
 "Here you can set password for the administration interface. Make sure to "
 "set a secure password that is long and unique."
 msgstr ""
+"Здесь вы можете установить пароль для интерфейса администрирования. "
+"Убедитесь, что вы установили надежный, длинный и уникальный пароль."
 
 #: js/src/password/Password.js:193 js/src/password/Password.js:197
 msgid "The password confirmation does not match."
-msgstr ""
+msgstr "Подтверждение пароля не совпадает."
 
 #: js/src/password/Password.js:212
-#, fuzzy
 msgid "Password can't be empty."
-msgstr "Не может быть пустым."
+msgstr "Пароль не может быть пустым."
 
 #: js/src/password/Password.js:214
-#, fuzzy
 msgid "Password should have min 6 symbols."
-msgstr "Код TLS должен иметь хотя бы один символ."
+msgstr "Пароль должен состоять минимум из 6 символов."
 
 #: js/src/password/Password.js:217
-#, fuzzy
 msgid "Password should have max 128 symbols."
-msgstr "Код TLS должен иметь хотя бы один символ."
+msgstr "Пароль должен состоять максимум из 128 символов."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -2317,6 +2335,8 @@ msgid ""
 "Useful in cases, when a specific MAC address is required by your internet"
 " service provider."
 msgstr ""
+"Полезно в случаях, когда ваш интернет-провайдер требует конкретный "
+"MAC-адрес."
 
 #: js/src/wan/MACForm.js:17
 msgid "Colon is used as a separator, for example 00:11:22:33:44:55"
@@ -2350,6 +2370,11 @@ msgid ""
 "router to the network, it is usually not necessary to change this "
 "setting."
 msgstr ""
+"Здесь вы указываете настройки вашего порта WAN. Обычно вы можете оставить"
+" эти параметры без изменения, если иное не указано вашим "
+"интернет-провайдером. Кроме того, если ваш маршрутизатор подключен к сети"
+" с помощью кабельного или DSL-модема, обычно нет необходимости изменять "
+"этот параметр."
 
 #: js/src/wan/WAN.js:51
 msgid ""
@@ -2358,6 +2383,11 @@ msgid ""
 "a while before the connection is fully initialized. So it might be useful"
 " to wait for a while before running this test."
 msgstr ""
+"Здесь вы можете проверить настройки подключения. Не забудьте нажать "
+"кнопку <b>Сохранить</b> перед запуском теста. Обратите внимание, что "
+"иногда для полной инициализации соединения требуется некоторое время. "
+"Поэтому, возможно, будет полезно немного подождать, прежде чем запускать "
+"этот тест."
 
 #: js/src/wan/WAN6Form.js:26
 msgid "DUID which will be provided to the DHCPv6 server."
@@ -2525,10 +2555,14 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
+"Если вы хотите использовать свой маршрутизатор в качестве точки доступа "
+"Wi-Fi, включите здесь Wi-Fi и введите SSID (имя точки доступа) и "
+"соответствующий пароль. Затем вы можете настроить свои мобильные "
+"устройства с помощью QR-кода, доступного в форме."
 
 #: reforis/views.py:52
 msgid "Wrong password."
-msgstr "Неверный пароль."
+msgstr "Неправильный пароль."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -2625,11 +2659,11 @@ msgstr "Трассировка:"
 
 #: reforis/templates/errors/401.html:4
 msgid "401 - Unauthorized"
-msgstr ""
+msgstr "401 - Unauthorized"
 
 #: reforis/templates/errors/401.html:9
 msgid "You have to authenticate first."
-msgstr ""
+msgstr "Сначала вы должны пройти аутентификацию."
 
 #: reforis/templates/errors/401.html:10
 #, python-format
