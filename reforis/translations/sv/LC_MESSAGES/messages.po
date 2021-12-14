@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-08 15:54+0100\n"
+"POT-Creation-Date: 2021-12-14 19:54+0300\n"
 "PO-Revision-Date: 2021-09-26 04:35+0000\n"
 "Last-Translator: Kristoffer Grundström "
 "<swedishsailfishosuser@tutanota.com>\n"
@@ -139,6 +139,11 @@ msgstr "DUID"
 msgid "Expires"
 msgstr "Upphör att gälla"
 
+#: js/src/common/network/DHCP6ClientsList.js:76
+#: js/src/common/network/DHCPClientsList.js:74
+msgid "Never"
+msgstr ""
+
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
 msgstr ""
@@ -169,11 +174,11 @@ msgstr "MAC-adress"
 msgid "Active"
 msgstr "Aktiv"
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is active"
 msgstr "Enheten är aktiv"
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is inactive"
 msgstr "Enheten är inaktiv"
 

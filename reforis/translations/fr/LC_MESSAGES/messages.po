@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-08 15:54+0100\n"
+"POT-Creation-Date: 2021-12-14 19:54+0300\n"
 "PO-Revision-Date: 2021-11-22 10:52+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/turris/reforis/fr/"
-">\n"
 "Language: fr\n"
+"Language-Team: French "
+"<https://hosted.weblate.org/projects/turris/reforis/fr/>\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/about/About.js:23 js/src/main/pages.js:105 js/src/main/pages.js:224
@@ -31,9 +30,10 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
-"Vous trouverez ici des informations sur votre appareil. Veuillez les inclure "
-"dans votre message si vous contactez notre <a href=\"mailto:tech."
-"support@turris.cz\" target=\"_blank\">assistance client</a>."
+"Vous trouverez ici des informations sur votre appareil. Veuillez les "
+"inclure dans votre message si vous contactez notre <a "
+"href=\"mailto:tech.support@turris.cz\" target=\"_blank\">assistance "
+"client</a>."
 
 #: js/src/about/About.js:55
 msgid "Device"
@@ -145,6 +145,11 @@ msgstr "DUID"
 msgid "Expires"
 msgstr "Expire le"
 
+#: js/src/common/network/DHCP6ClientsList.js:76
+#: js/src/common/network/DHCPClientsList.js:74
+msgid "Never"
+msgstr ""
+
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
 msgstr "Nom d’hôte qui sera assigné au serveur DHCP."
@@ -177,11 +182,11 @@ msgstr "Adresse MAC"
 msgid "Active"
 msgstr "Actif"
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is active"
 msgstr "L’appareil est actif"
 
-#: js/src/common/network/DHCPClientsList.js:82
+#: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is inactive"
 msgstr "L’appareil est inactif"
 
@@ -2741,3 +2746,4 @@ msgstr "Erreur de serveur"
 #: reforis/templates/errors/500.html:8
 msgid "500 - Server error"
 msgstr "500 - Server error"
+
