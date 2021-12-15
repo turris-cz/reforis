@@ -69,7 +69,7 @@
 
 #sidebar ul li ul li a {
     /* Nested menu */
-    text-align: center;
+    padding-left: 64px;
 }
 
 #sidebar a.dropdown-toggle + ul {
@@ -113,6 +113,10 @@
     }
     .sidebar-header-version {
         display: none;
+    }
+    #sidebar ul li ul li a {
+        /* Nested menu */
+        padding-right: 64px;
     }
 }
 
