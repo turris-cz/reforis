@@ -1,24 +1,19 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
-import React, { useEffect } from "react";
-import { API_STATE, ForisURLs, useAPIPost } from "foris";
+import React from "react";
+import { ForisURLs } from "foris";
 import ReactTooltip from "react-tooltip";
 
-import API_URLs from "common/API";
-
 export default function LogoutButton() {
-    const [logout, postLogout] = useAPIPost(API_URLs.logout);
+    function logout() {
+        window.location.replace(ForisURLs.logout);
+    }
 
-    useEffect(() => {
-        if (logout.state === API_STATE.SUCCESS) {
-            window.location.replace(ForisURLs.login);
-        }
-    }, [logout.state]);
     return (
         <div>
             <ReactTooltip id="logout" place="bottom">
@@ -27,7 +22,7 @@ export default function LogoutButton() {
             <button
                 className="nav-item btn btn-link"
                 type="button"
-                onClick={postLogout}
+                onClick={logout}
                 data-tip
                 data-for="logout"
                 data-arrow-color="transparent"

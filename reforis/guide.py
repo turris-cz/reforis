@@ -10,8 +10,6 @@ application can put all required content into that.
 
 from flask import Blueprint, render_template, current_app, redirect, url_for
 
-from .auth import is_user_logged
-
 # pylint: disable=invalid-name
 guide = Blueprint('ForisGuide', __name__, url_prefix='/guide')
 
@@ -24,4 +22,4 @@ def index(path):
     web_data = current_app.backend.perform('web', 'get_data')
     if not web_data['guide']['enabled']:
         return redirect(url_for('Foris.index'))
-    return render_template('guide.html', user_is_logged={'logged': is_user_logged()})
+    return render_template('guide.html')
