@@ -8,18 +8,21 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-12-14 19:54+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-12-21 12:52+0000\n"
+"Last-Translator: c10l <weblate.org@a.c10l.cc>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"turris/reforis/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.10\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/about/About.js:23 js/src/main/pages.js:105 js/src/main/pages.js:224
 msgid "About"
-msgstr ""
+msgstr "Sobre"
 
 #: js/src/about/About.js:26
 msgid ""
@@ -28,26 +31,29 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Aqui você encontra algumas informações sobre o seu dispositivo. Por favor, "
+"as inclua em sua mensagem ao contatar nosso <a href=\"mailto:tech."
+"support@turris.cz\" target=\"_blank\">suporte ao consumidor</a>."
 
 #: js/src/about/About.js:55
 msgid "Device"
-msgstr ""
+msgstr "Dispositivo"
 
 #: js/src/about/About.js:63
 msgid "Serial number"
-msgstr ""
+msgstr "Número de série"
 
 #: js/src/about/About.js:67
 msgid "reForis version"
-msgstr ""
+msgstr "versão do reForis"
 
 #: js/src/about/About.js:71
 msgid "Turris OS version"
-msgstr ""
+msgstr "versão do Turris OS"
 
 #: js/src/about/About.js:76
 msgid "Turris OS branch"
-msgstr ""
+msgstr "Branch do Turris OS"
 
 #: js/src/about/About.js:79
 msgid ""
@@ -55,10 +61,12 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
+"O Turris OS é entregue em vários branches, com diferentes funções e "
+"estabilidade variada - você pode escolher qual branch quer testar."
 
 #: js/src/about/About.js:105
 msgid "Kernel version"
-msgstr ""
+msgstr "Versão do kernel"
 
 #: js/src/common/FactoryResetButton.js:51
 msgid "Reset"
@@ -68,185 +76,198 @@ msgstr ""
 #: js/src/dns/DNSSECDisableModal.js:30
 #: js/src/notificationsSettings/TestNotification.js:146
 msgid "Warning!"
-msgstr ""
+msgstr "Atenção!"
 
 #: js/src/common/FactoryResetButton.js:68
 msgid "Are you sure you want to reset the router?"
-msgstr ""
+msgstr "Você tem certeza de que quer reconfigurar o roteador?"
 
 #: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:71
 #: js/src/dns/DNSSECDisableModal.js:41
 #: js/src/notificationsSettings/TestNotification.js:151
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: js/src/common/FactoryResetButton.js:73
 msgid "Confirm factory reset"
-msgstr ""
+msgstr "Confirma reconfiguração de fábrica"
 
 #: js/src/common/RebootButton.js:51 js/src/maintenance/Reboot.js:16
 msgid "Reboot"
-msgstr ""
+msgstr "Reinício"
 
 #: js/src/common/RebootButton.js:68
 msgid "Are you sure you want to restart the router?"
-msgstr ""
+msgstr "Você tem certeza de que quer reiniciar o roteador?"
 
 #: js/src/common/RebootButton.js:73
 msgid "Confirm reboot"
-msgstr ""
+msgstr "Confirma reinício"
 
 #: js/src/common/ScrollToTopArrow.js:30
 msgid "Go to top"
-msgstr ""
+msgstr "Ir ao topo"
 
 #: js/src/common/network/DHCP6ClientsList.js:24
 msgid "IPv6 DHCP Client List"
-msgstr ""
+msgstr "Lista de Clientes DHCP IPv6"
 
 #: js/src/common/network/DHCP6ClientsList.js:26
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
+"Esta lista contém todos os dispositivos conectados à rede com ou sem fio "
+"utilizando IPv6."
 
 #: js/src/common/network/DHCP6ClientsList.js:32
 #: js/src/common/network/DHCPClientsList.js:28
 msgid "No clients found."
-msgstr ""
+msgstr "Nenhum cliente encontrado."
 
 #: js/src/common/network/DHCP6ClientsList.js:39
 #: js/src/common/network/DHCPClientsList.js:35 js/src/hostname/Hostname.js:21
 #: js/src/main/pages.js:92 js/src/main/pages.js:183
 msgid "Hostname"
-msgstr ""
+msgstr "Hostname"
 
 #: js/src/common/network/DHCP6ClientsList.js:40
 msgid "IPv6 Address"
-msgstr ""
+msgstr "Endereço IPv6"
 
 #: js/src/common/network/DHCP6ClientsList.js:41
 msgid "DUID"
-msgstr ""
+msgstr "DUID"
 
 #: js/src/common/network/DHCP6ClientsList.js:42
 #: js/src/common/network/DHCPClientsList.js:38
 msgid "Expires"
-msgstr ""
+msgstr "Expiração"
 
 #: js/src/common/network/DHCP6ClientsList.js:76
 #: js/src/common/network/DHCPClientsList.js:74
 msgid "Never"
-msgstr ""
+msgstr "Nunca"
 
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
-msgstr ""
+msgstr "Hostname que será entregue ao servidor DHCP."
 
 #: js/src/common/network/DHCPClientForm.js:38
 msgid "DHCP hostname"
-msgstr ""
+msgstr "Hostname DHCP"
 
 #: js/src/common/network/DHCPClientsList.js:20
 msgid "DHCP Client List"
-msgstr ""
+msgstr "Lista de Clientes DHCP"
 
 #: js/src/common/network/DHCPClientsList.js:22
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
+"Esta lista contém todos os dispositivos que estão conectados à rede com ou "
+"sem fio."
 
 #: js/src/common/network/DHCPClientsList.js:36
 msgid "IPv4 Address"
-msgstr ""
+msgstr "Endereço IPv4"
 
 #: js/src/common/network/DHCPClientsList.js:37
 msgid "MAC Address"
-msgstr ""
+msgstr "Endereço MAC"
 
 #: js/src/common/network/DHCPClientsList.js:39
 msgid "Active"
-msgstr ""
+msgstr "Ativo"
 
 #: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is active"
-msgstr ""
+msgstr "O dispositivo está ativo"
 
 #: js/src/common/network/DHCPClientsList.js:84
 msgid "Device is inactive"
-msgstr ""
+msgstr "O dispositivo está inativo"
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
 "Enable this option to automatically assign IP addresses to the devices "
 "connected to the router."
 msgstr ""
+"Habilite esta opção para configurar automaticamente endereços de IP aos "
+"dispositivos conectados ao roteador."
 
 #: js/src/common/network/DHCPServerForm.js:47
 msgid "DHCP start"
-msgstr ""
+msgstr "Início do DHCP"
 
 #: js/src/common/network/DHCPServerForm.js:57
 msgid "DHCP max leases"
-msgstr ""
+msgstr "Máximo de leases DHCP"
 
 #: js/src/common/network/DHCPServerForm.js:58
 msgid "Maximum number of addresses available for DHCP clients."
-msgstr ""
+msgstr "Número máximo de endereços disponíveis aos clientes DHCP."
 
 #: js/src/common/network/DHCPServerForm.js:71
 msgid "Lease time (hours)"
-msgstr ""
+msgstr "Tempo de lease (horas)"
 
 #: js/src/common/network/DHCPValidators.js:71
 msgid "Value must be a number."
-msgstr ""
+msgstr "O valor deve ser um número."
 
 #: js/src/common/network/DHCPValidators.js:74
 msgid "Value must be positive."
-msgstr ""
+msgstr "O valor deve ser positivo."
 
 #: js/src/common/network/DHCPValidators.js:87
 msgid "Invalid network settings. DHCP settings can't be validated."
 msgstr ""
+"Configuração de rede inválida. Configurações DHCP não podem ser validadas."
 
 #: js/src/common/network/DHCPValidators.js:100
 msgid "Minimum lease time is 1 hour."
-msgstr ""
+msgstr "O tempo mínimo de lease é 1 hora."
 
 #: js/src/common/network/DHCPValidators.js:116
 msgid "Address is outside current network."
-msgstr ""
+msgstr "Endereço fora da rede atual."
 
 #: js/src/common/network/DHCPValidators.js:120
 msgid "Address is already reserved for other purposes."
-msgstr ""
+msgstr "Endereço já reservado para outros usos."
 
 #: js/src/common/network/DHCPValidators.js:131
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr ""
+"Muitos endereços foram solicitados. Configure um número menor, ou mude o "
+"início do DHCP."
 
 #: js/src/common/network/DHCPValidators.js:138
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
+"O único lease DHCP é o mesmo que o endereço do roteador. Aumente o limite ou "
+"mude o endereço inicial."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 msgid ""
 "DNS server address is not required as the built-in DNS resolver is "
 "capable of working without it."
 msgstr ""
+"O endereço do servidor DNS não é necessário, já que o resolvedor de DNS "
+"embutido é capaz de funcionar sem isto."
 
 #: js/src/common/network/StaticIPForm.js:50
 msgid "IP address"
-msgstr ""
+msgstr "Endereço IP"
 
 #: js/src/common/network/StaticIPForm.js:60
 #: js/src/guestNetwork/GuestNetworkForm.js:88 js/src/lan/LANManagedForm.js:72
 msgid "Network mask"
-msgstr ""
+msgstr "Máscara de rede"
 
 #: js/src/common/network/StaticIPForm.js:70 js/src/wan/WAN6Form.js:243
 msgid "Gateway"
@@ -254,62 +275,62 @@ msgstr ""
 
 #: js/src/common/network/StaticIPForm.js:80 js/src/wan/WAN6Form.js:268
 msgid "DNS server 1"
-msgstr ""
+msgstr "Servidor DNS 1"
 
 #: js/src/common/network/StaticIPForm.js:90 js/src/wan/WAN6Form.js:278
 msgid "DNS server 2"
-msgstr ""
+msgstr "Servidor DNS 2"
 
 #: js/src/common/network/StaticIPForm.js:111
 #: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:92
 #: js/src/wan/WAN6Form.js:504 js/src/wan/WAN6Form.js:533
 #: js/src/wan/WAN6Form.js:545 js/src/wan/WANForm.js:173
 msgid "This field is required."
-msgstr ""
+msgstr "Este campo não é opcional."
 
 #: js/src/common/network/validators.js:12
 msgid "This is not a valid network mask."
-msgstr ""
+msgstr "Esta não é uma máscara de rede válida."
 
 #: js/src/connectionTest/ConnectionTestButton.js:26
 msgid "Test is running..."
-msgstr ""
+msgstr "O teste está rodando..."
 
 #: js/src/connectionTest/ConnectionTestButton.js:29
 msgid "Test connection again"
-msgstr ""
+msgstr "Testar conexão novamente"
 
 #: js/src/connectionTest/ConnectionTestButton.js:32
 msgid "Test connection"
-msgstr ""
+msgstr "Testar conexão"
 
 #: js/src/connectionTest/ConnectionTestResult.js:14
 msgid "IPv4 connectivity"
-msgstr ""
+msgstr "Conectividade IPv4"
 
 #: js/src/connectionTest/ConnectionTestResult.js:15
 msgid "IPv4 gateway connectivity"
-msgstr ""
+msgstr "Conectividade ao gateway IPv4"
 
 #: js/src/connectionTest/ConnectionTestResult.js:16
 msgid "IPv6 connectivity"
-msgstr ""
+msgstr "Conectividate IPv6"
 
 #: js/src/connectionTest/ConnectionTestResult.js:17
 msgid "IPv6 gateway connectivity"
-msgstr ""
+msgstr "Conectividade ao gateway IPv6"
 
 #: js/src/connectionTest/ConnectionTestResult.js:83
 msgid "Connection test successful"
-msgstr ""
+msgstr "Teste de conexão bem sucedido"
 
 #: js/src/connectionTest/ConnectionTestResult.js:88
 msgid "Connection test failed"
-msgstr ""
+msgstr "Falha no teste de conexão"
 
 #: js/src/connectionTest/ConnectionTestResult.js:93
 msgid "Connection test not started"
-msgstr ""
+msgstr "Teste de conexão não iniciou"
 
 #: js/src/dns/DNS.js:34
 msgid ""
@@ -334,10 +355,26 @@ msgid ""
 "this is a serious flaw on their side.</p>\n"
 "            "
 msgstr ""
+"\n"
+"<p>O roteador Turris usa seu próprio resolvedor de DNS com suporte a DNSSEC. "
+"Ele é capaz de funcionar independentemente, ou pode repassar suas buscas de "
+"DNS ao resolvedor de seu provedor de Internet.<p/>\n"
+"<p>A configuração a seguir determina o comportamento do resolvedor de DNS. "
+"Normalmente é melhor utilizar o resolvedor do provedor em redes onde este "
+"funciona adequadamente. Se este não funciona por qualquer motivo, é "
+"necessário utilizar resolução direta sem repasse.<p/>\n"
+"<p>Em raros casos, provedores possuem redes mal configuradas que interferem "
+"com a validação do DNSSEC. Se você tiver problemas om DNS, pode "
+"<b>temporariamente</b> desabilitar a validação do DNSSEC para determinar a "
+"origem do problema. No entanto, tenha em mente que sem validação do DNSSEC, "
+"você estará vulnerável a ataques de DNS spoofing! Portanto, <b>recomendamos "
+"manter a validação do DNSSEC ativata</b> e que a situação seja resolvida com "
+"seu provedor, uma vez que isto é uma falha séria no lado deles.</p>\n"
+"            "
 
 #: js/src/dns/DNS.js:62 js/src/overview/Overview.js:70 js/src/wan/WAN.js:48
 msgid "Connection Test"
-msgstr ""
+msgstr "Teste de Conexão"
 
 #: js/src/dns/DNS.js:65
 msgid ""
