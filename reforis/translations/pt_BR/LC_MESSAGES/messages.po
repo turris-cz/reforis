@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-12-14 19:54+0300\n"
-"PO-Revision-Date: 2021-12-21 12:52+0000\n"
+"PO-Revision-Date: 2021-12-31 16:51+0000\n"
 "Last-Translator: c10l <weblate.org@a.c10l.cc>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "turris/reforis/pt_BR/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10\n"
+"X-Generator: Weblate 4.10.1\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/about/About.js:23 js/src/main/pages.js:105 js/src/main/pages.js:224
@@ -385,30 +385,40 @@ msgid ""
 "changed your forwarder setting.\n"
 "        "
 msgstr ""
+"\n"
+"Aqui você pode testar sua conexão com a Internet. Este teste também é útil "
+"quando você precisa checar que a sua resolução de DNS funciona corretamente. "
+"Lembre-se de clicar no <b>botão Salvar</b> se você mudou suas configurações "
+"de encaminhamento.\n"
+"        "
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
 "This will enable your DNS resolver to place DHCP client's names among the"
 " local DNS records."
 msgstr ""
+"Habilita o resolvedor de DNS a colocar os nomes dos clientes DHCP nos "
+"registros locais de DNS."
 
 #: js/src/dns/DNSForm.js:20
 msgid ""
 "This domain will be used as suffix. E.g. The result for client "
 "\"android-123\" and domain \"my.lan\" will be \"android-123.my.lan\"."
 msgstr ""
+"Este domínio será usado como sufixo. Ex: O resultado para o cliente \"android"
+"-123\" e domínio \"my.lan\" será \"android-123.my.lan\"."
 
 #: js/src/dns/DNSForm.js:67
 msgid "DNS Settings"
-msgstr ""
+msgstr "Configurações de DNS"
 
 #: js/src/dns/DNSForm.js:84
 msgid "Use forwarding"
-msgstr ""
+msgstr "Usar encaminhamento"
 
 #: js/src/dns/DNSForm.js:100
 msgid "Enable DNSSEC"
-msgstr ""
+msgstr "Habilita DNSSEC"
 
 #: js/src/dns/DNSForm.js:106
 msgid "Enable DHCP clients in DNS"
