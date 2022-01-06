@@ -33,7 +33,18 @@ export default function Guide({ ws }) {
         <GuideRouterWithErrorAndSpinner
             ws={ws}
             apiState={getCustomizationResponse.state}
-            guideData={guideData.data}
+            guideData={
+                guideData.data || {
+                    available_workflow: ["unset"],
+                    current_workflow: "unset",
+                    enabled: true,
+                    next_step: "password",
+                    passed: [],
+                    recommended_workflow: "router",
+                    workflow: "unset",
+                    workflow_steps: ["password", "profile"],
+                }
+            }
             getGuideData={getGuideData}
             deviceDetails={getCustomizationResponse.data || {}}
         />
