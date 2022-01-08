@@ -650,14 +650,14 @@ The next page will not load until you obtain a new IP from DHCP (if DHCP enabled
             DHCP (automatic configuration)
           </option>
           <option
-            value="none"
-          >
-            Don't connect this device to LAN
-          </option>
-          <option
             value="static"
           >
             Static IP address (manual configuration)
+          </option>
+          <option
+            value="none"
+          >
+            Don't connect this device to LAN
           </option>
         </select>
       </div>
@@ -792,14 +792,14 @@ The next page will not load until you obtain a new IP from DHCP (if DHCP enabled
             DHCP (automatic configuration)
           </option>
           <option
-            value="none"
-          >
-            Don't connect this device to LAN
-          </option>
-          <option
             value="static"
           >
             Static IP address (manual configuration)
+          </option>
+          <option
+            value="none"
+          >
+            Don't connect this device to LAN
           </option>
         </select>
       </div>
@@ -910,14 +910,14 @@ The next page will not load until you obtain a new IP from DHCP (if DHCP enabled
             DHCP (automatic configuration)
           </option>
           <option
-            value="none"
-          >
-            Don't connect this device to LAN
-          </option>
-          <option
             value="static"
           >
             Static IP address (manual configuration)
+          </option>
+          <option
+            value="none"
+          >
+            Don't connect this device to LAN
           </option>
         </select>
       </div>
