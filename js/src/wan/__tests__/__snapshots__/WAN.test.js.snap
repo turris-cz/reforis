@@ -363,7 +363,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 
 @@ -105,10 +105,137 @@
             >
-              Static IP address (manual configuration)
+              Disable IPv6
             </option>
           </select>
         </div>
@@ -520,7 +520,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6to4). 1`] = `
 
 @@ -105,10 +105,34 @@
             >
-              Static IP address (manual configuration)
+              Disable IPv6
             </option>
           </select>
         </div>
@@ -562,7 +562,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (dhcpv6). 1`] = `
 
 @@ -105,10 +105,34 @@
             >
-              Static IP address (manual configuration)
+              Disable IPv6
             </option>
           </select>
         </div>
@@ -604,7 +604,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 
 @@ -105,10 +105,143 @@
             >
-              Static IP address (manual configuration)
+              Disable IPv6
             </option>
           </select>
         </div>
@@ -921,9 +921,14 @@ exports[`<WAN/> Snapshot: WAN IPv4 dhcp, WAN IPv6 dhcp, MAC disabled 1`] = `
           id="3"
         >
           <option
-            value="6in4"
+            value="dhcpv6"
           >
-            6in4 (public IPv4 address required)
+            DHCPv6 (automatic configuration)
+          </option>
+          <option
+            value="static"
+          >
+            Static IP address (manual configuration)
           </option>
           <option
             value="6to4"
@@ -931,19 +936,14 @@ exports[`<WAN/> Snapshot: WAN IPv4 dhcp, WAN IPv6 dhcp, MAC disabled 1`] = `
             6to4 (public IPv4 address required)
           </option>
           <option
-            value="dhcpv6"
+            value="6in4"
           >
-            DHCPv6 (automatic configuration)
+            6in4 (public IPv4 address required)
           </option>
           <option
             value="none"
           >
             Disable IPv6
-          </option>
-          <option
-            value="static"
-          >
-            Static IP address (manual configuration)
           </option>
         </select>
       </div>
