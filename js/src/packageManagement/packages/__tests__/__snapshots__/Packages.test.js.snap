@@ -28,7 +28,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
 +         class=\\"text-muted\\"
 +       >
           <h2>
-            Packages List
+            Package Lists
           </h2>
           <div
             class=\\"container-fluid\\"
@@ -240,14 +240,14 @@ exports[`<Packages/> Should render: updates enabled. 1`] = `
     Packages
   </h1>
   <p>
-    Apart from the standard installation, you can optionally select bundles of additional software that'd be installed on the router. This software can be selected from the following list. Please note that only software that is part of TurrisOS or that has been installed from a package list and not marked as community-supported is actually supported by Turris team.
+    Apart from the standard installation, you can optionally select bundles of additional software that would be installed on the router. This software can be selected from the following lists. Please note that only software that is part of Turris OS or that has been installed from package lists and not marked as community-supported is supported by the Turris team.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
     <form>
       <h2>
-        Packages List
+        Package Lists
       </h2>
       <div
         class="container-fluid"
