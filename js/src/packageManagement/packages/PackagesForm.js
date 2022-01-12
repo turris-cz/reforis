@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2022 CZ.NIC z.s.p.o. (http://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -26,7 +26,7 @@ PackagesForm.propTypes = {
 export default function PackagesForm({ formData, setFormValue, disabled }) {
     return (
         <>
-            <h2>{_("Packages List")}</h2>
+            <h2>{_("Package Lists")}</h2>
             <div className="container-fluid">
                 <div className="packages-list">
                     {formData.package_lists.map((_package, index) => (
