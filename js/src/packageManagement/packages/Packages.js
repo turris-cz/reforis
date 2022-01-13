@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2020-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -19,7 +19,7 @@ export default function Packages() {
             <h1>{_("Packages")}</h1>
             <p>
                 {_(
-                    "Apart from the standard installation, you can optionally select bundles of additional software that'd be installed on the router. This software can be selected from the following list. Please note that only software that is part of TurrisOS or that has been installed from a package list and not marked as community-supported is actually supported by Turris team."
+                    "Apart from the standard installation, you can optionally select bundles of additional software that would be installed on the router. This software can be selected from the following lists. Please note that only software that is part of Turris OS or that has been installed from package lists and not marked as community-supported is supported by the Turris team."
                 )}
             </p>
             <ForisForm
