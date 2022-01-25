@@ -9,18 +9,13 @@ exports[`<GuestNetwork/> Snapshot disabled. 1`] = `
     id="guest-notification"
   />
   <p>
-    
-Guest network is used for 
+    The guest network is used for 
     <a
       href="/reforis/network-settings/wifi"
     >
       guest Wi-Fi
     </a>
-    .
-It is separated from your ordinary LAN. Devices connected to this network are allowed to access the
-internet, but are not allowed to access the configuration interface of the this device nor the devices
-in LAN.
-        
+    . It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
@@ -81,18 +76,13 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
     </div>
   </div>
   <p>
-    
-Guest network is used for 
+    The guest network is used for 
     <a
       href="/reforis/network-settings/wifi"
     >
       guest Wi-Fi
     </a>
-    .
-It is separated from your ordinary LAN. Devices connected to this network are allowed to access the
-internet, but are not allowed to access the configuration interface of the this device nor the devices
-in LAN.
-        
+    . It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
@@ -373,18 +363,13 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
     </div>
   </div>
   <p>
-    
-Guest network is used for 
+    The guest network is used for 
     <a
       href="/reforis/network-settings/wifi"
     >
       guest Wi-Fi
     </a>
-    .
-It is separated from your ordinary LAN. Devices connected to this network are allowed to access the
-internet, but are not allowed to access the configuration interface of the this device nor the devices
-in LAN.
-        
+    . It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
@@ -644,18 +629,13 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
     </div>
   </div>
   <p>
-    
-Guest network is used for 
+    The guest network is used for 
     <a
       href="/reforis/network-settings/wifi"
     >
       guest Wi-Fi
     </a>
-    .
-It is separated from your ordinary LAN. Devices connected to this network are allowed to access the
-internet, but are not allowed to access the configuration interface of the this device nor the devices
-in LAN.
-        
+    . It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"

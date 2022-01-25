@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2021-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -22,7 +22,7 @@ describe("Syslog", () => {
     beforeEach(async () => {
         const { container } = render(<Syslog />);
         mockAxios.mockResponse({ data: syslogFixture });
-        await wait(() => getByText(container, "System logs retention"));
+        await wait(() => getByText(container, "System Logs Retention"));
         syslogContainer = container;
     });
 
@@ -33,7 +33,7 @@ describe("Syslog", () => {
     it("Snapshot form disabled", async () => {
         const { container } = render(<Syslog />);
         mockAxios.mockResponse({ data: { disk_mounted: false } });
-        await wait(() => getByText(container, "System logs retention"));
+        await wait(() => getByText(container, "System Logs Retention"));
         syslogContainer = container;
         expect(syslogContainer).toMatchSnapshot();
     });

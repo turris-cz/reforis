@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -24,10 +24,9 @@ export default function Interfaces({ ws }) {
         <>
             <h1>{_("Network Interfaces")}</h1>
             <p>
-                {_(`
-Here you can configure the settings of the network interfaces on your device. You can switch the physical
-network interfaces among networks. If you are unsure what to set here use the default settings.
-        `)}
+                {_(
+                    "Here you can configure the settings of the network interfaces on your device. You can switch the physical network interfaces among networks. If you are unsure what to set here, use the default settings."
+                )}
             </p>
             <ForisForm
                 ws={ws}

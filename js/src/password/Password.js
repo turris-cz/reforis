@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -76,17 +76,17 @@ export default function Password({ postCallback }) {
             ) {
                 setAlert(
                     _(
-                        `The password you've entered has not been saved. It has been compromised and appears ${
+                        `The password you have entered has not been saved. It has been compromised and appears ${
                             forisPassword.count || rootPassword.count
                         } times in ${
                             forisPassword.list || rootPassword.list
-                        } list. Please enter another, more secure password.`
+                        } list. Please choose a more secure password.`
                     ),
                     ALERT_TYPES.ERROR
                 );
             } else if (postState.state === API_STATE.SUCCESS) {
                 setAlert(
-                    _("Password changed successfully."),
+                    _("Your password was set successfully."),
                     ALERT_TYPES.SUCCESS
                 );
                 postCallback();
@@ -174,7 +174,7 @@ export default function Password({ postCallback }) {
             <h1>{_("Password")}</h1>
             <p>
                 {_(
-                    "Here you can set password for the administration interface. Make sure to set a secure password that is long and unique."
+                    "Here you can set a password for the administration interface. Ensure it is secure by making it long and unique."
                 )}
             </p>
             {passwordComponent}
@@ -190,11 +190,11 @@ function validator(formData) {
             : null,
         newForisPasswordRepeat:
             formData.newForisPasswordRepeat !== formData.newForisPassword
-                ? _("The password confirmation does not match.")
+                ? _("Passwords do not match.")
                 : null,
         newRootPasswordRepeat:
             formData.newRootPasswordRepeat !== formData.newRootPassword
-                ? _("The password confirmation does not match.")
+                ? _("Passwords do not match.")
                 : null,
     };
 
@@ -209,12 +209,13 @@ function validator(formData) {
 }
 
 function validatePassword(password) {
-    if (password === "") return _("Password can't be empty.");
+    if (password === "") return _("Choose a password.");
 
-    if (password.length < 6) return _("Password should have min 6 symbols.");
+    if (password.length < 6)
+        return _("Password should have at least six symbols.");
 
     if (password.length > 128)
-        return _("Password should have max 128 symbols.");
+        return _("Password cannot have more than 128 symbols.");
 
     return null;
 }

@@ -29,10 +29,9 @@ export default function RegionAndTime({ ws, postCallback }) {
         <>
             <h1>{_("Region and Time")}</h1>
             <p>
-                {_(`
-It is important for your device to have the correct time set. If your device's time is delayed, the
-procedure of SSL certificate verification might not work correctly.
-        `)}
+                {_(
+                    "It is important for your device to have the correct time set. If your device's time is delayed, the procedure of SSL certificate verification might not work correctly."
+                )}
             </p>
             <ForisForm
                 forisConfig={{

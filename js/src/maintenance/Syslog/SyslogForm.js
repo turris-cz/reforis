@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -26,16 +26,21 @@ SyslogForm.propTypes = {
 export default function SyslogForm({ formData, setFormValue, formErrors }) {
     return (
         <>
-            <h2>{_(`System logs retention`)}</h2>
+            <h2>{_("System Logs Retention")}</h2>
+            <p>
+                {_(
+                    "During device reboot, system logs are lost by default. This option allows saving system logs using the Storage plugin. Logs are saved into '/srv/log/messages'."
+                )}
+            </p>
             <p
                 dangerouslySetInnerHTML={{
                     __html: _(
-                        `During device reboot, system logs are lost by default. This option allows to save system logs using Storage plugin. Logs are saved into /srv/log/messages. To enable this option, you have to configure a storage in the <a href="${ForisURLs.storage}" title="Go to Storage plugin">Storage plugin</a> first.`
+                        `To enable this option, you have to configure storage in the <a href="${ForisURLs.storage}" title="Go to Storage plugin">Storage plugin</a> first.`
                     ),
                 }}
             />
             <CheckBox
-                label={_("Enable system logs retention")}
+                label={_("Enable System Logs Retention")}
                 disabled={!!formErrors.noDiskMounted}
                 checked={formData.persistent_logs}
                 onChange={setFormValue((value) => ({

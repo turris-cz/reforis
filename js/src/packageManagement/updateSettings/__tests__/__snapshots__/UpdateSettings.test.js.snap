@@ -6,13 +6,9 @@ exports[`<UpdateSettings/> Test with snapshot disabled. 1`] = `
     Update Settings
   </h1>
   <p>
-    
-One of the most important features of router Turris are automatic system updates. Thanks to this function
-your router's software stays up to date and offers better protection against attacks from the Internet.
-
+    The automatic updates system is one of the most important features of the Turris router. Thanks to this function, your router's software stays up to date and offers better protection against attacks from the Internet.
     <br />
-    
-It is 
+    It is 
     <b>
       highly recommended
     </b>
@@ -20,14 +16,10 @@ It is
     <b>
       turned on
     </b>
-    . If you decide to disable it, be
-warned that this might weaken the security of your router and network in case flaws in the software are
-found.
-
-    <br />
-    
-By turning the automatic updates on, you agree to this feature's license agreement. More information is
-available 
+    . If you decide to disable it, be warned that this might weaken the security of your router and network in case flaws in the software are found.
+  </p>
+  <p>
+    By turning the automatic updates on, you agree to this feature's license agreement. More information is available 
     <a
       data-target="#licenceModal"
       data-toggle="modal"
@@ -36,7 +28,6 @@ available
       here
     </a>
     .
-            
   </p>
   <div
     aria-hidden="true"
@@ -78,66 +69,32 @@ available
           class="modal-body"
         >
           <ul>
-            
-                    
             <li>
               Automatic updates are offered to the Turris router owners free of charge.
             </li>
-            
-                    
             <li>
               Updates are prepared exclusively by CZ.NIC, z. s. p. o.
             </li>
-            
-                    
             <li>
-              
-                        Enabling of the automatic updates is a prerequisite for additional security features of
-                        Turris router.
-                    
+              Enabling of the automatic updates is a prerequisite for additional security features of Turris router.
             </li>
-            
-                    
             <li>
-              
-                        Automatic updates take place at the time of their release, the time of installation
-                        cannot be influenced by the user.
-                    
+              Automatic updates take place at the time of their release, the time of installation cannot be influenced by the user.
             </li>
-            
-                    
             <li>
-              
-                        Having the automatic updates turned on can result in increased Internet traffic on your
-                        router. Expenses related to this increase are covered by you.
-                    
+              Having the automatic updates turned on can result in increased Internet traffic on your router. Expenses related to this increase are covered by you.
             </li>
-            
-                    
             <li>
-              
-                        Automatic updates cannot protect you against every attack coming from the Internet.
-                        Please do not forget to protect your workstations and other devices by installing
-                        antivirus software and explaining to your family members how to stay safe on the
-                        Internet.
-                    
+              Automatic updates cannot protect you against every attack coming from the Internet. Please do not forget to protect your workstations and other devices by installing antivirus software and explaining to your family members how to stay safe on the Internet.
             </li>
-            
-                    
             <li>
-              
-                        CZ.NIC, z. s. p. o. does not guarantee the availability of this service and is not
-                        responsible for any damages caused by the automatic updates.
-                    
+              CZ.NIC, z. s. p. o. does not guarantee the availability of this service and is not responsible for any damages caused by the automatic updates.
             </li>
-            
-                    
           </ul>
-          <b>
-            By enabling of the automatic updates, 
-                                    you confirm that you are the owner of this Turris 
-                                    router and you agree with the full text of the 
-                                    
+          <p
+            class="font-weight-bold"
+          >
+            By enabling the automatic updates, you confirm that you are the owner of this Turris router, and you agree with the full text of the 
             <a
               href="https://www.turris.cz/omnia-updater-eula"
               rel="noopener noreferrer"
@@ -151,7 +108,7 @@ available
               </sup>
             </a>
             .
-          </b>
+          </p>
         </div>
       </div>
     </div>
@@ -178,7 +135,7 @@ available
             class="custom-control-label"
             for="1"
           >
-            Enable automatic updates (recommended)
+            Enable Automatic Updates (recommended)
           </label>
         </div>
       </div>
@@ -346,7 +303,7 @@ exports[`<UpdateSettings/> Test with snapshot enabled, delayed. 1`] = `
 - First value
 + Second value
 
-@@ -257,10 +257,53 @@
+@@ -214,10 +214,53 @@
             >
               You have to approve the updates, otherwise they won't be installed.
             </small>
@@ -407,9 +364,9 @@ exports[`<UpdateSettings/> Test with snapshot enabled. 1`] = `
 - First value
 + Second value
 
-@@ -177,10 +177,90 @@
+@@ -134,10 +134,90 @@
             >
-              Enable automatic updates (recommended)
+              Enable Automatic Updates (recommended)
             </label>
           </div>
         </div>
