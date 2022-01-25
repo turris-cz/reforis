@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -21,22 +21,20 @@ LAN.propTypes = {
     ws: PropTypes.object.isRequired,
 };
 
+const LAN_INTRO = _(
+    "This section contains settings for the local network (LAN). The provided defaults are suitable for most networks."
+);
+
 export default function LAN({ ws }) {
     return (
         <>
             <h1>LAN</h1>
+            <p>{LAN_INTRO}</p>
             <p
                 dangerouslySetInnerHTML={{
-                    __html: _(`
-This section contains settings for the local network (LAN). The provided defaults are suitable for most
-networks.
-<br/>
-<b>Note:</b> If you change the router IP address, all computers in LAN, probably including the one you are
-using now, will need to obtain a <b>new IP address</b> which does not happen <b>immediately</b>. It is
-recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update.
-The next page will not load until you obtain a new IP from DHCP (if DHCP enabled) and you might need to
-<b>refresh the page</b> in your browser.
-            `),
+                    __html: _(
+                        "<b>Note:</b> If you change the router IP address, all computers in LAN, probably including the one you are using now, will need to obtain a <b>new IP address</b> which does not happen <b>immediately</b>. It is recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update. The next page will not load until you obtain a new IP from DHCP (if DHCP is enabled), and you might need to <b>refresh the page</b> in your browser."
+                    ),
                 }}
             />
             <ForisForm

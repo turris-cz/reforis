@@ -83,8 +83,9 @@ function UpdateManager({
                     <div className={`${formFieldsSize}`}>
                         <h2>{_("Available Updates")}</h2>
                         <p>
-                            {_(`Here you can find and approve available updates for 
-                    Turris OS and other components.`)}
+                            {_(
+                                "Here you can find and approve available updates for Turris OS and other components."
+                            )}
                         </p>
                         {approvalComponent || (
                             <p className="text-center text-muted">

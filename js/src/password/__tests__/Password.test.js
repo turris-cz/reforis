@@ -133,7 +133,7 @@ describe("<Password/>", () => {
             mockAxios.mockResponse({ data: { foo: "bar" } });
             await wait(() =>
                 expect(mockSetAlert).toBeCalledWith(
-                    "Password changed successfully.",
+                    "Your password was set successfully.",
                     ALERT_TYPES.SUCCESS
                 )
             );
@@ -209,7 +209,7 @@ describe("Customized <Password/>", () => {
             mockAxios.mockResponse({ data: { foo: "bar" } });
             await wait(() =>
                 expect(mockSetAlert).toBeCalledWith(
-                    "Password changed successfully.",
+                    "Your password was set successfully.",
                     ALERT_TYPES.SUCCESS
                 )
             );

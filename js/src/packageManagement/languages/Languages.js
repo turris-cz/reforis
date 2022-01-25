@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -18,7 +18,7 @@ export default function Languages() {
             <h1>{_("Languages")}</h1>
             <p>
                 {_(
-                    "If you want to use another language other than English you can select it from the following list:"
+                    "If you want to use another language other than English, you can select it from the following list:"
                 )}
             </p>
             <ForisForm

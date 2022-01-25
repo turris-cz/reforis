@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -38,12 +38,9 @@ export default function GuestNetwork({ ws }) {
             <div id="guest-notification" />
             <p
                 dangerouslySetInnerHTML={{
-                    __html: _(`
-Guest network is used for <a href="${ForisURLs.wifi}">guest Wi-Fi</a>.
-It is separated from your ordinary LAN. Devices connected to this network are allowed to access the
-internet, but are not allowed to access the configuration interface of the this device nor the devices
-in LAN.
-        `),
+                    __html: _(
+                        `The guest network is used for <a href="${ForisURLs.wifi}">guest Wi-Fi</a>. It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.`
+                    ),
                 }}
             />
             <ForisForm

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -28,17 +28,16 @@ export default function UpdateSettings({ postCallback }) {
             <h1>{_("Update Settings")}</h1>
             <p
                 dangerouslySetInnerHTML={{
-                    __html: _(`
-One of the most important features of router Turris are automatic system updates. Thanks to this function
-your router's software stays up to date and offers better protection against attacks from the Internet.
-<br/>
-It is <b>highly recommended</b> to have this feature <b>turned on</b>. If you decide to disable it, be
-warned that this might weaken the security of your router and network in case flaws in the software are
-found.
-<br/>
-By turning the automatic updates on, you agree to this feature's license agreement. More information is
-available <a href="" data-toggle="modal" data-target="#licenceModal">here</a>.
-            `),
+                    __html: _(
+                        `The automatic updates system is one of the most important features of the Turris router. Thanks to this function, your router's software stays up to date and offers better protection against attacks from the Internet.<br>It is <b>highly recommended</b> to have this feature <b>turned on</b>. If you decide to disable it, be warned that this might weaken the security of your router and network in case flaws in the software are found.`
+                    ),
+                }}
+            />
+            <p
+                dangerouslySetInnerHTML={{
+                    __html: _(
+                        `By turning the automatic updates on, you agree to this feature's license agreement. More information is available <a href="" data-toggle="modal" data-target="#licenceModal">here</a>.`
+                    ),
                 }}
             />
             <LicenceModal />

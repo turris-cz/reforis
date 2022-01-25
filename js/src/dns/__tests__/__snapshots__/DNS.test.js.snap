@@ -5,7 +5,7 @@ exports[`<DNS/> Test with snapshot DHCP. 1`] = `
 - First value
 + Second value
 
-@@ -109,10 +109,34 @@
+@@ -88,10 +88,34 @@
               This will enable your DNS resolver to place DHCP client's names among the local DNS records.
             </small>
           </div>
@@ -47,7 +47,7 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 - First value
 + Second value
 
-@@ -65,10 +65,187 @@
+@@ -44,10 +44,187 @@
               Use forwarding
             </label>
           </div>
@@ -233,7 +233,7 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
           class=\\"form-group\\"
         >
           <div
-            class=\\"custom-control custom-checkbox \\"
+            class=\\"custom-control custom-switch custom-control-inline\\"
           >"
 `;
 
@@ -242,44 +242,23 @@ exports[`<DNS/> Test with snapshot. 1`] = `
   <h1>
     DNS
   </h1>
-  <div>
-    
-
-    <p>
-      Router Turris uses its own DNS resolver with DNSSEC support. It is capable of working independently or it
-can forward your DNS queries your internet service provider's DNS resolver.
-    </p>
-    <p>
-      
-
-    </p>
-    <p>
-      The following setting determines the behavior of the DNS resolver. Usually, it is better to use the ISP's
-resolver in networks where it works properly. If it does not work for some reason, it is necessary to use
-direct resolving without forwarding.
-    </p>
-    <p>
-      
-
-    </p>
-    <p>
-      In rare cases ISP's have improperly configured network which interferes with DNSSEC validation. If you
-experience problems with DNS, you can 
-      <b>
-        temporarily
-      </b>
-       disable DNSSEC validation to determine the source
-of the problem. However, keep in mind that without DNSSEC validation, you are vulnerable to DNS spoofing
-attacks! Therefore we 
-      <b>
-        recommend keeping DNSSEC turned on
-      </b>
-       and resolving the situation with your ISP as
-this is a serious flaw on their side.
-    </p>
-    
-            
-  </div>
+  <p>
+    Router Turris uses its own DNS resolver with DNSSEC support. It is capable of working independently or it can forward your DNS queries your internet service provider's DNS resolver.
+  </p>
+  <p>
+    The following setting determines the behavior of the DNS resolver. Usually, it is better to use the ISP's resolver in networks where it works properly. If it does not work for some reason, it is necessary to use direct resolving without forwarding.
+  </p>
+  <p>
+    In rare cases, ISP's have an improperly configured network, which interferes with DNSSEC validation. If you experience problems with DNS, you can 
+    <b>
+      temporarily
+    </b>
+     disable DNSSEC validation to determine the source of the problem. However, keep in mind that without DNSSEC validation, you are vulnerable to DNS spoofing attacks! Therefore we 
+    <b>
+      recommend keeping DNSSEC turned on
+    </b>
+     and resolving the situation with your ISP as this is a serious flaw on their side.
+  </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
@@ -310,7 +289,7 @@ this is a serious flaw on their side.
         class="form-group"
       >
         <div
-          class="custom-control custom-checkbox "
+          class="custom-control custom-switch custom-control-inline"
         >
           <input
             checked=""
@@ -366,14 +345,11 @@ this is a serious flaw on their side.
     Connection Test
   </h2>
   <p>
-    
-Here you can test your internet connection. This test is also useful when you need to check that your DNS resolving 
-works as expected. Remember to click on the 
+    Here you can test your internet connection. This test is also useful when you need to check that your DNS resolving works as expected. Remember to click on the 
     <b>
       Save button
     </b>
      if you changed your forwarder setting.
-        
   </p>
   <div
     class="card p-4 mb-3"

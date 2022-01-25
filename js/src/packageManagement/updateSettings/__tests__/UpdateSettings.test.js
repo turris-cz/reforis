@@ -19,7 +19,7 @@ import diffSnapshot from "snapshot-diff";
 import { updatesFixture } from "./__fixtures__/updates";
 import UpdateSettings from "../UpdateSettings";
 
-const ENABLE_CHECKBOX_LABEL = "Enable automatic updates (recommended)";
+const ENABLE_CHECKBOX_LABEL = /Enable automatic updates/i;
 
 describe("<UpdateSettings/>", () => {
     let firstRender;

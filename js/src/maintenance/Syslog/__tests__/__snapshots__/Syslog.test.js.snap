@@ -7,10 +7,13 @@ exports[`Syslog Snapshot form disabled 1`] = `
   >
     <form>
       <h2>
-        System logs retention
+        System Logs Retention
       </h2>
       <p>
-        During device reboot, system logs are lost by default. This option allows to save system logs using Storage plugin. Logs are saved into /srv/log/messages. To enable this option, you have to configure a storage in the 
+        During device reboot, system logs are lost by default. This option allows saving system logs using the Storage plugin. Logs are saved into '/srv/log/messages'.
+      </p>
+      <p>
+        To enable this option, you have to configure storage in the 
         <a
           href="/reforis/storage"
           title="Go to Storage plugin"
@@ -35,7 +38,7 @@ exports[`Syslog Snapshot form disabled 1`] = `
             class="custom-control-label"
             for="1"
           >
-            Enable system logs retention
+            Enable System Logs Retention
           </label>
         </div>
       </div>
@@ -62,10 +65,13 @@ exports[`Syslog Snapshot form enabled 1`] = `
   >
     <form>
       <h2>
-        System logs retention
+        System Logs Retention
       </h2>
       <p>
-        During device reboot, system logs are lost by default. This option allows to save system logs using Storage plugin. Logs are saved into /srv/log/messages. To enable this option, you have to configure a storage in the 
+        During device reboot, system logs are lost by default. This option allows saving system logs using the Storage plugin. Logs are saved into '/srv/log/messages'.
+      </p>
+      <p>
+        To enable this option, you have to configure storage in the 
         <a
           href="/reforis/storage"
           title="Go to Storage plugin"
@@ -90,7 +96,7 @@ exports[`Syslog Snapshot form enabled 1`] = `
             class="custom-control-label"
             for="1"
           >
-            Enable system logs retention
+            Enable System Logs Retention
           </label>
         </div>
       </div>

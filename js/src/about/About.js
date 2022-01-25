@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -24,7 +24,7 @@ export default function About() {
             <p
                 dangerouslySetInnerHTML={{
                     __html: _(
-                        `Here you can find some information about your device. Please include it into your message if you contact our <a href="mailto:tech.support@turris.cz" target="_blank">customer support</a>.`
+                        `Here you can find some information about your device. Please include it in your message if you contact our <a href="mailto:tech.support@turris.cz" target="_blank">customer support</a>.`
                     ),
                 }}
             />
@@ -96,7 +96,7 @@ function AboutTable({ deviceDetails }) {
                             >
                                 {deviceDetails.os_branch.value.toUpperCase()}
                                 <sup>
-                                    <i className="fas fa-external-link-alt fa-sm" />
+                                    <i className="fas fa-external-link-alt fa-sm ml-1" />
                                 </sup>
                             </a>
                         </td>

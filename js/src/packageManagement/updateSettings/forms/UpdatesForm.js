@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -45,7 +45,7 @@ export default function UpdatesForm({
         <>
             <h2>{_("Automatic Update Settings")}</h2>
             <Switch
-                label={_("Enable automatic updates (recommended)")}
+                label={_("Enable Automatic Updates (recommended)")}
                 checked={formData.enabled || false}
                 onChange={setFormValue((value) => ({
                     enabled: { $set: value },

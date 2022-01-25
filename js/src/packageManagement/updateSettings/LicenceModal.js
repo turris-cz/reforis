@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,8 +7,13 @@
 
 import React from "react";
 
+import POINTS from "./points";
+
 export default function LicenceModal() {
     return (
+        // There is a plain HTML modal compoment (not a react Modal component from Foris JS library),
+        // because we won't create a workaround in order to show/hide it onclick from UpdateSettings.js link.
+        // Might be improved in the future.
         <div
             className="modal fade"
             id="licenceModal"
@@ -33,43 +38,16 @@ export default function LicenceModal() {
                         </button>
                     </div>
                     <div className="modal-body">
-                        <ul
-                            dangerouslySetInnerHTML={{
-                                __html: _(`
-                    <li>Automatic updates are offered to the Turris router owners free of charge.</li>
-                    <li>Updates are prepared exclusively by CZ.NIC, z. s. p. o.</li>
-                    <li>
-                        Enabling of the automatic updates is a prerequisite for additional security features of
-                        Turris router.
-                    </li>
-                    <li>
-                        Automatic updates take place at the time of their release, the time of installation
-                        cannot be influenced by the user.
-                    </li>
-                    <li>
-                        Having the automatic updates turned on can result in increased Internet traffic on your
-                        router. Expenses related to this increase are covered by you.
-                    </li>
-                    <li>
-                        Automatic updates cannot protect you against every attack coming from the Internet.
-                        Please do not forget to protect your workstations and other devices by installing
-                        antivirus software and explaining to your family members how to stay safe on the
-                        Internet.
-                    </li>
-                    <li>
-                        CZ.NIC, z. s. p. o. does not guarantee the availability of this service and is not
-                        responsible for any damages caused by the automatic updates.
-                    </li>
-                    `),
-                            }}
-                        />
-                        <b
+                        <ul>
+                            {POINTS.map((point) => (
+                                <li key={point.id}>{point.text}</li>
+                            ))}
+                        </ul>
+                        <p
+                            className="font-weight-bold"
                             dangerouslySetInnerHTML={{
                                 __html: _(
-                                    `By enabling of the automatic updates, 
-                                    you confirm that you are the owner of this Turris 
-                                    router and you agree with the full text of the 
-                                    <a href="https://www.turris.cz/omnia-updater-eula" target="_blank" rel="noopener noreferrer">license agreement <sup><i class="fas fa-external-link-alt fa-sm"></i></sup></a>.`
+                                    `By enabling the automatic updates, you confirm that you are the owner of this Turris router, and you agree with the full text of the <a href="https://www.turris.cz/omnia-updater-eula" target="_blank" rel="noopener noreferrer">license agreement <sup><i class="fas fa-external-link-alt fa-sm"></i></sup></a>.`
                                 ),
                             }}
                         />

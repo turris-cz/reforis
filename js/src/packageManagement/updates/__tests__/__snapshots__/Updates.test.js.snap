@@ -67,8 +67,7 @@ exports[`<Updates/> should display spinner while check is pending 1`] = `
       Available Updates
     </h2>
     <p>
-      Here you can find and approve available updates for 
-                    Turris OS and other components.
+      Here you can find and approve available updates for Turris OS and other components.
     </p>
     <div
       class="spinner-wrapper text-center"
@@ -129,8 +128,7 @@ exports[`<Updates/> should display spinner while check is pending 2`] = `
       Available Updates
     </h2>
     <p>
-      Here you can find and approve available updates for 
-                    Turris OS and other components.
+      Here you can find and approve available updates for Turris OS and other components.
     </p>
     <div
       class="spinner-wrapper text-center"
@@ -184,8 +182,7 @@ exports[`<Updates/> should handle approvable updates 1`] = `
       Available Updates
     </h2>
     <p>
-      Here you can find and approve available updates for 
-                    Turris OS and other components.
+      Here you can find and approve available updates for Turris OS and other components.
     </p>
     <h3>
       Approve Update From %s
@@ -308,8 +305,7 @@ exports[`<Updates/> should handle automatic updates (no delays/approvals) 1`] = 
       Available Updates
     </h2>
     <p>
-      Here you can find and approve available updates for 
-                    Turris OS and other components.
+      Here you can find and approve available updates for Turris OS and other components.
     </p>
     <p
       class="text-center text-muted"

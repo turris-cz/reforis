@@ -6,18 +6,13 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
     LAN
   </h1>
   <p>
-    
-This section contains settings for the local network (LAN). The provided defaults are suitable for most
-networks.
-
-    <br />
-    
-
+    This section contains settings for the local network (LAN). The provided defaults are suitable for most networks.
+  </p>
+  <p>
     <b>
       Note:
     </b>
-     If you change the router IP address, all computers in LAN, probably including the one you are
-using now, will need to obtain a 
+     If you change the router IP address, all computers in LAN, probably including the one you are using now, will need to obtain a 
     <b>
       new IP address
     </b>
@@ -25,15 +20,11 @@ using now, will need to obtain a
     <b>
       immediately
     </b>
-    . It is
-recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update.
-The next page will not load until you obtain a new IP from DHCP (if DHCP enabled) and you might need to
-
+    . It is recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update. The next page will not load until you obtain a new IP from DHCP (if DHCP is enabled), and you might need to 
     <b>
       refresh the page
     </b>
      in your browser.
-            
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
@@ -409,18 +400,13 @@ exports[`<LAN/> Snapshot managed. 1`] = `
     LAN
   </h1>
   <p>
-    
-This section contains settings for the local network (LAN). The provided defaults are suitable for most
-networks.
-
-    <br />
-    
-
+    This section contains settings for the local network (LAN). The provided defaults are suitable for most networks.
+  </p>
+  <p>
     <b>
       Note:
     </b>
-     If you change the router IP address, all computers in LAN, probably including the one you are
-using now, will need to obtain a 
+     If you change the router IP address, all computers in LAN, probably including the one you are using now, will need to obtain a 
     <b>
       new IP address
     </b>
@@ -428,15 +414,11 @@ using now, will need to obtain a
     <b>
       immediately
     </b>
-    . It is
-recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update.
-The next page will not load until you obtain a new IP from DHCP (if DHCP enabled) and you might need to
-
+    . It is recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update. The next page will not load until you obtain a new IP from DHCP (if DHCP is enabled), and you might need to 
     <b>
       refresh the page
     </b>
      in your browser.
-            
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
@@ -567,18 +549,13 @@ exports[`<LAN/> Snapshot unmanaged (dhcp). 1`] = `
     LAN
   </h1>
   <p>
-    
-This section contains settings for the local network (LAN). The provided defaults are suitable for most
-networks.
-
-    <br />
-    
-
+    This section contains settings for the local network (LAN). The provided defaults are suitable for most networks.
+  </p>
+  <p>
     <b>
       Note:
     </b>
-     If you change the router IP address, all computers in LAN, probably including the one you are
-using now, will need to obtain a 
+     If you change the router IP address, all computers in LAN, probably including the one you are using now, will need to obtain a 
     <b>
       new IP address
     </b>
@@ -586,15 +563,11 @@ using now, will need to obtain a
     <b>
       immediately
     </b>
-    . It is
-recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update.
-The next page will not load until you obtain a new IP from DHCP (if DHCP enabled) and you might need to
-
+    . It is recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update. The next page will not load until you obtain a new IP from DHCP (if DHCP is enabled), and you might need to 
     <b>
       refresh the page
     </b>
      in your browser.
-            
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
@@ -709,18 +682,13 @@ exports[`<LAN/> Snapshot unmanaged none. 1`] = `
     LAN
   </h1>
   <p>
-    
-This section contains settings for the local network (LAN). The provided defaults are suitable for most
-networks.
-
-    <br />
-    
-
+    This section contains settings for the local network (LAN). The provided defaults are suitable for most networks.
+  </p>
+  <p>
     <b>
       Note:
     </b>
-     If you change the router IP address, all computers in LAN, probably including the one you are
-using now, will need to obtain a 
+     If you change the router IP address, all computers in LAN, probably including the one you are using now, will need to obtain a 
     <b>
       new IP address
     </b>
@@ -728,15 +696,11 @@ using now, will need to obtain a
     <b>
       immediately
     </b>
-    . It is
-recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update.
-The next page will not load until you obtain a new IP from DHCP (if DHCP enabled) and you might need to
-
+    . It is recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update. The next page will not load until you obtain a new IP from DHCP (if DHCP is enabled), and you might need to 
     <b>
       refresh the page
     </b>
      in your browser.
-            
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
@@ -827,18 +791,13 @@ exports[`<LAN/> Snapshot unmanaged static. 1`] = `
     LAN
   </h1>
   <p>
-    
-This section contains settings for the local network (LAN). The provided defaults are suitable for most
-networks.
-
-    <br />
-    
-
+    This section contains settings for the local network (LAN). The provided defaults are suitable for most networks.
+  </p>
+  <p>
     <b>
       Note:
     </b>
-     If you change the router IP address, all computers in LAN, probably including the one you are
-using now, will need to obtain a 
+     If you change the router IP address, all computers in LAN, probably including the one you are using now, will need to obtain a 
     <b>
       new IP address
     </b>
@@ -846,15 +805,11 @@ using now, will need to obtain a
     <b>
       immediately
     </b>
-    . It is
-recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update.
-The next page will not load until you obtain a new IP from DHCP (if DHCP enabled) and you might need to
-
+    . It is recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update. The next page will not load until you obtain a new IP from DHCP (if DHCP is enabled), and you might need to 
     <b>
       refresh the page
     </b>
      in your browser.
-            
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
@@ -1053,18 +1008,13 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
     LAN
   </h1>
   <p>
-    
-This section contains settings for the local network (LAN). The provided defaults are suitable for most
-networks.
-
-    <br />
-    
-
+    This section contains settings for the local network (LAN). The provided defaults are suitable for most networks.
+  </p>
+  <p>
     <b>
       Note:
     </b>
-     If you change the router IP address, all computers in LAN, probably including the one you are
-using now, will need to obtain a 
+     If you change the router IP address, all computers in LAN, probably including the one you are using now, will need to obtain a 
     <b>
       new IP address
     </b>
@@ -1072,15 +1022,11 @@ using now, will need to obtain a
     <b>
       immediately
     </b>
-    . It is
-recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update.
-The next page will not load until you obtain a new IP from DHCP (if DHCP enabled) and you might need to
-
+    . It is recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update. The next page will not load until you obtain a new IP from DHCP (if DHCP is enabled), and you might need to 
     <b>
       refresh the page
     </b>
      in your browser.
-            
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
@@ -1344,18 +1290,13 @@ exports[`Customized <LAN/> Snapshot managed. 1`] = `
     LAN
   </h1>
   <p>
-    
-This section contains settings for the local network (LAN). The provided defaults are suitable for most
-networks.
-
-    <br />
-    
-
+    This section contains settings for the local network (LAN). The provided defaults are suitable for most networks.
+  </p>
+  <p>
     <b>
       Note:
     </b>
-     If you change the router IP address, all computers in LAN, probably including the one you are
-using now, will need to obtain a 
+     If you change the router IP address, all computers in LAN, probably including the one you are using now, will need to obtain a 
     <b>
       new IP address
     </b>
@@ -1363,15 +1304,11 @@ using now, will need to obtain a
     <b>
       immediately
     </b>
-    . It is
-recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update.
-The next page will not load until you obtain a new IP from DHCP (if DHCP enabled) and you might need to
-
+    . It is recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update. The next page will not load until you obtain a new IP from DHCP (if DHCP is enabled), and you might need to 
     <b>
       refresh the page
     </b>
      in your browser.
-            
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
