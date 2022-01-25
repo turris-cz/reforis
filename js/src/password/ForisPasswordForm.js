@@ -66,6 +66,7 @@ export default function ForisPasswordForm({
                     />
                 )}
                 <PasswordInput
+                    newPass
                     withEye
                     label={_("New password")}
                     value={formData.newForisPassword}
@@ -78,6 +79,7 @@ export default function ForisPasswordForm({
                 />
 
                 <PasswordInput
+                    newPass
                     withEye
                     label={_("Confirm new password")}
                     value={formData.newForisPasswordRepeat}
