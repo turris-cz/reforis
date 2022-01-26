@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-12-14 19:54+0300\n"
-"PO-Revision-Date: 2021-11-10 17:50+0000\n"
+"PO-Revision-Date: 2022-01-27 00:53+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
+"reforis/nb_NO/>\n"
 "Language: nb_NO\n"
-"Language-Team: Norwegian Bokmål "
-"<https://hosted.weblate.org/projects/turris/reforis/nb_NO/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.11-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/about/About.js:23 js/src/main/pages.js:105 js/src/main/pages.js:224
@@ -39,14 +40,12 @@ msgid "Device"
 msgstr "Enhet"
 
 #: js/src/about/About.js:63
-#, fuzzy
 msgid "Serial number"
-msgstr "Port er et nummer."
+msgstr "Serienummer"
 
 #: js/src/about/About.js:67
-#, fuzzy
 msgid "reForis version"
-msgstr "Kjerneversjon"
+msgstr "reForis-versjon"
 
 #: js/src/about/About.js:71
 msgid "Turris OS version"
@@ -83,7 +82,7 @@ msgstr "Advarsel!"
 #: js/src/common/FactoryResetButton.js:68
 #, fuzzy
 msgid "Are you sure you want to reset the router?"
-msgstr "Er du sikker på at du vil tilbakestille ruteren?"
+msgstr "Tilbakestill ruteren?"
 
 #: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:71
 #: js/src/dns/DNSSECDisableModal.js:41
@@ -116,19 +115,17 @@ msgid "IPv6 DHCP Client List"
 msgstr "IPv6-DHCP-klientliste"
 
 #: js/src/common/network/DHCP6ClientsList.js:26
-#, fuzzy
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
 "Denne listen inneholder alle enheter som er tilkoblet nettverket gjennom "
-"kablede eller trådløse forbindelser."
+"kablede eller trådløse forbindelser ved bruk av IPv6."
 
 #: js/src/common/network/DHCP6ClientsList.js:32
 #: js/src/common/network/DHCPClientsList.js:28
-#, fuzzy
 msgid "No clients found."
-msgstr "Fant ingen DHCP-klienter."
+msgstr "Fant ingen klienter."
 
 #: js/src/common/network/DHCP6ClientsList.js:39
 #: js/src/common/network/DHCPClientsList.js:35 js/src/hostname/Hostname.js:21
@@ -141,9 +138,8 @@ msgid "IPv6 Address"
 msgstr "IPv6-adresse"
 
 #: js/src/common/network/DHCP6ClientsList.js:41
-#, fuzzy
 msgid "DUID"
-msgstr "Veiledning"
+msgstr "DUID"
 
 #: js/src/common/network/DHCP6ClientsList.js:42
 #: js/src/common/network/DHCPClientsList.js:38
@@ -153,7 +149,7 @@ msgstr "Utløper"
 #: js/src/common/network/DHCP6ClientsList.js:76
 #: js/src/common/network/DHCPClientsList.js:74
 msgid "Never"
-msgstr ""
+msgstr "Aldri"
 
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
@@ -333,7 +329,7 @@ msgstr "IPv6-portnerforbindelse"
 #: js/src/connectionTest/ConnectionTestResult.js:83
 #, fuzzy
 msgid "Connection test successful"
-msgstr "Tilkoblingstest"
+msgstr "Tilkoblingstest vellykket"
 
 #: js/src/connectionTest/ConnectionTestResult.js:88
 msgid "Connection test failed"
@@ -1075,14 +1071,12 @@ msgid "Rewrite the hostname to set a new one."
 msgstr "Skriv inn vertsnavnet på ny for å sette et nytt."
 
 #: js/src/hostname/HostnameForm.js:33
-#, fuzzy
 msgid "Hostname Settings"
-msgstr "Tidsinnstillinger"
+msgstr "Vertsnavnsinnstillinger"
 
 #: js/src/hostname/HostnameForm.js:35
-#, fuzzy
 msgid "Device hostname"
-msgstr "TLS-vertsnavn"
+msgstr "Enhetsvertsnavn"
 
 #: js/src/interfaces/Interfaces.js:25
 msgid "Network Interfaces"
@@ -2272,9 +2266,8 @@ msgid "Password changed successfully."
 msgstr "Videresender lagret."
 
 #: js/src/password/Password.js:147
-#, fuzzy
 msgid "Password Settings"
-msgstr "Nettverksinnstillinger"
+msgstr "Passordsinnstillinger"
 
 #: js/src/password/Password.js:176
 msgid ""
@@ -2289,19 +2282,18 @@ msgid "The password confirmation does not match."
 msgstr "Passordbekreftelsen stemmer ikke overens."
 
 #: js/src/password/Password.js:212
-#, fuzzy
 msgid "Password can't be empty."
-msgstr "Kan ikke stå tom."
+msgstr "Passord må angis."
 
 #: js/src/password/Password.js:214
 #, fuzzy
 msgid "Password should have min 6 symbols."
-msgstr "TLS-tilordning skal ha minst ett symbol."
+msgstr "Passord skal ha minst 6 symboler."
 
 #: js/src/password/Password.js:217
 #, fuzzy
 msgid "Password should have max 128 symbols."
-msgstr "TLS-tilordning skal ha minst ett symbol."
+msgstr "Passord kan ikke ha mer enn 128 symboler."
 
 #: js/src/password/RootPasswordForm.js:51
 #, fuzzy
@@ -2662,7 +2654,7 @@ msgstr "MTU skal være et tall i rekkevidden 1280-1500."
 #: js/src/wan/WAN6Form.js:529
 #, fuzzy
 msgid "MTU has to be in the range of 1280-1480."
-msgstr "MTU skal være i rekkevidden 1280-1500."
+msgstr "MTU skal være i rekkevidden 1280-1480."
 
 #: js/src/wan/WANForm.js:27
 msgid "PPPoE (for DSL bridges, etc.)"
@@ -2827,4 +2819,3 @@ msgstr "Tjenerfeil"
 #: reforis/templates/errors/500.html:8
 msgid "500 - Server error"
 msgstr "500 - Tjenerfeil"
-
