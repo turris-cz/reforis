@@ -7,7 +7,7 @@
 
 import React from "react";
 
-import { TextInput, validateDomain } from "foris";
+import { TextInput, validateHostname } from "foris";
 import PropTypes from "prop-types";
 
 const HELP_TEXTS = {
@@ -48,6 +48,6 @@ export default function DHCPClientForm({
 }
 
 export function validateDHCPForm(formData) {
-    const error = { hostname: validateDomain(formData.hostname) };
+    const error = { hostname: validateHostname(formData.hostname) };
     return error.hostname ? error : null;
 }

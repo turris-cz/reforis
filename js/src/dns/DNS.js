@@ -7,7 +7,7 @@
 
 import React from "react";
 
-import { validateDomain, ForisForm } from "foris";
+import { validateHostname, ForisForm } from "foris";
 import PropTypes from "prop-types";
 
 import API_URLs from "common/API";
@@ -76,7 +76,7 @@ export default function DNS({ ws, postCallback }) {
 function validator(formData) {
     const error = {};
     if (formData.dns_from_dhcp_enabled) {
-        error.dns_from_dhcp_domain = validateDomain(
+        error.dns_from_dhcp_domain = validateHostname(
             formData.dns_from_dhcp_domain
         );
     }
