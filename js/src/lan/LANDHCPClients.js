@@ -15,7 +15,7 @@ import DHCPClientsList from "common/network/DHCPClientsList";
 
 import { LAN_MODES } from "./LANForm";
 
-LAN_DHCP_ClientsList.propTypes = {
+LANDHCPClients.propTypes = {
     formData: PropTypes.shape({
         mode: PropTypes.oneOf(Object.keys(LAN_MODES)),
         mode_managed: PropTypes.shape({
@@ -28,7 +28,7 @@ LAN_DHCP_ClientsList.propTypes = {
     }),
 };
 
-export default function LAN_DHCP_ClientsList({ formData }) {
+export default function LANDHCPClients({ formData }) {
     if (
         formData.mode !== LAN_MODES.managed ||
         !formData.mode_managed.dhcp.enabled

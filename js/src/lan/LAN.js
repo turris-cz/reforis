@@ -13,10 +13,10 @@ import PropTypes from "prop-types";
 import API_URLs from "common/API";
 import { getDHCPStart } from "common/network/utils";
 
-import LAN_DHCP_ClientsList from "./LAN_DHCP_ClientsList";
 import LANForm, { LAN_MODES } from "./LANForm";
 import { validateManaged } from "./LANManagedForm";
 import { validateUnmanaged } from "./LANUnmanagedForm";
+import LANDHCPClients from "./LANDHCPClients";
 
 LAN.propTypes = {
     ws: PropTypes.object.isRequired,
@@ -49,8 +49,7 @@ export default function LAN({ ws }) {
                 validator={validator}
             >
                 <LANForm />
-                {/* eslint-disable-next-line react/jsx-pascal-case */}
-                <LAN_DHCP_ClientsList />
+                <LANDHCPClients />
             </ForisForm>
             <div id="dhcp-clients-container" />
         </>
