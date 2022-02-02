@@ -10,9 +10,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import ReactDOM from "react-dom";
 
-import DHCP6ClientsList from "common/network/DHCP6ClientsList";
-import DHCPClientsList from "common/network/DHCPClientsList";
-
+import DHCPClients from "common/network/DHCPClients";
+import DHCP6Clients from "common/network/DHCP6Clients";
 import { LAN_MODES } from "./LANForm";
 
 LANDHCPClients.propTypes = {
@@ -39,8 +38,8 @@ export default function LANDHCPClients({ formData }) {
 
     return ReactDOM.createPortal(
         <>
-            <DHCPClientsList clients={formData.mode_managed.dhcp.clients} />
-            <DHCP6ClientsList
+            <DHCPClients clients={formData.mode_managed.dhcp.clients} />
+            <DHCP6Clients
                 ipv6clients={formData.mode_managed.dhcp.ipv6clients}
             />
         </>,

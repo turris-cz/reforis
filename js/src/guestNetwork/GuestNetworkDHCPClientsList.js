@@ -10,7 +10,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import ReactDOM from "react-dom";
 
-import DHCPClientsList from "common/network/DHCPClientsList";
+import DHCPClients from "common/network/DHCPClients";
 
 GuestNetworkDHCPClientsList.propTypes = {
     formData: PropTypes.shape({
@@ -26,7 +26,7 @@ export default function GuestNetworkDHCPClientsList({ formData }) {
 
     const container = document.getElementById("dhcp-clients-container");
     return ReactDOM.createPortal(
-        <DHCPClientsList clients={formData.dhcp.clients} />,
+        <DHCPClients clients={formData.dhcp.clients} />,
         container
     );
 }
