@@ -51,7 +51,7 @@ export default function LAN({ ws }) {
                 validator={validator}
             >
                 <LANForm />
-                <LANDHCPClients />
+                <LANDHCPClients ws={ws} />
             </ForisForm>
             <div id="dhcp-clients-container" />
         </>
