@@ -57,7 +57,7 @@ def lan_set_client():
     return response_to_json_or_error(response, _('Can\'t create DHCP lease.'))
 
 
-def lan_update_client():
+def lan_update_client(client_hostname):
     """
     .. http:post:: /api/lan/update_client
         Update LAN DHCP leases manually.
@@ -65,11 +65,11 @@ def lan_update_client():
         <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/lan/schema/lan.json>`_.
     """
     data = request.json
-    response = current_app.backend.perform('lan', 'update_dhcp_client', data)
+    response = current_app.backend.perform('lan', 'update_dhcp_client', {"hostname": client_hostname, **data})
     return response_to_json_or_error(response, _('Can\'t update DHCP lease.'))
 
 
-def lan_delete_client():
+def lan_delete_client(client_mac):
     """
     .. http:post:: /api/lan/delete_client
         Delete LAN DHCP leases manually.
@@ -77,7 +77,7 @@ def lan_delete_client():
         <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/lan/schema/lan.json>`_.
     """
     data = request.json
-    response = current_app.backend.perform('lan', 'delete_dhcp_client', data)
+    response = current_app.backend.perform('lan', 'delete_dhcp_client', {"mac": client_mac})
     return response_to_json_or_error(response, _('Can\'t delete DHCP lease.'))
 
 
@@ -99,11 +99,11 @@ views = [{
     'view_func': lan_set_client,
     'methods': ['POST']
 }, {
-    'rule': '/lan/clients/<client_name>',
+    'rule': '/lan/clients/<client_hostname>',
     'view_func': lan_update_client,
     'methods': ['PUT']
 }, {
-    'rule': '/lan/clients/<client_name>',
+    'rule': '/lan/clients/<client_mac>',
     'view_func': lan_delete_client,
     'methods': ['DELETE']
 }]
