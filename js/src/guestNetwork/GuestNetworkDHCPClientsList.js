@@ -10,7 +10,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import ReactDOM from "react-dom";
 
-import DHCPClients from "common/network/DHCPClients";
+import DHCPClients from "common/network/DHCPClients/DHCPClients";
 
 GuestNetworkDHCPClientsList.propTypes = {
     formData: PropTypes.shape({
