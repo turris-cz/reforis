@@ -77,11 +77,11 @@ button:disabled {
 /* Custom Switch */
 
 .custom-switch.switch-heading .custom-control-label:before {
-    top: 10px;
+    top: 16px !important;
 }
 
 .custom-switch.switch-heading .custom-control-label:after {
-    top: 12px;
+    top: 18px !important;
 }
 
 form div.form-group.switch {
