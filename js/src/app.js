@@ -23,9 +23,8 @@ import { render } from "react-dom";
 import "@fortawesome/fontawesome-free/js/all.min";
 import "bootstrap/dist/js/bootstrap.min";
 
-// Styles
-import "bootswatch/dist/flatly/bootstrap.css";
-import "./app.css";
+// Styles go here:
+import "./app.scss";
 
 import Guide from "guide/Guide";
 import Main from "main/Main";
