@@ -41,49 +41,6 @@ h4 {
     font-size: 1.3rem;
 }
 
-a,
-.btn-link {
-    color: #00a2e2;
-}
-
-a:hover,
-.btn-link:hover {
-    color: #0056b3;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #00a2e2;
-    border-color: #00a2e2;
-}
-
-.btn-primary:active,
-.btn-primary:hover,
-.btn-primary:focus {
-    color: #fff !important;
-    background-color: #0075a3 !important;
-    border-color: #0075a3 !important;
-}
-
-.btn-outline-primary {
-    color: #00a2e2;
-    border-color: #00a2e2;
-}
-
-.btn-outline-primary:active,
-.btn-outline-primary:hover,
-.btn-outline-primary:focus {
-    color: #fff !important;
-    background-color: #00a2e2 !important;
-    border-color: #00a2e2 !important;
-}
-
-.btn-primary:focus,
-.btn-outline-primary:focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 162, 226, 0.5) !important;
-    box-shadow: 0 0 0 0.2rem rgba(0, 162, 226, 0.5) !important;
-}
-
 form > button {
     margin-bottom: 0.5rem;
 }
@@ -125,11 +82,6 @@ button:disabled {
 
 .custom-switch.switch-heading .custom-control-label:after {
     top: 12px;
-}
-
-.custom-control-input:checked ~ .custom-control-label:before {
-    border-color: #00a2e2;
-    background-color: #00a2e2;
 }
 
 form div.form-group.switch {
