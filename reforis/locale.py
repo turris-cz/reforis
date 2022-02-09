@@ -1,4 +1,4 @@
-#  Copyright (C) 2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2021-2022 CZ.NIC z.s.p.o. (http://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -12,6 +12,8 @@ The translations catalog is generated using TranslationsHelper object. It’s a 
 :class:`babel.support.Translations` object in order to generate JSON translations dictionary with babel.js suitable
 format. Then it is uploaded into JS code with Jinja2 template system.
 """
+
+import typing
 
 from babel import Locale
 from babel.messages.plurals import get_plural
@@ -73,7 +75,9 @@ class TranslationsHelper(Translations):
         Change format of plural forms to be accepted by js.
         """
         messages = self._catalog
-        del messages['']
+        if '' in messages:
+            # delete babel header
+            del messages['']
         res = {}
         for message_id, message in messages.items():
             if isinstance(message_id, tuple):
@@ -90,35 +94,50 @@ class TranslationsHelper(Translations):
 
 def get_translations():
     return {
-        'babel_catalog': _get_translations('messages', with_plugins=True).json_catalog,
-        'babel_forisjs_catalog': _get_translations('forisjs').json_catalog,
+        'babel_catalog': _get_babel_catalog('messages', with_plugins=True),
+        'babel_forisjs_catalog': _get_babel_catalog('forisjs'),
         'babel_tzinfo_catalog': prepare_tz_related_translations(),
     }
 
 
-def _get_translations(domain, with_plugins=False):
+def _get_babel_catalog(domain: str, with_plugins: bool = False) -> typing.Dict[str, str]:
+    """Return babel message catalog or no messages if loading of catalog fails"""
+    translations = _get_translations(domain, with_plugins)
+
+    if is_null_translations(translations):
+        current_app.logger.warning('Failed to load messages for babel domain "%s"', domain)
+        return {}  # fallback to no messages (empty dict)
+
+    return translations.json_catalog
+
+
+def _get_translations(domain: str, with_plugins: bool = False) -> typing.Union[TranslationsHelper, NullTranslations]:
     """
     Load translations by domain into :class:`locale.TranslationsHelper` object.
 
-    :return: TranslationsHelper
+    :return: TranslationsHelper or NullTranslations based on result of loading domain
     """
     babel = current_app.extensions['babel']
     translations = TranslationsHelper.load(
-        # There is only one directory with translations in Foris so it's OK.
+        # There is only one directory with translations in reForis so it's OK.
         next(babel.translation_directories),
         [get_locale()],
         domain
     )
 
-    if with_plugins:
+    # It would be nice to at least try to load plugins translations
+    # even when translations for core reforis cannot be loaded.
+    # However initialization of babel `Translations` classes seems to revolve around
+    # reading .mo files, not passing some data to `Translations` instance.
+    # So let's skip plugins too when `TranslationsHelper` initialization fails.
+    if with_plugins and not is_null_translations(translations):
         for translation in _get_plugins_translations(domain):
-            if not isinstance(translation, NullTranslations):
+            if not is_null_translations(translation):
                 translations.add(translation)
-
     return translations
 
 
-def _get_plugins_translations(domain):
+def _get_plugins_translations(domain: str) -> typing.List[typing.Union[Translations, NullTranslations]]:
     translations = []
     for translation_path in current_app.plugin_translations:
         translation = Translations.load(
@@ -128,3 +147,7 @@ def _get_plugins_translations(domain):
         )
         translations.append(translation)
     return translations
+
+
+def is_null_translations(translations: typing.Union[TranslationsHelper, Translations, NullTranslations]) -> bool:
+    return type(translations) is NullTranslations  # pylint: disable=unidiomatic-typecheck
