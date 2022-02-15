@@ -60,6 +60,7 @@
         "style-loader": "^0.23.1",
         "terser-webpack-plugin": "^4.2.3",
         "webpack": "^4.42.0",
+        "webpack-bundle-analyzer": "^4.5.0",
         "webpack-cli": "^3.3.11"
     },
     "peerDependencies": {
@@ -74,6 +75,8 @@
         "test:watch": "jest --watch",
         "test:coverage": "jest --coverage --colors",
         "docs": "npx styleguidist build",
-        "docs:watch": "styleguidist server"
+        "docs:watch": "styleguidist server",
+        "preanalyze": "webpack --json > stats.json --env.lighttpd",
+        "analyze": "webpack-bundle-analyzer stats.json"
     }
 }
