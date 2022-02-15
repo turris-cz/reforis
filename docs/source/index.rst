@@ -9,7 +9,6 @@ and got a new name reForis (which means redesigned Foris).
 
    application_factory
    backend
-   auth
    locale
    views
    api_blueprint
