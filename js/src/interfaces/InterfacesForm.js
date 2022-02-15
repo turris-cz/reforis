@@ -6,13 +6,13 @@
  */
 
 import React, { useState, useEffect } from "react";
-import PropTypes from "prop-types";
 
 import { useAlert } from "foris";
+import PropTypes from "prop-types";
 
+import { NETWORKS_CHOICES, NETWORKS_TYPES } from "./constants";
 import Network from "./Network";
 import SelectedInterface from "./SelectedInterface";
-import { NETWORKS_CHOICES, NETWORKS_TYPES } from "./constants";
 
 InterfacesForm.propTypes = {
     formData: PropTypes.shape({

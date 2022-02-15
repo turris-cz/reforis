@@ -1,19 +1,21 @@
 /*
- * Copyright (C) 2019 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React, { useRef, useEffect } from "react";
+
+import { toLocaleDateString } from "foris";
 import PropTypes from "prop-types";
 
 import RebootButton from "common/RebootButton";
-import { toLocaleDateString } from "foris";
-import NOTIFICATION_PROP_TYPES from "../utils";
-import NotificationIcon from "../NotificationIcon";
-import TruncatedText from "./TruncatedText";
+
 import { NOT_DISMISSABLE } from "../constants";
+import NotificationIcon from "../NotificationIcon";
+import NOTIFICATION_PROP_TYPES from "../utils";
+import TruncatedText from "./TruncatedText";
 
 NotificationsList.propTypes = {
     notifications: PropTypes.arrayOf(NOTIFICATION_PROP_TYPES),

@@ -1,20 +1,22 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React, { useEffect, useState, useRef } from "react";
+
+import { Spinner } from "foris";
 import PropTypes from "prop-types";
 import { withRouter } from "react-router-dom";
-import { Spinner } from "foris";
+
+import { NOT_DISMISSABLE } from "../constants";
+import useNotifications from "../hooks";
+import DismissAllButton from "./DismissAllButton";
+import NotificationsList from "./NotificationsList";
 
 import "./Notifications.css";
-import useNotifications from "../hooks";
-import { NOT_DISMISSABLE } from "../constants";
-import NotificationsList from "./NotificationsList";
-import DismissAllButton from "./DismissAllButton";
 
 Notifications.propTypes = {
     ws: PropTypes.object.isRequired,

@@ -1,29 +1,32 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React, { useEffect } from "react";
-import PropTypes from "prop-types";
+
 import {
     useAPIGet,
     withSpinnerOnSending,
     withErrorMessage,
     isPluginInstalled,
 } from "foris";
-import API_URLs from "../common/API";
-import DynamicFirewallCard from "./Cards/DynamicFirewallCard";
-import DataCollectionCard from "./Cards/DataCollectionCard";
+import PropTypes from "prop-types";
+
+import API_URLs from "common/API";
+import ConnectionTest from "connectionTest/ConnectionTest";
+import Notifications from "notifications/Notifications/Notifications";
+
 import AutomaticUpdatesCard from "./Cards/AutomaticUpdatesCard";
+import DataCollectionCard from "./Cards/DataCollectionCard";
+import DynamicFirewallCard from "./Cards/DynamicFirewallCard";
 import NetmetrCard from "./Cards/NetmetrCard";
-import ConnectionTest from "../connectionTest/ConnectionTest";
 import OpenVPNClientsCard from "./Cards/OpenVPNClientsCard";
-import Notifications from "../notifications/Notifications/Notifications";
+import displayCard from "./utils";
 
 import "./Overview.css";
-import displayCard from "./utils";
 
 Overview.propTypes = {
     ws: PropTypes.object.isRequired,

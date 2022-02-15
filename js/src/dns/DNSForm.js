@@ -6,9 +6,9 @@
  */
 
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 
 import { Switch, TextInput, WebSockets } from "foris";
+import PropTypes from "prop-types";
 
 import DNSSECDisableModal from "./DNSSECDisableModal";
 import Forwarders from "./Forwarders/Forwarders";

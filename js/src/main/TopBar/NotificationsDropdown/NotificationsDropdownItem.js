@@ -1,20 +1,21 @@
 /*
- * Copyright (C) 2019 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React from "react";
+
+import { ForisURLs, toLocaleDateString } from "foris";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
-import { ForisURLs, toLocaleDateString } from "foris";
+import { NOT_DISMISSABLE } from "notifications/constants";
 import NotificationIcon from "notifications/NotificationIcon";
 import NOTIFICATION_PROP_TYPES from "notifications/utils";
 
 import "./NotificationsDropdownItem.css";
-import { NOT_DISMISSABLE } from "notifications/constants";
 
 NotificationsDropdownItem.propTypes = {
     notification: NOTIFICATION_PROP_TYPES,

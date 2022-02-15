@@ -6,9 +6,10 @@
  */
 
 import React, { useEffect } from "react";
+
+import { useAPIGet, withSpinnerOnSending, withErrorMessage } from "foris";
 import PropTypes from "prop-types";
 import ReactTooltip from "react-tooltip";
-import { useAPIGet, withSpinnerOnSending, withErrorMessage } from "foris";
 
 import API_URLs from "common/API";
 

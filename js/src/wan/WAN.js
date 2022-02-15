@@ -1,20 +1,21 @@
 /*
- * Copyright (C) 2019-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React from "react";
+
+import { ForisForm } from "foris";
 import update from "immutability-helper";
 import PropTypes from "prop-types";
 
-import { ForisForm } from "foris";
 import API_URLs from "common/API";
 import ConnectionTest from "connectionTest/ConnectionTest";
 
-import WAN6Form, { validateWAN6Form } from "./WAN6Form";
 import MACForm, { validateMACForm } from "./MACForm";
+import WAN6Form, { validateWAN6Form } from "./WAN6Form";
 import WANForm, { validateWANForm } from "./WANForm";
 
 WAN.propTypes = {

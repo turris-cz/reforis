@@ -1,12 +1,11 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React from "react";
-import PropTypes from "prop-types";
 
 import {
     TextInput,
@@ -15,15 +14,16 @@ import {
     undefinedIfEmpty,
     withoutUndefinedKeys,
 } from "foris";
+import PropTypes from "prop-types";
 
 import DHCPServerForm, {
     HELP_TEXT as DHCP_HELP_TEXT,
 } from "common/network/DHCPServerForm";
+import validateDHCP from "common/network/DHCPValidators";
 import {
     validateNetworkMask,
     validateRequiredField,
 } from "common/network/validators";
-import validateDHCP from "common/network/DHCPValidators";
 
 const HELP_TEXTS = {
     router_ip: _("Router's IP address in the inner network."),

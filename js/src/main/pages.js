@@ -1,32 +1,29 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
-import UpdateSettings from "packageManagement/updateSettings/UpdateSettings";
-import Packages from "packageManagement/packages/Packages";
-import Updates from "packageManagement/updates/Updates";
-import Languages from "packageManagement/languages/Languages";
-
-import WiFi from "wifi/WiFi";
-import WAN from "wan/WAN";
-import LAN from "lan/LAN";
-import DNS from "dns/DNS";
-import Interfaces from "interfaces/Interfaces";
-import GuestNetwork from "guestNetwork/GuestNetwork";
-
-import Password from "password/Password";
-import RegionAndTime from "regionAndTime/RegionAndTime";
-import NotificationsSettings from "notificationsSettings/NotificationsSettings";
-import Maintenance from "maintenance/Maintenance";
-import Hostname from "hostname/Hostname";
+import { ForisURLs } from "foris";
 
 import About from "about/About";
+import DNS from "dns/DNS";
+import GuestNetwork from "guestNetwork/GuestNetwork";
+import Hostname from "hostname/Hostname";
+import Interfaces from "interfaces/Interfaces";
+import LAN from "lan/LAN";
+import Maintenance from "maintenance/Maintenance";
+import NotificationsSettings from "notificationsSettings/NotificationsSettings";
 import Overview from "overview/Overview";
-
-import { ForisURLs } from "foris";
+import Languages from "packageManagement/languages/Languages";
+import Packages from "packageManagement/packages/Packages";
+import Updates from "packageManagement/updates/Updates";
+import UpdateSettings from "packageManagement/updateSettings/UpdateSettings";
+import Password from "password/Password";
+import RegionAndTime from "regionAndTime/RegionAndTime";
+import WAN from "wan/WAN";
+import WiFi from "wifi/WiFi";
 
 import { addWeightsToPages, insert } from "./utils";
 

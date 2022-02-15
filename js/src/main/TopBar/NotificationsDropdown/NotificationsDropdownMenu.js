@@ -1,20 +1,22 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React from "react";
-import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
 
 import { ForisURLs } from "foris";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import SimpleBar from "simplebar-react";
-import "simplebar-react/dist/simplebar.min.css";
 
-import NOTIFICATION_PROP_TYPES from "../../../notifications/utils";
+import NOTIFICATION_PROP_TYPES from "notifications/utils";
+
 import NotificationsDropdownItem from "./NotificationsDropdownItem";
+
+import "simplebar-react/dist/simplebar.min.css";
 import "./NotificationsDropdownMenu.css";
 
 NotificationsDropdownMenu.propTypes = {
