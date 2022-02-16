@@ -85,8 +85,6 @@ prepare-docs:
 venv: $(VENV_NAME)/bin/activate
 $(VENV_NAME)/bin/activate: setup.py
 	test -d $(VENV_NAME) || $(PYTHON) -m virtualenv -p $(PYTHON) $(VENV_NAME)
-	# Some problem in latest version of setuptools during extracting translations.
-	$(VENV_BIN)/$(PYTHON) -m pip install -U pip setuptools==39.1.0
 	$(VENV_BIN)/$(PYTHON) -m pip install -e .[devel]
 	touch $(VENV_NAME)/bin/activate
 
