@@ -1,9 +1,15 @@
-#  Copyright (C) 2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
 
 .PHONY: all prepare-dev prepare-docs venv install install-with-lighttpd install-js run run-ws watch-js build-js lint lint-js lint-js-fix lint-web test test-js test-web test-js-update-snapshots create-messages update-messages compile-messages docs docs-web docs-js timezones clean
+
+PROJECT="reForis"
+# Retrieve reForis version from setup.py 
+VERSION= $(shell sed -En "s/.*version=['\"](.+)['\"].*/\1/p" setup.py)
+COPYRIGHT_HOLDER="CZ.NIC, z.s.p.o. (https://www.nic.cz/)"
+MSGID_BUGS_ADDRESS="tech.support@turris.cz"
 
 VENV_NAME?=venv
 VENV_BIN=$(shell pwd)/$(VENV_NAME)/bin
@@ -122,9 +128,11 @@ test-js-update-snapshots:
 	cd $(JS_DIR); npm test -- -u
 
 create-messages: venv
-	$(VENV_BIN)/pybabel extract -F babel.cfg -o ./reforis/translations/messages.pot .
+	$(VENV_BIN)/pybabel extract -F babel.cfg -o ./reforis/translations/messages.pot . --project=$(PROJECT) --version=$(VERSION) --copyright-holder=$(COPYRIGHT_HOLDER) --msgid-bugs-address=$(MSGID_BUGS_ADDRESS)
+
 update-messages: venv
-	$(VENV_BIN)/pybabel update -i ./reforis/translations/messages.pot -d ./reforis/translations
+	$(VENV_BIN)/pybabel update -i ./reforis/translations/messages.pot -d ./reforis/translations --update-header-comment
+
 compile-messages: venv install-js
 	$(VENV_BIN)/pybabel compile -f -d ./reforis/translations
 	for file in js/node_modules/foris/translations/* ; do \
