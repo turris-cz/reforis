@@ -57,6 +57,8 @@ all:
 	@echo "    Compile locale messages."
 	@echo "make docs"
 	@echo "    Build documentation."
+	@echo "make docs-js-watch"
+	@echo "    Build React documentation in watch mode."
 	@echo "make timezones"
 	@echo "    Generate JS file with timezones."
 	@echo "make clean"
@@ -207,7 +209,9 @@ docs: docs-js docs-web
 docs-js:
 	cd $(JS_DIR); npm run-script docs
 
-docs: docs-web docs-js
+.PHONY: docs-js-watch
+docs-js-watch:
+	cd $(JS_DIR); npm run-script docs:watch
 
 .PHONY: docs-web
 docs-web: venv
