@@ -1,19 +1,21 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React from "react";
+
+import { Portal } from "foris";
 import PropTypes from "prop-types";
 import { matchPath, withRouter } from "react-router-dom";
-import { Portal } from "foris";
 import SimpleBar from "simplebar-react";
-import "simplebar-react/dist/simplebar.min.css";
 
-import { NavigationToggle, NavigationToggleItem } from "./NavigationToggle";
 import NavigationMainItem from "./NavigationMainItem";
+import { NavigationToggle, NavigationToggleItem } from "./NavigationToggle";
+
+import "simplebar-react/dist/simplebar.min.css";
 
 Navigation.propTypes = {
     pages: PropTypes.arrayOf(PropTypes.object),

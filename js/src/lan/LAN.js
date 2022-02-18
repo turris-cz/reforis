@@ -6,16 +6,17 @@
  */
 
 import React from "react";
+
+import { ForisForm } from "foris";
 import PropTypes from "prop-types";
 
 import API_URLs from "common/API";
-import { ForisForm } from "foris";
-
 import { getDHCPStart } from "common/network/utils";
+
+import LAN_DHCP_ClientsList from "./LAN_DHCP_ClientsList";
 import LANForm, { LAN_MODES } from "./LANForm";
 import { validateManaged } from "./LANManagedForm";
 import { validateUnmanaged } from "./LANUnmanagedForm";
-import LAN_DHCP_ClientsList from "./LAN_DHCP_ClientsList";
 
 LAN.propTypes = {
     ws: PropTypes.object.isRequired,

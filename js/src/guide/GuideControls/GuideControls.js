@@ -1,17 +1,20 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React from "react";
+
 import PropTypes from "prop-types";
 
-import "./GuideControls.css";
-import SkipGuideButtonWithRouter from "./SkipGuideButton";
+import LanguagesDropdown from "main/TopBar/languagesDropdown/LanguagesDropdown";
+
 import NextStepButtonWithRouter from "./NextStepButton";
-import LanguagesDropdown from "../../main/TopBar/languagesDropdown/LanguagesDropdown";
+import SkipGuideButtonWithRouter from "./SkipGuideButton";
+
+import "./GuideControls.css";
 
 GuideControls.propTypes = {
     ws: PropTypes.object.isRequired,

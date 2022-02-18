@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,8 +7,10 @@
 
 import { useEffect, useState } from "react";
 
-import API_URLs from "common/API";
 import { useWSForisModule, useAPIGet, useAPIPost, API_STATE } from "foris";
+
+import API_URLs from "common/API";
+
 import { NOT_DISMISSABLE } from "./constants";
 
 const WS_MODULE = "router_notifications";

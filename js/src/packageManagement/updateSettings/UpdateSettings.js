@@ -6,9 +6,10 @@
  */
 
 import React from "react";
-import PropTypes from "prop-types";
 
 import { ForisForm } from "foris";
+import PropTypes from "prop-types";
+
 import API_URLs from "common/API";
 
 import UpdatesForm, { validateUpdates } from "./forms/UpdatesForm";

@@ -1,13 +1,14 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React from "react";
-import PropTypes from "prop-types";
+
 import { Portal, Alert, ALERT_TYPES } from "foris";
+import PropTypes from "prop-types";
 
 export const NO_INTERFACE_WARNING = _(
     "This network currently doesn't contain any devices. The changes you make here will become fully functional after you assign a network interface to this network."

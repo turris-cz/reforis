@@ -6,9 +6,10 @@
  */
 
 import React from "react";
+
 import { formFieldsSize } from "foris";
 
-import RebootButton from "../common/RebootButton";
+import RebootButton from "common/RebootButton";
 
 export default function Reboot() {
     return (

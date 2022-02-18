@@ -6,14 +6,16 @@
  */
 
 import React from "react";
-import PropTypes from "prop-types";
 
 import { ForisForm } from "foris";
+import PropTypes from "prop-types";
+
 import API_URLs from "common/API";
 
-import "./Interfaces.css";
-import InterfacesForm from "./InterfacesForm";
 import { NETWORKS_TYPES } from "./constants";
+import InterfacesForm from "./InterfacesForm";
+
+import "./Interfaces.css";
 
 Interfaces.propTypes = {
     ws: PropTypes.object.isRequired,

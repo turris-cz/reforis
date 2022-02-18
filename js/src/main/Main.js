@@ -1,13 +1,11 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
 import React, { useEffect } from "react";
-import { BrowserRouter, Redirect, Switch } from "react-router-dom";
-import PropTypes from "prop-types";
 
 import {
     REFORIS_URL_PREFIX,
@@ -16,16 +14,19 @@ import {
     useAPIGet,
     withSending,
 } from "foris";
+import PropTypes from "prop-types";
+import { BrowserRouter, Redirect, Switch } from "react-router-dom";
 
+import API_URLs from "common/API";
+import ScrollToTopArrow from "common/ScrollToTopArrow";
 import Navigation from "navigation/Navigation";
 import ErrorBoundary from "utils/ErrorBoundary";
-import { CustomizationProvider } from "./customizationContext";
-import API_URLs from "../common/API";
-import TopBar from "./TopBar/TopBar";
-import RouteWithSubRoutes from "./routing";
-import getPages from "./pages";
+
 import { REDIRECT_404_PAGE } from "./constants";
-import ScrollToTopArrow from "../common/ScrollToTopArrow";
+import { CustomizationProvider } from "./customizationContext";
+import getPages from "./pages";
+import RouteWithSubRoutes from "./routing";
+import TopBar from "./TopBar/TopBar";
 
 Main.propTypes = {
     ws: PropTypes.object.isRequired,

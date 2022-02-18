@@ -6,7 +6,6 @@
  */
 
 import React from "react";
-import PropTypes from "prop-types";
 
 import {
     ForisForm,
@@ -15,16 +14,18 @@ import {
     undefinedIfEmpty,
     withoutUndefinedKeys,
 } from "foris";
+import PropTypes from "prop-types";
 
 import API_URLs from "common/API";
+import validateDHCP from "common/network/DHCPValidators";
+import { getDHCPStart } from "common/network/utils";
 import {
     validateNetworkMask,
     validateRequiredField,
 } from "common/network/validators";
-import validateDHCP from "common/network/DHCPValidators";
-import { getDHCPStart } from "common/network/utils";
-import GuestNetworkForm, { validateQoS } from "./GuestNetworkForm";
+
 import GuestNetworkDHCPClientsList from "./GuestNetworkDHCPClientsList";
+import GuestNetworkForm, { validateQoS } from "./GuestNetworkForm";
 import GuestNetworkNotification from "./GuestNetworkNotification";
 
 GuestNetwork.propTypes = {

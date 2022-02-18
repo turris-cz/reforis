@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,8 +7,9 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 
-import API_URLs from "common/API";
 import { useAPIPost, useWSForisModule } from "foris";
+
+import API_URLs from "common/API";
 
 const TESTS_TYPES = {
     wan: ["ipv6", "ipv6_gateway", "ipv4", "ipv4_gateway"],
