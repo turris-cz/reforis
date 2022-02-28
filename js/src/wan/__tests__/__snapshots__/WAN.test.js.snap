@@ -52,7 +52,7 @@ exports[`<WAN/> Snapshot WAN IPv4 (PPPoE). 1`] = `
 +           class=\\"input-group\\"
 +         >
 +           <input
-+             autocomplete=\\"new-password\\"
++             autocomplete=\\"current-password\\"
 +             class=\\"form-control  is-invalid\\"
 +             id=\\"7\\"
 +             required=\\"\\"
@@ -870,14 +870,14 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled 1`] = `
             DHCP (automatic configuration)
           </option>
           <option
-            value="pppoe"
-          >
-            PPPoE (for DSL bridges, etc.)
-          </option>
-          <option
             value="static"
           >
             Static IP address (manual configuration)
+          </option>
+          <option
+            value="pppoe"
+          >
+            PPPoE (for DSL bridges, etc.)
           </option>
         </select>
       </div>

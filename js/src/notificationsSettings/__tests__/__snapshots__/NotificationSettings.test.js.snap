@@ -491,7 +491,7 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
           class="input-group"
         >
           <input
-            autocomplete="new-password"
+            autocomplete="current-password"
             class="form-control"
             id="11"
             type="password"
