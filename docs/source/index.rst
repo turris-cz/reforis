@@ -15,6 +15,7 @@ and got a new name reForis (which means redesigned Foris).
    guide_blueprint
    api
    plugins
+   debugging
 
 Indices and tables
 ==================
