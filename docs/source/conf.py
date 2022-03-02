@@ -21,7 +21,7 @@ sys.setrecursionlimit(1500)
 # -- Project information -----------------------------------------------------
 
 project = 'reForis'
-copyright = '2019, CZ.NIC'
+copyright = '2022, CZ.NIC'
 author = 'CZ.NIC'
 
 # The full version, including alpha/beta/rc tags
@@ -39,6 +39,7 @@ extensions = [
     'sphinxcontrib.httpdomain',
     'sphinxcontrib.autohttp.flask',
     'sphinxcontrib.autohttp.flaskqref',
+    'myst_parser',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
