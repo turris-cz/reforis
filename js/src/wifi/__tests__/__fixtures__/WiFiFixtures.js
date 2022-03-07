@@ -52,6 +52,7 @@ export const wifiFixtures = {
             ],
             channel: 36,
             enabled: false,
+            encryption: "WPA2/3",
             guest_wifi: {
                 SSID: "Turris Test 1 - Guest",
                 enabled: false,
@@ -108,6 +109,7 @@ export const wifiFixtures = {
             ],
             channel: 36,
             enabled: false,
+            encryption: "WPA2/3",
             guest_wifi: {
                 SSID: "Turris Test 2 - Guest",
                 enabled: false,

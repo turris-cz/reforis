@@ -91,7 +91,6 @@ export default function LANUnmanagedForm({
                     mode_unmanaged: { lan_type: { $set: value } },
                 }))}
                 disabled={disabled}
-                customOrder
             />
             {lanForm}
         </>

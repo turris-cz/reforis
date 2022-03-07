@@ -168,7 +168,6 @@ export default function WAN6Form({
                     wan6_settings: { wan6_type: { $set: value } },
                 }))}
                 disabled={disabled}
-                customOrder
             />
             {wanForm}
         </>

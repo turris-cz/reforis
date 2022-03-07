@@ -39,12 +39,20 @@ export default function RegionForm({ formData, setFormValue, disabled }) {
     }
 
     function getCountryChoices() {
-        return Object.keys(TIMEZONES[formData.region])
+        const countries = Object.keys(TIMEZONES[formData.region])
             .sort()
             .reduce((obj, country_code) => {
                 obj[country_code] = _(COUNTRIES[country_code]);
                 return obj;
             }, {});
+
+        const sortedCountries = Object.fromEntries(
+            Object.entries(countries).sort(([, a], [, b]) =>
+                a.toString().localeCompare(b.toString())
+            )
+        );
+
+        return sortedCountries;
     }
 
     function getCityChoices() {
