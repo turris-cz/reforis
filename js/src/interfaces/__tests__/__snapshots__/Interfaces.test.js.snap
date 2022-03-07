@@ -232,14 +232,14 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
           id="1"
         >
           <option
-            value="guest"
-          >
-            Guest Network
-          </option>
-          <option
             value="lan"
           >
             LAN
+          </option>
+          <option
+            value="guest"
+          >
+            Guest Network
           </option>
           <option
             value="none"
@@ -562,14 +562,14 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
           id="1"
         >
           <option
-            value="guest"
-          >
-            Guest Network
-          </option>
-          <option
             value="lan"
           >
             LAN
+          </option>
+          <option
+            value="guest"
+          >
+            Guest Network
           </option>
           <option
             value="none"
@@ -1151,14 +1151,14 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
           id="1"
         >
           <option
-            value="guest"
-          >
-            Guest Network
-          </option>
-          <option
             value="lan"
           >
             LAN
+          </option>
+          <option
+            value="guest"
+          >
+            Guest Network
           </option>
           <option
             value="none"
