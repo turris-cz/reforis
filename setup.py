@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-#  Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -29,12 +29,11 @@ class CustomBuild(build_py):
 
 setuptools.setup(
     name='reforis',
-    version='1.2.0',
+    version='1.2.1',
     packages=setuptools.find_packages(exclude=['tests']),
     include_package_data=True,
 
-    description='The reForis, redesigned Foris router configuration web interface.',
-    long_description='',
+    description='reForis is the latest, simple, and most user-friendly interface for Turris routers.',
     url='https://gitlab.nic.cz/turris/reforis/reforis',
     author='CZ.NIC, z. s. p. o.',
     author_email='bogdan.bodnar@nic.cz',
@@ -46,8 +45,8 @@ setuptools.setup(
         'Flask-SeaSurf',
         'flup',
         'cachelib',
-        'foris-client @ git+https://gitlab.nic.cz/turris/foris-controller/foris-client#egg=foris-client',
         'paho-mqtt',
+        'foris-client @ git+https://gitlab.nic.cz/turris/foris-controller/foris-client#egg=foris-client',
     ],
     setup_requires=[
         'Babel',
@@ -80,11 +79,11 @@ setuptools.setup(
     classifiers=[
         'Framework :: Flask',
         'Intended Audience :: End Users/Desktop',
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 5 - Production/Stable',
         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
         'Natural Language :: English',
         'Operating System :: POSIX :: Linux',
-        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3',
         'Topic :: System :: Networking',
     ],
     zip_safe=False,

@@ -8,6 +8,42 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.2.1] - 2021-03-10
+
+### Added
+
+-   Added & update translations
+-   Added ESLint import plugin to sort imports correctly
+-   Added Python interactive debugging guide
+-   Added webpack-bundle-analyzer
+-   Added new-password autocomplete attribute to password inputs
+-   Added CHANGELOG filled with existed tags & info
+
+### Changed
+
+-   Improved handling of loading translations
+-   Refined Makefile
+-   Updated required NodeJS versiont to 14.x
+-   Updated Python image to v3.10.2
+-   Updated Node.js image to v14
+-   Updated Foris JS library to v5.3.0
+-   NPM update several dependencies
+-   Fixed translation messages strings
+-   Fixed uninitialized guideData
+-   Fixed typos and inconsistencies on the Packages page
+-   Fixed grammar and spelling mistakes in many places
+-   Fixed messages.pot template's header comment
+-   Fixed reForis react-styleguidist docs build
+-   Fixed sorting of countries by name
+-   NPM audit fix
+-   Other small improvements
+
+### Removed
+
+-   Removed hardcoded setuptools version
+-   Removed obsolete auth section from reForis docs
+-   Replaced domain validation with hostname
+
 ## [1.2.0] - 2021-12-15
 
 ### Changed
@@ -379,7 +415,8 @@ and this project adheres to
 
 -   Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.2.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.2.1...master
+[1.2.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.2.0...v1.2.1
 [1.2.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.1.4...v1.2.0
 [1.1.4]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.1.3...v1.1.4
 [1.1.3]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.1.2...v1.1.3
