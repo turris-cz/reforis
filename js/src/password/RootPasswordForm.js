@@ -62,6 +62,7 @@ through the <a href="%s" target="_blank" rel="noopener noreferrer">LuCI web inte
                 }}
             />
             <PasswordInput
+                newPass
                 withEye
                 label={_("New password")}
                 value={formData.newRootPassword}
@@ -73,6 +74,7 @@ through the <a href="%s" target="_blank" rel="noopener noreferrer">LuCI web inte
                 disabled={disabled}
             />
             <PasswordInput
+                newPass
                 withEye
                 label={_("Confirm new password")}
                 value={formData.newRootPasswordRepeat}
