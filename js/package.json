@@ -6,8 +6,8 @@
         "url": "https://gitlab.nic.cz/turris/reforis/reforis.git"
     },
     "license": "GPL-3.0",
-    "version": "1.2.0",
-    "description": "Turris routers web configuration interface.",
+    "version": "1.2.1",
+    "description": "reForis is the latest, simple, and most user-friendly interface for Turris routers.",
     "main": "./src/app.js",
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.1",

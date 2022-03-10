@@ -1,15 +1,15 @@
-# French translations for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
-# This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# French translations for reForis.
+# Copyright (C) 2022 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# This file is distributed under the same license as the reForis project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-12-14 19:54+0300\n"
-"PO-Revision-Date: 2021-11-22 10:52+0000\n"
-"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"POT-Creation-Date: 2022-03-08 13:59+0100\n"
+"PO-Revision-Date: 2022-01-13 10:22+0000\n"
+"Last-Translator: Gabriel GRONDIN <gglinnk@protonmail.com>\n"
 "Language: fr\n"
 "Language-Team: French "
 "<https://hosted.weblate.org/projects/turris/reforis/fr/>\n"
@@ -19,14 +19,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: js/src/about/About.js:23 js/src/main/pages.js:105 js/src/main/pages.js:224
+#: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
 msgid "About"
 msgstr "À propos"
 
-#: js/src/about/About.js:26
+#: js/src/about/About.js:27
+#, fuzzy
 msgid ""
 "Here you can find some information about your device. Please include it "
-"into your message if you contact our <a "
+"in your message if you contact our <a "
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
@@ -35,27 +36,27 @@ msgstr ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">assistance "
 "client</a>."
 
-#: js/src/about/About.js:55
+#: js/src/about/About.js:56
 msgid "Device"
 msgstr "Appareil"
 
-#: js/src/about/About.js:63
+#: js/src/about/About.js:64
 msgid "Serial number"
 msgstr "Numéro de série"
 
-#: js/src/about/About.js:67
+#: js/src/about/About.js:68
 msgid "reForis version"
 msgstr "version reForis"
 
-#: js/src/about/About.js:71
+#: js/src/about/About.js:72
 msgid "Turris OS version"
 msgstr "Version du système d'exploitation Turris"
 
-#: js/src/about/About.js:76
+#: js/src/about/About.js:77
 msgid "Turris OS branch"
 msgstr "Branche Turris OS"
 
-#: js/src/about/About.js:79
+#: js/src/about/About.js:80
 msgid ""
 "Turris OS is currently released in various branches, which have different"
 " functions and varying stability - you can pick, which branch you want to"
@@ -65,7 +66,7 @@ msgstr ""
 "fonctions différentes et une stabilité variable – vous pouvez choisir la "
 "branche que vous voulez tester."
 
-#: js/src/about/About.js:105
+#: js/src/about/About.js:106
 msgid "Kernel version"
 msgstr "Version du noyau"
 
@@ -74,8 +75,8 @@ msgid "Reset"
 msgstr "Réinitialiser"
 
 #: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:66
-#: js/src/dns/DNSSECDisableModal.js:30
-#: js/src/notificationsSettings/TestNotification.js:146
+#: js/src/dns/DNSSECDisableModal.js:34
+#: js/src/notificationsSettings/TestNotification.js:148
 msgid "Warning!"
 msgstr "Attention !"
 
@@ -84,8 +85,8 @@ msgid "Are you sure you want to reset the router?"
 msgstr "Voulez-vous vraiment réinitialiser le routeur ?"
 
 #: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:71
-#: js/src/dns/DNSSECDisableModal.js:41
-#: js/src/notificationsSettings/TestNotification.js:151
+#: js/src/dns/DNSSECDisableModal.js:48
+#: js/src/notificationsSettings/TestNotification.js:153
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -93,7 +94,7 @@ msgstr "Annuler"
 msgid "Confirm factory reset"
 msgstr "Confirmer la réinitialisation d'usine"
 
-#: js/src/common/RebootButton.js:51 js/src/maintenance/Reboot.js:16
+#: js/src/common/RebootButton.js:51 js/src/maintenance/Reboot.js:17
 msgid "Reboot"
 msgstr "Redémarrer"
 
@@ -109,11 +110,11 @@ msgstr "Confirmer le redémarrage"
 msgid "Go to top"
 msgstr "Aller en haut"
 
-#: js/src/common/network/DHCP6ClientsList.js:24
+#: js/src/common/network/DHCP6ClientsList.js:25
 msgid "IPv6 DHCP Client List"
 msgstr "Liste des clients DHCP IPv6"
 
-#: js/src/common/network/DHCP6ClientsList.js:26
+#: js/src/common/network/DHCP6ClientsList.js:27
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
@@ -121,34 +122,34 @@ msgstr ""
 "Cette liste contient tous les périphériques qui sont connectés au réseau "
 "par des connexions filaires ou sans fil utilisant l'IPv6."
 
-#: js/src/common/network/DHCP6ClientsList.js:32
-#: js/src/common/network/DHCPClientsList.js:28
+#: js/src/common/network/DHCP6ClientsList.js:33
+#: js/src/common/network/DHCPClientsList.js:29
 msgid "No clients found."
 msgstr "Aucun client DHCP trouvé."
 
-#: js/src/common/network/DHCP6ClientsList.js:39
-#: js/src/common/network/DHCPClientsList.js:35 js/src/hostname/Hostname.js:21
-#: js/src/main/pages.js:92 js/src/main/pages.js:183
+#: js/src/common/network/DHCP6ClientsList.js:40
+#: js/src/common/network/DHCPClientsList.js:36 js/src/hostname/Hostname.js:24
+#: js/src/main/pages.js:89 js/src/main/pages.js:180
 msgid "Hostname"
 msgstr "Nom d’hôte"
 
-#: js/src/common/network/DHCP6ClientsList.js:40
+#: js/src/common/network/DHCP6ClientsList.js:41
 msgid "IPv6 Address"
 msgstr "Adresse IPv6"
 
-#: js/src/common/network/DHCP6ClientsList.js:41
+#: js/src/common/network/DHCP6ClientsList.js:42
 msgid "DUID"
 msgstr "DUID"
 
-#: js/src/common/network/DHCP6ClientsList.js:42
-#: js/src/common/network/DHCPClientsList.js:38
+#: js/src/common/network/DHCP6ClientsList.js:43
+#: js/src/common/network/DHCPClientsList.js:39
 msgid "Expires"
 msgstr "Expire le"
 
-#: js/src/common/network/DHCP6ClientsList.js:76
-#: js/src/common/network/DHCPClientsList.js:74
+#: js/src/common/network/DHCP6ClientsList.js:77
+#: js/src/common/network/DHCPClientsList.js:75
 msgid "Never"
-msgstr ""
+msgstr "Jamais"
 
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
@@ -158,11 +159,11 @@ msgstr "Nom d’hôte qui sera assigné au serveur DHCP."
 msgid "DHCP hostname"
 msgstr "Nom d’hôte DHCP"
 
-#: js/src/common/network/DHCPClientsList.js:20
+#: js/src/common/network/DHCPClientsList.js:21
 msgid "DHCP Client List"
 msgstr "Liste des clients DHCP"
 
-#: js/src/common/network/DHCPClientsList.js:22
+#: js/src/common/network/DHCPClientsList.js:23
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
@@ -170,23 +171,23 @@ msgstr ""
 "Cette liste contient tous les périphériques qui sont connectés au réseau "
 "par des connexions câblées ou sans fil."
 
-#: js/src/common/network/DHCPClientsList.js:36
+#: js/src/common/network/DHCPClientsList.js:37
 msgid "IPv4 Address"
 msgstr "Adresse IPv4"
 
-#: js/src/common/network/DHCPClientsList.js:37
+#: js/src/common/network/DHCPClientsList.js:38
 msgid "MAC Address"
 msgstr "Adresse MAC"
 
-#: js/src/common/network/DHCPClientsList.js:39
+#: js/src/common/network/DHCPClientsList.js:40
 msgid "Active"
 msgstr "Actif"
 
-#: js/src/common/network/DHCPClientsList.js:84
+#: js/src/common/network/DHCPClientsList.js:85
 msgid "Device is active"
 msgstr "L’appareil est actif"
 
-#: js/src/common/network/DHCPClientsList.js:84
+#: js/src/common/network/DHCPClientsList.js:85
 msgid "Device is inactive"
 msgstr "L’appareil est inactif"
 
@@ -214,39 +215,39 @@ msgstr "Nombre maximal d'adresses disponibles pour les clients DHCP."
 msgid "Lease time (hours)"
 msgstr "Durée du bail (heures)"
 
-#: js/src/common/network/DHCPValidators.js:71
+#: js/src/common/network/DHCPValidators.js:70
 msgid "Value must be a number."
 msgstr "La valeur doit être un nombre."
 
-#: js/src/common/network/DHCPValidators.js:74
+#: js/src/common/network/DHCPValidators.js:73
 msgid "Value must be positive."
 msgstr "La valeur doit être positive."
 
-#: js/src/common/network/DHCPValidators.js:87
+#: js/src/common/network/DHCPValidators.js:86
 msgid "Invalid network settings. DHCP settings can't be validated."
 msgstr ""
 "Paramètres réseau non valides. Les paramètres DHCP ne peuvent pas être "
 "validés."
 
-#: js/src/common/network/DHCPValidators.js:100
+#: js/src/common/network/DHCPValidators.js:99
 msgid "Minimum lease time is 1 hour."
 msgstr "La durée de bail minimale est de 1 heure."
 
-#: js/src/common/network/DHCPValidators.js:116
+#: js/src/common/network/DHCPValidators.js:115
 msgid "Address is outside current network."
 msgstr "L'adresse est en dehors du réseau actuel."
 
-#: js/src/common/network/DHCPValidators.js:120
+#: js/src/common/network/DHCPValidators.js:119
 msgid "Address is already reserved for other purposes."
 msgstr "L'adresse est déjà réservée à d'autres fins."
 
-#: js/src/common/network/DHCPValidators.js:131
+#: js/src/common/network/DHCPValidators.js:130
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr ""
 "Trop d'adresses demandées. Définissez un nombre inférieur ou modifiez le "
 "début du DHCP."
 
-#: js/src/common/network/DHCPValidators.js:138
+#: js/src/common/network/DHCPValidators.js:137
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
@@ -294,102 +295,82 @@ msgstr "Ce champ est obligatoire."
 msgid "This is not a valid network mask."
 msgstr "Ce n’est pas un masque réseau valide."
 
-#: js/src/connectionTest/ConnectionTestButton.js:26
+#: js/src/connectionTest/ConnectionTestButton.js:27
 msgid "Test is running..."
 msgstr "Le test est en cours d’exécution …"
 
-#: js/src/connectionTest/ConnectionTestButton.js:29
+#: js/src/connectionTest/ConnectionTestButton.js:30
 msgid "Test connection again"
 msgstr "Tester à nouveau la connexion"
 
-#: js/src/connectionTest/ConnectionTestButton.js:32
+#: js/src/connectionTest/ConnectionTestButton.js:33
 msgid "Test connection"
 msgstr "Test de connexion"
 
-#: js/src/connectionTest/ConnectionTestResult.js:14
+#: js/src/connectionTest/ConnectionTestResult.js:16
 msgid "IPv4 connectivity"
 msgstr "Connectivité IPv4"
 
-#: js/src/connectionTest/ConnectionTestResult.js:15
+#: js/src/connectionTest/ConnectionTestResult.js:17
 msgid "IPv4 gateway connectivity"
 msgstr "Connectivité de la passerelle IPv4"
 
-#: js/src/connectionTest/ConnectionTestResult.js:16
+#: js/src/connectionTest/ConnectionTestResult.js:18
 msgid "IPv6 connectivity"
 msgstr "Connectivité IPv6"
 
-#: js/src/connectionTest/ConnectionTestResult.js:17
+#: js/src/connectionTest/ConnectionTestResult.js:19
 msgid "IPv6 gateway connectivity"
 msgstr "Connectivité de la passerelle IPv6"
 
-#: js/src/connectionTest/ConnectionTestResult.js:83
+#: js/src/connectionTest/ConnectionTestResult.js:85
 msgid "Connection test successful"
 msgstr "Test de connexion réussi"
 
-#: js/src/connectionTest/ConnectionTestResult.js:88
+#: js/src/connectionTest/ConnectionTestResult.js:90
 msgid "Connection test failed"
 msgstr "Échec du test de connexion"
 
-#: js/src/connectionTest/ConnectionTestResult.js:93
+#: js/src/connectionTest/ConnectionTestResult.js:95
 msgid "Connection test not started"
 msgstr "Le test de connexion n'a pas commencé"
 
-#: js/src/dns/DNS.js:34
+#: js/src/dns/DNS.js:33
 msgid ""
-"\n"
-"<p>Router Turris uses its own DNS resolver with DNSSEC support. It is "
-"capable of working independently or it\n"
-"can forward your DNS queries your internet service provider's DNS "
-"resolver.<p/>\n"
-"<p>The following setting determines the behavior of the DNS resolver. "
-"Usually, it is better to use the ISP's\n"
-"resolver in networks where it works properly. If it does not work for "
-"some reason, it is necessary to use\n"
-"direct resolving without forwarding.<p/>\n"
-"<p>In rare cases ISP's have improperly configured network which "
-"interferes with DNSSEC validation. If you\n"
-"experience problems with DNS, you can <b>temporarily</b> disable DNSSEC "
-"validation to determine the source\n"
-"of the problem. However, keep in mind that without DNSSEC validation, you"
-" are vulnerable to DNS spoofing\n"
-"attacks! Therefore we <b>recommend keeping DNSSEC turned on</b> and "
-"resolving the situation with your ISP as\n"
-"this is a serious flaw on their side.</p>\n"
-"            "
+"Router Turris uses its own DNS resolver with DNSSEC support. It is "
+"capable of working independently or it can forward your DNS queries your "
+"internet service provider's DNS resolver."
 msgstr ""
-"\n"
-"<p>Le routeur Turris utilise son propre résolveur DNS avec prise en "
-"charge de DNSSEC. Il est capable de fonctionner indépendamment ou il\n"
-"peut transférer vos requêtes DNS au résolveur DNS de votre fournisseur "
-"Internet.<p/>\n"
-"<p>Le paramètre suivant détermine le comportement du résolveur DNS. "
-"Habituellement, il vaut mieux utiliser le résolveur du FAI\n"
-"dans les réseaux où il fonctionne correctement. S'il ne fonctionne pas "
-"pour une raison quelconque, il est nécessaire d'utiliser\n"
-"la résolution directe sans transmission.<p/>\n"
-"<p>Dans de rares cas, les FAI ont un réseau mal configuré qui interfère "
-"avec la validation DNSSEC. Si vous\n"
-"rencontrez des problèmes avec le DNS, vous pouvez <b>temporairement</b> "
-"désactiver la validation DNSSEC pour déterminer la source\n"
-"du problème. Cependant, gardez à l'esprit que sans validation DNSSEC, "
-"vous êtes vulnérable aux attaques par usurpation d'identité DNS !\n"
-"attaques ! Par conséquent, nous <b>recommandons de garder les DNSSEC "
-"activés</b> et de résoudre la situation avec votre FAI car\n"
-"c’est un grave défaut de leur côté.</p>\n"
-"            "
 
-#: js/src/dns/DNS.js:62 js/src/overview/Overview.js:70 js/src/wan/WAN.js:48
+#: js/src/dns/DNS.js:38
+msgid ""
+"The following setting determines the behavior of the DNS resolver. "
+"Usually, it is better to use the ISP's resolver in networks where it "
+"works properly. If it does not work for some reason, it is necessary to "
+"use direct resolving without forwarding."
+msgstr ""
+
+#: js/src/dns/DNS.js:44
+msgid ""
+"In rare cases, ISP's have an improperly configured network, which "
+"interferes with DNSSEC validation. If you experience problems with DNS, "
+"you can <b>temporarily</b> disable DNSSEC validation to determine the "
+"source of the problem. However, keep in mind that without DNSSEC "
+"validation, you are vulnerable to DNS spoofing attacks! Therefore we "
+"<b>recommend keeping DNSSEC turned on</b> and resolving the situation "
+"with your ISP as this is a serious flaw on their side."
+msgstr ""
+
+#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:49
 msgid "Connection Test"
 msgstr "Test de connexion"
 
-#: js/src/dns/DNS.js:65
+#: js/src/dns/DNS.js:66
+#, fuzzy
 msgid ""
-"\n"
 "Here you can test your internet connection. This test is also useful when"
-" you need to check that your DNS resolving \n"
-"works as expected. Remember to click on the <b>Save button</b> if you "
-"changed your forwarder setting.\n"
-"        "
+" you need to check that your DNS resolving works as expected. Remember to"
+" click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
 "\n"
 "Ici, vous pouvez tester votre connexion Internet. Ce test est également "
@@ -437,121 +418,118 @@ msgstr "Domaine des clients DHCP dans le DNS"
 
 #: js/src/dns/DNSSECDisableModal.js:13
 msgid ""
-"\n"
-"DNSSEC is a security technology that protects the DNS communication "
-"against attacks on the DNS infrastructure.\n"
-"We strongly recommend keeping DNSSEC validation enabled unless you know "
-"that you will be connecting your device in the\n"
-"network where DNSSEC is broken. \n"
-"\n"
-"Do you still want to continue and stay unprotected?\n"
+"DNSSEC is a security technology that protects DNS communication against "
+"attacks on the DNS infrastructure."
 msgstr ""
-"\n"
-"DNSSEC est une technologie de sécurité qui protège les communications DNS"
-" contre les attaques sur l’infrastructure DNS.\n"
-"Nous recommandons fortement de garder la validation de DNSSEC activée, "
-"sauf si vous savez que vous connecterez votre appareil dans un\n"
-"réseau où DNSSEC est cassé.\n"
-"\n"
-"Voulez-vous toujours continuer et rester sans protection ?\n"
 
-#: js/src/dns/DNSSECDisableModal.js:50
+#: js/src/dns/DNSSECDisableModal.js:17
+msgid ""
+"We strongly recommend keeping DNSSEC validation enabled unless you know "
+"that you will be connecting your device to the network where DNSSEC is "
+"broken."
+msgstr ""
+
+#: js/src/dns/DNSSECDisableModal.js:21
+msgid "Do you still want to continue and stay unprotected?"
+msgstr ""
+
+#: js/src/dns/DNSSECDisableModal.js:56
 msgid "Disable DNSSEC"
 msgstr "Désactiver DNSSEC"
 
-#: js/src/dns/Forwarders/Forwarders.js:80
+#: js/src/dns/Forwarders/Forwarders.js:81
 msgid "Edit forwarder"
 msgstr "Modifier l'expéditeur"
 
-#: js/src/dns/Forwarders/Forwarders.js:81
-#: js/src/dns/Forwarders/Forwarders.js:103
+#: js/src/dns/Forwarders/Forwarders.js:82
+#: js/src/dns/Forwarders/Forwarders.js:104
 msgid "Add custom forwarder"
 msgstr "Ajouter un expéditeur personnalisé"
 
-#: js/src/dns/Forwarders/ForwardersTable.js:37
+#: js/src/dns/Forwarders/ForwardersTable.js:38
 msgid "Forwarders"
 msgstr "Ré-expéditeurs"
 
-#: js/src/dns/Forwarders/ForwardersTable.js:38
+#: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Actions"
 msgstr "Actions"
 
-#: js/src/dns/Forwarders/ForwardersTable.js:45
+#: js/src/dns/Forwarders/ForwardersTable.js:46
 msgid "Use provider's DNS resolver"
 msgstr "Utiliser le résolveur DNS du fournisseur"
 
-#: js/src/dns/Forwarders/ForwardersTable.js:142
+#: js/src/dns/Forwarders/ForwardersTable.js:143
 msgid "Edit"
 msgstr "Modifier"
 
-#: js/src/dns/Forwarders/ForwardersTable.js:150
+#: js/src/dns/Forwarders/ForwardersTable.js:151
 msgid "Delete"
 msgstr "Supprimer"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:23
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:24
 msgid "Base 64 encoded SHA-256."
 msgstr "sha256 encodé en base64."
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:24
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:25
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr ""
 "\"No TLS\" signifie que le protocole DNS normal basé sur le protocole UDP"
 " est utilisé."
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:49
-#: js/src/packageManagement/updates/UpdateApproval.js:152
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:50
+#: js/src/packageManagement/updates/UpdateApproval.js:153
 msgid "Name"
 msgstr "Nom"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:72
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:73
 msgid "TLS type"
 msgstr "Type de TLS"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:90
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:91
 msgid "TLS hostname"
 msgstr "Nom d'hôte TLS"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:102
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:103
 msgid "TLS pin"
 msgstr "Broche TLS"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:118
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
 msgid "Save"
 msgstr "Enregistrer"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:13
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:14
 msgid "IPv4"
 msgstr "IPv4"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:14
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:15
 msgid "IPv6"
 msgstr "IPv6"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:51
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:52
 msgid "${label} Addresses"
 msgstr "${label} Adresses"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:56
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:57
 msgid "${label} #${index + 1}"
 msgstr "${label} #${index + 1}"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:80
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:81
 msgid "Add ${label} address"
 msgstr "Ajouter l'adresse ${label}"
 
-#: js/src/dns/Forwarders/Forwarder/hooks.js:44
+#: js/src/dns/Forwarders/Forwarder/hooks.js:47
 msgid "Forwarder saved successfully."
 msgstr "Transitaire enregistré avec succès."
 
-#: js/src/dns/Forwarders/Forwarder/hooks.js:46
+#: js/src/dns/Forwarders/Forwarder/hooks.js:49
 msgid "Can't save forwarder."
 msgstr "Impossible d'enregistrer le transitaire."
 
-#: js/src/dns/Forwarders/Forwarder/hooks.js:53
+#: js/src/dns/Forwarders/Forwarder/hooks.js:56
 msgid "Forwarder added successfully."
 msgstr "Transitaire ajouté avec succès."
 
-#: js/src/dns/Forwarders/Forwarder/hooks.js:55
+#: js/src/dns/Forwarders/Forwarder/hooks.js:58
 msgid "Can't add new forwarder."
 msgstr "Impossible d'ajouter un nouveau transitaire."
 
@@ -571,21 +549,18 @@ msgstr "L’épingle TLS devrait avoir au moins un symbole."
 msgid "Define at least one of the IP addresses of the forwarder."
 msgstr "Définissez au moins une des adresses IP du transitaire."
 
-#: js/src/guestNetwork/GuestNetwork.js:37 js/src/interfaces/constants.js:11
-#: js/src/main/pages.js:150
+#: js/src/guestNetwork/GuestNetwork.js:38 js/src/interfaces/constants.js:11
+#: js/src/main/pages.js:147
 msgid "Guest Network"
 msgstr "Réseau invité"
 
-#: js/src/guestNetwork/GuestNetwork.js:41
+#: js/src/guestNetwork/GuestNetwork.js:42
+#, fuzzy
 msgid ""
-"\n"
-"Guest network is used for <a href=\"${ForisURLs.wifi}\">guest Wi-Fi</a>.\n"
-"It is separated from your ordinary LAN. Devices connected to this network"
-" are allowed to access the\n"
-"internet, but are not allowed to access the configuration interface of "
-"the this device nor the devices\n"
-"in LAN.\n"
-"        "
+"The guest network is used for <a href=\"${ForisURLs.wifi}\">guest Wi-"
+"Fi</a>. It is separated from your ordinary LAN. Devices connected to this"
+" network are allowed to access the internet but are not allowed to access"
+" the configuration interface of this device or the devices in LAN."
 msgstr ""
 "\n"
 "Le réseau invité est utilisé pour les <a "
@@ -610,6 +585,8 @@ msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
+"Cette option vous permet de limiter le débit du réseau d'invité afin "
+"d'éviter au réseau principal d'être ralentis par celui-ci."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
@@ -620,14 +597,12 @@ msgid "Upload speed in guest network (in kilobits per second)."
 msgstr "Vitesse de téléversement sur le réseau invité (en kilobit par seconde)."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:65
-#, fuzzy
 msgid "Guest Network Settings"
-msgstr "Paramètres réseau"
+msgstr "Paramètres du réseau d'invité"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:67
-#, fuzzy
 msgid "Enable Guest Network"
-msgstr "Réseau invité"
+msgstr "Activer le réseau d'invité"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:77 js/src/lan/LANManagedForm.js:61
 msgid "Router IP address"
@@ -642,12 +617,12 @@ msgid "Enable QoS"
 msgstr "Activer la QoS"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:159
-#: js/src/overview/Cards/NetmetrCard.js:67
+#: js/src/overview/Cards/NetmetrCard.js:70
 msgid "Download"
 msgstr "Télécharger"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
-#: js/src/overview/Cards/NetmetrCard.js:83
+#: js/src/overview/Cards/NetmetrCard.js:86
 msgid "Upload"
 msgstr "Téléversement"
 
@@ -659,14 +634,17 @@ msgstr "La vitesse de téléchargement doit être positive"
 msgid "Upload speed must be positive"
 msgstr "La vitesse de téléversement doit être positive"
 
-#: js/src/guestNetwork/GuestNetworkNotification.js:12
+#: js/src/guestNetwork/GuestNetworkNotification.js:13
 msgid ""
 "This network currently doesn't contain any devices. The changes you make "
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
+"Ce réseau ne contient actuellement aucun appareil. Les modifications que "
+"vous effectuez ici seront pleinement fonctionnelles après que vous aurez "
+"affecté une interface réseau à ce réseau."
 
-#: js/src/guestNetwork/GuestNetworkNotification.js:16
+#: js/src/guestNetwork/GuestNetworkNotification.js:17
 msgid "All network interfaces of this network are currently down."
 msgstr "Toutes les interfaces réseau de ce réseau sont actuellement hors service."
 
@@ -808,7 +786,6 @@ msgstr ""
 "configuration supplémentaires pour que l’appareil réponde à vos besoins."
 
 #: js/src/guide/constants.js:98
-#, fuzzy
 msgid ""
 "Your device is now ready to be used. You can tweak the rest of the "
 "setting in the administration interface. Once you finish the guide, your "
@@ -818,7 +795,7 @@ msgstr ""
 "Votre appareil est maintenant prêt à être utilisé. Vous pouvez modifier "
 "le reste des paramètres dans l'interface d'administration. Une fois que "
 "vous aurez terminé le guide, votre Shield essaiera de se connecter à "
-"l'Internet, et vous vous retrouverez dans l'interface d'administration."
+"Internet et vous vous retrouverez dans l'interface d'administration."
 
 #: js/src/guide/constants.js:109
 msgid ""
@@ -896,56 +873,56 @@ msgstr ""
 "Félicitations ! Votre appareil devrait maintenant être en mesure d'agir "
 "comme un serveur sur votre réseau local."
 
-#: js/src/guide/hooks.js:23
+#: js/src/guide/hooks.js:24
 msgid "Cannot mark guide as finished."
 msgstr "Impossible de marquer le guide comme terminé."
 
-#: js/src/guide/steps.js:20 js/src/main/pages.js:72 js/src/main/pages.js:163
+#: js/src/guide/steps.js:21 js/src/main/pages.js:69 js/src/main/pages.js:160
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
-#: js/src/password/Password.js:174 reforis/templates/login.html:30
+#: js/src/password/Password.js:174
 msgid "Password"
 msgstr "Mot de passe"
 
-#: js/src/guide/steps.js:24
+#: js/src/guide/steps.js:25
 msgid "Workflow"
 msgstr "Flux de travail"
 
-#: js/src/guide/steps.js:28 js/src/main/pages.js:145
+#: js/src/guide/steps.js:29 js/src/main/pages.js:142
 msgid "Interfaces"
 msgstr "Interfaces"
 
-#: js/src/guide/steps.js:32 js/src/regionAndTime/TimeForm.js:124
+#: js/src/guide/steps.js:33 js/src/regionAndTime/TimeForm.js:124
 msgid "Time"
 msgstr "Heure"
 
-#: js/src/guide/steps.js:36 js/src/main/pages.js:59 js/src/main/pages.js:140
+#: js/src/guide/steps.js:37 js/src/main/pages.js:56 js/src/main/pages.js:137
 msgid "DNS"
 msgstr "DNS"
 
-#: js/src/guide/steps.js:40 js/src/main/pages.js:196
-#: js/src/packageManagement/updates/Updates.js:27
+#: js/src/guide/steps.js:41 js/src/main/pages.js:193
+#: js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
 msgstr "Mises à jour"
 
-#: js/src/guide/steps.js:44 js/src/interfaces/constants.js:9
-#: js/src/main/pages.js:49 js/src/main/pages.js:130 js/src/wan/WAN.js:27
+#: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
+#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:28
 msgid "WAN"
 msgstr "WAN"
 
-#: js/src/guide/steps.js:48 js/src/interfaces/constants.js:10
-#: js/src/main/pages.js:54 js/src/main/pages.js:135
+#: js/src/guide/steps.js:49 js/src/interfaces/constants.js:10
+#: js/src/main/pages.js:51 js/src/main/pages.js:132
 msgid "LAN"
 msgstr "Réseau local"
 
-#: js/src/guide/steps.js:52
+#: js/src/guide/steps.js:53
 msgid "Finish"
 msgstr "Terminer"
 
-#: js/src/guide/GuideControls/NextStepButton.js:28
+#: js/src/guide/GuideControls/NextStepButton.js:29
 msgid "Next step"
 msgstr "Étape suivante"
 
-#: js/src/guide/GuideControls/SkipGuideButton.js:32
+#: js/src/guide/GuideControls/SkipGuideButton.js:33
 msgid "Skip guide"
 msgstr "Ignorer le guide"
 
@@ -978,7 +955,7 @@ msgstr ""
 msgid "Continue"
 msgstr "Continuer"
 
-#: js/src/guide/GuidePages/WorkflowSelect.js:25
+#: js/src/guide/GuidePages/WorkflowSelect.js:26
 msgid ""
 "This workflow will help you to setup your device to act as a local "
 "server. It means that the device will provide some kind of service to "
@@ -990,7 +967,7 @@ msgstr ""
 "services aux autres appareils dans votre réseau local (p. ex. agir comme "
 "un serveur de stockage en réseau)."
 
-#: js/src/guide/GuidePages/WorkflowSelect.js:28
+#: js/src/guide/GuidePages/WorkflowSelect.js:29
 msgid ""
 "After you finish this workflow your device will be able to act as a fully"
 " functional router. It assumes that you want to have more or less "
@@ -1000,7 +977,7 @@ msgstr ""
 "d’agir comme un routeur pleinement fonctionnel. Cela suppose que vous "
 "voulez plus ou moins une installation réseau standard."
 
-#: js/src/guide/GuidePages/WorkflowSelect.js:31
+#: js/src/guide/GuidePages/WorkflowSelect.js:32
 msgid ""
 "Just set your password and you are ready to go. This workflow is aimed to"
 " more advanced users who intend to set everything manually."
@@ -1009,28 +986,27 @@ msgstr ""
 " flux de travail est destiné aux utilisateurs plus avancés qui ont "
 "l'intention de tout définir manuellement."
 
-#: js/src/guide/GuidePages/WorkflowSelect.js:37
+#: js/src/guide/GuidePages/WorkflowSelect.js:38
 msgid "Local Server"
 msgstr "Serveur local"
 
-#: js/src/guide/GuidePages/WorkflowSelect.js:38 js/src/lan/LANForm.js:32
+#: js/src/guide/GuidePages/WorkflowSelect.js:39 js/src/lan/LANForm.js:33
 msgid "Router"
 msgstr "Routeur"
 
-#: js/src/guide/GuidePages/WorkflowSelect.js:39
-#, fuzzy
+#: js/src/guide/GuidePages/WorkflowSelect.js:40
 msgid "Minimal"
 msgstr "Minimale"
 
-#: js/src/guide/GuidePages/WorkflowSelect.js:57
+#: js/src/guide/GuidePages/WorkflowSelect.js:58
 msgid "Cannot set workflow."
 msgstr "Impossible de définir le flux de travail."
 
-#: js/src/guide/GuidePages/WorkflowSelect.js:67
+#: js/src/guide/GuidePages/WorkflowSelect.js:68
 msgid "Guide Workflow"
 msgstr "Guide du flux de travail"
 
-#: js/src/guide/GuidePages/WorkflowSelect.js:69
+#: js/src/guide/GuidePages/WorkflowSelect.js:70
 msgid ""
 "Here you can set the guide walkthrough which will guide you through the "
 "basic configuration of your device."
@@ -1038,52 +1014,44 @@ msgstr ""
 "Ici, vous pouvez lancer la procédure pas à pas qui vous guidera à travers"
 " la configuration de base de votre appareil."
 
-#: js/src/guide/GuidePages/WorkflowSelect.js:84
+#: js/src/guide/GuidePages/WorkflowSelect.js:85
 msgid "Recommended"
 msgstr "Recommandé"
 
-#: js/src/hostname/Hostname.js:22
-#, fuzzy
+#: js/src/hostname/Hostname.js:25
 msgid "Here you can check and set the name of your device."
-msgstr ""
-"Vous devez maintenant régler l’heure et le fuseau horaire de votre "
-"appareil."
+msgstr "Ici, vous pouvez vérifier et définir le nom de votre appareil."
 
-#: js/src/hostname/Hostname.js:41
-#, fuzzy
+#: js/src/hostname/Hostname.js:44
 msgid ""
 "The hostname can contain only alphanumeric characters, hyphens, "
 "underscores and can't be empty."
 msgstr ""
-"Le nom de l’expéditeur ne peut contenir que des caractères "
-"alphanumériques, des points et des tirets bas."
+"Le nom d'hôte ne peut contenir que des caractères alphanumériques, des "
+"traits d'union, des tirets bas et ne peut pas être vide."
 
-#: js/src/hostname/HostnameForm.js:13
+#: js/src/hostname/HostnameForm.js:14
 msgid "Rewrite the hostname to set a new one."
 msgstr "Réécrivez le nom d'hôte pour en définir un nouveau."
 
-#: js/src/hostname/HostnameForm.js:33
-#, fuzzy
+#: js/src/hostname/HostnameForm.js:34
 msgid "Hostname Settings"
-msgstr "Paramètres de temps"
+msgstr "Paramètres du nom d'hôte"
 
-#: js/src/hostname/HostnameForm.js:35
-#, fuzzy
+#: js/src/hostname/HostnameForm.js:36
 msgid "Device hostname"
-msgstr "Nom d'hôte TLS"
+msgstr "Nom d'hôte de l'appareil"
 
-#: js/src/interfaces/Interfaces.js:25
+#: js/src/interfaces/Interfaces.js:27
 msgid "Network Interfaces"
 msgstr "Interfaces Réseau"
 
-#: js/src/interfaces/Interfaces.js:27
+#: js/src/interfaces/Interfaces.js:29
+#, fuzzy
 msgid ""
-"\n"
 "Here you can configure the settings of the network interfaces on your "
-"device. You can switch the physical\n"
-"network interfaces among networks. If you are unsure what to set here use"
-" the default settings.\n"
-"        "
+"device. You can switch the physical network interfaces among networks. If"
+" you are unsure what to set here, use the default settings."
 msgstr ""
 "\n"
 "Ici, vous pouvez configurer les paramètres des interfaces réseau sur "
@@ -1092,7 +1060,7 @@ msgstr ""
 "ici, utilisez les paramètres par défaut.\n"
 "        "
 
-#: js/src/interfaces/Interfaces.js:51
+#: js/src/interfaces/Interfaces.js:52
 msgid "You have to assign at least one interface to this group."
 msgstr "Vous devez attribuer au moins une interface à ce groupe."
 
@@ -1106,12 +1074,10 @@ msgstr ""
 "sécurité."
 
 #: js/src/interfaces/InterfacesForm.js:111
+#, fuzzy
 msgid ""
-"\n"
 "It acts as an external network connection. Firewall rules should be "
-"applied here. It can only contain a\n"
-"single interface.\n"
-"        "
+"applied here. It can only contain a single interface."
 msgstr ""
 "\n"
 "Il agit comme une connexion réseau externe. Les règles de pare-feu "
@@ -1119,17 +1085,14 @@ msgstr ""
 "Il ne peut contenir qu'une seule interface.\n"
 "        "
 
-#: js/src/interfaces/InterfacesForm.js:124
+#: js/src/interfaces/InterfacesForm.js:123
+#, fuzzy
 msgid ""
-"\n"
-"It acts as a local network connection. LAN should contain devices which "
-"are under your control and you\n"
-"trust them. These devices can see each other and can access this web "
-"interface. It is recommended that the\n"
-"LAN should contain at least one interface otherwise you might not be able"
-" to configure this device in an\n"
-"easy way.\n"
-"        "
+"It acts as a local network connection. LAN should contain devices that "
+"are under your control, and you trust them. These devices can see each "
+"other and can access this web interface. It is recommended that the LAN "
+"should contain at least one interface. Otherwise, you might not be able "
+"to configure this device easily."
 msgstr ""
 "\n"
 "Il agit comme une connexion réseau locale. Le LAN doit contenir des "
@@ -1141,17 +1104,14 @@ msgstr ""
 "manière facile.\n"
 "        "
 
-#: js/src/interfaces/InterfacesForm.js:143
+#: js/src/interfaces/InterfacesForm.js:139
+#, fuzzy
 msgid ""
-"\n"
-"It acts as a local network connection. Unlike LAN the devices in the "
-"guest network can't access\n"
-"the configuration interface of this device and are only able to access "
-"WAN (internet). This network should\n"
-"be used for devices which you don't fully trust. Note that you can also "
-"limit download/upload speed of the\n"
-"devices connected to the guest network.\n"
-"        "
+"It acts as a local network connection. Unlike LAN, the devices in the "
+"guest network can't access the configuration interface of this device and"
+" only can access WAN (internet). This network should be used for devices "
+"that you don't fully trust. Note that you can also limit the "
+"download/upload speed of the devices connected to the guest network."
 msgstr ""
 "\n"
 "Il agit comme une connexion réseau locale. Contrairement au LAN, les "
@@ -1163,58 +1123,58 @@ msgstr ""
 "téléchargement/téléversement des appareils connectés au réseau invité.\n"
 "        "
 
-#: js/src/interfaces/Network.js:42
+#: js/src/interfaces/Network.js:43
 msgid "There are no interfaces in this group."
 msgstr "Il n'y a aucune interface dans ce groupe."
 
-#: js/src/interfaces/Network.js:63
+#: js/src/interfaces/Network.js:64
 msgid "Base module"
 msgstr "Module de base"
 
-#: js/src/interfaces/Network.js:64
+#: js/src/interfaces/Network.js:65
 #, python-format
 msgid "Module %s"
 msgstr "Module %s"
 
-#: js/src/interfaces/SelectedInterface.js:68
+#: js/src/interfaces/SelectedInterface.js:69
 #, python-format
 msgid "Interface %s %s"
 msgstr "Interface %s %s"
 
-#: js/src/interfaces/SelectedInterface.js:71
+#: js/src/interfaces/SelectedInterface.js:72
 msgid "Network"
 msgstr "Réseau"
 
-#: js/src/interfaces/SelectedInterface.js:79
+#: js/src/interfaces/SelectedInterface.js:80
 msgid "State"
 msgstr "État"
 
-#: js/src/interfaces/SelectedInterface.js:90
+#: js/src/interfaces/SelectedInterface.js:91
 msgid "Module ID"
 msgstr "ID du module"
 
-#: js/src/interfaces/SelectedInterface.js:94
+#: js/src/interfaces/SelectedInterface.js:95
 msgid "Slot"
 msgstr "Emplacement"
 
-#: js/src/interfaces/SelectedInterface.js:98
+#: js/src/interfaces/SelectedInterface.js:99
 msgid "Interface ID"
 msgstr "ID d'interface"
 
-#: js/src/interfaces/SelectedInterface.js:102
+#: js/src/interfaces/SelectedInterface.js:103
 msgid "Type"
 msgstr "Type"
 
-#: js/src/interfaces/SelectedInterface.js:106
+#: js/src/interfaces/SelectedInterface.js:107
 msgid "Bus"
 msgstr "Bus"
 
-#: js/src/interfaces/SelectedInterface.js:110
+#: js/src/interfaces/SelectedInterface.js:111
 msgid "Link speed"
 msgstr "Vitesse du lien"
 
-#: js/src/interfaces/SelectedInterface.js:112
-#: js/src/overview/Cards/NetmetrCard.js:114
+#: js/src/interfaces/SelectedInterface.js:113
+#: js/src/overview/Cards/NetmetrCard.js:117
 msgid "N/A"
 msgstr "N/A"
 
@@ -1222,67 +1182,54 @@ msgstr "N/A"
 msgid "Unassigned"
 msgstr "Non attribué"
 
-#: js/src/lan/LAN.js:30
+#: js/src/lan/LAN.js:25
 msgid ""
-"\n"
 "This section contains settings for the local network (LAN). The provided "
-"defaults are suitable for most\n"
-"networks.\n"
-"<br/>\n"
-"<b>Note:</b> If you change the router IP address, all computers in LAN, "
-"probably including the one you are\n"
-"using now, will need to obtain a <b>new IP address</b> which does not "
-"happen <b>immediately</b>. It is\n"
-"recommended to disconnect and reconnect all LAN cables after submitting "
-"your changes to force the update.\n"
-"The next page will not load until you obtain a new IP from DHCP (if DHCP "
-"enabled) and you might need to\n"
-"<b>refresh the page</b> in your browser.\n"
-"            "
+"defaults are suitable for most networks."
 msgstr ""
-"\n"
-"Cette section contient les paramètres du réseau local (LAN). Les valeurs "
-"par défaut fournies conviennent à la plupart\n"
-"des réseaux.\n"
-"<br/>\n"
-"<b>Remarque :</b> Si vous modifiez l'adresse IP du routeur, tous les "
-"ordinateurs du réseau local, y compris probablement celui\n"
-"que vous utilisez actuellement, devront obtenir une <b>nouvelle adresse "
-"IP</b> ce qui ne se produit pas <b>immédiatement</b>.\n"
-"Il est recommandé de déconnecter et reconnecter tous les câbles LAN après"
-" avoir soumis vos modifications pour forcer la mise à jour.\n"
-"La page suivante ne se chargera pas tant que vous n'aurez pas obtenu une "
-"nouvelle adresse IP auprès de DHCP (si DHCP est activé)\n"
-"et vous devrez peut-être <b>actualiser la page</b> dans votre navigateur."
-"\n"
-"            "
 
-#: js/src/lan/LANForm.js:18
+#: js/src/lan/LAN.js:36
+msgid ""
+"<b>Note:</b> If you change the router IP address, all computers in LAN, "
+"probably including the one you are using now, will need to obtain a "
+"<b>new IP address</b> which does not happen <b>immediately</b>. It is "
+"recommended to disconnect and reconnect all LAN cables after submitting "
+"your changes to force the update. The next page will not load until you "
+"obtain a new IP from DHCP (if DHCP is enabled), and you might need to "
+"<b>refresh the page</b> in your browser."
+msgstr ""
+
+#: js/src/lan/LANForm.js:19
 msgid ""
 "Router mode means that this device manages the LAN (acts as a router, can"
 " assign IP addresses, etc.)."
 msgstr ""
+"Le mode routeur signifie que cet appareil gère le réseau local (agit "
+"comme un routeur, peut attribuer des adresses IP, etc.)."
 
-#: js/src/lan/LANForm.js:21
+#: js/src/lan/LANForm.js:22
 msgid ""
 "Computer mode means that this device acts as a client in this network. It"
 " acts similarly to WAN, but it has opened ports for configuration "
 "interfaces and other services."
 msgstr ""
+"Le mode ordinateur signifie que cet appareil agit comme un client dans ce"
+" réseau. Il agit de la même manière que le WAN, mais dispose de ports "
+"ouverts pour les interfaces de configuration et d'autres services."
 
-#: js/src/lan/LANForm.js:33
+#: js/src/lan/LANForm.js:34
 msgid "Computer"
 msgstr "Ordinateur"
 
-#: js/src/lan/LANForm.js:83
+#: js/src/lan/LANForm.js:84
 msgid "LAN Settings"
 msgstr "Paramètres réseau local"
 
-#: js/src/lan/LANForm.js:86
+#: js/src/lan/LANForm.js:87
 msgid "LAN mode"
 msgstr "Mode réseau local"
 
-#: js/src/lan/LANForm.js:102
+#: js/src/lan/LANForm.js:103
 msgid "Redirect to 192.168.1.1"
 msgstr "Rediriger vers 192.168.1.1"
 
@@ -1290,94 +1237,93 @@ msgstr "Rediriger vers 192.168.1.1"
 msgid "Router's IP address in the inner network."
 msgstr "Adresse IP du routeur dans le réseau interne."
 
-#: js/src/lan/LANUnmanagedForm.js:24 js/src/wan/WANForm.js:25
+#: js/src/lan/LANUnmanagedForm.js:25 js/src/wan/WANForm.js:25
 msgid "DHCP (automatic configuration)"
 msgstr "DHCP (configuration automatique)"
 
-#: js/src/lan/LANUnmanagedForm.js:25 js/src/wan/WAN6Form.js:76
+#: js/src/lan/LANUnmanagedForm.js:26 js/src/wan/WAN6Form.js:75
 #: js/src/wan/WANForm.js:26
 msgid "Static IP address (manual configuration)"
 msgstr "Adresse IP statique (configuration manuelle)"
 
-#: js/src/lan/LANUnmanagedForm.js:26
+#: js/src/lan/LANUnmanagedForm.js:27
 msgid "Don't connect this device to LAN"
 msgstr "Ne pas connecter cet appareil au réseau local"
 
-#: js/src/lan/LANUnmanagedForm.js:86 js/src/wan/WANForm.js:102
+#: js/src/lan/LANUnmanagedForm.js:87 js/src/wan/WANForm.js:102
 msgid "IPv4 protocol"
 msgstr "Protocole IPv4"
 
-#: js/src/main/pages.js:37 js/src/main/pages.js:113
-#: js/src/overview/Overview.js:40
+#: js/src/main/pages.js:34 js/src/main/pages.js:110
+#: js/src/overview/Overview.js:43
 msgid "Overview"
 msgstr "Vue d’ensemble"
 
-#: js/src/main/pages.js:43 js/src/main/pages.js:119
+#: js/src/main/pages.js:40 js/src/main/pages.js:116
 msgid "Network Settings"
 msgstr "Paramètres réseau"
 
-#: js/src/main/pages.js:66 js/src/main/pages.js:157
+#: js/src/main/pages.js:63 js/src/main/pages.js:154
 msgid "Administration"
 msgstr "Administration"
 
-#: js/src/main/pages.js:77 js/src/main/pages.js:168
+#: js/src/main/pages.js:74 js/src/main/pages.js:165
 msgid "Region & Time"
 msgstr "Région et Heure"
 
-#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:76
-#: js/src/main/pages.js:82 js/src/main/pages.js:173
-#: js/src/notifications/Notifications/Notifications.js:87
-#: js/src/notificationsSettings/NotificationsSettings.js:25
+#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:78
+#: js/src/main/pages.js:79 js/src/main/pages.js:170
+#: js/src/notifications/Notifications/Notifications.js:89
+#: js/src/notificationsSettings/NotificationsSettings.js:26
 msgid "Notifications"
 msgstr "Notifications"
 
-#: js/src/main/pages.js:87 js/src/main/pages.js:178
-#: js/src/maintenance/Maintenance.js:17
+#: js/src/main/pages.js:84 js/src/main/pages.js:175
+#: js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
 msgstr "Maintenance"
 
-#: js/src/main/pages.js:99
-#, fuzzy
+#: js/src/main/pages.js:96
 msgid "Global Threat Statistics"
 msgstr "Statistiques sur les menaces mondiales"
 
-#: js/src/main/pages.js:125 js/src/wifi/WiFi.js:39
+#: js/src/main/pages.js:122 js/src/wifi/WiFi.js:40
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
-#: js/src/main/pages.js:190
+#: js/src/main/pages.js:187
 msgid "Package Management"
 msgstr "Gestion des paquets"
 
-#: js/src/main/pages.js:201
-#: js/src/packageManagement/updateSettings/UpdateSettings.js:28
+#: js/src/main/pages.js:198
+#: js/src/packageManagement/updateSettings/UpdateSettings.js:29
 msgid "Update Settings"
 msgstr "Paramètres de mise à jour"
 
-#: js/src/main/pages.js:206 js/src/packageManagement/packages/Packages.js:19
+#: js/src/main/pages.js:203 js/src/packageManagement/packages/Packages.js:20
 msgid "Packages"
 msgstr "Paquets"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:50
-#: js/src/main/pages.js:211 js/src/packageManagement/languages/Languages.js:18
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:51
+#: js/src/main/pages.js:208 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr "Langues"
 
-#: js/src/main/pages.js:218
+#: js/src/main/pages.js:215
 msgid "Advanced Administration"
 msgstr "Administration avancée"
 
-#: js/src/main/TopBar/LogoutButton.js:25
+#: js/src/main/TopBar/LogoutButton.js:21
 msgid "Logout"
 msgstr "Déconnexion"
 
-#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:35
-#: js/src/notifications/Notifications/Notifications.js:72
+#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:37
+#: js/src/notifications/Notifications/Notifications.js:74
 msgid "No notifications"
 msgstr "Aucune notification"
 
-#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:104
-#: js/src/notifications/Notifications/DismissAllButton.js:24
+#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:106
+#: js/src/notifications/Notifications/DismissAllButton.js:25
 msgid "Dismiss all"
 msgstr "Tout ignorer"
 
@@ -1386,15 +1332,15 @@ msgid "Reboot Required"
 msgstr "Redémarrage nécessaire"
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:63
-#: js/src/overview/Cards/NetmetrCard.js:126
+#: js/src/overview/Cards/NetmetrCard.js:129
 msgid "Details"
 msgstr "Détails"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:100
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:101
 msgid "Approve Update"
 msgstr "Approuver la mise à jour"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:130
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:131
 msgid ""
 "See details in <a href=${ForisURLs.packageManagement.updates}>Updates</a>"
 " page."
@@ -1402,29 +1348,27 @@ msgstr ""
 "Voir les détails sur la page <a "
 "href=${ForisURLs.packageManagement.updates}>Mises à jour</a>."
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:140
-#: js/src/packageManagement/updates/UpdateApproval.js:128
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
+#: js/src/packageManagement/updates/UpdateApproval.js:129
 msgid "Install now"
 msgstr "Installer maintenant"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:151
-#: js/src/packageManagement/updates/UpdateApproval.js:39
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:152
+#: js/src/packageManagement/updates/UpdateApproval.js:40
 msgid "Cannot install updates."
 msgstr "Impossible d'installer les mises à jour."
 
-#: js/src/maintenance/FactoryReset.js:16
+#: js/src/maintenance/FactoryReset.js:17
 msgid "Factory Reset"
 msgstr "Retour aux paramètres d'usine"
 
-#: js/src/maintenance/FactoryReset.js:18
+#: js/src/maintenance/FactoryReset.js:19
+#, fuzzy
 msgid ""
-"Doing a factory reset on the Turris device will remove all the packages \n"
-"                installed on the device along with the data associated "
-"with them. This brings\n"
-"                back all the default settings of the device as it was "
-"when the router was new,\n"
-"                giving you a clean slate to start all over again.\n"
-"    "
+"Doing a factory reset on the Turris device will remove all the packages "
+"installed on the device along with the data associated with them. This "
+"brings back all the default settings of the device as it was when the "
+"router was new, giving you a clean slate to start all over again."
 msgstr ""
 "En effectuant une réinitialisation d'usine sur l'appareil Turris, vous "
 "supprimez tous les paquets\n"
@@ -1436,7 +1380,7 @@ msgstr ""
 "\n"
 "    "
 
-#: js/src/maintenance/Maintenance.js:19
+#: js/src/maintenance/Maintenance.js:21
 msgid ""
 "The Maintenance tab allows you to reboot the router or bring back all the"
 " default settings by performing a factory reset."
@@ -1445,13 +1389,12 @@ msgstr ""
 "tous les paramètres par défaut en effectuant une réinitialisation "
 "d'usine."
 
-#: js/src/maintenance/Reboot.js:18
+#: js/src/maintenance/Reboot.js:19
+#, fuzzy
 msgid ""
-"\n"
 "If you need to reboot the device, click on the following button. The "
-"reboot process takes approximately 30 seconds, you\n"
-"will be required to log in again after the reboot.\n"
-"    "
+"reboot process takes approximately 30 seconds, and then you will be "
+"required to log in again."
 msgstr ""
 "\n"
 "Si vous devez redémarrer l'appareil, cliquez sur le bouton suivant. Le "
@@ -1459,25 +1402,46 @@ msgstr ""
 "vous devrez vous reconnecter après le redémarrage.\n"
 "    "
 
-#: js/src/maintenance/Syslog/Syslog.js:46
+#: js/src/maintenance/Syslog/Syslog.js:49
 msgid "A drive has to be configured first."
 msgstr "Un lecteur doit d’abord être configuré."
 
-#: js/src/maintenance/Syslog/SyslogForm.js:29
-msgid "System logs retention"
+#: js/src/maintenance/Syslog/SyslogForm.js:30
+#, fuzzy
+msgid "System Logs Retention"
 msgstr "Conservation des journaux système"
 
 #: js/src/maintenance/Syslog/SyslogForm.js:32
+#, fuzzy
 msgid ""
 "During device reboot, system logs are lost by default. This option allows"
-" to save system logs using Storage plugin. Logs are saved into "
-"/srv/log/messages. To enable this option, you have to configure a storage"
-" in the <a href=\"${ForisURLs.storage}\" title=\"Go to Storage "
-"plugin\">Storage plugin</a> first."
+" saving system logs using the Storage plugin. Logs are saved into "
+"'/srv/log/messages'."
 msgstr ""
+"Lors du redémarrage du dispositif, les journaux du système sont perdus "
+"par défaut. Cette option permet de sauvegarder ces journaux en utilisant "
+"le plugin de Stockage. Les logs sont sauvegardés dans /srv/log/messages. "
+"Pour activer cette option, vous devez d'abord configurer un stockage dans"
+" le <a href=\"${ForisURLs.storage}\" title=\"Allez dans le plugin "
+"Stockage\">plugin de stockage</a>."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:38
-msgid "Enable system logs retention"
+#, fuzzy
+msgid ""
+"To enable this option, you have to configure storage in the <a "
+"href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Storage "
+"plugin</a> first."
+msgstr ""
+"Lors du redémarrage du dispositif, les journaux du système sont perdus "
+"par défaut. Cette option permet de sauvegarder ces journaux en utilisant "
+"le plugin de Stockage. Les logs sont sauvegardés dans /srv/log/messages. "
+"Pour activer cette option, vous devez d'abord configurer un stockage dans"
+" le <a href=\"${ForisURLs.storage}\" title=\"Allez dans le plugin "
+"Stockage\">plugin de stockage</a>."
+
+#: js/src/maintenance/Syslog/SyslogForm.js:44
+#, fuzzy
+msgid "Enable System Logs Retention"
 msgstr "Activer la conservation des journaux système"
 
 #: js/src/notificationsSettings/CommonForm.js:17
@@ -1515,12 +1479,10 @@ msgid "Custom"
 msgstr "Personnalisé"
 
 #: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:81
-#, fuzzy
 msgid "Notification Settings"
-msgstr "Notifications"
+msgstr "Paramètres de notification"
 
 #: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:83
-#, fuzzy
 msgid "Enable Email Notifications"
 msgstr "Activer les notifications par e-mail"
 
@@ -1528,7 +1490,7 @@ msgstr "Activer les notifications par e-mail"
 msgid "SMTP provider"
 msgstr "Fournisseur SMTP"
 
-#: js/src/notificationsSettings/NotificationsSettings.js:27
+#: js/src/notificationsSettings/NotificationsSettings.js:28
 msgid ""
 "Your device can send you e-mail notifications about required reboots, "
 "important events, installed updates and new features according to your "
@@ -1582,7 +1544,7 @@ msgstr "Nom d’utilisateur"
 msgid "Sender's name"
 msgstr "Nom de l’expéditeur"
 
-#: js/src/notificationsSettings/TestNotification.js:29
+#: js/src/notificationsSettings/TestNotification.js:31
 msgid ""
 "There are some unsaved changes in the notifications settings. Do you want"
 " to discard them and test the notifications with the old settings?"
@@ -1591,7 +1553,7 @@ msgstr ""
 "notifications. Voulez-vous les ignorer et tester les notifications avec "
 "les anciens paramètres ?"
 
-#: js/src/notificationsSettings/TestNotification.js:33
+#: js/src/notificationsSettings/TestNotification.js:35
 msgid ""
 "You will not receive the test notification to your email inbox with "
 "current importance level. Please raise the importance level at least to "
@@ -1603,12 +1565,11 @@ msgstr ""
 "au moins à \"Reboot or attention is required\" et cliquez sur le bouton "
 "\"Save\" si vous voulez recevoir cette notification par email."
 
-#: js/src/notificationsSettings/TestNotification.js:110
-#, fuzzy
-msgid "Test Notification"
-msgstr "Aucune notification"
-
 #: js/src/notificationsSettings/TestNotification.js:112
+msgid "Test Notification"
+msgstr "Notification de test"
+
+#: js/src/notificationsSettings/TestNotification.js:114
 msgid ""
 "Here you can verify whether SMTP is configured correctly by sending a "
 "test notification to your email inbox."
@@ -1616,11 +1577,11 @@ msgstr ""
 "Ici, vous pouvez vérifier si SMTP est correctement configuré en envoyant "
 "une notification de test à votre boîte de réception."
 
-#: js/src/notificationsSettings/TestNotification.js:123
+#: js/src/notificationsSettings/TestNotification.js:125
 msgid "Send test notification"
 msgstr "Envoyer une notification de test"
 
-#: js/src/notificationsSettings/TestNotification.js:153
+#: js/src/notificationsSettings/TestNotification.js:155
 msgid "Confirm"
 msgstr "Confirmer"
 
@@ -1687,214 +1648,141 @@ msgstr "Le port maximum est 65535."
 msgid "Minimum port is 1."
 msgstr "Le port minimum est 1."
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:44
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:46
 msgid "Automatic Updates"
 msgstr "Mises à jour automatiques"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:47
-#: js/src/overview/Cards/DataCollectionCard.js:47
-#: js/src/overview/Cards/DynamicFirewallCard.js:27
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:49
+#: js/src/overview/Cards/DataCollectionCard.js:49
+#: js/src/overview/Cards/DynamicFirewallCard.js:28
 msgid "Activated"
 msgstr "Activé"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:47
-#: js/src/overview/Cards/DataCollectionCard.js:47
-#: js/src/overview/Cards/DynamicFirewallCard.js:27
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:49
+#: js/src/overview/Cards/DataCollectionCard.js:49
+#: js/src/overview/Cards/DynamicFirewallCard.js:28
 msgid "Disabled"
 msgstr "Désactivé"
 
-#: js/src/overview/Cards/DataCollectionCard.js:44
+#: js/src/overview/Cards/DataCollectionCard.js:46
 msgid "Threat Detection"
-msgstr ""
+msgstr "Détection des menaces"
 
-#: js/src/overview/Cards/DynamicFirewallCard.js:24
+#: js/src/overview/Cards/DynamicFirewallCard.js:25
 msgid "Dynamic Firewall"
 msgstr "Pare-feu dynamique"
 
-#: js/src/overview/Cards/NetmetrCard.js:48
-#, fuzzy
+#: js/src/overview/Cards/NetmetrCard.js:51
 msgid "NetMetr"
 msgstr "NetMetr"
 
-#: js/src/overview/Cards/NetmetrCard.js:54
+#: js/src/overview/Cards/NetmetrCard.js:57
 msgid "Go to NetMetr"
 msgstr "Aller à NetMetr"
 
-#: js/src/overview/Cards/NetmetrCard.js:70
-#: js/src/overview/Cards/NetmetrCard.js:86
+#: js/src/overview/Cards/NetmetrCard.js:73
+#: js/src/overview/Cards/NetmetrCard.js:89
 msgid "Megabit per second"
 msgstr "Mégabit par seconde"
 
-#: js/src/overview/Cards/NetmetrCard.js:101
+#: js/src/overview/Cards/NetmetrCard.js:104
 msgid "Ping"
 msgstr "Ping"
 
-#: js/src/overview/Cards/NetmetrCard.js:104
+#: js/src/overview/Cards/NetmetrCard.js:107
 msgid "Millisecond"
 msgstr "Milliseconde"
 
-#: js/src/overview/Cards/NetmetrCard.js:119
+#: js/src/overview/Cards/NetmetrCard.js:122
 msgid "Link"
 msgstr "Lien"
 
-#: js/src/overview/Cards/NetmetrCard.js:139
+#: js/src/overview/Cards/NetmetrCard.js:142
 msgid "Performed"
 msgstr "Effectué"
 
-#: js/src/overview/Cards/NetmetrCard.js:147
+#: js/src/overview/Cards/NetmetrCard.js:150
 msgid "No tests have been performed lately."
 msgstr "Aucun test n'a été effectué dernièrement."
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:45
+#: js/src/overview/Cards/OpenVPNClientsCard.js:47
 msgid "OpenVPN Clients"
 msgstr "Clients OpenVPN"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:51
+#: js/src/overview/Cards/OpenVPNClientsCard.js:53
 msgid "Go to OpenVPN Client Settings"
 msgstr "Accédez aux paramètres du client OpenVPN"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:91
+#: js/src/overview/Cards/OpenVPNClientsCard.js:93
 msgid "There are no clients added yet."
 msgstr "Il n'y a pas encore de clients ajoutés."
 
-#: js/src/packageManagement/languages/Languages.js:20
+#: js/src/packageManagement/languages/Languages.js:22
+#, fuzzy
 msgid ""
-"If you want to use another language other than English you can select it "
-"from the following list:"
+"If you want to use another language other than English, you can select it"
+" from the following list:"
 msgstr ""
 "Si vous souhaitez utiliser une autre langue que l'anglais, vous pouvez la"
 " sélectionner dans la liste suivante :"
 
-#: js/src/packageManagement/packages/PackageCheckBox.js:55
+#: js/src/packageManagement/packages/PackageCheckBox.js:57
 msgid "More details"
 msgstr "Plus de détails"
 
-#: js/src/packageManagement/packages/Packages.js:21
+#: js/src/packageManagement/packages/Packages.js:22
+#, fuzzy
 msgid ""
 "Apart from the standard installation, you can optionally select bundles "
-"of additional software that'd be installed on the router. This software "
-"can be selected from the following list. Please note that only software "
-"that is part of TurrisOS or that has been installed from a package list "
-"and not marked as community-supported is actually supported by Turris "
-"team."
+"of additional software that would be installed on the router. This "
+"software can be selected from the following lists. Please note that only "
+"software that is part of Turris OS or that has been installed from "
+"package lists and not marked as community-supported is supported by the "
+"Turris team."
 msgstr ""
+"En plus de l'installation standard, vous pouvez sélectionner en option "
+"des logiciels supplémentaires qui seront installés sur le routeur. Ces "
+"logiciels peuvent être sélectionnés dans la liste suivante. Veuillez "
+"noter que seuls les logiciels qui font partie de TurrisOS ou qui ont été "
+"installés à partir d'une liste de paquets et qui ne sont pas marqués "
+"comme supportés par la communauté sont effectivement supportés par "
+"l'équipe Turris."
 
-#: js/src/packageManagement/packages/PackagesForm.js:29
-msgid "Packages List"
+#: js/src/packageManagement/packages/PackagesForm.js:31
+#, fuzzy
+msgid "Package Lists"
 msgstr "Liste des Paquets"
 
-#: js/src/packageManagement/updateSettings/LicenceModal.js:24
+#: js/src/packageManagement/updateSettings/LicenceModal.js:29
 msgid "Most Important License Agreement Points"
 msgstr "Points de l'accord de licence les plus importants"
 
-#: js/src/packageManagement/updateSettings/LicenceModal.js:38
+#: js/src/packageManagement/updateSettings/LicenceModal.js:49
+#, fuzzy
 msgid ""
-"\n"
-"                    <li>Automatic updates are offered to the Turris "
-"router owners free of charge.</li>\n"
-"                    <li>Updates are prepared exclusively by CZ.NIC, z. s."
-" p. o.</li>\n"
-"                    <li>\n"
-"                        Enabling of the automatic updates is a "
-"prerequisite for additional security features of\n"
-"                        Turris router.\n"
-"                    </li>\n"
-"                    <li>\n"
-"                        Automatic updates take place at the time of their"
-" release, the time of installation\n"
-"                        cannot be influenced by the user.\n"
-"                    </li>\n"
-"                    <li>\n"
-"                        Having the automatic updates turned on can result"
-" in increased Internet traffic on your\n"
-"                        router. Expenses related to this increase are "
-"covered by you.\n"
-"                    </li>\n"
-"                    <li>\n"
-"                        Automatic updates cannot protect you against "
-"every attack coming from the Internet.\n"
-"                        Please do not forget to protect your workstations"
-" and other devices by installing\n"
-"                        antivirus software and explaining to your family "
-"members how to stay safe on the\n"
-"                        Internet.\n"
-"                    </li>\n"
-"                    <li>\n"
-"                        CZ.NIC, z. s. p. o. does not guarantee the "
-"availability of this service and is not\n"
-"                        responsible for any damages caused by the "
-"automatic updates.\n"
-"                    </li>\n"
-"                    "
+"By enabling the automatic updates, you confirm that you are the owner of "
+"this Turris router, and you agree with the full text of the <a "
+"href=\"https://www.turris.cz/omnia-updater-eula\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">license agreement <sup><i class=\"fas fa-"
+"external-link-alt fa-sm\"></i></sup></a>."
 msgstr ""
-"\n"
-"                    <li>Les mises à jour automatiques sont proposées "
-"gratuitement aux propriétaires de routeurs Turris.</li>\n"
-"\t\t\t<li>Les mises à jour sont préparées exclusivement par CZ.NIC, z. s."
-" p. o.</li>\n"
-"\t\t\t<li>\n"
-"\t\t\t\tL'activation des mises à jour automatiques est une condition "
-"préalable pour les fonctionnalités de sécurité\n"
-"\t\t\t\tsupplémentaires du routeur Turris.\n"
-"\t\t\t</li>\n"
-"\t\t\t<li>\n"
-"\t\t\t\tLes mises à jour automatiques ont lieu au moment de leur "
-"publication, le moment de l'installation\n"
-"\t\t\t\tne peut pas être influencé par l'utilisateur.\n"
-"\t\t\t</li>\n"
-"\t\t\t<li>\n"
-"\t\t\t\tL'activation des mises à jour automatiques peut entraîner une "
-"augmentation du trafic Internet sur votre routeur.\n"
-"\t\t\t\tLes frais liés à cette augmentation sont à votre charge.\n"
-"\t\t\t</li>\n"
-"\t\t\t<li>\n"
-"\t\t\t\tLes mises à jour automatiques ne peuvent pas vous protéger contre"
-" toutes les attaques\n"
-"\t\t\t\tprovenant d'Internet. N'oubliez pas de protéger vos postes de "
-"travail et autres appareils\n"
-"\t\t\t\ten installant un logiciel antivirus et en expliquant aux membres "
-"de votre famille comment\n"
-"\t\t\t\trester en sécurité sur Internet.\n"
-"\t\t\t</li>\n"
-"\t\t\t<li>\n"
-"\t\t\t\tCZ.NIC, z. s. p. o. ne garantit pas la disponibilité de ce "
-"service et n'est pas responsable\n"
-"\t\t\t\tdes dommages causés par les mises à jour automatiques.\n"
-"\t\t\t</li>\n"
-"                    "
+"En activant les mises à jour automatiques, \n"
+"vous confirmez que vous êtes le propriétaire de \n"
+"ce routeur Turris et que vous acceptez \n"
+"l'intégralité de <a href=\"https://www.turris.cz/omnia-updater-eula\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">l'accord de licence <sup><i"
+" class=\"fas fa-external-link-alt fa-sm\"></i></sup></a>."
 
-#: js/src/packageManagement/updateSettings/LicenceModal.js:68
+#: js/src/packageManagement/updateSettings/UpdateSettings.js:32
+#, fuzzy
 msgid ""
-"By enabling of the automatic updates, \n"
-"                                    you confirm that you are the owner of"
-" this Turris \n"
-"                                    router and you agree with the full "
-"text of the \n"
-"                                    <a href=\"https://www.turris.cz"
-"/omnia-updater-eula\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">license agreement <sup><i class=\"fas fa-external-link-alt "
-"fa-sm\"></i></sup></a>."
-msgstr ""
-
-#: js/src/packageManagement/updateSettings/UpdateSettings.js:31
-msgid ""
-"\n"
-"One of the most important features of router Turris are automatic system "
-"updates. Thanks to this function\n"
-"your router's software stays up to date and offers better protection "
-"against attacks from the Internet.\n"
-"<br/>\n"
-"It is <b>highly recommended</b> to have this feature <b>turned on</b>. If"
-" you decide to disable it, be\n"
-"warned that this might weaken the security of your router and network in "
-"case flaws in the software are\n"
-"found.\n"
-"<br/>\n"
-"By turning the automatic updates on, you agree to this feature's license "
-"agreement. More information is\n"
-"available <a href=\"\" data-toggle=\"modal\" data-"
-"target=\"#licenceModal\">here</a>.\n"
-"            "
+"The automatic updates system is one of the most important features of the"
+" Turris router. Thanks to this function, your router's software stays up "
+"to date and offers better protection against attacks from the "
+"Internet.<br>It is <b>highly recommended</b> to have this feature "
+"<b>turned on</b>. If you decide to disable it, be warned that this might "
+"weaken the security of your router and network in case flaws in the "
+"software are found."
 msgstr ""
 "\n"
 "Une des fonctionnalités les plus importantes du routeur Turris est la "
@@ -1913,6 +1801,54 @@ msgstr ""
 "disponibles <a href=\"\" data-toggle=\"modal\" data-"
 "target=\"#licenceModal\">ici</a>.\n"
 "            "
+
+#: js/src/packageManagement/updateSettings/UpdateSettings.js:39
+msgid ""
+"By turning the automatic updates on, you agree to this feature's license "
+"agreement. More information is available <a href=\"\" data-"
+"toggle=\"modal\" data-target=\"#licenceModal\">here</a>."
+msgstr ""
+
+#: js/src/packageManagement/updateSettings/points.js:11
+msgid "Automatic updates are offered to the Turris router owners free of charge."
+msgstr ""
+
+#: js/src/packageManagement/updateSettings/points.js:17
+msgid "Updates are prepared exclusively by CZ.NIC, z. s. p. o."
+msgstr ""
+
+#: js/src/packageManagement/updateSettings/points.js:21
+msgid ""
+"Enabling of the automatic updates is a prerequisite for additional "
+"security features of Turris router."
+msgstr ""
+
+#: js/src/packageManagement/updateSettings/points.js:27
+msgid ""
+"Automatic updates take place at the time of their release, the time of "
+"installation cannot be influenced by the user."
+msgstr ""
+
+#: js/src/packageManagement/updateSettings/points.js:33
+msgid ""
+"Having the automatic updates turned on can result in increased Internet "
+"traffic on your router. Expenses related to this increase are covered by "
+"you."
+msgstr ""
+
+#: js/src/packageManagement/updateSettings/points.js:39
+msgid ""
+"Automatic updates cannot protect you against every attack coming from the"
+" Internet. Please do not forget to protect your workstations and other "
+"devices by installing antivirus software and explaining to your family "
+"members how to stay safe on the Internet."
+msgstr ""
+
+#: js/src/packageManagement/updateSettings/points.js:45
+msgid ""
+"CZ.NIC, z. s. p. o. does not guarantee the availability of this service "
+"and is not responsible for any damages caused by the automatic updates."
+msgstr ""
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:17
 msgid ""
@@ -1972,7 +1908,7 @@ msgstr ""
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:28
 msgid "Update approval needed"
-msgstr "Approbation pour la mise à jour est nécessaire"
+msgstr "Approbation nécessaire pour la mise à jour"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:29
 msgid "You have to approve the updates, otherwise they won't be installed."
@@ -2014,27 +1950,27 @@ msgstr ""
 "Les mises à jour doivent être différées d'au moins 1 heure et d'au plus "
 "168 heures"
 
-#: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:46
-#, fuzzy
+#: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:47
 msgid "Automatic Update Settings"
-msgstr "Impossible de mettre à jour les paramètres d'approbation."
+msgstr "Paramètres de mise à jour automatique"
 
-#: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:48
-msgid "Enable automatic updates (recommended)"
+#: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:49
+#, fuzzy
+msgid "Enable Automatic Updates (recommended)"
 msgstr "Activer les mises à jour automatiques (recommandé)"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:43
+#: js/src/packageManagement/updates/UpdateApproval.js:44
 msgid "Updates will be installed shortly."
 msgstr "Des mises à jour seront installées sous peu."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:61
+#: js/src/packageManagement/updates/UpdateApproval.js:62
 #, python-format
 msgid "There is %d package to be updated."
 msgid_plural "There are %d packages to be updated."
 msgstr[0] "Il y a %d paquet à mettre à jour."
 msgstr[1] "Il y a %d paquets à mettre à jour."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:68
+#: js/src/packageManagement/updates/UpdateApproval.js:69
 msgid ""
 "See <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
 "aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
@@ -2043,14 +1979,17 @@ msgstr ""
 "role=\"button\" aria-expanded=\"false\" aria-controls=\"plan-"
 "wrapper\">détails</a>"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:79
+#: js/src/packageManagement/updates/UpdateApproval.js:80
 msgid ""
 "These updates are not going to be \n"
 "                                    automatically installed before \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 msgstr ""
+"Ces mises à jour ne seront pas \n"
+"installées automatiquement avant \n"
+"${toLocaleDateString(delayedTime)}."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:88
+#: js/src/packageManagement/updates/UpdateApproval.js:89
 msgid ""
 "If you don't want the updates to be installed at all, go to\n"
 "                                    <a "
@@ -2059,51 +1998,55 @@ msgid ""
 "                                    and choose the option <b>Update "
 "approval needed</b>."
 msgstr ""
+"Si vous ne voulez pas que les mises à jour soient installées du tout, "
+"allez dans\n"
+"<a href=\"${ForisURLs.packageManagement.updateSettings}\">Paramètres de "
+"mise à jour</a>\n"
+"et choisissez l'option <b>Approbation nécessaire pour la mise à jour</b>."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:106
+#: js/src/packageManagement/updates/UpdateApproval.js:107
 #, python-format
 msgid "Approve Update From %s"
 msgstr "Approuver la mise à jour à partir de %s"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:134
+#: js/src/packageManagement/updates/UpdateApproval.js:135
 msgid "There are no updates awaiting your approval."
 msgstr "Il n’y a pas de mises à jour en attente de votre approbation."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:151
+#: js/src/packageManagement/updates/UpdateApproval.js:152
 msgid "Action"
 msgstr "Action"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:153
+#: js/src/packageManagement/updates/UpdateApproval.js:154
 msgid "Current"
 msgstr "En cours"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:154
+#: js/src/packageManagement/updates/UpdateApproval.js:155
 msgid "New"
 msgstr "Nouveau"
 
-#: js/src/packageManagement/updates/UpdateManager.js:73
-#, fuzzy
+#: js/src/packageManagement/updates/UpdateManager.js:74
 msgid "Updates Check"
-msgstr "Mises à jour"
+msgstr "Vérification des mises à jour"
 
-#: js/src/packageManagement/updates/UpdateManager.js:84
-#, fuzzy
+#: js/src/packageManagement/updates/UpdateManager.js:85
 msgid "Available Updates"
-msgstr "Mises à jour reportées"
+msgstr "Mises à jour disponibles"
 
-#: js/src/packageManagement/updates/UpdateManager.js:86
+#: js/src/packageManagement/updates/UpdateManager.js:87
+#, fuzzy
 msgid ""
-"Here you can find and approve available updates for \n"
-"                    Turris OS and other components."
+"Here you can find and approve available updates for Turris OS and other "
+"components."
 msgstr ""
 "Ici vous pouvez trouver et approuver les mises à jour disponibles pour \n"
 "                    Turris OS et d'autres composants."
 
-#: js/src/packageManagement/updates/UpdateManager.js:91
+#: js/src/packageManagement/updates/UpdateManager.js:93
 msgid "You're up to date."
 msgstr "Vous êtes à jour."
 
-#: js/src/packageManagement/updates/Updates.js:29
+#: js/src/packageManagement/updates/Updates.js:30
 msgid ""
 "In Turris OS, you decide when and how to get the latest updates\n"
 "                    to keep your device running smoothly and securely."
@@ -2113,7 +2056,7 @@ msgstr ""
 "                    pour que votre appareil fonctionne de manière fluide "
 "et sécurisée."
 
-#: js/src/packageManagement/updates/Updates.js:47
+#: js/src/packageManagement/updates/Updates.js:48
 msgid ""
 "Automatic updates are disabled. Please enable \n"
 "            <a "
@@ -2126,29 +2069,29 @@ msgstr ""
 "             les mises à jour nécessitant une approbation </a> pour les "
 "consulter."
 
-#: js/src/packageManagement/updates/Updates.js:62
+#: js/src/packageManagement/updates/Updates.js:63
 msgid "Check and install updates"
 msgstr "Vérifier et installer les mises à jour"
 
-#: js/src/packageManagement/updates/Updates.js:63
+#: js/src/packageManagement/updates/Updates.js:64
 msgid "Manually check for updates and install them immediately."
 msgstr ""
 "Vérifiez manuellement s'il y a des mises à jour et installez-les "
 "immédiatement."
 
-#: js/src/packageManagement/updates/Updates.js:68
+#: js/src/packageManagement/updates/Updates.js:69
 msgid "Check updates"
 msgstr "Vérifier les mises à jour"
 
-#: js/src/packageManagement/updates/Updates.js:70
+#: js/src/packageManagement/updates/Updates.js:71
 msgid "Manually check for updates and review them immediately."
 msgstr "Recherchez manuellement les mises à jour et examinez-les immédiatement."
 
-#: js/src/packageManagement/updates/hooks.js:88
+#: js/src/packageManagement/updates/hooks.js:89
 msgid "Cannot fetch updater status."
 msgstr "Impossible d'obtenir le statut de mise à jour."
 
-#: js/src/packageManagement/utils/DisabledUpdaterAlert.js:12
+#: js/src/packageManagement/utils/DisabledUpdaterAlert.js:13
 msgid ""
 "Please enable <a "
 "href=\"${ForisURLs.packageManagement.updateSettings}\">automatic "
@@ -2163,28 +2106,24 @@ msgid "Set your password for this administration interface."
 msgstr "Définissez votre mot de passe pour cette interface d'administration."
 
 #: js/src/password/ForisPasswordForm.js:60
-#, fuzzy
 msgid "Current password"
-msgstr "Mot de passe actuel incorrect."
+msgstr "Mot de passe actuel"
 
-#: js/src/password/ForisPasswordForm.js:70
-#: js/src/password/RootPasswordForm.js:66
-#, fuzzy
+#: js/src/password/ForisPasswordForm.js:71
+#: js/src/password/RootPasswordForm.js:67
 msgid "New password"
-msgstr "Mot de passe incorrect."
+msgstr "Nouveau mot de passe"
 
-#: js/src/password/ForisPasswordForm.js:82
-#: js/src/password/RootPasswordForm.js:77
-#, fuzzy
+#: js/src/password/ForisPasswordForm.js:84
+#: js/src/password/RootPasswordForm.js:79
 msgid "Confirm new password"
-msgstr "Mot de passe incorrect."
+msgstr "Confirmer le nouveau mot de passe"
 
-#: js/src/password/ForisPasswordForm.js:98
-#, fuzzy
+#: js/src/password/ForisPasswordForm.js:100
 msgid "Use the same password for advanced administration (root)"
-msgstr "Utilisez le même mot de passe pour l'administration avancée (root)"
+msgstr "Utiliser le même mot de passe pour l'administration avancée (root)"
 
-#: js/src/password/ForisPasswordForm.js:101
+#: js/src/password/ForisPasswordForm.js:103
 msgid ""
 "Same password would be used for accessing this administration interface, "
 "for root user in LuCI web interface and for SSH login. Use a strong "
@@ -2200,55 +2139,64 @@ msgstr ""
 "le compte root sera bloqué.)"
 
 #: js/src/password/Password.js:78
+#, fuzzy
 msgid ""
-"The password you've entered has not been saved. It has been compromised "
-"and appears ${\n"
+"The password you have entered has not been saved. It has been compromised"
+" and appears ${\n"
 "                            forisPassword.count || rootPassword.count\n"
 "                        } times in ${\n"
 "                            forisPassword.list || rootPassword.list\n"
-"                        } list. Please enter another, more secure "
-"password."
+"                        } list. Please choose a more secure password."
 msgstr ""
+"Le mot de passe que vous avez saisi n'a pas été enregistré. Il a été "
+"compromis et semble apparaitre ${\n"
+"                            forisPassword.count || rootPassword.count\n"
+"                        } fois dans la liste ${\n"
+"                            forisPassword.list || rootPassword.list\n"
+"                        }. Veuillez entrer un autre mot de passe, plus "
+"sûr."
 
 #: js/src/password/Password.js:89
 #, fuzzy
-msgid "Password changed successfully."
-msgstr "Transitaire enregistré avec succès."
+msgid "Your password was set successfully."
+msgstr "Le mot de passe a été changé avec succès."
 
 #: js/src/password/Password.js:147
-#, fuzzy
 msgid "Password Settings"
-msgstr "Paramètres réseau"
+msgstr "Paramètres du mot de passe"
 
 #: js/src/password/Password.js:176
+#, fuzzy
 msgid ""
-"Here you can set password for the administration interface. Make sure to "
-"set a secure password that is long and unique."
+"Here you can set a password for the administration interface. Ensure it "
+"is secure by making it long and unique."
 msgstr ""
+"Vous pouvez définir ici le mot de passe de l'interface d'administration. "
+"Veillez à définir un mot de passe sécurisé, long et unique."
 
 #: js/src/password/Password.js:193 js/src/password/Password.js:197
-msgid "The password confirmation does not match."
-msgstr ""
+#, fuzzy
+msgid "Passwords do not match."
+msgstr "La confirmation du mot de passe ne correspond pas."
 
 #: js/src/password/Password.js:212
 #, fuzzy
-msgid "Password can't be empty."
-msgstr "Ne peut pas être vide."
+msgid "Choose a password."
+msgstr "Mot de passe erroné."
 
-#: js/src/password/Password.js:214
+#: js/src/password/Password.js:215
 #, fuzzy
-msgid "Password should have min 6 symbols."
-msgstr "L’épingle TLS devrait avoir au moins un symbole."
+msgid "Password should have at least six symbols."
+msgstr "Le mot de passe doit comporter maximum 128 symboles."
 
-#: js/src/password/Password.js:217
+#: js/src/password/Password.js:218
 #, fuzzy
-msgid "Password should have max 128 symbols."
-msgstr "L’épingle TLS devrait avoir au moins un symbole."
+msgid "Password cannot have more than 128 symbols."
+msgstr "Le mot de passe doit comporter maximum 128 symboles."
 
 #: js/src/password/RootPasswordForm.js:51
-#, fuzzy
 msgid "Advanced Administration Password"
-msgstr "Nouveau mot de passe d'administration avancé"
+msgstr "Mot de passe de l'administration avancée"
 
 #: js/src/password/RootPasswordForm.js:55
 #, python-format
@@ -2260,18 +2208,23 @@ msgid ""
 "through the <a href=\"%s\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">LuCI web interface</a> or via SSH."
 msgstr ""
+"Afin d'accéder aux options de configuration avancées qui ne sont pas "
+"disponibles ici, vous devez\n"
+"définir le mot de passe de l'utilisateur root. Les options de "
+"configuration avancées peuvent être gérées soit\n"
+"par <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">l'interface web de LuCI</a>, soit par SSH."
 
-#: js/src/regionAndTime/RegionAndTime.js:30
+#: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
 msgstr "Région et Heure"
 
-#: js/src/regionAndTime/RegionAndTime.js:32
+#: js/src/regionAndTime/RegionAndTime.js:33
+#, fuzzy
 msgid ""
-"\n"
 "It is important for your device to have the correct time set. If your "
-"device's time is delayed, the\n"
-"procedure of SSL certificate verification might not work correctly.\n"
-"        "
+"device's time is delayed, the procedure of SSL certificate verification "
+"might not work correctly."
 msgstr ""
 "\n"
 "Il est important que votre appareil ait l'heure correctement réglée. Si "
@@ -2284,11 +2237,11 @@ msgstr ""
 msgid "Time should be in YYYY-MM-DD HH:MM:SS format."
 msgstr "L'heure doit être au format AAAA-MM-JJ HH:MM:SS."
 
-#: js/src/regionAndTime/RegionForm.js:63
+#: js/src/regionAndTime/RegionForm.js:72
 msgid "Region Settings"
 msgstr "Paramètres Régionaux"
 
-#: js/src/regionAndTime/RegionForm.js:65
+#: js/src/regionAndTime/RegionForm.js:74
 msgid ""
 "Please select the timezone the router is being operated in. Correct "
 "setting is required to display the right time and for related functions."
@@ -2297,15 +2250,15 @@ msgstr ""
 "utilisé. Un réglage correct est requis pour afficher la bonne heure et "
 "pour des fonctions connexes."
 
-#: js/src/regionAndTime/RegionForm.js:72
+#: js/src/regionAndTime/RegionForm.js:81
 msgid "Continent or ocean"
 msgstr "Continent ou océan"
 
-#: js/src/regionAndTime/RegionForm.js:87
+#: js/src/regionAndTime/RegionForm.js:96
 msgid "Country"
 msgstr "Pays"
 
-#: js/src/regionAndTime/RegionForm.js:99
+#: js/src/regionAndTime/RegionForm.js:108
 msgid "Timezone"
 msgstr "Fuseau horaire"
 
@@ -2355,16 +2308,16 @@ msgid "Network restarting"
 msgstr "Redémarrage du réseau"
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:37
-#: js/src/routerStateHandler/RebootHandler.js:33
+#: js/src/routerStateHandler/RebootHandler.js:34
 msgid "Reconnecting"
 msgstr "Reconnexion"
 
-#: js/src/routerStateHandler/RebootHandler.js:27
+#: js/src/routerStateHandler/RebootHandler.js:28
 #, python-format
 msgid "Reboot after %d sec."
 msgstr "Redémarrage après %d sec."
 
-#: js/src/routerStateHandler/RebootHandler.js:30
+#: js/src/routerStateHandler/RebootHandler.js:31
 msgid "Rebooting"
 msgstr "Redémarrage"
 
@@ -2394,6 +2347,8 @@ msgid ""
 "Useful in cases, when a specific MAC address is required by your internet"
 " service provider."
 msgstr ""
+"Utile dans les cas où une adresse MAC spécifique est requise par votre "
+"fournisseur de services Internet."
 
 #: js/src/wan/MACForm.js:17
 msgid "Colon is used as a separator, for example 00:11:22:33:44:55"
@@ -2403,41 +2358,36 @@ msgstr ""
 
 #: js/src/wan/MACForm.js:20
 msgid "MAC address of the WAN interface."
-msgstr ""
+msgstr "Adresse MAC de l'interface WAN."
 
 #: js/src/wan/MACForm.js:53
-#, fuzzy
 msgid "MAC Settings"
-msgstr "Paramètres de temps"
+msgstr "Paramètres MAC"
 
 #: js/src/wan/MACForm.js:55
 msgid "Custom MAC address"
 msgstr "Adresse MAC personnalisée"
 
 #: js/src/wan/MACForm.js:66
-#, fuzzy
 msgid "Current MAC address"
-msgstr "Adresse IP du routeur"
+msgstr "Adresse MAC actuelle"
 
 #: js/src/wan/MACForm.js:72
 msgid "Set the new MAC address"
+msgstr "Définir la nouvelle adresse MAC"
+
+#: js/src/wan/WAN.js:30
+msgid ""
+"Here you can specify your WAN port settings if instructed to do so by "
+"your ISP (internet service provider). Usually, it can be left untouched "
+"if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
 
-#: js/src/wan/WAN.js:29
+#: js/src/wan/WAN.js:52
 msgid ""
-"Here you specify your WAN port settings. Usually, you can leave these "
-"options untouched unless instructed otherwise by your internet service "
-"provider. Also, in case there is a cable or DSL modem connecting your "
-"router to the network, it is usually not necessary to change this "
-"setting."
-msgstr ""
-
-#: js/src/wan/WAN.js:51
-msgid ""
-"Here you can test you connection settings. Remember to click on the "
-"<b>Save button</b> before running the test. Note that sometimes it takes "
-"a while before the connection is fully initialized. So it might be useful"
-" to wait for a while before running this test."
+"Here you can examine your connection settings. Wait a while to establish "
+"the connection. Remember to click the <b>Save</b> button after you have "
+"tested that it works."
 msgstr ""
 
 #: js/src/wan/WAN6Form.js:26
@@ -2510,25 +2460,24 @@ msgstr ""
 "votre fournisseur de tunnel."
 
 #: js/src/wan/WAN6Form.js:74
-msgid "Disable IPv6"
-msgstr "Désactiver IPv6"
-
-#: js/src/wan/WAN6Form.js:75
 msgid "DHCPv6 (automatic configuration)"
 msgstr "DHCPv6 (configuration automatique)"
 
-#: js/src/wan/WAN6Form.js:77
+#: js/src/wan/WAN6Form.js:76
 msgid "6to4 (public IPv4 address required)"
 msgstr "6to4 (adresse IPv4 publique requise)"
 
-#: js/src/wan/WAN6Form.js:78
+#: js/src/wan/WAN6Form.js:77
 msgid "6in4 (public IPv4 address required)"
 msgstr "6in4 (adresse IPv4 publique requise)"
 
+#: js/src/wan/WAN6Form.js:78
+msgid "Disable IPv6"
+msgstr "Désactiver IPv6"
+
 #: js/src/wan/WAN6Form.js:162
-#, fuzzy
 msgid "IPv6 Settings"
-msgstr "Paramètres de temps"
+msgstr "Paramètres IPv6"
 
 #: js/src/wan/WAN6Form.js:164
 msgid "IPv6 protocol"
@@ -2575,23 +2524,20 @@ msgid "Key"
 msgstr "Clé"
 
 #: js/src/wan/WAN6Form.js:527
-#, fuzzy
 msgid "MTU has to be a number in the range of 1280-1480."
-msgstr "MTU devrait être un nombre compris entre 1280 et 1500."
+msgstr "Le MTU doit être un nombre compris entre 1280 et 1480."
 
 #: js/src/wan/WAN6Form.js:529
-#, fuzzy
 msgid "MTU has to be in the range of 1280-1480."
-msgstr "MTU devrait être comprise entre 1280-1500."
+msgstr "Le MTU doit être compris entre 1280 et 1480."
 
 #: js/src/wan/WANForm.js:27
 msgid "PPPoE (for DSL bridges, etc.)"
 msgstr "PPPoE (pour les ponts DSL, etc.)"
 
 #: js/src/wan/WANForm.js:100
-#, fuzzy
 msgid "IPv4 Settings"
-msgstr "Paramètres de temps"
+msgstr "Paramètres IPv4"
 
 #: js/src/wan/WANForm.js:128
 msgid "PAP/CHAP username"
@@ -2601,21 +2547,23 @@ msgstr "Nom d’utilisateur PAP/CHAP"
 msgid "PAP/CHAP password"
 msgstr "Mot de passe PAP/CHAP"
 
-#: js/src/wifi/WiFi.js:26
+#: js/src/wifi/WiFi.js:27
 msgid "Unfortunately, we were unable to detect any wireless cards in your router."
 msgstr ""
+"Malheureusement, nous n'avons pu détecter aucune carte sans fil dans "
+"votre routeur."
 
-#: js/src/wifi/WiFi.js:41
+#: js/src/wifi/WiFi.js:42
 msgid ""
 "If you want to use your router as a Wi-Fi access point, enable Wi-Fi here"
 " and fill in an SSID (the name of the access point) and a corresponding "
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
-
-#: reforis/views.py:52
-msgid "Wrong password."
-msgstr "Mot de passe erroné."
+"Si vous souhaitez utiliser votre routeur comme point d'accès Wi-Fi, "
+"activez le Wi-Fi ici et indiquez un SSID (le nom du point d'accès) et un "
+"mot de passe correspondant. Vous pouvez ensuite configurer vos appareils "
+"mobiles à l'aide du code QR disponible dans le formulaire."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -2631,7 +2579,7 @@ msgstr "Impossible de supprimer le transitaire DNS."
 
 #: reforis/foris_controller_api/modules/lan.py:57
 msgid "Can't create DHCP lease."
-msgstr ""
+msgstr "Impossible de créer un bail DHCP."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
@@ -2686,22 +2634,6 @@ msgstr ""
 msgid "Guide"
 msgstr "Guide"
 
-#: reforis/templates/login.html:33
-msgid "Log in"
-msgstr "Se connecter"
-
-#: reforis/templates/login.html:35
-msgid "Go to LuCI"
-msgstr "Aller sur LuCI"
-
-#: reforis/templates/login.html:35
-msgid "or"
-msgstr "ou"
-
-#: reforis/templates/login.html:36
-msgid "back to select"
-msgstr "retour pour sélectionner"
-
 #: reforis/templates/errors/400.html:4 reforis/templates/errors/400.html:8
 msgid "400 - Bad Request"
 msgstr "400 - Mauvaise requête"
@@ -2718,19 +2650,6 @@ msgstr "Supplément :"
 msgid "Trace:"
 msgstr "Trace :"
 
-#: reforis/templates/errors/401.html:4
-msgid "401 - Unauthorized"
-msgstr ""
-
-#: reforis/templates/errors/401.html:9
-msgid "You have to authenticate first."
-msgstr ""
-
-#: reforis/templates/errors/401.html:10
-#, python-format
-msgid "Do you want to <a href=\"%(link)s\">log in</a>?"
-msgstr "Voulez-vous <a href=\"%(link)s\">vous connecter</a> ?"
-
 #: reforis/templates/errors/404.html:4
 msgid "404 - Page not found"
 msgstr "404 - Page non trouvée"
@@ -2746,4 +2665,316 @@ msgstr "Erreur de serveur"
 #: reforis/templates/errors/500.html:8
 msgid "500 - Server error"
 msgstr "500 - Server error"
+
+#~ msgid ""
+#~ "\n"
+#~ "<p>Router Turris uses its own DNS "
+#~ "resolver with DNSSEC support. It is "
+#~ "capable of working independently or it"
+#~ "\n"
+#~ "can forward your DNS queries your "
+#~ "internet service provider's DNS resolver.<p/>"
+#~ "\n"
+#~ "<p>The following setting determines the "
+#~ "behavior of the DNS resolver. Usually,"
+#~ " it is better to use the ISP's"
+#~ "\n"
+#~ "resolver in networks where it works "
+#~ "properly. If it does not work for"
+#~ " some reason, it is necessary to "
+#~ "use\n"
+#~ "direct resolving without forwarding.<p/>\n"
+#~ "<p>In rare cases ISP's have improperly"
+#~ " configured network which interferes with"
+#~ " DNSSEC validation. If you\n"
+#~ "experience problems with DNS, you can"
+#~ " <b>temporarily</b> disable DNSSEC validation "
+#~ "to determine the source\n"
+#~ "of the problem. However, keep in "
+#~ "mind that without DNSSEC validation, you"
+#~ " are vulnerable to DNS spoofing\n"
+#~ "attacks! Therefore we <b>recommend keeping "
+#~ "DNSSEC turned on</b> and resolving the"
+#~ " situation with your ISP as\n"
+#~ "this is a serious flaw on their side.</p>\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "<p>Le routeur Turris utilise son propre"
+#~ " résolveur DNS avec prise en charge"
+#~ " de DNSSEC. Il est capable de "
+#~ "fonctionner indépendamment ou il\n"
+#~ "peut transférer vos requêtes DNS au "
+#~ "résolveur DNS de votre fournisseur "
+#~ "Internet.<p/>\n"
+#~ "<p>Le paramètre suivant détermine le "
+#~ "comportement du résolveur DNS. Habituellement,"
+#~ " il vaut mieux utiliser le résolveur"
+#~ " du FAI\n"
+#~ "dans les réseaux où il fonctionne "
+#~ "correctement. S'il ne fonctionne pas "
+#~ "pour une raison quelconque, il est "
+#~ "nécessaire d'utiliser\n"
+#~ "la résolution directe sans transmission.<p/>\n"
+#~ "<p>Dans de rares cas, les FAI ont"
+#~ " un réseau mal configuré qui "
+#~ "interfère avec la validation DNSSEC. Si"
+#~ " vous\n"
+#~ "rencontrez des problèmes avec le DNS,"
+#~ " vous pouvez <b>temporairement</b> désactiver "
+#~ "la validation DNSSEC pour déterminer la"
+#~ " source\n"
+#~ "du problème. Cependant, gardez à "
+#~ "l'esprit que sans validation DNSSEC, "
+#~ "vous êtes vulnérable aux attaques par"
+#~ " usurpation d'identité DNS !\n"
+#~ "attaques ! Par conséquent, nous "
+#~ "<b>recommandons de garder les DNSSEC "
+#~ "activés</b> et de résoudre la situation"
+#~ " avec votre FAI car\n"
+#~ "c’est un grave défaut de leur côté.</p>\n"
+#~ "            "
+
+#~ msgid ""
+#~ "\n"
+#~ "DNSSEC is a security technology that "
+#~ "protects the DNS communication against "
+#~ "attacks on the DNS infrastructure.\n"
+#~ "We strongly recommend keeping DNSSEC "
+#~ "validation enabled unless you know that"
+#~ " you will be connecting your device"
+#~ " in the\n"
+#~ "network where DNSSEC is broken. \n"
+#~ "\n"
+#~ "Do you still want to continue and stay unprotected?\n"
+#~ msgstr ""
+#~ "\n"
+#~ "DNSSEC est une technologie de sécurité"
+#~ " qui protège les communications DNS "
+#~ "contre les attaques sur l’infrastructure "
+#~ "DNS.\n"
+#~ "Nous recommandons fortement de garder la"
+#~ " validation de DNSSEC activée, sauf "
+#~ "si vous savez que vous connecterez "
+#~ "votre appareil dans un\n"
+#~ "réseau où DNSSEC est cassé.\n"
+#~ "\n"
+#~ "Voulez-vous toujours continuer et rester sans protection ?\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This section contains settings for the"
+#~ " local network (LAN). The provided "
+#~ "defaults are suitable for most\n"
+#~ "networks.\n"
+#~ "<br/>\n"
+#~ "<b>Note:</b> If you change the router"
+#~ " IP address, all computers in LAN,"
+#~ " probably including the one you are"
+#~ "\n"
+#~ "using now, will need to obtain a"
+#~ " <b>new IP address</b> which does not"
+#~ " happen <b>immediately</b>. It is\n"
+#~ "recommended to disconnect and reconnect "
+#~ "all LAN cables after submitting your "
+#~ "changes to force the update.\n"
+#~ "The next page will not load until"
+#~ " you obtain a new IP from DHCP"
+#~ " (if DHCP enabled) and you might "
+#~ "need to\n"
+#~ "<b>refresh the page</b> in your browser.\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "Cette section contient les paramètres du"
+#~ " réseau local (LAN). Les valeurs par"
+#~ " défaut fournies conviennent à la "
+#~ "plupart\n"
+#~ "des réseaux.\n"
+#~ "<br/>\n"
+#~ "<b>Remarque :</b> Si vous modifiez "
+#~ "l'adresse IP du routeur, tous les "
+#~ "ordinateurs du réseau local, y compris"
+#~ " probablement celui\n"
+#~ "que vous utilisez actuellement, devront "
+#~ "obtenir une <b>nouvelle adresse IP</b> "
+#~ "ce qui ne se produit pas "
+#~ "<b>immédiatement</b>.\n"
+#~ "Il est recommandé de déconnecter et "
+#~ "reconnecter tous les câbles LAN après"
+#~ " avoir soumis vos modifications pour "
+#~ "forcer la mise à jour.\n"
+#~ "La page suivante ne se chargera "
+#~ "pas tant que vous n'aurez pas "
+#~ "obtenu une nouvelle adresse IP auprès"
+#~ " de DHCP (si DHCP est activé)\n"
+#~ "et vous devrez peut-être <b>actualiser"
+#~ " la page</b> dans votre navigateur.\n"
+#~ "            "
+
+#~ msgid ""
+#~ "\n"
+#~ "                    <li>Automatic updates are "
+#~ "offered to the Turris router owners "
+#~ "free of charge.</li>\n"
+#~ "                    <li>Updates are prepared "
+#~ "exclusively by CZ.NIC, z. s. p. "
+#~ "o.</li>\n"
+#~ "                    <li>\n"
+#~ "                        Enabling of the "
+#~ "automatic updates is a prerequisite for"
+#~ " additional security features of\n"
+#~ "                        Turris router.\n"
+#~ "                    </li>\n"
+#~ "                    <li>\n"
+#~ "                        Automatic updates take "
+#~ "place at the time of their "
+#~ "release, the time of installation\n"
+#~ "                        cannot be influenced by the user.\n"
+#~ "                    </li>\n"
+#~ "                    <li>\n"
+#~ "                        Having the automatic "
+#~ "updates turned on can result in "
+#~ "increased Internet traffic on your\n"
+#~ "                        router. Expenses related "
+#~ "to this increase are covered by "
+#~ "you.\n"
+#~ "                    </li>\n"
+#~ "                    <li>\n"
+#~ "                        Automatic updates cannot "
+#~ "protect you against every attack coming"
+#~ " from the Internet.\n"
+#~ "                        Please do not forget"
+#~ " to protect your workstations and "
+#~ "other devices by installing\n"
+#~ "                        antivirus software and "
+#~ "explaining to your family members how"
+#~ " to stay safe on the\n"
+#~ "                        Internet.\n"
+#~ "                    </li>\n"
+#~ "                    <li>\n"
+#~ "                        CZ.NIC, z. s. p. "
+#~ "o. does not guarantee the availability"
+#~ " of this service and is not\n"
+#~ "                        responsible for any "
+#~ "damages caused by the automatic updates."
+#~ "\n"
+#~ "                    </li>\n"
+#~ "                    "
+#~ msgstr ""
+#~ "\n"
+#~ "                    <li>Les mises à jour "
+#~ "automatiques sont proposées gratuitement aux"
+#~ " propriétaires de routeurs Turris.</li>\n"
+#~ "\t\t\t<li>Les mises à jour sont "
+#~ "préparées exclusivement par CZ.NIC, z. "
+#~ "s. p. o.</li>\n"
+#~ "\t\t\t<li>\n"
+#~ "\t\t\t\tL'activation des mises à jour"
+#~ " automatiques est une condition préalable"
+#~ " pour les fonctionnalités de sécurité\n"
+#~ ""
+#~ "\t\t\t\tsupplémentaires du routeur Turris.\n"
+#~ "\t\t\t</li>\n"
+#~ "\t\t\t<li>\n"
+#~ "\t\t\t\tLes mises à jour automatiques"
+#~ " ont lieu au moment de leur "
+#~ "publication, le moment de l'installation\n"
+#~ ""
+#~ "\t\t\t\tne peut pas être influencé par l'utilisateur.\n"
+#~ "\t\t\t</li>\n"
+#~ "\t\t\t<li>\n"
+#~ "\t\t\t\tL'activation des mises à jour"
+#~ " automatiques peut entraîner une "
+#~ "augmentation du trafic Internet sur "
+#~ "votre routeur.\n"
+#~ "\t\t\t\tLes frais liés à cette augmentation sont à votre charge.\n"
+#~ "\t\t\t</li>\n"
+#~ "\t\t\t<li>\n"
+#~ "\t\t\t\tLes mises à jour automatiques"
+#~ " ne peuvent pas vous protéger contre"
+#~ " toutes les attaques\n"
+#~ "\t\t\t\tprovenant d'Internet. N'oubliez pas"
+#~ " de protéger vos postes de travail"
+#~ " et autres appareils\n"
+#~ "\t\t\t\ten installant un logiciel "
+#~ "antivirus et en expliquant aux membres"
+#~ " de votre famille comment\n"
+#~ "\t\t\t\trester en sécurité sur Internet.\n"
+#~ "\t\t\t</li>\n"
+#~ "\t\t\t<li>\n"
+#~ "\t\t\t\tCZ.NIC, z. s. p. o. ne "
+#~ "garantit pas la disponibilité de ce "
+#~ "service et n'est pas responsable\n"
+#~ "\t\t\t\tdes dommages causés par les mises à jour automatiques.\n"
+#~ "\t\t\t</li>\n"
+#~ "                    "
+
+#~ msgid "Password can't be empty."
+#~ msgstr "Le mot de passe ne peut pas être vide."
+
+#~ msgid "Password should have min 6 symbols."
+#~ msgstr "Le mot de passe doit comporter au moins 6 symboles."
+
+#~ msgid ""
+#~ "Here you specify your WAN port "
+#~ "settings. Usually, you can leave these"
+#~ " options untouched unless instructed "
+#~ "otherwise by your internet service "
+#~ "provider. Also, in case there is a"
+#~ " cable or DSL modem connecting your"
+#~ " router to the network, it is "
+#~ "usually not necessary to change this "
+#~ "setting."
+#~ msgstr ""
+#~ "Vous spécifiez ici les paramètres de "
+#~ "votre port WAN. En général, vous "
+#~ "pouvez laisser ces options intactes, "
+#~ "sauf indication contraire de votre "
+#~ "fournisseur d'accès Internet. En outre, "
+#~ "si un modem câble ou DSL relie "
+#~ "votre routeur au réseau, il n'est "
+#~ "généralement pas nécessaire de modifier "
+#~ "ce paramètre."
+
+#~ msgid ""
+#~ "Here you can test you connection "
+#~ "settings. Remember to click on the "
+#~ "<b>Save button</b> before running the "
+#~ "test. Note that sometimes it takes "
+#~ "a while before the connection is "
+#~ "fully initialized. So it might be "
+#~ "useful to wait for a while before"
+#~ " running this test."
+#~ msgstr ""
+#~ "Vous pouvez ici tester vos paramètres"
+#~ " de connexion. N'oubliez pas de "
+#~ "cliquer sur le bouton <b>Enregistrer</b> "
+#~ "avant d'exécuter le test. Notez qu'il"
+#~ " faut parfois un certain temps avant"
+#~ " que la connexion ne soit "
+#~ "complètement initialisée. Il peut donc "
+#~ "être utile d'attendre un peu avant "
+#~ "d'exécuter ce test."
+
+#~ msgid "Log in"
+#~ msgstr "Se connecter"
+
+#~ msgid "Go to LuCI"
+#~ msgstr "Aller sur LuCI"
+
+#~ msgid "or"
+#~ msgstr "ou"
+
+#~ msgid "back to select"
+#~ msgstr "retour pour sélectionner"
+
+#~ msgid "401 - Unauthorized"
+#~ msgstr "401 - Non autorisé"
+
+#~ msgid "You have to authenticate first."
+#~ msgstr "Vous devez d'abord vous authentifier."
+
+#~ msgid "Do you want to <a href=\"%(link)s\">log in</a>?"
+#~ msgstr "Voulez-vous <a href=\"%(link)s\">vous connecter</a> ?"
 
