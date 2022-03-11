@@ -69,7 +69,7 @@ all:
 
 .PHONY: prepare-dev
 prepare-dev:
-	which npm || curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+	which npm || curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 	which npm || sudo apt-get install -y nodejs
 	cd $(JS_DIR); npm install
 
@@ -85,6 +85,8 @@ prepare-docs:
 venv: $(VENV_NAME)/bin/activate
 $(VENV_NAME)/bin/activate: setup.py
 	test -d $(VENV_NAME) || $(PYTHON) -m virtualenv -p $(PYTHON) $(VENV_NAME)
+	# upgrade pip to latest releases
+	$(VENV_BIN)/$(PYTHON) -m pip install --upgrade pip
 	$(VENV_BIN)/$(PYTHON) -m pip install -e .[devel]
 	touch $(VENV_NAME)/bin/activate
 
