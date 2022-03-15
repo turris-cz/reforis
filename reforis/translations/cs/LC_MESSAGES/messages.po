@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-03-08 13:59+0100\n"
-"PO-Revision-Date: 2021-11-16 10:32+0000\n"
-"Last-Translator: Karel Kočí <karel.koci@nic.cz>\n"
+"PO-Revision-Date: 2022-03-15 22:40+0000\n"
+"Last-Translator: Koli <lukas.koluch@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
+"\n"
 "Language: cs\n"
-"Language-Team: Czech "
-"<https://hosted.weblate.org/projects/turris/reforis/cs/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -148,7 +149,7 @@ msgstr "Platnost končí"
 #: js/src/common/network/DHCP6ClientsList.js:77
 #: js/src/common/network/DHCPClientsList.js:75
 msgid "Never"
-msgstr ""
+msgstr "Nikdy"
 
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
@@ -2901,4 +2902,3 @@ msgstr "500 - Server error"
 
 #~ msgid "Do you want to <a href=\"%(link)s\">log in</a>?"
 #~ msgstr "Chcete se <a href=\"%(link)s\">přihlásit</a>?"
-
