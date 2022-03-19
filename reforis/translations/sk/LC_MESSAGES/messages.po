@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-03-08 13:59+0100\n"
-"PO-Revision-Date: 2022-03-15 22:40+0000\n"
+"PO-Revision-Date: 2022-03-20 06:54+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
 ">\n"
@@ -124,7 +124,7 @@ msgstr ""
 #: js/src/common/network/DHCP6ClientsList.js:33
 #: js/src/common/network/DHCPClientsList.js:29
 msgid "No clients found."
-msgstr "Nanašli sa žiadni klienti."
+msgstr "Nenašli sa žiadni klienti."
 
 #: js/src/common/network/DHCP6ClientsList.js:40
 #: js/src/common/network/DHCPClientsList.js:36 js/src/hostname/Hostname.js:24
@@ -228,7 +228,7 @@ msgstr "Neplatné nastavenia siete. Nastavenia DHCP nie je možné overiť."
 
 #: js/src/common/network/DHCPValidators.js:99
 msgid "Minimum lease time is 1 hour."
-msgstr "Nanižšia doba zápožičky je 1 hodina."
+msgstr "Najnižšia doba výpožičky je 1 hodina."
 
 #: js/src/common/network/DHCPValidators.js:115
 msgid "Address is outside current network."
@@ -339,7 +339,7 @@ msgid ""
 "internet service provider's DNS resolver."
 msgstr ""
 "Router Turris používa vlastný DNS prekladač (resolver) s podporou DNSSEC. "
-"Dokáže pracovať nezávisle, alebo môže presmerovať vaše DNS dopyty na DNS "
+"Dokáže pracovať nezávisle, alebo môže vaše DNS dopyty presmerovať na DNS "
 "prekladač poskytovateľa internetových služieb."
 
 #: js/src/dns/DNS.js:38
@@ -412,7 +412,7 @@ msgstr "Používať preposielanie (forwarding)"
 
 #: js/src/dns/DNSForm.js:100
 msgid "Enable DNSSEC"
-msgstr "Zapnúť DNSSEC"
+msgstr "Povoliť DNSSEC"
 
 #: js/src/dns/DNSForm.js:106
 msgid "Enable DHCP clients in DNS"
@@ -445,7 +445,7 @@ msgstr "Naozaj chcete pokračovať a zostať nechránení?"
 
 #: js/src/dns/DNSSECDisableModal.js:56
 msgid "Disable DNSSEC"
-msgstr "Vypnúť DNSSEC"
+msgstr "Zakázať DNSSEC"
 
 #: js/src/dns/Forwarders/Forwarders.js:81
 msgid "Edit forwarder"
@@ -572,7 +572,7 @@ msgstr ""
 "Sieť pre hostí sa používa na vytvorenie <a href=\"${ForisURLs.wifi}\">Wi-Fi "
 "pre hostí</a>. Je oddelená od vašej bežnej siete LAN. Zariadenia pripojené "
 "do tejto siete majú povolený prístup na internet, ale nemajú povolený "
-"prístup do konfiguračného rozhranie tohto zariadenia ani k iným zariadeniam "
+"prístup do konfiguračného rozhrania tohto zariadenia ani k iným zariadeniam "
 "v miestej sieti."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
@@ -622,7 +622,7 @@ msgstr "Povoliť QoS"
 #: js/src/guestNetwork/GuestNetworkForm.js:159
 #: js/src/overview/Cards/NetmetrCard.js:70
 msgid "Download"
-msgstr "Stiahnuť"
+msgstr "Sťahovanie"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
 #: js/src/overview/Cards/NetmetrCard.js:86
@@ -643,9 +643,8 @@ msgid ""
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
-"Táto sieť aktuálne neobsahuje žiadne zariadenia. Zmeny, ktoré tu "
-"vykonáte, sa stanú plne funkčnými až keď tejto sieti priradíte sieťové "
-"rozhranie."
+"Táto sieť aktuálne neobsahuje žiadne zariadenia. Vykonané zmeny sa prejavia "
+"až keď tejto sieti priradíte sieťové rozhranie."
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:17
 msgid "All network interfaces of this network are currently down."
@@ -726,8 +725,8 @@ msgid ""
 "whether it is working properly and if so you can safely proceed to the "
 "next step."
 msgstr ""
-"Rozhranie WAN je nastavené. Znovu spustite test pripojenia na overenie, "
-"že všetko funguje. Potom môžete bezpečne postúpiť na ďalší krok."
+"Rozhranie WAN je nastavené. Znovu spustite test pripojenia a overte, že "
+"všetko funguje. Potom môžete bezpečne postúpiť na ďalší krok."
 
 #: js/src/guide/constants.js:56
 msgid ""
@@ -765,7 +764,7 @@ msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
 msgstr ""
-"Blahoželáme! Teraz je vaše zariadenie nastavené ako router a schopné "
+"Blahoželáme! Teraz je vaše zariadenie nastavené ako router a je schopné "
 "smerovať sieťovú prevádzku medzi WAN, LAN a sieťou pre hostí."
 
 #: js/src/guide/constants.js:90
@@ -773,9 +772,9 @@ msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
 "some further configuration updates to fit the device to your needs."
 msgstr ""
-"Minimálne nastavenia vášho zariadenia sú dokončené. Pripomíname, že na "
-"úplné prispôsobenie zariadenia vašim potrebám bude pravdepodobne treba "
-"vykonať v nastaveniach ďalšie zmeny."
+"Minimálne nastavenia vášho zariadenia sú dokončené. Pripomíname, že na úplné "
+"prispôsobenie zariadenia vašim potrebám bude pravdepodobne potrebné vykonať "
+"v nastaveniach ďalšie zmeny."
 
 #: js/src/guide/constants.js:98
 msgid ""
@@ -1056,8 +1055,8 @@ msgid ""
 "It acts as an external network connection. Firewall rules should be "
 "applied here. It can only contain a single interface."
 msgstr ""
-"Funguje ako pripojenie do vonkajšej siete a mali by sa tu použiť pravidlá "
-"brány firewall. Môže obsahovať len jedno rozhranie."
+"Slúži na pripojenie do vonkajšej siete a mali by sa tu použiť pravidlá brány "
+"firewall. Môže obsahovať len jedno rozhranie."
 
 #: js/src/interfaces/InterfacesForm.js:123
 msgid ""
@@ -1067,7 +1066,7 @@ msgid ""
 "should contain at least one interface. Otherwise, you might not be able "
 "to configure this device easily."
 msgstr ""
-"Funguje ako pripojenie do miestnej siete. Do LAN by mali byť pripojené len "
+"Slúži na pripojenie do miestnej siete. Do LAN by mali byť pripojené len "
 "zariadenia, ktoré máte pod kontrolou a dôverujete im. Tieto zariadenia sa "
 "navzájom môžu vidieť a pristupovať do tohto konfiguračného rozhrania. Sieť "
 "LAN by mala obsahovať aspoň jedno sieťové rozhranie, inak stratíte "
@@ -1081,11 +1080,11 @@ msgid ""
 "that you don't fully trust. Note that you can also limit the "
 "download/upload speed of the devices connected to the guest network."
 msgstr ""
-"Funguje ako pripojenie do miestnej siete. Na rozdiel od LAN zariadenia v "
-"sieti pre hostí nemajú prístup do konfiguračného rozhrania tohto zariadenia "
-"a majú prístup len na WAN (internet). Táto sieť by sa mala používať pre "
-"zariadenia, ktorým nie celkom dôverujete. Pripomíname, že zariadeniam v "
-"sieti pre hostí je možné obmedziť rýchlosť sťahovania/odosielania dát."
+"Slúži na pripojenie do miestnej siete. Na rozdiel od LAN zariadenia v sieti "
+"pre hostí nemajú prístup do konfiguračného rozhrania tohto zariadenia a majú "
+"prístup len na WAN (internet). Táto sieť by sa mala používať pre zariadenia, "
+"ktorým nie celkom dôverujete. Pripomíname, že zariadeniam v sieti pre hostí "
+"je možné obmedziť rýchlosť sťahovania/odosielania dát."
 
 #: js/src/interfaces/Network.js:43
 msgid "There are no interfaces in this group."
@@ -1166,8 +1165,8 @@ msgid ""
 msgstr ""
 "<b>Poznámka:</b> Ak zmeníte IP adresu routera, všetky počítače v sieti LAN ("
 "pravdepodobne vrátane toho, ktorý práve používate), budú musieť získať "
-"<b>nové IP adresy</b>. To sa však nestane <b>okamžite</b>. Preto sa po "
-"odoslaní vykonaných zmien odporúča vynútiť aktualizáciu IP adries tak, že sa "
+"<b>nové IP adresy</b>. Nestane sa to však <b>okamžite</b>. Preto sa po "
+"odoslaní vykonaných zmien odporúča vynútiť aktualizáciu IP adries tým, že sa "
 "odpoja a opäť pripoja sieťové káble všetkých zariadení. Nasledujúca strana "
 "sa nenačíta, kým nezískate novú IP adresu z DHCP (ak je DHCP zapnuté). Možno "
 "bude potrebné túto stránku v prehliadači <b>opäť načítať</b>."
@@ -1362,7 +1361,7 @@ msgid ""
 "required to log in again."
 msgstr ""
 "Ak chcete zariadenie reštartovať, kliknite na nasledujúce tlačidlo. Reštart "
-"bude trvať približne 30 sekúnd a potom sa budete musieť opäť prihlásiť."
+"bude trvať približne 30 sekúnd a budete sa musieť opäť prihlásiť."
 
 #: js/src/maintenance/Syslog/Syslog.js:49
 msgid "A drive has to be configured first."
@@ -1394,7 +1393,7 @@ msgstr ""
 
 #: js/src/maintenance/Syslog/SyslogForm.js:44
 msgid "Enable System Logs Retention"
-msgstr "Povoliť ukladanie systémových záznamov"
+msgstr "Povoliť uchovávanie systémových záznamov"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
@@ -1508,10 +1507,9 @@ msgid ""
 "\"Reboot or attention is required\" and click \"Save\" button if you want"
 " to get this notification by email."
 msgstr ""
-"S aktuálnym nastavením úrovne dôležitosti sa testovacia notifikácia na "
-"e-mail neodošle. Ak chcete tieto notifikácie dostávať, zvýšte dôležitosti"
-" aspoň na úroveň „Je potrebný reštart alebo pozornosť“ a kliknite na "
-"„Uložiť“."
+"S aktuálnym nastavením úrovne dôležitosti sa testovacia notifikácia na e-"
+"mail neodošle. Ak chcete tieto notifikácie dostávať, zvýšte dôležitosť aspoň "
+"na úroveň „Je potrebný reštart alebo pozornosť“ a kliknite na „Uložiť“."
 
 #: js/src/notificationsSettings/TestNotification.js:112
 msgid "Test Notification"
@@ -1547,7 +1545,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/helpTexts.js:15
 msgid "Email address of recipient. Separate multiple addresses by comma."
-msgstr "E-mailová adresa prijímateľa. Viac adries oddeľujte čiarkami."
+msgstr "E-mailová adresa prijímateľa. Viaceré adresy oddeľujte čiarkami."
 
 #: js/src/notificationsSettings/helpTexts.js:18
 msgid "Send emails about new features."
@@ -1820,7 +1818,7 @@ msgstr "Čas musí byť vo formáte HH:MM."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:91
 msgid "Restart can be delayed by at most 10 days"
-msgstr "Reštart sa môže odložiť o najviac 10 dní"
+msgstr "Reštart sa môže odložiť najviac o 10 dní"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:94
 msgid "Delay must be a positive number"
@@ -1884,7 +1882,7 @@ msgstr "Odložené aktualizácie (hodiny)"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:97
 msgid "Updates must be delayed by least 1 hour and at most by 168 hours"
-msgstr "Aktualizácie je možné odložiť o najmenej 1 hodinu a najviac 168 hodín"
+msgstr "Aktualizácie je možné odložiť najmenej o 1 hodinu a najviac o 168 hodín"
 
 #: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:47
 msgid "Automatic Update Settings"
@@ -1896,7 +1894,7 @@ msgstr "Povoliť automatické aktualizácie (odporúča sa)"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:44
 msgid "Updates will be installed shortly."
-msgstr "Aktualizácie sa onedlho nainštalujú."
+msgstr "Aktualizácie sa zakrátko nainštalujú."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:62
 #, python-format
@@ -1957,11 +1955,11 @@ msgstr "Akcia"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:154
 msgid "Current"
-msgstr "Súčasný"
+msgstr "Aktuálna"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:155
 msgid "New"
-msgstr "Nový"
+msgstr "Nová"
 
 #: js/src/packageManagement/updates/UpdateManager.js:74
 msgid "Updates Check"
@@ -1988,7 +1986,7 @@ msgid ""
 "In Turris OS, you decide when and how to get the latest updates\n"
 "                    to keep your device running smoothly and securely."
 msgstr ""
-"V Turris OS sami rozhodujete, kedy a ako získať najnovšie aktualizácie,\n"
+"V Turris OS sami rozhodujete, kedy a ako získavať najnovšie aktualizácie,\n"
 "                    aby vaše zariadenie fungovalo hladko a bezpečne."
 
 #: js/src/packageManagement/updates/Updates.js:48
@@ -2018,7 +2016,7 @@ msgstr "Skontrolovať dostupnosť aktualizácií"
 
 #: js/src/packageManagement/updates/Updates.js:71
 msgid "Manually check for updates and review them immediately."
-msgstr "Manuálna kontrola dostupnosti aktualizácií a ich okamžitá revízia."
+msgstr "Ručná kontrola dostupnosti aktualizácií a ich okamžitá revízia."
 
 #: js/src/packageManagement/updates/hooks.js:89
 msgid "Cannot fetch updater status."
@@ -2040,7 +2038,7 @@ msgstr "Nastavte heslo do tohto konfiguračného rozhrania."
 
 #: js/src/password/ForisPasswordForm.js:60
 msgid "Current password"
-msgstr "Súčasné heslo"
+msgstr "Aktuálne heslo"
 
 #: js/src/password/ForisPasswordForm.js:71
 #: js/src/password/RootPasswordForm.js:67
@@ -2282,7 +2280,7 @@ msgstr "Vlastná MAC adresa"
 
 #: js/src/wan/MACForm.js:66
 msgid "Current MAC address"
-msgstr "Súčasná MAC adresa"
+msgstr "Aktuálna MAC adresa"
 
 #: js/src/wan/MACForm.js:72
 msgid "Set the new MAC address"
@@ -2561,11 +2559,11 @@ msgstr "Extra:"
 
 #: reforis/templates/errors/400.html:16 reforis/templates/errors/500.html:16
 msgid "Trace:"
-msgstr "Cesta:"
+msgstr "Trace:"
 
 #: reforis/templates/errors/404.html:4
 msgid "404 - Page not found"
-msgstr "404 - Stránka sa nenašla"
+msgstr "404 – Stránka sa nenašla"
 
 #: reforis/templates/errors/404.html:9
 msgid "Page not found :("
