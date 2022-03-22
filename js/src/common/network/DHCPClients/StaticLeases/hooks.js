@@ -6,7 +6,7 @@
  */
 
 import { useEffect } from "react";
-import update from "immutability-helper";
+
 import {
     ALERT_TYPES,
     API_STATE,
@@ -15,7 +15,10 @@ import {
     useAPIPut,
     useForm,
 } from "foris";
+import update from "immutability-helper";
+
 import API_URLs from "common/API";
+
 import validator from "./validator";
 
 const EMPTY_LEASE = {
@@ -45,7 +48,7 @@ export default function useStaticLeaseModalForm(
                 ALERT_TYPES.SUCCESS
             );
         } else if (postState.state === API_STATE.ERROR) {
-            setAlert(_("Can't add new static lease."));
+            setAlert(postState.data);
         }
     }, [setAlert, postState, initForm, saveStaticLeaseCallback]);
 
@@ -54,7 +57,7 @@ export default function useStaticLeaseModalForm(
             saveStaticLeaseCallback();
             setAlert(_("Static saved successfully."), ALERT_TYPES.SUCCESS);
         } else if (putState.state === API_STATE.ERROR) {
-            setAlert(_("Can't save static lease."));
+            setAlert(putState.data);
         }
     }, [putState, saveStaticLeaseCallback, setAlert]);
 
