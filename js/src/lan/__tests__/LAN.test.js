@@ -76,11 +76,13 @@ describe("<LAN/>", () => {
         expect(lanContainer).toMatchSnapshot();
     });
 
-    it("Snapshot managed with enabled DHCP.", () => {
+    it("Snapshot managed with enabled DHCP.", async () => {
         fireEvent.change(getByLabelText(lanContainer, "LAN mode"), {
             target: { value: "managed" },
         });
         fireEvent.click(getByText(lanContainer, "Enable DHCP"));
+        mockAxios.mockResponse({ data: lanSettingsFixture });
+        await wait(() => getByText(lanContainer, "DHCP Client List"));
         expect(lanContainer).toMatchSnapshot();
     });
 
@@ -407,8 +409,10 @@ describe("Customized <LAN/>", () => {
         expect(lanContainer).toMatchSnapshot();
     });
 
-    it("Snapshot managed with enabled DHCP.", () => {
+    it("Snapshot managed with enabled DHCP.", async () => {
         fireEvent.click(getByText(lanContainer, "Enable DHCP"));
+        mockAxios.mockResponse({ data: lanSettingsFixture });
+        await wait(() => getByText(lanContainer, "DHCP Client List"));
         expect(lanContainer).toMatchSnapshot();
     });
 });
