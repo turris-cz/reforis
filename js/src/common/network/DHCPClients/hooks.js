@@ -6,9 +6,10 @@
  */
 
 import { useEffect, useState } from "react";
-import update from "immutability-helper";
 
 import { API_STATE, useAPIGet, useWSForisModule } from "foris";
+import update from "immutability-helper";
+
 import API_URLs from "common/API";
 
 const MODULE = "lan";

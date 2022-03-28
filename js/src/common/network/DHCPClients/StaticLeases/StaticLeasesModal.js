@@ -6,11 +6,12 @@
  */
 
 import React, { useCallback } from "react";
-import PropTypes from "prop-types";
-import { Modal, ModalBody, ModalHeader, ModalFooter, Button } from "foris";
 
-import StaticLeasesModalForm from "./StaticLeasesModalForm";
+import { Modal, ModalBody, ModalHeader, ModalFooter, Button } from "foris";
+import PropTypes from "prop-types";
+
 import useStaticLeaseModalForm from "./hooks";
+import StaticLeasesModalForm from "./StaticLeasesModalForm";
 
 StaticLeaseModal.propTypes = {
     lease: PropTypes.object,

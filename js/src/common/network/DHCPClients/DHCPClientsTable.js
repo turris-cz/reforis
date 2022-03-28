@@ -6,8 +6,9 @@
  */
 
 import React from "react";
-import PropTypes from "prop-types";
+
 import moment from "moment";
+import PropTypes from "prop-types";
 
 DHCPClientsTable.propTypes = {
     clients: PropTypes.arrayOf(PropTypes.object),

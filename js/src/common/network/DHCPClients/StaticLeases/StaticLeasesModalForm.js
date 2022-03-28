@@ -6,9 +6,9 @@
  */
 
 import React from "react";
-import PropTypes from "prop-types";
 
 import { API_STATE, Spinner, TextInput } from "foris";
+import PropTypes from "prop-types";
 
 StaticLeasesModalForm.propTypes = {
     formState: PropTypes.object,

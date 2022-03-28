@@ -7,12 +7,13 @@
 
 import React from "react";
 
+import { WebSockets } from "foris";
 import PropTypes from "prop-types";
 import ReactDOM from "react-dom";
-import { WebSockets } from "foris";
 
-import DHCPClients from "common/network/DHCPClients/DHCPClients";
 import DHCP6Clients from "common/network/DHCP6Clients";
+import DHCPClients from "common/network/DHCPClients/DHCPClients";
+
 import { LAN_MODES } from "./LANForm";
 
 LANDHCPClients.propTypes = {

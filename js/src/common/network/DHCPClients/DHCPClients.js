@@ -6,8 +6,10 @@
  */
 
 import React from "react";
-import PropTypes from "prop-types";
+
 import { formFieldsSize, WebSockets } from "foris";
+import PropTypes from "prop-types";
+
 import DHCPClientsTable from "./DHCPClientsTable";
 import DHCPClientsWithStaticLeases from "./DHCPClientsWithStaticLeases";
 

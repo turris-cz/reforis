@@ -13,10 +13,10 @@ import PropTypes from "prop-types";
 import API_URLs from "common/API";
 import { getDHCPStart } from "common/network/utils";
 
+import LANDHCPClients from "./LANDHCPClients";
 import LANForm, { LAN_MODES } from "./LANForm";
 import { validateManaged } from "./LANManagedForm";
 import { validateUnmanaged } from "./LANUnmanagedForm";
-import LANDHCPClients from "./LANDHCPClients";
 
 LAN.propTypes = {
     ws: PropTypes.object.isRequired,
