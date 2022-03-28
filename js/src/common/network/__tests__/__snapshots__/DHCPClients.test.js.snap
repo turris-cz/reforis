@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DHCPClients/> Test with snapshot. 1`] = `
+<div>
+  <div
+    class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
+  >
+    <h2>
+      DHCP Client List
+    </h2>
+    <p>
+      This list contains all devices that are connected to the network through wired or wireless connections.
+    </p>
+    <div
+      class="table-responsive"
+    >
+      <table
+        class="table table-hover"
+      >
+        <thead
+          class="thead-light"
+        >
+          <tr
+            class="text-left"
+          >
+            <th>
+              Hostname
+            </th>
+            <th>
+              IPv4 Address
+            </th>
+            <th>
+              MAC Address
+            </th>
+            <th
+              class="text-center"
+            >
+              Expires
+            </th>
+            <th
+              class="text-center"
+            >
+              Active
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="text-left"
+          >
+            <td>
+              first
+            </td>
+            <td>
+              192.168.1.1
+            </td>
+            <td>
+              11:22:33:44:55:66
+            </td>
+            <td
+              class="text-center"
+            >
+              2018-10-12 13:16
+            </td>
+            <td
+              class="text-center"
+            >
+              <i
+                class="fas fa-check text-success"
+                title="Device is active"
+              />
+            </td>
+          </tr>
+          <tr
+            class="text-left"
+          >
+            <td>
+              *
+            </td>
+            <td>
+              192.168.2.1
+            </td>
+            <td>
+              99:88:77:66:55:44
+            </td>
+            <td
+              class="text-center"
+            >
+              2018-10-12 13:16
+            </td>
+            <td
+              class="text-center"
+            >
+              <i
+                class="fas fa-times text-danger"
+                title="Device is inactive"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

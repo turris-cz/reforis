@@ -297,37 +297,65 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
               >
                 Active
               </th>
+              <th
+                aria-label="Actions"
+              />
             </tr>
           </thead>
           <tbody>
-            <tr
-              class="text-left"
-            >
-              <td>
+            <tr>
+              <td
+                class="align-middle"
+              >
                 test-client
               </td>
-              <td>
+              <td
+                class="align-middle"
+              >
                 192.168.1.10
               </td>
-              <td>
+              <td
+                class="align-middle"
+              >
                 8F:31:22:89:64:20
               </td>
               <td
-                class="text-center"
+                class="text-center align-middle"
               >
                 2021-03-19 00:52
               </td>
               <td
-                class="text-center"
+                class="text-center align-middle"
               >
                 <i
                   class="fas fa-check text-success"
                   title="Device is active"
                 />
               </td>
+              <td
+                align="right"
+                class="align-middle"
+              >
+                <button
+                  class="btn btn btn-sm btn-outline-success"
+                  type="button"
+                >
+                  Set Static
+                </button>
+              </td>
             </tr>
           </tbody>
         </table>
+      </div>
+      <div
+        class="text-right"
+      >
+        <button
+          class="btn btn-outline-primary col-sm-12 col-md-3 col-lg-2"
+          type="button"
+        >
+          Add static lease
+        </button>
       </div>
     </div>
     <div
@@ -1259,11 +1287,97 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
       <p>
         This list contains all devices that are connected to the network through wired or wireless connections.
       </p>
-      <p
-        class="text-muted text-center"
+      <div
+        class="table-responsive"
       >
-        No clients found.
-      </p>
+        <table
+          class="table table-hover"
+        >
+          <thead
+            class="thead-light"
+          >
+            <tr
+              class="text-left"
+            >
+              <th>
+                Hostname
+              </th>
+              <th>
+                IPv4 Address
+              </th>
+              <th>
+                MAC Address
+              </th>
+              <th
+                class="text-center"
+              >
+                Expires
+              </th>
+              <th
+                class="text-center"
+              >
+                Active
+              </th>
+              <th
+                aria-label="Actions"
+              />
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                class="align-middle"
+              >
+                test-client
+              </td>
+              <td
+                class="align-middle"
+              >
+                192.168.1.10
+              </td>
+              <td
+                class="align-middle"
+              >
+                8F:31:22:89:64:20
+              </td>
+              <td
+                class="text-center align-middle"
+              >
+                2021-03-19 00:52
+              </td>
+              <td
+                class="text-center align-middle"
+              >
+                <i
+                  class="fas fa-check text-success"
+                  title="Device is active"
+                />
+              </td>
+              <td
+                align="right"
+                class="align-middle"
+              >
+                <button
+                  class="btn btn btn-sm btn-outline-success"
+                  type="button"
+                >
+                  Set Static
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div
+        class="text-right"
+      >
+        <button
+          class="btn btn-outline-primary col-sm-12 col-md-3 col-lg-2"
+          type="button"
+        >
+          Add static lease
+        </button>
+      </div>
     </div>
     <div
       class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
