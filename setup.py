@@ -35,9 +35,8 @@ setuptools.setup(
 
     description='reForis is the latest, simple, and most user-friendly interface for Turris routers.',
     url='https://gitlab.nic.cz/turris/reforis/reforis',
-    author='CZ.NIC, z. s. p. o.',
-    author_email='bogdan.bodnar@nic.cz',
-
+    author='CZ.NIC, z.s.p.o. (https://www.nic.cz/)',
+    author_email='packaging@turris.cz',
     install_requires=[
         'flask',
         'Babel',
