@@ -80,6 +80,9 @@ def lan_set_client():
         <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/lan/schema/lan.json>`_.
     """
     data = request.json
+    if not data:
+        return 'Malformed request data', 400
+
     response = current_app.backend.perform('lan', 'set_dhcp_client', data)
     return dhcp_response_to_json_or_error(response, _('Can\'t create DHCP lease.'))
 
@@ -92,6 +95,9 @@ def lan_update_client(client_hostname):
         <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/lan/schema/lan.json>`_.
     """
     data = request.json
+    if not data:
+        return 'Malformed request data', 400
+
     response = current_app.backend.perform('lan', 'update_dhcp_client', {'hostname': client_hostname, **data})
     return dhcp_response_to_json_or_error(response, _('Can\'t update DHCP lease.'))
 
