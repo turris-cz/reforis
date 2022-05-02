@@ -87,9 +87,9 @@ def lan_set_client():
     return dhcp_response_to_json_or_error(response, _('Can\'t create DHCP lease.'))
 
 
-def lan_update_client(client_hostname):
+def lan_update_client(client_hostname: str):
     """
-    .. http:post:: /api/lan/update_client
+    .. http:put:: /api/lan/update_client
         Update LAN DHCP leases manually.
         See ``update_dhcp_client`` action in the `foris-controller lan module JSON schema
         <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/lan/schema/lan.json>`_.
@@ -102,9 +102,9 @@ def lan_update_client(client_hostname):
     return dhcp_response_to_json_or_error(response, _('Can\'t update DHCP lease.'))
 
 
-def lan_delete_client(client_mac):
+def lan_delete_client(client_mac: str):
     """
-    .. http:post:: /api/lan/delete_client
+    .. http:delete:: /api/lan/delete_client
         Delete LAN DHCP leases manually.
         See ``delete_dhcp_client`` action in the `foris-controller lan module JSON schema
         <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/lan/schema/lan.json>`_.
