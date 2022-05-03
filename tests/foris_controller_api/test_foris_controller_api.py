@@ -1,4 +1,4 @@
-#  Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2020-2022 CZ.NIC z.s.p.o. (http://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -68,23 +68,6 @@ def test_api_get_endpoint_foris_controller_calls(client, endpoint, module, actio
 
 @pytest.mark.parametrize(
     'endpoint, module, action, request_data', [
-        ('lan/set_client', 'lan', 'set_dhcp_client',
-            {
-                'ip': '192.168.1.15',
-                'hostname':'whatever',
-                'mac':'aa:7c:8d:62:2e:25'
-            },
-        ),
-        ('lan/update_client', 'lan', 'update_dhcp_client',
-            {
-                'ip': '192.168.1.18',
-                'hostname': 'anotherhostname',
-                'mac': 'aa:7c:8d:62:2e:25',
-            },
-        ),
-        ('lan/delete_client', 'lan', 'delete_dhcp_client',
-            {'mac': 'aa:7c:8d:62:2e:25'},
-        ),
         ('wifi-reset', 'wifi', 'reset', {}),
         ('connection-test', 'wan', 'connection_test_trigger', {}),
         ('dns/test', 'wan', 'connection_test_trigger', {}),
@@ -107,13 +90,57 @@ def test_api_get_endpoint_foris_controller_calls(client, endpoint, module, actio
                     'enabled': False
                 }
             }
-        )
+        ),
+        ('lan/clients', 'lan', 'set_dhcp_client',
+            {
+                'ip': '192.168.1.15',
+                'hostname': 'whatever',
+                'mac': 'aa:7c:8d:62:2e:25'
+            },
+        ),
     ]
 )
 def test_api_post_endpoint_foris_controller_calls(client, endpoint, module, action, request_data):
     _test_api_endpoint_foris_controller_call(
         client,
         f'api/{endpoint}', 'post',
+        module, action,
+        request_data=request_data,
+        response_data={'result': True}
+    )
+
+
+@pytest.mark.parametrize(
+    'endpoint, module, action, request_data', [
+        ('lan/clients/oldhostname', 'lan', 'update_dhcp_client',
+            {
+                'ip': '192.168.1.18',
+                'hostname': 'anotherhostname',
+                'old_mac': 'aa:7c:8d:62:2e:25',
+                'mac': 'aa:7c:8d:62:2e:30',
+            },
+        ),
+    ]
+)
+def test_api_put_endpoint_foris_controller_calls(client, endpoint, module, action, request_data):
+    _test_api_endpoint_foris_controller_call(
+        client,
+        f'api/{endpoint}', 'put',
+        module, action,
+        request_data=request_data,
+        response_data={'result': True}
+    )
+
+
+@pytest.mark.parametrize(
+    'endpoint, module, action, request_data', [
+        ('lan/clients/aa:7c:8d:62:2e:25', 'lan', 'delete_dhcp_client', {}),
+    ]
+)
+def test_api_delete_endpoint_foris_controller_calls(client, endpoint, module, action, request_data):
+    _test_api_endpoint_foris_controller_call(
+        client,
+        f'api/{endpoint}', 'delete',
         module, action,
         request_data=request_data,
         response_data={'result': True}
