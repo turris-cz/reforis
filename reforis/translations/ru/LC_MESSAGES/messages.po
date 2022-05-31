@@ -7,25 +7,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-08 13:59+0100\n"
-"PO-Revision-Date: 2021-12-18 00:07+0000\n"
+"POT-Creation-Date: 2022-05-31 14:16+0200\n"
+"PO-Revision-Date: 2022-04-06 11:10+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
 "Language: ru\n"
 "Language-Team: Russian "
 "<https://hosted.weblate.org/projects/turris/reforis/ru/>\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
 msgid "About"
 msgstr "Сведения"
 
 #: js/src/about/About.js:27
-#, fuzzy
 msgid ""
 "Here you can find some information about your device. Please include it "
 "in your message if you contact our <a "
@@ -34,8 +33,8 @@ msgid ""
 msgstr ""
 "Здесь вы можете найти некоторую информацию о вашем устройстве. Включите "
 "его в свое сообщение, если вы обратитесь в нашу <a "
-"href=\"mailto:tech.support@turris.cz\" target=\"_blank\"> службу "
-"поддержки </a>."
+"href=\"mailto:tech.support@turris.cz\" target=\"_blank\">службу "
+"поддержки</a>."
 
 #: js/src/about/About.js:56
 msgid "Device"
@@ -86,6 +85,7 @@ msgid "Are you sure you want to reset the router?"
 msgstr "Вы уверены, что хотите сбросить настройки маршрутизатора?"
 
 #: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:71
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:58
 #: js/src/dns/DNSSECDisableModal.js:48
 #: js/src/notificationsSettings/TestNotification.js:153
 msgid "Cancel"
@@ -111,11 +111,11 @@ msgstr "Подтвердите перезагрузку"
 msgid "Go to top"
 msgstr "Наверх"
 
-#: js/src/common/network/DHCP6ClientsList.js:25
+#: js/src/common/network/DHCP6Clients.js:25
 msgid "IPv6 DHCP Client List"
 msgstr "Список клиентов DHCP IPv6"
 
-#: js/src/common/network/DHCP6ClientsList.js:27
+#: js/src/common/network/DHCP6Clients.js:27
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
@@ -123,32 +123,38 @@ msgstr ""
 "Этот список содержит все устройства, подключенные к сети через проводные "
 "или беспроводные соединения с использованием IPv6."
 
-#: js/src/common/network/DHCP6ClientsList.js:33
-#: js/src/common/network/DHCPClientsList.js:29
+#: js/src/common/network/DHCP6Clients.js:33
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:22
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
 msgid "No clients found."
 msgstr "Клиенты не найдены."
 
-#: js/src/common/network/DHCP6ClientsList.js:40
-#: js/src/common/network/DHCPClientsList.js:36 js/src/hostname/Hostname.js:24
-#: js/src/main/pages.js:89 js/src/main/pages.js:180
+#: js/src/common/network/DHCP6Clients.js:40
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:33
+#: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
+#: js/src/main/pages.js:180
 msgid "Hostname"
 msgstr "Имя хоста"
 
-#: js/src/common/network/DHCP6ClientsList.js:41
+#: js/src/common/network/DHCP6Clients.js:41
 msgid "IPv6 Address"
 msgstr "Адрес IPv6"
 
-#: js/src/common/network/DHCP6ClientsList.js:42
+#: js/src/common/network/DHCP6Clients.js:42
 msgid "DUID"
 msgstr "Уникальный идентификатор DHCP (DUID)"
 
-#: js/src/common/network/DHCP6ClientsList.js:43
-#: js/src/common/network/DHCPClientsList.js:39
+#: js/src/common/network/DHCP6Clients.js:43
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:32
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:36
 msgid "Expires"
 msgstr "Истекает"
 
-#: js/src/common/network/DHCP6ClientsList.js:77
-#: js/src/common/network/DHCPClientsList.js:75
+#: js/src/common/network/DHCP6Clients.js:77
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:68
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:73
 msgid "Never"
 msgstr "Никогда"
 
@@ -159,38 +165,6 @@ msgstr "Имя хоста, которое будет предоставлено 
 #: js/src/common/network/DHCPClientForm.js:38
 msgid "DHCP hostname"
 msgstr "Имя сервера DHCP"
-
-#: js/src/common/network/DHCPClientsList.js:21
-msgid "DHCP Client List"
-msgstr "Список клиентов DHCP"
-
-#: js/src/common/network/DHCPClientsList.js:23
-msgid ""
-"This list contains all devices that are connected to the network through "
-"wired or wireless connections."
-msgstr ""
-"Этот список содержит все устройства, подключенные к сети через проводные "
-"или беспроводные соединения."
-
-#: js/src/common/network/DHCPClientsList.js:37
-msgid "IPv4 Address"
-msgstr "Адрес IPv4"
-
-#: js/src/common/network/DHCPClientsList.js:38
-msgid "MAC Address"
-msgstr "MAC адрес"
-
-#: js/src/common/network/DHCPClientsList.js:40
-msgid "Active"
-msgstr "Активный"
-
-#: js/src/common/network/DHCPClientsList.js:85
-msgid "Device is active"
-msgstr "Устройство активно"
-
-#: js/src/common/network/DHCPClientsList.js:85
-msgid "Device is inactive"
-msgstr "Устройство неактивно"
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
@@ -294,6 +268,127 @@ msgstr "Обязательное поле."
 msgid "This is not a valid network mask."
 msgstr "Это недопустимая маска подсети."
 
+#: js/src/common/network/DHCPClients/DHCPClients.js:25
+msgid "DHCP Client List"
+msgstr "Список клиентов DHCP"
+
+#: js/src/common/network/DHCPClients/DHCPClients.js:27
+msgid ""
+"This list contains all devices that are connected to the network through "
+"wired or wireless connections."
+msgstr ""
+"Этот список содержит все устройства, подключенные к сети через проводные "
+"или беспроводные соединения."
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
+msgid "IPv4 Address"
+msgstr "Адрес IPv4"
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:31
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
+msgid "MAC Address"
+msgstr "MAC адрес"
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:33
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:37
+msgid "Active"
+msgstr "Активный"
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+msgid "Device is active"
+msgstr "Устройство активно"
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+msgid "Device is inactive"
+msgstr "Устройство неактивно"
+
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
+msgid "Edit static lease"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:59
+msgid "Set static lease"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:61
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:98
+msgid "Add static lease"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:61
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
+msgid "Save"
+msgstr "Сохранить"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:45
+msgid "List of available hostnames"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:57
+#, fuzzy
+msgid "IPv4 address"
+msgstr "Адрес IPv4"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:68
+msgid "List of available IPv4 addresses"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:82
+#, fuzzy
+msgid "MAC address"
+msgstr "IP-адрес"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:93
+msgid "List of available MAC addresses"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:123
+#: js/src/dns/Forwarders/ForwardersTable.js:39
+msgid "Actions"
+msgstr "Действия"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:134
+#: js/src/dns/Forwarders/ForwardersTable.js:143
+msgid "Edit"
+msgstr "Редактировать"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:148
+#: js/src/dns/Forwarders/ForwardersTable.js:151
+msgid "Delete"
+msgstr "Удалить"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
+msgid "Set Static"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/hooks.js:47
+#, fuzzy
+msgid "Static lease added successfully."
+msgstr "Сервер пересылки успешно добавлен."
+
+#: js/src/common/network/DHCPClients/StaticLeases/hooks.js:58
+#, fuzzy
+msgid "Static saved successfully."
+msgstr "Сервер пересылки успешно сохранен."
+
+#: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
+#, fuzzy
+msgid "Hostname cannot be empty."
+msgstr "Имя отправителя не может быть пустым."
+
+#: js/src/common/network/DHCPClients/StaticLeases/validator.js:24
+msgid "IPv4 address cannot be empty."
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/validator.js:28
+#, fuzzy
+msgid "MAC address cannot be empty."
+msgstr "Не может быть пустым."
+
 #: js/src/connectionTest/ConnectionTestButton.js:27
 msgid "Test is running..."
 msgstr "Тест запущен..."
@@ -340,6 +435,9 @@ msgid ""
 "capable of working independently or it can forward your DNS queries your "
 "internet service provider's DNS resolver."
 msgstr ""
+"Маршрутизатор Turris использует собственный резольвер DNS с поддержкой "
+"DNSSEC. Он может работать независимо или может перенаправлять ваши "
+"DNS-запросы на резольвер DNS вашего интернет-провайдера."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -348,6 +446,10 @@ msgid ""
 "works properly. If it does not work for some reason, it is necessary to "
 "use direct resolving without forwarding."
 msgstr ""
+"Следующий параметр определяет поведение резолвера DNS. Обычно лучше "
+"использовать резолвер провайдера в тех сетях, где он работает нормально. "
+"Если по какой-то причине это не работает, необходимо использовать прямое "
+"разрешение без переадресации."
 
 #: js/src/dns/DNS.js:44
 msgid ""
@@ -359,24 +461,28 @@ msgid ""
 "<b>recommend keeping DNSSEC turned on</b> and resolving the situation "
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
+"В редких случаях интернет-провайдеры имеют неправильно настроенную сеть, "
+"что мешает проверке DNSSEC. Если у вас возникли проблемы с DNS, вы можете"
+" <b>временно</b> отключить проверку DNSSEC, чтобы определить источник "
+"проблемы. Однако имейте в виду, что без проверки DNSSEC вы уязвимы для "
+"атак с подделкой DNS! Поэтому мы <b>рекомендуем оставить DNSSEC "
+"включенным</b> и разрешить ситуацию с вашим интернет-провайдером, так как"
+" это серьезный недостаток на их стороне."
 
 #: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:49
 msgid "Connection Test"
 msgstr "Проверка соединения"
 
 #: js/src/dns/DNS.js:66
-#, fuzzy
 msgid ""
 "Here you can test your internet connection. This test is also useful when"
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
-"\n"
 "Здесь вы можете проверить интернет-соединение. Этот тест также полезен, "
-"когда вам нужно проверить, работает ли  \n"
-"DNS-резольвер как положено. Не забудьте нажать кнопку <b>Сохранить</b>, "
-"если вы изменили настройки перенаправления.\n"
-"        "
+"когда вам нужно проверить, работает ли DNS-резольвер как положено. Не "
+"забудьте нажать кнопку <b>Сохранить</b>, если вы изменили настройки "
+"перенаправления."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
@@ -420,6 +526,8 @@ msgid ""
 "DNSSEC is a security technology that protects DNS communication against "
 "attacks on the DNS infrastructure."
 msgstr ""
+"DNSSEC — это технология безопасности, которая защищает DNS запросы от "
+"атак на инфраструктуру DNS."
 
 #: js/src/dns/DNSSECDisableModal.js:17
 msgid ""
@@ -427,10 +535,13 @@ msgid ""
 "that you will be connecting your device to the network where DNSSEC is "
 "broken."
 msgstr ""
+"Мы настоятельно рекомендуем оставить проверку DNSSEC включенной, если "
+"только вы не знаете, что будете подключать свое устройство к сети, в "
+"которой DNSSEC не работает."
 
 #: js/src/dns/DNSSECDisableModal.js:21
 msgid "Do you still want to continue and stay unprotected?"
-msgstr ""
+msgstr "Вы все еще хотите продолжить и остаться незащищенным?"
 
 #: js/src/dns/DNSSECDisableModal.js:56
 msgid "Disable DNSSEC"
@@ -449,21 +560,9 @@ msgstr "Добавить перенаправление вручную"
 msgid "Forwarders"
 msgstr "Сервер пересылки"
 
-#: js/src/dns/Forwarders/ForwardersTable.js:39
-msgid "Actions"
-msgstr "Действия"
-
 #: js/src/dns/Forwarders/ForwardersTable.js:46
 msgid "Use provider's DNS resolver"
 msgstr "Использовать DNS-резольвер провайдера"
-
-#: js/src/dns/Forwarders/ForwardersTable.js:143
-msgid "Edit"
-msgstr "Редактировать"
-
-#: js/src/dns/Forwarders/ForwardersTable.js:151
-msgid "Delete"
-msgstr "Удалить"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:24
 msgid "Base 64 encoded SHA-256."
@@ -489,10 +588,6 @@ msgstr "Имя хоста TLS"
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:103
 msgid "TLS pin"
 msgstr "Код TLS"
-
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
-msgid "Save"
-msgstr "Сохранить"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:14
 msgid "IPv4"
@@ -552,20 +647,17 @@ msgid "Guest Network"
 msgstr "Гостевая сеть"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
-#, fuzzy
 msgid ""
 "The guest network is used for <a href=\"${ForisURLs.wifi}\">guest Wi-"
 "Fi</a>. It is separated from your ordinary LAN. Devices connected to this"
 " network are allowed to access the internet but are not allowed to access"
 " the configuration interface of this device or the devices in LAN."
 msgstr ""
-"\n"
 "Гостевая сеть используется для <a href=\"${ForisURLs.wifi}\">гостевого "
 "Wi-Fi </a>. Он отделен от вашей обычной локальной сети. Устройствам, "
 "подключенным к этой сети, разрешен доступ к Интернету, но не разрешен "
 "доступ к интерфейсу конфигурации этого устройства и устройств в локальной"
-" сети.\n"
-"        "
+" сети."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
@@ -1028,18 +1120,15 @@ msgid "Network Interfaces"
 msgstr "Сетевые интерфейсы"
 
 #: js/src/interfaces/Interfaces.js:29
-#, fuzzy
 msgid ""
 "Here you can configure the settings of the network interfaces on your "
 "device. You can switch the physical network interfaces among networks. If"
 " you are unsure what to set here, use the default settings."
 msgstr ""
-"\n"
 "Здесь вы можете настроить параметры сетевых интерфейсов на вашем "
 "устройстве. Вы можете переключить физическое сетевые интерфейсы между "
-"сетями. Если вы не уверены, что установить здесь, используйте настройки "
-"по умолчанию.\n"
-"        "
+"сетями. Если вы не уверены, как настроить, используйте настройки по "
+"умолчанию."
 
 #: js/src/interfaces/Interfaces.js:52
 msgid "You have to assign at least one interface to this group."
@@ -1054,19 +1143,15 @@ msgstr ""
 "интерфейса, чтобы избежать проблем с безопасностью."
 
 #: js/src/interfaces/InterfacesForm.js:111
-#, fuzzy
 msgid ""
 "It acts as an external network connection. Firewall rules should be "
 "applied here. It can only contain a single interface."
 msgstr ""
-"\n"
 "Он действует как внешнее сетевое соединение. Правила брандмауэра должны "
 "применяться для этого интерфейса. Он может содержать только один "
-"интерфейс.\n"
-"        "
+"интерфейс."
 
 #: js/src/interfaces/InterfacesForm.js:123
-#, fuzzy
 msgid ""
 "It acts as a local network connection. LAN should contain devices that "
 "are under your control, and you trust them. These devices can see each "
@@ -1074,16 +1159,13 @@ msgid ""
 "should contain at least one interface. Otherwise, you might not be able "
 "to configure this device easily."
 msgstr ""
-"\n"
 "Он действует как локальное сетевое соединение. Локальная сеть должна "
 "содержать устройства, которые находятся под вашим контролем, и вы им "
 "доверяете. Эти устройства могут видеть друг друга и иметь доступ к этому "
 "веб-интерфейсу. Рекомендуется, чтобы в локальной сети был хотя бы один "
-"интерфейс, иначе вы не сможете просто настроить  маршрутизатор.\n"
-"        "
+"интерфейс, иначе вы не сможете настроить маршрутизатор."
 
 #: js/src/interfaces/InterfacesForm.js:139
-#, fuzzy
 msgid ""
 "It acts as a local network connection. Unlike LAN, the devices in the "
 "guest network can't access the configuration interface of this device and"
@@ -1091,14 +1173,12 @@ msgid ""
 "that you don't fully trust. Note that you can also limit the "
 "download/upload speed of the devices connected to the guest network."
 msgstr ""
-"\n"
 "Он действует как локальное сетевое соединение. В отличие от локальной "
 "сети, устройства в гостевой сети не могут получить доступ к интерфейсу "
 "конфигурации этого устройства и имеют доступ только к глобальной сети "
 "(Интернет). Эта сеть должна использоваться для устройств, которым вы не "
 "полностью доверяете. Обратите внимание, что вы также можете ограничить "
-"скорость скачивания/загрузки устройств, подключенных к гостевой сети.\n"
-"        "
+"скорость скачивания/загрузки устройств, подключенных к гостевой сети."
 
 #: js/src/interfaces/Network.js:43
 msgid "There are no interfaces in this group."
@@ -1164,8 +1244,10 @@ msgid ""
 "This section contains settings for the local network (LAN). The provided "
 "defaults are suitable for most networks."
 msgstr ""
+"Этот раздел содержит настройки для локальной сети (LAN). Представленные "
+"значения по умолчанию подходят для большинства сетей."
 
-#: js/src/lan/LAN.js:36
+#: js/src/lan/LAN.js:29
 msgid ""
 "<b>Note:</b> If you change the router IP address, all computers in LAN, "
 "probably including the one you are using now, will need to obtain a "
@@ -1175,6 +1257,14 @@ msgid ""
 "obtain a new IP from DHCP (if DHCP is enabled), and you might need to "
 "<b>refresh the page</b> in your browser."
 msgstr ""
+"<b>Примечание:</b> Если вы измените IP-адрес маршрутизатора, все "
+"компьютеры в локальной сети, включая тот, который вы сейчас используете, "
+"должны будут получить <b>новый IP-адрес</b>, чего не происходит. "
+"<b>немедленно</b>. Рекомендуется отключить и снова подключить все кабели "
+"локальной сети после записи изменений, чтобы принудительно выполнить "
+"обновление. Следующая страница не загрузится, пока вы не получите новый "
+"IP-адрес от DHCP (если DHCP включен), и вам может потребоваться "
+"<b>обновить страницу</b> в браузере."
 
 #: js/src/lan/LANForm.js:19
 msgid ""
@@ -1340,7 +1430,6 @@ msgid "Factory Reset"
 msgstr "Сброс к заводским настройкам"
 
 #: js/src/maintenance/FactoryReset.js:19
-#, fuzzy
 msgid ""
 "Doing a factory reset on the Turris device will remove all the packages "
 "installed on the device along with the data associated with them. This "
@@ -1350,9 +1439,8 @@ msgstr ""
 "Восстановление заводских настроек на устройстве Turris приведет к "
 "удалению всех пакетов, установленных на устройстве, вместе с данными, "
 "связанными с ними. Это возвращает все настройки устройства по умолчанию, "
-"какими они были, когда маршрутизатор был новым, давая вам чистый лист, "
-"чтобы начать все сначала.\n"
-"    "
+"какими они были, когда маршрутизатор был новым, давая вам возможность "
+"начать все сначала."
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
@@ -1364,57 +1452,44 @@ msgstr ""
 "заводских."
 
 #: js/src/maintenance/Reboot.js:19
-#, fuzzy
 msgid ""
 "If you need to reboot the device, click on the following button. The "
 "reboot process takes approximately 30 seconds, and then you will be "
 "required to log in again."
 msgstr ""
-"\n"
 "Если вам нужно перезагрузить устройство, нажмите на следующую кнопку. "
-"Процесс перезагрузки занимает около 30 секунд, необходимо будет "
-"авторизоваться после перезагрузки.\n"
-"    "
+"Процесс перезагрузки занимает около 30 секунд, после необходимо будет "
+"авторизоваться."
 
 #: js/src/maintenance/Syslog/Syslog.js:49
 msgid "A drive has to be configured first."
 msgstr "Сначала необходимо настроить диск."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:30
-#, fuzzy
 msgid "System Logs Retention"
 msgstr "Хранение системных журналов"
 
 #: js/src/maintenance/Syslog/SyslogForm.js:32
-#, fuzzy
 msgid ""
 "During device reboot, system logs are lost by default. This option allows"
 " saving system logs using the Storage plugin. Logs are saved into "
 "'/srv/log/messages'."
 msgstr ""
-"Во время перезагрузки устройства системные журналы теряются по умолчанию."
-" Эта опция позволяет сохранять системные журналы с помощью плагина "
-"Storage. Журналы сохраняются в /srv/log/messages. Чтобы включить эту "
-"опцию, вам необходимо сначала настроить хранилище в <a "
-"href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Плагине "
-"хранилища</a>."
+"Во время перезагрузки устройства системные журналы по умолчанию "
+"удаляются. Эта опция позволяет сохранять системные журналы с помощью "
+"плагина Хранилище. Журналы сохраняются в /srv/log/messages."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:38
-#, fuzzy
 msgid ""
 "To enable this option, you have to configure storage in the <a "
 "href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Storage "
 "plugin</a> first."
 msgstr ""
-"Во время перезагрузки устройства системные журналы теряются по умолчанию."
-" Эта опция позволяет сохранять системные журналы с помощью плагина "
-"Storage. Журналы сохраняются в /srv/log/messages. Чтобы включить эту "
-"опцию, вам необходимо сначала настроить хранилище в <a "
-"href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Плагине "
-"хранилища</a>."
+"Чтобы включить эту опцию, сначала необходимо настроить хранилище в <a "
+"href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Модуль "
+"Хранилище</a>."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:44
-#, fuzzy
 msgid "Enable System Logs Retention"
 msgstr "Включить сохранение системных журналов"
 
@@ -1686,7 +1761,6 @@ msgid "There are no clients added yet."
 msgstr "Еще нет добавленных клиентов."
 
 #: js/src/packageManagement/languages/Languages.js:22
-#, fuzzy
 msgid ""
 "If you want to use another language other than English, you can select it"
 " from the following list:"
@@ -1699,7 +1773,6 @@ msgid "More details"
 msgstr "Дополнительная информация"
 
 #: js/src/packageManagement/packages/Packages.js:22
-#, fuzzy
 msgid ""
 "Apart from the standard installation, you can optionally select bundles "
 "of additional software that would be installed on the router. This "
@@ -1710,14 +1783,13 @@ msgid ""
 msgstr ""
 "Помимо стандартной установки, вы можете дополнительно выбрать комплекты "
 "дополнительного программного обеспечения, которое будет установлено на "
-"роутер. Это программное обеспечение можно выбрать из следующего списка. "
-"Обратите внимание, что команда Turris на самом деле поддерживает только "
-"программное обеспечение, которое является частью TurrisOS или которое "
-"было установлено из списка пакетов и не помечено как поддерживаемое "
-"сообществом."
+"маршрутизатор. Это программное обеспечение можно выбрать из следующего "
+"списка. Обратите внимание, что команда Turris на самом деле поддерживает "
+"только программное обеспечение, которое является частью TurrisOS или "
+"которое было установлено из списка пакетов и не помечено как "
+"поддерживаемое сообществом."
 
 #: js/src/packageManagement/packages/PackagesForm.js:31
-#, fuzzy
 msgid "Package Lists"
 msgstr "Список Пакетов"
 
@@ -1726,7 +1798,6 @@ msgid "Most Important License Agreement Points"
 msgstr "Наиболее Важные Пункты Лицензионного Соглашения"
 
 #: js/src/packageManagement/updateSettings/LicenceModal.js:49
-#, fuzzy
 msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the <a "
@@ -1741,7 +1812,6 @@ msgstr ""
 "fa-external-link-alt fa-sm\"></i></sup></a>."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
-#, fuzzy
 msgid ""
 "The automatic updates system is one of the most important features of the"
 " Turris router. Thanks to this function, your router's software stays up "
@@ -1751,18 +1821,13 @@ msgid ""
 "weaken the security of your router and network in case flaws in the "
 "software are found."
 msgstr ""
-"\n"
 "Одной из важнейших функций маршрутизатора Turris являются автоматические "
 "обновления системы. Благодаря этой функции программное обеспечение вашего"
 " маршрутизатора обновляется и обеспечивает лучшую защиту от атак из "
 "Интернета. <br/> Настоятельно <b>рекомендуется </b> включить эту функцию "
 "<b> </b>. Если вы решите отключить его, имейте в виду, что это может "
 "ослабить безопасность вашего маршрутизатора и сети в случае обнаружения "
-"недостатков в программном обеспечении. <br/> Включая автоматические "
-"обновления, вы соглашаетесь с лицензионным соглашением для этой функции. "
-"Дополнительную информацию можно найти <a href=\"\" data-toggle=\"modal\" "
-"data-target=\"#licenceModal\">здесь</a>.\n"
-"            "
+"уязвимостей в программном обеспечении."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
 msgid ""
@@ -1770,47 +1835,62 @@ msgid ""
 "agreement. More information is available <a href=\"\" data-"
 "toggle=\"modal\" data-target=\"#licenceModal\">here</a>."
 msgstr ""
+"Включая автоматические обновления, вы соглашаетесь с лицензионным "
+"соглашением для этой функции. Дополнительную информацию можно найти <a "
+"href=\"\" data-toggle=\"modal\" data-target=\"#licenceModal\">здесь</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
-msgid "Automatic updates are offered to the Turris router owners free of charge."
+#, fuzzy
+msgid "Automatic updates are offered to Turris routers free of charge."
 msgstr ""
+"Автоматические обновления предлагаются владельцам маршрутизаторов Turris "
+"бесплатно."
 
 #: js/src/packageManagement/updateSettings/points.js:17
 msgid "Updates are prepared exclusively by CZ.NIC, z. s. p. o."
-msgstr ""
+msgstr "Обновления выпускаются исключительно CZ.NIC, z. s. p. o."
 
 #: js/src/packageManagement/updateSettings/points.js:21
 msgid ""
-"Enabling of the automatic updates is a prerequisite for additional "
-"security features of Turris router."
+"Automatic updates must be turned on to get all security features, as some"
+" of them make use of it."
 msgstr ""
 
 #: js/src/packageManagement/updateSettings/points.js:27
+#, fuzzy
 msgid ""
-"Automatic updates take place at the time of their release, the time of "
+"Automatic updates take place at the time of their release. The time of "
 "installation cannot be influenced by the user."
 msgstr ""
+"Автоматические обновления происходят в момент их выпуска, пользователь не"
+" может повлиять на время установки."
 
 #: js/src/packageManagement/updateSettings/points.js:33
+#, fuzzy
 msgid ""
-"Having the automatic updates turned on can result in increased Internet "
-"traffic on your router. Expenses related to this increase are covered by "
-"you."
+"Downloading the automatic updates mean increased Internet traffic. "
+"Potential expenses related to this are covered by you."
 msgstr ""
+"Включение автоматических обновлений может привести к увеличению "
+"интернет-трафика на вашем маршрутизаторе. Расходы, связанные с этим "
+"увеличением, покрываются вами."
 
 #: js/src/packageManagement/updateSettings/points.js:39
 msgid ""
 "Automatic updates cannot protect you against every attack coming from the"
-" Internet. Please do not forget to protect your workstations and other "
-"devices by installing antivirus software and explaining to your family "
-"members how to stay safe on the Internet."
+" Internet. Please also take other precautions like protecting your "
+"workstations and other devices by installing antivirus software and "
+"explaining to users how to stay safe on the Internet."
 msgstr ""
 
 #: js/src/packageManagement/updateSettings/points.js:45
+#, fuzzy
 msgid ""
-"CZ.NIC, z. s. p. o. does not guarantee the availability of this service "
-"and is not responsible for any damages caused by the automatic updates."
+"CZ.NIC, z. s. p. o. is not responsible for any damages caused by the "
+"automatic updates and does not guarantee its availability."
 msgstr ""
+"CZ.NIC, z. s. p. o. не гарантирует доступность этой услуги и не несет "
+"ответственности за любые убытки, вызванные автоматическими обновлениями."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:17
 msgid ""
@@ -1911,7 +1991,6 @@ msgid "Automatic Update Settings"
 msgstr "Настройки автоматического обновления"
 
 #: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:49
-#, fuzzy
 msgid "Enable Automatic Updates (recommended)"
 msgstr "Включить автоматическое обновление (рекомендуется)"
 
@@ -1989,7 +2068,6 @@ msgid "Available Updates"
 msgstr "Доступные обновления"
 
 #: js/src/packageManagement/updates/UpdateManager.js:87
-#, fuzzy
 msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
@@ -2087,7 +2165,6 @@ msgstr ""
 "этого момента аккаунт root будет заблокирован.)"
 
 #: js/src/password/Password.js:78
-#, fuzzy
 msgid ""
 "The password you have entered has not been saved. It has been compromised"
 " and appears ${\n"
@@ -2102,42 +2179,36 @@ msgstr ""
 " пароль."
 
 #: js/src/password/Password.js:89
-#, fuzzy
 msgid "Your password was set successfully."
-msgstr "Пароль успешно изменен."
+msgstr "Пароль успешно установлен."
 
 #: js/src/password/Password.js:147
 msgid "Password Settings"
 msgstr "Настройки пароля"
 
 #: js/src/password/Password.js:176
-#, fuzzy
 msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
 msgstr ""
 "Здесь вы можете установить пароль для интерфейса администрирования. "
-"Убедитесь, что вы установили надежный, длинный и уникальный пароль."
+"Обеспечьте его безопасность, сделав его длинным и уникальным."
 
 #: js/src/password/Password.js:193 js/src/password/Password.js:197
-#, fuzzy
 msgid "Passwords do not match."
 msgstr "Подтверждение пароля не совпадает."
 
 #: js/src/password/Password.js:212
-#, fuzzy
 msgid "Choose a password."
-msgstr "Неправильный пароль."
+msgstr "Придумайте пароль."
 
 #: js/src/password/Password.js:215
-#, fuzzy
 msgid "Password should have at least six symbols."
-msgstr "Пароль должен состоять максимум из 128 символов."
+msgstr "Пароль должен содержать не менее шести символов."
 
 #: js/src/password/Password.js:218
-#, fuzzy
 msgid "Password cannot have more than 128 symbols."
-msgstr "Пароль должен состоять максимум из 128 символов."
+msgstr "Пароль не может содержать более 128 символов."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -2164,17 +2235,14 @@ msgid "Region and Time"
 msgstr "Регион и время"
 
 #: js/src/regionAndTime/RegionAndTime.js:33
-#, fuzzy
 msgid ""
 "It is important for your device to have the correct time set. If your "
 "device's time is delayed, the procedure of SSL certificate verification "
 "might not work correctly."
 msgstr ""
-"\n"
 "Для вашего устройства важно установить правильное время. Если время "
 "вашего устройства отстаёт, процедура проверки сертификата SSL может "
-"работать некорректно.\n"
-"        "
+"работать некорректно."
 
 #: js/src/regionAndTime/RegionAndTime.js:56
 msgid "Time should be in YYYY-MM-DD HH:MM:SS format."
@@ -2280,9 +2348,8 @@ msgid ""
 "Please report this error to our support team via e-mail: <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 msgstr ""
-"Пожалуйста, сообщите об этой ошибке в нашу службу поддержки по "
-"электронной почте: <a href=\"mailto:tech.support@turris.cz\"> "
-"tech.support@turris.cz </a>."
+"Сообщите об этой ошибке в нашу службу поддержки по электронной почте: <a "
+"href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 
 #: js/src/wan/MACForm.js:14
 msgid ""
@@ -2322,6 +2389,9 @@ msgid ""
 "your ISP (internet service provider). Usually, it can be left untouched "
 "if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
+"Здесь вы можете изменить настройки своего WAN-порта, если это указано "
+"вашим провайдером Интернет-услуг (ISP). Обычно его можно не трогать, если"
+" ваш роутер подключен к Интернету через кабельный или DSL-модем."
 
 #: js/src/wan/WAN.js:52
 msgid ""
@@ -2329,6 +2399,9 @@ msgid ""
 "the connection. Remember to click the <b>Save</b> button after you have "
 "tested that it works."
 msgstr ""
+"Здесь вы можете проверить настройки подключения. Подождите некоторое "
+"время, пока установится соединение. Не забудьте нажать кнопку "
+"<b>Сохранить</b> после проверки работоспособности."
 
 #: js/src/wan/WAN6Form.js:26
 msgid "DUID which will be provided to the DHCPv6 server."
@@ -2513,8 +2586,53 @@ msgstr "Не удается установить DNS-сервер пересыл
 msgid "Can't delete DNS forwarder."
 msgstr "Не удается удалить сервер пересылки DNS."
 
-#: reforis/foris_controller_api/modules/lan.py:57
+#: reforis/foris_controller_api/modules/lan.py:15
+#, fuzzy
+msgid "IP address does not fit the LAN network."
+msgstr "IP-адрес за пределами текущей сети."
+
+#: reforis/foris_controller_api/modules/lan.py:16
+msgid "DHCP is disabled for LAN."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:17
+#, fuzzy
+msgid "IP address is already used by another static lease."
+msgstr "Адрес уже зарезервирован для других целей."
+
+#: reforis/foris_controller_api/modules/lan.py:18
+#, fuzzy
+msgid "MAC address is already used by another static lease."
+msgstr "Адрес уже зарезервирован для других целей."
+
+#: reforis/foris_controller_api/modules/lan.py:19
+msgid "No static lease has this MAC address assigned."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:20
+msgid "Hostname is already used by another static lease."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:35
+msgid "Caused by"
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:35
+msgid "Unknown"
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:87
 msgid "Can't create DHCP lease."
+msgstr "Невозможно создать аренду DHCP."
+
+#: reforis/foris_controller_api/modules/lan.py:102
+#, fuzzy
+msgid "Can't update DHCP lease."
+msgstr "Невозможно создать аренду DHCP."
+
+#: reforis/foris_controller_api/modules/lan.py:113
+#, fuzzy
+msgid "Can't delete DHCP lease."
 msgstr "Невозможно создать аренду DHCP."
 
 #: reforis/foris_controller_api/modules/password.py:47
@@ -2867,4 +2985,31 @@ msgstr "500 - Ошибка сервера"
 
 #~ msgid "Do you want to <a href=\"%(link)s\">log in</a>?"
 #~ msgstr "Хотите <a href=\"%(link)s\"> авторизоваться</a>?"
+
+#~ msgid ""
+#~ "Enabling of the automatic updates is "
+#~ "a prerequisite for additional security "
+#~ "features of Turris router."
+#~ msgstr ""
+#~ "Включение автоматических обновлений является "
+#~ "обязательным условием для дополнительных "
+#~ "функций безопасности маршрутизатора Turris."
+
+#~ msgid ""
+#~ "Automatic updates cannot protect you "
+#~ "against every attack coming from the "
+#~ "Internet. Please do not forget to "
+#~ "protect your workstations and other "
+#~ "devices by installing antivirus software "
+#~ "and explaining to your family members"
+#~ " how to stay safe on the "
+#~ "Internet."
+#~ msgstr ""
+#~ "Автоматические обновления не могут защитить"
+#~ " вас от каждой атаки из Интернета."
+#~ " Пожалуйста, не забывайте защищать свои "
+#~ "рабочие станции и другие устройства, "
+#~ "устанавливая антивирусное программное обеспечение"
+#~ " и объясняя членам вашей семьи, как"
+#~ " обезопасить себя в Интернете."
 
