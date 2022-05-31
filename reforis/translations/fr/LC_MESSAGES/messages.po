@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-08 13:59+0100\n"
+"POT-Creation-Date: 2022-05-31 14:16+0200\n"
 "PO-Revision-Date: 2022-01-13 10:22+0000\n"
 "Last-Translator: Gabriel GRONDIN <gglinnk@protonmail.com>\n"
 "Language: fr\n"
 "Language-Team: French "
 "<https://hosted.weblate.org/projects/turris/reforis/fr/>\n"
-"Plural-Forms: nplurals=2; plural=n > 1\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
 msgid "About"
@@ -85,6 +85,7 @@ msgid "Are you sure you want to reset the router?"
 msgstr "Voulez-vous vraiment réinitialiser le routeur ?"
 
 #: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:71
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:58
 #: js/src/dns/DNSSECDisableModal.js:48
 #: js/src/notificationsSettings/TestNotification.js:153
 msgid "Cancel"
@@ -110,11 +111,11 @@ msgstr "Confirmer le redémarrage"
 msgid "Go to top"
 msgstr "Aller en haut"
 
-#: js/src/common/network/DHCP6ClientsList.js:25
+#: js/src/common/network/DHCP6Clients.js:25
 msgid "IPv6 DHCP Client List"
 msgstr "Liste des clients DHCP IPv6"
 
-#: js/src/common/network/DHCP6ClientsList.js:27
+#: js/src/common/network/DHCP6Clients.js:27
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
@@ -122,32 +123,38 @@ msgstr ""
 "Cette liste contient tous les périphériques qui sont connectés au réseau "
 "par des connexions filaires ou sans fil utilisant l'IPv6."
 
-#: js/src/common/network/DHCP6ClientsList.js:33
-#: js/src/common/network/DHCPClientsList.js:29
+#: js/src/common/network/DHCP6Clients.js:33
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:22
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
 msgid "No clients found."
 msgstr "Aucun client DHCP trouvé."
 
-#: js/src/common/network/DHCP6ClientsList.js:40
-#: js/src/common/network/DHCPClientsList.js:36 js/src/hostname/Hostname.js:24
-#: js/src/main/pages.js:89 js/src/main/pages.js:180
+#: js/src/common/network/DHCP6Clients.js:40
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:33
+#: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
+#: js/src/main/pages.js:180
 msgid "Hostname"
 msgstr "Nom d’hôte"
 
-#: js/src/common/network/DHCP6ClientsList.js:41
+#: js/src/common/network/DHCP6Clients.js:41
 msgid "IPv6 Address"
 msgstr "Adresse IPv6"
 
-#: js/src/common/network/DHCP6ClientsList.js:42
+#: js/src/common/network/DHCP6Clients.js:42
 msgid "DUID"
 msgstr "DUID"
 
-#: js/src/common/network/DHCP6ClientsList.js:43
-#: js/src/common/network/DHCPClientsList.js:39
+#: js/src/common/network/DHCP6Clients.js:43
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:32
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:36
 msgid "Expires"
 msgstr "Expire le"
 
-#: js/src/common/network/DHCP6ClientsList.js:77
-#: js/src/common/network/DHCPClientsList.js:75
+#: js/src/common/network/DHCP6Clients.js:77
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:68
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:73
 msgid "Never"
 msgstr "Jamais"
 
@@ -158,38 +165,6 @@ msgstr "Nom d’hôte qui sera assigné au serveur DHCP."
 #: js/src/common/network/DHCPClientForm.js:38
 msgid "DHCP hostname"
 msgstr "Nom d’hôte DHCP"
-
-#: js/src/common/network/DHCPClientsList.js:21
-msgid "DHCP Client List"
-msgstr "Liste des clients DHCP"
-
-#: js/src/common/network/DHCPClientsList.js:23
-msgid ""
-"This list contains all devices that are connected to the network through "
-"wired or wireless connections."
-msgstr ""
-"Cette liste contient tous les périphériques qui sont connectés au réseau "
-"par des connexions câblées ou sans fil."
-
-#: js/src/common/network/DHCPClientsList.js:37
-msgid "IPv4 Address"
-msgstr "Adresse IPv4"
-
-#: js/src/common/network/DHCPClientsList.js:38
-msgid "MAC Address"
-msgstr "Adresse MAC"
-
-#: js/src/common/network/DHCPClientsList.js:40
-msgid "Active"
-msgstr "Actif"
-
-#: js/src/common/network/DHCPClientsList.js:85
-msgid "Device is active"
-msgstr "L’appareil est actif"
-
-#: js/src/common/network/DHCPClientsList.js:85
-msgid "Device is inactive"
-msgstr "L’appareil est inactif"
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
@@ -294,6 +269,127 @@ msgstr "Ce champ est obligatoire."
 #: js/src/common/network/validators.js:12
 msgid "This is not a valid network mask."
 msgstr "Ce n’est pas un masque réseau valide."
+
+#: js/src/common/network/DHCPClients/DHCPClients.js:25
+msgid "DHCP Client List"
+msgstr "Liste des clients DHCP"
+
+#: js/src/common/network/DHCPClients/DHCPClients.js:27
+msgid ""
+"This list contains all devices that are connected to the network through "
+"wired or wireless connections."
+msgstr ""
+"Cette liste contient tous les périphériques qui sont connectés au réseau "
+"par des connexions câblées ou sans fil."
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
+msgid "IPv4 Address"
+msgstr "Adresse IPv4"
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:31
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
+msgid "MAC Address"
+msgstr "Adresse MAC"
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:33
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:37
+msgid "Active"
+msgstr "Actif"
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+msgid "Device is active"
+msgstr "L’appareil est actif"
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+msgid "Device is inactive"
+msgstr "L’appareil est inactif"
+
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
+msgid "Edit static lease"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:59
+msgid "Set static lease"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:61
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:98
+msgid "Add static lease"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:61
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
+msgid "Save"
+msgstr "Enregistrer"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:45
+msgid "List of available hostnames"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:57
+#, fuzzy
+msgid "IPv4 address"
+msgstr "Adresse IPv4"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:68
+msgid "List of available IPv4 addresses"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:82
+#, fuzzy
+msgid "MAC address"
+msgstr "Adresse IP"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:93
+msgid "List of available MAC addresses"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:123
+#: js/src/dns/Forwarders/ForwardersTable.js:39
+msgid "Actions"
+msgstr "Actions"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:134
+#: js/src/dns/Forwarders/ForwardersTable.js:143
+msgid "Edit"
+msgstr "Modifier"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:148
+#: js/src/dns/Forwarders/ForwardersTable.js:151
+msgid "Delete"
+msgstr "Supprimer"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
+msgid "Set Static"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/hooks.js:47
+#, fuzzy
+msgid "Static lease added successfully."
+msgstr "Transitaire ajouté avec succès."
+
+#: js/src/common/network/DHCPClients/StaticLeases/hooks.js:58
+#, fuzzy
+msgid "Static saved successfully."
+msgstr "Transitaire enregistré avec succès."
+
+#: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
+#, fuzzy
+msgid "Hostname cannot be empty."
+msgstr "Le nom de l'expéditeur ne peut pas être vide."
+
+#: js/src/common/network/DHCPClients/StaticLeases/validator.js:24
+msgid "IPv4 address cannot be empty."
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/validator.js:28
+#, fuzzy
+msgid "MAC address cannot be empty."
+msgstr "Ne peut pas être vide."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
 msgid "Test is running..."
@@ -450,21 +546,9 @@ msgstr "Ajouter un expéditeur personnalisé"
 msgid "Forwarders"
 msgstr "Ré-expéditeurs"
 
-#: js/src/dns/Forwarders/ForwardersTable.js:39
-msgid "Actions"
-msgstr "Actions"
-
 #: js/src/dns/Forwarders/ForwardersTable.js:46
 msgid "Use provider's DNS resolver"
 msgstr "Utiliser le résolveur DNS du fournisseur"
-
-#: js/src/dns/Forwarders/ForwardersTable.js:143
-msgid "Edit"
-msgstr "Modifier"
-
-#: js/src/dns/Forwarders/ForwardersTable.js:151
-msgid "Delete"
-msgstr "Supprimer"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:24
 msgid "Base 64 encoded SHA-256."
@@ -492,10 +576,6 @@ msgstr "Nom d'hôte TLS"
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:103
 msgid "TLS pin"
 msgstr "Broche TLS"
-
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
-msgid "Save"
-msgstr "Enregistrer"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:14
 msgid "IPv4"
@@ -1188,7 +1268,7 @@ msgid ""
 "defaults are suitable for most networks."
 msgstr ""
 
-#: js/src/lan/LAN.js:36
+#: js/src/lan/LAN.js:29
 msgid ""
 "<b>Note:</b> If you change the router IP address, all computers in LAN, "
 "probably including the one you are using now, will need to obtain a "
@@ -1810,7 +1890,7 @@ msgid ""
 msgstr ""
 
 #: js/src/packageManagement/updateSettings/points.js:11
-msgid "Automatic updates are offered to the Turris router owners free of charge."
+msgid "Automatic updates are offered to Turris routers free of charge."
 msgstr ""
 
 #: js/src/packageManagement/updateSettings/points.js:17
@@ -1819,35 +1899,34 @@ msgstr ""
 
 #: js/src/packageManagement/updateSettings/points.js:21
 msgid ""
-"Enabling of the automatic updates is a prerequisite for additional "
-"security features of Turris router."
+"Automatic updates must be turned on to get all security features, as some"
+" of them make use of it."
 msgstr ""
 
 #: js/src/packageManagement/updateSettings/points.js:27
 msgid ""
-"Automatic updates take place at the time of their release, the time of "
+"Automatic updates take place at the time of their release. The time of "
 "installation cannot be influenced by the user."
 msgstr ""
 
 #: js/src/packageManagement/updateSettings/points.js:33
 msgid ""
-"Having the automatic updates turned on can result in increased Internet "
-"traffic on your router. Expenses related to this increase are covered by "
-"you."
+"Downloading the automatic updates mean increased Internet traffic. "
+"Potential expenses related to this are covered by you."
 msgstr ""
 
 #: js/src/packageManagement/updateSettings/points.js:39
 msgid ""
 "Automatic updates cannot protect you against every attack coming from the"
-" Internet. Please do not forget to protect your workstations and other "
-"devices by installing antivirus software and explaining to your family "
-"members how to stay safe on the Internet."
+" Internet. Please also take other precautions like protecting your "
+"workstations and other devices by installing antivirus software and "
+"explaining to users how to stay safe on the Internet."
 msgstr ""
 
 #: js/src/packageManagement/updateSettings/points.js:45
 msgid ""
-"CZ.NIC, z. s. p. o. does not guarantee the availability of this service "
-"and is not responsible for any damages caused by the automatic updates."
+"CZ.NIC, z. s. p. o. is not responsible for any damages caused by the "
+"automatic updates and does not guarantee its availability."
 msgstr ""
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:17
@@ -2577,8 +2656,53 @@ msgstr "Impossible de définir le transitaire DNS."
 msgid "Can't delete DNS forwarder."
 msgstr "Impossible de supprimer le transitaire DNS."
 
-#: reforis/foris_controller_api/modules/lan.py:57
+#: reforis/foris_controller_api/modules/lan.py:15
+#, fuzzy
+msgid "IP address does not fit the LAN network."
+msgstr "L'adresse est en dehors du réseau actuel."
+
+#: reforis/foris_controller_api/modules/lan.py:16
+msgid "DHCP is disabled for LAN."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:17
+#, fuzzy
+msgid "IP address is already used by another static lease."
+msgstr "L'adresse est déjà réservée à d'autres fins."
+
+#: reforis/foris_controller_api/modules/lan.py:18
+#, fuzzy
+msgid "MAC address is already used by another static lease."
+msgstr "L'adresse est déjà réservée à d'autres fins."
+
+#: reforis/foris_controller_api/modules/lan.py:19
+msgid "No static lease has this MAC address assigned."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:20
+msgid "Hostname is already used by another static lease."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:35
+msgid "Caused by"
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:35
+msgid "Unknown"
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:87
 msgid "Can't create DHCP lease."
+msgstr "Impossible de créer un bail DHCP."
+
+#: reforis/foris_controller_api/modules/lan.py:102
+#, fuzzy
+msgid "Can't update DHCP lease."
+msgstr "Impossible de créer un bail DHCP."
+
+#: reforis/foris_controller_api/modules/lan.py:113
+#, fuzzy
+msgid "Can't delete DHCP lease."
 msgstr "Impossible de créer un bail DHCP."
 
 #: reforis/foris_controller_api/modules/password.py:47
@@ -2977,4 +3101,49 @@ msgstr "500 - Server error"
 
 #~ msgid "Do you want to <a href=\"%(link)s\">log in</a>?"
 #~ msgstr "Voulez-vous <a href=\"%(link)s\">vous connecter</a> ?"
+
+#~ msgid ""
+#~ "Automatic updates are offered to the "
+#~ "Turris router owners free of charge."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Enabling of the automatic updates is "
+#~ "a prerequisite for additional security "
+#~ "features of Turris router."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Automatic updates take place at the "
+#~ "time of their release, the time of"
+#~ " installation cannot be influenced by "
+#~ "the user."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Having the automatic updates turned on"
+#~ " can result in increased Internet "
+#~ "traffic on your router. Expenses related"
+#~ " to this increase are covered by "
+#~ "you."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Automatic updates cannot protect you "
+#~ "against every attack coming from the "
+#~ "Internet. Please do not forget to "
+#~ "protect your workstations and other "
+#~ "devices by installing antivirus software "
+#~ "and explaining to your family members"
+#~ " how to stay safe on the "
+#~ "Internet."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "CZ.NIC, z. s. p. o. does not "
+#~ "guarantee the availability of this "
+#~ "service and is not responsible for "
+#~ "any damages caused by the automatic "
+#~ "updates."
+#~ msgstr ""
 

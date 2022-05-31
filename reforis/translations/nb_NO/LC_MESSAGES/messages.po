@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-03-08 13:59+0100\n"
+"POT-Creation-Date: 2022-05-31 14:16+0200\n"
 "PO-Revision-Date: 2022-04-01 19:07+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
-"reforis/nb_NO/>\n"
 "Language: nb_NO\n"
+"Language-Team: Norwegian Bokmål "
+"<https://hosted.weblate.org/projects/turris/reforis/nb_NO/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.1\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
 msgid "About"
@@ -86,6 +85,7 @@ msgid "Are you sure you want to reset the router?"
 msgstr "Tilbakestill ruteren?"
 
 #: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:71
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:58
 #: js/src/dns/DNSSECDisableModal.js:48
 #: js/src/notificationsSettings/TestNotification.js:153
 msgid "Cancel"
@@ -111,11 +111,11 @@ msgstr "Bekreft omstart"
 msgid "Go to top"
 msgstr "Til toppen"
 
-#: js/src/common/network/DHCP6ClientsList.js:25
+#: js/src/common/network/DHCP6Clients.js:25
 msgid "IPv6 DHCP Client List"
 msgstr "IPv6-DHCP-klientliste"
 
-#: js/src/common/network/DHCP6ClientsList.js:27
+#: js/src/common/network/DHCP6Clients.js:27
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
@@ -123,32 +123,38 @@ msgstr ""
 "Denne listen inneholder alle enheter som er tilkoblet nettverket gjennom "
 "kablede eller trådløse forbindelser ved bruk av IPv6."
 
-#: js/src/common/network/DHCP6ClientsList.js:33
-#: js/src/common/network/DHCPClientsList.js:29
+#: js/src/common/network/DHCP6Clients.js:33
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:22
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
 msgid "No clients found."
 msgstr "Fant ingen klienter."
 
-#: js/src/common/network/DHCP6ClientsList.js:40
-#: js/src/common/network/DHCPClientsList.js:36 js/src/hostname/Hostname.js:24
-#: js/src/main/pages.js:89 js/src/main/pages.js:180
+#: js/src/common/network/DHCP6Clients.js:40
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:33
+#: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
+#: js/src/main/pages.js:180
 msgid "Hostname"
 msgstr "Vertsnavn"
 
-#: js/src/common/network/DHCP6ClientsList.js:41
+#: js/src/common/network/DHCP6Clients.js:41
 msgid "IPv6 Address"
 msgstr "IPv6-adresse"
 
-#: js/src/common/network/DHCP6ClientsList.js:42
+#: js/src/common/network/DHCP6Clients.js:42
 msgid "DUID"
 msgstr "DUID"
 
-#: js/src/common/network/DHCP6ClientsList.js:43
-#: js/src/common/network/DHCPClientsList.js:39
+#: js/src/common/network/DHCP6Clients.js:43
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:32
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:36
 msgid "Expires"
 msgstr "Utløper"
 
-#: js/src/common/network/DHCP6ClientsList.js:77
-#: js/src/common/network/DHCPClientsList.js:75
+#: js/src/common/network/DHCP6Clients.js:77
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:68
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:73
 msgid "Never"
 msgstr "Aldri"
 
@@ -159,39 +165,6 @@ msgstr "Vertsnavn som skal tilbys til DHCP-tjeneren."
 #: js/src/common/network/DHCPClientForm.js:38
 msgid "DHCP hostname"
 msgstr "DHCP-vertsnavn"
-
-#: js/src/common/network/DHCPClientsList.js:21
-msgid "DHCP Client List"
-msgstr "DHCP-klientliste"
-
-#: js/src/common/network/DHCPClientsList.js:23
-msgid ""
-"This list contains all devices that are connected to the network through "
-"wired or wireless connections."
-msgstr ""
-"Denne listen inneholder alle enheter som er tilkoblet nettverket gjennom "
-"kablede eller trådløse forbindelser."
-
-#: js/src/common/network/DHCPClientsList.js:37
-msgid "IPv4 Address"
-msgstr "IPv4-adresse"
-
-#: js/src/common/network/DHCPClientsList.js:38
-msgid "MAC Address"
-msgstr "MAC-adresse"
-
-#: js/src/common/network/DHCPClientsList.js:40
-msgid "Active"
-msgstr "Aktiv"
-
-#: js/src/common/network/DHCPClientsList.js:85
-#, fuzzy
-msgid "Device is active"
-msgstr "Enheten er aktiv"
-
-#: js/src/common/network/DHCPClientsList.js:85
-msgid "Device is inactive"
-msgstr "Enheten er inaktiv"
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
@@ -298,6 +271,128 @@ msgstr "Dette feltet er påkrevd."
 msgid "This is not a valid network mask."
 msgstr "Dette er ikke en gyldig nettverksmaske."
 
+#: js/src/common/network/DHCPClients/DHCPClients.js:25
+msgid "DHCP Client List"
+msgstr "DHCP-klientliste"
+
+#: js/src/common/network/DHCPClients/DHCPClients.js:27
+msgid ""
+"This list contains all devices that are connected to the network through "
+"wired or wireless connections."
+msgstr ""
+"Denne listen inneholder alle enheter som er tilkoblet nettverket gjennom "
+"kablede eller trådløse forbindelser."
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
+msgid "IPv4 Address"
+msgstr "IPv4-adresse"
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:31
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
+msgid "MAC Address"
+msgstr "MAC-adresse"
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:33
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:37
+msgid "Active"
+msgstr "Aktiv"
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+#, fuzzy
+msgid "Device is active"
+msgstr "Enheten er aktiv"
+
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+msgid "Device is inactive"
+msgstr "Enheten er inaktiv"
+
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
+msgid "Edit static lease"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:59
+msgid "Set static lease"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:61
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:98
+msgid "Add static lease"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:61
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
+msgid "Save"
+msgstr "Lagre"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:45
+msgid "List of available hostnames"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:57
+#, fuzzy
+msgid "IPv4 address"
+msgstr "IPv4-adresse"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:68
+msgid "List of available IPv4 addresses"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:82
+#, fuzzy
+msgid "MAC address"
+msgstr "IP-adresse"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:93
+msgid "List of available MAC addresses"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:123
+#: js/src/dns/Forwarders/ForwardersTable.js:39
+msgid "Actions"
+msgstr "Handlinger"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:134
+#: js/src/dns/Forwarders/ForwardersTable.js:143
+msgid "Edit"
+msgstr "Rediger"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:148
+#: js/src/dns/Forwarders/ForwardersTable.js:151
+msgid "Delete"
+msgstr "Slett"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
+msgid "Set Static"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/hooks.js:47
+#, fuzzy
+msgid "Static lease added successfully."
+msgstr "Videresender lagt til."
+
+#: js/src/common/network/DHCPClients/StaticLeases/hooks.js:58
+#, fuzzy
+msgid "Static saved successfully."
+msgstr "Videresender lagret."
+
+#: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
+#, fuzzy
+msgid "Hostname cannot be empty."
+msgstr "Avsendernavn kan ikke stå tomt."
+
+#: js/src/common/network/DHCPClients/StaticLeases/validator.js:24
+msgid "IPv4 address cannot be empty."
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/validator.js:28
+#, fuzzy
+msgid "MAC address cannot be empty."
+msgstr "Kan ikke stå tom."
+
 #: js/src/connectionTest/ConnectionTestButton.js:27
 #, fuzzy
 msgid "Test is running..."
@@ -347,8 +442,8 @@ msgid ""
 "internet service provider's DNS resolver."
 msgstr ""
 "Turris-ruteren bruker sin egen DNS-utleder med DNSSEC-støtte. Den kan "
-"fungere på egenhånd eller så kan den videresende dine DNS-spørringer til den "
-"DNS-utlederen Internett-tjenestetilbyderen din bruker."
+"fungere på egenhånd eller så kan den videresende dine DNS-spørringer til "
+"den DNS-utlederen Internett-tjenestetilbyderen din bruker."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -357,10 +452,10 @@ msgid ""
 "works properly. If it does not work for some reason, it is necessary to "
 "use direct resolving without forwarding."
 msgstr ""
-"Følgende innstilling avgjør hvordan DNS-utlederen oppfører seg. Vanligvis er "
-"det bedre på bruke den utlederen Internett-tjenestetilbyderen bruker når det "
-"fungerer. Hvis ting ikke fungerer må man bruke direkte utledning uten "
-"videresendelse."
+"Følgende innstilling avgjør hvordan DNS-utlederen oppfører seg. Vanligvis"
+" er det bedre på bruke den utlederen Internett-tjenestetilbyderen bruker "
+"når det fungerer. Hvis ting ikke fungerer må man bruke direkte utledning "
+"uten videresendelse."
 
 #: js/src/dns/DNS.js:44
 msgid ""
@@ -372,13 +467,14 @@ msgid ""
 "<b>recommend keeping DNSSEC turned on</b> and resolving the situation "
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
-"I sjeldne fall har ikke Internett-tjenestetilbydere satt opp nettverket sitt "
-"riktig, noe som betyr at DNSSEC-bekreftelse ikke fungerer. Hvis du har "
-"problemer med DNS kan du skru av DNSSEC-bekreftelse <b>midlertidig</b> for å "
-"finne ut hvor problemet kommer fra. Dog må du huske at uten DNSSEC-"
-"bekreftelse er du sårbar for DNS-forfalskelsesangrep. Derfor <b>anbefales "
-"det at du beholder DNSSEC påslått</b> og løser problemet sammen med din "
-"Internett-tjenestetilbyder, siden dette er en farlig svakhet fra deres side."
+"I sjeldne fall har ikke Internett-tjenestetilbydere satt opp nettverket "
+"sitt riktig, noe som betyr at DNSSEC-bekreftelse ikke fungerer. Hvis du "
+"har problemer med DNS kan du skru av DNSSEC-bekreftelse "
+"<b>midlertidig</b> for å finne ut hvor problemet kommer fra. Dog må du "
+"huske at uten DNSSEC-bekreftelse er du sårbar for DNS-"
+"forfalskelsesangrep. Derfor <b>anbefales det at du beholder DNSSEC "
+"påslått</b> og løser problemet sammen med din Internett-tjenestetilbyder,"
+" siden dette er en farlig svakhet fra deres side."
 
 #: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:49
 msgid "Connection Test"
@@ -441,8 +537,8 @@ msgid ""
 "DNSSEC is a security technology that protects DNS communication against "
 "attacks on the DNS infrastructure."
 msgstr ""
-"DNSSEC er en sikkerhetsteknologi som beskytter DNS-kommunikasjon mot angrep "
-"på DNS-infrastrukturen."
+"DNSSEC er en sikkerhetsteknologi som beskytter DNS-kommunikasjon mot "
+"angrep på DNS-infrastrukturen."
 
 #: js/src/dns/DNSSECDisableModal.js:17
 msgid ""
@@ -451,8 +547,8 @@ msgid ""
 "broken."
 msgstr ""
 "Det anbefales sterkt å fortsette å ha DNSSEC-bekreftelse påskrudd, med "
-"mindre du vet at du vil koble til din enhet i et nettverk der DNSSEC ikke "
-"fungerer."
+"mindre du vet at du vil koble til din enhet i et nettverk der DNSSEC ikke"
+" fungerer."
 
 #: js/src/dns/DNSSECDisableModal.js:21
 #, fuzzy
@@ -476,21 +572,9 @@ msgstr "Legg til egendefinert videresender"
 msgid "Forwarders"
 msgstr "Videresendere"
 
-#: js/src/dns/Forwarders/ForwardersTable.js:39
-msgid "Actions"
-msgstr "Handlinger"
-
 #: js/src/dns/Forwarders/ForwardersTable.js:46
 msgid "Use provider's DNS resolver"
 msgstr "Bruk tilbyderens DNS-utleder"
-
-#: js/src/dns/Forwarders/ForwardersTable.js:143
-msgid "Edit"
-msgstr "Rediger"
-
-#: js/src/dns/Forwarders/ForwardersTable.js:151
-msgid "Delete"
-msgstr "Slett"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:24
 #, fuzzy
@@ -517,10 +601,6 @@ msgstr "TLS-vertsnavn"
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:103
 msgid "TLS pin"
 msgstr "TLS-tilordning"
-
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
-msgid "Save"
-msgstr "Lagre"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:14
 msgid "IPv4"
@@ -1216,7 +1296,7 @@ msgstr ""
 "Denne delen inneholder innstillinger for lokalnettverket (LAN). Angitte "
 "forvalg passer for de fleste nettverk."
 
-#: js/src/lan/LAN.js:36
+#: js/src/lan/LAN.js:29
 msgid ""
 "<b>Note:</b> If you change the router IP address, all computers in LAN, "
 "probably including the one you are using now, will need to obtain a "
@@ -1227,12 +1307,12 @@ msgid ""
 "<b>refresh the page</b> in your browser."
 msgstr ""
 "<b>Merk:</b> Hvis du endrer ruterens IP-adresse vil alle maskinene i "
-"lokalnettverket (LAN), altså inkludert den du bruker nå måtte hente <b>nye "
-"IP-adresser</b> som ikke skjer <b>umiddelbart</b>. Det anbefales å koble fra "
-"og koble til igjen alle LAN-kabler etter å ha sendt inn endringene dine for "
-"å påtvinge oppdatering. Neste side vil ikke lastes inn med mindre du henter "
-"en ny IP fra DHCP (hvis DHCP er påskrudd) og det kan hende du må "
-"<b>gjenoppfriske siden</b> i nettleseren din."
+"lokalnettverket (LAN), altså inkludert den du bruker nå måtte hente "
+"<b>nye IP-adresser</b> som ikke skjer <b>umiddelbart</b>. Det anbefales å"
+" koble fra og koble til igjen alle LAN-kabler etter å ha sendt inn "
+"endringene dine for å påtvinge oppdatering. Neste side vil ikke lastes "
+"inn med mindre du henter en ny IP fra DHCP (hvis DHCP er påskrudd) og det"
+" kan hende du må <b>gjenoppfriske siden</b> i nettleseren din."
 
 #: js/src/lan/LANForm.js:19
 msgid ""
@@ -1855,11 +1935,12 @@ msgid ""
 "toggle=\"modal\" data-target=\"#licenceModal\">here</a>."
 msgstr ""
 "Ved å skru på automatiske oppgraderinger samtykker du til funksjonens "
-"vilkår. Mer info tilgjengelig <a href=\"\" data-toggle=\"modal\" data-target="
-"\"#licenceModal\">her</a>."
+"vilkår. Mer info tilgjengelig <a href=\"\" data-toggle=\"modal\" data-"
+"target=\"#licenceModal\">her</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
-msgid "Automatic updates are offered to the Turris router owners free of charge."
+#, fuzzy
+msgid "Automatic updates are offered to Turris routers free of charge."
 msgstr "Automatiske oppgraderinger tilbys til eiere av Turris-rutere gratis."
 
 #: js/src/packageManagement/updateSettings/points.js:17
@@ -1867,51 +1948,47 @@ msgid "Updates are prepared exclusively by CZ.NIC, z. s. p. o."
 msgstr "Oppgraderinger forbereder eksklusivt av CZ.NIC, z. s. p. o."
 
 #: js/src/packageManagement/updateSettings/points.js:21
-#, fuzzy
 msgid ""
-"Enabling of the automatic updates is a prerequisite for additional "
-"security features of Turris router."
+"Automatic updates must be turned on to get all security features, as some"
+" of them make use of it."
 msgstr ""
-"Å skru på automatiske oppgraderinger må gjøres for å få ytterligere "
-"sikkerhetsfunksjoner på Turris-ruteren."
 
 #: js/src/packageManagement/updateSettings/points.js:27
+#, fuzzy
 msgid ""
-"Automatic updates take place at the time of their release, the time of "
+"Automatic updates take place at the time of their release. The time of "
 "installation cannot be influenced by the user."
 msgstr ""
-"Automatiske oppgraderinger finner sted når de slippes. Når de installeres "
-"kan ikke bestemmes av brukeren."
+"Automatiske oppgraderinger finner sted når de slippes. Når de installeres"
+" kan ikke bestemmes av brukeren."
 
 #: js/src/packageManagement/updateSettings/points.js:33
+#, fuzzy
 msgid ""
-"Having the automatic updates turned on can result in increased Internet "
-"traffic on your router. Expenses related to this increase are covered by "
-"you."
+"Downloading the automatic updates mean increased Internet traffic. "
+"Potential expenses related to this are covered by you."
 msgstr ""
-"Å ha automatiske oppgraderinger påslått fører til økt Internett-trafikk på "
-"ruteren. Kostnader som evt. tilkommer som følge av dette er det du som "
-"betaler for."
+"Å ha automatiske oppgraderinger påslått fører til økt Internett-trafikk "
+"på ruteren. Kostnader som evt. tilkommer som følge av dette er det du som"
+" betaler for."
 
 #: js/src/packageManagement/updateSettings/points.js:39
 msgid ""
 "Automatic updates cannot protect you against every attack coming from the"
-" Internet. Please do not forget to protect your workstations and other "
-"devices by installing antivirus software and explaining to your family "
-"members how to stay safe on the Internet."
+" Internet. Please also take other precautions like protecting your "
+"workstations and other devices by installing antivirus software and "
+"explaining to users how to stay safe on the Internet."
 msgstr ""
-"Automatiske oppgraderinger kan ikke beskytte deg mot alle angrep som kommer "
-"fra Internett. Ikke glem å også beskytte arbeidsstasjonene dine og andre "
-"enheter ved å installere antivirus-programvare og forklare for "
-"familiemedlemmer hvordan de skal surfe trygt på Internett."
 
 #: js/src/packageManagement/updateSettings/points.js:45
+#, fuzzy
 msgid ""
-"CZ.NIC, z. s. p. o. does not guarantee the availability of this service "
-"and is not responsible for any damages caused by the automatic updates."
+"CZ.NIC, z. s. p. o. is not responsible for any damages caused by the "
+"automatic updates and does not guarantee its availability."
 msgstr ""
 "CZ.NIC, z. s. p. o. er ikke ansvarlige for skade som forårsakes av "
-"automatiske oppgraderinger og garanterer ikke for tilgjengeligheten av dem."
+"automatiske oppgraderinger og garanterer ikke for tilgjengeligheten av "
+"dem."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:17
 msgid ""
@@ -2447,9 +2524,9 @@ msgid ""
 "your ISP (internet service provider). Usually, it can be left untouched "
 "if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
-"Her kan du angi dine WAN-portinnstillinger hvis du har fått beskjed om det "
-"fra din Internett-tjenestetilbyder. Vanligvis kan du levne dette urørt hvis "
-"ruteren er tilkoblet Internett via et kabel- eller DSL-modem."
+"Her kan du angi dine WAN-portinnstillinger hvis du har fått beskjed om "
+"det fra din Internett-tjenestetilbyder. Vanligvis kan du levne dette "
+"urørt hvis ruteren er tilkoblet Internett via et kabel- eller DSL-modem."
 
 #: js/src/wan/WAN.js:52
 msgid ""
@@ -2458,8 +2535,8 @@ msgid ""
 "tested that it works."
 msgstr ""
 "Her kan du gjennomgå tilkoblingsinnstillingene dine. Vent en stund med å "
-"etablere tilkoblingen. Husk å klikke på <b>Lagre</b>-knappen etter at du har "
-"testet at den virker."
+"etablere tilkoblingen. Husk å klikke på <b>Lagre</b>-knappen etter at du "
+"har testet at den virker."
 
 #: js/src/wan/WAN6Form.js:26
 #, fuzzy
@@ -2654,9 +2731,54 @@ msgstr "Kan ikke sette DNS-videresender."
 msgid "Can't delete DNS forwarder."
 msgstr "Kan ikke slette DNS-videresender."
 
-#: reforis/foris_controller_api/modules/lan.py:57
+#: reforis/foris_controller_api/modules/lan.py:15
+#, fuzzy
+msgid "IP address does not fit the LAN network."
+msgstr "Adressen er utenfor nåværende nettverk."
+
+#: reforis/foris_controller_api/modules/lan.py:16
+msgid "DHCP is disabled for LAN."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:17
+#, fuzzy
+msgid "IP address is already used by another static lease."
+msgstr "Adresse allerede reservert til andre formål."
+
+#: reforis/foris_controller_api/modules/lan.py:18
+#, fuzzy
+msgid "MAC address is already used by another static lease."
+msgstr "Adresse allerede reservert til andre formål."
+
+#: reforis/foris_controller_api/modules/lan.py:19
+msgid "No static lease has this MAC address assigned."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:20
+msgid "Hostname is already used by another static lease."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:35
+msgid "Caused by"
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:35
+msgid "Unknown"
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:87
 #, fuzzy
 msgid "Can't create DHCP lease."
+msgstr "Kan ikke opprette DHCP-tildelingslån."
+
+#: reforis/foris_controller_api/modules/lan.py:102
+#, fuzzy
+msgid "Can't update DHCP lease."
+msgstr "Kan ikke opprette DHCP-tildelingslån."
+
+#: reforis/foris_controller_api/modules/lan.py:113
+#, fuzzy
+msgid "Can't delete DHCP lease."
 msgstr "Kan ikke opprette DHCP-tildelingslån."
 
 #: reforis/foris_controller_api/modules/password.py:47
@@ -3042,3 +3164,32 @@ msgstr "500 - Tjenerfeil"
 
 #~ msgid "Do you want to <a href=\"%(link)s\">log in</a>?"
 #~ msgstr "Ønsker du å <a href=\"%(link)s\">logge inn</a>?"
+
+#~ msgid ""
+#~ "Enabling of the automatic updates is "
+#~ "a prerequisite for additional security "
+#~ "features of Turris router."
+#~ msgstr ""
+#~ "Å skru på automatiske oppgraderinger må"
+#~ " gjøres for å få ytterligere "
+#~ "sikkerhetsfunksjoner på Turris-ruteren."
+
+#~ msgid ""
+#~ "Automatic updates cannot protect you "
+#~ "against every attack coming from the "
+#~ "Internet. Please do not forget to "
+#~ "protect your workstations and other "
+#~ "devices by installing antivirus software "
+#~ "and explaining to your family members"
+#~ " how to stay safe on the "
+#~ "Internet."
+#~ msgstr ""
+#~ "Automatiske oppgraderinger kan ikke beskytte"
+#~ " deg mot alle angrep som kommer "
+#~ "fra Internett. Ikke glem å også "
+#~ "beskytte arbeidsstasjonene dine og andre "
+#~ "enheter ved å installere antivirus-"
+#~ "programvare og forklare for familiemedlemmer"
+#~ " hvordan de skal surfe trygt på "
+#~ "Internett."
+
