@@ -7,15 +7,16 @@
 
 import React from "react";
 
+import { WebSockets } from "foris";
 import PropTypes from "prop-types";
 import ReactDOM from "react-dom";
 
-import DHCP6ClientsList from "common/network/DHCP6ClientsList";
-import DHCPClientsList from "common/network/DHCPClientsList";
+import DHCP6Clients from "common/network/DHCP6Clients";
+import DHCPClients from "common/network/DHCPClients/DHCPClients";
 
 import { LAN_MODES } from "./LANForm";
 
-LAN_DHCP_ClientsList.propTypes = {
+LANDHCPClients.propTypes = {
     formData: PropTypes.shape({
         mode: PropTypes.oneOf(Object.keys(LAN_MODES)),
         mode_managed: PropTypes.shape({
@@ -26,9 +27,10 @@ LAN_DHCP_ClientsList.propTypes = {
             }).isRequired,
         }),
     }),
+    ws: PropTypes.instanceOf(WebSockets),
 };
 
-export default function LAN_DHCP_ClientsList({ formData }) {
+export default function LANDHCPClients({ formData, ws }) {
     if (
         formData.mode !== LAN_MODES.managed ||
         !formData.mode_managed.dhcp.enabled
@@ -39,8 +41,12 @@ export default function LAN_DHCP_ClientsList({ formData }) {
 
     return ReactDOM.createPortal(
         <>
-            <DHCPClientsList clients={formData.mode_managed.dhcp.clients} />
-            <DHCP6ClientsList
+            <DHCPClients
+                clients={formData.mode_managed.dhcp.clients}
+                ws={ws}
+                withStaticLeases
+            />
+            <DHCP6Clients
                 ipv6clients={formData.mode_managed.dhcp.ipv6clients}
             />
         </>,

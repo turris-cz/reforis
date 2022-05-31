@@ -11,15 +11,15 @@ import { formFieldsSize } from "foris";
 import moment from "moment";
 import PropTypes from "prop-types";
 
-DHCP6ClientsList.propTypes = {
+DHCP6Clients.propTypes = {
     ipv6clients: PropTypes.arrayOf(PropTypes.object),
 };
 
-DHCP6ClientsList.defaultProps = {
+DHCP6Clients.defaultProps = {
     ipv6clients: [],
 };
 
-export default function DHCP6ClientsList({ ipv6clients }) {
+export default function DHCP6Clients({ ipv6clients }) {
     return (
         <div className={formFieldsSize}>
             <h2>{_("IPv6 DHCP Client List")}</h2>

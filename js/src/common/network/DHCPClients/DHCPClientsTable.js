@@ -7,23 +7,16 @@
 
 import React from "react";
 
-import { formFieldsSize } from "foris";
 import moment from "moment";
 import PropTypes from "prop-types";
 
-DHCPClientsList.propTypes = {
+DHCPClientsTable.propTypes = {
     clients: PropTypes.arrayOf(PropTypes.object),
 };
 
-export default function DHCPClientsList({ clients }) {
+export default function DHCPClientsTable({ clients }) {
     return (
-        <div className={formFieldsSize}>
-            <h2>{_("DHCP Client List")}</h2>
-            <p>
-                {_(
-                    "This list contains all devices that are connected to the network through wired or wireless connections."
-                )}
-            </p>
+        <>
             {clients.length === 0 ? (
                 <p className="text-muted text-center">
                     {_("No clients found.")}
@@ -42,7 +35,7 @@ export default function DHCPClientsList({ clients }) {
                         </thead>
                         <tbody>
                             {clients.map((client) => (
-                                <DHCPClientsListItem
+                                <DHCPClientsTableItem
                                     key={client.ip}
                                     {...client}
                                 />
@@ -51,11 +44,11 @@ export default function DHCPClientsList({ clients }) {
                     </table>
                 </div>
             )}
-        </div>
+        </>
     );
 }
 
-DHCPClientsListItem.propTypes = {
+DHCPClientsTableItem.propTypes = {
     ip: PropTypes.string.isRequired,
     expires: PropTypes.number.isRequired,
     mac: PropTypes.string.isRequired,
@@ -63,7 +56,7 @@ DHCPClientsListItem.propTypes = {
     active: PropTypes.bool.isRequired,
 };
 
-function DHCPClientsListItem({ ip, expires, mac, hostname, active }) {
+export function DHCPClientsTableItem({ ip, expires, mac, hostname, active }) {
     return (
         <tr className="text-left">
             <td>{hostname}</td>

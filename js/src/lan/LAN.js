@@ -13,7 +13,7 @@ import PropTypes from "prop-types";
 import API_URLs from "common/API";
 import { getDHCPStart } from "common/network/utils";
 
-import LAN_DHCP_ClientsList from "./LAN_DHCP_ClientsList";
+import LANDHCPClients from "./LANDHCPClients";
 import LANForm, { LAN_MODES } from "./LANForm";
 import { validateManaged } from "./LANManagedForm";
 import { validateUnmanaged } from "./LANUnmanagedForm";
@@ -26,6 +26,10 @@ const LAN_INTRO = _(
     "This section contains settings for the local network (LAN). The provided defaults are suitable for most networks."
 );
 
+const LAN_NOTE = _(
+    "<b>Note:</b> If you change the router IP address, all computers in LAN, probably including the one you are using now, will need to obtain a <b>new IP address</b> which does not happen <b>immediately</b>. It is recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update. The next page will not load until you obtain a new IP from DHCP (if DHCP is enabled), and you might need to <b>refresh the page</b> in your browser."
+);
+
 export default function LAN({ ws }) {
     return (
         <>
@@ -33,9 +37,7 @@ export default function LAN({ ws }) {
             <p>{LAN_INTRO}</p>
             <p
                 dangerouslySetInnerHTML={{
-                    __html: _(
-                        "<b>Note:</b> If you change the router IP address, all computers in LAN, probably including the one you are using now, will need to obtain a <b>new IP address</b> which does not happen <b>immediately</b>. It is recommended to disconnect and reconnect all LAN cables after submitting your changes to force the update. The next page will not load until you obtain a new IP from DHCP (if DHCP is enabled), and you might need to <b>refresh the page</b> in your browser."
-                    ),
+                    __html: LAN_NOTE,
                 }}
             />
             <ForisForm
@@ -49,8 +51,7 @@ export default function LAN({ ws }) {
                 validator={validator}
             >
                 <LANForm />
-                {/* eslint-disable-next-line react/jsx-pascal-case */}
-                <LAN_DHCP_ClientsList />
+                <LANDHCPClients ws={ws} />
             </ForisForm>
             <div id="dhcp-clients-container" />
         </>

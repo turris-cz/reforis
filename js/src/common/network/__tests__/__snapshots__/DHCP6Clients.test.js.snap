@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<DHCPClientsList/> Test with snapshot. 1`] = `
+exports[`<DHCP6Clients/> Test with snapshot. 1`] = `
 <div>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
     <h2>
-      DHCP Client List
+      IPv6 DHCP Client List
     </h2>
     <p>
-      This list contains all devices that are connected to the network through wired or wireless connections.
+      This list contains all devices that are connected to the network through wired or wireless connections using IPv6.
     </p>
     <div
       class="table-responsive"
@@ -27,20 +27,15 @@ exports[`<DHCPClientsList/> Test with snapshot. 1`] = `
               Hostname
             </th>
             <th>
-              IPv4 Address
+              IPv6 Address
             </th>
             <th>
-              MAC Address
+              DUID
             </th>
             <th
               class="text-center"
             >
               Expires
-            </th>
-            <th
-              class="text-center"
-            >
-              Active
             </th>
           </tr>
         </thead>
@@ -52,49 +47,33 @@ exports[`<DHCPClientsList/> Test with snapshot. 1`] = `
               first
             </td>
             <td>
-              192.168.1.1
+              2002:1487:fede:6110
             </td>
             <td>
-              11:22:33:44:55:66
+              00049367d8183c4e45a4b834f5a92f95d3b9
             </td>
             <td
               class="text-center"
             >
               2018-10-12 13:16
-            </td>
-            <td
-              class="text-center"
-            >
-              <i
-                class="fas fa-check text-success"
-                title="Device is active"
-              />
             </td>
           </tr>
           <tr
             class="text-left"
           >
             <td>
-              *
+              second
             </td>
             <td>
-              192.168.2.1
+              2002:1487:fefd:6130
             </td>
             <td>
-              99:88:77:66:55:44
+              00049367d8183c4c43a4b834f5a92f95d3b9
             </td>
             <td
               class="text-center"
             >
-              2018-10-12 13:16
-            </td>
-            <td
-              class="text-center"
-            >
-              <i
-                class="fas fa-times text-danger"
-                title="Device is inactive"
-              />
+              2018-10-14 20:49
             </td>
           </tr>
         </tbody>
