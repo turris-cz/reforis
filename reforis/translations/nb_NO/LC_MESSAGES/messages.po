@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-05-31 14:16+0200\n"
-"PO-Revision-Date: 2022-04-01 19:07+0000\n"
+"PO-Revision-Date: 2022-06-02 16:14+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
+"reforis/nb_NO/>\n"
 "Language: nb_NO\n"
-"Language-Team: Norwegian Bokmål "
-"<https://hosted.weblate.org/projects/turris/reforis/nb_NO/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -311,16 +312,16 @@ msgstr "Enheten er inaktiv"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
 msgid "Edit static lease"
-msgstr ""
+msgstr "Rediger statisk tildelning"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:59
 msgid "Set static lease"
-msgstr ""
+msgstr "Sett statisk tildelning"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:61
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:98
 msgid "Add static lease"
-msgstr ""
+msgstr "Legg til statisk tildelning"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:61
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
@@ -329,7 +330,7 @@ msgstr "Lagre"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:45
 msgid "List of available hostnames"
-msgstr ""
+msgstr "Liste over tilgjengelige vertsnavn"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:57
 #, fuzzy
@@ -338,7 +339,7 @@ msgstr "IPv4-adresse"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:68
 msgid "List of available IPv4 addresses"
-msgstr ""
+msgstr "Liste over tilgjengelige IPv4-adresser"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:82
 #, fuzzy
@@ -347,7 +348,7 @@ msgstr "IP-adresse"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:93
 msgid "List of available MAC addresses"
-msgstr ""
+msgstr "Liste over tilgjengelige MAC-adresser"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:123
@@ -367,12 +368,12 @@ msgstr "Slett"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
 msgid "Set Static"
-msgstr ""
+msgstr "Sett statisk"
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:47
 #, fuzzy
 msgid "Static lease added successfully."
-msgstr "Videresender lagt til."
+msgstr "Statisk tildelning lagt til."
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:58
 #, fuzzy
@@ -386,7 +387,7 @@ msgstr "Avsendernavn kan ikke stå tomt."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:24
 msgid "IPv4 address cannot be empty."
-msgstr ""
+msgstr "IPv4-adressen kan ikke være tom."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:28
 #, fuzzy
@@ -442,8 +443,8 @@ msgid ""
 "internet service provider's DNS resolver."
 msgstr ""
 "Turris-ruteren bruker sin egen DNS-utleder med DNSSEC-støtte. Den kan "
-"fungere på egenhånd eller så kan den videresende dine DNS-spørringer til "
-"den DNS-utlederen Internett-tjenestetilbyderen din bruker."
+"fungere uavhengig eller videresende DNS-spørringen din til utlederen "
+"Internett-tjenestetilbyderen din tilbyr."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -1952,6 +1953,8 @@ msgid ""
 "Automatic updates must be turned on to get all security features, as some"
 " of them make use of it."
 msgstr ""
+"Automatiske oppgraderinger må skrus på for å få alle sikkerhetsfunksjoner, "
+"siden noen av dem gjør bruk av det direkte."
 
 #: js/src/packageManagement/updateSettings/points.js:27
 #, fuzzy
@@ -1973,12 +1976,17 @@ msgstr ""
 " betaler for."
 
 #: js/src/packageManagement/updateSettings/points.js:39
+#, fuzzy
 msgid ""
 "Automatic updates cannot protect you against every attack coming from the"
 " Internet. Please also take other precautions like protecting your "
 "workstations and other devices by installing antivirus software and "
 "explaining to users how to stay safe on the Internet."
 msgstr ""
+"Automatiske oppgraderinger kan ikke beskytte deg mot alle angrep fra "
+"Internett. Beskytt også arbeidsstasjoner og andre enheter ved å installere "
+"antivirus og forklar også brukere av dem hvordan de holder seg trygge på "
+"Internett."
 
 #: js/src/packageManagement/updateSettings/points.js:45
 #, fuzzy
@@ -2738,33 +2746,33 @@ msgstr "Adressen er utenfor nåværende nettverk."
 
 #: reforis/foris_controller_api/modules/lan.py:16
 msgid "DHCP is disabled for LAN."
-msgstr ""
+msgstr "DHCP er avskrudd for lokalnettverket."
 
 #: reforis/foris_controller_api/modules/lan.py:17
 #, fuzzy
 msgid "IP address is already used by another static lease."
-msgstr "Adresse allerede reservert til andre formål."
+msgstr "IP-adressen er allerede reservert til andre formål."
 
 #: reforis/foris_controller_api/modules/lan.py:18
 #, fuzzy
 msgid "MAC address is already used by another static lease."
-msgstr "Adresse allerede reservert til andre formål."
+msgstr "MAC-adressen er allerede reservert til andre formål."
 
 #: reforis/foris_controller_api/modules/lan.py:19
 msgid "No static lease has this MAC address assigned."
-msgstr ""
+msgstr "Ingen av de statiske tildelningene har denne MAC-adressen tilknyttet."
 
 #: reforis/foris_controller_api/modules/lan.py:20
 msgid "Hostname is already used by another static lease."
-msgstr ""
+msgstr "Vertsnavnet er allerede i bruk av en annen statisk tildelning."
 
 #: reforis/foris_controller_api/modules/lan.py:35
 msgid "Caused by"
-msgstr ""
+msgstr "Forårsaket av"
 
 #: reforis/foris_controller_api/modules/lan.py:35
 msgid "Unknown"
-msgstr ""
+msgstr "Ukjent"
 
 #: reforis/foris_controller_api/modules/lan.py:87
 #, fuzzy
@@ -2774,12 +2782,12 @@ msgstr "Kan ikke opprette DHCP-tildelingslån."
 #: reforis/foris_controller_api/modules/lan.py:102
 #, fuzzy
 msgid "Can't update DHCP lease."
-msgstr "Kan ikke opprette DHCP-tildelingslån."
+msgstr "Kan ikke oppdatere DHCP-tildeling."
 
 #: reforis/foris_controller_api/modules/lan.py:113
 #, fuzzy
 msgid "Can't delete DHCP lease."
-msgstr "Kan ikke opprette DHCP-tildelingslån."
+msgstr "Kan ikke slette DHCP-tildeling."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
@@ -2800,7 +2808,7 @@ msgstr ""
 #: reforis/foris_controller_api/modules/router_notifications.py:127
 #, fuzzy
 msgid "The testing message has been sent, please check your inbox."
-msgstr "Testmelding sendt, sjekk innboksen din."
+msgstr "Testmelding sendt. Sjekk innboksen din."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:130
 #, fuzzy
@@ -3192,4 +3200,3 @@ msgstr "500 - Tjenerfeil"
 #~ "programvare og forklare for familiemedlemmer"
 #~ " hvordan de skal surfe trygt på "
 #~ "Internett."
-
