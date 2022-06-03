@@ -8,7 +8,24 @@ and this project adheres to
 
 ## [Unreleased]
 
-## [1.2.1] - 2021-03-10
+## [1.3.0] - 2022-06-03
+
+### Added
+
+-   Added & update translations
+-   Added ability to set static leases
+
+### Changed
+
+-   Fixed language and parsing for points.js
+-   Updated Foris JS library to v5.4.1
+-   Updated pip in virtualenv to latest version
+-   Moved ubus socket path
+-   Made WS path in lighttpd mode configurable
+-   NPM audit fix
+-   Other small improvements
+
+## [1.2.1] - 2022-03-10
 
 ### Added
 
@@ -415,7 +432,8 @@ and this project adheres to
 
 -   Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.2.1...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.3.0...master
+[1.3.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.2.1...v1.3.0
 [1.2.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.2.0...v1.2.1
 [1.2.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.1.4...v1.2.0
 [1.1.4]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.1.3...v1.1.4
