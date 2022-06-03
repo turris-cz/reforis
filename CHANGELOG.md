@@ -22,6 +22,7 @@ and this project adheres to
 -   Updated pip in virtualenv to latest version
 -   Moved ubus socket path
 -   Made WS path in lighttpd mode configurable
+-   Changed author email in setup.py
 -   NPM audit fix
 -   Other small improvements
 
