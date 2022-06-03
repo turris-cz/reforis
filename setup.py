@@ -29,14 +29,14 @@ class CustomBuild(build_py):
 
 setuptools.setup(
     name='reforis',
-    version='1.2.1',
+    version='1.3.0',
     packages=setuptools.find_packages(exclude=['tests']),
     include_package_data=True,
 
     description='reForis is the latest, simple, and most user-friendly interface for Turris routers.',
     url='https://gitlab.nic.cz/turris/reforis/reforis',
     author='CZ.NIC, z.s.p.o. (https://www.nic.cz/)',
-    author_email='packaging@turris.cz',
+    author_email='software@turris.cz',
     install_requires=[
         'flask',
         'Babel',
