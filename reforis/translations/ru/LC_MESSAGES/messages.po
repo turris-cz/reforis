@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-05-31 14:16+0200\n"
-"PO-Revision-Date: 2022-04-06 11:10+0000\n"
+"PO-Revision-Date: 2022-06-08 16:17+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/turris/reforis/"
+"ru/>\n"
 "Language: ru\n"
-"Language-Team: Russian "
-"<https://hosted.weblate.org/projects/turris/reforis/ru/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -307,16 +308,16 @@ msgstr "Устройство неактивно"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
 msgid "Edit static lease"
-msgstr ""
+msgstr "Изменить постоянную аренды"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:59
 msgid "Set static lease"
-msgstr ""
+msgstr "Установить постоянную аренду"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:61
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:98
 msgid "Add static lease"
-msgstr ""
+msgstr "Добавить постоянную аренду"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:61
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
@@ -325,25 +326,23 @@ msgstr "Сохранить"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:45
 msgid "List of available hostnames"
-msgstr ""
+msgstr "Список доступных имен хостов"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:57
-#, fuzzy
 msgid "IPv4 address"
 msgstr "Адрес IPv4"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:68
 msgid "List of available IPv4 addresses"
-msgstr ""
+msgstr "Список доступных адресов IPv4"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:82
-#, fuzzy
 msgid "MAC address"
-msgstr "IP-адрес"
+msgstr "MAC-адрес"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:93
 msgid "List of available MAC addresses"
-msgstr ""
+msgstr "Список доступных MAC-адресов"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:123
@@ -363,31 +362,27 @@ msgstr "Удалить"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
 msgid "Set Static"
-msgstr ""
+msgstr "Установить постоянный"
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:47
-#, fuzzy
 msgid "Static lease added successfully."
-msgstr "Сервер пересылки успешно добавлен."
+msgstr "Постоянная аренда успешно добавлена."
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:58
-#, fuzzy
 msgid "Static saved successfully."
-msgstr "Сервер пересылки успешно сохранен."
+msgstr "Постоянная аренда успешно сохранена."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
-#, fuzzy
 msgid "Hostname cannot be empty."
-msgstr "Имя отправителя не может быть пустым."
+msgstr "Имя хоста не может быть пустым."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:24
 msgid "IPv4 address cannot be empty."
-msgstr ""
+msgstr "Адрес IPv4 не может быть пустым."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:28
-#, fuzzy
 msgid "MAC address cannot be empty."
-msgstr "Не может быть пустым."
+msgstr "MAC-адрес не может быть пустым."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
 msgid "Test is running..."
@@ -1840,11 +1835,9 @@ msgstr ""
 "href=\"\" data-toggle=\"modal\" data-target=\"#licenceModal\">здесь</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
-#, fuzzy
 msgid "Automatic updates are offered to Turris routers free of charge."
 msgstr ""
-"Автоматические обновления предлагаются владельцам маршрутизаторов Turris "
-"бесплатно."
+"Автоматические обновления предлагаются маршрутизаторам Turris бесплатно."
 
 #: js/src/packageManagement/updateSettings/points.js:17
 msgid "Updates are prepared exclusively by CZ.NIC, z. s. p. o."
@@ -1855,25 +1848,24 @@ msgid ""
 "Automatic updates must be turned on to get all security features, as some"
 " of them make use of it."
 msgstr ""
+"Автоматические обновления должны быть включены, чтобы получить все функции "
+"безопасности."
 
 #: js/src/packageManagement/updateSettings/points.js:27
-#, fuzzy
 msgid ""
 "Automatic updates take place at the time of their release. The time of "
 "installation cannot be influenced by the user."
 msgstr ""
-"Автоматические обновления происходят в момент их выпуска, пользователь не"
-" может повлиять на время установки."
+"Автоматические обновления происходят в момент их выпуска. Пользователь не "
+"может повлиять на время установки."
 
 #: js/src/packageManagement/updateSettings/points.js:33
-#, fuzzy
 msgid ""
 "Downloading the automatic updates mean increased Internet traffic. "
 "Potential expenses related to this are covered by you."
 msgstr ""
-"Включение автоматических обновлений может привести к увеличению "
-"интернет-трафика на вашем маршрутизаторе. Расходы, связанные с этим "
-"увеличением, покрываются вами."
+"Загрузка автоматических обновлений означает увеличение интернет-трафика. "
+"Расходы, связанные с этим увеличением, покрываются вами."
 
 #: js/src/packageManagement/updateSettings/points.js:39
 msgid ""
@@ -1882,15 +1874,19 @@ msgid ""
 "workstations and other devices by installing antivirus software and "
 "explaining to users how to stay safe on the Internet."
 msgstr ""
+"Автоматические обновления не могут защитить вас от каждой атаки из "
+"Интернета. Также примите другие меры предосторожности, например, защитите "
+"свои рабочие станции и другие устройства, установив антивирусное программное "
+"обеспечение и объяснив пользователям, как обеспечить безопасность в "
+"Интернете."
 
 #: js/src/packageManagement/updateSettings/points.js:45
-#, fuzzy
 msgid ""
 "CZ.NIC, z. s. p. o. is not responsible for any damages caused by the "
 "automatic updates and does not guarantee its availability."
 msgstr ""
-"CZ.NIC, z. s. p. o. не гарантирует доступность этой услуги и не несет "
-"ответственности за любые убытки, вызванные автоматическими обновлениями."
+"CZ.NIC, z. с. п. о. не несет ответственности за любой ущерб, причиненный "
+"автоматическими обновлениями, и не гарантирует их доступность."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:17
 msgid ""
@@ -2587,53 +2583,48 @@ msgid "Can't delete DNS forwarder."
 msgstr "Не удается удалить сервер пересылки DNS."
 
 #: reforis/foris_controller_api/modules/lan.py:15
-#, fuzzy
 msgid "IP address does not fit the LAN network."
-msgstr "IP-адрес за пределами текущей сети."
+msgstr "IP-адрес не соответствует сети LAN."
 
 #: reforis/foris_controller_api/modules/lan.py:16
 msgid "DHCP is disabled for LAN."
-msgstr ""
+msgstr "DHCP отключен для локальной сети."
 
 #: reforis/foris_controller_api/modules/lan.py:17
-#, fuzzy
 msgid "IP address is already used by another static lease."
-msgstr "Адрес уже зарезервирован для других целей."
+msgstr "IP-адрес уже используется в другой постоянной аренде."
 
 #: reforis/foris_controller_api/modules/lan.py:18
-#, fuzzy
 msgid "MAC address is already used by another static lease."
-msgstr "Адрес уже зарезервирован для других целей."
+msgstr "MAC-адрес уже используется в другой постоянной аренде."
 
 #: reforis/foris_controller_api/modules/lan.py:19
 msgid "No static lease has this MAC address assigned."
-msgstr ""
+msgstr "Нет постоянной аренды с этим MAC-адресом."
 
 #: reforis/foris_controller_api/modules/lan.py:20
 msgid "Hostname is already used by another static lease."
-msgstr ""
+msgstr "Имя хоста уже используется в другой постоянной аренде."
 
 #: reforis/foris_controller_api/modules/lan.py:35
 msgid "Caused by"
-msgstr ""
+msgstr "Вызванный"
 
 #: reforis/foris_controller_api/modules/lan.py:35
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестно"
 
 #: reforis/foris_controller_api/modules/lan.py:87
 msgid "Can't create DHCP lease."
 msgstr "Невозможно создать аренду DHCP."
 
 #: reforis/foris_controller_api/modules/lan.py:102
-#, fuzzy
 msgid "Can't update DHCP lease."
-msgstr "Невозможно создать аренду DHCP."
+msgstr "Невозможно обновить аренду DHCP."
 
 #: reforis/foris_controller_api/modules/lan.py:113
-#, fuzzy
 msgid "Can't delete DHCP lease."
-msgstr "Невозможно создать аренду DHCP."
+msgstr "Невозможно удалить аренду DHCP."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
@@ -3012,4 +3003,3 @@ msgstr "500 - Ошибка сервера"
 #~ "устанавливая антивирусное программное обеспечение"
 #~ " и объясняя членам вашей семьи, как"
 #~ " обезопасить себя в Интернете."
-
