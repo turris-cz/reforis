@@ -13,6 +13,7 @@ import {
     AlertContextProvider,
     useAPIGet,
     withSending,
+    CustomizationContextProvider,
 } from "foris";
 import PropTypes from "prop-types";
 import { BrowserRouter, Redirect, Switch } from "react-router-dom";
@@ -23,7 +24,7 @@ import Navigation from "navigation/Navigation";
 import ErrorBoundary from "utils/ErrorBoundary";
 
 import { REDIRECT_404_PAGE } from "./constants";
-import { CustomizationProvider } from "./customizationContext";
+// import { CustomizationProvider } from "./customizationContext";
 import getPages from "./pages";
 import RouteWithSubRoutes from "./routing";
 import TopBar from "./TopBar/TopBar";
@@ -67,7 +68,8 @@ function MainWrapper({ deviceDetails, ws }) {
         <ErrorBoundary>
             <BrowserRouter basename={REFORIS_URL_PREFIX}>
                 <AlertContextProvider>
-                    <CustomizationProvider value={customization}>
+                    <CustomizationContextProvider>
+                        {/* <CustomizationProvider value={customization}> */}
                         <Portal containerId="navigation-container">
                             <Navigation pages={pages} />
                         </Portal>
@@ -90,7 +92,8 @@ function MainWrapper({ deviceDetails, ws }) {
                                 <Redirect to={REDIRECT_404_PAGE} />
                             </Switch>
                         </ErrorBoundary>
-                    </CustomizationProvider>
+                        {/* </CustomizationProvider> */}
+                    </CustomizationContextProvider>
                 </AlertContextProvider>
             </BrowserRouter>
         </ErrorBoundary>

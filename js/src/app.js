@@ -36,6 +36,7 @@ pdfMake.vfs = pdfFonts.pdfMake.vfs;
 const ws = new WebSockets();
 
 window.AlertContext = React.createContext();
+window.CustomizationContext = React.createContext();
 
 window.addEventListener(
     "load",
