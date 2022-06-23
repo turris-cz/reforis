@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-05-31 14:16+0200\n"
-"PO-Revision-Date: 2022-06-13 08:15+0000\n"
+"PO-Revision-Date: 2022-06-24 20:16+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -325,7 +325,7 @@ msgstr "Uložiť"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:45
 msgid "List of available hostnames"
-msgstr "Zoznam dostupných názvov hostiteľa"
+msgstr "Zoznam dostupných sieťových názvov"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:57
 msgid "IPv4 address"
@@ -373,7 +373,7 @@ msgstr "Statické nastavenie bolo úspešne uložené."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
 msgid "Hostname cannot be empty."
-msgstr "Názov hostiteľa nemôže byť prázdne."
+msgstr "Sieťový názov nemôže byť prázdny."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:24
 msgid "IPv4 address cannot be empty."
@@ -1241,14 +1241,13 @@ msgid ""
 "obtain a new IP from DHCP (if DHCP is enabled), and you might need to "
 "<b>refresh the page</b> in your browser."
 msgstr ""
-"<b>Poznámka:</b> Ak zmeníte IP adresu routera, všetky počítače v sieti "
-"LAN (pravdepodobne vrátane toho, ktorý práve používate), budú musieť "
-"získať <b>nové IP adresy</b>. Nestane sa to však <b>okamžite</b>. Preto "
-"sa po odoslaní vykonaných zmien odporúča vynútiť aktualizáciu IP adries "
-"tým, že sa odpoja a opäť pripoja sieťové káble všetkých zariadení. "
-"Nasledujúca strana sa nenačíta, kým nezískate novú IP adresu z DHCP (ak "
-"je DHCP zapnuté). Možno bude potrebné túto stránku v prehliadači <b>opäť "
-"načítať</b>."
+"<b>Poznámka:</b> Ak zmeníte IP adresu routera, všetky počítače v sieti LAN ("
+"pravdepodobne vrátane toho, ktorý práve používate) budú musieť získať "
+"<b>nové IP adresy</b>. Nestane sa to však <b>okamžite</b>. Preto sa po "
+"odoslaní vykonaných zmien odporúča vynútiť aktualizáciu IP adries tým, že sa "
+"odpoja a opäť pripoja sieťové káble všetkých zariadení. Nasledujúca strana "
+"sa nenačíta, kým nezískate novú IP adresu z DHCP (ak je DHCP zapnuté). Možno "
+"bude potrebné túto stránku v prehliadači <b>opäť načítať</b>."
 
 #: js/src/lan/LANForm.js:19
 msgid ""
@@ -1881,7 +1880,7 @@ msgstr "Čas automatického reštartu vo formáte HH:MM."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:49
 msgid "Automatic Restarts After Software Update"
-msgstr "Automatické reštarty po aktualizácii softwaru"
+msgstr "Automatický reštart po aktualizácii softwaru"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:51
 msgid "Delay (days)"
@@ -2593,7 +2592,7 @@ msgstr "Táto MAC adresa nie je priradená žiadnej statickej výpožičke."
 
 #: reforis/foris_controller_api/modules/lan.py:20
 msgid "Hostname is already used by another static lease."
-msgstr "Názov hostiteľa sa už používa pre inú statickú výpožičku."
+msgstr "Sieťový názov sa už používa pre inú statickú výpožičku."
 
 #: reforis/foris_controller_api/modules/lan.py:35
 msgid "Caused by"
