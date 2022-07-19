@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-05-31 14:16+0200\n"
-"PO-Revision-Date: 2022-07-19 10:20+0000\n"
+"PO-Revision-Date: 2022-07-20 11:15+0000\n"
 "Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
 "\n"
@@ -378,9 +378,8 @@ msgid "IPv4 address cannot be empty."
 msgstr "Adresa IPv4 nemůže být prázdná."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:28
-#, fuzzy
 msgid "MAC address cannot be empty."
-msgstr "Je třeba vyplnit."
+msgstr "Adresa MAC nemůže být prázdná."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
 msgid "Test is running..."
