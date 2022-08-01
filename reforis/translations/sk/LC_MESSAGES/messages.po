@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-05-31 14:16+0200\n"
-"PO-Revision-Date: 2022-03-20 06:54+0000\n"
+"PO-Revision-Date: 2022-06-24 20:16+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
+">\n"
 "Language: sk\n"
-"Language-Team: Slovak "
-"<https://hosted.weblate.org/projects/turris/reforis/sk/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -306,16 +307,16 @@ msgstr "Zariadenie nie je aktívne"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
 msgid "Edit static lease"
-msgstr ""
+msgstr "Upraviť statické výpožičky"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:59
 msgid "Set static lease"
-msgstr ""
+msgstr "Nastaviť statickú výpožičku"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:61
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:98
 msgid "Add static lease"
-msgstr ""
+msgstr "Pridať statickú výpožičku"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:61
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
@@ -324,25 +325,23 @@ msgstr "Uložiť"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:45
 msgid "List of available hostnames"
-msgstr ""
+msgstr "Zoznam dostupných sieťových názvov"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:57
-#, fuzzy
 msgid "IPv4 address"
 msgstr "IPv4 adresa"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:68
 msgid "List of available IPv4 addresses"
-msgstr ""
+msgstr "Zoznam dostupných IPv4 adries"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:82
-#, fuzzy
 msgid "MAC address"
-msgstr "IP adresa"
+msgstr "MAC adresa"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:93
 msgid "List of available MAC addresses"
-msgstr ""
+msgstr "Zoznam dostupných MAC adries"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:123
@@ -362,31 +361,27 @@ msgstr "Vymazať"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
 msgid "Set Static"
-msgstr ""
+msgstr "Nastaviť statickú"
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:47
-#, fuzzy
 msgid "Static lease added successfully."
-msgstr "DNS preposielanie bolo úspešne pridané."
+msgstr "Statická výpožička bola úspešne pridaná."
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:58
-#, fuzzy
 msgid "Static saved successfully."
-msgstr "Nastavenie DNS preposielania bolo uložené."
+msgstr "Statické nastavenie bolo úspešne uložené."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
-#, fuzzy
 msgid "Hostname cannot be empty."
-msgstr "Meno odosielateľa nemôže byť prázdne."
+msgstr "Sieťový názov nemôže byť prázdny."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:24
 msgid "IPv4 address cannot be empty."
-msgstr ""
+msgstr "IPv4 adresa nemôže byť prázdna."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:28
-#, fuzzy
 msgid "MAC address cannot be empty."
-msgstr "Nemôže byť prázdne."
+msgstr "MAC adresa nemôže byť prázdna."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
 msgid "Test is running..."
@@ -1246,14 +1241,13 @@ msgid ""
 "obtain a new IP from DHCP (if DHCP is enabled), and you might need to "
 "<b>refresh the page</b> in your browser."
 msgstr ""
-"<b>Poznámka:</b> Ak zmeníte IP adresu routera, všetky počítače v sieti "
-"LAN (pravdepodobne vrátane toho, ktorý práve používate), budú musieť "
-"získať <b>nové IP adresy</b>. Nestane sa to však <b>okamžite</b>. Preto "
-"sa po odoslaní vykonaných zmien odporúča vynútiť aktualizáciu IP adries "
-"tým, že sa odpoja a opäť pripoja sieťové káble všetkých zariadení. "
-"Nasledujúca strana sa nenačíta, kým nezískate novú IP adresu z DHCP (ak "
-"je DHCP zapnuté). Možno bude potrebné túto stránku v prehliadači <b>opäť "
-"načítať</b>."
+"<b>Poznámka:</b> Ak zmeníte IP adresu routera, všetky počítače v sieti LAN ("
+"pravdepodobne vrátane toho, ktorý práve používate) budú musieť získať "
+"<b>nové IP adresy</b>. Nestane sa to však <b>okamžite</b>. Preto sa po "
+"odoslaní vykonaných zmien odporúča vynútiť aktualizáciu IP adries tým, že sa "
+"odpoja a opäť pripoja sieťové káble všetkých zariadení. Nasledujúca strana "
+"sa nenačíta, kým nezískate novú IP adresu z DHCP (ak je DHCP zapnuté). Možno "
+"bude potrebné túto stránku v prehliadači <b>opäť načítať</b>."
 
 #: js/src/lan/LANForm.js:19
 msgid ""
@@ -1823,9 +1817,8 @@ msgstr ""
 "target=\"#licenceModal\">tu</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
-#, fuzzy
 msgid "Automatic updates are offered to Turris routers free of charge."
-msgstr "Automatické aktualizácie sa majiteľom routerov Turris poskytujú bezplatne."
+msgstr "Automatické aktualizácie routerov Turris sa poskytujú bezplatne."
 
 #: js/src/packageManagement/updateSettings/points.js:17
 msgid "Updates are prepared exclusively by CZ.NIC, z. s. p. o."
@@ -1836,25 +1829,24 @@ msgid ""
 "Automatic updates must be turned on to get all security features, as some"
 " of them make use of it."
 msgstr ""
+"Na získanie všetkých bezpečnostných funkcií musia byť automatické "
+"aktualizácie zapnuté, pretože niektoré z nich ich využívajú."
 
 #: js/src/packageManagement/updateSettings/points.js:27
-#, fuzzy
 msgid ""
 "Automatic updates take place at the time of their release. The time of "
 "installation cannot be influenced by the user."
 msgstr ""
-"Automatické aktualizácie prebiehajú v čase ich vydania, čas inštalácie "
+"Automatické aktualizácie prebiehajú v čase ich vydania. Čas inštalácie "
 "nemôže používateľ ovplyvniť."
 
 #: js/src/packageManagement/updateSettings/points.js:33
-#, fuzzy
 msgid ""
 "Downloading the automatic updates mean increased Internet traffic. "
 "Potential expenses related to this are covered by you."
 msgstr ""
-"Povolenie automatických aktualizácií môže spôsobiť zvýšenú internetovú "
-"prevádzku na vašom routeri. Náklady spojené s týmto zvýšením znášate "
-"sami."
+"Sťahovanie automatických aktualizácií môže zvýšiť internetovú prevádzku. "
+"Prípadné náklady spojené s týmto zvýšením znášate sami."
 
 #: js/src/packageManagement/updateSettings/points.js:39
 msgid ""
@@ -1863,15 +1855,18 @@ msgid ""
 "workstations and other devices by installing antivirus software and "
 "explaining to users how to stay safe on the Internet."
 msgstr ""
+"Automatické aktualizácie vás nemôžu ochrániť pred každým útokom z internetu. "
+"Preto prijmite aj ďalšie preventívne opatrenia, ako sú ochrana pracovných "
+"staníc a iných zariadení inštaláciou antivírusového softwaru a školenie "
+"užívateľov o bezpečnom používaní internetu."
 
 #: js/src/packageManagement/updateSettings/points.js:45
-#, fuzzy
 msgid ""
 "CZ.NIC, z. s. p. o. is not responsible for any damages caused by the "
 "automatic updates and does not guarantee its availability."
 msgstr ""
-"Spoločnosť CZ.NIC, z. s. p. o. nezaručuje dostupnosť tejto služby a "
-"nezodpovedá za prípadné škody spôsobené automatickými aktualizáciami."
+"CZ.NIC, z. s. p. o. nezodpovedá za žiadne škody spôsobené automatickými "
+"aktualizáciami a nezaručuje dostupnosť tejto služby."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:17
 msgid ""
@@ -1885,7 +1880,7 @@ msgstr "Čas automatického reštartu vo formáte HH:MM."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:49
 msgid "Automatic Restarts After Software Update"
-msgstr "Automatické reštarty po aktualizácii softwaru"
+msgstr "Automatický reštart po aktualizácii softwaru"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:51
 msgid "Delay (days)"
@@ -2576,31 +2571,28 @@ msgid "Can't delete DNS forwarder."
 msgstr "Nedá sa vymazať DNS preposielanie (forwarder)."
 
 #: reforis/foris_controller_api/modules/lan.py:15
-#, fuzzy
 msgid "IP address does not fit the LAN network."
-msgstr "Adresa je mimo aktuálnej siete."
+msgstr "IP adresa nepatrí do aktuálnej LAN siete."
 
 #: reforis/foris_controller_api/modules/lan.py:16
 msgid "DHCP is disabled for LAN."
-msgstr ""
+msgstr "DHCP je pre LAN zakázané."
 
 #: reforis/foris_controller_api/modules/lan.py:17
-#, fuzzy
 msgid "IP address is already used by another static lease."
-msgstr "Adresa je už rezervovaná na iné účely."
+msgstr "IP adresa sa už používa pre inú statickú výpožičku."
 
 #: reforis/foris_controller_api/modules/lan.py:18
-#, fuzzy
 msgid "MAC address is already used by another static lease."
-msgstr "Adresa je už rezervovaná na iné účely."
+msgstr "MAC adresa sa už používa pre inú statickú výpožičku."
 
 #: reforis/foris_controller_api/modules/lan.py:19
 msgid "No static lease has this MAC address assigned."
-msgstr ""
+msgstr "Táto MAC adresa nie je priradená žiadnej statickej výpožičke."
 
 #: reforis/foris_controller_api/modules/lan.py:20
 msgid "Hostname is already used by another static lease."
-msgstr ""
+msgstr "Sieťový názov sa už používa pre inú statickú výpožičku."
 
 #: reforis/foris_controller_api/modules/lan.py:35
 msgid "Caused by"
@@ -2608,21 +2600,19 @@ msgstr ""
 
 #: reforis/foris_controller_api/modules/lan.py:35
 msgid "Unknown"
-msgstr ""
+msgstr "Neznáme"
 
 #: reforis/foris_controller_api/modules/lan.py:87
 msgid "Can't create DHCP lease."
 msgstr "Nedá sa vytvoriť DHCP výpožička."
 
 #: reforis/foris_controller_api/modules/lan.py:102
-#, fuzzy
 msgid "Can't update DHCP lease."
-msgstr "Nedá sa vytvoriť DHCP výpožička."
+msgstr "DHCP výpožička sa nedá sa aktualizovať."
 
 #: reforis/foris_controller_api/modules/lan.py:113
-#, fuzzy
 msgid "Can't delete DHCP lease."
-msgstr "Nedá sa vytvoriť DHCP výpožička."
+msgstr "DHCP výpožička sa nedá vymazať."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
@@ -3031,4 +3021,3 @@ msgstr "500 – Chyba servera"
 #~ "antivírusového softvéru a vysvetlite členom"
 #~ " svojej rodiny pravidlá bezpečného "
 #~ "používania internetu."
-
