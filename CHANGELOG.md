@@ -8,11 +8,22 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.3.1] - 2022-08-01
+
+### Added
+
+-   Added & updated translations
+
+### Changed
+
+-   Fixed client-relative session expiration
+-   NPM audit fix
+
 ## [1.3.0] - 2022-06-03
 
 ### Added
 
--   Added & update translations
+-   Added & updated translations
 -   Added ability to set static leases
 
 ### Changed
@@ -30,7 +41,7 @@ and this project adheres to
 
 ### Added
 
--   Added & update translations
+-   Added & updated translations
 -   Added ESLint import plugin to sort imports correctly
 -   Added Python interactive debugging guide
 -   Added webpack-bundle-analyzer
@@ -45,7 +56,7 @@ and this project adheres to
 -   Updated Python image to v3.10.2
 -   Updated Node.js image to v14
 -   Updated Foris JS library to v5.3.0
--   NPM update several dependencies
+-   Updated several NPM dependencies
 -   Fixed translation messages strings
 -   Fixed uninitialized guideData
 -   Fixed typos and inconsistencies on the Packages page
@@ -433,7 +444,8 @@ and this project adheres to
 
 -   Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.3.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.3.1...master
+[1.3.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.3.0...v1.3.1
 [1.3.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.2.1...v1.3.0
 [1.2.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.2.0...v1.2.1
 [1.2.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.1.4...v1.2.0
