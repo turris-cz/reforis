@@ -23,7 +23,6 @@ FORIS_CONTROLLER_MODULES = [
     'about',
     'dns',
     'guest',
-    'haas',
     'lan',
     'maintain',
     'networks',
