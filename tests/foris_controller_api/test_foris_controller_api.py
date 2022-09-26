@@ -53,7 +53,6 @@ from reforis.test_utils import _test_api_endpoint_foris_controller_call
         ('about', 'about', 'get', {'serial': '1'}),
 
         ('guide', 'web', 'get_data', {'guide': {}, 'password_ready': False}),
-        ('haas', 'haas', 'get_settings', {'token': '', 'enabled': False}),
         ('system/hostname', 'system', 'get_hostname', {'hostname': ''})
     ]
 )
