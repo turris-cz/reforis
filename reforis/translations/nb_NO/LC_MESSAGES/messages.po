@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-05-31 14:16+0200\n"
-"PO-Revision-Date: 2022-06-02 16:14+0000\n"
+"PO-Revision-Date: 2022-10-26 07:06+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
 "reforis/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 "Generated-By: Babel 2.10.1\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -482,18 +482,15 @@ msgid "Connection Test"
 msgstr "Tilkoblingstest"
 
 #: js/src/dns/DNS.js:66
-#, fuzzy
 msgid ""
 "Here you can test your internet connection. This test is also useful when"
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
-"\n"
-"Her kan du teste din Internett-tilkobling. Denne testen er også nyttig "
+"Her kan du teste din tilkobling til Internett. Denne testen er også nyttig "
 "når du må sjekke at din DNS-utledelse\n"
-"fungerer som forventet. Husk å klikke på <b>Lagre</b>-knappen hvis du har"
-" endret din videresender-innstilling.\n"
-"        "
+"fungerer som forventet. Husk å klikke på <b>Lagre</b>-knappen hvis du har "
+"endret din videresender-innstilling."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
@@ -664,22 +661,17 @@ msgid "Guest Network"
 msgstr "Gjestenettverk"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
-#, fuzzy
 msgid ""
 "The guest network is used for <a href=\"${ForisURLs.wifi}\">guest Wi-"
 "Fi</a>. It is separated from your ordinary LAN. Devices connected to this"
 " network are allowed to access the internet but are not allowed to access"
 " the configuration interface of this device or the devices in LAN."
 msgstr ""
-"\n"
-"Gjestenettverk brukes for <a href=\"${ForisURLs.wifi}\">gjeste-Wi-Fi</a>."
-"\n"
+"Gjestenettverk brukes for <a href=\"${ForisURLs.wifi}\">gjeste-Wi-Fi</a>.\n"
 "Det er adskilt fra ditt ordinære lokalnett. Enheter tilkoblet dette "
 "nettverket tillates adgang til Internett,\n"
-"men tillates ikke tilgang til oppsettsgrensesnittet på hverken enheten "
-"eller enhetene i\n"
-"lokalnettet.\n"
-"        "
+"men tillates ikke tilgang til oppsettsgrensesnittet på hverken enheten eller "
+"enhetene i lokalnettet."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 #, fuzzy
@@ -1156,18 +1148,15 @@ msgid "Network Interfaces"
 msgstr "Nettverksgrensesnitt"
 
 #: js/src/interfaces/Interfaces.js:29
-#, fuzzy
 msgid ""
 "Here you can configure the settings of the network interfaces on your "
 "device. You can switch the physical network interfaces among networks. If"
 " you are unsure what to set here, use the default settings."
 msgstr ""
-"\n"
-"Her kan du sette opp nettverksgrensesnittene på enheten din. Du kan bytte"
-" fysiske nettverks-grensesnitt\n"
-"mellom nettverkene. Hvis du er usikker på hva du skal sette her kan du "
-"bruke forvalgte innstillinger.\n"
-"        "
+"Her kan du sette opp nettverksgrensesnittene på enheten din. Du kan bytte "
+"fysiske nettverks-grensesnitt mellom nettverkene.\n"
+"Hvis du er usikker på hva du skal sette her kan du bruke forvalgte "
+"innstillinger."
 
 #: js/src/interfaces/Interfaces.js:52
 msgid "You have to assign at least one interface to this group."
@@ -1182,19 +1171,14 @@ msgstr ""
 "grensesnittet ditt igjen for å unngå sikkerhetsproblemer."
 
 #: js/src/interfaces/InterfacesForm.js:111
-#, fuzzy
 msgid ""
 "It acts as an external network connection. Firewall rules should be "
 "applied here. It can only contain a single interface."
 msgstr ""
-"\n"
-"Oppfører seg som ekstern nettverkstilkobling. Brannmursregler skal legges"
-" til her. Kan kun inneholde ett\n"
-"grensesnitt.\n"
-"        "
+"Oppfører seg som ekstern nettverkstilkobling.\n"
+"Brannmursregler skal legges til her. Kan kun inneholde ett grensesnitt."
 
 #: js/src/interfaces/InterfacesForm.js:123
-#, fuzzy
 msgid ""
 "It acts as a local network connection. LAN should contain devices that "
 "are under your control, and you trust them. These devices can see each "
@@ -1202,17 +1186,13 @@ msgid ""
 "should contain at least one interface. Otherwise, you might not be able "
 "to configure this device easily."
 msgstr ""
-"\n"
-"Fungerer som lokalnettverkstilkobling. Lokalnettet bør ha enheter du "
-"kontrollerer og har tillit til.\n"
-"Disse enheten kan se hverandre og nå dette vev-grensesnittet. Det "
-"anbefales at lokalnettet skal inneholde\n"
-"minst ett grensesnitt. Ellers vil du ikke kunne sette opp denne enheten "
-"på enkelt vis.\n"
-"        "
+"Fungerer som lokalnettverkstilkobling.\n"
+"Lokalnettet bør ha enheter du kontrollerer og har tillit til.\n"
+"Disse enheten kan se hverandre og nå dette vev-grensesnittet.\n"
+"Det anbefales at lokalnettet skal inneholde minst ett grensesnitt.\n"
+"Ellers vil du ikke kunne sette opp denne enheten på enkelt vis."
 
 #: js/src/interfaces/InterfacesForm.js:139
-#, fuzzy
 msgid ""
 "It acts as a local network connection. Unlike LAN, the devices in the "
 "guest network can't access the configuration interface of this device and"
@@ -1220,15 +1200,12 @@ msgid ""
 "that you don't fully trust. Note that you can also limit the "
 "download/upload speed of the devices connected to the guest network."
 msgstr ""
-"\n"
-"Fungerer som lokalnettverkstilkobling. Ulik lokalnett kan ikke enhetene i"
-" gjestenettet nå oppsettsgrensesnittet\n"
-"for denne enhten og kan ikke nå WAN (Internett). Dette nettverket skal "
-"brukes for enheter du ikke har full\n"
-"tiltro til. Merk deg at du også kan begrense "
-"opplasting-/nedlastingshastighet for enhetene tilkoblet\n"
-"gjestenettverket.\n"
-"        "
+"Fungerer som lokalnettverkstilkobling. Ulik lokalnett kan ikke enhetene i "
+"gjestenettet nå oppsettsgrensesnittet\n"
+"for denne enheten og kan ikke nå WAN (Internett).\n"
+"Dette nettverket skal brukes for enheter du ikke har full tiltro til.\n"
+"Merk deg at du også kan begrense opplasting-/nedlastingshastighet for "
+"enhetene tilkoblet gjestenettverket."
 
 #: js/src/interfaces/Network.js:43
 msgid "There are no interfaces in this group."
@@ -1485,22 +1462,16 @@ msgid "Factory Reset"
 msgstr "Fabrikkstilbakestilling"
 
 #: js/src/maintenance/FactoryReset.js:19
-#, fuzzy
 msgid ""
 "Doing a factory reset on the Turris device will remove all the packages "
 "installed on the device along with the data associated with them. This "
 "brings back all the default settings of the device as it was when the "
 "router was new, giving you a clean slate to start all over again."
 msgstr ""
-"Å utføre fabrikktilbakestilling på Turris-enheten vil fjerne alle pakkene"
-"\n"
-"                som er installert på enheten, sammen med all tilknyttet "
-"data. Dette gir\n"
-"                deg alle forvalgte innstillinger som fantes når ruteren "
-"var ny,\n"
-"                noe som gir deg en frisk start for å starte helt på nytt."
-"\n"
-"    "
+"Å utføre fabrikktilbakestilling på Turris-enheten vil fjerne alle pakkene "
+"som er installert på enheten, sammen med all tilknyttet data.\n"
+"Dette gir deg alle forvalgte innstillinger som fantes når ruteren var ny, "
+"noe som gir deg en frisk start for å starte helt på nytt."
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
@@ -1511,17 +1482,14 @@ msgstr ""
 "fabrikkforvalg ved å utføre en fabrikktilbakestilling."
 
 #: js/src/maintenance/Reboot.js:19
-#, fuzzy
 msgid ""
 "If you need to reboot the device, click on the following button. The "
 "reboot process takes approximately 30 seconds, and then you will be "
 "required to log in again."
 msgstr ""
-"\n"
-"Hvis du må utføre en omstart enheten kan du klikke på følgende knapp. "
-"Omstartsprosessen tar omkring 30 sekunder, og du vil\n"
-"måtte logge inn igjen etterpå.\n"
-"    "
+"Hvis du må utføre en omstart enheten kan du klikke på følgende knapp.\n"
+"Omstartsprosessen tar omkring 30 sekunder, og du vil måtte logge inn igjen "
+"etterpå."
 
 #: js/src/maintenance/Syslog/Syslog.js:49
 #, fuzzy
@@ -1855,7 +1823,6 @@ msgid "More details"
 msgstr "Flere detaljer"
 
 #: js/src/packageManagement/packages/Packages.js:22
-#, fuzzy
 msgid ""
 "Apart from the standard installation, you can optionally select bundles "
 "of additional software that would be installed on the router. This "
@@ -1864,15 +1831,12 @@ msgid ""
 "package lists and not marked as community-supported is supported by the "
 "Turris team."
 msgstr ""
-"\n"
 "Til forskjell fra forvalgsinstallasjonen kan du valgfritt velge "
-"programknipper av forskjellig typer å installere på\n"
-"ruteren. Denne programvaren kan velges fra følgende liste. Ha i minnet at"
-" kun programvare som er en del av\n"
-"TurrisOS, eller som har blitt installert fra en pakkeliste og ikke er "
-"markert med gemenskapsstøtte faktisk er\n"
-"støttet av Turris-laget.\n"
-"        "
+"programknipper av forskjellig typer å installere på ruteren.\n"
+"Denne programvaren kan velges fra følgende liste. Ha i minnet at kun "
+"programvare som er en del av TurrisOS,\n"
+"eller som har blitt installert fra en pakkeliste og ikke er markert med "
+"gemenskapsstøtte faktisk er støttet av Turris-laget."
 
 #: js/src/packageManagement/packages/PackagesForm.js:31
 #, fuzzy
@@ -1899,7 +1863,6 @@ msgstr ""
 "external-link-alt fa-sm\"></i></sup></a>."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
-#, fuzzy
 msgid ""
 "The automatic updates system is one of the most important features of the"
 " Turris router. Thanks to this function, your router's software stays up "
@@ -1909,35 +1872,24 @@ msgid ""
 "weaken the security of your router and network in case flaws in the "
 "software are found."
 msgstr ""
-"\n"
 "En av de viktigste funksjonene i din Turris-ruter er de automatiske "
-"systemoppgraderingene. Takket være\n"
-"denne funksjonen vil ruterprogramvaren forbli oppdatert og det gir bedre "
-"beskyttelse mot angrep fra\n"
-"Internett.\n"
-"<br/>\n"
-"Det <b>anbefales sterkt</b> å ha denne funksjonen <b>påsrkudd</b>. Hvis "
-"du skrur den av, vær\n"
-"advart om at dette kan forringe sikkerheten på ruteren din og nettverket "
-"i fall problemer i programvaren\n"
-"blir funnet.\n"
-"<br/>\n"
-"Ved å skru på automatiske oppdateringer samtykker du til funksjonens "
-"lisensavtale. Mer info er å finne\n"
-"<a href=\"\" data-toggle=\"modal\" data-target=\"#licenceModal\">her</a>."
-"\n"
-"            "
+"systemoppgraderingene.\n"
+"Takket være denne funksjonen vil ruterprogramvaren forbli oppdatert og det "
+"gir bedre beskyttelse mot angrep fra Internett.<br>\n"
+"Det <b>anbefales sterkt</b> å ha denne funksjonen <b>påsrkudd</b>.\n"
+"Hvis du skrur den av, vær advart om at dette kan forringe sikkerheten på "
+"ruteren din og nettverket i fall problemer i programvaren blir funnet."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
-#, fuzzy
 msgid ""
 "By turning the automatic updates on, you agree to this feature's license "
 "agreement. More information is available <a href=\"\" data-"
 "toggle=\"modal\" data-target=\"#licenceModal\">here</a>."
 msgstr ""
-"Ved å skru på automatiske oppgraderinger samtykker du til funksjonens "
-"vilkår. Mer info tilgjengelig <a href=\"\" data-toggle=\"modal\" data-"
-"target=\"#licenceModal\">her</a>."
+"Ved å skru på automatiske oppgraderinger samtykker du til funksjonens vilkår."
+"\n"
+"Mer info tilgjengelig <a href=\"\" data-toggle=\"modal\" data-target=\"#"
+"licenceModal\">her</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 #, fuzzy
@@ -2184,13 +2136,12 @@ msgid "Available Updates"
 msgstr "Tilgjengelige oppdateringer"
 
 #: js/src/packageManagement/updates/UpdateManager.js:87
-#, fuzzy
 msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
 msgstr ""
-"Her kan du finne og godta tilgjengelige oppgraderinger for \n"
-"                    Turris OS og andre komponenter."
+"Her kan du finne og godta tilgjengelige oppgraderinger for Turris OS og "
+"andre komponenter."
 
 #: js/src/packageManagement/updates/UpdateManager.js:93
 msgid "You're up to date."
@@ -2367,17 +2318,14 @@ msgid "Region and Time"
 msgstr "Sted og tid"
 
 #: js/src/regionAndTime/RegionAndTime.js:33
-#, fuzzy
 msgid ""
 "It is important for your device to have the correct time set. If your "
 "device's time is delayed, the procedure of SSL certificate verification "
 "might not work correctly."
 msgstr ""
-"\n"
-"Det er viktig for din enhet å ha rett klokkeslett. Hvis enhetens tid er "
-"forsinket kan det hende\n"
-"prosedyren for SSL-sertifikatsbekreftelse ikke fungerer som den skal.\n"
-"        "
+"Det er viktig for din enhet å ha rett klokkeslett.\n"
+"Hvis enhetens tid er forsinket kan det hende prosedyren for SSL-"
+"sertifikatsbekreftelse ikke fungerer som den skal."
 
 #: js/src/regionAndTime/RegionAndTime.js:56
 #, fuzzy
