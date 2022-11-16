@@ -127,7 +127,7 @@ export const HELP_CONTENT = {
                 ),
             ],
             completed: _(
-                "Please test whether the settings you provided are correctly working. This means that you can access the configuration interface of your device and your device is able to access the internet (you can use the connection test below)."
+                "Please test whether the settings you provided are working correctly. It means that you can access the configuration interface of your device, and your device can access the internet."
             ),
         },
         finished: {
