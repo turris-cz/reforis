@@ -218,12 +218,12 @@ docs-web: venv
 	rm -rf docs/build
 	. $(VENV_BIN)/activate && cd docs; make html
 
+
 # Other
 
 .PHONY: timezones
 timezones:
 	$(VENV_BIN)/$(PYTHON) ./scripts/make_timezones.py $(JS_DIR)/src/utils/timezones.js
-
 
 .PHONY: clean
 clean:
