@@ -986,19 +986,19 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled 1`] = `
       </div>
     </form>
   </div>
-  <h2>
-    Connection Test
-  </h2>
-  <p>
-    Here you can examine your connection settings. Wait a while to establish the connection. Remember to click the 
-    <b>
-      Save
-    </b>
-     button after you have tested that it works.
-  </p>
   <div
-    class="card p-4 mb-3"
+    class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
+    <h2>
+      Connection Test
+    </h2>
+    <p>
+      Here you can examine your connection settings. Wait a while to establish the connection. Remember to click the 
+      <b>
+        Save
+      </b>
+       button after you have tested that it works.
+    </p>
     <form>
       <table
         class="table table-borderless table-hover col-sm-12"
@@ -1083,7 +1083,7 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled 1`] = `
         </tbody>
       </table>
       <div
-        class="col-sm-12 col-lg-12 p-0 mb-0 text-right"
+        class="text-right"
       >
         <button
           class="btn btn-primary col-sm-12 col-md-3 col-lg-2"
