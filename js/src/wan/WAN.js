@@ -7,7 +7,7 @@
 
 import React from "react";
 
-import { ForisForm } from "foris";
+import { ForisForm, formFieldsSize } from "foris";
 import update from "immutability-helper";
 import PropTypes from "prop-types";
 
@@ -45,16 +45,17 @@ export default function WAN({ ws }) {
                 <WAN6Form />
                 <MACForm />
             </ForisForm>
-
-            <h2>{_("Connection Test")}</h2>
-            <p
-                dangerouslySetInnerHTML={{
-                    __html: _(
-                        "Here you can examine your connection settings. Wait a while to establish the connection. Remember to click the <b>Save</b> button after you have tested that it works."
-                    ),
-                }}
-            />
-            <ConnectionTest ws={ws} type="wan" />
+            <div className={`${formFieldsSize}`}>
+                <h2>{_("Connection Test")}</h2>
+                <p
+                    dangerouslySetInnerHTML={{
+                        __html: _(
+                            "Here you can examine your connection settings. Wait a while to establish the connection. Remember to click the <b>Save</b> button after you have tested that it works."
+                        ),
+                    }}
+                />
+                <ConnectionTest ws={ws} type="wan" />
+            </div>
         </>
     );
 }

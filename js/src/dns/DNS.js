@@ -7,7 +7,7 @@
 
 import React from "react";
 
-import { validateHostname, ForisForm } from "foris";
+import { validateHostname, ForisForm, formFieldsSize } from "foris";
 import PropTypes from "prop-types";
 
 import API_URLs from "common/API";
@@ -59,16 +59,17 @@ export default function DNS({ ws, postCallback }) {
             >
                 <DNSForm ws={ws} />
             </ForisForm>
-
-            <h2>{_("Connection Test")}</h2>
-            <p
-                dangerouslySetInnerHTML={{
-                    __html: _(
-                        "Here you can test your internet connection. This test is also useful when you need to check that your DNS resolving works as expected. Remember to click on the <b>Save button</b> if you changed your forwarder setting."
-                    ),
-                }}
-            />
-            <ConnectionTest ws={ws} type="dns" />
+            <div className={`${formFieldsSize}`}>
+                <h2>{_("Connection Test")}</h2>
+                <p
+                    dangerouslySetInnerHTML={{
+                        __html: _(
+                            "Here you can test your internet connection. This test is also useful when you need to check that your DNS resolving works as expected. Remember to click on the <b>Save button</b> if you changed your forwarder setting."
+                        ),
+                    }}
+                />
+                <ConnectionTest ws={ws} type="dns" />
+            </div>
         </>
     );
 }

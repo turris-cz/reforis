@@ -26,20 +26,14 @@ export default function ConnectionTest({ ws, type }) {
         triggerTest();
     }
 
-    const insideCard = type === "overview" ? "" : "card p-4 mb-3";
-
     return (
-        <div className={insideCard}>
-            <form>
-                <ConnectionTestResults state={state} {...testResults} />
-                <div className="col-sm-12 col-lg-12 p-0 mb-0 text-right">
-                    <ConnectionTestButton
-                        state={state}
-                        onClick={onSubmit}
-                        type={type}
-                    />
-                </div>
-            </form>
-        </div>
+        <form>
+            <ConnectionTestResults state={state} {...testResults} />
+            <ConnectionTestButton
+                state={state}
+                onClick={onSubmit}
+                type={type}
+            />
+        </form>
     );
 }
