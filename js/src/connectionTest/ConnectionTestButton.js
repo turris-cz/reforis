@@ -24,7 +24,7 @@ export default function ConnectionTestButton({ state, type, ...props }) {
     let labelSubmitButton;
     switch (state) {
         case TEST_STATES.RUNNING:
-            labelSubmitButton = _("Test is running...");
+            labelSubmitButton = _("Test is running…");
             break;
         case TEST_STATES.FINISHED:
             labelSubmitButton = _("Test connection again");
@@ -34,19 +34,21 @@ export default function ConnectionTestButton({ state, type, ...props }) {
     }
 
     return (
-        <Button
-            type="submit"
-            className={`${
-                type === "overview"
-                    ? "btn-outline-primary mw-100"
-                    : "btn-primary"
-            }`}
-            loading={isRunning}
-            disabled={isRunning}
-            forisFormSize
-            {...props}
-        >
-            {labelSubmitButton}
-        </Button>
+        <div className={type !== "overview" ? "text-right" : null}>
+            <Button
+                type="submit"
+                className={
+                    type === "overview"
+                        ? "btn-outline-primary mw-100"
+                        : "btn-primary"
+                }
+                loading={isRunning}
+                disabled={isRunning}
+                forisFormSize
+                {...props}
+            >
+                {labelSubmitButton}
+            </Button>
+        </div>
     );
 }
