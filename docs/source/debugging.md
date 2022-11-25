@@ -46,3 +46,11 @@ breakpoint()
 ### References
 
 * <https://hackernoon.com/python-3-7s-new-builtin-breakpoint-a-quick-tour-4f1aebc444c>
+
+# Python Logging
+By default the python log level is set to `WARNING`. If you want to use more verbose level,
+set env variable `REFORIS_LOG_LEVEL` to other level.
+
+```bash
+export REFORIS_LOG_LEVEL=DEBUG
+```

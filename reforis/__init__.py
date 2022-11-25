@@ -15,9 +15,10 @@ See `Flask Application Factories <http://flask.pocoo.org/docs/1.0/patterns/appfa
 
 import json
 from http import HTTPStatus
+from logging.config import dictConfig
 
 import pkg_resources
-from flask import render_template, jsonify
+from flask import jsonify, render_template
 
 from .locale import get_translations
 
@@ -34,6 +35,7 @@ def create_app(config):
     from flask import Flask
     app = Flask(__name__)
     app.config.from_object(f'reforis.config.{config}')
+    dictConfig(app.config['LOGGING'])
 
     app.static_folder = app.config.get('STATIC_DIR')
 
@@ -46,10 +48,10 @@ def create_app(config):
     set_backend(app)
     set_locale(app)
 
-    from .views import views
-    from .foris_controller_api import foris_controller_api
     from .api import api
+    from .foris_controller_api import foris_controller_api
     from .guide import guide
+    from .views import views
 
     app.register_blueprint(views)
     app.register_blueprint(foris_controller_api)
@@ -64,7 +66,7 @@ def create_app(config):
     from .backend import ExceptionInBackend
     app.register_error_handler(ExceptionInBackend, foris_controller_error)
     # Handle API errors
-    from .utils import log_error, APIError
+    from .utils import APIError, log_error
 
     def handle_api_error(error):
         if error.status_code == HTTPStatus.INTERNAL_SERVER_ERROR:
