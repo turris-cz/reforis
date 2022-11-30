@@ -67,7 +67,7 @@
         "acorn-dynamic-import": "4.0.0"
     },
     "scripts": {
-        "watch": "webpack --watch --watch-poll --mode=development --env.lighttpd",
+        "watch": "webpack --watch --mode=development --env.lighttpd",
         "build": "webpack --mode=production --env.lighttpd",
         "lint": "eslint src",
         "lint:fix": "eslint --fix src",

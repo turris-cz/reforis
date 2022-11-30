@@ -2,9 +2,9 @@
 
 exports[`<GuideFinish/> and useGuideFinish hook Snapshot. 1`] = `
 <div>
-  <h2>
+  <h1>
     Guide Finished
-  </h2>
+  </h1>
   <p>
     Once you leave this guide you'll be granted access to the full configuration interface of this device.
   </p>
@@ -12,7 +12,7 @@ exports[`<GuideFinish/> and useGuideFinish hook Snapshot. 1`] = `
     To further improve your security consider installing data collection plugin (via Package Management). This will allow you to be part of our security research to discover new attackers and give you access to dynamic firewall updates blocking known attackers.
   </p>
   <div
-    class="col-sm-12 col-lg-12 p-0 mb-3 text-right"
+    class="text-right"
   >
     <button
       class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"

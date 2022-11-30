@@ -15,6 +15,7 @@ import API_URLs from "common/API";
 import ConnectionTest from "connectionTest/ConnectionTest";
 
 import MACForm, { validateMACForm } from "./MACForm";
+import VLANForm, { validateVLANFrom } from "./VLANForm";
 import WAN6Form, { validateWAN6Form } from "./WAN6Form";
 import WANForm, { validateWANForm } from "./WANForm";
 
@@ -44,6 +45,7 @@ export default function WAN({ ws }) {
                 <WANForm />
                 <WAN6Form />
                 <MACForm />
+                <VLANForm />
             </ForisForm>
             <div className={`${formFieldsSize}`}>
                 <h2>{_("Connection Test")}</h2>
@@ -98,6 +100,7 @@ function prepDataToSubmit(formData) {
             formData.wan6_settings
         ),
         mac_settings: formData.mac_settings,
+        vlan_settings: formData.vlan_settings,
     };
 
     if (
@@ -111,6 +114,10 @@ function prepDataToSubmit(formData) {
         delete dataToSubmit.mac_settings.custom_mac;
 
     delete dataToSubmit.mac_settings.mac_address;
+
+    if (!formData.vlan_settings.enabled) {
+        delete dataToSubmit.vlan_settings.vlan_id;
+    }
 
     return dataToSubmit;
 }
@@ -132,8 +139,14 @@ function validator(formData) {
         wan_settings: validateWANForm(formData.wan_settings),
         wan6_settings: validateWAN6Form(formData.wan6_settings),
         mac_settings: validateMACForm(formData.mac_settings),
+        vlan_settings: validateVLANFrom(formData.vlan_settings),
     };
-    if (errors.wan_settings || errors.wan6_settings || errors.mac_settings)
+    if (
+        errors.wan_settings ||
+        errors.wan6_settings ||
+        errors.mac_settings ||
+        errors.vlan_settings
+    )
         return errors;
     return null;
 }

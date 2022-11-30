@@ -21,6 +21,7 @@ import { mockJSONError } from "foris/testUtils/network";
 import {
     wanSettingsFixture,
     customMACFixture,
+    customVLANFixture,
 } from "./__fixtures__/wanSettings";
 import WAN from "../WAN";
 
@@ -55,7 +56,7 @@ describe("<WAN/>", () => {
         });
     });
 
-    it("Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled", () => {
+    it("Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disabled", () => {
         expect(firstRender).toMatchSnapshot();
     });
 
@@ -116,14 +117,21 @@ describe("<WAN/>", () => {
         expect(diffSnapshot(firstRender, asFragment())).toMatchSnapshot();
     });
 
+    it("Snapshot: VLAN enabled", () => {
+        fireEvent.click(getByText("Enable VLAN"));
+        // VLAN ID is invalid, button is disabled.
+        expect(diffSnapshot(firstRender, asFragment())).toMatchSnapshot();
+    });
+
     // Post form tests:
-    it("Post: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled", () => {
+    it("Post: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disabled", () => {
         fireEvent.click(getAllByText("Save")[0]);
         expect(mockAxios.post).toBeCalled();
         const data = {
             mac_settings: { custom_mac_enabled: false },
             wan6_settings: { wan6_type: "none" },
             wan_settings: { wan_dhcp: {}, wan_type: "dhcp" },
+            vlan_settings: { enabled: false },
         };
         expect(mockAxios.post).toHaveBeenCalledWith(
             "/reforis/api/wan",
@@ -160,6 +168,7 @@ describe("<WAN/>", () => {
             mac_settings: { custom_mac_enabled: false },
             wan6_settings: { wan6_dhcpv6: { duid: "" }, wan6_type: "dhcpv6" },
             wan_settings: { wan_dhcp: {}, wan_type: "dhcp" },
+            vlan_settings: { enabled: false },
         };
         expect(mockAxios.post).toHaveBeenCalledWith(
             "/reforis/api/wan",
@@ -221,6 +230,19 @@ describe("<WAN/>", () => {
         expect(mockAxios.post).toHaveBeenCalledWith(
             "/reforis/api/wan",
             customMACFixture(),
+            expect.anything()
+        );
+    });
+
+    it("Post: VLAN enabled, VLAN ID is 11", () => {
+        fireEvent.click(getByText("Enable VLAN"));
+        fireEvent.change(getByLabelText("Set the VLAN ID"), {
+            target: { value: "22" },
+        });
+        fireEvent.click(getAllByText("Save")[0]);
+        expect(mockAxios.post).toHaveBeenCalledWith(
+            "/reforis/api/wan",
+            customVLANFixture(),
             expect.anything()
         );
     });

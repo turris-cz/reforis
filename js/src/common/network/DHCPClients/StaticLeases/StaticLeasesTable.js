@@ -19,52 +19,45 @@ StaticLeasesTable.propTypes = {
 };
 
 export default function StaticLeasesTable({ clients, editStaticLease }) {
+    if (!clients || clients.length === 0) {
+        return (
+            <p className="text-muted text-center">{_("No clients found.")}</p>
+        );
+    }
+
     return (
-        <>
-            {clients.length === 0 ? (
-                <p className="text-muted text-center">
-                    {_("No clients found.")}
-                </p>
-            ) : (
-                <div className="table-responsive">
-                    <table className="table table-hover">
-                        <thead className="thead-light">
-                            <tr className="text-left">
-                                <th>{_("Hostname")}</th>
-                                <th>{_("IPv4 Address")}</th>
-                                <th>{_("MAC Address")}</th>
-                                <th className="text-center">{_("Expires")}</th>
-                                <th className="text-center">{_("Active")}</th>
-                                <th aria-label={_("Actions")} />
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {clients.map((client) => (
-                                <DHCPClientsTableItem
-                                    key={client.mac}
-                                    client={client}
-                                    editStaticLease={editStaticLease}
-                                />
-                            ))}
-                        </tbody>
-                    </table>
-                </div>
-            )}
-        </>
+        <div className="table-responsive">
+            <table className="table table-hover">
+                <thead className="thead-light">
+                    <tr className="text-left">
+                        <th>{_("Hostname")}</th>
+                        <th>{_("IPv4 Address")}</th>
+                        <th>{_("MAC Address")}</th>
+                        <th className="text-center">{_("Expires")}</th>
+                        <th className="text-center">{_("Active")}</th>
+                        <th aria-label={_("Actions")} />
+                    </tr>
+                </thead>
+                <tbody>
+                    {clients.map((client) => (
+                        <DHCPClientsTableItem
+                            key={client.mac}
+                            client={client}
+                            editStaticLease={editStaticLease}
+                        />
+                    ))}
+                </tbody>
+            </table>
+        </div>
     );
 }
 
 DHCPClientsTableItem.propTypes = {
     client: PropTypes.object,
     editStaticLease: PropTypes.func,
-    deleteStaticLease: PropTypes.func,
 };
 
-export function DHCPClientsTableItem({
-    client,
-    editStaticLease,
-    deleteStaticLease,
-}) {
+export function DHCPClientsTableItem({ client, editStaticLease }) {
     const { hostname, ip, mac, expires, active, static: isStatic } = client;
 
     const clientExpires =
@@ -94,7 +87,6 @@ export function DHCPClientsTableItem({
                 <StaticLeaseActions
                     client={client}
                     editStaticLease={editStaticLease}
-                    deleteStaticLease={deleteStaticLease}
                 />
             </td>
         </tr>
