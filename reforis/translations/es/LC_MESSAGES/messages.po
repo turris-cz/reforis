@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-05-31 14:16+0200\n"
-"PO-Revision-Date: 2021-02-03 14:15+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"POT-Creation-Date: 2022-12-02 16:25+0100\n"
+"PO-Revision-Date: 2022-09-11 17:21+0000\n"
+"Last-Translator: Dan Cybersec <dan.cybersec@protonmail.com>\n"
 "Language: es\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/turris/reforis/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
 msgid "About"
@@ -30,28 +30,30 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Aquí puedes encontrar cierta información acerca de tu dispositivo. Por "
+"favor, inclúyela en tu mensaje al contactar con <a "
+"href=\"mailto:tech.support@turris.cz\" target=\"_blank\">atención al "
+"cliente</a>."
 
 #: js/src/about/About.js:56
 msgid "Device"
-msgstr ""
+msgstr "Dispositivo"
 
 #: js/src/about/About.js:64
-#, fuzzy
 msgid "Serial number"
-msgstr "El puerto es un número."
+msgstr "Número de serie"
 
 #: js/src/about/About.js:68
-#, fuzzy
 msgid "reForis version"
-msgstr "Versión del núcleo"
+msgstr "Versión de reForis"
 
 #: js/src/about/About.js:72
 msgid "Turris OS version"
-msgstr ""
+msgstr "Versión de Turris OS"
 
 #: js/src/about/About.js:77
 msgid "Turris OS branch"
-msgstr ""
+msgstr "Rama de Turris OS"
 
 #: js/src/about/About.js:80
 msgid ""
@@ -59,6 +61,9 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
+"Turris OS se encuentra actualmente publicado en varias ramas, las cuales "
+"tienen diferentes funciones y niveles de estabilidad - puedes elegir qué "
+"rama quieres probar."
 
 #: js/src/about/About.js:106
 msgid "Kernel version"
@@ -66,7 +71,7 @@ msgstr "Versión del núcleo"
 
 #: js/src/common/FactoryResetButton.js:51
 msgid "Reset"
-msgstr ""
+msgstr "Resetear"
 
 #: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:66
 #: js/src/dns/DNSSECDisableModal.js:34
@@ -75,9 +80,8 @@ msgid "Warning!"
 msgstr "¡Atención!"
 
 #: js/src/common/FactoryResetButton.js:68
-#, fuzzy
 msgid "Are you sure you want to reset the router?"
-msgstr "¿Confirma que quiere reiniciar el enrutador?"
+msgstr "¿Estás seguro de que quieres reiniciar el router?"
 
 #: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:71
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:58
@@ -88,7 +92,7 @@ msgstr "Cancelar"
 
 #: js/src/common/FactoryResetButton.js:73
 msgid "Confirm factory reset"
-msgstr ""
+msgstr "Confirmar el restablecimiento de fábrica"
 
 #: js/src/common/RebootButton.js:51 js/src/maintenance/Reboot.js:17
 msgid "Reboot"
@@ -96,7 +100,7 @@ msgstr "Reiniciar"
 
 #: js/src/common/RebootButton.js:68
 msgid "Are you sure you want to restart the router?"
-msgstr "¿Confirma que quiere reiniciar el enrutador?"
+msgstr "¿Estás seguro de que quieres reiniciar el router?"
 
 #: js/src/common/RebootButton.js:73
 msgid "Confirm reboot"
@@ -104,21 +108,23 @@ msgstr "Confirmar reinicio"
 
 #: js/src/common/ScrollToTopArrow.js:30
 msgid "Go to top"
-msgstr ""
+msgstr "Ir a la parte superior"
 
 #: js/src/common/network/DHCP6Clients.js:25
 msgid "IPv6 DHCP Client List"
-msgstr ""
+msgstr "Lista de clientes DHCP IPv6"
 
 #: js/src/common/network/DHCP6Clients.js:27
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
+"Esta lista contiene todos los dispositivos que están conectados a la red "
+"mediante conexiones por cable o inalámbricas usando IPv6."
 
 #: js/src/common/network/DHCP6Clients.js:33
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:22
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:24
 #, fuzzy
 msgid "No clients found."
 msgstr "No se encontró ningún cliente DHCP."
@@ -133,13 +139,12 @@ msgid "Hostname"
 msgstr "Nombre de anfitrión"
 
 #: js/src/common/network/DHCP6Clients.js:41
-#, fuzzy
 msgid "IPv6 Address"
-msgstr "Dirección IP"
+msgstr "Dirección IPv6"
 
 #: js/src/common/network/DHCP6Clients.js:42
 msgid "DUID"
-msgstr ""
+msgstr "DUID"
 
 #: js/src/common/network/DHCP6Clients.js:43
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:32
@@ -149,9 +154,9 @@ msgstr "Caducidad"
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:68
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:73
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:66
 msgid "Never"
-msgstr ""
+msgstr "Nunca"
 
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
@@ -195,30 +200,33 @@ msgstr "Valor debe ser positivo."
 
 #: js/src/common/network/DHCPValidators.js:86
 msgid "Invalid network settings. DHCP settings can't be validated."
-msgstr ""
+msgstr "Ajustes de red incorrectos. Los ajustes DHCP no pueden ser validados."
 
 #: js/src/common/network/DHCPValidators.js:99
 msgid "Minimum lease time is 1 hour."
 msgstr "El tiempo de uso mìnimo es de 1 hora."
 
 #: js/src/common/network/DHCPValidators.js:115
-#, fuzzy
 msgid "Address is outside current network."
-msgstr "La dirección IP del enrutador en la red interna de invitados."
+msgstr "La dirección IP se encuentra fuera de la red."
 
 #: js/src/common/network/DHCPValidators.js:119
 msgid "Address is already reserved for other purposes."
-msgstr ""
+msgstr "La dirección IP ya se encuentra reservada para otros propósitos."
 
 #: js/src/common/network/DHCPValidators.js:130
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr ""
+"Demasiadas direcciones solicitadas. Define un número más bajo o cambia el"
+" inicio del DHCP."
 
 #: js/src/common/network/DHCPValidators.js:137
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
+"La única solicitud DHCP coincide con la dirección IP del router. "
+"Incrementa el límite o cambia dirección IP inicial."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 msgid ""
@@ -251,8 +259,9 @@ msgstr "Servidor DNS 2"
 
 #: js/src/common/network/StaticIPForm.js:111
 #: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:92
-#: js/src/wan/WAN6Form.js:504 js/src/wan/WAN6Form.js:533
-#: js/src/wan/WAN6Form.js:545 js/src/wan/WANForm.js:173
+#: js/src/wan/VLANForm.js:83 js/src/wan/WAN6Form.js:504
+#: js/src/wan/WAN6Form.js:533 js/src/wan/WAN6Form.js:545
+#: js/src/wan/WANForm.js:173
 msgid "This field is required."
 msgstr "Este campo es obligatorio."
 
@@ -262,19 +271,20 @@ msgstr "Eso no es una màscara de red vàlida."
 
 #: js/src/common/network/DHCPClients/DHCPClients.js:25
 msgid "DHCP Client List"
-msgstr ""
+msgstr "Lista de clientes DHCP"
 
 #: js/src/common/network/DHCPClients/DHCPClients.js:27
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
+"Esta lista contiene todos los dispositivos que están conectados a la red "
+"mediante conexiones por cable o inalámbricas."
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
-#, fuzzy
 msgid "IPv4 Address"
-msgstr "Dirección IP"
+msgstr "Dirección IPv4"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:31
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
@@ -287,102 +297,96 @@ msgid "Active"
 msgstr "Activo"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 msgid "Device is active"
-msgstr ""
+msgstr "El dispositivo está activo"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
-#, fuzzy
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 msgid "Device is inactive"
-msgstr "TLS nombre de equipo"
+msgstr "El dispositivo está inactivo"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
 msgid "Edit static lease"
-msgstr ""
+msgstr "Editar la asignación estática"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:59
 msgid "Set static lease"
-msgstr ""
+msgstr "Configurar la asignación estática"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:61
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:98
 msgid "Add static lease"
-msgstr ""
+msgstr "Añadir asignación estática"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:61
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
 msgid "Save"
-msgstr ""
+msgstr "Guardar"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:45
 msgid "List of available hostnames"
-msgstr ""
+msgstr "Listar los nombres de máquina disponibles"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:57
-#, fuzzy
 msgid "IPv4 address"
-msgstr "Dirección IP"
+msgstr "Dirección IPv4"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:68
 msgid "List of available IPv4 addresses"
-msgstr ""
+msgstr "Listar las direcciones IPv4 disponibles"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:82
-#, fuzzy
 msgid "MAC address"
-msgstr "Dirección IP"
+msgstr "Dirección MAC"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:93
 msgid "List of available MAC addresses"
-msgstr ""
+msgstr "Listar las direcciones MAC disponibles"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:123
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:115
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Actions"
 msgstr "Acciones"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:134
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:126
 #: js/src/dns/Forwarders/ForwardersTable.js:143
 msgid "Edit"
 msgstr "Editar"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:148
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:140
 #: js/src/dns/Forwarders/ForwardersTable.js:151
 msgid "Delete"
-msgstr "Borrar"
+msgstr "Eliminar"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:149
 msgid "Set Static"
-msgstr ""
+msgstr "Establecer estática"
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:47
-#, fuzzy
 msgid "Static lease added successfully."
-msgstr "Reenviador añadido satisfactoriamente."
+msgstr "La asignación estática se añadió correctamente."
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:58
-#, fuzzy
 msgid "Static saved successfully."
-msgstr "Reenviador salvado satisfactoriamente."
+msgstr "Estática guardado correctamente."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
-#, fuzzy
 msgid "Hostname cannot be empty."
-msgstr "El nombre de remitente no puede quedar vacío."
+msgstr "El nombre de máquina no puede estar vacío."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:24
 msgid "IPv4 address cannot be empty."
-msgstr ""
+msgstr "La dirección IPv4 no puede estar vacía."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:28
-#, fuzzy
 msgid "MAC address cannot be empty."
-msgstr "No puede quedar vacío."
+msgstr "La dirección MAC no puede estar vacía."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
-msgid "Test is running..."
+#, fuzzy
+msgid "Test is running…"
 msgstr "Se está ejecutando la prueba…"
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
@@ -410,19 +414,16 @@ msgid "IPv6 gateway connectivity"
 msgstr "Conectividad de puerta de enlace IPv6"
 
 #: js/src/connectionTest/ConnectionTestResult.js:85
-#, fuzzy
 msgid "Connection test successful"
-msgstr "Prueba de conexión"
+msgstr "Prueba de conexión exitosa"
 
 #: js/src/connectionTest/ConnectionTestResult.js:90
-#, fuzzy
 msgid "Connection test failed"
-msgstr "Prueba de conexión"
+msgstr "Prueba de conexión fallida"
 
 #: js/src/connectionTest/ConnectionTestResult.js:95
-#, fuzzy
 msgid "Connection test not started"
-msgstr "Prueba de conexión"
+msgstr "La prueba de conexión no ha comenzado"
 
 #: js/src/dns/DNS.js:33
 msgid ""
@@ -430,6 +431,9 @@ msgid ""
 "capable of working independently or it can forward your DNS queries your "
 "internet service provider's DNS resolver."
 msgstr ""
+"El router Turris utiliza su propio servidor de DNS con sorporte DNSSEC. "
+"Es capaz de trabajar de forma independiente o también puede reenviar tus "
+"peticiones DNS al servidor DNS de tu proveedor de internet."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -438,6 +442,10 @@ msgid ""
 "works properly. If it does not work for some reason, it is necessary to "
 "use direct resolving without forwarding."
 msgstr ""
+"El siguiente ajuste determina el comportamiento del servidor DNS. "
+"Normalmente, es mejor usar el servidor de tu ISP en las redes en las que "
+"funciona correctamente. Si por el contrario no funciona correctamente por"
+" alguna razón, es necesario usar la resolución directa sin reenvío."
 
 #: js/src/dns/DNS.js:44
 msgid ""
@@ -450,7 +458,7 @@ msgid ""
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
 
-#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:49
+#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:51
 msgid "Connection Test"
 msgstr "Prueba de conexión"
 
@@ -691,7 +699,7 @@ msgstr "Activar QoS"
 #: js/src/guestNetwork/GuestNetworkForm.js:159
 #: js/src/overview/Cards/NetmetrCard.js:70
 msgid "Download"
-msgstr "Descarga"
+msgstr "Descargar"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
 #: js/src/overview/Cards/NetmetrCard.js:86
@@ -904,10 +912,9 @@ msgstr ""
 
 #: js/src/guide/constants.js:129
 msgid ""
-"Please test whether the settings you provided are correctly working. This"
-" means that you can access the configuration interface of your device and"
-" your device is able to access the internet (you can use the connection "
-"test below)."
+"Please test whether the settings you provided are working correctly. It "
+"means that you can access the configuration interface of your device, and"
+" your device can access the internet."
 msgstr ""
 
 #: js/src/guide/constants.js:134
@@ -948,7 +955,7 @@ msgid "Updates"
 msgstr "Actualizaciones"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
-#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:28
+#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:29
 msgid "WAN"
 msgstr "WAN"
 
@@ -969,17 +976,17 @@ msgstr ""
 msgid "Skip guide"
 msgstr "Omitir guía"
 
-#: js/src/guide/GuidePages/GuideFinish.js:18
+#: js/src/guide/GuidePages/GuideFinish.js:19
 msgid "Guide Finished"
 msgstr "Guía finalizada"
 
-#: js/src/guide/GuidePages/GuideFinish.js:20
+#: js/src/guide/GuidePages/GuideFinish.js:21
 msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
 
-#: js/src/guide/GuidePages/GuideFinish.js:25
+#: js/src/guide/GuidePages/GuideFinish.js:26
 msgid ""
 "To further improve your security consider installing data collection "
 "plugin (via Package Management). This will allow you to be part of our "
@@ -987,7 +994,7 @@ msgid ""
 "dynamic firewall updates blocking known attackers."
 msgstr ""
 
-#: js/src/guide/GuidePages/GuideFinish.js:31
+#: js/src/guide/GuidePages/GuideFinish.js:32
 msgid "Continue"
 msgstr "Continuar"
 
@@ -1250,7 +1257,7 @@ msgstr "Protocolo IPv4"
 #: js/src/main/pages.js:34 js/src/main/pages.js:110
 #: js/src/overview/Overview.js:43
 msgid "Overview"
-msgstr ""
+msgstr "Vista general"
 
 #: js/src/main/pages.js:40 js/src/main/pages.js:116
 msgid "Network Settings"
@@ -1598,7 +1605,7 @@ msgstr ""
 #: js/src/overview/Cards/DataCollectionCard.js:49
 #: js/src/overview/Cards/DynamicFirewallCard.js:28
 msgid "Disabled"
-msgstr ""
+msgstr "Desactivado"
 
 #: js/src/overview/Cards/DataCollectionCard.js:46
 msgid "Threat Detection"
@@ -1606,11 +1613,11 @@ msgstr ""
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:25
 msgid "Dynamic Firewall"
-msgstr ""
+msgstr "Cortafuegos dinámico"
 
 #: js/src/overview/Cards/NetmetrCard.js:51
 msgid "NetMetr"
-msgstr ""
+msgstr "NetMetr"
 
 #: js/src/overview/Cards/NetmetrCard.js:57
 msgid "Go to NetMetr"
@@ -1631,7 +1638,7 @@ msgstr ""
 
 #: js/src/overview/Cards/NetmetrCard.js:122
 msgid "Link"
-msgstr ""
+msgstr "Enlace"
 
 #: js/src/overview/Cards/NetmetrCard.js:142
 msgid "Performed"
@@ -1888,7 +1895,7 @@ msgstr ""
 
 #: js/src/packageManagement/updates/UpdateApproval.js:152
 msgid "Action"
-msgstr ""
+msgstr "Acción"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:154
 msgid "Current"
@@ -2192,14 +2199,45 @@ msgstr "Dirección IP del enrutador"
 msgid "Set the new MAC address"
 msgstr ""
 
-#: js/src/wan/WAN.js:30
+#: js/src/wan/VLANForm.js:14
+msgid ""
+"Useful in cases when a specific VLAN ID is required by your internet "
+"service provider."
+msgstr ""
+
+#: js/src/wan/VLANForm.js:17
+msgid "VLAN ID must be a number in the range between 1 and 4094."
+msgstr ""
+
+#: js/src/wan/VLANForm.js:50
+#, fuzzy
+msgid "VLAN Settings"
+msgstr "Configuración de LAN"
+
+#: js/src/wan/VLANForm.js:52
+msgid "Enable VLAN"
+msgstr ""
+
+#: js/src/wan/VLANForm.js:62
+msgid "Set the VLAN ID"
+msgstr ""
+
+#: js/src/wan/VLANForm.js:86
+msgid "Value must be greater than or equal to 1."
+msgstr ""
+
+#: js/src/wan/VLANForm.js:89
+msgid "Value must be less than or equal to 4094."
+msgstr ""
+
+#: js/src/wan/WAN.js:31
 msgid ""
 "Here you can specify your WAN port settings if instructed to do so by "
 "your ISP (internet service provider). Usually, it can be left untouched "
 "if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
 
-#: js/src/wan/WAN.js:52
+#: js/src/wan/WAN.js:54
 msgid ""
 "Here you can examine your connection settings. Wait a while to establish "
 "the connection. Remember to click the <b>Save</b> button after you have "
@@ -2935,5 +2973,15 @@ msgstr ""
 #~ "service and is not responsible for "
 #~ "any damages caused by the automatic "
 #~ "updates."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please test whether the settings you "
+#~ "provided are correctly working. This "
+#~ "means that you can access the "
+#~ "configuration interface of your device "
+#~ "and your device is able to access"
+#~ " the internet (you can use the "
+#~ "connection test below)."
 #~ msgstr ""
 
