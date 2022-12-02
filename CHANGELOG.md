@@ -8,6 +8,29 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.4.0] - 2022-12-02
+
+### Added
+
+-   Added & updated Weblate translations
+-   Added VLAN form to the WAN page
+-   Added switch to disable Management Frame Protection (802.11w)
+
+### Changed
+
+-   Updated Foris JS library to v5.5.0
+-   Updated node image to v16.x
+-   Restructured Guide Finish page
+-   Refactored StaticLeases table
+-   Refactored ConnectionTest
+-   NPM audit fix
+-   Some other changes & improvements
+
+### Removed
+
+-   Removed redundant endpoint for HaaS
+-   Removed optional watch-poll parameter in package.json
+
 ## [1.3.1] - 2022-08-01
 
 ### Added
@@ -444,7 +467,8 @@ and this project adheres to
 
 -   Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.3.1...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.4.0...master
+[1.4.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.3.1...v1.4.0
 [1.3.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.3.0...v1.3.1
 [1.3.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.2.1...v1.3.0
 [1.2.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.2.0...v1.2.1
