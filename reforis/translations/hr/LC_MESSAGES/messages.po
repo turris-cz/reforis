@@ -7,19 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-05-31 14:16+0200\n"
+"POT-Creation-Date: 2022-12-02 16:25+0100\n"
 "PO-Revision-Date: 2022-10-17 00:57+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/turris/reforis/"
-"hr/>\n"
 "Language: hr\n"
+"Language-Team: Croatian "
+"<https://hosted.weblate.org/projects/turris/reforis/hr/>\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15-dev\n"
-"Generated-By: Babel 2.10.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
 msgid "About"
@@ -117,7 +116,7 @@ msgstr ""
 
 #: js/src/common/network/DHCP6Clients.js:33
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:22
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:24
 msgid "No clients found."
 msgstr ""
 
@@ -146,7 +145,7 @@ msgstr ""
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:68
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:73
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:66
 msgid "Never"
 msgstr ""
 
@@ -243,8 +242,9 @@ msgstr ""
 
 #: js/src/common/network/StaticIPForm.js:111
 #: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:92
-#: js/src/wan/WAN6Form.js:504 js/src/wan/WAN6Form.js:533
-#: js/src/wan/WAN6Form.js:545 js/src/wan/WANForm.js:173
+#: js/src/wan/VLANForm.js:83 js/src/wan/WAN6Form.js:504
+#: js/src/wan/WAN6Form.js:533 js/src/wan/WAN6Form.js:545
+#: js/src/wan/WANForm.js:173
 msgid "This field is required."
 msgstr ""
 
@@ -278,12 +278,12 @@ msgid "Active"
 msgstr ""
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 msgid "Device is active"
 msgstr ""
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 msgid "Device is inactive"
 msgstr ""
 
@@ -326,22 +326,22 @@ msgid "List of available MAC addresses"
 msgstr ""
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:123
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:115
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Actions"
 msgstr ""
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:134
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:126
 #: js/src/dns/Forwarders/ForwardersTable.js:143
 msgid "Edit"
 msgstr ""
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:148
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:140
 #: js/src/dns/Forwarders/ForwardersTable.js:151
 msgid "Delete"
 msgstr ""
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:149
 msgid "Set Static"
 msgstr ""
 
@@ -366,7 +366,7 @@ msgid "MAC address cannot be empty."
 msgstr ""
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
-msgid "Test is running..."
+msgid "Test is running…"
 msgstr ""
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
@@ -431,7 +431,7 @@ msgid ""
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
 
-#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:49
+#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:51
 msgid "Connection Test"
 msgstr ""
 
@@ -820,10 +820,9 @@ msgstr ""
 
 #: js/src/guide/constants.js:129
 msgid ""
-"Please test whether the settings you provided are correctly working. This"
-" means that you can access the configuration interface of your device and"
-" your device is able to access the internet (you can use the connection "
-"test below)."
+"Please test whether the settings you provided are working correctly. It "
+"means that you can access the configuration interface of your device, and"
+" your device can access the internet."
 msgstr ""
 
 #: js/src/guide/constants.js:134
@@ -864,7 +863,7 @@ msgid "Updates"
 msgstr ""
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
-#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:28
+#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:29
 msgid "WAN"
 msgstr ""
 
@@ -885,17 +884,17 @@ msgstr ""
 msgid "Skip guide"
 msgstr ""
 
-#: js/src/guide/GuidePages/GuideFinish.js:18
+#: js/src/guide/GuidePages/GuideFinish.js:19
 msgid "Guide Finished"
 msgstr ""
 
-#: js/src/guide/GuidePages/GuideFinish.js:20
+#: js/src/guide/GuidePages/GuideFinish.js:21
 msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
 
-#: js/src/guide/GuidePages/GuideFinish.js:25
+#: js/src/guide/GuidePages/GuideFinish.js:26
 msgid ""
 "To further improve your security consider installing data collection "
 "plugin (via Package Management). This will allow you to be part of our "
@@ -903,7 +902,7 @@ msgid ""
 "dynamic firewall updates blocking known attackers."
 msgstr ""
 
-#: js/src/guide/GuidePages/GuideFinish.js:31
+#: js/src/guide/GuidePages/GuideFinish.js:32
 msgid "Continue"
 msgstr ""
 
@@ -2078,14 +2077,44 @@ msgstr ""
 msgid "Set the new MAC address"
 msgstr ""
 
-#: js/src/wan/WAN.js:30
+#: js/src/wan/VLANForm.js:14
+msgid ""
+"Useful in cases when a specific VLAN ID is required by your internet "
+"service provider."
+msgstr ""
+
+#: js/src/wan/VLANForm.js:17
+msgid "VLAN ID must be a number in the range between 1 and 4094."
+msgstr ""
+
+#: js/src/wan/VLANForm.js:50
+msgid "VLAN Settings"
+msgstr ""
+
+#: js/src/wan/VLANForm.js:52
+msgid "Enable VLAN"
+msgstr ""
+
+#: js/src/wan/VLANForm.js:62
+msgid "Set the VLAN ID"
+msgstr ""
+
+#: js/src/wan/VLANForm.js:86
+msgid "Value must be greater than or equal to 1."
+msgstr ""
+
+#: js/src/wan/VLANForm.js:89
+msgid "Value must be less than or equal to 4094."
+msgstr ""
+
+#: js/src/wan/WAN.js:31
 msgid ""
 "Here you can specify your WAN port settings if instructed to do so by "
 "your ISP (internet service provider). Usually, it can be left untouched "
 "if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
 
-#: js/src/wan/WAN.js:52
+#: js/src/wan/WAN.js:54
 msgid ""
 "Here you can examine your connection settings. Wait a while to establish "
 "the connection. Remember to click the <b>Save</b> button after you have "
@@ -2840,3 +2869,17 @@ msgstr ""
 #~ "any damages caused by the automatic "
 #~ "updates."
 #~ msgstr ""
+
+#~ msgid "Test is running..."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please test whether the settings you "
+#~ "provided are correctly working. This "
+#~ "means that you can access the "
+#~ "configuration interface of your device "
+#~ "and your device is able to access"
+#~ " the internet (you can use the "
+#~ "connection test below)."
+#~ msgstr ""
+

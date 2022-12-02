@@ -7,18 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-05-31 14:16+0200\n"
+"POT-Creation-Date: 2022-12-02 16:25+0100\n"
 "PO-Revision-Date: 2022-10-19 11:28+0000\n"
-"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/turris/reforis/"
-"sv/>\n"
+"Last-Translator: Kristoffer Grundström "
+"<swedishsailfishosuser@tutanota.com>\n"
 "Language: sv\n"
+"Language-Team: Swedish "
+"<https://hosted.weblate.org/projects/turris/reforis/sv/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
-"Generated-By: Babel 2.10.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
 msgid "About"
@@ -32,8 +32,8 @@ msgid ""
 "support</a>."
 msgstr ""
 "Här kan du hitta lite information om din enhet. Vänligen inkludera det i "
-"ditt meddelande om du kontaktar vår<a href=\"mailto:tech.support@turris.cz\" "
-"target=\"_blank\">kundsupport</a>."
+"ditt meddelande om du kontaktar vår<a "
+"href=\"mailto:tech.support@turris.cz\" target=\"_blank\">kundsupport</a>."
 
 #: js/src/about/About.js:56
 msgid "Device"
@@ -62,8 +62,8 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
-"Turris OS släpps för närvarande i olika grenar som har olika funktioner och "
-"varierande stabilitet - du kan välja vilken gren som du vill testa."
+"Turris OS släpps för närvarande i olika grenar som har olika funktioner "
+"och varierande stabilitet - du kan välja vilken gren som du vill testa."
 
 #: js/src/about/About.js:106
 msgid "Kernel version"
@@ -119,12 +119,12 @@ msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
-"Den här listan innehåller alla enheter som är anslutna till nätverket via "
-"trådbundna eller trådlösa anslutningar som använder IPv6."
+"Den här listan innehåller alla enheter som är anslutna till nätverket via"
+" trådbundna eller trådlösa anslutningar som använder IPv6."
 
 #: js/src/common/network/DHCP6Clients.js:33
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:22
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:24
 msgid "No clients found."
 msgstr "Inga klienter hittades."
 
@@ -153,7 +153,7 @@ msgstr "Upphör att gälla"
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:68
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:73
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:66
 msgid "Never"
 msgstr "Aldrig"
 
@@ -170,8 +170,8 @@ msgid ""
 "Enable this option to automatically assign IP addresses to the devices "
 "connected to the router."
 msgstr ""
-"Aktivera det här alternativet för att automatiskt tilldela IP-adresser till "
-"enheterna som är ansluten till routern."
+"Aktivera det här alternativet för att automatiskt tilldela IP-adresser "
+"till enheterna som är ansluten till routern."
 
 #: js/src/common/network/DHCPServerForm.js:47
 msgid "DHCP start"
@@ -200,7 +200,8 @@ msgstr "Värdet måste vara positivt."
 #: js/src/common/network/DHCPValidators.js:86
 msgid "Invalid network settings. DHCP settings can't be validated."
 msgstr ""
-"Ogiltiga nätverksinställningar. DHCP-inställningar kan inte bli bekräftade."
+"Ogiltiga nätverksinställningar. DHCP-inställningar kan inte bli "
+"bekräftade."
 
 #: js/src/common/network/DHCPValidators.js:99
 msgid "Minimum lease time is 1 hour."
@@ -225,8 +226,8 @@ msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
-"Den enda DHCP-tilldelningen är samma som routerns adress. Öka gränsen eller "
-"byt startadress."
+"Den enda DHCP-tilldelningen är samma som routerns adress. Öka gränsen "
+"eller byt startadress."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 #, fuzzy
@@ -234,8 +235,8 @@ msgid ""
 "DNS server address is not required as the built-in DNS resolver is "
 "capable of working without it."
 msgstr ""
-"DNS-serverns adress krävs inte då den inbyggda DNS-förtolkaren kan fungera "
-"utan den."
+"DNS-serverns adress krävs inte då den inbyggda DNS-förtolkaren kan "
+"fungera utan den."
 
 #: js/src/common/network/StaticIPForm.js:50
 msgid "IP address"
@@ -261,8 +262,9 @@ msgstr "DNS-server 2"
 
 #: js/src/common/network/StaticIPForm.js:111
 #: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:92
-#: js/src/wan/WAN6Form.js:504 js/src/wan/WAN6Form.js:533
-#: js/src/wan/WAN6Form.js:545 js/src/wan/WANForm.js:173
+#: js/src/wan/VLANForm.js:83 js/src/wan/WAN6Form.js:504
+#: js/src/wan/WAN6Form.js:533 js/src/wan/WAN6Form.js:545
+#: js/src/wan/WANForm.js:173
 msgid "This field is required."
 msgstr "Detta fält är obligatoriskt."
 
@@ -279,8 +281,8 @@ msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
-"Den här listan innehåller alla enheter som är anslutna till nätverket via "
-"trådbundna eller trådlösa anslutningar."
+"Den här listan innehåller alla enheter som är anslutna till nätverket via"
+" trådbundna eller trådlösa anslutningar."
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
@@ -298,12 +300,12 @@ msgid "Active"
 msgstr "Aktiv"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 msgid "Device is active"
 msgstr "Enheten är aktiv"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 msgid "Device is inactive"
 msgstr "Enheten är inaktiv"
 
@@ -347,22 +349,22 @@ msgid "List of available MAC addresses"
 msgstr "Lista över tillgängliga MAC-adresser"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:123
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:115
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Actions"
 msgstr "Åtgärder"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:134
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:126
 #: js/src/dns/Forwarders/ForwardersTable.js:143
 msgid "Edit"
 msgstr "Redigera"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:148
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:140
 #: js/src/dns/Forwarders/ForwardersTable.js:151
 msgid "Delete"
 msgstr "Ta bort"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:149
 msgid "Set Static"
 msgstr "Ställ in statisk"
 
@@ -387,7 +389,8 @@ msgid "MAC address cannot be empty."
 msgstr "MAC-adress kan inte vara tomt."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
-msgid "Test is running..."
+#, fuzzy
+msgid "Test is running…"
 msgstr "Testet körs..."
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
@@ -452,7 +455,7 @@ msgid ""
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
 
-#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:49
+#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:51
 msgid "Connection Test"
 msgstr "Anslutningstest"
 
@@ -500,8 +503,8 @@ msgid ""
 "DNSSEC is a security technology that protects DNS communication against "
 "attacks on the DNS infrastructure."
 msgstr ""
-"DNSSEC är en säkerhetsteknologi som skyddar DNS-kommunikation mot attacker "
-"på DNS-infrastrukturen."
+"DNSSEC är en säkerhetsteknologi som skyddar DNS-kommunikation mot "
+"attacker på DNS-infrastrukturen."
 
 #: js/src/dns/DNSSECDisableModal.js:17
 msgid ""
@@ -847,10 +850,9 @@ msgstr ""
 
 #: js/src/guide/constants.js:129
 msgid ""
-"Please test whether the settings you provided are correctly working. This"
-" means that you can access the configuration interface of your device and"
-" your device is able to access the internet (you can use the connection "
-"test below)."
+"Please test whether the settings you provided are working correctly. It "
+"means that you can access the configuration interface of your device, and"
+" your device can access the internet."
 msgstr ""
 
 #: js/src/guide/constants.js:134
@@ -891,7 +893,7 @@ msgid "Updates"
 msgstr "Uppdateringar"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
-#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:28
+#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:29
 msgid "WAN"
 msgstr "WAN"
 
@@ -912,17 +914,17 @@ msgstr "Nästa steg"
 msgid "Skip guide"
 msgstr "Hoppa över guiden"
 
-#: js/src/guide/GuidePages/GuideFinish.js:18
+#: js/src/guide/GuidePages/GuideFinish.js:19
 msgid "Guide Finished"
 msgstr "Guiden är klar"
 
-#: js/src/guide/GuidePages/GuideFinish.js:20
+#: js/src/guide/GuidePages/GuideFinish.js:21
 msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
 
-#: js/src/guide/GuidePages/GuideFinish.js:25
+#: js/src/guide/GuidePages/GuideFinish.js:26
 msgid ""
 "To further improve your security consider installing data collection "
 "plugin (via Package Management). This will allow you to be part of our "
@@ -930,7 +932,7 @@ msgid ""
 "dynamic firewall updates blocking known attackers."
 msgstr ""
 
-#: js/src/guide/GuidePages/GuideFinish.js:31
+#: js/src/guide/GuidePages/GuideFinish.js:32
 msgid "Continue"
 msgstr "Fortsätt"
 
@@ -2147,14 +2149,46 @@ msgstr "Nuvarande MAC-adress"
 msgid "Set the new MAC address"
 msgstr "Ställ in den nya MAC-adressen"
 
-#: js/src/wan/WAN.js:30
+#: js/src/wan/VLANForm.js:14
+msgid ""
+"Useful in cases when a specific VLAN ID is required by your internet "
+"service provider."
+msgstr ""
+
+#: js/src/wan/VLANForm.js:17
+#, fuzzy
+msgid "VLAN ID must be a number in the range between 1 and 4094."
+msgstr "MTU behöver vara ett nummer mellan 1280-1480."
+
+#: js/src/wan/VLANForm.js:50
+#, fuzzy
+msgid "VLAN Settings"
+msgstr "IPv6-inställningar"
+
+#: js/src/wan/VLANForm.js:52
+msgid "Enable VLAN"
+msgstr ""
+
+#: js/src/wan/VLANForm.js:62
+msgid "Set the VLAN ID"
+msgstr ""
+
+#: js/src/wan/VLANForm.js:86
+msgid "Value must be greater than or equal to 1."
+msgstr ""
+
+#: js/src/wan/VLANForm.js:89
+msgid "Value must be less than or equal to 4094."
+msgstr ""
+
+#: js/src/wan/WAN.js:31
 msgid ""
 "Here you can specify your WAN port settings if instructed to do so by "
 "your ISP (internet service provider). Usually, it can be left untouched "
 "if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
 
-#: js/src/wan/WAN.js:52
+#: js/src/wan/WAN.js:54
 msgid ""
 "Here you can examine your connection settings. Wait a while to establish "
 "the connection. Remember to click the <b>Save</b> button after you have "
@@ -2907,3 +2941,14 @@ msgstr "500 Server-fel"
 #~ "any damages caused by the automatic "
 #~ "updates."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Please test whether the settings you "
+#~ "provided are correctly working. This "
+#~ "means that you can access the "
+#~ "configuration interface of your device "
+#~ "and your device is able to access"
+#~ " the internet (you can use the "
+#~ "connection test below)."
+#~ msgstr ""
+

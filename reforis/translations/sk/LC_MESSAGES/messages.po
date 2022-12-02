@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-05-31 14:16+0200\n"
+"POT-Creation-Date: 2022-12-02 16:25+0100\n"
 "PO-Revision-Date: 2022-11-18 08:47+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
-">\n"
 "Language: sk\n"
+"Language-Team: Slovak "
+"<https://hosted.weblate.org/projects/turris/reforis/sk/>\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15-dev\n"
-"Generated-By: Babel 2.10.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
 msgid "About"
@@ -125,7 +124,7 @@ msgstr ""
 
 #: js/src/common/network/DHCP6Clients.js:33
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:22
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:24
 msgid "No clients found."
 msgstr "Nenašli sa žiadni klienti."
 
@@ -154,7 +153,7 @@ msgstr "Koniec platnosti"
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:68
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:73
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:66
 msgid "Never"
 msgstr "Nikdy"
 
@@ -259,8 +258,9 @@ msgstr "DNS server 2"
 
 #: js/src/common/network/StaticIPForm.js:111
 #: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:92
-#: js/src/wan/WAN6Form.js:504 js/src/wan/WAN6Form.js:533
-#: js/src/wan/WAN6Form.js:545 js/src/wan/WANForm.js:173
+#: js/src/wan/VLANForm.js:83 js/src/wan/WAN6Form.js:504
+#: js/src/wan/WAN6Form.js:533 js/src/wan/WAN6Form.js:545
+#: js/src/wan/WANForm.js:173
 msgid "This field is required."
 msgstr "Toto pole je povinné."
 
@@ -296,12 +296,12 @@ msgid "Active"
 msgstr "Aktívny"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 msgid "Device is active"
 msgstr "Zariadenie je aktívne"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 msgid "Device is inactive"
 msgstr "Zariadenie nie je aktívne"
 
@@ -344,22 +344,22 @@ msgid "List of available MAC addresses"
 msgstr "Zoznam dostupných MAC adries"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:123
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:115
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Actions"
 msgstr "Akcie"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:134
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:126
 #: js/src/dns/Forwarders/ForwardersTable.js:143
 msgid "Edit"
 msgstr "Upraviť"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:148
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:140
 #: js/src/dns/Forwarders/ForwardersTable.js:151
 msgid "Delete"
 msgstr "Vymazať"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:149
 msgid "Set Static"
 msgstr "Nastaviť statickú"
 
@@ -384,7 +384,8 @@ msgid "MAC address cannot be empty."
 msgstr "MAC adresa nemôže byť prázdna."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
-msgid "Test is running..."
+#, fuzzy
+msgid "Test is running…"
 msgstr "Prebieha test..."
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
@@ -464,7 +465,7 @@ msgstr ""
 "situáciu riešiť s poskytovateľom pripojenia, pretože ide o závažný "
 "bezpečnostný problém na jeho strane."
 
-#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:49
+#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:51
 msgid "Connection Test"
 msgstr "Test pripojenia"
 
@@ -893,9 +894,9 @@ msgid ""
 "IP addresses are entered correctly otherwise you won't be able to access "
 "this configuration interface when the new settings are applied."
 msgstr ""
-"Pred potvrdením <strong>statického</strong> nastavenia skontrolujte správne "
-"zadanie IP adries. V opačnom prípade po potvrdení nastavení nebude možné "
-"pripojenie k tomuto konfiguračnému rozhraniu."
+"Pred potvrdením <strong>statického</strong> nastavenia skontrolujte "
+"správne zadanie IP adries. V opačnom prípade po potvrdení nastavení "
+"nebude možné pripojenie k tomuto konfiguračnému rozhraniu."
 
 #: js/src/guide/constants.js:122
 msgid ""
@@ -918,11 +919,11 @@ msgstr ""
 " odpojiť a znovu pripojiť sieťové káble."
 
 #: js/src/guide/constants.js:129
+#, fuzzy
 msgid ""
-"Please test whether the settings you provided are correctly working. This"
-" means that you can access the configuration interface of your device and"
-" your device is able to access the internet (you can use the connection "
-"test below)."
+"Please test whether the settings you provided are working correctly. It "
+"means that you can access the configuration interface of your device, and"
+" your device can access the internet."
 msgstr ""
 "Vyskúšajte, či všetky vaše nastavenia fungujú správne. To znamená, že ste"
 " schopní pripojiť sa na konfiguračné rozhranie vášho zariadenia a vaše "
@@ -966,7 +967,7 @@ msgid "Updates"
 msgstr "Aktualizácie"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
-#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:28
+#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:29
 msgid "WAN"
 msgstr "WAN"
 
@@ -987,11 +988,11 @@ msgstr "Ďalší krok"
 msgid "Skip guide"
 msgstr "Preskočiť sprievodcu"
 
-#: js/src/guide/GuidePages/GuideFinish.js:18
+#: js/src/guide/GuidePages/GuideFinish.js:19
 msgid "Guide Finished"
 msgstr "Sprievodca bol dokončený"
 
-#: js/src/guide/GuidePages/GuideFinish.js:20
+#: js/src/guide/GuidePages/GuideFinish.js:21
 msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
@@ -999,7 +1000,7 @@ msgstr ""
 "Po opustení tohto sprievodcu získate prístup k úplnému konfiguračnému "
 "rozhraniu tohto zariadenia."
 
-#: js/src/guide/GuidePages/GuideFinish.js:25
+#: js/src/guide/GuidePages/GuideFinish.js:26
 msgid ""
 "To further improve your security consider installing data collection "
 "plugin (via Package Management). This will allow you to be part of our "
@@ -1012,7 +1013,7 @@ msgstr ""
 "dynamickým aktualizáciám brány firewall, ktorá blokuje odhalených "
 "útočníkov."
 
-#: js/src/guide/GuidePages/GuideFinish.js:31
+#: js/src/guide/GuidePages/GuideFinish.js:32
 msgid "Continue"
 msgstr "Pokračovať"
 
@@ -1241,13 +1242,14 @@ msgid ""
 "obtain a new IP from DHCP (if DHCP is enabled), and you might need to "
 "<b>refresh the page</b> in your browser."
 msgstr ""
-"<b>Poznámka:</b> Ak zmeníte IP adresu routera, všetky počítače v sieti LAN ("
-"pravdepodobne vrátane toho, ktorý práve používate) budú musieť získať "
-"<b>nové IP adresy</b>. Nestane sa to však <b>okamžite</b>. Preto sa po "
-"odoslaní vykonaných zmien odporúča vynútiť aktualizáciu IP adries tým, že sa "
-"odpoja a opäť pripoja sieťové káble všetkých zariadení. Nasledujúca strana "
-"sa nenačíta, kým nezískate novú IP adresu z DHCP (ak je DHCP zapnuté). Možno "
-"bude potrebné túto stránku v prehliadači <b>opäť načítať</b>."
+"<b>Poznámka:</b> Ak zmeníte IP adresu routera, všetky počítače v sieti "
+"LAN (pravdepodobne vrátane toho, ktorý práve používate) budú musieť "
+"získať <b>nové IP adresy</b>. Nestane sa to však <b>okamžite</b>. Preto "
+"sa po odoslaní vykonaných zmien odporúča vynútiť aktualizáciu IP adries "
+"tým, že sa odpoja a opäť pripoja sieťové káble všetkých zariadení. "
+"Nasledujúca strana sa nenačíta, kým nezískate novú IP adresu z DHCP (ak "
+"je DHCP zapnuté). Možno bude potrebné túto stránku v prehliadači <b>opäť "
+"načítať</b>."
 
 #: js/src/lan/LANForm.js:19
 msgid ""
@@ -1855,10 +1857,10 @@ msgid ""
 "workstations and other devices by installing antivirus software and "
 "explaining to users how to stay safe on the Internet."
 msgstr ""
-"Automatické aktualizácie vás nemôžu ochrániť pred každým útokom z internetu. "
-"Preto prijmite aj ďalšie preventívne opatrenia, ako sú ochrana pracovných "
-"staníc a iných zariadení inštaláciou antivírusového softwaru a školenie "
-"užívateľov o bezpečnom používaní internetu."
+"Automatické aktualizácie vás nemôžu ochrániť pred každým útokom z "
+"internetu. Preto prijmite aj ďalšie preventívne opatrenia, ako sú ochrana"
+" pracovných staníc a iných zariadení inštaláciou antivírusového softwaru "
+"a školenie užívateľov o bezpečnom používaní internetu."
 
 #: js/src/packageManagement/updateSettings/points.js:45
 msgid ""
@@ -2175,8 +2177,8 @@ msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
 msgstr ""
-"Tu môžete nastaviť heslo do administrátorského rozhrania. Zvoľte si heslo, "
-"ktoré je bezpečné, dlhé a jedinečné."
+"Tu môžete nastaviť heslo do administrátorského rozhrania. Zvoľte si "
+"heslo, ktoré je bezpečné, dlhé a jedinečné."
 
 #: js/src/password/Password.js:193 js/src/password/Password.js:197
 msgid "Passwords do not match."
@@ -2366,7 +2368,42 @@ msgstr "Aktuálna MAC adresa"
 msgid "Set the new MAC address"
 msgstr "Nastaviť novú MAC adresu"
 
-#: js/src/wan/WAN.js:30
+#: js/src/wan/VLANForm.js:14
+#, fuzzy
+msgid ""
+"Useful in cases when a specific VLAN ID is required by your internet "
+"service provider."
+msgstr ""
+"Užitočné v prípadoch, keď poskytovateľ internetového pripojenia vyžaduje "
+"konkrétnu MAC adresu."
+
+#: js/src/wan/VLANForm.js:17
+#, fuzzy
+msgid "VLAN ID must be a number in the range between 1 and 4094."
+msgstr "MTU musí byť číslo z rozsahu 1280-1480."
+
+#: js/src/wan/VLANForm.js:50
+#, fuzzy
+msgid "VLAN Settings"
+msgstr "Nastavenia IPv6"
+
+#: js/src/wan/VLANForm.js:52
+msgid "Enable VLAN"
+msgstr ""
+
+#: js/src/wan/VLANForm.js:62
+msgid "Set the VLAN ID"
+msgstr ""
+
+#: js/src/wan/VLANForm.js:86
+msgid "Value must be greater than or equal to 1."
+msgstr ""
+
+#: js/src/wan/VLANForm.js:89
+msgid "Value must be less than or equal to 4094."
+msgstr ""
+
+#: js/src/wan/WAN.js:31
 msgid ""
 "Here you can specify your WAN port settings if instructed to do so by "
 "your ISP (internet service provider). Usually, it can be left untouched "
@@ -2377,7 +2414,7 @@ msgstr ""
 "prostredníctvom káblového alebo DSL modemu, obvykle môžu byť ponechané "
 "bez zmeny."
 
-#: js/src/wan/WAN.js:52
+#: js/src/wan/WAN.js:54
 msgid ""
 "Here you can examine your connection settings. Wait a while to establish "
 "the connection. Remember to click the <b>Save</b> button after you have "
@@ -3021,3 +3058,4 @@ msgstr "500 – Chyba servera"
 #~ "antivírusového softvéru a vysvetlite členom"
 #~ " svojej rodiny pravidlá bezpečného "
 #~ "používania internetu."
+

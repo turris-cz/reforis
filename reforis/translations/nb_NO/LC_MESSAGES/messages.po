@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-05-31 14:16+0200\n"
+"POT-Creation-Date: 2022-12-02 16:25+0100\n"
 "PO-Revision-Date: 2022-10-26 07:06+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
-"reforis/nb_NO/>\n"
 "Language: nb_NO\n"
+"Language-Team: Norwegian Bokmål "
+"<https://hosted.weblate.org/projects/turris/reforis/nb_NO/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
-"Generated-By: Babel 2.10.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
 msgid "About"
@@ -126,7 +125,7 @@ msgstr ""
 
 #: js/src/common/network/DHCP6Clients.js:33
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:22
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:24
 msgid "No clients found."
 msgstr "Fant ingen klienter."
 
@@ -155,7 +154,7 @@ msgstr "Utløper"
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:68
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:73
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:66
 msgid "Never"
 msgstr "Aldri"
 
@@ -263,8 +262,9 @@ msgstr "DNS-tjener 2"
 
 #: js/src/common/network/StaticIPForm.js:111
 #: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:92
-#: js/src/wan/WAN6Form.js:504 js/src/wan/WAN6Form.js:533
-#: js/src/wan/WAN6Form.js:545 js/src/wan/WANForm.js:173
+#: js/src/wan/VLANForm.js:83 js/src/wan/WAN6Form.js:504
+#: js/src/wan/WAN6Form.js:533 js/src/wan/WAN6Form.js:545
+#: js/src/wan/WANForm.js:173
 msgid "This field is required."
 msgstr "Dette feltet er påkrevd."
 
@@ -300,13 +300,13 @@ msgid "Active"
 msgstr "Aktiv"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 #, fuzzy
 msgid "Device is active"
 msgstr "Enheten er aktiv"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:89
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 msgid "Device is inactive"
 msgstr "Enheten er inaktiv"
 
@@ -351,22 +351,22 @@ msgid "List of available MAC addresses"
 msgstr "Liste over tilgjengelige MAC-adresser"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:123
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:115
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Actions"
 msgstr "Handlinger"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:134
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:126
 #: js/src/dns/Forwarders/ForwardersTable.js:143
 msgid "Edit"
 msgstr "Rediger"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:148
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:140
 #: js/src/dns/Forwarders/ForwardersTable.js:151
 msgid "Delete"
 msgstr "Slett"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:149
 msgid "Set Static"
 msgstr "Sett statisk"
 
@@ -396,7 +396,7 @@ msgstr "Kan ikke stå tom."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
 #, fuzzy
-msgid "Test is running..."
+msgid "Test is running…"
 msgstr "Testen kjører…"
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
@@ -477,7 +477,7 @@ msgstr ""
 "påslått</b> og løser problemet sammen med din Internett-tjenestetilbyder,"
 " siden dette er en farlig svakhet fra deres side."
 
-#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:49
+#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:51
 msgid "Connection Test"
 msgstr "Tilkoblingstest"
 
@@ -487,10 +487,10 @@ msgid ""
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
-"Her kan du teste din tilkobling til Internett. Denne testen er også nyttig "
-"når du må sjekke at din DNS-utledelse\n"
-"fungerer som forventet. Husk å klikke på <b>Lagre</b>-knappen hvis du har "
-"endret din videresender-innstilling."
+"Her kan du teste din tilkobling til Internett. Denne testen er også "
+"nyttig når du må sjekke at din DNS-utledelse\n"
+"fungerer som forventet. Husk å klikke på <b>Lagre</b>-knappen hvis du har"
+" endret din videresender-innstilling."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
@@ -667,11 +667,12 @@ msgid ""
 " network are allowed to access the internet but are not allowed to access"
 " the configuration interface of this device or the devices in LAN."
 msgstr ""
-"Gjestenettverk brukes for <a href=\"${ForisURLs.wifi}\">gjeste-Wi-Fi</a>.\n"
+"Gjestenettverk brukes for <a href=\"${ForisURLs.wifi}\">gjeste-Wi-Fi</a>."
+"\n"
 "Det er adskilt fra ditt ordinære lokalnett. Enheter tilkoblet dette "
 "nettverket tillates adgang til Internett,\n"
-"men tillates ikke tilgang til oppsettsgrensesnittet på hverken enheten eller "
-"enhetene i lokalnettet."
+"men tillates ikke tilgang til oppsettsgrensesnittet på hverken enheten "
+"eller enhetene i lokalnettet."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 #, fuzzy
@@ -957,10 +958,9 @@ msgstr ""
 #: js/src/guide/constants.js:129
 #, fuzzy
 msgid ""
-"Please test whether the settings you provided are correctly working. This"
-" means that you can access the configuration interface of your device and"
-" your device is able to access the internet (you can use the connection "
-"test below)."
+"Please test whether the settings you provided are working correctly. It "
+"means that you can access the configuration interface of your device, and"
+" your device can access the internet."
 msgstr ""
 "Test hvorvidt innstillingene du angav fungerer som de skal. Dette betyr "
 "at du kan nå oppsettsgrensesnittet for din enhet og at din enhet kan nå "
@@ -1005,7 +1005,7 @@ msgid "Updates"
 msgstr "Oppdateringer"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
-#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:28
+#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:29
 msgid "WAN"
 msgstr "WAN"
 
@@ -1026,11 +1026,11 @@ msgstr "Neste steg"
 msgid "Skip guide"
 msgstr "Hopp over veiledning"
 
-#: js/src/guide/GuidePages/GuideFinish.js:18
+#: js/src/guide/GuidePages/GuideFinish.js:19
 msgid "Guide Finished"
 msgstr "Veiledning fullført"
 
-#: js/src/guide/GuidePages/GuideFinish.js:20
+#: js/src/guide/GuidePages/GuideFinish.js:21
 msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
@@ -1038,7 +1038,7 @@ msgstr ""
 "Når du forlater denne veiledningen vil du bli innvilget tilgang til "
 "enhetens fullstendige oppsettsgrensesnitt."
 
-#: js/src/guide/GuidePages/GuideFinish.js:25
+#: js/src/guide/GuidePages/GuideFinish.js:26
 msgid ""
 "To further improve your security consider installing data collection "
 "plugin (via Package Management). This will allow you to be part of our "
@@ -1051,7 +1051,7 @@ msgstr ""
 "gir deg tilgang til en dynamisk brannmur som oppdaterer en blokkliste "
 "over kjente angripere."
 
-#: js/src/guide/GuidePages/GuideFinish.js:31
+#: js/src/guide/GuidePages/GuideFinish.js:32
 msgid "Continue"
 msgstr "Fortsett"
 
@@ -1153,8 +1153,8 @@ msgid ""
 "device. You can switch the physical network interfaces among networks. If"
 " you are unsure what to set here, use the default settings."
 msgstr ""
-"Her kan du sette opp nettverksgrensesnittene på enheten din. Du kan bytte "
-"fysiske nettverks-grensesnitt mellom nettverkene.\n"
+"Her kan du sette opp nettverksgrensesnittene på enheten din. Du kan bytte"
+" fysiske nettverks-grensesnitt mellom nettverkene.\n"
 "Hvis du er usikker på hva du skal sette her kan du bruke forvalgte "
 "innstillinger."
 
@@ -1200,8 +1200,8 @@ msgid ""
 "that you don't fully trust. Note that you can also limit the "
 "download/upload speed of the devices connected to the guest network."
 msgstr ""
-"Fungerer som lokalnettverkstilkobling. Ulik lokalnett kan ikke enhetene i "
-"gjestenettet nå oppsettsgrensesnittet\n"
+"Fungerer som lokalnettverkstilkobling. Ulik lokalnett kan ikke enhetene i"
+" gjestenettet nå oppsettsgrensesnittet\n"
 "for denne enheten og kan ikke nå WAN (Internett).\n"
 "Dette nettverket skal brukes for enheter du ikke har full tiltro til.\n"
 "Merk deg at du også kan begrense opplasting-/nedlastingshastighet for "
@@ -1468,10 +1468,10 @@ msgid ""
 "brings back all the default settings of the device as it was when the "
 "router was new, giving you a clean slate to start all over again."
 msgstr ""
-"Å utføre fabrikktilbakestilling på Turris-enheten vil fjerne alle pakkene "
-"som er installert på enheten, sammen med all tilknyttet data.\n"
-"Dette gir deg alle forvalgte innstillinger som fantes når ruteren var ny, "
-"noe som gir deg en frisk start for å starte helt på nytt."
+"Å utføre fabrikktilbakestilling på Turris-enheten vil fjerne alle pakkene"
+" som er installert på enheten, sammen med all tilknyttet data.\n"
+"Dette gir deg alle forvalgte innstillinger som fantes når ruteren var ny,"
+" noe som gir deg en frisk start for å starte helt på nytt."
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
@@ -1488,8 +1488,8 @@ msgid ""
 "required to log in again."
 msgstr ""
 "Hvis du må utføre en omstart enheten kan du klikke på følgende knapp.\n"
-"Omstartsprosessen tar omkring 30 sekunder, og du vil måtte logge inn igjen "
-"etterpå."
+"Omstartsprosessen tar omkring 30 sekunder, og du vil måtte logge inn "
+"igjen etterpå."
 
 #: js/src/maintenance/Syslog/Syslog.js:49
 #, fuzzy
@@ -1874,8 +1874,8 @@ msgid ""
 msgstr ""
 "En av de viktigste funksjonene i din Turris-ruter er de automatiske "
 "systemoppgraderingene.\n"
-"Takket være denne funksjonen vil ruterprogramvaren forbli oppdatert og det "
-"gir bedre beskyttelse mot angrep fra Internett.<br>\n"
+"Takket være denne funksjonen vil ruterprogramvaren forbli oppdatert og "
+"det gir bedre beskyttelse mot angrep fra Internett.<br>\n"
 "Det <b>anbefales sterkt</b> å ha denne funksjonen <b>påsrkudd</b>.\n"
 "Hvis du skrur den av, vær advart om at dette kan forringe sikkerheten på "
 "ruteren din og nettverket i fall problemer i programvaren blir funnet."
@@ -1886,10 +1886,10 @@ msgid ""
 "agreement. More information is available <a href=\"\" data-"
 "toggle=\"modal\" data-target=\"#licenceModal\">here</a>."
 msgstr ""
-"Ved å skru på automatiske oppgraderinger samtykker du til funksjonens vilkår."
-"\n"
-"Mer info tilgjengelig <a href=\"\" data-toggle=\"modal\" data-target=\"#"
-"licenceModal\">her</a>."
+"Ved å skru på automatiske oppgraderinger samtykker du til funksjonens "
+"vilkår.\n"
+"Mer info tilgjengelig <a href=\"\" data-toggle=\"modal\" data-"
+"target=\"#licenceModal\">her</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 #, fuzzy
@@ -1905,8 +1905,8 @@ msgid ""
 "Automatic updates must be turned on to get all security features, as some"
 " of them make use of it."
 msgstr ""
-"Automatiske oppgraderinger må skrus på for å få alle sikkerhetsfunksjoner, "
-"siden noen av dem gjør bruk av det direkte."
+"Automatiske oppgraderinger må skrus på for å få alle "
+"sikkerhetsfunksjoner, siden noen av dem gjør bruk av det direkte."
 
 #: js/src/packageManagement/updateSettings/points.js:27
 #, fuzzy
@@ -1936,9 +1936,9 @@ msgid ""
 "explaining to users how to stay safe on the Internet."
 msgstr ""
 "Automatiske oppgraderinger kan ikke beskytte deg mot alle angrep fra "
-"Internett. Beskytt også arbeidsstasjoner og andre enheter ved å installere "
-"antivirus og forklar også brukere av dem hvordan de holder seg trygge på "
-"Internett."
+"Internett. Beskytt også arbeidsstasjoner og andre enheter ved å "
+"installere antivirus og forklar også brukere av dem hvordan de holder seg"
+" trygge på Internett."
 
 #: js/src/packageManagement/updateSettings/points.js:45
 #, fuzzy
@@ -2474,7 +2474,42 @@ msgstr "Nåværende MAC-adresse"
 msgid "Set the new MAC address"
 msgstr "Sett den nye MAC-adressen"
 
-#: js/src/wan/WAN.js:30
+#: js/src/wan/VLANForm.js:14
+#, fuzzy
+msgid ""
+"Useful in cases when a specific VLAN ID is required by your internet "
+"service provider."
+msgstr ""
+"Nytt i tilfeller der en spesifikk MAC-adresse kreves av din internett-"
+"tjenestetilbyder."
+
+#: js/src/wan/VLANForm.js:17
+#, fuzzy
+msgid "VLAN ID must be a number in the range between 1 and 4094."
+msgstr "MTU skal være et tall i rekkevidden 1280-1500."
+
+#: js/src/wan/VLANForm.js:50
+#, fuzzy
+msgid "VLAN Settings"
+msgstr "IPv6-innstillinger"
+
+#: js/src/wan/VLANForm.js:52
+msgid "Enable VLAN"
+msgstr ""
+
+#: js/src/wan/VLANForm.js:62
+msgid "Set the VLAN ID"
+msgstr ""
+
+#: js/src/wan/VLANForm.js:86
+msgid "Value must be greater than or equal to 1."
+msgstr ""
+
+#: js/src/wan/VLANForm.js:89
+msgid "Value must be less than or equal to 4094."
+msgstr ""
+
+#: js/src/wan/WAN.js:31
 msgid ""
 "Here you can specify your WAN port settings if instructed to do so by "
 "your ISP (internet service provider). Usually, it can be left untouched "
@@ -2484,7 +2519,7 @@ msgstr ""
 "det fra din Internett-tjenestetilbyder. Vanligvis kan du levne dette "
 "urørt hvis ruteren er tilkoblet Internett via et kabel- eller DSL-modem."
 
-#: js/src/wan/WAN.js:52
+#: js/src/wan/WAN.js:54
 msgid ""
 "Here you can examine your connection settings. Wait a while to establish "
 "the connection. Remember to click the <b>Save</b> button after you have "
@@ -3148,3 +3183,4 @@ msgstr "500 - Tjenerfeil"
 #~ "programvare og forklare for familiemedlemmer"
 #~ " hvordan de skal surfe trygt på "
 #~ "Internett."
+
