@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2022-11-18 08:47+0000\n"
+"PO-Revision-Date: 2022-12-05 16:47+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
+">\n"
 "Language: sk\n"
-"Language-Team: Slovak "
-"<https://hosted.weblate.org/projects/turris/reforis/sk/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -384,9 +385,8 @@ msgid "MAC address cannot be empty."
 msgstr "MAC adresa nemôže byť prázdna."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
-#, fuzzy
 msgid "Test is running…"
-msgstr "Prebieha test..."
+msgstr "Prebieha test…"
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
 msgid "Test connection again"
@@ -919,14 +919,13 @@ msgstr ""
 " odpojiť a znovu pripojiť sieťové káble."
 
 #: js/src/guide/constants.js:129
-#, fuzzy
 msgid ""
 "Please test whether the settings you provided are working correctly. It "
 "means that you can access the configuration interface of your device, and"
 " your device can access the internet."
 msgstr ""
-"Vyskúšajte, či všetky vaše nastavenia fungujú správne. To znamená, že ste"
-" schopní pripojiť sa na konfiguračné rozhranie vášho zariadenia a vaše "
+"Vyskúšajte, či všetky vaše nastavenia fungujú správne. To znamená, že ste "
+"schopní pripojiť sa na konfiguračné rozhranie vášho zariadenia a vaše "
 "zariadenie má prístup na internet. Môžete použiť test nižšie."
 
 #: js/src/guide/constants.js:134
@@ -2369,39 +2368,36 @@ msgid "Set the new MAC address"
 msgstr "Nastaviť novú MAC adresu"
 
 #: js/src/wan/VLANForm.js:14
-#, fuzzy
 msgid ""
 "Useful in cases when a specific VLAN ID is required by your internet "
 "service provider."
 msgstr ""
 "Užitočné v prípadoch, keď poskytovateľ internetového pripojenia vyžaduje "
-"konkrétnu MAC adresu."
+"konkrétny VLAN ID."
 
 #: js/src/wan/VLANForm.js:17
-#, fuzzy
 msgid "VLAN ID must be a number in the range between 1 and 4094."
-msgstr "MTU musí byť číslo z rozsahu 1280-1480."
+msgstr "VLAN musí byť číslo z rozsahu 1 až 4094."
 
 #: js/src/wan/VLANForm.js:50
-#, fuzzy
 msgid "VLAN Settings"
-msgstr "Nastavenia IPv6"
+msgstr "Nastavenia VLAN"
 
 #: js/src/wan/VLANForm.js:52
 msgid "Enable VLAN"
-msgstr ""
+msgstr "Povoliť VLAN"
 
 #: js/src/wan/VLANForm.js:62
 msgid "Set the VLAN ID"
-msgstr ""
+msgstr "Nastaviť VLAN ID"
 
 #: js/src/wan/VLANForm.js:86
 msgid "Value must be greater than or equal to 1."
-msgstr ""
+msgstr "Hodnota musí byť rovná alebo vyššia ako 1."
 
 #: js/src/wan/VLANForm.js:89
 msgid "Value must be less than or equal to 4094."
-msgstr ""
+msgstr "Hodnota musí byť rovná alebo nižšia ako 4094."
 
 #: js/src/wan/WAN.js:31
 msgid ""
@@ -3058,4 +3054,3 @@ msgstr "500 – Chyba servera"
 #~ "antivírusového softvéru a vysvetlite členom"
 #~ " svojej rodiny pravidlá bezpečného "
 #~ "používania internetu."
-
