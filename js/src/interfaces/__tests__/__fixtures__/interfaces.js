@@ -79,6 +79,17 @@ export function interfacesFixture(portsOpen = false) {
                     state: "down",
                     type: "wifi",
                 },
+                {
+                    bus: "eth",
+                    configurable: true,
+                    id: "eth2.1",
+                    link_speed: 1000,
+                    module_id: 0,
+                    slot: "WAN",
+                    state: "up",
+                    type: "eth",
+                    vlan_id: 1,
+                },
             ],
             wan: [
                 {
