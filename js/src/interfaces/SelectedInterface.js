@@ -26,6 +26,7 @@ SelectedInterface.propTypes = {
     vlan_id: PropTypes.number,
     module_id: PropTypes.number.isRequired,
     link_speed: PropTypes.number.isRequired,
+    macaddr: PropTypes.string.isRequired,
     network: PropTypes.oneOf(["wan", "lan", "guest", "none"]).isRequired,
     configurable: PropTypes.bool.isRequired,
     WANIsEmpty: PropTypes.bool.isRequired,
@@ -41,6 +42,7 @@ export default function SelectedInterface({
     vlan_id,
     module_id,
     link_speed,
+    macaddr,
     network,
     configurable,
     WANIsEmpty,
@@ -122,6 +124,10 @@ export default function SelectedInterface({
                         <td>
                             {link_speed > 0 ? `${link_speed} Mbit/s` : _("N/A")}
                         </td>
+                    </tr>
+                    <tr>
+                        <th>{_("MAC address")}</th>
+                        <td>{macaddr.toUpperCase() || _("N/A")}</td>
                     </tr>
                 </tbody>
             </table>
