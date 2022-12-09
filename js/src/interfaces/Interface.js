@@ -18,6 +18,7 @@ Interface.propTypes = {
     configurable: PropTypes.bool.isRequired,
     isSelected: PropTypes.bool.isRequired,
     onClick: PropTypes.func.isRequired,
+    vlan_id: PropTypes.number,
 };
 
 export default function Interface({
@@ -27,6 +28,7 @@ export default function Interface({
     configurable,
     isSelected,
     onClick,
+    vlan_id,
 }) {
     return (
         <button
@@ -39,7 +41,15 @@ export default function Interface({
                 state={state}
                 configurable={configurable}
             />
-            <h5>{slot}</h5>
+            <h5 className="mb-0">{slot}</h5>
+            {vlan_id && (
+                <span
+                    className="badge badge-info ml-0"
+                    title={`VLAN ID: ${vlan_id}`}
+                >
+                    {`VLAN: ${vlan_id}`}
+                </span>
+            )}
         </button>
     );
 }

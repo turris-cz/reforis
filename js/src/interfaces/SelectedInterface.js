@@ -23,6 +23,7 @@ SelectedInterface.propTypes = {
     state: PropTypes.oneOf(Object.keys(INTERFACE_STATES)).isRequired,
     bus: PropTypes.oneOf(BUSES).isRequired,
     slot: PropTypes.string.isRequired,
+    vlan_id: PropTypes.number,
     module_id: PropTypes.number.isRequired,
     link_speed: PropTypes.number.isRequired,
     network: PropTypes.oneOf(["wan", "lan", "guest", "none"]).isRequired,
@@ -37,6 +38,7 @@ export default function SelectedInterface({
     state,
     bus,
     slot,
+    vlan_id,
     module_id,
     link_speed,
     network,
@@ -82,7 +84,9 @@ export default function SelectedInterface({
                             <span key={`${id}-${state}`}>
                                 <i
                                     className={`fa fa-lg ${stateIconClass}`}
-                                    title={state}
+                                    title={
+                                        state[0].toUpperCase() + state.slice(1)
+                                    }
                                 />
                             </span>
                         </td>
@@ -99,6 +103,12 @@ export default function SelectedInterface({
                         <th>{_("Interface ID")}</th>
                         <td>{id}</td>
                     </tr>
+                    {vlan_id && (
+                        <tr>
+                            <th>{_("VLAN ID")}</th>
+                            <td>{vlan_id}</td>
+                        </tr>
+                    )}
                     <tr>
                         <th>{_("Type")}</th>
                         <td>{type}</td>
