@@ -355,6 +355,14 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
               N/A
             </td>
           </tr>
+          <tr>
+            <th>
+              MAC address
+            </th>
+            <td>
+              11:22:33:44:55:66
+            </td>
+          </tr>
         </tbody>
       </table>
       <div
@@ -725,6 +733,14 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
             </th>
             <td>
               N/A
+            </td>
+          </tr>
+          <tr>
+            <th>
+              MAC address
+            </th>
+            <td>
+              11:22:33:44:55:66
             </td>
           </tr>
         </tbody>
@@ -1370,6 +1386,14 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
             </th>
             <td>
               N/A
+            </td>
+          </tr>
+          <tr>
+            <th>
+              MAC address
+            </th>
+            <td>
+              11:22:33:44:55:66
             </td>
           </tr>
         </tbody>
