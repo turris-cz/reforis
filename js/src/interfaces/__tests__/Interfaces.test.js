@@ -81,7 +81,7 @@ describe("<Interfaces/>", () => {
             networks: {
                 guest: ["lan4"],
                 lan: ["lan3", "lan1"],
-                none: ["lan0", "lan2"],
+                none: ["lan0", "lan2", "eth2.1"],
                 wan: ["eth2"],
             },
         };

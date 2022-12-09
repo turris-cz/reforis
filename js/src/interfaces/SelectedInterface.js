@@ -23,8 +23,10 @@ SelectedInterface.propTypes = {
     state: PropTypes.oneOf(Object.keys(INTERFACE_STATES)).isRequired,
     bus: PropTypes.oneOf(BUSES).isRequired,
     slot: PropTypes.string.isRequired,
+    vlan_id: PropTypes.number,
     module_id: PropTypes.number.isRequired,
     link_speed: PropTypes.number.isRequired,
+    macaddr: PropTypes.string.isRequired,
     network: PropTypes.oneOf(["wan", "lan", "guest", "none"]).isRequired,
     configurable: PropTypes.bool.isRequired,
     WANIsEmpty: PropTypes.bool.isRequired,
@@ -37,8 +39,10 @@ export default function SelectedInterface({
     state,
     bus,
     slot,
+    vlan_id,
     module_id,
     link_speed,
+    macaddr,
     network,
     configurable,
     WANIsEmpty,
@@ -82,7 +86,9 @@ export default function SelectedInterface({
                             <span key={`${id}-${state}`}>
                                 <i
                                     className={`fa fa-lg ${stateIconClass}`}
-                                    title={state}
+                                    title={
+                                        state[0].toUpperCase() + state.slice(1)
+                                    }
                                 />
                             </span>
                         </td>
@@ -99,6 +105,12 @@ export default function SelectedInterface({
                         <th>{_("Interface ID")}</th>
                         <td>{id}</td>
                     </tr>
+                    {vlan_id && (
+                        <tr>
+                            <th>{_("VLAN ID")}</th>
+                            <td>{vlan_id}</td>
+                        </tr>
+                    )}
                     <tr>
                         <th>{_("Type")}</th>
                         <td>{type}</td>
@@ -112,6 +124,10 @@ export default function SelectedInterface({
                         <td>
                             {link_speed > 0 ? `${link_speed} Mbit/s` : _("N/A")}
                         </td>
+                    </tr>
+                    <tr>
+                        <th>{_("MAC address")}</th>
+                        <td>{macaddr.toUpperCase() || _("N/A")}</td>
                     </tr>
                 </tbody>
             </table>

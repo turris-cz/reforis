@@ -23,6 +23,7 @@ export function interfacesFixture(portsOpen = false) {
                     slot: "LAN1",
                     state: "down",
                     type: "eth",
+                    macaddr: "11:22:33:44:55:66",
                 },
                 {
                     bus: "eth",
@@ -33,6 +34,7 @@ export function interfacesFixture(portsOpen = false) {
                     slot: "LAN4",
                     state: "down",
                     type: "eth",
+                    macaddr: "11:22:33:44:55:66",
                 },
             ],
             lan: [
@@ -45,6 +47,7 @@ export function interfacesFixture(portsOpen = false) {
                     slot: "LAN3",
                     state: "down",
                     type: "eth",
+                    macaddr: "11:22:33:44:55:66",
                 },
             ],
             none: [
@@ -57,6 +60,7 @@ export function interfacesFixture(portsOpen = false) {
                     slot: "LAN0",
                     state: "down",
                     type: "eth",
+                    macaddr: "11:22:33:44:55:66",
                 },
                 {
                     bus: "eth",
@@ -67,6 +71,7 @@ export function interfacesFixture(portsOpen = false) {
                     slot: "LAN2",
                     state: "down",
                     type: "eth",
+                    macaddr: "11:22:33:44:55:66",
                 },
                 {
                     bus: "pci",
@@ -78,6 +83,19 @@ export function interfacesFixture(portsOpen = false) {
                     ssid: "",
                     state: "down",
                     type: "wifi",
+                    macaddr: "11:22:33:44:55:88",
+                },
+                {
+                    bus: "eth",
+                    configurable: true,
+                    id: "eth2.1",
+                    link_speed: 1000,
+                    module_id: 0,
+                    slot: "WAN",
+                    state: "up",
+                    type: "eth",
+                    vlan_id: 1,
+                    macaddr: "11:22:33:44:55:77",
                 },
             ],
             wan: [
@@ -90,6 +108,7 @@ export function interfacesFixture(portsOpen = false) {
                     slot: "WAN",
                     state: "up",
                     type: "eth",
+                    macaddr: "11:22:33:44:55:77",
                 },
             ],
         },
@@ -113,6 +132,7 @@ export const interfacesWithVariousModules = {
                 slot: "1",
                 state: "down",
                 type: "eth",
+                macaddr: "11:22:33:44:55:66",
             },
             {
                 bus: "eth",
@@ -123,6 +143,7 @@ export const interfacesWithVariousModules = {
                 slot: "1",
                 state: "down",
                 type: "eth",
+                macaddr: "11:22:33:44:55:66",
             },
         ],
         lan: [
@@ -135,6 +156,7 @@ export const interfacesWithVariousModules = {
                 slot: "2",
                 state: "down",
                 type: "eth",
+                macaddr: "11:22:33:44:55:66",
             },
             {
                 bus: "eth",
@@ -145,6 +167,7 @@ export const interfacesWithVariousModules = {
                 slot: "2",
                 state: "down",
                 type: "eth",
+                macaddr: "11:22:33:44:55:66",
             },
         ],
         none: [
@@ -157,6 +180,7 @@ export const interfacesWithVariousModules = {
                 slot: "LAN0",
                 state: "down",
                 type: "eth",
+                macaddr: "11:22:33:44:55:66",
             },
 
             {
@@ -169,6 +193,7 @@ export const interfacesWithVariousModules = {
                 ssid: "",
                 state: "down",
                 type: "wifi",
+                macaddr: "11:22:33:44:55:88",
             },
         ],
         wan: [
@@ -181,6 +206,7 @@ export const interfacesWithVariousModules = {
                 slot: "WAN",
                 state: "up",
                 type: "eth",
+                macaddr: "11:22:33:44:55:77",
             },
         ],
     },
