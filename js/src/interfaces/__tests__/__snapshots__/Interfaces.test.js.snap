@@ -40,7 +40,9 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               WAN
             </h5>
           </button>
@@ -75,7 +77,9 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN3
             </h5>
           </button>
@@ -96,7 +100,9 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN1
             </h5>
           </button>
@@ -131,7 +137,9 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN4
             </h5>
           </button>
@@ -163,7 +171,9 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN0
             </h5>
           </button>
@@ -184,7 +194,9 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN2
             </h5>
           </button>
@@ -210,9 +222,39 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               1
             </h5>
+          </button>
+          <button
+            class="interface "
+            type="button"
+          >
+            <div>
+              <span
+                class="fa-stack fa-2x"
+              >
+                <i
+                  class="far fa-square fa-stack-2x"
+                />
+                <i
+                  class="fas fa-ethernet fa-stack-1x"
+                />
+              </span>
+            </div>
+            <h5
+              class="mb-0"
+            >
+              WAN
+            </h5>
+            <span
+              class="badge badge-info ml-0"
+              title="VLAN ID: 1"
+            >
+              VLAN: 1
+            </span>
           </button>
         </div>
       </div>
@@ -260,7 +302,7 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
               <span>
                 <i
                   class="fa fa-lg fa-times-circle text-danger"
-                  title="down"
+                  title="Down"
                 />
               </span>
             </td>
@@ -370,7 +412,9 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               WAN
             </h5>
           </button>
@@ -405,7 +449,9 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN3
             </h5>
           </button>
@@ -440,7 +486,9 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN1
             </h5>
           </button>
@@ -461,7 +509,9 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN4
             </h5>
           </button>
@@ -493,7 +543,9 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN0
             </h5>
           </button>
@@ -514,7 +566,9 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN2
             </h5>
           </button>
@@ -540,9 +594,39 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               1
             </h5>
+          </button>
+          <button
+            class="interface "
+            type="button"
+          >
+            <div>
+              <span
+                class="fa-stack fa-2x"
+              >
+                <i
+                  class="far fa-square fa-stack-2x"
+                />
+                <i
+                  class="fas fa-ethernet fa-stack-1x"
+                />
+              </span>
+            </div>
+            <h5
+              class="mb-0"
+            >
+              WAN
+            </h5>
+            <span
+              class="badge badge-info ml-0"
+              title="VLAN ID: 1"
+            >
+              VLAN: 1
+            </span>
           </button>
         </div>
       </div>
@@ -590,7 +674,7 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
               <span>
                 <i
                   class="fa fa-lg fa-times-circle text-danger"
-                  title="down"
+                  title="Down"
                 />
               </span>
             </td>
@@ -700,7 +784,9 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               WAN
             </h5>
           </button>
@@ -735,7 +821,9 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN3
             </h5>
           </button>
@@ -770,7 +858,9 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN1
             </h5>
           </button>
@@ -791,7 +881,9 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN4
             </h5>
           </button>
@@ -823,7 +915,9 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN0
             </h5>
           </button>
@@ -844,7 +938,9 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN2
             </h5>
           </button>
@@ -870,9 +966,39 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               1
             </h5>
+          </button>
+          <button
+            class="interface "
+            type="button"
+          >
+            <div>
+              <span
+                class="fa-stack fa-2x"
+              >
+                <i
+                  class="far fa-square fa-stack-2x"
+                />
+                <i
+                  class="fas fa-ethernet fa-stack-1x"
+                />
+              </span>
+            </div>
+            <h5
+              class="mb-0"
+            >
+              WAN
+            </h5>
+            <span
+              class="badge badge-info ml-0"
+              title="VLAN ID: 1"
+            >
+              VLAN: 1
+            </span>
           </button>
         </div>
       </div>
@@ -931,7 +1057,9 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               WAN
             </h5>
           </button>
@@ -970,7 +1098,9 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                   />
                 </span>
               </div>
-              <h5>
+              <h5
+                class="mb-0"
+              >
                 2
               </h5>
             </button>
@@ -1000,7 +1130,9 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                   />
                 </span>
               </div>
-              <h5>
+              <h5
+                class="mb-0"
+              >
                 2
               </h5>
             </button>
@@ -1040,7 +1172,9 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                   />
                 </span>
               </div>
-              <h5>
+              <h5
+                class="mb-0"
+              >
                 1
               </h5>
             </button>
@@ -1070,7 +1204,9 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                   />
                 </span>
               </div>
-              <h5>
+              <h5
+                class="mb-0"
+              >
                 1
               </h5>
             </button>
@@ -1103,7 +1239,9 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN0
             </h5>
           </button>
@@ -1129,7 +1267,9 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               1
             </h5>
           </button>
@@ -1179,7 +1319,7 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
               <span>
                 <i
                   class="fa fa-lg fa-times-circle text-danger"
-                  title="down"
+                  title="Down"
                 />
               </span>
             </td>
@@ -1289,7 +1429,9 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               WAN
             </h5>
           </button>
@@ -1328,7 +1470,9 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                   />
                 </span>
               </div>
-              <h5>
+              <h5
+                class="mb-0"
+              >
                 2
               </h5>
             </button>
@@ -1358,7 +1502,9 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                   />
                 </span>
               </div>
-              <h5>
+              <h5
+                class="mb-0"
+              >
                 2
               </h5>
             </button>
@@ -1398,7 +1544,9 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                   />
                 </span>
               </div>
-              <h5>
+              <h5
+                class="mb-0"
+              >
                 1
               </h5>
             </button>
@@ -1428,7 +1576,9 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                   />
                 </span>
               </div>
-              <h5>
+              <h5
+                class="mb-0"
+              >
                 1
               </h5>
             </button>
@@ -1461,7 +1611,9 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               LAN0
             </h5>
           </button>
@@ -1487,7 +1639,9 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                 />
               </span>
             </div>
-            <h5>
+            <h5
+              class="mb-0"
+            >
               1
             </h5>
           </button>
