@@ -8,6 +8,14 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.4.1] - 2022-12-12
+
+### Added
+
+-   Added & updated Weblate translations
+-   Added mac address to SelectedInterface
+-   Displaed interfaces with VLAN ID on Interfaces page
+
 ## [1.4.0] - 2022-12-02
 
 ### Added
@@ -467,7 +475,8 @@ and this project adheres to
 
 -   Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.4.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.4.1...master
+[1.4.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.4.0...v1.4.1
 [1.4.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.3.1...v1.4.0
 [1.3.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.3.0...v1.3.1
 [1.3.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.2.1...v1.3.0

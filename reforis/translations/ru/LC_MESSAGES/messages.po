@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2022-06-08 16:17+0000\n"
+"PO-Revision-Date: 2022-12-07 12:47+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/turris/reforis/"
+"ru/>\n"
 "Language: ru\n"
-"Language-Team: Russian "
-"<https://hosted.weblate.org/projects/turris/reforis/ru/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -385,9 +386,8 @@ msgid "MAC address cannot be empty."
 msgstr "MAC-адрес не может быть пустым."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
-#, fuzzy
 msgid "Test is running…"
-msgstr "Тест запущен..."
+msgstr "Идет тест…"
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
 msgid "Test connection again"
@@ -924,15 +924,14 @@ msgstr ""
 "сетевые кабели после обновления настроек здесь."
 
 #: js/src/guide/constants.js:129
-#, fuzzy
 msgid ""
 "Please test whether the settings you provided are working correctly. It "
 "means that you can access the configuration interface of your device, and"
 " your device can access the internet."
 msgstr ""
-"Проверьте, правильно ли проведена настройка. Это означает, что имеется "
-"доступ к интерфейсу конфигурации устройства и оно имеет доступ к "
-"Интернету (вы можете использовать тест подключения ниже)."
+"Проверьте, правильно ли работают указанные вами настройки. Это означает, что "
+"вы можете получить доступ к интерфейсу конфигурации вашего устройства, и "
+"ваше устройство может получить доступ к Интернету."
 
 #: js/src/guide/constants.js:134
 msgid ""
@@ -2380,39 +2379,36 @@ msgid "Set the new MAC address"
 msgstr "Установить новый MAC-адрес"
 
 #: js/src/wan/VLANForm.js:14
-#, fuzzy
 msgid ""
 "Useful in cases when a specific VLAN ID is required by your internet "
 "service provider."
 msgstr ""
-"Полезно в случаях, когда ваш интернет-провайдер требует конкретный "
-"MAC-адрес."
+"Используется в тех случаях, когда вашему интернет-провайдеру требуется "
+"определенный идентификатор VLAN."
 
 #: js/src/wan/VLANForm.js:17
-#, fuzzy
 msgid "VLAN ID must be a number in the range between 1 and 4094."
-msgstr "MTU должен быть числом в диапазоне 1280-1480."
+msgstr "Идентификатор VLAN должен быть числом в диапазоне от 1 до 4094."
 
 #: js/src/wan/VLANForm.js:50
-#, fuzzy
 msgid "VLAN Settings"
-msgstr "Настройки IPv6"
+msgstr "Настройки VLAN"
 
 #: js/src/wan/VLANForm.js:52
 msgid "Enable VLAN"
-msgstr ""
+msgstr "Включить VLAN (виртуальная локальная сеть)"
 
 #: js/src/wan/VLANForm.js:62
 msgid "Set the VLAN ID"
-msgstr ""
+msgstr "Установите идентификатор VLAN"
 
 #: js/src/wan/VLANForm.js:86
 msgid "Value must be greater than or equal to 1."
-msgstr ""
+msgstr "Значение должно быть больше или равно 1."
 
 #: js/src/wan/VLANForm.js:89
 msgid "Value must be less than or equal to 4094."
-msgstr ""
+msgstr "Значение должно быть меньше или равно 4094."
 
 #: js/src/wan/WAN.js:31
 msgid ""
@@ -3038,4 +3034,3 @@ msgstr "500 - Ошибка сервера"
 #~ "устанавливая антивирусное программное обеспечение"
 #~ " и объясняя членам вашей семьи, как"
 #~ " обезопасить себя в Интернете."
-
