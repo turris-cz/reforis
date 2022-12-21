@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2022-07-20 11:15+0000\n"
+"PO-Revision-Date: 2022-12-23 12:49+0000\n"
 "Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
+"\n"
 "Language: cs\n"
-"Language-Team: Czech "
-"<https://hosted.weblate.org/projects/turris/reforis/cs/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -383,7 +384,6 @@ msgid "MAC address cannot be empty."
 msgstr "Adresa MAC nemůže být prázdná."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
-#, fuzzy
 msgid "Test is running…"
 msgstr "Test je spuštěný…"
 
@@ -429,6 +429,9 @@ msgid ""
 "capable of working independently or it can forward your DNS queries your "
 "internet service provider's DNS resolver."
 msgstr ""
+"Router Turris používá vlastní DNS resolver s podporou DNSSEC. Je schopen "
+"pracovat nezávisle nebo může předávat vaše DNS dotazy na resolver vašeho "
+"poskytovatele připojení k Internetu."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -437,6 +440,9 @@ msgid ""
 "works properly. If it does not work for some reason, it is necessary to "
 "use direct resolving without forwarding."
 msgstr ""
+"Následující nastavení určuje, jak se má chovat DNS resolver. Obvykle je "
+"lepší používat resolver vašeho ISP, pokud funguje správně. Jestliže z "
+"nějakých důvodů nefunguje, je potřeba použít přímý resolving bez přeposílání."
 
 #: js/src/dns/DNS.js:44
 msgid ""
@@ -448,24 +454,27 @@ msgid ""
 "<b>recommend keeping DNSSEC turned on</b> and resolving the situation "
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
+"Ve vzácných případech má ISP nesprávně nastavenou síť, ve které nefunguje "
+"správně validace DNSSEC. Setkáte-li se s problémy s DNS, můžete <b>dočasně</"
+"b> vypnout validaci DNSSEC, abyste mohli odhalit zdroj problémů. Mějte však "
+"na paměti, že bez této validaci budete zranitelní vůči útokům typu DNS "
+"spoofingu. Proto je <b>doporučeno ponechat DNSSEC zapnuté</b> a řešit "
+"situaci s ISP, protože jde o závažný bezpečnostní problém na jeho straně."
 
 #: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:51
 msgid "Connection Test"
 msgstr "Test připojení"
 
 #: js/src/dns/DNS.js:66
-#, fuzzy
 msgid ""
 "Here you can test your internet connection. This test is also useful when"
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
-"\n"
-"Zde je možné vyzkoušet fungování připojení k Internetu. Tento test je "
-"také užitečný když potřebujete ověřit zda DNS překlad\n"
-"funguje dle očekávání. Pokud jste změnili nastavení přeposílání, "
-"nezapomeňte kliknout na <b>Uložit</b>.\n"
-"        "
+"Zde je možné vyzkoušet fungování připojení k Internetu. Tento test je také "
+"užitečný když potřebujete ověřit zda DNS překlad\n"
+"funguje dle očekávání. Pokud jste změnili nastavení přeposílání, nezapomeňte "
+"kliknout na <b>Uložit</b>."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
@@ -506,6 +515,8 @@ msgid ""
 "DNSSEC is a security technology that protects DNS communication against "
 "attacks on the DNS infrastructure."
 msgstr ""
+"DNSSEC je bezpečnostní technologie, která chrání DNS komunikaci proti útokům "
+"na infrastrukturu DNS."
 
 #: js/src/dns/DNSSECDisableModal.js:17
 msgid ""
@@ -513,10 +524,12 @@ msgid ""
 "that you will be connecting your device to the network where DNSSEC is "
 "broken."
 msgstr ""
+"Důrazně doporučujeme ponechat ověřování DNSSEC zapnuté, pokud nevíte, že "
+"budete zařízení připojovat k síti, kde je technologie DNSSEC rozbitá."
 
 #: js/src/dns/DNSSECDisableModal.js:21
 msgid "Do you still want to continue and stay unprotected?"
-msgstr ""
+msgstr "Opravdu chcete pokračovat a zůstat nechráněni?"
 
 #: js/src/dns/DNSSECDisableModal.js:56
 msgid "Disable DNSSEC"
@@ -622,21 +635,17 @@ msgid "Guest Network"
 msgstr "Síť pro hosty"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
-#, fuzzy
 msgid ""
 "The guest network is used for <a href=\"${ForisURLs.wifi}\">guest Wi-"
 "Fi</a>. It is separated from your ordinary LAN. Devices connected to this"
 " network are allowed to access the internet but are not allowed to access"
 " the configuration interface of this device or the devices in LAN."
 msgstr ""
-"\n"
-"Síť pro hosty souží pro <a href=\"${ForisURLs.wifi}\">Wi-Fi pro "
-"hosty</a>.\n"
-"Je oddělená od vaší běžné LAN. Zařízením připojených do této sítě je "
-"umožněn přístup do Internetu,\n"
-"ale už ne ke správnímu rozhraní tohoto routeru ani ostatním zařízením\n"
-"v LAN.\n"
-"        "
+"Síť pro hosty slouží pro <a href=\"${ForisURLs.wifi}\">Wi-Fi pro hosty</a>. "
+"Je oddělena od vaší běžné LAN. Zařízením připojených do této sítě je umožněn "
+"přístup do Internetu,\n"
+"ale už ne ke administračnímu rozhraní tohoto routeru ani ostatním zařízením "
+"v LAN."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
@@ -905,16 +914,14 @@ msgstr ""
 "odpojit a znovu připojit ethernetové kabely."
 
 #: js/src/guide/constants.js:129
-#, fuzzy
 msgid ""
 "Please test whether the settings you provided are working correctly. It "
 "means that you can access the configuration interface of your device, and"
 " your device can access the internet."
 msgstr ""
-"Vyzkoušejte zda vámi zadaná nastavení správně fungují. To znamená, že "
-"můžete přistupovat k rozhraní pro nastavování svého zařízení a to je "
-"schopné přistupovat k Internetu (k tomu je možné využít test připojení "
-"níže)."
+"Vyzkoušejte zda vámi zadaná nastavení správně fungují. To znamená, že můžete "
+"přistupovat k rozhraní pro nastavování svého zařízení a to je schopné "
+"přistupovat k Internetu (k tomu je možné využít test připojení níže)."
 
 #: js/src/guide/constants.js:134
 msgid ""
@@ -1097,18 +1104,14 @@ msgid "Network Interfaces"
 msgstr "Síťová rozhraní"
 
 #: js/src/interfaces/Interfaces.js:29
-#, fuzzy
 msgid ""
 "Here you can configure the settings of the network interfaces on your "
 "device. You can switch the physical network interfaces among networks. If"
 " you are unsure what to set here, use the default settings."
 msgstr ""
-"\n"
-"Zde můžete nastavit síťová rozhraní svého zařízení. Je možné přendavat "
-"fyzická síťová rozhraní\n"
-"mezi sítěmi. Pokud si nejste jistí, co zde nastavit, ponechte výchozí "
-"hodnoty.\n"
-"        "
+"Zde můžete nastavit síťová rozhraní svého zařízení. Je možné přepínat "
+"fyzická síťová rozhraní mezi sítěmi. Pokud si nejste jistí, co zde nastavit, "
+"ponechte výchozí hodnoty."
 
 #: js/src/interfaces/Interfaces.js:52
 msgid "You have to assign at least one interface to this group."
@@ -1123,19 +1126,14 @@ msgstr ""
 "zabezpečením je lepší znovu nastavit své rozhraní."
 
 #: js/src/interfaces/InterfacesForm.js:111
-#, fuzzy
 msgid ""
 "It acts as an external network connection. Firewall rules should be "
 "applied here. It can only contain a single interface."
 msgstr ""
-"\n"
-"Slouží jako připojení do vnější sítě. Pravidla brány firewall by měla být"
-" uplatňována zde. Může obsahovat\n"
-"pouze jedno rozhraní.\n"
-"        "
+"Slouží jako připojení do vnější sítě. Pravidla brány firewall by měla být "
+"uplatňována zde. Může obsahovat pouze jedno rozhraní."
 
 #: js/src/interfaces/InterfacesForm.js:123
-#, fuzzy
 msgid ""
 "It acts as a local network connection. LAN should contain devices that "
 "are under your control, and you trust them. These devices can see each "
@@ -1143,18 +1141,13 @@ msgid ""
 "should contain at least one interface. Otherwise, you might not be able "
 "to configure this device easily."
 msgstr ""
-"\n"
-"Slouží jako připojení do místní sítě. LAN by měla obsahovat zařízení, "
-"která jsou pod vaší zprávou a věříte jim\n"
-"Tato zařízení se mohou vidět navzájem a mohou přistupovat k tomuto "
-"webovému rozhraní. je doporučeno,\n"
-"aby LAN obsahovala alespoň jedno rozhraní, jinak nebude kudy toto "
-"zařízení nastavovat (přinejmenším\n"
-"nijak jednoduše).\n"
-"        "
+"Slouží jako připojení do místní sítě. LAN by měla obsahovat zařízení, která "
+"jsou pod vaší zprávou a věříte jim. Tato zařízení se mohou navzájem vidět a "
+"mohou přistupovat k tomuto webovému rozhraní. Doporučuje se, aby LAN "
+"obsahovala alespoň jedno rozhraní, jinak nebude kudy toto zařízení "
+"nastavovat (přinejmenším nijak jednoduše)."
 
 #: js/src/interfaces/InterfacesForm.js:139
-#, fuzzy
 msgid ""
 "It acts as a local network connection. Unlike LAN, the devices in the "
 "guest network can't access the configuration interface of this device and"
@@ -1162,15 +1155,11 @@ msgid ""
 "that you don't fully trust. Note that you can also limit the "
 "download/upload speed of the devices connected to the guest network."
 msgstr ""
-"\n"
-"Slouží jako připojení do místní sítě. Na rozdíl od zařízení v LAN, "
-"zařízení v síti pro hosty nemohou přistupovat\n"
-"k rozhraní pro správu tohoto routeru a mohou přistupovat pouze k WAN "
-"(Internet). Tato síť by měla být\n"
-"používána pro zařízení, kterým tak úplně nedůvěřujete. Poznamenejme, že "
-"zařízením v síti pro hosty také\n"
-"můžete omezit rychlost stahování/odesílání.\n"
-"        "
+"Slouží jako připojení do místní sítě. Na rozdíl od zařízení v LAN, zařízení "
+"v síti pro hosty nemohou přistupovat k rozhraní pro správu tohoto routeru a "
+"mohou přistupovat pouze k WAN (Internet). Tato síť by měla být používána pro "
+"zařízení, kterým tak úplně nedůvěřujete. Poznamenejme, že zařízením v síti "
+"pro hosty také můžete omezit rychlost stahování/odesílání."
 
 #: js/src/interfaces/Network.js:43
 msgid "There are no interfaces in this group."
@@ -1236,6 +1225,8 @@ msgid ""
 "This section contains settings for the local network (LAN). The provided "
 "defaults are suitable for most networks."
 msgstr ""
+"Tato sekce obsahuje nastavení pro místní síť (LAN). Uvedené výchozí hodnoty "
+"jsou vhodné pro většinu sítí."
 
 #: js/src/lan/LAN.js:29
 msgid ""
@@ -1247,6 +1238,13 @@ msgid ""
 "obtain a new IP from DHCP (if DHCP is enabled), and you might need to "
 "<b>refresh the page</b> in your browser."
 msgstr ""
+"<b>Poznámka:</b> Změníte-li IP adresu routeru, všechny počítače v LAN, "
+"pravděpodobně včetně toho, který právě používáte, budou muset získat "
+"<b>novou IP adresu</b> což neproběhne <b>okamžitě<b>. Doporučuje se k "
+"vynucení aktualizace odpojit a znovu připojit všechny síťové kabely, poté co "
+"uložíte provedené změny. Následující stránka se nenačte, dokud nezískáte "
+"novou IP adresu z DHCP (pokud je DHCP zapnuto), a možná budete muset "
+"<b>obnovit stránku</b> v prohlížeči."
 
 #: js/src/lan/LANForm.js:19
 msgid ""
@@ -1412,22 +1410,16 @@ msgid "Factory Reset"
 msgstr "Reset do továrního nastavení"
 
 #: js/src/maintenance/FactoryReset.js:19
-#, fuzzy
 msgid ""
 "Doing a factory reset on the Turris device will remove all the packages "
 "installed on the device along with the data associated with them. This "
 "brings back all the default settings of the device as it was when the "
 "router was new, giving you a clean slate to start all over again."
 msgstr ""
-"Provedení resetu zařízení Turris do továrního nastavení odstraní všechny"
-" \n"
-"                nainstalované balíčky a všechna data s nimi spojená. "
-"Všechno se\n"
-"                vrátí zpět do výchozích nastavení tak, jako když byl "
-"router nový.\n"
-"                Získáte tím možnost začít s čistým routerem úplně od "
-"začátku.\n"
-"    "
+"Provedení resetu zařízení Turris do továrního nastavení odstraní všechny "
+"nainstalované balíčky a všechna data s nimi spojená. Všechno se vrátí zpět "
+"do výchozích nastavení tak, jako když byl router nový. Získáte tím možnost "
+"začít s čistým routerem úplně od začátku."
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
@@ -1438,57 +1430,48 @@ msgstr ""
 "výchozích nastavení provedením továrního resetu."
 
 #: js/src/maintenance/Reboot.js:19
-#, fuzzy
 msgid ""
 "If you need to reboot the device, click on the following button. The "
 "reboot process takes approximately 30 seconds, and then you will be "
 "required to log in again."
 msgstr ""
-"\n"
 "Pokud potřebujete restartovat zařízení, stiskněte následující tlačítko. "
-"Proces restartu bude trvat přibližně 30 sekund,\n"
-"po restartu se budete muset znovu přihlásit.\n"
-"    "
+"Proces restartu bude trvat přibližně 30 sekund, po restartu se budete muset "
+"znovu přihlásit."
 
 #: js/src/maintenance/Syslog/Syslog.js:49
 msgid "A drive has to be configured first."
 msgstr "Disk musí být nejdříve nakonfigurován."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:30
-#, fuzzy
 msgid "System Logs Retention"
 msgstr "Uchovávání systémových záznamů"
 
 #: js/src/maintenance/Syslog/SyslogForm.js:32
-#, fuzzy
 msgid ""
 "During device reboot, system logs are lost by default. This option allows"
 " saving system logs using the Storage plugin. Logs are saved into "
 "'/srv/log/messages'."
 msgstr ""
-"Při resetu zařízení se systémové záznamy ve výchozím nastavení ztratí. "
-"Tato volba umožňuje systémové záznamy ukládat pomocí pluginu Storage. "
-"Ukládají se to adresáře /srv/log/messages. K povolení této volby je "
-"potřeba nejdříve nakonfigurovat úložiště pomocí <a "
-"href=\"${ForisURLs.storage}\" title=\"Jít na plugin Storage\">pluginu "
-"Storage</a>."
+"Při resetu zařízení se systémové záznamy ve výchozím nastavení ztratí. Tato "
+"volba umožňuje systémové záznamy ukládat pomocí pluginu Storage. Ukládají se "
+"to adresáře '/srv/log/messages'. K povolení této volby je potřeba nejdříve "
+"nakonfigurovat úložiště pomocí <a href=\"${ForisURLs.storage}\" title=\"Jít "
+"na plugin Storage\">pluginu Storage</a>."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:38
-#, fuzzy
 msgid ""
 "To enable this option, you have to configure storage in the <a "
 "href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Storage "
 "plugin</a> first."
 msgstr ""
-"Při resetu zařízení se systémové záznamy ve výchozím nastavení ztratí. "
-"Tato volba umožňuje systémové záznamy ukládat pomocí pluginu Storage. "
-"Ukládají se to adresáře /srv/log/messages. K povolení této volby je "
-"potřeba nejdříve nakonfigurovat úložiště pomocí <a "
-"href=\"${ForisURLs.storage}\" title=\"Jít na plugin Storage\">pluginu "
-"Storage</a>."
+"Při resetu zařízení se systémové záznamy ve výchozím nastavení ztratí. Tato "
+"volba umožňuje systémové záznamy ukládat pomocí pluginu Storage. Ukládají se "
+"do adresáře '/srv/log/messages'. K povolení této volby je potřeba nejdříve "
+"nakonfigurovat úložiště pomocí <a href=\"${ForisURLs.storage}\" title=\"Jít "
+"na plugin Storage\">pluginu Storage</a>."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:44
-#, fuzzy
 msgid "Enable System Logs Retention"
 msgstr "Zapnout uchovávání systémových záznamů"
 
@@ -1760,12 +1743,11 @@ msgid "There are no clients added yet."
 msgstr "Zatím nejsou přidáni žádní klienti."
 
 #: js/src/packageManagement/languages/Languages.js:22
-#, fuzzy
 msgid ""
 "If you want to use another language other than English, you can select it"
 " from the following list:"
 msgstr ""
-"Pokud chcete použít jiný jazyk než angličtinu, můžete jej vybrat z "
+"Pokud chcete použít jiný jazyk než angličtinu, můžete ho vybrat z "
 "následujícího seznamu:"
 
 #: js/src/packageManagement/packages/PackageCheckBox.js:57
@@ -1773,7 +1755,6 @@ msgid "More details"
 msgstr "Další podrobnosti"
 
 #: js/src/packageManagement/packages/Packages.js:22
-#, fuzzy
 msgid ""
 "Apart from the standard installation, you can optionally select bundles "
 "of additional software that would be installed on the router. This "
@@ -1782,24 +1763,21 @@ msgid ""
 "package lists and not marked as community-supported is supported by the "
 "Turris team."
 msgstr ""
-"Kromě standardní instalace můžete volitelně vybrat balíčky dalšího "
-"softwaru, které by byly nainstalovány na router. Tento software lze "
-"vybrat z následujícího seznamu. Vezměte prosím na vědomí, že týmem Turris"
-" je podporován pouze software, který je součástí TurrisOS nebo který byl "
-"nainstalován ze seznamu balíčků a není označen jako podporovaný "
-"komunitou."
+"Kromě standardní instalace můžete volitelně vybrat balíčky dalšího softwaru, "
+"které by byly nainstalovány na router. Tento software lze vybrat z "
+"následujícího seznamu. Vezměte prosím na vědomí, že týmem Turris je "
+"podporován pouze software, který je součástí Turris OS nebo který byl "
+"nainstalován ze seznamu balíčků a není označen jako podporovaný komunitou."
 
 #: js/src/packageManagement/packages/PackagesForm.js:31
-#, fuzzy
 msgid "Package Lists"
-msgstr "Seznam balíčků"
+msgstr "Seznamy balíčků"
 
 #: js/src/packageManagement/updateSettings/LicenceModal.js:29
 msgid "Most Important License Agreement Points"
 msgstr "Nejdůležitější body z licenčního ujednání"
 
 #: js/src/packageManagement/updateSettings/LicenceModal.js:49
-#, fuzzy
 msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the <a "
@@ -1807,15 +1785,12 @@ msgid ""
 "rel=\"noopener noreferrer\">license agreement <sup><i class=\"fas fa-"
 "external-link-alt fa-sm\"></i></sup></a>."
 msgstr ""
-"Povolením automatických aktualizací\n"
-"potvrzujete, že jste vlastníkem tohoto routeru\n"
-"Turris, a souhlasíte s úplným zněním\n"
-"<a href=\"https://www.turris.cz/omnia-updater-eula\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">licenční smlouvy <sup><i class=\"fas fa-"
-"external-link-alt fa-sm\"></i></sup></a>."
+"Povolením automatických aktualizací potvrzujete, že jste vlastníkem tohoto "
+"routeru Turris a souhlasíte s úplným zněním <a href=\"https://www.turris.cz/"
+"omnia-updater-eula\" target=\"_blank\" rel=\"noopener noreferrer\">licenční "
+"smlouvy <sup><i class=\"fas fa-external-link-alt fa-sm\"></i></sup></a>."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
-#, fuzzy
 msgid ""
 "The automatic updates system is one of the most important features of the"
 " Turris router. Thanks to this function, your router's software stays up "
@@ -1825,7 +1800,6 @@ msgid ""
 "weaken the security of your router and network in case flaws in the "
 "software are found."
 msgstr ""
-"\n"
 "Jednou z nejdůležitějších funkcí routeru Turris je systém automatických "
 "aktualizací. Díky této funkci\n"
 "zůstane software vašeho routeru aktuální a nabídne lepší ochranu proti "
@@ -1833,15 +1807,14 @@ msgstr ""
 "<br/>\n"
 "<b>Velmi doporučujeme</b>, abyste tuto funkci ponechali <b>zapnutou</b>. "
 "Pokud se rozhodnete\n"
-"ji vypnout, uvědomte si, že to může snížit bezpečnost vašeho routeru a "
-"sítě, pokud se v softwaru\n"
+"ji vypnout, uvědomte si, že to může snížit bezpečnost vašeho routeru a sítě, "
+"pokud se v softwaru\n"
 "objeví bezpečnostní chyby.\n"
 "<br/>\n"
 "Zapnutím automatických aktualizací souhlasíte s licenčním ujednáním této "
 "funkce. Více informací\n"
-"najdete <a href=\"\" data-toggle=\"modal\" data-"
-"target=\"#licenceModal\">zde</a>.\n"
-"            "
+"najdete <a href=\"\" data-toggle=\"modal\" data-target=\"#licenceModal\""
+">zde</a>."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
 msgid ""
@@ -1849,32 +1822,41 @@ msgid ""
 "agreement. More information is available <a href=\"\" data-"
 "toggle=\"modal\" data-target=\"#licenceModal\">here</a>."
 msgstr ""
+"Zapnutím automatických aktualizací souhlasíte s licenčními podmínkami této "
+"funkce. Více informací je k dispozici <a href=\"\" data-toggle=\"modal\" "
+"data-target=\"#licenceModal\">zde</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
-msgstr ""
+msgstr "Automatické aktualizace routerů Turris jsou poskytovány zdarma."
 
 #: js/src/packageManagement/updateSettings/points.js:17
 msgid "Updates are prepared exclusively by CZ.NIC, z. s. p. o."
-msgstr ""
+msgstr "Aktualizace připravuje výhradně CZ.NIC, z. s. p. o."
 
 #: js/src/packageManagement/updateSettings/points.js:21
 msgid ""
 "Automatic updates must be turned on to get all security features, as some"
 " of them make use of it."
 msgstr ""
+"Pro získání všech bezpečnostních funkcí je nutné zapnout automatické "
+"aktualizace, protože některé z nich je využívají."
 
 #: js/src/packageManagement/updateSettings/points.js:27
 msgid ""
 "Automatic updates take place at the time of their release. The time of "
 "installation cannot be influenced by the user."
 msgstr ""
+"Automatické aktualizace probíhají v okamžiku jejich vydání. Čas instalace "
+"nemůže uživatel ovlivnit."
 
 #: js/src/packageManagement/updateSettings/points.js:33
 msgid ""
 "Downloading the automatic updates mean increased Internet traffic. "
 "Potential expenses related to this are covered by you."
 msgstr ""
+"Stahování automatických aktualizací znamená zvýšený internetový provoz. "
+"Případné náklady s tím spojené hradíte vy."
 
 #: js/src/packageManagement/updateSettings/points.js:39
 msgid ""
@@ -1883,12 +1865,18 @@ msgid ""
 "workstations and other devices by installing antivirus software and "
 "explaining to users how to stay safe on the Internet."
 msgstr ""
+"Automatické aktualizace vás nemohou ochránit před každým útokem z Internetu. "
+"Přijměte také další opatření, jako je ochrana pracovních stanic a dalších "
+"zařízení instalací antivirového softwaru a vysvětlování uživatelům, jak "
+"zůstat na Internetu v bezpečí."
 
 #: js/src/packageManagement/updateSettings/points.js:45
 msgid ""
 "CZ.NIC, z. s. p. o. is not responsible for any damages caused by the "
 "automatic updates and does not guarantee its availability."
 msgstr ""
+"CZ.NIC, z. s. p. o. neodpovídá za škody způsobené automatickými "
+"aktualizacemi a nezaručuje jejich dostupnost."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:17
 msgid ""
@@ -1988,7 +1976,6 @@ msgid "Automatic Update Settings"
 msgstr "Nastavení automatických aktualizací"
 
 #: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:49
-#, fuzzy
 msgid "Enable Automatic Updates (recommended)"
 msgstr "Zapnout automatické aktualizace (doporučeno)"
 
@@ -2068,13 +2055,12 @@ msgid "Available Updates"
 msgstr "Dostupné aktualizace"
 
 #: js/src/packageManagement/updates/UpdateManager.js:87
-#, fuzzy
 msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
 msgstr ""
-"Zde můžete najít a schválit dostupné aktualizace \n"
-"                    pro Turris OS a jiné komponenty."
+"Zde můžete najít a schválit dostupné aktualizace pro Turris OS a jiné "
+"komponenty."
 
 #: js/src/packageManagement/updates/UpdateManager.js:93
 msgid "You're up to date."
@@ -2168,7 +2154,6 @@ msgstr ""
 "root zablokován.)"
 
 #: js/src/password/Password.js:78
-#, fuzzy
 msgid ""
 "The password you have entered has not been saved. It has been compromised"
 " and appears ${\n"
@@ -2177,15 +2162,13 @@ msgid ""
 "                            forisPassword.list || rootPassword.list\n"
 "                        } list. Please choose a more secure password."
 msgstr ""
-"Heslo, které jste vložili, nebylo uloženo. Bylo prolomeno a vyskytuje se "
-"${\n"
+"Heslo, které jste vložili, nebylo uloženo. Bylo prolomeno a vyskytuje se ${\n"
 "                            forisPassword.count || rootPassword.count\n"
 "                        }krát v seznamu ${\n"
 "                            forisPassword.list || rootPassword.list\n"
 "                        }. Vložte prosím jiné, bezpečnější heslo."
 
 #: js/src/password/Password.js:89
-#, fuzzy
 msgid "Your password was set successfully."
 msgstr "Heslo bylo úspěšně změněno."
 
@@ -2194,7 +2177,6 @@ msgid "Password Settings"
 msgstr "Nastavení hesla"
 
 #: js/src/password/Password.js:176
-#, fuzzy
 msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
@@ -2203,24 +2185,20 @@ msgstr ""
 "nastavujete bezpečné heslo, které je dlouhé a jedinečné."
 
 #: js/src/password/Password.js:193 js/src/password/Password.js:197
-#, fuzzy
 msgid "Passwords do not match."
-msgstr "Potvrzení hesla se neshoduje."
+msgstr "Zadaná hesla se neshodují."
 
 #: js/src/password/Password.js:212
-#, fuzzy
 msgid "Choose a password."
-msgstr "Špatné heslo."
+msgstr "Zvolte heslo."
 
 #: js/src/password/Password.js:215
-#, fuzzy
 msgid "Password should have at least six symbols."
-msgstr "Heslo by mělo mít nejméně 128 znaků."
+msgstr "Heslo by mělo mít nejméně šest znaků."
 
 #: js/src/password/Password.js:218
-#, fuzzy
 msgid "Password cannot have more than 128 symbols."
-msgstr "Heslo by mělo mít nejméně 128 znaků."
+msgstr "Heslo nesmí mít více než 128 znaků."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -2248,17 +2226,14 @@ msgid "Region and Time"
 msgstr "Oblast a čas"
 
 #: js/src/regionAndTime/RegionAndTime.js:33
-#, fuzzy
 msgid ""
 "It is important for your device to have the correct time set. If your "
 "device's time is delayed, the procedure of SSL certificate verification "
 "might not work correctly."
 msgstr ""
-"\n"
-"Pro vaše zařízení je důležité, aby byl správně nastaven čas. Jsou-li "
-"hodiny v zařízení opožděné,\n"
-"procedura pro ověřování SSL certifikátů nemusí správně fungovat.\n"
-"        "
+"Pro vaše zařízení je důležité, aby byl správně nastaven čas. Jsou-li hodiny "
+"v zařízení opožděné, procedura pro ověřování certifikátů SSL nemusí správně "
+"fungovat."
 
 #: js/src/regionAndTime/RegionAndTime.js:56
 msgid "Time should be in YYYY-MM-DD HH:MM:SS format."
@@ -2400,39 +2375,36 @@ msgid "Set the new MAC address"
 msgstr "Nastavit novou MAC adresu"
 
 #: js/src/wan/VLANForm.js:14
-#, fuzzy
 msgid ""
 "Useful in cases when a specific VLAN ID is required by your internet "
 "service provider."
 msgstr ""
 "Užitečné v případech, kdy váš poskytovatel internetových služeb požaduje "
-"konkrétní MAC adresu."
+"konkrétní VLAN ID."
 
 #: js/src/wan/VLANForm.js:17
-#, fuzzy
 msgid "VLAN ID must be a number in the range between 1 and 4094."
-msgstr "MTU by mělo být číslo z rozsahu 1280-1480."
+msgstr "VLAN ID musí být číslo v rozsahu 1 až 4094."
 
 #: js/src/wan/VLANForm.js:50
-#, fuzzy
 msgid "VLAN Settings"
-msgstr "Nastavení IPv6"
+msgstr "Nastavení VLAN"
 
 #: js/src/wan/VLANForm.js:52
 msgid "Enable VLAN"
-msgstr ""
+msgstr "Povolit VLAN"
 
 #: js/src/wan/VLANForm.js:62
 msgid "Set the VLAN ID"
-msgstr ""
+msgstr "Nastavit VLAN ID"
 
 #: js/src/wan/VLANForm.js:86
 msgid "Value must be greater than or equal to 1."
-msgstr ""
+msgstr "Hodnota musí být větší nebo rovna 1."
 
 #: js/src/wan/VLANForm.js:89
 msgid "Value must be less than or equal to 4094."
-msgstr ""
+msgstr "Hodnota musí být menší nebo rovna 4094."
 
 #: js/src/wan/WAN.js:31
 msgid ""
@@ -2440,6 +2412,10 @@ msgid ""
 "your ISP (internet service provider). Usually, it can be left untouched "
 "if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
+"Zde můžete zadat nastavení vašeho portu WAN, pokud jste k tomu byli vyzváni "
+"vaším ISP (poskytovatelem internetového připojení). Obvykle lze nastavení "
+"ponechat nedotčené, pokud je váš router připojen k Internetu kabelovým nebo "
+"DSL modemem."
 
 #: js/src/wan/WAN.js:54
 msgid ""
@@ -2447,6 +2423,9 @@ msgid ""
 "the connection. Remember to click the <b>Save</b> button after you have "
 "tested that it works."
 msgstr ""
+"Zde můžete zkontrolovat nastavení vašeho připojení. Chvíli počkejte na "
+"navázání spojení. Nezapomeňte po vyzkoušení, že spojení funguje, kliknout na "
+"tlačítko <b>Uložit</b>."
 
 #: js/src/wan/WAN6Form.js:26
 msgid "DUID which will be provided to the DHCPv6 server."
@@ -2639,7 +2618,7 @@ msgstr "Adresa je mimo aktuální síť."
 
 #: reforis/foris_controller_api/modules/lan.py:16
 msgid "DHCP is disabled for LAN."
-msgstr ""
+msgstr "Služba DHCP je pro síť LAN zakázána."
 
 #: reforis/foris_controller_api/modules/lan.py:17
 #, fuzzy
@@ -2653,19 +2632,19 @@ msgstr "Adresa je již rezervována pro jiné účely."
 
 #: reforis/foris_controller_api/modules/lan.py:19
 msgid "No static lease has this MAC address assigned."
-msgstr ""
+msgstr "Tuto MAC adresu nemá přiřazenu žádná statická zápůjčka."
 
 #: reforis/foris_controller_api/modules/lan.py:20
 msgid "Hostname is already used by another static lease."
-msgstr ""
+msgstr "Síťový název je již používán jinou statickou zápůjčkou."
 
 #: reforis/foris_controller_api/modules/lan.py:35
 msgid "Caused by"
-msgstr ""
+msgstr "Způsobeno"
 
 #: reforis/foris_controller_api/modules/lan.py:35
 msgid "Unknown"
-msgstr ""
+msgstr "Neznámé"
 
 #: reforis/foris_controller_api/modules/lan.py:87
 msgid "Can't create DHCP lease."
@@ -3100,4 +3079,3 @@ msgstr "500 - Server error"
 #~ "any damages caused by the automatic "
 #~ "updates."
 #~ msgstr ""
-
