@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2022-01-13 10:22+0000\n"
-"Last-Translator: Gabriel GRONDIN <gglinnk@protonmail.com>\n"
+"PO-Revision-Date: 2022-12-23 12:49+0000\n"
+"Last-Translator: Florian <flo.site@zaclys.net>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/turris/reforis/fr/"
+">\n"
 "Language: fr\n"
-"Language-Team: French "
-"<https://hosted.weblate.org/projects/turris/reforis/fr/>\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -24,17 +25,15 @@ msgid "About"
 msgstr "À propos"
 
 #: js/src/about/About.js:27
-#, fuzzy
 msgid ""
 "Here you can find some information about your device. Please include it "
 "in your message if you contact our <a "
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
-"Vous trouverez ici des informations sur votre appareil. Veuillez les "
-"inclure dans votre message si vous contactez notre <a "
-"href=\"mailto:tech.support@turris.cz\" target=\"_blank\">assistance "
-"client</a>."
+"Vous trouverez ici des informations sur votre appareil. Veuillez les inclure "
+"dans votre message si vous contactez notre <a href=\"mailto:tech."
+"support@turris.cz\" target=\"_blank\">assistance client</a>."
 
 #: js/src/about/About.js:56
 msgid "Device"
@@ -328,7 +327,7 @@ msgstr "Enregistrer"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:45
 msgid "List of available hostnames"
-msgstr ""
+msgstr "Liste des noms d'hôtes disponibles"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:57
 #, fuzzy
@@ -340,13 +339,12 @@ msgid "List of available IPv4 addresses"
 msgstr ""
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:82
-#, fuzzy
 msgid "MAC address"
-msgstr "Adresse IP"
+msgstr "Adresse MAC"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:93
 msgid "List of available MAC addresses"
-msgstr ""
+msgstr "Liste des adresses MAC disponibles"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:115
@@ -379,13 +377,12 @@ msgid "Static saved successfully."
 msgstr "Transitaire enregistré avec succès."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
-#, fuzzy
 msgid "Hostname cannot be empty."
-msgstr "Le nom de l'expéditeur ne peut pas être vide."
+msgstr "Le nom d'hôte ne peut pas être vide."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:24
 msgid "IPv4 address cannot be empty."
-msgstr ""
+msgstr "L'adresse IPv4 ne peut pas être vide."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:28
 #, fuzzy
@@ -1894,22 +1891,28 @@ msgstr ""
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
 msgstr ""
+"Les mises à jour automatiques sont proposées gratuitement aux routeurs "
+"Turris."
 
 #: js/src/packageManagement/updateSettings/points.js:17
 msgid "Updates are prepared exclusively by CZ.NIC, z. s. p. o."
-msgstr ""
+msgstr "Les mises à jour sont préparées exclusivement par CZ.NIC, z. s. p. o."
 
 #: js/src/packageManagement/updateSettings/points.js:21
 msgid ""
 "Automatic updates must be turned on to get all security features, as some"
 " of them make use of it."
 msgstr ""
+"Les mises à jour automatiques doivent être activées pour obtenir toutes les "
+"fonctions de sécurité, car certaines d'entre elles en font usage."
 
 #: js/src/packageManagement/updateSettings/points.js:27
 msgid ""
 "Automatic updates take place at the time of their release. The time of "
 "installation cannot be influenced by the user."
 msgstr ""
+"Les mises à jour automatiques ont lieu au moment de leur publication. Le "
+"moment de l'installation ne peut être influencé par l'utilisateur."
 
 #: js/src/packageManagement/updateSettings/points.js:33
 msgid ""
@@ -1930,6 +1933,8 @@ msgid ""
 "CZ.NIC, z. s. p. o. is not responsible for any damages caused by the "
 "automatic updates and does not guarantee its availability."
 msgstr ""
+"CZ.NIC, z. s. p. o. n'est pas responsable des dommages causés par les mises "
+"à jour automatiques et ne garantit pas leur disponibilité."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:17
 msgid ""
@@ -2478,19 +2483,19 @@ msgstr "Paramètres IPv6"
 
 #: js/src/wan/VLANForm.js:52
 msgid "Enable VLAN"
-msgstr ""
+msgstr "Activer VLAN"
 
 #: js/src/wan/VLANForm.js:62
 msgid "Set the VLAN ID"
-msgstr ""
+msgstr "Définir l’ID VLAN"
 
 #: js/src/wan/VLANForm.js:86
 msgid "Value must be greater than or equal to 1."
-msgstr ""
+msgstr "La valeur doit être supérieure ou égale à 1."
 
 #: js/src/wan/VLANForm.js:89
 msgid "Value must be less than or equal to 4094."
-msgstr ""
+msgstr "La valeur doit être inférieure ou égale à 4094."
 
 #: js/src/wan/WAN.js:31
 msgid ""
@@ -2498,6 +2503,9 @@ msgid ""
 "your ISP (internet service provider). Usually, it can be left untouched "
 "if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
+"Vous pouvez y spécifier les paramètres de votre port WAN si votre FAI ("
+"fournisseur d'accès à Internet) vous le demande. En général, vous ne devez "
+"pas y toucher si votre routeur est connecté à Internet par câble ou DSL."
 
 #: js/src/wan/WAN.js:54
 msgid ""
@@ -2505,6 +2513,9 @@ msgid ""
 "the connection. Remember to click the <b>Save</b> button after you have "
 "tested that it works."
 msgstr ""
+"Ici, vous pouvez examiner vos paramètres de connexion. Attendez un moment "
+"pour établir la connexion. N'oubliez pas de cliquer sur le bouton <b>Save</"
+"b> après avoir vérifié que ça fonctionne."
 
 #: js/src/wan/WAN6Form.js:26
 msgid "DUID which will be provided to the DHCPv6 server."
@@ -2700,7 +2711,7 @@ msgstr "L'adresse est en dehors du réseau actuel."
 
 #: reforis/foris_controller_api/modules/lan.py:16
 msgid "DHCP is disabled for LAN."
-msgstr ""
+msgstr "DHCP est désactivé pour le réseau local."
 
 #: reforis/foris_controller_api/modules/lan.py:17
 #, fuzzy
@@ -2708,25 +2719,24 @@ msgid "IP address is already used by another static lease."
 msgstr "L'adresse est déjà réservée à d'autres fins."
 
 #: reforis/foris_controller_api/modules/lan.py:18
-#, fuzzy
 msgid "MAC address is already used by another static lease."
-msgstr "L'adresse est déjà réservée à d'autres fins."
+msgstr "L'adresse MAC est déjà utilisée par un autre bail statique."
 
 #: reforis/foris_controller_api/modules/lan.py:19
 msgid "No static lease has this MAC address assigned."
-msgstr ""
+msgstr "Aucun bail statique n'a été attribué à cette adresse MAC."
 
 #: reforis/foris_controller_api/modules/lan.py:20
 msgid "Hostname is already used by another static lease."
-msgstr ""
+msgstr "Le nom d'hôte est déjà utilisé par un autre bail statique."
 
 #: reforis/foris_controller_api/modules/lan.py:35
 msgid "Caused by"
-msgstr ""
+msgstr "Causé par"
 
 #: reforis/foris_controller_api/modules/lan.py:35
 msgid "Unknown"
-msgstr ""
+msgstr "Inconnu"
 
 #: reforis/foris_controller_api/modules/lan.py:87
 msgid "Can't create DHCP lease."
@@ -3183,4 +3193,3 @@ msgstr "500 - Server error"
 #~ "any damages caused by the automatic "
 #~ "updates."
 #~ msgstr ""
-
