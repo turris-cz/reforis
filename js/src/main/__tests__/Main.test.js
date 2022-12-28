@@ -9,7 +9,6 @@ import React from "react";
 
 import { render, wait, getByText } from "foris/testUtils/customTestRender";
 import { WebSockets } from "foris";
-import mockAxios from "jest-mock-axios";
 
 import Main from "../Main";
 
@@ -41,7 +40,7 @@ describe("<Main/>", () => {
                 <Main ws={webSockets} />
             </>
         );
-        mockAxios.mockResponse({ data: {} });
+
         await wait(() => getByText(container, "An Error Occurred"));
         expect(console.error).toBeCalled();
         console.error = originalError;
