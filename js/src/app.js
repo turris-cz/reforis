@@ -13,7 +13,7 @@ import React from "react";
 // eslint-disable-next-line
 import "expose-loader?ReactRouterDOM!react-router-dom";
 
-import { WebSockets } from "foris";
+import { WebSockets, CustomizationContextProvider } from "foris";
 // eslint-disable-next-line
 import pdfMake from "expose-loader?pdfMake!pdfmake/build/pdfmake.min";
 import pdfFonts from "pdfmake/build/vfs_fonts";
@@ -36,6 +36,7 @@ pdfMake.vfs = pdfFonts.pdfMake.vfs;
 const ws = new WebSockets();
 
 window.AlertContext = React.createContext();
+window.CustomizationContext = React.createContext();
 
 window.addEventListener(
     "load",
@@ -43,9 +44,19 @@ window.addEventListener(
         const guideContainer = document.getElementById("guide-container");
         const mainContainer = document.getElementById("app-container");
         if (guideContainer) {
-            render(<Guide ws={ws} />, guideContainer);
+            render(
+                <CustomizationContextProvider>
+                    <Guide ws={ws} />
+                </CustomizationContextProvider>,
+                guideContainer
+            );
         } else if (mainContainer) {
-            render(<Main ws={ws} />, mainContainer);
+            render(
+                <CustomizationContextProvider>
+                    <Main ws={ws} />
+                </CustomizationContextProvider>,
+                mainContainer
+            );
         }
 
         const routerStateHandlerContainer = document.getElementById(
