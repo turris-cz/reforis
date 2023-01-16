@@ -1,14 +1,14 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
-@import "styles/content.css";
-@import "styles/dropdown.css";
-@import "styles/navigation.css";
-@import "styles/sidebar.css";
+@import "./content.css";
+@import "./dropdown.css";
+@import "./navigation.css";
+@import "./sidebar.css";
 
 html,
 body {
@@ -16,7 +16,6 @@ body {
 }
 
 body {
-    background-color: #f5f5f5;
     overflow-y: scroll;
 }
 
@@ -39,49 +38,6 @@ h3 {
 
 h4 {
     font-size: 1.3rem;
-}
-
-a,
-.btn-link {
-    color: #00a2e2;
-}
-
-a:hover,
-.btn-link:hover {
-    color: #0056b3;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #00a2e2;
-    border-color: #00a2e2;
-}
-
-.btn-primary:active,
-.btn-primary:hover,
-.btn-primary:focus {
-    color: #fff !important;
-    background-color: #0075a3 !important;
-    border-color: #0075a3 !important;
-}
-
-.btn-outline-primary {
-    color: #00a2e2;
-    border-color: #00a2e2;
-}
-
-.btn-outline-primary:active,
-.btn-outline-primary:hover,
-.btn-outline-primary:focus {
-    color: #fff !important;
-    background-color: #00a2e2 !important;
-    border-color: #00a2e2 !important;
-}
-
-.btn-primary:focus,
-.btn-outline-primary:focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 162, 226, 0.5) !important;
-    box-shadow: 0 0 0 0.2rem rgba(0, 162, 226, 0.5) !important;
 }
 
 form > button {
@@ -120,16 +76,11 @@ button:disabled {
 /* Custom Switch */
 
 .custom-switch.switch-heading .custom-control-label:before {
-    top: 10px;
+    top: 16px !important;
 }
 
 .custom-switch.switch-heading .custom-control-label:after {
-    top: 12px;
-}
-
-.custom-control-input:checked ~ .custom-control-label:before {
-    border-color: #00a2e2;
-    background-color: #00a2e2;
+    top: 18px !important;
 }
 
 form div.form-group.switch {
