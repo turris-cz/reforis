@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2022-12-23 12:49+0000\n"
+"PO-Revision-Date: 2023-02-15 20:39+0000\n"
 "Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
 "\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -472,9 +472,9 @@ msgid ""
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
 "Zde je možné vyzkoušet fungování připojení k Internetu. Tento test je také "
-"užitečný když potřebujete ověřit zda DNS překlad\n"
-"funguje dle očekávání. Pokud jste změnili nastavení přeposílání, nezapomeňte "
-"kliknout na <b>Uložit</b>."
+"užitečný když potřebujete ověřit zda DNS překlad funguje dle očekávání. "
+"Pokud jste změnili nastavení přeposílání, nezapomeňte kliknout na "
+"<b>Uložit</b>."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
@@ -643,9 +643,8 @@ msgid ""
 msgstr ""
 "Síť pro hosty slouží pro <a href=\"${ForisURLs.wifi}\">Wi-Fi pro hosty</a>. "
 "Je oddělena od vaší běžné LAN. Zařízením připojených do této sítě je umožněn "
-"přístup do Internetu,\n"
-"ale už ne ke administračnímu rozhraní tohoto routeru ani ostatním zařízením "
-"v LAN."
+"přístup do Internetu, ale už ne ke administračnímu rozhraní tohoto routeru "
+"ani ostatním zařízením v LAN."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
@@ -2612,23 +2611,20 @@ msgid "Can't delete DNS forwarder."
 msgstr "Nedaří se smazat DNS přeposílání."
 
 #: reforis/foris_controller_api/modules/lan.py:15
-#, fuzzy
 msgid "IP address does not fit the LAN network."
-msgstr "Adresa je mimo aktuální síť."
+msgstr "IP adresa neodpovídá síti LAN."
 
 #: reforis/foris_controller_api/modules/lan.py:16
 msgid "DHCP is disabled for LAN."
 msgstr "Služba DHCP je pro síť LAN zakázána."
 
 #: reforis/foris_controller_api/modules/lan.py:17
-#, fuzzy
 msgid "IP address is already used by another static lease."
-msgstr "Adresa je již rezervována pro jiné účely."
+msgstr "IP adresa je již používána pro jinou statickou zápůjčku."
 
 #: reforis/foris_controller_api/modules/lan.py:18
-#, fuzzy
 msgid "MAC address is already used by another static lease."
-msgstr "Adresa je již rezervována pro jiné účely."
+msgstr "MAC adresa je již používána pro jinou statickou zápůjčku."
 
 #: reforis/foris_controller_api/modules/lan.py:19
 msgid "No static lease has this MAC address assigned."
@@ -2651,14 +2647,12 @@ msgid "Can't create DHCP lease."
 msgstr "Nelze přidělit adresu přes DHCP."
 
 #: reforis/foris_controller_api/modules/lan.py:102
-#, fuzzy
 msgid "Can't update DHCP lease."
-msgstr "Nelze přidělit adresu přes DHCP."
+msgstr "Nelze aktualizovat zápůjčku DHCP."
 
 #: reforis/foris_controller_api/modules/lan.py:113
-#, fuzzy
 msgid "Can't delete DHCP lease."
-msgstr "Nelze přidělit adresu přes DHCP."
+msgstr "Nelze smazat zápůjčku DHCP."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
