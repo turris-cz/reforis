@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -11,10 +11,10 @@ import { Spinner } from "foris";
 import PropTypes from "prop-types";
 import { withRouter } from "react-router-dom";
 
-import { NOT_DISMISSABLE } from "../constants";
-import useNotifications from "../hooks";
 import DismissAllButton from "./DismissAllButton";
 import NotificationsList from "./NotificationsList";
+import { NOT_DISMISSABLE } from "../constants";
+import useNotifications from "../hooks";
 
 import "./Notifications.css";
 
@@ -24,9 +24,8 @@ Notifications.propTypes = {
 };
 
 function Notifications({ ws, history }) {
-    const [notifications, dismiss, dismissAll, isLoading] = useNotifications(
-        ws
-    );
+    const [notifications, dismiss, dismissAll, isLoading] =
+        useNotifications(ws);
     const [currentNotification, setCurrentNotification] = useState();
 
     const [notificationSection, setNotificationSection] = useState();

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -14,6 +14,7 @@ import DHCPClients from "common/network/DHCPClients/DHCPClients";
 
 GuestNetworkDHCPClientsList.propTypes = {
     formData: PropTypes.shape({
+        enabled: PropTypes.bool.isRequired,
         dhcp: PropTypes.shape({
             enabled: PropTypes.bool.isRequired,
             clients: PropTypes.arrayOf(PropTypes.object).isRequired,

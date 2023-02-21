@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2020-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -52,7 +52,7 @@ export default function DNSForm({
 }) {
     const [DNSSECModalShown, setDNSSECModalShown] = useState(false);
 
-    function changeDNSSECHandler(event) {
+    const changeDNSSECHandler = (event) => {
         if (event.target.checked) {
             setFormValue((value) => ({ dnssec_enabled: { $set: value } }))(
                 event
@@ -60,7 +60,7 @@ export default function DNSForm({
         } else {
             setDNSSECModalShown(true);
         }
-    }
+    };
 
     return (
         <>

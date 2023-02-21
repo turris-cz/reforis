@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -42,7 +42,7 @@ export default function DNS({ ws, postCallback }) {
             <p
                 dangerouslySetInnerHTML={{
                     __html: _(
-                        `In rare cases, ISP's have an improperly configured network, which interferes with DNSSEC validation. If you experience problems with DNS, you can <b>temporarily</b> disable DNSSEC validation to determine the source of the problem. However, keep in mind that without DNSSEC validation, you are vulnerable to DNS spoofing attacks! Therefore we <b>recommend keeping DNSSEC turned on</b> and resolving the situation with your ISP as this is a serious flaw on their side.`
+                        "In rare cases, ISP's have an improperly configured network, which interferes with DNSSEC validation. If you experience problems with DNS, you can <b>temporarily</b> disable DNSSEC validation to determine the source of the problem. However, keep in mind that without DNSSEC validation, you are vulnerable to DNS spoofing attacks! Therefore we <b>recommend keeping DNSSEC turned on</b> and resolving the situation with your ISP as this is a serious flaw on their side."
                     ),
                 }}
             />

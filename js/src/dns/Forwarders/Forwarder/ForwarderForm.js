@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -10,9 +10,9 @@ import React from "react";
 import { Button, Select, Spinner, TextInput, API_STATE } from "foris";
 import PropTypes from "prop-types";
 
-import forwarderPropTypes from "../propTypes";
 import useForwarderForm from "./hooks";
 import IPAddressesForm from "./IPAddressesForm";
+import forwarderPropTypes from "../propTypes";
 
 const TLS_TYPES = {
     no: "No TLS",
@@ -22,7 +22,7 @@ const TLS_TYPES = {
 
 const HELP_TEXTS = {
     tls_pin: _("Base 64 encoded SHA-256."),
-    no_tls: _(`"No TLS" means that the regular UDP-base DNS protocol is used.`),
+    no_tls: _('"No TLS" means that the regular UDP-base DNS protocol is used.'),
 };
 
 ForwarderForm.propTypes = {
@@ -31,12 +31,8 @@ ForwarderForm.propTypes = {
 };
 
 export default function ForwarderForm({ forwarder, saveForwarderCallback }) {
-    const [
-        formState,
-        setFormValue,
-        postState,
-        saveForwarder,
-    ] = useForwarderForm(forwarder, saveForwarderCallback);
+    const [formState, setFormValue, postState, saveForwarder] =
+        useForwarderForm(forwarder, saveForwarderCallback);
 
     if (!formState.data) return <Spinner className="text-center" />;
 
