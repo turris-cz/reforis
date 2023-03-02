@@ -43,6 +43,7 @@ exports[`<GuestNetwork/> Snapshot disabled. 1`] = `
           </label>
         </div>
       </div>
+      <div />
       <div
         class="text-right"
       >
@@ -314,6 +315,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
           </small>
         </div>
       </div>
+      <div />
       <div
         class="text-right"
       >
@@ -596,6 +598,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
           Upload speed in guest network (in kilobits per second).
         </small>
       </div>
+      <div />
       <div
         class="text-right"
       >
@@ -756,6 +759,7 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
           </small>
         </div>
       </div>
+      <div />
       <div
         class="text-right"
       >
