@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -88,7 +88,7 @@ export default function TimeForm({
     const data = formData.time_settings;
     const errors = formErrors.time_settings || {};
 
-    function onDataTimeChangeHandler(value) {
+    const onDataTimeChangeHandler = (value) => {
         // Dirty hack to get DataTime library work
         if (typeof value === "string") {
             return setFormValue((formValue) => ({
@@ -98,7 +98,7 @@ export default function TimeForm({
         return setFormValue((formValue) => ({
             time_settings: { time: { $set: formValue } },
         }))({ target: { value: value.format(TIME_FORMAT) } });
-    }
+    };
 
     return (
         <>

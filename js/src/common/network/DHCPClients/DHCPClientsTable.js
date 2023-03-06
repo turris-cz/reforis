@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -15,36 +15,27 @@ DHCPClientsTable.propTypes = {
 };
 
 export default function DHCPClientsTable({ clients }) {
-    return (
-        <>
-            {clients.length === 0 ? (
-                <p className="text-muted text-center">
-                    {_("No clients found.")}
-                </p>
-            ) : (
-                <div className="table-responsive">
-                    <table className="table table-hover">
-                        <thead className="thead-light">
-                            <tr className="text-left">
-                                <th>{_("Hostname")}</th>
-                                <th>{_("IPv4 Address")}</th>
-                                <th>{_("MAC Address")}</th>
-                                <th className="text-center">{_("Expires")}</th>
-                                <th className="text-center">{_("Active")}</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {clients.map((client) => (
-                                <DHCPClientsTableItem
-                                    key={client.ip}
-                                    {...client}
-                                />
-                            ))}
-                        </tbody>
-                    </table>
-                </div>
-            )}
-        </>
+    return clients.length === 0 ? (
+        <p className="text-muted text-center">{_("No clients found.")}</p>
+    ) : (
+        <div className="table-responsive">
+            <table className="table table-hover">
+                <thead className="thead-light">
+                    <tr className="text-left">
+                        <th>{_("Hostname")}</th>
+                        <th>{_("IPv4 Address")}</th>
+                        <th>{_("MAC Address")}</th>
+                        <th className="text-center">{_("Expires")}</th>
+                        <th className="text-center">{_("Active")}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {clients.map((client) => (
+                        <DHCPClientsTableItem key={client.ip} {...client} />
+                    ))}
+                </tbody>
+            </table>
+        </div>
     );
 }
 

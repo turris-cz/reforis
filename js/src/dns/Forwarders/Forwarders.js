@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -50,15 +50,15 @@ function ForwardersForm({ forwarderList, value, setFormValue, disabled }) {
     const [forwarderToEdit, setForwarderToEdit] = useState(null);
     const [forwarderModalShown, setForwarderModalShown] = useState(false);
 
-    function editForwarder(forwarder) {
+    const editForwarder = (forwarder) => {
         setForwarderToEdit(forwarder);
         setForwarderModalShown(true);
-    }
+    };
 
-    function addForwarder() {
+    const addForwarder = () => {
         setForwarderToEdit(null);
         setForwarderModalShown(true);
-    }
+    };
 
     return (
         <>

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -30,7 +30,7 @@ export default function UpdateSettings({ postCallback }) {
             <p
                 dangerouslySetInnerHTML={{
                     __html: _(
-                        `The automatic updates system is one of the most important features of the Turris router. Thanks to this function, your router's software stays up to date and offers better protection against attacks from the Internet.<br>It is <b>highly recommended</b> to have this feature <b>turned on</b>. If you decide to disable it, be warned that this might weaken the security of your router and network in case flaws in the software are found.`
+                        "The automatic updates system is one of the most important features of the Turris router. Thanks to this function, your router's software stays up to date and offers better protection against attacks from the Internet.<br>It is <b>highly recommended</b> to have this feature <b>turned on</b>. If you decide to disable it, be warned that this might weaken the security of your router and network in case flaws in the software are found."
                     ),
                 }}
             />

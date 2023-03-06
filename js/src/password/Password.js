@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -61,6 +61,30 @@ export default function Password({ postCallback }) {
 
     const [setAlert, dismissAlert] = useAlert();
     const [postState, post] = useAPIPost(API_URLs.password);
+
+    const postForisPassword = (event) => {
+        event.preventDefault();
+        dismissAlert();
+        const data = {
+            foris_current_password: formState.data.currentForisPassword,
+            foris_password: formState.data.newForisPassword,
+        };
+        if (customization) data.root_password = formState.data.newForisPassword;
+        if (formState.data.sameForRoot)
+            data.root_password = formState.data.newForisPassword;
+        post({ data });
+    };
+
+    const postRootPassword = (event) => {
+        event.preventDefault();
+        dismissAlert();
+        const data = {
+            foris_current_password: formState.data.currentForisPassword,
+            root_password: formState.data.newRootPassword,
+        };
+        post({ data });
+    };
+
     useEffect(() => {
         if (postState.data) {
             const forisPassword = postState.data.foris_password
@@ -99,29 +123,6 @@ export default function Password({ postCallback }) {
 
     if (!formState.data) {
         return null;
-    }
-
-    function postForisPassword(event) {
-        event.preventDefault();
-        dismissAlert();
-        const data = {
-            foris_current_password: formState.data.currentForisPassword,
-            foris_password: formState.data.newForisPassword,
-        };
-        if (customization) data.root_password = formState.data.newForisPassword;
-        if (formState.data.sameForRoot)
-            data.root_password = formState.data.newForisPassword;
-        post({ data });
-    }
-
-    function postRootPassword(event) {
-        event.preventDefault();
-        dismissAlert();
-        const data = {
-            foris_current_password: formState.data.currentForisPassword,
-            root_password: formState.data.newRootPassword,
-        };
-        post({ data });
     }
 
     const isSending = postState === API_STATE.SENDING;

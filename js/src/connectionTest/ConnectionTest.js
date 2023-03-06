@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2020-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -21,10 +21,10 @@ ConnectionTest.propTypes = {
 export default function ConnectionTest({ ws, type }) {
     const [state, testResults, triggerTest] = useConnectionTest(ws, type);
 
-    function onSubmit(e) {
-        e.preventDefault();
+    const onSubmit = (event) => {
+        event.preventDefault();
         triggerTest();
-    }
+    };
 
     return (
         <form>

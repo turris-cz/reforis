@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -106,49 +106,45 @@ function StaticLeaseActions({ client, editStaticLease, disabled }) {
     const buttonDisabled =
         disabled || deleteStaticLeaseResponse.state === API_STATE.SENDING;
 
-    return (
-        <>
-            {client.static ? (
-                <div
-                    className="btn-group btn-group-sm mb-0"
-                    role="group"
-                    aria-label={_("Actions")}
-                >
-                    <Button
-                        onClick={() => editStaticLease(client)}
-                        disabled={buttonDisabled}
-                    >
-                        <span className="d-xl-none">
-                            <i className="fas fa-edit fa-sm" />
-                        </span>
-                        <span className="d-none d-xl-block">
-                            <i className="fas fa-edit fa-sm mr-1" />
-                            {_("Edit")}
-                        </span>
-                    </Button>
+    return client.static ? (
+        <div
+            className="btn-group btn-group-sm mb-0"
+            role="group"
+            aria-label={_("Actions")}
+        >
+            <Button
+                onClick={() => editStaticLease(client)}
+                disabled={buttonDisabled}
+            >
+                <span className="d-xl-none">
+                    <i className="fas fa-edit fa-sm" />
+                </span>
+                <span className="d-none d-xl-block">
+                    <i className="fas fa-edit fa-sm mr-1" />
+                    {_("Edit")}
+                </span>
+            </Button>
 
-                    <Button
-                        onClick={() => deleteStaticLease(client.mac)}
-                        className="btn-danger"
-                        disabled={buttonDisabled}
-                    >
-                        <span className="d-xl-none">
-                            <i className="fas fa-trash fa-sm" />
-                        </span>
-                        <span className="d-none d-xl-block">
-                            <i className="fas fa-trash fa-sm mr-1" />
-                            {_("Delete")}
-                        </span>
-                    </Button>
-                </div>
-            ) : (
-                <Button
-                    className="btn btn-sm btn-outline-success"
-                    onClick={() => editStaticLease(client)}
-                >
-                    {_("Set Static")}
-                </Button>
-            )}
-        </>
+            <Button
+                onClick={() => deleteStaticLease(client.mac)}
+                className="btn-danger"
+                disabled={buttonDisabled}
+            >
+                <span className="d-xl-none">
+                    <i className="fas fa-trash fa-sm" />
+                </span>
+                <span className="d-none d-xl-block">
+                    <i className="fas fa-trash fa-sm mr-1" />
+                    {_("Delete")}
+                </span>
+            </Button>
+        </div>
+    ) : (
+        <Button
+            className="btn btn-sm btn-outline-success"
+            onClick={() => editStaticLease(client)}
+        >
+            {_("Set Static")}
+        </Button>
     );
 }

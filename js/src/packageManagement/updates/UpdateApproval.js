@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -70,72 +70,69 @@ export default function UpdateApproval({ update, onSuccess, delay }) {
         'See <a data-toggle="collapse" href="#plan-wrapper" role="button" aria-expanded="false" aria-controls="plan-wrapper">details</a>'
     );
     const delayedTime = moment(update.time).add(delay, "hour");
-    return (
+
+    return update.approvable ? (
         <>
-            {update.approvable ? (
-                <>
-                    {delay && (
-                        <Alert type={ALERT_TYPES.SUCCESS}>
-                            <span>
-                                {_(
-                                    `These updates are not going to be 
+            {delay && (
+                <Alert type={ALERT_TYPES.SUCCESS}>
+                    <span>
+                        {_(
+                            `These updates are not going to be 
                                     automatically installed before 
                                     ${toLocaleDateString(delayedTime)}.`
-                                )}
-                            </span>
-                            <i
-                                className="fas fa-question-circle ml-1 help"
-                                data-for="delay-tooltip"
-                                data-tip={_(
-                                    `If you don't want the updates to be installed at all, go to
+                        )}
+                    </span>
+                    <i
+                        className="fas fa-question-circle ml-1 help"
+                        data-for="delay-tooltip"
+                        data-tip={_(
+                            `If you don't want the updates to be installed at all, go to
                                     <a href="${ForisURLs.packageManagement.updateSettings}">Update Settings</a> 
                                     and choose the option <b>Update approval needed</b>.`
-                                )}
-                                data-event="click focus"
-                                data-html
-                            />
-                            <ReactTooltip
-                                effect="solid"
-                                globalEventOff="click"
-                                clickable
-                                id="delay-tooltip"
-                            />
-                        </Alert>
-                    )}
-                    <h3>
-                        {babel.format(
-                            _("Approve Update From %s"),
-                            toLocaleDateString(update.time)
                         )}
-                    </h3>
-                    <p
-                        dangerouslySetInnerHTML={{
-                            __html: `${packagesNumber} ${details}`,
-                        }}
+                        data-event="click focus"
+                        data-html
                     />
-                    <div
-                        className="collapse"
-                        id="plan-wrapper"
-                        data-testid="plan-wrapper"
-                    >
-                        <Plan plan={update.plan} />
-                    </div>
-                    <div className="text-right">
-                        <Button
-                            className="btn-primary"
-                            onClick={() => resolveUpdate("grant")}
-                            forisFormSize
-                        >
-                            {_("Install now")}
-                        </Button>
-                    </div>
-                </>
-            ) : (
-                <p className="text-center text-muted">
-                    {_("There are no updates awaiting your approval.")}
-                </p>
+                    <ReactTooltip
+                        effect="solid"
+                        globalEventOff="click"
+                        clickable
+                        id="delay-tooltip"
+                    />
+                </Alert>
             )}
+            <h3>
+                {babel.format(
+                    _("Approve Update From %s"),
+                    toLocaleDateString(update.time)
+                )}
+            </h3>
+            <p
+                dangerouslySetInnerHTML={{
+                    __html: `${packagesNumber} ${details}`,
+                }}
+            />
+            <div
+                className="collapse"
+                id="plan-wrapper"
+                data-testid="plan-wrapper"
+            >
+                <Plan plan={update.plan} />
+            </div>
+            <div className="text-right">
+                <Button
+                    className="btn-primary"
+                    onClick={() => resolveUpdate("grant")}
+                    forisFormSize
+                >
+                    {_("Install now")}
+                </Button>
+            </div>
         </>
+    ) : (
+        <p className="text-center text-muted">
+            {_("There are no updates awaiting your approval.")}
+        </p>
     );
 }
 

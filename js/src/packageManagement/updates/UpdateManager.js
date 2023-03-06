@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -66,41 +66,37 @@ function UpdateManager({
             />
         );
     }
-    return (
+    return displayChecker ? (
         <>
-            {displayChecker ? (
-                <>
-                    <div className={`${formFieldsSize}`}>
-                        <h2>{_("Updates Check")}</h2>
-                        <p>{description}</p>
-                        <UpdateChecker
-                            onSuccess={getUpdateToApprove}
-                            pending={pending}
-                            setPending={setPending}
-                        >
-                            {checkerLabel}
-                        </UpdateChecker>
-                    </div>
-                    <div className={`${formFieldsSize}`}>
-                        <h2>{_("Available Updates")}</h2>
-                        <p>
-                            {_(
-                                "Here you can find and approve available updates for Turris OS and other components."
-                            )}
-                        </p>
-                        {approvalComponent || (
-                            <p className="text-center text-muted">
-                                {_("You're up to date.")}
-                            </p>
-                        )}
-                    </div>
-                </>
-            ) : (
-                <Alert type={ALERT_TYPES.WARNING}>
-                    <span dangerouslySetInnerHTML={{ __html: description }} />
-                </Alert>
-            )}
+            <div className={`${formFieldsSize}`}>
+                <h2>{_("Updates Check")}</h2>
+                <p>{description}</p>
+                <UpdateChecker
+                    onSuccess={getUpdateToApprove}
+                    pending={pending}
+                    setPending={setPending}
+                >
+                    {checkerLabel}
+                </UpdateChecker>
+            </div>
+            <div className={`${formFieldsSize}`}>
+                <h2>{_("Available Updates")}</h2>
+                <p>
+                    {_(
+                        "Here you can find and approve available updates for Turris OS and other components."
+                    )}
+                </p>
+                {approvalComponent || (
+                    <p className="text-center text-muted">
+                        {_("You're up to date.")}
+                    </p>
+                )}
+            </div>
         </>
+    ) : (
+        <Alert type={ALERT_TYPES.WARNING}>
+            <span dangerouslySetInnerHTML={{ __html: description }} />
+        </Alert>
     );
 }
 

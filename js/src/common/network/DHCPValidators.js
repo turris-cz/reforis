@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -101,9 +101,8 @@ export default function validateDHCP(
     };
 
     if (!errors.start) {
-        const prefixLength = ipaddr.IPv4.parse(
-            networkMask
-        ).prefixLengthFromSubnetMask();
+        const prefixLength =
+            ipaddr.IPv4.parse(networkMask).prefixLengthFromSubnetMask();
         const CIDR = `${routerIPString}/${prefixLength}`;
         const networkAddress = ipaddr.IPv4.networkAddressFromCIDR(CIDR);
         const broadcastAddress = ipaddr.IPv4.broadcastAddressFromCIDR(CIDR);
