@@ -41,18 +41,17 @@ LOGGING = {
         },
     },
     'handlers': {
-        'console': {
-            'level': 'DEBUG',
+        'stderr': {
+            'level': os.environ.get('REFORIS_LOG_LEVEL', 'WARNING'),
             'class': 'logging.StreamHandler',
-            'formatter': 'short'
+            'formatter': 'short',
+            'stream': 'ext://sys.stderr',
         },
     },
-    'loggers': {
-        '': {
-            'level': 'DEBUG',
-            'handlers': ['console'],
-        },
-    }
+    'root': {
+        'level': os.environ.get('REFORIS_LOG_LEVEL', 'WARNING'),
+        'handlers': ['stderr'],
+    },
 }
 
 MAX_CONTENT_LENGTH = 1024 * 1024  # 1 MB, represented as bytes
