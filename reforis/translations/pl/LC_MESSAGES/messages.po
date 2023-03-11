@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2023-03-09 09:39+0000\n"
+"PO-Revision-Date: 2023-03-13 22:41+0000\n"
 "Last-Translator: Arusekk <arek_koz@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/turris/reforis/pl/"
 ">\n"
@@ -926,16 +926,20 @@ msgid ""
 "means that you can access the configuration interface of your device, and"
 " your device can access the internet."
 msgstr ""
+"Proszę sprawdzić, czy podane ustawienia działają poprawnie. To znaczy, że da "
+"się łączyć do ustawień urządzenia, a ono może się łączyć z internetem."
 
 #: js/src/guide/constants.js:134
 msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
 msgstr ""
+"Gratulacje! Teraz urządzenie powinno móc działać jako serwer w sieci "
+"lokalnej."
 
 #: js/src/guide/hooks.js:24
 msgid "Cannot mark guide as finished."
-msgstr ""
+msgstr "Nie można oznaczyć przewodnika jako ukończonego."
 
 #: js/src/guide/steps.js:21 js/src/main/pages.js:69 js/src/main/pages.js:160
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
@@ -995,6 +999,8 @@ msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
+"Po opuszczeniu tego przewodnika uzyskasz dostęp do pełnego interfejsu "
+"konfiguracyjnego tego urządzenia."
 
 #: js/src/guide/GuidePages/GuideFinish.js:26
 msgid ""
@@ -1003,6 +1009,11 @@ msgid ""
 "security research to discover new attackers and give you access to "
 "dynamic firewall updates blocking known attackers."
 msgstr ""
+"Aby jeszcze bardziej zwiększyć swoje bezpieczeństwo, rozważ zainstalowanie "
+"wtyczki do zbierania danych (przez zarządzanie pakietami). Pozwoli to być "
+"częścią naszych badań nad bezpieczeństwem w celu odkrycia nowych zagrożeń i "
+"da dostęp do dynamicznych aktualizacji firewalla blokujących znanych "
+"napastników."
 
 #: js/src/guide/GuidePages/GuideFinish.js:32
 msgid "Continue"
@@ -1015,6 +1026,9 @@ msgid ""
 "other devices within your local network (e.g. act as a network-attached "
 "storage)."
 msgstr ""
+"Ten scenariusz pomoże skonfigurować urządzenie do działania jako serwer "
+"lokalny. Oznacza to, że urządzenie będzie świadczyć jakieś usługi dla innych "
+"urządzeń w sieci lokalnej (np. działać jako NAS)."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:29
 msgid ""
@@ -1054,25 +1068,28 @@ msgid ""
 "Here you can set the guide walkthrough which will guide you through the "
 "basic configuration of your device."
 msgstr ""
+"Tutaj możesz ustawić przewodnik, który poprowadzi Cię przez podstawową "
+"konfigurację urządzenia."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:85
 msgid "Recommended"
 msgstr "Zalecane"
 
 #: js/src/hostname/Hostname.js:25
-#, fuzzy
 msgid "Here you can check and set the name of your device."
-msgstr "Teraz musisz ustawić godzinę i strefę czasową swojego urządzenia."
+msgstr "Tutaj można sprawdzić i ustawić nazwę swojego urządzenia."
 
 #: js/src/hostname/Hostname.js:44
 msgid ""
 "The hostname can contain only alphanumeric characters, hyphens, "
 "underscores and can't be empty."
 msgstr ""
+"Nazwa hosta może zawierać tylko znaki alfanumeryczne, myślniki, podkreślenia "
+"i nie może być pusta."
 
 #: js/src/hostname/HostnameForm.js:14
 msgid "Rewrite the hostname to set a new one."
-msgstr ""
+msgstr "Przepisz sieciową nazwę hosta na nową."
 
 #: js/src/hostname/HostnameForm.js:34
 msgid "Hostname Settings"
@@ -1095,13 +1112,15 @@ msgstr ""
 
 #: js/src/interfaces/Interfaces.js:52
 msgid "You have to assign at least one interface to this group."
-msgstr ""
+msgstr "Należy tej grupie przypisać co najmniej jeden interfejs."
 
 #: js/src/interfaces/InterfacesForm.js:63
 msgid ""
 "Ports are open on your WAN interface. It's better to reconfigure your "
 "interface settings to avoid security issues."
 msgstr ""
+"Na interfejsie WAN są otwarte porty. By uniknąć problemów z bezpieczeństwem "
+"lepiej dostroić ustawienia interfejsów."
 
 #: js/src/interfaces/InterfacesForm.js:111
 msgid ""
@@ -1134,7 +1153,7 @@ msgstr ""
 
 #: js/src/interfaces/Network.js:43
 msgid "There are no interfaces in this group."
-msgstr ""
+msgstr "W tej grupie nie ma interfejsów."
 
 #: js/src/interfaces/Network.js:64
 msgid "Base module"
@@ -1196,6 +1215,8 @@ msgid ""
 "This section contains settings for the local network (LAN). The provided "
 "defaults are suitable for most networks."
 msgstr ""
+"Ta sekcja zawiera ustawienia sieci lokalnej (LAN). Podane wartości domyślne "
+"są odpowiednie dla większości sieci."
 
 #: js/src/lan/LAN.js:29
 msgid ""
@@ -1239,7 +1260,7 @@ msgstr "Przekieruj na 192.168.1.1"
 
 #: js/src/lan/LANManagedForm.js:29
 msgid "Router's IP address in the inner network."
-msgstr ""
+msgstr "Adres IP routera w sieci wewnętrznej."
 
 #: js/src/lan/LANUnmanagedForm.js:25 js/src/wan/WANForm.js:25
 msgid "DHCP (automatic configuration)"
@@ -1248,11 +1269,11 @@ msgstr "DHCP (konfiguracja automatyczna)"
 #: js/src/lan/LANUnmanagedForm.js:26 js/src/wan/WAN6Form.js:75
 #: js/src/wan/WANForm.js:26
 msgid "Static IP address (manual configuration)"
-msgstr ""
+msgstr "Statyczny adres IP (konfiguracja ręczna)"
 
 #: js/src/lan/LANUnmanagedForm.js:27
 msgid "Don't connect this device to LAN"
-msgstr ""
+msgstr "Nie podłączaj tego urządzenia do sieci LAN"
 
 #: js/src/lan/LANUnmanagedForm.js:87 js/src/wan/WANForm.js:102
 msgid "IPv4 protocol"
@@ -1349,6 +1370,8 @@ msgid ""
 "See details in <a href=${ForisURLs.packageManagement.updates}>Updates</a>"
 " page."
 msgstr ""
+"Zobacz szczegóły na stronie <a href=${ForisURLs.packageManagement."
+"updates}>Aktualizacje</a>."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
 #: js/src/packageManagement/updates/UpdateApproval.js:129
@@ -1387,7 +1410,7 @@ msgstr ""
 
 #: js/src/maintenance/Syslog/Syslog.js:49
 msgid "A drive has to be configured first."
-msgstr ""
+msgstr "Najpierw należy skonfigurować dysk."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:30
 msgid "System Logs Retention"
@@ -1409,7 +1432,7 @@ msgstr ""
 
 #: js/src/maintenance/Syslog/SyslogForm.js:44
 msgid "Enable System Logs Retention"
-msgstr ""
+msgstr "Włącz przechowywanie dzienników systemowych"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
@@ -1417,11 +1440,11 @@ msgstr "Wymagany restart"
 
 #: js/src/notificationsSettings/CommonForm.js:18
 msgid "Reboot or attention is required"
-msgstr ""
+msgstr "Wymagany restart albo działanie"
 
 #: js/src/notificationsSettings/CommonForm.js:19
 msgid "Reboot or attention is required or update was installed"
-msgstr ""
+msgstr "Wymagany jest restart, działanie lub zainstalowano aktualizację"
 
 #: js/src/notificationsSettings/CommonForm.js:50
 msgid "Recipient's email"
@@ -1546,11 +1569,11 @@ msgstr ""
 
 #: js/src/notificationsSettings/helpTexts.js:15
 msgid "Email address of recipient. Separate multiple addresses by comma."
-msgstr ""
+msgstr "Adres e-mail odbiorcy. Oddziel adresy przecinkami."
 
 #: js/src/notificationsSettings/helpTexts.js:18
 msgid "Send emails about new features."
-msgstr ""
+msgstr "Wysyłaj e-maile o nowych funkcjach."
 
 #: js/src/notificationsSettings/helpTexts.js:21
 msgid ""
@@ -1560,7 +1583,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/helpTexts.js:26
 msgid "This is the address notifications are send from."
-msgstr ""
+msgstr "To jest adres, z którego wysyłane są powiadomienia."
 
 #: js/src/notificationsSettings/validator.js:23
 msgid "Can't be empty."
@@ -1568,13 +1591,15 @@ msgstr "Należy wypełnić."
 
 #: js/src/notificationsSettings/validator.js:33
 msgid "Sender's name can't be empty."
-msgstr ""
+msgstr "Trzeba wypełnić nazwę nadawcy."
 
 #: js/src/notificationsSettings/validator.js:37
 msgid ""
 "Sender's name can contain only alphanumeric characters, dots and "
 "underscores."
 msgstr ""
+"Nazwa nadawcy może zawierać tylko znaki alfanumeryczne, kropki i "
+"podkreślenia."
 
 #: js/src/notificationsSettings/validator.js:46
 msgid "Port is an number."
@@ -1643,7 +1668,7 @@ msgstr "Wykonane"
 
 #: js/src/overview/Cards/NetmetrCard.js:150
 msgid "No tests have been performed lately."
-msgstr ""
+msgstr "Ostatnio nie przeprowadzano żadnych testów."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:47
 msgid "OpenVPN Clients"
@@ -1651,11 +1676,11 @@ msgstr "Klienci OpenVPN"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:53
 msgid "Go to OpenVPN Client Settings"
-msgstr ""
+msgstr "Przejdź do ustawień klienta OpenVPN"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:93
 msgid "There are no clients added yet."
-msgstr ""
+msgstr "Nie dodano jeszcze żadnych klientów."
 
 #: js/src/packageManagement/languages/Languages.js:22
 msgid ""
@@ -1683,7 +1708,7 @@ msgstr "Listy pakietów"
 
 #: js/src/packageManagement/updateSettings/LicenceModal.js:29
 msgid "Most Important License Agreement Points"
-msgstr ""
+msgstr "Najważniejsze punkty umowy licencyjnej"
 
 #: js/src/packageManagement/updateSettings/LicenceModal.js:49
 msgid ""
@@ -1714,11 +1739,11 @@ msgstr ""
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
-msgstr ""
+msgstr "Automatyczne aktualizacje są oferowane routerom Turris bezpłatnie."
 
 #: js/src/packageManagement/updateSettings/points.js:17
 msgid "Updates are prepared exclusively by CZ.NIC, z. s. p. o."
-msgstr ""
+msgstr "Aktualizacje są przygotowywane wyłącznie przez CZ.NIC, z. s. p. o."
 
 #: js/src/packageManagement/updateSettings/points.js:21
 msgid ""
@@ -1737,6 +1762,8 @@ msgid ""
 "Downloading the automatic updates mean increased Internet traffic. "
 "Potential expenses related to this are covered by you."
 msgstr ""
+"Pobieranie automatycznych aktualizacji oznacza zwiększone zużycie transferu. "
+"Ewentualne wydatki z tym związane pokrywa użytkownik."
 
 #: js/src/packageManagement/updateSettings/points.js:39
 msgid ""
@@ -1757,14 +1784,16 @@ msgid ""
 "Number of days that must pass between receiving the request for restart "
 "and the automatic restart itself."
 msgstr ""
+"Liczba dni między odebraniem żądania restartu, a samym automatycznym "
+"restartem."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:20
 msgid "Time of day of automatic reboot in HH:MM format."
-msgstr ""
+msgstr "Pora automatycznego restartu w formacie GG:MM."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:49
 msgid "Automatic Restarts After Software Update"
-msgstr ""
+msgstr "Automatyczny restart po aktualizacji oprogramowania"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:51
 msgid "Delay (days)"
@@ -1776,15 +1805,15 @@ msgstr "Godzina restartu"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:88
 msgid "Time should be in HH:MM format."
-msgstr ""
+msgstr "Godzina powinna być w formacie GG:MM."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:91
 msgid "Restart can be delayed by at most 10 days"
-msgstr ""
+msgstr "Restart może być opóźniony najdalej o 10 dni"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:94
 msgid "Delay must be a positive number"
-msgstr ""
+msgstr "Opóźnienie musi być liczbą dodatnią"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:16
 msgid "Automatic installation"
@@ -1792,7 +1821,7 @@ msgstr "Instalacja automatyczna"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:17
 msgid "Updates will be installed without user's intervention."
-msgstr ""
+msgstr "Aktualizacje będą instalowane bez potwierdzenia użytkownika."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:21
 msgid "Delayed updates"
@@ -1803,6 +1832,8 @@ msgid ""
 "Updates will be installed with an adjustable delay. You can also approve "
 "them manually."
 msgstr ""
+"Aktualizacje będą instalowane po nastawialnym opóźnieniu. Można je też "
+"zatwierdzać ręcznie."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:28
 msgid "Update approval needed"
@@ -1810,7 +1841,7 @@ msgstr "Wymagana zgoda na aktualizację"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:29
 msgid "You have to approve the updates, otherwise they won't be installed."
-msgstr ""
+msgstr "Aktualizacje będzie trzeba zatwierdzać, inaczej nie będą instalowane."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:59
 msgid "Update Approvals"
@@ -1835,6 +1866,8 @@ msgstr "Opóźnione aktualizacje (godziny)"
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:97
 msgid "Updates must be delayed by least 1 hour and at most by 168 hours"
 msgstr ""
+"Aktualizacje można opóźnić co najmniej o jedną godzinę i najdalej o 168 "
+"godzin (tydzień)"
 
 #: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:47
 msgid "Automatic Update Settings"
@@ -1842,11 +1875,11 @@ msgstr "Ustawienia aktualizacji automatycznych"
 
 #: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:49
 msgid "Enable Automatic Updates (recommended)"
-msgstr ""
+msgstr "Włącz aktualizacje automatyczne (zalecane)"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:44
 msgid "Updates will be installed shortly."
-msgstr ""
+msgstr "Aktualizacje zostaną wkrótce zainstalowane."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:62
 #, python-format
@@ -1861,6 +1894,8 @@ msgid ""
 "See <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
 "aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
+"Zobacz <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
+"aria-expanded=\"false\" aria-controls=\"plan-wrapper\">szczegóły</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:80
 msgid ""
@@ -1868,6 +1903,9 @@ msgid ""
 "                                    automatically installed before \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 msgstr ""
+"Te aktualizacje nie zostaną \n"
+"                                    automatycznie zainstalowane przed \n"
+"                                    ${toLocaleDateString(delayedTime)}."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:89
 msgid ""
@@ -1886,7 +1924,7 @@ msgstr "Zatwierdź aktualizację z %s"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:135
 msgid "There are no updates awaiting your approval."
-msgstr ""
+msgstr "Brak aktualizacji oczekujących na zatwierdzenie."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:152
 msgid "Action"
@@ -1913,6 +1951,7 @@ msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
 msgstr ""
+"Tutaj można znaleźć i zatwierdzić aktualizacje Turris OS i innych składników."
 
 #: js/src/packageManagement/updates/UpdateManager.js:93
 msgid "You're up to date."
@@ -1931,6 +1970,10 @@ msgid ""
 "href=\"${ForisURLs.packageManagement.updateSettings}\">delayed or \n"
 "            approval-requiring updates</a> to review them."
 msgstr ""
+"Wyłączono aktualizacje automatyczne. Aby je przejrzeć, trzeba włączyć \n"
+"            <a href=\"${ForisURLs.packageManagement.updateSettings}\""
+">aktualizacje opóźnione \n"
+"            lub wymagające zatwierdzenia</a>."
 
 #: js/src/packageManagement/updates/Updates.js:63
 msgid "Check and install updates"
@@ -1958,10 +2001,12 @@ msgid ""
 "href=\"${ForisURLs.packageManagement.updateSettings}\">automatic "
 "updates</a> to manage packages and languages."
 msgstr ""
+"Włącz <a href=\"${ForisURLs.packageManagement.updateSettings}\">automatyczne "
+"aktualizacje</a>, aby zarządzać pakietami i językami."
 
 #: js/src/password/ForisPasswordForm.js:55
 msgid "Set your password for this administration interface."
-msgstr ""
+msgstr "Ustaw hasło do tego interfejsu administracyjnego."
 
 #: js/src/password/ForisPasswordForm.js:60
 msgid "Current password"
@@ -1969,9 +2014,8 @@ msgstr "Obecne hasło"
 
 #: js/src/password/ForisPasswordForm.js:71
 #: js/src/password/RootPasswordForm.js:67
-#, fuzzy
 msgid "New password"
-msgstr "Hasło"
+msgstr "Nowe hasło"
 
 #: js/src/password/ForisPasswordForm.js:84
 #: js/src/password/RootPasswordForm.js:79
@@ -1980,7 +2024,7 @@ msgstr "Potwierdź nowe hasło"
 
 #: js/src/password/ForisPasswordForm.js:100
 msgid "Use the same password for advanced administration (root)"
-msgstr ""
+msgstr "Użyj tego samego hasła do zaawansowanej administracji (root)"
 
 #: js/src/password/ForisPasswordForm.js:103
 msgid ""
@@ -2003,12 +2047,11 @@ msgstr ""
 
 #: js/src/password/Password.js:89
 msgid "Your password was set successfully."
-msgstr ""
+msgstr "Hasło zostało ustawione pomyślnie."
 
 #: js/src/password/Password.js:147
-#, fuzzy
 msgid "Password Settings"
-msgstr "Sieć gościa"
+msgstr "Ustawienia hasła"
 
 #: js/src/password/Password.js:176
 msgid ""
@@ -2018,7 +2061,7 @@ msgstr ""
 
 #: js/src/password/Password.js:193 js/src/password/Password.js:197
 msgid "Passwords do not match."
-msgstr ""
+msgstr "Hasła się nie zgadzają."
 
 #: js/src/password/Password.js:212
 msgid "Choose a password."
@@ -2026,11 +2069,11 @@ msgstr "Wybierz hasło."
 
 #: js/src/password/Password.js:215
 msgid "Password should have at least six symbols."
-msgstr ""
+msgstr "Hasło powinno mieć co najmniej sześć znaków."
 
 #: js/src/password/Password.js:218
 msgid "Password cannot have more than 128 symbols."
-msgstr ""
+msgstr "Hasło nie może być dłuższe niż 128 znaków."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -2060,7 +2103,7 @@ msgstr ""
 
 #: js/src/regionAndTime/RegionAndTime.js:56
 msgid "Time should be in YYYY-MM-DD HH:MM:SS format."
-msgstr ""
+msgstr "Czas powinien być w formacie RRRR-MM-DD GG:MM:SS."
 
 #: js/src/regionAndTime/RegionForm.js:72
 msgid "Region Settings"
@@ -2101,6 +2144,8 @@ msgid ""
 "Time should be up-to-date otherwise DNS and other services might not work"
 " properly."
 msgstr ""
+"Czas powinien być aktualny, inaczej DNS i inne usługi mogą nie działać "
+"poprawnie."
 
 #: js/src/regionAndTime/TimeForm.js:112
 msgid "How to set time"
@@ -2121,7 +2166,7 @@ msgstr "Serwery NTP"
 #: js/src/routerStateHandler/NetworkRestartHandler.js:29
 #, python-format
 msgid "Network restart after %d sec."
-msgstr ""
+msgstr "Restart sieci po %d sekundach."
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:34
 msgid "Network restarting"
@@ -2156,20 +2201,24 @@ msgid ""
 "Please report this error to our support team via e-mail: <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 msgstr ""
+"Zgłoś ten błąd naszemu zespołowi pomocy technicznej pocztą elektroniczną: <a "
+"href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 
 #: js/src/wan/MACForm.js:14
 msgid ""
 "Useful in cases, when a specific MAC address is required by your internet"
 " service provider."
 msgstr ""
+"Przydatne w przypadkach, gdy dostawca internetu wymaga konkretnego adresu "
+"MAC."
 
 #: js/src/wan/MACForm.js:17
 msgid "Colon is used as a separator, for example 00:11:22:33:44:55"
-msgstr ""
+msgstr "Do oddzielania służy dwukropek, np. 00:11:22:33:44:55"
 
 #: js/src/wan/MACForm.js:20
 msgid "MAC address of the WAN interface."
-msgstr ""
+msgstr "Adres MAC interfejsu WAN."
 
 #: js/src/wan/MACForm.js:53
 msgid "MAC Settings"
@@ -2185,22 +2234,23 @@ msgstr "Obecny adres MAC"
 
 #: js/src/wan/MACForm.js:72
 msgid "Set the new MAC address"
-msgstr ""
+msgstr "Ustaw nowy adres MAC"
 
 #: js/src/wan/VLANForm.js:14
 msgid ""
 "Useful in cases when a specific VLAN ID is required by your internet "
 "service provider."
 msgstr ""
+"Przydatne w przypadkach, gdy dostawca internetu wymaga konkretnego "
+"identyfikatora VLAN."
 
 #: js/src/wan/VLANForm.js:17
 msgid "VLAN ID must be a number in the range between 1 and 4094."
-msgstr ""
+msgstr "Identyfikator sieci VLAN musi być liczbą z zakresu od 1 do 4094."
 
 #: js/src/wan/VLANForm.js:50
-#, fuzzy
 msgid "VLAN Settings"
-msgstr "Sieć gościa"
+msgstr "Ustawienia VLAN"
 
 #: js/src/wan/VLANForm.js:52
 msgid "Enable VLAN"
@@ -2208,15 +2258,15 @@ msgstr "Włącz VLAN"
 
 #: js/src/wan/VLANForm.js:62
 msgid "Set the VLAN ID"
-msgstr ""
+msgstr "Ustaw identyfikator sieci VLAN"
 
 #: js/src/wan/VLANForm.js:86
 msgid "Value must be greater than or equal to 1."
-msgstr ""
+msgstr "Wartość musi być większa lub równa 1."
 
 #: js/src/wan/VLANForm.js:89
 msgid "Value must be less than or equal to 4094."
-msgstr ""
+msgstr "Wartość musi być mniejsza lub równa 4094."
 
 #: js/src/wan/WAN.js:31
 msgid ""
@@ -2234,17 +2284,18 @@ msgstr ""
 
 #: js/src/wan/WAN6Form.js:26
 msgid "DUID which will be provided to the DHCPv6 server."
-msgstr ""
+msgstr "Identyfikator DUID, który będzie przedstawiany serwerowi DHCPv6."
 
 #: js/src/wan/WAN6Form.js:30
 msgid ""
 "IPv6 address and prefix length for WAN interface e.g. "
 "2001:db8:be13:37da::1/64"
 msgstr ""
+"Adres IPv6 i długość prefiksu interfejsu WAN, np. 2001:db8:be13:37da::1/64"
 
 #: js/src/wan/WAN6Form.js:33
 msgid "Address range for local network, e.g. 2001:db8:be13:37da::/64"
-msgstr ""
+msgstr "Zakres adresów sieci lokalnej, np. 2001:db8:be13:37da::/64"
 
 #: js/src/wan/WAN6Form.js:42
 msgid ""
@@ -2257,15 +2308,15 @@ msgstr ""
 msgid ""
 "This address will be used as a endpoint of the tunnel on the provider's "
 "side."
-msgstr ""
+msgstr "Ten adres będzie używany jako punkt końcowy tunelu po stronie dostawcy."
 
 #: js/src/wan/WAN6Form.js:52
 msgid "IPv6 addresses which will be routed to your network."
-msgstr ""
+msgstr "Adresy IPv6, które będą kierowane do sieci."
 
 #: js/src/wan/WAN6Form.js:53
 msgid "Maximum Transmission Unit in the tunnel (in bytes)."
-msgstr ""
+msgstr "Maksymalna jednostka transmisji (MTU) w tunelu (w bajtach)."
 
 #: js/src/wan/WAN6Form.js:56
 msgid ""
@@ -2275,17 +2326,17 @@ msgstr ""
 
 #: js/src/wan/WAN6Form.js:60
 msgid "ID of your tunnel which was assigned to you by the provider."
-msgstr ""
+msgstr "Identyfikator tunelu, który został przydzielony przez dostawcę."
 
 #: js/src/wan/WAN6Form.js:63
 msgid ""
 "Username which will be used to provide credentials to your tunnel "
 "provider."
-msgstr ""
+msgstr "Nazwa użytkownika do uwierzytelnienia przed dostawcą tunelu."
 
 #: js/src/wan/WAN6Form.js:66
 msgid "Key which will be used to provide credentials to your tunnel provider."
-msgstr ""
+msgstr "Klucz, który zostanie użyty do uwierzytelnienia przed dostawcą tunelu."
 
 #: js/src/wan/WAN6Form.js:74
 msgid "DHCPv6 (automatic configuration)"
@@ -2293,11 +2344,11 @@ msgstr "DHCPv6 (konfiguracja automatyczna)"
 
 #: js/src/wan/WAN6Form.js:76
 msgid "6to4 (public IPv4 address required)"
-msgstr ""
+msgstr "6to4 (wymagany publiczny adres IPv4)"
 
 #: js/src/wan/WAN6Form.js:77
 msgid "6in4 (public IPv4 address required)"
-msgstr ""
+msgstr "6in4 (wymagany publiczny adres IPv4)"
 
 #: js/src/wan/WAN6Form.js:78
 msgid "Disable IPv6"
@@ -2353,15 +2404,15 @@ msgstr "Klucz"
 
 #: js/src/wan/WAN6Form.js:527
 msgid "MTU has to be a number in the range of 1280-1480."
-msgstr ""
+msgstr "MTU musi być liczbą z przedziału 1280–1480."
 
 #: js/src/wan/WAN6Form.js:529
 msgid "MTU has to be in the range of 1280-1480."
-msgstr ""
+msgstr "MTU musi być w przedziale 1280–1480."
 
 #: js/src/wan/WANForm.js:27
 msgid "PPPoE (for DSL bridges, etc.)"
-msgstr ""
+msgstr "PPPoE (dla mostków DSL itp.)"
 
 #: js/src/wan/WANForm.js:100
 msgid "IPv4 Settings"
@@ -2378,6 +2429,8 @@ msgstr "Hasło PAP/CHAP"
 #: js/src/wifi/WiFi.js:27
 msgid "Unfortunately, we were unable to detect any wireless cards in your router."
 msgstr ""
+"Niestety nie udało się wykryć w routerze żadnych bezprzewodowych kart "
+"sieciowych."
 
 #: js/src/wifi/WiFi.js:42
 msgid ""
@@ -2401,27 +2454,27 @@ msgstr "Nie można usunąć przekaźnika DNS."
 
 #: reforis/foris_controller_api/modules/lan.py:15
 msgid "IP address does not fit the LAN network."
-msgstr ""
+msgstr "Adres IP nie odpowiada sieci LAN."
 
 #: reforis/foris_controller_api/modules/lan.py:16
 msgid "DHCP is disabled for LAN."
-msgstr ""
+msgstr "Usługa DHCP jest wyłączona dla sieci LAN."
 
 #: reforis/foris_controller_api/modules/lan.py:17
 msgid "IP address is already used by another static lease."
-msgstr ""
+msgstr "Adres IP jest już używany przez inną dzierżawę statyczną."
 
 #: reforis/foris_controller_api/modules/lan.py:18
 msgid "MAC address is already used by another static lease."
-msgstr ""
+msgstr "Adres MAC jest już używany przez inną dzierżawę statyczną."
 
 #: reforis/foris_controller_api/modules/lan.py:19
 msgid "No static lease has this MAC address assigned."
-msgstr ""
+msgstr "Tego adresu MAC nie ma przypisana żadna dzierżawa statyczna."
 
 #: reforis/foris_controller_api/modules/lan.py:20
 msgid "Hostname is already used by another static lease."
-msgstr ""
+msgstr "Nazwa hosta jest już używana przez inną dzierżawę statyczną."
 
 #: reforis/foris_controller_api/modules/lan.py:35
 msgid "Caused by"
@@ -2437,11 +2490,11 @@ msgstr "Nie można przydzielić adresu przez DHCP."
 
 #: reforis/foris_controller_api/modules/lan.py:102
 msgid "Can't update DHCP lease."
-msgstr ""
+msgstr "Nie można zaktualizować dzierżawy DHCP."
 
 #: reforis/foris_controller_api/modules/lan.py:113
 msgid "Can't delete DHCP lease."
-msgstr ""
+msgstr "Nie można usunąć dzierżawy DHCP."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
@@ -2457,17 +2510,19 @@ msgstr ""
 
 #: reforis/foris_controller_api/modules/router_notifications.py:127
 msgid "The testing message has been sent, please check your inbox."
-msgstr ""
+msgstr "Wysłano wiadomość testową, sprawdź swoją skrzynkę odbiorczą."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:130
 msgid ""
 "Sending of the testing message failed, your configuration is possibly "
 "wrong."
 msgstr ""
+"Nie udało się wysłać wiadomości testowej — możliwe, że konfiguracja jest "
+"nieprawidłowa."
 
 #: reforis/foris_controller_api/modules/updater.py:65
 msgid "Cannot change automatic restart settings."
-msgstr ""
+msgstr "Nie można zmienić ustawień automatycznego restartu."
 
 #: reforis/foris_controller_api/modules/updater.py:80
 msgid "Cannot update approvals settings."
@@ -2503,7 +2558,7 @@ msgstr "Stos:"
 
 #: reforis/templates/errors/404.html:4
 msgid "404 - Page not found"
-msgstr ""
+msgstr "404 — Nie znaleziono strony"
 
 #: reforis/templates/errors/404.html:9
 msgid "Page not found :("
