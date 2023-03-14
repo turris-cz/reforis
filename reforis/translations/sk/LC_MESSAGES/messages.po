@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2023-03-04 23:43+0000\n"
+"PO-Revision-Date: 2023-03-18 09:37+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
 ">\n"
@@ -171,7 +171,7 @@ msgid ""
 "Enable this option to automatically assign IP addresses to the devices "
 "connected to the router."
 msgstr ""
-"Zapnutím tejto voľby sa povoľuje automatické prideľovanie IP adries "
+"Aktiváciou tejto voľby sa povolí automatické prideľovanie IP adries "
 "zariadeniam pripojeným k routeru."
 
 #: js/src/common/network/DHCPServerForm.js:47
@@ -430,9 +430,9 @@ msgid ""
 "capable of working independently or it can forward your DNS queries your "
 "internet service provider's DNS resolver."
 msgstr ""
-"Router Turris používa vlastný DNS prekladač (resolver) s podporou DNSSEC."
-" Dokáže pracovať nezávisle, alebo môže vaše DNS dopyty presmerovať na DNS"
-" prekladač poskytovateľa internetových služieb."
+"Router Turris používa vlastný DNS prekladač (resolver) s podporou DNSSEC. "
+"Dokáže pracovať nezávisle, alebo môže vaše DNS požiadavky presmerovať na DNS "
+"prekladač poskytovateľa internetových služieb."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -1095,7 +1095,7 @@ msgstr "Prepísať sieťový názov na nový."
 
 #: js/src/hostname/HostnameForm.js:34
 msgid "Hostname Settings"
-msgstr "Nastavenia sieťového názvu"
+msgstr "Nastavenie sieťového názvu"
 
 #: js/src/hostname/HostnameForm.js:36
 msgid "Device hostname"
@@ -2340,7 +2340,7 @@ msgid ""
 "Useful in cases, when a specific MAC address is required by your internet"
 " service provider."
 msgstr ""
-"Užitočné v prípadoch, keď poskytovateľ internetového pripojenia vyžaduje "
+"Používa sa v prípadoch, keď poskytovateľ internetového pripojenia vyžaduje "
 "konkrétnu MAC adresu."
 
 #: js/src/wan/MACForm.js:17
@@ -2372,7 +2372,7 @@ msgid ""
 "Useful in cases when a specific VLAN ID is required by your internet "
 "service provider."
 msgstr ""
-"Užitočné v prípadoch, keď poskytovateľ internetového pripojenia vyžaduje "
+"Používa sa v prípadoch, keď poskytovateľ internetového pripojenia vyžaduje "
 "konkrétny VLAN ID."
 
 #: js/src/wan/VLANForm.js:17
