@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
 "PO-Revision-Date: 2023-04-24 14:49+0000\n"
-"Last-Translator: Vri 🌈 <weblate@vrifox.cc>\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris/reforis/de/"
 ">\n"
 "Language: de\n"
@@ -1236,7 +1236,7 @@ msgstr "IPv4-Protokoll"
 #: js/src/main/pages.js:34 js/src/main/pages.js:110
 #: js/src/overview/Overview.js:43
 msgid "Overview"
-msgstr ""
+msgstr "Übersicht"
 
 #: js/src/main/pages.js:40 js/src/main/pages.js:116
 msgid "Network Settings"
