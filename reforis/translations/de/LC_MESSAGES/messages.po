@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2022-09-30 09:15+0000\n"
-"Last-Translator: Marcus Wellendorf <wellendorf@posteo.de>\n"
+"PO-Revision-Date: 2023-04-24 14:49+0000\n"
+"Last-Translator: Vri 🌈 <weblate@vrifox.cc>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/turris/reforis/de/"
+">\n"
 "Language: de\n"
-"Language-Team: German "
-"<https://hosted.weblate.org/projects/turris/reforis/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -30,6 +31,9 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Hier finden Sie einige Informationen zu Ihrem Gerät. Bitte fügen dieser "
+"Ihrer Nachricht hinzu, wenn Sie unsere <a href=\"mailto:tech.support@turris."
+"cz\" target=\"_blank\">Kundenbetreuung</a> kontaktieren."
 
 #: js/src/about/About.js:56
 msgid "Device"
@@ -48,20 +52,18 @@ msgid "Turris OS version"
 msgstr "Turris OS Version"
 
 #: js/src/about/About.js:77
-#, fuzzy
 msgid "Turris OS branch"
-msgstr "Turris OS  Unterversion"
+msgstr "Turris OS Branch"
 
 #: js/src/about/About.js:80
-#, fuzzy
 msgid ""
 "Turris OS is currently released in various branches, which have different"
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
-"Turris OS wird zur Zeit in verschiedenen Unterversionen veröffentlicht, "
-"die unterschiedliche Funktionen und Stabilität besitzen - Sie können "
-"auswählen, welche Version Sie testen wollen."
+"Turris OS wird zurzeit in verschiedenen Branches veröffentlicht, die "
+"unterschiedliche Funktionen und Stabilität besitzen – Sie können auswählen, "
+"welche Version Sie testen wollen."
 
 #: js/src/about/About.js:106
 msgid "Kernel version"
@@ -109,9 +111,8 @@ msgid "Go to top"
 msgstr "Gehe zum Anfang"
 
 #: js/src/common/network/DHCP6Clients.js:25
-#, fuzzy
 msgid "IPv6 DHCP Client List"
-msgstr "Liste IPv6 DHCP Clients"
+msgstr "IPv6-DHCP-Client-Liste"
 
 #: js/src/common/network/DHCP6Clients.js:27
 #, fuzzy
@@ -142,7 +143,6 @@ msgid "IPv6 Address"
 msgstr "IPv6-Adresse"
 
 #: js/src/common/network/DHCP6Clients.js:42
-#, fuzzy
 msgid "DUID"
 msgstr "DUID"
 
@@ -163,18 +163,16 @@ msgid "Hostname which will be provided to DHCP server."
 msgstr "Hostname, der dem DHCP-Server zur Verfügung gestellt wird."
 
 #: js/src/common/network/DHCPClientForm.js:38
-#, fuzzy
 msgid "DHCP hostname"
-msgstr "DHCP Rechnername"
+msgstr "DHCP-Hostname"
 
 #: js/src/common/network/DHCPServerForm.js:13
-#, fuzzy
 msgid ""
 "Enable this option to automatically assign IP addresses to the devices "
 "connected to the router."
 msgstr ""
-"Wählen Sie diese Einstellung, damit der Router den lokal angeschlossenen "
-"Geräten automatisch IP-Adressen zuweisen kann."
+"Aktivieren Sie diese Option, damit der Router den lokal angeschlossenen "
+"Geräten automatisch IP-Adressen zuweist."
 
 #: js/src/common/network/DHCPServerForm.js:47
 msgid "DHCP start"
@@ -201,7 +199,6 @@ msgid "Value must be positive."
 msgstr "Wert muss positiv sein."
 
 #: js/src/common/network/DHCPValidators.js:86
-#, fuzzy
 msgid "Invalid network settings. DHCP settings can't be validated."
 msgstr ""
 "Ungültige Netzwerkeinstellungen. Die DHCP-Einstellungen können nicht "
@@ -321,7 +318,6 @@ msgstr "Statischen Lease festlegen"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:61
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:98
-#, fuzzy
 msgid "Add static lease"
 msgstr "Statischen Lease hinzufügen"
 
@@ -331,9 +327,8 @@ msgid "Save"
 msgstr "Speichern"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:45
-#, fuzzy
 msgid "List of available hostnames"
-msgstr "Liste verfügbarer Rechnernamen"
+msgstr "Liste verfügbarer Hostnamen"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:57
 msgid "IPv4 address"
@@ -372,18 +367,16 @@ msgid "Set Static"
 msgstr ""
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:47
-#, fuzzy
 msgid "Static lease added successfully."
-msgstr "Statische IP erfolgreich hinzugefügt."
+msgstr "Statischen Lease erfolgreich hinzugefügt."
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:58
 msgid "Static saved successfully."
 msgstr "Statische IP erfolgreich gespeichert."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
-#, fuzzy
 msgid "Hostname cannot be empty."
-msgstr "Der Rechnername darf nicht leer sein."
+msgstr "Der Hostname darf nicht leer sein."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:24
 msgid "IPv4 address cannot be empty."
@@ -394,9 +387,8 @@ msgid "MAC address cannot be empty."
 msgstr "Die MAC-Adresse darf nicht leer sein."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
-#, fuzzy
 msgid "Test is running…"
-msgstr "Test wird ausgeführt..."
+msgstr "Test wird ausgeführt …"
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
 msgid "Test connection again"
@@ -469,18 +461,15 @@ msgid "Connection Test"
 msgstr "Verbindung prüfen"
 
 #: js/src/dns/DNS.js:66
-#, fuzzy
 msgid ""
 "Here you can test your internet connection. This test is also useful when"
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
-"\n"
-"Hier können Sie Ihre Internetverbindung prüfen. Der Test ist nützlich, "
-"wenn Sie die korrekte Funktion des DNS-Resolvers überprüfen wollen.\n"
-"Vergessen Sie nicht, die <b>Speichern</b>-Schaltfläche zu betätigen, wenn"
-" Sie die Einstellungen geändert haben.\n"
-"        "
+"Hier können Sie Ihre Internetverbindung prüfen. Der Test ist nützlich, wenn "
+"Sie die korrekte Funktion des DNS-Resolvers überprüfen wollen. Vergessen Sie "
+"nicht, die <b>Speichern</b>-Schaltfläche zu betätigen, wenn Sie die "
+"Einstellungen geändert haben."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
@@ -634,7 +623,7 @@ msgstr "Der TLS-Pin muss mindestens ein Zeichen enthalten."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:45
 msgid "Define at least one of the IP addresses of the forwarder."
-msgstr "Definieren Sie mindestens eine der IP-Adressen der Weiterleitung"
+msgstr "Definieren Sie mindestens eine der IP-Adressen der Weiterleitung."
 
 #: js/src/guestNetwork/GuestNetwork.js:38 js/src/interfaces/constants.js:11
 #: js/src/main/pages.js:147
@@ -642,21 +631,17 @@ msgid "Guest Network"
 msgstr "Gastnetzwerk"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
-#, fuzzy
 msgid ""
 "The guest network is used for <a href=\"${ForisURLs.wifi}\">guest Wi-"
 "Fi</a>. It is separated from your ordinary LAN. Devices connected to this"
 " network are allowed to access the internet but are not allowed to access"
 " the configuration interface of this device or the devices in LAN."
 msgstr ""
-"\n"
-"Das Gastnetzwerk wird für <a href=\"${ForisURLs.wifi}\">guest Wi-Fi</a> "
-"verwendet.\n"
-"Es ist von Ihrem normalen Netzwerk getrennt. Geräte, die mit diesem "
-"Netzwerk verbunden sind, können auf das Internet zugreifen, dürfen aber "
-"nicht auf den Router oder anderen Geräte in Ihrem normalen Netzwerk "
-"zugreifen.\n"
-"        "
+"Das Gastnetzwerk wird für <a href=\"${ForisURLs.wifi}\">Gast-WLAN</a> "
+"verwendet. Es ist von Ihrem normalen Netzwerk getrennt. Geräte, die mit "
+"diesem Netzwerk verbunden sind, können auf das Internet zugreifen, dürfen "
+"aber nicht auf den Router oder anderen Geräte in Ihrem normalen Netzwerk "
+"zugreifen."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
@@ -1471,7 +1456,7 @@ msgstr "STARTTLS"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:61
 msgid "SMTP Settings"
-msgstr ""
+msgstr "SMTP-Einstellungen"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:63
 msgid "Sender address (From)"
@@ -1639,7 +1624,7 @@ msgstr ""
 
 #: js/src/overview/Cards/NetmetrCard.js:122
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 #: js/src/overview/Cards/NetmetrCard.js:142
 msgid "Performed"
@@ -1964,28 +1949,25 @@ msgstr ""
 
 #: js/src/password/ForisPasswordForm.js:55
 msgid "Set your password for this administration interface."
-msgstr "Legen Sie Ihr Kennwort für diese Verwaltungsschnittstelle fest."
+msgstr "Legen Sie Ihr Passwort für diese Verwaltungsschnittstelle fest."
 
 #: js/src/password/ForisPasswordForm.js:60
-#, fuzzy
 msgid "Current password"
-msgstr "Aktuelles Foris-Passwort"
+msgstr "Aktuelles Passwort"
 
 #: js/src/password/ForisPasswordForm.js:71
 #: js/src/password/RootPasswordForm.js:67
-#, fuzzy
 msgid "New password"
-msgstr "Neues Foris-Passwort"
+msgstr "Neues Passwort"
 
 #: js/src/password/ForisPasswordForm.js:84
 #: js/src/password/RootPasswordForm.js:79
 msgid "Confirm new password"
-msgstr ""
+msgstr "Neues Passwort bestätigen"
 
 #: js/src/password/ForisPasswordForm.js:100
-#, fuzzy
 msgid "Use the same password for advanced administration (root)"
-msgstr "Verwenden Des gleichen Kennworts für die erweiterte Verwaltung (Root)"
+msgstr "Verwenden des gleichen Passworts für die erweiterte Verwaltung (Root)"
 
 #: js/src/password/ForisPasswordForm.js:103
 msgid ""
@@ -1995,11 +1977,11 @@ msgid ""
 "configuration here, you will have the option to do so later. Until then, "
 "the root account will be blocked.)"
 msgstr ""
-"Dasselbe Kennwort wird auch für den Zugriff in die Expertenkonfiguration-"
-"Schnittstelle, für den root-Benutzer in der LuCI-Webschnittstelle und für"
-" SSH-Zugriff verwendet. Verwenden Sie ein starkes Kennwort! (Wenn Sie "
-"sich entscheiden kein Kennwort festzulegen, so besteht Option dies später"
-" zu tun. Bis dahin wird der root-Benutzer blockiert.)"
+"Dasselbe Passwort wird auch für den Zugriff auf die Expertenkonfiguration-"
+"Schnittstelle, den root-Benutzer in der LuCI-Web-Oberfläche und SSH "
+"verwendet. Setzen Sie ein starkes Passwort! (Wenn Sie sich entscheiden kein "
+"Passwort festzulegen, so besteht die Option, dies später zu tun. Bis dahin "
+"wird der root-Benutzer blockiert.)"
 
 #: js/src/password/Password.js:78
 msgid ""
@@ -2012,14 +1994,12 @@ msgid ""
 msgstr ""
 
 #: js/src/password/Password.js:89
-#, fuzzy
 msgid "Your password was set successfully."
-msgstr "Weiterleitung erfolgreich gespeichert."
+msgstr "Ihr Passwort wurde erfolgreich gespeichert."
 
 #: js/src/password/Password.js:147
-#, fuzzy
 msgid "Password Settings"
-msgstr "Gastnetzwerk Einstellungen"
+msgstr "Passworteinstellungen"
 
 #: js/src/password/Password.js:176
 msgid ""
@@ -2029,27 +2009,23 @@ msgstr ""
 
 #: js/src/password/Password.js:193 js/src/password/Password.js:197
 msgid "Passwords do not match."
-msgstr ""
+msgstr "Passwörter stimmen nicht überein."
 
 #: js/src/password/Password.js:212
-#, fuzzy
 msgid "Choose a password."
-msgstr "Falsches Passwort."
+msgstr "Wählen Sie ein Passwort."
 
 #: js/src/password/Password.js:215
-#, fuzzy
 msgid "Password should have at least six symbols."
-msgstr "Der TLS-Pin muss mindestens ein Zeichen enthalten."
+msgstr "Das Passwort sollte wenigstens sechs Zeichen enthalten."
 
 #: js/src/password/Password.js:218
-#, fuzzy
 msgid "Password cannot have more than 128 symbols."
-msgstr "Der TLS-Pin muss mindestens ein Zeichen enthalten."
+msgstr "Das Passwort kann nicht mehr als 128 Zeichen enthalten."
 
 #: js/src/password/RootPasswordForm.js:51
-#, fuzzy
 msgid "Advanced Administration Password"
-msgstr "Neues erweitertes Administrationskennwort"
+msgstr "Erweitertes Administrationskennwort"
 
 #: js/src/password/RootPasswordForm.js:55
 #, python-format
@@ -2180,7 +2156,7 @@ msgstr ""
 
 #: js/src/wan/MACForm.js:17
 msgid "Colon is used as a separator, for example 00:11:22:33:44:55"
-msgstr "Doppelpunkte werden als Trennzeichen verwendet, z.B. 00:11:22:22:33:44:55"
+msgstr "Doppelpunkte werden als Trennzeichen verwendet, z. B. 00:11:22:33:44:55"
 
 #: js/src/wan/MACForm.js:20
 msgid "MAC address of the WAN interface."
@@ -2353,7 +2329,7 @@ msgstr "Präfix"
 
 #: js/src/wan/WAN6Form.js:304
 msgid "Public IPv4"
-msgstr "Öffentliche IPv4"
+msgstr "Öffentliche IPv4-Adresse"
 
 #: js/src/wan/WAN6Form.js:338
 msgid "Provider IPv4"
@@ -2404,7 +2380,7 @@ msgstr "PAP/CHAP-Benutzername"
 
 #: js/src/wan/WANForm.js:139
 msgid "PAP/CHAP password"
-msgstr "PAP/CHAP-Kennwort"
+msgstr "PAP/CHAP-Passwort"
 
 #: js/src/wifi/WiFi.js:27
 msgid "Unfortunately, we were unable to detect any wireless cards in your router."
@@ -2479,7 +2455,7 @@ msgstr ""
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
-msgstr ""
+msgstr "Falsches aktuelles Passwort."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:117
 msgid ""
@@ -3032,4 +3008,3 @@ msgstr ""
 #~ " the internet (you can use the "
 #~ "connection test below)."
 #~ msgstr ""
-
