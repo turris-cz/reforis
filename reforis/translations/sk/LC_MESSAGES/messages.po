@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2023-03-18 09:37+0000\n"
+"PO-Revision-Date: 2023-06-15 17:49+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.18.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -1320,7 +1320,7 @@ msgstr "Administrácia"
 
 #: js/src/main/pages.js:74 js/src/main/pages.js:165
 msgid "Region & Time"
-msgstr "Oblasť a čas"
+msgstr "Región a čas"
 
 #: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:78
 #: js/src/main/pages.js:79 js/src/main/pages.js:170
@@ -2218,7 +2218,7 @@ msgstr ""
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
-msgstr "Oblasť a čas"
+msgstr "Región a čas"
 
 #: js/src/regionAndTime/RegionAndTime.js:33
 msgid ""
