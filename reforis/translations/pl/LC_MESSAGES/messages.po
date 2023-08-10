@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2023-04-11 14:52+0000\n"
-"Last-Translator: Arusekk <arek_koz@o2.pl>\n"
+"PO-Revision-Date: 2023-08-11 23:56+0000\n"
+"Last-Translator: Piotr Orzechowski <piotr@orzechowski.tech>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/turris/reforis/pl/"
 ">\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -1382,7 +1382,7 @@ msgstr "Odrzuć wszystko"
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:51
 msgid "Reboot Required"
-msgstr "Wymagany restart"
+msgstr "Wymagane ponowne uruchomienie"
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:63
 #: js/src/overview/Cards/NetmetrCard.js:129
@@ -1479,7 +1479,7 @@ msgstr "Włącz przechowywanie dzienników systemowych"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
-msgstr "Wymagany restart"
+msgstr "Wymagane ponowne uruchomienie"
 
 #: js/src/notificationsSettings/CommonForm.js:18
 msgid "Reboot or attention is required"
@@ -2335,8 +2335,8 @@ msgid ""
 "Please report this error to our support team via e-mail: <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 msgstr ""
-"Zgłoś ten błąd naszemu zespołowi pomocy technicznej pocztą elektroniczną: <a "
-"href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
+"Prosimy zgłosić ten błąd naszemu zespołowi obsługi na adres <a href=\"mailto"
+":tech.support@turris.cz\">tech.support@turris.cz</a>."
 
 #: js/src/wan/MACForm.js:14
 msgid ""
