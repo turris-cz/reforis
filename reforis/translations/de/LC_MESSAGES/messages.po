@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
 "PO-Revision-Date: 2023-08-15 13:48+0000\n"
-"Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
+"Last-Translator: Marcus Wellendorf <wellendorf@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris/reforis/de/"
 ">\n"
 "Language: de\n"
@@ -363,7 +363,7 @@ msgstr "Löschen"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:149
 msgid "Set Static"
-msgstr ""
+msgstr "Statische IP setzen"
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:47
 msgid "Static lease added successfully."
