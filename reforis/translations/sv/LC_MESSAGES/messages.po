@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2023-09-03 00:59+0000\n"
+"PO-Revision-Date: 2023-09-04 17:56+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/turris/reforis/"
 "sv/>\n"
@@ -368,8 +368,9 @@ msgid "Static lease added successfully."
 msgstr ""
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:58
+#, fuzzy
 msgid "Static saved successfully."
-msgstr ""
+msgstr "Sparningen av statisk lyckades."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
 msgid "Hostname cannot be empty."
@@ -401,7 +402,7 @@ msgstr "IPv4-anslutbarhet"
 
 #: js/src/connectionTest/ConnectionTestResult.js:17
 msgid "IPv4 gateway connectivity"
-msgstr ""
+msgstr "Anslutningsbarhet för IPv4-gateway"
 
 #: js/src/connectionTest/ConnectionTestResult.js:18
 msgid "IPv6 connectivity"
@@ -409,7 +410,7 @@ msgstr "IPv6-anslutbarhet"
 
 #: js/src/connectionTest/ConnectionTestResult.js:19
 msgid "IPv6 gateway connectivity"
-msgstr ""
+msgstr "Anslutningsbarhet av IPv6-gateway"
 
 #: js/src/connectionTest/ConnectionTestResult.js:85
 msgid "Connection test successful"
@@ -429,6 +430,9 @@ msgid ""
 "capable of working independently or it can forward your DNS queries your "
 "internet service provider's DNS resolver."
 msgstr ""
+"Turris-routern använder sin egen DNS-resolver med DNSSEC-stöd. Den är "
+"kapabel att fungera oberoende eller så kan den vidarebefordra dina DNS-"
+"förfrågningar till din internetleverantör's DNS-resolver."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -459,12 +463,18 @@ msgid ""
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
+"Här kan du testa din internetanslutning. Det här testet är också användbart "
+"när du behöver kontrollera att din DNS-lösning fungera som förväntat. Kom "
+"ihåg att klicka på <b>Spara</b>-knappen om du har ändrat inställningarna för "
+"din vidarebefordrare."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
 "This will enable your DNS resolver to place DHCP client's names among the"
 " local DNS records."
 msgstr ""
+"Det här kommer att aktivera din DNS-resolver att placera DHCP-klienternas "
+"namn bland de lokala DNS-inrapporteringarna."
 
 #: js/src/dns/DNSForm.js:20
 msgid ""
