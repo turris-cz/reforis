@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2023-08-15 13:48+0000\n"
-"Last-Translator: Marcus Wellendorf <wellendorf@posteo.de>\n"
+"PO-Revision-Date: 2023-09-07 12:54+0000\n"
+"Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris/reforis/de/"
 ">\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -1215,7 +1215,7 @@ msgstr "Netzwerk"
 
 #: js/src/interfaces/SelectedInterface.js:80
 msgid "State"
-msgstr "Zustand"
+msgstr "Status"
 
 #: js/src/interfaces/SelectedInterface.js:91
 msgid "Module ID"
