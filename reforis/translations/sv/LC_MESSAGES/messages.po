@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2022-10-19 11:28+0000\n"
-"Last-Translator: Kristoffer Grundström "
-"<swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2023-09-04 17:56+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/turris/reforis/"
+"sv/>\n"
 "Language: sv\n"
-"Language-Team: Swedish "
-"<https://hosted.weblate.org/projects/turris/reforis/sv/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -52,9 +52,8 @@ msgid "Turris OS version"
 msgstr "Turris OS-version"
 
 #: js/src/about/About.js:77
-#, fuzzy
 msgid "Turris OS branch"
-msgstr "Turris OS-gren"
+msgstr "Gren för Turris OS"
 
 #: js/src/about/About.js:80
 msgid ""
@@ -179,7 +178,7 @@ msgstr "DHCP-start"
 
 #: js/src/common/network/DHCPServerForm.js:57
 msgid "DHCP max leases"
-msgstr ""
+msgstr "Maximalt antal DHCP-tilldelningar"
 
 #: js/src/common/network/DHCPServerForm.js:58
 msgid "Maximum number of addresses available for DHCP clients."
@@ -208,9 +207,8 @@ msgid "Minimum lease time is 1 hour."
 msgstr "Minsta tilldelningstid är 1 timme."
 
 #: js/src/common/network/DHCPValidators.js:115
-#, fuzzy
 msgid "Address is outside current network."
-msgstr "Adressen är utanför det nuvarande nätverket."
+msgstr "Adressen är utanför det akutella nätverket."
 
 #: js/src/common/network/DHCPValidators.js:119
 msgid "Address is already reserved for other purposes."
@@ -219,23 +217,22 @@ msgstr "Adressen är redan reserverat för andra ändamål."
 #: js/src/common/network/DHCPValidators.js:130
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr ""
+"För många adresser begärdes. Ställ i en lägre siffra eller byt DHCP-start."
 
 #: js/src/common/network/DHCPValidators.js:137
-#, fuzzy
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
-"Den enda DHCP-tilldelningen är samma som routerns adress. Öka gränsen "
-"eller byt startadress."
+"Den enda DHCP-tilldelningen är samma som routerns adress. Öka gränsen eller "
+"byt startadress."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
-#, fuzzy
 msgid ""
 "DNS server address is not required as the built-in DNS resolver is "
 "capable of working without it."
 msgstr ""
-"DNS-serverns adress krävs inte då den inbyggda DNS-förtolkaren kan "
+"DNS-serverns adress krävs inte då den inbyggda DNS-resolvern är kapabel att "
 "fungera utan den."
 
 #: js/src/common/network/StaticIPForm.js:50
@@ -248,7 +245,6 @@ msgid "Network mask"
 msgstr "Nätverksmask"
 
 #: js/src/common/network/StaticIPForm.js:70 js/src/wan/WAN6Form.js:243
-#, fuzzy
 msgid "Gateway"
 msgstr "Gateway"
 
@@ -310,9 +306,8 @@ msgid "Device is inactive"
 msgstr "Enheten är inaktiv"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
-#, fuzzy
 msgid "Edit static lease"
-msgstr "Redigera statisk tilldelningstid"
+msgstr "Redigera statisk tilldelning"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:59
 msgid "Set static lease"
@@ -373,8 +368,9 @@ msgid "Static lease added successfully."
 msgstr ""
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:58
+#, fuzzy
 msgid "Static saved successfully."
-msgstr ""
+msgstr "Sparningen av statisk lyckades."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
 msgid "Hostname cannot be empty."
@@ -389,9 +385,8 @@ msgid "MAC address cannot be empty."
 msgstr "MAC-adress kan inte vara tomt."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
-#, fuzzy
 msgid "Test is running…"
-msgstr "Testet körs..."
+msgstr "Testet körs…"
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
 msgid "Test connection again"
@@ -407,7 +402,7 @@ msgstr "IPv4-anslutbarhet"
 
 #: js/src/connectionTest/ConnectionTestResult.js:17
 msgid "IPv4 gateway connectivity"
-msgstr ""
+msgstr "Anslutningsbarhet för IPv4-gateway"
 
 #: js/src/connectionTest/ConnectionTestResult.js:18
 msgid "IPv6 connectivity"
@@ -415,7 +410,7 @@ msgstr "IPv6-anslutbarhet"
 
 #: js/src/connectionTest/ConnectionTestResult.js:19
 msgid "IPv6 gateway connectivity"
-msgstr ""
+msgstr "Anslutningsbarhet av IPv6-gateway"
 
 #: js/src/connectionTest/ConnectionTestResult.js:85
 msgid "Connection test successful"
@@ -435,6 +430,9 @@ msgid ""
 "capable of working independently or it can forward your DNS queries your "
 "internet service provider's DNS resolver."
 msgstr ""
+"Turris-routern använder sin egen DNS-resolver med DNSSEC-stöd. Den är "
+"kapabel att fungera oberoende eller så kan den vidarebefordra dina DNS-"
+"förfrågningar till din internetleverantör's DNS-resolver."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -465,12 +463,18 @@ msgid ""
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
+"Här kan du testa din internetanslutning. Det här testet är också användbart "
+"när du behöver kontrollera att din DNS-lösning fungera som förväntat. Kom "
+"ihåg att klicka på <b>Spara</b>-knappen om du har ändrat inställningarna för "
+"din vidarebefordrare."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
 "This will enable your DNS resolver to place DHCP client's names among the"
 " local DNS records."
 msgstr ""
+"Det här kommer att aktivera din DNS-resolver att placera DHCP-klienternas "
+"namn bland de lokala DNS-inrapporteringarna."
 
 #: js/src/dns/DNSForm.js:20
 msgid ""
@@ -2116,8 +2120,8 @@ msgid ""
 "Please report this error to our support team via e-mail: <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 msgstr ""
-"Vänligen rapportera det här felet till vårat hjälp-team via e-post: <a "
-"href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
+"Vänligen rapportera det här felet till vårat hjälpteam via e-post: <a href="
+"\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 
 #: js/src/wan/MACForm.js:14
 msgid ""
@@ -2951,4 +2955,3 @@ msgstr "500 Server-fel"
 #~ " the internet (you can use the "
 #~ "connection test below)."
 #~ msgstr ""
-

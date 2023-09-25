@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2022-12-05 16:47+0000\n"
+"PO-Revision-Date: 2023-06-15 17:49+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.18.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -171,7 +171,7 @@ msgid ""
 "Enable this option to automatically assign IP addresses to the devices "
 "connected to the router."
 msgstr ""
-"Zapnutím tejto voľby sa povoľuje automatické prideľovanie IP adries "
+"Aktiváciou tejto voľby sa povolí automatické prideľovanie IP adries "
 "zariadeniam pripojeným k routeru."
 
 #: js/src/common/network/DHCPServerForm.js:47
@@ -430,9 +430,9 @@ msgid ""
 "capable of working independently or it can forward your DNS queries your "
 "internet service provider's DNS resolver."
 msgstr ""
-"Router Turris používa vlastný DNS prekladač (resolver) s podporou DNSSEC."
-" Dokáže pracovať nezávisle, alebo môže vaše DNS dopyty presmerovať na DNS"
-" prekladač poskytovateľa internetových služieb."
+"Router Turris používa vlastný DNS prekladač (resolver) s podporou DNSSEC. "
+"Dokáže pracovať nezávisle, alebo môže vaše DNS požiadavky presmerovať na DNS "
+"prekladač poskytovateľa internetových služieb."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -1095,7 +1095,7 @@ msgstr "Prepísať sieťový názov na nový."
 
 #: js/src/hostname/HostnameForm.js:34
 msgid "Hostname Settings"
-msgstr "Nastavenia sieťového názvu"
+msgstr "Nastavenie sieťového názvu"
 
 #: js/src/hostname/HostnameForm.js:36
 msgid "Device hostname"
@@ -1320,7 +1320,7 @@ msgstr "Administrácia"
 
 #: js/src/main/pages.js:74 js/src/main/pages.js:165
 msgid "Region & Time"
-msgstr "Oblasť a čas"
+msgstr "Región a čas"
 
 #: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:78
 #: js/src/main/pages.js:79 js/src/main/pages.js:170
@@ -2218,7 +2218,7 @@ msgstr ""
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
-msgstr "Oblasť a čas"
+msgstr "Región a čas"
 
 #: js/src/regionAndTime/RegionAndTime.js:33
 msgid ""
@@ -2332,15 +2332,15 @@ msgid ""
 "Please report this error to our support team via e-mail: <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 msgstr ""
-"Prosím, oznámte túto chybu nášmu tímu podpory e-mailom na: <a "
-"href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
+"Prosím, ohláste túto chybu našej technickej podpore na e-mail: <a href="
+"\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 
 #: js/src/wan/MACForm.js:14
 msgid ""
 "Useful in cases, when a specific MAC address is required by your internet"
 " service provider."
 msgstr ""
-"Užitočné v prípadoch, keď poskytovateľ internetového pripojenia vyžaduje "
+"Používa sa v prípadoch, keď poskytovateľ internetového pripojenia vyžaduje "
 "konkrétnu MAC adresu."
 
 #: js/src/wan/MACForm.js:17
@@ -2372,7 +2372,7 @@ msgid ""
 "Useful in cases when a specific VLAN ID is required by your internet "
 "service provider."
 msgstr ""
-"Užitočné v prípadoch, keď poskytovateľ internetového pripojenia vyžaduje "
+"Používa sa v prípadoch, keď poskytovateľ internetového pripojenia vyžaduje "
 "konkrétny VLAN ID."
 
 #: js/src/wan/VLANForm.js:17
