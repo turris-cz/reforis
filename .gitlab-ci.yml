@@ -1,4 +1,4 @@
-image: python:3.10.2-slim
+image: registry.nic.cz/turris/reforis/reforis/reforis-image
 
 stages:
   - test
@@ -14,7 +14,6 @@ test:
     - make test
 
 test-js-build:
-  image: node:16-bullseye-slim
   stage: test
   script:
     - cd js
