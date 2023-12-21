@@ -40,7 +40,7 @@ setuptools.setup(
     install_requires=[
         'flask',
         'Babel',
-        'Flask-Babel==2.0.0',
+        'Flask-Babel',
         'Flask-SeaSurf',
         'flup',
         'cachelib',

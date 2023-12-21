@@ -120,7 +120,7 @@ def _get_translations(domain: str, with_plugins: bool = False) -> typing.Union[T
     babel = current_app.extensions['babel']
     translations = TranslationsHelper.load(
         # There is only one directory with translations in reForis so it's OK.
-        next(babel.translation_directories),
+        next(e for e in babel.translation_directories),
         [get_locale()],
         domain
     )

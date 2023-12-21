@@ -172,12 +172,12 @@ def set_locale(app):
 
     :param app: Flask (application)
     """
-    from flask_babel import Babel
-    babel = Babel(app)
 
-    @babel.localeselector
     def get_locale():
         return _get_locale_from_backend(app)
+
+    from flask_babel import Babel
+    Babel(app, locale_selector=get_locale)
 
     @app.context_processor
     def add_translations_catalog_to_ctx():
