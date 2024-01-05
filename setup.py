@@ -66,7 +66,6 @@ setuptools.setup(
             'pytest',
             'pycodestyle',
             'pylint',
-            'pylint-quotes',
             'werkzeug == 2.0.3',  # TODO remove when werkzeug is fixed see https://gitlab.nic.cz/turris/reforis/reforis/-/merge_requests/316#note_249166
         ],
         'build': [
