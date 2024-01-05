@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2024-01-04 23:09+0000\n"
+"PO-Revision-Date: 2024-01-06 21:06+0000\n"
 "Last-Translator: powerburner-nl <peter.mulder.1981@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/turris/reforis/nl/>"
 "\n"
@@ -113,15 +113,15 @@ msgstr "Ga naar boven"
 
 #: js/src/common/network/DHCP6Clients.js:25
 msgid "IPv6 DHCP Client List"
-msgstr "IPv6 DHCP-clientlijst"
+msgstr "DHCP-clientlijst (IPv6)"
 
 #: js/src/common/network/DHCP6Clients.js:27
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
-"Deze lijst bevat alle apparaten die verbonden zijn met het netwerk via "
-"bekabelde of draadloze verbindingen die IPv6 gebruiken."
+"Deze lijst bevat alle apparaten die via bekabelde of draadloze verbindingen "
+"verbonden zijn met het netwerk en die IPv6 gebruiken."
 
 #: js/src/common/network/DHCP6Clients.js:33
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:22
@@ -273,7 +273,7 @@ msgstr "Dit is geen geldig netwerkmasker."
 
 #: js/src/common/network/DHCPClients/DHCPClients.js:25
 msgid "DHCP Client List"
-msgstr "DHCP-clientlijst"
+msgstr "DHCP-clientlijst (IPv4)"
 
 #: js/src/common/network/DHCPClients/DHCPClients.js:27
 msgid ""
@@ -281,7 +281,7 @@ msgid ""
 "wired or wireless connections."
 msgstr ""
 "Deze lijst bevat alle apparaten die via bekabelde of draadloze verbindingen "
-"verbonden zijn met het netwerk."
+"verbonden zijn met het netwerk en die IPv4 gebruiken."
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
@@ -1127,8 +1127,8 @@ msgid ""
 msgstr ""
 "Hier kunt u de instellingen configureren van de netwerkinterfaces van uw "
 "apparaat. U kunt de fysieke netwerkinterfaces koppelen aan verschillende "
-"netwerken. Als u niet weet wat u hier moet instellen gebruikt u de standaard "
-"instellingen."
+"netwerken. Als u niet weet wat u hier moet instellen gebruik dan de "
+"standaard instellingen."
 
 #: js/src/interfaces/Interfaces.js:52
 msgid "You have to assign at least one interface to this group."
@@ -1139,7 +1139,7 @@ msgid ""
 "Ports are open on your WAN interface. It's better to reconfigure your "
 "interface settings to avoid security issues."
 msgstr ""
-"Er zijn open poorten op uw WAN-interface. Het is beter om uw interface "
+"Er staan poorten open op uw WAN-interface. Het is beter om uw interface "
 "opnieuw te configureren om beveiligingsproblemen te voorkomen."
 
 #: js/src/interfaces/InterfacesForm.js:111
@@ -1147,7 +1147,7 @@ msgid ""
 "It acts as an external network connection. Firewall rules should be "
 "applied here. It can only contain a single interface."
 msgstr ""
-"Het fungeert als een externe netwerkconnectie. Firewall regels dienen hier "
+"Het fungeert als een externe netwerkverbinding. Firewallregels dienen hier "
 "ingesteld te worden. Dit kan alleen een enkele interface bevatten."
 
 #: js/src/interfaces/InterfacesForm.js:123
@@ -1158,10 +1158,10 @@ msgid ""
 "should contain at least one interface. Otherwise, you might not be able "
 "to configure this device easily."
 msgstr ""
-"Het fungeert als een lokale netwerkconnectie. Het LAN dient alleen apparaten "
-"te verbinden die onder uw toezicht staan en u kunt vertrouwen. Deze "
-"apparaten kunnen elkaar zien en kunnen deze web-interface benaderen. Het is "
-"aanbevolen dat het LAN-netwerk in ieder geval één netwerkinterface bevat, "
+"Het fungeert als een lokale netwerkverbinding. Het LAN dient alleen "
+"apparaten te verbinden die onder uw toezicht staan en u kunt vertrouwen. "
+"Deze apparaten kunnen elkaar zien en kunnen deze web-interface benaderen. "
+"Het is aanbevolen dat het LAN in ieder geval één netwerkinterface bevat, "
 "anders kunt u dit apparaat niet op een gemakkelijke manier configureren."
 
 #: js/src/interfaces/InterfacesForm.js:139
@@ -1172,12 +1172,12 @@ msgid ""
 "that you don't fully trust. Note that you can also limit the "
 "download/upload speed of the devices connected to the guest network."
 msgstr ""
-"Het fungeert als een lokale netwerkconnectie. In tegenstelling tot het LAN-"
-"netwerk kunnen de apparaten in het gastnetwerk niet de configuratie-"
-"interface van dit apparaat benaderen. Deze apparaten kunnen alleen het WAN "
-"(internet) benaderen. Dit netwerk is daarom geschikt voor apparaten die u "
-"niet volledig vertrouwd. Merk op dat u ook de download- en uploadsnelheid "
-"van de aangesloten apparaten op het gastnetwerk kunt beperken."
+"Het fungeert als een lokale netwerkverbinding. In tegenstelling tot het LAN "
+"kunnen de apparaten in het gastnetwerk niet de configuratie-interface van "
+"dit apparaat benaderen. Deze apparaten kunnen alleen het WAN (internet) "
+"benaderen. Dit netwerk is daarom geschikt voor apparaten die u niet volledig "
+"vertrouwd. Merk op dat u ook de download- en uploadsnelheid van de "
+"aangesloten apparaten op het gastnetwerk kunt beperken."
 
 #: js/src/interfaces/Network.js:43
 msgid "There are no interfaces in this group."
@@ -1207,7 +1207,7 @@ msgstr "Status"
 
 #: js/src/interfaces/SelectedInterface.js:91
 msgid "Module ID"
-msgstr "Module ID"
+msgstr "Module-ID"
 
 #: js/src/interfaces/SelectedInterface.js:95
 msgid "Slot"
@@ -1215,7 +1215,7 @@ msgstr "Slot"
 
 #: js/src/interfaces/SelectedInterface.js:99
 msgid "Interface ID"
-msgstr "Interface ID"
+msgstr "Interface-ID"
 
 #: js/src/interfaces/SelectedInterface.js:103
 msgid "Type"
@@ -1243,6 +1243,8 @@ msgid ""
 "This section contains settings for the local network (LAN). The provided "
 "defaults are suitable for most networks."
 msgstr ""
+"Dit gedeelte bevat instellingen voor het lokale netwerk (LAN). De "
+"standaardinstellingen zijn geschikt voor de meeste netwerken."
 
 #: js/src/lan/LAN.js:29
 msgid ""
@@ -1254,12 +1256,22 @@ msgid ""
 "obtain a new IP from DHCP (if DHCP is enabled), and you might need to "
 "<b>refresh the page</b> in your browser."
 msgstr ""
+"<b>Opmerking:</b> Als u het IP-adres van de router wijzigt, moeten alle "
+"computers in het LAN, waarschijnlijk inclusief de computer die u nu "
+"gebruikt, een <b>nieuw IP-adres</b> krijgen, wat niet <b>onmiddellijk</b> "
+"gebeurt. Het is aan te raden om alle LAN-kabels los te koppelen en weer aan "
+"te sluiten nadat de wijzigingen zijn toegepast om de update te forceren. De "
+"volgende pagina wordt pas geladen als er een nieuw IP-adres is verkregen van "
+"DHCP (als DHCP is ingeschakeld) en het kan zijn dat u <b>de pagina moet "
+"verversen</b> in de browser."
 
 #: js/src/lan/LANForm.js:19
 msgid ""
 "Router mode means that this device manages the LAN (acts as a router, can"
 " assign IP addresses, etc.)."
 msgstr ""
+"Routermodus betekent dat dit apparaat het LAN beheert (fungeert als router, "
+"kan IP-adressen toewijzen, enz.)."
 
 #: js/src/lan/LANForm.js:22
 msgid ""
@@ -1267,6 +1279,9 @@ msgid ""
 " acts similarly to WAN, but it has opened ports for configuration "
 "interfaces and other services."
 msgstr ""
+"Computermodus betekent dat dit apparaat zich als client gedraagt in dit "
+"netwerk. Het gedraagt zich hetzelfde als WAN, maar het heeft poorten geopend "
+"voor configuratie-interfaces en andere diensten."
 
 #: js/src/lan/LANForm.js:34
 msgid "Computer"
@@ -1278,7 +1293,7 @@ msgstr "LAN-instellingen"
 
 #: js/src/lan/LANForm.js:87
 msgid "LAN mode"
-msgstr "LAN-mode"
+msgstr "LAN-modus"
 
 #: js/src/lan/LANForm.js:103
 msgid "Redirect to 192.168.1.1"
@@ -1320,7 +1335,7 @@ msgstr "Beheer"
 
 #: js/src/main/pages.js:74 js/src/main/pages.js:165
 msgid "Region & Time"
-msgstr "Regio en Tijd"
+msgstr "Regio en tijd"
 
 #: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:78
 #: js/src/main/pages.js:79 js/src/main/pages.js:170
@@ -1332,15 +1347,15 @@ msgstr "Meldingen"
 #: js/src/main/pages.js:84 js/src/main/pages.js:175
 #: js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
-msgstr ""
+msgstr "Onderhoud"
 
 #: js/src/main/pages.js:96
 msgid "Global Threat Statistics"
-msgstr ""
+msgstr "Statistieken over wereldwijde bedreigingen"
 
 #: js/src/main/pages.js:122 js/src/wifi/WiFi.js:40
 msgid "Wi-Fi"
-msgstr "WiFi"
+msgstr "Wi-Fi"
 
 #: js/src/main/pages.js:187
 msgid "Package Management"
