@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2024-01-06 21:06+0000\n"
+"PO-Revision-Date: 2024-01-07 22:06+0000\n"
 "Last-Translator: powerburner-nl <peter.mulder.1981@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/turris/reforis/nl/>"
 "\n"
@@ -1412,7 +1412,7 @@ msgid ""
 " page."
 msgstr ""
 "Zie de <a href=${ForisURLs.packageManagement.updates}>Updates</a> pagina "
-"voor meer details."
+"voor meer informatie."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
 #: js/src/packageManagement/updates/UpdateApproval.js:129
@@ -1426,7 +1426,7 @@ msgstr "Kan updates niet installeren."
 
 #: js/src/maintenance/FactoryReset.js:17
 msgid "Factory Reset"
-msgstr ""
+msgstr "Fabrieksinstellingen herstellen"
 
 #: js/src/maintenance/FactoryReset.js:19
 msgid ""
