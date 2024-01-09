@@ -8,13 +8,38 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [1.5.0] - 2024-01-09
+
+### Added
+
+-   Added & updated Weblate translations
+-   Added custom reforis image for CI/CD
+-   Added node-sass & sass-loader
+-   Added & wrapped content with CustomizationContext
+
+### Changed
+
+-   Refactored Main page & use CustomizationContext
+-   Used CustomizationContext on About page
+-   Updated Foris JS library to v5.6.0
+-   Updated eslint, prettier, eslint-config-reforis
+-   Used custom reforis-image in GitLab CI
+-   Unpinned Flask-Babel and applied some changes so it can run in TOS 7.X
+-   Logging fixes
+-   NPM audit fix
+-   Some other changes & improvements
+
+### Removed
+
+-   Dropped pylint-quotes
+
 ## [1.4.1] - 2022-12-12
 
 ### Added
 
 -   Added & updated Weblate translations
 -   Added mac address to SelectedInterface
--   Displaed interfaces with VLAN ID on Interfaces page
+-   Displayed interfaces with VLAN ID on Interfaces page
 
 ## [1.4.0] - 2022-12-02
 
@@ -83,7 +108,7 @@ and this project adheres to
 
 -   Improved handling of loading translations
 -   Refined Makefile
--   Updated required NodeJS versiont to 14.x
+-   Updated required NodeJS version to 14.x
 -   Updated Python image to v3.10.2
 -   Updated Node.js image to v14
 -   Updated Foris JS library to v5.3.0
@@ -269,7 +294,7 @@ and this project adheres to
 -   Add URLs for packages
 -   Add Overview tests
 -   Add tests for Cards
--   Add hihglight for notifications
+-   Add highlight for notifications
 -   Fix navigation collapse
 -   Fix Update Dropdown refresh
 -   Add react tooltips
@@ -342,13 +367,13 @@ and this project adheres to
 
 -   Improve tests.
 -   Optimize CSS.
--   Make menu collapsable on mobile devies.
+-   Make menu collapsible on mobile devices.
 -   Get rid of using external fonts from CSS.
 -   Fix handling of empty controller_id.
 -   Fix a lot of typos.
 -   Improve finish page of wizard.
 -   Add "external" icon to LuCI link.
--   Improve working with datatime.
+-   Improve working with datetime.
 
 ## [0.7.1] - 2020-02-20
 
@@ -365,10 +390,10 @@ and this project adheres to
 -   Support calling of specific controller.
 -   Expose react-router.
 -   Get rid of flask-sessions dependencies.
--   Improve validaion of DHCP settings.
--   Display branch of TurisOS in About page.
+-   Improve validation of DHCP settings.
+-   Display branch of TurrisOS in About page.
 -   Fix bug with repeated connection test.
--   Fix "Importance" value in email notificaions settings.
+-   Fix "Importance" value in email notifications settings.
 -   Alert placement.
 -   Dropdown menu on small devices.
 -   Network restart handling.
@@ -417,7 +442,7 @@ and this project adheres to
 
 -   Add reboot is required button.
 -   New plugin integration.
--   Better esliter rules.
+-   Better eslinter rules.
 -   Bugfixes.
 
 ## [0.4.1] - 2019-08-07
@@ -441,7 +466,7 @@ and this project adheres to
 
 ## [0.3.4] - 2019-07-11
 
--   Remove fixed verstions from setup.py.
+-   Remove fixed versions from setup.py.
 
 ## [0.3.3] - 2019-07-10
 
@@ -461,8 +486,8 @@ and this project adheres to
 ## [0.3] - 2019-06-26
 
 -   Network interfaces page.
--   DHCP clietns list.
--   Skecth of guide.
+-   DHCP clients list.
+-   Sketch of guide.
 -   Tests.
 -   fcgi server command.
 -   Fix a lot of bugs.
@@ -475,7 +500,8 @@ and this project adheres to
 
 -   Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.4.1...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.5.0...master
+[1.5.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.4.1...v1.5.0
 [1.4.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.4.0...v1.4.1
 [1.4.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.3.1...v1.4.0
 [1.3.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.3.0...v1.3.1
