@@ -7,6 +7,8 @@
 
 const path = require("path");
 
+const webpack = require("webpack");
+
 module.exports = {
     title: "reForis JS docs",
     sections: [
@@ -73,6 +75,9 @@ module.exports = {
                 path.resolve(__dirname, "./src"),
                 path.resolve(__dirname, "./node_modules"),
             ],
+            alias: {
+                process: "process/browser",
+            },
         },
         module: {
             rules: [
@@ -91,5 +96,12 @@ module.exports = {
                 },
             ],
         },
+        plugins: [
+            new webpack.ProvidePlugin({
+                process: "process/browser",
+            }),
+        ],
     },
+    // Get rid of AssertionError, https://github.com/reactjs/react-docgen/issues/497
+    resolver: require("react-docgen").resolver.findAllComponentDefinitions,
 };
