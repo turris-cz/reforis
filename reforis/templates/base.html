@@ -9,12 +9,13 @@
     <link rel="icon" type="image/png" href="{{ url_for('static', filename='reforis/imgs/favicon.png') }}">
 
     {# CSS #}
-    <link rel="stylesheet" href="{{ url_for('static', filename = 'reforis/css/app.css') | autoversion }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'reforis/css/main.css') | autoversion }}" />
     <script>FontAwesomeConfig = { autoReplaceSvg: 'nest' }</script>
     {# JS #}
     {% include 'includes/locale.html' %}
     {% include 'includes/plugins.html' %}
-    <script type="text/javascript" src="{{ url_for('static', filename = 'reforis/js/app.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename = 'reforis/js/vendors.min.js') | autoversion }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename = 'reforis/js/main.min.js') | autoversion }}"></script>
     {% block js %}{% endblock %}
 
     <title>{% block title %}{% endblock %}reForis | Turris</title>
