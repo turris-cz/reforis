@@ -38,7 +38,7 @@ setuptools.setup(
     author='CZ.NIC, z.s.p.o. (https://www.nic.cz/)',
     author_email='software@turris.com',
     install_requires=[
-        'flask',
+        'flask < 3.0.0',
         'Babel',
         'Flask-Babel',
         'Flask-SeaSurf',
@@ -66,7 +66,7 @@ setuptools.setup(
             'pytest',
             'pycodestyle',
             'pylint',
-            'werkzeug == 2.0.3',  # TODO remove when werkzeug is fixed see https://gitlab.nic.cz/turris/reforis/reforis/-/merge_requests/316#note_249166
+            'werkzeug',
         ],
         'build': [
             'Sphinx',
