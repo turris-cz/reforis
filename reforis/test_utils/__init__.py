@@ -45,14 +45,18 @@ def _test_api_endpoint_foris_controller_call(
         response_mock_data.update({module: {action: response_data}})
 
     # We want to add dict value again because we don't know if module and action specified inside of dict or not.
-    if type(response_data) is dict:
+    if isinstance(response_data, dict):
         response_mock_data.update(response_data)
 
     with mock_backend_response(response_mock_data) as mock_send:
-        response = getattr(client, method)(url, json=request_data)
+        response = getattr(client, method)(
+            url,
+            json=request_data or {},
+            headers={"Content-Type": "application/json"},
+        )
 
-    assert response.status_code == response_code
-    _check_called_foris_controller_module(mock_send, module, action)
+        assert response.status_code == response_code
+        _check_called_foris_controller_module(mock_send, module, action)
 
 
 def _check_called_foris_controller_module(sender_mock, module, action):

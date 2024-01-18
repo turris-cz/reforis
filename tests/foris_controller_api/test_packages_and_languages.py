@@ -17,7 +17,11 @@ def test_post_packages_updates_enabled(client):
         },
     }
     with mock_backend_response(backend_response):
-        response = client.post('/api/packages')
+        response = client.post(
+            '/api/packages',
+            headers={"Content-Type": "application/json"},
+            json={},
+        )
     assert response.status_code == HTTPStatus.OK
 
 
@@ -43,7 +47,11 @@ def test_post_language_packages_updates_enabled(client):
         },
     }
     with mock_backend_response(backend_response):
-        response = client.post('/api/language-packages')
+        response = client.post(
+            '/api/language-packages',
+            headers={"Content-Type": "application/json"},
+            json={},
+        )
     assert response.status_code == HTTPStatus.OK
 
 
@@ -56,5 +64,9 @@ def test_post_language_packages_updates_disabled_error(client):
         },
     }
     with mock_backend_response(backend_response):
-        response = client.post('/api/language-packages')
+        response = client.post(
+            '/api/language-packages',
+            headers={"Content-Type": "application/json"},
+            json={},
+        )
     assert response.status_code == HTTPStatus.BAD_REQUEST

@@ -24,8 +24,7 @@ from reforis.test_utils import _test_api_endpoint_foris_controller_call
             },
             'ip': '192.168.2.4',
             'netmask': '255.255.255.0'
-            }
-        ),
+        }),
         ('interfaces', 'networks', 'get_settings', {'device': ''}),
 
         ('notifications', 'router_notifications', 'list', {'notifications': []}),
@@ -59,9 +58,11 @@ from reforis.test_utils import _test_api_endpoint_foris_controller_call
 def test_api_get_endpoint_foris_controller_calls(client, endpoint, module, action, response_data):
     _test_api_endpoint_foris_controller_call(
         client,
-        f'api/{endpoint}', 'get',
-        module, action,
-        response_data=response_data
+        f'api/{endpoint}',
+        'get',
+        module,
+        action,
+        response_data=response_data,
     )
 
 
