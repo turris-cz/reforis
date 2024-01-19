@@ -22,10 +22,12 @@ exports[`<NotificationsSettings/> <TestNotification/> Displaying test notificati
       class="text-right"
     >
       <button
-        class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="button"
       >
-        Send test notification
+        <span>
+          Send test notification
+        </span>
       </button>
     </div>
   </div>
@@ -49,10 +51,12 @@ exports[`<NotificationsSettings/> <TestNotification/> No test notification impor
       class="text-right"
     >
       <button
-        class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="button"
       >
-        Send test notification
+        <span>
+          Send test notification
+        </span>
       </button>
     </div>
   </div>
@@ -76,10 +80,12 @@ exports[`<NotificationsSettings/> <TestNotification/> No test notification impor
       class="text-right"
     >
       <button
-        class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="button"
       >
-        Send test notification
+        <span>
+          Send test notification
+        </span>
       </button>
     </div>
   </div>
@@ -108,10 +114,12 @@ exports[`<NotificationsSettings/> <TestNotification/> Should toggle unsaved chan
       class="text-right"
     >
       <button
-        class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="button"
       >
-        Send test notification
+        <span>
+          Send test notification
+        </span>
       </button>
     </div>
   </div>
@@ -157,10 +165,12 @@ exports[`<NotificationsSettings/> Disabled 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -515,10 +525,12 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -544,10 +556,12 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="button"
         >
-          Send test notification
+          <span>
+            Send test notification
+          </span>
         </button>
       </div>
     </div>
@@ -596,16 +610,20 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
             class="modal-footer"
           >
             <button
-              class="btn btn-primary "
+              class="btn btn-primary d-inline-flex justify-content-center align-items-center"
               type="button"
             >
-              Cancel
+              <span>
+                Cancel
+              </span>
             </button>
             <button
-              class="btn btn-danger"
+              class="btn btn-danger d-inline-flex justify-content-center align-items-center"
               type="button"
             >
-              Confirm
+              <span>
+                Confirm
+              </span>
             </button>
           </div>
         </div>
@@ -807,10 +825,12 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -836,10 +856,12 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="button"
         >
-          Send test notification
+          <span>
+            Send test notification
+          </span>
         </button>
       </div>
     </div>
@@ -888,16 +910,20 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
             class="modal-footer"
           >
             <button
-              class="btn btn-primary "
+              class="btn btn-primary d-inline-flex justify-content-center align-items-center"
               type="button"
             >
-              Cancel
+              <span>
+                Cancel
+              </span>
             </button>
             <button
-              class="btn btn-danger"
+              class="btn btn-danger d-inline-flex justify-content-center align-items-center"
               type="button"
             >
-              Confirm
+              <span>
+                Confirm
+              </span>
             </button>
           </div>
         </div>

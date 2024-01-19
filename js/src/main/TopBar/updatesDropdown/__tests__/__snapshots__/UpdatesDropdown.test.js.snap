@@ -69,10 +69,12 @@ exports[`<UpdatesDropdown/> Updates awaiting - snapshot 1`] = `
         class="dropdown-item text-center"
       >
         <button
-          class="btn btn-primary w-100"
+          class="btn btn-primary w-100 d-inline-flex justify-content-center align-items-center"
           type="button"
         >
-          Install now
+          <span>
+            Install now
+          </span>
         </button>
       </div>
     </div>

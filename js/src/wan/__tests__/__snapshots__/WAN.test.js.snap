@@ -88,13 +88,13 @@ exports[`<WAN/> Snapshot WAN IPv4 (PPPoE). 1`] = `
           class=\\"text-right\\"
         >
           <button
-            class=\\"btn btn-primary  col-sm-12 col-md-3 col-lg-2\\"
+            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           disabled=\\"\\"
             type=\\"submit\\"
           >
-            Save
-          </button>
-        </div>"
+            <span>
+              Save
+            </span>"
 `;
 
 exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
@@ -239,13 +239,13 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
           class=\\"text-right\\"
         >
           <button
-            class=\\"btn btn-primary  col-sm-12 col-md-3 col-lg-2\\"
+            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           disabled=\\"\\"
             type=\\"submit\\"
           >
-            Save
-          </button>
-        </div>"
+            <span>
+              Save
+            </span>"
 `;
 
 exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
@@ -504,13 +504,13 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
           class=\\"text-right\\"
         >
           <button
-            class=\\"btn btn-primary  col-sm-12 col-md-3 col-lg-2\\"
+            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           disabled=\\"\\"
             type=\\"submit\\"
           >
-            Save
-          </button>
-        </div>"
+            <span>
+              Save
+            </span>"
 `;
 
 exports[`<WAN/> Snapshot WAN IPv6 (6to4). 1`] = `
@@ -751,13 +751,13 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
           class=\\"text-right\\"
         >
           <button
-            class=\\"btn btn-primary  col-sm-12 col-md-3 col-lg-2\\"
+            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           disabled=\\"\\"
             type=\\"submit\\"
           >
-            Save
-          </button>
-        </div>"
+            <span>
+              Save
+            </span>"
 `;
 
 exports[`<WAN/> Snapshot: MAC enabled 1`] = `
@@ -835,13 +835,13 @@ exports[`<WAN/> Snapshot: MAC enabled 1`] = `
           class=\\"text-right\\"
         >
           <button
-            class=\\"btn btn-primary  col-sm-12 col-md-3 col-lg-2\\"
+            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           disabled=\\"\\"
             type=\\"submit\\"
           >
-            Save
-          </button>
-        </div>"
+            <span>
+              Save
+            </span>"
 `;
 
 exports[`<WAN/> Snapshot: VLAN enabled 1`] = `
@@ -907,7 +907,7 @@ exports[`<WAN/> Snapshot: VLAN enabled 1`] = `
           class=\\"text-right\\"
         >
           <button
-            class=\\"btn btn-primary  col-sm-12 col-md-3 col-lg-2\\"
+            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
             type=\\"submit\\""
 `;
 
@@ -1079,10 +1079,12 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -1187,10 +1189,12 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
         class="text-right"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Test connection
+          <span>
+            Test connection
+          </span>
         </button>
       </div>
     </form>

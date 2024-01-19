@@ -45,10 +45,12 @@ exports[`<RebootDropdown/> Test with snapshot 1`] = `
           </button>
         </a>
         <button
-          class="btn btn-danger"
+          class="btn btn-danger d-inline-flex justify-content-center align-items-center"
           type="button"
         >
-          Reboot
+          <span>
+            Reboot
+          </span>
         </button>
       </div>
     </div>

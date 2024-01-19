@@ -38,7 +38,7 @@ exports[`<DNS/> Test with snapshot DHCP. 1`] = `
           class=\\"text-right\\"
         >
           <button
-            class=\\"btn btn-primary  col-sm-12 col-md-3 col-lg-2\\"
+            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
             type=\\"submit\\""
 `;
 
@@ -47,7 +47,7 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 - First value
 + Second value
 
-@@ -44,10 +44,187 @@
+@@ -44,10 +44,193 @@
               Use forwarding
             </label>
           </div>
@@ -196,22 +196,26 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +                   role=\\"group\\"
 +                 >
 +                   <button
-+                     class=\\"btn btn-primary btn-sm\\"
++                     class=\\"btn btn-primary btn-sm d-inline-flex justify-content-center align-items-center\\"
 +                     type=\\"button\\"
 +                   >
-+                     <i
-+                       class=\\"fas fa-edit fa-sm mr-1\\"
-+                     />
-+                     Edit
++                     <span>
++                       <i
++                         class=\\"fas fa-edit fa-sm mr-1\\"
++                       />
++                       Edit
++                     </span>
 +                   </button>
 +                   <button
-+                     class=\\"btn btn-danger btn-sm\\"
++                     class=\\"btn btn-danger btn-sm d-inline-flex justify-content-center align-items-center\\"
 +                     type=\\"button\\"
 +                   >
-+                     <i
-+                       class=\\"fas fa-trash fa-sm mr-1\\"
-+                     />
-+                     Delete
++                     <span>
++                       <i
++                         class=\\"fas fa-trash fa-sm mr-1\\"
++                       />
++                       Delete
++                     </span>
 +                   </button>
 +                 </div>
 +               </td>
@@ -223,10 +227,12 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +         class=\\"text-right\\"
 +       >
 +         <button
-+           class=\\"btn btn-outline-success btn mb-3 mb-sm-2 mb-md-0 col-sm-12 col-md-3 col-lg-2\\"
++           class=\\"btn btn-outline-success btn mb-3 mb-sm-2 mb-md-0 col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           type=\\"button\\"
 +         >
-+           Add custom forwarder
++           <span>
++             Add custom forwarder
++           </span>
 +         </button>
 +       </div>
 +       <div
@@ -333,10 +339,12 @@ exports[`<DNS/> Test with snapshot. 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -403,10 +411,12 @@ exports[`<DNS/> Test with snapshot. 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Test connection
+          <span>
+            Test connection
+          </span>
         </button>
       </div>
     </form>

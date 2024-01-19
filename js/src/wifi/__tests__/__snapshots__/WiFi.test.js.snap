@@ -59,10 +59,12 @@ exports[`<WiFi/> Snapshot 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -80,10 +82,12 @@ exports[`<WiFi/> Snapshot 1`] = `
       class="text-right"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2"
+        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="button"
       >
-        Reset Wi-Fi Settings
+        <span>
+          Reset Wi-Fi Settings
+        </span>
       </button>
     </div>
   </div>
@@ -95,7 +99,7 @@ exports[`<WiFi/> Snapshot of Alert with a warning when no modules available. 1`]
 - First value
 + Second value
 
-@@ -4,67 +4,13 @@
+@@ -4,69 +4,13 @@
     </h1>
     <p>
       If you want to use your router as a Wi-Fi access point, enable Wi-Fi here and fill in an SSID (the name of the access point) and a corresponding password. You can then set up your mobile devices using the QR code available within the form.
@@ -109,7 +113,8 @@ exports[`<WiFi/> Snapshot of Alert with a warning when no modules available. 1`]
 -       >
 -         <div
 -           class=\\"custom-control custom-switch custom-control-inline switch-heading\\"
--         >
++     class=\\"alert  alert-warning\\"
+    >
 -           <input
 -             class=\\"custom-control-input\\"
 -             id=\\"1\\"
@@ -118,8 +123,7 @@ exports[`<WiFi/> Snapshot of Alert with a warning when no modules available. 1`]
 -           <label
 -             class=\\"custom-control-label\\"
 -             for=\\"1\\"
-+     class=\\"alert  alert-warning\\"
-    >
+-           >
 -             <h2>
 -               Wi-Fi 1
 -             </h2>
@@ -152,10 +156,12 @@ exports[`<WiFi/> Snapshot of Alert with a warning when no modules available. 1`]
 -         class=\\"text-right\\"
 -       >
 -         <button
--           class=\\"btn btn-primary  col-sm-12 col-md-3 col-lg-2\\"
+-           class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 -           type=\\"submit\\"
 -         >
--           Save
+-           <span>
+-             Save
+-           </span>
 -         </button>
 -       </div>
 -     </form>

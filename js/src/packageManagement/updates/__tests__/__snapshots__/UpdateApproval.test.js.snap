@@ -93,10 +93,12 @@ exports[`<UpdateApproval/> Updates awaiting - snapshot 1`] = `
     class="text-right"
   >
     <button
-      class="btn btn-primary col-sm-12 col-md-3 col-lg-2"
+      class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
       type="button"
     >
-      Install now
+      <span>
+        Install now
+      </span>
     </button>
   </div>
 </div>
