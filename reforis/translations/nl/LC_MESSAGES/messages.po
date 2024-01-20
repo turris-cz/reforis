@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-12-02 16:25+0100\n"
-"PO-Revision-Date: 2024-01-07 22:06+0000\n"
+"PO-Revision-Date: 2024-01-21 11:01+0000\n"
 "Last-Translator: powerburner-nl <peter.mulder.1981@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/turris/reforis/nl/>"
 "\n"
@@ -62,7 +62,7 @@ msgid ""
 " test."
 msgstr ""
 "Turris OS wordt momenteel uitgebracht in verschillende branches, die "
-"verschillende functies en verschillende stabiliteit hebben - u kunt kiezen "
+"verschillende functies en verschillende stabiliteit hebben. U kunt kiezen "
 "welke branch u wilt testen."
 
 #: js/src/about/About.js:106
@@ -97,7 +97,7 @@ msgstr "Herstellen naar fabrieksinstellingen bevestigen"
 
 #: js/src/common/RebootButton.js:51 js/src/maintenance/Reboot.js:17
 msgid "Reboot"
-msgstr "Opnieuw opstarten"
+msgstr "Herstarten"
 
 #: js/src/common/RebootButton.js:68
 msgid "Are you sure you want to restart the router?"
@@ -269,7 +269,7 @@ msgstr "Dit veld is vereist."
 
 #: js/src/common/network/validators.js:12
 msgid "This is not a valid network mask."
-msgstr "Dit is geen geldig netwerkmasker."
+msgstr "Dit is geen geldig subnetmasker."
 
 #: js/src/common/network/DHCPClients/DHCPClients.js:25
 msgid "DHCP Client List"
@@ -458,13 +458,13 @@ msgid ""
 "<b>recommend keeping DNSSEC turned on</b> and resolving the situation "
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
-"n zeldzame gevallen hebben ISP's een verkeerd geconfigureerd netwerk, "
+"In zeldzame gevallen hebben ISP's een verkeerd geconfigureerd netwerk, "
 "waardoor DNSSEC-validatie wordt verstoord. Als u problemen ondervindt met "
 "DNS, kunt u DNSSEC-validatie <b>tijdelijk</b> uitschakelen om de bron van "
 "het probleem te bepalen. Houd er echter rekening mee dat u zonder DNSSEC-"
 "validatie kwetsbaar bent voor DNS-spoofingaanvallen! Daarom <b>raden we aan "
 "om DNSSEC ingeschakeld te laten</b> en de situatie op te lossen met uw "
-"internetprovider, aangezien dit een ernstige fout is van hun kant."
+"internetprovider, aangezien dit een ernstige fout is aan hun kant."
 
 #: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:51
 msgid "Connection Test"
@@ -494,8 +494,9 @@ msgid ""
 "This domain will be used as suffix. E.g. The result for client "
 "\"android-123\" and domain \"my.lan\" will be \"android-123.my.lan\"."
 msgstr ""
-"Dit domein wordt gebruikt als suffix. Bijvoorbeeld: het resultaat voor "
-"client \"android-123\" en domein \"my.lan\" wordt \"android-123.my.lan\"."
+"Dit domein wordt gebruikt als achtervoegsel. Bijvoorbeeld: het resultaat "
+"voor client \"android-123\" en domein \"my.lan\" wordt \"android-123.my.lan\""
+"."
 
 #: js/src/dns/DNSForm.js:67
 msgid "DNS Settings"
@@ -662,7 +663,7 @@ msgstr "Het IP-adres van de router in het gastnetwerk."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:19
 msgid "Network mask of the guest inner network."
-msgstr "Netwerkmasker van het gastnetwerk."
+msgstr "Subnetmasker van het gastnetwerk."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:22
 msgid ""
@@ -764,7 +765,7 @@ msgid ""
 "You've configured your network interfaces. It seems that you didn't break"
 " any crucial network settings so you can safely proceed to the next step."
 msgstr ""
-"U heeft de netwerkinterfaces ingesteld. Het lijkt erop dat de cruciale "
+"U heeft de netwerkinterfaces ingesteld. Het lijkt erop dat de noodzakelijke "
 "netwerkinstellingen goed zijn ingesteld. U kunt nu verder gaan met de "
 "volgende stap."
 
