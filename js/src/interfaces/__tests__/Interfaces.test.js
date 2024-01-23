@@ -98,7 +98,10 @@ describe("<Interfaces/>", () => {
             target: { value: "none" },
         });
 
-        const saveButton = getByText(interfacesContainer, "Save");
+        const saveButton = interfacesContainer.querySelector(
+            "button[type=submit]"
+        );
+
         expect(saveButton.disabled).toBe(true);
         expect(
             getByText(
