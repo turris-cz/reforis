@@ -13,6 +13,7 @@ VENV_NAME?=venv
 VENV_BIN=$(shell pwd)/$(VENV_NAME)/bin
 
 PYTHON=python3
+PIP_EXTRA_INDEX_URL=https://gitlab.nic.cz/api/v4/projects/1066/packages/pypi/simple
 
 JS_DIR=./js
 
@@ -104,7 +105,7 @@ install-with-lighttpd:
 	opkg install reforis
 	opkg install python3-pip
 	pip3 uninstall reforis -y
-	pip3 install -e .
+	REFORIS_NO_JS_BUILD=1 pip3 install --index-url $(PIP_EXTRA_INDEX_URL) -e .
 	rm -rf $(REFORIS_STATIC_PATH)
 	ln -sf /tmp/reforis/reforis_static $(REFORIS_STATIC_PATH)
 	/etc/init.d/lighttpd restart

@@ -1,0 +1,76 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "reforis"
+version = "1.5.0"
+description = "reForis is the latest, simple, and most user-friendly interface for Turris routers."
+readme = "README.md"
+license = "GPL-3.0-or-later"
+authors = [
+    { name = "CZ.NIC, z.s.p.o. (https://www.nic.cz/)", email = "software@turris.com" },
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: Flask",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Networking",
+]
+dependencies = [
+    "Babel",
+    "cachelib",
+    "flask < 3.0.0",
+    "Flask-Babel",
+    "Flask-SeaSurf",
+    "flup",
+    "foris-client",
+    "paho-mqtt",
+]
+
+[project.optional-dependencies]
+build = [
+    "myst-parser",
+    "Sphinx",
+    "sphinxcontrib-httpdomain",
+]
+devel = [
+    "l18n",
+    "pycodestyle",
+    "pycountry",
+    "pylint",
+    "pytest",
+    "werkzeug",
+]
+
+[project.scripts]
+reforis = "reforis.__main__:main"
+reforis-cli = "reforis.cli:cli"
+
+[project.urls]
+Homepage = "https://gitlab.nic.cz/turris/reforis/reforis"
+
+[tool.hatch.build.targets.wheel.hooks.reforis]
+dependencies = ["hatch-reforis"]
+reforis_module = "reforis"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/js",
+    "/reforis",
+    "/reforis_static",
+]
+
+[tool.hatch.build.targets.wheel]
+include = [
+    "/reforis",
+    "/reforis_static",
+]
+exclude = [
+    "**/*.po",
+    "**/*.pot",
+]
