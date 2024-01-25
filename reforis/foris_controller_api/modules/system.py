@@ -13,11 +13,11 @@ def hostname():
         See ``set_hostname`` action in the `foris-controller system module JSON schema
         <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/system/schema/system.json>`_.
     """
-    data = request.json
 
     if request.method == 'GET':
         response = current_app.backend.perform('system', 'get_hostname')
     elif request.method == 'POST':
+        data = request.json
         response = current_app.backend.perform('system', 'set_hostname', data)
     return jsonify(response)
 
