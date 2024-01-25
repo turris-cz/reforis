@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -9,13 +9,13 @@ const path = require("path");
 const webpack = require("webpack");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = (env) => ({
     mode: "development",
     entry: "./src/app.js",
     output: {
-        filename: "app.min.js",
+        filename: "[name].min.js",
         path: path.join(__dirname, "../reforis_static/reforis/js"),
     },
     resolve: {
@@ -23,6 +23,9 @@ module.exports = (env) => ({
             path.resolve(__dirname, "./src"),
             path.resolve(__dirname, "./node_modules"),
         ],
+        fallback: {
+            buffer: require.resolve("buffer/"),
+        },
     },
     module: {
         rules: [
@@ -34,51 +37,41 @@ module.exports = (env) => ({
             },
             {
                 test: require.resolve("prop-types"),
-                use: [
-                    {
-                        loader: "expose-loader",
-                        options: "PropTypes",
-                    },
-                ],
+                loader: "expose-loader",
+                options: {
+                    exposes: "PropTypes",
+                },
             },
             {
                 test: require.resolve("react"),
-                use: [
-                    {
-                        loader: "expose-loader",
-                        options: "React",
-                    },
-                ],
+                loader: "expose-loader",
+                options: {
+                    exposes: "React",
+                },
             },
             {
                 test: require.resolve("react-dom"),
-                use: [
-                    {
-                        loader: "expose-loader",
-                        options: "ReactDOM",
-                    },
-                ],
+                loader: "expose-loader",
+                options: {
+                    exposes: "ReactDOM",
+                },
             },
             {
                 // Using different instances of library in reForis and foris JS (and plugins) cause
                 // a bug about "using react-router components outside <Router/>". So we expose it to
                 // use same instance of ReactRouterDOM everywhere.
                 test: require.resolve("react-router-dom"),
-                use: [
-                    {
-                        loader: "expose-loader",
-                        options: "ReactRouterDOM",
-                    },
-                ],
+                loader: "expose-loader",
+                options: {
+                    exposes: "ReactRouterDOM",
+                },
             },
             {
                 test: require.resolve("pdfmake/build/pdfmake"),
-                use: [
-                    {
-                        loader: "expose-loader",
-                        options: "pdfMake",
-                    },
-                ],
+                loader: "expose-loader",
+                options: {
+                    exposes: "pdfMake",
+                },
             },
             {
                 test: /\.css$/,
@@ -103,7 +96,12 @@ module.exports = (env) => ({
                     // Creates `style` nodes from JS strings
                     "style-loader",
                     // Translates CSS into CommonJS
-                    MiniCssExtractPlugin.loader,
+                    {
+                        loader: MiniCssExtractPlugin.loader,
+                        options: {
+                            esModule: false,
+                        },
+                    },
                     "css-loader",
                     // Compiles Sass to CSS
                     "sass-loader",
@@ -126,20 +124,32 @@ module.exports = (env) => ({
                     mangle: false,
                 },
             }),
-            new OptimizeCSSAssetsPlugin({}),
+            new CssMinimizerPlugin(),
         ],
         // Workaround to get ReactRouterDOM to be exposed. Otherwise, it's excluded as unused
         // imports as it's flagged as a module without side effects.
         sideEffects: false,
+        splitChunks: {
+            cacheGroups: {
+                vendors: {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: "vendors",
+                    chunks: "all",
+                },
+            },
+        },
     },
     plugins: [
+        new webpack.ProvidePlugin({
+            Buffer: ["buffer", "Buffer"],
+        }),
         new webpack.DefinePlugin({
             "process.env.LIGHTTPD": JSON.stringify(env.lighttpd),
             // Sets path to websocket in lighttpd mode
             "process.env.WSPATH": JSON.stringify(process.env.WSPATH || ""),
         }),
         new MiniCssExtractPlugin({
-            filename: "../css/app.css",
+            filename: "../css/[name].css",
         }),
     ],
 });

@@ -11,11 +11,10 @@ import React from "react";
 // It force ReactRouterDOM to be exposed. See:
 // https://github.com/webpack-contrib/expose-loader/issues/20.
 // eslint-disable-next-line
-import "expose-loader?ReactRouterDOM!react-router-dom";
+import "expose-loader?exposes=ReactRouterDOM!react-router-dom";
 
 import { WebSockets, CustomizationContextProvider } from "foris";
-// eslint-disable-next-line
-import pdfMake from "expose-loader?pdfMake!pdfmake/build/pdfmake.min";
+import pdfMake from "pdfmake/build/pdfmake.min";
 import pdfFonts from "pdfmake/build/vfs_fonts";
 import { render } from "react-dom";
 

@@ -63,19 +63,21 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
         </div>
       </div>
       <button
-        class="btn guide-controls-button btn btn-warning "
+        class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
         style="pointer-events: not-allowed;"
         type="button"
       >
-        <span
-          class="d-none d-sm-block"
-        >
-          Skip guide
-           
+        <span>
+          <span
+            class="d-none d-sm-block"
+          >
+            Skip guide
+             
+          </span>
+          <i
+            class="fas fa-forward"
+          />
         </span>
-        <i
-          class="fas fa-forward"
-        />
       </button>
       <a
         class="guide-controls-button btn btn-success blinking"
@@ -175,19 +177,21 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
         </div>
       </div>
       <button
-        class="btn guide-controls-button btn btn-warning "
+        class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
         style="pointer-events: not-allowed;"
         type="button"
       >
-        <span
-          class="d-none d-sm-block"
-        >
-          Skip guide
-           
+        <span>
+          <span
+            class="d-none d-sm-block"
+          >
+            Skip guide
+             
+          </span>
+          <i
+            class="fas fa-forward"
+          />
         </span>
-        <i
-          class="fas fa-forward"
-        />
       </button>
       <a
         class="guide-controls-button btn btn-success blinking"
@@ -266,19 +270,21 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
         </div>
       </div>
       <button
-        class="btn guide-controls-button btn btn-warning "
+        class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
         style="pointer-events: not-allowed;"
         type="button"
       >
-        <span
-          class="d-none d-sm-block"
-        >
-          Skip guide
-           
+        <span>
+          <span
+            class="d-none d-sm-block"
+          >
+            Skip guide
+             
+          </span>
+          <i
+            class="fas fa-forward"
+          />
         </span>
-        <i
-          class="fas fa-forward"
-        />
       </button>
       <a
         class="guide-controls-button btn btn-success blinking"
@@ -359,19 +365,21 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
         </div>
       </div>
       <button
-        class="btn guide-controls-button btn btn-warning "
+        class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
         style="pointer-events: not-allowed;"
         type="button"
       >
-        <span
-          class="d-none d-sm-block"
-        >
-          Skip guide
-           
+        <span>
+          <span
+            class="d-none d-sm-block"
+          >
+            Skip guide
+             
+          </span>
+          <i
+            class="fas fa-forward"
+          />
         </span>
-        <i
-          class="fas fa-forward"
-        />
       </button>
       <a
         class="guide-controls-button btn btn-success blinking"

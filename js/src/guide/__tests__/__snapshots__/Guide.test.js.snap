@@ -65,19 +65,21 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
           </div>
         </div>
         <button
-          class="btn guide-controls-button btn btn-warning "
+          class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
           style="pointer-events: not-allowed;"
           type="button"
         >
-          <span
-            class="d-none d-sm-block"
-          >
-            Skip guide
-             
+          <span>
+            <span
+              class="d-none d-sm-block"
+            >
+              Skip guide
+               
+            </span>
+            <i
+              class="fas fa-forward"
+            />
           </span>
-          <i
-            class="fas fa-forward"
-          />
         </button>
         <a
           class="guide-controls-button btn btn-success disabled"
@@ -357,10 +359,12 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>

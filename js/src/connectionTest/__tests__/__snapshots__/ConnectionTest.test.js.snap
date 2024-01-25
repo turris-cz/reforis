@@ -51,16 +51,18 @@ exports[`<ConnectionTest/> Snapshot after trigger DNS connection test. 1`] = `
       class="text-right"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2"
+        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         disabled=""
         type="submit"
       >
         <span
           aria-hidden="true"
-          class="spinner-border spinner-border-sm"
+          class="spinner-border spinner-border-sm mr-1"
           role="status"
         />
-         Test is running…
+        <span>
+          Test is running…
+        </span>
       </button>
     </div>
   </form>
@@ -156,16 +158,18 @@ exports[`<ConnectionTest/> Snapshot after trigger WAN connection test. 1`] = `
       class="text-right"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2"
+        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         disabled=""
         type="submit"
       >
         <span
           aria-hidden="true"
-          class="spinner-border spinner-border-sm"
+          class="spinner-border spinner-border-sm mr-1"
           role="status"
         />
-         Test is running…
+        <span>
+          Test is running…
+        </span>
       </button>
     </div>
   </form>
@@ -261,10 +265,12 @@ exports[`<ConnectionTest/> Snapshot before connection test. 1`] = `
       class="text-right"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2"
+        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="submit"
       >
-        Test connection
+        <span>
+          Test connection
+        </span>
       </button>
     </div>
   </form>
@@ -360,10 +366,12 @@ exports[`<ConnectionTest/> Snapshots with connection test results. 1`] = `
       class="text-right"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2"
+        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="submit"
       >
-        Test connection again
+        <span>
+          Test connection again
+        </span>
       </button>
     </div>
   </form>

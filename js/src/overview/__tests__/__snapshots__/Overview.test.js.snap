@@ -400,10 +400,12 @@ exports[`Overview Snapshot of the whole page 1`] = `
             </table>
             <div>
               <button
-                class="btn btn-outline-primary mw-100 col-sm-12 col-md-3 col-lg-2"
+                class="btn btn-outline-primary mw-100 col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
                 type="submit"
               >
-                Test connection
+                <span>
+                  Test connection
+                </span>
               </button>
             </div>
           </form>
@@ -578,10 +580,12 @@ exports[`Overview Snapshot of the whole page 1`] = `
         </p>
       </div>
       <button
-        class="btn btn-danger"
+        class="btn btn-danger d-inline-flex justify-content-center align-items-center"
         type="button"
       >
-        Reboot
+        <span>
+          Reboot
+        </span>
       </button>
     </div>
   </div>

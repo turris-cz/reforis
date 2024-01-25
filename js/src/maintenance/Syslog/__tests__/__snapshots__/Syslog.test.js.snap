@@ -46,11 +46,13 @@ exports[`Syslog Snapshot form disabled 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           disabled=""
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -104,10 +106,12 @@ exports[`Syslog Snapshot form enabled 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>

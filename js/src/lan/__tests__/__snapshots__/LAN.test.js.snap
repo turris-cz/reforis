@@ -246,10 +246,12 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -337,10 +339,12 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
                 class="align-middle"
               >
                 <button
-                  class="btn btn btn-sm btn-outline-success"
+                  class="btn btn btn-sm btn-outline-success d-inline-flex justify-content-center align-items-center"
                   type="button"
                 >
-                  Set Static
+                  <span>
+                    Set Static
+                  </span>
                 </button>
               </td>
             </tr>
@@ -351,10 +355,12 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-outline-primary col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-outline-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="button"
         >
-          Add static lease
+          <span>
+            Add static lease
+          </span>
         </button>
       </div>
     </div>
@@ -557,10 +563,12 @@ exports[`<LAN/> Snapshot managed. 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -690,10 +698,12 @@ exports[`<LAN/> Snapshot unmanaged (dhcp). 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -799,10 +809,12 @@ exports[`<LAN/> Snapshot unmanaged none. 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -1016,10 +1028,12 @@ exports[`<LAN/> Snapshot unmanaged static. 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -1267,10 +1281,12 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>
@@ -1358,10 +1374,12 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
                 class="align-middle"
               >
                 <button
-                  class="btn btn btn-sm btn-outline-success"
+                  class="btn btn btn-sm btn-outline-success d-inline-flex justify-content-center align-items-center"
                   type="button"
                 >
-                  Set Static
+                  <span>
+                    Set Static
+                  </span>
                 </button>
               </td>
             </tr>
@@ -1372,10 +1390,12 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-outline-primary col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-outline-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="button"
         >
-          Add static lease
+          <span>
+            Add static lease
+          </span>
         </button>
       </div>
     </div>
@@ -1524,10 +1544,12 @@ exports[`Customized <LAN/> Snapshot managed. 1`] = `
         class="text-right"
       >
         <button
-          class="btn btn-primary  col-sm-12 col-md-3 col-lg-2"
+          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
-          Save
+          <span>
+            Save
+          </span>
         </button>
       </div>
     </form>

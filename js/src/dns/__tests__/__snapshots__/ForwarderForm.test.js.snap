@@ -47,10 +47,12 @@ exports[`<ForwarderForm/>: existed forwarder. Test with snapshot. 1`] = `
       </div>
     </div>
     <button
-      class="btn btn-outline-success btn-sm col-12 mb-2"
+      class="btn btn-outline-success btn-sm col-12 mb-2 d-inline-flex justify-content-center align-items-center"
       type="button"
     >
-      Add IPv4 address
+      <span>
+        Add IPv4 address
+      </span>
     </button>
   </div>
   <h5>
@@ -79,10 +81,12 @@ exports[`<ForwarderForm/>: existed forwarder. Test with snapshot. 1`] = `
       </div>
     </div>
     <button
-      class="btn btn-outline-success btn-sm col-12 mb-2"
+      class="btn btn-outline-success btn-sm col-12 mb-2 d-inline-flex justify-content-center align-items-center"
       type="button"
     >
-      Add IPv6 address
+      <span>
+        Add IPv6 address
+      </span>
     </button>
   </div>
   <div
@@ -120,10 +124,12 @@ exports[`<ForwarderForm/>: existed forwarder. Test with snapshot. 1`] = `
     </small>
   </div>
   <button
-    class="btn btn-primary col-lg-12 col-md-12 col-sm-12 col-md-3 col-lg-2"
+    class="btn btn-primary col-lg-12 col-md-12 col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
     type="button"
   >
-    Save
+    <span>
+      Save
+    </span>
   </button>
 </div>
 `;
@@ -185,10 +191,12 @@ exports[`<ForwarderForm/>: new forwarder. Test with snapshot. 1`] = `
       </div>
     </div>
     <button
-      class="btn btn-outline-success btn-sm col-12 mb-2"
+      class="btn btn-outline-success btn-sm col-12 mb-2 d-inline-flex justify-content-center align-items-center"
       type="button"
     >
-      Add IPv4 address
+      <span>
+        Add IPv4 address
+      </span>
     </button>
   </div>
   <h5>
@@ -222,10 +230,12 @@ exports[`<ForwarderForm/>: new forwarder. Test with snapshot. 1`] = `
       </div>
     </div>
     <button
-      class="btn btn-outline-success btn-sm col-12 mb-2"
+      class="btn btn-outline-success btn-sm col-12 mb-2 d-inline-flex justify-content-center align-items-center"
       type="button"
     >
-      Add IPv6 address
+      <span>
+        Add IPv6 address
+      </span>
     </button>
   </div>
   <div
@@ -263,11 +273,13 @@ exports[`<ForwarderForm/>: new forwarder. Test with snapshot. 1`] = `
     </small>
   </div>
   <button
-    class="btn btn-primary col-lg-12 col-md-12 col-sm-12 col-md-3 col-lg-2"
+    class="btn btn-primary col-lg-12 col-md-12 col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
     disabled=""
     type="button"
   >
-    Save
+    <span>
+      Save
+    </span>
   </button>
 </div>
 `;
