@@ -1,8 +1,8 @@
 # Use the official Python image as the base image
 FROM python:3.10
 
-# Install Node.js 16
-ENV NODE_VERSION=16.20.2
+# Install Node.js 21
+ENV NODE_VERSION=21.6.1
 RUN apt install -y curl
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ENV NVM_DIR=/root/.nvm
