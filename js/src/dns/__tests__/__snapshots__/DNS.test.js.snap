@@ -14,7 +14,7 @@ exports[`<DNS/> Test with snapshot DHCP. 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"7\\"
++           for=\\"4\\"
 +         >
 +           Domain of DHCP clients in DNS
 +         </label>
@@ -23,7 +23,7 @@ exports[`<DNS/> Test with snapshot DHCP. 1`] = `
 +         >
 +           <input
 +             class=\\"form-control\\"
-+             id=\\"7\\"
++             id=\\"4\\"
 +             type=\\"text\\"
 +             value=\\"lan\\"
 +           />
