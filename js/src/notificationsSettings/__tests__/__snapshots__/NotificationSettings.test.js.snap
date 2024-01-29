@@ -801,7 +801,7 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
         class="form-group"
       >
         <label
-          for="17"
+          for="12"
         >
           Sender's name
         </label>
@@ -810,7 +810,7 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
         >
           <input
             class="form-control"
-            id="17"
+            id="12"
             type="text"
             value="turris"
           />

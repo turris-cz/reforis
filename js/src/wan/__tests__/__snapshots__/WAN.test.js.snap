@@ -12,7 +12,7 @@ exports[`<WAN/> Snapshot WAN IPv4 (PPPoE). 1`] = `
         >
           <label
 -           for=\\"2\\"
-+           for=\\"7\\"
++           for=\\"6\\"
           >
 -           DHCP hostname
 +           PAP/CHAP username
@@ -24,7 +24,7 @@ exports[`<WAN/> Snapshot WAN IPv4 (PPPoE). 1`] = `
 -             class=\\"form-control\\"
 -             id=\\"2\\"
 +             class=\\"form-control  is-invalid\\"
-+             id=\\"7\\"
++             id=\\"6\\"
 +             required=\\"\\"
               type=\\"text\\"
               value=\\"\\"
@@ -44,7 +44,7 @@ exports[`<WAN/> Snapshot WAN IPv4 (PPPoE). 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"8\\"
++           for=\\"7\\"
 +         >
 +           PAP/CHAP password
 +         </label>
@@ -54,7 +54,7 @@ exports[`<WAN/> Snapshot WAN IPv4 (PPPoE). 1`] = `
 +           <input
 +             autocomplete=\\"current-password\\"
 +             class=\\"form-control  is-invalid\\"
-+             id=\\"8\\"
++             id=\\"7\\"
 +             required=\\"\\"
 +             type=\\"password\\"
 +             value=\\"\\"
@@ -109,9 +109,35 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
         >
           <label
 -           for=\\"2\\"
-+           for=\\"7\\"
++           for=\\"6\\"
 +         >
 +           IP address
++         </label>
++         <div
++           class=\\"input-group\\"
++         >
++           <input
++             class=\\"form-control  is-invalid\\"
++             id=\\"6\\"
++             required=\\"\\"
++             type=\\"text\\"
++             value=\\"\\"
++           />
++         </div>
++         <div
++           class=\\"invalid-feedback\\"
++         >
++           This field is required.
++         </div>
++       </div>
++       <div
++         class=\\"form-group\\"
+        >
+-           DHCP hostname
++         <label
++           for=\\"7\\"
++         >
++           Network mask
 +         </label>
 +         <div
 +           class=\\"input-group\\"
@@ -132,12 +158,11 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
 +       </div>
 +       <div
 +         class=\\"form-group\\"
-        >
--           DHCP hostname
++       >
 +         <label
 +           for=\\"8\\"
 +         >
-+           Network mask
++           Gateway
 +         </label>
 +         <div
 +           class=\\"input-group\\"
@@ -162,31 +187,6 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
 +         <label
 +           for=\\"9\\"
 +         >
-+           Gateway
-+         </label>
-+         <div
-+           class=\\"input-group\\"
-+         >
-+           <input
-+             class=\\"form-control  is-invalid\\"
-+             id=\\"9\\"
-+             required=\\"\\"
-+             type=\\"text\\"
-+             value=\\"\\"
-+           />
-+         </div>
-+         <div
-+           class=\\"invalid-feedback\\"
-+         >
-+           This field is required.
-+         </div>
-+       </div>
-+       <div
-+         class=\\"form-group\\"
-+       >
-+         <label
-+           for=\\"10\\"
-+         >
 +           DNS server 1
           </label>
           <div
@@ -195,7 +195,7 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
             <input
               class=\\"form-control\\"
 -             id=\\"2\\"
-+             id=\\"10\\"
++             id=\\"9\\"
 +             type=\\"text\\"
 +             value=\\"\\"
 +           />
@@ -210,7 +210,7 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"11\\"
++           for=\\"10\\"
 +         >
 +           DNS server 2
 +         </label>
@@ -219,7 +219,7 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
 +         >
 +           <input
 +             class=\\"form-control\\"
-+             id=\\"11\\"
++             id=\\"10\\"
               type=\\"text\\"
               value=\\"\\"
             />
@@ -263,7 +263,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"22\\"
++           for=\\"10\\"
 +         >
 +           Tunnel ID
 +         </label>
@@ -272,7 +272,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 +         >
 +           <input
 +             class=\\"form-control  is-invalid\\"
-+             id=\\"22\\"
++             id=\\"10\\"
 +             required=\\"\\"
 +             type=\\"text\\"
 +             value=\\"\\"
@@ -293,7 +293,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"23\\"
++           for=\\"11\\"
 +         >
 +           Username
 +         </label>
@@ -302,7 +302,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 +         >
 +           <input
 +             class=\\"form-control  is-invalid\\"
-+             id=\\"23\\"
++             id=\\"11\\"
 +             required=\\"\\"
 +             type=\\"text\\"
 +             value=\\"\\"
@@ -323,7 +323,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"24\\"
++           for=\\"12\\"
 +         >
 +           Key
 +         </label>
@@ -332,7 +332,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 +         >
 +           <input
 +             class=\\"form-control  is-invalid\\"
-+             id=\\"24\\"
++             id=\\"12\\"
 +             required=\\"\\"
 +             type=\\"text\\"
 +             value=\\"\\"
@@ -371,7 +371,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"9\\"
++           for=\\"6\\"
 +         >
 +           Provider IPv4
 +         </label>
@@ -380,7 +380,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +         >
 +           <input
 +             class=\\"form-control  is-invalid\\"
-+             id=\\"9\\"
++             id=\\"6\\"
 +             required=\\"\\"
 +             type=\\"text\\"
 +             value=\\"\\"
@@ -401,7 +401,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"10\\"
++           for=\\"7\\"
 +         >
 +           Routed IPv6 prefix
 +         </label>
@@ -410,7 +410,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +         >
 +           <input
 +             class=\\"form-control\\"
-+             id=\\"10\\"
++             id=\\"7\\"
 +             type=\\"text\\"
 +             value=\\"\\"
 +           />
@@ -425,7 +425,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"11\\"
++           for=\\"8\\"
 +         >
 +           MTU
 +         </label>
@@ -434,7 +434,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +         >
 +           <input
 +             class=\\"form-control  is-invalid\\"
-+             id=\\"11\\"
++             id=\\"8\\"
 +             max=\\"1480\\"
 +             min=\\"1280\\"
 +             required=\\"\\"
@@ -478,12 +478,12 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +         >
 +           <input
 +             class=\\"custom-control-input\\"
-+             id=\\"12\\"
++             id=\\"9\\"
 +             type=\\"checkbox\\"
 +           />
 +           <label
 +             class=\\"custom-control-label\\"
-+             for=\\"12\\"
++             for=\\"9\\"
 +           >
 +             Dynamic IPv4 handling
 +             <small
@@ -528,7 +528,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6to4). 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"9\\"
++           for=\\"6\\"
 +         >
 +           Public IPv4
 +         </label>
@@ -537,7 +537,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6to4). 1`] = `
 +         >
 +           <input
 +             class=\\"form-control\\"
-+             id=\\"9\\"
++             id=\\"6\\"
 +             type=\\"text\\"
 +             value=\\"\\"
 +           />
@@ -570,7 +570,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (DHCPv6). 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"9\\"
++           for=\\"6\\"
 +         >
 +           Custom DUID
 +         </label>
@@ -579,7 +579,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (DHCPv6). 1`] = `
 +         >
 +           <input
 +             class=\\"form-control\\"
-+             id=\\"9\\"
++             id=\\"6\\"
 +             type=\\"text\\"
 +             value=\\"\\"
 +           />
@@ -612,7 +612,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"9\\"
++           for=\\"6\\"
 +         >
 +           Address
 +         </label>
@@ -621,7 +621,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +         >
 +           <input
 +             class=\\"form-control  is-invalid\\"
-+             id=\\"9\\"
++             id=\\"6\\"
 +             required=\\"\\"
 +             type=\\"text\\"
 +             value=\\"\\"
@@ -642,7 +642,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"10\\"
++           for=\\"7\\"
 +         >
 +           Gateway
 +         </label>
@@ -651,7 +651,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +         >
 +           <input
 +             class=\\"form-control  is-invalid\\"
-+             id=\\"10\\"
++             id=\\"7\\"
 +             required=\\"\\"
 +             type=\\"text\\"
 +             value=\\"\\"
@@ -667,7 +667,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"11\\"
++           for=\\"8\\"
 +         >
 +           Prefix
 +         </label>
@@ -676,7 +676,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +         >
 +           <input
 +             class=\\"form-control  is-invalid\\"
-+             id=\\"11\\"
++             id=\\"8\\"
 +             required=\\"\\"
 +             type=\\"text\\"
 +             value=\\"\\"
@@ -697,7 +697,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"12\\"
++           for=\\"9\\"
 +         >
 +           DNS server 1
 +         </label>
@@ -706,7 +706,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +         >
 +           <input
 +             class=\\"form-control\\"
-+             id=\\"12\\"
++             id=\\"9\\"
 +             type=\\"text\\"
 +             value=\\"\\"
 +           />
@@ -721,7 +721,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"13\\"
++           for=\\"10\\"
 +         >
 +           DNS server 2
 +         </label>
@@ -730,7 +730,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +         >
 +           <input
 +             class=\\"form-control\\"
-+             id=\\"13\\"
++             id=\\"10\\"
 +             type=\\"text\\"
 +             value=\\"\\"
 +           />
@@ -775,7 +775,7 @@ exports[`<WAN/> Snapshot: MAC enabled 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"10\\"
++           for=\\"6\\"
 +         >
 +           Current MAC address
 +         </label>
@@ -785,7 +785,7 @@ exports[`<WAN/> Snapshot: MAC enabled 1`] = `
 +           <input
 +             class=\\"form-control\\"
 +             disabled=\\"\\"
-+             id=\\"10\\"
++             id=\\"6\\"
 +             type=\\"text\\"
 +             value=\\"00:00:00:00:00:00\\"
 +           />
@@ -800,7 +800,7 @@ exports[`<WAN/> Snapshot: MAC enabled 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"11\\"
++           for=\\"7\\"
 +         >
 +           Set the new MAC address
 +         </label>
@@ -809,7 +809,7 @@ exports[`<WAN/> Snapshot: MAC enabled 1`] = `
 +         >
 +           <input
 +             class=\\"form-control  is-invalid\\"
-+             id=\\"11\\"
++             id=\\"7\\"
 +             required=\\"\\"
 +             type=\\"text\\"
 +           />
@@ -858,7 +858,7 @@ exports[`<WAN/> Snapshot: VLAN enabled 1`] = `
 +         class=\\"form-group\\"
 +       >
 +         <label
-+           for=\\"11\\"
++           for=\\"6\\"
 +         >
 +           Set the VLAN ID
 +         </label>
@@ -867,7 +867,7 @@ exports[`<WAN/> Snapshot: VLAN enabled 1`] = `
 +         >
 +           <input
 +             class=\\"form-control\\"
-+             id=\\"11\\"
++             id=\\"6\\"
 +             max=\\"4094\\"
 +             min=\\"1\\"
 +             required=\\"\\"

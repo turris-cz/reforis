@@ -117,7 +117,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         class="form-group"
       >
         <label
-          for="3"
+          for="2"
         >
           Router IP address
         </label>
@@ -126,7 +126,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         >
           <input
             class="form-control"
-            id="3"
+            id="2"
             required=""
             type="text"
             value="10.111.222.1"
@@ -142,7 +142,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         class="form-group"
       >
         <label
-          for="4"
+          for="3"
         >
           Network mask
         </label>
@@ -151,7 +151,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         >
           <input
             class="form-control"
-            id="4"
+            id="3"
             required=""
             type="text"
             value="255.255.255.0"
@@ -166,12 +166,12 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         >
           <input
             class="custom-control-input"
-            id="5"
+            id="4"
             type="checkbox"
           />
           <label
             class="custom-control-label"
-            for="5"
+            for="4"
           >
             Enable DHCP
           </label>
@@ -186,7 +186,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         class="form-group"
       >
         <label
-          for="11"
+          for="6"
         >
           DHCP start
         </label>
@@ -195,7 +195,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         >
           <input
             class="form-control"
-            id="11"
+            id="6"
             required=""
             type="text"
             value="10.111.222.100"
@@ -206,7 +206,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         class="form-group"
       >
         <label
-          for="12"
+          for="7"
         >
           DHCP max leases
         </label>
@@ -215,7 +215,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         >
           <input
             class="form-control"
-            id="12"
+            id="7"
             min="1"
             required=""
             type="number"
@@ -254,7 +254,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         class="form-group"
       >
         <label
-          for="13"
+          for="8"
         >
           Lease time (hours)
         </label>
@@ -263,7 +263,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         >
           <input
             class="form-control"
-            id="13"
+            id="8"
             min="1"
             required=""
             type="number"
@@ -301,12 +301,12 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         >
           <input
             class="custom-control-input"
-            id="6"
+            id="5"
             type="checkbox"
           />
           <label
             class="custom-control-label"
-            for="6"
+            for="5"
           >
             Enable QoS
           </label>
@@ -407,7 +407,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         class="form-group"
       >
         <label
-          for="3"
+          for="2"
         >
           Router IP address
         </label>
@@ -416,7 +416,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         >
           <input
             class="form-control"
-            id="3"
+            id="2"
             required=""
             type="text"
             value="10.111.222.1"
@@ -432,7 +432,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         class="form-group"
       >
         <label
-          for="4"
+          for="3"
         >
           Network mask
         </label>
@@ -441,7 +441,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         >
           <input
             class="form-control"
-            id="4"
+            id="3"
             required=""
             type="text"
             value="255.255.255.0"
@@ -456,12 +456,12 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         >
           <input
             class="custom-control-input"
-            id="5"
+            id="4"
             type="checkbox"
           />
           <label
             class="custom-control-label"
-            for="5"
+            for="4"
           >
             Enable DHCP
           </label>
@@ -480,12 +480,12 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         >
           <input
             class="custom-control-input"
-            id="6"
+            id="5"
             type="checkbox"
           />
           <label
             class="custom-control-label"
-            for="6"
+            for="5"
           >
             Enable QoS
           </label>
@@ -500,7 +500,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         class="form-group"
       >
         <label
-          for="12"
+          for="6"
         >
           Download
         </label>
@@ -509,7 +509,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         >
           <input
             class="form-control"
-            id="12"
+            id="6"
             min="1"
             required=""
             type="number"
@@ -553,7 +553,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         class="form-group"
       >
         <label
-          for="13"
+          for="7"
         >
           Upload
         </label>
@@ -562,7 +562,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         >
           <input
             class="form-control"
-            id="13"
+            id="7"
             min="1"
             required=""
             type="number"
@@ -676,7 +676,7 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
         class="form-group"
       >
         <label
-          for="3"
+          for="2"
         >
           Router IP address
         </label>
@@ -685,7 +685,7 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
         >
           <input
             class="form-control"
-            id="3"
+            id="2"
             required=""
             type="text"
             value="10.111.222.1"
@@ -701,7 +701,7 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
         class="form-group"
       >
         <label
-          for="4"
+          for="3"
         >
           Network mask
         </label>
@@ -710,7 +710,7 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
         >
           <input
             class="form-control"
-            id="4"
+            id="3"
             required=""
             type="text"
             value="255.255.255.0"
@@ -725,12 +725,12 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
         >
           <input
             class="custom-control-input"
-            id="5"
+            id="4"
             type="checkbox"
           />
           <label
             class="custom-control-label"
-            for="5"
+            for="4"
           >
             Enable DHCP
           </label>
@@ -749,12 +749,12 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
         >
           <input
             class="custom-control-input"
-            id="6"
+            id="5"
             type="checkbox"
           />
           <label
             class="custom-control-label"
-            for="6"
+            for="5"
           >
             Enable QoS
           </label>
