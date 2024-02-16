@@ -4,8 +4,8 @@
 #  See /LICENSE for more information.
 
 PROJECT="reForis"
-# Retrieve reForis version from setup.py 
-VERSION= $(shell sed -En "s/.*version=['\"](.+)['\"].*/\1/p" setup.py)
+# Retrieve reForis version from pyproject.toml
+VERSION= $(shell sed -En "s/.*version = ['\"](.+)['\"].*/\1/p" pyproject.toml)
 COPYRIGHT_HOLDER="CZ.NIC, z.s.p.o. (https://www.nic.cz/)"
 MSGID_BUGS_ADDRESS="tech.support@turris.cz"
 
@@ -84,7 +84,7 @@ prepare-docs:
 
 .PHONY: venv
 venv: $(VENV_NAME)/bin/activate
-$(VENV_NAME)/bin/activate: setup.py
+$(VENV_NAME)/bin/activate: pyproject.toml
 	test -d $(VENV_NAME) || $(PYTHON) -m virtualenv -p $(PYTHON) $(VENV_NAME)
 	# upgrade pip to latest releases
 	$(VENV_BIN)/$(PYTHON) -m pip install --upgrade pip
@@ -95,7 +95,7 @@ $(VENV_NAME)/bin/activate: setup.py
 # Installation
 
 .PHONY: install
-install: setup.py
+install: pyproject.toml
 	$(PYTHON) -m pip install -e .
 
 .PHONY: install-with-lighttpd

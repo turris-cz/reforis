@@ -1,34 +1,25 @@
-image: registry.nic.cz/turris/reforis/reforis/reforis-image
-
 stages:
-    - test
+  - lint
+  - test
+  - build
+  - publish
 
-before_script:
-    - apt-get update && apt-get install -y sudo make curl git
+include:
+  - remote: "https://gitlab.nic.cz/turris/foris-controller/packages/-/raw/master/templates/python/base.yml"
+  - remote: "https://gitlab.nic.cz/turris/foris-controller/packages/-/raw/master/templates/make/reforis.yml"
+  - remote: "https://gitlab.nic.cz/turris/foris-controller/packages/-/raw/master/templates/python/build_and_publish.yml"
 
-test:
+
+build::python:
+  parallel:
+    matrix:
+      - IMAGE: ["registry.nic.cz/turris/foris-ci/reforis-ci"]
+
+test::docs:
     stage: test
-    script:
-        - make prepare-dev
-        - make compile-messages
-        - make test
-
-lint:
-    stage: test
-    script:
-        - make prepare-dev
-        - make lint
-
-build-js:
-    stage: test
-    script:
-        - cd js
-        - npm install
-        - npm run-script build -- -o /tmp/app.min.js
-
-docs:
-    stage: test
+    image: "registry.nic.cz/turris/foris-ci/reforis-ci"
     script:
         - make prepare-dev
         - make prepare-docs
         - make docs
+
