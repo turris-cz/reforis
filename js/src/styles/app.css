@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -19,25 +19,9 @@ body {
     overflow-y: scroll;
 }
 
-h1 {
-    font-size: 2.5rem;
-}
-
 #content-container h1:first-child {
     margin-top: 0.4rem;
     margin-bottom: 1.9rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.6rem;
-}
-
-h4 {
-    font-size: 1.3rem;
 }
 
 form > button {

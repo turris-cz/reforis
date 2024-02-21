@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (c) 2022-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -9,9 +9,18 @@
 $primary: #00a2e2;
 $link-color: #00a2e2;
 
+// Reduce headings font size
+$h1-font-size: 2.5rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.75rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+
 // Import Bootstrap, Bootswatch and its default variables
 @import "~bootswatch/dist/flatly/variables";
 @import "~bootstrap/scss/bootstrap";
 @import "~bootswatch/dist/flatly/bootswatch";
+
 // Import custom styles
 @import "./styles/app.css";
