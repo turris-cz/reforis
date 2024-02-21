@@ -1,27 +1,34 @@
 image: registry.nic.cz/turris/reforis/reforis/reforis-image
 
 stages:
-  - test
+    - test
 
 before_script:
-  - apt-get update && apt-get install -y sudo make curl git
+    - apt-get update && apt-get install -y sudo make curl git
 
 test:
-  stage: test
-  script:
-    - make prepare-dev
-    - make compile-messages
-    - make test
-
-test-js-build:
-  stage: test
-  script:
-    - cd js
-    - npm install
-    - npm run-script build -- -o /tmp/app.min.js
+    stage: test
+    script:
+        - make prepare-dev
+        - make compile-messages
+        - make test
 
 lint:
-  stage: test
-  script:
-    - make prepare-dev
-    - make lint
+    stage: test
+    script:
+        - make prepare-dev
+        - make lint
+
+build-js:
+    stage: test
+    script:
+        - cd js
+        - npm install
+        - npm run-script build -- -o /tmp/app.min.js
+
+docs:
+    stage: test
+    script:
+        - make prepare-dev
+        - make prepare-docs
+        - make docs
