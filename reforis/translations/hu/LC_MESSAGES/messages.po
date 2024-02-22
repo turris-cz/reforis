@@ -1,13 +1,13 @@
 # Hungarian translations for reForis.
-# Copyright (C) 2022 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-02 16:25+0100\n"
+"POT-Creation-Date: 2024-02-22 14:18+0100\n"
 "PO-Revision-Date: 2021-01-08 14:32+0000\n"
 "Last-Translator: Zoli <boritek@gmail.com>\n"
 "Language: hu\n"
@@ -17,13 +17,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.14.0\n"
 
-#: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
+#: js/src/about/About.js:18 js/src/main/pages.js:102 js/src/main/pages.js:221
 msgid "About"
 msgstr "Névjegy"
 
-#: js/src/about/About.js:27
+#: js/src/about/About.js:21
 msgid ""
 "Here you can find some information about your device. Please include it "
 "in your message if you contact our <a "
@@ -31,36 +31,36 @@ msgid ""
 "support</a>."
 msgstr ""
 
-#: js/src/about/About.js:56
+#: js/src/about/About.js:30
 msgid "Device"
 msgstr ""
 
-#: js/src/about/About.js:64
+#: js/src/about/About.js:38
 #, fuzzy
 msgid "Serial number"
 msgstr "A port egy szám."
 
-#: js/src/about/About.js:68
+#: js/src/about/About.js:42
 #, fuzzy
 msgid "reForis version"
 msgstr "Kernel verzió"
 
-#: js/src/about/About.js:72
+#: js/src/about/About.js:46
 msgid "Turris OS version"
 msgstr ""
 
-#: js/src/about/About.js:77
+#: js/src/about/About.js:51
 msgid "Turris OS branch"
 msgstr ""
 
-#: js/src/about/About.js:80
+#: js/src/about/About.js:54
 msgid ""
 "Turris OS is currently released in various branches, which have different"
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
 
-#: js/src/about/About.js:106
+#: js/src/about/About.js:80
 msgid "Kernel version"
 msgstr "Kernel verzió"
 
@@ -68,7 +68,7 @@ msgstr "Kernel verzió"
 msgid "Reset"
 msgstr ""
 
-#: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:66
+#: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:65
 #: js/src/dns/DNSSECDisableModal.js:34
 #: js/src/notificationsSettings/TestNotification.js:148
 msgid "Warning!"
@@ -79,8 +79,8 @@ msgstr "Figyelem!"
 msgid "Are you sure you want to reset the router?"
 msgstr "Biztosan újraindítja az útválasztót?"
 
-#: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:71
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:58
+#: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:70
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
 #: js/src/dns/DNSSECDisableModal.js:48
 #: js/src/notificationsSettings/TestNotification.js:153
 msgid "Cancel"
@@ -90,15 +90,15 @@ msgstr "Mégse"
 msgid "Confirm factory reset"
 msgstr ""
 
-#: js/src/common/RebootButton.js:51 js/src/maintenance/Reboot.js:17
+#: js/src/common/RebootButton.js:50 js/src/maintenance/Reboot.js:17
 msgid "Reboot"
 msgstr "Újraindít"
 
-#: js/src/common/RebootButton.js:68
+#: js/src/common/RebootButton.js:67
 msgid "Are you sure you want to restart the router?"
 msgstr "Biztosan újraindítja az útválasztót?"
 
-#: js/src/common/RebootButton.js:73
+#: js/src/common/RebootButton.js:72
 msgid "Confirm reboot"
 msgstr "Újraindítás megerősítése"
 
@@ -117,14 +117,14 @@ msgid ""
 msgstr ""
 
 #: js/src/common/network/DHCP6Clients.js:33
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:22
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:19
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:24
 #, fuzzy
 msgid "No clients found."
 msgstr "Nincs DHCP ügyfél."
 
 #: js/src/common/network/DHCP6Clients.js:40
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:25
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:33
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
@@ -143,13 +143,13 @@ msgid "DUID"
 msgstr "Útmutató"
 
 #: js/src/common/network/DHCP6Clients.js:43
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:32
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:36
 msgid "Expires"
 msgstr "Lejárat"
 
 #: js/src/common/network/DHCP6Clients.js:77
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:68
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:59
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:66
 msgid "Never"
 msgstr ""
@@ -202,20 +202,20 @@ msgstr ""
 msgid "Minimum lease time is 1 hour."
 msgstr "A minimális bérleti idő 1 óra."
 
-#: js/src/common/network/DHCPValidators.js:115
+#: js/src/common/network/DHCPValidators.js:114
 #, fuzzy
 msgid "Address is outside current network."
 msgstr "Az útválasztó IP-címe a vendég belső hálózatában."
 
-#: js/src/common/network/DHCPValidators.js:119
+#: js/src/common/network/DHCPValidators.js:118
 msgid "Address is already reserved for other purposes."
 msgstr ""
 
-#: js/src/common/network/DHCPValidators.js:130
+#: js/src/common/network/DHCPValidators.js:129
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr ""
 
-#: js/src/common/network/DHCPValidators.js:137
+#: js/src/common/network/DHCPValidators.js:136
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
@@ -272,28 +272,28 @@ msgid ""
 "wired or wireless connections."
 msgstr ""
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
 #, fuzzy
 msgid "IPv4 Address"
 msgstr "IP-cím"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:31
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
 msgid "MAC Address"
 msgstr "MAC-cím"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:33
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:37
 msgid "Active"
 msgstr "Aktív"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:69
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 msgid "Device is active"
 msgstr ""
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:69
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 #, fuzzy
 msgid "Device is inactive"
@@ -312,8 +312,8 @@ msgstr ""
 msgid "Add static lease"
 msgstr ""
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:61
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:57
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
 msgid "Save"
 msgstr "Mentés"
 
@@ -321,41 +321,42 @@ msgstr "Mentés"
 msgid "List of available hostnames"
 msgstr ""
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:57
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:58
 #, fuzzy
 msgid "IPv4 address"
 msgstr "IP-cím"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:68
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:69
 msgid "List of available IPv4 addresses"
 msgstr ""
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:82
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:84
+#: js/src/interfaces/SelectedInterface.js:129
 #, fuzzy
 msgid "MAC address"
 msgstr "IP-cím"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:93
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:95
 msgid "List of available MAC addresses"
 msgstr ""
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:115
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:113
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Actions"
 msgstr "Műveletek"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:126
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:124
 #: js/src/dns/Forwarders/ForwardersTable.js:143
 msgid "Edit"
 msgstr "Szerkesztés"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:140
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:138
 #: js/src/dns/Forwarders/ForwardersTable.js:151
 msgid "Delete"
 msgstr "Törlés"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:149
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:147
 msgid "Set Static"
 msgstr ""
 
@@ -555,20 +556,20 @@ msgstr "base64 kódolt sha256."
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr ""
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:50
-#: js/src/packageManagement/updates/UpdateApproval.js:153
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
+#: js/src/packageManagement/updates/UpdateApproval.js:150
 msgid "Name"
 msgstr "Név"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:73
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:69
 msgid "TLS type"
 msgstr "TLS-típus"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:91
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:87
 msgid "TLS hostname"
 msgstr "TLS gépnév"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:103
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:99
 msgid "TLS pin"
 msgstr "TLS rögzítés"
 
@@ -584,11 +585,11 @@ msgstr "IPv6"
 msgid "${label} Addresses"
 msgstr "${label} címek"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:57
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:58
 msgid "${label} #${index + 1}"
 msgstr "${label} #${index + 1}"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:81
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:82
 msgid "Add ${label} address"
 msgstr "${label} cím hozzáadása"
 
@@ -930,7 +931,7 @@ msgstr "Nem lehet az útmutatót készként megjelölni."
 
 #: js/src/guide/steps.js:21 js/src/main/pages.js:69 js/src/main/pages.js:160
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
-#: js/src/password/Password.js:174
+#: js/src/password/Password.js:175
 msgid "Password"
 msgstr "Jelszó"
 
@@ -1127,7 +1128,7 @@ msgstr ""
 "Portok vannak nyitva a WAN-felületen. A biztonsági problémák elkerülése "
 "érdekében jobb újrakonfigurálni a felület beállításait."
 
-#: js/src/interfaces/InterfacesForm.js:111
+#: js/src/interfaces/InterfacesForm.js:107
 #, fuzzy
 msgid ""
 "It acts as an external network connection. Firewall rules should be "
@@ -1139,7 +1140,7 @@ msgstr ""
 "Csak egyetlen csatolót tartalmazhat.\n"
 "        "
 
-#: js/src/interfaces/InterfacesForm.js:123
+#: js/src/interfaces/InterfacesForm.js:119
 #, fuzzy
 msgid ""
 "It acts as a local network connection. LAN should contain devices that "
@@ -1158,7 +1159,7 @@ msgstr ""
 "a készüléket.\n"
 "        "
 
-#: js/src/interfaces/InterfacesForm.js:139
+#: js/src/interfaces/InterfacesForm.js:135
 #, fuzzy
 msgid ""
 "It acts as a local network connection. Unlike LAN, the devices in the "
@@ -1190,44 +1191,50 @@ msgstr "Alapmodul"
 msgid "Module %s"
 msgstr "%s modul"
 
-#: js/src/interfaces/SelectedInterface.js:69
+#: js/src/interfaces/SelectedInterface.js:73
 #, python-format
 msgid "Interface %s %s"
 msgstr "%s %s csatoló"
 
-#: js/src/interfaces/SelectedInterface.js:72
+#: js/src/interfaces/SelectedInterface.js:76
 msgid "Network"
 msgstr "Hálózat"
 
-#: js/src/interfaces/SelectedInterface.js:80
+#: js/src/interfaces/SelectedInterface.js:84
 msgid "State"
 msgstr "Állapot"
 
-#: js/src/interfaces/SelectedInterface.js:91
+#: js/src/interfaces/SelectedInterface.js:97
 msgid "Module ID"
 msgstr "Modul azonosítója"
 
-#: js/src/interfaces/SelectedInterface.js:95
+#: js/src/interfaces/SelectedInterface.js:101
 msgid "Slot"
 msgstr "Slot"
 
-#: js/src/interfaces/SelectedInterface.js:99
+#: js/src/interfaces/SelectedInterface.js:105
 msgid "Interface ID"
 msgstr "Csatoló azonosítója"
 
-#: js/src/interfaces/SelectedInterface.js:103
+#: js/src/interfaces/SelectedInterface.js:110
+#, fuzzy
+msgid "VLAN ID"
+msgstr "LAN mód"
+
+#: js/src/interfaces/SelectedInterface.js:115
 msgid "Type"
 msgstr "Típus"
 
-#: js/src/interfaces/SelectedInterface.js:107
+#: js/src/interfaces/SelectedInterface.js:119
 msgid "Bus"
 msgstr "Busz"
 
-#: js/src/interfaces/SelectedInterface.js:111
+#: js/src/interfaces/SelectedInterface.js:123
 msgid "Link speed"
 msgstr "Kapcsolat sebessége"
 
-#: js/src/interfaces/SelectedInterface.js:113
+#: js/src/interfaces/SelectedInterface.js:125
+#: js/src/interfaces/SelectedInterface.js:130
 #: js/src/overview/Cards/NetmetrCard.js:117
 msgid "N/A"
 msgstr "N/a"
@@ -1322,7 +1329,7 @@ msgstr "Régió és idő"
 
 #: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:78
 #: js/src/main/pages.js:79 js/src/main/pages.js:170
-#: js/src/notifications/Notifications/Notifications.js:89
+#: js/src/notifications/Notifications/Notifications.js:88
 #: js/src/notificationsSettings/NotificationsSettings.js:26
 msgid "Notifications"
 msgstr "Értesítések"
@@ -1367,7 +1374,7 @@ msgid "Logout"
 msgstr "Kijelentkezés"
 
 #: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:37
-#: js/src/notifications/Notifications/Notifications.js:74
+#: js/src/notifications/Notifications/Notifications.js:73
 msgid "No notifications"
 msgstr "Nincs értesítés"
 
@@ -1398,7 +1405,7 @@ msgstr ""
 "href=${ForisURLs.packageManagement.updates}>Frissítések</a> lapon."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
-#: js/src/packageManagement/updates/UpdateApproval.js:129
+#: js/src/packageManagement/updates/UpdateApproval.js:128
 msgid "Install now"
 msgstr "Telepítés most"
 
@@ -1559,7 +1566,7 @@ msgstr "Biztonság"
 msgid "Username"
 msgstr "Felhasználónév"
 
-#: js/src/notificationsSettings/SMTPTurrisForm.js:37
+#: js/src/notificationsSettings/SMTPTurrisForm.js:36
 msgid "Sender's name"
 msgstr "Feladó neve"
 
@@ -1661,23 +1668,23 @@ msgstr "A maximális port 65535."
 msgid "Minimum port is 1."
 msgstr "A minimális port 1."
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:46
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:44
 msgid "Automatic Updates"
 msgstr "Automatikus frissítések"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:49
-#: js/src/overview/Cards/DataCollectionCard.js:49
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:47
+#: js/src/overview/Cards/DataCollectionCard.js:47
 #: js/src/overview/Cards/DynamicFirewallCard.js:28
 msgid "Activated"
 msgstr "Aktivált"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:49
-#: js/src/overview/Cards/DataCollectionCard.js:49
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:47
+#: js/src/overview/Cards/DataCollectionCard.js:47
 #: js/src/overview/Cards/DynamicFirewallCard.js:28
 msgid "Disabled"
 msgstr "Letiltva"
 
-#: js/src/overview/Cards/DataCollectionCard.js:46
+#: js/src/overview/Cards/DataCollectionCard.js:44
 msgid "Threat Detection"
 msgstr ""
 
@@ -1718,15 +1725,15 @@ msgstr "Elvégzett"
 msgid "No tests have been performed lately."
 msgstr "Az utóbbi időben nem végeztek vizsgálatokat."
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:47
+#: js/src/overview/Cards/OpenVPNClientsCard.js:45
 msgid "OpenVPN Clients"
 msgstr "OpenVPN Ügyfelek"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:53
+#: js/src/overview/Cards/OpenVPNClientsCard.js:51
 msgid "Go to OpenVPN Client Settings"
 msgstr "Ugrás az OpenVPN-ügyfélbeállításaira"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:93
+#: js/src/overview/Cards/OpenVPNClientsCard.js:91
 msgid "There are no clients added yet."
 msgstr "Még nincsenek hozzáadva ügyfelek."
 
@@ -1982,14 +1989,14 @@ msgstr ""
 "Lásd <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
 "aria-expanded=\"false\" aria-controls=\"plan-wrapper\">részletek</a>"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:80
+#: js/src/packageManagement/updates/UpdateApproval.js:79
 msgid ""
 "These updates are not going to be \n"
 "                                    automatically installed before \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 msgstr ""
 
-#: js/src/packageManagement/updates/UpdateApproval.js:89
+#: js/src/packageManagement/updates/UpdateApproval.js:88
 msgid ""
 "If you don't want the updates to be installed at all, go to\n"
 "                                    <a "
@@ -1999,44 +2006,44 @@ msgid ""
 "approval needed</b>."
 msgstr ""
 
-#: js/src/packageManagement/updates/UpdateApproval.js:107
+#: js/src/packageManagement/updates/UpdateApproval.js:106
 #, python-format
 msgid "Approve Update From %s"
 msgstr "Frissítés jóváhagyása %s-tól"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:135
+#: js/src/packageManagement/updates/UpdateApproval.js:134
 msgid "There are no updates awaiting your approval."
 msgstr "Nincsenek jóváhagyásra váró frissítések."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:152
+#: js/src/packageManagement/updates/UpdateApproval.js:149
 msgid "Action"
 msgstr "Művelet"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:154
+#: js/src/packageManagement/updates/UpdateApproval.js:151
 msgid "Current"
 msgstr "Jelenlegi"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:155
+#: js/src/packageManagement/updates/UpdateApproval.js:152
 msgid "New"
 msgstr "Új"
 
-#: js/src/packageManagement/updates/UpdateManager.js:74
+#: js/src/packageManagement/updates/UpdateManager.js:72
 #, fuzzy
 msgid "Updates Check"
 msgstr "Frissítések"
 
-#: js/src/packageManagement/updates/UpdateManager.js:85
+#: js/src/packageManagement/updates/UpdateManager.js:83
 #, fuzzy
 msgid "Available Updates"
 msgstr "Késleltetett frissítések"
 
-#: js/src/packageManagement/updates/UpdateManager.js:87
+#: js/src/packageManagement/updates/UpdateManager.js:85
 msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
 msgstr ""
 
-#: js/src/packageManagement/updates/UpdateManager.js:93
+#: js/src/packageManagement/updates/UpdateManager.js:91
 msgid "You're up to date."
 msgstr ""
 
@@ -2127,7 +2134,7 @@ msgstr ""
 "beállításokhoz jelszó beállítva, akkor erre később is lesz lehetőség. "
 "Addig is a root fiók le lesz tiltva.)"
 
-#: js/src/password/Password.js:78
+#: js/src/password/Password.js:102
 msgid ""
 "The password you have entered has not been saved. It has been compromised"
 " and appears ${\n"
@@ -2137,37 +2144,37 @@ msgid ""
 "                        } list. Please choose a more secure password."
 msgstr ""
 
-#: js/src/password/Password.js:89
+#: js/src/password/Password.js:113
 #, fuzzy
 msgid "Your password was set successfully."
 msgstr "A továbbító mentése sikeresen megtörtént."
 
-#: js/src/password/Password.js:147
+#: js/src/password/Password.js:148
 #, fuzzy
 msgid "Password Settings"
 msgstr "Hálózati beállítások"
 
-#: js/src/password/Password.js:176
+#: js/src/password/Password.js:177
 msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
 msgstr ""
 
-#: js/src/password/Password.js:193 js/src/password/Password.js:197
+#: js/src/password/Password.js:194 js/src/password/Password.js:198
 msgid "Passwords do not match."
 msgstr ""
 
-#: js/src/password/Password.js:212
+#: js/src/password/Password.js:213
 #, fuzzy
 msgid "Choose a password."
 msgstr "Rossz jelszó."
 
-#: js/src/password/Password.js:215
+#: js/src/password/Password.js:216
 #, fuzzy
 msgid "Password should have at least six symbols."
 msgstr "A TLS-tűnek legalább egy szimbólummal kell rendelkeznie."
 
-#: js/src/password/Password.js:218
+#: js/src/password/Password.js:219
 #, fuzzy
 msgid "Password cannot have more than 128 symbols."
 msgstr "A TLS-tűnek legalább egy szimbólummal kell rendelkeznie."
