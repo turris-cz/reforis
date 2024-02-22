@@ -8,6 +8,32 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [2.0.0] - 2024-02-23
+
+### Added
+
+-   Added & updated Weblate translations
+
+### Changed
+
+-   Updated Webpack to v5 & plugins to latest versions
+-   Updated dependencies
+-   Updated Node.js version to v21 in Makefile
+-   Updated eslint-config-reforis to v2.1.1
+-   Updated CI to use shared scripts, build and publish python package
+-   Fixed heading font sizes
+-   Fixed crashed API request on the Hostname page
+-   Fixed reForis to be compatible with Flask 2.3
+-   Split Webpack JS bundle into main and vendor
+-   Changed build system to hatch
+-   Pinned Flask 2.x
+
+### Removed
+
+-   Removed acorn-dynamic-import dependency
+-   Moved reForis Dockerfile to foris-ci
+-   Unpinned werkzeug
+
 ## [1.5.0] - 2024-01-09
 
 ### Added
@@ -500,7 +526,8 @@ and this project adheres to
 
 -   Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.5.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v2.0.0...master
+[2.0.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.5.0...v2.0.0
 [1.5.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.4.1...v1.5.0
 [1.4.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.4.0...v1.4.1
 [1.4.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.3.1...v1.4.0
