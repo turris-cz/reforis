@@ -1,31 +1,30 @@
 # Russian translations for reForis.
-# Copyright (C) 2022 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-02 16:25+0100\n"
+"POT-Creation-Date: 2024-02-22 14:18+0100\n"
 "PO-Revision-Date: 2022-12-07 12:47+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/turris/reforis/"
-"ru/>\n"
 "Language: ru\n"
+"Language-Team: Russian "
+"<https://hosted.weblate.org/projects/turris/reforis/ru/>\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15-dev\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.14.0\n"
 
-#: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
+#: js/src/about/About.js:18 js/src/main/pages.js:102 js/src/main/pages.js:221
 msgid "About"
 msgstr "Сведения"
 
-#: js/src/about/About.js:27
+#: js/src/about/About.js:21
 msgid ""
 "Here you can find some information about your device. Please include it "
 "in your message if you contact our <a "
@@ -37,27 +36,27 @@ msgstr ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">службу "
 "поддержки</a>."
 
-#: js/src/about/About.js:56
+#: js/src/about/About.js:30
 msgid "Device"
 msgstr "Устройство"
 
-#: js/src/about/About.js:64
+#: js/src/about/About.js:38
 msgid "Serial number"
 msgstr "Серийный номер"
 
-#: js/src/about/About.js:68
+#: js/src/about/About.js:42
 msgid "reForis version"
 msgstr "Версия reForis"
 
-#: js/src/about/About.js:72
+#: js/src/about/About.js:46
 msgid "Turris OS version"
 msgstr "Версия OS Turris"
 
-#: js/src/about/About.js:77
+#: js/src/about/About.js:51
 msgid "Turris OS branch"
 msgstr "Ветка OS Turris"
 
-#: js/src/about/About.js:80
+#: js/src/about/About.js:54
 msgid ""
 "Turris OS is currently released in various branches, which have different"
 " functions and varying stability - you can pick, which branch you want to"
@@ -67,7 +66,7 @@ msgstr ""
 " разные функции и разную стабильность - вы можете выбрать, какую ветку вы"
 " хотите протестировать."
 
-#: js/src/about/About.js:106
+#: js/src/about/About.js:80
 msgid "Kernel version"
 msgstr "Версия ядра"
 
@@ -75,7 +74,7 @@ msgstr "Версия ядра"
 msgid "Reset"
 msgstr "Сброс"
 
-#: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:66
+#: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:65
 #: js/src/dns/DNSSECDisableModal.js:34
 #: js/src/notificationsSettings/TestNotification.js:148
 msgid "Warning!"
@@ -85,8 +84,8 @@ msgstr "Предупреждение!"
 msgid "Are you sure you want to reset the router?"
 msgstr "Вы уверены, что хотите сбросить настройки маршрутизатора?"
 
-#: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:71
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:58
+#: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:70
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
 #: js/src/dns/DNSSECDisableModal.js:48
 #: js/src/notificationsSettings/TestNotification.js:153
 msgid "Cancel"
@@ -96,15 +95,15 @@ msgstr "Отмена"
 msgid "Confirm factory reset"
 msgstr "Подтвердить сброс до заводских настроек"
 
-#: js/src/common/RebootButton.js:51 js/src/maintenance/Reboot.js:17
+#: js/src/common/RebootButton.js:50 js/src/maintenance/Reboot.js:17
 msgid "Reboot"
 msgstr "Перезагрузка"
 
-#: js/src/common/RebootButton.js:68
+#: js/src/common/RebootButton.js:67
 msgid "Are you sure you want to restart the router?"
 msgstr "Вы уверены, что хотите перезагрузить маршрутизатор?"
 
-#: js/src/common/RebootButton.js:73
+#: js/src/common/RebootButton.js:72
 msgid "Confirm reboot"
 msgstr "Подтвердите перезагрузку"
 
@@ -125,13 +124,13 @@ msgstr ""
 "или беспроводные соединения с использованием IPv6."
 
 #: js/src/common/network/DHCP6Clients.js:33
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:22
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:19
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:24
 msgid "No clients found."
 msgstr "Клиенты не найдены."
 
 #: js/src/common/network/DHCP6Clients.js:40
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:25
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:33
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
@@ -148,13 +147,13 @@ msgid "DUID"
 msgstr "Уникальный идентификатор DHCP (DUID)"
 
 #: js/src/common/network/DHCP6Clients.js:43
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:32
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:36
 msgid "Expires"
 msgstr "Истекает"
 
 #: js/src/common/network/DHCP6Clients.js:77
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:68
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:59
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:66
 msgid "Never"
 msgstr "Никогда"
@@ -207,21 +206,21 @@ msgstr "Неверные сетевые настройки. Настройки D
 msgid "Minimum lease time is 1 hour."
 msgstr "Минимальное время аренды 1 час."
 
-#: js/src/common/network/DHCPValidators.js:115
+#: js/src/common/network/DHCPValidators.js:114
 msgid "Address is outside current network."
 msgstr "IP-адрес за пределами текущей сети."
 
-#: js/src/common/network/DHCPValidators.js:119
+#: js/src/common/network/DHCPValidators.js:118
 msgid "Address is already reserved for other purposes."
 msgstr "Адрес уже зарезервирован для других целей."
 
-#: js/src/common/network/DHCPValidators.js:130
+#: js/src/common/network/DHCPValidators.js:129
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr ""
 "Запрошено слишком много адресов. Установите меньшее число или измените "
 "начало пула DHCP."
 
-#: js/src/common/network/DHCPValidators.js:137
+#: js/src/common/network/DHCPValidators.js:136
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
@@ -282,27 +281,27 @@ msgstr ""
 "Этот список содержит все устройства, подключенные к сети через проводные "
 "или беспроводные соединения."
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
 msgid "IPv4 Address"
 msgstr "Адрес IPv4"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:31
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
 msgid "MAC Address"
 msgstr "MAC адрес"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:33
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:37
 msgid "Active"
 msgstr "Активный"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:69
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 msgid "Device is active"
 msgstr "Устройство активно"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:69
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 msgid "Device is inactive"
 msgstr "Устройство неактивно"
@@ -320,8 +319,8 @@ msgstr "Установить постоянную аренду"
 msgid "Add static lease"
 msgstr "Добавить постоянную аренду"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:61
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:57
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
 msgid "Save"
 msgstr "Сохранить"
 
@@ -329,39 +328,40 @@ msgstr "Сохранить"
 msgid "List of available hostnames"
 msgstr "Список доступных имен хостов"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:57
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:58
 msgid "IPv4 address"
 msgstr "Адрес IPv4"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:68
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:69
 msgid "List of available IPv4 addresses"
 msgstr "Список доступных адресов IPv4"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:82
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:84
+#: js/src/interfaces/SelectedInterface.js:129
 msgid "MAC address"
 msgstr "MAC-адрес"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:93
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:95
 msgid "List of available MAC addresses"
 msgstr "Список доступных MAC-адресов"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:115
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:113
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Actions"
 msgstr "Действия"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:126
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:124
 #: js/src/dns/Forwarders/ForwardersTable.js:143
 msgid "Edit"
 msgstr "Редактировать"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:140
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:138
 #: js/src/dns/Forwarders/ForwardersTable.js:151
 msgid "Delete"
 msgstr "Удалить"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:149
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:147
 msgid "Set Static"
 msgstr "Установить постоянный"
 
@@ -568,20 +568,20 @@ msgstr "SHA-256 в кодировке Base 64."
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr "«Нет TLS» означает, что используется обычный протокол DNS на основе UDP."
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:50
-#: js/src/packageManagement/updates/UpdateApproval.js:153
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
+#: js/src/packageManagement/updates/UpdateApproval.js:150
 msgid "Name"
 msgstr "Имя"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:73
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:69
 msgid "TLS type"
 msgstr "Протокол защиты транспортного уровня (TLS)"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:91
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:87
 msgid "TLS hostname"
 msgstr "Имя хоста TLS"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:103
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:99
 msgid "TLS pin"
 msgstr "Код TLS"
 
@@ -597,11 +597,11 @@ msgstr "IPv6"
 msgid "${label} Addresses"
 msgstr "${label} Адреса"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:57
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:58
 msgid "${label} #${index + 1}"
 msgstr "${label} #${index + 1}"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:81
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:82
 msgid "Add ${label} address"
 msgstr "Добавить ${label} адрес"
 
@@ -929,9 +929,9 @@ msgid ""
 "means that you can access the configuration interface of your device, and"
 " your device can access the internet."
 msgstr ""
-"Проверьте, правильно ли работают указанные вами настройки. Это означает, что "
-"вы можете получить доступ к интерфейсу конфигурации вашего устройства, и "
-"ваше устройство может получить доступ к Интернету."
+"Проверьте, правильно ли работают указанные вами настройки. Это означает, "
+"что вы можете получить доступ к интерфейсу конфигурации вашего "
+"устройства, и ваше устройство может получить доступ к Интернету."
 
 #: js/src/guide/constants.js:134
 msgid ""
@@ -947,7 +947,7 @@ msgstr "Начальная настройка не завершена."
 
 #: js/src/guide/steps.js:21 js/src/main/pages.js:69 js/src/main/pages.js:160
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
-#: js/src/password/Password.js:174
+#: js/src/password/Password.js:175
 msgid "Password"
 msgstr "Пароль"
 
@@ -1137,7 +1137,7 @@ msgstr ""
 "Порты открыты на вашем интерфейсе WAN. Лучше перенастроить параметры "
 "интерфейса, чтобы избежать проблем с безопасностью."
 
-#: js/src/interfaces/InterfacesForm.js:111
+#: js/src/interfaces/InterfacesForm.js:107
 msgid ""
 "It acts as an external network connection. Firewall rules should be "
 "applied here. It can only contain a single interface."
@@ -1146,7 +1146,7 @@ msgstr ""
 "применяться для этого интерфейса. Он может содержать только один "
 "интерфейс."
 
-#: js/src/interfaces/InterfacesForm.js:123
+#: js/src/interfaces/InterfacesForm.js:119
 msgid ""
 "It acts as a local network connection. LAN should contain devices that "
 "are under your control, and you trust them. These devices can see each "
@@ -1160,7 +1160,7 @@ msgstr ""
 "веб-интерфейсу. Рекомендуется, чтобы в локальной сети был хотя бы один "
 "интерфейс, иначе вы не сможете настроить маршрутизатор."
 
-#: js/src/interfaces/InterfacesForm.js:139
+#: js/src/interfaces/InterfacesForm.js:135
 msgid ""
 "It acts as a local network connection. Unlike LAN, the devices in the "
 "guest network can't access the configuration interface of this device and"
@@ -1188,44 +1188,50 @@ msgstr "Основной модуль"
 msgid "Module %s"
 msgstr "Модуль %s"
 
-#: js/src/interfaces/SelectedInterface.js:69
+#: js/src/interfaces/SelectedInterface.js:73
 #, python-format
 msgid "Interface %s %s"
 msgstr "Интерфейс %s %s"
 
-#: js/src/interfaces/SelectedInterface.js:72
+#: js/src/interfaces/SelectedInterface.js:76
 msgid "Network"
 msgstr "Сеть"
 
-#: js/src/interfaces/SelectedInterface.js:80
+#: js/src/interfaces/SelectedInterface.js:84
 msgid "State"
 msgstr "Состояние"
 
-#: js/src/interfaces/SelectedInterface.js:91
+#: js/src/interfaces/SelectedInterface.js:97
 msgid "Module ID"
 msgstr "Идентификатор модуля"
 
-#: js/src/interfaces/SelectedInterface.js:95
+#: js/src/interfaces/SelectedInterface.js:101
 msgid "Slot"
 msgstr "Слот"
 
-#: js/src/interfaces/SelectedInterface.js:99
+#: js/src/interfaces/SelectedInterface.js:105
 msgid "Interface ID"
 msgstr "Идентификатор интерфейса"
 
-#: js/src/interfaces/SelectedInterface.js:103
+#: js/src/interfaces/SelectedInterface.js:110
+#, fuzzy
+msgid "VLAN ID"
+msgstr "Режим локальной сети"
+
+#: js/src/interfaces/SelectedInterface.js:115
 msgid "Type"
 msgstr "Тип"
 
-#: js/src/interfaces/SelectedInterface.js:107
+#: js/src/interfaces/SelectedInterface.js:119
 msgid "Bus"
 msgstr "Шина"
 
-#: js/src/interfaces/SelectedInterface.js:111
+#: js/src/interfaces/SelectedInterface.js:123
 msgid "Link speed"
 msgstr "Скорость соединения"
 
-#: js/src/interfaces/SelectedInterface.js:113
+#: js/src/interfaces/SelectedInterface.js:125
+#: js/src/interfaces/SelectedInterface.js:130
 #: js/src/overview/Cards/NetmetrCard.js:117
 msgid "N/A"
 msgstr "Не доступно"
@@ -1335,7 +1341,7 @@ msgstr "Регион и время"
 
 #: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:78
 #: js/src/main/pages.js:79 js/src/main/pages.js:170
-#: js/src/notifications/Notifications/Notifications.js:89
+#: js/src/notifications/Notifications/Notifications.js:88
 #: js/src/notificationsSettings/NotificationsSettings.js:26
 msgid "Notifications"
 msgstr "Уведомления"
@@ -1380,7 +1386,7 @@ msgid "Logout"
 msgstr "Выход"
 
 #: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:37
-#: js/src/notifications/Notifications/Notifications.js:74
+#: js/src/notifications/Notifications/Notifications.js:73
 msgid "No notifications"
 msgstr "Нет уведомлений"
 
@@ -1411,7 +1417,7 @@ msgstr ""
 "rout>странице обновлений</a>."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
-#: js/src/packageManagement/updates/UpdateApproval.js:129
+#: js/src/packageManagement/updates/UpdateApproval.js:128
 msgid "Install now"
 msgstr "Установить сейчас"
 
@@ -1582,7 +1588,7 @@ msgstr "Безопасность"
 msgid "Username"
 msgstr "Имя пользователя"
 
-#: js/src/notificationsSettings/SMTPTurrisForm.js:37
+#: js/src/notificationsSettings/SMTPTurrisForm.js:36
 msgid "Sender's name"
 msgstr "Имя отправителя"
 
@@ -1686,23 +1692,23 @@ msgstr "Максимальный порт 65535."
 msgid "Minimum port is 1."
 msgstr "Минимальный порт 1."
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:46
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:44
 msgid "Automatic Updates"
 msgstr "Автоматические обновления"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:49
-#: js/src/overview/Cards/DataCollectionCard.js:49
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:47
+#: js/src/overview/Cards/DataCollectionCard.js:47
 #: js/src/overview/Cards/DynamicFirewallCard.js:28
 msgid "Activated"
 msgstr "Активирован"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:49
-#: js/src/overview/Cards/DataCollectionCard.js:49
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:47
+#: js/src/overview/Cards/DataCollectionCard.js:47
 #: js/src/overview/Cards/DynamicFirewallCard.js:28
 msgid "Disabled"
 msgstr "Отключён"
 
-#: js/src/overview/Cards/DataCollectionCard.js:46
+#: js/src/overview/Cards/DataCollectionCard.js:44
 msgid "Threat Detection"
 msgstr "Обнаружение угроз"
 
@@ -1743,15 +1749,15 @@ msgstr "Выполнено"
 msgid "No tests have been performed lately."
 msgstr "В последнее время никаких тестов не проводилось."
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:47
+#: js/src/overview/Cards/OpenVPNClientsCard.js:45
 msgid "OpenVPN Clients"
 msgstr "Клиенты OpenVPN"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:53
+#: js/src/overview/Cards/OpenVPNClientsCard.js:51
 msgid "Go to OpenVPN Client Settings"
 msgstr "Перейдите в настройки клиента OpenVPN"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:93
+#: js/src/overview/Cards/OpenVPNClientsCard.js:91
 msgid "There are no clients added yet."
 msgstr "Еще нет добавленных клиентов."
 
@@ -2010,7 +2016,7 @@ msgstr ""
 "role=\"button\" aria-expanded=\"false\" aria-controls=\"plan-"
 "wrapper\">детали</a>"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:80
+#: js/src/packageManagement/updates/UpdateApproval.js:79
 msgid ""
 "These updates are not going to be \n"
 "                                    automatically installed before \n"
@@ -2019,7 +2025,7 @@ msgstr ""
 "Эти обновления не будут автоматически устанавливается до $ "
 "{toLocaleDateString (delayedTime)}."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:89
+#: js/src/packageManagement/updates/UpdateApproval.js:88
 msgid ""
 "If you don't want the updates to be installed at all, go to\n"
 "                                    <a "
@@ -2033,36 +2039,36 @@ msgstr ""
 "настройки </a> и выберите вариант <b> Требуется подтверждение обновления "
 "</b>."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:107
+#: js/src/packageManagement/updates/UpdateApproval.js:106
 #, python-format
 msgid "Approve Update From %s"
 msgstr "Одобрить Обновление от %s"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:135
+#: js/src/packageManagement/updates/UpdateApproval.js:134
 msgid "There are no updates awaiting your approval."
 msgstr "Нет обновлений, ожидающих вашего одобрения."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:152
+#: js/src/packageManagement/updates/UpdateApproval.js:149
 msgid "Action"
 msgstr "Действие"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:154
+#: js/src/packageManagement/updates/UpdateApproval.js:151
 msgid "Current"
 msgstr "Текущий"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:155
+#: js/src/packageManagement/updates/UpdateApproval.js:152
 msgid "New"
 msgstr "Новый"
 
-#: js/src/packageManagement/updates/UpdateManager.js:74
+#: js/src/packageManagement/updates/UpdateManager.js:72
 msgid "Updates Check"
 msgstr "Проверка обновлений"
 
-#: js/src/packageManagement/updates/UpdateManager.js:85
+#: js/src/packageManagement/updates/UpdateManager.js:83
 msgid "Available Updates"
 msgstr "Доступные обновления"
 
-#: js/src/packageManagement/updates/UpdateManager.js:87
+#: js/src/packageManagement/updates/UpdateManager.js:85
 msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
@@ -2070,7 +2076,7 @@ msgstr ""
 "Здесь вы можете найти и одобрить доступные обновления для ОС Turris и "
 "другие компоненты."
 
-#: js/src/packageManagement/updates/UpdateManager.js:93
+#: js/src/packageManagement/updates/UpdateManager.js:91
 msgid "You're up to date."
 msgstr "Обновления не требуются."
 
@@ -2159,7 +2165,7 @@ msgstr ""
 "пароль для расширенной настройки здесь, можно сделать это позднее. До "
 "этого момента аккаунт root будет заблокирован.)"
 
-#: js/src/password/Password.js:78
+#: js/src/password/Password.js:102
 msgid ""
 "The password you have entered has not been saved. It has been compromised"
 " and appears ${\n"
@@ -2173,15 +2179,15 @@ msgstr ""
 " || rootPassword.list} списке. Пожалуйста, введите другой, более надежный"
 " пароль."
 
-#: js/src/password/Password.js:89
+#: js/src/password/Password.js:113
 msgid "Your password was set successfully."
 msgstr "Пароль успешно установлен."
 
-#: js/src/password/Password.js:147
+#: js/src/password/Password.js:148
 msgid "Password Settings"
 msgstr "Настройки пароля"
 
-#: js/src/password/Password.js:176
+#: js/src/password/Password.js:177
 msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
@@ -2189,19 +2195,19 @@ msgstr ""
 "Здесь вы можете установить пароль для интерфейса администрирования. "
 "Обеспечьте его безопасность, сделав его длинным и уникальным."
 
-#: js/src/password/Password.js:193 js/src/password/Password.js:197
+#: js/src/password/Password.js:194 js/src/password/Password.js:198
 msgid "Passwords do not match."
 msgstr "Подтверждение пароля не совпадает."
 
-#: js/src/password/Password.js:212
+#: js/src/password/Password.js:213
 msgid "Choose a password."
 msgstr "Придумайте пароль."
 
-#: js/src/password/Password.js:215
+#: js/src/password/Password.js:216
 msgid "Password should have at least six symbols."
 msgstr "Пароль должен содержать не менее шести символов."
 
-#: js/src/password/Password.js:218
+#: js/src/password/Password.js:219
 msgid "Password cannot have more than 128 symbols."
 msgstr "Пароль не может содержать более 128 символов."
 
@@ -3034,3 +3040,4 @@ msgstr "500 - Ошибка сервера"
 #~ "устанавливая антивирусное программное обеспечение"
 #~ " и объясняя членам вашей семьи, как"
 #~ " обезопасить себя в Интернете."
+

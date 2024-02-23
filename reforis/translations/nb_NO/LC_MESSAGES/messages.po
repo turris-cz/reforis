@@ -1,30 +1,29 @@
 # Norwegian Bokmål (Norway) translations for reForis.
-# Copyright (C) 2022 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-12-02 16:25+0100\n"
+"POT-Creation-Date: 2024-02-22 14:18+0100\n"
 "PO-Revision-Date: 2022-12-03 15:47+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
-"reforis/nb_NO/>\n"
 "Language: nb_NO\n"
+"Language-Team: Norwegian Bokmål "
+"<https://hosted.weblate.org/projects/turris/reforis/nb_NO/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.14.0\n"
 
-#: js/src/about/About.js:24 js/src/main/pages.js:102 js/src/main/pages.js:221
+#: js/src/about/About.js:18 js/src/main/pages.js:102 js/src/main/pages.js:221
 msgid "About"
 msgstr "Om"
 
-#: js/src/about/About.js:27
+#: js/src/about/About.js:21
 #, fuzzy
 msgid ""
 "Here you can find some information about your device. Please include it "
@@ -36,27 +35,27 @@ msgstr ""
 "du kontakter vår <a href=\"mailto:tech.support@turris.cz\" "
 "target=\"_blank\">brukerstøtte</a>"
 
-#: js/src/about/About.js:56
+#: js/src/about/About.js:30
 msgid "Device"
 msgstr "Enhet"
 
-#: js/src/about/About.js:64
+#: js/src/about/About.js:38
 msgid "Serial number"
 msgstr "Serienummer"
 
-#: js/src/about/About.js:68
+#: js/src/about/About.js:42
 msgid "reForis version"
 msgstr "reForis-versjon"
 
-#: js/src/about/About.js:72
+#: js/src/about/About.js:46
 msgid "Turris OS version"
 msgstr "Turris OS-versjon"
 
-#: js/src/about/About.js:77
+#: js/src/about/About.js:51
 msgid "Turris OS branch"
 msgstr "Turris OS-forgrening"
 
-#: js/src/about/About.js:80
+#: js/src/about/About.js:54
 msgid ""
 "Turris OS is currently released in various branches, which have different"
 " functions and varying stability - you can pick, which branch you want to"
@@ -66,7 +65,7 @@ msgstr ""
 "funksjoner og varierende stabilitet – du kan velge den forgreningen du "
 "ønsker å teste."
 
-#: js/src/about/About.js:106
+#: js/src/about/About.js:80
 msgid "Kernel version"
 msgstr "Kjerneversjon"
 
@@ -74,7 +73,7 @@ msgstr "Kjerneversjon"
 msgid "Reset"
 msgstr "Tilbakestill"
 
-#: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:66
+#: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:65
 #: js/src/dns/DNSSECDisableModal.js:34
 #: js/src/notificationsSettings/TestNotification.js:148
 msgid "Warning!"
@@ -85,8 +84,8 @@ msgstr "Advarsel!"
 msgid "Are you sure you want to reset the router?"
 msgstr "Tilbakestill ruteren?"
 
-#: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:71
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:58
+#: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:70
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
 #: js/src/dns/DNSSECDisableModal.js:48
 #: js/src/notificationsSettings/TestNotification.js:153
 msgid "Cancel"
@@ -96,15 +95,15 @@ msgstr "Avbryt"
 msgid "Confirm factory reset"
 msgstr "Bekreft tilbakestilling til fabrikkinnstillinger"
 
-#: js/src/common/RebootButton.js:51 js/src/maintenance/Reboot.js:17
+#: js/src/common/RebootButton.js:50 js/src/maintenance/Reboot.js:17
 msgid "Reboot"
 msgstr "Start på ny"
 
-#: js/src/common/RebootButton.js:68
+#: js/src/common/RebootButton.js:67
 msgid "Are you sure you want to restart the router?"
 msgstr "Er du sikker på at du vil utføre omstart av ruteren?"
 
-#: js/src/common/RebootButton.js:73
+#: js/src/common/RebootButton.js:72
 msgid "Confirm reboot"
 msgstr "Bekreft omstart"
 
@@ -125,13 +124,13 @@ msgstr ""
 "kablede eller trådløse forbindelser ved bruk av IPv6."
 
 #: js/src/common/network/DHCP6Clients.js:33
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:22
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:19
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:24
 msgid "No clients found."
 msgstr "Fant ingen klienter."
 
 #: js/src/common/network/DHCP6Clients.js:40
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:25
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:33
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
@@ -148,13 +147,13 @@ msgid "DUID"
 msgstr "DUID"
 
 #: js/src/common/network/DHCP6Clients.js:43
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:32
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:36
 msgid "Expires"
 msgstr "Utløper"
 
 #: js/src/common/network/DHCP6Clients.js:77
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:68
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:59
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:66
 msgid "Never"
 msgstr "Aldri"
@@ -210,21 +209,21 @@ msgstr "Ugyldige nettverksinnstillinger. DHCP-innstillinger kan ikke bekreftes."
 msgid "Minimum lease time is 1 hour."
 msgstr "Minimumsleietid er 1 time."
 
-#: js/src/common/network/DHCPValidators.js:115
+#: js/src/common/network/DHCPValidators.js:114
 msgid "Address is outside current network."
 msgstr "Adressen er utenfor nåværende nettverk."
 
-#: js/src/common/network/DHCPValidators.js:119
+#: js/src/common/network/DHCPValidators.js:118
 #, fuzzy
 msgid "Address is already reserved for other purposes."
 msgstr "Adresse allerede reservert til andre formål."
 
-#: js/src/common/network/DHCPValidators.js:130
+#: js/src/common/network/DHCPValidators.js:129
 #, fuzzy
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr "For mange adresser forespurt. Sett et lavere tall, eller endre DHCP-start."
 
-#: js/src/common/network/DHCPValidators.js:137
+#: js/src/common/network/DHCPValidators.js:136
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
@@ -285,28 +284,28 @@ msgstr ""
 "Denne listen inneholder alle enheter som er tilkoblet nettverket gjennom "
 "kablede eller trådløse forbindelser."
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
 msgid "IPv4 Address"
 msgstr "IPv4-adresse"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:31
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
 msgid "MAC Address"
 msgstr "MAC-adresse"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:33
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:37
 msgid "Active"
 msgstr "Aktiv"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:69
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 #, fuzzy
 msgid "Device is active"
 msgstr "Enheten er aktiv"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:78
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:69
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
 msgid "Device is inactive"
 msgstr "Enheten er inaktiv"
@@ -324,8 +323,8 @@ msgstr "Sett statisk tildelning"
 msgid "Add static lease"
 msgstr "Legg til statisk tildelning"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:61
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:119
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:57
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
 msgid "Save"
 msgstr "Lagre"
 
@@ -333,41 +332,42 @@ msgstr "Lagre"
 msgid "List of available hostnames"
 msgstr "Liste over tilgjengelige vertsnavn"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:57
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:58
 #, fuzzy
 msgid "IPv4 address"
 msgstr "IPv4-adresse"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:68
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:69
 msgid "List of available IPv4 addresses"
 msgstr "Liste over tilgjengelige IPv4-adresser"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:82
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:84
+#: js/src/interfaces/SelectedInterface.js:129
 #, fuzzy
 msgid "MAC address"
 msgstr "IP-adresse"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:93
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:95
 msgid "List of available MAC addresses"
 msgstr "Liste over tilgjengelige MAC-adresser"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:115
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:113
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Actions"
 msgstr "Handlinger"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:126
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:124
 #: js/src/dns/Forwarders/ForwardersTable.js:143
 msgid "Edit"
 msgstr "Rediger"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:140
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:138
 #: js/src/dns/Forwarders/ForwardersTable.js:151
 msgid "Delete"
 msgstr "Slett"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:149
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:147
 msgid "Set Static"
 msgstr "Sett statisk"
 
@@ -584,20 +584,20 @@ msgstr "Base 64-kodet SHA-256"
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr "«Ingen TLS» betyr at vanlig UDP-basert DNS-protokoll brukes."
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:50
-#: js/src/packageManagement/updates/UpdateApproval.js:153
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
+#: js/src/packageManagement/updates/UpdateApproval.js:150
 msgid "Name"
 msgstr "Navn"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:73
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:69
 msgid "TLS type"
 msgstr "TLS-type"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:91
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:87
 msgid "TLS hostname"
 msgstr "TLS-vertsnavn"
 
-#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:103
+#: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:99
 msgid "TLS pin"
 msgstr "TLS-tilordning"
 
@@ -613,12 +613,12 @@ msgstr "IPv6"
 msgid "${label} Addresses"
 msgstr "${label}-adresser"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:57
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:58
 #, fuzzy
 msgid "${label} #${index + 1}"
 msgstr "${label} #${index + 1}"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:81
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:82
 msgid "Add ${label} address"
 msgstr "Legg til ${label}-adresse"
 
@@ -979,7 +979,7 @@ msgstr "Kan ikke markere guide som fullført."
 
 #: js/src/guide/steps.js:21 js/src/main/pages.js:69 js/src/main/pages.js:160
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
-#: js/src/password/Password.js:174
+#: js/src/password/Password.js:175
 msgid "Password"
 msgstr "Passord"
 
@@ -1171,7 +1171,7 @@ msgstr ""
 "Det er åpne porter på ditt WAN-grensesnitt. Det er bedre å sette opp "
 "grensesnittet ditt igjen for å unngå sikkerhetsproblemer."
 
-#: js/src/interfaces/InterfacesForm.js:111
+#: js/src/interfaces/InterfacesForm.js:107
 msgid ""
 "It acts as an external network connection. Firewall rules should be "
 "applied here. It can only contain a single interface."
@@ -1179,7 +1179,7 @@ msgstr ""
 "Oppfører seg som ekstern nettverkstilkobling.\n"
 "Brannmursregler skal legges til her. Kan kun inneholde ett grensesnitt."
 
-#: js/src/interfaces/InterfacesForm.js:123
+#: js/src/interfaces/InterfacesForm.js:119
 msgid ""
 "It acts as a local network connection. LAN should contain devices that "
 "are under your control, and you trust them. These devices can see each "
@@ -1193,7 +1193,7 @@ msgstr ""
 "Det anbefales at lokalnettet skal inneholde minst ett grensesnitt.\n"
 "Ellers vil du ikke kunne sette opp denne enheten på enkelt vis."
 
-#: js/src/interfaces/InterfacesForm.js:139
+#: js/src/interfaces/InterfacesForm.js:135
 msgid ""
 "It acts as a local network connection. Unlike LAN, the devices in the "
 "guest network can't access the configuration interface of this device and"
@@ -1221,44 +1221,50 @@ msgstr "Grunnmodul"
 msgid "Module %s"
 msgstr "Modul %s"
 
-#: js/src/interfaces/SelectedInterface.js:69
+#: js/src/interfaces/SelectedInterface.js:73
 #, python-format
 msgid "Interface %s %s"
 msgstr "Grensesnitt %s %s"
 
-#: js/src/interfaces/SelectedInterface.js:72
+#: js/src/interfaces/SelectedInterface.js:76
 msgid "Network"
 msgstr "Nettverk"
 
-#: js/src/interfaces/SelectedInterface.js:80
+#: js/src/interfaces/SelectedInterface.js:84
 msgid "State"
 msgstr "Tilstand"
 
-#: js/src/interfaces/SelectedInterface.js:91
+#: js/src/interfaces/SelectedInterface.js:97
 msgid "Module ID"
 msgstr "Modul-ID"
 
-#: js/src/interfaces/SelectedInterface.js:95
+#: js/src/interfaces/SelectedInterface.js:101
 msgid "Slot"
 msgstr "Plass"
 
-#: js/src/interfaces/SelectedInterface.js:99
+#: js/src/interfaces/SelectedInterface.js:105
 msgid "Interface ID"
 msgstr "Grensesnitts-ID"
 
-#: js/src/interfaces/SelectedInterface.js:103
+#: js/src/interfaces/SelectedInterface.js:110
+#, fuzzy
+msgid "VLAN ID"
+msgstr "LAN-modus"
+
+#: js/src/interfaces/SelectedInterface.js:115
 msgid "Type"
 msgstr "Type"
 
-#: js/src/interfaces/SelectedInterface.js:107
+#: js/src/interfaces/SelectedInterface.js:119
 msgid "Bus"
 msgstr "Buss"
 
-#: js/src/interfaces/SelectedInterface.js:111
+#: js/src/interfaces/SelectedInterface.js:123
 msgid "Link speed"
 msgstr "Lenkehastighet"
 
-#: js/src/interfaces/SelectedInterface.js:113
+#: js/src/interfaces/SelectedInterface.js:125
+#: js/src/interfaces/SelectedInterface.js:130
 #: js/src/overview/Cards/NetmetrCard.js:117
 msgid "N/A"
 msgstr "I/T"
@@ -1370,7 +1376,7 @@ msgstr "Tid og sted"
 
 #: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:78
 #: js/src/main/pages.js:79 js/src/main/pages.js:170
-#: js/src/notifications/Notifications/Notifications.js:89
+#: js/src/notifications/Notifications/Notifications.js:88
 #: js/src/notificationsSettings/NotificationsSettings.js:26
 msgid "Notifications"
 msgstr "Merknader"
@@ -1416,7 +1422,7 @@ msgid "Logout"
 msgstr "Logg ut"
 
 #: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:37
-#: js/src/notifications/Notifications/Notifications.js:74
+#: js/src/notifications/Notifications/Notifications.js:73
 msgid "No notifications"
 msgstr "Ingen merknader"
 
@@ -1449,7 +1455,7 @@ msgstr ""
 "href=${ForisURLs.packageManagement.updates}>oppgraderinger</a>-siden."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
-#: js/src/packageManagement/updates/UpdateApproval.js:129
+#: js/src/packageManagement/updates/UpdateApproval.js:128
 msgid "Install now"
 msgstr "Installer nå"
 
@@ -1628,7 +1634,7 @@ msgstr "Sikkerhet"
 msgid "Username"
 msgstr "Brukernavn"
 
-#: js/src/notificationsSettings/SMTPTurrisForm.js:37
+#: js/src/notificationsSettings/SMTPTurrisForm.js:36
 msgid "Sender's name"
 msgstr "Avsendernavn"
 
@@ -1737,25 +1743,25 @@ msgstr "Maksimal port er 65535."
 msgid "Minimum port is 1."
 msgstr "Minimumsport er 1."
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:46
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:44
 #, fuzzy
 msgid "Automatic Updates"
 msgstr "Automatiske oppdateringer"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:49
-#: js/src/overview/Cards/DataCollectionCard.js:49
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:47
+#: js/src/overview/Cards/DataCollectionCard.js:47
 #: js/src/overview/Cards/DynamicFirewallCard.js:28
 #, fuzzy
 msgid "Activated"
 msgstr "Påskrudd"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:49
-#: js/src/overview/Cards/DataCollectionCard.js:49
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:47
+#: js/src/overview/Cards/DataCollectionCard.js:47
 #: js/src/overview/Cards/DynamicFirewallCard.js:28
 msgid "Disabled"
 msgstr "Avskrudd"
 
-#: js/src/overview/Cards/DataCollectionCard.js:46
+#: js/src/overview/Cards/DataCollectionCard.js:44
 msgid "Threat Detection"
 msgstr "Trusselsoppdagelse"
 
@@ -1798,15 +1804,15 @@ msgstr "Utført"
 msgid "No tests have been performed lately."
 msgstr "Ingen tester har blitt utført i det siste."
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:47
+#: js/src/overview/Cards/OpenVPNClientsCard.js:45
 msgid "OpenVPN Clients"
 msgstr "OpenVPN-klienter"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:53
+#: js/src/overview/Cards/OpenVPNClientsCard.js:51
 msgid "Go to OpenVPN Client Settings"
 msgstr "Gå til OpenVPN-klientinnstillinger"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:93
+#: js/src/overview/Cards/OpenVPNClientsCard.js:91
 msgid "There are no clients added yet."
 msgstr "Ingen klienter lagt til enda."
 
@@ -2078,7 +2084,7 @@ msgstr ""
 "Vis <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
 "aria-expanded=\"false\" aria-controls=\"plan-wrapper\">detaljer</a>"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:80
+#: js/src/packageManagement/updates/UpdateApproval.js:79
 #, fuzzy
 msgid ""
 "These updates are not going to be \n"
@@ -2089,7 +2095,7 @@ msgstr ""
 "                                    automatisk installert før \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:89
+#: js/src/packageManagement/updates/UpdateApproval.js:88
 #, fuzzy
 msgid ""
 "If you don't want the updates to be installed at all, go to\n"
@@ -2107,36 +2113,36 @@ msgstr ""
 "                                    og velger "
 "<b>Oppgraderingsgodkjennelse påkrevd</b>."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:107
+#: js/src/packageManagement/updates/UpdateApproval.js:106
 #, python-format
 msgid "Approve Update From %s"
 msgstr "Godta oppgradering fra %s"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:135
+#: js/src/packageManagement/updates/UpdateApproval.js:134
 msgid "There are no updates awaiting your approval."
 msgstr "Ingen oppgraderinger venter på godkjenning."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:152
+#: js/src/packageManagement/updates/UpdateApproval.js:149
 msgid "Action"
 msgstr "Handling"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:154
+#: js/src/packageManagement/updates/UpdateApproval.js:151
 msgid "Current"
 msgstr "Nåværende"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:155
+#: js/src/packageManagement/updates/UpdateApproval.js:152
 msgid "New"
 msgstr "Ny"
 
-#: js/src/packageManagement/updates/UpdateManager.js:74
+#: js/src/packageManagement/updates/UpdateManager.js:72
 msgid "Updates Check"
 msgstr "Oppdateringssjekk"
 
-#: js/src/packageManagement/updates/UpdateManager.js:85
+#: js/src/packageManagement/updates/UpdateManager.js:83
 msgid "Available Updates"
 msgstr "Tilgjengelige oppdateringer"
 
-#: js/src/packageManagement/updates/UpdateManager.js:87
+#: js/src/packageManagement/updates/UpdateManager.js:85
 msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
@@ -2144,7 +2150,7 @@ msgstr ""
 "Her kan du finne og godta tilgjengelige oppgraderinger for Turris OS og "
 "andre komponenter."
 
-#: js/src/packageManagement/updates/UpdateManager.js:93
+#: js/src/packageManagement/updates/UpdateManager.js:91
 msgid "You're up to date."
 msgstr "Du er oppdatert."
 
@@ -2238,7 +2244,7 @@ msgstr ""
 " har du valget om å gjøre det senere. Til da vil root-kontoen være "
 "blokkert.)"
 
-#: js/src/password/Password.js:78
+#: js/src/password/Password.js:102
 #, fuzzy
 msgid ""
 "The password you have entered has not been saved. It has been compromised"
@@ -2255,16 +2261,16 @@ msgstr ""
 "                            forisPassword.list || rootPassword.list\n"
 "                        }-listen. Velg et annet og sikrere passord."
 
-#: js/src/password/Password.js:89
+#: js/src/password/Password.js:113
 #, fuzzy
 msgid "Your password was set successfully."
 msgstr "Videresender lagret."
 
-#: js/src/password/Password.js:147
+#: js/src/password/Password.js:148
 msgid "Password Settings"
 msgstr "Passordsinnstillinger"
 
-#: js/src/password/Password.js:176
+#: js/src/password/Password.js:177
 #, fuzzy
 msgid ""
 "Here you can set a password for the administration interface. Ensure it "
@@ -2273,22 +2279,22 @@ msgstr ""
 "Har kan du sette et passord for administrasjonsgrensesnittet. Forsikre "
 "deg om at det er et sikkert passord som er langt og unikt."
 
-#: js/src/password/Password.js:193 js/src/password/Password.js:197
+#: js/src/password/Password.js:194 js/src/password/Password.js:198
 #, fuzzy
 msgid "Passwords do not match."
 msgstr "Passordbekreftelsen stemmer ikke overens."
 
-#: js/src/password/Password.js:212
+#: js/src/password/Password.js:213
 #, fuzzy
 msgid "Choose a password."
 msgstr "Feil passord."
 
-#: js/src/password/Password.js:215
+#: js/src/password/Password.js:216
 #, fuzzy
 msgid "Password should have at least six symbols."
 msgstr "Passord kan ikke ha mer enn 128 symboler."
 
-#: js/src/password/Password.js:218
+#: js/src/password/Password.js:219
 #, fuzzy
 msgid "Password cannot have more than 128 symbols."
 msgstr "Passord kan ikke ha mer enn 128 symboler."
@@ -3184,3 +3190,4 @@ msgstr "500 - Tjenerfeil"
 #~ "programvare og forklare for familiemedlemmer"
 #~ " hvordan de skal surfe trygt på "
 #~ "Internett."
+
