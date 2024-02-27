@@ -14,7 +14,6 @@ Mostly of the ``foris-controller`` endpoints which represent network, router sys
 configurations has two actions: ``get_settings`` and ``set_settings``. These endpoints are ”translated” to particular
 HTTP endpoint with ``GET`` and ``POST`` methods by appropriate actions.
 """
-from http import HTTPStatus
 
 from flask import Blueprint, jsonify, make_response
 
