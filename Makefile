@@ -88,7 +88,7 @@ $(VENV_NAME)/bin/activate: pyproject.toml
 	test -d $(VENV_NAME) || $(PYTHON) -m virtualenv -p $(PYTHON) $(VENV_NAME)
 	# upgrade pip to latest releases
 	$(VENV_BIN)/$(PYTHON) -m pip install --upgrade pip
-	$(VENV_BIN)/$(PYTHON) -m pip install -e .[devel]
+	$(VENV_BIN)/$(PYTHON) -m pip install --index-url $(PIP_EXTRA_INDEX_URL) -e .[devel]
 	touch $(VENV_NAME)/bin/activate
 
 
@@ -154,8 +154,7 @@ lint-js-fix:
 
 .PHONY: lint-web
 lint-web: venv
-	$(VENV_BIN)/$(PYTHON) -m pylint --rcfile=pylintrc reforis
-	$(VENV_BIN)/$(PYTHON) -m pycodestyle --config=pycodestyle reforis
+	$(VENV_BIN)/$(PYTHON) -m ruff check reforis
 
 
 # Testing
