@@ -12,25 +12,25 @@ which is done in `ForisAPI` Blueprint.
 from flask import Blueprint, current_app, redirect, render_template, request, url_for
 
 # pylint: disable=invalid-name
-views = Blueprint('Views', __name__)
+views = Blueprint("Views", __name__)
 
 
 # pylint: disable=unused-argument
-@views.route('/', defaults={'path': ''})
-@views.route('/<path:path>')
+@views.route("/", defaults={"path": ""})
+@views.route("/<path:path>")
 def index(path):
     """Main page."""
-    return render_template('index.html')
+    return render_template("index.html")
 
 
 # pylint: disable=inconsistent-return-statements
 @views.before_request
 def guide_redirect():
-    if request.endpoint in ['Views.logout', 'Views.login']:
+    if request.endpoint in ["Views.logout", "Views.login"]:
         return
-    web_data = current_app.backend.perform('web', 'get_data')
-    if web_data['guide']['enabled']:
-        return redirect(url_for('ForisGuide.index'))
+    web_data = current_app.backend.perform("web", "get_data")
+    if web_data["guide"]["enabled"]:
+        return redirect(url_for("ForisGuide.index"))
 
 
 @views.after_request
@@ -38,11 +38,11 @@ def remove_old_foris_ws_cookie(response):
     """
     It just fixes bug with infinity page refreshing loop. It can be deleted when old WS auth approach is disabled.
     """
-    for cookie in ('foris.ws.session', 'foris.session'):
+    for cookie in ("foris.ws.session", "foris.session"):
         delete_cookie(response, cookie)
     return response
 
 
 def delete_cookie(response, cookie_name):
     if cookie_name in request.cookies:
-        response.set_cookie(cookie_name, '', expires=0)
+        response.set_cookie(cookie_name, "", expires=0)

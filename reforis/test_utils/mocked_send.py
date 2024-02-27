@@ -9,17 +9,13 @@ def get_mocked_send(mocked_data=None):
 
     def mocked_send(module, action, data=None, timeout=None, controller_id=None):
         response_data = {
-            'web': {
-                'get_data': {
-                    'language': 'en',
-                    'password_ready': True,
-                    'guide': {'enabled': False}
+            "web": {
+                "get_data": {"language": "en", "password_ready": True, "guide": {"enabled": False}},
+                "list_languages": {
+                    "languages": ["en", "cs"],
                 },
-                'list_languages': {
-                    'languages': ['en', 'cs'],
-                }
             },
-            **mocked_data
+            **mocked_data,
         }
         return response_data.get(module, {}).get(action, {})
 

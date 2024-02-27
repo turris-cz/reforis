@@ -21,7 +21,7 @@ def region_and_time():
         See ``update_settings`` action in the `foris-controller time module JSON schema
         <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/time/schema/time.json>`_.
     """
-    return _foris_controller_settings_call('time')
+    return _foris_controller_settings_call("time")
 
 
 def ntp_update():
@@ -31,18 +31,19 @@ def ntp_update():
         See ``ntpdate_trigger`` action in the `foris-controller time module JSON schema
         <https://gitlab.nic.cz/turris/foris-controller/blob/master/foris_controller_modules/time/schema/time.json>`_.
     """
-    return jsonify(current_app.backend.perform('time', 'ntpdate_trigger'))
+    return jsonify(current_app.backend.perform("time", "ntpdate_trigger"))
 
 
 # pylint: disable=invalid-name
 views = [
     {
-        'rule': '/region-and-time',
-        'view_func': region_and_time,
-        'methods': ['GET', 'POST'],
-    }, {
-        'rule': '/ntp-update',
-        'view_func': ntp_update,
-        'methods': ['GET', 'POST'],
-    }
+        "rule": "/region-and-time",
+        "view_func": region_and_time,
+        "methods": ["GET", "POST"],
+    },
+    {
+        "rule": "/ntp-update",
+        "view_func": ntp_update,
+        "methods": ["GET", "POST"],
+    },
 ]

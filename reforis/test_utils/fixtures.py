@@ -14,7 +14,7 @@ from reforis.utils import APIError
 from reforis.test_utils.mocked_send import get_mocked_send
 
 
-@pytest.fixture(scope='module')
+@pytest.fixture(scope="module")
 def app_with_blueprint():
     def error_handler(error):
         return jsonify(error.data), error.status_code
@@ -45,7 +45,7 @@ def client():
     app = _stubbed_app()
     with app.test_client() as client:
         with client.session_transaction() as session:
-            session['logged'] = True
+            session["logged"] = True
         with app.app_context():
             yield client
 
@@ -58,15 +58,15 @@ def request_ctx():
     """
     app = _stubbed_app()
 
-    with app.test_request_context('/'):
+    with app.test_request_context("/"):
         app.preprocess_request()
         yield
 
 
-@mock.patch('foris_client.buses.mqtt.MqttSender')
-@mock.patch('reforis.backend.MQTTBackend._parse_credentials', mock.Mock)
+@mock.patch("foris_client.buses.mqtt.MqttSender")
+@mock.patch("reforis.backend.MQTTBackend._parse_credentials", mock.Mock)
 def _stubbed_app(sender_mock):
     sender_mock.return_value.send.side_effect = get_mocked_send()
     # The foris client may not existed on the testing environment
     # so we surrogate this module to avoid ImportError during testing.
-    return create_app('test')
+    return create_app("test")

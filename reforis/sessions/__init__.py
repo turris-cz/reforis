@@ -8,14 +8,14 @@
     :license: BSD, see LICENSE for more details.
 """
 
-__version__ = '0.3.1'
+__version__ = "0.3.1"
 
 import os
 
 from .sessions import FileSystemSessionInterface
 
 
-class Session():
+class Session:
     """This class is used to add Server-side Session to one or more Flask
     applications.
 
@@ -59,18 +59,21 @@ class Session():
 
     def _get_interface(self, app):
         config = app.config.copy()
-        config.setdefault('SESSION_TYPE', 'null')
-        config.setdefault('SESSION_PERMANENT', True)
-        config.setdefault('SESSION_USE_SIGNER', False)
-        config.setdefault('SESSION_KEY_PREFIX', 'session:')
-        config.setdefault('SESSION_FILE_DIR',
-                          os.path.join(os.getcwd(), 'flask_session'))
-        config.setdefault('SESSION_FILE_THRESHOLD', 500)
-        config.setdefault('SESSION_FILE_MODE', 384)
+        config.setdefault("SESSION_TYPE", "null")
+        config.setdefault("SESSION_PERMANENT", True)
+        config.setdefault("SESSION_USE_SIGNER", False)
+        config.setdefault("SESSION_KEY_PREFIX", "session:")
+        config.setdefault("SESSION_FILE_DIR", os.path.join(os.getcwd(), "flask_session"))
+        config.setdefault("SESSION_FILE_THRESHOLD", 500)
+        config.setdefault("SESSION_FILE_MODE", 384)
 
         session_interface = FileSystemSessionInterface(
-            config['SESSION_FILE_DIR'], config['SESSION_FILE_THRESHOLD'],
-            config['SESSION_FILE_MODE'], config['SESSION_KEY_PREFIX'],
-            config['SESSION_USE_SIGNER'], config['SESSION_PERMANENT'])
+            config["SESSION_FILE_DIR"],
+            config["SESSION_FILE_THRESHOLD"],
+            config["SESSION_FILE_MODE"],
+            config["SESSION_KEY_PREFIX"],
+            config["SESSION_USE_SIGNER"],
+            config["SESSION_PERMANENT"],
+        )
 
         return session_interface

@@ -11,7 +11,7 @@ from . import create_app
 
 # pylint: disable=unused-argument
 def create_cli_app(info):
-    return create_app('prod')
+    return create_app("prod")
 
 
 @click.group(cls=FlaskGroup, create_app=create_cli_app)
@@ -19,18 +19,18 @@ def cli():
     pass
 
 
-@cli.command('urls', short_help='Show only urls. Similar to routes.')
+@cli.command("urls", short_help="Show only urls. Similar to routes.")
 @with_appcontext
 def urls():
     """Show all registered routes with endpoints and methods."""
 
     rules = list(current_app.url_map.iter_rules())
     if not rules:
-        click.echo('No urls.')
+        click.echo("No urls.")
         return
 
     for rule in rules:
         rule_str = str(rule)
-        if '<' in rule_str or '>' in rule_str:
+        if "<" in rule_str or ">" in rule_str:
             continue
         click.echo(rule_str)

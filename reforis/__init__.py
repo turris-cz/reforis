@@ -33,16 +33,19 @@ def create_app(config):
     :rtype: Flask (applications)
     """
     from flask import Flask
-    app = Flask(__name__)
-    app.config.from_object(f'reforis.config.{config}')
-    dictConfig(app.config['LOGGING'])
 
-    app.static_folder = app.config.get('STATIC_DIR')
+    app = Flask(__name__)
+    app.config.from_object(f"reforis.config.{config}")
+    dictConfig(app.config["LOGGING"])
+
+    app.static_folder = app.config.get("STATIC_DIR")
 
     from .sessions import Session
+
     Session(app)
 
     from flask_seasurf import SeaSurf
+
     SeaSurf(app)
 
     set_backend(app)
@@ -64,6 +67,7 @@ def create_app(config):
     app.register_error_handler(500, internal_error)
     # Handle backend errors
     from .backend import ExceptionInBackend
+
     app.register_error_handler(ExceptionInBackend, foris_controller_error)
     # Handle API errors
     from .utils import APIError, log_error
@@ -78,41 +82,43 @@ def create_app(config):
     # Handle timeout errors
     def handle_timeout_error(error):
         return (
-            jsonify('Timeout occurred during performing foris controller action.'),
+            jsonify("Timeout occurred during performing foris controller action."),
             HTTPStatus.INTERNAL_SERVER_ERROR,
         )
+
     from .backend import BackendTimeoutError
+
     app.register_error_handler(BackendTimeoutError, handle_timeout_error)
 
     @app.context_processor
     def add_version_to_ctx():
         try:
-            version = pkg_resources.get_distribution('reforis').version
+            version = pkg_resources.get_distribution("reforis").version
         except pkg_resources.DistributionNotFound:
             version = None
-        return {'version': version}
+        return {"version": version}
 
-    @app.template_filter('autoversion')
+    @app.template_filter("autoversion")
     def autoversion_filter(filename):
         try:
-            version = pkg_resources.get_distribution('reforis').version
+            version = pkg_resources.get_distribution("reforis").version
         except pkg_resources.DistributionNotFound:
             version = None
         if version:
-            newfilename = f'{filename}?v={version}'
+            newfilename = f"{filename}?v={version}"
         else:
-            newfilename = f'{filename}'
+            newfilename = f"{filename}"
         return newfilename
 
     return app
 
 
 def not_found_error(error):
-    return render_template('errors/404.html'), 404
+    return render_template("errors/404.html"), 404
 
 
 def internal_error(error):
-    return render_template('errors/500.html', error=error), 500
+    return render_template("errors/500.html", error=error), 500
 
 
 def foris_controller_error(e):
@@ -123,17 +129,17 @@ def foris_controller_error(e):
     :return: rendered template, 500
     """
     error = {
-        'error': f'Remote Exception: {e.remote_description}',
-        'extra': f'{json.dumps(e.query)}',
-        'trace': e.remote_stacktrace,
+        "error": f"Remote Exception: {e.remote_description}",
+        "extra": f"{json.dumps(e.query)}",
+        "trace": e.remote_stacktrace,
     }
 
-    if e.remote_description.startswith('Incorrect input.'):
+    if e.remote_description.startswith("Incorrect input."):
         # indicates incorrect input, not actually a server error
         # but a client error so we'll return more appropriate status code
-        return render_template('errors/400.html', **error), 400
+        return render_template("errors/400.html", **error), 400
 
-    return render_template('errors/500.html', **error), 500
+    return render_template("errors/500.html", **error), 500
 
 
 def set_backend(app):
@@ -148,14 +154,16 @@ def set_backend(app):
 
     :param app: Flask (application)
     """
-    bus = app.config['BUS']
-    bus_config = app.config['BUSES_CONF'][bus]
+    bus = app.config["BUS"]
+    bus_config = app.config["BUSES_CONF"][bus]
 
-    if bus == 'mqtt':
+    if bus == "mqtt":
         from reforis.backend import MQTTBackend
+
         app.backend = MQTTBackend(**bus_config)
-    if bus == 'ubus':
+    if bus == "ubus":
         from reforis.backend import UBusBackend
+
         app.backend = UBusBackend(**bus_config)
 
 
@@ -177,18 +185,20 @@ def set_locale(app):
         return _get_locale_from_backend(app)
 
     from flask_babel import Babel
+
     Babel(app, locale_selector=get_locale)
 
     @app.context_processor
     def add_translations_catalog_to_ctx():
         from flask_babel import get_locale
-        return {'locale': get_locale(), **get_translations()}
+
+        return {"locale": get_locale(), **get_translations()}
 
 
 def _get_locale_from_backend(app):
     # pylint: disable=fixme
     # TODO: better to cache.
-    return app.backend.perform('web', 'get_data')['language']
+    return app.backend.perform("web", "get_data")["language"]
 
 
 def register_plugins(app):
@@ -203,9 +213,9 @@ def register_plugins(app):
 
     app.plugin_translations = []
     for plugin in plugins:
-        app.register_blueprint(plugin['blueprint'])
-        app.plugin_translations.append(plugin['translations_path'])
+        app.register_blueprint(plugin["blueprint"])
+        app.plugin_translations.append(plugin["translations_path"])
 
     @app.context_processor
     def add_plugins_to_ctx():
-        return {'plugins_js_app_paths': [plugin['js_app_path'] for plugin in plugins]}
+        return {"plugins_js_app_paths": [plugin["js_app_path"] for plugin in plugins]}

@@ -12,18 +12,13 @@ from reforis.test_utils.mocked_send import get_mocked_send
 
 @contextmanager
 def mock_backend_response(data):
-    with mock.patch('flask.current_app.backend.perform') as perform_mock:
+    with mock.patch("flask.current_app.backend.perform") as perform_mock:
         perform_mock.side_effect = get_mocked_send(data)
         yield perform_mock
 
 
 def _test_api_endpoint_foris_controller_call(
-        client,
-        url, method,
-        module, action,
-        request_data=None,
-        response_data=None,
-        response_code=200
+    client, url, method, module, action, request_data=None, response_data=None, response_code=200
 ):
     """
     response_data is returned by backend call with `module` and `action` specified in arguments. If another backend

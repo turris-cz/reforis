@@ -14,19 +14,19 @@ def hostname():
         <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/system/schema/system.json>`_.
     """
 
-    if request.method == 'GET':
-        response = current_app.backend.perform('system', 'get_hostname')
-    elif request.method == 'POST':
+    if request.method == "GET":
+        response = current_app.backend.perform("system", "get_hostname")
+    elif request.method == "POST":
         data = request.json
-        response = current_app.backend.perform('system', 'set_hostname', data)
+        response = current_app.backend.perform("system", "set_hostname", data)
     return jsonify(response)
 
 
 # pylint: disable=invalid-name
 views = [
     {
-        'rule': '/system/hostname',
-        'view_func': hostname,
-        'methods': ['GET', 'POST'],
+        "rule": "/system/hostname",
+        "view_func": hostname,
+        "methods": ["GET", "POST"],
     },
 ]

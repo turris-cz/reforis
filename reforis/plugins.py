@@ -48,4 +48,4 @@ def get_plugins():
 
     :return: list of loaded entry_points
     """
-    return [entry_point.load() for entry_point in pkg_resources.iter_entry_points('foris.plugins')]
+    return [entry_point.load() for entry_point in pkg_resources.iter_entry_points("foris.plugins")]

@@ -9,7 +9,7 @@ from reforis.config.prod import *
 
 DEBUG = False
 
-SECRET_KEY = 'dev_secret_key'
+SECRET_KEY = "dev_secret_key"
 
 
 # WebSockets

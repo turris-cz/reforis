@@ -18,21 +18,17 @@ def interfaces():
         See ``update_settings`` action in the `foris-controller networks module JSON schema
         <https://gitlab.labs.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/networks/schema/networks.json>`_.
     """
-    module = 'networks'
+    module = "networks"
     response = None
-    if request.method == 'GET':
-        settings = current_app.backend.perform(module, 'get_settings')
-        del settings['device']
+    if request.method == "GET":
+        settings = current_app.backend.perform(module, "get_settings")
+        del settings["device"]
         response = settings
-    elif request.method == 'POST':
+    elif request.method == "POST":
         data = request.json
-        response = current_app.backend.perform(module, 'update_settings', data)
+        response = current_app.backend.perform(module, "update_settings", data)
     return jsonify(response)
 
 
 # pylint: disable=invalid-name
-views = [{
-    'rule': '/interfaces',
-    'view_func': interfaces,
-    'methods': ['GET', 'POST']
-}]
+views = [{"rule": "/interfaces", "view_func": interfaces, "methods": ["GET", "POST"]}]
