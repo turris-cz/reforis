@@ -20,29 +20,29 @@ from importlib import import_module
 from flask import Blueprint
 
 FORIS_CONTROLLER_MODULES = [
-    'about',
-    'dns',
-    'guest',
-    'lan',
-    'maintain',
-    'networks',
-    'password',
-    'router_notifications',
-    'system',
-    'time',
-    'updater',
-    'wan',
-    'web',
-    'wifi',
+    "about",
+    "dns",
+    "guest",
+    "lan",
+    "maintain",
+    "networks",
+    "password",
+    "router_notifications",
+    "system",
+    "time",
+    "updater",
+    "wan",
+    "web",
+    "wifi",
 ]
 
 # pylint: disable=invalid-name
-foris_controller_api = Blueprint('ForisControllerAPI', __name__, url_prefix='/api')
+foris_controller_api = Blueprint("ForisControllerAPI", __name__, url_prefix="/api")
 
 
 def register_modules(modules):
     for module in modules:
-        module = import_module(f'.{module}', package='reforis.foris_controller_api.modules')
+        module = import_module(f".{module}", package="reforis.foris_controller_api.modules")
         register_views(module.views)
 
 

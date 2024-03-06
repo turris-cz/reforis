@@ -36,34 +36,30 @@ def password():
             }
     """
     response = {}
-    if request.method == 'GET':
-        response['password_set'] = current_app.backend.perform('web', 'get_data')['password_ready']
+    if request.method == "GET":
+        response["password_set"] = current_app.backend.perform("web", "get_data")["password_ready"]
 
-    elif request.method == 'POST':
+    elif request.method == "POST":
         data = request.json
-        validate_json(data, {'foris_current_password': str})
+        validate_json(data, {"foris_current_password": str})
 
-        if not check_password(data['foris_current_password']):
-            raise APIError(_('Wrong current password.'), 400)
+        if not check_password(data["foris_current_password"]):
+            raise APIError(_("Wrong current password."), 400)
 
-        if data.get('foris_password', False):
-            response['foris_password'] = _update_password('foris', data['foris_password'])
+        if data.get("foris_password", False):
+            response["foris_password"] = _update_password("foris", data["foris_password"])
 
-        if data.get('root_password', False):
-            response['root_password'] = _update_password('system', data['root_password'])
+        if data.get("root_password", False):
+            response["root_password"] = _update_password("system", data["root_password"])
 
     return jsonify(response)
 
 
 def _update_password(password_type: str, password: str) -> dict:
     new_password = _decode_password_to_base64(password)
-    request_data = {'type': password_type, 'password': new_password}
-    return current_app.backend.perform('password', 'set', request_data)
+    request_data = {"type": password_type, "password": new_password}
+    return current_app.backend.perform("password", "set", request_data)
 
 
 # pylint: disable=invalid-name
-views = [{
-    'rule': '/password',
-    'view_func': password,
-    'methods': ['GET', 'POST']
-}]
+views = [{"rule": "/password", "view_func": password, "methods": ["GET", "POST"]}]

@@ -20,7 +20,7 @@ def wifi():
         See ``update_settings`` action in the `foris-controller wifi module JSON schema
         <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/wifi/schema/wifi.json>`_.
     """
-    return _foris_controller_settings_call('wifi')
+    return _foris_controller_settings_call("wifi")
 
 
 def wifi_reset():
@@ -31,18 +31,11 @@ def wifi_reset():
         <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/wifi/schema/wifi.json>`_.
 
     """
-    return jsonify(current_app.backend.perform('wifi', 'reset'))
+    return jsonify(current_app.backend.perform("wifi", "reset"))
 
 
 # pylint: disable=invalid-name
 views = [
-    {
-        'rule': '/wifi',
-        'view_func': wifi,
-        'methods': ['GET', 'POST']
-    }, {
-        'rule': '/wifi-reset',
-        'view_func': wifi_reset,
-        'methods': ['POST']
-    }
+    {"rule": "/wifi", "view_func": wifi, "methods": ["GET", "POST"]},
+    {"rule": "/wifi-reset", "view_func": wifi_reset, "methods": ["POST"]},
 ]

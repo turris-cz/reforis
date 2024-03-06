@@ -29,21 +29,19 @@ def prepare_tz_related_translations() -> dict:
     result = {}
 
     current_locale = get_locale()
-    en_locale = Locale('en', 'GB')  # British english contains the most of timezones
+    en_locale = Locale("en", "GB")  # British english contains the most of timezones
 
     for timezone_name, data in current_locale.time_zones.items():
         # Store city
-        if 'city' in en_locale.time_zones.get(timezone_name, {}) and 'city' in data:
-            result[en_locale.time_zones[timezone_name]['city']] = data['city']
+        if "city" in en_locale.time_zones.get(timezone_name, {}) and "city" in data:
+            result[en_locale.time_zones[timezone_name]["city"]] = data["city"]
 
         # Store timezone name
         try:
             timezone = get_timezone(timezone_name)
         except LookupError:
             continue
-        result[get_timezone_name(timezone, locale=en_locale)] = get_timezone_name(
-            timezone, locale=current_locale
-        )
+        result[get_timezone_name(timezone, locale=en_locale)] = get_timezone_name(timezone, locale=current_locale)
 
     # Store countries
     for code, territory in current_locale.territories.items():
@@ -62,12 +60,12 @@ class TranslationsHelper(Translations):
 
     @property
     def catalog(self):
-        locale = self._info['language']
+        locale = self._info["language"]
         return {
-            'locale': locale,
-            'plural_expr': get_plural(locale)[1],
-            'domain': self.domain,
-            'messages': self._get_messages()
+            "locale": locale,
+            "plural_expr": get_plural(locale)[1],
+            "domain": self.domain,
+            "messages": self._get_messages(),
         }
 
     def _get_messages(self):
@@ -75,9 +73,9 @@ class TranslationsHelper(Translations):
         Change format of plural forms to be accepted by js.
         """
         messages = self._catalog
-        if '' in messages:
+        if "" in messages:
             # delete babel header
-            del messages['']
+            del messages[""]
         res = {}
         for message_id, message in messages.items():
             if isinstance(message_id, tuple):
@@ -94,9 +92,9 @@ class TranslationsHelper(Translations):
 
 def get_translations():
     return {
-        'babel_catalog': _get_babel_catalog('messages', with_plugins=True),
-        'babel_forisjs_catalog': _get_babel_catalog('forisjs'),
-        'babel_tzinfo_catalog': prepare_tz_related_translations(),
+        "babel_catalog": _get_babel_catalog("messages", with_plugins=True),
+        "babel_forisjs_catalog": _get_babel_catalog("forisjs"),
+        "babel_tzinfo_catalog": prepare_tz_related_translations(),
     }
 
 
@@ -117,12 +115,12 @@ def _get_translations(domain: str, with_plugins: bool = False) -> typing.Union[T
 
     :return: TranslationsHelper or NullTranslations based on result of loading domain
     """
-    babel = current_app.extensions['babel']
+    babel = current_app.extensions["babel"]
     translations = TranslationsHelper.load(
         # There is only one directory with translations in reForis so it's OK.
         next(e for e in babel.translation_directories),
         [get_locale()],
-        domain
+        domain,
     )
 
     # It would be nice to at least try to load plugins translations
@@ -140,11 +138,7 @@ def _get_translations(domain: str, with_plugins: bool = False) -> typing.Union[T
 def _get_plugins_translations(domain: str) -> typing.List[typing.Union[Translations, NullTranslations]]:
     translations = []
     for translation_path in current_app.plugin_translations:
-        translation = Translations.load(
-            translation_path,
-            [get_locale()],
-            domain
-        )
+        translation = Translations.load(translation_path, [get_locale()], domain)
         translations.append(translation)
     return translations
 

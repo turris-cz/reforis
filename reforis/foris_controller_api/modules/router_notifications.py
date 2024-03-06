@@ -48,15 +48,15 @@ def notifications():
             {"ids" : ['123-123',...]}
     """
     response = None
-    if request.method == 'GET':
-        request_data = {'lang': _get_locale_from_backend(current_app)}
-        response = current_app.backend.perform('router_notifications', 'list', request_data)
-        sort = request.args.get('sort')
-        if sort != 'asc':
-            response['notifications'].reverse()
-    elif request.method == 'POST':
+    if request.method == "GET":
+        request_data = {"lang": _get_locale_from_backend(current_app)}
+        response = current_app.backend.perform("router_notifications", "list", request_data)
+        sort = request.args.get("sort")
+        if sort != "asc":
+            response["notifications"].reverse()
+    elif request.method == "POST":
         data = request.json
-        response = current_app.backend.perform('router_notifications', 'mark_as_displayed', data)
+        response = current_app.backend.perform("router_notifications", "mark_as_displayed", data)
     return jsonify(response)
 
 
@@ -101,49 +101,53 @@ def notifications_settings():
         For request example see `GET` method of this endpoint.
     """
     response = None
-    if request.method == 'GET':
-        response = current_app.backend.perform('router_notifications', 'get_settings')
-    elif request.method == 'POST':
+    if request.method == "GET":
+        response = current_app.backend.perform("router_notifications", "get_settings")
+    elif request.method == "POST":
         data = request.json
-        response = current_app.backend.perform('router_notifications', 'update_email_settings', data)
+        response = current_app.backend.perform("router_notifications", "update_email_settings", data)
     return jsonify(response)
 
 
 def send_test_notification():
     response = current_app.backend.perform(
-        'router_notifications',
-        'create',
+        "router_notifications",
+        "create",
         {
-            'msg': _('''This is a testing notification.
+            "msg": _(
+                """This is a testing notification.
 
 Please note it would be sent to your e-mail address only if you set
-the importance level to "Reboot or attention is required" or higher.'''),
-            'severity': 'error',
-            'immediate': True,
+the importance level to "Reboot or attention is required" or higher."""
+            ),
+            "severity": "error",
+            "immediate": True,
         },
     )
 
-    if response['result']:
-        return jsonify(_('The testing message has been sent, please check your inbox.')), HTTPStatus.OK
+    if response["result"]:
+        return jsonify(_("The testing message has been sent, please check your inbox.")), HTTPStatus.OK
 
     return jsonify(
-        _('Sending of the testing message failed, your configuration is possibly wrong.')
+        _("Sending of the testing message failed, your configuration is possibly wrong.")
     ), HTTPStatus.INTERNAL_SERVER_ERROR
 
 
 # pylint: disable=invalid-name
 views = [
     {
-        'rule': '/notifications',
-        'view_func': notifications,
-        'methods': ['GET', 'POST'],
-    }, {
-        'rule': '/notifications-settings',
-        'view_func': notifications_settings,
-        'methods': ['GET', 'POST'],
-    }, {
-        'rule': '/send-test-notification',
-        'view_func': send_test_notification,
-        'methods': ['POST'],
-    }
+        "rule": "/notifications",
+        "view_func": notifications,
+        "methods": ["GET", "POST"],
+    },
+    {
+        "rule": "/notifications-settings",
+        "view_func": notifications_settings,
+        "methods": ["GET", "POST"],
+    },
+    {
+        "rule": "/send-test-notification",
+        "view_func": send_test_notification,
+        "methods": ["POST"],
+    },
 ]

@@ -12,30 +12,30 @@ from reforis.utils import APIError
 
 
 def response_to_json_or_error(response, error_message):
-    if response['result']:
+    if response["result"]:
         return jsonify(response)
     raise APIError(error_message)
 
 
 def process_dhcp_get(dhcp, ip, netmask):
-    network = ipaddress.IPv4Network(f'{ip}/{netmask}', strict=False)
-    start = network.network_address + int(dhcp['start'])
+    network = ipaddress.IPv4Network(f"{ip}/{netmask}", strict=False)
+    start = network.network_address + int(dhcp["start"])
     return {
         **dhcp,
         # Convert seconds to hours
-        'lease_time': dhcp['lease_time'] / 3600,
-        'start': str(start)
+        "lease_time": dhcp["lease_time"] / 3600,
+        "start": str(start),
     }
 
 
 def process_dhcp_post(dhcp, ip, netmask):
-    network = ipaddress.IPv4Network(f'{ip}/{netmask}', strict=False)
-    start = int(ipaddress.IPv4Address(dhcp['start'])) - int(network.network_address)
+    network = ipaddress.IPv4Network(f"{ip}/{netmask}", strict=False)
+    start = int(ipaddress.IPv4Address(dhcp["start"])) - int(network.network_address)
     return {
         **dhcp,
         # Convert hours to seconds
-        'lease_time': dhcp['lease_time'] * 3600,
-        'start': start
+        "lease_time": dhcp["lease_time"] * 3600,
+        "start": start,
     }
 
 
@@ -46,11 +46,11 @@ def _foris_controller_settings_call(module):
     **It works only inside the request context!**
     """
     response = None
-    if request.method == 'GET':
-        response = current_app.backend.perform(module, 'get_settings')
-    elif request.method == 'POST':
+    if request.method == "GET":
+        response = current_app.backend.perform(module, "get_settings")
+    elif request.method == "POST":
         data = request.json
-        response = current_app.backend.perform(module, 'update_settings', data)
+        response = current_app.backend.perform(module, "update_settings", data)
     return jsonify(response)
 
 
@@ -59,7 +59,7 @@ def validate_json(json_data, expected_fields=None):
     Raise APIError when json_data is not valid.
     """
     if not json_data:
-        raise APIError('Invalid JSON', HTTPStatus.BAD_REQUEST)
+        raise APIError("Invalid JSON", HTTPStatus.BAD_REQUEST)
 
     if not expected_fields:
         return
@@ -68,8 +68,8 @@ def validate_json(json_data, expected_fields=None):
     for field_name, field_type in expected_fields.items():
         field = json_data.get(field_name)
         if field is None:
-            errors[field_name] = 'Missing data for required field.'
+            errors[field_name] = "Missing data for required field."
         elif not isinstance(field, field_type):
-            errors[field_name] = f'Expected data of type: {field_type.__name__}'
+            errors[field_name] = f"Expected data of type: {field_type.__name__}"
     if errors:
         raise APIError(errors, HTTPStatus.BAD_REQUEST)

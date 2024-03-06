@@ -6,51 +6,45 @@
 import os
 from datetime import timedelta
 
-STATIC_DIR = '../reforis_static/'
+STATIC_DIR = "../reforis_static/"
 
-SESSION_FILE_DIR = '/tmp/foris-sessions'
+SESSION_FILE_DIR = "/tmp/foris-sessions"
 PERMANENT_SESSION_LIFETIME = timedelta(minutes=10)
-SESSION_COOKIE_SAMESITE = 'Lax'
+SESSION_COOKIE_SAMESITE = "Lax"
 
-BUS = 'mqtt'
+BUS = "mqtt"
 BUSES_CONF = {
-    'mqtt': {
-        'host': 'localhost',
-        'port': int(os.environ.get('MQTT_PORT', 11883)),
-        'controller_id': os.environ.get('CONTROLLER_ID'),
-        'credentials_file': os.environ.get('MQTT_PASSWORD_FILE', '/etc/fosquitto/credentials.plain'),
-        'timeout': 30000,
+    "mqtt": {
+        "host": "localhost",
+        "port": int(os.environ.get("MQTT_PORT", 11883)),
+        "controller_id": os.environ.get("CONTROLLER_ID"),
+        "credentials_file": os.environ.get("MQTT_PASSWORD_FILE", "/etc/fosquitto/credentials.plain"),
+        "timeout": 30000,
     },
-    'ubus': {
-        'path': '/var/run/ubus/ubus.sock',
-        'timeout': 30000
-    }
+    "ubus": {"path": "/var/run/ubus/ubus.sock", "timeout": 30000},
 }
 
 LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'formatters': {
-        'short': {
-            'format': '%(levelname)s [%(filename)s:%(lineno)s] %(message)s',
-            'datefmt': '%d/%b/%Y %H:%M:%S'
-        },
-        'long': {
-            'format': '[%(asctime)s] %(levelname)s [%(pathname)s:%(lineno)s] %(message)s',
-            'datefmt': '%d/%b/%Y %H:%M:%S'
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "short": {"format": "%(levelname)s [%(filename)s:%(lineno)s] %(message)s", "datefmt": "%d/%b/%Y %H:%M:%S"},
+        "long": {
+            "format": "[%(asctime)s] %(levelname)s [%(pathname)s:%(lineno)s] %(message)s",
+            "datefmt": "%d/%b/%Y %H:%M:%S",
         },
     },
-    'handlers': {
-        'stderr': {
-            'level': os.environ.get('REFORIS_LOG_LEVEL', 'WARNING'),
-            'class': 'logging.StreamHandler',
-            'formatter': 'short',
-            'stream': 'ext://sys.stderr',
+    "handlers": {
+        "stderr": {
+            "level": os.environ.get("REFORIS_LOG_LEVEL", "WARNING"),
+            "class": "logging.StreamHandler",
+            "formatter": "short",
+            "stream": "ext://sys.stderr",
         },
     },
-    'root': {
-        'level': os.environ.get('REFORIS_LOG_LEVEL', 'WARNING'),
-        'handlers': ['stderr'],
+    "root": {
+        "level": os.environ.get("REFORIS_LOG_LEVEL", "WARNING"),
+        "handlers": ["stderr"],
     },
 }
 

@@ -55,25 +55,25 @@ class Backend(ABC):
         try:
             response = self._send(module, action, data, controller_id)
         except ControllerError as e:
-            current_app.logger.error('Exception in backend occurred. (%s)', e)
+            current_app.logger.error("Exception in backend occurred. (%s)", e)
             if raise_exception_on_failure:
                 error = e.errors[0]  # right now we are dealing only with the first error
-                msg = {'module': module, 'action': action, 'kind': 'request'}
+                msg = {"module": module, "action": action, "kind": "request"}
                 if data is not None:
-                    msg['data'] = data
-                raise ExceptionInBackend(msg, error['stacktrace'], error['description']) from e
+                    msg["data"] = data
+                raise ExceptionInBackend(msg, error["stacktrace"], error["description"]) from e
         except TimeoutError as e:
             raise BackendTimeoutError from e
         except RuntimeError as e:
             # This may occure when e.g. calling function is not present in backend
-            current_app.logger.error('RuntimeError occurred during the communication with backend. (%s)', e)
+            current_app.logger.error("RuntimeError occurred during the communication with backend. (%s)", e)
             if raise_exception_on_failure:
                 raise e
         except Exception as e:
-            current_app.logger.error('Exception occurred during the communication with backend. (%s)', e)
+            current_app.logger.error("Exception occurred during the communication with backend. (%s)", e)
             raise e
         finally:
-            current_app.logger.debug('Query took %f: %s.%s - %s', time.time() - start_time, module, action, data)
+            current_app.logger.debug("Query took %f: %s.%s - %s", time.time() - start_time, module, action, data)
 
         return response
 
@@ -84,12 +84,13 @@ class UBusBackend(Backend):
     def __init__(self, timeout, socket_path):
         self.socket_path = socket_path
         from foris_client.buses.ubus import UbusSender
+
         sender = UbusSender(socket_path, default_timeout=timeout)
         super().__init__(sender)
 
     def __repr__(self):
         sender_name = type(self.sender).__name__
-        return f'{sender_name} ({self.socket_path})'
+        return f"{sender_name} ({self.socket_path})"
 
     def _send(self, module, action, data, controller_id):
         return self.sender.send(module, action, data)
@@ -116,11 +117,8 @@ class MQTTBackend(Backend):
             credentials = self._parse_credentials(credentials_file)
 
         from foris_client.buses.mqtt import MqttSender
-        sender = MqttSender(
-            host, port,
-            default_timeout=timeout,
-            credentials=credentials
-        )
+
+        sender = MqttSender(host, port, default_timeout=timeout, credentials=credentials)
 
         super().__init__(sender)
 
@@ -129,6 +127,6 @@ class MQTTBackend(Backend):
 
     @staticmethod
     def _parse_credentials(filepath):
-        with open(filepath, 'r', encoding='utf-8') as file:
+        with open(filepath, "r", encoding="utf-8") as file:
             line = file.readline()[:-1]
-            return tuple(line.split(':'))
+            return tuple(line.split(":"))

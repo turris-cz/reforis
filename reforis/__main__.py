@@ -27,12 +27,12 @@ class AppWrapper:
         self.app = app
 
     def __call__(self, environ, start_response):
-        environ['SCRIPT_NAME'] = '/reforis'
+        environ["SCRIPT_NAME"] = "/reforis"
         return self.app(environ, start_response)
 
 
 def main():
-    app = AppWrapper(create_app('prod'))
+    app = AppWrapper(create_app("prod"))
 
     WSGIServer(
         app,
@@ -40,5 +40,5 @@ def main():
     ).run()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
