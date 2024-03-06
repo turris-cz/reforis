@@ -77,8 +77,11 @@ exports[`<NotificationsDropdown/> Test with snapshot 1`] = `
               style="right: 0px; bottom: 0px;"
             >
               <div
+                aria-label="scrollable content"
                 class="simplebar-content-wrapper"
+                role="region"
                 style="height: auto; overflow-x: hidden; overflow-y: hidden;"
+                tabindex="0"
               >
                 <div
                   class="simplebar-content"

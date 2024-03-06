@@ -80,7 +80,7 @@ prepare-dev:
 
 .PHONY: prepare-docs
 prepare-docs:
-	$(VENV_BIN)/$(PYTHON) -m pip install -e .[build]
+	$(VENV_BIN)/$(PYTHON) -m pip install --index-url $(PIP_EXTRA_INDEX_URL) -e .[build]
 
 .PHONY: venv
 venv: $(VENV_NAME)/bin/activate
