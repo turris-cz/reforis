@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-02-22 14:18+0100\n"
-"PO-Revision-Date: 2023-06-15 17:49+0000\n"
-"Last-Translator: Atec <dr.atec@gmail.com>\n"
+"PO-Revision-Date: 2024-03-12 21:01+0000\n"
+"Last-Translator: Milan Šalka <salka.milan@googlemail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
+">\n"
 "Language: sk\n"
-"Language-Team: Slovak "
-"<https://hosted.weblate.org/projects/turris/reforis/sk/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: js/src/about/About.js:18 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -1203,9 +1204,8 @@ msgid "Interface ID"
 msgstr "ID rozhrania"
 
 #: js/src/interfaces/SelectedInterface.js:110
-#, fuzzy
 msgid "VLAN ID"
-msgstr "Režim miestnej siete LAN"
+msgstr "VLAN ID"
 
 #: js/src/interfaces/SelectedInterface.js:115
 msgid "Type"
@@ -3060,4 +3060,3 @@ msgstr "500 – Chyba servera"
 #~ "antivírusového softvéru a vysvetlite členom"
 #~ " svojej rodiny pravidlá bezpečného "
 #~ "používania internetu."
-
