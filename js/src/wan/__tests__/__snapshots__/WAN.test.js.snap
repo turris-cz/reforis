@@ -765,7 +765,7 @@ exports[`<WAN/> Snapshot: MAC enabled 1`] = `
 - First value
 + Second value
 
-@@ -132,10 +132,64 @@
+@@ -132,10 +132,63 @@
             >
               Useful in cases, when a specific MAC address is required by your internet service provider.
             </small>
@@ -810,7 +810,6 @@ exports[`<WAN/> Snapshot: MAC enabled 1`] = `
 +           <input
 +             class=\\"form-control  is-invalid\\"
 +             id=\\"7\\"
-+             required=\\"\\"
 +             type=\\"text\\"
 +           />
 +         </div>
@@ -830,7 +829,7 @@ exports[`<WAN/> Snapshot: MAC enabled 1`] = `
         </h2>
         <div
           class=\\"form-group\\"
-@@ -164,10 +218,11 @@
+@@ -164,10 +217,11 @@
         <div
           class=\\"text-right\\"
         >

@@ -72,7 +72,6 @@ export default function MACForm({
                         label={_("Set the new MAC address")}
                         helpText={HELP_TEXTS.custom_mac}
                         error={errors.custom_mac}
-                        required
                         onChange={setFormValue((value) => ({
                             mac_settings: { custom_mac: { $set: value } },
                         }))}
