@@ -23,7 +23,7 @@ LANDHCPClients.propTypes = {
             dhcp: PropTypes.shape({
                 enabled: PropTypes.bool.isRequired,
                 clients: PropTypes.arrayOf(PropTypes.object).isRequired,
-                ipv6clients: PropTypes.arrayOf(PropTypes.object).isRequired,
+                ipv6clients: PropTypes.arrayOf(PropTypes.object),
             }).isRequired,
         }),
     }),
