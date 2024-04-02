@@ -39,7 +39,9 @@ describe("<ConnectionTest/>", () => {
         await waitForElement(() => getByText(/Test is running/));
 
         // Simulate receiving message from WS server
-        act(() => webSockets.dispatch(wsTestResultMessage(testId, "wan")));
+        act(() =>
+            webSockets.dispatch(wsTestResultMessage(testId, "wan", "ok"))
+        );
 
         expect(asFragment()).toMatchSnapshot();
     });
@@ -54,12 +56,16 @@ describe("<ConnectionTest/>", () => {
         await waitForElement(() => getByText(/Test is running/));
 
         // Simulate receiving message from WS server
-        act(() => webSockets.dispatch(wsTestResultMessage(testId, "wan")));
+        act(() =>
+            webSockets.dispatch(wsTestResultMessage(testId, "wan", "ok"))
+        );
 
         fireEvent.click(getByText("Test connection again"));
         act(() => mockAxios.mockResponse({ data: { test_id: testId } }));
         await waitForElement(() => getByText(/Test is running/));
-        act(() => webSockets.dispatch(wsTestResultMessage(testId, "wan")));
+        act(() =>
+            webSockets.dispatch(wsTestResultMessage(testId, "wan", "ok"))
+        );
 
         await waitForElement(() => getByText("Test connection again"));
     });
