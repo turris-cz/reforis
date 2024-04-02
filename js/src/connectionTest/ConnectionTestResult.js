@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -22,12 +22,12 @@ const TEST_TYPES = {
 };
 
 ConnectionTestResults.propTypes = {
-    ipv4: PropTypes.bool,
-    ipv4_gateway: PropTypes.bool,
-    ipv6: PropTypes.bool,
-    ipv6_gateway: PropTypes.bool,
-    dns: PropTypes.bool,
-    dnssec: PropTypes.bool,
+    ipv4: PropTypes.string,
+    ipv4_gateway: PropTypes.string,
+    ipv6: PropTypes.string,
+    ipv6_gateway: PropTypes.string,
+    dns: PropTypes.string,
+    dnssec: PropTypes.string,
     state: PropTypes.number,
 };
 
@@ -52,7 +52,7 @@ export default function ConnectionTestResults({ state, ...tests }) {
 
 ConnectionTestResultItem.propTypes = {
     type: PropTypes.string.isRequired,
-    result: PropTypes.bool,
+    result: PropTypes.string,
     state: PropTypes.number,
 };
 
@@ -72,7 +72,7 @@ function ConnectionTestResultItem({ type, result, state }) {
 }
 
 ConnectionTestIcon.propTypes = {
-    result: PropTypes.bool,
+    result: PropTypes.string,
 };
 
 function ConnectionTestIcon({ result }) {
@@ -81,15 +81,20 @@ function ConnectionTestIcon({ result }) {
     let title;
 
     switch (result) {
-        case true:
+        case "OK":
             title = _("Connection test successful");
             icon = "check";
             iconColor = "success";
             break;
-        case false:
+        case "FAILED":
             title = _("Connection test failed");
             icon = "times";
             iconColor = "danger";
+            break;
+        case "UNKNOWN":
+            title = _("Connection test cannot be determined");
+            icon = "question";
+            iconColor = "warning";
             break;
         default:
             title = _("Connection test not started");
