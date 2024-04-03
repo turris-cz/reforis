@@ -1,11 +1,11 @@
 /*
- * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import PropTypes from "prop-types";
 import { useUID } from "react-uid";
@@ -28,22 +28,22 @@ export function NavigationToggle({ name, icon, active, children }) {
     const iconElement = getIconElement(icon);
     const [activeToggle, setActiveToggle] = useState(active);
 
+    useEffect(() => {
+        setActiveToggle(active);
+    }, [active]);
+
     return (
         <li>
             <a
                 className="dropdown-toggle"
                 href={`#nav-toggle-${uid}`}
                 data-toggle="collapse"
-                // eslint-disable-next-line
-                onLoad={() => setActiveToggle(false)}
             >
                 {iconElement}
                 {name}
             </a>
             <ul
-                className={`collapse list-unstyled ${
-                    activeToggle && "show"
-                }`.trim()}
+                className={`list-unstyled collapse ${activeToggle ? "show" : ""}`.trim()}
                 id={`nav-toggle-${uid}`}
             >
                 {children}
