@@ -104,6 +104,8 @@ install-with-lighttpd:
 	opkg install git git-http
 	opkg install reforis
 	opkg install python3-pip
+	# upgrade pip to latest releases
+	pip3 install --upgrade pip
 	pip3 uninstall reforis -y
 	REFORIS_NO_JS_BUILD=1 pip3 install --index-url $(PIP_EXTRA_INDEX_URL) -e .
 	rm -rf $(REFORIS_STATIC_PATH)

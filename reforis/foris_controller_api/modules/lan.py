@@ -42,7 +42,7 @@ def lan_get():
         <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/lan/schema/lan.json>`_.
     """
     response = current_app.backend.perform("lan", "get_settings")
-    if response["mode"] == "managed" and response["mode_managed"]["dhcp"]["enabled"]:  # Router mode
+    if response["mode"] == "managed":  # Router mode
         response["mode_managed"]["dhcp"] = process_dhcp_get(
             response["mode_managed"]["dhcp"],
             response["mode_managed"]["router_ip"],
