@@ -105,7 +105,11 @@ def notifications_settings():
         response = current_app.backend.perform("router_notifications", "get_settings")
     elif request.method == "POST":
         data = request.json
-        response = current_app.backend.perform("router_notifications", "update_email_settings", data)
+        response = current_app.backend.perform(
+            "router_notifications",
+            "update_settings",
+            {"emails": data},
+        )
     return jsonify(response)
 
 
