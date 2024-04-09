@@ -11,20 +11,19 @@ export const RESULTS = {
     unknown: "UNKNOWN",
 };
 
-export default function wsTestResultMessage(testId, type, result) {
-    console.log(result);
+export default function wsTestResultMessage(testId, result) {
     return {
         module: "wan",
         action: "connection_test_finished",
         data: {
             passed: true,
             test_id: testId,
-            data: testResults(type, result),
+            data: testResults(result),
         },
     };
 }
 
-function testResults(type, result) {
+function testResults(result) {
     return {
         ipv4: RESULTS[result],
         ipv4_gateway: RESULTS[result],
