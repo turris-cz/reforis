@@ -1,11 +1,11 @@
 """
-    flask_session
-    ~~~~~~~~~~~~~
+flask_session
+~~~~~~~~~~~~~
 
-    Adds server session support to your application.
+Adds server session support to your application.
 
-    :copyright: (c) 2014 by Shipeng Feng.
-    :license: BSD, see LICENSE for more details.
+:copyright: (c) 2014 by Shipeng Feng.
+:license: BSD, see LICENSE for more details.
 """
 
 __version__ = "0.3.1"
