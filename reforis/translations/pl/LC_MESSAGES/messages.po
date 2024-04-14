@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-02-22 14:18+0100\n"
-"PO-Revision-Date: 2023-08-11 23:56+0000\n"
+"PO-Revision-Date: 2024-04-15 11:02+0000\n"
 "Last-Translator: Piotr Orzechowski <piotr@orzechowski.tech>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/turris/reforis/pl/"
+">\n"
 "Language: pl\n"
-"Language-Team: Polish "
-"<https://hosted.weblate.org/projects/turris/reforis/pl/>\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.5-dev\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: js/src/about/About.js:18 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -82,7 +83,7 @@ msgstr "Ostrzeżenie!"
 
 #: js/src/common/FactoryResetButton.js:68
 msgid "Are you sure you want to reset the router?"
-msgstr "Czy na pewno zresetować router?"
+msgstr "Czy na pewno chcesz przywrócić router do ustawień fabrycznych?"
 
 #: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:70
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
@@ -93,19 +94,19 @@ msgstr "Anuluj"
 
 #: js/src/common/FactoryResetButton.js:73
 msgid "Confirm factory reset"
-msgstr "Potwierdź przywracanie urządzenia do ustawień fabrycznych"
+msgstr "Potwierdź przywrócenie do ustawień fabrycznych"
 
 #: js/src/common/RebootButton.js:50 js/src/maintenance/Reboot.js:17
 msgid "Reboot"
-msgstr "Restart"
+msgstr "Ponowne uruchomienie"
 
 #: js/src/common/RebootButton.js:67
 msgid "Are you sure you want to restart the router?"
-msgstr "Czy na pewno zrestartować router?"
+msgstr "Czy na pewno chcesz uruchomić router ponownie?"
 
 #: js/src/common/RebootButton.js:72
 msgid "Confirm reboot"
-msgstr "Potwierdź restart"
+msgstr "Potwierdź ponowne uruchomienie"
 
 #: js/src/common/ScrollToTopArrow.js:30
 msgid "Go to top"
@@ -1342,7 +1343,7 @@ msgstr "Powiadomienia"
 #: js/src/main/pages.js:84 js/src/main/pages.js:175
 #: js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
-msgstr "Utrzymanie"
+msgstr "Konserwacja"
 
 #: js/src/main/pages.js:96
 msgid "Global Threat Statistics"
@@ -1441,8 +1442,8 @@ msgid ""
 "The Maintenance tab allows you to reboot the router or bring back all the"
 " default settings by performing a factory reset."
 msgstr ""
-"Zakładka Konserwacja pozwala restartować router lub go przywrócić do "
-"ustawień fabrycznych przez wykonanie resetu."
+"Zakładka Konserwacja pozwala uruchomić router ponownie lub go przywrócić do "
+"ustawień fabrycznych."
 
 #: js/src/maintenance/Reboot.js:19
 msgid ""
@@ -1450,9 +1451,9 @@ msgid ""
 "reboot process takes approximately 30 seconds, and then you will be "
 "required to log in again."
 msgstr ""
-"Jeśli trzeba zrestartować urządzenie, należy kliknąć następujący "
-"przycisk. Proces restartu potrwa około 30 sekund, po restarcie będzie się"
-" trzeba znowu zalogować."
+"Aby uruchomić urządzenie ponownie, należy kliknąć następujący przycisk. "
+"Proces ponownego uruchomienia potrwa około 30 sekund, po czym będzie trzeba "
+"znowu się zalogować."
 
 #: js/src/maintenance/Syslog/Syslog.js:49
 msgid "A drive has to be configured first."
@@ -1492,11 +1493,13 @@ msgstr "Wymagane ponowne uruchomienie"
 
 #: js/src/notificationsSettings/CommonForm.js:18
 msgid "Reboot or attention is required"
-msgstr "Wymagany restart albo działanie"
+msgstr "Wymagane ponowne uruchomienie lub inne działanie"
 
 #: js/src/notificationsSettings/CommonForm.js:19
 msgid "Reboot or attention is required or update was installed"
-msgstr "Wymagany jest restart, działanie lub zainstalowano aktualizację"
+msgstr ""
+"Wymagane jest ponowne uruchomienie, inne działanie lub została zainstalowana "
+"aktualizacja"
 
 #: js/src/notificationsSettings/CommonForm.js:50
 msgid "Recipient's email"
@@ -1504,7 +1507,7 @@ msgstr "E-mail odbiorcy"
 
 #: js/src/notificationsSettings/CommonForm.js:61
 msgid "Importance"
-msgstr "Znaczenie"
+msgstr "Ważność"
 
 #: js/src/notificationsSettings/CommonForm.js:70
 msgid "Send news"
@@ -1538,7 +1541,7 @@ msgid ""
 "test notification."
 msgstr ""
 "Urządzenie może zgodnie z ustawieniami wysyłać powiadomienia e-mail o "
-"wymaganych restartach, ważnych wydarzeniach, zainstalowanych "
+"wymaganym ponownym uruchomieniu, ważnych wydarzeniach, zainstalowanych "
 "aktualizacjach i nowych funkcjach. Po zakończeniu konfiguracji można ją "
 "przetestować, naciskając przycisk Wyślij powiadomienie testowe."
 
@@ -1598,10 +1601,10 @@ msgid ""
 "\"Reboot or attention is required\" and click \"Save\" button if you want"
 " to get this notification by email."
 msgstr ""
-"Nie otrzymasz powiadomienia testowego na swoją skrzynkę e-mail z "
-"aktualnym poziomem ważności. Podnieś poziom ważności co najmniej do "
-"„Wymagany restart lub działanie” i kliknij przycisk „Zapisz”, jeśli "
-"chcesz otrzymać to powiadomienie e-mailem."
+"Nie otrzymasz powiadomienia testowego na swoją skrzynkę e-mail z aktualnym "
+"poziomem ważności. Podnieś poziom ważności co najmniej do „Wymagane ponowne "
+"uruchomienie lub inne działanie” i kliknij przycisk „Zapisz”, jeśli chcesz "
+"otrzymać to powiadomienie e-mailem."
 
 #: js/src/notificationsSettings/TestNotification.js:112
 msgid "Test Notification"
@@ -1889,16 +1892,16 @@ msgid ""
 "Number of days that must pass between receiving the request for restart "
 "and the automatic restart itself."
 msgstr ""
-"Liczba dni między odebraniem żądania restartu, a samym automatycznym "
-"restartem."
+"Liczba dni pomiędzy odebraniem żądania ponownego uruchomienia a jego "
+"automatycznym wykonaniem."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:20
 msgid "Time of day of automatic reboot in HH:MM format."
-msgstr "Pora automatycznego restartu w formacie GG:MM."
+msgstr "Czas automatycznego ponownego uruchomienia w formacie GG:MM."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:49
 msgid "Automatic Restarts After Software Update"
-msgstr "Automatyczny restart po aktualizacji oprogramowania"
+msgstr "Automatyczne ponowne uruchomienie po aktualizacji oprogramowania"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:51
 msgid "Delay (days)"
@@ -1906,7 +1909,7 @@ msgstr "Opóźnienie (dni)"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:63
 msgid "Reboot time"
-msgstr "Godzina restartu"
+msgstr "Godzina ponownego uruchomienia"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:88
 msgid "Time should be in HH:MM format."
@@ -1914,7 +1917,7 @@ msgstr "Godzina powinna być w formacie GG:MM."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:91
 msgid "Restart can be delayed by at most 10 days"
-msgstr "Restart może być opóźniony najdalej o 10 dni"
+msgstr "Ponowne uruchomienie może być opóźnione najdalej o 10 dni"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:94
 msgid "Delay must be a positive number"
@@ -2327,7 +2330,7 @@ msgstr "Ponowne łączenie"
 #: js/src/routerStateHandler/RebootHandler.js:28
 #, python-format
 msgid "Reboot after %d sec."
-msgstr "Restart po %d sekundach."
+msgstr "Ponowne uruchomienie za ~%d sekund."
 
 #: js/src/routerStateHandler/RebootHandler.js:31
 msgid "Rebooting"
@@ -2676,7 +2679,8 @@ msgstr ""
 "\n"
 "Pamiętaj, że zostanie ono wysłane na Twój adres e-mail tylko wtedy, gdy "
 "ustawisz\n"
-"poziom ważności \"Wymagany restart albo działanie\" lub wyższy."
+"poziom ważności \"Wymagane ponowne uruchomienie lub inne działanie\" lub "
+"wyższy."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:127
 msgid "The testing message has been sent, please check your inbox."
@@ -2692,7 +2696,7 @@ msgstr ""
 
 #: reforis/foris_controller_api/modules/updater.py:65
 msgid "Cannot change automatic restart settings."
-msgstr "Nie można zmienić ustawień automatycznego restartu."
+msgstr "Nie można zmienić ustawień automatycznego ponownego uruchomienia."
 
 #: reforis/foris_controller_api/modules/updater.py:80
 msgid "Cannot update approvals settings."
@@ -3218,4 +3222,3 @@ msgstr "500 — Błąd serwera"
 #~ " the internet (you can use the "
 #~ "connection test below)."
 #~ msgstr ""
-
