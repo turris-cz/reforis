@@ -3,9 +3,10 @@
 exports[`<ForwarderForm/>: existed forwarder. Test with snapshot. 1`] = `
 <div>
   <div
-    class="form-group"
+    class="mb-3"
   >
     <label
+      class="form-label"
       for="1"
     >
       Name
@@ -28,9 +29,10 @@ exports[`<ForwarderForm/>: existed forwarder. Test with snapshot. 1`] = `
     class="offset-1 col-10"
   >
     <div
-      class="form-group"
+      class="mb-3"
     >
       <label
+        class="form-label"
         for="2"
       >
         IPv4 #1
@@ -62,9 +64,10 @@ exports[`<ForwarderForm/>: existed forwarder. Test with snapshot. 1`] = `
     class="offset-1 col-10"
   >
     <div
-      class="form-group"
+      class="mb-3"
     >
       <label
+        class="form-label"
         for="3"
       >
         IPv6 #1
@@ -90,15 +93,16 @@ exports[`<ForwarderForm/>: existed forwarder. Test with snapshot. 1`] = `
     </button>
   </div>
   <div
-    class="form-group"
+    class="mb-3"
   >
     <label
+      class="form-label"
       for="4"
     >
       TLS type
     </label>
     <select
-      class="custom-select"
+      class="form-select"
       id="4"
     >
       <option
@@ -117,14 +121,16 @@ exports[`<ForwarderForm/>: existed forwarder. Test with snapshot. 1`] = `
         Pin
       </option>
     </select>
-    <small
-      class="form-text text-muted"
+    <div
+      class="form-text"
     >
-      "No TLS" means that the regular UDP-base DNS protocol is used.
-    </small>
+      <small>
+        "No TLS" means that the regular UDP-base DNS protocol is used.
+      </small>
+    </div>
   </div>
   <button
-    class="btn btn-primary col-lg-12 col-md-12 col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+    class="btn btn-primary col-lg-12 col-md-12 col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
     type="button"
   >
     <span>
@@ -137,9 +143,10 @@ exports[`<ForwarderForm/>: existed forwarder. Test with snapshot. 1`] = `
 exports[`<ForwarderForm/>: new forwarder. Test with snapshot. 1`] = `
 <div>
   <div
-    class="form-group"
+    class="mb-3"
   >
     <label
+      class="form-label"
       for="1"
     >
       Name
@@ -148,7 +155,7 @@ exports[`<ForwarderForm/>: new forwarder. Test with snapshot. 1`] = `
       class="input-group"
     >
       <input
-        class="form-control  is-invalid"
+        class="form-control is-invalid"
         id="1"
         type="text"
         value=""
@@ -167,9 +174,10 @@ exports[`<ForwarderForm/>: new forwarder. Test with snapshot. 1`] = `
     class="offset-1 col-10"
   >
     <div
-      class="form-group"
+      class="mb-3"
     >
       <label
+        class="form-label"
         for="2"
       >
         IPv4 #1
@@ -178,7 +186,7 @@ exports[`<ForwarderForm/>: new forwarder. Test with snapshot. 1`] = `
         class="input-group"
       >
         <input
-          class="form-control  is-invalid"
+          class="form-control is-invalid"
           id="2"
           type="text"
           value=""
@@ -206,9 +214,10 @@ exports[`<ForwarderForm/>: new forwarder. Test with snapshot. 1`] = `
     class="offset-1 col-10"
   >
     <div
-      class="form-group"
+      class="mb-3"
     >
       <label
+        class="form-label"
         for="3"
       >
         IPv6 #1
@@ -217,7 +226,7 @@ exports[`<ForwarderForm/>: new forwarder. Test with snapshot. 1`] = `
         class="input-group"
       >
         <input
-          class="form-control  is-invalid"
+          class="form-control is-invalid"
           id="3"
           type="text"
           value=""
@@ -239,15 +248,16 @@ exports[`<ForwarderForm/>: new forwarder. Test with snapshot. 1`] = `
     </button>
   </div>
   <div
-    class="form-group"
+    class="mb-3"
   >
     <label
+      class="form-label"
       for="4"
     >
       TLS type
     </label>
     <select
-      class="custom-select"
+      class="form-select"
       id="4"
     >
       <option
@@ -266,14 +276,16 @@ exports[`<ForwarderForm/>: new forwarder. Test with snapshot. 1`] = `
         Pin
       </option>
     </select>
-    <small
-      class="form-text text-muted"
+    <div
+      class="form-text"
     >
-      "No TLS" means that the regular UDP-base DNS protocol is used.
-    </small>
+      <small>
+        "No TLS" means that the regular UDP-base DNS protocol is used.
+      </small>
+    </div>
   </div>
   <button
-    class="btn btn-primary col-lg-12 col-md-12 col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+    class="btn btn-primary col-lg-12 col-md-12 col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
     disabled=""
     type="button"
   >

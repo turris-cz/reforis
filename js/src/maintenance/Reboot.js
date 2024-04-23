@@ -20,7 +20,7 @@ export default function Reboot() {
                     "If you need to reboot the device, click on the following button. The reboot process takes approximately 30 seconds, and then you will be required to log in again."
                 )}
             </p>
-            <div className="text-right">
+            <div className="text-end">
                 <RebootButton forisFormSize />
             </div>
         </div>

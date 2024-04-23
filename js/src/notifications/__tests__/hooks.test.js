@@ -59,7 +59,7 @@ describe("useNotifications hook.", () => {
 
     it("Dismiss notification.", () => {
         expect(mockAxios.post).toHaveBeenCalledTimes(0);
-        fireEvent.click(notificationsContainer.querySelector("button.close"));
+        fireEvent.click(notificationsContainer.querySelector(".btn-close"));
         expect(mockAxios.post).toHaveBeenCalledTimes(1);
 
         const notificationToDismiss = notificationsFixture.notifications[0];

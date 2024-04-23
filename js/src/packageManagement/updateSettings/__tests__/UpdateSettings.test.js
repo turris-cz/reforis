@@ -62,13 +62,13 @@ describe("<UpdateSettings/>", () => {
     it("Test with snapshot enabled, delayed.", () => {
         fireEvent.click(getByLabelText(ENABLE_CHECKBOX_LABEL));
         const enabledRender = asFragment();
-        fireEvent.click(getByLabelText("Delayed updates"));
+        fireEvent.click(getByLabelText(/Delayed updates/i));
         expect(diffSnapshot(enabledRender, asFragment())).toMatchSnapshot();
     });
 
     it("Post: enabled, delayed", () => {
         fireEvent.click(getByLabelText(ENABLE_CHECKBOX_LABEL));
-        fireEvent.click(getByLabelText("Delayed updates"));
+        fireEvent.click(getByLabelText(/Delayed updates/i));
         fireEvent.click(getByText("Save"));
 
         expect(mockAxios.post).toBeCalled();

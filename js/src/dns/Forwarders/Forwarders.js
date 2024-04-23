@@ -69,7 +69,7 @@ function ForwardersForm({ forwarderList, value, setFormValue, disabled }) {
                 editForwarder={editForwarder}
                 disabled={disabled}
             />
-            <div className="text-right">
+            <div className="text-end">
                 <AddForwarderButton onClick={() => addForwarder()} />
             </div>
             <ForwarderModal

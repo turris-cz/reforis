@@ -84,7 +84,7 @@ through the <a href="%s" target="_blank" rel="noopener noreferrer">LuCI web inte
                 }))}
                 disabled={disabled}
             />
-            <div className="text-right">
+            <div className="text-end">
                 <SubmitButton
                     state={submitButtonState}
                     disabled={

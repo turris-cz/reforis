@@ -28,7 +28,7 @@ exports[`<WorkflowSelect/> Snapshot. 1`] = `
               Router
             </span>
             <span
-              class="badge badge-success align-middle"
+              class="badge text-bg-success align-middle"
             >
               recommended
             </span>

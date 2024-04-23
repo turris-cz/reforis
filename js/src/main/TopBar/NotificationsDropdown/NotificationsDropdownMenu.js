@@ -33,9 +33,9 @@ export default function NotificationsDropdownMenu({
     function getNotifications() {
         if (notifications.length === 0) {
             return (
-                <span className="dropdown-item no-notifications">
+                <p className="mt-2 mb-0 text-center text-muted">
                     {_("No notifications")}
-                </span>
+                </p>
             );
         }
 
@@ -55,13 +55,13 @@ export default function NotificationsDropdownMenu({
         ) : null;
 
     return (
-        <div className="dropdown-menu dropdown-menu-right shadow-sm">
+        <ul className="dropdown-menu dropdown-menu-end shadow-sm">
             <NotificationsDropdownHeader />
             <SimpleBar className="scrollable-menu" autoHide={false}>
                 {getNotifications()}
             </SimpleBar>
             {footer}
-        </div>
+        </ul>
     );
 }
 
@@ -70,12 +70,13 @@ function NotificationsDropdownHeader() {
         <>
             <div id="notifications-header" className="dropdown-header">
                 <Link
+                    className="text-decoration-none"
                     to={{
                         pathname: ForisURLs.overview,
                         hash: "#notifications",
                     }}
                 >
-                    <h5>{_("Notifications")}</h5>
+                    <h5 className="mb-0 text-body">{_("Notifications")}</h5>
                 </Link>
                 <Link
                     to={ForisURLs.notificationsSettings}
@@ -100,7 +101,7 @@ function NotificationsDropdownFooter({ dismissAll }) {
             <div id="notifications-footer" className="dropdown-footer">
                 <button
                     type="button"
-                    className="btn btn-link"
+                    className="btn btn-link text-decoration-none"
                     onClick={dismissAll}
                 >
                     {_("Dismiss all")}

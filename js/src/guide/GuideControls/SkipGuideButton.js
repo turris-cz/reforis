@@ -29,9 +29,8 @@ export function SkipGuideButton({ next_step }) {
             onClick={onGuideFinishHandler}
             disabled={disabled}
         >
-            <span className="d-none d-sm-block">
+            <span className="d-none d-sm-inline-block me-1">
                 {_("Skip guide")}
-                &nbsp;
             </span>
             <i className="fas fa-forward" />
         </Button>

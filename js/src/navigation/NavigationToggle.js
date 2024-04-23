@@ -35,9 +35,9 @@ export function NavigationToggle({ name, icon, active, children }) {
     return (
         <li>
             <a
-                className="dropdown-toggle"
+                className="dropdown-toggle text-decoration-none"
                 href={`#nav-toggle-${uid}`}
-                data-toggle="collapse"
+                data-bs-toggle="collapse"
             >
                 {iconElement}
                 {name}

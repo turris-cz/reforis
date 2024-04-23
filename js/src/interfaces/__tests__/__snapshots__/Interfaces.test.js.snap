@@ -262,15 +262,16 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
         Interface %s %s
       </h3>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="1"
         >
           Network
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="1"
         >
           <option
@@ -366,10 +367,10 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
         </tbody>
       </table>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -644,15 +645,16 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
         Interface %s %s
       </h3>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="1"
         >
           Network
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="1"
         >
           <option
@@ -748,10 +750,10 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
         </tbody>
       </table>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -1023,10 +1025,10 @@ exports[`<Interfaces/> Snapshot. 1`] = `
         </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -1301,15 +1303,16 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
         Interface %s %s
       </h3>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="1"
         >
           Network
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="1"
         >
           <option
@@ -1405,10 +1408,10 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
         </tbody>
       </table>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -1680,10 +1683,10 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
         </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>

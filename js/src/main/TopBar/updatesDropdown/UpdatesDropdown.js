@@ -49,13 +49,11 @@ export default function UpdatesDropdown({ newNotification }) {
     }
 
     return (
-        <div className="dropdown" data-testid="updates-dropdown">
-            <DropdownContentWithSpinner
-                apiState={getApprovalsResponse.state}
-                update={update}
-                onSuccess={getApprovals}
-            />
-        </div>
+        <DropdownContentWithSpinner
+            apiState={getApprovalsResponse.state}
+            update={update}
+            onSuccess={getApprovals}
+        />
     );
 }
 
@@ -79,26 +77,37 @@ function DropdownContent({ update, onSuccess }) {
 
     const updateFailed = postApprovalResponse.state === API_STATE.ERROR;
     return (
-        <>
-            <button type="button" className="nav-item btn btn-link">
+        <div
+            className="dropdown dropdown-menu-end"
+            data-testid="updates-dropdown"
+        >
+            <button
+                type="button"
+                className="nav-item btn btn-link text-body"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+            >
                 <i
                     className={`fa fa-sync-alt fa-lg ${
                         updateFailed ? "text-danger" : ""
                     }`.trim()}
                 />
             </button>
-            <div
+            <ul
                 className={`dropdown-menu dropdown-menu-${
-                    window.outerWidth > smallScreenWidth ? "right" : "left"
-                }  shadow-sm`}
+                    window.outerWidth > smallScreenWidth ? "" : "end"
+                } shadow-sm`.trim()}
             >
                 <div className="dropdown-header">
                     <Link
+                        className="text-decoration-none"
                         to={{
                             pathname: ForisURLs.approveUpdates,
                         }}
                     >
-                        <h5>{_("Approve Update")}</h5>
+                        <h5 className="mb-0 text-body">
+                            {_("Approve Update")}
+                        </h5>
                     </Link>
                 </div>
                 <div className="dropdown-divider" />
@@ -106,8 +115,8 @@ function DropdownContent({ update, onSuccess }) {
                     updateFailed={updateFailed}
                     resolveUpdate={resolveUpdate}
                 />
-            </div>
-        </>
+            </ul>
+        </div>
     );
 }
 
@@ -124,24 +133,20 @@ ManageUpdate.propTypes = {
 
 function ManageUpdate({ resolveUpdate }) {
     return (
-        <>
-            <span
-                className="dropdown-item"
-                dangerouslySetInnerHTML={{
-                    __html: _(
-                        `See details in <a href=${ForisURLs.packageManagement.updates}>Updates</a> page.`
-                    ),
-                }}
-            />
-            <div className="dropdown-item text-center">
-                <Button
-                    className="btn-primary w-100"
-                    onClick={() => resolveUpdate("grant")}
-                >
-                    {_("Install now")}
-                </Button>
-            </div>
-        </>
+        <div className="px-3">
+            <p className="text-center text-nowrap mb-2">
+                {_("See details in ")}
+                <Link to={ForisURLs.approveUpdates}>{_("Updates")}</Link>
+                {_(" page.")}
+            </p>
+
+            <Button
+                className="btn-primary w-100"
+                onClick={() => resolveUpdate("grant")}
+            >
+                {_("Install now")}
+            </Button>
+        </div>
     );
 }
 

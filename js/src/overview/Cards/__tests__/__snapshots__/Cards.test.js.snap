@@ -6,7 +6,7 @@ exports[`<Cards/> <AutomaticUpdatesCard/> Snapshot: activated 1`] = `
     class="col mb-4"
   >
     <div
-      class="card user-select-none"
+      class="card"
     >
       <div
         class="card-body"
@@ -52,7 +52,7 @@ exports[`<Cards/> <AutomaticUpdatesCard/> Snapshot: disabled 1`] = `
     class="col mb-4"
   >
     <div
-      class="card user-select-none"
+      class="card"
     >
       <div
         class="card-body"
@@ -98,7 +98,7 @@ exports[`<Cards/> <DataCollectionCard/> Snapshot: activated 1`] = `
     class="col mb-4"
   >
     <div
-      class="card user-select-none"
+      class="card"
     >
       <div
         class="card-body"
@@ -144,7 +144,7 @@ exports[`<Cards/> <DataCollectionCard/> Snapshot: disabled 1`] = `
     class="col mb-4"
   >
     <div
-      class="card user-select-none"
+      class="card"
     >
       <div
         class="card-body"
@@ -190,7 +190,7 @@ exports[`<Cards/> <DynamicFirewallCard/> Snapshot: activated 1`] = `
     class="col mb-4"
   >
     <div
-      class="card user-select-none"
+      class="card"
     >
       <div
         class="card-body"
@@ -236,7 +236,7 @@ exports[`<Cards/> <DynamicFirewallCard/> Snapshot: disabled 1`] = `
     class="col mb-4"
   >
     <div
-      class="card user-select-none"
+      class="card"
     >
       <div
         class="card-body"
@@ -282,7 +282,7 @@ exports[`<Cards/> <NetmetrCard/> Snapshot: contains tests 1`] = `
     class="col mb-4"
   >
     <div
-      class="card h-100 user-select-none"
+      class="card h-100"
     >
       <div
         class="card-body"
@@ -324,7 +324,7 @@ exports[`<Cards/> <NetmetrCard/> Snapshot: contains tests 1`] = `
                     </span>
                   </th>
                   <td
-                    class="text-right"
+                    class="text-end"
                   >
                     930
                   </td>
@@ -342,7 +342,7 @@ exports[`<Cards/> <NetmetrCard/> Snapshot: contains tests 1`] = `
                     </span>
                   </th>
                   <td
-                    class="text-right"
+                    class="text-end"
                   >
                     <span>
                       930
@@ -362,7 +362,7 @@ exports[`<Cards/> <NetmetrCard/> Snapshot: contains tests 1`] = `
                     </span>
                   </th>
                   <td
-                    class="text-right"
+                    class="text-end"
                   >
                     <span>
                       N/A
@@ -376,7 +376,7 @@ exports[`<Cards/> <NetmetrCard/> Snapshot: contains tests 1`] = `
                     Link
                   </th>
                   <td
-                    class="text-right"
+                    class="text-end"
                   >
                     <a
                       href="https://www.netmetr.cz/en/detail.html?c7a6f82d-5128-47f3-a3f9-d7e9d9af64bd"
@@ -386,7 +386,7 @@ exports[`<Cards/> <NetmetrCard/> Snapshot: contains tests 1`] = `
                       Details
                       <sup>
                         <i
-                          class="fas fa-external-link-alt fa-sm ml-1"
+                          class="fas fa-external-link-alt fa-sm ms-1"
                         />
                       </sup>
                     </a>
@@ -419,7 +419,7 @@ exports[`<Cards/> <NetmetrCard/> Snapshot: empty 1`] = `
     class="col mb-4"
   >
     <div
-      class="card h-100 user-select-none"
+      class="card h-100"
     >
       <div
         class="card-body"
@@ -455,7 +455,7 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: contains clients 1`] = `
     class="col mb-4"
   >
     <div
-      class="card h-100 user-select-none"
+      class="card h-100"
     >
       <div
         class="card-body"
@@ -491,7 +491,7 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: contains clients 1`] = `
                     </span>
                   </th>
                   <td
-                    class="text-right"
+                    class="text-end"
                   >
                     <span
                       class="text-success"
@@ -518,7 +518,7 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: empty 1`] = `
     class="col mb-4"
   >
     <div
-      class="card h-100 user-select-none"
+      class="card h-100"
     >
       <div
         class="card-body"

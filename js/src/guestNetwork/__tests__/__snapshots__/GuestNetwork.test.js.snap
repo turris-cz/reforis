@@ -25,30 +25,27 @@ exports[`<GuestNetwork/> Snapshot disabled. 1`] = `
         Guest Network Settings
       </h2>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch custom-control-inline"
+        <input
+          class="form-check-input"
+          id="1"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="1"
         >
-          <input
-            class="custom-control-input"
-            id="1"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="1"
-          >
-            Enable Guest Network
-          </label>
-        </div>
+          Enable Guest Network
+        </label>
       </div>
       <div />
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -73,7 +70,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
     id="guest-notification"
   >
     <div
-      class="alert  alert-warning"
+      class="alert alert-warning"
     >
       All network interfaces of this network are currently down.
     </div>
@@ -95,28 +92,26 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         Guest Network Settings
       </h2>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch custom-control-inline"
+        <input
+          class="form-check-input"
+          id="1"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="1"
         >
-          <input
-            class="custom-control-input"
-            id="1"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="1"
-          >
-            Enable Guest Network
-          </label>
-        </div>
+          Enable Guest Network
+        </label>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="2"
         >
           Router IP address
@@ -132,16 +127,19 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
             value="10.111.222.1"
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Router's IP address in the guest inner network.
-        </small>
+          <small>
+            Router's IP address in the guest inner network.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="3"
         >
           Network mask
@@ -159,33 +157,33 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch"
+        <input
+          class="form-check-input"
+          id="4"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="4"
         >
-          <input
-            class="custom-control-input"
-            id="4"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="4"
-          >
-            Enable DHCP
-          </label>
-          <small
-            class="form-text text-muted mt-0 mb-3"
-          >
+          Enable DHCP
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
             Enable this option to automatically assign IP addresses to the devices connected to the router.
           </small>
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="6"
         >
           DHCP start
@@ -203,9 +201,10 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="7"
         >
           DHCP max leases
@@ -221,39 +220,38 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
             type="number"
             value="150"
           />
-          <div
-            class="input-group-append"
+          <button
+            aria-label="Increase"
+            class="btn btn-outline-secondary"
+            type="button"
           >
-            <button
-              aria-label="Increase"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-plus"
-              />
-            </button>
-            <button
-              aria-label="Decrease"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-minus"
-              />
-            </button>
-          </div>
+            <i
+              class="fas fa-plus"
+            />
+          </button>
+          <button
+            aria-label="Decrease"
+            class="btn btn-outline-secondary"
+            type="button"
+          >
+            <i
+              class="fas fa-minus"
+            />
+          </button>
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Maximum number of addresses available for DHCP clients.
-        </small>
+          <small>
+            Maximum number of addresses available for DHCP clients.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="8"
         >
           Lease time (hours)
@@ -269,60 +267,55 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
             type="number"
             value="3600"
           />
-          <div
-            class="input-group-append"
+          <button
+            aria-label="Increase"
+            class="btn btn-outline-secondary"
+            type="button"
           >
-            <button
-              aria-label="Increase"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-plus"
-              />
-            </button>
-            <button
-              aria-label="Decrease"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-minus"
-              />
-            </button>
-          </div>
+            <i
+              class="fas fa-plus"
+            />
+          </button>
+          <button
+            aria-label="Decrease"
+            class="btn btn-outline-secondary"
+            type="button"
+          >
+            <i
+              class="fas fa-minus"
+            />
+          </button>
         </div>
       </div>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch"
+        <input
+          class="form-check-input"
+          id="5"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="5"
         >
-          <input
-            class="custom-control-input"
-            id="5"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="5"
-          >
-            Enable QoS
-          </label>
-          <small
-            class="form-text text-muted mt-0 mb-3"
-          >
+          Enable QoS
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
             This option enables you to set a bandwidth limit for the guest network, so that your main network doesn't get slowed-down by it.
           </small>
         </div>
       </div>
       <div />
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -363,7 +356,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
     id="guest-notification"
   >
     <div
-      class="alert  alert-warning"
+      class="alert alert-warning"
     >
       All network interfaces of this network are currently down.
     </div>
@@ -385,28 +378,26 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         Guest Network Settings
       </h2>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch custom-control-inline"
+        <input
+          class="form-check-input"
+          id="1"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="1"
         >
-          <input
-            class="custom-control-input"
-            id="1"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="1"
-          >
-            Enable Guest Network
-          </label>
-        </div>
+          Enable Guest Network
+        </label>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="2"
         >
           Router IP address
@@ -422,16 +413,19 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
             value="10.111.222.1"
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Router's IP address in the guest inner network.
-        </small>
+          <small>
+            Router's IP address in the guest inner network.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="3"
         >
           Network mask
@@ -449,57 +443,56 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch"
+        <input
+          class="form-check-input"
+          id="4"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="4"
         >
-          <input
-            class="custom-control-input"
-            id="4"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="4"
-          >
-            Enable DHCP
-          </label>
-          <small
-            class="form-text text-muted mt-0 mb-3"
-          >
+          Enable DHCP
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
             Enable this option to automatically assign IP addresses to the devices connected to the router.
           </small>
         </div>
       </div>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch"
+        <input
+          class="form-check-input"
+          id="5"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="5"
         >
-          <input
-            class="custom-control-input"
-            id="5"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="5"
-          >
-            Enable QoS
-          </label>
-          <small
-            class="form-text text-muted mt-0 mb-3"
-          >
+          Enable QoS
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
             This option enables you to set a bandwidth limit for the guest network, so that your main network doesn't get slowed-down by it.
           </small>
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="6"
         >
           Download
@@ -515,44 +508,43 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
             type="number"
             value="1023"
           />
-          <div
-            class="input-group-append"
+          <span
+            class="input-group-text"
           >
-            <p
-              class="input-group-text"
-            >
-              kb/s
-            </p>
-            <button
-              aria-label="Increase"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-plus"
-              />
-            </button>
-            <button
-              aria-label="Decrease"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-minus"
-              />
-            </button>
-          </div>
+            kb/s
+          </span>
+          <button
+            aria-label="Increase"
+            class="btn btn-outline-secondary"
+            type="button"
+          >
+            <i
+              class="fas fa-plus"
+            />
+          </button>
+          <button
+            aria-label="Decrease"
+            class="btn btn-outline-secondary"
+            type="button"
+          >
+            <i
+              class="fas fa-minus"
+            />
+          </button>
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Download speed in guest network (in kilobits per second).
-        </small>
+          <small>
+            Download speed in guest network (in kilobits per second).
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="7"
         >
           Upload
@@ -568,46 +560,44 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
             type="number"
             value="1025"
           />
-          <div
-            class="input-group-append"
+          <span
+            class="input-group-text"
           >
-            <p
-              class="input-group-text"
-            >
-              kb/s
-            </p>
-            <button
-              aria-label="Increase"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-plus"
-              />
-            </button>
-            <button
-              aria-label="Decrease"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-minus"
-              />
-            </button>
-          </div>
+            kb/s
+          </span>
+          <button
+            aria-label="Increase"
+            class="btn btn-outline-secondary"
+            type="button"
+          >
+            <i
+              class="fas fa-plus"
+            />
+          </button>
+          <button
+            aria-label="Decrease"
+            class="btn btn-outline-secondary"
+            type="button"
+          >
+            <i
+              class="fas fa-minus"
+            />
+          </button>
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Upload speed in guest network (in kilobits per second).
-        </small>
+          <small>
+            Upload speed in guest network (in kilobits per second).
+          </small>
+        </div>
       </div>
       <div />
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -632,7 +622,7 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
     id="guest-notification"
   >
     <div
-      class="alert  alert-warning"
+      class="alert alert-warning"
     >
       All network interfaces of this network are currently down.
     </div>
@@ -654,28 +644,26 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
         Guest Network Settings
       </h2>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch custom-control-inline"
+        <input
+          class="form-check-input"
+          id="1"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="1"
         >
-          <input
-            class="custom-control-input"
-            id="1"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="1"
-          >
-            Enable Guest Network
-          </label>
-        </div>
+          Enable Guest Network
+        </label>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="2"
         >
           Router IP address
@@ -691,16 +679,19 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
             value="10.111.222.1"
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Router's IP address in the guest inner network.
-        </small>
+          <small>
+            Router's IP address in the guest inner network.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="3"
         >
           Network mask
@@ -718,59 +709,57 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch"
+        <input
+          class="form-check-input"
+          id="4"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="4"
         >
-          <input
-            class="custom-control-input"
-            id="4"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="4"
-          >
-            Enable DHCP
-          </label>
-          <small
-            class="form-text text-muted mt-0 mb-3"
-          >
+          Enable DHCP
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
             Enable this option to automatically assign IP addresses to the devices connected to the router.
           </small>
         </div>
       </div>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch"
+        <input
+          class="form-check-input"
+          id="5"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="5"
         >
-          <input
-            class="custom-control-input"
-            id="5"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="5"
-          >
-            Enable QoS
-          </label>
-          <small
-            class="form-text text-muted mt-0 mb-3"
-          >
+          Enable QoS
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
             This option enables you to set a bandwidth limit for the guest network, so that your main network doesn't get slowed-down by it.
           </small>
         </div>
       </div>
       <div />
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -797,7 +786,7 @@ exports[`Displaying of interface warning messages No interface & snapshot 1`] = 
   id="guest-notification"
 >
   <div
-    class="alert  alert-warning"
+    class="alert alert-warning"
   >
     This network currently doesn't contain any devices. The changes you make here will become fully functional after you assign a network interface to this network.
   </div>
@@ -809,7 +798,7 @@ exports[`Displaying of interface warning messages No interface up & snapshot 1`]
   id="guest-notification"
 >
   <div
-    class="alert  alert-warning"
+    class="alert alert-warning"
   >
     All network interfaces of this network are currently down.
   </div>

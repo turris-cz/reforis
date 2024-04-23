@@ -7,39 +7,44 @@ exports[`<NotificationsDropdown/> Test with snapshot 1`] = `
     id="notifications"
   >
     <button
-      class="nav-item btn btn-link"
+      aria-expanded="false"
+      class="nav-item btn btn-link text-body"
+      data-bs-toggle="dropdown"
       id="notifications-btn"
       type="button"
     >
-      <span
-        class="fa-stack"
+      <div
+        class="position-relative"
       >
         <i
-          class="fas fa-bell fa-stack-1x"
+          class="fas fa-bell fa-lg"
         />
-        <div
-          class=""
-          id="notifications-counter"
+        <span
+          class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-danger ms-0"
         >
-          <div
-            class="number"
+          4
+          <span
+            class="visually-hidden"
           >
-            4
-          </div>
-        </div>
-      </span>
+            unread messages
+          </span>
+        </span>
+      </div>
     </button>
-    <div
-      class="dropdown-menu dropdown-menu-right shadow-sm"
+    <ul
+      class="dropdown-menu dropdown-menu-end shadow-sm"
     >
       <div
         class="dropdown-header"
         id="notifications-header"
       >
         <a
+          class="text-decoration-none"
           href="/overview#notifications"
         >
-          <h5>
+          <h5
+            class="mb-0 text-body"
+          >
             Notifications
           </h5>
         </a>
@@ -87,137 +92,125 @@ exports[`<NotificationsDropdown/> Test with snapshot 1`] = `
                   class="simplebar-content"
                 >
                   <div
-                    class="dropdown-item notification-item"
+                    class="dropdown-item d-flex align-items-center py-2"
+                    style="transform: rotate(0);"
                   >
                     <i
-                      class="fa fa-newspaper fa-2x"
+                      class="fa fa-newspaper fa-2x me-2"
                     />
-                    <div
-                      class="notifications-info"
+                    <a
+                      class="d-flex flex-column stretched-link text-decoration-none me-2"
+                      href="/overview?id=123-123"
                     >
-                      <a
-                        href="/overview?id=123-123"
+                      <small
+                        class="text-muted"
                       >
-                        <small
-                          class="text-muted"
-                        >
-                          February 1, 2000 12:00 AM
-                        </small>
-                        <p>
-                          Notification message.
-                        </p>
-                      </a>
-                    </div>
+                        February 1, 2000 12:00 AM
+                      </small>
+                      <p
+                        class="mb-0 d-inline-block text-truncate"
+                        style="max-width: 14rem;"
+                      >
+                        Notification message.
+                      </p>
+                    </a>
                     <button
-                      class="btn btn-link dismiss"
+                      class="position-relative w-50 z-1 btn-close "
                       type="button"
-                    >
-                      <i
-                        class="fas fa-times"
-                      />
-                    </button>
+                    />
                   </div>
                   <div
-                    class="dropdown-divider"
+                    class="dropdown-divider m-0"
                   />
                   <div
-                    class="dropdown-item notification-item"
+                    class="dropdown-item d-flex align-items-center py-2"
+                    style="transform: rotate(0);"
                   >
                     <i
-                      class="fa fa-exclamation-circle fa-2x"
+                      class="fa fa-exclamation-circle fa-2x me-2"
                     />
-                    <div
-                      class="notifications-info"
+                    <a
+                      class="d-flex flex-column stretched-link text-decoration-none me-2"
+                      href="/overview?id=123-124"
                     >
-                      <a
-                        href="/overview?id=123-124"
+                      <small
+                        class="text-muted"
                       >
-                        <small
-                          class="text-muted"
-                        >
-                          February 1, 2000 12:00 AM
-                        </small>
-                        <p>
-                          Second notification message.
-                        </p>
-                      </a>
-                    </div>
+                        February 1, 2000 12:00 AM
+                      </small>
+                      <p
+                        class="mb-0 d-inline-block text-truncate"
+                        style="max-width: 14rem;"
+                      >
+                        Second notification message.
+                      </p>
+                    </a>
                     <button
-                      class="btn btn-link dismiss"
+                      class="position-relative w-50 z-1 btn-close "
                       type="button"
-                    >
-                      <i
-                        class="fas fa-times"
-                      />
-                    </button>
+                    />
                   </div>
                   <div
-                    class="dropdown-divider"
+                    class="dropdown-divider m-0"
                   />
                   <div
-                    class="dropdown-item notification-item"
+                    class="dropdown-item d-flex align-items-center py-2"
+                    style="transform: rotate(0);"
                   >
                     <i
-                      class="fa fa-power-off fa-2x"
+                      class="fa fa-power-off fa-2x me-2"
                     />
-                    <div
-                      class="notifications-info"
+                    <a
+                      class="d-flex flex-column stretched-link text-decoration-none me-2"
+                      href="/overview?id=808-909"
                     >
-                      <a
-                        href="/overview?id=808-909"
+                      <small
+                        class="text-muted"
                       >
-                        <small
-                          class="text-muted"
-                        >
-                          February 1, 2000 12:00 AM
-                        </small>
-                        <p>
-                          Third notification message.
-                        </p>
-                      </a>
-                    </div>
+                        February 1, 2000 12:00 AM
+                      </small>
+                      <p
+                        class="mb-0 d-inline-block text-truncate"
+                        style="max-width: 14rem;"
+                      >
+                        Third notification message.
+                      </p>
+                    </a>
                     <button
-                      class="btn btn-link dismiss invisible"
+                      class="position-relative w-50 z-1 btn-close  invisible"
                       type="button"
-                    >
-                      <i
-                        class="fas fa-times"
-                      />
-                    </button>
+                    />
                   </div>
                   <div
-                    class="dropdown-divider"
+                    class="dropdown-divider m-0"
                   />
                   <div
-                    class="dropdown-item notification-item"
+                    class="dropdown-item d-flex align-items-center py-2"
+                    style="transform: rotate(0);"
                   >
                     <i
-                      class="fa fa-exclamation-circle fa-2x"
+                      class="fa fa-exclamation-circle fa-2x me-2"
                     />
-                    <div
-                      class="notifications-info"
+                    <a
+                      class="d-flex flex-column stretched-link text-decoration-none me-2"
+                      href="/overview?id=123-125"
                     >
-                      <a
-                        href="/overview?id=123-125"
+                      <small
+                        class="text-muted"
                       >
-                        <small
-                          class="text-muted"
-                        >
-                          February 1, 2000 12:00 AM
-                        </small>
-                        <p>
-                          Displayed notification message.
-                        </p>
-                      </a>
-                    </div>
+                        February 1, 2000 12:00 AM
+                      </small>
+                      <p
+                        class="mb-0 d-inline-block text-truncate"
+                        style="max-width: 14rem;"
+                      >
+                        Displayed notification message.
+                      </p>
+                    </a>
                     <button
-                      class="btn btn-link dismiss"
+                      class="position-relative w-50 z-1 btn-close "
                       type="button"
-                    >
-                      <i
-                        class="fas fa-times"
-                      />
-                    </button>
+                    />
                   </div>
                 </div>
               </div>
@@ -255,13 +248,13 @@ exports[`<NotificationsDropdown/> Test with snapshot 1`] = `
         id="notifications-footer"
       >
         <button
-          class="btn btn-link"
+          class="btn btn-link text-decoration-none"
           type="button"
         >
           Dismiss all
         </button>
       </div>
-    </div>
+    </ul>
   </div>
 </div>
 `;

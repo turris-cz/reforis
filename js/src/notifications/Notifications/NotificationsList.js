@@ -13,7 +13,7 @@ import PropTypes from "prop-types";
 import RebootButton from "common/RebootButton";
 
 import TruncatedText from "./TruncatedText";
-import { NOT_DISMISSABLE } from "../constants";
+import { NOT_DISMISSIBLE } from "../constants";
 import NotificationIcon from "../NotificationIcon";
 import NOTIFICATION_PROP_TYPES from "../utils";
 
@@ -68,11 +68,11 @@ function NotificationsCenterItem({ notification, isCurrent, dismiss }) {
             });
         }
     });
-    const isDisableable = !NOT_DISMISSABLE.includes(notification.severity);
+    const isDisableable = !NOT_DISMISSIBLE.includes(notification.severity);
     return (
         <div
             ref={notificationRef}
-            className={`card bg-light ${BORDER_TYPES[notification.severity]}`}
+            className={`card ${BORDER_TYPES[notification.severity]}`}
         >
             <div
                 className={
@@ -92,11 +92,10 @@ function NotificationsCenterItem({ notification, isCurrent, dismiss }) {
                 </p>
                 <button
                     type="button"
-                    className={`close ${!isDisableable ? "invisible" : ""}`}
+                    className={`btn-close ${!isDisableable ? "invisible" : ""}`.trim()}
                     onClick={dismiss}
-                >
-                    ×
-                </button>
+                    aria-label={_("Close")}
+                />
             </div>
 
             <div className="card-body">

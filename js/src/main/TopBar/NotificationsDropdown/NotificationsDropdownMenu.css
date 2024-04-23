@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 /* Remove spacing for fa-cog link in header */
@@ -25,9 +25,4 @@
 #notifications-footer .btn-link {
     font-weight: bold;
     padding: 0;
-}
-
-.no-notifications {
-    text-align: center;
-    margin-top: 0.5rem;
 }

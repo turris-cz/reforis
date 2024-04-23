@@ -33,13 +33,13 @@ export default function RebootDropdown({ notifications }) {
             <button
                 type="button"
                 id="reboot-dropdown-toggle"
-                className="nav-item btn btn-link"
+                className="nav-item btn btn-link text-body"
             >
                 <i className="fas fa-power-off fa-lg" />
             </button>
             <div
                 className={`dropdown-menu dropdown-menu-${
-                    window.outerWidth > smallScreenWidth ? "right" : "left"
+                    window.outerWidth > smallScreenWidth ? "start" : "end"
                 } shadow-sm`}
             >
                 <div className="dropdown-header">
@@ -59,7 +59,7 @@ export default function RebootDropdown({ notifications }) {
                             search: `?id=${rebootNotification.id}`,
                         }}
                     >
-                        <button type="button" className="btn btn-primary mr-3">
+                        <button type="button" className="btn btn-primary me-3">
                             {_("Details")}
                         </button>
                     </Link>

@@ -34,15 +34,16 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
         LAN Settings
       </h2>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="1"
         >
           LAN mode
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="1"
         >
           <option
@@ -56,16 +57,19 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             Computer
           </option>
         </select>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Router mode means that this device manages the LAN (acts as a router, can assign IP addresses, etc.).
-        </small>
+          <small>
+            Router mode means that this device manages the LAN (acts as a router, can assign IP addresses, etc.).
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="4"
         >
           Router IP address
@@ -81,16 +85,19 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             value="192.168.1.4"
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Router's IP address in the inner network.
-        </small>
+          <small>
+            Router's IP address in the inner network.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="5"
         >
           Network mask
@@ -108,33 +115,33 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch"
+        <input
+          class="form-check-input"
+          id="6"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="6"
         >
-          <input
-            class="custom-control-input"
-            id="6"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="6"
-          >
-            Enable DHCP
-          </label>
-          <small
-            class="form-text text-muted mt-0 mb-3"
-          >
+          Enable DHCP
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
             Enable this option to automatically assign IP addresses to the devices connected to the router.
           </small>
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="7"
         >
           DHCP start
@@ -152,9 +159,10 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="8"
         >
           DHCP max leases
@@ -170,39 +178,38 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             type="number"
             value="150"
           />
-          <div
-            class="input-group-append"
+          <button
+            aria-label="Increase"
+            class="btn btn-outline-secondary"
+            type="button"
           >
-            <button
-              aria-label="Increase"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-plus"
-              />
-            </button>
-            <button
-              aria-label="Decrease"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-minus"
-              />
-            </button>
-          </div>
+            <i
+              class="fas fa-plus"
+            />
+          </button>
+          <button
+            aria-label="Decrease"
+            class="btn btn-outline-secondary"
+            type="button"
+          >
+            <i
+              class="fas fa-minus"
+            />
+          </button>
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Maximum number of addresses available for DHCP clients.
-        </small>
+          <small>
+            Maximum number of addresses available for DHCP clients.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="9"
         >
           Lease time (hours)
@@ -218,35 +225,31 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             type="number"
             value="43200"
           />
-          <div
-            class="input-group-append"
+          <button
+            aria-label="Increase"
+            class="btn btn-outline-secondary"
+            type="button"
           >
-            <button
-              aria-label="Increase"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-plus"
-              />
-            </button>
-            <button
-              aria-label="Decrease"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-minus"
-              />
-            </button>
-          </div>
+            <i
+              class="fas fa-plus"
+            />
+          </button>
+          <button
+            aria-label="Decrease"
+            class="btn btn-outline-secondary"
+            type="button"
+          >
+            <i
+              class="fas fa-minus"
+            />
+          </button>
         </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -352,10 +355,10 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
         </table>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-outline-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-outline-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="button"
         >
           <span>
@@ -462,15 +465,16 @@ exports[`<LAN/> Snapshot managed. 1`] = `
         LAN Settings
       </h2>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="1"
         >
           LAN mode
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="1"
         >
           <option
@@ -484,16 +488,19 @@ exports[`<LAN/> Snapshot managed. 1`] = `
             Computer
           </option>
         </select>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Router mode means that this device manages the LAN (acts as a router, can assign IP addresses, etc.).
-        </small>
+          <small>
+            Router mode means that this device manages the LAN (acts as a router, can assign IP addresses, etc.).
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="4"
         >
           Router IP address
@@ -509,16 +516,19 @@ exports[`<LAN/> Snapshot managed. 1`] = `
             value="192.168.1.4"
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Router's IP address in the inner network.
-        </small>
+          <small>
+            Router's IP address in the inner network.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="5"
         >
           Network mask
@@ -536,34 +546,33 @@ exports[`<LAN/> Snapshot managed. 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch"
+        <input
+          class="form-check-input"
+          id="6"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="6"
         >
-          <input
-            class="custom-control-input"
-            id="6"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="6"
-          >
-            Enable DHCP
-          </label>
-          <small
-            class="form-text text-muted mt-0 mb-3"
-          >
+          Enable DHCP
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
             Enable this option to automatically assign IP addresses to the devices connected to the router.
           </small>
         </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -613,15 +622,16 @@ exports[`<LAN/> Snapshot unmanaged (dhcp). 1`] = `
         LAN Settings
       </h2>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="1"
         >
           LAN mode
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="1"
         >
           <option
@@ -635,22 +645,25 @@ exports[`<LAN/> Snapshot unmanaged (dhcp). 1`] = `
             Computer
           </option>
         </select>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Computer mode means that this device acts as a client in this network. It acts similarly to WAN, but it has opened ports for configuration interfaces and other services.
-        </small>
+          <small>
+            Computer mode means that this device acts as a client in this network. It acts similarly to WAN, but it has opened ports for configuration interfaces and other services.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="2"
         >
           IPv4 protocol
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="2"
         >
           <option
@@ -671,9 +684,10 @@ exports[`<LAN/> Snapshot unmanaged (dhcp). 1`] = `
         </select>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="3"
         >
           DHCP hostname
@@ -688,17 +702,19 @@ exports[`<LAN/> Snapshot unmanaged (dhcp). 1`] = `
             value=""
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Hostname which will be provided to DHCP server.
-        </small>
+          <small>
+            Hostname which will be provided to DHCP server.
+          </small>
+        </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -748,15 +764,16 @@ exports[`<LAN/> Snapshot unmanaged none. 1`] = `
         LAN Settings
       </h2>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="1"
         >
           LAN mode
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="1"
         >
           <option
@@ -770,22 +787,25 @@ exports[`<LAN/> Snapshot unmanaged none. 1`] = `
             Computer
           </option>
         </select>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Computer mode means that this device acts as a client in this network. It acts similarly to WAN, but it has opened ports for configuration interfaces and other services.
-        </small>
+          <small>
+            Computer mode means that this device acts as a client in this network. It acts similarly to WAN, but it has opened ports for configuration interfaces and other services.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="2"
         >
           IPv4 protocol
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="2"
         >
           <option
@@ -806,10 +826,10 @@ exports[`<LAN/> Snapshot unmanaged none. 1`] = `
         </select>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -859,15 +879,16 @@ exports[`<LAN/> Snapshot unmanaged static. 1`] = `
         LAN Settings
       </h2>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="1"
         >
           LAN mode
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="1"
         >
           <option
@@ -881,22 +902,25 @@ exports[`<LAN/> Snapshot unmanaged static. 1`] = `
             Computer
           </option>
         </select>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Computer mode means that this device acts as a client in this network. It acts similarly to WAN, but it has opened ports for configuration interfaces and other services.
-        </small>
+          <small>
+            Computer mode means that this device acts as a client in this network. It acts similarly to WAN, but it has opened ports for configuration interfaces and other services.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="2"
         >
           IPv4 protocol
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="2"
         >
           <option
@@ -917,9 +941,10 @@ exports[`<LAN/> Snapshot unmanaged static. 1`] = `
         </select>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="4"
         >
           IP address
@@ -937,9 +962,10 @@ exports[`<LAN/> Snapshot unmanaged static. 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="5"
         >
           Network mask
@@ -957,9 +983,10 @@ exports[`<LAN/> Snapshot unmanaged static. 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="6"
         >
           Gateway
@@ -977,9 +1004,10 @@ exports[`<LAN/> Snapshot unmanaged static. 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="7"
         >
           DNS server 1
@@ -994,16 +1022,19 @@ exports[`<LAN/> Snapshot unmanaged static. 1`] = `
             value=""
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          DNS server address is not required as the built-in DNS resolver is capable of working without it.
-        </small>
+          <small>
+            DNS server address is not required as the built-in DNS resolver is capable of working without it.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="8"
         >
           DNS server 2
@@ -1018,17 +1049,19 @@ exports[`<LAN/> Snapshot unmanaged static. 1`] = `
             value=""
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          DNS server address is not required as the built-in DNS resolver is capable of working without it.
-        </small>
+          <small>
+            DNS server address is not required as the built-in DNS resolver is capable of working without it.
+          </small>
+        </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -1078,29 +1111,26 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
         LAN Settings
       </h2>
       <div
-        class="form-group"
+        class="mb-3 form-check"
       >
-        <div
-          class="custom-control custom-checkbox "
+        <input
+          checked=""
+          class="form-check-input"
+          id="1"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="1"
         >
-          <input
-            checked=""
-            class="custom-control-input"
-            id="1"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="1"
-          >
-            Redirect to 192.168.1.1
-          </label>
-        </div>
+          Redirect to 192.168.1.1
+        </label>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="2"
         >
           Router IP address
@@ -1116,16 +1146,19 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
             value="192.168.1.4"
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Router's IP address in the inner network.
-        </small>
+          <small>
+            Router's IP address in the inner network.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="3"
         >
           Network mask
@@ -1143,33 +1176,33 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch"
+        <input
+          class="form-check-input"
+          id="4"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="4"
         >
-          <input
-            class="custom-control-input"
-            id="4"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="4"
-          >
-            Enable DHCP
-          </label>
-          <small
-            class="form-text text-muted mt-0 mb-3"
-          >
+          Enable DHCP
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
             Enable this option to automatically assign IP addresses to the devices connected to the router.
           </small>
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="5"
         >
           DHCP start
@@ -1187,9 +1220,10 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="6"
         >
           DHCP max leases
@@ -1205,39 +1239,38 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
             type="number"
             value="150"
           />
-          <div
-            class="input-group-append"
+          <button
+            aria-label="Increase"
+            class="btn btn-outline-secondary"
+            type="button"
           >
-            <button
-              aria-label="Increase"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-plus"
-              />
-            </button>
-            <button
-              aria-label="Decrease"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-minus"
-              />
-            </button>
-          </div>
+            <i
+              class="fas fa-plus"
+            />
+          </button>
+          <button
+            aria-label="Decrease"
+            class="btn btn-outline-secondary"
+            type="button"
+          >
+            <i
+              class="fas fa-minus"
+            />
+          </button>
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Maximum number of addresses available for DHCP clients.
-        </small>
+          <small>
+            Maximum number of addresses available for DHCP clients.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="7"
         >
           Lease time (hours)
@@ -1253,35 +1286,31 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
             type="number"
             value="43200"
           />
-          <div
-            class="input-group-append"
+          <button
+            aria-label="Increase"
+            class="btn btn-outline-secondary"
+            type="button"
           >
-            <button
-              aria-label="Increase"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-plus"
-              />
-            </button>
-            <button
-              aria-label="Decrease"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-minus"
-              />
-            </button>
-          </div>
+            <i
+              class="fas fa-plus"
+            />
+          </button>
+          <button
+            aria-label="Decrease"
+            class="btn btn-outline-secondary"
+            type="button"
+          >
+            <i
+              class="fas fa-minus"
+            />
+          </button>
         </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -1387,10 +1416,10 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
         </table>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-outline-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-outline-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="button"
         >
           <span>
@@ -1452,29 +1481,26 @@ exports[`Customized <LAN/> Snapshot managed. 1`] = `
         LAN Settings
       </h2>
       <div
-        class="form-group"
+        class="mb-3 form-check"
       >
-        <div
-          class="custom-control custom-checkbox "
+        <input
+          checked=""
+          class="form-check-input"
+          id="1"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="1"
         >
-          <input
-            checked=""
-            class="custom-control-input"
-            id="1"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="1"
-          >
-            Redirect to 192.168.1.1
-          </label>
-        </div>
+          Redirect to 192.168.1.1
+        </label>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="2"
         >
           Router IP address
@@ -1490,16 +1516,19 @@ exports[`Customized <LAN/> Snapshot managed. 1`] = `
             value="192.168.1.4"
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Router's IP address in the inner network.
-        </small>
+          <small>
+            Router's IP address in the inner network.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="3"
         >
           Network mask
@@ -1517,34 +1546,33 @@ exports[`Customized <LAN/> Snapshot managed. 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch"
+        <input
+          class="form-check-input"
+          id="4"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="4"
         >
-          <input
-            class="custom-control-input"
-            id="4"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="4"
-          >
-            Enable DHCP
-          </label>
-          <small
-            class="form-text text-muted mt-0 mb-3"
-          >
+          Enable DHCP
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
             Enable this option to automatically assign IP addresses to the devices connected to the router.
           </small>
         </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>

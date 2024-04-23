@@ -20,7 +20,7 @@ export default function FactoryReset() {
                     "Doing a factory reset on the Turris device will remove all the packages installed on the device along with the data associated with them. This brings back all the default settings of the device as it was when the router was new, giving you a clean slate to start all over again."
                 )}
             </p>
-            <div className="text-right">
+            <div className="text-end">
                 <FactoryResetButton forisFormSize />
             </div>
         </div>

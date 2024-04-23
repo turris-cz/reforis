@@ -32,7 +32,7 @@ export default function UpdateChecker({
     const refreshUpdates = useCheckUpdates(setPending);
 
     return (
-        <div className="text-right">
+        <div className="text-end">
             <Button
                 forisFormSize
                 onClick={refreshUpdates}

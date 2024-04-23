@@ -12,7 +12,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
     >
       <form>
 +       <div
-+         class=\\"alert  alert-warning\\"
++         class=\\"alert alert-warning\\"
 +       >
 +         <span>
 +           Please enable 
@@ -32,150 +32,150 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
           </h2>
           <div
             class=\\"container-fluid mb-3\\"
-@@ -28,10 +44,11 @@
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      checked=\\"\\"
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"1\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -51,10 +68,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"2\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -74,10 +92,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"3\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -97,10 +116,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"4\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -120,10 +140,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"5\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -143,10 +164,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"6\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -166,10 +188,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"7\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -189,10 +212,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"8\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -212,10 +236,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"9\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -235,10 +260,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"10\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -258,10 +284,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"11\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -272,15 +299,17 @@
-                  </div>
+@@ -25,10 +41,11 @@
+                  class=\\"mb-3 form-check\\"
+                >
+                  <input
+                    checked=\\"\\"
+                    class=\\"form-check-input\\"
++                   disabled=\\"\\"
+                    id=\\"1\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -44,10 +61,11 @@
+                <div
+                  class=\\"mb-3 form-check\\"
+                >
+                  <input
+                    class=\\"form-check-input\\"
++                   disabled=\\"\\"
+                    id=\\"2\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -63,10 +81,11 @@
+                <div
+                  class=\\"mb-3 form-check\\"
+                >
+                  <input
+                    class=\\"form-check-input\\"
++                   disabled=\\"\\"
+                    id=\\"3\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -82,10 +101,11 @@
+                <div
+                  class=\\"mb-3 form-check\\"
+                >
+                  <input
+                    class=\\"form-check-input\\"
++                   disabled=\\"\\"
+                    id=\\"4\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -101,10 +121,11 @@
+                <div
+                  class=\\"mb-3 form-check\\"
+                >
+                  <input
+                    class=\\"form-check-input\\"
++                   disabled=\\"\\"
+                    id=\\"5\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -120,10 +141,11 @@
+                <div
+                  class=\\"mb-3 form-check\\"
+                >
+                  <input
+                    class=\\"form-check-input\\"
++                   disabled=\\"\\"
+                    id=\\"6\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -139,10 +161,11 @@
+                <div
+                  class=\\"mb-3 form-check\\"
+                >
+                  <input
+                    class=\\"form-check-input\\"
++                   disabled=\\"\\"
+                    id=\\"7\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -158,10 +181,11 @@
+                <div
+                  class=\\"mb-3 form-check\\"
+                >
+                  <input
+                    class=\\"form-check-input\\"
++                   disabled=\\"\\"
+                    id=\\"8\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -177,10 +201,11 @@
+                <div
+                  class=\\"mb-3 form-check\\"
+                >
+                  <input
+                    class=\\"form-check-input\\"
++                   disabled=\\"\\"
+                    id=\\"9\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -196,10 +221,11 @@
+                <div
+                  class=\\"mb-3 form-check\\"
+                >
+                  <input
+                    class=\\"form-check-input\\"
++                   disabled=\\"\\"
+                    id=\\"10\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -215,10 +241,11 @@
+                <div
+                  class=\\"mb-3 form-check\\"
+                >
+                  <input
+                    class=\\"form-check-input\\"
++                   disabled=\\"\\"
+                    id=\\"11\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -228,15 +255,17 @@
+                  </label>
                 </div>
               </div>
             </div>
           </div>
 +       </div>
         <div
-          class=\\"text-right\\"
+          class=\\"text-end\\"
         >
           <button
-            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
+            class=\\"btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           disabled=\\"\\"
             type=\\"submit\\"
           >
@@ -206,266 +206,222 @@ exports[`<Packages/> Should render: updates enabled. 1`] = `
           class="row justify-content-start"
         >
           <div
-            class="col-2 col-lg-1 mr-4"
+            class="col-2 col-lg-1 me-4"
           >
             <div
-              class="form-group"
+              class="mb-3 form-check"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                checked=""
+                class="form-check-input"
+                id="1"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="1"
               >
-                <input
-                  checked=""
-                  class="custom-control-input"
-                  id="1"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="1"
-                >
-                  CS
-                </label>
-              </div>
+                CS
+              </label>
             </div>
           </div>
           <div
-            class="col-2 col-lg-1 mr-4"
+            class="col-2 col-lg-1 me-4"
           >
             <div
-              class="form-group"
+              class="mb-3 form-check"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input"
+                id="2"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="2"
               >
-                <input
-                  class="custom-control-input"
-                  id="2"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="2"
-                >
-                  DA
-                </label>
-              </div>
+                DA
+              </label>
             </div>
           </div>
           <div
-            class="col-2 col-lg-1 mr-4"
+            class="col-2 col-lg-1 me-4"
           >
             <div
-              class="form-group"
+              class="mb-3 form-check"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input"
+                id="3"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="3"
               >
-                <input
-                  class="custom-control-input"
-                  id="3"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="3"
-                >
-                  DE
-                </label>
-              </div>
+                DE
+              </label>
             </div>
           </div>
           <div
-            class="col-2 col-lg-1 mr-4"
+            class="col-2 col-lg-1 me-4"
           >
             <div
-              class="form-group"
+              class="mb-3 form-check"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input"
+                id="4"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="4"
               >
-                <input
-                  class="custom-control-input"
-                  id="4"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="4"
-                >
-                  FR
-                </label>
-              </div>
+                FR
+              </label>
             </div>
           </div>
           <div
-            class="col-2 col-lg-1 mr-4"
+            class="col-2 col-lg-1 me-4"
           >
             <div
-              class="form-group"
+              class="mb-3 form-check"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input"
+                id="5"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="5"
               >
-                <input
-                  class="custom-control-input"
-                  id="5"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="5"
-                >
-                  LT
-                </label>
-              </div>
+                LT
+              </label>
             </div>
           </div>
           <div
-            class="col-2 col-lg-1 mr-4"
+            class="col-2 col-lg-1 me-4"
           >
             <div
-              class="form-group"
+              class="mb-3 form-check"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input"
+                id="6"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="6"
               >
-                <input
-                  class="custom-control-input"
-                  id="6"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="6"
-                >
-                  PL
-                </label>
-              </div>
+                PL
+              </label>
             </div>
           </div>
           <div
-            class="col-2 col-lg-1 mr-4"
+            class="col-2 col-lg-1 me-4"
           >
             <div
-              class="form-group"
+              class="mb-3 form-check"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input"
+                id="7"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="7"
               >
-                <input
-                  class="custom-control-input"
-                  id="7"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="7"
-                >
-                  RU
-                </label>
-              </div>
+                RU
+              </label>
             </div>
           </div>
           <div
-            class="col-2 col-lg-1 mr-4"
+            class="col-2 col-lg-1 me-4"
           >
             <div
-              class="form-group"
+              class="mb-3 form-check"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input"
+                id="8"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="8"
               >
-                <input
-                  class="custom-control-input"
-                  id="8"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="8"
-                >
-                  SK
-                </label>
-              </div>
+                SK
+              </label>
             </div>
           </div>
           <div
-            class="col-2 col-lg-1 mr-4"
+            class="col-2 col-lg-1 me-4"
           >
             <div
-              class="form-group"
+              class="mb-3 form-check"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input"
+                id="9"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="9"
               >
-                <input
-                  class="custom-control-input"
-                  id="9"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="9"
-                >
-                  HU
-                </label>
-              </div>
+                HU
+              </label>
             </div>
           </div>
           <div
-            class="col-2 col-lg-1 mr-4"
+            class="col-2 col-lg-1 me-4"
           >
             <div
-              class="form-group"
+              class="mb-3 form-check"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input"
+                id="10"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="10"
               >
-                <input
-                  class="custom-control-input"
-                  id="10"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="10"
-                >
-                  IT
-                </label>
-              </div>
+                IT
+              </label>
             </div>
           </div>
           <div
-            class="col-2 col-lg-1 mr-4"
+            class="col-2 col-lg-1 me-4"
           >
             <div
-              class="form-group"
+              class="mb-3 form-check"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input"
+                id="11"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="11"
               >
-                <input
-                  class="custom-control-input"
-                  id="11"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="11"
-                >
-                  NB
-                </label>
-              </div>
+                NB
+              </label>
             </div>
           </div>
         </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>

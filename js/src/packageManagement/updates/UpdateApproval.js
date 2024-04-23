@@ -20,7 +20,6 @@ import {
 } from "foris";
 import moment from "moment";
 import PropTypes from "prop-types";
-import ReactTooltip from "react-tooltip";
 
 import API_URLs from "common/API";
 
@@ -67,7 +66,7 @@ export default function UpdateApproval({ update, onSuccess, delay }) {
             update.plan.length
         );
     const details = _(
-        'See <a data-toggle="collapse" href="#plan-wrapper" role="button" aria-expanded="false" aria-controls="plan-wrapper">details</a>'
+        'See <a data-bs-toggle="collapse" href="#plan-wrapper" role="button" aria-expanded="false" aria-controls="plan-wrapper">details</a>'
     );
     const delayedTime = moment(update.time).add(delay, "hour");
 
@@ -83,21 +82,12 @@ export default function UpdateApproval({ update, onSuccess, delay }) {
                         )}
                     </span>
                     <i
-                        className="fas fa-question-circle ml-1 help"
-                        data-for="delay-tooltip"
+                        className="fas fa-question-circle ms-1 help"
                         data-tip={_(
                             `If you don't want the updates to be installed at all, go to
                                     <a href="${ForisURLs.packageManagement.updateSettings}">Update Settings</a> 
                                     and choose the option <b>Update approval needed</b>.`
                         )}
-                        data-event="click focus"
-                        data-html
-                    />
-                    <ReactTooltip
-                        effect="solid"
-                        globalEventOff="click"
-                        clickable
-                        id="delay-tooltip"
                     />
                 </Alert>
             )}
@@ -119,7 +109,7 @@ export default function UpdateApproval({ update, onSuccess, delay }) {
             >
                 <Plan plan={update.plan} />
             </div>
-            <div className="text-right">
+            <div className="text-end">
                 <Button
                     className="btn-primary"
                     onClick={() => resolveUpdate("grant")}

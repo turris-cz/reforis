@@ -34,12 +34,12 @@ export default function ConnectionTestButton({ state, type, ...props }) {
     }
 
     return (
-        <div className={type !== "overview" ? "text-right" : null}>
+        <div className={type !== "overview" ? "text-end" : "d-grid"}>
             <Button
                 type="submit"
                 className={
                     type === "overview"
-                        ? "btn-outline-primary mw-100"
+                        ? "btn-outline-primary w-auto"
                         : "btn-primary"
                 }
                 loading={isRunning}

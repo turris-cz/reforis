@@ -35,7 +35,6 @@ describe("<UpdatesDropdown/>", () => {
     });
 
     it("No updates awaiting", async () => {
-        expect(getByTestId("updates-dropdown")).toBeTruthy();
         mockAxios.mockResponse({ data: { approvable: false } });
         await wait(() => expect(queryByTestId("updates-dropdown")).toBeFalsy());
     });

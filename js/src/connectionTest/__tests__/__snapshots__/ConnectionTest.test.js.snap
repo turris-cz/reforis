@@ -14,7 +14,7 @@ exports[`<ConnectionTest/> Snapshot after trigger DNS connection test. 1`] = `
             DNS
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <div
               class="spinner-border spinner-border-sm text-secondary"
@@ -33,7 +33,7 @@ exports[`<ConnectionTest/> Snapshot after trigger DNS connection test. 1`] = `
             DNSSEC
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <div
               class="spinner-border spinner-border-sm text-secondary"
@@ -48,16 +48,16 @@ exports[`<ConnectionTest/> Snapshot after trigger DNS connection test. 1`] = `
       </tbody>
     </table>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         disabled=""
         type="submit"
       >
         <span
           aria-hidden="true"
-          class="spinner-border spinner-border-sm mr-1"
+          class="spinner-border spinner-border-sm me-1"
           role="status"
         />
         <span>
@@ -83,7 +83,7 @@ exports[`<ConnectionTest/> Snapshot after trigger Overview connection test. 1`] 
             IPv4 connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <div
               class="spinner-border spinner-border-sm text-secondary"
@@ -102,7 +102,7 @@ exports[`<ConnectionTest/> Snapshot after trigger Overview connection test. 1`] 
             IPv4 gateway connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <div
               class="spinner-border spinner-border-sm text-secondary"
@@ -121,7 +121,7 @@ exports[`<ConnectionTest/> Snapshot after trigger Overview connection test. 1`] 
             IPv6 connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <div
               class="spinner-border spinner-border-sm text-secondary"
@@ -140,7 +140,7 @@ exports[`<ConnectionTest/> Snapshot after trigger Overview connection test. 1`] 
             IPv6 gateway connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <div
               class="spinner-border spinner-border-sm text-secondary"
@@ -159,7 +159,7 @@ exports[`<ConnectionTest/> Snapshot after trigger Overview connection test. 1`] 
             DNS
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <div
               class="spinner-border spinner-border-sm text-secondary"
@@ -178,7 +178,7 @@ exports[`<ConnectionTest/> Snapshot after trigger Overview connection test. 1`] 
             DNSSEC
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <div
               class="spinner-border spinner-border-sm text-secondary"
@@ -192,15 +192,17 @@ exports[`<ConnectionTest/> Snapshot after trigger Overview connection test. 1`] 
         </tr>
       </tbody>
     </table>
-    <div>
+    <div
+      class="d-grid"
+    >
       <button
-        class="btn btn-outline-primary mw-100 col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-outline-primary w-auto col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         disabled=""
         type="submit"
       >
         <span
           aria-hidden="true"
-          class="spinner-border spinner-border-sm mr-1"
+          class="spinner-border spinner-border-sm me-1"
           role="status"
         />
         <span>
@@ -226,7 +228,7 @@ exports[`<ConnectionTest/> Snapshot after trigger WAN connection test. 1`] = `
             IPv4 connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <div
               class="spinner-border spinner-border-sm text-secondary"
@@ -245,7 +247,7 @@ exports[`<ConnectionTest/> Snapshot after trigger WAN connection test. 1`] = `
             IPv4 gateway connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <div
               class="spinner-border spinner-border-sm text-secondary"
@@ -264,7 +266,7 @@ exports[`<ConnectionTest/> Snapshot after trigger WAN connection test. 1`] = `
             IPv6 connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <div
               class="spinner-border spinner-border-sm text-secondary"
@@ -283,7 +285,7 @@ exports[`<ConnectionTest/> Snapshot after trigger WAN connection test. 1`] = `
             IPv6 gateway connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <div
               class="spinner-border spinner-border-sm text-secondary"
@@ -298,16 +300,16 @@ exports[`<ConnectionTest/> Snapshot after trigger WAN connection test. 1`] = `
       </tbody>
     </table>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         disabled=""
         type="submit"
       >
         <span
           aria-hidden="true"
-          class="spinner-border spinner-border-sm mr-1"
+          class="spinner-border spinner-border-sm me-1"
           role="status"
         />
         <span>
@@ -333,7 +335,7 @@ exports[`<ConnectionTest/> Snapshot before connection test. 1`] = `
             IPv4 connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-secondary"
@@ -352,7 +354,7 @@ exports[`<ConnectionTest/> Snapshot before connection test. 1`] = `
             IPv4 gateway connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-secondary"
@@ -371,7 +373,7 @@ exports[`<ConnectionTest/> Snapshot before connection test. 1`] = `
             IPv6 connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-secondary"
@@ -390,7 +392,7 @@ exports[`<ConnectionTest/> Snapshot before connection test. 1`] = `
             IPv6 gateway connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-secondary"
@@ -405,10 +407,10 @@ exports[`<ConnectionTest/> Snapshot before connection test. 1`] = `
       </tbody>
     </table>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="submit"
       >
         <span>
@@ -434,7 +436,7 @@ exports[`<ConnectionTest/> Snapshots with failed connection test results. 1`] = 
             IPv4 connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-danger"
@@ -453,7 +455,7 @@ exports[`<ConnectionTest/> Snapshots with failed connection test results. 1`] = 
             IPv4 gateway connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-danger"
@@ -472,7 +474,7 @@ exports[`<ConnectionTest/> Snapshots with failed connection test results. 1`] = 
             IPv6 connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-danger"
@@ -491,7 +493,7 @@ exports[`<ConnectionTest/> Snapshots with failed connection test results. 1`] = 
             IPv6 gateway connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-danger"
@@ -506,10 +508,10 @@ exports[`<ConnectionTest/> Snapshots with failed connection test results. 1`] = 
       </tbody>
     </table>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="submit"
       >
         <span>
@@ -535,7 +537,7 @@ exports[`<ConnectionTest/> Snapshots with successful connection test results. 1`
             IPv4 connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-success"
@@ -554,7 +556,7 @@ exports[`<ConnectionTest/> Snapshots with successful connection test results. 1`
             IPv4 gateway connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-success"
@@ -573,7 +575,7 @@ exports[`<ConnectionTest/> Snapshots with successful connection test results. 1`
             IPv6 connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-success"
@@ -592,7 +594,7 @@ exports[`<ConnectionTest/> Snapshots with successful connection test results. 1`
             IPv6 gateway connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-success"
@@ -607,10 +609,10 @@ exports[`<ConnectionTest/> Snapshots with successful connection test results. 1`
       </tbody>
     </table>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="submit"
       >
         <span>
@@ -636,7 +638,7 @@ exports[`<ConnectionTest/> Snapshots with unknown connection test results. 1`] =
             IPv4 connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-warning"
@@ -655,7 +657,7 @@ exports[`<ConnectionTest/> Snapshots with unknown connection test results. 1`] =
             IPv4 gateway connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-warning"
@@ -674,7 +676,7 @@ exports[`<ConnectionTest/> Snapshots with unknown connection test results. 1`] =
             IPv6 connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-warning"
@@ -693,7 +695,7 @@ exports[`<ConnectionTest/> Snapshots with unknown connection test results. 1`] =
             IPv6 gateway connectivity
           </th>
           <td
-            class="text-right"
+            class="text-end"
           >
             <span
               class="text-warning"
@@ -708,10 +710,10 @@ exports[`<ConnectionTest/> Snapshots with unknown connection test results. 1`] =
       </tbody>
     </table>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="submit"
       >
         <span>

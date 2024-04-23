@@ -4,12 +4,12 @@ exports[`<NotificationsCenter/> Test with snapshot. 1`] = `
 <h2>
   Notifications
   <button
-    class="btn btn-outline-danger float-right"
+    class="btn btn-outline-danger float-end"
     id="btn-dismiss-all"
     type="button"
   >
     <i
-      class="fas fa-trash mr-1"
+      class="fas fa-trash me-1"
     />
     Dismiss all
   </button>

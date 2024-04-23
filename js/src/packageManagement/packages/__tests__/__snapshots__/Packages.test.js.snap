@@ -12,7 +12,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
     >
       <form>
 +       <div
-+         class=\\"alert  alert-warning\\"
++         class=\\"alert alert-warning\\"
 +       >
 +         <span>
 +           Please enable 
@@ -32,200 +32,197 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
           </h2>
           <div
             class=\\"container-fluid\\"
-@@ -28,10 +44,11 @@
-                    class=\\"custom-control custom-checkbox \\"
+@@ -25,10 +41,11 @@
+                  class=\\"mb-3\\"
+                >
+                  <input
+                    checked=\\"\\"
+                    class=\\"form-check-input me-2\\"
++                   disabled=\\"\\"
+                    id=\\"1\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -51,10 +68,11 @@
+                <div
+                  class=\\"mb-3\\"
+                >
+                  <input
+                    class=\\"form-check-input me-2\\"
++                   disabled=\\"\\"
+                    id=\\"2\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -77,10 +95,11 @@
+                <div
+                  class=\\"mb-3\\"
+                >
+                  <input
+                    class=\\"form-check-input me-2\\"
++                   disabled=\\"\\"
+                    id=\\"3\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -103,10 +122,11 @@
+                <div
+                  class=\\"mb-3\\"
+                >
+                  <input
+                    class=\\"form-check-input me-2\\"
++                   disabled=\\"\\"
+                    id=\\"4\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -129,10 +149,11 @@
+                <div
+                  class=\\"mb-3\\"
+                >
+                  <input
+                    class=\\"form-check-input me-2\\"
++                   disabled=\\"\\"
+                    id=\\"5\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -155,10 +176,11 @@
+                <div
+                  class=\\"mb-3\\"
+                >
+                  <input
+                    class=\\"form-check-input me-2\\"
++                   disabled=\\"\\"
+                    id=\\"6\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -181,30 +203,31 @@
+                <div
+                  class=\\"mb-3\\"
+                >
+                  <input
+                    class=\\"form-check-input me-2\\"
++                   disabled=\\"\\"
+                    id=\\"7\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+                    for=\\"7\\"
                   >
-                    <input
-                      checked=\\"\\"
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"1\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -56,10 +73,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"2\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -84,10 +102,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"3\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -112,10 +131,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"4\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -140,10 +160,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"5\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -168,10 +189,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"6\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -196,33 +218,34 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"7\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-                      for=\\"7\\"
-                    >
-                      LXC utilities
-                    </label>
+                    LXC utilities
                     <span
--                   class=\\"badge badge-primary\\"
-+                     class=\\"badge badge-primary badge-disabled\\"
-                      title=\\"Using external storage is highly suggested for this package list usage. Software it contains can wear out flash storages as it performs increased amount of writes.\\"
+-                   class=\\"badge text-bg-primary\\"
++                     class=\\"badge text-bg-primary badge-disabled\\"
                     >
                       External storage
                     </span>
                     <span
--                   class=\\"badge badge-info\\"
-+                     class=\\"badge badge-info badge-disabled\\"
-                      title=\\"Software in this package list consumes possibly higher amount of RAM to run. It is not suggested to use it with small memory.\\"
+-                   class=\\"badge text-bg-info\\"
++                     class=\\"badge text-bg-info badge-disabled\\"
                     >
                       High memory usage
                     </span>
                     <span
--                   class=\\"badge badge-secondary\\"
-+                     class=\\"badge badge-secondary badge-disabled\\"
-                      title=\\"This functionality is usable only for advanced users.\\"
+-                   class=\\"badge text-bg-secondary\\"
++                     class=\\"badge text-bg-secondary badge-disabled\\"
                     >
                       Advanced users
                     </span>
-                    <small
-@@ -242,10 +265,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"8\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -407,10 +431,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"14\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -435,10 +460,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"15\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -463,10 +489,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"16\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -491,10 +518,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"17\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -519,10 +547,11 @@
-                  <div
-                    class=\\"custom-control custom-checkbox \\"
-                  >
-                    <input
-                      class=\\"custom-control-input\\"
-+                     disabled=\\"\\"
-                      id=\\"18\\"
-                      type=\\"checkbox\\"
-                    />
-                    <label
-                      class=\\"custom-control-label\\"
-@@ -538,15 +567,17 @@
-                  </div>
+                    <div
+                      class=\\"form-text\\"
+@@ -222,10 +245,11 @@
+                <div
+                  class=\\"mb-3\\"
+                >
+                  <input
+                    class=\\"form-check-input me-2\\"
++                   disabled=\\"\\"
+                    id=\\"8\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -374,10 +398,11 @@
+                <div
+                  class=\\"mb-3\\"
+                >
+                  <input
+                    class=\\"form-check-input me-2\\"
++                   disabled=\\"\\"
+                    id=\\"14\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -400,10 +425,11 @@
+                <div
+                  class=\\"mb-3\\"
+                >
+                  <input
+                    class=\\"form-check-input me-2\\"
++                   disabled=\\"\\"
+                    id=\\"15\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -426,10 +452,11 @@
+                <div
+                  class=\\"mb-3\\"
+                >
+                  <input
+                    class=\\"form-check-input me-2\\"
++                   disabled=\\"\\"
+                    id=\\"16\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -452,10 +479,11 @@
+                <div
+                  class=\\"mb-3\\"
+                >
+                  <input
+                    class=\\"form-check-input me-2\\"
++                   disabled=\\"\\"
+                    id=\\"17\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -478,10 +506,11 @@
+                <div
+                  class=\\"mb-3\\"
+                >
+                  <input
+                    class=\\"form-check-input me-2\\"
++                   disabled=\\"\\"
+                    id=\\"18\\"
+                    type=\\"checkbox\\"
+                  />
+                  <label
+                    class=\\"form-check-label\\"
+@@ -498,15 +527,17 @@
+                  </label>
                 </div>
               </div>
             </div>
           </div>
 +       </div>
         <div
-          class=\\"text-right\\"
+          class=\\"text-end\\"
         >
           <button
-            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
+            class=\\"btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           disabled=\\"\\"
             type=\\"submit\\"
           >
@@ -259,529 +256,489 @@ exports[`<Packages/> Should render: updates enabled. 1`] = `
             class="package"
           >
             <div
-              class="form-group"
+              class="mb-3"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                checked=""
+                class="form-check-input me-2"
+                id="1"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="1"
               >
-                <input
-                  checked=""
-                  class="custom-control-input"
-                  id="1"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="1"
+                Enabled package title
+                <div
+                  class="form-text"
                 >
-                  Enabled package title
-                </label>
-                <small
-                  class="form-text text-muted"
-                >
-                  Enabled package description
-                </small>
-              </div>
+                  <small>
+                    Enabled package description
+                  </small>
+                </div>
+              </label>
             </div>
           </div>
           <div
             class="package"
           >
             <div
-              class="form-group"
+              class="mb-3"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input me-2"
+                id="2"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="2"
               >
-                <input
-                  class="custom-control-input"
-                  id="2"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="2"
+                Extensions of network protocols for 3G/LTE
+                <div
+                  class="form-text"
                 >
-                  Extensions of network protocols for 3G/LTE
-                </label>
-                <small
-                  class="form-text text-muted"
-                >
-                  Support for additional protocols and connection types.
-                </small>
-              </div>
+                  <small>
+                    Support for additional protocols and connection types.
+                  </small>
+                </div>
+              </label>
             </div>
           </div>
           <div
             class="package"
           >
             <div
-              class="form-group"
+              class="mb-3"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input me-2"
+                id="3"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="3"
               >
-                <input
-                  class="custom-control-input"
-                  id="3"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="3"
+                Device detection
+                <div
+                  class="form-text"
                 >
-                  Device detection
-                </label>
-                <small
-                  class="form-text text-muted"
-                >
-                  Software for detecting new devices on local network (EXPERIMENTAL).
-                </small>
-              </div>
+                  <small>
+                    Software for detecting new devices on local network (EXPERIMENTAL).
+                  </small>
+                </div>
+              </label>
             </div>
           </div>
           <div
             class="package"
           >
             <div
-              class="form-group"
+              class="mb-3"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input me-2"
+                id="4"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="4"
               >
-                <input
-                  class="custom-control-input"
-                  id="4"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="4"
+                DVB tuner
+                <div
+                  class="form-text"
                 >
-                  DVB tuner
-                </label>
-                <small
-                  class="form-text text-muted"
-                >
-                  Software for sharing television received by a DVB tuner on Turris. Does not include device drivers.
-                </small>
-              </div>
+                  <small>
+                    Software for sharing television received by a DVB tuner on Turris. Does not include device drivers.
+                  </small>
+                </div>
+              </label>
             </div>
           </div>
           <div
             class="package"
           >
             <div
-              class="form-group"
+              class="mb-3"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input me-2"
+                id="5"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="5"
               >
-                <input
-                  class="custom-control-input"
-                  id="5"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="5"
+                SSH Honeypot
+                <div
+                  class="form-text"
                 >
-                  SSH Honeypot
-                </label>
-                <small
-                  class="form-text text-muted"
-                >
-                  Trap for password-guessing robots on SSH.
-                </small>
-              </div>
+                  <small>
+                    Trap for password-guessing robots on SSH.
+                  </small>
+                </div>
+              </label>
             </div>
           </div>
           <div
             class="package"
           >
             <div
-              class="form-group"
+              class="mb-3"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input me-2"
+                id="6"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="6"
               >
-                <input
-                  class="custom-control-input"
-                  id="6"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="6"
+                LuCI extensions
+                <div
+                  class="form-text"
                 >
-                  LuCI extensions
-                </label>
-                <small
-                  class="form-text text-muted"
-                >
-                  Several addional tabs and controls for the advanced LuCI interface.
-                </small>
-              </div>
+                  <small>
+                    Several addional tabs and controls for the advanced LuCI interface.
+                  </small>
+                </div>
+              </label>
             </div>
           </div>
           <div
             class="package"
           >
             <div
-              class="form-group"
+              class="mb-3"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input me-2"
+                id="7"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="7"
               >
-                <input
-                  class="custom-control-input"
-                  id="7"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="7"
-                >
-                  LXC utilities
-                </label>
+                LXC utilities
                 <span
-                  class="badge badge-primary"
-                  title="Using external storage is highly suggested for this package list usage. Software it contains can wear out flash storages as it performs increased amount of writes."
+                  class="badge text-bg-primary"
                 >
                   External storage
                 </span>
                 <span
-                  class="badge badge-info"
-                  title="Software in this package list consumes possibly higher amount of RAM to run. It is not suggested to use it with small memory."
+                  class="badge text-bg-info"
                 >
                   High memory usage
                 </span>
                 <span
-                  class="badge badge-secondary"
-                  title="This functionality is usable only for advanced users."
+                  class="badge text-bg-secondary"
                 >
                   Advanced users
                 </span>
-                <small
-                  class="form-text text-muted"
+                <div
+                  class="form-text"
                 >
-                  Set of utilities to manage Linux Containers (lightweight virtualization technology).
-                </small>
-              </div>
+                  <small>
+                    Set of utilities to manage Linux Containers (lightweight virtualization technology).
+                  </small>
+                </div>
+              </label>
             </div>
           </div>
           <div
             class="package"
           >
             <div
-              class="form-group"
+              class="mb-3"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input me-2"
+                id="8"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="8"
               >
-                <input
-                  class="custom-control-input"
-                  id="8"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="8"
+                NAS
+                <div
+                  class="form-text"
                 >
-                  NAS
-                </label>
-                <small
-                  class="form-text text-muted"
-                >
-                  Services allowing to connect a disk to the router and use it as network data store.
-                </small>
-              </div>
+                  <small>
+                    Services allowing to connect a disk to the router and use it as network data store.
+                  </small>
+                </div>
+              </label>
             </div>
             <div
               class="option"
             >
               <div
-                class="form-group"
+                class="mb-3"
               >
-                <div
-                  class="custom-control custom-checkbox "
+                <input
+                  checked=""
+                  class="form-check-input me-2"
+                  disabled=""
+                  id="9"
+                  type="checkbox"
+                />
+                <label
+                  class="form-check-label"
+                  for="9"
                 >
-                  <input
-                    checked=""
-                    class="custom-control-input"
-                    disabled=""
-                    id="9"
-                    type="checkbox"
-                  />
-                  <label
-                    class="custom-control-label"
-                    for="9"
+                  Samba
+                  <div
+                    class="form-text"
                   >
-                    Samba
-                  </label>
-                  <small
-                    class="form-text text-muted"
-                  >
-                    Implementation of SMB network protocol.
-                  </small>
-                </div>
+                    <small>
+                      Implementation of SMB network protocol.
+                    </small>
+                  </div>
+                </label>
               </div>
               <div
-                class="form-group"
+                class="mb-3"
               >
-                <div
-                  class="custom-control custom-checkbox "
+                <input
+                  class="form-check-input me-2"
+                  disabled=""
+                  id="10"
+                  type="checkbox"
+                />
+                <label
+                  class="form-check-label"
+                  for="10"
                 >
-                  <input
-                    class="custom-control-input"
-                    disabled=""
-                    id="10"
-                    type="checkbox"
-                  />
-                  <label
-                    class="custom-control-label"
-                    for="10"
+                  DLNA
+                  <div
+                    class="form-text"
                   >
-                    DLNA
-                  </label>
-                  <small
-                    class="form-text text-muted"
-                  >
-                    Digital media sharing server.
-                  </small>
-                </div>
+                    <small>
+                      Digital media sharing server.
+                    </small>
+                  </div>
+                </label>
               </div>
               <div
-                class="form-group"
+                class="mb-3"
               >
-                <div
-                  class="custom-control custom-checkbox "
+                <input
+                  checked=""
+                  class="form-check-input me-2"
+                  disabled=""
+                  id="11"
+                  type="checkbox"
+                />
+                <label
+                  class="form-check-label"
+                  for="11"
                 >
-                  <input
-                    checked=""
-                    class="custom-control-input"
-                    disabled=""
-                    id="11"
-                    type="checkbox"
-                  />
-                  <label
-                    class="custom-control-label"
-                    for="11"
+                  Transmission
+                  <div
+                    class="form-text"
                   >
-                    Transmission
-                  </label>
-                  <small
-                    class="form-text text-muted"
-                  >
-                    BitTorrent client.
-                  </small>
-                </div>
+                    <small>
+                      BitTorrent client.
+                    </small>
+                  </div>
+                </label>
               </div>
               <div
-                class="form-group"
+                class="mb-3"
               >
-                <div
-                  class="custom-control custom-checkbox "
+                <input
+                  class="form-check-input me-2"
+                  disabled=""
+                  id="12"
+                  type="checkbox"
+                />
+                <label
+                  class="form-check-label"
+                  for="12"
                 >
-                  <input
-                    class="custom-control-input"
-                    disabled=""
-                    id="12"
-                    type="checkbox"
-                  />
-                  <label
-                    class="custom-control-label"
-                    for="12"
-                  >
-                    mdadm RAID
-                  </label>
+                  mdadm RAID
                   <span
-                    class="badge badge-secondary badge-disabled"
-                    title="This functionality is usable only for advanced users."
+                    class="badge text-bg-secondary badge-disabled"
                   >
                     Advanced users
                   </span>
-                  <small
-                    class="form-text text-muted"
+                  <div
+                    class="form-text"
                   >
-                    Software RAID storage support using mdadm.
-                  </small>
-                </div>
+                    <small>
+                      Software RAID storage support using mdadm.
+                    </small>
+                  </div>
+                </label>
               </div>
               <div
-                class="form-group"
+                class="mb-3"
               >
+                <input
+                  class="form-check-input me-2"
+                  disabled=""
+                  id="13"
+                  type="checkbox"
+                />
+                <label
+                  class="form-check-label"
+                  for="13"
+                >
+                  Encrypted Storage
+                  <div
+                    class="form-text"
+                  >
+                    <small>
+                      Add support to access encrypted storage devices using dm-crypt.
+                    </small>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div
+            class="package"
+          >
+            <div
+              class="mb-3"
+            >
+              <input
+                class="form-check-input me-2"
+                id="14"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="14"
+              >
+                Internet connection speed measurement
                 <div
-                  class="custom-control custom-checkbox "
+                  class="form-text"
                 >
-                  <input
-                    class="custom-control-input"
-                    disabled=""
-                    id="13"
-                    type="checkbox"
-                  />
-                  <label
-                    class="custom-control-label"
-                    for="13"
-                  >
-                    Encrypted Storage
-                  </label>
-                  <small
-                    class="form-text text-muted"
-                  >
-                    Add support to access encrypted storage devices using dm-crypt.
+                  <small>
+                    Actively measures speed of Internet connection using netmetr.cz service.
                   </small>
                 </div>
-              </div>
+              </label>
             </div>
           </div>
           <div
             class="package"
           >
             <div
-              class="form-group"
+              class="mb-3"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input me-2"
+                id="15"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="15"
               >
-                <input
-                  class="custom-control-input"
-                  id="14"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="14"
+                OpenVPN
+                <div
+                  class="form-text"
                 >
-                  Internet connection speed measurement
-                </label>
-                <small
-                  class="form-text text-muted"
-                >
-                  Actively measures speed of Internet connection using netmetr.cz service.
-                </small>
-              </div>
+                  <small>
+                    An easy setup of OpenVPN server from Foris.
+                  </small>
+                </div>
+              </label>
             </div>
           </div>
           <div
             class="package"
           >
             <div
-              class="form-group"
+              class="mb-3"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input me-2"
+                id="16"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="16"
               >
-                <input
-                  class="custom-control-input"
-                  id="15"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="15"
+                Pakon
+                <div
+                  class="form-text"
                 >
-                  OpenVPN
-                </label>
-                <small
-                  class="form-text text-muted"
-                >
-                  An easy setup of OpenVPN server from Foris.
-                </small>
-              </div>
+                  <small>
+                    Software for in depth monitoring of your traffic.
+                  </small>
+                </div>
+              </label>
             </div>
           </div>
           <div
             class="package"
           >
             <div
-              class="form-group"
+              class="mb-3"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input me-2"
+                id="17"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="17"
               >
-                <input
-                  class="custom-control-input"
-                  id="16"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="16"
+                Print server
+                <div
+                  class="form-text"
                 >
-                  Pakon
-                </label>
-                <small
-                  class="form-text text-muted"
-                >
-                  Software for in depth monitoring of your traffic.
-                </small>
-              </div>
+                  <small>
+                    Services allowing to connect a printer to the router and use it for remote printing.
+                  </small>
+                </div>
+              </label>
             </div>
           </div>
           <div
             class="package"
           >
             <div
-              class="form-group"
+              class="mb-3"
             >
-              <div
-                class="custom-control custom-checkbox "
+              <input
+                class="form-check-input me-2"
+                id="18"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="18"
               >
-                <input
-                  class="custom-control-input"
-                  id="17"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="17"
+                Tor
+                <div
+                  class="form-text"
                 >
-                  Print server
-                </label>
-                <small
-                  class="form-text text-muted"
-                >
-                  Services allowing to connect a printer to the router and use it for remote printing.
-                </small>
-              </div>
-            </div>
-          </div>
-          <div
-            class="package"
-          >
-            <div
-              class="form-group"
-            >
-              <div
-                class="custom-control custom-checkbox "
-              >
-                <input
-                  class="custom-control-input"
-                  id="18"
-                  type="checkbox"
-                />
-                <label
-                  class="custom-control-label"
-                  for="18"
-                >
-                  Tor
-                </label>
-                <small
-                  class="form-text text-muted"
-                >
-                  Service to increase anonymity on the Internet.
-                </small>
-              </div>
+                  <small>
+                    Service to increase anonymity on the Internet.
+                  </small>
+                </div>
+              </label>
             </div>
           </div>
         </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>

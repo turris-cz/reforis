@@ -6,13 +6,13 @@ exports[`Overview Snapshot of the whole page 1`] = `
     Overview
   </h1>
   <div
-    class="row row-cols-1 row-cols-lg-3 mt-4"
+    class="row row-cols-1 row-cols-lg-3"
   >
     <div
       class="col mb-4"
     >
       <div
-        class="card user-select-none"
+        class="card"
       >
         <div
           class="card-body"
@@ -53,7 +53,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
       class="col mb-4"
     >
       <div
-        class="card user-select-none"
+        class="card"
       >
         <div
           class="card-body"
@@ -94,7 +94,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
       class="col mb-4"
     >
       <div
-        class="card user-select-none"
+        class="card"
       >
         <div
           class="card-body"
@@ -135,7 +135,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
       class="col mb-4"
     >
       <div
-        class="card h-100 user-select-none"
+        class="card h-100"
       >
         <div
           class="card-body"
@@ -177,7 +177,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
                       </span>
                     </th>
                     <td
-                      class="text-right"
+                      class="text-end"
                     >
                       930
                     </td>
@@ -195,7 +195,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
                       </span>
                     </th>
                     <td
-                      class="text-right"
+                      class="text-end"
                     >
                       <span>
                         930
@@ -215,7 +215,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
                       </span>
                     </th>
                     <td
-                      class="text-right"
+                      class="text-end"
                     >
                       <span>
                         N/A
@@ -229,7 +229,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
                       Link
                     </th>
                     <td
-                      class="text-right"
+                      class="text-end"
                     >
                       <a
                         href="https://www.netmetr.cz/en/detail.html?c7a6f82d-5128-47f3-a3f9-d7e9d9af64bd"
@@ -239,7 +239,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
                         Details
                         <sup>
                           <i
-                            class="fas fa-external-link-alt fa-sm ml-1"
+                            class="fas fa-external-link-alt fa-sm ms-1"
                           />
                         </sup>
                       </a>
@@ -267,7 +267,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
       class="col mb-4"
     >
       <div
-        class="card h-100 user-select-none"
+        class="card h-100"
       >
         <div
           class="card-body"
@@ -289,7 +289,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
                     IPv4 connectivity
                   </th>
                   <td
-                    class="text-right"
+                    class="text-end"
                   >
                     <span
                       class="text-secondary"
@@ -308,7 +308,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
                     IPv4 gateway connectivity
                   </th>
                   <td
-                    class="text-right"
+                    class="text-end"
                   >
                     <span
                       class="text-secondary"
@@ -327,7 +327,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
                     IPv6 connectivity
                   </th>
                   <td
-                    class="text-right"
+                    class="text-end"
                   >
                     <span
                       class="text-secondary"
@@ -346,7 +346,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
                     IPv6 gateway connectivity
                   </th>
                   <td
-                    class="text-right"
+                    class="text-end"
                   >
                     <span
                       class="text-secondary"
@@ -365,7 +365,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
                     DNS
                   </th>
                   <td
-                    class="text-right"
+                    class="text-end"
                   >
                     <span
                       class="text-secondary"
@@ -384,7 +384,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
                     DNSSEC
                   </th>
                   <td
-                    class="text-right"
+                    class="text-end"
                   >
                     <span
                       class="text-secondary"
@@ -398,9 +398,11 @@ exports[`Overview Snapshot of the whole page 1`] = `
                 </tr>
               </tbody>
             </table>
-            <div>
+            <div
+              class="d-grid"
+            >
               <button
-                class="btn btn-outline-primary mw-100 col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+                class="btn btn-outline-primary w-auto col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
                 type="submit"
               >
                 <span>
@@ -416,7 +418,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
       class="col mb-4"
     >
       <div
-        class="card h-100 user-select-none"
+        class="card h-100"
       >
         <div
           class="card-body"
@@ -452,7 +454,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
                       </span>
                     </th>
                     <td
-                      class="text-right"
+                      class="text-end"
                     >
                       <span
                         class="text-success"
@@ -474,12 +476,12 @@ exports[`Overview Snapshot of the whole page 1`] = `
   <h2>
     Notifications
     <button
-      class="btn btn-outline-danger float-right"
+      class="btn btn-outline-danger float-end"
       id="btn-dismiss-all"
       type="button"
     >
       <i
-        class="fas fa-trash mr-1"
+        class="fas fa-trash me-1"
       />
       Dismiss all
     </button>
@@ -488,7 +490,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
     id="notifications-center"
   >
     <div
-      class="card bg-light border-info"
+      class="card border-info"
     >
       <div
         class="card-header"
@@ -502,11 +504,10 @@ exports[`Overview Snapshot of the whole page 1`] = `
           February 1, 2000 12:00 AM
         </p>
         <button
-          class="close "
+          aria-label="Close"
+          class="btn-close"
           type="button"
-        >
-          ×
-        </button>
+        />
       </div>
       <div
         class="card-body"
@@ -519,7 +520,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
       </div>
     </div>
     <div
-      class="card bg-light border-danger"
+      class="card border-danger"
     >
       <div
         class="card-header"
@@ -533,11 +534,10 @@ exports[`Overview Snapshot of the whole page 1`] = `
           February 1, 2000 12:00 AM
         </p>
         <button
-          class="close "
+          aria-label="Close"
+          class="btn-close"
           type="button"
-        >
-          ×
-        </button>
+        />
       </div>
       <div
         class="card-body"
@@ -550,7 +550,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
       </div>
     </div>
     <div
-      class="card bg-light border-danger"
+      class="card border-danger"
     >
       <div
         class="card-header"
@@ -564,11 +564,10 @@ exports[`Overview Snapshot of the whole page 1`] = `
           February 1, 2000 12:00 AM
         </p>
         <button
-          class="close invisible"
+          aria-label="Close"
+          class="btn-close invisible"
           type="button"
-        >
-          ×
-        </button>
+        />
       </div>
       <div
         class="card-body"

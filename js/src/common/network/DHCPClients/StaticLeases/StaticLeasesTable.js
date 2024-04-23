@@ -120,7 +120,7 @@ function StaticLeaseActions({ client, editStaticLease, disabled }) {
                     <i className="fas fa-edit fa-sm" />
                 </span>
                 <span className="d-none d-xl-block">
-                    <i className="fas fa-edit fa-sm mr-1" />
+                    <i className="fas fa-edit fa-sm me-1" />
                     {_("Edit")}
                 </span>
             </Button>
@@ -134,7 +134,7 @@ function StaticLeaseActions({ client, editStaticLease, disabled }) {
                     <i className="fas fa-trash fa-sm" />
                 </span>
                 <span className="d-none d-xl-block">
-                    <i className="fas fa-trash fa-sm mr-1" />
+                    <i className="fas fa-trash fa-sm me-1" />
                     {_("Delete")}
                 </span>
             </Button>

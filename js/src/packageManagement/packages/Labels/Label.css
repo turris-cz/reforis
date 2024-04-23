@@ -13,6 +13,6 @@
     opacity: 0.5;
 }
 
-span.badge {
+label span.badge {
     cursor: help;
 }

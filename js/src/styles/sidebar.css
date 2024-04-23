@@ -6,12 +6,16 @@
  */
 
 #sidebar {
-    background: #313a46;
+    background-color: #313a46;
     position: fixed;
     top: 0;
     bottom: 0;
     width: 312px;
     padding-top: 7.5em;
+}
+
+[data-bs-theme="dark"] #sidebar {
+    background-color: var(--bs-body-bg);
 }
 
 #sidebar .logo {

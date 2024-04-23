@@ -27,14 +27,14 @@ export default function NavigationItem({ path, children, isLinkOutside }) {
             <li>
                 <a
                     href={path}
-                    className="text-truncate"
+                    className="text-truncate text-decoration-none"
                     title={children[1]}
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     {children}
                     <sup>
-                        <i className="fas fa-external-link-alt fa-xs ml-1" />
+                        <i className="fas fa-external-link-alt fa-xs ms-1" />
                     </sup>
                 </a>
             </li>
@@ -50,7 +50,9 @@ export default function NavigationItem({ path, children, isLinkOutside }) {
                   }
                 : {})}
         >
-            <NavLink to={path}>{children}</NavLink>
+            <NavLink className="text-decoration-none" to={path}>
+                {children}
+            </NavLink>
         </li>
     );
 }

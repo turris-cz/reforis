@@ -5,7 +5,7 @@ exports[`<NotificationsSettings/> <TestNotification/> Displaying test notificati
   id="test-notification"
 >
   <div
-    class="alert  alert-warning"
+    class="alert alert-warning"
   >
     You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
   </div>
@@ -19,10 +19,10 @@ exports[`<NotificationsSettings/> <TestNotification/> Displaying test notificati
       Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
     </p>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="button"
       >
         <span>
@@ -48,10 +48,10 @@ exports[`<NotificationsSettings/> <TestNotification/> No test notification impor
       Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
     </p>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="button"
       >
         <span>
@@ -77,10 +77,10 @@ exports[`<NotificationsSettings/> <TestNotification/> No test notification impor
       Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
     </p>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="button"
       >
         <span>
@@ -97,7 +97,7 @@ exports[`<NotificationsSettings/> <TestNotification/> Should toggle unsaved chan
   id="test-notification"
 >
   <div
-    class="alert  alert-warning"
+    class="alert alert-warning"
   >
     You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
   </div>
@@ -111,10 +111,10 @@ exports[`<NotificationsSettings/> <TestNotification/> Should toggle unsaved chan
       Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
     </p>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="button"
       >
         <span>
@@ -142,30 +142,27 @@ exports[`<NotificationsSettings/> Disabled 1`] = `
         Notification Settings
       </h2>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch custom-control-inline"
+        <input
+          checked=""
+          class="form-check-input"
+          id="1"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="1"
         >
-          <input
-            checked=""
-            class="custom-control-input"
-            id="1"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="1"
-          >
-            Enable Email Notifications
-          </label>
-        </div>
+          Enable Email Notifications
+        </label>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -200,27 +197,24 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
         Notification Settings
       </h2>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch custom-control-inline"
+        <input
+          checked=""
+          class="form-check-input"
+          id="1"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="1"
         >
-          <input
-            checked=""
-            class="custom-control-input"
-            id="1"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="1"
-          >
-            Enable Email Notifications
-          </label>
-        </div>
+          Enable Email Notifications
+        </label>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
           class="d-block"
@@ -229,50 +223,53 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
           SMTP provider
         </label>
         <div
-          class="custom-control custom-radio custom-control-inline"
+          class="mb-2 form-check form-check-inline"
         >
           <input
-            class="custom-control-input"
+            class="form-check-input me-2"
             id="smtp_provider-0"
             name="smtp_provider"
             type="radio"
             value="turris"
           />
           <label
-            class="custom-control-label"
+            class="form-check-label"
             for="smtp_provider-0"
           >
             Turris
           </label>
         </div>
         <div
-          class="custom-control custom-radio custom-control-inline"
+          class="mb-2 form-check form-check-inline"
         >
           <input
             checked=""
-            class="custom-control-input"
+            class="form-check-input me-2"
             id="smtp_provider-1"
             name="smtp_provider"
             type="radio"
             value="custom"
           />
           <label
-            class="custom-control-label"
+            class="form-check-label"
             for="smtp_provider-1"
           >
             Custom
           </label>
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          If you set SMTP provider to "Turris", the servers provided to members of the Turris project would be used. These servers do not require any additional settings. If you want to set your own SMTP server, please select "Custom" and enter required settings.
-        </small>
+          <small>
+            If you set SMTP provider to "Turris", the servers provided to members of the Turris project would be used. These servers do not require any additional settings. If you want to set your own SMTP server, please select "Custom" and enter required settings.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="3"
         >
           Recipient's email
@@ -288,22 +285,25 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
             value="some@example.com"
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Email address of recipient. Separate multiple addresses by comma.
-        </small>
+          <small>
+            Email address of recipient. Separate multiple addresses by comma.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="4"
         >
           Importance
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="4"
         >
           <option
@@ -324,37 +324,36 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
         </select>
       </div>
       <div
-        class="form-group"
+        class="mb-3 form-check"
       >
-        <div
-          class="custom-control custom-checkbox "
+        <input
+          checked=""
+          class="form-check-input"
+          id="5"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="5"
         >
-          <input
-            checked=""
-            class="custom-control-input"
-            id="5"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="5"
-          >
-            Send news
-            <small
-              class="form-text text-muted"
-            >
-              Send emails about new features.
-            </small>
-          </label>
+          Send news
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
+            Send emails about new features.
+          </small>
         </div>
       </div>
       <h3>
         SMTP Settings
       </h3>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="6"
         >
           Sender address (From)
@@ -371,16 +370,19 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
             value="router@example.com"
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          This is the address notifications are send from.
-        </small>
+          <small>
+            This is the address notifications are send from.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="7"
         >
           Server address
@@ -399,9 +401,10 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="8"
         >
           Server port
@@ -417,40 +420,37 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
             type="number"
             value="465"
           />
-          <div
-            class="input-group-append"
+          <button
+            aria-label="Increase"
+            class="btn btn-outline-secondary"
+            type="button"
           >
-            <button
-              aria-label="Increase"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-plus"
-              />
-            </button>
-            <button
-              aria-label="Decrease"
-              class="btn btn-outline-secondary"
-              type="button"
-            >
-              <i
-                class="fas fa-minus"
-              />
-            </button>
-          </div>
+            <i
+              class="fas fa-plus"
+            />
+          </button>
+          <button
+            aria-label="Decrease"
+            class="btn btn-outline-secondary"
+            type="button"
+          >
+            <i
+              class="fas fa-minus"
+            />
+          </button>
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="9"
         >
           Security
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="9"
         >
           <option
@@ -471,9 +471,10 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
         </select>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="10"
         >
           Username
@@ -490,9 +491,10 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="11"
         >
           Password
@@ -507,25 +509,21 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
             type="password"
             value="test_password"
           />
-          <div
-            class="input-group-append"
+          <button
+            class="input-group-text"
+            type="button"
           >
-            <button
-              class="input-group-text"
-              type="button"
-            >
-              <i
-                class="fa fa-eye"
-              />
-            </button>
-          </div>
+            <i
+              class="fa fa-eye"
+            />
+          </button>
         </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -539,7 +537,7 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
     id="test-notification"
   >
     <div
-      class="alert  alert-warning"
+      class="alert alert-warning"
     >
       You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
     </div>
@@ -553,10 +551,10 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
         Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
       </p>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="button"
         >
           <span>
@@ -589,15 +587,10 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
               Warning!
             </h5>
             <button
-              class="close"
+              aria-label="Close"
+              class="btn-close"
               type="button"
-            >
-              <span
-                aria-hidden="true"
-              >
-                ×
-              </span>
-            </button>
+            />
           </div>
           <div
             class="modal-body"
@@ -649,27 +642,24 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
         Notification Settings
       </h2>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch custom-control-inline"
+        <input
+          checked=""
+          class="form-check-input"
+          id="1"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="1"
         >
-          <input
-            checked=""
-            class="custom-control-input"
-            id="1"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="1"
-          >
-            Enable Email Notifications
-          </label>
-        </div>
+          Enable Email Notifications
+        </label>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
           class="d-block"
@@ -678,50 +668,53 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
           SMTP provider
         </label>
         <div
-          class="custom-control custom-radio custom-control-inline"
+          class="mb-2 form-check form-check-inline"
         >
           <input
-            class="custom-control-input"
+            class="form-check-input me-2"
             id="smtp_provider-0"
             name="smtp_provider"
             type="radio"
             value="turris"
           />
           <label
-            class="custom-control-label"
+            class="form-check-label"
             for="smtp_provider-0"
           >
             Turris
           </label>
         </div>
         <div
-          class="custom-control custom-radio custom-control-inline"
+          class="mb-2 form-check form-check-inline"
         >
           <input
             checked=""
-            class="custom-control-input"
+            class="form-check-input me-2"
             id="smtp_provider-1"
             name="smtp_provider"
             type="radio"
             value="custom"
           />
           <label
-            class="custom-control-label"
+            class="form-check-label"
             for="smtp_provider-1"
           >
             Custom
           </label>
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          If you set SMTP provider to "Turris", the servers provided to members of the Turris project would be used. These servers do not require any additional settings. If you want to set your own SMTP server, please select "Custom" and enter required settings.
-        </small>
+          <small>
+            If you set SMTP provider to "Turris", the servers provided to members of the Turris project would be used. These servers do not require any additional settings. If you want to set your own SMTP server, please select "Custom" and enter required settings.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="3"
         >
           Recipient's email
@@ -737,22 +730,25 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
             value="some@example.com"
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Email address of recipient. Separate multiple addresses by comma.
-        </small>
+          <small>
+            Email address of recipient. Separate multiple addresses by comma.
+          </small>
+        </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="4"
         >
           Importance
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="4"
         >
           <option
@@ -773,34 +769,33 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
         </select>
       </div>
       <div
-        class="form-group"
+        class="mb-3 form-check"
       >
-        <div
-          class="custom-control custom-checkbox "
+        <input
+          checked=""
+          class="form-check-input"
+          id="5"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="5"
         >
-          <input
-            checked=""
-            class="custom-control-input"
-            id="5"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="5"
-          >
-            Send news
-            <small
-              class="form-text text-muted"
-            >
-              Send emails about new features.
-            </small>
-          </label>
+          Send news
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
+            Send emails about new features.
+          </small>
         </div>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="12"
         >
           Sender's name
@@ -815,17 +810,19 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
             value="turris"
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Name of the sender - will be used as a part of the sender's email address before the "at" sign.
-        </small>
+          <small>
+            Name of the sender - will be used as a part of the sender's email address before the "at" sign.
+          </small>
+        </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -839,7 +836,7 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
     id="test-notification"
   >
     <div
-      class="alert  alert-warning"
+      class="alert alert-warning"
     >
       You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
     </div>
@@ -853,10 +850,10 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
         Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
       </p>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="button"
         >
           <span>
@@ -889,15 +886,10 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
               Warning!
             </h5>
             <button
-              class="close"
+              aria-label="Close"
+              class="btn-close"
               type="button"
-            >
-              <span
-                aria-hidden="true"
-              >
-                ×
-              </span>
-            </button>
+            />
           </div>
           <div
             class="modal-body"

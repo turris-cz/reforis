@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,15 +7,14 @@
 
 import React from "react";
 
-import { SpinnerElement, useAPIPost } from "foris";
+import { SpinnerElement, useAPIPost, ForisURLs } from "foris";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 import API_URLs from "common/API";
 import smallScreenWidth from "utils/constants";
 
 import { useLanguages, useWSSetLanguageRefresh } from "./hooks";
-
-import "./LanguagesDropdown.css";
 
 LanguagesDropdown.propTypes = {
     ws: PropTypes.object.isRequired,
@@ -35,37 +34,54 @@ export default function LanguagesDropdown({ ws, className }) {
     return (
         <div className="dropdown">
             <button
-                className={`nav-item btn ${className || "btn-link"}`}
+                className={`nav-item btn ${className || "btn-link"} fw-bold text-body text-decoration-none`.trim()}
                 type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
             >
-                {currentLang || <SpinnerElement small />}
+                {currentLang ? (
+                    currentLang.toUpperCase()
+                ) : (
+                    <SpinnerElement className="text-primary" small />
+                )}
             </button>
 
-            <div
+            <ul
                 className={`dropdown-menu dropdown-menu-${
-                    window.outerWidth > smallScreenWidth ? "right" : "left"
-                } shadow-sm`}
+                    window.outerWidth > smallScreenWidth ? "end" : "start"
+                } shadow-sm`.trim()}
                 id="languages-dropdown-menu"
             >
                 <div className="dropdown-header">
-                    <h5>{_("Languages")}</h5>
+                    <Link
+                        className="text-decoration-none"
+                        to={{
+                            pathname: ForisURLs.languages,
+                        }}
+                    >
+                        <h5 className="mb-0 text-body">{_("Languages")}</h5>
+                    </Link>
                 </div>
                 <div className="dropdown-divider" />
                 {langsList ? (
                     langsList.map((lang) => (
-                        <button
-                            type="button"
-                            key={lang}
-                            className="dropdown-item"
-                            onClick={() => post({ data: { language: lang } })}
-                        >
-                            {lang}
-                        </button>
+                        <li key={lang}>
+                            <button
+                                key={lang}
+                                type="button"
+                                className={`dropdown-item ${lang === currentLang ? "active fw-bold" : ""}`.trim()}
+                                onClick={() =>
+                                    post({ data: { language: lang } })
+                                }
+                            >
+                                {lang.toUpperCase()}
+                            </button>
+                        </li>
                     ))
                 ) : (
                     <SpinnerElement small />
                 )}
-            </div>
+            </ul>
         </div>
     );
 }

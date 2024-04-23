@@ -81,7 +81,7 @@ export default function WorkflowSelect({ workflows, next_step }) {
                                         {WORKFLOW_NAMES[workflow]}
                                     </span>
                                     {workflow === "router" && (
-                                        <span className="badge badge-success align-middle">
+                                        <span className="badge text-bg-success align-middle">
                                             {_("Recommended").toLowerCase()}
                                         </span>
                                     )}

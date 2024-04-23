@@ -13,53 +13,51 @@ exports[`<WiFi/> Snapshot 1`] = `
   >
     <form>
       <div
-        class="form-group switch"
+        class="form-check form-switch mb-3 d-flex align-items-center"
       >
-        <div
-          class="custom-control custom-switch custom-control-inline switch-heading"
+        <input
+          class="form-check-input me-2"
+          id="1"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="1"
         >
-          <input
-            class="custom-control-input"
-            id="1"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="1"
+          <h2
+            class="mb-0"
           >
-            <h2>
-              Wi-Fi 1
-            </h2>
-          </label>
-        </div>
+            Wi-Fi 1
+          </h2>
+        </label>
       </div>
       <hr />
       <div
-        class="form-group switch"
+        class="form-check form-switch mb-3 d-flex align-items-center"
       >
-        <div
-          class="custom-control custom-switch custom-control-inline switch-heading"
+        <input
+          class="form-check-input me-2"
+          id="2"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="2"
         >
-          <input
-            class="custom-control-input"
-            id="2"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="2"
+          <h2
+            class="mb-0"
           >
-            <h2>
-              Wi-Fi 2
-            </h2>
-          </label>
-        </div>
+            Wi-Fi 2
+          </h2>
+        </label>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -79,10 +77,10 @@ exports[`<WiFi/> Snapshot 1`] = `
       If a number of wireless cards doesn't match, you may try to reset the Wi-Fi settings. Note that this will remove the current Wi-Fi configuration and restore the default values.
     </p>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="button"
       >
         <span>
@@ -99,7 +97,7 @@ exports[`<WiFi/> Snapshot of Alert with a warning when no modules available. 1`]
 - First value
 + Second value
 
-@@ -4,69 +4,13 @@
+@@ -4,67 +4,13 @@
     </h1>
     <p>
       If you want to use your router as a Wi-Fi access point, enable Wi-Fi here and fill in an SSID (the name of the access point) and a corresponding password. You can then set up your mobile devices using the QR code available within the form.
@@ -109,54 +107,52 @@ exports[`<WiFi/> Snapshot of Alert with a warning when no modules available. 1`]
 -   >
 -     <form>
 -       <div
--         class=\\"form-group switch\\"
+-         class=\\"form-check form-switch mb-3 d-flex align-items-center\\"
 -       >
--         <div
--           class=\\"custom-control custom-switch custom-control-inline switch-heading\\"
-+     class=\\"alert  alert-warning\\"
+-         <input
+-           class=\\"form-check-input me-2\\"
+-           id=\\"1\\"
+-           role=\\"switch\\"
+-           type=\\"checkbox\\"
+-         />
+-         <label
+-           class=\\"form-check-label\\"
+-           for=\\"1\\"
++     class=\\"alert alert-warning\\"
     >
--           <input
--             class=\\"custom-control-input\\"
--             id=\\"1\\"
--             type=\\"checkbox\\"
--           />
--           <label
--             class=\\"custom-control-label\\"
--             for=\\"1\\"
+-           <h2
+-             class=\\"mb-0\\"
 -           >
--             <h2>
--               Wi-Fi 1
--             </h2>
--           </label>
--         </div>
+-             Wi-Fi 1
+-           </h2>
+-         </label>
 -       </div>
 -       <hr />
 -       <div
--         class=\\"form-group switch\\"
+-         class=\\"form-check form-switch mb-3 d-flex align-items-center\\"
 -       >
--         <div
--           class=\\"custom-control custom-switch custom-control-inline switch-heading\\"
+-         <input
+-           class=\\"form-check-input me-2\\"
+-           id=\\"2\\"
+-           role=\\"switch\\"
+-           type=\\"checkbox\\"
+-         />
+-         <label
+-           class=\\"form-check-label\\"
+-           for=\\"2\\"
 -         >
--           <input
--             class=\\"custom-control-input\\"
--             id=\\"2\\"
--             type=\\"checkbox\\"
--           />
--           <label
--             class=\\"custom-control-label\\"
--             for=\\"2\\"
+-           <h2
+-             class=\\"mb-0\\"
 -           >
--             <h2>
--               Wi-Fi 2
--             </h2>
--           </label>
--         </div>
+-             Wi-Fi 2
+-           </h2>
+-         </label>
 -       </div>
 -       <div
--         class=\\"text-right\\"
+-         class=\\"text-end\\"
 -       >
 -         <button
--           class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
+-           class=\\"btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 -           type=\\"submit\\"
 -         >
 -           <span>

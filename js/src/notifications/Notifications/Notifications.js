@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -13,7 +13,7 @@ import { withRouter } from "react-router-dom";
 
 import DismissAllButton from "./DismissAllButton";
 import NotificationsList from "./NotificationsList";
-import { NOT_DISMISSABLE } from "../constants";
+import { NOT_DISMISSIBLE } from "../constants";
 import useNotifications from "../hooks";
 
 import "./Notifications.css";
@@ -62,8 +62,8 @@ function Notifications({ ws, history }) {
     });
 
     let componentContent;
-    const dismissableNotificationsCount = notifications.filter(
-        (notification) => !NOT_DISMISSABLE.includes(notification.severity)
+    const dismissibleNotificationsCount = notifications.filter(
+        (notification) => !NOT_DISMISSIBLE.includes(notification.severity)
     ).length;
 
     if (isLoading) {
@@ -86,7 +86,7 @@ function Notifications({ ws, history }) {
         <>
             <h2 ref={notificationSectionRef}>
                 {_("Notifications")}
-                {dismissableNotificationsCount > 0 && (
+                {dismissibleNotificationsCount > 0 && (
                     <DismissAllButton dismissAll={dismissAll} />
                 )}
             </h2>

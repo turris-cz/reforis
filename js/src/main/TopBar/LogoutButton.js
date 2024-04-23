@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -8,25 +8,23 @@
 import React from "react";
 
 import { ForisURLs } from "foris";
-import ReactTooltip from "react-tooltip";
+
+import useTooltip from "utils/useTooltip";
 
 export default function LogoutButton() {
-    function logout() {
+    const tooltip = useTooltip(_("Logout"), "bottom");
+
+    const logout = () => {
         window.location.replace(ForisURLs.logout);
-    }
+    };
 
     return (
         <div>
-            <ReactTooltip id="logout" place="bottom">
-                <span>{_("Logout")}</span>
-            </ReactTooltip>
             <button
-                className="nav-item btn btn-link"
+                className="nav-item btn btn-link text-body"
                 type="button"
                 onClick={logout}
-                data-tip
-                data-for="logout"
-                data-arrow-color="transparent"
+                ref={tooltip}
             >
                 <i className="fas fa-sign-out-alt fa-lg" />
             </button>
