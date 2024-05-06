@@ -9,6 +9,9 @@
 $primary: #00a2e2;
 $link-color: #00a2e2;
 
+// Disable web fonts (Google Fonts) to improve privacy and performance
+$web-font-path: false;
+
 // Reduce headings font size
 $h1-font-size: 2.5rem;
 $h2-font-size: 2rem;
