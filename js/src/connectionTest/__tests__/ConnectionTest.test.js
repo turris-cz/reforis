@@ -29,7 +29,7 @@ describe("<ConnectionTest/>", () => {
         expect(asFragment()).toMatchSnapshot();
     });
 
-    it("Snapshots with connection test results.", async () => {
+    it("Snapshots with successful connection test results.", async () => {
         const { asFragment, getByText } = render(
             <ConnectionTest ws={webSockets} type="wan" />
         );
@@ -39,7 +39,37 @@ describe("<ConnectionTest/>", () => {
         await waitForElement(() => getByText(/Test is running/));
 
         // Simulate receiving message from WS server
-        act(() => webSockets.dispatch(wsTestResultMessage(testId, "wan")));
+        act(() => webSockets.dispatch(wsTestResultMessage(testId, "ok")));
+
+        expect(asFragment()).toMatchSnapshot();
+    });
+
+    it("Snapshots with failed connection test results.", async () => {
+        const { asFragment, getByText } = render(
+            <ConnectionTest ws={webSockets} type="wan" />
+        );
+        fireEvent.click(getByText("Test connection"));
+        const testId = "test-id";
+        mockAxios.mockResponse({ data: { test_id: testId } });
+        await waitForElement(() => getByText(/Test is running/));
+
+        // Simulate receiving message from WS server
+        act(() => webSockets.dispatch(wsTestResultMessage(testId, "failed")));
+
+        expect(asFragment()).toMatchSnapshot();
+    });
+
+    it("Snapshots with unknown connection test results.", async () => {
+        const { asFragment, getByText } = render(
+            <ConnectionTest ws={webSockets} type="wan" />
+        );
+        fireEvent.click(getByText("Test connection"));
+        const testId = "test-id";
+        mockAxios.mockResponse({ data: { test_id: testId } });
+        await waitForElement(() => getByText(/Test is running/));
+
+        // Simulate receiving message from WS server
+        act(() => webSockets.dispatch(wsTestResultMessage(testId, "unknown")));
 
         expect(asFragment()).toMatchSnapshot();
     });
@@ -54,12 +84,12 @@ describe("<ConnectionTest/>", () => {
         await waitForElement(() => getByText(/Test is running/));
 
         // Simulate receiving message from WS server
-        act(() => webSockets.dispatch(wsTestResultMessage(testId, "wan")));
+        act(() => webSockets.dispatch(wsTestResultMessage(testId, "ok")));
 
         fireEvent.click(getByText("Test connection again"));
         act(() => mockAxios.mockResponse({ data: { test_id: testId } }));
         await waitForElement(() => getByText(/Test is running/));
-        act(() => webSockets.dispatch(wsTestResultMessage(testId, "wan")));
+        act(() => webSockets.dispatch(wsTestResultMessage(testId, "ok")));
 
         await waitForElement(() => getByText("Test connection again"));
     });
@@ -89,6 +119,23 @@ describe("<ConnectionTest/>", () => {
         fireEvent.click(getByText("Test connection"));
         mockAxios.mockResponse({ data: { test_id: "test-id" } });
         await waitForElement(() => getByText(/DNSSEC/));
+
+        expect(mockAxios.post).toBeCalled();
+        expect(mockAxios.post).toHaveBeenCalledWith(
+            "/reforis/api/dns/test",
+            undefined,
+            expect.anything()
+        );
+        expect(asFragment()).toMatchSnapshot();
+    });
+
+    it("Snapshot after trigger Overview connection test.", async () => {
+        const { asFragment, getByText } = render(
+            <ConnectionTest ws={webSockets} type="overview" />
+        );
+        fireEvent.click(getByText("Test connection"));
+        mockAxios.mockResponse({ data: { test_id: "test-id" } });
+        await waitForElement(() => getByText(/IPv6 connectivity/));
 
         expect(mockAxios.post).toBeCalled();
         expect(mockAxios.post).toHaveBeenCalledWith(
