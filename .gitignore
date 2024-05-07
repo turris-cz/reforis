@@ -113,6 +113,6 @@ venv.bak/
 /reforis_static/reforis/js/*.min.js
 /reforis_static/reforis/js/*.LICENSE
 /reforis_static/reforis/js/*.txt
-/reforis_static/reforis/css/*.css
+/reforis_static/reforis/css/main.css
 /js/styleguide/
 /js/stats.json
