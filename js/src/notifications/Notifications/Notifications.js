@@ -28,8 +28,6 @@ function Notifications({ ws, history }) {
         useNotifications(ws);
     const [currentNotification, setCurrentNotification] = useState();
 
-    const [notificationSection, setNotificationSection] = useState();
-
     function getIDFromSearch(search) {
         const params = new URLSearchParams(search);
         return params.get("id");
@@ -42,24 +40,9 @@ function Notifications({ ws, history }) {
         return history.listen((location) => {
             setCurrentNotification(getIDFromSearch(location.search));
         });
-    }, [history, setCurrentNotification]);
+    }, [history]);
 
     const notificationSectionRef = useRef(null);
-
-    function getHashFromURL(hash) {
-        setNotificationSection(hash);
-    }
-
-    useEffect(() => {
-        getHashFromURL(window.location.hash);
-
-        if (notificationSection && notificationSectionRef.current) {
-            notificationSectionRef.current.scrollIntoView({
-                block: "start",
-                behavior: "smooth",
-            });
-        }
-    });
 
     let componentContent;
     const dismissibleNotificationsCount = notifications.filter(
