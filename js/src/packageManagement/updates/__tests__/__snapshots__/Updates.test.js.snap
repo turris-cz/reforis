@@ -43,16 +43,16 @@ exports[`<Updates/> should display spinner while check is pending 1`] = `
       Manually check for updates and install them immediately.
     </p>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         disabled=""
         type="button"
       >
         <span
           aria-hidden="true"
-          class="spinner-border spinner-border-sm mr-1"
+          class="spinner-border spinner-border-sm me-1"
           role="status"
         />
         <span>
@@ -105,16 +105,16 @@ exports[`<Updates/> should display spinner while check is pending 2`] = `
       Manually check for updates and install them immediately.
     </p>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         disabled=""
         type="button"
       >
         <span
           aria-hidden="true"
-          class="spinner-border spinner-border-sm mr-1"
+          class="spinner-border spinner-border-sm me-1"
           role="status"
         />
         <span>
@@ -167,10 +167,10 @@ exports[`<Updates/> should handle approvable updates 1`] = `
       Manually check for updates and review them immediately.
     </p>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="button"
       >
         <span>
@@ -196,7 +196,7 @@ exports[`<Updates/> should handle approvable updates 1`] = `
       <a
         aria-controls="plan-wrapper"
         aria-expanded="false"
-        data-toggle="collapse"
+        data-bs-toggle="collapse"
         href="#plan-wrapper"
         role="button"
       >
@@ -260,10 +260,10 @@ exports[`<Updates/> should handle approvable updates 1`] = `
       </div>
     </div>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="button"
       >
         <span>
@@ -294,10 +294,10 @@ exports[`<Updates/> should handle automatic updates (no delays/approvals) 1`] = 
       Manually check for updates and install them immediately.
     </p>
     <div
-      class="text-right"
+      class="text-end"
     >
       <button
-        class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
         type="button"
       >
         <span>
@@ -334,7 +334,7 @@ exports[`<Updates/> should handle disabled updates 1`] = `
                     to keep your device running smoothly and securely.
   </p>
   <div
-    class="alert  alert-warning"
+    class="alert alert-warning"
   >
     <span>
       Automatic updates are disabled. Please enable 

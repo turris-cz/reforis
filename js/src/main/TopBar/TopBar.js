@@ -17,8 +17,6 @@ import NotificationsDropdown from "./NotificationsDropdown/NotificationsDropdown
 import RebootDropdown from "./rebootDropdown/RebootDropdown";
 import UpdatesDropdown from "./updatesDropdown/UpdatesDropdown";
 
-import "./TopBar.css";
-
 TopBar.propTypes = {
     ws: PropTypes.object.isRequired,
 };

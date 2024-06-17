@@ -5,16 +5,6 @@
  * See /LICENSE for more information.
  */
 
-.wrapper-guide {
-    flex-direction: column;
-}
-
-.wrapper-guide #content {
-    display: flex;
-    align-items: center;
-    padding: 2em;
-}
-
 #stepsbar,
 #guide-nav-container {
     padding: 0 2em;
@@ -61,6 +51,7 @@
     background-color: #29313b;
     white-space: nowrap;
     flex-basis: 100%;
+    text-decoration: none;
 }
 
 #stepsbar ul li a:hover {
@@ -121,6 +112,18 @@
     }
 }
 
+@media screen and (min-width: 992px) {
+    .wrapper-guide #content {
+        padding: 2rem 8rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper-guide #content {
+        padding: 2rem 18rem;
+    }
+}
+
 #workflow-selector {
     display: flex;
     flex-direction: row;
@@ -173,19 +176,6 @@
     margin-bottom: 0;
 }
 
-.wrapper-guide #alert-container {
-    margin-left: 17.5% !important;
-    max-width: 65%;
-    margin-bottom: 0.5rem;
-}
-
-@media only screen and (max-width: 922px) {
-    .wrapper-guide #alert-container {
-        margin-left: 0 !important;
-        margin-bottom: 0;
-        max-width: 100%;
-    }
-}
 
 /* Safari 4.0 - 8.0 */
 @keyframes blinking {
@@ -203,4 +193,8 @@
 /* Guide controls */
 .sticky-top {
     top: 0.5em;
+}
+
+[data-bs-theme=dark] .guide-controls-button.btn-light {
+    color: #000 !important;
 }

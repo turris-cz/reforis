@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -34,26 +34,22 @@ export default function PackageCheckBox({
 }) {
     const uid = useUID();
     return (
-        <div className="form-group">
-            <div className="custom-control custom-checkbox ">
-                <input
-                    className="custom-control-input"
-                    type="checkbox"
-                    id={uid}
-                    disabled={disabled}
-                    {...props}
-                />
-                <label className="custom-control-label" htmlFor={uid}>
-                    {name}
-                </label>
+        <div className="mb-3">
+            <input
+                className="form-check-input me-2"
+                type="checkbox"
+                id={uid}
+                disabled={disabled}
+                {...props}
+            />
+            <label className="form-check-label" htmlFor={uid}>
+                {name}
                 {url && (
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href={url}
-                        className={`ml-1 ${
-                            disabled ? "text-muted" : ""
-                        }`.trim()}
+                        className={`ms-1 ${disabled ? "text-muted" : ""}`.trim()}
                         title={_("More details")}
                     >
                         <sup>
@@ -63,9 +59,11 @@ export default function PackageCheckBox({
                 )}
                 <Labels labels={labels} disabled={disabled} />
                 {helpText && (
-                    <small className="form-text text-muted">{helpText}</small>
+                    <div className="form-text">
+                        <small>{helpText}</small>
+                    </div>
                 )}
-            </div>
+            </label>
         </div>
     );
 }

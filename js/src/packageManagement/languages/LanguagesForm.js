@@ -31,7 +31,7 @@ export default function LanguagesForm({ formData, setFormValue, disabled }) {
                 <div className="row justify-content-start">
                     {formData.languages.map((language, idx) => (
                         <div
-                            className="col-2 col-lg-1 mr-4"
+                            className="col-2 col-lg-1 me-4"
                             key={language.code}
                         >
                             <CheckBox

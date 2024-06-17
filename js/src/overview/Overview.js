@@ -58,7 +58,7 @@ OverviewCards.propTypes = {
 function OverviewCards({ packages, ws }) {
     return (
         <>
-            <div className="row row-cols-1 row-cols-lg-3 mt-4">
+            <div className="row row-cols-1 row-cols-lg-3">
                 <AutomaticUpdatesCard />
                 <DataCollectionCard />
                 <DynamicFirewallCard
@@ -67,7 +67,7 @@ function OverviewCards({ packages, ws }) {
                 {displayCard(packages, "netmetr") &&
                     isPluginInstalled("NetMetr") && <NetmetrCard />}
                 <div className="col mb-4">
-                    <div className="card h-100 user-select-none">
+                    <div className="card h-100">
                         <div className="card-body">
                             <h6 className="text-uppercase text-muted mb-2">
                                 {_("Connection Test")}

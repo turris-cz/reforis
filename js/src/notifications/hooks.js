@@ -11,7 +11,7 @@ import { useWSForisModule, useAPIGet, useAPIPost, API_STATE } from "foris";
 
 import API_URLs from "common/API";
 
-import { NOT_DISMISSABLE } from "./constants";
+import { NOT_DISMISSIBLE } from "./constants";
 
 const WS_MODULE = "router_notifications";
 
@@ -77,12 +77,12 @@ export default function useNotifications(ws) {
         const idsToDismiss = notifications
             .filter(
                 (notification) =>
-                    !NOT_DISMISSABLE.includes(notification.severity)
+                    !NOT_DISMISSIBLE.includes(notification.severity)
             )
             .map((notification) => notification.id);
         if (idsToDismiss.length >= 1) {
             const notificationsToLeave = notifications.filter((notification) =>
-                NOT_DISMISSABLE.includes(notification.severity)
+                NOT_DISMISSIBLE.includes(notification.severity)
             );
             post({ data: { ids: idsToDismiss } });
             setNotifications(notificationsToLeave);

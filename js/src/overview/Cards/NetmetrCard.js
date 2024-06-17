@@ -45,7 +45,7 @@ function NetmetrCard({ tests: { performed_tests: tests } }) {
             : null;
     return (
         <div className="col mb-4">
-            <div className="card h-100 user-select-none">
+            <div className="card h-100">
                 <div className="card-body">
                     <h6 className="text-uppercase text-muted mb-2">
                         {_("NetMetr")}
@@ -77,7 +77,7 @@ function NetmetrCard({ tests: { performed_tests: tests } }) {
                                                         Mb/s
                                                     </span>
                                                 </th>
-                                                <td className="text-right">
+                                                <td className="text-end">
                                                     {lastTest.speed_download}
                                                 </td>
                                             </tr>
@@ -93,7 +93,7 @@ function NetmetrCard({ tests: { performed_tests: tests } }) {
                                                         Mb/s
                                                     </span>
                                                 </th>
-                                                <td className="text-right">
+                                                <td className="text-end">
                                                     <span>
                                                         {lastTest.speed_upload}
                                                     </span>
@@ -109,7 +109,7 @@ function NetmetrCard({ tests: { performed_tests: tests } }) {
                                                         ms
                                                     </span>
                                                 </th>
-                                                <td className="text-right">
+                                                <td className="text-end">
                                                     <span>
                                                         {lastTest.ping &&
                                                         lastTest.ping >= 0
@@ -120,7 +120,7 @@ function NetmetrCard({ tests: { performed_tests: tests } }) {
                                             </tr>
                                             <tr>
                                                 <th scope="row">{_("Link")}</th>
-                                                <td className="text-right">
+                                                <td className="text-end">
                                                     <a
                                                         target="_blank"
                                                         rel="noopener noreferrer"
@@ -128,7 +128,7 @@ function NetmetrCard({ tests: { performed_tests: tests } }) {
                                                     >
                                                         {_("Details")}
                                                         <sup>
-                                                            <i className="fas fa-external-link-alt fa-sm ml-1" />
+                                                            <i className="fas fa-external-link-alt fa-sm ms-1" />
                                                         </sup>
                                                     </a>
                                                 </td>

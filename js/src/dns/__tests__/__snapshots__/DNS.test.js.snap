@@ -5,15 +5,16 @@ exports[`<DNS/> Test with snapshot DHCP. 1`] = `
 - First value
 + Second value
 
-@@ -88,10 +88,34 @@
+@@ -81,10 +81,37 @@
               This will enable your DNS resolver to place DHCP client's names among the local DNS records.
             </small>
           </div>
         </div>
         <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"4\\"
 +         >
 +           Domain of DHCP clients in DNS
@@ -28,17 +29,19 @@ exports[`<DNS/> Test with snapshot DHCP. 1`] = `
 +             value=\\"lan\\"
 +           />
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           This domain will be used as suffix. E.g. The result for client \\"android-123\\" and domain \\"my.lan\\" will be \\"android-123.my.lan\\".
-+         </small>
++           <small>
++             This domain will be used as suffix. E.g. The result for client \\"android-123\\" and domain \\"my.lan\\" will be \\"android-123.my.lan\\".
++           </small>
++         </div>
 +       </div>
 +       <div
-          class=\\"text-right\\"
+          class=\\"text-end\\"
         >
           <button
-            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
+            class=\\"btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
             type=\\"submit\\""
 `;
 
@@ -47,10 +50,10 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 - First value
 + Second value
 
-@@ -44,10 +44,193 @@
-              Use forwarding
-            </label>
-          </div>
+@@ -41,10 +41,173 @@
+          >
+            Use forwarding
+          </label>
         </div>
         <div
 +         class=\\"table-responsive\\"
@@ -73,24 +76,20 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +           <tbody>
 +             <tr>
 +               <td>
-+                 <div
-+                   class=\\"custom-control custom-radio\\"
++                 <input
++                   checked=\\"\\"
++                   class=\\"form-check-input me-2\\"
++                   id=\\"provider_forwarder\\"
++                   name=\\"dns-forwarders\\"
++                   type=\\"radio\\"
++                   value=\\"provider_forwarder\\"
++                 />
++                 <label
++                   class=\\"form-check-label\\"
++                   for=\\"provider_forwarder\\"
 +                 >
-+                   <input
-+                     checked=\\"\\"
-+                     class=\\"custom-control-input\\"
-+                     id=\\"provider_forwarder\\"
-+                     name=\\"dns-forwarders\\"
-+                     type=\\"radio\\"
-+                     value=\\"provider_forwarder\\"
-+                   />
-+                   <label
-+                     class=\\"custom-control-label\\"
-+                     for=\\"provider_forwarder\\"
-+                   >
-+                     Use provider's DNS resolver
-+                   </label>
-+                 </div>
++                   Use provider's DNS resolver
++                 </label>
 +               </td>
 +               <td
 +                 align=\\"right\\"
@@ -98,23 +97,19 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +             </tr>
 +             <tr>
 +               <td>
-+                 <div
-+                   class=\\"custom-control custom-radio\\"
++                 <input
++                   class=\\"form-check-input me-2\\"
++                   id=\\"00_odvr-cznic\\"
++                   name=\\"dns-forwarders\\"
++                   type=\\"radio\\"
++                   value=\\"00_odvr-cznic\\"
++                 />
++                 <label
++                   class=\\"form-check-label\\"
++                   for=\\"00_odvr-cznic\\"
 +                 >
-+                   <input
-+                     class=\\"custom-control-input\\"
-+                     id=\\"00_odvr-cznic\\"
-+                     name=\\"dns-forwarders\\"
-+                     type=\\"radio\\"
-+                     value=\\"00_odvr-cznic\\"
-+                   />
-+                   <label
-+                     class=\\"custom-control-label\\"
-+                     for=\\"00_odvr-cznic\\"
-+                   >
-+                     CZ.NIC (TLS)
-+                   </label>
-+                 </div>
++                   CZ.NIC (TLS)
++                 </label>
 +               </td>
 +               <td
 +                 align=\\"right\\"
@@ -122,23 +117,19 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +             </tr>
 +             <tr>
 +               <td>
-+                 <div
-+                   class=\\"custom-control custom-radio\\"
++                 <input
++                   class=\\"form-check-input me-2\\"
++                   id=\\"99_cloudflare\\"
++                   name=\\"dns-forwarders\\"
++                   type=\\"radio\\"
++                   value=\\"99_cloudflare\\"
++                 />
++                 <label
++                   class=\\"form-check-label\\"
++                   for=\\"99_cloudflare\\"
 +                 >
-+                   <input
-+                     class=\\"custom-control-input\\"
-+                     id=\\"99_cloudflare\\"
-+                     name=\\"dns-forwarders\\"
-+                     type=\\"radio\\"
-+                     value=\\"99_cloudflare\\"
-+                   />
-+                   <label
-+                     class=\\"custom-control-label\\"
-+                     for=\\"99_cloudflare\\"
-+                   >
-+                     Cloudflare (TLS)
-+                   </label>
-+                 </div>
++                   Cloudflare (TLS)
++                 </label>
 +               </td>
 +               <td
 +                 align=\\"right\\"
@@ -146,23 +137,19 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +             </tr>
 +             <tr>
 +               <td>
-+                 <div
-+                   class=\\"custom-control custom-radio\\"
++                 <input
++                   class=\\"form-check-input me-2\\"
++                   id=\\"99_google\\"
++                   name=\\"dns-forwarders\\"
++                   type=\\"radio\\"
++                   value=\\"99_google\\"
++                 />
++                 <label
++                   class=\\"form-check-label\\"
++                   for=\\"99_google\\"
 +                 >
-+                   <input
-+                     class=\\"custom-control-input\\"
-+                     id=\\"99_google\\"
-+                     name=\\"dns-forwarders\\"
-+                     type=\\"radio\\"
-+                     value=\\"99_google\\"
-+                   />
-+                   <label
-+                     class=\\"custom-control-label\\"
-+                     for=\\"99_google\\"
-+                   >
-+                     Google
-+                   </label>
-+                 </div>
++                   Google
++                 </label>
 +               </td>
 +               <td
 +                 align=\\"right\\"
@@ -170,23 +157,19 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +             </tr>
 +             <tr>
 +               <td>
-+                 <div
-+                   class=\\"custom-control custom-radio\\"
++                 <input
++                   class=\\"form-check-input me-2\\"
++                   id=\\"custom_fwd\\"
++                   name=\\"dns-forwarders\\"
++                   type=\\"radio\\"
++                   value=\\"custom_fwd\\"
++                 />
++                 <label
++                   class=\\"form-check-label\\"
++                   for=\\"custom_fwd\\"
 +                 >
-+                   <input
-+                     class=\\"custom-control-input\\"
-+                     id=\\"custom_fwd\\"
-+                     name=\\"dns-forwarders\\"
-+                     type=\\"radio\\"
-+                     value=\\"custom_fwd\\"
-+                   />
-+                   <label
-+                     class=\\"custom-control-label\\"
-+                     for=\\"custom_fwd\\"
-+                   >
-+                     Custom forwarder
-+                   </label>
-+                 </div>
++                   Custom forwarder
++                 </label>
 +               </td>
 +               <td
 +                 align=\\"right\\"
@@ -201,7 +184,7 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +                   >
 +                     <span>
 +                       <i
-+                         class=\\"fas fa-edit fa-sm mr-1\\"
++                         class=\\"fas fa-edit fa-sm me-1\\"
 +                       />
 +                       Edit
 +                     </span>
@@ -212,7 +195,7 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +                   >
 +                     <span>
 +                       <i
-+                         class=\\"fas fa-trash fa-sm mr-1\\"
++                         class=\\"fas fa-trash fa-sm me-1\\"
 +                       />
 +                       Delete
 +                     </span>
@@ -224,10 +207,10 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +         </table>
 +       </div>
 +       <div
-+         class=\\"text-right\\"
++         class=\\"text-end\\"
 +       >
 +         <button
-+           class=\\"btn btn-outline-success btn mb-3 mb-sm-2 mb-md-0 col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
++           class=\\"btn btn-outline-success btn mb-3 mb-sm-2 mb-md-0 col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           type=\\"button\\"
 +         >
 +           <span>
@@ -236,11 +219,11 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +         </button>
 +       </div>
 +       <div
-          class=\\"form-group\\"
+          class=\\"form-check form-switch mb-3 null\\"
         >
-          <div
-            class=\\"custom-control custom-switch custom-control-inline\\"
-          >"
+          <input
+            checked=\\"\\"
+            class=\\"form-check-input\\""
 `;
 
 exports[`<DNS/> Test with snapshot. 1`] = `
@@ -273,73 +256,66 @@ exports[`<DNS/> Test with snapshot. 1`] = `
         DNS Settings
       </h2>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch custom-control-inline"
+        <input
+          class="form-check-input"
+          id="1"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="1"
         >
-          <input
-            class="custom-control-input"
-            id="1"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="1"
-          >
-            Use forwarding
-          </label>
-        </div>
+          Use forwarding
+        </label>
       </div>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch custom-control-inline"
+        <input
+          checked=""
+          class="form-check-input"
+          id="2"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="2"
         >
-          <input
-            checked=""
-            class="custom-control-input"
-            id="2"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="2"
-          >
-            Enable DNSSEC
-          </label>
-        </div>
+          Enable DNSSEC
+        </label>
       </div>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch"
+        <input
+          class="form-check-input"
+          id="3"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="3"
         >
-          <input
-            class="custom-control-input"
-            id="3"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="3"
-          >
-            Enable DHCP clients in DNS
-          </label>
-          <small
-            class="form-text text-muted mt-0 mb-3"
-          >
+          Enable DHCP clients in DNS
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
             This will enable your DNS resolver to place DHCP client's names among the local DNS records.
           </small>
         </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -374,7 +350,7 @@ exports[`<DNS/> Test with snapshot. 1`] = `
               DNS
             </th>
             <td
-              class="text-right"
+              class="text-end"
             >
               <span
                 class="text-secondary"
@@ -393,7 +369,7 @@ exports[`<DNS/> Test with snapshot. 1`] = `
               DNSSEC
             </th>
             <td
-              class="text-right"
+              class="text-end"
             >
               <span
                 class="text-secondary"
@@ -408,10 +384,10 @@ exports[`<DNS/> Test with snapshot. 1`] = `
         </tbody>
       </table>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>

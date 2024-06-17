@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -13,7 +13,7 @@ import PropTypes from "prop-types";
 import RebootButton from "common/RebootButton";
 
 import TruncatedText from "./TruncatedText";
-import { NOT_DISMISSABLE } from "../constants";
+import { NOT_DISMISSIBLE } from "../constants";
 import NotificationIcon from "../NotificationIcon";
 import NOTIFICATION_PROP_TYPES from "../utils";
 
@@ -58,7 +58,7 @@ NotificationsCenterItem.propTypes = {
 };
 
 function NotificationsCenterItem({ notification, isCurrent, dismiss }) {
-    const notificationRef = useRef(null);
+    const notificationRef = useRef(isCurrent);
 
     useEffect(() => {
         if (isCurrent && notificationRef.current) {
@@ -67,12 +67,12 @@ function NotificationsCenterItem({ notification, isCurrent, dismiss }) {
                 behavior: "smooth",
             });
         }
-    });
-    const isDisableable = !NOT_DISMISSABLE.includes(notification.severity);
+    }, [isCurrent]);
+    const isDisableable = !NOT_DISMISSIBLE.includes(notification.severity);
     return (
         <div
             ref={notificationRef}
-            className={`card bg-light ${BORDER_TYPES[notification.severity]}`}
+            className={`card ${BORDER_TYPES[notification.severity]}`}
         >
             <div
                 className={
@@ -92,11 +92,10 @@ function NotificationsCenterItem({ notification, isCurrent, dismiss }) {
                 </p>
                 <button
                     type="button"
-                    className={`close ${!isDisableable ? "invisible" : ""}`}
+                    className={`btn-close ${!isDisableable ? "invisible" : ""}`.trim()}
                     onClick={dismiss}
-                >
-                    ×
-                </button>
+                    aria-label={_("Close")}
+                />
             </div>
 
             <div className="card-body">

@@ -23,9 +23,3 @@
 .guide-controls-button:last-child {
     margin-right: 0;
 }
-
-.dropdown:hover .dropdown-menu {
-    transform: scale(1, 1) translateY(0);
-    opacity: 1;
-    visibility: visible;
-}

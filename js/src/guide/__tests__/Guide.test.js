@@ -33,7 +33,7 @@ describe("<Guide/> ", () => {
 
         mockAxios.mockResponse({ data: "en" });
         mockAxios.mockResponse({ data: ["en", "cs", "ru"] });
-        await wait(() => getAllByText(container, "en"));
+        await wait(() => getAllByText(container, "EN"));
 
         mockAxios.mockResponse({ data: interfacesFixture() });
         await wait(() => getByText(container, "LAN1"));

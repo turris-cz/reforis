@@ -2,51 +2,51 @@
 
 exports[`<UpdatesDropdown/> Loading (spinner visible) 1`] = `
 <div>
-  <div
-    class="dropdown"
-    data-testid="updates-dropdown"
+  <button
+    class="nav-item btn btn-link"
+    type="button"
   >
-    <button
-      class="nav-item btn btn-link"
-      type="button"
+    <div
+      class="spinner-border spinner-border-sm"
+      role="status"
     >
-      <div
-        class="spinner-border spinner-border-sm"
-        role="status"
-      >
-        <span
-          class="sr-only"
-        />
-      </div>
-    </button>
-  </div>
+      <span
+        class="sr-only"
+      />
+    </div>
+  </button>
 </div>
 `;
 
 exports[`<UpdatesDropdown/> Updates awaiting - snapshot 1`] = `
 <div>
   <div
-    class="dropdown"
+    class="dropdown dropdown-menu-end"
     data-testid="updates-dropdown"
   >
     <button
-      class="nav-item btn btn-link"
+      aria-expanded="false"
+      class="nav-item btn btn-link text-body"
+      data-bs-toggle="dropdown"
       type="button"
     >
       <i
         class="fa fa-sync-alt fa-lg"
       />
     </button>
-    <div
-      class="dropdown-menu dropdown-menu-right  shadow-sm"
+    <ul
+      class="dropdown-menu dropdown-menu- shadow-sm"
     >
       <div
         class="dropdown-header"
       >
         <a
+          class="text-decoration-none"
           href="/package-management/updates"
         >
-          <h5>
+          <h5
+            class="mb-0 text-body"
+          >
             Approve Update
           </h5>
         </a>
@@ -54,20 +54,20 @@ exports[`<UpdatesDropdown/> Updates awaiting - snapshot 1`] = `
       <div
         class="dropdown-divider"
       />
-      <span
-        class="dropdown-item"
-      >
-        See details in 
-        <a
-          href="/reforis/package-management/updates"
-        >
-          Updates
-        </a>
-         page.
-      </span>
       <div
-        class="dropdown-item text-center"
+        class="px-3"
       >
+        <p
+          class="text-center text-nowrap mb-2"
+        >
+          See details in 
+          <a
+            href="/package-management/updates"
+          >
+            Updates
+          </a>
+           page.
+        </p>
         <button
           class="btn btn-primary w-100 d-inline-flex justify-content-center align-items-center"
           type="button"
@@ -77,7 +77,7 @@ exports[`<UpdatesDropdown/> Updates awaiting - snapshot 1`] = `
           </span>
         </button>
       </div>
-    </div>
+    </ul>
   </div>
 </div>
 `;

@@ -132,24 +132,22 @@ export default function TimeForm({
                     ntpData.state === API_STATE.SENDING
                 }
             >
-                <div className="input-group-append">
-                    <button
-                        type="button"
-                        className="input-group-text"
-                        onClick={
-                            data.how_to_set_time === "ntp"
-                                ? triggerNTP
-                                : updateTimeFromBrowser
-                        }
-                        disabled={ntpData.state === API_STATE.SENDING}
-                    >
-                        {ntpData.state === API_STATE.SENDING ? (
-                            <SpinnerElement small />
-                        ) : (
-                            <i className="fas fa-sync-alt" />
-                        )}
-                    </button>
-                </div>
+                <button
+                    type="button"
+                    className="input-group-text"
+                    onClick={
+                        data.how_to_set_time === "ntp"
+                            ? triggerNTP
+                            : updateTimeFromBrowser
+                    }
+                    disabled={ntpData.state === API_STATE.SENDING}
+                >
+                    {ntpData.state === API_STATE.SENDING ? (
+                        <SpinnerElement small />
+                    ) : (
+                        <i className="fas fa-sync-alt" />
+                    )}
+                </button>
             </DataTimeInput>
         </>
     );
@@ -166,7 +164,7 @@ function NTPServersList({ servers }) {
             <Button
                 className="btn-outline-primary"
                 forisFormSize
-                data-toggle="collapse"
+                data-bs-toggle="collapse"
                 href="#collapseNTPServers"
                 onClick={(e) => {
                     e.preventDefault();
@@ -180,11 +178,11 @@ function NTPServersList({ servers }) {
 
             <div className="collapse" id="collapseNTPServers">
                 <h5>{_("NTP Servers")}</h5>
-                <div id="ntpServersList">
+                <ul id="ntpServersList">
                     {servers.map((server) => (
-                        <p key={server}>{server}</p>
+                        <li key={server}>{server}</li>
                     ))}
-                </div>
+                </ul>
             </div>
         </>
     );

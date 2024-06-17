@@ -20,7 +20,6 @@ import { render } from "react-dom";
 
 // External JS
 import "@fortawesome/fontawesome-free/js/all.min";
-import "bootstrap/dist/js/bootstrap.min";
 
 // Styles go here:
 import "./app.scss";

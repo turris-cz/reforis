@@ -23,7 +23,7 @@ export default function GuideNavigationItem({ name, url, next, passed }) {
 
     const content = (
         <>
-            <i className="fas fa-angle-right mr-2" />
+            <i className="fas fa-angle-right me-2" />
             {name}
         </>
     );
@@ -39,7 +39,7 @@ export default function GuideNavigationItem({ name, url, next, passed }) {
                 </NavLink>
             ) : (
                 // eslint-disable-next-line jsx-a11y/anchor-is-valid
-                <a className="disabled user-select-none">{content}</a>
+                <a className="disabled">{content}</a>
             )}
         </li>
     );

@@ -36,7 +36,7 @@ DataCollectionCard.propTypes = {
 function DataCollectionCard({ details: { eula } }) {
     return (
         <div className="col mb-4">
-            <div className="card user-select-none">
+            <div className="card">
                 <div className="card-body">
                     <div className="row align-items-center">
                         <div className="col">

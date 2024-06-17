@@ -19,15 +19,16 @@ exports[`<RegionAndTime/> Snapshot 1`] = `
         Please select the timezone the router is being operated in. Correct setting is required to display the right time and for related functions.
       </p>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="1"
         >
           Continent or ocean
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="1"
         >
           <option
@@ -83,15 +84,16 @@ exports[`<RegionAndTime/> Snapshot 1`] = `
         </select>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="2"
         >
           Country
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="2"
         >
           <option
@@ -342,15 +344,16 @@ exports[`<RegionAndTime/> Snapshot 1`] = `
         </select>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="3"
         >
           Timezone
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="3"
         >
           <option
@@ -367,15 +370,16 @@ exports[`<RegionAndTime/> Snapshot 1`] = `
         Time should be up-to-date otherwise DNS and other services might not work properly.
       </p>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="4"
         >
           How to set time
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="4"
         >
           <option
@@ -391,8 +395,8 @@ exports[`<RegionAndTime/> Snapshot 1`] = `
         </select>
       </div>
       <button
-        class="btn btn-outline-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
-        data-toggle="collapse"
+        class="btn btn-outline-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        data-bs-toggle="collapse"
         href="#collapseNTPServers"
         type="button"
       >
@@ -407,46 +411,47 @@ exports[`<RegionAndTime/> Snapshot 1`] = `
         <h5>
           NTP Servers
         </h5>
-        <div
+        <ul
           id="ntpServersList"
         >
-          <p>
+          <li>
             217.31.202.100
-          </p>
-          <p>
+          </li>
+          <li>
             195.113.144.201
-          </p>
-          <p>
+          </li>
+          <li>
             195.113.144.238
-          </p>
-          <p>
+          </li>
+          <li>
             2001:1488:ffff::100
-          </p>
-          <p>
+          </li>
+          <li>
             ntp.nic.cz
-          </p>
-          <p>
+          </li>
+          <li>
             0.openwrt.pool.ntp.org
-          </p>
-          <p>
+          </li>
+          <li>
             1.openwrt.pool.ntp.org
-          </p>
-          <p>
+          </li>
+          <li>
             2.openwrt.pool.ntp.org
-          </p>
-          <p>
+          </li>
+          <li>
             3.openwrt.pool.ntp.org
-          </p>
-        </div>
+          </li>
+        </ul>
       </div>
       <div
         class="rdt"
       >
         <div>
           <div
-            class="form-group"
+            class="mb-3"
           >
             <label
+              class="form-label"
               for="5"
             >
               Time
@@ -461,18 +466,14 @@ exports[`<RegionAndTime/> Snapshot 1`] = `
                 type="text"
                 value="2019-04-24 21:15:03"
               />
-              <div
-                class="input-group-append"
+              <button
+                class="input-group-text"
+                type="button"
               >
-                <button
-                  class="input-group-text"
-                  type="button"
-                >
-                  <i
-                    class="fas fa-sync-alt"
-                  />
-                </button>
-              </div>
+                <i
+                  class="fas fa-sync-alt"
+                />
+              </button>
             </div>
           </div>
         </div>
@@ -910,10 +911,10 @@ exports[`<RegionAndTime/> Snapshot 1`] = `
         </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>

@@ -11,7 +11,7 @@ import { ForisURLs, toLocaleDateString } from "foris";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
-import { NOT_DISMISSABLE } from "notifications/constants";
+import { NOT_DISMISSIBLE } from "notifications/constants";
 import NotificationIcon from "notifications/NotificationIcon";
 import NOTIFICATION_PROP_TYPES from "notifications/utils";
 
@@ -29,43 +29,42 @@ export default function NotificationsDropdownItem({
     dismiss,
 }) {
     const date = toLocaleDateString(notification.created_at);
-
-    const message = (
-        <>
-            <small className="text-muted">{date}</small>
-            <p>{notification.msg}</p>
-        </>
-    );
-    const isDisableable = !NOT_DISMISSABLE.includes(notification.severity);
+    const isDisableable = !NOT_DISMISSIBLE.includes(notification.severity);
 
     return (
         <>
-            <div className="dropdown-item notification-item">
+            <div
+                className="dropdown-item d-flex align-items-center py-2"
+                style={{ transform: "rotate(0)" }}
+            >
                 <NotificationIcon
                     severity={notification.severity}
-                    className="fa-2x"
+                    className="fa-2x me-2"
                 />
-                <div className="notifications-info">
-                    <Link
-                        to={{
-                            pathname: ForisURLs.overview,
-                            search: `?id=${notification.id}`,
-                        }}
+                <Link
+                    to={{
+                        pathname: ForisURLs.overview,
+                        search: `?id=${notification.id}`,
+                    }}
+                    className="d-flex flex-column stretched-link text-decoration-none me-2"
+                >
+                    <small className="text-muted">{date}</small>
+                    <p
+                        className="mb-0 d-inline-block text-truncate"
+                        style={{ maxWidth: "14rem" }}
                     >
-                        {message}
-                    </Link>
-                </div>
+                        {notification.msg}
+                    </p>
+                </Link>
                 <button
                     type="button"
-                    className={`btn btn-link dismiss${
+                    className={`position-relative w-50 z-1 btn-close ${
                         !isDisableable ? " invisible" : ""
                     }`}
                     onClick={dismiss}
-                >
-                    <i className="fas fa-times" />
-                </button>
+                />
             </div>
-            {divider ? <div className="dropdown-divider" /> : null}
+            {divider ? <div className="dropdown-divider m-0" /> : null}
         </>
     );
 }

@@ -5,12 +5,12 @@ exports[`<WAN/> Snapshot WAN IPv4 (PPPoE). 1`] = `
 - First value
 + Second value
 
-@@ -43,30 +43,69 @@
-        </div>
+@@ -45,30 +45,64 @@
         <div
-          class=\\"form-group\\"
+          class=\\"mb-3\\"
         >
           <label
+            class=\\"form-label\\"
 -           for=\\"2\\"
 +           for=\\"6\\"
           >
@@ -23,27 +23,25 @@ exports[`<WAN/> Snapshot WAN IPv4 (PPPoE). 1`] = `
             <input
 -             class=\\"form-control\\"
 -             id=\\"2\\"
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"6\\"
 +             required=\\"\\"
               type=\\"text\\"
               value=\\"\\"
             />
           </div>
--         <small
--           class=\\"form-text text-muted\\"
-+         <div
+          <div
+-           class=\\"form-text\\"
 +           class=\\"invalid-feedback\\"
-          >
--           Hostname which will be provided to DHCP server.
--         </small>
++         >
 +           This field is required.
 +         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"7\\"
 +         >
 +           PAP/CHAP password
@@ -53,42 +51,39 @@ exports[`<WAN/> Snapshot WAN IPv4 (PPPoE). 1`] = `
 +         >
 +           <input
 +             autocomplete=\\"current-password\\"
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"7\\"
 +             required=\\"\\"
 +             type=\\"password\\"
 +             value=\\"\\"
 +           />
-+           <div
-+             class=\\"input-group-append\\"
++           <button
++             class=\\"input-group-text\\"
++             type=\\"button\\"
 +           >
-+             <button
-+               class=\\"input-group-text\\"
-+               type=\\"button\\"
-+             >
-+               <i
-+                 class=\\"fa fa-eye\\"
-+               />
-+             </button>
-+           </div>
-          </div>
++             <i
++               class=\\"fa fa-eye\\"
++             />
++           </button>
++         </div>
 +         <div
 +           class=\\"invalid-feedback\\"
-+         >
+          >
+-           <small>
+-             Hostname which will be provided to DHCP server.
+-           </small>
 +           This field is required.
-+         </div>
-+       </div>
+          </div>
+        </div>
         <h2>
           IPv6 Settings
         </h2>
+@@ -167,10 +201,11 @@
         <div
-          class=\\"form-group\\"
-@@ -164,10 +203,11 @@
-        <div
-          class=\\"text-right\\"
+          class=\\"text-end\\"
         >
           <button
-            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
+            class=\\"btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           disabled=\\"\\"
             type=\\"submit\\"
           >
@@ -102,12 +97,12 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
 - First value
 + Second value
 
-@@ -43,28 +43,127 @@
-        </div>
+@@ -45,29 +45,134 @@
         <div
-          class=\\"form-group\\"
+          class=\\"mb-3\\"
         >
           <label
+            class=\\"form-label\\"
 -           for=\\"2\\"
 +           for=\\"6\\"
 +         >
@@ -117,7 +112,7 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
 +           class=\\"input-group\\"
 +         >
 +           <input
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"6\\"
 +             required=\\"\\"
 +             type=\\"text\\"
@@ -131,19 +126,20 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
 +         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
-        >
--           DHCP hostname
++         class=\\"mb-3\\"
++       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"7\\"
 +         >
 +           Network mask
 +         </label>
 +         <div
 +           class=\\"input-group\\"
-+         >
+          >
+-           DHCP hostname
 +           <input
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"7\\"
 +             required=\\"\\"
 +             type=\\"text\\"
@@ -157,9 +153,10 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
 +         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"8\\"
 +         >
 +           Gateway
@@ -168,7 +165,7 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
 +           class=\\"input-group\\"
 +         >
 +           <input
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"8\\"
 +             required=\\"\\"
 +             type=\\"text\\"
@@ -182,9 +179,10 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
 +         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"9\\"
 +         >
 +           DNS server 1
@@ -196,20 +194,24 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
               class=\\"form-control\\"
 -             id=\\"2\\"
 +             id=\\"9\\"
-+             type=\\"text\\"
-+             value=\\"\\"
-+           />
+              type=\\"text\\"
+              value=\\"\\"
+            />
+          </div>
+          <div
+            class=\\"form-text\\"
+          >
+            <small>
+-             Hostname which will be provided to DHCP server.
++             DNS server address is not required as the built-in DNS resolver is capable of working without it.
++           </small>
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
-+         >
-+           DNS server address is not required as the built-in DNS resolver is capable of working without it.
-+         </small>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"10\\"
 +         >
 +           DNS server 2
@@ -220,26 +222,26 @@ exports[`<WAN/> Snapshot WAN IPv4 (static). 1`] = `
 +           <input
 +             class=\\"form-control\\"
 +             id=\\"10\\"
-              type=\\"text\\"
-              value=\\"\\"
-            />
++             type=\\"text\\"
++             value=\\"\\"
++           />
++         </div>
++         <div
++           class=\\"form-text\\"
++         >
++           <small>
++             DNS server address is not required as the built-in DNS resolver is capable of working without it.
+            </small>
           </div>
-          <small
-            class=\\"form-text text-muted\\"
-          >
--           Hostname which will be provided to DHCP server.
-+           DNS server address is not required as the built-in DNS resolver is capable of working without it.
-          </small>
         </div>
         <h2>
           IPv6 Settings
-        </h2>
-@@ -164,10 +263,11 @@
+@@ -167,10 +272,11 @@
         <div
-          class=\\"text-right\\"
+          class=\\"text-end\\"
         >
           <button
-            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
+            class=\\"btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           disabled=\\"\\"
             type=\\"submit\\"
           >
@@ -253,16 +255,17 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 - First value
 + Second value
 
-@@ -232,10 +232,100 @@
-                Some tunnel providers allow you to have public dynamic IPv4. Note that you need to fill in some extra fields to make it work.
-              </small>
-            </label>
+@@ -238,10 +238,109 @@
+            <small>
+              Some tunnel providers allow you to have public dynamic IPv4. Note that you need to fill in some extra fields to make it work.
+            </small>
           </div>
         </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"10\\"
 +         >
 +           Tunnel ID
@@ -271,7 +274,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 +           class=\\"input-group\\"
 +         >
 +           <input
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"10\\"
 +             required=\\"\\"
 +             type=\\"text\\"
@@ -283,16 +286,19 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 +         >
 +           This field is required.
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           ID of your tunnel which was assigned to you by the provider.
-+         </small>
++           <small>
++             ID of your tunnel which was assigned to you by the provider.
++           </small>
++         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"11\\"
 +         >
 +           Username
@@ -301,7 +307,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 +           class=\\"input-group\\"
 +         >
 +           <input
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"11\\"
 +             required=\\"\\"
 +             type=\\"text\\"
@@ -313,16 +319,19 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 +         >
 +           This field is required.
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           Username which will be used to provide credentials to your tunnel provider.
-+         </small>
++           <small>
++             Username which will be used to provide credentials to your tunnel provider.
++           </small>
++         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"12\\"
 +         >
 +           Key
@@ -331,7 +340,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 +           class=\\"input-group\\"
 +         >
 +           <input
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"12\\"
 +             required=\\"\\"
 +             type=\\"text\\"
@@ -343,17 +352,19 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 +         >
 +           This field is required.
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           Key which will be used to provide credentials to your tunnel provider.
-+         </small>
++           <small>
++             Key which will be used to provide credentials to your tunnel provider.
++           </small>
++         </div>
 +       </div>
         <h2>
           MAC Settings
         </h2>
         <div
-          class=\\"form-group\\""
+          class=\\"form-check form-switch mb-3 null\\""
 `;
 
 exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
@@ -361,16 +372,17 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 - First value
 + Second value
 
-@@ -105,10 +105,137 @@
+@@ -110,10 +110,138 @@
             >
               Disable IPv6
             </option>
           </select>
         </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"6\\"
 +         >
 +           Provider IPv4
@@ -379,7 +391,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +           class=\\"input-group\\"
 +         >
 +           <input
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"6\\"
 +             required=\\"\\"
 +             type=\\"text\\"
@@ -391,16 +403,19 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +         >
 +           This field is required.
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           This address will be used as a endpoint of the tunnel on the provider's side.
-+         </small>
++           <small>
++             This address will be used as a endpoint of the tunnel on the provider's side.
++           </small>
++         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"7\\"
 +         >
 +           Routed IPv6 prefix
@@ -415,16 +430,19 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +             value=\\"\\"
 +           />
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           IPv6 addresses which will be routed to your network.
-+         </small>
++           <small>
++             IPv6 addresses which will be routed to your network.
++           </small>
++         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"8\\"
 +         >
 +           MTU
@@ -433,7 +451,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +           class=\\"input-group\\"
 +         >
 +           <input
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"8\\"
 +             max=\\"1480\\"
 +             min=\\"1280\\"
@@ -441,28 +459,24 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +             type=\\"number\\"
 +             value=\\"\\"
 +           />
-+           <div
-+             class=\\"input-group-append\\"
++           <button
++             aria-label=\\"Increase\\"
++             class=\\"btn btn-outline-secondary\\"
++             type=\\"button\\"
 +           >
-+             <button
-+               aria-label=\\"Increase\\"
-+               class=\\"btn btn-outline-secondary\\"
-+               type=\\"button\\"
-+             >
-+               <i
-+                 class=\\"fas fa-plus\\"
-+               />
-+             </button>
-+             <button
-+               aria-label=\\"Decrease\\"
-+               class=\\"btn btn-outline-secondary\\"
-+               type=\\"button\\"
-+             >
-+               <i
-+                 class=\\"fas fa-minus\\"
-+               />
-+             </button>
-+           </div>
++             <i
++               class=\\"fas fa-plus\\"
++             />
++           </button>
++           <button
++             aria-label=\\"Decrease\\"
++             class=\\"btn btn-outline-secondary\\"
++             type=\\"button\\"
++           >
++             <i
++               class=\\"fas fa-minus\\"
++             />
++           </button>
 +         </div>
 +         <div
 +           class=\\"invalid-feedback\\"
@@ -471,40 +485,38 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3 form-check\\"
 +       >
-+         <div
-+           class=\\"custom-control custom-checkbox \\"
++         <input
++           class=\\"form-check-input\\"
++           id=\\"9\\"
++           type=\\"checkbox\\"
++         />
++         <label
++           class=\\"form-check-label\\"
++           for=\\"9\\"
 +         >
-+           <input
-+             class=\\"custom-control-input\\"
-+             id=\\"9\\"
-+             type=\\"checkbox\\"
-+           />
-+           <label
-+             class=\\"custom-control-label\\"
-+             for=\\"9\\"
-+           >
-+             Dynamic IPv4 handling
-+             <small
-+               class=\\"form-text text-muted\\"
-+             >
-+               Some tunnel providers allow you to have public dynamic IPv4. Note that you need to fill in some extra fields to make it work.
-+             </small>
-+           </label>
++           Dynamic IPv4 handling
++         </label>
++         <div
++           class=\\"form-text\\"
++         >
++           <small>
++             Some tunnel providers allow you to have public dynamic IPv4. Note that you need to fill in some extra fields to make it work.
++           </small>
 +         </div>
 +       </div>
         <h2>
           MAC Settings
         </h2>
         <div
-          class=\\"form-group\\"
-@@ -164,10 +291,11 @@
+          class=\\"form-check form-switch mb-3 null\\"
+@@ -167,10 +295,11 @@
         <div
-          class=\\"text-right\\"
+          class=\\"text-end\\"
         >
           <button
-            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
+            class=\\"btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           disabled=\\"\\"
             type=\\"submit\\"
           >
@@ -518,16 +530,17 @@ exports[`<WAN/> Snapshot WAN IPv6 (6to4). 1`] = `
 - First value
 + Second value
 
-@@ -105,10 +105,34 @@
+@@ -110,10 +110,37 @@
             >
               Disable IPv6
             </option>
           </select>
         </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"6\\"
 +         >
 +           Public IPv4
@@ -542,17 +555,19 @@ exports[`<WAN/> Snapshot WAN IPv6 (6to4). 1`] = `
 +             value=\\"\\"
 +           />
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           In order to use 6to4 protocol, you might need to specify your public IPv4 address manually (e.g. when your WAN interface has a private address which is mapped to public IP).
-+         </small>
++           <small>
++             In order to use 6to4 protocol, you might need to specify your public IPv4 address manually (e.g. when your WAN interface has a private address which is mapped to public IP).
++           </small>
++         </div>
 +       </div>
         <h2>
           MAC Settings
         </h2>
         <div
-          class=\\"form-group\\""
+          class=\\"form-check form-switch mb-3 null\\""
 `;
 
 exports[`<WAN/> Snapshot WAN IPv6 (DHCPv6). 1`] = `
@@ -560,16 +575,17 @@ exports[`<WAN/> Snapshot WAN IPv6 (DHCPv6). 1`] = `
 - First value
 + Second value
 
-@@ -105,10 +105,34 @@
+@@ -110,10 +110,37 @@
             >
               Disable IPv6
             </option>
           </select>
         </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"6\\"
 +         >
 +           Custom DUID
@@ -584,17 +600,19 @@ exports[`<WAN/> Snapshot WAN IPv6 (DHCPv6). 1`] = `
 +             value=\\"\\"
 +           />
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           DUID which will be provided to the DHCPv6 server.
-+         </small>
++           <small>
++             DUID which will be provided to the DHCPv6 server.
++           </small>
++         </div>
 +       </div>
         <h2>
           MAC Settings
         </h2>
         <div
-          class=\\"form-group\\""
+          class=\\"form-check form-switch mb-3 null\\""
 `;
 
 exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
@@ -602,16 +620,17 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 - First value
 + Second value
 
-@@ -105,10 +105,143 @@
+@@ -110,10 +110,156 @@
             >
               Disable IPv6
             </option>
           </select>
         </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"6\\"
 +         >
 +           Address
@@ -620,7 +639,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +           class=\\"input-group\\"
 +         >
 +           <input
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"6\\"
 +             required=\\"\\"
 +             type=\\"text\\"
@@ -632,16 +651,19 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +         >
 +           This field is required.
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           IPv6 address and prefix length for WAN interface e.g. 2001:db8:be13:37da::1/64
-+         </small>
++           <small>
++             IPv6 address and prefix length for WAN interface e.g. 2001:db8:be13:37da::1/64
++           </small>
++         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"7\\"
 +         >
 +           Gateway
@@ -650,7 +672,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +           class=\\"input-group\\"
 +         >
 +           <input
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"7\\"
 +             required=\\"\\"
 +             type=\\"text\\"
@@ -664,9 +686,10 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"8\\"
 +         >
 +           Prefix
@@ -675,7 +698,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +           class=\\"input-group\\"
 +         >
 +           <input
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"8\\"
 +             required=\\"\\"
 +             type=\\"text\\"
@@ -687,16 +710,19 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +         >
 +           This field is required.
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           Address range for local network, e.g. 2001:db8:be13:37da::/64
-+         </small>
++           <small>
++             Address range for local network, e.g. 2001:db8:be13:37da::/64
++           </small>
++         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"9\\"
 +         >
 +           DNS server 1
@@ -711,16 +737,19 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +             value=\\"\\"
 +           />
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           DNS server address is not required as the built-in DNS resolver is capable of working without it.
-+         </small>
++           <small>
++             DNS server address is not required as the built-in DNS resolver is capable of working without it.
++           </small>
++         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"10\\"
 +         >
 +           DNS server 2
@@ -735,23 +764,25 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
 +             value=\\"\\"
 +           />
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           DNS server address is not required as the built-in DNS resolver is capable of working without it.
-+         </small>
++           <small>
++             DNS server address is not required as the built-in DNS resolver is capable of working without it.
++           </small>
++         </div>
 +       </div>
         <h2>
           MAC Settings
         </h2>
         <div
-          class=\\"form-group\\"
-@@ -164,10 +297,11 @@
+          class=\\"form-check form-switch mb-3 null\\"
+@@ -167,10 +313,11 @@
         <div
-          class=\\"text-right\\"
+          class=\\"text-end\\"
         >
           <button
-            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
+            class=\\"btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           disabled=\\"\\"
             type=\\"submit\\"
           >
@@ -765,16 +796,17 @@ exports[`<WAN/> Snapshot: MAC enabled 1`] = `
 - First value
 + Second value
 
-@@ -132,10 +132,63 @@
-            >
+@@ -136,10 +136,69 @@
+            <small>
               Useful in cases, when a specific MAC address is required by your internet service provider.
             </small>
           </div>
         </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"6\\"
 +         >
 +           Current MAC address
@@ -790,16 +822,19 @@ exports[`<WAN/> Snapshot: MAC enabled 1`] = `
 +             value=\\"00:00:00:00:00:00\\"
 +           />
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           MAC address of the WAN interface.
-+         </small>
++           <small>
++             MAC address of the WAN interface.
++           </small>
++         </div>
 +       </div>
 +       <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"7\\"
 +         >
 +           Set the new MAC address
@@ -808,7 +843,7 @@ exports[`<WAN/> Snapshot: MAC enabled 1`] = `
 +           class=\\"input-group\\"
 +         >
 +           <input
-+             class=\\"form-control  is-invalid\\"
++             class=\\"form-control is-invalid\\"
 +             id=\\"7\\"
 +             type=\\"text\\"
 +           />
@@ -818,23 +853,25 @@ exports[`<WAN/> Snapshot: MAC enabled 1`] = `
 +         >
 +           This field is required.
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           Colon is used as a separator, for example 00:11:22:33:44:55
-+         </small>
++           <small>
++             Colon is used as a separator, for example 00:11:22:33:44:55
++           </small>
++         </div>
 +       </div>
         <h2>
           VLAN Settings
         </h2>
         <div
-          class=\\"form-group\\"
-@@ -164,10 +217,11 @@
+          class=\\"form-check form-switch mb-3 null\\"
+@@ -167,10 +226,11 @@
         <div
-          class=\\"text-right\\"
+          class=\\"text-end\\"
         >
           <button
-            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
+            class=\\"btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 +           disabled=\\"\\"
             type=\\"submit\\"
           >
@@ -848,15 +885,16 @@ exports[`<WAN/> Snapshot: VLAN enabled 1`] = `
 - First value
 + Second value
 
-@@ -160,10 +160,59 @@
+@@ -163,10 +163,58 @@
               Useful in cases when a specific VLAN ID is required by your internet service provider.
             </small>
           </div>
         </div>
         <div
-+         class=\\"form-group\\"
++         class=\\"mb-3\\"
 +       >
 +         <label
++           class=\\"form-label\\"
 +           for=\\"6\\"
 +         >
 +           Set the VLAN ID
@@ -873,40 +911,38 @@ exports[`<WAN/> Snapshot: VLAN enabled 1`] = `
 +             type=\\"number\\"
 +             value=\\"1\\"
 +           />
-+           <div
-+             class=\\"input-group-append\\"
++           <button
++             aria-label=\\"Increase\\"
++             class=\\"btn btn-outline-secondary\\"
++             type=\\"button\\"
 +           >
-+             <button
-+               aria-label=\\"Increase\\"
-+               class=\\"btn btn-outline-secondary\\"
-+               type=\\"button\\"
-+             >
-+               <i
-+                 class=\\"fas fa-plus\\"
-+               />
-+             </button>
-+             <button
-+               aria-label=\\"Decrease\\"
-+               class=\\"btn btn-outline-secondary\\"
-+               type=\\"button\\"
-+             >
-+               <i
-+                 class=\\"fas fa-minus\\"
-+               />
-+             </button>
-+           </div>
++             <i
++               class=\\"fas fa-plus\\"
++             />
++           </button>
++           <button
++             aria-label=\\"Decrease\\"
++             class=\\"btn btn-outline-secondary\\"
++             type=\\"button\\"
++           >
++             <i
++               class=\\"fas fa-minus\\"
++             />
++           </button>
 +         </div>
-+         <small
-+           class=\\"form-text text-muted\\"
++         <div
++           class=\\"form-text\\"
 +         >
-+           VLAN ID must be a number in the range between 1 and 4094.
-+         </small>
++           <small>
++             VLAN ID must be a number in the range between 1 and 4094.
++           </small>
++         </div>
 +       </div>
 +       <div
-          class=\\"text-right\\"
+          class=\\"text-end\\"
         >
           <button
-            class=\\"btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
+            class=\\"btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
             type=\\"submit\\""
 `;
 
@@ -926,15 +962,16 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
         IPv4 Settings
       </h2>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="1"
         >
           IPv4 protocol
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="1"
         >
           <option
@@ -955,9 +992,10 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
         </select>
       </div>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="2"
         >
           DHCP hostname
@@ -972,25 +1010,28 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
             value=""
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Hostname which will be provided to DHCP server.
-        </small>
+          <small>
+            Hostname which will be provided to DHCP server.
+          </small>
+        </div>
       </div>
       <h2>
         IPv6 Settings
       </h2>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="3"
         >
           IPv6 protocol
         </label>
         <select
-          class="custom-select"
+          class="form-select"
           id="3"
         >
           <option
@@ -1024,25 +1065,24 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
         MAC Settings
       </h2>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch"
+        <input
+          class="form-check-input"
+          id="4"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="4"
         >
-          <input
-            class="custom-control-input"
-            id="4"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="4"
-          >
-            Custom MAC address
-          </label>
-          <small
-            class="form-text text-muted mt-0 mb-3"
-          >
+          Custom MAC address
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
             Useful in cases, when a specific MAC address is required by your internet service provider.
           </small>
         </div>
@@ -1051,34 +1091,33 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
         VLAN Settings
       </h2>
       <div
-        class="form-group"
+        class="form-check form-switch mb-3 null"
       >
-        <div
-          class="custom-control custom-switch"
+        <input
+          class="form-check-input"
+          id="5"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="5"
         >
-          <input
-            class="custom-control-input"
-            id="5"
-            type="checkbox"
-          />
-          <label
-            class="custom-control-label"
-            for="5"
-          >
-            Enable VLAN
-          </label>
-          <small
-            class="form-text text-muted mt-0 mb-3"
-          >
+          Enable VLAN
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
             Useful in cases when a specific VLAN ID is required by your internet service provider.
           </small>
         </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>
@@ -1113,7 +1152,7 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
               IPv4 connectivity
             </th>
             <td
-              class="text-right"
+              class="text-end"
             >
               <span
                 class="text-secondary"
@@ -1132,7 +1171,7 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
               IPv4 gateway connectivity
             </th>
             <td
-              class="text-right"
+              class="text-end"
             >
               <span
                 class="text-secondary"
@@ -1151,7 +1190,7 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
               IPv6 connectivity
             </th>
             <td
-              class="text-right"
+              class="text-end"
             >
               <span
                 class="text-secondary"
@@ -1170,7 +1209,7 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
               IPv6 gateway connectivity
             </th>
             <td
-              class="text-right"
+              class="text-end"
             >
               <span
                 class="text-secondary"
@@ -1185,10 +1224,10 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
         </tbody>
       </table>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>

@@ -39,7 +39,7 @@ OpenVPNClientsCard.propTypes = {
 function OpenVPNClientsCard({ clients }) {
     return (
         <div className="col mb-4">
-            <div className="card h-100 user-select-none">
+            <div className="card h-100">
                 <div className="card-body">
                     <h6 className="text-uppercase text-muted mb-2">
                         {_("OpenVPN Clients")}
@@ -63,7 +63,7 @@ function OpenVPNClientsCard({ clients }) {
                                                 <th scope="row">
                                                     <span>{client.id}</span>
                                                 </th>
-                                                <td className="text-right">
+                                                <td className="text-end">
                                                     <span
                                                         className={`text-${
                                                             client.enabled

@@ -16,9 +16,10 @@ exports[`Hostname Snapshot 1`] = `
         Hostname Settings
       </h2>
       <div
-        class="form-group"
+        class="mb-3"
       >
         <label
+          class="form-label"
           for="1"
         >
           Device hostname
@@ -33,17 +34,19 @@ exports[`Hostname Snapshot 1`] = `
             value="turris"
           />
         </div>
-        <small
-          class="form-text text-muted"
+        <div
+          class="form-text"
         >
-          Rewrite the hostname to set a new one.
-        </small>
+          <small>
+            Rewrite the hostname to set a new one.
+          </small>
+        </div>
       </div>
       <div
-        class="text-right"
+        class="text-end"
       >
         <button
-          class="btn btn-primary col-sm-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
           type="submit"
         >
           <span>

@@ -1,50 +1,31 @@
-.notification-item i svg {
-    display: flex;
+
+.dropdown-item .btn-close {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
+    font-size: 0.8rem;
 }
 
-/* Align dismiss icon with cog icon in header */
-.notification-item .dismiss {
-    width: 1.75rem;
-    flex-shrink: 0;
+.dropdown-item a:hover,
+.dropdown-item:hover a,
+.dropdown-item a:hover small,
+.dropdown-item:hover small {
+    color: #fff !important;
 }
 
-.notification-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem 1.5rem;
+.dropdown-item i {
+    opacity: 0.9;
+    color: var(--bs-primary);
 }
 
-.notification-item button {
-    padding: 0;
+.dropdown-item:hover i {
+    color: #fff !important;
 }
 
-.notification-item + .dropdown-divider {
-    margin: 0;
+.dropdown-item i > .fa-power-off,
+.dropdown-item i > .fa-exclamation-circle {
+    color: #e74c3c;
 }
 
-.notification-item:hover {
-    background: white;
-    color: #95a5a6;
-}
-
-.notification-item:hover i > svg {
-    opacity: 0.7;
-}
-
-.notifications-info {
-    flex-grow: 1;
-    min-width: 0;
-    padding-left: 1rem;
-    padding-right: 0.5rem;
-}
-
-.notifications-info p {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-bottom: 0.3em;
-}
-
-.dismiss i svg {
-    margin: 0 auto;
+.dropdown-item:hover i > .fa-power-off,
+.dropdown-item:hover i > .fa-exclamation-circle {
+    color: #fff;
 }

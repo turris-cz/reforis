@@ -89,7 +89,7 @@ AddStaticLeaseButton.propTypes = {
 
 function AddStaticLeaseButton({ addStaticLease }) {
     return (
-        <div className="text-right">
+        <div className="text-end">
             <Button
                 className="btn-outline-primary"
                 forisFormSize

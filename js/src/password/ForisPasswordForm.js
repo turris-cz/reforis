@@ -113,7 +113,7 @@ export default function ForisPasswordForm({
                         disabled={disabled}
                     />
                 )}
-                <div className="text-right">
+                <div className="text-end">
                     <SubmitButton
                         state={submitButtonState}
                         disabled={

@@ -27,7 +27,7 @@ export default function GuideFinished() {
                     "To further improve your security consider installing data collection plugin (via Package Management). This will allow you to be part of our security research to discover new attackers and give you access to dynamic firewall updates blocking known attackers."
                 )}
             </p>
-            <div className="text-right">
+            <div className="text-end">
                 <Button forisFormSize onClick={onGuideFinishHandler}>
                     {_("Continue")}
                 </Button>

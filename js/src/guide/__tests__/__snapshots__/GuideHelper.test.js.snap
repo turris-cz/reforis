@@ -26,11 +26,13 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
         class="dropdown"
       >
         <button
-          class="nav-item btn guide-controls-button btn-light"
+          aria-expanded="false"
+          class="nav-item btn guide-controls-button btn-light fw-bold text-body text-decoration-none"
+          data-bs-toggle="dropdown"
           type="button"
         >
           <div
-            class="spinner-border spinner-border-sm"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -38,16 +40,23 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
             />
           </div>
         </button>
-        <div
-          class="dropdown-menu dropdown-menu-right shadow-sm"
+        <ul
+          class="dropdown-menu dropdown-menu-end shadow-sm"
           id="languages-dropdown-menu"
         >
           <div
             class="dropdown-header"
           >
-            <h5>
-              Languages
-            </h5>
+            <a
+              class="text-decoration-none"
+              href="/package-management/languages"
+            >
+              <h5
+                class="mb-0 text-body"
+              >
+                Languages
+              </h5>
+            </a>
           </div>
           <div
             class="dropdown-divider"
@@ -60,7 +69,7 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
               class="sr-only"
             />
           </div>
-        </div>
+        </ul>
       </div>
       <button
         class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
@@ -69,10 +78,9 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
       >
         <span>
           <span
-            class="d-none d-sm-block"
+            class="d-none d-sm-inline-block me-1"
           >
             Skip guide
-             
           </span>
           <i
             class="fas fa-forward"
@@ -140,11 +148,13 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
         class="dropdown"
       >
         <button
-          class="nav-item btn guide-controls-button btn-light"
+          aria-expanded="false"
+          class="nav-item btn guide-controls-button btn-light fw-bold text-body text-decoration-none"
+          data-bs-toggle="dropdown"
           type="button"
         >
           <div
-            class="spinner-border spinner-border-sm"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -152,16 +162,23 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
             />
           </div>
         </button>
-        <div
-          class="dropdown-menu dropdown-menu-right shadow-sm"
+        <ul
+          class="dropdown-menu dropdown-menu-end shadow-sm"
           id="languages-dropdown-menu"
         >
           <div
             class="dropdown-header"
           >
-            <h5>
-              Languages
-            </h5>
+            <a
+              class="text-decoration-none"
+              href="/package-management/languages"
+            >
+              <h5
+                class="mb-0 text-body"
+              >
+                Languages
+              </h5>
+            </a>
           </div>
           <div
             class="dropdown-divider"
@@ -174,7 +191,7 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
               class="sr-only"
             />
           </div>
-        </div>
+        </ul>
       </div>
       <button
         class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
@@ -183,10 +200,9 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
       >
         <span>
           <span
-            class="d-none d-sm-block"
+            class="d-none d-sm-inline-block me-1"
           >
             Skip guide
-             
           </span>
           <i
             class="fas fa-forward"
@@ -233,11 +249,13 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
         class="dropdown"
       >
         <button
-          class="nav-item btn guide-controls-button btn-light"
+          aria-expanded="false"
+          class="nav-item btn guide-controls-button btn-light fw-bold text-body text-decoration-none"
+          data-bs-toggle="dropdown"
           type="button"
         >
           <div
-            class="spinner-border spinner-border-sm"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -245,16 +263,23 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
             />
           </div>
         </button>
-        <div
-          class="dropdown-menu dropdown-menu-right shadow-sm"
+        <ul
+          class="dropdown-menu dropdown-menu-end shadow-sm"
           id="languages-dropdown-menu"
         >
           <div
             class="dropdown-header"
           >
-            <h5>
-              Languages
-            </h5>
+            <a
+              class="text-decoration-none"
+              href="/package-management/languages"
+            >
+              <h5
+                class="mb-0 text-body"
+              >
+                Languages
+              </h5>
+            </a>
           </div>
           <div
             class="dropdown-divider"
@@ -267,7 +292,7 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
               class="sr-only"
             />
           </div>
-        </div>
+        </ul>
       </div>
       <button
         class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
@@ -276,10 +301,9 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
       >
         <span>
           <span
-            class="d-none d-sm-block"
+            class="d-none d-sm-inline-block me-1"
           >
             Skip guide
-             
           </span>
           <i
             class="fas fa-forward"
@@ -328,11 +352,13 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
         class="dropdown"
       >
         <button
-          class="nav-item btn guide-controls-button btn-light"
+          aria-expanded="false"
+          class="nav-item btn guide-controls-button btn-light fw-bold text-body text-decoration-none"
+          data-bs-toggle="dropdown"
           type="button"
         >
           <div
-            class="spinner-border spinner-border-sm"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -340,16 +366,23 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
             />
           </div>
         </button>
-        <div
-          class="dropdown-menu dropdown-menu-right shadow-sm"
+        <ul
+          class="dropdown-menu dropdown-menu-end shadow-sm"
           id="languages-dropdown-menu"
         >
           <div
             class="dropdown-header"
           >
-            <h5>
-              Languages
-            </h5>
+            <a
+              class="text-decoration-none"
+              href="/package-management/languages"
+            >
+              <h5
+                class="mb-0 text-body"
+              >
+                Languages
+              </h5>
+            </a>
           </div>
           <div
             class="dropdown-divider"
@@ -362,7 +395,7 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
               class="sr-only"
             />
           </div>
-        </div>
+        </ul>
       </div>
       <button
         class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
@@ -371,10 +404,9 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
       >
         <span>
           <span
-            class="d-none d-sm-block"
+            class="d-none d-sm-inline-block me-1"
           >
             Skip guide
-             
           </span>
           <i
             class="fas fa-forward"

@@ -115,7 +115,7 @@ export default function TestNotification({
                             "Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox."
                         )}
                     </p>
-                    <div className="text-right">
+                    <div className="text-end">
                         <Button
                             forisFormSize
                             loading={postIsSending}

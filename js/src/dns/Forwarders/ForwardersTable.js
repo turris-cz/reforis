@@ -85,26 +85,21 @@ function ForwardersTableRow({
     return (
         <tr>
             <td>
-                <div className="custom-control custom-radio">
-                    <input
-                        checked={active}
-                        type="radio"
-                        id={forwarder.name}
-                        value={forwarder.name}
-                        name="dns-forwarders"
-                        className="custom-control-input"
-                        onChange={setFormValue((value) => ({
-                            forwarder: { $set: value },
-                        }))}
-                        disabled={disabled}
-                    />
-                    <label
-                        className="custom-control-label"
-                        htmlFor={forwarder.name}
-                    >
-                        {forwarder.description || forwarder.name}
-                    </label>
-                </div>
+                <input
+                    checked={active}
+                    type="radio"
+                    id={forwarder.name}
+                    value={forwarder.name}
+                    name="dns-forwarders"
+                    className="form-check-input me-2"
+                    onChange={setFormValue((value) => ({
+                        forwarder: { $set: value },
+                    }))}
+                    disabled={disabled}
+                />
+                <label className="form-check-label" htmlFor={forwarder.name}>
+                    {forwarder.description || forwarder.name}
+                </label>
             </td>
             <td align="right">
                 {forwarder.editable && (
@@ -139,7 +134,7 @@ function ForwarderActions({ forwarder, editForwarder, disabled }) {
                 className="btn-primary btn-sm"
                 disabled={buttonDisabled}
             >
-                <i className="fas fa-edit fa-sm mr-1" />
+                <i className="fas fa-edit fa-sm me-1" />
                 {_("Edit")}
             </Button>
             <Button
@@ -147,7 +142,7 @@ function ForwarderActions({ forwarder, editForwarder, disabled }) {
                 className="btn-danger btn-sm"
                 disabled={buttonDisabled}
             >
-                <i className="fas fa-trash fa-sm mr-1" />
+                <i className="fas fa-trash fa-sm me-1" />
                 {_("Delete")}
             </Button>
         </div>

@@ -53,8 +53,8 @@ function Navigation({ pages, location }) {
                 <button
                     type="button"
                     className="btn btn-lg btn-primary"
-                    data-toggle="collapse"
-                    data-target="#navigation-container-collapse"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navigation-container-collapse"
                     aria-expanded="false"
                     aria-controls="navigation-container-collapse"
                 >

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -8,10 +8,16 @@
 import React from "react";
 
 import { useCustomizationContext } from "foris";
-import ReactTooltip from "react-tooltip";
+
+import useTooltip from "utils/useTooltip";
 
 function About() {
     const { deviceDetails, isCustomized } = useCustomizationContext();
+    const tooltip = useTooltip(
+        _(
+            "Turris OS is currently released in various branches, which have different functions and varying stability - you can pick, which branch you want to test."
+        )
+    );
 
     return (
         <>
@@ -50,17 +56,8 @@ function About() {
                             <th>
                                 {_("Turris OS branch")}
                                 <i
-                                    className="fas fa-question-circle ml-1 help"
-                                    data-tip={_(
-                                        "Turris OS is currently released in various branches, which have different functions and varying stability - you can pick, which branch you want to test."
-                                    )}
-                                    data-event="click focus"
-                                    data-for="branches"
-                                />
-                                <ReactTooltip
-                                    effect="solid"
-                                    globalEventOff="click"
-                                    id="branches"
+                                    className="fas fa-question-circle ms-1 help"
+                                    ref={tooltip}
                                 />
                             </th>
                             <td>
@@ -71,7 +68,7 @@ function About() {
                                 >
                                     {deviceDetails.os_branch.value.toUpperCase()}
                                     <sup>
-                                        <i className="fas fa-external-link-alt fa-sm ml-1" />
+                                        <i className="fas fa-external-link-alt fa-sm ms-1" />
                                     </sup>
                                 </a>
                             </td>
