@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -11,6 +11,7 @@ import PropTypes from "prop-types";
 
 import useNotifications, { useNewNotification } from "notifications/hooks";
 
+import DarkModeDropdown from "./darkModeDropdown/DarkModeDropdown";
 import LanguagesDropdown from "./languagesDropdown/LanguagesDropdown";
 import LogoutButton from "./LogoutButton";
 import NotificationsDropdown from "./NotificationsDropdown/NotificationsDropdown";
@@ -37,6 +38,7 @@ export default function TopBar({ ws }) {
                 newNotification={newNotification}
             />
             <LanguagesDropdown ws={ws} />
+            <DarkModeDropdown />
             <LogoutButton />
         </>
     );

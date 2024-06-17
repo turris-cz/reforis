@@ -26,6 +26,7 @@ import "./app.scss";
 
 import Guide from "guide/Guide";
 import Main from "main/Main";
+import { ThemeContextProvider } from "main/themeContext";
 import RouterStateHandler from "routerStateHandler/RouterStateHandler";
 
 pdfMake.vfs = pdfFonts.pdfMake.vfs;
@@ -42,16 +43,20 @@ window.addEventListener(
         const mainContainer = document.getElementById("app-container");
         if (guideContainer) {
             render(
-                <CustomizationContextProvider>
-                    <Guide ws={ws} />
-                </CustomizationContextProvider>,
+                <ThemeContextProvider>
+                    <CustomizationContextProvider>
+                        <Guide ws={ws} />
+                    </CustomizationContextProvider>
+                </ThemeContextProvider>,
                 guideContainer
             );
         } else if (mainContainer) {
             render(
-                <CustomizationContextProvider>
-                    <Main ws={ws} />
-                </CustomizationContextProvider>,
+                <ThemeContextProvider>
+                    <CustomizationContextProvider>
+                        <Main ws={ws} />
+                    </CustomizationContextProvider>
+                </ThemeContextProvider>,
                 mainContainer
             );
         }

@@ -29,7 +29,7 @@ export default function NotificationsDropdownButton({
     } else {
         componentContent = (
             <div className="position-relative">
-                <i className="fas fa-bell fa-lg" />
+                <i className="fa-solid fa-bell fa-lg" />
                 {notificationsCount !== 0 && (
                     <NotificationCounter
                         notificationsCount={notificationsCount}

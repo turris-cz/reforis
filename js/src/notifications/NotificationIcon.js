@@ -34,5 +34,5 @@ export default function NotificationIcon({ severity, className }) {
         default:
     }
 
-    return <i className={`fa fa-${iconName} ${className}`} />;
+    return <i className={`fa-solid fa-${iconName} ${className}`} />;
 }
