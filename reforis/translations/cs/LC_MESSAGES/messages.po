@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-02-22 14:18+0100\n"
-"PO-Revision-Date: 2024-06-06 16:09+0000\n"
+"PO-Revision-Date: 2024-06-25 10:09+0000\n"
 "Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
 "\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.6-rc\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: js/src/about/About.js:18 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -1544,7 +1544,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
-msgstr "Žádné"
+msgstr "Žádný"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:23
 msgid "SSL"
@@ -2655,7 +2655,7 @@ msgstr "Způsobeno"
 
 #: reforis/foris_controller_api/modules/lan.py:35
 msgid "Unknown"
-msgstr "Neznámé"
+msgstr "Neznámý"
 
 #: reforis/foris_controller_api/modules/lan.py:87
 msgid "Can't create DHCP lease."
