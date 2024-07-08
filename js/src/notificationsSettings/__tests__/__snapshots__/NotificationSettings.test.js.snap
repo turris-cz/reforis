@@ -142,7 +142,7 @@ exports[`<NotificationsSettings/> Disabled 1`] = `
         Notification Settings
       </h2>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           checked=""
@@ -197,7 +197,7 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
         Notification Settings
       </h2>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           checked=""
@@ -223,7 +223,7 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
           SMTP provider
         </label>
         <div
-          class="mb-2 form-check form-check-inline"
+          class="mb-3 form-check form-check-inline"
         >
           <input
             class="form-check-input me-2"
@@ -240,7 +240,7 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
           </label>
         </div>
         <div
-          class="mb-2 form-check form-check-inline"
+          class="mb-3 form-check form-check-inline"
         >
           <input
             checked=""
@@ -642,7 +642,7 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
         Notification Settings
       </h2>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           checked=""
@@ -668,7 +668,7 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
           SMTP provider
         </label>
         <div
-          class="mb-2 form-check form-check-inline"
+          class="mb-3 form-check form-check-inline"
         >
           <input
             class="form-check-input me-2"
@@ -685,7 +685,7 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
           </label>
         </div>
         <div
-          class="mb-2 form-check form-check-inline"
+          class="mb-3 form-check form-check-inline"
         >
           <input
             checked=""

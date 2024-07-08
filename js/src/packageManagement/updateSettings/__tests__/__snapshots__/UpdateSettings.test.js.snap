@@ -121,7 +121,7 @@ exports[`<UpdateSettings/> Test with snapshot disabled. 1`] = `
         Automatic Update Settings
       </h2>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -381,7 +381,7 @@ exports[`<UpdateSettings/> Test with snapshot enabled. 1`] = `
 +         class=\\"mb-3\\"
 +       >
 +         <div
-+           class=\\"mb-2\\"
++           class=\\"mb-3\\"
 +         >
 +           <input
 +             class=\\"form-check-input me-2\\"
@@ -405,7 +405,7 @@ exports[`<UpdateSettings/> Test with snapshot enabled. 1`] = `
 +           </label>
 +         </div>
 +         <div
-+           class=\\"mb-2\\"
++           class=\\"mb-3\\"
 +         >
 +           <input
 +             class=\\"form-check-input me-2\\"
@@ -429,7 +429,7 @@ exports[`<UpdateSettings/> Test with snapshot enabled. 1`] = `
 +           </label>
 +         </div>
 +         <div
-+           class=\\"mb-2\\"
++           class=\\"mb-3\\"
 +         >
 +           <input
 +             checked=\\"\\"

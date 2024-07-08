@@ -17,7 +17,7 @@ exports[`<NotificationsDropdown/> Test with snapshot 1`] = `
         class="position-relative"
       >
         <i
-          class="fas fa-bell fa-lg"
+          class="fa-solid fa-bell fa-lg"
         />
         <span
           class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-danger ms-0"
@@ -96,7 +96,7 @@ exports[`<NotificationsDropdown/> Test with snapshot 1`] = `
                     style="transform: rotate(0);"
                   >
                     <i
-                      class="fa fa-newspaper fa-2x me-2"
+                      class="fa-solid fa-newspaper fa-2x me-2"
                     />
                     <a
                       class="d-flex flex-column stretched-link text-decoration-none me-2"
@@ -127,7 +127,7 @@ exports[`<NotificationsDropdown/> Test with snapshot 1`] = `
                     style="transform: rotate(0);"
                   >
                     <i
-                      class="fa fa-exclamation-circle fa-2x me-2"
+                      class="fa-solid fa-exclamation-circle fa-2x me-2"
                     />
                     <a
                       class="d-flex flex-column stretched-link text-decoration-none me-2"
@@ -158,7 +158,7 @@ exports[`<NotificationsDropdown/> Test with snapshot 1`] = `
                     style="transform: rotate(0);"
                   >
                     <i
-                      class="fa fa-power-off fa-2x me-2"
+                      class="fa-solid fa-power-off fa-2x me-2"
                     />
                     <a
                       class="d-flex flex-column stretched-link text-decoration-none me-2"
@@ -189,7 +189,7 @@ exports[`<NotificationsDropdown/> Test with snapshot 1`] = `
                     style="transform: rotate(0);"
                   >
                     <i
-                      class="fa fa-exclamation-circle fa-2x me-2"
+                      class="fa-solid fa-exclamation-circle fa-2x me-2"
                     />
                     <a
                       class="d-flex flex-column stretched-link text-decoration-none me-2"

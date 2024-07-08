@@ -219,7 +219,7 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +         </button>
 +       </div>
 +       <div
-          class=\\"form-check form-switch mb-3 null\\"
+          class=\\"form-check form-switch mb-3\\"
         >
           <input
             checked=\\"\\"
@@ -256,7 +256,7 @@ exports[`<DNS/> Test with snapshot. 1`] = `
         DNS Settings
       </h2>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -272,7 +272,7 @@ exports[`<DNS/> Test with snapshot. 1`] = `
         </label>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           checked=""
@@ -289,7 +289,7 @@ exports[`<DNS/> Test with snapshot. 1`] = `
         </label>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"

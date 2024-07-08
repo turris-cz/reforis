@@ -55,15 +55,18 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
             />
             <li>
               <button
-                class="dropdown-item active fw-bold"
+                class="dropdown-item d-flex align-items-center active fw-bold"
                 type="button"
               >
                 EN
+                <i
+                  class="fa-solid fa-check ms-auto"
+                />
               </button>
             </li>
             <li>
               <button
-                class="dropdown-item"
+                class="dropdown-item d-flex align-items-center"
                 type="button"
               >
                 CS
@@ -71,7 +74,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
             </li>
             <li>
               <button
-                class="dropdown-item"
+                class="dropdown-item d-flex align-items-center"
                 type="button"
               >
                 RU
