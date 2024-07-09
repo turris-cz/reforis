@@ -14,7 +14,7 @@ import useNotifications, { useNewNotification } from "notifications/hooks";
 import DarkModeDropdown from "./darkModeDropdown/DarkModeDropdown";
 import LanguagesDropdown from "./languagesDropdown/LanguagesDropdown";
 import LogoutButton from "./LogoutButton";
-import NotificationsDropdown from "./NotificationsDropdown/NotificationsDropdown";
+import NotificationsDropdown from "./notificationsDropdown/NotificationsDropdown";
 import RebootDropdown from "./rebootDropdown/RebootDropdown";
 import UpdatesDropdown from "./updatesDropdown/UpdatesDropdown";
 

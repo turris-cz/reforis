@@ -16,7 +16,7 @@ import {
     dismiss,
 } from "./__fixtures__/notifications";
 
-import NotificationsDropdown from "../../main/TopBar/NotificationsDropdown/NotificationsDropdown";
+import NotificationsDropdown from "../../main/TopBar/notificationsDropdown/NotificationsDropdown";
 
 describe("<NotificationsDropdown/>", () => {
     let notificationCenterContainer;
