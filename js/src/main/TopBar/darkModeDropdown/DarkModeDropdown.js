@@ -9,7 +9,7 @@ import React from "react";
 
 import smallScreenWidth from "utils/constants";
 import DarkModeDropdownButton from "./DarkModeDropdownButton";
-import { useThemeContext } from "main/themeContext";
+import { useThemeContext } from "context/themeContext";
 
 const darkModeOptions = [
     {

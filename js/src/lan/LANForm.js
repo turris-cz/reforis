@@ -10,7 +10,7 @@ import React, { useContext } from "react";
 import { CheckBox, Select } from "foris";
 import PropTypes from "prop-types";
 
-import { CustomizationContext } from "main/customizationContext";
+import { CustomizationContext } from "context/customizationContext";
 
 import LANManagedForm from "./LANManagedForm";
 import LANUnmanagedForm from "./LANUnmanagedForm";

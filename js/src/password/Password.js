@@ -22,7 +22,7 @@ import {
 import PropTypes from "prop-types";
 
 import API_URLs from "common/API";
-import { CustomizationContext } from "main/customizationContext";
+import { CustomizationContext } from "context/customizationContext";
 
 import ForisPasswordForm from "./ForisPasswordForm";
 import RootPasswordForm from "./RootPasswordForm";

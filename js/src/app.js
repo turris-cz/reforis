@@ -26,7 +26,7 @@ import "./app.scss";
 
 import Guide from "guide/Guide";
 import Main from "main/Main";
-import { ThemeContextProvider } from "main/themeContext";
+import { ThemeContextProvider } from "context/themeContext";
 import RouterStateHandler from "routerStateHandler/RouterStateHandler";
 
 pdfMake.vfs = pdfFonts.pdfMake.vfs;

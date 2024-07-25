@@ -21,7 +21,7 @@ import { ALERT_TYPES } from "foris";
 import { mockJSONError } from "foris/testUtils/network";
 import { mockSetAlert } from "foris/testUtils/alertContextMock";
 
-import { CustomizationProvider } from "../../main/customizationContext";
+import { CustomizationProvider } from "../../context/customizationContext";
 import Password from "../Password";
 
 describe("<Password/>", () => {
