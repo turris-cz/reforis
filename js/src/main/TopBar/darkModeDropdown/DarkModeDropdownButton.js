@@ -7,7 +7,16 @@
 
 import React from "react";
 
+import PropTypes from "prop-types";
+
 import "./DarkModeDropdownButton.css";
+
+DarkModeDropdownButton.propTypes = {
+    label: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
+    onClick: PropTypes.func.isRequired,
+    active: PropTypes.bool.isRequired,
+};
 
 function DarkModeDropdownButton({ label, icon, onClick, active }) {
     return (

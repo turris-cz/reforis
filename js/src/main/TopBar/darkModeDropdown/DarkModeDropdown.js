@@ -7,9 +7,12 @@
 
 import React from "react";
 
-import smallScreenWidth from "utils/constants";
-import DarkModeDropdownButton from "./DarkModeDropdownButton";
+import PropTypes from "prop-types";
+
 import { useThemeContext } from "context/themeContext";
+import smallScreenWidth from "utils/constants";
+
+import DarkModeDropdownButton from "./DarkModeDropdownButton";
 
 const darkModeOptions = [
     {
@@ -28,6 +31,10 @@ const darkModeOptions = [
         theme: "auto",
     },
 ];
+
+DarkModeToggle.propTypes = {
+    className: PropTypes.string,
+};
 
 function DarkModeToggle({ className }) {
     const { theme, setTheme } = useThemeContext();

@@ -6,6 +6,7 @@
  */
 
 import React, { useState, useEffect, createContext, useContext } from "react";
+
 import PropTypes from "prop-types";
 
 const ThemeContext = createContext({
@@ -15,7 +16,7 @@ const ThemeContext = createContext({
 
 export const ThemeProvider = ThemeContext.Provider;
 
-ThemeProvider.propTypes = {
+ThemeContextProvider.propTypes = {
     children: PropTypes.oneOfType([
         PropTypes.arrayOf(PropTypes.node),
         PropTypes.node,
@@ -24,6 +25,11 @@ ThemeProvider.propTypes = {
 
 function ThemeContextProvider({ children }) {
     const [theme, setTheme] = useState("auto");
+
+    // Apply theme to the document
+    const applyTheme = (selectedTheme) => {
+        document.documentElement.setAttribute("data-bs-theme", selectedTheme);
+    };
 
     // Initialize theme based on localStorage and media query
     useEffect(() => {
@@ -54,11 +60,6 @@ function ThemeContextProvider({ children }) {
             applyTheme(theme);
         }
     }, [theme]);
-
-    // Apply theme to the document
-    const applyTheme = (theme) => {
-        document.documentElement.setAttribute("data-bs-theme", theme);
-    };
 
     // Handle theme change and save to localStorage
     const handleThemeChange = (newTheme) => {
