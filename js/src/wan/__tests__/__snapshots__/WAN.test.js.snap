@@ -364,7 +364,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
           MAC Settings
         </h2>
         <div
-          class=\\"form-check form-switch mb-3 null\\""
+          class=\\"form-check form-switch mb-3\\""
 `;
 
 exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
@@ -510,7 +510,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
           MAC Settings
         </h2>
         <div
-          class=\\"form-check form-switch mb-3 null\\"
+          class=\\"form-check form-switch mb-3\\"
 @@ -167,10 +295,11 @@
         <div
           class=\\"text-end\\"
@@ -567,7 +567,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6to4). 1`] = `
           MAC Settings
         </h2>
         <div
-          class=\\"form-check form-switch mb-3 null\\""
+          class=\\"form-check form-switch mb-3\\""
 `;
 
 exports[`<WAN/> Snapshot WAN IPv6 (DHCPv6). 1`] = `
@@ -612,7 +612,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (DHCPv6). 1`] = `
           MAC Settings
         </h2>
         <div
-          class=\\"form-check form-switch mb-3 null\\""
+          class=\\"form-check form-switch mb-3\\""
 `;
 
 exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
@@ -776,7 +776,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (static). 1`] = `
           MAC Settings
         </h2>
         <div
-          class=\\"form-check form-switch mb-3 null\\"
+          class=\\"form-check form-switch mb-3\\"
 @@ -167,10 +313,11 @@
         <div
           class=\\"text-end\\"
@@ -865,7 +865,7 @@ exports[`<WAN/> Snapshot: MAC enabled 1`] = `
           VLAN Settings
         </h2>
         <div
-          class=\\"form-check form-switch mb-3 null\\"
+          class=\\"form-check form-switch mb-3\\"
 @@ -167,10 +226,11 @@
         <div
           class=\\"text-end\\"
@@ -1065,7 +1065,7 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
         MAC Settings
       </h2>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -1091,7 +1091,7 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
         VLAN Settings
       </h2>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"

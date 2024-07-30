@@ -1,0 +1,7 @@
+li button.dropdown-item i svg.fa-moon {
+    width: 1rem;
+}
+
+li button.dropdown-item.active i svg {
+    color: white;
+}

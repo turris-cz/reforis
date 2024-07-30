@@ -496,7 +496,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
         class="card-header"
       >
         <i
-          class="fa fa-newspaper fa-lg"
+          class="fa-solid fa-newspaper fa-lg"
         />
         <p
           class="text-muted align-middle m-0"
@@ -526,7 +526,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
         class="card-header"
       >
         <i
-          class="fa fa-exclamation-circle fa-lg"
+          class="fa-solid fa-exclamation-circle fa-lg"
         />
         <p
           class="text-muted align-middle m-0"
@@ -556,7 +556,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
         class="card-header"
       >
         <i
-          class="fa fa-power-off fa-lg"
+          class="fa-solid fa-power-off fa-lg"
         />
         <p
           class="text-muted align-middle m-0"

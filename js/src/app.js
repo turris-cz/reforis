@@ -24,6 +24,7 @@ import "@fortawesome/fontawesome-free/js/all.min";
 // Styles go here:
 import "./app.scss";
 
+import { ThemeContextProvider } from "context/themeContext";
 import Guide from "guide/Guide";
 import Main from "main/Main";
 import RouterStateHandler from "routerStateHandler/RouterStateHandler";
@@ -42,16 +43,20 @@ window.addEventListener(
         const mainContainer = document.getElementById("app-container");
         if (guideContainer) {
             render(
-                <CustomizationContextProvider>
-                    <Guide ws={ws} />
-                </CustomizationContextProvider>,
+                <ThemeContextProvider>
+                    <CustomizationContextProvider>
+                        <Guide ws={ws} />
+                    </CustomizationContextProvider>
+                </ThemeContextProvider>,
                 guideContainer
             );
         } else if (mainContainer) {
             render(
-                <CustomizationContextProvider>
-                    <Main ws={ws} />
-                </CustomizationContextProvider>,
+                <ThemeContextProvider>
+                    <CustomizationContextProvider>
+                        <Main ws={ws} />
+                    </CustomizationContextProvider>
+                </ThemeContextProvider>,
                 mainContainer
             );
         }

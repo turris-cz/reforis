@@ -5,3 +5,6 @@
  * See /LICENSE for more information.
  */
 
+[data-bs-theme="dark"] .dropdown-menu li button.dropdown-item.active:hover {
+    background-color: #00a2e275;
+}

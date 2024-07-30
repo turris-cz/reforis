@@ -22,7 +22,7 @@ import {
     lanCustomSettingsFixture,
 } from "./__fixtures__/lanSettings";
 
-import { CustomizationProvider } from "../../main/customizationContext";
+import { CustomizationProvider } from "../../context/customizationContext";
 import LAN from "../LAN";
 
 describe("<LAN/>", () => {

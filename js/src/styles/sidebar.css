@@ -32,19 +32,28 @@
     white-space: nowrap;
 }
 
+[data-bs-theme="dark"] #sidebar ul li a {
+    color: var(--bs-body-color);
+}
+
 #sidebar img {
     max-height: 4rem;
     width: 14rem;
 }
 
 #sidebar a svg {
-    color: white;
+    color: #fff;
     /* Fill is used for custom svg sprite icons */
-    fill: white;
+    fill: #fff;
     /* Keep custom icons in the same size as fa icon */
     height: 1em;
     width: 1em;
     margin-right: 1em;
+}
+
+[data-bs-theme="dark"] #sidebar a svg {
+    color: var(--bs-body-color);
+    fill: var(--bs-body-color);
 }
 
 #sidebar a.active {
@@ -58,14 +67,23 @@
     fill: #fff;
 }
 
+[data-bs-theme="dark"] #sidebar a.active {
+    color: #fff;
+}
+
+[data-bs-theme="dark"] #sidebar a.active svg {
+    color: #fff;
+    fill: #fff;
+}
+
 #sidebar a:hover svg {
-    color: white;
+    color: #fff;
     /* Fill is used for custom svg sprite icons */
-    fill: white;
+    fill: #fff;
 }
 
 #sidebar ul li a:hover {
-    color: white;
+    color: #fff;
     background: #00a2e275;
     text-decoration: none;
 }

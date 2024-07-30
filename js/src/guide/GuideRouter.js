@@ -17,7 +17,7 @@ import {
 import PropTypes from "prop-types";
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 
-import { CustomizationProvider } from "main/customizationContext";
+import { CustomizationProvider } from "context/customizationContext";
 
 import { GUIDE_URL_PREFIX } from "./constants";
 import GuideNavigation from "./GuideNavigation/GuideNavigation";

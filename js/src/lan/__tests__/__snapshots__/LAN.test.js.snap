@@ -115,7 +115,7 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
         </div>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -546,7 +546,7 @@ exports[`<LAN/> Snapshot managed. 1`] = `
         </div>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -1176,7 +1176,7 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
         </div>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -1546,7 +1546,7 @@ exports[`Customized <LAN/> Snapshot managed. 1`] = `
         </div>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"

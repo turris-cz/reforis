@@ -25,7 +25,7 @@ exports[`<GuestNetwork/> Snapshot disabled. 1`] = `
         Guest Network Settings
       </h2>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -92,7 +92,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         Guest Network Settings
       </h2>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -157,7 +157,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         </div>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -288,7 +288,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
         </div>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -378,7 +378,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         Guest Network Settings
       </h2>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -443,7 +443,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         </div>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -466,7 +466,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
         </div>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -644,7 +644,7 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
         Guest Network Settings
       </h2>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -709,7 +709,7 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
         </div>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"
@@ -732,7 +732,7 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
         </div>
       </div>
       <div
-        class="form-check form-switch mb-3 null"
+        class="form-check form-switch mb-3"
       >
         <input
           class="form-check-input"

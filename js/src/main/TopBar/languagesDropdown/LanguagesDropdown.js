@@ -69,12 +69,15 @@ export default function LanguagesDropdown({ ws, className }) {
                             <button
                                 key={lang}
                                 type="button"
-                                className={`dropdown-item ${lang === currentLang ? "active fw-bold" : ""}`.trim()}
+                                className={`dropdown-item d-flex align-items-center ${lang === currentLang ? "active fw-bold" : ""}`.trim()}
                                 onClick={() =>
                                     post({ data: { language: lang } })
                                 }
                             >
                                 {lang.toUpperCase()}
+                                {lang === currentLang && (
+                                    <i className="fa-solid fa-check ms-auto" />
+                                )}
                             </button>
                         </li>
                     ))
