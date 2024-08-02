@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-02-22 14:18+0100\n"
-"PO-Revision-Date: 2024-04-21 14:07+0000\n"
+"PO-Revision-Date: 2024-08-03 21:09+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: js/src/about/About.js:18 js/src/main/pages.js:102 js/src/main/pages.js:221
@@ -1538,7 +1538,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
-msgstr "Žiadne"
+msgstr "Žiadny"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:23
 msgid "SSL"
@@ -1571,7 +1571,7 @@ msgstr "Zabezpečenie"
 #: js/src/notificationsSettings/SMTPCustomForm.js:106
 #: js/src/wan/WAN6Form.js:434
 msgid "Username"
-msgstr "Užívateľské meno"
+msgstr "Používateľské meno"
 
 #: js/src/notificationsSettings/SMTPTurrisForm.js:36
 msgid "Sender's name"
@@ -1691,7 +1691,7 @@ msgstr "Aktivované"
 #: js/src/overview/Cards/DataCollectionCard.js:47
 #: js/src/overview/Cards/DynamicFirewallCard.js:28
 msgid "Disabled"
-msgstr "Zakázané"
+msgstr "Vypnuté"
 
 #: js/src/overview/Cards/DataCollectionCard.js:44
 msgid "Threat Detection"
