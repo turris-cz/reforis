@@ -7,24 +7,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-22 14:18+0100\n"
+"POT-Creation-Date: 2024-08-05 16:48+0300\n"
 "PO-Revision-Date: 2024-06-16 18:09+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
-"reforis/nb_NO/>\n"
 "Language: nb_NO\n"
+"Language-Team: Norwegian Bokmål "
+"<https://hosted.weblate.org/projects/turris/reforis/nb_NO/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: js/src/about/About.js:18 js/src/main/pages.js:102 js/src/main/pages.js:221
+#: js/src/about/About.js:17
+msgid ""
+"Turris OS is currently released in various branches, which have different"
+" functions and varying stability - you can pick, which branch you want to"
+" test."
+msgstr ""
+"Turris OS utgis i forskjellige forgreninger, som har forskjellige "
+"funksjoner og varierende stabilitet – du kan velge den forgreningen du "
+"ønsker å teste."
+
+#: js/src/about/About.js:24 js/src/main/pages.js:94
 msgid "About"
 msgstr "Om"
 
-#: js/src/about/About.js:21
+#: js/src/about/About.js:27
 #, fuzzy
 msgid ""
 "Here you can find some information about your device. Please include it "
@@ -36,37 +45,27 @@ msgstr ""
 "du kontakter vår <a href=\"mailto:tech.support@turris.cz\" "
 "target=\"_blank\">brukerstøtte</a>"
 
-#: js/src/about/About.js:30
+#: js/src/about/About.js:36
 msgid "Device"
 msgstr "Enhet"
 
-#: js/src/about/About.js:38
+#: js/src/about/About.js:44
 msgid "Serial number"
 msgstr "Serienummer"
 
-#: js/src/about/About.js:42
+#: js/src/about/About.js:48
 msgid "reForis version"
 msgstr "reForis-versjon"
 
-#: js/src/about/About.js:46
+#: js/src/about/About.js:52
 msgid "Turris OS version"
 msgstr "Turris OS-versjon"
 
-#: js/src/about/About.js:51
+#: js/src/about/About.js:57
 msgid "Turris OS branch"
 msgstr "Turris OS-forgrening"
 
-#: js/src/about/About.js:54
-msgid ""
-"Turris OS is currently released in various branches, which have different"
-" functions and varying stability - you can pick, which branch you want to"
-" test."
-msgstr ""
-"Turris OS utgis i forskjellige forgreninger, som har forskjellige "
-"funksjoner og varierende stabilitet – du kan velge den forgreningen du "
-"ønsker å teste."
-
-#: js/src/about/About.js:80
+#: js/src/about/About.js:77
 msgid "Kernel version"
 msgstr "Kjerneversjon"
 
@@ -135,7 +134,6 @@ msgstr "Fant ingen klienter."
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:33
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
-#: js/src/main/pages.js:180
 msgid "Hostname"
 msgstr "Vertsnavn"
 
@@ -262,7 +260,7 @@ msgid "DNS server 2"
 msgstr "DNS-tjener 2"
 
 #: js/src/common/network/StaticIPForm.js:111
-#: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:92
+#: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:91
 #: js/src/wan/VLANForm.js:83 js/src/wan/WAN6Form.js:504
 #: js/src/wan/WAN6Form.js:533 js/src/wan/WAN6Form.js:545
 #: js/src/wan/WANForm.js:173
@@ -359,12 +357,12 @@ msgid "Actions"
 msgstr "Handlinger"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:124
-#: js/src/dns/Forwarders/ForwardersTable.js:143
+#: js/src/dns/Forwarders/ForwardersTable.js:138
 msgid "Edit"
 msgstr "Rediger"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:138
-#: js/src/dns/Forwarders/ForwardersTable.js:151
+#: js/src/dns/Forwarders/ForwardersTable.js:146
 msgid "Delete"
 msgstr "Slett"
 
@@ -435,6 +433,11 @@ msgid "Connection test failed"
 msgstr "Tilkoblingstesten mislyktes"
 
 #: js/src/connectionTest/ConnectionTestResult.js:95
+#, fuzzy
+msgid "Connection test cannot be determined"
+msgstr "Tilkoblingstest har ikke startet"
+
+#: js/src/connectionTest/ConnectionTestResult.js:100
 msgid "Connection test not started"
 msgstr "Tilkoblingstest har ikke startet"
 
@@ -586,7 +589,7 @@ msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr "«Ingen TLS» betyr at vanlig UDP-basert DNS-protokoll brukes."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
-#: js/src/packageManagement/updates/UpdateApproval.js:150
+#: js/src/packageManagement/updates/UpdateApproval.js:140
 msgid "Name"
 msgstr "Navn"
 
@@ -658,7 +661,7 @@ msgid "Define at least one of the IP addresses of the forwarder."
 msgstr "Definer minst én av IP-adressene til videresenderen."
 
 #: js/src/guestNetwork/GuestNetwork.js:38 js/src/interfaces/constants.js:11
-#: js/src/main/pages.js:147
+#: js/src/main/pages.js:60
 msgid "Guest Network"
 msgstr "Gjestenettverk"
 
@@ -978,7 +981,7 @@ msgstr "Din enhet skal nå være klar til å fungere som tjener i ditt lokalnett
 msgid "Cannot mark guide as finished."
 msgstr "Kan ikke markere guide som fullført."
 
-#: js/src/guide/steps.js:21 js/src/main/pages.js:69 js/src/main/pages.js:160
+#: js/src/guide/steps.js:21 js/src/main/pages.js:73
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
 #: js/src/password/Password.js:175
 msgid "Password"
@@ -988,7 +991,7 @@ msgstr "Passord"
 msgid "Workflow"
 msgstr "Arbeidsflyt"
 
-#: js/src/guide/steps.js:29 js/src/main/pages.js:142
+#: js/src/guide/steps.js:29 js/src/main/pages.js:55
 msgid "Interfaces"
 msgstr "Grensesnitt"
 
@@ -996,23 +999,24 @@ msgstr "Grensesnitt"
 msgid "Time"
 msgstr "Tid"
 
-#: js/src/guide/steps.js:37 js/src/main/pages.js:56 js/src/main/pages.js:137
+#: js/src/guide/steps.js:37 js/src/main/pages.js:47 js/src/main/pages.js:53
 msgid "DNS"
 msgstr "DNS"
 
-#: js/src/guide/steps.js:41 js/src/main/pages.js:193
-#: js/src/packageManagement/updates/Updates.js:28
+#: js/src/guide/steps.js:41
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
+#: js/src/main/pages.js:113 js/src/packageManagement/updates/Updates.js:28
 #, fuzzy
 msgid "Updates"
 msgstr "Oppdateringer"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
-#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:29
+#: js/src/main/pages.js:45 js/src/main/pages.js:51 js/src/wan/WAN.js:29
 msgid "WAN"
 msgstr "WAN"
 
 #: js/src/guide/steps.js:49 js/src/interfaces/constants.js:10
-#: js/src/main/pages.js:51 js/src/main/pages.js:132
+#: js/src/main/pages.js:46 js/src/main/pages.js:52
 msgid "LAN"
 msgstr "LAN"
 
@@ -1357,77 +1361,93 @@ msgstr "Ikke koble til denne enheten til LAN"
 msgid "IPv4 protocol"
 msgstr "IPv4-protokoll"
 
-#: js/src/main/pages.js:34 js/src/main/pages.js:110
-#: js/src/overview/Overview.js:43
+#: js/src/main/pages.js:31 js/src/overview/Overview.js:43
 msgid "Overview"
 msgstr "Oversikt"
 
-#: js/src/main/pages.js:40 js/src/main/pages.js:116
+#: js/src/main/pages.js:38
 msgid "Network Settings"
 msgstr "Nettverksinnstillinger"
 
-#: js/src/main/pages.js:63 js/src/main/pages.js:154
+#: js/src/main/pages.js:50 js/src/wifi/WiFi.js:40
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: js/src/main/pages.js:68
 msgid "Administration"
 msgstr "Administrasjon"
 
-#: js/src/main/pages.js:74 js/src/main/pages.js:165
+#: js/src/main/pages.js:75
 #, fuzzy
 msgid "Region & Time"
 msgstr "Tid og sted"
 
-#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:78
-#: js/src/main/pages.js:79 js/src/main/pages.js:170
-#: js/src/notifications/Notifications/Notifications.js:88
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:79
+#: js/src/main/pages.js:80
+#: js/src/notifications/Notifications/Notifications.js:71
 #: js/src/notificationsSettings/NotificationsSettings.js:26
 msgid "Notifications"
 msgstr "Merknader"
 
-#: js/src/main/pages.js:84 js/src/main/pages.js:175
-#: js/src/maintenance/Maintenance.js:19
+#: js/src/main/pages.js:85 js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
 msgstr "Vedlikehold"
 
-#: js/src/main/pages.js:96
+#: js/src/main/pages.js:101
 msgid "Global Threat Statistics"
 msgstr "Global trusselstatistikk"
 
-#: js/src/main/pages.js:122 js/src/wifi/WiFi.js:40
-msgid "Wi-Fi"
-msgstr "Wi-Fi"
-
-#: js/src/main/pages.js:187
+#: js/src/main/pages.js:108
 msgid "Package Management"
 msgstr "Pakkebehandling"
 
-#: js/src/main/pages.js:198
+#: js/src/main/pages.js:115
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:29
 msgid "Update Settings"
 msgstr "Oppdateringsinnstillinger"
 
-#: js/src/main/pages.js:203 js/src/packageManagement/packages/Packages.js:20
+#: js/src/main/pages.js:119 js/src/packageManagement/packages/Packages.js:20
 msgid "Packages"
 msgstr "Pakker"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:51
-#: js/src/main/pages.js:208 js/src/packageManagement/languages/Languages.js:20
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:62
+#: js/src/main/pages.js:120 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr "Språk"
 
-#: js/src/main/pages.js:215
+#: js/src/main/pages.js:125
 msgid "Advanced Administration"
 msgstr "Avansert administrasjon"
 
-#: js/src/main/TopBar/LogoutButton.js:21
+#: js/src/main/TopBar/LogoutButton.js:15
 #, fuzzy
 msgid "Logout"
 msgstr "Logg ut"
 
-#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:37
-#: js/src/notifications/Notifications/Notifications.js:73
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:19
+msgid "Light"
+msgstr ""
+
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:24
+msgid "Dark"
+msgstr ""
+
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:29
+#, fuzzy
+msgid "Auto"
+msgstr "Om"
+
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:59
+#, fuzzy
+msgid "Dark Mode"
+msgstr "LAN-modus"
+
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:37
+#: js/src/notifications/Notifications/Notifications.js:56
 msgid "No notifications"
 msgstr "Ingen merknader"
 
-#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:106
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:107
 #: js/src/notifications/Notifications/DismissAllButton.js:25
 #, fuzzy
 msgid "Dismiss all"
@@ -1442,26 +1462,27 @@ msgstr "Omstart kreves"
 msgid "Details"
 msgstr "Detaljer"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:101
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:109
 msgid "Approve Update"
 msgstr "Godkjenn oppgradering"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:131
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:138
 #, fuzzy
-msgid ""
-"See details in <a href=${ForisURLs.packageManagement.updates}>Updates</a>"
-" page."
-msgstr ""
-"Sjekk detaljer på <a "
-"href=${ForisURLs.packageManagement.updates}>oppgraderinger</a>-siden."
+msgid "See details in "
+msgstr "Flere detaljer"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
-#: js/src/packageManagement/updates/UpdateApproval.js:128
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:140
+#, fuzzy
+msgid " page."
+msgstr "Pakker"
+
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:147
+#: js/src/packageManagement/updates/UpdateApproval.js:118
 msgid "Install now"
 msgstr "Installer nå"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:152
-#: js/src/packageManagement/updates/UpdateApproval.js:40
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:157
+#: js/src/packageManagement/updates/UpdateApproval.js:39
 msgid "Cannot install updates."
 msgstr "Kan ikke installere oppgraderinger."
 
@@ -1539,6 +1560,10 @@ msgstr ""
 #, fuzzy
 msgid "Enable System Logs Retention"
 msgstr "Skru på ivaretagelse av systemlogger"
+
+#: js/src/notifications/Notifications/NotificationsList.js:97
+msgid "Close"
+msgstr ""
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
@@ -1827,7 +1852,7 @@ msgstr ""
 "Hvis du ønsker å bruke et annet språk enn engelsk kan du velge det i "
 "denne listen:"
 
-#: js/src/packageManagement/packages/PackageCheckBox.js:57
+#: js/src/packageManagement/packages/PackageCheckBox.js:53
 msgid "More details"
 msgstr "Flere detaljer"
 
@@ -2067,26 +2092,27 @@ msgstr "Automatiske oppdateringer"
 msgid "Enable Automatic Updates (recommended)"
 msgstr "Skru på automatiske oppgraderinger (anbefales)"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:44
+#: js/src/packageManagement/updates/UpdateApproval.js:43
 msgid "Updates will be installed shortly."
 msgstr "Oppgraderinger vil snart bli installert."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:62
+#: js/src/packageManagement/updates/UpdateApproval.js:61
 #, python-format
 msgid "There is %d package to be updated."
 msgid_plural "There are %d packages to be updated."
 msgstr[0] "%d pakke venter på å bli oppgradert."
 msgstr[1] "%d pakker venter på oppgradering."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:69
+#: js/src/packageManagement/updates/UpdateApproval.js:68
+#, fuzzy
 msgid ""
-"See <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
-"aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
+"See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
+" aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
 "Vis <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
 "aria-expanded=\"false\" aria-controls=\"plan-wrapper\">detaljer</a>"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:79
+#: js/src/packageManagement/updates/UpdateApproval.js:78
 #, fuzzy
 msgid ""
 "These updates are not going to be \n"
@@ -2097,7 +2123,7 @@ msgstr ""
 "                                    automatisk installert før \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:88
+#: js/src/packageManagement/updates/UpdateApproval.js:86
 #, fuzzy
 msgid ""
 "If you don't want the updates to be installed at all, go to\n"
@@ -2115,24 +2141,24 @@ msgstr ""
 "                                    og velger "
 "<b>Oppgraderingsgodkjennelse påkrevd</b>."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:106
+#: js/src/packageManagement/updates/UpdateApproval.js:96
 #, python-format
 msgid "Approve Update From %s"
 msgstr "Godta oppgradering fra %s"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:134
+#: js/src/packageManagement/updates/UpdateApproval.js:124
 msgid "There are no updates awaiting your approval."
 msgstr "Ingen oppgraderinger venter på godkjenning."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:149
+#: js/src/packageManagement/updates/UpdateApproval.js:139
 msgid "Action"
 msgstr "Handling"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:151
+#: js/src/packageManagement/updates/UpdateApproval.js:141
 msgid "Current"
 msgstr "Nåværende"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:152
+#: js/src/packageManagement/updates/UpdateApproval.js:142
 msgid "New"
 msgstr "Ny"
 
@@ -2389,17 +2415,17 @@ msgstr ""
 msgid "How to set time"
 msgstr "Hvordan stille klokka"
 
-#: js/src/regionAndTime/TimeForm.js:177
+#: js/src/regionAndTime/TimeForm.js:175
 #, fuzzy
 msgid "Hide NTP servers list"
 msgstr "Skjul NTP-tjenerliste"
 
-#: js/src/regionAndTime/TimeForm.js:178
+#: js/src/regionAndTime/TimeForm.js:176
 #, fuzzy
 msgid "Show NTP servers list"
 msgstr "Vis NTP-tjenerliste"
 
-#: js/src/regionAndTime/TimeForm.js:182
+#: js/src/regionAndTime/TimeForm.js:180
 msgid "NTP Servers"
 msgstr "NTP-tjenere"
 
@@ -2758,25 +2784,17 @@ msgstr "Ingen av de statiske tildelningene har denne MAC-adressen tilknyttet."
 msgid "Hostname is already used by another static lease."
 msgstr "Vertsnavnet er allerede i bruk av en annen statisk tildelning."
 
-#: reforis/foris_controller_api/modules/lan.py:35
-msgid "Caused by"
-msgstr "Forårsaket av"
-
-#: reforis/foris_controller_api/modules/lan.py:35
-msgid "Unknown"
-msgstr "Ukjent"
-
-#: reforis/foris_controller_api/modules/lan.py:87
+#: reforis/foris_controller_api/modules/lan.py:85
 #, fuzzy
 msgid "Can't create DHCP lease."
 msgstr "Kan ikke opprette DHCP-tildelingslån."
 
-#: reforis/foris_controller_api/modules/lan.py:102
+#: reforis/foris_controller_api/modules/lan.py:100
 #, fuzzy
 msgid "Can't update DHCP lease."
 msgstr "Kan ikke oppdatere DHCP-tildeling."
 
-#: reforis/foris_controller_api/modules/lan.py:113
+#: reforis/foris_controller_api/modules/lan.py:111
 #, fuzzy
 msgid "Can't delete DHCP lease."
 msgstr "Kan ikke slette DHCP-tildeling."
@@ -2785,7 +2803,7 @@ msgstr "Kan ikke slette DHCP-tildeling."
 msgid "Wrong current password."
 msgstr "Feil nåværende passord."
 
-#: reforis/foris_controller_api/modules/router_notifications.py:117
+#: reforis/foris_controller_api/modules/router_notifications.py:121
 msgid ""
 "This is a testing notification.\n"
 "\n"
@@ -2797,32 +2815,32 @@ msgstr ""
 "Merk at du kun skal motta denne i din e-postinnboks hvis du setter\n"
 "viktighetsnivået til «Omstart eller foretagende kreves» eller høyere."
 
-#: reforis/foris_controller_api/modules/router_notifications.py:127
+#: reforis/foris_controller_api/modules/router_notifications.py:133
 #, fuzzy
 msgid "The testing message has been sent, please check your inbox."
 msgstr "Testmelding sendt. Sjekk innboksen din."
 
-#: reforis/foris_controller_api/modules/router_notifications.py:130
+#: reforis/foris_controller_api/modules/router_notifications.py:136
 #, fuzzy
 msgid ""
 "Sending of the testing message failed, your configuration is possibly "
 "wrong."
 msgstr "Forsendelse av testmelding mislyktes. Oppsettet ditt er antageligvis galt."
 
-#: reforis/foris_controller_api/modules/updater.py:65
+#: reforis/foris_controller_api/modules/updater.py:66
 msgid "Cannot change automatic restart settings."
 msgstr "Kan ikke endre automatiske omstartsinnstillinger."
 
-#: reforis/foris_controller_api/modules/updater.py:80
+#: reforis/foris_controller_api/modules/updater.py:77
 #, fuzzy
 msgid "Cannot update approvals settings."
 msgstr "Kan ikke oppdatere godkjenningsinnstillinger."
 
-#: reforis/foris_controller_api/modules/updater.py:175
+#: reforis/foris_controller_api/modules/updater.py:170
 msgid "Cannot start updater"
 msgstr "Kan ikke starte oppgraderer"
 
-#: reforis/foris_controller_api/modules/updater.py:204
+#: reforis/foris_controller_api/modules/updater.py:199
 #, fuzzy
 msgid "You can't set it with disabled automatic updates."
 msgstr "Du kan ikke sette det med automatiske oppgraderinger avskrudd."
@@ -3192,3 +3210,17 @@ msgstr "500 - Tjenerfeil"
 #~ "programvare og forklare for familiemedlemmer"
 #~ " hvordan de skal surfe trygt på "
 #~ "Internett."
+
+#~ msgid ""
+#~ "See details in <a "
+#~ "href=${ForisURLs.packageManagement.updates}>Updates</a> page."
+#~ msgstr ""
+#~ "Sjekk detaljer på <a "
+#~ "href=${ForisURLs.packageManagement.updates}>oppgraderinger</a>-siden."
+
+#~ msgid "Caused by"
+#~ msgstr "Forårsaket av"
+
+#~ msgid "Unknown"
+#~ msgstr "Ukjent"
+
