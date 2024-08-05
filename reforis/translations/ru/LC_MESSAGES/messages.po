@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-22 14:18+0100\n"
+"POT-Creation-Date: 2024-08-05 16:48+0300\n"
 "PO-Revision-Date: 2022-12-07 12:47+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
 "Language: ru\n"
@@ -20,11 +20,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: js/src/about/About.js:18 js/src/main/pages.js:102 js/src/main/pages.js:221
+#: js/src/about/About.js:17
+msgid ""
+"Turris OS is currently released in various branches, which have different"
+" functions and varying stability - you can pick, which branch you want to"
+" test."
+msgstr ""
+"OS Turris в настоящее время выпускается в различных ветках, которые имеют"
+" разные функции и разную стабильность - вы можете выбрать, какую ветку вы"
+" хотите протестировать."
+
+#: js/src/about/About.js:24 js/src/main/pages.js:94
 msgid "About"
 msgstr "Сведения"
 
-#: js/src/about/About.js:21
+#: js/src/about/About.js:27
 msgid ""
 "Here you can find some information about your device. Please include it "
 "in your message if you contact our <a "
@@ -36,37 +46,27 @@ msgstr ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">службу "
 "поддержки</a>."
 
-#: js/src/about/About.js:30
+#: js/src/about/About.js:36
 msgid "Device"
 msgstr "Устройство"
 
-#: js/src/about/About.js:38
+#: js/src/about/About.js:44
 msgid "Serial number"
 msgstr "Серийный номер"
 
-#: js/src/about/About.js:42
+#: js/src/about/About.js:48
 msgid "reForis version"
 msgstr "Версия reForis"
 
-#: js/src/about/About.js:46
+#: js/src/about/About.js:52
 msgid "Turris OS version"
 msgstr "Версия OS Turris"
 
-#: js/src/about/About.js:51
+#: js/src/about/About.js:57
 msgid "Turris OS branch"
 msgstr "Ветка OS Turris"
 
-#: js/src/about/About.js:54
-msgid ""
-"Turris OS is currently released in various branches, which have different"
-" functions and varying stability - you can pick, which branch you want to"
-" test."
-msgstr ""
-"OS Turris в настоящее время выпускается в различных ветках, которые имеют"
-" разные функции и разную стабильность - вы можете выбрать, какую ветку вы"
-" хотите протестировать."
-
-#: js/src/about/About.js:80
+#: js/src/about/About.js:77
 msgid "Kernel version"
 msgstr "Версия ядра"
 
@@ -134,7 +134,6 @@ msgstr "Клиенты не найдены."
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:33
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
-#: js/src/main/pages.js:180
 msgid "Hostname"
 msgstr "Имя хоста"
 
@@ -258,7 +257,7 @@ msgid "DNS server 2"
 msgstr "DNS-сервер 2"
 
 #: js/src/common/network/StaticIPForm.js:111
-#: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:92
+#: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:91
 #: js/src/wan/VLANForm.js:83 js/src/wan/WAN6Form.js:504
 #: js/src/wan/WAN6Form.js:533 js/src/wan/WAN6Form.js:545
 #: js/src/wan/WANForm.js:173
@@ -352,12 +351,12 @@ msgid "Actions"
 msgstr "Действия"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:124
-#: js/src/dns/Forwarders/ForwardersTable.js:143
+#: js/src/dns/Forwarders/ForwardersTable.js:138
 msgid "Edit"
 msgstr "Редактировать"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:138
-#: js/src/dns/Forwarders/ForwardersTable.js:151
+#: js/src/dns/Forwarders/ForwardersTable.js:146
 msgid "Delete"
 msgstr "Удалить"
 
@@ -422,6 +421,11 @@ msgid "Connection test failed"
 msgstr "Ошибка проверки подключения"
 
 #: js/src/connectionTest/ConnectionTestResult.js:95
+#, fuzzy
+msgid "Connection test cannot be determined"
+msgstr "Тест подключения не начат"
+
+#: js/src/connectionTest/ConnectionTestResult.js:100
 msgid "Connection test not started"
 msgstr "Тест подключения не начат"
 
@@ -569,7 +573,7 @@ msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr "«Нет TLS» означает, что используется обычный протокол DNS на основе UDP."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
-#: js/src/packageManagement/updates/UpdateApproval.js:150
+#: js/src/packageManagement/updates/UpdateApproval.js:140
 msgid "Name"
 msgstr "Имя"
 
@@ -638,7 +642,7 @@ msgid "Define at least one of the IP addresses of the forwarder."
 msgstr "Определите хотя бы один из IP-адресов сервера пересылки."
 
 #: js/src/guestNetwork/GuestNetwork.js:38 js/src/interfaces/constants.js:11
-#: js/src/main/pages.js:147
+#: js/src/main/pages.js:60
 msgid "Guest Network"
 msgstr "Гостевая сеть"
 
@@ -945,7 +949,7 @@ msgstr ""
 msgid "Cannot mark guide as finished."
 msgstr "Начальная настройка не завершена."
 
-#: js/src/guide/steps.js:21 js/src/main/pages.js:69 js/src/main/pages.js:160
+#: js/src/guide/steps.js:21 js/src/main/pages.js:73
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
 #: js/src/password/Password.js:175
 msgid "Password"
@@ -955,7 +959,7 @@ msgstr "Пароль"
 msgid "Workflow"
 msgstr "Конфигурация"
 
-#: js/src/guide/steps.js:29 js/src/main/pages.js:142
+#: js/src/guide/steps.js:29 js/src/main/pages.js:55
 msgid "Interfaces"
 msgstr "Интерфейс"
 
@@ -963,22 +967,23 @@ msgstr "Интерфейс"
 msgid "Time"
 msgstr "Синхронизация"
 
-#: js/src/guide/steps.js:37 js/src/main/pages.js:56 js/src/main/pages.js:137
+#: js/src/guide/steps.js:37 js/src/main/pages.js:47 js/src/main/pages.js:53
 msgid "DNS"
 msgstr "DNS"
 
-#: js/src/guide/steps.js:41 js/src/main/pages.js:193
-#: js/src/packageManagement/updates/Updates.js:28
+#: js/src/guide/steps.js:41
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
+#: js/src/main/pages.js:113 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
 msgstr "Обновления"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
-#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:29
+#: js/src/main/pages.js:45 js/src/main/pages.js:51 js/src/wan/WAN.js:29
 msgid "WAN"
 msgstr "WAN"
 
 #: js/src/guide/steps.js:49 js/src/interfaces/constants.js:10
-#: js/src/main/pages.js:51 js/src/main/pages.js:132
+#: js/src/main/pages.js:46 js/src/main/pages.js:52
 msgid "LAN"
 msgstr "LAN"
 
@@ -1322,75 +1327,91 @@ msgstr "Не подключайте это устройство к локаль�
 msgid "IPv4 protocol"
 msgstr "Протокол IPv4"
 
-#: js/src/main/pages.js:34 js/src/main/pages.js:110
-#: js/src/overview/Overview.js:43
+#: js/src/main/pages.js:31 js/src/overview/Overview.js:43
 msgid "Overview"
 msgstr "Обзор"
 
-#: js/src/main/pages.js:40 js/src/main/pages.js:116
+#: js/src/main/pages.js:38
 msgid "Network Settings"
 msgstr "Сетевые настройки"
 
-#: js/src/main/pages.js:63 js/src/main/pages.js:154
+#: js/src/main/pages.js:50 js/src/wifi/WiFi.js:40
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: js/src/main/pages.js:68
 msgid "Administration"
 msgstr "Управление"
 
-#: js/src/main/pages.js:74 js/src/main/pages.js:165
+#: js/src/main/pages.js:75
 msgid "Region & Time"
 msgstr "Регион и время"
 
-#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:78
-#: js/src/main/pages.js:79 js/src/main/pages.js:170
-#: js/src/notifications/Notifications/Notifications.js:88
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:79
+#: js/src/main/pages.js:80
+#: js/src/notifications/Notifications/Notifications.js:71
 #: js/src/notificationsSettings/NotificationsSettings.js:26
 msgid "Notifications"
 msgstr "Уведомления"
 
-#: js/src/main/pages.js:84 js/src/main/pages.js:175
-#: js/src/maintenance/Maintenance.js:19
+#: js/src/main/pages.js:85 js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
 msgstr "Обслуживания"
 
-#: js/src/main/pages.js:96
+#: js/src/main/pages.js:101
 msgid "Global Threat Statistics"
 msgstr "Статистика глобальных угроз"
 
-#: js/src/main/pages.js:122 js/src/wifi/WiFi.js:40
-msgid "Wi-Fi"
-msgstr "Wi-Fi"
-
-#: js/src/main/pages.js:187
+#: js/src/main/pages.js:108
 msgid "Package Management"
 msgstr "Управление пакетами"
 
-#: js/src/main/pages.js:198
+#: js/src/main/pages.js:115
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:29
 msgid "Update Settings"
 msgstr "Обновить настройки"
 
-#: js/src/main/pages.js:203 js/src/packageManagement/packages/Packages.js:20
+#: js/src/main/pages.js:119 js/src/packageManagement/packages/Packages.js:20
 msgid "Packages"
 msgstr "Пакеты"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:51
-#: js/src/main/pages.js:208 js/src/packageManagement/languages/Languages.js:20
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:62
+#: js/src/main/pages.js:120 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr "Языки"
 
-#: js/src/main/pages.js:215
+#: js/src/main/pages.js:125
 msgid "Advanced Administration"
 msgstr "Расширенное администрирование"
 
-#: js/src/main/TopBar/LogoutButton.js:21
+#: js/src/main/TopBar/LogoutButton.js:15
 msgid "Logout"
 msgstr "Выход"
 
-#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:37
-#: js/src/notifications/Notifications/Notifications.js:73
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:19
+msgid "Light"
+msgstr ""
+
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:24
+msgid "Dark"
+msgstr ""
+
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:29
+#, fuzzy
+msgid "Auto"
+msgstr "Сведения"
+
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:59
+#, fuzzy
+msgid "Dark Mode"
+msgstr "Режим локальной сети"
+
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:37
+#: js/src/notifications/Notifications/Notifications.js:56
 msgid "No notifications"
 msgstr "Нет уведомлений"
 
-#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:106
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:107
 #: js/src/notifications/Notifications/DismissAllButton.js:25
 msgid "Dismiss all"
 msgstr "Закрыть все"
@@ -1404,25 +1425,27 @@ msgstr "Требуется Перезагрузка"
 msgid "Details"
 msgstr "Подробности"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:101
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:109
 msgid "Approve Update"
 msgstr "Одобрить Обновление"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:131
-msgid ""
-"See details in <a href=${ForisURLs.packageManagement.updates}>Updates</a>"
-" page."
-msgstr ""
-"Подробности см. на <a href=$ndomForisURLs.packageManagement.updates "
-"rout>странице обновлений</a>."
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:138
+#, fuzzy
+msgid "See details in "
+msgstr "Дополнительная информация"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
-#: js/src/packageManagement/updates/UpdateApproval.js:128
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:140
+#, fuzzy
+msgid " page."
+msgstr "Пакеты"
+
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:147
+#: js/src/packageManagement/updates/UpdateApproval.js:118
 msgid "Install now"
 msgstr "Установить сейчас"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:152
-#: js/src/packageManagement/updates/UpdateApproval.js:40
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:157
+#: js/src/packageManagement/updates/UpdateApproval.js:39
 msgid "Cannot install updates."
 msgstr "Не удаётся установить обновление."
 
@@ -1493,6 +1516,10 @@ msgstr ""
 #: js/src/maintenance/Syslog/SyslogForm.js:44
 msgid "Enable System Logs Retention"
 msgstr "Включить сохранение системных журналов"
+
+#: js/src/notifications/Notifications/NotificationsList.js:97
+msgid "Close"
+msgstr ""
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
@@ -1769,7 +1796,7 @@ msgstr ""
 "Если вы хотите использовать другой язык, кроме английского, вы можете "
 "выбрать его из следующего списка:"
 
-#: js/src/packageManagement/packages/PackageCheckBox.js:57
+#: js/src/packageManagement/packages/PackageCheckBox.js:53
 msgid "More details"
 msgstr "Дополнительная информация"
 
@@ -1970,12 +1997,14 @@ msgid ""
 "            it will be offered to you again together with the next "
 "package installation."
 msgstr ""
-"Утверждения обновлений могут быть полезны, если вы хотите убедиться, что "
-"обновления не повредят вашей конкретной конфигурации. Вы можете, "
-"например, установить обновления, когда будете готовы к возможному откату "
-"к предыдущей конфигурации, и временно отклоните сомнительное обновление. "
-"Отменить обновление невозможно навсегда, и оно будет предложено вам снова"
-" вместе с установкой следующего пакета."
+"Подтверждение обновления может быть полезно, когда вы хотите убедиться, "
+"что обновления не навредят вашей конкретной \n"
+"            конфигурации. Вы можете, например, устанавливать обновления, "
+"когда вы готовы к возможному откату к предыдущему\n"
+"            стостоянию, и временно запретить сомнительное обновление. "
+"Невозможно отказаться от обновления навсегда,\n"
+"            так как оно будет предложено вам снова вместе со следующей "
+"установкой пакета."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:79
 msgid "Delayed updates (hours)"
@@ -1995,11 +2024,11 @@ msgstr "Настройки автоматического обновления"
 msgid "Enable Automatic Updates (recommended)"
 msgstr "Включить автоматическое обновление (рекомендуется)"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:44
+#: js/src/packageManagement/updates/UpdateApproval.js:43
 msgid "Updates will be installed shortly."
 msgstr "Обновления будут вскоре установлены."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:62
+#: js/src/packageManagement/updates/UpdateApproval.js:61
 #, python-format
 msgid "There is %d package to be updated."
 msgid_plural "There are %d packages to be updated."
@@ -2007,25 +2036,27 @@ msgstr[0] "Пакет %d подлежит обновлению."
 msgstr[1] "Есть %d пакета для обновления."
 msgstr[2] "Есть %d пакетов для обновления."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:69
+#: js/src/packageManagement/updates/UpdateApproval.js:68
+#, fuzzy
 msgid ""
-"See <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
-"aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
+"See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
+" aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
 "Смотрите <a data-toggle=\"collapse\" href=\"#plan-wrapper\" "
 "role=\"button\" aria-expanded=\"false\" aria-controls=\"plan-"
 "wrapper\">детали</a>"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:79
+#: js/src/packageManagement/updates/UpdateApproval.js:78
 msgid ""
 "These updates are not going to be \n"
 "                                    automatically installed before \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 msgstr ""
-"Эти обновления не будут автоматически устанавливается до $ "
-"{toLocaleDateString (delayedTime)}."
+"Эти обновления не будут \n"
+"                                    автоматически устанавливается до \n"
+"                                    ${toLocaleDateString(delayedTime)}."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:88
+#: js/src/packageManagement/updates/UpdateApproval.js:86
 msgid ""
 "If you don't want the updates to be installed at all, go to\n"
 "                                    <a "
@@ -2034,29 +2065,31 @@ msgid ""
 "                                    and choose the option <b>Update "
 "approval needed</b>."
 msgstr ""
-"Если вы вообще не хотите, чтобы обновления устанавливались, перейдите в "
-"<a href=\"${ForisURLs.packageManagement.updateSettings}\"> Обновить "
-"настройки </a> и выберите вариант <b> Требуется подтверждение обновления "
-"</b>."
+"Если вы вообще не хотите, чтобы обновления устанавливались, перейдите в\n"
+"                                    <a "
+"href=\"${ForisURLs.packageManagement.updateSettings}\"> Обновить "
+"настройки </a> \n"
+"                                    и выберите вариант <b> Требуется "
+"подтверждение обновления </b>."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:106
+#: js/src/packageManagement/updates/UpdateApproval.js:96
 #, python-format
 msgid "Approve Update From %s"
 msgstr "Одобрить Обновление от %s"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:134
+#: js/src/packageManagement/updates/UpdateApproval.js:124
 msgid "There are no updates awaiting your approval."
 msgstr "Нет обновлений, ожидающих вашего одобрения."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:149
+#: js/src/packageManagement/updates/UpdateApproval.js:139
 msgid "Action"
 msgstr "Действие"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:151
+#: js/src/packageManagement/updates/UpdateApproval.js:141
 msgid "Current"
 msgstr "Текущий"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:152
+#: js/src/packageManagement/updates/UpdateApproval.js:142
 msgid "New"
 msgstr "Новый"
 
@@ -2085,8 +2118,8 @@ msgid ""
 "In Turris OS, you decide when and how to get the latest updates\n"
 "                    to keep your device running smoothly and securely."
 msgstr ""
-"В ОС Turris вы решаете, когда и как получать последние обновления. чтобы "
-"ваше устройство работало бесперебойно и надежно."
+"В ОС Turris вы решаете, когда и как получать последние обновления,\n"
+"                    чтобы ваше устройство работало бесперебойно и надежно."
 
 #: js/src/packageManagement/updates/Updates.js:48
 msgid ""
@@ -2095,9 +2128,10 @@ msgid ""
 "href=\"${ForisURLs.packageManagement.updateSettings}\">delayed or \n"
 "            approval-requiring updates</a> to review them."
 msgstr ""
-"Автоматические обновления отключены. Пожалуйста, включите <a "
-"href=\"${ForisURLs.packageManagement.updateSettings}\"> отложенные или "
-"требующие одобрения обновления </a>, чтобы просмотреть их."
+"Автоматические обновления отключены. Пожалуйста, включите \n"
+"            <a href=\"${ForisURLs.packageManagement.updateSettings}\"> "
+"отложенные или \n"
+"            требующие одобрения обновления </a>, чтобы просмотреть их."
 
 #: js/src/packageManagement/updates/Updates.js:63
 msgid "Check and install updates"
@@ -2175,9 +2209,12 @@ msgid ""
 "                        } list. Please choose a more secure password."
 msgstr ""
 "Введенный вами пароль не сохранен. Он был скомпрометирован и встречается "
-"$ {forisPassword.count || rootPassword.count} раз в $ {forisPassword.list"
-" || rootPassword.list} списке. Пожалуйста, введите другой, более надежный"
-" пароль."
+"${\n"
+"                            forisPassword.count || rootPassword.count\n"
+"                        } раз в ${\n"
+"                            forisPassword.list || rootPassword.list\n"
+"                        } списке. Пожалуйста, введите другой, более "
+"надежный пароль."
 
 #: js/src/password/Password.js:113
 msgid "Your password was set successfully."
@@ -2226,10 +2263,11 @@ msgid ""
 "noreferrer\">LuCI web interface</a> or via SSH."
 msgstr ""
 "Чтобы получить доступ к расширенным параметрам конфигурации, которые "
-"здесь недоступны, вы должны установить пароль пользователя root. "
-"Дополнительными параметрами конфигурации можно управлять либо через <a "
-"href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\"> веб-интерфейс "
-"LuCI </a>, либо через SSH."
+"здесь недоступны, вы должны\n"
+"установить пароль пользователя root. Дополнительными параметрами "
+"конфигурации можно управлять либо \n"
+"через <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\"> "
+"веб-интерфейс LuCI </a>, либо через SSH."
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
@@ -2297,15 +2335,15 @@ msgstr ""
 msgid "How to set time"
 msgstr "Способ синхронизации"
 
-#: js/src/regionAndTime/TimeForm.js:177
+#: js/src/regionAndTime/TimeForm.js:175
 msgid "Hide NTP servers list"
 msgstr "Скрыть список NTP серверов"
 
-#: js/src/regionAndTime/TimeForm.js:178
+#: js/src/regionAndTime/TimeForm.js:176
 msgid "Show NTP servers list"
 msgstr "Показать список NTP серверов"
 
-#: js/src/regionAndTime/TimeForm.js:182
+#: js/src/regionAndTime/TimeForm.js:180
 msgid "NTP Servers"
 msgstr "Серверы NTP"
 
@@ -2643,23 +2681,15 @@ msgstr "Нет постоянной аренды с этим MAC-адресом.
 msgid "Hostname is already used by another static lease."
 msgstr "Имя хоста уже используется в другой постоянной аренде."
 
-#: reforis/foris_controller_api/modules/lan.py:35
-msgid "Caused by"
-msgstr "Вызванный"
-
-#: reforis/foris_controller_api/modules/lan.py:35
-msgid "Unknown"
-msgstr "Неизвестно"
-
-#: reforis/foris_controller_api/modules/lan.py:87
+#: reforis/foris_controller_api/modules/lan.py:85
 msgid "Can't create DHCP lease."
 msgstr "Невозможно создать аренду DHCP."
 
-#: reforis/foris_controller_api/modules/lan.py:102
+#: reforis/foris_controller_api/modules/lan.py:100
 msgid "Can't update DHCP lease."
 msgstr "Невозможно обновить аренду DHCP."
 
-#: reforis/foris_controller_api/modules/lan.py:113
+#: reforis/foris_controller_api/modules/lan.py:111
 msgid "Can't delete DHCP lease."
 msgstr "Невозможно удалить аренду DHCP."
 
@@ -2667,40 +2697,42 @@ msgstr "Невозможно удалить аренду DHCP."
 msgid "Wrong current password."
 msgstr "Неверный текущий пароль."
 
-#: reforis/foris_controller_api/modules/router_notifications.py:117
+#: reforis/foris_controller_api/modules/router_notifications.py:121
 msgid ""
 "This is a testing notification.\n"
 "\n"
 "Please note it would be sent to your e-mail address only if you set\n"
 "the importance level to \"Reboot or attention is required\" or higher."
 msgstr ""
-"Это уведомление о тестировании. Обратите внимание, что сообщение будет "
-"отправлено на ваш адрес электронной почты, только если вы установите "
+"Это тестовое уведомление.\n"
+"\n"
+"Обратите внимание, что сообщение будет отправлено на ваш адрес "
+"электронной почты, только если вы установите\n"
 "уровень важности «Перезагрузка или требуется внимание» или выше."
 
-#: reforis/foris_controller_api/modules/router_notifications.py:127
+#: reforis/foris_controller_api/modules/router_notifications.py:133
 msgid "The testing message has been sent, please check your inbox."
 msgstr "Тестовое сообщение отправлено, проверьте свой почтовый ящик."
 
-#: reforis/foris_controller_api/modules/router_notifications.py:130
+#: reforis/foris_controller_api/modules/router_notifications.py:136
 msgid ""
 "Sending of the testing message failed, your configuration is possibly "
 "wrong."
 msgstr "Не удалось отправить тестовое сообщение, возможно, ошибка в конфигурации."
 
-#: reforis/foris_controller_api/modules/updater.py:65
+#: reforis/foris_controller_api/modules/updater.py:66
 msgid "Cannot change automatic restart settings."
 msgstr "Невозможно изменить настройки автоматического перезапуска."
 
-#: reforis/foris_controller_api/modules/updater.py:80
+#: reforis/foris_controller_api/modules/updater.py:77
 msgid "Cannot update approvals settings."
 msgstr "Невозможно обновить настройки одобрений."
 
-#: reforis/foris_controller_api/modules/updater.py:175
+#: reforis/foris_controller_api/modules/updater.py:170
 msgid "Cannot start updater"
 msgstr "Не удается запустить Сервис обновлений"
 
-#: reforis/foris_controller_api/modules/updater.py:204
+#: reforis/foris_controller_api/modules/updater.py:199
 msgid "You can't set it with disabled automatic updates."
 msgstr "Вы не можете установить его с отключенными автоматическими обновлениями."
 
@@ -3040,4 +3072,18 @@ msgstr "500 - Ошибка сервера"
 #~ "устанавливая антивирусное программное обеспечение"
 #~ " и объясняя членам вашей семьи, как"
 #~ " обезопасить себя в Интернете."
+
+#~ msgid ""
+#~ "See details in <a "
+#~ "href=${ForisURLs.packageManagement.updates}>Updates</a> page."
+#~ msgstr ""
+#~ "Подробности см. на <a "
+#~ "href=$ndomForisURLs.packageManagement.updates rout>странице "
+#~ "обновлений</a>."
+
+#~ msgid "Caused by"
+#~ msgstr "Вызванный"
+
+#~ msgid "Unknown"
+#~ msgstr "Неизвестно"
 

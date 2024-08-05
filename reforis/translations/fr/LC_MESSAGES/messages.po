@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-22 14:18+0100\n"
+"POT-Creation-Date: 2024-08-05 16:48+0300\n"
 "PO-Revision-Date: 2022-12-25 16:48+0000\n"
 "Last-Translator: Florian <flo.site@zaclys.net>\n"
 "Language: fr\n"
@@ -19,11 +19,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: js/src/about/About.js:18 js/src/main/pages.js:102 js/src/main/pages.js:221
+#: js/src/about/About.js:17
+msgid ""
+"Turris OS is currently released in various branches, which have different"
+" functions and varying stability - you can pick, which branch you want to"
+" test."
+msgstr ""
+"Turris OS est actuellement publié en plusieurs branches, qui ont des "
+"fonctions différentes et une stabilité variable – vous pouvez choisir la "
+"branche que vous voulez tester."
+
+#: js/src/about/About.js:24 js/src/main/pages.js:94
 msgid "About"
 msgstr "À propos"
 
-#: js/src/about/About.js:21
+#: js/src/about/About.js:27
 msgid ""
 "Here you can find some information about your device. Please include it "
 "in your message if you contact our <a "
@@ -35,37 +45,27 @@ msgstr ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">assistance "
 "client</a>."
 
-#: js/src/about/About.js:30
+#: js/src/about/About.js:36
 msgid "Device"
 msgstr "Appareil"
 
-#: js/src/about/About.js:38
+#: js/src/about/About.js:44
 msgid "Serial number"
 msgstr "Numéro de série"
 
-#: js/src/about/About.js:42
+#: js/src/about/About.js:48
 msgid "reForis version"
 msgstr "version reForis"
 
-#: js/src/about/About.js:46
+#: js/src/about/About.js:52
 msgid "Turris OS version"
 msgstr "Version du système d'exploitation Turris"
 
-#: js/src/about/About.js:51
+#: js/src/about/About.js:57
 msgid "Turris OS branch"
 msgstr "Branche Turris OS"
 
-#: js/src/about/About.js:54
-msgid ""
-"Turris OS is currently released in various branches, which have different"
-" functions and varying stability - you can pick, which branch you want to"
-" test."
-msgstr ""
-"Turris OS est actuellement publié en plusieurs branches, qui ont des "
-"fonctions différentes et une stabilité variable – vous pouvez choisir la "
-"branche que vous voulez tester."
-
-#: js/src/about/About.js:80
+#: js/src/about/About.js:77
 msgid "Kernel version"
 msgstr "Version du noyau"
 
@@ -133,7 +133,6 @@ msgstr "Aucun client DHCP trouvé."
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:33
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
-#: js/src/main/pages.js:180
 msgid "Hostname"
 msgstr "Nom d’hôte"
 
@@ -259,7 +258,7 @@ msgid "DNS server 2"
 msgstr "Serveur DNS 2"
 
 #: js/src/common/network/StaticIPForm.js:111
-#: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:92
+#: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:91
 #: js/src/wan/VLANForm.js:83 js/src/wan/WAN6Form.js:504
 #: js/src/wan/WAN6Form.js:533 js/src/wan/WAN6Form.js:545
 #: js/src/wan/WANForm.js:173
@@ -353,12 +352,12 @@ msgid "Actions"
 msgstr "Actions"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:124
-#: js/src/dns/Forwarders/ForwardersTable.js:143
+#: js/src/dns/Forwarders/ForwardersTable.js:138
 msgid "Edit"
 msgstr "Modifier"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:138
-#: js/src/dns/Forwarders/ForwardersTable.js:151
+#: js/src/dns/Forwarders/ForwardersTable.js:146
 msgid "Delete"
 msgstr "Supprimer"
 
@@ -423,6 +422,11 @@ msgid "Connection test failed"
 msgstr "Échec du test de connexion"
 
 #: js/src/connectionTest/ConnectionTestResult.js:95
+#, fuzzy
+msgid "Connection test cannot be determined"
+msgstr "Le test de connexion n'a pas commencé"
+
+#: js/src/connectionTest/ConnectionTestResult.js:100
 msgid "Connection test not started"
 msgstr "Le test de connexion n'a pas commencé"
 
@@ -574,7 +578,7 @@ msgstr ""
 " est utilisé."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
-#: js/src/packageManagement/updates/UpdateApproval.js:150
+#: js/src/packageManagement/updates/UpdateApproval.js:140
 msgid "Name"
 msgstr "Nom"
 
@@ -643,7 +647,7 @@ msgid "Define at least one of the IP addresses of the forwarder."
 msgstr "Définissez au moins une des adresses IP du transitaire."
 
 #: js/src/guestNetwork/GuestNetwork.js:38 js/src/interfaces/constants.js:11
-#: js/src/main/pages.js:147
+#: js/src/main/pages.js:60
 msgid "Guest Network"
 msgstr "Réseau invité"
 
@@ -964,7 +968,7 @@ msgstr ""
 msgid "Cannot mark guide as finished."
 msgstr "Impossible de marquer le guide comme terminé."
 
-#: js/src/guide/steps.js:21 js/src/main/pages.js:69 js/src/main/pages.js:160
+#: js/src/guide/steps.js:21 js/src/main/pages.js:73
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
 #: js/src/password/Password.js:175
 msgid "Password"
@@ -974,7 +978,7 @@ msgstr "Mot de passe"
 msgid "Workflow"
 msgstr "Flux de travail"
 
-#: js/src/guide/steps.js:29 js/src/main/pages.js:142
+#: js/src/guide/steps.js:29 js/src/main/pages.js:55
 msgid "Interfaces"
 msgstr "Interfaces"
 
@@ -982,22 +986,23 @@ msgstr "Interfaces"
 msgid "Time"
 msgstr "Heure"
 
-#: js/src/guide/steps.js:37 js/src/main/pages.js:56 js/src/main/pages.js:137
+#: js/src/guide/steps.js:37 js/src/main/pages.js:47 js/src/main/pages.js:53
 msgid "DNS"
 msgstr "DNS"
 
-#: js/src/guide/steps.js:41 js/src/main/pages.js:193
-#: js/src/packageManagement/updates/Updates.js:28
+#: js/src/guide/steps.js:41
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
+#: js/src/main/pages.js:113 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
 msgstr "Mises à jour"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
-#: js/src/main/pages.js:46 js/src/main/pages.js:127 js/src/wan/WAN.js:29
+#: js/src/main/pages.js:45 js/src/main/pages.js:51 js/src/wan/WAN.js:29
 msgid "WAN"
 msgstr "WAN"
 
 #: js/src/guide/steps.js:49 js/src/interfaces/constants.js:10
-#: js/src/main/pages.js:51 js/src/main/pages.js:132
+#: js/src/main/pages.js:46 js/src/main/pages.js:52
 msgid "LAN"
 msgstr "Réseau local"
 
@@ -1344,75 +1349,91 @@ msgstr "Ne pas connecter cet appareil au réseau local"
 msgid "IPv4 protocol"
 msgstr "Protocole IPv4"
 
-#: js/src/main/pages.js:34 js/src/main/pages.js:110
-#: js/src/overview/Overview.js:43
+#: js/src/main/pages.js:31 js/src/overview/Overview.js:43
 msgid "Overview"
 msgstr "Vue d’ensemble"
 
-#: js/src/main/pages.js:40 js/src/main/pages.js:116
+#: js/src/main/pages.js:38
 msgid "Network Settings"
 msgstr "Paramètres réseau"
 
-#: js/src/main/pages.js:63 js/src/main/pages.js:154
+#: js/src/main/pages.js:50 js/src/wifi/WiFi.js:40
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: js/src/main/pages.js:68
 msgid "Administration"
 msgstr "Administration"
 
-#: js/src/main/pages.js:74 js/src/main/pages.js:165
+#: js/src/main/pages.js:75
 msgid "Region & Time"
 msgstr "Région et Heure"
 
-#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:78
-#: js/src/main/pages.js:79 js/src/main/pages.js:170
-#: js/src/notifications/Notifications/Notifications.js:88
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:79
+#: js/src/main/pages.js:80
+#: js/src/notifications/Notifications/Notifications.js:71
 #: js/src/notificationsSettings/NotificationsSettings.js:26
 msgid "Notifications"
 msgstr "Notifications"
 
-#: js/src/main/pages.js:84 js/src/main/pages.js:175
-#: js/src/maintenance/Maintenance.js:19
+#: js/src/main/pages.js:85 js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
 msgstr "Maintenance"
 
-#: js/src/main/pages.js:96
+#: js/src/main/pages.js:101
 msgid "Global Threat Statistics"
 msgstr "Statistiques sur les menaces mondiales"
 
-#: js/src/main/pages.js:122 js/src/wifi/WiFi.js:40
-msgid "Wi-Fi"
-msgstr "Wi-Fi"
-
-#: js/src/main/pages.js:187
+#: js/src/main/pages.js:108
 msgid "Package Management"
 msgstr "Gestion des paquets"
 
-#: js/src/main/pages.js:198
+#: js/src/main/pages.js:115
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:29
 msgid "Update Settings"
 msgstr "Paramètres de mise à jour"
 
-#: js/src/main/pages.js:203 js/src/packageManagement/packages/Packages.js:20
+#: js/src/main/pages.js:119 js/src/packageManagement/packages/Packages.js:20
 msgid "Packages"
 msgstr "Paquets"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:51
-#: js/src/main/pages.js:208 js/src/packageManagement/languages/Languages.js:20
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:62
+#: js/src/main/pages.js:120 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr "Langues"
 
-#: js/src/main/pages.js:215
+#: js/src/main/pages.js:125
 msgid "Advanced Administration"
 msgstr "Administration avancée"
 
-#: js/src/main/TopBar/LogoutButton.js:21
+#: js/src/main/TopBar/LogoutButton.js:15
 msgid "Logout"
 msgstr "Déconnexion"
 
-#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:37
-#: js/src/notifications/Notifications/Notifications.js:73
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:19
+msgid "Light"
+msgstr ""
+
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:24
+msgid "Dark"
+msgstr ""
+
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:29
+#, fuzzy
+msgid "Auto"
+msgstr "À propos"
+
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:59
+#, fuzzy
+msgid "Dark Mode"
+msgstr "Mode réseau local"
+
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:37
+#: js/src/notifications/Notifications/Notifications.js:56
 msgid "No notifications"
 msgstr "Aucune notification"
 
-#: js/src/main/TopBar/NotificationsDropdown/NotificationsDropdownMenu.js:106
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:107
 #: js/src/notifications/Notifications/DismissAllButton.js:25
 msgid "Dismiss all"
 msgstr "Tout ignorer"
@@ -1426,25 +1447,27 @@ msgstr "Redémarrage nécessaire"
 msgid "Details"
 msgstr "Détails"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:101
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:109
 msgid "Approve Update"
 msgstr "Approuver la mise à jour"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:131
-msgid ""
-"See details in <a href=${ForisURLs.packageManagement.updates}>Updates</a>"
-" page."
-msgstr ""
-"Voir les détails sur la page <a "
-"href=${ForisURLs.packageManagement.updates}>Mises à jour</a>."
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:138
+#, fuzzy
+msgid "See details in "
+msgstr "Plus de détails"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
-#: js/src/packageManagement/updates/UpdateApproval.js:128
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:140
+#, fuzzy
+msgid " page."
+msgstr "Paquets"
+
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:147
+#: js/src/packageManagement/updates/UpdateApproval.js:118
 msgid "Install now"
 msgstr "Installer maintenant"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:152
-#: js/src/packageManagement/updates/UpdateApproval.js:40
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:157
+#: js/src/packageManagement/updates/UpdateApproval.js:39
 msgid "Cannot install updates."
 msgstr "Impossible d'installer les mises à jour."
 
@@ -1525,6 +1548,10 @@ msgstr ""
 #, fuzzy
 msgid "Enable System Logs Retention"
 msgstr "Activer la conservation des journaux système"
+
+#: js/src/notifications/Notifications/NotificationsList.js:97
+msgid "Close"
+msgstr ""
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
@@ -1808,7 +1835,7 @@ msgstr ""
 "Si vous souhaitez utiliser une autre langue que l'anglais, vous pouvez la"
 " sélectionner dans la liste suivante :"
 
-#: js/src/packageManagement/packages/PackageCheckBox.js:57
+#: js/src/packageManagement/packages/PackageCheckBox.js:53
 msgid "More details"
 msgstr "Plus de détails"
 
@@ -2045,27 +2072,28 @@ msgstr "Paramètres de mise à jour automatique"
 msgid "Enable Automatic Updates (recommended)"
 msgstr "Activer les mises à jour automatiques (recommandé)"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:44
+#: js/src/packageManagement/updates/UpdateApproval.js:43
 msgid "Updates will be installed shortly."
 msgstr "Des mises à jour seront installées sous peu."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:62
+#: js/src/packageManagement/updates/UpdateApproval.js:61
 #, python-format
 msgid "There is %d package to be updated."
 msgid_plural "There are %d packages to be updated."
 msgstr[0] "Il y a %d paquet à mettre à jour."
 msgstr[1] "Il y a %d paquets à mettre à jour."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:69
+#: js/src/packageManagement/updates/UpdateApproval.js:68
+#, fuzzy
 msgid ""
-"See <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
-"aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
+"See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
+" aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
 "Voir les <a data-toggle=\"collapse\" href=\"#plan-wrapper\" "
 "role=\"button\" aria-expanded=\"false\" aria-controls=\"plan-"
 "wrapper\">détails</a>"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:79
+#: js/src/packageManagement/updates/UpdateApproval.js:78
 msgid ""
 "These updates are not going to be \n"
 "                                    automatically installed before \n"
@@ -2075,7 +2103,7 @@ msgstr ""
 "installées automatiquement avant \n"
 "${toLocaleDateString(delayedTime)}."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:88
+#: js/src/packageManagement/updates/UpdateApproval.js:86
 msgid ""
 "If you don't want the updates to be installed at all, go to\n"
 "                                    <a "
@@ -2090,24 +2118,24 @@ msgstr ""
 "mise à jour</a>\n"
 "et choisissez l'option <b>Approbation nécessaire pour la mise à jour</b>."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:106
+#: js/src/packageManagement/updates/UpdateApproval.js:96
 #, python-format
 msgid "Approve Update From %s"
 msgstr "Approuver la mise à jour à partir de %s"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:134
+#: js/src/packageManagement/updates/UpdateApproval.js:124
 msgid "There are no updates awaiting your approval."
 msgstr "Il n’y a pas de mises à jour en attente de votre approbation."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:149
+#: js/src/packageManagement/updates/UpdateApproval.js:139
 msgid "Action"
 msgstr "Action"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:151
+#: js/src/packageManagement/updates/UpdateApproval.js:141
 msgid "Current"
 msgstr "En cours"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:152
+#: js/src/packageManagement/updates/UpdateApproval.js:142
 msgid "New"
 msgstr "Nouveau"
 
@@ -2367,15 +2395,15 @@ msgstr ""
 msgid "How to set time"
 msgstr "Comment configurer le temps"
 
-#: js/src/regionAndTime/TimeForm.js:177
+#: js/src/regionAndTime/TimeForm.js:175
 msgid "Hide NTP servers list"
 msgstr "Masquer la liste des serveurs NTP"
 
-#: js/src/regionAndTime/TimeForm.js:178
+#: js/src/regionAndTime/TimeForm.js:176
 msgid "Show NTP servers list"
 msgstr "Afficher la liste des serveurs NTP"
 
-#: js/src/regionAndTime/TimeForm.js:182
+#: js/src/regionAndTime/TimeForm.js:180
 msgid "NTP Servers"
 msgstr "Serveurs NTP"
 
@@ -2726,24 +2754,16 @@ msgstr "Aucun bail statique n'a été attribué à cette adresse MAC."
 msgid "Hostname is already used by another static lease."
 msgstr "Le nom d'hôte est déjà utilisé par un autre bail statique."
 
-#: reforis/foris_controller_api/modules/lan.py:35
-msgid "Caused by"
-msgstr "Causé par"
-
-#: reforis/foris_controller_api/modules/lan.py:35
-msgid "Unknown"
-msgstr "Inconnu"
-
-#: reforis/foris_controller_api/modules/lan.py:87
+#: reforis/foris_controller_api/modules/lan.py:85
 msgid "Can't create DHCP lease."
 msgstr "Impossible de créer un bail DHCP."
 
-#: reforis/foris_controller_api/modules/lan.py:102
+#: reforis/foris_controller_api/modules/lan.py:100
 #, fuzzy
 msgid "Can't update DHCP lease."
 msgstr "Impossible de créer un bail DHCP."
 
-#: reforis/foris_controller_api/modules/lan.py:113
+#: reforis/foris_controller_api/modules/lan.py:111
 msgid "Can't delete DHCP lease."
 msgstr "Impossible de créer un bail DHCP."
 
@@ -2751,7 +2771,7 @@ msgstr "Impossible de créer un bail DHCP."
 msgid "Wrong current password."
 msgstr "Mot de passe actuel incorrect."
 
-#: reforis/foris_controller_api/modules/router_notifications.py:117
+#: reforis/foris_controller_api/modules/router_notifications.py:121
 msgid ""
 "This is a testing notification.\n"
 "\n"
@@ -2764,13 +2784,13 @@ msgstr ""
 "vous avez défini\n"
 "le niveau d'importance à \"Reboot or attention is required\" ou plus."
 
-#: reforis/foris_controller_api/modules/router_notifications.py:127
+#: reforis/foris_controller_api/modules/router_notifications.py:133
 msgid "The testing message has been sent, please check your inbox."
 msgstr ""
 "Le message de test a été envoyé, veuillez vérifier votre boîte de "
 "réception."
 
-#: reforis/foris_controller_api/modules/router_notifications.py:130
+#: reforis/foris_controller_api/modules/router_notifications.py:136
 msgid ""
 "Sending of the testing message failed, your configuration is possibly "
 "wrong."
@@ -2778,19 +2798,19 @@ msgstr ""
 "L'envoi du message de test a échoué, votre configuration est peut-être "
 "erronée."
 
-#: reforis/foris_controller_api/modules/updater.py:65
+#: reforis/foris_controller_api/modules/updater.py:66
 msgid "Cannot change automatic restart settings."
 msgstr "Impossible de modifier les paramètres de redémarrage automatique."
 
-#: reforis/foris_controller_api/modules/updater.py:80
+#: reforis/foris_controller_api/modules/updater.py:77
 msgid "Cannot update approvals settings."
 msgstr "Impossible de mettre à jour les paramètres d'approbation."
 
-#: reforis/foris_controller_api/modules/updater.py:175
+#: reforis/foris_controller_api/modules/updater.py:170
 msgid "Cannot start updater"
 msgstr "Impossible de démarrer la mise à jour"
 
-#: reforis/foris_controller_api/modules/updater.py:204
+#: reforis/foris_controller_api/modules/updater.py:199
 msgid "You can't set it with disabled automatic updates."
 msgstr ""
 "Vous ne pouvez pas le configurer avec les mises à jour automatiques "
@@ -3188,4 +3208,18 @@ msgstr "500 - Server error"
 #~ "any damages caused by the automatic "
 #~ "updates."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "See details in <a "
+#~ "href=${ForisURLs.packageManagement.updates}>Updates</a> page."
+#~ msgstr ""
+#~ "Voir les détails sur la page <a"
+#~ " href=${ForisURLs.packageManagement.updates}>Mises à "
+#~ "jour</a>."
+
+#~ msgid "Caused by"
+#~ msgstr "Causé par"
+
+#~ msgid "Unknown"
+#~ msgstr "Inconnu"
 
