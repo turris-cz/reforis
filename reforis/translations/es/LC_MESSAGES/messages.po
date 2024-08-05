@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-08-05 16:48+0300\n"
-"PO-Revision-Date: 2022-09-11 17:21+0000\n"
-"Last-Translator: Dan Cybersec <dan.cybersec@protonmail.com>\n"
+"PO-Revision-Date: 2024-08-06 15:09+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/turris/reforis/"
+"es/>\n"
 "Language: es\n"
-"Language-Team: Spanish "
-"<https://hosted.weblate.org/projects/turris/reforis/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.7-dev\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: js/src/about/About.js:17
@@ -125,9 +126,8 @@ msgstr ""
 #: js/src/common/network/DHCP6Clients.js:33
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:19
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:24
-#, fuzzy
 msgid "No clients found."
-msgstr "No se encontró ningún cliente DHCP."
+msgstr "Sin clientes."
 
 #: js/src/common/network/DHCP6Clients.js:40
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:25
@@ -385,9 +385,8 @@ msgid "MAC address cannot be empty."
 msgstr "La dirección MAC no puede estar vacía."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
-#, fuzzy
 msgid "Test is running…"
-msgstr "Se está ejecutando la prueba…"
+msgstr "Prueba ejecutándose…"
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
 msgid "Test connection again"
@@ -422,9 +421,8 @@ msgid "Connection test failed"
 msgstr "Prueba de conexión fallida"
 
 #: js/src/connectionTest/ConnectionTestResult.js:95
-#, fuzzy
 msgid "Connection test cannot be determined"
-msgstr "La prueba de conexión no ha comenzado"
+msgstr "No se puede verificar la prueba de conexión"
 
 #: js/src/connectionTest/ConnectionTestResult.js:100
 msgid "Connection test not started"
@@ -462,24 +460,28 @@ msgid ""
 "<b>recommend keeping DNSSEC turned on</b> and resolving the situation "
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
+"En raras ocasiones, los proveedores de Internet tienen una red configurada "
+"incorrectamente que interfiere con la validación de DNSSEC. Si tienes "
+"problemas con las DNS, puedes <b>temporalmente</b> deshabilitar la "
+"validación de DNSSEC para aislar la raíz del problema. Sin embargo, ten en "
+"cuenta que sin la validación DNSSEC eres vulnerable a ataques de "
+"suplantación de DNS. Por consiguiente: <b>te recomendamos que dejes DNSSEC "
+"activado</b> y ponerte en contacto con tu proveedor de servicios de Internet "
+"porque se trata de una deficiencia grave en tu servicio."
 
 #: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:51
 msgid "Connection Test"
 msgstr "Prueba de conexión"
 
 #: js/src/dns/DNS.js:66
-#, fuzzy
 msgid ""
 "Here you can test your internet connection. This test is also useful when"
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
-"\n"
-"Aquì puede testear su conexiòn de internet. Este test es tambièn ùtil "
-"cuando necesite chequear que su resolutor DNS funciona como esperaba.\n"
-"Recuerde hacer click en el botòn  <b>Salvar</b> si usted cambiò sus "
-"opciones de reenvio.\n"
-"        "
+"Aquí puedes probar tu conexión a Internet. Esta prueba también es útil "
+"cuando necesitas verificar que la resolución de las DNS funcionan como se "
+"espera. Recuerda hacer clic en el <b>Guardar</b> si cambió la configuración."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
@@ -498,9 +500,8 @@ msgstr ""
 "cliente «android-123» y el dominio «my.lan» será «android-123.my.lan»."
 
 #: js/src/dns/DNSForm.js:67
-#, fuzzy
 msgid "DNS Settings"
-msgstr "Configuración de LAN"
+msgstr "Ajustes de las DNS"
 
 #: js/src/dns/DNSForm.js:84
 msgid "Use forwarding"
@@ -523,6 +524,7 @@ msgid ""
 "DNSSEC is a security technology that protects DNS communication against "
 "attacks on the DNS infrastructure."
 msgstr ""
+"DNSSEC es una tecnología de seguridad que protege las DNS contra ataques."
 
 #: js/src/dns/DNSSECDisableModal.js:17
 msgid ""
@@ -530,10 +532,13 @@ msgid ""
 "that you will be connecting your device to the network where DNSSEC is "
 "broken."
 msgstr ""
+"Recomendamos encarecidamente mantener habilitada la validación de DNSSEC a "
+"menos que sepas que vas a conectar tu dispositivo a la red donde DNSSEC no "
+"funciona."
 
 #: js/src/dns/DNSSECDisableModal.js:21
 msgid "Do you still want to continue and stay unprotected?"
-msgstr ""
+msgstr "¿Aún quieres continuar y quedarte sin protección?"
 
 #: js/src/dns/DNSSECDisableModal.js:56
 msgid "Disable DNSSEC"
@@ -557,13 +562,13 @@ msgid "Use provider's DNS resolver"
 msgstr "Utilizar resolución DNS del proveedor"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:24
-#, fuzzy
 msgid "Base 64 encoded SHA-256."
-msgstr "Base 64 codificado SHA-256."
+msgstr "SHA-256 codificado en base 64."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:25
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr ""
+"\"Sin TLS\" significa que se utiliza el protocolo DNS normal basado en UDP."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
 #: js/src/packageManagement/updates/UpdateApproval.js:140
@@ -592,15 +597,15 @@ msgstr "IPv6"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:52
 msgid "${label} Addresses"
-msgstr ""
+msgstr "Direcciones ${label}"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:58
 msgid "${label} #${index + 1}"
-msgstr ""
+msgstr "${label} #${index + 1}"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:82
 msgid "Add ${label} address"
-msgstr ""
+msgstr "Añadir la dirección ${label}"
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:47
 msgid "Forwarder saved successfully."
@@ -640,22 +645,16 @@ msgid "Guest Network"
 msgstr "Red de invitados"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
-#, fuzzy
 msgid ""
 "The guest network is used for <a href=\"${ForisURLs.wifi}\">guest Wi-"
 "Fi</a>. It is separated from your ordinary LAN. Devices connected to this"
 " network are allowed to access the internet but are not allowed to access"
 " the configuration interface of this device or the devices in LAN."
 msgstr ""
-"\n"
-"La red de invitados se utiliza para el <a href=\"${ForisURLs.wifi}\">wifi"
-" de invitados</a>.\n"
-"Es independiente de su LAN ordinaria. Los dispositivos que se conecten "
-"con esta red pueden acceder\n"
-"a internet, pero no pueden acceder a la interfaz de configuración de este"
-" dispositivo ni la de otros\n"
-"que se encuentren en la LAN.\n"
-"        "
+"La red de invitados se utiliza para <a href=\"${ForisURLs.wifi}\">guest Wi-"
+"Fi</a>. Está separada de su LAN ordinaria. Los dispositivos conectados a "
+"esta red pueden acceder a Internet, pero no pueden acceder a la interfaz de "
+"configuración de este dispositivo ni a los dispositivos de LAN."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
@@ -670,6 +669,8 @@ msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
+"Esta opción te permite establecer un límite de ancho de banda para la red de "
+"invitados, de modo que tu red principal no se vea ralentizada por ella."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
@@ -680,14 +681,12 @@ msgid "Upload speed in guest network (in kilobits per second)."
 msgstr "Velocidad de carga en red de invitados (en kilobits por segundo)."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:65
-#, fuzzy
 msgid "Guest Network Settings"
-msgstr "Configuración de red"
+msgstr "Configuración de la red de invitados"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:67
-#, fuzzy
 msgid "Enable Guest Network"
-msgstr "Red de invitados"
+msgstr "Activar la red de invitados"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:77 js/src/lan/LANManagedForm.js:61
 msgid "Router IP address"
@@ -1336,14 +1335,12 @@ msgid "Dark"
 msgstr ""
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:29
-#, fuzzy
 msgid "Auto"
-msgstr "Acerca de"
+msgstr "Automático"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:59
-#, fuzzy
 msgid "Dark Mode"
-msgstr "Modo de LAN"
+msgstr "Modo oscuro"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:37
 #: js/src/notifications/Notifications/Notifications.js:56
@@ -3030,4 +3027,3 @@ msgstr ""
 
 #~ msgid "Unknown"
 #~ msgstr ""
-
