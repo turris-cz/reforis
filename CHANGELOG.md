@@ -8,6 +8,34 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [2.1.0] - 2024-08-05
+
+### Added
+
+-   Added & updated Weblate translations
+-   Added third state for test connection results
+-   Add Dark Mode to the TopBar
+
+### Changed
+
+-   Migrated to Bootstrap v5.3.x
+-   Fixed building of the JS docs
+-   Fixed processing DHCP lease time units
+-   Fixed navigation sections collapse
+-   Replaced Pylint & Pycodestyle for Ruff
+-   Replaced online Lato font with a local one
+-   Refactored Notification API
+-   Refactored Notifications component
+-   Refactored update_reboot_settings function in updater.py
+-   Updated Foris JS library to v6.0.3
+-   Updated FontAwesome library to v6.5.2
+-   Other improvements
+-   NPM audit fix
+
+### Removed
+
+-   Removed required attribute from new MAC address input
+
 ## [2.0.0] - 2024-02-23
 
 ### Added
@@ -526,7 +554,8 @@ and this project adheres to
 
 -   Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v2.0.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v2.1.0...master
+[2.1.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v2.0.0...v2.1.0
 [2.0.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.5.0...v2.0.0
 [1.5.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.4.1...v1.5.0
 [1.4.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.4.0...v1.4.1
