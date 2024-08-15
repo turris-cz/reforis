@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-08-05 16:48+0300\n"
-"PO-Revision-Date: 2022-12-07 12:47+0000\n"
-"Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
+"PO-Revision-Date: 2024-08-16 23:09+0000\n"
+"Last-Translator: Maxim <astralfestival@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/turris/reforis/"
+"ru/>\n"
 "Language: ru\n"
-"Language-Team: Russian "
-"<https://hosted.weblate.org/projects/turris/reforis/ru/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.7\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: js/src/about/About.js:17
@@ -307,7 +308,7 @@ msgstr "Устройство неактивно"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
 msgid "Edit static lease"
-msgstr "Изменить постоянную аренды"
+msgstr "Изменить постоянную аренду"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:59
 msgid "Set static lease"
@@ -421,9 +422,8 @@ msgid "Connection test failed"
 msgstr "Ошибка проверки подключения"
 
 #: js/src/connectionTest/ConnectionTestResult.js:95
-#, fuzzy
 msgid "Connection test cannot be determined"
-msgstr "Тест подключения не начат"
+msgstr "Тест подключения не может быть определён"
 
 #: js/src/connectionTest/ConnectionTestResult.js:100
 msgid "Connection test not started"
@@ -1219,9 +1219,8 @@ msgid "Interface ID"
 msgstr "Идентификатор интерфейса"
 
 #: js/src/interfaces/SelectedInterface.js:110
-#, fuzzy
 msgid "VLAN ID"
-msgstr "Режим локальной сети"
+msgstr "Идентификатор виртуальной локальной сети"
 
 #: js/src/interfaces/SelectedInterface.js:115
 msgid "Type"
@@ -1390,21 +1389,19 @@ msgstr "Выход"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:19
 msgid "Light"
-msgstr ""
+msgstr "Светлый"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:24
 msgid "Dark"
-msgstr ""
+msgstr "Тёмный"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:29
-#, fuzzy
 msgid "Auto"
-msgstr "Сведения"
+msgstr "Автоматически"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:59
-#, fuzzy
 msgid "Dark Mode"
-msgstr "Режим локальной сети"
+msgstr "Тёмный режим"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:37
 #: js/src/notifications/Notifications/Notifications.js:56
@@ -1430,14 +1427,12 @@ msgid "Approve Update"
 msgstr "Одобрить Обновление"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:138
-#, fuzzy
 msgid "See details in "
-msgstr "Дополнительная информация"
+msgstr "Смотрите подробнее в "
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:140
-#, fuzzy
 msgid " page."
-msgstr "Пакеты"
+msgstr " странице."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:147
 #: js/src/packageManagement/updates/UpdateApproval.js:118
@@ -1519,7 +1514,7 @@ msgstr "Включить сохранение системных журнало�
 
 #: js/src/notifications/Notifications/NotificationsList.js:97
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
@@ -3086,4 +3081,3 @@ msgstr "500 - Ошибка сервера"
 
 #~ msgid "Unknown"
 #~ msgstr "Неизвестно"
-
