@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 import { useUID } from "react-uid";
 
@@ -53,7 +54,10 @@ export default function PackageCheckBox({
                         title={_("More details")}
                     >
                         <sup>
-                            <i className="fas fa-external-link-alt fa-xs" />
+                            <FontAwesomeIcon
+                                icon="fa-solid fa-external-link-alt"
+                                className="fa-xs"
+                            />
                         </sup>
                     </a>
                 )}

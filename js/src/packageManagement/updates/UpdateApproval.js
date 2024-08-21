@@ -7,6 +7,7 @@
 
 import React, { useEffect } from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     useAPIPost,
     Button,
@@ -81,8 +82,9 @@ export default function UpdateApproval({ update, onSuccess, delay }) {
                                     ${toLocaleDateString(delayedTime)}.`
                         )}
                     </span>
-                    <i
-                        className="fas fa-question-circle ms-1 help"
+                    <FontAwesomeIcon
+                        icon="fa-solid fa-question-circle"
+                        className="ms-1 help"
                         data-tip={_(
                             `If you don't want the updates to be installed at all, go to
                                     <a href="${ForisURLs.packageManagement.updateSettings}">Update Settings</a> 

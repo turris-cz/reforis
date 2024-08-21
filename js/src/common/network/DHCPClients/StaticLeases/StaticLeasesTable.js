@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button, useAPIDelete, API_STATE } from "foris";
 import moment from "moment";
 import PropTypes from "prop-types";
@@ -72,12 +73,9 @@ export function DHCPClientsTableItem({ client, editStaticLease }) {
             <td className="align-middle">{mac}</td>
             <td className="text-center align-middle">{clientExpires}</td>
             <td className="text-center align-middle">
-                <i
-                    className={`fas ${
-                        active
-                            ? "fa-check text-success"
-                            : "fa-times text-danger"
-                    }`}
+                <FontAwesomeIcon
+                    icon={`fa-solid ${active ? "fa-check" : "fa-times"}`}
+                    className={active ? "text-success" : "text-danger"}
                     title={
                         active ? _("Device is active") : _("Device is inactive")
                     }
@@ -117,10 +115,16 @@ function StaticLeaseActions({ client, editStaticLease, disabled }) {
                 disabled={buttonDisabled}
             >
                 <span className="d-xl-none">
-                    <i className="fas fa-edit fa-sm" />
+                    <FontAwesomeIcon
+                        icon="fa-solid fa-edit"
+                        className="fa-sm"
+                    />
                 </span>
                 <span className="d-none d-xl-block">
-                    <i className="fas fa-edit fa-sm me-1" />
+                    <FontAwesomeIcon
+                        icon="fa-solid fa-edit"
+                        className="fa-sm me-1"
+                    />
                     {_("Edit")}
                 </span>
             </Button>
@@ -131,10 +135,16 @@ function StaticLeaseActions({ client, editStaticLease, disabled }) {
                 disabled={buttonDisabled}
             >
                 <span className="d-xl-none">
-                    <i className="fas fa-trash fa-sm" />
+                    <FontAwesomeIcon
+                        icon="fa-solid fa-trash"
+                        className="fa-sm"
+                    />
                 </span>
                 <span className="d-none d-xl-block">
-                    <i className="fas fa-trash fa-sm me-1" />
+                    <FontAwesomeIcon
+                        icon="fa-solid fa-trash"
+                        className="fa-sm me-1"
+                    />
                     {_("Delete")}
                 </span>
             </Button>

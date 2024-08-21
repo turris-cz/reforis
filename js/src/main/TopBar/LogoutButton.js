@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ForisURLs } from "foris";
 
 import useTooltip from "utils/useTooltip";
@@ -26,7 +27,10 @@ export default function LogoutButton() {
                 onClick={logout}
                 ref={tooltip}
             >
-                <i className="fas fa-sign-out-alt fa-lg" />
+                <FontAwesomeIcon
+                    icon="fa-solid fa-right-from-bracket"
+                    className="fa-lg"
+                />
             </button>
         </div>
     );

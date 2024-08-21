@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { SpinnerElement } from "foris";
 import PropTypes from "prop-types";
 
@@ -103,7 +104,7 @@ function ConnectionTestIcon({ result }) {
     }
     return (
         <span className={`text-${iconColor}`}>
-            <i className={`fas fa-${icon}`} title={title} />
+            <FontAwesomeIcon icon={`fa-solid fa-${icon}`} title={title} />
         </span>
     );
 }

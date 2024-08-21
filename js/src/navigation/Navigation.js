@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Portal } from "foris";
 import PropTypes from "prop-types";
 import { matchPath, withRouter } from "react-router-dom";
@@ -58,7 +59,7 @@ function Navigation({ pages, location }) {
                     aria-expanded="false"
                     aria-controls="navigation-container-collapse"
                 >
-                    <i className="fas fa-bars" />
+                    <FontAwesomeIcon icon="fa-solid fa-bars" />
                 </button>
             </Portal>
             <div id="navigation-container-collapse" className="collapse">

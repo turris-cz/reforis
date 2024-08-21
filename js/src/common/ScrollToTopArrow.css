@@ -19,8 +19,8 @@
     transition: opacity 0.4s;
     opacity: 0.5;
     width: 40px;
-    background-color: black;
-    color: white;
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
     border-radius: 3px;
 }
 

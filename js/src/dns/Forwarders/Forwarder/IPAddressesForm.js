@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button, TextInput } from "foris";
 import PropTypes from "prop-types";
 
@@ -68,7 +69,7 @@ export default function IPAddressesForm({
                                     className="btn-danger input-group-text"
                                     onClick={deleteIPByIndex(index)}
                                 >
-                                    <i className="fa fa-trash" />
+                                    <FontAwesomeIcon icon="fa-regular fa-trash" />
                                 </button>
                             </div>
                         )}

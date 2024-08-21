@@ -77,10 +77,7 @@ function DropdownContent({ update, onSuccess }) {
 
     const updateFailed = postApprovalResponse.state === API_STATE.ERROR;
     return (
-        <div
-            className="dropdown dropdown-menu-end"
-            data-testid="updates-dropdown"
-        >
+        <div className="dropdown" data-testid="updates-dropdown">
             <button
                 type="button"
                 className="nav-item btn btn-link text-body"

@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 
 DynamicFirewallCard.propTypes = {
@@ -34,8 +35,8 @@ export default function DynamicFirewallCard({ activated }) {
                                     activated ? "success" : "danger"
                                 }`}
                             >
-                                <i
-                                    className={`fas fa-${
+                                <FontAwesomeIcon
+                                    icon={`fa-solid fa-${
                                         activated ? "check" : "times"
                                     }`}
                                 />

@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 
 import { SEVERITIES } from "./constants";
@@ -18,21 +19,31 @@ NotificationIcon.propTypes = {
 
 export default function NotificationIcon({ severity, className }) {
     let iconName = null;
+    let iconColor = null;
     switch (severity) {
         case SEVERITIES.NEWS:
             iconName = "newspaper";
+            iconColor = "text-primary";
             break;
         case SEVERITIES.RESTART:
             iconName = "power-off";
+            iconColor = "text-danger";
             break;
         case SEVERITIES.ERROR:
             iconName = "exclamation-circle";
+            iconColor = "text-warning";
             break;
         case SEVERITIES.UPDATE:
             iconName = "sync-alt";
+            iconColor = "text-primary";
             break;
         default:
     }
 
-    return <i className={`fa-solid fa-${iconName} ${className}`} />;
+    return (
+        <FontAwesomeIcon
+            icon={`fa-solid fa-${iconName}`}
+            className={`${className} ${iconColor}`}
+        />
+    );
 }

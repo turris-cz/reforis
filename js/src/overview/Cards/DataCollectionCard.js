@@ -7,6 +7,7 @@
 
 import React, { useEffect } from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useAPIGet, withSpinnerOnSending, withErrorMessage } from "foris";
 import PropTypes from "prop-types";
 
@@ -53,8 +54,8 @@ function DataCollectionCard({ details: { eula } }) {
                                     eula === 1 ? "success" : "danger"
                                 }`}
                             >
-                                <i
-                                    className={`fas fa-${
+                                <FontAwesomeIcon
+                                    icon={`fa-solid fa-${
                                         eula === 1 ? "check" : "times"
                                     }`}
                                 />

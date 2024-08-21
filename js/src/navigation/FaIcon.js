@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 
 FaIcon.propTypes = {
@@ -14,5 +15,5 @@ FaIcon.propTypes = {
 };
 
 export default function FaIcon({ name }) {
-    return <i className={`fas fa-fw fa-${name}`} />;
+    return <FontAwesomeIcon icon={`fa-solid fa-${name}`} className="fa-fw" />;
 }

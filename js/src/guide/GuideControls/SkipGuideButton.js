@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button } from "foris";
 import PropTypes from "prop-types";
 import { withRouter } from "react-router-dom";
@@ -32,7 +33,7 @@ export function SkipGuideButton({ next_step }) {
             <span className="d-none d-sm-inline-block me-1">
                 {_("Skip guide")}
             </span>
-            <i className="fas fa-forward" />
+            <FontAwesomeIcon icon="fa-solid fa-forward" />
         </Button>
     );
 }

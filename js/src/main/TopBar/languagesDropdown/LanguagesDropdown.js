@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { SpinnerElement, useAPIPost, ForisURLs } from "foris";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
@@ -76,7 +77,10 @@ export default function LanguagesDropdown({ ws, className }) {
                             >
                                 {lang.toUpperCase()}
                                 {lang === currentLang && (
-                                    <i className="fa-solid fa-check ms-auto" />
+                                    <FontAwesomeIcon
+                                        icon="fa-solid fa-check"
+                                        className="ms-auto"
+                                    />
                                 )}
                             </button>
                         </li>

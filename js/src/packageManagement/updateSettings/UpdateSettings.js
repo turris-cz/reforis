@@ -13,7 +13,7 @@ import PropTypes from "prop-types";
 import API_URLs from "common/API";
 
 import UpdatesForm, { validateUpdates } from "./forms/UpdatesForm";
-import LicenceModal from "./LicenceModal";
+import LicenseModal from "./LicenseModal";
 
 UpdateSettings.propTypes = {
     postCallback: PropTypes.func,
@@ -37,11 +37,11 @@ export default function UpdateSettings({ postCallback }) {
             <p
                 dangerouslySetInnerHTML={{
                     __html: _(
-                        `By turning the automatic updates on, you agree to this feature's license agreement. More information is available <a href="" data-toggle="modal" data-target="#licenceModal">here</a>.`
+                        `By turning the automatic updates on, you agree to this feature's license agreement. More information is available <a href="" data-bs-toggle="modal" data-bs-target="#licenseModal">here</a>.`
                     ),
                 }}
             />
-            <LicenceModal />
+            <LicenseModal />
             <ForisForm
                 forisConfig={{
                     endpoint: API_URLs.updates,

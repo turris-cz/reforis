@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 
 import { useThemeContext } from "context/themeContext";
@@ -47,7 +48,25 @@ function DarkModeToggle({ className }) {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
             >
-                <i className="fa-solid fa-circle-half-stroke fa-lg" />
+                {
+                    // Change icon depending on the theme
+                    theme === "light" ? (
+                        <FontAwesomeIcon
+                            icon="fa-solid fa-sun"
+                            className="fa-lg"
+                        />
+                    ) : theme === "dark" ? (
+                        <FontAwesomeIcon
+                            icon="fa-solid fa-moon"
+                            className="fa-lg"
+                        />
+                    ) : (
+                        <FontAwesomeIcon
+                            icon="fa-solid fa-circle-half-stroke"
+                            className="fa-lg"
+                        />
+                    )
+                }
             </button>
             <ul
                 className={`dropdown-menu dropdown-menu-${
