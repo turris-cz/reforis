@@ -226,7 +226,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-plus"
+              class="fa"
             />
           </button>
           <button
@@ -235,7 +235,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-minus"
+              class="fa"
             />
           </button>
         </div>
@@ -273,7 +273,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-plus"
+              class="fa"
             />
           </button>
           <button
@@ -282,7 +282,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-minus"
+              class="fa"
             />
           </button>
         </div>
@@ -519,7 +519,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-plus"
+              class="fa"
             />
           </button>
           <button
@@ -528,7 +528,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-minus"
+              class="fa"
             />
           </button>
         </div>
@@ -571,7 +571,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-plus"
+              class="fa"
             />
           </button>
           <button
@@ -580,7 +580,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-minus"
+              class="fa"
             />
           </button>
         </div>

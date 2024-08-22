@@ -66,8 +66,7 @@ exports[`<DHCPClients/> Test with snapshot. 1`] = `
               class="text-center"
             >
               <i
-                class="fas fa-check text-success"
-                title="Device is active"
+                class="fa"
               />
             </td>
           </tr>
@@ -92,8 +91,7 @@ exports[`<DHCPClients/> Test with snapshot. 1`] = `
               class="text-center"
             >
               <i
-                class="fas fa-times text-danger"
-                title="Device is inactive"
+                class="fa"
               />
             </td>
           </tr>

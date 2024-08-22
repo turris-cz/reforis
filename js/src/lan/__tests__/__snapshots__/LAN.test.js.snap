@@ -184,7 +184,7 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-plus"
+              class="fa"
             />
           </button>
           <button
@@ -193,7 +193,7 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-minus"
+              class="fa"
             />
           </button>
         </div>
@@ -231,7 +231,7 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-plus"
+              class="fa"
             />
           </button>
           <button
@@ -240,7 +240,7 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-minus"
+              class="fa"
             />
           </button>
         </div>
@@ -333,8 +333,7 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
                 class="text-center align-middle"
               >
                 <i
-                  class="fas fa-check text-success"
-                  title="Device is active"
+                  class="fa"
                 />
               </td>
               <td
@@ -1245,7 +1244,7 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-plus"
+              class="fa"
             />
           </button>
           <button
@@ -1254,7 +1253,7 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-minus"
+              class="fa"
             />
           </button>
         </div>
@@ -1292,7 +1291,7 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-plus"
+              class="fa"
             />
           </button>
           <button
@@ -1301,7 +1300,7 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-minus"
+              class="fa"
             />
           </button>
         </div>
@@ -1394,8 +1393,7 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
                 class="text-center align-middle"
               >
                 <i
-                  class="fas fa-check text-success"
-                  title="Device is active"
+                  class="fa"
                 />
               </td>
               <td

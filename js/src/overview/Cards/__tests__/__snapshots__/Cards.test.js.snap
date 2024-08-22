@@ -35,7 +35,7 @@ exports[`<Cards/> <AutomaticUpdatesCard/> Snapshot: activated 1`] = `
               class="h2 text-success"
             >
               <i
-                class="fas fa-check"
+                class="fa"
               />
             </span>
           </div>
@@ -81,7 +81,7 @@ exports[`<Cards/> <AutomaticUpdatesCard/> Snapshot: disabled 1`] = `
               class="h2 text-danger"
             >
               <i
-                class="fas fa-times"
+                class="fa"
               />
             </span>
           </div>
@@ -127,7 +127,7 @@ exports[`<Cards/> <DataCollectionCard/> Snapshot: activated 1`] = `
               class="h2 text-success"
             >
               <i
-                class="fas fa-check"
+                class="fa"
               />
             </span>
           </div>
@@ -173,7 +173,7 @@ exports[`<Cards/> <DataCollectionCard/> Snapshot: disabled 1`] = `
               class="h2 text-danger"
             >
               <i
-                class="fas fa-times"
+                class="fa"
               />
             </span>
           </div>
@@ -219,7 +219,7 @@ exports[`<Cards/> <DynamicFirewallCard/> Snapshot: activated 1`] = `
               class="h2 text-success"
             >
               <i
-                class="fas fa-check"
+                class="fa"
               />
             </span>
           </div>
@@ -265,7 +265,7 @@ exports[`<Cards/> <DynamicFirewallCard/> Snapshot: disabled 1`] = `
               class="h2 text-danger"
             >
               <i
-                class="fas fa-times"
+                class="fa"
               />
             </span>
           </div>
@@ -297,7 +297,7 @@ exports[`<Cards/> <NetmetrCard/> Snapshot: contains tests 1`] = `
             title="Go to NetMetr"
           >
             <i
-              class="fas fa-chevron-right float-right"
+              class="fa"
             />
           </a>
         </h6>
@@ -386,7 +386,7 @@ exports[`<Cards/> <NetmetrCard/> Snapshot: contains tests 1`] = `
                       Details
                       <sup>
                         <i
-                          class="fas fa-external-link-alt fa-sm ms-1"
+                          class="fa"
                         />
                       </sup>
                     </a>
@@ -434,7 +434,7 @@ exports[`<Cards/> <NetmetrCard/> Snapshot: empty 1`] = `
             title="Go to NetMetr"
           >
             <i
-              class="fas fa-chevron-right float-right"
+              class="fa"
             />
           </a>
         </h6>
@@ -470,7 +470,7 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: contains clients 1`] = `
             title="Go to OpenVPN Client Settings"
           >
             <i
-              class="fas fa-chevron-right float-right"
+              class="fa"
             />
           </a>
         </h6>
@@ -533,7 +533,7 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: empty 1`] = `
             title="Go to OpenVPN Client Settings"
           >
             <i
-              class="fas fa-chevron-right float-right"
+              class="fa"
             />
           </a>
         </h6>

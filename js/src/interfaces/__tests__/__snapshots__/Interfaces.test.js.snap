@@ -33,10 +33,10 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
+                  class="fa"
                 />
               </span>
             </div>
@@ -69,11 +69,10 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -92,11 +91,10 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -129,11 +127,10 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -163,11 +160,10 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -186,11 +182,10 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -211,14 +206,13 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="fas fa-wifi fa-stack-1x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-slash fa-stack-1x fa-inverse"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-slash fa-stack-1x"
-                  style="bottom: 0.3rem;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -237,10 +231,10 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
+                  class="fa"
                 />
               </span>
             </div>
@@ -302,8 +296,7 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
             <td>
               <span>
                 <i
-                  class="fa fa-lg fa-times-circle text-danger"
-                  title="Down"
+                  class="fa"
                 />
               </span>
             </td>
@@ -416,10 +409,10 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
+                  class="fa"
                 />
               </span>
             </div>
@@ -452,11 +445,10 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -489,11 +481,10 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -512,11 +503,10 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -546,11 +536,10 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -569,11 +558,10 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -594,14 +582,13 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="fas fa-wifi fa-stack-1x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-slash fa-stack-1x fa-inverse"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-slash fa-stack-1x"
-                  style="bottom: 0.3rem;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -620,10 +607,10 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
+                  class="fa"
                 />
               </span>
             </div>
@@ -685,8 +672,7 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
             <td>
               <span>
                 <i
-                  class="fa fa-lg fa-times-circle text-danger"
-                  title="Down"
+                  class="fa"
                 />
               </span>
             </td>
@@ -799,10 +785,10 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
+                  class="fa"
                 />
               </span>
             </div>
@@ -835,11 +821,10 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -872,11 +857,10 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -895,11 +879,10 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -929,11 +912,10 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -952,11 +934,10 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -977,14 +958,13 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="fas fa-wifi fa-stack-1x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-slash fa-stack-1x fa-inverse"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-slash fa-stack-1x"
-                  style="bottom: 0.3rem;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -1003,10 +983,10 @@ exports[`<Interfaces/> Snapshot. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
+                  class="fa"
                 />
               </span>
             </div>
@@ -1074,10 +1054,10 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
+                  class="fa"
                 />
               </span>
             </div>
@@ -1114,11 +1094,10 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                   class="fa-stack fa-2x"
                 >
                   <i
-                    class="far fa-square fa-stack-2x"
+                    class="fa"
                   />
                   <i
-                    class="fas fa-ethernet fa-stack-1x"
-                    style="color: lightgrey;"
+                    class="fa"
                   />
                 </span>
               </div>
@@ -1146,11 +1125,10 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                   class="fa-stack fa-2x"
                 >
                   <i
-                    class="far fa-square fa-stack-2x"
+                    class="fa"
                   />
                   <i
-                    class="fas fa-ethernet fa-stack-1x"
-                    style="color: lightgrey;"
+                    class="fa"
                   />
                 </span>
               </div>
@@ -1188,11 +1166,10 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                   class="fa-stack fa-2x"
                 >
                   <i
-                    class="far fa-square fa-stack-2x"
+                    class="fa"
                   />
                   <i
-                    class="fas fa-ethernet fa-stack-1x"
-                    style="color: lightgrey;"
+                    class="fa"
                   />
                 </span>
               </div>
@@ -1220,11 +1197,10 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                   class="fa-stack fa-2x"
                 >
                   <i
-                    class="far fa-square fa-stack-2x"
+                    class="fa"
                   />
                   <i
-                    class="fas fa-ethernet fa-stack-1x"
-                    style="color: lightgrey;"
+                    class="fa"
                   />
                 </span>
               </div>
@@ -1255,11 +1231,10 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -1280,14 +1255,13 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="fas fa-wifi fa-stack-1x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-slash fa-stack-1x fa-inverse"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-slash fa-stack-1x"
-                  style="bottom: 0.3rem;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -1343,8 +1317,7 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
             <td>
               <span>
                 <i
-                  class="fa fa-lg fa-times-circle text-danger"
-                  title="Down"
+                  class="fa"
                 />
               </span>
             </td>
@@ -1457,10 +1430,10 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
+                  class="fa"
                 />
               </span>
             </div>
@@ -1497,11 +1470,10 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                   class="fa-stack fa-2x"
                 >
                   <i
-                    class="far fa-square fa-stack-2x"
+                    class="fa"
                   />
                   <i
-                    class="fas fa-ethernet fa-stack-1x"
-                    style="color: lightgrey;"
+                    class="fa"
                   />
                 </span>
               </div>
@@ -1529,11 +1501,10 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                   class="fa-stack fa-2x"
                 >
                   <i
-                    class="far fa-square fa-stack-2x"
+                    class="fa"
                   />
                   <i
-                    class="fas fa-ethernet fa-stack-1x"
-                    style="color: lightgrey;"
+                    class="fa"
                   />
                 </span>
               </div>
@@ -1571,11 +1542,10 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                   class="fa-stack fa-2x"
                 >
                   <i
-                    class="far fa-square fa-stack-2x"
+                    class="fa"
                   />
                   <i
-                    class="fas fa-ethernet fa-stack-1x"
-                    style="color: lightgrey;"
+                    class="fa"
                   />
                 </span>
               </div>
@@ -1603,11 +1573,10 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                   class="fa-stack fa-2x"
                 >
                   <i
-                    class="far fa-square fa-stack-2x"
+                    class="fa"
                   />
                   <i
-                    class="fas fa-ethernet fa-stack-1x"
-                    style="color: lightgrey;"
+                    class="fa"
                   />
                 </span>
               </div>
@@ -1638,11 +1607,10 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -1663,14 +1631,13 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="fas fa-wifi fa-stack-1x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-slash fa-stack-1x fa-inverse"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-slash fa-stack-1x"
-                  style="bottom: 0.3rem;"
+                  class="fa"
                 />
               </span>
             </div>

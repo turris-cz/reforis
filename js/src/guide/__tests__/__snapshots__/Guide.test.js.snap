@@ -60,7 +60,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
               >
                 EN
                 <i
-                  class="fa-solid fa-check ms-auto"
+                  class="fa"
                 />
               </button>
             </li>
@@ -94,7 +94,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
               Skip guide
             </span>
             <i
-              class="fas fa-forward"
+              class="fa"
             />
           </span>
         </button>
@@ -110,7 +110,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
              
           </span>
           <i
-            class="fas fa-step-forward"
+            class="fa"
           />
         </a>
       </div>
@@ -147,10 +147,10 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
+                  class="fa"
                 />
               </span>
             </div>
@@ -183,11 +183,10 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -220,11 +219,10 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -243,11 +241,10 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -277,11 +274,10 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -300,11 +296,10 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
-                  style="color: lightgrey;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -325,14 +320,13 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="fas fa-wifi fa-stack-1x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-slash fa-stack-1x fa-inverse"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-slash fa-stack-1x"
-                  style="bottom: 0.3rem;"
+                  class="fa"
                 />
               </span>
             </div>
@@ -351,10 +345,10 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
                 class="fa-stack fa-2x"
               >
                 <i
-                  class="far fa-square fa-stack-2x"
+                  class="fa"
                 />
                 <i
-                  class="fas fa-ethernet fa-stack-1x"
+                  class="fa"
                 />
               </span>
             </div>

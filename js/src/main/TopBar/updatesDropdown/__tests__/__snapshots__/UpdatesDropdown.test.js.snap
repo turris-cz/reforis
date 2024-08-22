@@ -21,7 +21,7 @@ exports[`<UpdatesDropdown/> Loading (spinner visible) 1`] = `
 exports[`<UpdatesDropdown/> Updates awaiting - snapshot 1`] = `
 <div>
   <div
-    class="dropdown dropdown-menu-end"
+    class="dropdown"
     data-testid="updates-dropdown"
   >
     <button
