@@ -21,8 +21,8 @@ exports[`<UpdateSettings/> Test with snapshot disabled. 1`] = `
   <p>
     By turning the automatic updates on, you agree to this feature's license agreement. More information is available 
     <a
-      data-target="#licenceModal"
-      data-toggle="modal"
+      data-bs-target="#licenseModal"
+      data-bs-toggle="modal"
       href=""
     >
       here
@@ -31,9 +31,9 @@ exports[`<UpdateSettings/> Test with snapshot disabled. 1`] = `
   </p>
   <div
     aria-hidden="true"
-    aria-labelledby="exampleModalLabel"
+    aria-labelledby="licenseModalLabel"
     class="modal fade"
-    id="licenceModal"
+    id="licenseModal"
     role="dialog"
     tabindex="-1"
   >
@@ -54,16 +54,10 @@ exports[`<UpdateSettings/> Test with snapshot disabled. 1`] = `
           </h5>
           <button
             aria-label="Close"
-            class="close"
-            data-dismiss="modal"
+            class="btn-close"
+            data-bs-dismiss="modal"
             type="button"
-          >
-            <span
-              aria-hidden="true"
-            >
-              ×
-            </span>
-          </button>
+          />
         </div>
         <div
           class="modal-body"
@@ -100,10 +94,10 @@ exports[`<UpdateSettings/> Test with snapshot disabled. 1`] = `
               rel="noopener noreferrer"
               target="_blank"
             >
-              license agreement 
+              license agreement
               <sup>
                 <i
-                  class="fas fa-external-link-alt fa-sm"
+                  class="fa"
                 />
               </sup>
             </a>
@@ -165,7 +159,7 @@ exports[`<UpdateSettings/> Test with snapshot disabled. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-plus"
+              class="fa"
             />
           </button>
           <button
@@ -174,7 +168,7 @@ exports[`<UpdateSettings/> Test with snapshot disabled. 1`] = `
             type="button"
           >
             <i
-              class="fas fa-minus"
+              class="fa"
             />
           </button>
         </div>
@@ -304,7 +298,7 @@ exports[`<UpdateSettings/> Test with snapshot enabled, delayed. 1`] = `
 - First value
 + Second value
 
-@@ -217,10 +217,50 @@
+@@ -211,10 +211,50 @@
                 </small>
               </div>
             </label>
@@ -336,7 +330,7 @@ exports[`<UpdateSettings/> Test with snapshot enabled, delayed. 1`] = `
 +             type=\\"button\\"
 +           >
 +             <i
-+               class=\\"fas fa-plus\\"
++               class=\\"fa\\"
 +             />
 +           </button>
 +           <button
@@ -345,7 +339,7 @@ exports[`<UpdateSettings/> Test with snapshot enabled, delayed. 1`] = `
 +             type=\\"button\\"
 +           >
 +             <i
-+               class=\\"fas fa-minus\\"
++               class=\\"fa\\"
 +             />
 +           </button>
 +         </div>
@@ -362,7 +356,7 @@ exports[`<UpdateSettings/> Test with snapshot enabled. 1`] = `
 - First value
 + Second value
 
-@@ -131,10 +131,96 @@
+@@ -125,10 +125,96 @@
             for=\\"1\\"
           >
             Enable Automatic Updates (recommended)

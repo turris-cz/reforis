@@ -341,8 +341,7 @@ exports[`<ConnectionTest/> Snapshot before connection test. 1`] = `
               class="text-secondary"
             >
               <i
-                class="fas fa-minus"
-                title="Connection test not started"
+                class="fa"
               />
             </span>
           </td>
@@ -360,8 +359,7 @@ exports[`<ConnectionTest/> Snapshot before connection test. 1`] = `
               class="text-secondary"
             >
               <i
-                class="fas fa-minus"
-                title="Connection test not started"
+                class="fa"
               />
             </span>
           </td>
@@ -379,8 +377,7 @@ exports[`<ConnectionTest/> Snapshot before connection test. 1`] = `
               class="text-secondary"
             >
               <i
-                class="fas fa-minus"
-                title="Connection test not started"
+                class="fa"
               />
             </span>
           </td>
@@ -398,8 +395,7 @@ exports[`<ConnectionTest/> Snapshot before connection test. 1`] = `
               class="text-secondary"
             >
               <i
-                class="fas fa-minus"
-                title="Connection test not started"
+                class="fa"
               />
             </span>
           </td>
@@ -442,8 +438,7 @@ exports[`<ConnectionTest/> Snapshots with failed connection test results. 1`] = 
               class="text-danger"
             >
               <i
-                class="fas fa-times"
-                title="Connection test failed"
+                class="fa"
               />
             </span>
           </td>
@@ -461,8 +456,7 @@ exports[`<ConnectionTest/> Snapshots with failed connection test results. 1`] = 
               class="text-danger"
             >
               <i
-                class="fas fa-times"
-                title="Connection test failed"
+                class="fa"
               />
             </span>
           </td>
@@ -480,8 +474,7 @@ exports[`<ConnectionTest/> Snapshots with failed connection test results. 1`] = 
               class="text-danger"
             >
               <i
-                class="fas fa-times"
-                title="Connection test failed"
+                class="fa"
               />
             </span>
           </td>
@@ -499,8 +492,7 @@ exports[`<ConnectionTest/> Snapshots with failed connection test results. 1`] = 
               class="text-danger"
             >
               <i
-                class="fas fa-times"
-                title="Connection test failed"
+                class="fa"
               />
             </span>
           </td>
@@ -543,8 +535,7 @@ exports[`<ConnectionTest/> Snapshots with successful connection test results. 1`
               class="text-success"
             >
               <i
-                class="fas fa-check"
-                title="Connection test successful"
+                class="fa"
               />
             </span>
           </td>
@@ -562,8 +553,7 @@ exports[`<ConnectionTest/> Snapshots with successful connection test results. 1`
               class="text-success"
             >
               <i
-                class="fas fa-check"
-                title="Connection test successful"
+                class="fa"
               />
             </span>
           </td>
@@ -581,8 +571,7 @@ exports[`<ConnectionTest/> Snapshots with successful connection test results. 1`
               class="text-success"
             >
               <i
-                class="fas fa-check"
-                title="Connection test successful"
+                class="fa"
               />
             </span>
           </td>
@@ -600,8 +589,7 @@ exports[`<ConnectionTest/> Snapshots with successful connection test results. 1`
               class="text-success"
             >
               <i
-                class="fas fa-check"
-                title="Connection test successful"
+                class="fa"
               />
             </span>
           </td>
@@ -644,8 +632,7 @@ exports[`<ConnectionTest/> Snapshots with unknown connection test results. 1`] =
               class="text-warning"
             >
               <i
-                class="fas fa-question"
-                title="Connection test cannot be determined"
+                class="fa"
               />
             </span>
           </td>
@@ -663,8 +650,7 @@ exports[`<ConnectionTest/> Snapshots with unknown connection test results. 1`] =
               class="text-warning"
             >
               <i
-                class="fas fa-question"
-                title="Connection test cannot be determined"
+                class="fa"
               />
             </span>
           </td>
@@ -682,8 +668,7 @@ exports[`<ConnectionTest/> Snapshots with unknown connection test results. 1`] =
               class="text-warning"
             >
               <i
-                class="fas fa-question"
-                title="Connection test cannot be determined"
+                class="fa"
               />
             </span>
           </td>
@@ -701,8 +686,7 @@ exports[`<ConnectionTest/> Snapshots with unknown connection test results. 1`] =
               class="text-warning"
             >
               <i
-                class="fas fa-question"
-                title="Connection test cannot be determined"
+                class="fa"
               />
             </span>
           </td>

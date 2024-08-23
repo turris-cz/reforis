@@ -6,15 +6,18 @@
  */
 
 import React, { useState } from "react";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import "./ScrollToTopArrow.css";
 
 export default function ScrollToTopArrow() {
     const [showScrollArrow, setShowScrollArrow] = useState(false);
 
     const checkScrollToTop = () => {
-        if (!showScrollArrow && window.pageYOffset > 400) {
+        if (!showScrollArrow && window.scrollY > 400) {
             setShowScrollArrow(true);
-        } else if (showScrollArrow && window.pageYOffset <= 400) {
+        } else if (showScrollArrow && window.scrollY <= 400) {
             setShowScrollArrow(false);
         }
     };
@@ -37,7 +40,7 @@ export default function ScrollToTopArrow() {
             role="button"
             tabIndex={0}
         >
-            <i className="fas fa-angle-up" />
+            <FontAwesomeIcon icon="fa-solid fa-angle-up" />
         </div>
     );
 }

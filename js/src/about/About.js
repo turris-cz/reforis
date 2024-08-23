@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useCustomizationContext } from "foris";
 
 import useTooltip from "utils/useTooltip";
@@ -55,10 +56,9 @@ function About() {
                         <tr>
                             <th>
                                 {_("Turris OS branch")}
-                                <i
-                                    className="fas fa-question-circle ms-1 help"
-                                    ref={tooltip}
-                                />
+                                <span ref={tooltip} className="ms-1 help">
+                                    <FontAwesomeIcon icon="fa-solid fa-circle-question" />
+                                </span>
                             </th>
                             <td>
                                 <a
@@ -68,7 +68,10 @@ function About() {
                                 >
                                     {deviceDetails.os_branch.value.toUpperCase()}
                                     <sup>
-                                        <i className="fas fa-external-link-alt fa-sm ms-1" />
+                                        <FontAwesomeIcon
+                                            icon="fa-solid fa-external-link-alt"
+                                            className="fa-sm ms-1"
+                                        />
                                     </sup>
                                 </a>
                             </td>

@@ -8,7 +8,7 @@
 .dropdown-item:hover a,
 .dropdown-item a:hover small,
 .dropdown-item:hover small {
-    color: #fff !important;
+    color: var(--bs-white) !important;
 }
 
 .dropdown-item i {
@@ -16,16 +16,6 @@
     color: var(--bs-primary);
 }
 
-.dropdown-item:hover i {
-    color: #fff !important;
-}
-
-.dropdown-item i > .fa-power-off,
-.dropdown-item i > .fa-exclamation-circle {
-    color: #e74c3c;
-}
-
-.dropdown-item:hover i > .fa-power-off,
-.dropdown-item:hover i > .fa-exclamation-circle {
-    color: #fff;
+.dropdown-item:hover svg {
+    color: var(--bs-white) !important;
 }

@@ -7,6 +7,7 @@
 
 import React, { useEffect } from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useAPIGet, withSpinnerOnSending, withErrorMessage } from "foris";
 import moment from "moment";
 import PropTypes from "prop-types";
@@ -56,7 +57,10 @@ function NetmetrCard({ tests: { performed_tests: tests } }) {
                             className="text-secondary"
                             title={_("Go to NetMetr")}
                         >
-                            <i className="fas fa-chevron-right float-right" />
+                            <FontAwesomeIcon
+                                icon="fa-solid fa-chevron-right"
+                                className="float-right"
+                            />
                         </Link>
                     </h6>
                     {lastTest != null ? (
@@ -128,7 +132,10 @@ function NetmetrCard({ tests: { performed_tests: tests } }) {
                                                     >
                                                         {_("Details")}
                                                         <sup>
-                                                            <i className="fas fa-external-link-alt fa-sm ms-1" />
+                                                            <FontAwesomeIcon
+                                                                icon="fa-solid fa-external-link-alt"
+                                                                className="fa-sm ms-1"
+                                                            />
                                                         </sup>
                                                     </a>
                                                 </td>

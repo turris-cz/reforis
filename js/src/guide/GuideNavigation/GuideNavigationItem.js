@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 
@@ -23,7 +24,7 @@ export default function GuideNavigationItem({ name, url, next, passed }) {
 
     const content = (
         <>
-            <i className="fas fa-angle-right me-2" />
+            <FontAwesomeIcon icon="fa-solid fa-angle-right" className="me-2" />
             {name}
         </>
     );

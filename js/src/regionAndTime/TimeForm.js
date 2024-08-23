@@ -7,6 +7,7 @@
 
 import React, { useEffect, useState } from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     Select,
     DataTimeInput,
@@ -145,7 +146,10 @@ export default function TimeForm({
                     {ntpData.state === API_STATE.SENDING ? (
                         <SpinnerElement small />
                     ) : (
-                        <i className="fas fa-sync-alt" />
+                        <FontAwesomeIcon
+                            icon="fa-solid fa-sync-alt"
+                            className="text-dark"
+                        />
                     )}
                 </button>
             </DataTimeInput>

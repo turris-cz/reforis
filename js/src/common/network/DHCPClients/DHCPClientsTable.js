@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import moment from "moment";
 import PropTypes from "prop-types";
 
@@ -59,12 +60,9 @@ export function DHCPClientsTableItem({ ip, expires, mac, hostname, active }) {
                     : _("Never")}
             </td>
             <td className="text-center">
-                <i
-                    className={`fas ${
-                        active
-                            ? "fa-check text-success"
-                            : "fa-times text-danger"
-                    }`}
+                <FontAwesomeIcon
+                    icon={`fa-solid ${active ? "fa-check" : "fa-times"}`}
+                    className={active ? "text-success" : "text-danger"}
                     title={
                         active ? _("Device is active") : _("Device is inactive")
                     }

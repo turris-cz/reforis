@@ -13,11 +13,14 @@
         "extends": "eslint-config-reforis"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "^6.5.2",
+        "@fortawesome/fontawesome-svg-core": "^6.6.0",
+        "@fortawesome/free-regular-svg-icons": "^6.6.0",
+        "@fortawesome/free-solid-svg-icons": "^6.6.0",
+        "@fortawesome/react-fontawesome": "^0.2.2",
         "axios": "^0.21.1",
         "bootstrap": "^5.3.3",
         "bootswatch": "^5.3.3",
-        "foris": "^6.0.3",
+        "foris": "^6.1.0",
         "immutability-helper": "^3.1.1",
         "ipaddr": "npm:ipaddr.js@^1.9.1",
         "moment": "^2.30.1",

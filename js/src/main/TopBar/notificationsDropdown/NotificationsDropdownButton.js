@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { SpinnerElement } from "foris";
 import PropTypes from "prop-types";
 
@@ -29,7 +30,7 @@ export default function NotificationsDropdownButton({
     } else {
         componentContent = (
             <div className="position-relative">
-                <i className="fa-solid fa-bell fa-lg" />
+                <FontAwesomeIcon icon="fa-solid fa-bell" className="fa-lg" />
                 {notificationsCount !== 0 && (
                     <NotificationCounter
                         notificationsCount={notificationsCount}

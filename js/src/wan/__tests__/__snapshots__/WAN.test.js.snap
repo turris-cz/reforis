@@ -62,7 +62,7 @@ exports[`<WAN/> Snapshot WAN IPv4 (PPPoE). 1`] = `
 +             type=\\"button\\"
 +           >
 +             <i
-+               class=\\"fa fa-eye\\"
++               class=\\"fa\\"
 +             />
 +           </button>
 +         </div>
@@ -465,7 +465,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +             type=\\"button\\"
 +           >
 +             <i
-+               class=\\"fas fa-plus\\"
++               class=\\"fa\\"
 +             />
 +           </button>
 +           <button
@@ -474,7 +474,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +             type=\\"button\\"
 +           >
 +             <i
-+               class=\\"fas fa-minus\\"
++               class=\\"fa\\"
 +             />
 +           </button>
 +         </div>
@@ -917,7 +917,7 @@ exports[`<WAN/> Snapshot: VLAN enabled 1`] = `
 +             type=\\"button\\"
 +           >
 +             <i
-+               class=\\"fas fa-plus\\"
++               class=\\"fa\\"
 +             />
 +           </button>
 +           <button
@@ -926,7 +926,7 @@ exports[`<WAN/> Snapshot: VLAN enabled 1`] = `
 +             type=\\"button\\"
 +           >
 +             <i
-+               class=\\"fas fa-minus\\"
++               class=\\"fa\\"
 +             />
 +           </button>
 +         </div>
@@ -1158,8 +1158,7 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
                 class="text-secondary"
               >
                 <i
-                  class="fas fa-minus"
-                  title="Connection test not started"
+                  class="fa"
                 />
               </span>
             </td>
@@ -1177,8 +1176,7 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
                 class="text-secondary"
               >
                 <i
-                  class="fas fa-minus"
-                  title="Connection test not started"
+                  class="fa"
                 />
               </span>
             </td>
@@ -1196,8 +1194,7 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
                 class="text-secondary"
               >
                 <i
-                  class="fas fa-minus"
-                  title="Connection test not started"
+                  class="fa"
                 />
               </span>
             </td>
@@ -1215,8 +1212,7 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
                 class="text-secondary"
               >
                 <i
-                  class="fas fa-minus"
-                  title="Connection test not started"
+                  class="fa"
                 />
               </span>
             </td>

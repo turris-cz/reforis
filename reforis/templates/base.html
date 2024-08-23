@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ locale }}" data-bs-theme="dark">
+<html lang="{{ locale }}">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,11 +24,13 @@
             rel="stylesheet"
             href="{{ url_for('static', filename = 'reforis/css/main.css') | autoversion }}"
         />
-        <script>
-            FontAwesomeConfig = { autoReplaceSvg: "nest" };
-        </script>
-        {# JS #} {% include 'includes/locale.html' %} {% include
-        'includes/plugins.html' %}
+        {# JS #}
+        <script
+            type="text/javascript"
+            src="{{ url_for('static', filename = 'reforis/js/color-modes.js')}}"
+        ></script>
+        {% include 'includes/locale.html' %} 
+        {% include 'includes/plugins.html' %}
         <script
             type="text/javascript"
             src="{{ url_for('static', filename = 'reforis/js/vendors.min.js') | autoversion }}"

@@ -184,7 +184,7 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +                   >
 +                     <span>
 +                       <i
-+                         class=\\"fas fa-edit fa-sm me-1\\"
++                         class=\\"fa\\"
 +                       />
 +                       Edit
 +                     </span>
@@ -195,7 +195,7 @@ exports[`<DNS/> Test with snapshot forwarding. 1`] = `
 +                   >
 +                     <span>
 +                       <i
-+                         class=\\"fas fa-trash fa-sm me-1\\"
++                         class=\\"fa\\"
 +                       />
 +                       Delete
 +                     </span>
@@ -356,8 +356,7 @@ exports[`<DNS/> Test with snapshot. 1`] = `
                 class="text-secondary"
               >
                 <i
-                  class="fas fa-minus"
-                  title="Connection test not started"
+                  class="fa"
                 />
               </span>
             </td>
@@ -375,8 +374,7 @@ exports[`<DNS/> Test with snapshot. 1`] = `
                 class="text-secondary"
               >
                 <i
-                  class="fas fa-minus"
-                  title="Connection test not started"
+                  class="fa"
                 />
               </span>
             </td>

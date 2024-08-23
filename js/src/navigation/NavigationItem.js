@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 
@@ -34,7 +35,10 @@ export default function NavigationItem({ path, children, isLinkOutside }) {
                 >
                     {children}
                     <sup>
-                        <i className="fas fa-external-link-alt fa-xs ms-1" />
+                        <FontAwesomeIcon
+                            icon="fa-solid fa-external-link-alt"
+                            className="fa-xs ms-1"
+                        />
                     </sup>
                 </a>
             </li>

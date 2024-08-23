@@ -18,8 +18,8 @@ import pdfMake from "pdfmake/build/pdfmake.min";
 import pdfFonts from "pdfmake/build/vfs_fonts";
 import { render } from "react-dom";
 
-// External JS
-import "@fortawesome/fontawesome-free/js/all.min";
+// Font Awesome icons
+import "./fontAwesomeIcons";
 
 // Styles go here:
 import "./app.scss";

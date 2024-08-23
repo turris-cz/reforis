@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ForisURLs } from "foris";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
@@ -34,38 +35,46 @@ export default function RebootDropdown({ notifications }) {
                 type="button"
                 id="reboot-dropdown-toggle"
                 className="nav-item btn btn-link text-body"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
             >
-                <i className="fas fa-power-off fa-lg" />
+                <FontAwesomeIcon
+                    icon="fa-solid fa-power-off"
+                    className="fa-lg text-danger"
+                />
             </button>
-            <div
+            <ul
                 className={`dropdown-menu dropdown-menu-${
                     window.outerWidth > smallScreenWidth ? "start" : "end"
                 } shadow-sm`}
             >
                 <div className="dropdown-header">
                     <Link
+                        className="text-decoration-none"
                         to={{
                             pathname: ForisURLs.maintenance,
                         }}
                     >
-                        <h5>{_("Reboot Required")}</h5>
+                        <h5 className="mb-0 text-body">
+                            {_("Reboot Required")}
+                        </h5>
                     </Link>
                 </div>
                 <div className="dropdown-divider" />
-                <div className="dropdown-item">
+                <div className="d-flex justify-content-around px-2">
                     <Link
                         to={{
                             pathname: ForisURLs.overview,
                             search: `?id=${rebootNotification.id}`,
                         }}
+                        className="btn btn-primary"
+                        type="button"
                     >
-                        <button type="button" className="btn btn-primary me-3">
-                            {_("Details")}
-                        </button>
+                        {_("Details")}
                     </Link>
                     <RebootButton />
                 </div>
-            </div>
+            </ul>
         </div>
     );
 }

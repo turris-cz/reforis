@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ForisURLs } from "foris";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
@@ -82,7 +83,7 @@ function NotificationsDropdownHeader() {
                     to={ForisURLs.notificationsSettings}
                     className="btn btn-link"
                 >
-                    <i className="fas fa-cog fa-fw" />
+                    <FontAwesomeIcon icon="fa-solid fa-cog" className="fa-fw" />
                 </Link>
             </div>
             <div className="dropdown-divider dropdown-divider-top" />

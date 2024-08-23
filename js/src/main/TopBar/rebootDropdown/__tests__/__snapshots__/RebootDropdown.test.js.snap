@@ -6,24 +6,29 @@ exports[`<RebootDropdown/> Test with snapshot 1`] = `
     class="dropdown"
   >
     <button
+      aria-expanded="false"
       class="nav-item btn btn-link text-body"
+      data-bs-toggle="dropdown"
       id="reboot-dropdown-toggle"
       type="button"
     >
       <i
-        class="fas fa-power-off fa-lg"
+        class="fa"
       />
     </button>
-    <div
+    <ul
       class="dropdown-menu dropdown-menu-start shadow-sm"
     >
       <div
         class="dropdown-header"
       >
         <a
+          class="text-decoration-none"
           href="/administration/maintenance"
         >
-          <h5>
+          <h5
+            class="mb-0 text-body"
+          >
             Reboot Required
           </h5>
         </a>
@@ -32,17 +37,14 @@ exports[`<RebootDropdown/> Test with snapshot 1`] = `
         class="dropdown-divider"
       />
       <div
-        class="dropdown-item"
+        class="d-flex justify-content-around px-2"
       >
         <a
+          class="btn btn-primary"
           href="/overview?id=808-909"
+          type="button"
         >
-          <button
-            class="btn btn-primary me-3"
-            type="button"
-          >
-            Details
-          </button>
+          Details
         </a>
         <button
           class="btn btn-danger d-inline-flex justify-content-center align-items-center"
@@ -53,7 +55,7 @@ exports[`<RebootDropdown/> Test with snapshot 1`] = `
           </span>
         </button>
       </div>
-    </div>
+    </ul>
   </div>
 </div>
 `;

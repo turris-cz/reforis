@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 
 import { INTERFACE_STATES, INTERFACE_TYPES } from "./constants";
@@ -79,9 +80,13 @@ EthInterfaceIcon.propTypes = {
 function EthInterfaceIcon({ state }) {
     return (
         <span className="fa-stack fa-2x">
-            <i className="far fa-square fa-stack-2x" />
-            <i
-                className="fas fa-ethernet fa-stack-1x"
+            <FontAwesomeIcon
+                icon="fa-regular fa-square"
+                className="fa-stack-2x"
+            />
+            <FontAwesomeIcon
+                icon="fa-solid fa-ethernet"
+                className="fa-stack-1x"
                 style={state === "down" ? { color: "lightgrey" } : null}
             />
         </span>
@@ -95,12 +100,16 @@ WiFiInterfaceIcon.propTypes = {
 function WiFiInterfaceIcon({ state }) {
     return (
         <span className="fa-stack fa-2x">
-            <i className="fas fa-wifi fa-stack-1x" />
+            <FontAwesomeIcon icon="fa-solid fa-wifi" className="fa-stack-1x" />
             {state === "down" ? (
                 <>
-                    <i className="fas fa-slash fa-stack-1x fa-inverse" />
-                    <i
-                        className="fas fa-slash fa-stack-1x"
+                    <FontAwesomeIcon
+                        icon="fa-solid fa-slash"
+                        className="fa-stack-1x fa-inverse"
+                    />
+                    <FontAwesomeIcon
+                        icon="fa-solid fa-slash"
+                        className="fa-stack-1x"
                         style={{ bottom: "0.3rem" }}
                     />
                 </>
@@ -116,19 +125,25 @@ WWANInterfaceIcon.propTypes = {
 function WWANInterfaceIcon({ state }) {
     return (
         <span className="fa-stack fa-2x">
-            <i className="fas fa-signal fa-stack-1x" />
+            <FontAwesomeIcon
+                icon="fa-solid fa-signal"
+                className="fa-stack-1x"
+            />
             {state === "down" ? (
                 <>
-                    <i
-                        className="fas fa-slash fa-stack-1x fa-inverse"
+                    <FontAwesomeIcon
+                        icon="fa-solid fa-slash"
+                        className="fa-stack-1x fa-inverse"
                         style={{ top: "0.1rem" }}
                     />
-                    <i
-                        className="fas fa-slash fa-stack-1x fa-inverse"
+                    <FontAwesomeIcon
+                        icon="fa-solid fa-slash"
+                        className="fa-stack-1x fa-inverse"
                         style={{ top: "0.5rem" }}
                     />
-                    <i
-                        className="fas fa-slash fa-stack-1x"
+                    <FontAwesomeIcon
+                        icon="fa-solid fa-slash"
+                        className="fa-stack-1x"
                         style={{ top: "0.3rem" }}
                     />
                 </>

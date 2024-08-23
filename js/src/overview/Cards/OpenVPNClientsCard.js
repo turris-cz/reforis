@@ -7,6 +7,7 @@
 
 import React, { useEffect } from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useAPIGet, withSpinnerOnSending, withErrorMessage } from "foris";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
@@ -50,7 +51,10 @@ function OpenVPNClientsCard({ clients }) {
                             className="text-secondary"
                             title={_("Go to OpenVPN Client Settings")}
                         >
-                            <i className="fas fa-chevron-right float-right" />
+                            <FontAwesomeIcon
+                                icon="fa-solid fa-chevron-right"
+                                className="float-right"
+                            />
                         </Link>
                     </h6>
                     {typeof clients === "object" && clients.length !== 0 ? (

@@ -1,7 +1,11 @@
-li button.dropdown-item i svg.fa-moon {
+li button.dropdown-item svg.fa-moon {
     width: 1rem;
 }
 
-li button.dropdown-item.active i svg {
+li button.dropdown-item.active svg path {
     color: white;
+}
+
+[data-bs-theme="dark"] li button.dropdown-item svg {
+    opacity: 0.8;
 }

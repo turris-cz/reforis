@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 import { Link, withRouter } from "react-router-dom";
 
@@ -29,7 +30,7 @@ export function NextStepButton({ next_step, location }) {
                 {_("Next step")}
                 &nbsp;
             </span>
-            <i className="fas fa-step-forward" />
+            <FontAwesomeIcon icon="fa-solid fa-step-forward" />
         </Link>
     );
 }

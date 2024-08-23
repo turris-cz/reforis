@@ -83,7 +83,7 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
             Skip guide
           </span>
           <i
-            class="fas fa-forward"
+            class="fa"
           />
         </span>
       </button>
@@ -98,7 +98,7 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
            
         </span>
         <i
-          class="fas fa-step-forward"
+          class="fa"
         />
       </a>
     </div>
@@ -205,7 +205,7 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
             Skip guide
           </span>
           <i
-            class="fas fa-forward"
+            class="fa"
           />
         </span>
       </button>
@@ -220,7 +220,7 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
            
         </span>
         <i
-          class="fas fa-step-forward"
+          class="fa"
         />
       </a>
     </div>
@@ -306,7 +306,7 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
             Skip guide
           </span>
           <i
-            class="fas fa-forward"
+            class="fa"
           />
         </span>
       </button>
@@ -321,7 +321,7 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
            
         </span>
         <i
-          class="fas fa-step-forward"
+          class="fa"
         />
       </a>
     </div>
@@ -409,7 +409,7 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
             Skip guide
           </span>
           <i
-            class="fas fa-forward"
+            class="fa"
           />
         </span>
       </button>
@@ -424,7 +424,7 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
            
         </span>
         <i
-          class="fas fa-step-forward"
+          class="fa"
         />
       </a>
     </div>

@@ -471,7 +471,7 @@ exports[`<RegionAndTime/> Snapshot 1`] = `
                 type="button"
               >
                 <i
-                  class="fas fa-sync-alt"
+                  class="fa"
                 />
               </button>
             </div>

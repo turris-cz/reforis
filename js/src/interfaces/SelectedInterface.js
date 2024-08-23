@@ -7,6 +7,7 @@
 
 import React, { useEffect, useRef } from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Select } from "foris";
 import PropTypes from "prop-types";
 
@@ -60,14 +61,22 @@ export default function SelectedInterface({
     */
     if (!WANIsEmpty && network !== "wan") delete networkChoices.wan;
 
-    let stateIconClass = "fa-question-circle text-warning";
+    let stateIconClass;
+    let stateIconColor;
+
     if (state === "up") {
-        stateIconClass = "fa-check-circle text-success";
+        stateIconClass = "fa-check-circle";
+        stateIconColor = "text-success";
     } else if (state === "down") {
-        stateIconClass = "fa-times-circle text-danger";
+        stateIconClass = "fa-times-circle";
+        stateIconColor = "text-danger";
+    } else {
+        stateIconClass = "fa-question-circle";
+        stateIconColor = "text-warning";
     }
 
     const moduleName = module_id !== 0 ? `(module ${module_id})` : "";
+
     return (
         <>
             <h3>{babel.format(_("Interface %s %s"), slot, moduleName)}</h3>
@@ -84,8 +93,9 @@ export default function SelectedInterface({
                         <th>{_("State")}</th>
                         <td>
                             <span key={`${id}-${state}`}>
-                                <i
-                                    className={`fa fa-lg ${stateIconClass}`}
+                                <FontAwesomeIcon
+                                    icon={`fa-regular ${stateIconClass}`}
+                                    className={stateIconColor}
                                     title={
                                         state[0].toUpperCase() + state.slice(1)
                                     }

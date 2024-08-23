@@ -7,6 +7,7 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button, useAPIDelete, API_STATE } from "foris";
 import PropTypes from "prop-types";
 
@@ -134,7 +135,10 @@ function ForwarderActions({ forwarder, editForwarder, disabled }) {
                 className="btn-primary btn-sm"
                 disabled={buttonDisabled}
             >
-                <i className="fas fa-edit fa-sm me-1" />
+                <FontAwesomeIcon
+                    icon="fa-solid fa-edit"
+                    className="fa-sm me-1"
+                />
                 {_("Edit")}
             </Button>
             <Button
@@ -142,7 +146,10 @@ function ForwarderActions({ forwarder, editForwarder, disabled }) {
                 className="btn-danger btn-sm"
                 disabled={buttonDisabled}
             >
-                <i className="fas fa-trash fa-sm me-1" />
+                <FontAwesomeIcon
+                    icon="fa-solid fa-trash"
+                    className="fa-sm me-1"
+                />
                 {_("Delete")}
             </Button>
         </div>
