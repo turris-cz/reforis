@@ -61,14 +61,22 @@ export default function SelectedInterface({
     */
     if (!WANIsEmpty && network !== "wan") delete networkChoices.wan;
 
-    let stateIconClass = "fa-question-circle";
+    let stateIconClass;
+    let stateIconColor;
+
     if (state === "up") {
         stateIconClass = "fa-check-circle";
+        stateIconColor = "text-success";
     } else if (state === "down") {
         stateIconClass = "fa-times-circle";
+        stateIconColor = "text-danger";
+    } else {
+        stateIconClass = "fa-question-circle";
+        stateIconColor = "text-warning";
     }
 
     const moduleName = module_id !== 0 ? `(module ${module_id})` : "";
+
     return (
         <>
             <h3>{babel.format(_("Interface %s %s"), slot, moduleName)}</h3>
@@ -87,13 +95,7 @@ export default function SelectedInterface({
                             <span key={`${id}-${state}`}>
                                 <FontAwesomeIcon
                                     icon={`fa-regular ${stateIconClass}`}
-                                    className={
-                                        state === "up"
-                                            ? "text-success"
-                                            : state === "down"
-                                              ? "text-danger"
-                                              : "text-warning"
-                                    }
+                                    className={stateIconColor}
                                     title={
                                         state[0].toUpperCase() + state.slice(1)
                                     }

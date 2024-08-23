@@ -40,6 +40,19 @@ DarkModeToggle.propTypes = {
 function DarkModeToggle({ className }) {
     const { theme, setTheme } = useThemeContext();
 
+    let themeIcon;
+    switch (theme) {
+        case "light":
+            themeIcon = "fa-sun";
+            break;
+        case "dark":
+            themeIcon = "fa-moon";
+            break;
+        case "auto":
+        default:
+            themeIcon = "fa-circle-half-stroke";
+    }
+
     return (
         <div className="dropdown">
             <button
@@ -48,25 +61,7 @@ function DarkModeToggle({ className }) {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
             >
-                {
-                    // Change icon depending on the theme
-                    theme === "light" ? (
-                        <FontAwesomeIcon
-                            icon="fa-solid fa-sun"
-                            className="fa-lg"
-                        />
-                    ) : theme === "dark" ? (
-                        <FontAwesomeIcon
-                            icon="fa-solid fa-moon"
-                            className="fa-lg"
-                        />
-                    ) : (
-                        <FontAwesomeIcon
-                            icon="fa-solid fa-circle-half-stroke"
-                            className="fa-lg"
-                        />
-                    )
-                }
+                <FontAwesomeIcon icon={themeIcon} className="fa-lg" />
             </button>
             <ul
                 className={`dropdown-menu dropdown-menu-${
