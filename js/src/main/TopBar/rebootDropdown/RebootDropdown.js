@@ -61,16 +61,16 @@ export default function RebootDropdown({ notifications }) {
                     </Link>
                 </div>
                 <div className="dropdown-divider" />
-                <div className="d-flex justify-content-between px-3">
+                <div className="d-flex justify-content-around px-2">
                     <Link
                         to={{
                             pathname: ForisURLs.overview,
                             search: `?id=${rebootNotification.id}`,
                         }}
+                        className="btn btn-primary"
+                        type="button"
                     >
-                        <button type="button" className="btn btn-primary me-3">
-                            {_("Details")}
-                        </button>
+                        {_("Details")}
                     </Link>
                     <RebootButton />
                 </div>
