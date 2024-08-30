@@ -61,7 +61,11 @@ function DarkModeToggle({ className }) {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
             >
-                <FontAwesomeIcon icon={themeIcon} className="fa-lg" />
+                <FontAwesomeIcon
+                    icon={themeIcon}
+                    className="fa-lg"
+                    width={20}
+                />
             </button>
             <ul
                 className={`dropdown-menu dropdown-menu-${

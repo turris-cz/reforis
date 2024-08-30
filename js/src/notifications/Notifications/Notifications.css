@@ -34,19 +34,6 @@
     justify-content: space-between;
 }
 
-#notifications-center .card.border-info .svg-inline--fa path,
-#notifications .dropdown-item i .svg-inline--fa .fa-newspaper path,
-#notifications .dropdown-item i .svg-inline--fa .fa-sync-alt path {
-    fill: #00a2e2;
-}
-
-#notifications-center .card.border-danger .svg-inline--fa path,
-#notifications .dropdown-item i .fa-power-off path,
-#notifications .dropdown-item i .fa-circle-exclamation path {
-    fill: #e74c3c;
-}
-
-
 @media screen and (max-width: 402px) {
     #btn-dismiss-all {
         position: relative;
@@ -56,9 +43,9 @@
 }
 
 #notifications-center .highlight-danger {
-    background-color: #e74c3c38;
+    background-color: var(--bs-danger-bg-subtle);
 }
 
 #notifications-center .highlight-info {
-    background-color: #3498db33;
+    background-color: var(--bs-info-bg-subtle);
 }

@@ -10,8 +10,6 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 
-import "./DarkModeDropdownButton.css";
-
 DarkModeDropdownButton.propTypes = {
     label: PropTypes.string.isRequired,
     icon: PropTypes.string.isRequired,
@@ -29,13 +27,15 @@ function DarkModeDropdownButton({ label, icon, onClick, active }) {
             >
                 <FontAwesomeIcon
                     icon={`fa-solid ${icon}`}
-                    className="me-1 text-body"
+                    className="me-1 opacity-50"
+                    width="1rem"
                 />
                 {label}
                 {active && (
                     <FontAwesomeIcon
                         icon="fa-solid fa-check"
                         className="ms-auto"
+                        width="1rem"
                     />
                 )}
             </button>

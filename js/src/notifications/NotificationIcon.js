@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -31,7 +31,7 @@ export default function NotificationIcon({ severity, className }) {
             break;
         case SEVERITIES.ERROR:
             iconName = "exclamation-circle";
-            iconColor = "text-warning";
+            iconColor = "text-danger";
             break;
         case SEVERITIES.UPDATE:
             iconName = "sync-alt";
@@ -43,7 +43,7 @@ export default function NotificationIcon({ severity, className }) {
     return (
         <FontAwesomeIcon
             icon={`fa-solid fa-${iconName}`}
-            className={`${className} ${iconColor}`}
+            className={`text-opacity-75 ${iconColor} ${className}`}
         />
     );
 }
