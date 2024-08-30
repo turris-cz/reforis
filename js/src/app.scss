@@ -5,20 +5,73 @@
  * See /LICENSE for more information.
  */
 
-// Variable overrides go here:
-$primary: #00a2e2;
-$link-color: #00a2e2;
+$primary: #00a2e2 !default;
+$secondary: #6c757d !default;
+$light: #ecf0f1 !default;
+$dark: #252525 !default;
+$body-color: #212529 !default;
+$dark-bg-subtle: #ced4da !default;
 
-// Disable web fonts (Google Fonts) to improve privacy and performance
-$web-font-path: false;
-
-// Reduce headings font size
 $h1-font-size: 2.5rem;
 $h2-font-size: 2rem;
 $h3-font-size: 1.75rem;
 $h4-font-size: 1.5rem;
 $h5-font-size: 1.25rem;
 $h6-font-size: 1rem;
+
+$pagination-color: var(--bs-link-color);
+$pagination-bg: var(--bs-body-bg) !default;
+$pagination-border-width: var(--bs-border-width) !default;
+$pagination-border-color: var(--bs-border-color) !default;
+$pagination-hover-bg: var(--bs-tertiary-bg) !default;
+$pagination-hover-color: $primary !default;
+$pagination-hover-border-color: var(--bs-border-color) !default;
+$pagination-active-bg: $primary !default;
+$pagination-disabled-bg: var(--bs-primary-border-subtle);
+
+$link-color: $primary !default;
+
+$dropdown-item-color: var(--bs-white) !default;
+
+$dropdown-item-color: var(--bs-tertiary-bg) !default;
+$dropdown-link-color: var(--bs-body-color) !default;
+$dropdown-header-color: #6c757d !default;
+
+$list-group-hover-bg: rgba(255, 255, 255, 0.5) !default;
+$list-group-disabled-bg: var(--bs-body-bg) !default;
+
+$nav-tabs-link-active-color: var(--bs-body-color) !default;
+
+$navbar-dark-active-color: var(--bs-white) !default;
+$navbar-dark-hover-color: var(--bs-white) !default;
+$navbar-dark-color: var(--bs-light) !default;
+
+// Use local fonts
+$web-font-path: false;
+
+// Custom styles
+:root {
+    --bs-dark-rgb: 33, 37, 41 !important;
+    --bs-tertiary-bg-rgb: 245, 245, 245 !important;
+}
+
+[data-bs-theme="dark"] {
+    --bs-tertiary-bg-rgb: 43, 48, 53 !important;
+}
+
+.align-horizontally {
+    margin: 0 auto;
+}
+
+// Turris logo color inversion
+[data-bs-theme="dark"] {
+    .img-logo-white {
+        filter: invert(0.1);
+    }
+    .img-logo-black {
+        filter: invert(0.9);
+    }
+}
 
 // Import Bootstrap, Bootswatch and its default variables
 @import "~bootswatch/dist/flatly/variables";
