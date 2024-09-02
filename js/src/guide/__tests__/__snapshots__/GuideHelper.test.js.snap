@@ -2,83 +2,152 @@
 
 exports[`<GuideHelp/> displays lan help with completed message 1`] = `
 <div
-  class="card guide-card bg-info text-white mb-4"
+  class="d-flex flex-column flex-md-row justify-content-center p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 mb-4"
 >
   <div
-    class="card-body row"
+    class="flex-fill d-flex flex-column justify-content-center align-items-sm-center text-center mb-2 mb-sm-0 me-0 me-sm-3"
+  >
+    <p
+      class="mb-0"
+    >
+      Now you should configure your LAN interface. Note that when you change your network settings you probably won't be able to connect to the configuration interface unless you restart the network on your current device.
+    </p>
+    <p
+      class="fw-bold mb-sm-3 mb-md-0 mt-2"
+    >
+      You've configured your LAN interface. Try to test whether settings work properly and if so you can safely proceed to the next step.
+    </p>
+  </div>
+  <div
+    class="d-flex justify-content-center align-items-center"
   >
     <div
-      class="col-lg-8 col-md-12 col-sm-12 d-flex flex-column justify-content-center align-items-sm-center text-center"
+      class="dropdown"
     >
-      <p>
-        Now you should configure your LAN interface. Note that when you change your network settings you probably won't be able to connect to the configuration interface unless you restart the network on your current device.
-      </p>
-      <p
-        class="font-weight-bold mb-sm-3 mb-md-0"
-      >
-        You've configured your LAN interface. Try to test whether settings work properly and if so you can safely proceed to the next step.
-      </p>
-    </div>
-    <div
-      class="guide-controls col-lg-4 col-md-12 col-sm-12 mt-md-2 mt-lg-0"
-    >
-      <div
-        class="dropdown"
-      >
-        <button
-          aria-expanded="false"
-          class="nav-item btn guide-controls-button btn-light fw-bold text-body text-decoration-none"
-          data-bs-toggle="dropdown"
-          type="button"
-        >
-          <div
-            class="spinner-border spinner-border-sm text-primary"
-            role="status"
-          >
-            <span
-              class="sr-only"
-            />
-          </div>
-        </button>
-        <ul
-          class="dropdown-menu dropdown-menu-end shadow-sm"
-          id="languages-dropdown-menu"
-        >
-          <div
-            class="dropdown-header"
-          >
-            <a
-              class="text-decoration-none"
-              href="/package-management/languages"
-            >
-              <h5
-                class="mb-0 text-body"
-              >
-                Languages
-              </h5>
-            </a>
-          </div>
-          <div
-            class="dropdown-divider"
-          />
-          <div
-            class="spinner-border spinner-border-sm"
-            role="status"
-          >
-            <span
-              class="sr-only"
-            />
-          </div>
-        </ul>
-      </div>
       <button
-        class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
-        style="pointer-events: not-allowed;"
+        aria-expanded="false"
+        class="nav-item btn btn-secondary me-2 fw-bold text-decoration-none"
+        data-bs-toggle="dropdown"
         type="button"
       >
-        <span>
+        <div
+          class="spinner-border spinner-border-sm text-primary"
+          role="status"
+        >
           <span
-            class="d-none d-sm-inline-block me-1"
+            class="sr-only"
+          />
+        </div>
+      </button>
+      <ul
+        class="dropdown-menu dropdown-menu-end shadow-sm"
+        id="languages-dropdown-menu"
+      >
+        <div
+          class="dropdown-header"
+        >
+          <a
+            class="text-decoration-none"
+            href="/package-management/languages"
+          >
+            <h5
+              class="mb-0 text-body"
+            >
+              Languages
+            </h5>
+          </a>
+        </div>
+        <div
+          class="dropdown-divider"
+        />
+        <div
+          class="spinner-border spinner-border-sm"
+          role="status"
+        >
+          <span
+            class="sr-only"
+          />
+        </div>
+      </ul>
+    </div>
+    <div
+      class="dropdown"
+    >
+      <button
+        aria-expanded="false"
+        class="nav-item btn btn-secondary me-2 fw-bold text-decoration-none"
+        data-bs-toggle="dropdown"
+        type="button"
+      >
+        <i
+          class="fa"
+        />
+      </button>
+      <ul
+        class="dropdown-menu dropdown-menu-end shadow-sm"
+        id="darkmode-dropdown-menu"
+      >
+        <div
+          class="dropdown-header"
+        >
+          <h5
+            class="mb-0 text-body"
+          >
+            Dark Mode
+          </h5>
+        </div>
+        <div
+          class="dropdown-divider"
+        />
+        <li>
+          <button
+            class="dropdown-item d-flex align-items-center"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+            Light
+          </button>
+        </li>
+        <li>
+          <button
+            class="dropdown-item d-flex align-items-center"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+            Dark
+          </button>
+        </li>
+        <li>
+          <button
+            class="dropdown-item d-flex align-items-center active fw-bold"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+            Auto
+            <i
+              class="fa"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+    <button
+      class="btn btn-warning me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
+      style="pointer-events: not-allowed;"
+      type="button"
+    >
+      <span>
+        <span
+          class="d-flex flex-nowrap justify-content-center align-items-center align-self-stretch align-self-sm-center"
+        >
+          <span
+            class="d-none d-sm-inline-block text-nowrap me-1"
           >
             Skip guide
           </span>
@@ -86,121 +155,195 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
             class="fa"
           />
         </span>
-      </button>
-      <a
-        class="guide-controls-button btn btn-success blinking"
-        href="/some"
+      </span>
+    </button>
+    <a
+      class="btn btn-success d-flex justify-content-center align-items-center align-self-stretch align-self-sm-center blinking"
+      href="/some"
+    >
+      <span
+        class="d-none d-sm-inline-block text-nowrap me-1"
       >
-        <span
-          class="d-none d-sm-block"
-        >
-          Next step
-           
-        </span>
-        <i
-          class="fa"
-        />
-      </a>
-    </div>
+        Next step
+      </span>
+      <i
+        class="fa"
+      />
+    </a>
   </div>
 </div>
 `;
 
 exports[`<GuideHelp/> displays lan help without completed message - server workflow 1`] = `
 <div
-  class="card guide-card bg-info text-white mb-4"
+  class="d-flex flex-column flex-md-row justify-content-center p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 mb-4"
 >
   <div
-    class="card-body row"
+    class="flex-fill d-flex flex-column justify-content-center align-items-sm-center text-center mb-2 mb-sm-0 me-0 me-sm-3"
+  >
+    <p
+      class="mb-0"
+    >
+      To act as a local server, there's no need to manage LAN (if you still want to manage it reset the guide and choose the Router workflow). You probably want to act as a client here thus select 
+      <strong>
+        Computer
+      </strong>
+       mode here.
+    </p>
+    <p
+      class="mb-0"
+    >
+      If you select the 
+      <strong>
+        static
+      </strong>
+       configuration be sure that the IP addresses are entered correctly otherwise you won't be able to access this configuration interface when the new settings are applied.
+    </p>
+    <p
+      class="mb-0"
+    >
+      If you select the 
+      <strong>
+        DHCP
+      </strong>
+       method you probably you need to obtain a new IP address of this device. You can obtain it from the DHCP server which is managing your LAN. Then you need to connect to the new IP address to proceed the guide.
+    </p>
+    <p
+      class="mb-2"
+    >
+      Note that either way you might need to re-plug your ethernet cables after you update the settings here.
+    </p>
+  </div>
+  <div
+    class="d-flex justify-content-center align-items-center"
   >
     <div
-      class="col-lg-8 col-md-12 col-sm-12 d-flex flex-column justify-content-center align-items-sm-center text-center"
+      class="dropdown"
     >
-      <p>
-        To act as a local server, there's no need to manage LAN (if you still want to manage it reset the guide and choose the Router workflow). You probably want to act as a client here thus select 
-        <strong>
-          Computer
-        </strong>
-         mode here.
-      </p>
-      <p>
-        If you select the 
-        <strong>
-          static
-        </strong>
-         configuration be sure that the IP addresses are entered correctly otherwise you won't be able to access this configuration interface when the new settings are applied.
-      </p>
-      <p>
-        If you select the 
-        <strong>
-          DHCP
-        </strong>
-         method you probably you need to obtain a new IP address of this device. You can obtain it from the DHCP server which is managing your LAN. Then you need to connect to the new IP address to proceed the guide.
-      </p>
-      <p>
-        Note that either way you might need to re-plug your ethernet cables after you update the settings here.
-      </p>
-    </div>
-    <div
-      class="guide-controls col-lg-4 col-md-12 col-sm-12 mt-md-2 mt-lg-0"
-    >
-      <div
-        class="dropdown"
-      >
-        <button
-          aria-expanded="false"
-          class="nav-item btn guide-controls-button btn-light fw-bold text-body text-decoration-none"
-          data-bs-toggle="dropdown"
-          type="button"
-        >
-          <div
-            class="spinner-border spinner-border-sm text-primary"
-            role="status"
-          >
-            <span
-              class="sr-only"
-            />
-          </div>
-        </button>
-        <ul
-          class="dropdown-menu dropdown-menu-end shadow-sm"
-          id="languages-dropdown-menu"
-        >
-          <div
-            class="dropdown-header"
-          >
-            <a
-              class="text-decoration-none"
-              href="/package-management/languages"
-            >
-              <h5
-                class="mb-0 text-body"
-              >
-                Languages
-              </h5>
-            </a>
-          </div>
-          <div
-            class="dropdown-divider"
-          />
-          <div
-            class="spinner-border spinner-border-sm"
-            role="status"
-          >
-            <span
-              class="sr-only"
-            />
-          </div>
-        </ul>
-      </div>
       <button
-        class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
-        style="pointer-events: not-allowed;"
+        aria-expanded="false"
+        class="nav-item btn btn-secondary me-2 fw-bold text-decoration-none"
+        data-bs-toggle="dropdown"
         type="button"
       >
-        <span>
+        <div
+          class="spinner-border spinner-border-sm text-primary"
+          role="status"
+        >
           <span
-            class="d-none d-sm-inline-block me-1"
+            class="sr-only"
+          />
+        </div>
+      </button>
+      <ul
+        class="dropdown-menu dropdown-menu-end shadow-sm"
+        id="languages-dropdown-menu"
+      >
+        <div
+          class="dropdown-header"
+        >
+          <a
+            class="text-decoration-none"
+            href="/package-management/languages"
+          >
+            <h5
+              class="mb-0 text-body"
+            >
+              Languages
+            </h5>
+          </a>
+        </div>
+        <div
+          class="dropdown-divider"
+        />
+        <div
+          class="spinner-border spinner-border-sm"
+          role="status"
+        >
+          <span
+            class="sr-only"
+          />
+        </div>
+      </ul>
+    </div>
+    <div
+      class="dropdown"
+    >
+      <button
+        aria-expanded="false"
+        class="nav-item btn btn-secondary me-2 fw-bold text-decoration-none"
+        data-bs-toggle="dropdown"
+        type="button"
+      >
+        <i
+          class="fa"
+        />
+      </button>
+      <ul
+        class="dropdown-menu dropdown-menu-end shadow-sm"
+        id="darkmode-dropdown-menu"
+      >
+        <div
+          class="dropdown-header"
+        >
+          <h5
+            class="mb-0 text-body"
+          >
+            Dark Mode
+          </h5>
+        </div>
+        <div
+          class="dropdown-divider"
+        />
+        <li>
+          <button
+            class="dropdown-item d-flex align-items-center"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+            Light
+          </button>
+        </li>
+        <li>
+          <button
+            class="dropdown-item d-flex align-items-center"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+            Dark
+          </button>
+        </li>
+        <li>
+          <button
+            class="dropdown-item d-flex align-items-center active fw-bold"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+            Auto
+            <i
+              class="fa"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+    <button
+      class="btn btn-warning me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
+      style="pointer-events: not-allowed;"
+      type="button"
+    >
+      <span>
+        <span
+          class="d-flex flex-nowrap justify-content-center align-items-center align-self-stretch align-self-sm-center"
+        >
+          <span
+            class="d-none d-sm-inline-block text-nowrap me-1"
           >
             Skip guide
           </span>
@@ -208,100 +351,168 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
             class="fa"
           />
         </span>
-      </button>
-      <a
-        class="guide-controls-button btn btn-success blinking"
-        href="/some"
+      </span>
+    </button>
+    <a
+      class="btn btn-success d-flex justify-content-center align-items-center align-self-stretch align-self-sm-center blinking"
+      href="/some"
+    >
+      <span
+        class="d-none d-sm-inline-block text-nowrap me-1"
       >
-        <span
-          class="d-none d-sm-block"
-        >
-          Next step
-           
-        </span>
-        <i
-          class="fa"
-        />
-      </a>
-    </div>
+        Next step
+      </span>
+      <i
+        class="fa"
+      />
+    </a>
   </div>
 </div>
 `;
 
 exports[`<GuideHelp/> displays lan help without completed message 1`] = `
 <div
-  class="card guide-card bg-info text-white mb-4"
+  class="d-flex flex-column flex-md-row justify-content-center p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 mb-4"
 >
   <div
-    class="card-body row"
+    class="flex-fill d-flex flex-column justify-content-center align-items-sm-center text-center mb-2 mb-sm-0 me-0 me-sm-3"
+  >
+    <p
+      class="mb-0"
+    >
+      Now you should configure your LAN interface. Note that when you change your network settings you probably won't be able to connect to the configuration interface unless you restart the network on your current device.
+    </p>
+  </div>
+  <div
+    class="d-flex justify-content-center align-items-center"
   >
     <div
-      class="col-lg-8 col-md-12 col-sm-12 d-flex flex-column justify-content-center align-items-sm-center text-center"
+      class="dropdown"
     >
-      <p>
-        Now you should configure your LAN interface. Note that when you change your network settings you probably won't be able to connect to the configuration interface unless you restart the network on your current device.
-      </p>
-    </div>
-    <div
-      class="guide-controls col-lg-4 col-md-12 col-sm-12 mt-md-2 mt-lg-0"
-    >
-      <div
-        class="dropdown"
-      >
-        <button
-          aria-expanded="false"
-          class="nav-item btn guide-controls-button btn-light fw-bold text-body text-decoration-none"
-          data-bs-toggle="dropdown"
-          type="button"
-        >
-          <div
-            class="spinner-border spinner-border-sm text-primary"
-            role="status"
-          >
-            <span
-              class="sr-only"
-            />
-          </div>
-        </button>
-        <ul
-          class="dropdown-menu dropdown-menu-end shadow-sm"
-          id="languages-dropdown-menu"
-        >
-          <div
-            class="dropdown-header"
-          >
-            <a
-              class="text-decoration-none"
-              href="/package-management/languages"
-            >
-              <h5
-                class="mb-0 text-body"
-              >
-                Languages
-              </h5>
-            </a>
-          </div>
-          <div
-            class="dropdown-divider"
-          />
-          <div
-            class="spinner-border spinner-border-sm"
-            role="status"
-          >
-            <span
-              class="sr-only"
-            />
-          </div>
-        </ul>
-      </div>
       <button
-        class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
-        style="pointer-events: not-allowed;"
+        aria-expanded="false"
+        class="nav-item btn btn-secondary me-2 fw-bold text-decoration-none"
+        data-bs-toggle="dropdown"
         type="button"
       >
-        <span>
+        <div
+          class="spinner-border spinner-border-sm text-primary"
+          role="status"
+        >
           <span
-            class="d-none d-sm-inline-block me-1"
+            class="sr-only"
+          />
+        </div>
+      </button>
+      <ul
+        class="dropdown-menu dropdown-menu-end shadow-sm"
+        id="languages-dropdown-menu"
+      >
+        <div
+          class="dropdown-header"
+        >
+          <a
+            class="text-decoration-none"
+            href="/package-management/languages"
+          >
+            <h5
+              class="mb-0 text-body"
+            >
+              Languages
+            </h5>
+          </a>
+        </div>
+        <div
+          class="dropdown-divider"
+        />
+        <div
+          class="spinner-border spinner-border-sm"
+          role="status"
+        >
+          <span
+            class="sr-only"
+          />
+        </div>
+      </ul>
+    </div>
+    <div
+      class="dropdown"
+    >
+      <button
+        aria-expanded="false"
+        class="nav-item btn btn-secondary me-2 fw-bold text-decoration-none"
+        data-bs-toggle="dropdown"
+        type="button"
+      >
+        <i
+          class="fa"
+        />
+      </button>
+      <ul
+        class="dropdown-menu dropdown-menu-end shadow-sm"
+        id="darkmode-dropdown-menu"
+      >
+        <div
+          class="dropdown-header"
+        >
+          <h5
+            class="mb-0 text-body"
+          >
+            Dark Mode
+          </h5>
+        </div>
+        <div
+          class="dropdown-divider"
+        />
+        <li>
+          <button
+            class="dropdown-item d-flex align-items-center"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+            Light
+          </button>
+        </li>
+        <li>
+          <button
+            class="dropdown-item d-flex align-items-center"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+            Dark
+          </button>
+        </li>
+        <li>
+          <button
+            class="dropdown-item d-flex align-items-center active fw-bold"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+            Auto
+            <i
+              class="fa"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+    <button
+      class="btn btn-warning me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
+      style="pointer-events: not-allowed;"
+      type="button"
+    >
+      <span>
+        <span
+          class="d-flex flex-nowrap justify-content-center align-items-center align-self-stretch align-self-sm-center"
+        >
+          <span
+            class="d-none d-sm-inline-block text-nowrap me-1"
           >
             Skip guide
           </span>
@@ -309,22 +520,21 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
             class="fa"
           />
         </span>
-      </button>
-      <a
-        class="guide-controls-button btn btn-success blinking"
-        href="/some"
+      </span>
+    </button>
+    <a
+      class="btn btn-success d-flex justify-content-center align-items-center align-self-stretch align-self-sm-center blinking"
+      href="/some"
+    >
+      <span
+        class="d-none d-sm-inline-block text-nowrap me-1"
       >
-        <span
-          class="d-none d-sm-block"
-        >
-          Next step
-           
-        </span>
-        <i
-          class="fa"
-        />
-      </a>
-    </div>
+        Next step
+      </span>
+      <i
+        class="fa"
+      />
+    </a>
   </div>
 </div>
 `;
@@ -333,78 +543,147 @@ exports[`<GuideHelp/> doesn't display anything if step doesn't exist 1`] = `null
 
 exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] = `
 <div
-  class="card guide-card bg-info text-white mb-4"
+  class="d-flex flex-column flex-md-row justify-content-center p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 mb-4"
 >
   <div
-    class="card-body row"
+    class="flex-fill d-flex flex-column justify-content-center align-items-sm-center text-center mb-2 mb-sm-0 me-0 me-sm-3"
+  >
+    <p
+      class="mb-0"
+    >
+      Congratulations! Now your device should be able to act as a server on your local network.
+    </p>
+  </div>
+  <div
+    class="d-flex justify-content-center align-items-center"
   >
     <div
-      class="col-lg-8 col-md-12 col-sm-12 d-flex flex-column justify-content-center align-items-sm-center text-center"
+      class="dropdown"
     >
-      <p>
-        Congratulations! Now your device should be able to act as a server on your local network.
-      </p>
-    </div>
-    <div
-      class="guide-controls col-lg-4 col-md-12 col-sm-12 mt-md-2 mt-lg-0"
-    >
-      <div
-        class="dropdown"
-      >
-        <button
-          aria-expanded="false"
-          class="nav-item btn guide-controls-button btn-light fw-bold text-body text-decoration-none"
-          data-bs-toggle="dropdown"
-          type="button"
-        >
-          <div
-            class="spinner-border spinner-border-sm text-primary"
-            role="status"
-          >
-            <span
-              class="sr-only"
-            />
-          </div>
-        </button>
-        <ul
-          class="dropdown-menu dropdown-menu-end shadow-sm"
-          id="languages-dropdown-menu"
-        >
-          <div
-            class="dropdown-header"
-          >
-            <a
-              class="text-decoration-none"
-              href="/package-management/languages"
-            >
-              <h5
-                class="mb-0 text-body"
-              >
-                Languages
-              </h5>
-            </a>
-          </div>
-          <div
-            class="dropdown-divider"
-          />
-          <div
-            class="spinner-border spinner-border-sm"
-            role="status"
-          >
-            <span
-              class="sr-only"
-            />
-          </div>
-        </ul>
-      </div>
       <button
-        class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
-        style="pointer-events: not-allowed;"
+        aria-expanded="false"
+        class="nav-item btn btn-secondary me-2 fw-bold text-decoration-none"
+        data-bs-toggle="dropdown"
         type="button"
       >
-        <span>
+        <div
+          class="spinner-border spinner-border-sm text-primary"
+          role="status"
+        >
           <span
-            class="d-none d-sm-inline-block me-1"
+            class="sr-only"
+          />
+        </div>
+      </button>
+      <ul
+        class="dropdown-menu dropdown-menu-end shadow-sm"
+        id="languages-dropdown-menu"
+      >
+        <div
+          class="dropdown-header"
+        >
+          <a
+            class="text-decoration-none"
+            href="/package-management/languages"
+          >
+            <h5
+              class="mb-0 text-body"
+            >
+              Languages
+            </h5>
+          </a>
+        </div>
+        <div
+          class="dropdown-divider"
+        />
+        <div
+          class="spinner-border spinner-border-sm"
+          role="status"
+        >
+          <span
+            class="sr-only"
+          />
+        </div>
+      </ul>
+    </div>
+    <div
+      class="dropdown"
+    >
+      <button
+        aria-expanded="false"
+        class="nav-item btn btn-secondary me-2 fw-bold text-decoration-none"
+        data-bs-toggle="dropdown"
+        type="button"
+      >
+        <i
+          class="fa"
+        />
+      </button>
+      <ul
+        class="dropdown-menu dropdown-menu-end shadow-sm"
+        id="darkmode-dropdown-menu"
+      >
+        <div
+          class="dropdown-header"
+        >
+          <h5
+            class="mb-0 text-body"
+          >
+            Dark Mode
+          </h5>
+        </div>
+        <div
+          class="dropdown-divider"
+        />
+        <li>
+          <button
+            class="dropdown-item d-flex align-items-center"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+            Light
+          </button>
+        </li>
+        <li>
+          <button
+            class="dropdown-item d-flex align-items-center"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+            Dark
+          </button>
+        </li>
+        <li>
+          <button
+            class="dropdown-item d-flex align-items-center active fw-bold"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+            Auto
+            <i
+              class="fa"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+    <button
+      class="btn btn-warning me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
+      style="pointer-events: not-allowed;"
+      type="button"
+    >
+      <span>
+        <span
+          class="d-flex flex-nowrap justify-content-center align-items-center align-self-stretch align-self-sm-center"
+        >
+          <span
+            class="d-none d-sm-inline-block text-nowrap me-1"
           >
             Skip guide
           </span>
@@ -412,22 +691,21 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
             class="fa"
           />
         </span>
-      </button>
-      <a
-        class="guide-controls-button btn btn-success blinking"
-        href="/some"
+      </span>
+    </button>
+    <a
+      class="btn btn-success d-flex justify-content-center align-items-center align-self-stretch align-self-sm-center blinking"
+      href="/some"
+    >
+      <span
+        class="d-none d-sm-inline-block text-nowrap me-1"
       >
-        <span
-          class="d-none d-sm-block"
-        >
-          Next step
-           
-        </span>
-        <i
-          class="fa"
-        />
-      </a>
-    </div>
+        Next step
+      </span>
+      <i
+        class="fa"
+      />
+    </a>
   </div>
 </div>
 `;

@@ -3,7 +3,7 @@
 exports[`<GuideFinish/> and useGuideFinish hook Snapshot. 1`] = `
 <div>
   <h1>
-    Guide Finished
+    Guide Finished 🎉
   </h1>
   <p>
     Once you leave this guide you'll be granted access to the full configuration interface of this device.

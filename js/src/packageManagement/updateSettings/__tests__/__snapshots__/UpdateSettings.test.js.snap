@@ -86,7 +86,7 @@ exports[`<UpdateSettings/> Test with snapshot disabled. 1`] = `
             </li>
           </ul>
           <p
-            class="font-weight-bold"
+            class="fw-bold"
           >
             By enabling the automatic updates, you confirm that you are the owner of this Turris router, and you agree with the full text of the 
             <a
