@@ -35,7 +35,7 @@ export default function LanguagesDropdown({ ws, className }) {
     return (
         <div className="dropdown">
             <button
-                className={`nav-item btn ${className || "btn-link"} fw-bold text-body text-decoration-none`.trim()}
+                className={`nav-item btn ${className || "btn-link text-body"} fw-bold text-decoration-none`.trim()}
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"

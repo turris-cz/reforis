@@ -17,6 +17,11 @@
     justify-content: center;
 }
 
+[data-bs-theme="dark"] #stepsbar,
+[data-bs-theme="dark"] #guide-nav-container {
+    background-color: var(--bs-body-bg);
+}
+
 #guide-nav-container .list-unstyled {
     margin: 0;
     width: 100%;
@@ -27,7 +32,6 @@
     flex-direction: column;
     align-items: flex-end;
     padding: 2em;
-    background: #313a46;
     white-space: nowrap;
 }
 
@@ -52,6 +56,10 @@
     white-space: nowrap;
     flex-basis: 100%;
     text-decoration: none;
+}
+
+[data-bs-theme="dark"] #stepsbar ul li a {
+    background-color: var(--bs-dark-bg-subtle);
 }
 
 #stepsbar ul li a:hover {

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -96,7 +96,7 @@ export default function WorkflowSelect({ workflows, next_step }) {
                                     }
                                 >
                                     <img
-                                        className="img-fluid"
+                                        className="img-fluid img-logo-black"
                                         src={`${IMG_STATIC_URL}/workflow-${workflow}.svg`}
                                         alt={workflow}
                                     />
