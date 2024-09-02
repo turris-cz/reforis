@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -34,7 +34,7 @@ export default function Interface({
     return (
         <button
             type="button"
-            className={`interface ${isSelected ? "interface-selected" : ""}`}
+            className={`text-body interface ${isSelected ? "interface-selected" : ""}`}
             onClick={onClick}
         >
             <InterfaceIcon
@@ -70,7 +70,7 @@ function InterfaceIcon({ type, configurable, ...props }) {
         icon = <WWANInterfaceIcon {...props} />;
     }
 
-    return <div style={!configurable ? { color: "gray" } : null}>{icon}</div>;
+    return icon;
 }
 
 EthInterfaceIcon.propTypes = {
@@ -101,19 +101,12 @@ function WiFiInterfaceIcon({ state }) {
     return (
         <span className="fa-stack fa-2x">
             <FontAwesomeIcon icon="fa-solid fa-wifi" className="fa-stack-1x" />
-            {state === "down" ? (
-                <>
-                    <FontAwesomeIcon
-                        icon="fa-solid fa-slash"
-                        className="fa-stack-1x fa-inverse"
-                    />
-                    <FontAwesomeIcon
-                        icon="fa-solid fa-slash"
-                        className="fa-stack-1x"
-                        style={{ bottom: "0.3rem" }}
-                    />
-                </>
-            ) : null}
+            {state === "down" && (
+                <FontAwesomeIcon
+                    icon="fa-solid fa-slash"
+                    className="fa-stack-1x"
+                />
+            )}
         </span>
     );
 }
@@ -129,25 +122,12 @@ function WWANInterfaceIcon({ state }) {
                 icon="fa-solid fa-signal"
                 className="fa-stack-1x"
             />
-            {state === "down" ? (
-                <>
-                    <FontAwesomeIcon
-                        icon="fa-solid fa-slash"
-                        className="fa-stack-1x fa-inverse"
-                        style={{ top: "0.1rem" }}
-                    />
-                    <FontAwesomeIcon
-                        icon="fa-solid fa-slash"
-                        className="fa-stack-1x fa-inverse"
-                        style={{ top: "0.5rem" }}
-                    />
-                    <FontAwesomeIcon
-                        icon="fa-solid fa-slash"
-                        className="fa-stack-1x"
-                        style={{ top: "0.3rem" }}
-                    />
-                </>
-            ) : null}
+            {state === "down" && (
+                <FontAwesomeIcon
+                    icon="fa-solid fa-slash"
+                    className="fa-stack-1x"
+                />
+            )}
         </span>
     );
 }
