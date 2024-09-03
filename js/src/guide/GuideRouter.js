@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -18,6 +18,7 @@ import PropTypes from "prop-types";
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 
 import { CustomizationProvider } from "context/customizationContext";
+import SkipLink from "utils/SkipLink";
 
 import { GUIDE_URL_PREFIX } from "./constants";
 import GuideNavigation from "./GuideNavigation/GuideNavigation";
@@ -42,6 +43,9 @@ function GuideRouter({ ws, guideData, getGuideData, deviceDetails }) {
         <BrowserRouter basename={`${REFORIS_URL_PREFIX}${GUIDE_URL_PREFIX}`}>
             <AlertContextProvider>
                 <CustomizationProvider value={customization}>
+                    <Portal containerId="app-container">
+                        <SkipLink mode="guide" />
+                    </Portal>
                     <Portal containerId="guide-nav-container">
                         <GuideNavigation {...guideData} />
                     </Portal>
