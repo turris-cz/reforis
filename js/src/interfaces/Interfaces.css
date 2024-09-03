@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -50,14 +50,6 @@
     animation-duration: 0.3s;
     -webkit-filter: drop-shadow(0 0 0.5rem #00a2e2);
     filter: drop-shadow(0 0 0.25rem #00a2e2);
-}
-
-.network .interface-selected .fa-inverse {
-    display: none;
-}
-
-.interface:focus {
-    outline: none;
 }
 
 .interface:active {
