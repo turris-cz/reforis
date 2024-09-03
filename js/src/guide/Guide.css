@@ -1,9 +1,13 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
+
+div.wrapper-guide #content {
+    padding: 2rem 1rem;
+}
 
 #stepsbar,
 #guide-nav-container {
@@ -95,10 +99,6 @@
         width: 180px;
     }
 
-    .wrapper-guide #content {
-        padding: 1em;
-    }
-
     #stepsbar ul {
         text-align: center;
         flex-direction: column;
@@ -120,14 +120,26 @@
     }
 }
 
-@media screen and (min-width: 992px) {
-    .wrapper-guide #content {
+@media (min-width: 1245px) {
+    div.wrapper-guide #content {
+        padding: 2rem 4rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    div.wrapper-guide #content {
         padding: 2rem 8rem;
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .wrapper-guide #content {
+@media (min-width: 1600px) {
+    div.wrapper-guide #content {
+        padding: 2rem 12rem;
+    }
+}
+
+@media (min-width: 1800px) {
+    div.wrapper-guide #content {
         padding: 2rem 18rem;
     }
 }
@@ -179,11 +191,6 @@
     animation-duration: 1.8s;
     animation-iteration-count: infinite;
 }
-
-.guide-card p:last-of-type {
-    margin-bottom: 0;
-}
-
 
 /* Safari 4.0 - 8.0 */
 @keyframes blinking {

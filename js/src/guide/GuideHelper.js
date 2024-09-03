@@ -43,7 +43,7 @@ export default function GuideHelper({
     }
 
     return (
-        <div className="d-flex flex-column flex-sm-row justify-content-center p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 mb-4">
+        <div className="d-flex flex-column flex-md-row justify-content-center p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 mb-4">
             <div className="flex-fill d-flex flex-column justify-content-center align-items-sm-center text-center mb-2 mb-sm-0 me-0 me-sm-3">
                 {stepContent.initial && (
                     <ParagraphsArray content={stepContent.initial} />

@@ -14,7 +14,7 @@
     background-color: #1e2021;
 }
 
-#content {
+div.wrapper #content {
     display: flex;
     flex: 5;
     flex-direction: column;
@@ -44,12 +44,6 @@
     }
 }
 
-@media screen and (max-width: 992px) {
-    #content {
-        padding-left: 2em;
-    }
-}
-
 @media screen and (max-width: 480px) {
     #content {
         padding: 0.5rem 1rem;
@@ -62,4 +56,3 @@
     /* Just above bootstrap's defaults */
     z-index: 1004;
 }
-
