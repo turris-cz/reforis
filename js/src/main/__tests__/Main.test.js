@@ -41,7 +41,7 @@ describe("<Main/>", () => {
             </>
         );
 
-        await wait(() => getByText(container, "An Error Occurred"));
+        await wait(() => getByText(container, "Oops! Something went wrong:"));
         expect(console.error).toBeCalled();
         console.error = originalError;
 
