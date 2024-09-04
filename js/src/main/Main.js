@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -19,6 +19,7 @@ import { BrowserRouter, Redirect, Switch } from "react-router-dom";
 import ScrollToTopArrow from "common/ScrollToTopArrow";
 import Navigation from "navigation/Navigation";
 import ErrorBoundary from "utils/ErrorBoundary";
+import SkipLink from "utils/SkipLink";
 
 import { REDIRECT_404_PAGE } from "./constants";
 import getPages from "./pages";
@@ -37,6 +38,9 @@ export default function Main({ ws }) {
         <ErrorBoundary>
             <AlertContextProvider>
                 <BrowserRouter basename={REFORIS_URL_PREFIX}>
+                    <Portal containerId="app-container">
+                        <SkipLink mode="main" />
+                    </Portal>
                     <Portal containerId="navigation-container">
                         <Navigation pages={pages} />
                     </Portal>
