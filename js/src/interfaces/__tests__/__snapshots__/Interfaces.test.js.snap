@@ -25,21 +25,19 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -61,21 +59,19 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -83,21 +79,19 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
             </h5>
           </button>
           <button
-            class="interface interface-selected"
+            class="text-body interface interface-selected"
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -119,21 +113,19 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -152,21 +144,19 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -174,21 +164,19 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -196,26 +184,19 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div
-              style="color: gray;"
+            <span
+              class="fa-stack fa-2x"
             >
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -223,21 +204,19 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -401,21 +380,19 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -437,21 +414,19 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -473,21 +448,19 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface interface-selected"
+            class="text-body interface interface-selected"
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -495,21 +468,19 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -528,21 +499,19 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -550,21 +519,19 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -572,26 +539,19 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div
-              style="color: gray;"
+            <span
+              class="fa-stack fa-2x"
             >
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -599,21 +559,19 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -777,21 +735,19 @@ exports[`<Interfaces/> Snapshot. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -813,21 +769,19 @@ exports[`<Interfaces/> Snapshot. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -849,21 +803,19 @@ exports[`<Interfaces/> Snapshot. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -871,21 +823,19 @@ exports[`<Interfaces/> Snapshot. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -904,21 +854,19 @@ exports[`<Interfaces/> Snapshot. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -926,21 +874,19 @@ exports[`<Interfaces/> Snapshot. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -948,26 +894,19 @@ exports[`<Interfaces/> Snapshot. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div
-              style="color: gray;"
+            <span
+              class="fa-stack fa-2x"
             >
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -975,21 +914,19 @@ exports[`<Interfaces/> Snapshot. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -1046,21 +983,19 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -1086,21 +1021,19 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
             class="scrollable"
           >
             <button
-              class="interface "
+              class="text-body interface "
               type="button"
             >
-              <div>
-                <span
-                  class="fa-stack fa-2x"
-                >
-                  <i
-                    class="fa"
-                  />
-                  <i
-                    class="fa"
-                  />
-                </span>
-              </div>
+              <span
+                class="fa-stack fa-2x"
+              >
+                <i
+                  class="fa"
+                />
+                <i
+                  class="fa"
+                />
+              </span>
               <h5
                 class="mb-0"
               >
@@ -1117,21 +1050,19 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
             class="scrollable"
           >
             <button
-              class="interface "
+              class="text-body interface "
               type="button"
             >
-              <div>
-                <span
-                  class="fa-stack fa-2x"
-                >
-                  <i
-                    class="fa"
-                  />
-                  <i
-                    class="fa"
-                  />
-                </span>
-              </div>
+              <span
+                class="fa-stack fa-2x"
+              >
+                <i
+                  class="fa"
+                />
+                <i
+                  class="fa"
+                />
+              </span>
               <h5
                 class="mb-0"
               >
@@ -1158,21 +1089,19 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
             class="scrollable"
           >
             <button
-              class="interface "
+              class="text-body interface "
               type="button"
             >
-              <div>
-                <span
-                  class="fa-stack fa-2x"
-                >
-                  <i
-                    class="fa"
-                  />
-                  <i
-                    class="fa"
-                  />
-                </span>
-              </div>
+              <span
+                class="fa-stack fa-2x"
+              >
+                <i
+                  class="fa"
+                />
+                <i
+                  class="fa"
+                />
+              </span>
               <h5
                 class="mb-0"
               >
@@ -1189,21 +1118,19 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
             class="scrollable"
           >
             <button
-              class="interface interface-selected"
+              class="text-body interface interface-selected"
               type="button"
             >
-              <div>
-                <span
-                  class="fa-stack fa-2x"
-                >
-                  <i
-                    class="fa"
-                  />
-                  <i
-                    class="fa"
-                  />
-                </span>
-              </div>
+              <span
+                class="fa-stack fa-2x"
+              >
+                <i
+                  class="fa"
+                />
+                <i
+                  class="fa"
+                />
+              </span>
               <h5
                 class="mb-0"
               >
@@ -1223,21 +1150,19 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -1245,26 +1170,19 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div
-              style="color: gray;"
+            <span
+              class="fa-stack fa-2x"
             >
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -1422,21 +1340,19 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -1462,21 +1378,19 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
             class="scrollable"
           >
             <button
-              class="interface "
+              class="text-body interface "
               type="button"
             >
-              <div>
-                <span
-                  class="fa-stack fa-2x"
-                >
-                  <i
-                    class="fa"
-                  />
-                  <i
-                    class="fa"
-                  />
-                </span>
-              </div>
+              <span
+                class="fa-stack fa-2x"
+              >
+                <i
+                  class="fa"
+                />
+                <i
+                  class="fa"
+                />
+              </span>
               <h5
                 class="mb-0"
               >
@@ -1493,21 +1407,19 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
             class="scrollable"
           >
             <button
-              class="interface "
+              class="text-body interface "
               type="button"
             >
-              <div>
-                <span
-                  class="fa-stack fa-2x"
-                >
-                  <i
-                    class="fa"
-                  />
-                  <i
-                    class="fa"
-                  />
-                </span>
-              </div>
+              <span
+                class="fa-stack fa-2x"
+              >
+                <i
+                  class="fa"
+                />
+                <i
+                  class="fa"
+                />
+              </span>
               <h5
                 class="mb-0"
               >
@@ -1534,21 +1446,19 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
             class="scrollable"
           >
             <button
-              class="interface "
+              class="text-body interface "
               type="button"
             >
-              <div>
-                <span
-                  class="fa-stack fa-2x"
-                >
-                  <i
-                    class="fa"
-                  />
-                  <i
-                    class="fa"
-                  />
-                </span>
-              </div>
+              <span
+                class="fa-stack fa-2x"
+              >
+                <i
+                  class="fa"
+                />
+                <i
+                  class="fa"
+                />
+              </span>
               <h5
                 class="mb-0"
               >
@@ -1565,21 +1475,19 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
             class="scrollable"
           >
             <button
-              class="interface "
+              class="text-body interface "
               type="button"
             >
-              <div>
-                <span
-                  class="fa-stack fa-2x"
-                >
-                  <i
-                    class="fa"
-                  />
-                  <i
-                    class="fa"
-                  />
-                </span>
-              </div>
+              <span
+                class="fa-stack fa-2x"
+              >
+                <i
+                  class="fa"
+                />
+                <i
+                  class="fa"
+                />
+              </span>
               <h5
                 class="mb-0"
               >
@@ -1599,21 +1507,19 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -1621,26 +1527,19 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div
-              style="color: gray;"
+            <span
+              class="fa-stack fa-2x"
             >
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >

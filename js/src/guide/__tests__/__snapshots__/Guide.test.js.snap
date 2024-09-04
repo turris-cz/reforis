@@ -3,93 +3,164 @@
 exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
 <div>
   <div
-    class="card guide-card bg-info text-white mb-4"
+    class="d-flex flex-column flex-md-row justify-content-center p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 mb-4"
   >
     <div
-      class="card-body row"
+      class="flex-fill d-flex flex-column justify-content-center align-items-sm-center text-center mb-2 mb-sm-0 me-0 me-sm-3"
+    >
+      <p
+        class="mb-0"
+      >
+        Here you need to decide which interfaces belong to which network.
+      </p>
+      <p
+        class="mb-2"
+      >
+        If you are in doubt use the current settings.
+      </p>
+    </div>
+    <div
+      class="d-flex justify-content-center align-items-center"
     >
       <div
-        class="col-lg-8 col-md-12 col-sm-12 d-flex flex-column justify-content-center align-items-sm-center text-center"
+        class="dropdown"
       >
-        <p>
-          Here you need to decide which interfaces belong to which network.
-        </p>
-        <p>
-          If you are in doubt use the current settings.
-        </p>
-      </div>
-      <div
-        class="guide-controls col-lg-4 col-md-12 col-sm-12 mt-md-2 mt-lg-0"
-      >
-        <div
-          class="dropdown"
-        >
-          <button
-            aria-expanded="false"
-            class="nav-item btn guide-controls-button btn-light fw-bold text-body text-decoration-none"
-            data-bs-toggle="dropdown"
-            type="button"
-          >
-            EN
-          </button>
-          <ul
-            class="dropdown-menu dropdown-menu-end shadow-sm"
-            id="languages-dropdown-menu"
-          >
-            <div
-              class="dropdown-header"
-            >
-              <a
-                class="text-decoration-none"
-                href="/reforis/guide/package-management/languages"
-              >
-                <h5
-                  class="mb-0 text-body"
-                >
-                  Languages
-                </h5>
-              </a>
-            </div>
-            <div
-              class="dropdown-divider"
-            />
-            <li>
-              <button
-                class="dropdown-item d-flex align-items-center active fw-bold"
-                type="button"
-              >
-                EN
-                <i
-                  class="fa"
-                />
-              </button>
-            </li>
-            <li>
-              <button
-                class="dropdown-item d-flex align-items-center"
-                type="button"
-              >
-                CS
-              </button>
-            </li>
-            <li>
-              <button
-                class="dropdown-item d-flex align-items-center"
-                type="button"
-              >
-                RU
-              </button>
-            </li>
-          </ul>
-        </div>
         <button
-          class="btn guide-controls-button btn btn-warning  d-inline-flex justify-content-center align-items-center"
-          style="pointer-events: not-allowed;"
+          aria-expanded="false"
+          class="nav-item btn btn-secondary me-2 fw-bold text-decoration-none"
+          data-bs-toggle="dropdown"
           type="button"
         >
-          <span>
+          EN
+        </button>
+        <ul
+          class="dropdown-menu dropdown-menu-end shadow-sm"
+          id="languages-dropdown-menu"
+        >
+          <div
+            class="dropdown-header"
+          >
+            <a
+              class="text-decoration-none"
+              href="/reforis/guide/package-management/languages"
+            >
+              <h5
+                class="mb-0 text-body"
+              >
+                Languages
+              </h5>
+            </a>
+          </div>
+          <div
+            class="dropdown-divider"
+          />
+          <li>
+            <button
+              class="dropdown-item d-flex align-items-center active fw-bold"
+              type="button"
+            >
+              EN
+              <i
+                class="fa"
+              />
+            </button>
+          </li>
+          <li>
+            <button
+              class="dropdown-item d-flex align-items-center"
+              type="button"
+            >
+              CS
+            </button>
+          </li>
+          <li>
+            <button
+              class="dropdown-item d-flex align-items-center"
+              type="button"
+            >
+              RU
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="dropdown"
+      >
+        <button
+          aria-expanded="false"
+          class="nav-item btn btn-secondary me-2 fw-bold text-decoration-none"
+          data-bs-toggle="dropdown"
+          type="button"
+        >
+          <i
+            class="fa"
+          />
+        </button>
+        <ul
+          class="dropdown-menu dropdown-menu-end shadow-sm"
+          id="darkmode-dropdown-menu"
+        >
+          <div
+            class="dropdown-header"
+          >
+            <h5
+              class="mb-0 text-body"
+            >
+              Dark Mode
+            </h5>
+          </div>
+          <div
+            class="dropdown-divider"
+          />
+          <li>
+            <button
+              class="dropdown-item d-flex align-items-center"
+              type="button"
+            >
+              <i
+                class="fa"
+              />
+              Light
+            </button>
+          </li>
+          <li>
+            <button
+              class="dropdown-item d-flex align-items-center"
+              type="button"
+            >
+              <i
+                class="fa"
+              />
+              Dark
+            </button>
+          </li>
+          <li>
+            <button
+              class="dropdown-item d-flex align-items-center active fw-bold"
+              type="button"
+            >
+              <i
+                class="fa"
+              />
+              Auto
+              <i
+                class="fa"
+              />
+            </button>
+          </li>
+        </ul>
+      </div>
+      <button
+        class="btn btn-warning me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
+        style="pointer-events: not-allowed;"
+        type="button"
+      >
+        <span>
+          <span
+            class="d-flex flex-nowrap justify-content-center align-items-center align-self-stretch align-self-sm-center"
+          >
             <span
-              class="d-none d-sm-inline-block me-1"
+              class="d-none d-sm-inline-block text-nowrap me-1"
             >
               Skip guide
             </span>
@@ -97,23 +168,22 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
               class="fa"
             />
           </span>
-        </button>
-        <a
-          class="guide-controls-button btn btn-success disabled"
-          disabled=""
-          href="/reforis/guide/networks"
+        </span>
+      </button>
+      <a
+        class="btn btn-success d-flex justify-content-center align-items-center align-self-stretch align-self-sm-center disabled"
+        disabled=""
+        href="/reforis/guide/networks"
+      >
+        <span
+          class="d-none d-sm-inline-block text-nowrap me-1"
         >
-          <span
-            class="d-none d-sm-block"
-          >
-            Next step
-             
-          </span>
-          <i
-            class="fa"
-          />
-        </a>
-      </div>
+          Next step
+        </span>
+        <i
+          class="fa"
+        />
+      </a>
     </div>
   </div>
   <h1>
@@ -139,21 +209,19 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -175,21 +243,19 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -211,21 +277,19 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -233,21 +297,19 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -266,21 +328,19 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
           class="scrollable"
         >
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -288,21 +348,19 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -310,26 +368,19 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div
-              style="color: gray;"
+            <span
+              class="fa-stack fa-2x"
             >
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >
@@ -337,21 +388,19 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
             </h5>
           </button>
           <button
-            class="interface "
+            class="text-body interface "
             type="button"
           >
-            <div>
-              <span
-                class="fa-stack fa-2x"
-              >
-                <i
-                  class="fa"
-                />
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+            <span
+              class="fa-stack fa-2x"
+            >
+              <i
+                class="fa"
+              />
+              <i
+                class="fa"
+              />
+            </span>
             <h5
               class="mb-0"
             >

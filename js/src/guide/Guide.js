@@ -15,7 +15,6 @@ import API_URLs from "common/API";
 import GuideRouterWithErrorAndSpinner from "./GuideRouter";
 
 import "./Guide.css";
-import "styles/dropdown.css";
 
 Guide.propTypes = {
     ws: PropTypes.object.isRequired,

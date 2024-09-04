@@ -33,11 +33,11 @@ const darkModeOptions = [
     },
 ];
 
-DarkModeToggle.propTypes = {
+DarkModeDropdown.propTypes = {
     className: PropTypes.string,
 };
 
-function DarkModeToggle({ className }) {
+function DarkModeDropdown({ className }) {
     const { theme, setTheme } = useThemeContext();
 
     let themeIcon;
@@ -56,12 +56,16 @@ function DarkModeToggle({ className }) {
     return (
         <div className="dropdown">
             <button
-                className={`nav-item btn ${className || "btn-link"} fw-bold text-body text-decoration-none`.trim()}
+                className={`nav-item btn ${className || "btn-link text-body"} fw-bold text-decoration-none`.trim()}
                 type="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
             >
-                <FontAwesomeIcon icon={themeIcon} className="fa-lg" />
+                <FontAwesomeIcon
+                    icon={themeIcon}
+                    className="fa-lg"
+                    width={20}
+                />
             </button>
             <ul
                 className={`dropdown-menu dropdown-menu-${
@@ -87,4 +91,4 @@ function DarkModeToggle({ className }) {
     );
 }
 
-export default DarkModeToggle;
+export default DarkModeDropdown;

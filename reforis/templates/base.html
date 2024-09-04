@@ -6,13 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link
             rel="icon"
-            type="image/svg+xml"
-            href="{{ url_for('static', filename='reforis/imgs/favicon.svg') }}"
-        />
-        <link
-            rel="icon"
             type="image/png"
-            href="{{ url_for('static', filename='reforis/imgs/favicon.png') }}"
+            id="favicon"
+            href="{{ url_for('static', filename = 'reforis/imgs/favicon-black.png') }}"
         />
 
         {# CSS #}
@@ -45,7 +41,7 @@
 
     <body>
         <div id="app-container"></div>
-        <div class="wrapper {% block wrapper_class %}{% endblock %}">
+        <div class="bg-body-tertiary wrapper {% block wrapper_class %}{% endblock %}">
             {% block navigation %} {% include "includes/navigation.html" %} {%
             endblock %}
             <main id="content">

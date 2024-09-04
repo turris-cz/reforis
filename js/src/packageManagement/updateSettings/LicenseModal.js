@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -43,7 +43,7 @@ export default function LicenseModal() {
                                 <li key={point.id}>{point.text}</li>
                             ))}
                         </ul>
-                        <p className="font-weight-bold">
+                        <p className="fw-bold">
                             {_(
                                 "By enabling the automatic updates, you confirm that you are the owner of this Turris router, and you agree with the full text of the "
                             )}

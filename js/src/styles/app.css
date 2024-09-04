@@ -6,7 +6,6 @@
  */
 
 @import "./content.css";
-@import "./dropdown.css";
 @import "./navigation.css";
 @import "./sidebar.css";
 
@@ -66,16 +65,6 @@ form .form-switch input[role="switch"] {
 
 form .form-switch input[role="switch"]:has(+ label h2){
     margin-top: -0.2rem;
-}
-
-.btn-link.text-body {
-    opacity: 0.8;
-}
-
-.btn-link.text-body:hover,
-.btn-link.text-body:focus,
-.btn-link.text-body:active {
-    opacity: 1 !important;
 }
 
 @media screen and (max-width: 768px) {

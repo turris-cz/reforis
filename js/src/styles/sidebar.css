@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -28,7 +28,7 @@
     padding: 0.5rem 1.8rem;
     font-size: 1.1em;
     display: block;
-    color: #fff;
+    color: var(--bs-white);
     white-space: nowrap;
 }
 
@@ -42,9 +42,9 @@
 }
 
 #sidebar a svg {
-    color: #fff;
+    color: var(--bs-white);
     /* Fill is used for custom svg sprite icons */
-    fill: #fff;
+    fill: var(--bs-white);
     /* Keep custom icons in the same size as fa icon */
     height: 1em;
     width: 1em;
@@ -57,33 +57,33 @@
 }
 
 #sidebar a.active {
-    color: #fff;
+    color: var(--bs-white);
     background: #00a2e2;
 }
 
 #sidebar a.active svg {
-    color: #fff;
+    color: var(--bs-white);
     /* Fill is used for custom svg sprite icons */
-    fill: #fff;
+    fill: var(--bs-white);
 }
 
 [data-bs-theme="dark"] #sidebar a.active {
-    color: #fff;
+    color: var(--bs-white);
 }
 
 [data-bs-theme="dark"] #sidebar a.active svg {
-    color: #fff;
-    fill: #fff;
+    color: var(--bs-white);
+    fill: var(--bs-white);
 }
 
 #sidebar a:hover svg {
-    color: #fff;
+    color: var(--bs-white);
     /* Fill is used for custom svg sprite icons */
-    fill: #fff;
+    fill: var(--bs-white);
 }
 
 #sidebar ul li a:hover {
-    color: #fff;
+    color: var(--bs-white);
     background: #00a2e275;
     text-decoration: none;
 }

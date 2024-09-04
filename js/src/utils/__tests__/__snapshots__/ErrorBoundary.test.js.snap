@@ -5,15 +5,35 @@ exports[`<ErrorBoundary /> should display error message 1`] = `
   id="content-container"
 >
   <h1>
-    An Error Occurred
+    Oops! Something went wrong:
   </h1>
-  <code
-    class="error-boundary-description p-3 my-3"
+  <p
+    class="p-3 my-3 bg-secondary-subtle"
   >
-    Error: This component is broken!
-  </code>
+    <code>
+      Error: This component is broken!
+    </code>
+  </p>
   <p>
-    More detailed information is available in the console of your web browser - on most browsers accessible after pressing Ctrl+Shift+J or F12.
+    More detailed information is available in the console of your web browser. On most browsers accessible after pressing 
+    <kbd>
+      <kbd>
+        Ctrl
+      </kbd>
+      +
+      <kbd>
+        Shift
+      </kbd>
+      +
+      <kbd>
+        J
+      </kbd>
+    </kbd>
+     or 
+    <kbd>
+      F12
+    </kbd>
+    .
   </p>
   <p>
     Please report this error to our support team via e-mail: 
@@ -32,15 +52,35 @@ exports[`<ErrorBoundary /> should handle unexpected API error 1`] = `
   id="content-container"
 >
   <h1>
-    An Error Occurred
+    Oops! Something went wrong:
   </h1>
-  <code
-    class="error-boundary-description p-3 my-3"
+  <p
+    class="p-3 my-3 bg-secondary-subtle"
   >
-    Error: This API request is broken!
-  </code>
+    <code>
+      Error: This API request is broken!
+    </code>
+  </p>
   <p>
-    More detailed information is available in the console of your web browser - on most browsers accessible after pressing Ctrl+Shift+J or F12.
+    More detailed information is available in the console of your web browser. On most browsers accessible after pressing 
+    <kbd>
+      <kbd>
+        Ctrl
+      </kbd>
+      +
+      <kbd>
+        Shift
+      </kbd>
+      +
+      <kbd>
+        J
+      </kbd>
+    </kbd>
+     or 
+    <kbd>
+      F12
+    </kbd>
+    .
   </p>
   <p>
     Please report this error to our support team via e-mail: 

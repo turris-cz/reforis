@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -9,8 +9,6 @@ import React from "react";
 
 import { Portal } from "foris";
 import PropTypes from "prop-types";
-
-import "./ErrorBoundary.css";
 
 export default class ErrorBoundary extends React.Component {
     constructor(props) {
@@ -33,18 +31,20 @@ export default class ErrorBoundary extends React.Component {
     render() {
         const { error } = this.state;
         if (error) {
-            document.title = "An Error Occurred - reForis";
+            document.title = _("An Error Occurred - reForis | Turris");
             return (
                 <Portal containerId="content-container">
-                    <h1>{_("An Error Occurred")}</h1>
-                    <code className="error-boundary-description p-3 my-3">
-                        {error.toString()}
-                    </code>
-                    <p>
-                        {_(
-                            "More detailed information is available in the console of your web browser - on most browsers accessible after pressing Ctrl+Shift+J or F12."
-                        )}
+                    <h1>{_("Oops! Something went wrong:")}</h1>
+                    <p className="p-3 my-3 bg-secondary-subtle">
+                        <code>{error.toString()}</code>
                     </p>
+                    <p
+                        dangerouslySetInnerHTML={{
+                            __html: _(
+                                `More detailed information is available in the console of your web browser. On most browsers accessible after pressing <kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or <kbd>F12</kbd>.`
+                            ),
+                        }}
+                    />
                     <p
                         dangerouslySetInnerHTML={{
                             __html: _(

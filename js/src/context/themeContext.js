@@ -5,8 +5,16 @@
  * See /LICENSE for more information.
  */
 
-import React, { useState, useEffect, createContext, useContext } from "react";
+import React, {
+    useState,
+    useEffect,
+    createContext,
+    useContext,
+    useCallback,
+    useMemo,
+} from "react";
 
+import { ForisURLs } from "foris";
 import PropTypes from "prop-types";
 
 const ThemeContext = createContext({
@@ -23,33 +31,62 @@ ThemeContextProvider.propTypes = {
     ]).isRequired,
 };
 
-function ThemeContextProvider({ children }) {
+export function ThemeContextProvider({ children }) {
     const [theme, setTheme] = useState("auto");
 
-    // Apply theme to the document
-    const applyTheme = (selectedTheme) => {
+    // Function to apply the theme to the document
+    const applyTheme = useCallback((selectedTheme) => {
         document.documentElement.setAttribute("data-bs-theme", selectedTheme);
-    };
+    }, []);
+
+    // Function to handle favicon change based on the theme
+    const handleFaviconChange = useCallback((currentTheme) => {
+        const favicon = document.getElementById("favicon");
+        if (favicon) {
+            favicon.setAttribute(
+                "href",
+                `${ForisURLs.static}/imgs/favicon-${currentTheme === "dark" ? "white" : "black"}.png`
+            );
+        }
+    }, []);
 
     // Initialize theme based on localStorage and media query
     useEffect(() => {
-        const savedTheme = localStorage.getItem("theme") || "auto";
-        setTheme(savedTheme);
-        applyTheme(savedTheme);
-
         const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-        const handleMediaChange = (e) => {
+
+        const initializeTheme = () => {
+            const savedTheme = localStorage.getItem("theme") || "auto";
+            setTheme(savedTheme);
+            applyTheme(savedTheme);
+            handleFaviconChange(mediaQuery.matches ? "dark" : "light");
+        };
+
+        initializeTheme();
+
+        const handleMediaChange = (event) => {
             if (theme === "auto") {
-                applyTheme(e.matches ? "dark" : "light");
+                const newTheme = event.matches ? "dark" : "light";
+                handleFaviconChange(newTheme);
+                applyTheme(newTheme);
             }
         };
 
-        mediaQuery.addEventListener("change", handleMediaChange);
-        return () =>
-            mediaQuery.removeEventListener("change", handleMediaChange);
-    }, [theme]);
+        const handleStorageChange = () => {
+            const savedTheme = localStorage.getItem("theme") || "auto";
+            setTheme(savedTheme);
+            applyTheme(savedTheme);
+        };
 
-    // Apply the selected theme
+        mediaQuery.addEventListener("change", handleMediaChange);
+        window.addEventListener("storage", handleStorageChange);
+
+        return () => {
+            mediaQuery.removeEventListener("change", handleMediaChange);
+            window.removeEventListener("storage", handleStorageChange);
+        };
+    }, [applyTheme, handleFaviconChange, theme]);
+
+    // Apply the selected theme on change
     useEffect(() => {
         if (theme === "auto") {
             const prefersDark = window.matchMedia(
@@ -59,25 +96,29 @@ function ThemeContextProvider({ children }) {
         } else {
             applyTheme(theme);
         }
-    }, [theme]);
+    }, [theme, applyTheme]);
 
-    // Handle theme change and save to localStorage
-    const handleThemeChange = (newTheme) => {
-        setTheme(newTheme);
-        applyTheme(newTheme);
-        localStorage.setItem("theme", newTheme);
-    };
+    // Handle theme change and save it to localStorage
+    const handleThemeChange = useCallback(
+        (newTheme) => {
+            setTheme(newTheme);
+            applyTheme(newTheme);
+            localStorage.setItem("theme", newTheme);
+        },
+        [applyTheme]
+    );
 
-    const contextValue = {
-        theme,
-        setTheme: handleThemeChange,
-    };
+    const contextValue = useMemo(
+        () => ({
+            theme,
+            setTheme: handleThemeChange,
+        }),
+        [theme, handleThemeChange]
+    );
 
     return <ThemeProvider value={contextValue}>{children}</ThemeProvider>;
 }
 
-function useThemeContext() {
+export function useThemeContext() {
     return useContext(ThemeContext);
 }
-
-export { ThemeContextProvider, useThemeContext };

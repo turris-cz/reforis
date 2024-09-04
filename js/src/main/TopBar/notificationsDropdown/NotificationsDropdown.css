@@ -7,7 +7,7 @@
 }
 
 #notifications .dropdown-menu .btn-link:hover {
-    color: #00a2e2;
+    color: var(--primary);
     text-decoration: none;
 }
 

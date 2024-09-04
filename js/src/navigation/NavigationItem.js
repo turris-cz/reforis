@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -9,7 +9,7 @@ import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
-import { NavLink } from "react-router-dom";
+import { NavLink, useHistory } from "react-router-dom";
 
 import smallScreenWidth from "../utils/constants";
 
@@ -23,6 +23,24 @@ NavigationItem.propTypes = {
 };
 
 export default function NavigationItem({ path, children, isLinkOutside }) {
+    const history = useHistory();
+
+    const handleClick = (e) => {
+        if (window.outerWidth <= smallScreenWidth) {
+            e.preventDefault();
+            history.push(path);
+        }
+    };
+
+    const isMobileScreen = window.outerWidth <= smallScreenWidth;
+
+    const mobileNavigationCollapse = {};
+    if (isMobileScreen) {
+        mobileNavigationCollapse["data-bs-toggle"] = "collapse";
+        mobileNavigationCollapse["data-bs-target"] =
+            "#navigation-container-collapse";
+    }
+
     if (isLinkOutside) {
         return (
             <li>
@@ -46,15 +64,13 @@ export default function NavigationItem({ path, children, isLinkOutside }) {
     }
 
     return (
-        <li
-            {...(window.outerWidth <= smallScreenWidth
-                ? {
-                      "data-toggle": "collapse",
-                      "data-target": "#navigation-container-collapse",
-                  }
-                : {})}
-        >
-            <NavLink className="text-decoration-none" to={path}>
+        <li>
+            <NavLink
+                className="text-decoration-none"
+                to={path}
+                onClick={handleClick}
+                {...mobileNavigationCollapse}
+            >
                 {children}
             </NavLink>
         </li>
