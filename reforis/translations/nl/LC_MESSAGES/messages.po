@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-08-05 16:48+0300\n"
+"POT-Creation-Date: 2024-09-05 14:39+0200\n"
 "PO-Revision-Date: 2024-01-21 11:01+0000\n"
 "Last-Translator: powerburner-nl <peter.mulder.1981@gmail.com>\n"
 "Language: nl\n"
@@ -17,9 +17,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
-#: js/src/about/About.js:17
+#: js/src/about/About.js:18
 msgid ""
 "Turris OS is currently released in various branches, which have different"
 " functions and varying stability - you can pick, which branch you want to"
@@ -29,11 +29,11 @@ msgstr ""
 "verschillende functies en verschillende stabiliteit hebben. U kunt kiezen"
 " welke branch u wilt testen."
 
-#: js/src/about/About.js:24 js/src/main/pages.js:94
+#: js/src/about/About.js:25 js/src/main/pages.js:94
 msgid "About"
 msgstr "Over"
 
-#: js/src/about/About.js:27
+#: js/src/about/About.js:28
 msgid ""
 "Here you can find some information about your device. Please include it "
 "in your message if you contact our <a "
@@ -44,27 +44,27 @@ msgstr ""
 " contact opneemt met onze <a href=\"mailto:tech.support@turris.cz\" "
 "target=\"_blank\">klantenondersteuning</a>."
 
-#: js/src/about/About.js:36
+#: js/src/about/About.js:37
 msgid "Device"
 msgstr "Apparaat"
 
-#: js/src/about/About.js:44
+#: js/src/about/About.js:45
 msgid "Serial number"
 msgstr "Serienummer"
 
-#: js/src/about/About.js:48
+#: js/src/about/About.js:49
 msgid "reForis version"
 msgstr "reForis-versie"
 
-#: js/src/about/About.js:52
+#: js/src/about/About.js:53
 msgid "Turris OS version"
 msgstr "Turris OS-versie"
 
-#: js/src/about/About.js:57
+#: js/src/about/About.js:58
 msgid "Turris OS branch"
 msgstr "Turris OS-branch"
 
-#: js/src/about/About.js:77
+#: js/src/about/About.js:80
 msgid "Kernel version"
 msgstr "Kernel-versie"
 
@@ -105,7 +105,7 @@ msgstr "Weet u zeker dat u de router opnieuw wilt opstarten?"
 msgid "Confirm reboot"
 msgstr "Opnieuw opstarten bevestigen"
 
-#: js/src/common/ScrollToTopArrow.js:30
+#: js/src/common/ScrollToTopArrow.js:33
 msgid "Go to top"
 msgstr "Ga naar boven"
 
@@ -122,15 +122,15 @@ msgstr ""
 "verbindingen verbonden zijn met het netwerk en die IPv6 gebruiken."
 
 #: js/src/common/network/DHCP6Clients.js:33
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:19
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:24
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:25
 msgid "No clients found."
 msgstr "Geen DHCP-clients gevonden."
 
 #: js/src/common/network/DHCP6Clients.js:40
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:25
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:33
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
 msgid "Hostname"
 msgstr "Hostnaam"
@@ -144,14 +144,14 @@ msgid "DUID"
 msgstr "DUID"
 
 #: js/src/common/network/DHCP6Clients.js:43
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:36
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:37
 msgid "Expires"
 msgstr "Verloopt"
 
 #: js/src/common/network/DHCP6Clients.js:77
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:59
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:66
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:60
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:67
 msgid "Never"
 msgstr "Nooit"
 
@@ -280,28 +280,28 @@ msgstr ""
 "Deze lijst bevat alle apparaten die via bekabelde of draadloze "
 "verbindingen verbonden zijn met het netwerk en die IPv4 gebruiken."
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
 msgid "IPv4 Address"
 msgstr "IPv4-adres"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:36
 msgid "MAC Address"
 msgstr "MAC-adres"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:37
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
 msgid "Active"
 msgstr "Actief"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:69
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:67
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
 msgid "Device is active"
 msgstr "Apparaat is actief"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:69
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:67
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
 msgid "Device is inactive"
 msgstr "Apparaat is niet actief"
 
@@ -336,7 +336,7 @@ msgid "List of available IPv4 addresses"
 msgstr "Lijst met beschikbare IPv4-adressen"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:84
-#: js/src/interfaces/SelectedInterface.js:129
+#: js/src/interfaces/SelectedInterface.js:139
 msgid "MAC address"
 msgstr "MAC-adres"
 
@@ -344,23 +344,23 @@ msgstr "MAC-adres"
 msgid "List of available MAC addresses"
 msgstr "Lijst met beschikbare MAC-adressen"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:113
-#: js/src/dns/Forwarders/ForwardersTable.js:39
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:39
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:111
+#: js/src/dns/Forwarders/ForwardersTable.js:40
 msgid "Actions"
 msgstr "Acties"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:124
-#: js/src/dns/Forwarders/ForwardersTable.js:138
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:128
+#: js/src/dns/Forwarders/ForwardersTable.js:142
 msgid "Edit"
 msgstr "Aanpassen"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:138
-#: js/src/dns/Forwarders/ForwardersTable.js:146
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:148
+#: js/src/dns/Forwarders/ForwardersTable.js:153
 msgid "Delete"
 msgstr "Verwijderen"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:147
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
 msgid "Set Static"
 msgstr "Als statisch instellen"
 
@@ -396,36 +396,36 @@ msgstr "Verbinding opnieuw testen"
 msgid "Test connection"
 msgstr "Test verbinding"
 
-#: js/src/connectionTest/ConnectionTestResult.js:16
+#: js/src/connectionTest/ConnectionTestResult.js:17
 msgid "IPv4 connectivity"
 msgstr "IPv4-connectiviteit"
 
-#: js/src/connectionTest/ConnectionTestResult.js:17
+#: js/src/connectionTest/ConnectionTestResult.js:18
 msgid "IPv4 gateway connectivity"
 msgstr "Connectiviteit IPv4-gateway"
 
-#: js/src/connectionTest/ConnectionTestResult.js:18
+#: js/src/connectionTest/ConnectionTestResult.js:19
 msgid "IPv6 connectivity"
 msgstr "IPv6-connectiviteit"
 
-#: js/src/connectionTest/ConnectionTestResult.js:19
+#: js/src/connectionTest/ConnectionTestResult.js:20
 msgid "IPv6 gateway connectivity"
 msgstr "Connectiviteit IPv6-gateway"
 
-#: js/src/connectionTest/ConnectionTestResult.js:85
+#: js/src/connectionTest/ConnectionTestResult.js:86
 msgid "Connection test successful"
 msgstr "Verbindingstest succesvol"
 
-#: js/src/connectionTest/ConnectionTestResult.js:90
+#: js/src/connectionTest/ConnectionTestResult.js:91
 msgid "Connection test failed"
 msgstr "Verbindingstest is mislukt"
 
-#: js/src/connectionTest/ConnectionTestResult.js:95
+#: js/src/connectionTest/ConnectionTestResult.js:96
 #, fuzzy
 msgid "Connection test cannot be determined"
 msgstr "Verbindingstest is niet gestart"
 
-#: js/src/connectionTest/ConnectionTestResult.js:100
+#: js/src/connectionTest/ConnectionTestResult.js:101
 msgid "Connection test not started"
 msgstr "Verbindingstest is niet gestart"
 
@@ -557,11 +557,11 @@ msgstr "Forwarder aanpassen"
 msgid "Add custom forwarder"
 msgstr "Eigen forwarder toevoegen"
 
-#: js/src/dns/Forwarders/ForwardersTable.js:38
+#: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Forwarders"
 msgstr "Forwarders"
 
-#: js/src/dns/Forwarders/ForwardersTable.js:46
+#: js/src/dns/Forwarders/ForwardersTable.js:47
 msgid "Use provider's DNS resolver"
 msgstr "DNS-resolver van provider gerbruiken"
 
@@ -576,7 +576,7 @@ msgstr ""
 "gebruikt."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
-#: js/src/packageManagement/updates/UpdateApproval.js:140
+#: js/src/packageManagement/updates/UpdateApproval.js:142
 msgid "Name"
 msgstr "Naam"
 
@@ -592,23 +592,23 @@ msgstr "TLS-hostnaam"
 msgid "TLS pin"
 msgstr "TLS-pin"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:14
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:15
 msgid "IPv4"
 msgstr "IPv4"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:15
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:16
 msgid "IPv6"
 msgstr "IPv6"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:52
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:53
 msgid "${label} Addresses"
 msgstr "${label}-adressen"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:58
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:59
 msgid "${label} #${index + 1}"
 msgstr "${label} #${index + 1}"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:82
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:83
 msgid "Add ${label} address"
 msgstr "Adres ${label} toevoegen"
 
@@ -707,12 +707,12 @@ msgid "Enable QoS"
 msgstr "QoS inschakelen"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:159
-#: js/src/overview/Cards/NetmetrCard.js:70
+#: js/src/overview/Cards/NetmetrCard.js:74
 msgid "Download"
 msgstr "Download"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
-#: js/src/overview/Cards/NetmetrCard.js:86
+#: js/src/overview/Cards/NetmetrCard.js:90
 msgid "Upload"
 msgstr "Upload"
 
@@ -972,7 +972,7 @@ msgstr "Workflow"
 msgid "Interfaces"
 msgstr "Interfaces"
 
-#: js/src/guide/steps.js:33 js/src/regionAndTime/TimeForm.js:124
+#: js/src/guide/steps.js:33 js/src/regionAndTime/TimeForm.js:125
 msgid "Time"
 msgstr "Tijd"
 
@@ -981,7 +981,7 @@ msgid "DNS"
 msgstr "DNS"
 
 #: js/src/guide/steps.js:41
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:136
 #: js/src/main/pages.js:113 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
 msgstr "Updates"
@@ -1000,7 +1000,7 @@ msgstr "LAN"
 msgid "Finish"
 msgstr "Voltooien"
 
-#: js/src/guide/GuideControls/NextStepButton.js:29
+#: js/src/guide/GuideControls/NextStepButton.js:28
 msgid "Next step"
 msgstr "Volgende stap"
 
@@ -1008,11 +1008,11 @@ msgstr "Volgende stap"
 msgid "Skip guide"
 msgstr "Sla stappenplan over"
 
-#: js/src/guide/GuidePages/GuideFinish.js:19
+#: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
 msgstr "Stappenplan voltooid"
 
-#: js/src/guide/GuidePages/GuideFinish.js:21
+#: js/src/guide/GuidePages/GuideFinish.js:22
 msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
@@ -1020,7 +1020,7 @@ msgstr ""
 "Als u het stappenplan afsluit, krijgt u toegang tot de volledige "
 "configuratie-interface van dit apparaat."
 
-#: js/src/guide/GuidePages/GuideFinish.js:26
+#: js/src/guide/GuidePages/GuideFinish.js:27
 msgid ""
 "To further improve your security consider installing data collection "
 "plugin (via Package Management). This will allow you to be part of our "
@@ -1033,7 +1033,7 @@ msgstr ""
 "aanvallers en geeft u toegang tot dynamische firewall updates waarmee "
 "bekende aanvallers worden geblokkeerd."
 
-#: js/src/guide/GuidePages/GuideFinish.js:32
+#: js/src/guide/GuidePages/GuideFinish.js:33
 msgid "Continue"
 msgstr "Doorgaan"
 
@@ -1202,51 +1202,51 @@ msgstr "Basismodule"
 msgid "Module %s"
 msgstr "Module %s"
 
-#: js/src/interfaces/SelectedInterface.js:73
+#: js/src/interfaces/SelectedInterface.js:82
 #, python-format
 msgid "Interface %s %s"
 msgstr "Interface %s %s"
 
-#: js/src/interfaces/SelectedInterface.js:76
+#: js/src/interfaces/SelectedInterface.js:85
 msgid "Network"
 msgstr "Netwerk"
 
-#: js/src/interfaces/SelectedInterface.js:84
+#: js/src/interfaces/SelectedInterface.js:93
 msgid "State"
 msgstr "Status"
 
-#: js/src/interfaces/SelectedInterface.js:97
+#: js/src/interfaces/SelectedInterface.js:107
 msgid "Module ID"
 msgstr "Module-ID"
 
-#: js/src/interfaces/SelectedInterface.js:101
+#: js/src/interfaces/SelectedInterface.js:111
 msgid "Slot"
 msgstr "Slot"
 
-#: js/src/interfaces/SelectedInterface.js:105
+#: js/src/interfaces/SelectedInterface.js:115
 msgid "Interface ID"
 msgstr "Interface-ID"
 
-#: js/src/interfaces/SelectedInterface.js:110
+#: js/src/interfaces/SelectedInterface.js:120
 #, fuzzy
 msgid "VLAN ID"
 msgstr "LAN-modus"
 
-#: js/src/interfaces/SelectedInterface.js:115
+#: js/src/interfaces/SelectedInterface.js:125
 msgid "Type"
 msgstr "Type"
 
-#: js/src/interfaces/SelectedInterface.js:119
+#: js/src/interfaces/SelectedInterface.js:129
 msgid "Bus"
 msgstr "Bus"
 
-#: js/src/interfaces/SelectedInterface.js:123
+#: js/src/interfaces/SelectedInterface.js:133
 msgid "Link speed"
 msgstr "Verbindingssnelheid"
 
-#: js/src/interfaces/SelectedInterface.js:125
-#: js/src/interfaces/SelectedInterface.js:130
-#: js/src/overview/Cards/NetmetrCard.js:117
+#: js/src/interfaces/SelectedInterface.js:135
+#: js/src/interfaces/SelectedInterface.js:140
+#: js/src/overview/Cards/NetmetrCard.js:121
 msgid "N/A"
 msgstr "N.v.t."
 
@@ -1356,7 +1356,7 @@ msgstr "Beheer"
 msgid "Region & Time"
 msgstr "Regio en tijd"
 
-#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:79
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:80
 #: js/src/main/pages.js:80
 #: js/src/notifications/Notifications/Notifications.js:71
 #: js/src/notificationsSettings/NotificationsSettings.js:26
@@ -1384,7 +1384,7 @@ msgstr "Update-instellingen"
 msgid "Packages"
 msgstr "Pakketten"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:62
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:63
 #: js/src/main/pages.js:120 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr "Talen"
@@ -1393,68 +1393,68 @@ msgstr "Talen"
 msgid "Advanced Administration"
 msgstr "Geavanceerde instellingen"
 
-#: js/src/main/TopBar/LogoutButton.js:15
+#: js/src/main/TopBar/LogoutButton.js:16
 msgid "Logout"
 msgstr "Afmelden"
 
-#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:19
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:20
 msgid "Light"
 msgstr ""
 
-#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:24
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:25
 msgid "Dark"
 msgstr ""
 
-#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:29
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:30
 #, fuzzy
 msgid "Auto"
 msgstr "Over"
 
-#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:59
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
 #, fuzzy
 msgid "Dark Mode"
 msgstr "LAN-modus"
 
-#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:37
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:38
 #: js/src/notifications/Notifications/Notifications.js:56
 msgid "No notifications"
 msgstr "Geen meldingen"
 
-#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:107
-#: js/src/notifications/Notifications/DismissAllButton.js:25
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:108
+#: js/src/notifications/Notifications/DismissAllButton.js:26
 msgid "Dismiss all"
 msgstr "Alles verwerpen"
 
-#: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:51
+#: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:59
 msgid "Reboot Required"
 msgstr "Herstart vereist"
 
-#: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:63
-#: js/src/overview/Cards/NetmetrCard.js:129
+#: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:73
+#: js/src/overview/Cards/NetmetrCard.js:133
 msgid "Details"
 msgstr "Details"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:109
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:106
 msgid "Approve Update"
 msgstr "Update goedkeuren"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:138
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:135
 #, fuzzy
 msgid "See details in "
 msgstr "Meer details"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:140
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
 #, fuzzy
 msgid " page."
 msgstr "Pakketten"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:147
-#: js/src/packageManagement/updates/UpdateApproval.js:118
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:144
+#: js/src/packageManagement/updates/UpdateApproval.js:120
 msgid "Install now"
 msgstr "Nu installeren"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:157
-#: js/src/packageManagement/updates/UpdateApproval.js:39
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:154
+#: js/src/packageManagement/updates/UpdateApproval.js:40
 msgid "Cannot install updates."
 msgstr "Kan updates niet installeren."
 
@@ -1513,6 +1513,7 @@ msgid "Enable System Logs Retention"
 msgstr ""
 
 #: js/src/notifications/Notifications/NotificationsList.js:97
+#: js/src/packageManagement/updateSettings/LicenseModal.js:37
 msgid "Close"
 msgstr ""
 
@@ -1717,72 +1718,72 @@ msgstr "Maximale poort is 65535."
 msgid "Minimum port is 1."
 msgstr "Minimale poort is 1."
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:44
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:45
 msgid "Automatic Updates"
 msgstr "Automatische Updates"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:47
-#: js/src/overview/Cards/DataCollectionCard.js:47
-#: js/src/overview/Cards/DynamicFirewallCard.js:28
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:48
+#: js/src/overview/Cards/DataCollectionCard.js:48
+#: js/src/overview/Cards/DynamicFirewallCard.js:29
 msgid "Activated"
 msgstr "Geactiveerd"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:47
-#: js/src/overview/Cards/DataCollectionCard.js:47
-#: js/src/overview/Cards/DynamicFirewallCard.js:28
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:48
+#: js/src/overview/Cards/DataCollectionCard.js:48
+#: js/src/overview/Cards/DynamicFirewallCard.js:29
 msgid "Disabled"
 msgstr "Uitgeschakeld"
 
-#: js/src/overview/Cards/DataCollectionCard.js:44
+#: js/src/overview/Cards/DataCollectionCard.js:45
 msgid "Threat Detection"
 msgstr ""
 
-#: js/src/overview/Cards/DynamicFirewallCard.js:25
+#: js/src/overview/Cards/DynamicFirewallCard.js:26
 msgid "Dynamic Firewall"
 msgstr "Dynamische Firewall"
 
-#: js/src/overview/Cards/NetmetrCard.js:51
+#: js/src/overview/Cards/NetmetrCard.js:52
 msgid "NetMetr"
 msgstr "NetMetr"
 
-#: js/src/overview/Cards/NetmetrCard.js:57
+#: js/src/overview/Cards/NetmetrCard.js:58
 msgid "Go to NetMetr"
 msgstr "Ga naar NetMetr"
 
-#: js/src/overview/Cards/NetmetrCard.js:73
-#: js/src/overview/Cards/NetmetrCard.js:89
+#: js/src/overview/Cards/NetmetrCard.js:77
+#: js/src/overview/Cards/NetmetrCard.js:93
 msgid "Megabit per second"
 msgstr "Megabit per seconde"
 
-#: js/src/overview/Cards/NetmetrCard.js:104
+#: js/src/overview/Cards/NetmetrCard.js:108
 msgid "Ping"
 msgstr "Ping"
 
-#: js/src/overview/Cards/NetmetrCard.js:107
+#: js/src/overview/Cards/NetmetrCard.js:111
 msgid "Millisecond"
 msgstr "Milliseconde"
 
-#: js/src/overview/Cards/NetmetrCard.js:122
+#: js/src/overview/Cards/NetmetrCard.js:126
 msgid "Link"
 msgstr "Link"
 
-#: js/src/overview/Cards/NetmetrCard.js:142
+#: js/src/overview/Cards/NetmetrCard.js:149
 msgid "Performed"
 msgstr "Uitgevoerd"
 
-#: js/src/overview/Cards/NetmetrCard.js:150
+#: js/src/overview/Cards/NetmetrCard.js:157
 msgid "No tests have been performed lately."
 msgstr "Er zijn onlangs geen tests uitgevoerd."
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:45
+#: js/src/overview/Cards/OpenVPNClientsCard.js:46
 msgid "OpenVPN Clients"
 msgstr "OpenVPN Clients"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:51
+#: js/src/overview/Cards/OpenVPNClientsCard.js:52
 msgid "Go to OpenVPN Client Settings"
 msgstr "Ga naar OpenVPN Client Instellingen"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:91
+#: js/src/overview/Cards/OpenVPNClientsCard.js:95
 msgid "There are no clients added yet."
 msgstr "Er zijn nog geen clients toegevoegd."
 
@@ -1795,7 +1796,7 @@ msgstr ""
 "Als u een andere taal wilt gebruiken, kunt u deze uit onderstaande lijst "
 "selecteren:"
 
-#: js/src/packageManagement/packages/PackageCheckBox.js:53
+#: js/src/packageManagement/packages/PackageCheckBox.js:54
 msgid "More details"
 msgstr "Meer details"
 
@@ -1820,23 +1821,25 @@ msgstr ""
 msgid "Package Lists"
 msgstr "Pakkettenlijst"
 
-#: js/src/packageManagement/updateSettings/LicenceModal.js:29
+#: js/src/packageManagement/updateSettings/LicenseModal.js:31
 msgid "Most Important License Agreement Points"
 msgstr "De belangrijkste punten uit de Gebruikersovereenkomst"
 
-#: js/src/packageManagement/updateSettings/LicenceModal.js:49
+#: js/src/packageManagement/updateSettings/LicenseModal.js:47
 #, fuzzy
 msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
-"this Turris router, and you agree with the full text of the <a "
-"href=\"https://www.turris.cz/omnia-updater-eula\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">license agreement <sup><i class=\"fas fa-"
-"external-link-alt fa-sm\"></i></sup></a>."
+"this Turris router, and you agree with the full text of the "
 msgstr ""
 "Door automatische updates in te schakelen bevestigt u dat u de eigenaar "
 "bent van deze Turris router en stemt u in met de volledige tekst van de "
 "<a href=\"https://www.turris.cz/omnia-updater-eula\" target=\"_blank\" "
 "rel=\"noopener noreferrer\">gebruikersovereenkomst</a>."
+
+#: js/src/packageManagement/updateSettings/LicenseModal.js:55
+#, fuzzy
+msgid "license agreement"
+msgstr "De belangrijkste punten uit de Gebruikersovereenkomst"
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
 msgid ""
@@ -1862,8 +1865,8 @@ msgstr ""
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
 msgid ""
 "By turning the automatic updates on, you agree to this feature's license "
-"agreement. More information is available <a href=\"\" data-"
-"toggle=\"modal\" data-target=\"#licenceModal\">here</a>."
+"agreement. More information is available <a href=\"\" data-bs-"
+"toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
 
 #: js/src/packageManagement/updateSettings/points.js:11
@@ -2013,18 +2016,18 @@ msgstr "Automatische Updates"
 msgid "Enable Automatic Updates (recommended)"
 msgstr "Inschakelen automatische updates (aanbevolen)"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:43
+#: js/src/packageManagement/updates/UpdateApproval.js:44
 msgid "Updates will be installed shortly."
 msgstr "Updates worden spoedig geïnstalleerd."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:61
+#: js/src/packageManagement/updates/UpdateApproval.js:62
 #, python-format
 msgid "There is %d package to be updated."
 msgid_plural "There are %d packages to be updated."
 msgstr[0] "Er is %d pakket wat wordt geüpdatet."
 msgstr[1] "Er zijn %d pakketten welke worden geüpdatet."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:68
+#: js/src/packageManagement/updates/UpdateApproval.js:69
 #, fuzzy
 msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
@@ -2033,14 +2036,14 @@ msgstr ""
 "Zie <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
 "aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:78
+#: js/src/packageManagement/updates/UpdateApproval.js:79
 msgid ""
 "These updates are not going to be \n"
 "                                    automatically installed before \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 msgstr ""
 
-#: js/src/packageManagement/updates/UpdateApproval.js:86
+#: js/src/packageManagement/updates/UpdateApproval.js:88
 msgid ""
 "If you don't want the updates to be installed at all, go to\n"
 "                                    <a "
@@ -2050,24 +2053,24 @@ msgid ""
 "approval needed</b>."
 msgstr ""
 
-#: js/src/packageManagement/updates/UpdateApproval.js:96
+#: js/src/packageManagement/updates/UpdateApproval.js:98
 #, python-format
 msgid "Approve Update From %s"
 msgstr "Keur update van %s goed"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:124
+#: js/src/packageManagement/updates/UpdateApproval.js:126
 msgid "There are no updates awaiting your approval."
 msgstr "Er zijn geen updates die wachten op uw goedkeuring."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:139
+#: js/src/packageManagement/updates/UpdateApproval.js:141
 msgid "Action"
 msgstr "Actie"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:141
+#: js/src/packageManagement/updates/UpdateApproval.js:143
 msgid "Current"
 msgstr "Huidig"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:142
+#: js/src/packageManagement/updates/UpdateApproval.js:144
 msgid "New"
 msgstr "Nieuw"
 
@@ -2288,19 +2291,19 @@ msgstr "Land"
 msgid "Timezone"
 msgstr "Tijdzone"
 
-#: js/src/regionAndTime/TimeForm.js:27
+#: js/src/regionAndTime/TimeForm.js:28
 msgid "Via NTP"
 msgstr "Via NTP"
 
-#: js/src/regionAndTime/TimeForm.js:28
+#: js/src/regionAndTime/TimeForm.js:29
 msgid "Manually"
 msgstr "Handmatig"
 
-#: js/src/regionAndTime/TimeForm.js:105
+#: js/src/regionAndTime/TimeForm.js:106
 msgid "Time Settings"
 msgstr "Tijdsinstellingen"
 
-#: js/src/regionAndTime/TimeForm.js:107
+#: js/src/regionAndTime/TimeForm.js:108
 msgid ""
 "Time should be up-to-date otherwise DNS and other services might not work"
 " properly."
@@ -2308,19 +2311,19 @@ msgstr ""
 "De klok moet gelijk lopen, anders kunnen services zoals DNS mogelijk niet"
 " goed werken."
 
-#: js/src/regionAndTime/TimeForm.js:112
+#: js/src/regionAndTime/TimeForm.js:113
 msgid "How to set time"
 msgstr "Hoe tijd in te stellen"
 
-#: js/src/regionAndTime/TimeForm.js:175
+#: js/src/regionAndTime/TimeForm.js:179
 msgid "Hide NTP servers list"
 msgstr "Verberg NTP Server lijst"
 
-#: js/src/regionAndTime/TimeForm.js:176
+#: js/src/regionAndTime/TimeForm.js:180
 msgid "Show NTP servers list"
 msgstr "Toon NTP Server lijst"
 
-#: js/src/regionAndTime/TimeForm.js:180
+#: js/src/regionAndTime/TimeForm.js:184
 msgid "NTP Servers"
 msgstr "NTP Server"
 
@@ -2347,14 +2350,22 @@ msgstr "Herstart na %d seconden."
 msgid "Rebooting"
 msgstr "Opnieuw opstarten"
 
-#: js/src/utils/ErrorBoundary.js:39
-msgid "An Error Occurred"
+#: js/src/utils/ErrorBoundary.js:34
+#, fuzzy
+msgid "An Error Occurred - reForis | Turris"
 msgstr "Er is een fout opgetreden"
 
-#: js/src/utils/ErrorBoundary.js:44
+#: js/src/utils/ErrorBoundary.js:37
+msgid "Oops! Something went wrong:"
+msgstr ""
+
+#: js/src/utils/ErrorBoundary.js:43
+#, fuzzy
 msgid ""
-"More detailed information is available in the console of your web browser"
-" - on most browsers accessible after pressing Ctrl+Shift+J or F12."
+"More detailed information is available in the console of your web "
+"browser. On most browsers accessible after pressing "
+"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
+"<kbd>F12</kbd>."
 msgstr ""
 "Meer informatie is beschikbaar in de console van uw webbrouwser. In de "
 "meeste browsers is deze beschikbaar na indrukken van Ctrl+Shift+J of F12."
@@ -2366,6 +2377,10 @@ msgid ""
 msgstr ""
 "Meld a.u.b. deze fout door eens mail te sturen aan ons support-team: <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
+
+#: js/src/utils/SkipLink.js:23
+msgid "Skip to main content"
+msgstr ""
 
 #: js/src/wan/MACForm.js:14
 msgid ""
@@ -3173,5 +3188,13 @@ msgstr "500 - Serverfout"
 #~ msgstr ""
 
 #~ msgid "Unknown"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "By turning the automatic updates on, "
+#~ "you agree to this feature's license "
+#~ "agreement. More information is available "
+#~ "<a href=\"\" data-toggle=\"modal\" data-"
+#~ "target=\"#licenceModal\">here</a>."
 #~ msgstr ""
 
