@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-08-05 16:48+0300\n"
+"POT-Creation-Date: 2024-09-05 14:39+0200\n"
 "PO-Revision-Date: 2024-04-15 11:02+0000\n"
 "Last-Translator: Piotr Orzechowski <piotr@orzechowski.tech>\n"
 "Language: pl\n"
@@ -18,9 +18,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
-#: js/src/about/About.js:17
+#: js/src/about/About.js:18
 msgid ""
 "Turris OS is currently released in various branches, which have different"
 " functions and varying stability - you can pick, which branch you want to"
@@ -30,11 +30,11 @@ msgstr ""
 "funkcje i odmienną stabilność — możesz wybrać, którą gałąź chcesz "
 "przetestować."
 
-#: js/src/about/About.js:24 js/src/main/pages.js:94
+#: js/src/about/About.js:25 js/src/main/pages.js:94
 msgid "About"
 msgstr "Dowiedz się więcej"
 
-#: js/src/about/About.js:27
+#: js/src/about/About.js:28
 msgid ""
 "Here you can find some information about your device. Please include it "
 "in your message if you contact our <a "
@@ -46,27 +46,27 @@ msgstr ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">wsparciem "
 "technicznym</a>."
 
-#: js/src/about/About.js:36
+#: js/src/about/About.js:37
 msgid "Device"
 msgstr "Urządzenie"
 
-#: js/src/about/About.js:44
+#: js/src/about/About.js:45
 msgid "Serial number"
 msgstr "Numer seryjny"
 
-#: js/src/about/About.js:48
+#: js/src/about/About.js:49
 msgid "reForis version"
 msgstr "wersja reForis"
 
-#: js/src/about/About.js:52
+#: js/src/about/About.js:53
 msgid "Turris OS version"
 msgstr "wersja Turris OS"
 
-#: js/src/about/About.js:57
+#: js/src/about/About.js:58
 msgid "Turris OS branch"
 msgstr "Gałąź Turris OS"
 
-#: js/src/about/About.js:77
+#: js/src/about/About.js:80
 msgid "Kernel version"
 msgstr "Wersja jądra"
 
@@ -107,7 +107,7 @@ msgstr "Czy na pewno chcesz uruchomić router ponownie?"
 msgid "Confirm reboot"
 msgstr "Potwierdź ponowne uruchomienie"
 
-#: js/src/common/ScrollToTopArrow.js:30
+#: js/src/common/ScrollToTopArrow.js:33
 msgid "Go to top"
 msgstr "Idź na górę"
 
@@ -124,15 +124,15 @@ msgstr ""
 " połączenia przewodowe i bezprzewodowe używając IPv6."
 
 #: js/src/common/network/DHCP6Clients.js:33
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:19
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:24
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:25
 msgid "No clients found."
 msgstr "Nie znaleziono klientów."
 
 #: js/src/common/network/DHCP6Clients.js:40
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:25
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:33
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
 msgid "Hostname"
 msgstr "Hostname"
@@ -146,14 +146,14 @@ msgid "DUID"
 msgstr "DUID"
 
 #: js/src/common/network/DHCP6Clients.js:43
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:36
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:37
 msgid "Expires"
 msgstr "Wygasa"
 
 #: js/src/common/network/DHCP6Clients.js:77
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:59
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:66
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:60
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:67
 msgid "Never"
 msgstr "Nigdy"
 
@@ -280,28 +280,28 @@ msgstr ""
 "Ta lista zawiera wszystkie urządzenia podłączone do sieci przez "
 "połączenia przewodowe i bezprzewodowe."
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
 msgid "IPv4 Address"
 msgstr "Adres IPv4"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:36
 msgid "MAC Address"
 msgstr "Adres MAC"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:37
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
 msgid "Active"
 msgstr "Aktywny"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:69
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:67
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
 msgid "Device is active"
 msgstr "Urządzenie jest aktywne"
 
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:69
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:82
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:67
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
 msgid "Device is inactive"
 msgstr "Urządzenie jest nieaktywne"
 
@@ -336,7 +336,7 @@ msgid "List of available IPv4 addresses"
 msgstr "Lista dostępnych adresów IPv4"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:84
-#: js/src/interfaces/SelectedInterface.js:129
+#: js/src/interfaces/SelectedInterface.js:139
 msgid "MAC address"
 msgstr "Adres MAC"
 
@@ -344,23 +344,23 @@ msgstr "Adres MAC"
 msgid "List of available MAC addresses"
 msgstr "Lista dostępnych adresów MAC"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:113
-#: js/src/dns/Forwarders/ForwardersTable.js:39
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:39
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:111
+#: js/src/dns/Forwarders/ForwardersTable.js:40
 msgid "Actions"
 msgstr "Działania"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:124
-#: js/src/dns/Forwarders/ForwardersTable.js:138
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:128
+#: js/src/dns/Forwarders/ForwardersTable.js:142
 msgid "Edit"
 msgstr "Zmień"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:138
-#: js/src/dns/Forwarders/ForwardersTable.js:146
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:148
+#: js/src/dns/Forwarders/ForwardersTable.js:153
 msgid "Delete"
 msgstr "Usunąć"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:147
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
 msgid "Set Static"
 msgstr "Ustaw dzierżawę statyczną"
 
@@ -396,36 +396,36 @@ msgstr "Ponownie przetestuj połączenie"
 msgid "Test connection"
 msgstr "Testuj połączenie"
 
-#: js/src/connectionTest/ConnectionTestResult.js:16
+#: js/src/connectionTest/ConnectionTestResult.js:17
 msgid "IPv4 connectivity"
 msgstr "Łączność IPv4"
 
-#: js/src/connectionTest/ConnectionTestResult.js:17
+#: js/src/connectionTest/ConnectionTestResult.js:18
 msgid "IPv4 gateway connectivity"
 msgstr "Łączność z bramą IPv4"
 
-#: js/src/connectionTest/ConnectionTestResult.js:18
+#: js/src/connectionTest/ConnectionTestResult.js:19
 msgid "IPv6 connectivity"
 msgstr "Łączność IPv6"
 
-#: js/src/connectionTest/ConnectionTestResult.js:19
+#: js/src/connectionTest/ConnectionTestResult.js:20
 msgid "IPv6 gateway connectivity"
 msgstr "Łączność z bramą IPv6"
 
-#: js/src/connectionTest/ConnectionTestResult.js:85
+#: js/src/connectionTest/ConnectionTestResult.js:86
 msgid "Connection test successful"
 msgstr "Pomyślny test połączenia"
 
-#: js/src/connectionTest/ConnectionTestResult.js:90
+#: js/src/connectionTest/ConnectionTestResult.js:91
 msgid "Connection test failed"
 msgstr "Test połączenia nie powiódł się"
 
-#: js/src/connectionTest/ConnectionTestResult.js:95
+#: js/src/connectionTest/ConnectionTestResult.js:96
 #, fuzzy
 msgid "Connection test cannot be determined"
 msgstr "Test połączenia nie został uruchomiony"
 
-#: js/src/connectionTest/ConnectionTestResult.js:100
+#: js/src/connectionTest/ConnectionTestResult.js:101
 msgid "Connection test not started"
 msgstr "Test połączenia nie został uruchomiony"
 
@@ -554,11 +554,11 @@ msgstr "Zmień przekaźnik"
 msgid "Add custom forwarder"
 msgstr "Dodaj inny przekaźnik"
 
-#: js/src/dns/Forwarders/ForwardersTable.js:38
+#: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Forwarders"
 msgstr "Przekaźniki"
 
-#: js/src/dns/Forwarders/ForwardersTable.js:46
+#: js/src/dns/Forwarders/ForwardersTable.js:47
 msgid "Use provider's DNS resolver"
 msgstr "Użyj rozwiązywania nazw przez dostawcę"
 
@@ -571,7 +571,7 @@ msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr "„Brak TLS” oznacza użycie zwykłego protokołu DNS po UDP."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
-#: js/src/packageManagement/updates/UpdateApproval.js:140
+#: js/src/packageManagement/updates/UpdateApproval.js:142
 msgid "Name"
 msgstr "Nazwa"
 
@@ -587,23 +587,23 @@ msgstr "Nazwa hosta TLS"
 msgid "TLS pin"
 msgstr "Pin TLS"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:14
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:15
 msgid "IPv4"
 msgstr "IPv4"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:15
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:16
 msgid "IPv6"
 msgstr "IPv6"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:52
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:53
 msgid "${label} Addresses"
 msgstr "Adresy ${label}"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:58
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:59
 msgid "${label} #${index + 1}"
 msgstr "${label} #${index + 1}"
 
-#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:82
+#: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:83
 msgid "Add ${label} address"
 msgstr "Dodaj adres ${label}"
 
@@ -701,12 +701,12 @@ msgid "Enable QoS"
 msgstr "Włącz QoS"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:159
-#: js/src/overview/Cards/NetmetrCard.js:70
+#: js/src/overview/Cards/NetmetrCard.js:74
 msgid "Download"
 msgstr "Pobierz"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
-#: js/src/overview/Cards/NetmetrCard.js:86
+#: js/src/overview/Cards/NetmetrCard.js:90
 msgid "Upload"
 msgstr "Wyślij"
 
@@ -960,7 +960,7 @@ msgstr "Scenariusz"
 msgid "Interfaces"
 msgstr "Interfejsy"
 
-#: js/src/guide/steps.js:33 js/src/regionAndTime/TimeForm.js:124
+#: js/src/guide/steps.js:33 js/src/regionAndTime/TimeForm.js:125
 msgid "Time"
 msgstr "Czas"
 
@@ -969,7 +969,7 @@ msgid "DNS"
 msgstr "DNS"
 
 #: js/src/guide/steps.js:41
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:136
 #: js/src/main/pages.js:113 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
 msgstr "Aktualizacje"
@@ -988,7 +988,7 @@ msgstr "LAN"
 msgid "Finish"
 msgstr "Gotowe"
 
-#: js/src/guide/GuideControls/NextStepButton.js:29
+#: js/src/guide/GuideControls/NextStepButton.js:28
 msgid "Next step"
 msgstr "Następny krok"
 
@@ -996,11 +996,11 @@ msgstr "Następny krok"
 msgid "Skip guide"
 msgstr "Pomiń przewodnik"
 
-#: js/src/guide/GuidePages/GuideFinish.js:19
+#: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
 msgstr "Przewodnik ukończony"
 
-#: js/src/guide/GuidePages/GuideFinish.js:21
+#: js/src/guide/GuidePages/GuideFinish.js:22
 msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
@@ -1008,7 +1008,7 @@ msgstr ""
 "Po opuszczeniu tego przewodnika uzyskasz dostęp do pełnego interfejsu "
 "konfiguracyjnego tego urządzenia."
 
-#: js/src/guide/GuidePages/GuideFinish.js:26
+#: js/src/guide/GuidePages/GuideFinish.js:27
 msgid ""
 "To further improve your security consider installing data collection "
 "plugin (via Package Management). This will allow you to be part of our "
@@ -1021,7 +1021,7 @@ msgstr ""
 " nowych zagrożeń i da dostęp do dynamicznych aktualizacji firewalla "
 "blokujących znanych napastników."
 
-#: js/src/guide/GuidePages/GuideFinish.js:32
+#: js/src/guide/GuidePages/GuideFinish.js:33
 msgid "Continue"
 msgstr "Dalej"
 
@@ -1187,51 +1187,51 @@ msgstr "Moduł podstawowy"
 msgid "Module %s"
 msgstr "Moduł %s"
 
-#: js/src/interfaces/SelectedInterface.js:73
+#: js/src/interfaces/SelectedInterface.js:82
 #, python-format
 msgid "Interface %s %s"
 msgstr "Interfejs %s %s"
 
-#: js/src/interfaces/SelectedInterface.js:76
+#: js/src/interfaces/SelectedInterface.js:85
 msgid "Network"
 msgstr "Sieć"
 
-#: js/src/interfaces/SelectedInterface.js:84
+#: js/src/interfaces/SelectedInterface.js:93
 msgid "State"
 msgstr "Stan"
 
-#: js/src/interfaces/SelectedInterface.js:97
+#: js/src/interfaces/SelectedInterface.js:107
 msgid "Module ID"
 msgstr "Identyfikator modułu"
 
-#: js/src/interfaces/SelectedInterface.js:101
+#: js/src/interfaces/SelectedInterface.js:111
 msgid "Slot"
 msgstr "Gniazdo"
 
-#: js/src/interfaces/SelectedInterface.js:105
+#: js/src/interfaces/SelectedInterface.js:115
 msgid "Interface ID"
 msgstr "Identyfikator interfejsu"
 
-#: js/src/interfaces/SelectedInterface.js:110
+#: js/src/interfaces/SelectedInterface.js:120
 #, fuzzy
 msgid "VLAN ID"
 msgstr "Tryb LAN"
 
-#: js/src/interfaces/SelectedInterface.js:115
+#: js/src/interfaces/SelectedInterface.js:125
 msgid "Type"
 msgstr "Rodzaj"
 
-#: js/src/interfaces/SelectedInterface.js:119
+#: js/src/interfaces/SelectedInterface.js:129
 msgid "Bus"
 msgstr "Szyna"
 
-#: js/src/interfaces/SelectedInterface.js:123
+#: js/src/interfaces/SelectedInterface.js:133
 msgid "Link speed"
 msgstr "Prędkość łącza"
 
-#: js/src/interfaces/SelectedInterface.js:125
-#: js/src/interfaces/SelectedInterface.js:130
-#: js/src/overview/Cards/NetmetrCard.js:117
+#: js/src/interfaces/SelectedInterface.js:135
+#: js/src/interfaces/SelectedInterface.js:140
+#: js/src/overview/Cards/NetmetrCard.js:121
 msgid "N/A"
 msgstr "Nie dotyczy"
 
@@ -1340,7 +1340,7 @@ msgstr "Administracja"
 msgid "Region & Time"
 msgstr "Region i czas"
 
-#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:79
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:80
 #: js/src/main/pages.js:80
 #: js/src/notifications/Notifications/Notifications.js:71
 #: js/src/notificationsSettings/NotificationsSettings.js:26
@@ -1368,7 +1368,7 @@ msgstr "Ustawienia aktualizacji"
 msgid "Packages"
 msgstr "Pakiety"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:62
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:63
 #: js/src/main/pages.js:120 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr "Języki"
@@ -1377,68 +1377,68 @@ msgstr "Języki"
 msgid "Advanced Administration"
 msgstr "Administracja zaawansowana"
 
-#: js/src/main/TopBar/LogoutButton.js:15
+#: js/src/main/TopBar/LogoutButton.js:16
 msgid "Logout"
 msgstr "Wyloguj"
 
-#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:19
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:20
 msgid "Light"
 msgstr ""
 
-#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:24
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:25
 msgid "Dark"
 msgstr ""
 
-#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:29
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:30
 #, fuzzy
 msgid "Auto"
 msgstr "Dowiedz się więcej"
 
-#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:59
+#: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
 #, fuzzy
 msgid "Dark Mode"
 msgstr "Tryb LAN"
 
-#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:37
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:38
 #: js/src/notifications/Notifications/Notifications.js:56
 msgid "No notifications"
 msgstr "Brak powiadomień"
 
-#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:107
-#: js/src/notifications/Notifications/DismissAllButton.js:25
+#: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:108
+#: js/src/notifications/Notifications/DismissAllButton.js:26
 msgid "Dismiss all"
 msgstr "Odrzuć wszystko"
 
-#: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:51
+#: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:59
 msgid "Reboot Required"
 msgstr "Wymagane ponowne uruchomienie"
 
-#: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:63
-#: js/src/overview/Cards/NetmetrCard.js:129
+#: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:73
+#: js/src/overview/Cards/NetmetrCard.js:133
 msgid "Details"
 msgstr "Szczegóły"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:109
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:106
 msgid "Approve Update"
 msgstr "Zatwierdź aktualizację"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:138
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:135
 #, fuzzy
 msgid "See details in "
 msgstr "Więcej szczegółów"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:140
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
 #, fuzzy
 msgid " page."
 msgstr "Pakiety"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:147
-#: js/src/packageManagement/updates/UpdateApproval.js:118
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:144
+#: js/src/packageManagement/updates/UpdateApproval.js:120
 msgid "Install now"
 msgstr "Zainstaluj teraz"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:157
-#: js/src/packageManagement/updates/UpdateApproval.js:39
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:154
+#: js/src/packageManagement/updates/UpdateApproval.js:40
 msgid "Cannot install updates."
 msgstr "Nie można zainstalować aktualizacji."
 
@@ -1510,6 +1510,7 @@ msgid "Enable System Logs Retention"
 msgstr "Włącz przechowywanie dzienników systemowych"
 
 #: js/src/notifications/Notifications/NotificationsList.js:97
+#: js/src/packageManagement/updateSettings/LicenseModal.js:37
 msgid "Close"
 msgstr ""
 
@@ -1712,72 +1713,72 @@ msgstr "Maksymalny port to 65535."
 msgid "Minimum port is 1."
 msgstr "Minimalny port to 1."
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:44
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:45
 msgid "Automatic Updates"
 msgstr "Aktualizacje automatyczne"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:47
-#: js/src/overview/Cards/DataCollectionCard.js:47
-#: js/src/overview/Cards/DynamicFirewallCard.js:28
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:48
+#: js/src/overview/Cards/DataCollectionCard.js:48
+#: js/src/overview/Cards/DynamicFirewallCard.js:29
 msgid "Activated"
 msgstr "Aktywowane"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:47
-#: js/src/overview/Cards/DataCollectionCard.js:47
-#: js/src/overview/Cards/DynamicFirewallCard.js:28
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:48
+#: js/src/overview/Cards/DataCollectionCard.js:48
+#: js/src/overview/Cards/DynamicFirewallCard.js:29
 msgid "Disabled"
 msgstr "Wyłączone"
 
-#: js/src/overview/Cards/DataCollectionCard.js:44
+#: js/src/overview/Cards/DataCollectionCard.js:45
 msgid "Threat Detection"
 msgstr "Wykrywanie zagrożeń"
 
-#: js/src/overview/Cards/DynamicFirewallCard.js:25
+#: js/src/overview/Cards/DynamicFirewallCard.js:26
 msgid "Dynamic Firewall"
 msgstr "Dynamiczna zapora sieciowa"
 
-#: js/src/overview/Cards/NetmetrCard.js:51
+#: js/src/overview/Cards/NetmetrCard.js:52
 msgid "NetMetr"
 msgstr "NetMetr"
 
-#: js/src/overview/Cards/NetmetrCard.js:57
+#: js/src/overview/Cards/NetmetrCard.js:58
 msgid "Go to NetMetr"
 msgstr "Przejdź do NetMetra"
 
-#: js/src/overview/Cards/NetmetrCard.js:73
-#: js/src/overview/Cards/NetmetrCard.js:89
+#: js/src/overview/Cards/NetmetrCard.js:77
+#: js/src/overview/Cards/NetmetrCard.js:93
 msgid "Megabit per second"
 msgstr "Megabity na sekundę"
 
-#: js/src/overview/Cards/NetmetrCard.js:104
+#: js/src/overview/Cards/NetmetrCard.js:108
 msgid "Ping"
 msgstr "Ping"
 
-#: js/src/overview/Cards/NetmetrCard.js:107
+#: js/src/overview/Cards/NetmetrCard.js:111
 msgid "Millisecond"
 msgstr "Milisekundy"
 
-#: js/src/overview/Cards/NetmetrCard.js:122
+#: js/src/overview/Cards/NetmetrCard.js:126
 msgid "Link"
 msgstr "Łącze"
 
-#: js/src/overview/Cards/NetmetrCard.js:142
+#: js/src/overview/Cards/NetmetrCard.js:149
 msgid "Performed"
 msgstr "Wykonane"
 
-#: js/src/overview/Cards/NetmetrCard.js:150
+#: js/src/overview/Cards/NetmetrCard.js:157
 msgid "No tests have been performed lately."
 msgstr "Ostatnio nie przeprowadzano żadnych testów."
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:45
+#: js/src/overview/Cards/OpenVPNClientsCard.js:46
 msgid "OpenVPN Clients"
 msgstr "Klienci OpenVPN"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:51
+#: js/src/overview/Cards/OpenVPNClientsCard.js:52
 msgid "Go to OpenVPN Client Settings"
 msgstr "Przejdź do ustawień klienta OpenVPN"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:91
+#: js/src/overview/Cards/OpenVPNClientsCard.js:95
 msgid "There are no clients added yet."
 msgstr "Nie dodano jeszcze żadnych klientów."
 
@@ -1789,7 +1790,7 @@ msgstr ""
 "Jeśli chcesz używać innego języka niż angielski, możesz go wybrać z "
 "poniższej listy:"
 
-#: js/src/packageManagement/packages/PackageCheckBox.js:53
+#: js/src/packageManagement/packages/PackageCheckBox.js:54
 msgid "More details"
 msgstr "Więcej szczegółów"
 
@@ -1813,23 +1814,26 @@ msgstr ""
 msgid "Package Lists"
 msgstr "Listy pakietów"
 
-#: js/src/packageManagement/updateSettings/LicenceModal.js:29
+#: js/src/packageManagement/updateSettings/LicenseModal.js:31
 msgid "Most Important License Agreement Points"
 msgstr "Najważniejsze punkty umowy licencyjnej"
 
-#: js/src/packageManagement/updateSettings/LicenceModal.js:49
+#: js/src/packageManagement/updateSettings/LicenseModal.js:47
+#, fuzzy
 msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
-"this Turris router, and you agree with the full text of the <a "
-"href=\"https://www.turris.cz/omnia-updater-eula\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">license agreement <sup><i class=\"fas fa-"
-"external-link-alt fa-sm\"></i></sup></a>."
+"this Turris router, and you agree with the full text of the "
 msgstr ""
 "Włączając automatyczne aktualizacje, potwierdzasz, że jesteś właścicielem"
 " tego routera Turris i zgadzasz się z pełnym tekstem <a "
 "href=\"https://www.turris.cz/omnia-updater-eula\" target=\"_blank\" "
 "rel=\"noopener noreferrer\">umowy licencyjnej<sup><i class=\"fas fa-"
 "external-link-alt fa-sm\"></i></sup> </a> ."
+
+#: js/src/packageManagement/updateSettings/LicenseModal.js:55
+#, fuzzy
+msgid "license agreement"
+msgstr "Najważniejsze punkty umowy licencyjnej"
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
 msgid ""
@@ -1850,10 +1854,11 @@ msgstr ""
 "oprogramowaniu."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
+#, fuzzy
 msgid ""
 "By turning the automatic updates on, you agree to this feature's license "
-"agreement. More information is available <a href=\"\" data-"
-"toggle=\"modal\" data-target=\"#licenceModal\">here</a>."
+"agreement. More information is available <a href=\"\" data-bs-"
+"toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
 "Włączenie automatycznych aktualizacji oznacza zgodę na warunki licencyjne"
 " tej funkcji. Więcej informacji <a href=\"\" data-toggle=\"modal\" data-"
@@ -2018,11 +2023,11 @@ msgstr "Ustawienia aktualizacji automatycznych"
 msgid "Enable Automatic Updates (recommended)"
 msgstr "Włącz aktualizacje automatyczne (zalecane)"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:43
+#: js/src/packageManagement/updates/UpdateApproval.js:44
 msgid "Updates will be installed shortly."
 msgstr "Aktualizacje zostaną wkrótce zainstalowane."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:61
+#: js/src/packageManagement/updates/UpdateApproval.js:62
 #, python-format
 msgid "There is %d package to be updated."
 msgid_plural "There are %d packages to be updated."
@@ -2030,7 +2035,7 @@ msgstr[0] "Można zaktualizować %d paczkę."
 msgstr[1] "Można zaktualizować %d paczki."
 msgstr[2] "Można zaktualizować %d paczek."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:68
+#: js/src/packageManagement/updates/UpdateApproval.js:69
 #, fuzzy
 msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
@@ -2039,7 +2044,7 @@ msgstr ""
 "Zobacz <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">szczegóły</a>"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:78
+#: js/src/packageManagement/updates/UpdateApproval.js:79
 msgid ""
 "These updates are not going to be \n"
 "                                    automatically installed before \n"
@@ -2049,7 +2054,7 @@ msgstr ""
 "                                    automatycznie zainstalowane przed \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:86
+#: js/src/packageManagement/updates/UpdateApproval.js:88
 msgid ""
 "If you don't want the updates to be installed at all, go to\n"
 "                                    <a "
@@ -2065,24 +2070,24 @@ msgstr ""
 "                                    i wybierz opcję  <b>Wymagana zgoda na"
 " aktualizację</b>."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:96
+#: js/src/packageManagement/updates/UpdateApproval.js:98
 #, python-format
 msgid "Approve Update From %s"
 msgstr "Zatwierdź aktualizację z %s"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:124
+#: js/src/packageManagement/updates/UpdateApproval.js:126
 msgid "There are no updates awaiting your approval."
 msgstr "Brak aktualizacji oczekujących na zatwierdzenie."
 
-#: js/src/packageManagement/updates/UpdateApproval.js:139
+#: js/src/packageManagement/updates/UpdateApproval.js:141
 msgid "Action"
 msgstr "Działanie"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:141
+#: js/src/packageManagement/updates/UpdateApproval.js:143
 msgid "Current"
 msgstr "Obecna"
 
-#: js/src/packageManagement/updates/UpdateApproval.js:142
+#: js/src/packageManagement/updates/UpdateApproval.js:144
 msgid "New"
 msgstr "Nowa"
 
@@ -2304,19 +2309,19 @@ msgstr "Kraj"
 msgid "Timezone"
 msgstr "Strefa czasowa"
 
-#: js/src/regionAndTime/TimeForm.js:27
+#: js/src/regionAndTime/TimeForm.js:28
 msgid "Via NTP"
 msgstr "Przez NTP"
 
-#: js/src/regionAndTime/TimeForm.js:28
+#: js/src/regionAndTime/TimeForm.js:29
 msgid "Manually"
 msgstr "Ręcznie"
 
-#: js/src/regionAndTime/TimeForm.js:105
+#: js/src/regionAndTime/TimeForm.js:106
 msgid "Time Settings"
 msgstr "Ustawienia czasu"
 
-#: js/src/regionAndTime/TimeForm.js:107
+#: js/src/regionAndTime/TimeForm.js:108
 msgid ""
 "Time should be up-to-date otherwise DNS and other services might not work"
 " properly."
@@ -2324,19 +2329,19 @@ msgstr ""
 "Czas powinien być aktualny, inaczej DNS i inne usługi mogą nie działać "
 "poprawnie."
 
-#: js/src/regionAndTime/TimeForm.js:112
+#: js/src/regionAndTime/TimeForm.js:113
 msgid "How to set time"
 msgstr "Jak ustawić czas"
 
-#: js/src/regionAndTime/TimeForm.js:175
+#: js/src/regionAndTime/TimeForm.js:179
 msgid "Hide NTP servers list"
 msgstr "Ukryj listę serwerów NTP"
 
-#: js/src/regionAndTime/TimeForm.js:176
+#: js/src/regionAndTime/TimeForm.js:180
 msgid "Show NTP servers list"
 msgstr "Pokaż listę serwerów NTP"
 
-#: js/src/regionAndTime/TimeForm.js:180
+#: js/src/regionAndTime/TimeForm.js:184
 msgid "NTP Servers"
 msgstr "Serwery NTP"
 
@@ -2363,14 +2368,22 @@ msgstr "Ponowne uruchomienie za ~%d sekund."
 msgid "Rebooting"
 msgstr "Ponowne uruchamianie"
 
-#: js/src/utils/ErrorBoundary.js:39
-msgid "An Error Occurred"
+#: js/src/utils/ErrorBoundary.js:34
+#, fuzzy
+msgid "An Error Occurred - reForis | Turris"
 msgstr "Wystąpił błąd"
 
-#: js/src/utils/ErrorBoundary.js:44
+#: js/src/utils/ErrorBoundary.js:37
+msgid "Oops! Something went wrong:"
+msgstr ""
+
+#: js/src/utils/ErrorBoundary.js:43
+#, fuzzy
 msgid ""
-"More detailed information is available in the console of your web browser"
-" - on most browsers accessible after pressing Ctrl+Shift+J or F12."
+"More detailed information is available in the console of your web "
+"browser. On most browsers accessible after pressing "
+"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
+"<kbd>F12</kbd>."
 msgstr ""
 "Bardziej szczegółowe informacje dostępne są w konsoli przeglądarki "
 "internetowej — w większości przeglądarek dostępnej po naciśnięciu "
@@ -2383,6 +2396,10 @@ msgid ""
 msgstr ""
 "Prosimy zgłosić ten błąd naszemu zespołowi obsługi na adres <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
+
+#: js/src/utils/SkipLink.js:23
+msgid "Skip to main content"
+msgstr ""
 
 #: js/src/wan/MACForm.js:14
 msgid ""
