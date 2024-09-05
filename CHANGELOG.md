@@ -8,13 +8,40 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.0.0] - 2024-09-05
+
+### Added
+
+-   Added & updated Weblate translations
+-   Added fontAwesomeIcons library
+-   Added congrats emoji to GuideFinish heading
+-   Added SkipLink component for accessibility improvement
+
+### Changed
+
+-   Migrated to React FontAwesome v6
+-   Fixed dark mode flickering screen
+-   Fixed navigation collapse on mobile
+-   Fixed Guide layout on different screen sizes
+-   Updated Foris JS library to v6.1.0
+-   Updated theme context to handle favicon change and improve initialization
+-   Refactored app.scss to match common Turris Bootstrap theme
+-   Refactored GuideHelper & GuideControls components
+-   Refactored Interface component
+-   Refactored ErrorBoundary component and removed unused CSS
+-   NPM audit fix
+
+### Removed
+
+-   Removed obsolete styles & refactored icons
+
 ## [2.1.0] - 2024-08-05
 
 ### Added
 
 -   Added & updated Weblate translations
 -   Added third state for test connection results
--   Add Dark Mode to the TopBar
+-   Added Dark Mode to the TopBar
 
 ### Changed
 
@@ -554,7 +581,8 @@ and this project adheres to
 
 -   Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v2.1.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.0.0...master
+[3.0.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v2.1.0...v3.0.0
 [2.1.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v2.0.0...v2.1.0
 [2.0.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.5.0...v2.0.0
 [1.5.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.4.1...v1.5.0
