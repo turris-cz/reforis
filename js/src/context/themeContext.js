@@ -66,9 +66,10 @@ export function ThemeContextProvider({ children }) {
         const handleMediaChange = (event) => {
             if (theme === "auto") {
                 const newTheme = event.matches ? "dark" : "light";
-                handleFaviconChange(newTheme);
+                setTheme(newTheme);
                 applyTheme(newTheme);
             }
+            handleFaviconChange(mediaQuery.matches ? "dark" : "light");
         };
 
         const handleStorageChange = () => {
