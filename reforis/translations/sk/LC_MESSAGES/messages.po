@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-05 14:39+0200\n"
-"PO-Revision-Date: 2024-08-10 09:09+0000\n"
+"PO-Revision-Date: 2024-09-09 18:09+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
+">\n"
 "Language: sk\n"
-"Language-Team: Slovak "
-"<https://hosted.weblate.org/projects/turris/reforis/sk/>\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.8-dev\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: js/src/about/About.js:18
@@ -1377,15 +1378,15 @@ msgstr "Odhlásenie"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:20
 msgid "Light"
-msgstr "Svetlý"
+msgstr "Svetlá"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:25
 msgid "Dark"
-msgstr "Tmavý"
+msgstr "Tmavá"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:30
 msgid "Auto"
-msgstr "Automaticky"
+msgstr "Automatická"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
 msgid "Dark Mode"
@@ -1804,21 +1805,16 @@ msgid "Most Important License Agreement Points"
 msgstr "Najdôležitejšie body Licenčnej zmluvy"
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:47
-#, fuzzy
 msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the "
 msgstr ""
-"Povolením automatických aktualizácií potvrdzujete, že ste vlastníkom "
-"tohto routera Turris a súhlasíte s plným znením <a "
-"href=\"https://www.turris.cz/omnia-updater-eula\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">licenčnej zmluvy <sup><i class=\"fas fa-"
-"external-link-alt fa-sm\"></i></sup></a>."
+"Povolením automatických aktualizácií potvrdzujete, že ste vlastníkom tohto "
+"routera Turris a súhlasíte s plným znením "
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
-#, fuzzy
 msgid "license agreement"
-msgstr "Najdôležitejšie body Licenčnej zmluvy"
+msgstr "licenčnej zmluy"
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
 msgid ""
@@ -1839,15 +1835,14 @@ msgstr ""
 "software vyskytnú bezpečnostné chyby."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
-#, fuzzy
 msgid ""
 "By turning the automatic updates on, you agree to this feature's license "
 "agreement. More information is available <a href=\"\" data-bs-"
 "toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
 "Povolením automatických aktualizácií súhlasíte s Licenčnou zmluvou tejto "
-"funkcie. Viac informácií nájdete <a href=\"\" data-toggle=\"modal\" data-"
-"target=\"#licenceModal\">tu</a>."
+"funkcie. Viac informácií nájdete <a href=\"\" data-bs-toggle=\"modal\" data-"
+"bs-target=\"#licenseModal\">tu</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
@@ -2348,24 +2343,23 @@ msgid "Rebooting"
 msgstr "Reštartovanie"
 
 #: js/src/utils/ErrorBoundary.js:34
-#, fuzzy
 msgid "An Error Occurred - reForis | Turris"
-msgstr "Nastala chyba"
+msgstr "Nastala chyba - reForis | Turris"
 
 #: js/src/utils/ErrorBoundary.js:37
 msgid "Oops! Something went wrong:"
-msgstr ""
+msgstr "Niečo sa pokazilo:"
 
 #: js/src/utils/ErrorBoundary.js:43
-#, fuzzy
 msgid ""
 "More detailed information is available in the console of your web "
 "browser. On most browsers accessible after pressing "
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
-"Podrobnejšie informácie sú dostupné v konzole vášho prehliadača – obvykle"
-" je dostupná stlačením Ctrl+Shift+J alebo F12."
+"Podrobnejšie informácie sú dostupné v konzole vášho prehliadača. Vo väčšine "
+"prehliadačov sa zobrazí po stlačení "
+"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or <kbd>F12</kbd>."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
@@ -2377,7 +2371,7 @@ msgstr ""
 
 #: js/src/utils/SkipLink.js:23
 msgid "Skip to main content"
-msgstr ""
+msgstr "Preskočiť na hlavný obsah"
 
 #: js/src/wan/MACForm.js:14
 msgid ""
@@ -3103,4 +3097,3 @@ msgstr "500 – Chyba servera"
 
 #~ msgid "Unknown"
 #~ msgstr "Neznáme"
-
