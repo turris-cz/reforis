@@ -45,7 +45,7 @@ const packageListsFixture = {
             title: "Network monitoring and parental control",
         },
         {
-            description: "Easy setup of the OpenVPN server from Foris.",
+            description: "Easy setup of the OpenVPN server from reForis.",
             enabled: true,
             labels: [],
             name: "openvpn",

@@ -17,7 +17,7 @@ module.exports = {
             content: "docs/introduction.md",
         },
         {
-            name: "Foris forms components",
+            name: "reForis forms components",
             components: [
                 "src/lan/LAN.js",
                 "src/wan/WAN.js",
@@ -55,7 +55,7 @@ module.exports = {
             usageMode: "expand",
         },
         {
-            name: "Other Foris components",
+            name: "Other reForis components",
             components: [
                 "src/overview/Overview.js",
                 "src/overview/UpdatesApprovals.js",

@@ -197,7 +197,7 @@ export default function packagesFixture(UpdatesEnabled = true) {
             {
                 enabled: false,
                 hidden: false,
-                description: "An easy setup of OpenVPN server from Foris.",
+                description: "An easy setup of OpenVPN server from reForis.",
                 name: "openvpn",
                 title: "OpenVPN",
                 labels: [],
