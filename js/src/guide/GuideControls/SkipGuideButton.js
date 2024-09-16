@@ -23,7 +23,7 @@ export function SkipGuideButton({ next_step }) {
     const disabled = next_step === "password";
     return (
         <Button
-            className={`btn-warning me-2 align-self-stretch align-self-sm-center ${disabled ? "disabled" : ""}`.trim()}
+            className={`btn-secondary me-2 align-self-stretch align-self-sm-center ${disabled ? "disabled" : ""}`.trim()}
             style={{ pointerEvents: "not-allowed" }}
             onClick={onGuideFinishHandler}
             disabled={disabled}
