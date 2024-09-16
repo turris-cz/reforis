@@ -335,6 +335,7 @@ exports[`<Updates/> should handle disabled updates 1`] = `
   </p>
   <div
     class="alert alert-warning"
+    role="alert"
   >
     <span>
       Automatic updates are disabled. Please enable 

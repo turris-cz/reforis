@@ -454,7 +454,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
                         class="text-success"
                       >
                         <i
-                          class="fas fa-check"
+                          class="fa"
                         />
                       </span>
                     </td>

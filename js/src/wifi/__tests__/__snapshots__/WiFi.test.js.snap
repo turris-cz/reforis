@@ -97,7 +97,7 @@ exports[`<WiFi/> Snapshot of Alert with a warning when no modules available. 1`]
 - First value
 + Second value
 
-@@ -4,67 +4,13 @@
+@@ -4,67 +4,14 @@
     </h1>
     <p>
       If you want to use your router as a Wi-Fi access point, enable Wi-Fi here and fill in an SSID (the name of the access point) and a corresponding password. You can then set up your mobile devices using the QR code available within the form.
@@ -118,8 +118,7 @@ exports[`<WiFi/> Snapshot of Alert with a warning when no modules available. 1`]
 -         <label
 -           class=\\"form-check-label\\"
 -           for=\\"1\\"
-+     class=\\"alert alert-warning\\"
-    >
+-         >
 -           <h2
 -             class=\\"mb-0\\"
 -           >
@@ -150,7 +149,9 @@ exports[`<WiFi/> Snapshot of Alert with a warning when no modules available. 1`]
 -       </div>
 -       <div
 -         class=\\"text-end\\"
--       >
++     class=\\"alert alert-warning\\"
++     role=\\"alert\\"
+    >
 -         <button
 -           class=\\"btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center\\"
 -           type=\\"submit\\"

@@ -71,6 +71,7 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
   >
     <div
       class="alert alert-warning"
+      role="alert"
     >
       All network interfaces of this network are currently down.
     </div>
@@ -357,6 +358,7 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
   >
     <div
       class="alert alert-warning"
+      role="alert"
     >
       All network interfaces of this network are currently down.
     </div>
@@ -623,6 +625,7 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
   >
     <div
       class="alert alert-warning"
+      role="alert"
     >
       All network interfaces of this network are currently down.
     </div>
@@ -787,6 +790,7 @@ exports[`Displaying of interface warning messages No interface & snapshot 1`] = 
 >
   <div
     class="alert alert-warning"
+    role="alert"
   >
     This network currently doesn't contain any devices. The changes you make here will become fully functional after you assign a network interface to this network.
   </div>
@@ -799,6 +803,7 @@ exports[`Displaying of interface warning messages No interface up & snapshot 1`]
 >
   <div
     class="alert alert-warning"
+    role="alert"
   >
     All network interfaces of this network are currently down.
   </div>

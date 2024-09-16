@@ -5,7 +5,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
 - First value
 + Second value
 
-@@ -7,10 +7,26 @@
+@@ -7,10 +7,27 @@
     </p>
     <div
       class=\\"card p-4 col-sm-12 col-lg-12 p-0 mb-4\\"
@@ -13,6 +13,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
       <form>
 +       <div
 +         class=\\"alert alert-warning\\"
++         role=\\"alert\\"
 +       >
 +         <span>
 +           Please enable 
@@ -32,7 +33,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
           </h2>
           <div
             class=\\"container-fluid mb-3\\"
-@@ -25,10 +41,11 @@
+@@ -25,10 +42,11 @@
                   class=\\"mb-3 form-check\\"
                 >
                   <input
@@ -44,7 +45,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
                   />
                   <label
                     class=\\"form-check-label\\"
-@@ -44,10 +61,11 @@
+@@ -44,10 +62,11 @@
                 <div
                   class=\\"mb-3 form-check\\"
                 >
@@ -56,7 +57,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
                   />
                   <label
                     class=\\"form-check-label\\"
-@@ -63,10 +81,11 @@
+@@ -63,10 +82,11 @@
                 <div
                   class=\\"mb-3 form-check\\"
                 >
@@ -68,7 +69,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
                   />
                   <label
                     class=\\"form-check-label\\"
-@@ -82,10 +101,11 @@
+@@ -82,10 +102,11 @@
                 <div
                   class=\\"mb-3 form-check\\"
                 >
@@ -80,7 +81,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
                   />
                   <label
                     class=\\"form-check-label\\"
-@@ -101,10 +121,11 @@
+@@ -101,10 +122,11 @@
                 <div
                   class=\\"mb-3 form-check\\"
                 >
@@ -92,7 +93,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
                   />
                   <label
                     class=\\"form-check-label\\"
-@@ -120,10 +141,11 @@
+@@ -120,10 +142,11 @@
                 <div
                   class=\\"mb-3 form-check\\"
                 >
@@ -104,7 +105,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
                   />
                   <label
                     class=\\"form-check-label\\"
-@@ -139,10 +161,11 @@
+@@ -139,10 +162,11 @@
                 <div
                   class=\\"mb-3 form-check\\"
                 >
@@ -116,7 +117,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
                   />
                   <label
                     class=\\"form-check-label\\"
-@@ -158,10 +181,11 @@
+@@ -158,10 +182,11 @@
                 <div
                   class=\\"mb-3 form-check\\"
                 >
@@ -128,7 +129,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
                   />
                   <label
                     class=\\"form-check-label\\"
-@@ -177,10 +201,11 @@
+@@ -177,10 +202,11 @@
                 <div
                   class=\\"mb-3 form-check\\"
                 >
@@ -140,7 +141,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
                   />
                   <label
                     class=\\"form-check-label\\"
-@@ -196,10 +221,11 @@
+@@ -196,10 +222,11 @@
                 <div
                   class=\\"mb-3 form-check\\"
                 >
@@ -152,7 +153,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
                   />
                   <label
                     class=\\"form-check-label\\"
-@@ -215,10 +241,11 @@
+@@ -215,10 +242,11 @@
                 <div
                   class=\\"mb-3 form-check\\"
                 >
@@ -164,7 +165,7 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
                   />
                   <label
                     class=\\"form-check-label\\"
-@@ -228,15 +255,17 @@
+@@ -228,15 +256,17 @@
                   </label>
                 </div>
               </div>

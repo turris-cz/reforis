@@ -497,7 +497,7 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: contains clients 1`] = `
                       class="text-success"
                     >
                       <i
-                        class="fas fa-check"
+                        class="fa"
                       />
                     </span>
                   </td>
