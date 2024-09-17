@@ -7,6 +7,7 @@
 
 import React, { useEffect, useCallback } from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     ForisURLs,
     useAPIGet,
@@ -84,10 +85,11 @@ function DropdownContent({ update, onSuccess }) {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
             >
-                <i
-                    className={`fa fa-sync-alt fa-lg ${
+                <FontAwesomeIcon
+                    className={`fa-solid fa-sync-alt fa-lg ${
                         updateFailed ? "text-danger" : ""
                     }`.trim()}
+                    icon="fa-solid fa-sync-alt"
                 />
             </button>
             <ul
