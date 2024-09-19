@@ -75,8 +75,8 @@ function OpenVPNClientsCard({ clients }) {
                                                                 : "danger"
                                                         }`}
                                                     >
-                                                        <i
-                                                            className={`fas fa-${
+                                                        <FontAwesomeIcon
+                                                            icon={`fa-solid fa-${
                                                                 client.enabled
                                                                     ? "check"
                                                                     : "times"
