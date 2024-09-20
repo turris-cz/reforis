@@ -223,7 +223,7 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
               WAN
             </h5>
             <span
-              class="badge badge-info ml-0"
+              class="badge text-bg-info ml-0"
               title="VLAN ID: 1"
             >
               VLAN: 1
@@ -578,7 +578,7 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
               WAN
             </h5>
             <span
-              class="badge badge-info ml-0"
+              class="badge text-bg-info ml-0"
               title="VLAN ID: 1"
             >
               VLAN: 1
@@ -933,7 +933,7 @@ exports[`<Interfaces/> Snapshot. 1`] = `
               WAN
             </h5>
             <span
-              class="badge badge-info ml-0"
+              class="badge text-bg-info ml-0"
               title="VLAN ID: 1"
             >
               VLAN: 1

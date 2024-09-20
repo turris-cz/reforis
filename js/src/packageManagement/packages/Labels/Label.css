@@ -9,10 +9,6 @@
     margin-left: 0.5rem;
 }
 
-.badge-disabled {
-    opacity: 0.5;
-}
-
 label span.badge {
     cursor: help;
 }

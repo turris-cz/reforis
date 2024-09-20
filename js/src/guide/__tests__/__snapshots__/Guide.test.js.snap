@@ -407,7 +407,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
               WAN
             </h5>
             <span
-              class="badge badge-info ml-0"
+              class="badge text-bg-info ml-0"
               title="VLAN ID: 1"
             >
               VLAN: 1
