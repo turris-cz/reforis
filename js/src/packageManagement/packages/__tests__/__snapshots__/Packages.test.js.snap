@@ -122,19 +122,19 @@ exports[`<Packages/> Should render: updates disabled. 1`] = `
                     LXC utilities
                     <span
 -                   class=\\"badge text-bg-primary\\"
-+                     class=\\"badge text-bg-primary badge-disabled\\"
++                     class=\\"badge text-bg-primary opacity-50\\"
                     >
                       External storage
                     </span>
                     <span
 -                   class=\\"badge text-bg-info\\"
-+                     class=\\"badge text-bg-info badge-disabled\\"
++                     class=\\"badge text-bg-info opacity-50\\"
                     >
                       High memory usage
                     </span>
                     <span
 -                   class=\\"badge text-bg-secondary\\"
-+                     class=\\"badge text-bg-secondary badge-disabled\\"
++                     class=\\"badge text-bg-secondary opacity-50\\"
                     >
                       Advanced users
                     </span>
@@ -565,7 +565,7 @@ exports[`<Packages/> Should render: updates enabled. 1`] = `
                 >
                   mdadm RAID
                   <span
-                    class="badge text-bg-secondary badge-disabled"
+                    class="badge text-bg-secondary opacity-50"
                   >
                     Advanced users
                   </span>
@@ -623,7 +623,7 @@ exports[`<Packages/> Should render: updates enabled. 1`] = `
                   class="form-text"
                 >
                   <small>
-                    Actively measures speed of Internet connection using netmetr.cz service.
+                    Actively measures speed of Internet connection using LibreSpeed service.
                   </small>
                 </div>
               </label>

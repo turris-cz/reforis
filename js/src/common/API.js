@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -74,7 +74,7 @@ export const API_MODULE_URLs = new Proxy(
         dataCollection: "/data-collection/api/settings",
         openvpn: "/openvpn/api/server-settings",
         openvpnClients: "/openvpn/api/client-settings",
-        netmetr: "/netmetr/api/data",
+        librespeed: "/librespeed/api/data",
         schnapps: "/snapshots/api/snapshots/factory_reset",
         storage: "/storage/api/settings",
     },

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -15,7 +15,7 @@ import {
     packageListsFixture,
     dataCollectionCardFixture,
     automaticUpdatesCardFixture,
-    netmetrCardFixture,
+    librespeedCardFixture,
     openVPNClientsCardFixture,
 } from "./__fixtures__/overview";
 import { notificationsFixture } from "../../notifications/__tests__/__fixtures__/notifications";
@@ -25,10 +25,10 @@ describe("Overview", () => {
     beforeEach(() => {
         global.ForisPlugins = [
             {
-                name: "NetMetr",
+                name: "LibreSpeed",
                 weight: 65,
-                path: "/netmetr",
-                icon: "netmetr",
+                path: "/librespeed",
+                icon: "librespeed",
             },
             {
                 name: "OpenVPN",
@@ -53,8 +53,8 @@ describe("Overview", () => {
         mockAxios.mockResponse({ data: dataCollectionCardFixture });
         await wait(() => getByText(container, "Threat Detection"));
 
-        mockAxios.mockResponse({ data: netmetrCardFixture });
-        await wait(() => getByText(container, "NetMetr"));
+        mockAxios.mockResponse({ data: librespeedCardFixture });
+        await wait(() => getByText(container, "LibreSpeed"));
 
         mockAxios.mockResponse({ data: openVPNClientsCardFixture });
         await wait(() => getByText(container, "OpenVPN Clients"));

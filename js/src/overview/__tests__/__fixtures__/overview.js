@@ -35,10 +35,10 @@ const packageListsFixture = {
             options: [
                 {
                     description:
-                        "Actively measures speed of Internet connection using netmetr.cz service.",
+                        "Actively measures speed of Internet connection using LibreSpeed service.",
                     enabled: true,
                     labels: [],
-                    name: "netmetr",
+                    name: "librespeed",
                     title: "Internet connection speed measurement",
                 },
             ],
@@ -72,7 +72,7 @@ const dataCollectionCardFixture2 = {
     eula: 0,
 };
 
-const netmetrCardFixture = {
+const librespeedCardFixture = {
     performed_tests: [
         {
             ping: -1,
@@ -85,7 +85,7 @@ const netmetrCardFixture = {
     status: "ready",
 };
 
-const netmetrCardFixture2 = {};
+const librespeedCardFixture2 = {};
 
 const openVPNClientsCardFixture = [
     {
@@ -103,8 +103,8 @@ export {
     automaticUpdatesCardFixture2,
     dataCollectionCardFixture,
     dataCollectionCardFixture2,
-    netmetrCardFixture,
-    netmetrCardFixture2,
+    librespeedCardFixture,
+    librespeedCardFixture2,
     openVPNClientsCardFixture,
     openVPNClientsCardFixture2,
 };

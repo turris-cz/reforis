@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -12,7 +12,7 @@ import { render, wait, getByText } from "foris/testUtils/customTestRender";
 import AutomaticUpdatesCard from "../AutomaticUpdatesCard";
 import DataCollectionCard from "../DataCollectionCard";
 import DynamicFirewallCard from "../DynamicFirewallCard";
-import NetmetrCard from "../NetmetrCard";
+import LibrespeedCard from "../LibrespeedCard";
 import OpenVPNClientsCard from "../OpenVPNClientsCard";
 
 import {
@@ -20,8 +20,8 @@ import {
     automaticUpdatesCardFixture2,
     dataCollectionCardFixture,
     dataCollectionCardFixture2,
-    netmetrCardFixture,
-    netmetrCardFixture2,
+    librespeedCardFixture,
+    librespeedCardFixture2,
     openVPNClientsCardFixture,
     openVPNClientsCardFixture2,
 } from "../../__tests__/__fixtures__/overview";
@@ -82,19 +82,19 @@ describe("<Cards/>", () => {
         });
     });
 
-    describe("<NetmetrCard/>", () => {
+    describe("<LibrespeedCard/>", () => {
         it("Snapshot: contains tests", async () => {
-            const { container } = render(<NetmetrCard />);
-            mockAxios.mockResponse({ data: netmetrCardFixture });
-            await wait(() => getByText(container, "NetMetr"));
+            const { container } = render(<LibrespeedCard />);
+            mockAxios.mockResponse({ data: librespeedCardFixture });
+            await wait(() => getByText(container, "LibreSpeed"));
 
             expect(container).toMatchSnapshot();
         });
 
         it("Snapshot: empty", async () => {
-            const { container } = render(<NetmetrCard />);
-            mockAxios.mockResponse({ data: netmetrCardFixture2 });
-            await wait(() => getByText(container, "NetMetr"));
+            const { container } = render(<LibrespeedCard />);
+            mockAxios.mockResponse({ data: librespeedCardFixture2 });
+            await wait(() => getByText(container, "LibreSpeed"));
 
             expect(container).toMatchSnapshot();
         });
