@@ -53,7 +53,7 @@ function OpenVPNClientsCard({ clients }) {
                         >
                             <FontAwesomeIcon
                                 icon="fa-solid fa-chevron-right"
-                                className="float-right"
+                                className="float-end"
                             />
                         </Link>
                     </h6>

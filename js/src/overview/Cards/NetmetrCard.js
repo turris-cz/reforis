@@ -59,7 +59,7 @@ function NetmetrCard({ tests: { performed_tests: tests } }) {
                         >
                             <FontAwesomeIcon
                                 icon="fa-solid fa-chevron-right"
-                                className="float-right"
+                                className="float-end"
                             />
                         </Link>
                     </h6>
