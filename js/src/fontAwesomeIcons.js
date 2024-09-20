@@ -24,6 +24,7 @@ import {
     faCircleHalfStroke,
     faCircleQuestion,
     faCog,
+    faDatabase,
     faEdit,
     faEthernet,
     faExclamationCircle,
@@ -39,7 +40,10 @@ import {
     faPlus,
     faPowerOff,
     faQrcode,
+    faQuestion,
     faRightFromBracket,
+    faSatelliteDish,
+    faServer,
     faSignal,
     faSlash,
     faStepForward,
@@ -48,6 +52,7 @@ import {
     faTimes,
     faTrash,
     faUserCog,
+    faUserShield,
     faWifi,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -64,6 +69,7 @@ library.add(
     faCircleHalfStroke,
     faCircleQuestion,
     faCog,
+    faDatabase,
     faEdit,
     faEthernet,
     faExclamationCircle,
@@ -78,8 +84,11 @@ library.add(
     faNewspaper,
     faPlus,
     faPowerOff,
+    faSatelliteDish,
+    faServer,
     faSquare,
     faQrcode,
+    faQuestion,
     faQuestionCircle,
     faRightFromBracket,
     faSignal,
@@ -91,5 +100,6 @@ library.add(
     faTimesCircle,
     faTrash,
     faUserCog,
+    faUserShield,
     faWifi
 );
