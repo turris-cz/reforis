@@ -11,7 +11,7 @@ const HELP_CONTENT_DEFAULTS = {
     password: {
         initial: [
             _(
-                "Welcome to Foris web interface. This guide will help you to setup your device. Firstly it is required to set your password. Note the security of your home network is in your hands, so try not to use weak passwords."
+                "Welcome to reForis web interface. This guide will help you to setup your device. Firstly it is required to set your password. Note the security of your home network is in your hands, so try not to use weak passwords."
             ),
         ],
         completed: _("Your password is set. You may proceed to the next step."),

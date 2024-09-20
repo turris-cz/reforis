@@ -31,7 +31,7 @@ exports[`<UpdatesDropdown/> Updates awaiting - snapshot 1`] = `
       type="button"
     >
       <i
-        class="fa fa-sync-alt fa-lg"
+        class="fa"
       />
     </button>
     <ul

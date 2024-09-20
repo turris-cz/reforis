@@ -276,7 +276,7 @@ exports[`<Cards/> <DynamicFirewallCard/> Snapshot: disabled 1`] = `
 </div>
 `;
 
-exports[`<Cards/> <NetmetrCard/> Snapshot: contains tests 1`] = `
+exports[`<Cards/> <LibrespeedCard/> Snapshot: contains tests 1`] = `
 <div>
   <div
     class="col mb-4"
@@ -285,126 +285,139 @@ exports[`<Cards/> <NetmetrCard/> Snapshot: contains tests 1`] = `
       class="card h-100"
     >
       <div
-        class="card-body"
+        class="card-body d-flex flex-column"
       >
         <h6
           class="text-uppercase text-muted mb-2"
         >
-          NetMetr
+          LibreSpeed
           <a
             class="text-secondary"
-            href="/netmetr/speed-test"
-            title="Go to NetMetr"
+            href="/librespeed/speed-test"
+            title="Go to LibreSpeed"
           >
             <i
               class="fa"
             />
           </a>
         </h6>
-        <form
-          class="mb-4"
+        <div
+          class="table-responsive"
         >
-          <div
-            class="table-responsive"
+          <table
+            class="table table-borderless table-hover col-12"
           >
-            <table
-              class="table table-borderless table-hover col-12"
-            >
-              <tbody>
-                <tr>
-                  <th
-                    scope="row"
+            <tbody>
+              <tr>
+                <th
+                  class="text-nowrap"
+                  scope="row"
+                >
+                  Download
+                  <span
+                    class="badge text-bg-secondary"
+                    title="Megabit per second"
                   >
-                    Download
-                    <span
-                      class="badge badge-secondary"
-                      title="Megabit per second"
-                    >
-                      Mb/s
-                    </span>
-                  </th>
-                  <td
-                    class="text-end"
+                    Mb/s
+                  </span>
+                </th>
+                <td
+                  class="text-end"
+                >
+                  930
+                </td>
+              </tr>
+              <tr>
+                <th
+                  class="text-nowrap"
+                  scope="row"
+                >
+                  Upload
+                  <span
+                    class="badge text-bg-secondary"
+                    title="Megabit per second"
                   >
+                    Mb/s
+                  </span>
+                </th>
+                <td
+                  class="text-end"
+                >
+                  <span>
                     930
-                  </td>
-                </tr>
-                <tr>
-                  <th
-                    scope="row"
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th
+                  class="text-nowrap"
+                  scope="row"
+                >
+                  Ping
+                  <span
+                    class="badge text-bg-secondary"
+                    title="Millisecond"
                   >
-                    Upload
-                    <span
-                      class="badge badge-secondary"
-                      title="Megabit per second"
-                    >
-                      Mb/s
-                    </span>
-                  </th>
-                  <td
-                    class="text-end"
+                    ms
+                  </span>
+                </th>
+                <td
+                  class="text-end"
+                >
+                  <span>
+                    N/A
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th
+                  class="text-nowrap"
+                  scope="row"
+                >
+                  Jitter
+                  <span
+                    class="badge text-bg-secondary"
+                    title="Millisecond"
                   >
-                    <span>
-                      930
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <th
-                    scope="row"
-                  >
-                    Ping
-                    <span
-                      class="badge badge-secondary"
-                      title="Millisecond"
-                    >
-                      ms
-                    </span>
-                  </th>
-                  <td
-                    class="text-end"
-                  >
-                    <span>
-                      N/A
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <th
-                    scope="row"
-                  >
-                    Link
-                  </th>
-                  <td
-                    class="text-end"
-                  >
-                    <a
-                      href="https://www.netmetr.cz/en/detail.html?c7a6f82d-5128-47f3-a3f9-d7e9d9af64bd"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      Details
-                      <sup>
-                        <i
-                          class="fa"
-                        />
-                      </sup>
-                    </a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </form>
+                    ms
+                  </span>
+                </th>
+                <td
+                  class="text-end"
+                >
+                  <span>
+                    N/A
+                  </span>
+                </td>
+              </tr>
+              <tr
+                class="text-nowrap"
+              >
+                <th
+                  scope="row"
+                >
+                  Server
+                </th>
+                <td
+                  class="text-end"
+                >
+                  <span>
+                    N/A
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <p
-          class="card-text text-to-bottom"
+          class="d-flex card-text flex-grow-1"
         >
           <small
-            class="text-muted"
+            class="text-muted mt-auto"
           >
             Performed
-             
-            in 2 years
+             
+            49 years ago
           </small>
         </p>
       </div>
@@ -413,7 +426,7 @@ exports[`<Cards/> <NetmetrCard/> Snapshot: contains tests 1`] = `
 </div>
 `;
 
-exports[`<Cards/> <NetmetrCard/> Snapshot: empty 1`] = `
+exports[`<Cards/> <LibrespeedCard/> Snapshot: empty 1`] = `
 <div>
   <div
     class="col mb-4"
@@ -422,16 +435,16 @@ exports[`<Cards/> <NetmetrCard/> Snapshot: empty 1`] = `
       class="card h-100"
     >
       <div
-        class="card-body"
+        class="card-body d-flex flex-column"
       >
         <h6
           class="text-uppercase text-muted mb-2"
         >
-          NetMetr
+          LibreSpeed
           <a
             class="text-secondary"
-            href="/netmetr/speed-test"
-            title="Go to NetMetr"
+            href="/librespeed/speed-test"
+            title="Go to LibreSpeed"
           >
             <i
               class="fa"
@@ -497,7 +510,7 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: contains clients 1`] = `
                       class="text-success"
                     >
                       <i
-                        class="fas fa-check"
+                        class="fa"
                       />
                     </span>
                   </td>

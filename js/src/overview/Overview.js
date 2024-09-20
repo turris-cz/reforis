@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -22,7 +22,7 @@ import Notifications from "notifications/Notifications/Notifications";
 import AutomaticUpdatesCard from "./Cards/AutomaticUpdatesCard";
 import DataCollectionCard from "./Cards/DataCollectionCard";
 import DynamicFirewallCard from "./Cards/DynamicFirewallCard";
-import NetmetrCard from "./Cards/NetmetrCard";
+import LibrespeedCard from "./Cards/LibrespeedCard";
 import OpenVPNClientsCard from "./Cards/OpenVPNClientsCard";
 import displayCard from "./utils";
 
@@ -64,8 +64,8 @@ function OverviewCards({ packages, ws }) {
                 <DynamicFirewallCard
                     activated={displayCard(packages, "dynfw")}
                 />
-                {displayCard(packages, "netmetr") &&
-                    isPluginInstalled("NetMetr") && <NetmetrCard />}
+                {displayCard(packages, "librespeed") &&
+                    isPluginInstalled("LibreSpeed") && <LibrespeedCard />}
                 <div className="col mb-4">
                     <div className="card h-100">
                         <div className="card-body">

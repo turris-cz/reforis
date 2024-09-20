@@ -53,7 +53,7 @@ function OpenVPNClientsCard({ clients }) {
                         >
                             <FontAwesomeIcon
                                 icon="fa-solid fa-chevron-right"
-                                className="float-right"
+                                className="float-end"
                             />
                         </Link>
                     </h6>
@@ -75,8 +75,8 @@ function OpenVPNClientsCard({ clients }) {
                                                                 : "danger"
                                                         }`}
                                                     >
-                                                        <i
-                                                            className={`fas fa-${
+                                                        <FontAwesomeIcon
+                                                            icon={`fa-solid fa-${
                                                                 client.enabled
                                                                     ? "check"
                                                                     : "times"

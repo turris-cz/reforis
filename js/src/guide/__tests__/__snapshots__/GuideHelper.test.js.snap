@@ -138,7 +138,7 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
       </ul>
     </div>
     <button
-      class="btn btn-warning me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
+      class="btn btn-secondary me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
       style="pointer-events: not-allowed;"
       type="button"
     >
@@ -149,7 +149,7 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
           <span
             class="d-none d-sm-inline-block text-nowrap me-1"
           >
-            Skip guide
+            Skip
           </span>
           <i
             class="fa"
@@ -334,7 +334,7 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
       </ul>
     </div>
     <button
-      class="btn btn-warning me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
+      class="btn btn-secondary me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
       style="pointer-events: not-allowed;"
       type="button"
     >
@@ -345,7 +345,7 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
           <span
             class="d-none d-sm-inline-block text-nowrap me-1"
           >
-            Skip guide
+            Skip
           </span>
           <i
             class="fa"
@@ -503,7 +503,7 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
       </ul>
     </div>
     <button
-      class="btn btn-warning me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
+      class="btn btn-secondary me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
       style="pointer-events: not-allowed;"
       type="button"
     >
@@ -514,7 +514,7 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
           <span
             class="d-none d-sm-inline-block text-nowrap me-1"
           >
-            Skip guide
+            Skip
           </span>
           <i
             class="fa"
@@ -674,7 +674,7 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
       </ul>
     </div>
     <button
-      class="btn btn-warning me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
+      class="btn btn-secondary me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
       style="pointer-events: not-allowed;"
       type="button"
     >
@@ -685,7 +685,7 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
           <span
             class="d-none d-sm-inline-block text-nowrap me-1"
           >
-            Skip guide
+            Skip
           </span>
           <i
             class="fa"

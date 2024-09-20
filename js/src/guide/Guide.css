@@ -71,13 +71,9 @@ div.wrapper-guide #content {
     text-decoration: none;
 }
 
-#stepsbar li a .fas {
-    margin-right: 0.5rem;
-}
-
 #stepsbar a.active {
     color: #fff;
-    background: #00a2e2;
+    background: var(--bs-primary);
 }
 
 #stepsbar a.passed {
@@ -86,12 +82,12 @@ div.wrapper-guide #content {
 
 #stepsbar a.passed.active {
     color: #fff;
-    background: #00a2e2;
+    background: var(--bs-primary);
 }
 
 #stepsbar ul a.next.active {
     color: #fff;
-    background: #00a2e2;
+    background: var(--bs-primary);
 }
 
 @media screen and (max-width: 575px) {

@@ -58,7 +58,7 @@
 
 #sidebar a.active {
     color: var(--bs-white);
-    background: #00a2e2;
+    background: var(--bs-primary);
 }
 
 #sidebar a.active svg {

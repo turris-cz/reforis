@@ -35,9 +35,9 @@ export default function Label({ title, description, severity, disabled }) {
     return (
         <span
             ref={tooltipRef}
-            className={`badge text-bg-${severity}${
-                disabled ? " badge-disabled" : ""
-            }`}
+            className={`badge text-bg-${severity} ${
+                disabled ? "opacity-50" : ""
+            }`.trim()}
         >
             {title}
         </span>

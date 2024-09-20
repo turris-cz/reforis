@@ -45,7 +45,7 @@ export default function Interface({
             <h5 className="mb-0">{slot}</h5>
             {vlan_id && (
                 <span
-                    className="badge badge-info ml-0"
+                    className="badge text-bg-info ml-0"
                     title={`VLAN ID: ${vlan_id}`}
                 >
                     {`VLAN: ${vlan_id}`}

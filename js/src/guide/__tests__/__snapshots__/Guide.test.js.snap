@@ -151,7 +151,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
         </ul>
       </div>
       <button
-        class="btn btn-warning me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
+        class="btn btn-secondary me-2 align-self-stretch align-self-sm-center d-inline-flex justify-content-center align-items-center"
         style="pointer-events: not-allowed;"
         type="button"
       >
@@ -162,7 +162,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
             <span
               class="d-none d-sm-inline-block text-nowrap me-1"
             >
-              Skip guide
+              Skip
             </span>
             <i
               class="fa"
@@ -407,7 +407,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
               WAN
             </h5>
             <span
-              class="badge badge-info ml-0"
+              class="badge text-bg-info ml-0"
               title="VLAN ID: 1"
             >
               VLAN: 1

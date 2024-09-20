@@ -188,8 +188,8 @@ export default function packagesFixture(UpdatesEnabled = true) {
                 enabled: false,
                 hidden: false,
                 description:
-                    "Actively measures speed of Internet connection using netmetr.cz service.",
-                name: "netmetr",
+                    "Actively measures speed of Internet connection using LibreSpeed service.",
+                name: "librespeed",
                 title: "Internet connection speed measurement",
                 labels: [],
                 options: [],
@@ -197,7 +197,7 @@ export default function packagesFixture(UpdatesEnabled = true) {
             {
                 enabled: false,
                 hidden: false,
-                description: "An easy setup of OpenVPN server from Foris.",
+                description: "An easy setup of OpenVPN server from reForis.",
                 name: "openvpn",
                 title: "OpenVPN",
                 labels: [],

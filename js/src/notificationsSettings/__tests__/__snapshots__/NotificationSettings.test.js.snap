@@ -6,6 +6,7 @@ exports[`<NotificationsSettings/> <TestNotification/> Displaying test notificati
 >
   <div
     class="alert alert-warning"
+    role="alert"
   >
     You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
   </div>
@@ -98,6 +99,7 @@ exports[`<NotificationsSettings/> <TestNotification/> Should toggle unsaved chan
 >
   <div
     class="alert alert-warning"
+    role="alert"
   >
     You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
   </div>
@@ -538,6 +540,7 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
   >
     <div
       class="alert alert-warning"
+      role="alert"
     >
       You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
     </div>
@@ -568,6 +571,8 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
     id="modal-container"
   >
     <div
+      aria-labelledby="modal-title"
+      aria-modal="true"
       class="modal fade"
       role="dialog"
     >
@@ -581,11 +586,11 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
           <div
             class="modal-header"
           >
-            <h5
-              class="modal-title"
+            <h1
+              class="modal-title fs-5"
             >
               Warning!
-            </h5>
+            </h1>
             <button
               aria-label="Close"
               class="btn-close"
@@ -837,6 +842,7 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
   >
     <div
       class="alert alert-warning"
+      role="alert"
     >
       You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
     </div>
@@ -867,6 +873,8 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
     id="modal-container"
   >
     <div
+      aria-labelledby="modal-title"
+      aria-modal="true"
       class="modal fade"
       role="dialog"
     >
@@ -880,11 +888,11 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
           <div
             class="modal-header"
           >
-            <h5
-              class="modal-title"
+            <h1
+              class="modal-title fs-5"
             >
               Warning!
-            </h5>
+            </h1>
             <button
               aria-label="Close"
               class="btn-close"
