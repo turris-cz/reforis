@@ -21,19 +21,18 @@ ConnectionTest.propTypes = {
 export default function ConnectionTest({ ws, type }) {
     const [state, testResults, triggerTest] = useConnectionTest(ws, type);
 
-    const onSubmit = (event) => {
-        event.preventDefault();
+    const startConnectionTest = () => {
         triggerTest();
     };
 
     return (
-        <form>
+        <>
             <ConnectionTestResults state={state} {...testResults} />
             <ConnectionTestButton
                 state={state}
-                onClick={onSubmit}
+                onClick={startConnectionTest}
                 type={type}
             />
-        </form>
+        </>
     );
 }
