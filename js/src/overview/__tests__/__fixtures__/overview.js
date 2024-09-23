@@ -10,10 +10,10 @@ const packageListsFixture = {
     package_lists: [
         {
             description:
-                "Software for participation in data collection and distributed adaptive firewall.",
+                "Software for participation in threat detection program which provides distributed adaptive firewall and statistics.",
             enabled: true,
             labels: [],
-            name: "datacollect",
+            name: "sentinel",
             options: [
                 {
                     description:
@@ -24,8 +24,8 @@ const packageListsFixture = {
                     title: "Dynamic Firewall",
                 },
             ],
-            title: "Data Collection",
-            url: "https://docs.turris.cz/basics/collect/",
+            title: "Advanced security & analytics - Turris Sentinel",
+            url: "https://docs.turris.cz/basics/sentinel/threat-detection/",
         },
         {
             description: "Tools to monitor local network and users on it.",
@@ -64,11 +64,11 @@ const automaticUpdatesCardFixture2 = {
     enabled: false,
 };
 
-const dataCollectionCardFixture = {
+const threatDetectionCardFixture = {
     eula: 1,
 };
 
-const dataCollectionCardFixture2 = {
+const threatDetectionCardFixture2 = {
     eula: 0,
 };
 
@@ -101,8 +101,8 @@ export {
     packageListsFixture,
     automaticUpdatesCardFixture,
     automaticUpdatesCardFixture2,
-    dataCollectionCardFixture,
-    dataCollectionCardFixture2,
+    threatDetectionCardFixture as dataCollectionCardFixture,
+    threatDetectionCardFixture2 as dataCollectionCardFixture2,
     librespeedCardFixture,
     librespeedCardFixture2,
     openVPNClientsCardFixture,
