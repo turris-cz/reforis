@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,11 +7,16 @@
 
 import React, { useEffect } from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useAPIGet, withSpinnerOnSending, withErrorMessage } from "foris";
+import {
+    useAPIGet,
+    withSpinnerOnSending,
+    withErrorMessage,
+    ForisURLs,
+} from "foris";
 import PropTypes from "prop-types";
 
 import API_URLs from "common/API";
+import Card from "overview/Cards/Card";
 
 export default function AutomaticUpdates() {
     const [getAutomaticUpdatesResponse, getAutomaticUpdates] = useAPIGet(
@@ -36,35 +41,13 @@ AutomaticUpdatesCard.propTypes = {
 
 function AutomaticUpdatesCard({ details: { enabled } }) {
     return (
-        <div className="col mb-4">
-            <div className="card">
-                <div className="card-body">
-                    <div className="row align-items-center">
-                        <div className="col">
-                            <h6 className="text-uppercase text-muted mb-2 ">
-                                {_("Automatic Updates")}
-                            </h6>
-                            <span className="status">
-                                {enabled ? _("Activated") : _("Disabled")}
-                            </span>
-                        </div>
-                        <div className="col-auto">
-                            <span
-                                className={`h2 text-${
-                                    enabled ? "success" : "danger"
-                                }`}
-                            >
-                                <FontAwesomeIcon
-                                    icon={`fa-solid fa-${
-                                        enabled ? "check" : "times"
-                                    }`}
-                                />
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Card
+            firstRow
+            title={_("Automatic Updates")}
+            enabled={enabled}
+            linkTo={ForisURLs.packageManagementUpdateSettings}
+            linkTitle={_("Go to update settings")}
+        />
     );
 }
 

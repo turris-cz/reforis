@@ -16,14 +16,14 @@ import {
 import PropTypes from "prop-types";
 
 import API_URLs from "common/API";
-import ConnectionTest from "connectionTest/ConnectionTest";
 import Notifications from "notifications/Notifications/Notifications";
 
 import AutomaticUpdatesCard from "./Cards/AutomaticUpdatesCard";
-import DataCollectionCard from "./Cards/DataCollectionCard";
+import ConnectionTestCard from "./Cards/ConnectionTestCard";
 import DynamicFirewallCard from "./Cards/DynamicFirewallCard";
 import LibrespeedCard from "./Cards/LibrespeedCard";
 import OpenVPNClientsCard from "./Cards/OpenVPNClientsCard";
+import ThreatDetectionCard from "./Cards/ThreatDetectionCard";
 import displayCard from "./utils";
 
 import "./Overview.css";
@@ -60,22 +60,13 @@ function OverviewCards({ packages, ws }) {
         <>
             <div className="row row-cols-1 row-cols-lg-3">
                 <AutomaticUpdatesCard />
-                <DataCollectionCard />
-                <DynamicFirewallCard
-                    activated={displayCard(packages, "dynfw")}
-                />
+                <ThreatDetectionCard />
+                <DynamicFirewallCard enabled={displayCard(packages, "dynfw")} />
+            </div>
+            <div className="row row-cols-1 row-cols-lg-3">
                 {displayCard(packages, "librespeed") &&
                     isPluginInstalled("LibreSpeed") && <LibrespeedCard />}
-                <div className="col mb-4">
-                    <div className="card h-100">
-                        <div className="card-body">
-                            <h6 className="text-uppercase text-muted mb-2">
-                                {_("Connection Test")}
-                            </h6>
-                            <ConnectionTest ws={ws} type="overview" />
-                        </div>
-                    </div>
-                </div>
+                <ConnectionTestCard ws={ws} />
                 {displayCard(packages, "openvpn") &&
                     isPluginInstalled("OpenVPN") && <OpenVPNClientsCard />}
             </div>

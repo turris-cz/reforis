@@ -6,40 +6,37 @@ exports[`<Cards/> <AutomaticUpdatesCard/> Snapshot: activated 1`] = `
     class="col mb-4"
   >
     <div
-      class="card"
+      class="card h-100"
     >
       <div
-        class="card-body"
+        class="card-body d-flex justify-content-between align-items-center"
       >
         <div
-          class="row align-items-center"
+          class="d-flex flex-column"
         >
-          <div
-            class="col"
+          <a
+            class="align-self-start text-secondary text-decoration-none mb-2"
+            href="/package-management/update-settings"
+            title="Go to update settings"
           >
             <h6
-              class="text-uppercase text-muted mb-2 "
+              class="text-uppercase text-muted mb-0"
             >
               Automatic Updates
-            </h6>
-            <span
-              class="status"
-            >
-              Activated
-            </span>
-          </div>
-          <div
-            class="col-auto"
-          >
-            <span
-              class="h2 text-success"
-            >
               <i
                 class="fa"
               />
-            </span>
-          </div>
+            </h6>
+          </a>
+          <span
+            class="h3 status mb-0"
+          >
+            Activated
+          </span>
         </div>
+        <i
+          class="fa"
+        />
       </div>
     </div>
   </div>
@@ -52,132 +49,37 @@ exports[`<Cards/> <AutomaticUpdatesCard/> Snapshot: disabled 1`] = `
     class="col mb-4"
   >
     <div
-      class="card"
+      class="card h-100"
     >
       <div
-        class="card-body"
+        class="card-body d-flex justify-content-between align-items-center"
       >
         <div
-          class="row align-items-center"
+          class="d-flex flex-column"
         >
-          <div
-            class="col"
+          <a
+            class="align-self-start text-secondary text-decoration-none mb-2"
+            href="/package-management/update-settings"
+            title="Go to update settings"
           >
             <h6
-              class="text-uppercase text-muted mb-2 "
+              class="text-uppercase text-muted mb-0"
             >
               Automatic Updates
-            </h6>
-            <span
-              class="status"
-            >
-              Disabled
-            </span>
-          </div>
-          <div
-            class="col-auto"
-          >
-            <span
-              class="h2 text-danger"
-            >
               <i
                 class="fa"
               />
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<Cards/> <DataCollectionCard/> Snapshot: activated 1`] = `
-<div>
-  <div
-    class="col mb-4"
-  >
-    <div
-      class="card"
-    >
-      <div
-        class="card-body"
-      >
-        <div
-          class="row align-items-center"
-        >
-          <div
-            class="col"
-          >
-            <h6
-              class="text-uppercase text-muted mb-2"
-            >
-              Threat Detection
             </h6>
-            <span
-              class="status"
-            >
-              Activated
-            </span>
-          </div>
-          <div
-            class="col-auto"
+          </a>
+          <span
+            class="h3 status mb-0"
           >
-            <span
-              class="h2 text-success"
-            >
-              <i
-                class="fa"
-              />
-            </span>
-          </div>
+            Disabled
+          </span>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<Cards/> <DataCollectionCard/> Snapshot: disabled 1`] = `
-<div>
-  <div
-    class="col mb-4"
-  >
-    <div
-      class="card"
-    >
-      <div
-        class="card-body"
-      >
-        <div
-          class="row align-items-center"
-        >
-          <div
-            class="col"
-          >
-            <h6
-              class="text-uppercase text-muted mb-2"
-            >
-              Threat Detection
-            </h6>
-            <span
-              class="status"
-            >
-              Disabled
-            </span>
-          </div>
-          <div
-            class="col-auto"
-          >
-            <span
-              class="h2 text-danger"
-            >
-              <i
-                class="fa"
-              />
-            </span>
-          </div>
-        </div>
+        <i
+          class="fa"
+        />
       </div>
     </div>
   </div>
@@ -190,40 +92,37 @@ exports[`<Cards/> <DynamicFirewallCard/> Snapshot: activated 1`] = `
     class="col mb-4"
   >
     <div
-      class="card"
+      class="card h-100"
     >
       <div
-        class="card-body"
+        class="card-body d-flex justify-content-between align-items-center"
       >
         <div
-          class="row align-items-center"
+          class="d-flex flex-column"
         >
-          <div
-            class="col"
+          <a
+            class="align-self-start text-secondary text-decoration-none mb-2"
+            href="/package-management/packages"
+            title="Go to Dynamic Firewall package"
           >
             <h6
-              class="text-uppercase text-muted mb-2"
+              class="text-uppercase text-muted mb-0"
             >
               Dynamic Firewall
-            </h6>
-            <span
-              class="status"
-            >
-              Activated
-            </span>
-          </div>
-          <div
-            class="col-auto"
-          >
-            <span
-              class="h2 text-success"
-            >
               <i
                 class="fa"
               />
-            </span>
-          </div>
+            </h6>
+          </a>
+          <span
+            class="h3 status mb-0"
+          >
+            Activated
+          </span>
         </div>
+        <i
+          class="fa"
+        />
       </div>
     </div>
   </div>
@@ -236,40 +135,37 @@ exports[`<Cards/> <DynamicFirewallCard/> Snapshot: disabled 1`] = `
     class="col mb-4"
   >
     <div
-      class="card"
+      class="card h-100"
     >
       <div
-        class="card-body"
+        class="card-body d-flex justify-content-between align-items-center"
       >
         <div
-          class="row align-items-center"
+          class="d-flex flex-column"
         >
-          <div
-            class="col"
+          <a
+            class="align-self-start text-secondary text-decoration-none mb-2"
+            href="/package-management/packages"
+            title="Go to Dynamic Firewall package"
           >
             <h6
-              class="text-uppercase text-muted mb-2"
+              class="text-uppercase text-muted mb-0"
             >
               Dynamic Firewall
-            </h6>
-            <span
-              class="status"
-            >
-              Disabled
-            </span>
-          </div>
-          <div
-            class="col-auto"
-          >
-            <span
-              class="h2 text-danger"
-            >
               <i
                 class="fa"
               />
-            </span>
-          </div>
+            </h6>
+          </a>
+          <span
+            class="h3 status mb-0"
+          >
+            Disabled
+          </span>
         </div>
+        <i
+          class="fa"
+        />
       </div>
     </div>
   </div>
@@ -287,20 +183,24 @@ exports[`<Cards/> <LibrespeedCard/> Snapshot: contains tests 1`] = `
       <div
         class="card-body d-flex flex-column"
       >
-        <h6
-          class="text-uppercase text-muted mb-2"
+        <div
+          class="d-flex flex-column"
         >
-          LibreSpeed
           <a
-            class="text-secondary"
+            class="align-self-start text-secondary text-decoration-none mb-2"
             href="/librespeed/speed-test"
             title="Go to LibreSpeed"
           >
-            <i
-              class="fa"
-            />
+            <h6
+              class="text-uppercase text-muted mb-0"
+            >
+              LibreSpeed
+              <i
+                class="fa"
+              />
+            </h6>
           </a>
-        </h6>
+        </div>
         <div
           class="table-responsive"
         >
@@ -437,20 +337,24 @@ exports[`<Cards/> <LibrespeedCard/> Snapshot: empty 1`] = `
       <div
         class="card-body d-flex flex-column"
       >
-        <h6
-          class="text-uppercase text-muted mb-2"
+        <div
+          class="d-flex flex-column"
         >
-          LibreSpeed
           <a
-            class="text-secondary"
+            class="align-self-start text-secondary text-decoration-none mb-2"
             href="/librespeed/speed-test"
             title="Go to LibreSpeed"
           >
-            <i
-              class="fa"
-            />
+            <h6
+              class="text-uppercase text-muted mb-0"
+            >
+              LibreSpeed
+              <i
+                class="fa"
+              />
+            </h6>
           </a>
-        </h6>
+        </div>
         <p
           class="text-muted"
         >
@@ -471,54 +375,56 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: contains clients 1`] = `
       class="card h-100"
     >
       <div
-        class="card-body"
+        class="card-body d-flex flex-column"
       >
-        <h6
-          class="text-uppercase text-muted mb-2"
+        <div
+          class="d-flex flex-column"
         >
-          OpenVPN Clients
           <a
-            class="text-secondary"
+            class="align-self-start text-secondary text-decoration-none mb-2"
             href="/openvpn/client-settings"
             title="Go to OpenVPN Client Settings"
           >
-            <i
-              class="fa"
-            />
-          </a>
-        </h6>
-        <form>
-          <div
-            class="table-responsive"
-          >
-            <table
-              class="table table-borderless table-hover col-sm-12"
+            <h6
+              class="text-uppercase text-muted mb-0"
             >
-              <tbody>
-                <tr>
-                  <th
-                    scope="row"
+              OpenVPN Clients
+              <i
+                class="fa"
+              />
+            </h6>
+          </a>
+        </div>
+        <div
+          class="table-responsive"
+        >
+          <table
+            class="table table-borderless table-hover col-sm-12"
+          >
+            <tbody>
+              <tr>
+                <th
+                  scope="row"
+                >
+                  <span>
+                    turris
+                  </span>
+                </th>
+                <td
+                  class="text-end"
+                >
+                  <span
+                    class="text-success"
                   >
-                    <span>
-                      turris
-                    </span>
-                  </th>
-                  <td
-                    class="text-end"
-                  >
-                    <span
-                      class="text-success"
-                    >
-                      <i
-                        class="fa"
-                      />
-                    </span>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </form>
+                    <i
+                      class="fa"
+                    />
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
@@ -534,27 +440,117 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: empty 1`] = `
       class="card h-100"
     >
       <div
-        class="card-body"
+        class="card-body d-flex flex-column"
       >
-        <h6
-          class="text-uppercase text-muted mb-2"
+        <div
+          class="d-flex flex-column"
         >
-          OpenVPN Clients
           <a
-            class="text-secondary"
+            class="align-self-start text-secondary text-decoration-none mb-2"
             href="/openvpn/client-settings"
             title="Go to OpenVPN Client Settings"
           >
-            <i
-              class="fa"
-            />
+            <h6
+              class="text-uppercase text-muted mb-0"
+            >
+              OpenVPN Clients
+              <i
+                class="fa"
+              />
+            </h6>
           </a>
-        </h6>
+        </div>
         <p
           class="text-muted"
         >
           There are no clients added yet.
         </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Cards/> <ThreatDetectionCard/> Snapshot: activated 1`] = `
+<div>
+  <div
+    class="col mb-4"
+  >
+    <div
+      class="card h-100"
+    >
+      <div
+        class="card-body d-flex justify-content-between align-items-center"
+      >
+        <div
+          class="d-flex flex-column"
+        >
+          <a
+            class="align-self-start text-secondary text-decoration-none mb-2"
+            href="/sentinel/agreement"
+            title="Go to Sentinel license agreement"
+          >
+            <h6
+              class="text-uppercase text-muted mb-0"
+            >
+              Threat Detection
+              <i
+                class="fa"
+              />
+            </h6>
+          </a>
+          <span
+            class="h3 status mb-0"
+          >
+            Disabled
+          </span>
+        </div>
+        <i
+          class="fa"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Cards/> <ThreatDetectionCard/> Snapshot: disabled 1`] = `
+<div>
+  <div
+    class="col mb-4"
+  >
+    <div
+      class="card h-100"
+    >
+      <div
+        class="card-body d-flex justify-content-between align-items-center"
+      >
+        <div
+          class="d-flex flex-column"
+        >
+          <a
+            class="align-self-start text-secondary text-decoration-none mb-2"
+            href="/sentinel/agreement"
+            title="Go to Sentinel license agreement"
+          >
+            <h6
+              class="text-uppercase text-muted mb-0"
+            >
+              Threat Detection
+              <i
+                class="fa"
+              />
+            </h6>
+          </a>
+          <span
+            class="h3 status mb-0"
+          >
+            Disabled
+          </span>
+        </div>
+        <i
+          class="fa"
+        />
       </div>
     </div>
   </div>

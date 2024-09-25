@@ -71,7 +71,7 @@ const API_URL_MODULES_PREFIX = `${REFORIS_URL_PREFIX}`;
 export const API_MODULE_URLs = new Proxy(
     {
         // Packages
-        dataCollection: "/data-collection/api/settings",
+        sentinel: "/data-collection/api/settings",
         openvpn: "/openvpn/api/server-settings",
         openvpnClients: "/openvpn/api/client-settings",
         librespeed: "/librespeed/api/data",

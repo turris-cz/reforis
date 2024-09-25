@@ -12,122 +12,37 @@ exports[`Overview Snapshot of the whole page 1`] = `
       class="col mb-4"
     >
       <div
-        class="card"
+        class="card h-100"
       >
         <div
-          class="card-body"
+          class="card-body d-flex justify-content-between align-items-center"
         >
           <div
-            class="row align-items-center"
+            class="d-flex flex-column"
           >
-            <div
-              class="col"
+            <a
+              class="align-self-start text-secondary text-decoration-none mb-2"
+              href="/package-management/update-settings"
+              title="Go to update settings"
             >
               <h6
-                class="text-uppercase text-muted mb-2 "
+                class="text-uppercase text-muted mb-0"
               >
                 Automatic Updates
-              </h6>
-              <span
-                class="status"
-              >
-                Activated
-              </span>
-            </div>
-            <div
-              class="col-auto"
-            >
-              <span
-                class="h2 text-success"
-              >
                 <i
                   class="fa"
                 />
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="col mb-4"
-    >
-      <div
-        class="card"
-      >
-        <div
-          class="card-body"
-        >
-          <div
-            class="row align-items-center"
-          >
-            <div
-              class="col"
-            >
-              <h6
-                class="text-uppercase text-muted mb-2"
-              >
-                Threat Detection
               </h6>
-              <span
-                class="status"
-              >
-                Activated
-              </span>
-            </div>
-            <div
-              class="col-auto"
+            </a>
+            <span
+              class="h3 status mb-0"
             >
-              <span
-                class="h2 text-success"
-              >
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
+              Activated
+            </span>
           </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="col mb-4"
-    >
-      <div
-        class="card"
-      >
-        <div
-          class="card-body"
-        >
-          <div
-            class="row align-items-center"
-          >
-            <div
-              class="col"
-            >
-              <h6
-                class="text-uppercase text-muted mb-2"
-              >
-                Dynamic Firewall
-              </h6>
-              <span
-                class="status"
-              >
-                Activated
-              </span>
-            </div>
-            <div
-              class="col-auto"
-            >
-              <span
-                class="h2 text-success"
-              >
-                <i
-                  class="fa"
-                />
-              </span>
-            </div>
-          </div>
+          <i
+            class="fa"
+          />
         </div>
       </div>
     </div>
@@ -138,22 +53,106 @@ exports[`Overview Snapshot of the whole page 1`] = `
         class="card h-100"
       >
         <div
+          class="card-body d-flex justify-content-between align-items-center"
+        >
+          <div
+            class="d-flex flex-column"
+          >
+            <a
+              class="align-self-start text-secondary text-decoration-none mb-2"
+              href="/sentinel/agreement"
+              title="Go to Sentinel license agreement"
+            >
+              <h6
+                class="text-uppercase text-muted mb-0"
+              >
+                Threat Detection
+                <i
+                  class="fa"
+                />
+              </h6>
+            </a>
+            <span
+              class="h3 status mb-0"
+            >
+              Activated
+            </span>
+          </div>
+          <i
+            class="fa"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="col mb-4"
+    >
+      <div
+        class="card h-100"
+      >
+        <div
+          class="card-body d-flex justify-content-between align-items-center"
+        >
+          <div
+            class="d-flex flex-column"
+          >
+            <a
+              class="align-self-start text-secondary text-decoration-none mb-2"
+              href="/package-management/packages"
+              title="Go to Dynamic Firewall package"
+            >
+              <h6
+                class="text-uppercase text-muted mb-0"
+              >
+                Dynamic Firewall
+                <i
+                  class="fa"
+                />
+              </h6>
+            </a>
+            <span
+              class="h3 status mb-0"
+            >
+              Activated
+            </span>
+          </div>
+          <i
+            class="fa"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="row row-cols-1 row-cols-lg-3"
+  >
+    <div
+      class="col mb-4"
+    >
+      <div
+        class="card h-100"
+      >
+        <div
           class="card-body d-flex flex-column"
         >
-          <h6
-            class="text-uppercase text-muted mb-2"
+          <div
+            class="d-flex flex-column"
           >
-            LibreSpeed
             <a
-              class="text-secondary"
+              class="align-self-start text-secondary text-decoration-none mb-2"
               href="/librespeed/speed-test"
               title="Go to LibreSpeed"
             >
-              <i
-                class="fa"
-              />
+              <h6
+                class="text-uppercase text-muted mb-0"
+              >
+                LibreSpeed
+                <i
+                  class="fa"
+                />
+              </h6>
             </a>
-          </h6>
+          </div>
           <div
             class="table-responsive"
           >
@@ -283,141 +282,143 @@ exports[`Overview Snapshot of the whole page 1`] = `
         class="card h-100"
       >
         <div
-          class="card-body"
+          class="card-body d-flex flex-column"
         >
-          <h6
-            class="text-uppercase text-muted mb-2"
+          <div
+            class="d-flex flex-column"
           >
-            Connection Test
-          </h6>
-          <form>
-            <table
-              class="table table-borderless table-hover col-sm-12"
+            <h6
+              class="text-uppercase text-muted mb-2"
             >
-              <tbody>
-                <tr>
-                  <th
-                    scope="row"
+              Connection Test
+            </h6>
+          </div>
+          <table
+            class="table table-borderless table-hover col-sm-12"
+          >
+            <tbody>
+              <tr>
+                <th
+                  scope="row"
+                >
+                  IPv4 connectivity
+                </th>
+                <td
+                  class="text-end"
+                >
+                  <span
+                    class="text-secondary"
                   >
-                    IPv4 connectivity
-                  </th>
-                  <td
-                    class="text-end"
+                    <i
+                      class="fa"
+                    />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                >
+                  IPv4 gateway connectivity
+                </th>
+                <td
+                  class="text-end"
+                >
+                  <span
+                    class="text-secondary"
                   >
-                    <span
-                      class="text-secondary"
-                    >
-                      <i
-                        class="fa"
-                      />
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <th
-                    scope="row"
+                    <i
+                      class="fa"
+                    />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                >
+                  IPv6 connectivity
+                </th>
+                <td
+                  class="text-end"
+                >
+                  <span
+                    class="text-secondary"
                   >
-                    IPv4 gateway connectivity
-                  </th>
-                  <td
-                    class="text-end"
+                    <i
+                      class="fa"
+                    />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                >
+                  IPv6 gateway connectivity
+                </th>
+                <td
+                  class="text-end"
+                >
+                  <span
+                    class="text-secondary"
                   >
-                    <span
-                      class="text-secondary"
-                    >
-                      <i
-                        class="fa"
-                      />
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <th
-                    scope="row"
+                    <i
+                      class="fa"
+                    />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                >
+                  DNS
+                </th>
+                <td
+                  class="text-end"
+                >
+                  <span
+                    class="text-secondary"
                   >
-                    IPv6 connectivity
-                  </th>
-                  <td
-                    class="text-end"
+                    <i
+                      class="fa"
+                    />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                >
+                  DNSSEC
+                </th>
+                <td
+                  class="text-end"
+                >
+                  <span
+                    class="text-secondary"
                   >
-                    <span
-                      class="text-secondary"
-                    >
-                      <i
-                        class="fa"
-                      />
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <th
-                    scope="row"
-                  >
-                    IPv6 gateway connectivity
-                  </th>
-                  <td
-                    class="text-end"
-                  >
-                    <span
-                      class="text-secondary"
-                    >
-                      <i
-                        class="fa"
-                      />
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <th
-                    scope="row"
-                  >
-                    DNS
-                  </th>
-                  <td
-                    class="text-end"
-                  >
-                    <span
-                      class="text-secondary"
-                    >
-                      <i
-                        class="fa"
-                      />
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <th
-                    scope="row"
-                  >
-                    DNSSEC
-                  </th>
-                  <td
-                    class="text-end"
-                  >
-                    <span
-                      class="text-secondary"
-                    >
-                      <i
-                        class="fa"
-                      />
-                    </span>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <div
-              class="d-grid"
+                    <i
+                      class="fa"
+                    />
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div
+            class="d-grid"
+          >
+            <button
+              class="btn btn-outline-primary w-auto col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+              type="submit"
             >
-              <button
-                class="btn btn-outline-primary w-auto col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
-                type="submit"
-              >
-                <span>
-                  Test connection
-                </span>
-              </button>
-            </div>
-          </form>
+              <span>
+                Test connection
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -428,54 +429,56 @@ exports[`Overview Snapshot of the whole page 1`] = `
         class="card h-100"
       >
         <div
-          class="card-body"
+          class="card-body d-flex flex-column"
         >
-          <h6
-            class="text-uppercase text-muted mb-2"
+          <div
+            class="d-flex flex-column"
           >
-            OpenVPN Clients
             <a
-              class="text-secondary"
+              class="align-self-start text-secondary text-decoration-none mb-2"
               href="/openvpn/client-settings"
               title="Go to OpenVPN Client Settings"
             >
-              <i
-                class="fa"
-              />
-            </a>
-          </h6>
-          <form>
-            <div
-              class="table-responsive"
-            >
-              <table
-                class="table table-borderless table-hover col-sm-12"
+              <h6
+                class="text-uppercase text-muted mb-0"
               >
-                <tbody>
-                  <tr>
-                    <th
-                      scope="row"
+                OpenVPN Clients
+                <i
+                  class="fa"
+                />
+              </h6>
+            </a>
+          </div>
+          <div
+            class="table-responsive"
+          >
+            <table
+              class="table table-borderless table-hover col-sm-12"
+            >
+              <tbody>
+                <tr>
+                  <th
+                    scope="row"
+                  >
+                    <span>
+                      turris
+                    </span>
+                  </th>
+                  <td
+                    class="text-end"
+                  >
+                    <span
+                      class="text-success"
                     >
-                      <span>
-                        turris
-                      </span>
-                    </th>
-                    <td
-                      class="text-end"
-                    >
-                      <span
-                        class="text-success"
-                      >
-                        <i
-                          class="fa"
-                        />
-                      </span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </form>
+                      <i
+                        class="fa"
+                      />
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,44 +7,23 @@
 
 import React from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { ForisURLs } from "foris";
 import PropTypes from "prop-types";
 
+import Card from "overview/Cards/Card";
+
 DynamicFirewallCard.propTypes = {
-    activated: PropTypes.oneOfType([PropTypes.string, PropTypes.bool])
-        .isRequired,
+    enabled: PropTypes.bool.isRequired,
 };
 
-export default function DynamicFirewallCard({ activated }) {
+export default function DynamicFirewallCard({ enabled }) {
     return (
-        <div className="col mb-4">
-            <div className="card">
-                <div className="card-body">
-                    <div className="row align-items-center">
-                        <div className="col">
-                            <h6 className="text-uppercase text-muted mb-2">
-                                {_("Dynamic Firewall")}
-                            </h6>
-                            <span className="status">
-                                {activated ? _("Activated") : _("Disabled")}
-                            </span>
-                        </div>
-                        <div className="col-auto">
-                            <span
-                                className={`h2 text-${
-                                    activated ? "success" : "danger"
-                                }`}
-                            >
-                                <FontAwesomeIcon
-                                    icon={`fa-solid fa-${
-                                        activated ? "check" : "times"
-                                    }`}
-                                />
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Card
+            firstRow
+            title={_("Dynamic Firewall")}
+            enabled={enabled}
+            linkTo={ForisURLs.packageManagementPackages}
+            linkTitle={_("Go to Dynamic Firewall package")}
+        />
     );
 }

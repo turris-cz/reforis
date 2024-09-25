@@ -338,62 +338,60 @@ exports[`<DNS/> Test with snapshot. 1`] = `
       </b>
        if you changed your forwarder setting.
     </p>
-    <form>
-      <table
-        class="table table-borderless table-hover col-sm-12"
+    <table
+      class="table table-borderless table-hover col-sm-12"
+    >
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            DNS
+          </th>
+          <td
+            class="text-end"
+          >
+            <span
+              class="text-secondary"
+            >
+              <i
+                class="fa"
+              />
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            DNSSEC
+          </th>
+          <td
+            class="text-end"
+          >
+            <span
+              class="text-secondary"
+            >
+              <i
+                class="fa"
+              />
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="text-end"
+    >
+      <button
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        type="submit"
       >
-        <tbody>
-          <tr>
-            <th
-              scope="row"
-            >
-              DNS
-            </th>
-            <td
-              class="text-end"
-            >
-              <span
-                class="text-secondary"
-              >
-                <i
-                  class="fa"
-                />
-              </span>
-            </td>
-          </tr>
-          <tr>
-            <th
-              scope="row"
-            >
-              DNSSEC
-            </th>
-            <td
-              class="text-end"
-            >
-              <span
-                class="text-secondary"
-              >
-                <i
-                  class="fa"
-                />
-              </span>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <div
-        class="text-end"
-      >
-        <button
-          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
-          type="submit"
-        >
-          <span>
-            Test connection
-          </span>
-        </button>
-      </div>
-    </form>
+        <span>
+          Test connection
+        </span>
+      </button>
+    </div>
   </div>
 </DocumentFragment>
 `;

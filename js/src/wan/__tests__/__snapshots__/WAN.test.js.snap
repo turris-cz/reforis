@@ -1140,98 +1140,96 @@ exports[`<WAN/> Snapshot: WAN IPv4 DHCP, WAN IPv6 DHCP, MAC disabled, VLAN disab
       </b>
        button after you have tested that it works.
     </p>
-    <form>
-      <table
-        class="table table-borderless table-hover col-sm-12"
+    <table
+      class="table table-borderless table-hover col-sm-12"
+    >
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            IPv4 connectivity
+          </th>
+          <td
+            class="text-end"
+          >
+            <span
+              class="text-secondary"
+            >
+              <i
+                class="fa"
+              />
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            IPv4 gateway connectivity
+          </th>
+          <td
+            class="text-end"
+          >
+            <span
+              class="text-secondary"
+            >
+              <i
+                class="fa"
+              />
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            IPv6 connectivity
+          </th>
+          <td
+            class="text-end"
+          >
+            <span
+              class="text-secondary"
+            >
+              <i
+                class="fa"
+              />
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            IPv6 gateway connectivity
+          </th>
+          <td
+            class="text-end"
+          >
+            <span
+              class="text-secondary"
+            >
+              <i
+                class="fa"
+              />
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="text-end"
+    >
+      <button
+        class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        type="submit"
       >
-        <tbody>
-          <tr>
-            <th
-              scope="row"
-            >
-              IPv4 connectivity
-            </th>
-            <td
-              class="text-end"
-            >
-              <span
-                class="text-secondary"
-              >
-                <i
-                  class="fa"
-                />
-              </span>
-            </td>
-          </tr>
-          <tr>
-            <th
-              scope="row"
-            >
-              IPv4 gateway connectivity
-            </th>
-            <td
-              class="text-end"
-            >
-              <span
-                class="text-secondary"
-              >
-                <i
-                  class="fa"
-                />
-              </span>
-            </td>
-          </tr>
-          <tr>
-            <th
-              scope="row"
-            >
-              IPv6 connectivity
-            </th>
-            <td
-              class="text-end"
-            >
-              <span
-                class="text-secondary"
-              >
-                <i
-                  class="fa"
-                />
-              </span>
-            </td>
-          </tr>
-          <tr>
-            <th
-              scope="row"
-            >
-              IPv6 gateway connectivity
-            </th>
-            <td
-              class="text-end"
-            >
-              <span
-                class="text-secondary"
-              >
-                <i
-                  class="fa"
-                />
-              </span>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <div
-        class="text-end"
-      >
-        <button
-          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
-          type="submit"
-        >
-          <span>
-            Test connection
-          </span>
-        </button>
-      </div>
-    </form>
+        <span>
+          Test connection
+        </span>
+      </button>
+    </div>
   </div>
 </DocumentFragment>
 `;
