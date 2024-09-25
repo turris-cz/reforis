@@ -10,7 +10,7 @@ import mockAxios from "jest-mock-axios";
 import { render, wait, getByText } from "foris/testUtils/customTestRender";
 
 import AutomaticUpdatesCard from "../AutomaticUpdatesCard";
-import DataCollectionCard from "../DataCollectionCard";
+import ThreatDetectionCard from "../ThreatDetectionCard";
 import DynamicFirewallCard from "../DynamicFirewallCard";
 import LibrespeedCard from "../LibrespeedCard";
 import OpenVPNClientsCard from "../OpenVPNClientsCard";
@@ -18,8 +18,8 @@ import OpenVPNClientsCard from "../OpenVPNClientsCard";
 import {
     automaticUpdatesCardFixture,
     automaticUpdatesCardFixture2,
-    dataCollectionCardFixture,
-    dataCollectionCardFixture2,
+    threatDetectionCardFixture,
+    threatDetectionCardFixture2,
     librespeedCardFixture,
     librespeedCardFixture2,
     openVPNClientsCardFixture,
@@ -45,18 +45,18 @@ describe("<Cards/>", () => {
         });
     });
 
-    describe("<DataCollectionCard/>", () => {
+    describe("<ThreatDetectionCard/>", () => {
         it("Snapshot: activated", async () => {
-            const { container } = render(<DataCollectionCard />);
-            mockAxios.mockResponse({ data: dataCollectionCardFixture });
+            const { container } = render(<ThreatDetectionCard />);
+            mockAxios.mockResponse({ data: threatDetectionCardFixture });
             await wait(() => getByText(container, "Threat Detection"));
 
             expect(container).toMatchSnapshot();
         });
 
         it("Snapshot: disabled", async () => {
-            const { container } = render(<DataCollectionCard />);
-            mockAxios.mockResponse({ data: dataCollectionCardFixture2 });
+            const { container } = render(<ThreatDetectionCard />);
+            mockAxios.mockResponse({ data: threatDetectionCardFixture2 });
             await wait(() => getByText(container, "Threat Detection"));
 
             expect(container).toMatchSnapshot();
@@ -69,14 +69,14 @@ describe("<Cards/>", () => {
 
         it("Snapshot: activated", () => {
             const { container } = render(
-                <DynamicFirewallCard activated={activated()} />
+                <DynamicFirewallCard enabled={activated()} />
             );
             expect(container).toMatchSnapshot();
         });
 
         it("Snapshot: disabled", () => {
             const { container } = render(
-                <DynamicFirewallCard activated={disabled()} />
+                <DynamicFirewallCard enabled={disabled()} />
             );
             expect(container).toMatchSnapshot();
         });

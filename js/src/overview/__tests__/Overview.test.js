@@ -66,7 +66,7 @@ describe("Overview", () => {
     });
 
     it("Should display given cards", () => {
-        expect(displayCard(packageListsFixture, "datacollect")).toBe(true);
+        expect(displayCard(packageListsFixture, "sentinel")).toBe(true);
     });
 
     it("Should display given options", () => {
