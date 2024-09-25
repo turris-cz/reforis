@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-05 14:39+0200\n"
-"PO-Revision-Date: 2024-09-25 10:15+0000\n"
+"PO-Revision-Date: 2024-09-25 15:30+0000\n"
 "Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
 "\n"
@@ -134,7 +134,7 @@ msgstr "Nebyli nalezeni žádní DHCP klienti."
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
 msgid "Hostname"
-msgstr "Název stroje"
+msgstr "Síťový název"
 
 #: js/src/common/network/DHCP6Clients.js:41
 msgid "IPv6 Address"
@@ -158,19 +158,19 @@ msgstr "Nikdy"
 
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
-msgstr "Název stroje, který bude poskytnut DHCP serveru."
+msgstr "Síťový název zařízení, který bude poskytnut DHCP serveru."
 
 #: js/src/common/network/DHCPClientForm.js:38
 msgid "DHCP hostname"
-msgstr "Název stroje pro DHCP"
+msgstr "Síťový název zařízení pro DHCP"
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
 "Enable this option to automatically assign IP addresses to the devices "
 "connected to the router."
 msgstr ""
-"Tuto volbu zapněte pro automatické přiřazování IP adres zařízením, "
-"připojených k routeru."
+"Tuto volbu zapněte pro automatické přiřazování IP adres zařízením připojeným "
+"k routeru."
 
 #: js/src/common/network/DHCPServerForm.js:47
 msgid "DHCP start"
@@ -178,7 +178,7 @@ msgstr "Začátek IP rozsahu pro DHCP"
 
 #: js/src/common/network/DHCPServerForm.js:57
 msgid "DHCP max leases"
-msgstr "Nejvýše DHCP zápůjček"
+msgstr "Maximum DHCP zápůjček"
 
 #: js/src/common/network/DHCPServerForm.js:58
 msgid "Maximum number of addresses available for DHCP clients."
@@ -202,7 +202,7 @@ msgstr "Neplatné nastavení sítě. Nastavení DHCP nelze ověřit."
 
 #: js/src/common/network/DHCPValidators.js:99
 msgid "Minimum lease time is 1 hour."
-msgstr "Minimální lease time je 1 hodina."
+msgstr "Minimální doba zápůjčky je 1 hodina."
 
 #: js/src/common/network/DHCPValidators.js:114
 msgid "Address is outside current network."
@@ -621,11 +621,11 @@ msgstr "Nedaří se přidat nové přeposílání."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:20
 msgid "Forwarder name should have at least one symbol."
-msgstr "Název přeposílání by mělo obsahovat alespoň jeden symbol."
+msgstr "Název přeposílání by měl obsahovat alespoň jeden symbol."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:28
 msgid "Hostname should have at least one symbol."
-msgstr "Název stroje by měl obsahovat alespoň jeden symbol."
+msgstr "Síťový název by měl obsahovat alespoň jeden symbol."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:33
 msgid "TLS pin should have at least one symbol."
@@ -1480,12 +1480,9 @@ msgid ""
 " saving system logs using the Storage plugin. Logs are saved into "
 "'/srv/log/messages'."
 msgstr ""
-"Při resetu zařízení se systémové záznamy ve výchozím nastavení ztratí. "
-"Tato volba umožňuje systémové záznamy ukládat pomocí pluginu Storage. "
-"Ukládají se to adresáře '/srv/log/messages'. K povolení této volby je "
-"potřeba nejdříve nakonfigurovat úložiště pomocí <a "
-"href=\"${ForisURLs.storage}\" title=\"Jít na plugin Storage\">pluginu "
-"Storage</a>."
+"Při resetu zařízení se systémové záznamy ve výchozím nastavení ztratí. Tato "
+"volba umožňuje systémové záznamy ukládat pomocí pluginu Storage. Ukládají se "
+"to adresáře '/srv/log/messages'."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:38
 msgid ""
@@ -1493,10 +1490,7 @@ msgid ""
 "href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Storage "
 "plugin</a> first."
 msgstr ""
-"Při resetu zařízení se systémové záznamy ve výchozím nastavení ztratí. "
-"Tato volba umožňuje systémové záznamy ukládat pomocí pluginu Storage. "
-"Ukládají se do adresáře '/srv/log/messages'. K povolení této volby je "
-"potřeba nejdříve nakonfigurovat úložiště pomocí <a "
+"K povolení této volby je potřeba nejdříve nakonfigurovat úložiště pomocí <a "
 "href=\"${ForisURLs.storage}\" title=\"Jít na plugin Storage\">pluginu "
 "Storage</a>."
 
