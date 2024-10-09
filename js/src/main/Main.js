@@ -20,6 +20,9 @@ import ScrollToTopArrow from "common/ScrollToTopArrow";
 import Navigation from "navigation/Navigation";
 import ErrorBoundary from "utils/ErrorBoundary";
 import SkipLink from "utils/SkipLink";
+import useSessionTimeout, {
+    SessionTimeoutModal,
+} from "utils/useSessionTimeout";
 
 import { REDIRECT_404_PAGE } from "./constants";
 import getPages from "./pages";
@@ -34,10 +37,19 @@ export default function Main({ ws }) {
     const { isCustomized } = useCustomizationContext();
     const pages = getPages(isCustomized);
 
+    const { showWarning, setShowWarning, logout, extendSession } =
+        useSessionTimeout();
+
     return (
         <ErrorBoundary>
             <AlertContextProvider>
                 <BrowserRouter basename={REFORIS_URL_PREFIX}>
+                    <SessionTimeoutModal
+                        shown={showWarning}
+                        setShown={setShowWarning}
+                        logout={logout}
+                        extendSession={extendSession}
+                    />
                     <Portal containerId="app-container">
                         <SkipLink mode="main" />
                     </Portal>
