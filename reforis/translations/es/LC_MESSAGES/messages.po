@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-05 14:39+0200\n"
-"PO-Revision-Date: 2024-08-23 14:10+0000\n"
+"PO-Revision-Date: 2024-10-05 22:15+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/turris/reforis/"
+"es/>\n"
 "Language: es\n"
-"Language-Team: Spanish "
-"<https://hosted.weblate.org/projects/turris/reforis/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8-dev\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: js/src/about/About.js:18
@@ -347,7 +348,7 @@ msgstr "Listar las direcciones MAC disponibles"
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:111
 #: js/src/dns/Forwarders/ForwardersTable.js:40
 msgid "Actions"
-msgstr "Acciones"
+msgstr "Actuaciones"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:128
 #: js/src/dns/Forwarders/ForwardersTable.js:142
@@ -726,10 +727,13 @@ msgid ""
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
+"Esta red no contiene actualmente ningún dispositivo. Los cambios que realice "
+"aquí serán totalmente funcionales una vez que asigne una interfaz de red a "
+"esta red."
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:17
 msgid "All network interfaces of this network are currently down."
-msgstr ""
+msgstr "Todas las interfaces de red de esta red están actualmente caídas."
 
 #: js/src/guide/constants.js:13
 msgid ""
@@ -834,26 +838,33 @@ msgstr ""
 #: js/src/guide/constants.js:64
 msgid "Now you need to configure automatic updates on your device."
 msgstr ""
+"Ahora tienes que configurar las actualizaciones automáticas en tu "
+"dispositivo."
 
 #: js/src/guide/constants.js:67
 msgid "Please wait till the updater finishes its run."
-msgstr ""
+msgstr "Espere a que se completen las actualizaciones automáticas."
 
 #: js/src/guide/constants.js:76
 msgid "Congratulations! Now your device is ready to be used."
-msgstr ""
+msgstr "¡Felicitaciones! Ahora tu dispositivo está listo para usarse."
 
 #: js/src/guide/constants.js:82
 msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
 msgstr ""
+"¡Felicitaciones! Ahora su dispositivo puede actuar como enrutador y enrutar "
+"el tráfico de red entre redes LAN, WAN y de invitados."
 
 #: js/src/guide/constants.js:90
 msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
 "some further configuration updates to fit the device to your needs."
 msgstr ""
+"La configuración mínima del dispositivo ha finalizado. Tenga en cuenta que "
+"probablemente deba realizar algunas actualizaciones de configuración "
+"adicionales para adaptar el dispositivo a sus necesidades."
 
 #: js/src/guide/constants.js:98
 msgid ""
@@ -862,6 +873,10 @@ msgid ""
 "Shield will try to connect to the Internet, and you will end up in the "
 "administration interface."
 msgstr ""
+"Tu dispositivo ya está listo para usarse. Puedes modificar el resto de la "
+"configuración en la interfaz de administración. Una vez que termines la "
+"guía, tu Shield intentará conectarse a Internet y accederás a la interfaz de "
+"administración."
 
 #: js/src/guide/constants.js:109
 msgid ""
@@ -922,16 +937,22 @@ msgid ""
 "means that you can access the configuration interface of your device, and"
 " your device can access the internet."
 msgstr ""
+"Por favor, compruebe si la configuración que ha proporcionado funciona "
+"correctamente. Esto significa que puedes acceder a la interfaz de "
+"configuración de tu dispositivo y que tu dispositivo puede acceder a "
+"Internet."
 
 #: js/src/guide/constants.js:134
 msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
 msgstr ""
+"¡Enhorabuena! Ahora tu dispositivo debería poder actuar como servidor en tu "
+"red local."
 
 #: js/src/guide/hooks.js:24
 msgid "Cannot mark guide as finished."
-msgstr ""
+msgstr "No se puede marcar el asistente como completado."
 
 #: js/src/guide/steps.js:21 js/src/main/pages.js:73
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
@@ -977,7 +998,7 @@ msgstr "Finalizar"
 
 #: js/src/guide/GuideControls/NextStepButton.js:28
 msgid "Next step"
-msgstr ""
+msgstr "Próximo paso"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:33
 msgid "Skip guide"
@@ -992,6 +1013,8 @@ msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
+"Tan pronto como salgas del asistente, tendrás acceso completo a la interfaz "
+"de configuración de este dispositivo."
 
 #: js/src/guide/GuidePages/GuideFinish.js:27
 msgid ""
@@ -1000,6 +1023,11 @@ msgid ""
 "security research to discover new attackers and give you access to "
 "dynamic firewall updates blocking known attackers."
 msgstr ""
+"Para mejorar aún más su seguridad, considere instalar el complemento de "
+"recopilación de datos (a través de la Administración de paquetes). Esto le "
+"permitirá ser parte de nuestra investigación de seguridad para descubrir "
+"nuevos atacantes y le dará acceso a actualizaciones dinámicas del firewall "
+"que bloquean a los atacantes conocidos."
 
 #: js/src/guide/GuidePages/GuideFinish.js:33
 msgid "Continue"
@@ -1032,6 +1060,8 @@ msgid ""
 "Just set your password and you are ready to go. This workflow is aimed to"
 " more advanced users who intend to set everything manually."
 msgstr ""
+"Solo tienes que configurar tu contraseña y listo. Este flujo de trabajo está "
+"dirigido a usuarios más avanzados que quieran configurar todo manualmente."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:38
 msgid "Local Server"
@@ -1058,32 +1088,32 @@ msgid ""
 "Here you can set the guide walkthrough which will guide you through the "
 "basic configuration of your device."
 msgstr ""
+"Aquí podrás configurar la guía que te guiará a través de la configuración "
+"básica de tu dispositivo."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:85
 msgid "Recommended"
-msgstr ""
+msgstr "Recomendado"
 
 #: js/src/hostname/Hostname.js:25
-#, fuzzy
 msgid "Here you can check and set the name of your device."
-msgstr "Ahora debe establecer la hora y el huso horario del dispositivo."
+msgstr "Aquí puedes comprobar y configurar el nombre de tu dispositivo."
 
 #: js/src/hostname/Hostname.js:44
-#, fuzzy
 msgid ""
 "The hostname can contain only alphanumeric characters, hyphens, "
 "underscores and can't be empty."
 msgstr ""
-"El nombre de remitente puede contener únicamente caracteres "
-"alfanuméricos, puntos y guiones bajos."
+"El nombre de host solo puede contener caracteres alfanuméricos, guiones, "
+"guiones bajos y no puede estar vacío."
 
 #: js/src/hostname/HostnameForm.js:14
 msgid "Rewrite the hostname to set a new one."
-msgstr ""
+msgstr "Reescribe el nombre del host para establecer uno nuevo."
 
 #: js/src/hostname/HostnameForm.js:34
 msgid "Hostname Settings"
-msgstr ""
+msgstr "Configuración del nombre de host"
 
 #: js/src/hostname/HostnameForm.js:36
 #, fuzzy
@@ -1330,11 +1360,11 @@ msgstr ""
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:20
 msgid "Light"
-msgstr ""
+msgstr "Claro"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:25
 msgid "Dark"
-msgstr ""
+msgstr "Oscuro"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:30
 msgid "Auto"
@@ -3071,4 +3101,3 @@ msgstr ""
 #~ " - on most browsers accessible after"
 #~ " pressing Ctrl+Shift+J or F12."
 #~ msgstr ""
-
