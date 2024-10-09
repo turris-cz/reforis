@@ -334,7 +334,7 @@ exports[`<Updates/> should handle disabled updates 1`] = `
                     to keep your device running smoothly and securely.
   </p>
   <div
-    class="alert alert-warning"
+    class="alert alert-warning alert-fade-in"
     role="alert"
   >
     <span>

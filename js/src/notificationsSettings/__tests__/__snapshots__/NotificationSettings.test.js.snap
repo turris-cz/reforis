@@ -5,7 +5,7 @@ exports[`<NotificationsSettings/> <TestNotification/> Displaying test notificati
   id="test-notification"
 >
   <div
-    class="alert alert-warning"
+    class="alert alert-warning alert-fade-in"
     role="alert"
   >
     You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
@@ -98,7 +98,7 @@ exports[`<NotificationsSettings/> <TestNotification/> Should toggle unsaved chan
   id="test-notification"
 >
   <div
-    class="alert alert-warning"
+    class="alert alert-warning alert-fade-in"
     role="alert"
   >
     You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
@@ -539,7 +539,7 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
     id="test-notification"
   >
     <div
-      class="alert alert-warning"
+      class="alert alert-warning alert-fade-in"
       role="alert"
     >
       You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
@@ -841,7 +841,7 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
     id="test-notification"
   >
     <div
-      class="alert alert-warning"
+      class="alert alert-warning alert-fade-in"
       role="alert"
     >
       You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
