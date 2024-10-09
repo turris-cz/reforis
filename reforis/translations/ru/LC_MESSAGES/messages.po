@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-05 14:39+0200\n"
+"POT-Creation-Date: 2024-10-09 16:09+0200\n"
 "PO-Revision-Date: 2024-08-16 23:09+0000\n"
 "Last-Translator: Maxim <astralfestival@gmail.com>\n"
 "Language: ru\n"
@@ -76,6 +76,7 @@ msgstr "Сброс"
 
 #: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:65
 #: js/src/dns/DNSSECDisableModal.js:34
+#: js/src/guide/GuideControls/SkipGuideButton.js:68
 #: js/src/notificationsSettings/TestNotification.js:148
 msgid "Warning!"
 msgstr "Предупреждение!"
@@ -87,6 +88,7 @@ msgstr "Вы уверены, что хотите сбросить настрой
 #: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:70
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
 #: js/src/dns/DNSSECDisableModal.js:48
+#: js/src/guide/GuideControls/SkipGuideButton.js:87
 #: js/src/notificationsSettings/TestNotification.js:153
 msgid "Cancel"
 msgstr "Отмена"
@@ -468,7 +470,8 @@ msgstr ""
 "включенным</b> и разрешить ситуацию с вашим интернет-провайдером, так как"
 " это серьезный недостаток на их стороне."
 
-#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:51
+#: js/src/dns/DNS.js:63 js/src/overview/Cards/ConnectionTestCard.js:21
+#: js/src/wan/WAN.js:51
 msgid "Connection Test"
 msgstr "Проверка соединения"
 
@@ -703,12 +706,12 @@ msgid "Enable QoS"
 msgstr "Включить QoS"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:159
-#: js/src/overview/Cards/NetmetrCard.js:74
+#: js/src/overview/Cards/LibrespeedCard.js:64
 msgid "Download"
 msgstr "Скачать"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
-#: js/src/overview/Cards/NetmetrCard.js:90
+#: js/src/overview/Cards/LibrespeedCard.js:78
 msgid "Upload"
 msgstr "Загрузить"
 
@@ -735,8 +738,9 @@ msgid "All network interfaces of this network are currently down."
 msgstr "Все сетевые интерфейсы этой сети в настоящее время недоступны."
 
 #: js/src/guide/constants.js:13
+#, fuzzy
 msgid ""
-"Welcome to Foris web interface. This guide will help you to setup your "
+"Welcome to reForis web interface. This guide will help you to setup your "
 "device. Firstly it is required to set your password. Note the security of"
 " your home network is in your hands, so try not to use weak passwords."
 msgstr ""
@@ -971,7 +975,7 @@ msgid "DNS"
 msgstr "DNS"
 
 #: js/src/guide/steps.js:41
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:136
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:138
 #: js/src/main/pages.js:113 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
 msgstr "Обновления"
@@ -994,9 +998,29 @@ msgstr "Завершить"
 msgid "Next step"
 msgstr "Следующий шаг"
 
-#: js/src/guide/GuideControls/SkipGuideButton.js:33
-msgid "Skip guide"
-msgstr "Пропустить руководство"
+#: js/src/guide/GuideControls/SkipGuideButton.js:50
+msgid "Skip"
+msgstr ""
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:70
+#, fuzzy
+msgid "Are you sure you want to skip the whole guide?"
+msgstr "Вы уверены, что хотите сбросить настройки маршрутизатора?"
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:72
+msgid "This will skip the guide and you will be redirected to the overview page."
+msgstr ""
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:77
+msgid ""
+"Settings that are not set up during the guide will be set to default "
+"values. And you will have to set them up manually."
+msgstr ""
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:90
+#: js/src/notificationsSettings/TestNotification.js:155
+msgid "Confirm"
+msgstr "Подтвердить"
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
@@ -1235,7 +1259,9 @@ msgstr "Скорость соединения"
 
 #: js/src/interfaces/SelectedInterface.js:135
 #: js/src/interfaces/SelectedInterface.js:140
-#: js/src/overview/Cards/NetmetrCard.js:121
+#: js/src/overview/Cards/LibrespeedCard.js:104
+#: js/src/overview/Cards/LibrespeedCard.js:122
+#: js/src/overview/Cards/LibrespeedCard.js:133
 msgid "N/A"
 msgstr "Не доступно"
 
@@ -1417,28 +1443,27 @@ msgid "Reboot Required"
 msgstr "Требуется Перезагрузка"
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:73
-#: js/src/overview/Cards/NetmetrCard.js:133
 msgid "Details"
 msgstr "Подробности"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:106
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:108
 msgid "Approve Update"
 msgstr "Одобрить Обновление"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:135
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
 msgid "See details in "
 msgstr "Смотрите подробнее в "
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
 msgid " page."
 msgstr " странице."
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:144
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:146
 #: js/src/packageManagement/updates/UpdateApproval.js:120
 msgid "Install now"
 msgstr "Установить сейчас"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:154
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:156
 #: js/src/packageManagement/updates/UpdateApproval.js:40
 msgid "Cannot install updates."
 msgstr "Не удаётся установить обновление."
@@ -1650,10 +1675,6 @@ msgstr ""
 msgid "Send test notification"
 msgstr "Отправить тестовое уведомление"
 
-#: js/src/notificationsSettings/TestNotification.js:155
-msgid "Confirm"
-msgstr "Подтвердить"
-
 #: js/src/notificationsSettings/helpTexts.js:9
 msgid ""
 "If you set SMTP provider to \"Turris\", the servers provided to members "
@@ -1714,74 +1735,92 @@ msgstr "Максимальный порт 65535."
 msgid "Minimum port is 1."
 msgstr "Минимальный порт 1."
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:45
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:46
 msgid "Automatic Updates"
 msgstr "Автоматические обновления"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:48
-#: js/src/overview/Cards/DataCollectionCard.js:48
-#: js/src/overview/Cards/DynamicFirewallCard.js:29
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:49
+#, fuzzy
+msgid "Go to update settings"
+msgstr "Обновить настройки"
+
+#: js/src/overview/Cards/Card.js:45
 msgid "Activated"
 msgstr "Активирован"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:48
-#: js/src/overview/Cards/DataCollectionCard.js:48
-#: js/src/overview/Cards/DynamicFirewallCard.js:29
+#: js/src/overview/Cards/Card.js:45
 msgid "Disabled"
 msgstr "Отключён"
 
-#: js/src/overview/Cards/DataCollectionCard.js:45
-msgid "Threat Detection"
-msgstr "Обнаружение угроз"
-
-#: js/src/overview/Cards/DynamicFirewallCard.js:26
+#: js/src/overview/Cards/DynamicFirewallCard.js:23
 msgid "Dynamic Firewall"
 msgstr "Динамический межсетевой экран"
 
-#: js/src/overview/Cards/NetmetrCard.js:52
-msgid "NetMetr"
-msgstr "NetMetr"
+#: js/src/overview/Cards/DynamicFirewallCard.js:26
+#, fuzzy
+msgid "Go to Dynamic Firewall package"
+msgstr "Динамический межсетевой экран"
 
-#: js/src/overview/Cards/NetmetrCard.js:58
-msgid "Go to NetMetr"
-msgstr "Перейти в NetMetr"
+#: js/src/overview/Cards/LibrespeedCard.js:53
+#, fuzzy
+msgid "LibreSpeed"
+msgstr "Скорость соединения"
 
-#: js/src/overview/Cards/NetmetrCard.js:77
-#: js/src/overview/Cards/NetmetrCard.js:93
+#: js/src/overview/Cards/LibrespeedCard.js:55
+msgid "Go to LibreSpeed"
+msgstr ""
+
+#: js/src/overview/Cards/LibrespeedCard.js:67
+#: js/src/overview/Cards/LibrespeedCard.js:81
 msgid "Megabit per second"
 msgstr "Мегабит в секунду"
 
-#: js/src/overview/Cards/NetmetrCard.js:108
+#: js/src/overview/Cards/LibrespeedCard.js:92
 msgid "Ping"
 msgstr "Пинг"
 
-#: js/src/overview/Cards/NetmetrCard.js:111
+#: js/src/overview/Cards/LibrespeedCard.js:95
+#: js/src/overview/Cards/LibrespeedCard.js:113
 msgid "Millisecond"
 msgstr "Миллисекунд"
 
-#: js/src/overview/Cards/NetmetrCard.js:126
-msgid "Link"
-msgstr "Ссылка"
+#: js/src/overview/Cards/LibrespeedCard.js:110
+msgid "Jitter"
+msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:149
+#: js/src/overview/Cards/LibrespeedCard.js:127
+#, fuzzy
+msgid "Server"
+msgstr "Никогда"
+
+#: js/src/overview/Cards/LibrespeedCard.js:142
 msgid "Performed"
 msgstr "Выполнено"
 
-#: js/src/overview/Cards/NetmetrCard.js:157
+#: js/src/overview/Cards/LibrespeedCard.js:148
 msgid "No tests have been performed lately."
 msgstr "В последнее время никаких тестов не проводилось."
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:46
+#: js/src/overview/Cards/OpenVPNClientsCard.js:48
 msgid "OpenVPN Clients"
 msgstr "Клиенты OpenVPN"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:52
+#: js/src/overview/Cards/OpenVPNClientsCard.js:50
 msgid "Go to OpenVPN Client Settings"
 msgstr "Перейдите в настройки клиента OpenVPN"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:95
+#: js/src/overview/Cards/OpenVPNClientsCard.js:85
 msgid "There are no clients added yet."
 msgstr "Еще нет добавленных клиентов."
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:47
+msgid "Threat Detection"
+msgstr "Обнаружение угроз"
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:50
+#, fuzzy
+msgid "Go to Sentinel license agreement"
+msgstr "Наиболее Важные Пункты Лицензионного Соглашения"
 
 #: js/src/packageManagement/languages/Languages.js:22
 msgid ""
@@ -3097,4 +3136,16 @@ msgstr "500 - Ошибка сервера"
 
 #~ msgid "Unknown"
 #~ msgstr "Неизвестно"
+
+#~ msgid "Skip guide"
+#~ msgstr "Пропустить руководство"
+
+#~ msgid "NetMetr"
+#~ msgstr "NetMetr"
+
+#~ msgid "Go to NetMetr"
+#~ msgstr "Перейти в NetMetr"
+
+#~ msgid "Link"
+#~ msgstr "Ссылка"
 

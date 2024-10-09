@@ -149,7 +149,7 @@ exports[`<WiFi/> Snapshot of Alert with a warning when no modules available. 1`]
 -       </div>
 -       <div
 -         class=\\"text-end\\"
-+     class=\\"alert alert-warning\\"
++     class=\\"alert alert-warning alert-fade-in\\"
 +     role=\\"alert\\"
     >
 -         <button

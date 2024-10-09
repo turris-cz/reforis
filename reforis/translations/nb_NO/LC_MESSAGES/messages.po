@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-05 14:39+0200\n"
+"POT-Creation-Date: 2024-10-09 16:09+0200\n"
 "PO-Revision-Date: 2024-06-16 18:09+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language: nb_NO\n"
@@ -75,6 +75,7 @@ msgstr "Tilbakestill"
 
 #: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:65
 #: js/src/dns/DNSSECDisableModal.js:34
+#: js/src/guide/GuideControls/SkipGuideButton.js:68
 #: js/src/notificationsSettings/TestNotification.js:148
 msgid "Warning!"
 msgstr "Advarsel!"
@@ -87,6 +88,7 @@ msgstr "Tilbakestill ruteren?"
 #: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:70
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
 #: js/src/dns/DNSSECDisableModal.js:48
+#: js/src/guide/GuideControls/SkipGuideButton.js:87
 #: js/src/notificationsSettings/TestNotification.js:153
 msgid "Cancel"
 msgstr "Avbryt"
@@ -482,7 +484,8 @@ msgstr ""
 "påslått</b> og løser problemet sammen med din Internett-tjenestetilbyder,"
 " siden dette er en farlig svakhet fra deres side."
 
-#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:51
+#: js/src/dns/DNS.js:63 js/src/overview/Cards/ConnectionTestCard.js:21
+#: js/src/wan/WAN.js:51
 msgid "Connection Test"
 msgstr "Tilkoblingstest"
 
@@ -726,12 +729,12 @@ msgid "Enable QoS"
 msgstr "Skru på QoS"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:159
-#: js/src/overview/Cards/NetmetrCard.js:74
+#: js/src/overview/Cards/LibrespeedCard.js:64
 msgid "Download"
 msgstr "Last ned"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
-#: js/src/overview/Cards/NetmetrCard.js:90
+#: js/src/overview/Cards/LibrespeedCard.js:78
 msgid "Upload"
 msgstr "Last opp"
 
@@ -760,7 +763,7 @@ msgstr "Alle nettverksgrensesnitt på dette nettverket er nede for tiden."
 #: js/src/guide/constants.js:13
 #, fuzzy
 msgid ""
-"Welcome to Foris web interface. This guide will help you to setup your "
+"Welcome to reForis web interface. This guide will help you to setup your "
 "device. Firstly it is required to set your password. Note the security of"
 " your home network is in your hands, so try not to use weak passwords."
 msgstr ""
@@ -1004,7 +1007,7 @@ msgid "DNS"
 msgstr "DNS"
 
 #: js/src/guide/steps.js:41
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:136
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:138
 #: js/src/main/pages.js:113 js/src/packageManagement/updates/Updates.js:28
 #, fuzzy
 msgid "Updates"
@@ -1028,9 +1031,29 @@ msgstr "Fullfør"
 msgid "Next step"
 msgstr "Neste steg"
 
-#: js/src/guide/GuideControls/SkipGuideButton.js:33
-msgid "Skip guide"
-msgstr "Hopp over veiledning"
+#: js/src/guide/GuideControls/SkipGuideButton.js:50
+msgid "Skip"
+msgstr ""
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:70
+#, fuzzy
+msgid "Are you sure you want to skip the whole guide?"
+msgstr "Tilbakestill ruteren?"
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:72
+msgid "This will skip the guide and you will be redirected to the overview page."
+msgstr ""
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:77
+msgid ""
+"Settings that are not set up during the guide will be set to default "
+"values. And you will have to set them up manually."
+msgstr ""
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:90
+#: js/src/notificationsSettings/TestNotification.js:155
+msgid "Confirm"
+msgstr "Bekreft"
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
@@ -1270,7 +1293,9 @@ msgstr "Lenkehastighet"
 
 #: js/src/interfaces/SelectedInterface.js:135
 #: js/src/interfaces/SelectedInterface.js:140
-#: js/src/overview/Cards/NetmetrCard.js:121
+#: js/src/overview/Cards/LibrespeedCard.js:104
+#: js/src/overview/Cards/LibrespeedCard.js:122
+#: js/src/overview/Cards/LibrespeedCard.js:133
 msgid "N/A"
 msgstr "I/T"
 
@@ -1458,30 +1483,29 @@ msgid "Reboot Required"
 msgstr "Omstart kreves"
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:73
-#: js/src/overview/Cards/NetmetrCard.js:133
 msgid "Details"
 msgstr "Detaljer"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:106
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:108
 msgid "Approve Update"
 msgstr "Godkjenn oppgradering"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:135
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
 #, fuzzy
 msgid "See details in "
 msgstr "Flere detaljer"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
 #, fuzzy
 msgid " page."
 msgstr "Pakker"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:144
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:146
 #: js/src/packageManagement/updates/UpdateApproval.js:120
 msgid "Install now"
 msgstr "Installer nå"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:154
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:156
 #: js/src/packageManagement/updates/UpdateApproval.js:40
 msgid "Cannot install updates."
 msgstr "Kan ikke installere oppgraderinger."
@@ -1704,10 +1728,6 @@ msgstr ""
 msgid "Send test notification"
 msgstr "Send testmerknad"
 
-#: js/src/notificationsSettings/TestNotification.js:155
-msgid "Confirm"
-msgstr "Bekreft"
-
 #: js/src/notificationsSettings/helpTexts.js:9
 #, fuzzy
 msgid ""
@@ -1771,78 +1791,95 @@ msgstr "Maksimal port er 65535."
 msgid "Minimum port is 1."
 msgstr "Minimumsport er 1."
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:45
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:46
 #, fuzzy
 msgid "Automatic Updates"
 msgstr "Automatiske oppdateringer"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:48
-#: js/src/overview/Cards/DataCollectionCard.js:48
-#: js/src/overview/Cards/DynamicFirewallCard.js:29
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:49
+#, fuzzy
+msgid "Go to update settings"
+msgstr "Oppdateringsinnstillinger"
+
+#: js/src/overview/Cards/Card.js:45
 #, fuzzy
 msgid "Activated"
 msgstr "Påskrudd"
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:48
-#: js/src/overview/Cards/DataCollectionCard.js:48
-#: js/src/overview/Cards/DynamicFirewallCard.js:29
+#: js/src/overview/Cards/Card.js:45
 msgid "Disabled"
 msgstr "Avskrudd"
 
-#: js/src/overview/Cards/DataCollectionCard.js:45
-msgid "Threat Detection"
-msgstr "Trusselsoppdagelse"
-
-#: js/src/overview/Cards/DynamicFirewallCard.js:26
+#: js/src/overview/Cards/DynamicFirewallCard.js:23
 msgid "Dynamic Firewall"
 msgstr "Dynamisk brannmur"
 
-#: js/src/overview/Cards/NetmetrCard.js:52
-msgid "NetMetr"
-msgstr "NetMetr"
+#: js/src/overview/Cards/DynamicFirewallCard.js:26
+#, fuzzy
+msgid "Go to Dynamic Firewall package"
+msgstr "Dynamisk brannmur"
 
-#: js/src/overview/Cards/NetmetrCard.js:58
-msgid "Go to NetMetr"
-msgstr "Gå til NetMetr"
+#: js/src/overview/Cards/LibrespeedCard.js:53
+#, fuzzy
+msgid "LibreSpeed"
+msgstr "Lenkehastighet"
 
-#: js/src/overview/Cards/NetmetrCard.js:77
-#: js/src/overview/Cards/NetmetrCard.js:93
+#: js/src/overview/Cards/LibrespeedCard.js:55
+msgid "Go to LibreSpeed"
+msgstr ""
+
+#: js/src/overview/Cards/LibrespeedCard.js:67
+#: js/src/overview/Cards/LibrespeedCard.js:81
 msgid "Megabit per second"
 msgstr "Megabit per sekund"
 
-#: js/src/overview/Cards/NetmetrCard.js:108
+#: js/src/overview/Cards/LibrespeedCard.js:92
 #, fuzzy
 msgid "Ping"
 msgstr "Nettverksforsinkelsesforespørsel"
 
-#: js/src/overview/Cards/NetmetrCard.js:111
+#: js/src/overview/Cards/LibrespeedCard.js:95
+#: js/src/overview/Cards/LibrespeedCard.js:113
 msgid "Millisecond"
 msgstr "Millisekund"
 
-#: js/src/overview/Cards/NetmetrCard.js:126
-#, fuzzy
-msgid "Link"
-msgstr "Lenke"
+#: js/src/overview/Cards/LibrespeedCard.js:110
+msgid "Jitter"
+msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:149
+#: js/src/overview/Cards/LibrespeedCard.js:127
+#, fuzzy
+msgid "Server"
+msgstr "Aldri"
+
+#: js/src/overview/Cards/LibrespeedCard.js:142
 msgid "Performed"
 msgstr "Utført"
 
-#: js/src/overview/Cards/NetmetrCard.js:157
+#: js/src/overview/Cards/LibrespeedCard.js:148
 msgid "No tests have been performed lately."
 msgstr "Ingen tester har blitt utført i det siste."
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:46
+#: js/src/overview/Cards/OpenVPNClientsCard.js:48
 msgid "OpenVPN Clients"
 msgstr "OpenVPN-klienter"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:52
+#: js/src/overview/Cards/OpenVPNClientsCard.js:50
 msgid "Go to OpenVPN Client Settings"
 msgstr "Gå til OpenVPN-klientinnstillinger"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:95
+#: js/src/overview/Cards/OpenVPNClientsCard.js:85
 msgid "There are no clients added yet."
 msgstr "Ingen klienter lagt til enda."
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:47
+msgid "Threat Detection"
+msgstr "Trusselsoppdagelse"
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:50
+#, fuzzy
+msgid "Go to Sentinel license agreement"
+msgstr "De viktigste lisensgodkjennelsespunketene"
 
 #: js/src/packageManagement/languages/Languages.js:22
 #, fuzzy
@@ -3238,4 +3275,16 @@ msgstr "500 - Tjenerfeil"
 
 #~ msgid "Unknown"
 #~ msgstr "Ukjent"
+
+#~ msgid "Skip guide"
+#~ msgstr "Hopp over veiledning"
+
+#~ msgid "NetMetr"
+#~ msgstr "NetMetr"
+
+#~ msgid "Go to NetMetr"
+#~ msgstr "Gå til NetMetr"
+
+#~ msgid "Link"
+#~ msgstr "Lenke"
 

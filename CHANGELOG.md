@@ -8,6 +8,31 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.1.0] - 2024-10-09
+
+### Added
+
+-   Added & updated Weblate translations
+-   Added animations for alerts to app.css
+-   Added useSessionTimeout hook and SessionTimeoutModal component
+-   Added missing icons to FontAwesome icons library
+
+### Changed
+
+-   Updated Foris JS library to v6.4.0
+-   Updated Browserslist DB
+-   Updated SkipGuideButton styles to be less expressive
+-   Updated branding to reForis in codebase
+-   Refactored Overview Cards
+-   Refactored ConnectionTest component
+-   Refactored Main.js to use useSessionTimeout hook
+-   Refactored top-bar.html to add margin-bottom for mobile view
+-   Refactored NetMetr card to LibreSpeed card
+-   Refactored CSS styles to use variable for primary color
+-   Refactored SkipGuideButton to use a modal for skipping guide
+-   Fixed theme handleMediaChange to handle favicon change
+-   Other small improvements
+
 ## [3.0.0] - 2024-09-05
 
 ### Added
@@ -581,7 +606,8 @@ and this project adheres to
 
 -   Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.0.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.1.0...master
+[3.1.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.0.0...v3.1.0
 [3.0.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v2.1.0...v3.0.0
 [2.1.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v2.0.0...v2.1.0
 [2.0.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v1.5.0...v2.0.0
