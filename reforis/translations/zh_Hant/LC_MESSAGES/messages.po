@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-05 14:39+0200\n"
+"POT-Creation-Date: 2024-10-09 16:09+0200\n"
 "PO-Revision-Date: 2024-08-14 08:09+0000\n"
 "Last-Translator: Ricky From Hong Kong <lamricky11@hotmail.com>\n"
 "Language: zh_Hant\n"
@@ -69,6 +69,7 @@ msgstr "重置"
 
 #: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:65
 #: js/src/dns/DNSSECDisableModal.js:34
+#: js/src/guide/GuideControls/SkipGuideButton.js:68
 #: js/src/notificationsSettings/TestNotification.js:148
 msgid "Warning!"
 msgstr "警告!"
@@ -80,6 +81,7 @@ msgstr "請你確定是否進行路由器重置?"
 #: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:70
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
 #: js/src/dns/DNSSECDisableModal.js:48
+#: js/src/guide/GuideControls/SkipGuideButton.js:87
 #: js/src/notificationsSettings/TestNotification.js:153
 msgid "Cancel"
 msgstr "取消"
@@ -447,7 +449,8 @@ msgid ""
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
 
-#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:51
+#: js/src/dns/DNS.js:63 js/src/overview/Cards/ConnectionTestCard.js:21
+#: js/src/wan/WAN.js:51
 msgid "Connection Test"
 msgstr "連接測試"
 
@@ -676,12 +679,12 @@ msgid "Enable QoS"
 msgstr "啟用QoS"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:159
-#: js/src/overview/Cards/NetmetrCard.js:74
+#: js/src/overview/Cards/LibrespeedCard.js:64
 msgid "Download"
 msgstr "下載"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
-#: js/src/overview/Cards/NetmetrCard.js:90
+#: js/src/overview/Cards/LibrespeedCard.js:78
 msgid "Upload"
 msgstr "上載"
 
@@ -705,8 +708,9 @@ msgid "All network interfaces of this network are currently down."
 msgstr "該網絡的所有網絡接口當前均處於關閉狀態。"
 
 #: js/src/guide/constants.js:13
+#, fuzzy
 msgid ""
-"Welcome to Foris web interface. This guide will help you to setup your "
+"Welcome to reForis web interface. This guide will help you to setup your "
 "device. Firstly it is required to set your password. Note the security of"
 " your home network is in your hands, so try not to use weak passwords."
 msgstr "歡迎使用Foris網站界面。 本指南將幫助您設置設備。 首先，需要設置您的密碼。 請注意，家庭網絡的安全性掌握在您手中，因此請不要使用弱密碼。"
@@ -889,7 +893,7 @@ msgid "DNS"
 msgstr ""
 
 #: js/src/guide/steps.js:41
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:136
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:138
 #: js/src/main/pages.js:113 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
 msgstr ""
@@ -912,8 +916,28 @@ msgstr ""
 msgid "Next step"
 msgstr ""
 
-#: js/src/guide/GuideControls/SkipGuideButton.js:33
-msgid "Skip guide"
+#: js/src/guide/GuideControls/SkipGuideButton.js:50
+msgid "Skip"
+msgstr ""
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:70
+#, fuzzy
+msgid "Are you sure you want to skip the whole guide?"
+msgstr "請你確定是否進行路由器重置?"
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:72
+msgid "This will skip the guide and you will be redirected to the overview page."
+msgstr ""
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:77
+msgid ""
+"Settings that are not set up during the guide will be set to default "
+"values. And you will have to set them up manually."
+msgstr ""
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:90
+#: js/src/notificationsSettings/TestNotification.js:155
+msgid "Confirm"
 msgstr ""
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
@@ -1114,7 +1138,9 @@ msgstr ""
 
 #: js/src/interfaces/SelectedInterface.js:135
 #: js/src/interfaces/SelectedInterface.js:140
-#: js/src/overview/Cards/NetmetrCard.js:121
+#: js/src/overview/Cards/LibrespeedCard.js:104
+#: js/src/overview/Cards/LibrespeedCard.js:122
+#: js/src/overview/Cards/LibrespeedCard.js:133
 msgid "N/A"
 msgstr ""
 
@@ -1282,28 +1308,27 @@ msgid "Reboot Required"
 msgstr ""
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:73
-#: js/src/overview/Cards/NetmetrCard.js:133
 msgid "Details"
 msgstr ""
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:106
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:108
 msgid "Approve Update"
 msgstr ""
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:135
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
 msgid "See details in "
 msgstr ""
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
 msgid " page."
 msgstr ""
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:144
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:146
 #: js/src/packageManagement/updates/UpdateApproval.js:120
 msgid "Install now"
 msgstr ""
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:154
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:156
 #: js/src/packageManagement/updates/UpdateApproval.js:40
 msgid "Cannot install updates."
 msgstr ""
@@ -1485,10 +1510,6 @@ msgstr ""
 msgid "Send test notification"
 msgstr ""
 
-#: js/src/notificationsSettings/TestNotification.js:155
-msgid "Confirm"
-msgstr ""
-
 #: js/src/notificationsSettings/helpTexts.js:9
 msgid ""
 "If you set SMTP provider to \"Turris\", the servers provided to members "
@@ -1541,73 +1562,87 @@ msgstr ""
 msgid "Minimum port is 1."
 msgstr ""
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:45
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:46
 msgid "Automatic Updates"
 msgstr ""
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:48
-#: js/src/overview/Cards/DataCollectionCard.js:48
-#: js/src/overview/Cards/DynamicFirewallCard.js:29
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:49
+msgid "Go to update settings"
+msgstr ""
+
+#: js/src/overview/Cards/Card.js:45
 msgid "Activated"
 msgstr ""
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:48
-#: js/src/overview/Cards/DataCollectionCard.js:48
-#: js/src/overview/Cards/DynamicFirewallCard.js:29
+#: js/src/overview/Cards/Card.js:45
 msgid "Disabled"
 msgstr ""
 
-#: js/src/overview/Cards/DataCollectionCard.js:45
-msgid "Threat Detection"
-msgstr ""
-
-#: js/src/overview/Cards/DynamicFirewallCard.js:26
+#: js/src/overview/Cards/DynamicFirewallCard.js:23
 msgid "Dynamic Firewall"
 msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:52
-msgid "NetMetr"
+#: js/src/overview/Cards/DynamicFirewallCard.js:26
+msgid "Go to Dynamic Firewall package"
 msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:58
-msgid "Go to NetMetr"
+#: js/src/overview/Cards/LibrespeedCard.js:53
+msgid "LibreSpeed"
 msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:77
-#: js/src/overview/Cards/NetmetrCard.js:93
+#: js/src/overview/Cards/LibrespeedCard.js:55
+msgid "Go to LibreSpeed"
+msgstr ""
+
+#: js/src/overview/Cards/LibrespeedCard.js:67
+#: js/src/overview/Cards/LibrespeedCard.js:81
 msgid "Megabit per second"
 msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:108
+#: js/src/overview/Cards/LibrespeedCard.js:92
 msgid "Ping"
 msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:111
+#: js/src/overview/Cards/LibrespeedCard.js:95
+#: js/src/overview/Cards/LibrespeedCard.js:113
 msgid "Millisecond"
 msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:126
-msgid "Link"
+#: js/src/overview/Cards/LibrespeedCard.js:110
+msgid "Jitter"
 msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:149
+#: js/src/overview/Cards/LibrespeedCard.js:127
+#, fuzzy
+msgid "Server"
+msgstr "DNS服務器2"
+
+#: js/src/overview/Cards/LibrespeedCard.js:142
 msgid "Performed"
 msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:157
+#: js/src/overview/Cards/LibrespeedCard.js:148
 msgid "No tests have been performed lately."
 msgstr ""
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:46
+#: js/src/overview/Cards/OpenVPNClientsCard.js:48
 msgid "OpenVPN Clients"
 msgstr ""
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:52
+#: js/src/overview/Cards/OpenVPNClientsCard.js:50
 msgid "Go to OpenVPN Client Settings"
 msgstr ""
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:95
+#: js/src/overview/Cards/OpenVPNClientsCard.js:85
 msgid "There are no clients added yet."
+msgstr ""
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:47
+msgid "Threat Detection"
+msgstr ""
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:50
+msgid "Go to Sentinel license agreement"
 msgstr ""
 
 #: js/src/packageManagement/languages/Languages.js:22
@@ -2995,5 +3030,17 @@ msgstr ""
 #~ "in the console of your web browser"
 #~ " - on most browsers accessible after"
 #~ " pressing Ctrl+Shift+J or F12."
+#~ msgstr ""
+
+#~ msgid "Skip guide"
+#~ msgstr ""
+
+#~ msgid "NetMetr"
+#~ msgstr ""
+
+#~ msgid "Go to NetMetr"
+#~ msgstr ""
+
+#~ msgid "Link"
 #~ msgstr ""
 

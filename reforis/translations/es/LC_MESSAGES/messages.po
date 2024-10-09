@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-05 14:39+0200\n"
+"POT-Creation-Date: 2024-10-09 16:09+0200\n"
 "PO-Revision-Date: 2024-10-05 22:15+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/turris/reforis/"
-"es/>\n"
 "Language: es\n"
+"Language-Team: Spanish "
+"<https://hosted.weblate.org/projects/turris/reforis/es/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: js/src/about/About.js:18
@@ -76,6 +75,7 @@ msgstr "Resetear"
 
 #: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:65
 #: js/src/dns/DNSSECDisableModal.js:34
+#: js/src/guide/GuideControls/SkipGuideButton.js:68
 #: js/src/notificationsSettings/TestNotification.js:148
 msgid "Warning!"
 msgstr "¡Atención!"
@@ -87,6 +87,7 @@ msgstr "¿Estás seguro de que quieres reiniciar el router?"
 #: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:70
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
 #: js/src/dns/DNSSECDisableModal.js:48
+#: js/src/guide/GuideControls/SkipGuideButton.js:87
 #: js/src/notificationsSettings/TestNotification.js:153
 msgid "Cancel"
 msgstr "Cancelar"
@@ -469,7 +470,8 @@ msgstr ""
 "DNSSEC activado</b> y ponerte en contacto con tu proveedor de servicios "
 "de Internet porque se trata de una deficiencia grave en tu servicio."
 
-#: js/src/dns/DNS.js:63 js/src/overview/Overview.js:73 js/src/wan/WAN.js:51
+#: js/src/dns/DNS.js:63 js/src/overview/Cards/ConnectionTestCard.js:21
+#: js/src/wan/WAN.js:51
 msgid "Connection Test"
 msgstr "Prueba de conexión"
 
@@ -704,12 +706,12 @@ msgid "Enable QoS"
 msgstr "Activar QoS"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:159
-#: js/src/overview/Cards/NetmetrCard.js:74
+#: js/src/overview/Cards/LibrespeedCard.js:64
 msgid "Download"
 msgstr "Descargar"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
-#: js/src/overview/Cards/NetmetrCard.js:90
+#: js/src/overview/Cards/LibrespeedCard.js:78
 msgid "Upload"
 msgstr "Carga"
 
@@ -727,17 +729,18 @@ msgid ""
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
-"Esta red no contiene actualmente ningún dispositivo. Los cambios que realice "
-"aquí serán totalmente funcionales una vez que asigne una interfaz de red a "
-"esta red."
+"Esta red no contiene actualmente ningún dispositivo. Los cambios que "
+"realice aquí serán totalmente funcionales una vez que asigne una interfaz"
+" de red a esta red."
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:17
 msgid "All network interfaces of this network are currently down."
 msgstr "Todas las interfaces de red de esta red están actualmente caídas."
 
 #: js/src/guide/constants.js:13
+#, fuzzy
 msgid ""
-"Welcome to Foris web interface. This guide will help you to setup your "
+"Welcome to reForis web interface. This guide will help you to setup your "
 "device. Firstly it is required to set your password. Note the security of"
 " your home network is in your hands, so try not to use weak passwords."
 msgstr ""
@@ -854,16 +857,16 @@ msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
 msgstr ""
-"¡Felicitaciones! Ahora su dispositivo puede actuar como enrutador y enrutar "
-"el tráfico de red entre redes LAN, WAN y de invitados."
+"¡Felicitaciones! Ahora su dispositivo puede actuar como enrutador y "
+"enrutar el tráfico de red entre redes LAN, WAN y de invitados."
 
 #: js/src/guide/constants.js:90
 msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
 "some further configuration updates to fit the device to your needs."
 msgstr ""
-"La configuración mínima del dispositivo ha finalizado. Tenga en cuenta que "
-"probablemente deba realizar algunas actualizaciones de configuración "
+"La configuración mínima del dispositivo ha finalizado. Tenga en cuenta "
+"que probablemente deba realizar algunas actualizaciones de configuración "
 "adicionales para adaptar el dispositivo a sus necesidades."
 
 #: js/src/guide/constants.js:98
@@ -873,10 +876,10 @@ msgid ""
 "Shield will try to connect to the Internet, and you will end up in the "
 "administration interface."
 msgstr ""
-"Tu dispositivo ya está listo para usarse. Puedes modificar el resto de la "
-"configuración en la interfaz de administración. Una vez que termines la "
-"guía, tu Shield intentará conectarse a Internet y accederás a la interfaz de "
-"administración."
+"Tu dispositivo ya está listo para usarse. Puedes modificar el resto de la"
+" configuración en la interfaz de administración. Una vez que termines la "
+"guía, tu Shield intentará conectarse a Internet y accederás a la interfaz"
+" de administración."
 
 #: js/src/guide/constants.js:109
 msgid ""
@@ -947,8 +950,8 @@ msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
 msgstr ""
-"¡Enhorabuena! Ahora tu dispositivo debería poder actuar como servidor en tu "
-"red local."
+"¡Enhorabuena! Ahora tu dispositivo debería poder actuar como servidor en "
+"tu red local."
 
 #: js/src/guide/hooks.js:24
 msgid "Cannot mark guide as finished."
@@ -977,7 +980,7 @@ msgid "DNS"
 msgstr "DNS"
 
 #: js/src/guide/steps.js:41
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:136
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:138
 #: js/src/main/pages.js:113 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
 msgstr "Actualizaciones"
@@ -1000,9 +1003,29 @@ msgstr "Finalizar"
 msgid "Next step"
 msgstr "Próximo paso"
 
-#: js/src/guide/GuideControls/SkipGuideButton.js:33
-msgid "Skip guide"
-msgstr "Omitir guía"
+#: js/src/guide/GuideControls/SkipGuideButton.js:50
+msgid "Skip"
+msgstr ""
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:70
+#, fuzzy
+msgid "Are you sure you want to skip the whole guide?"
+msgstr "¿Estás seguro de que quieres reiniciar el router?"
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:72
+msgid "This will skip the guide and you will be redirected to the overview page."
+msgstr ""
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:77
+msgid ""
+"Settings that are not set up during the guide will be set to default "
+"values. And you will have to set them up manually."
+msgstr ""
+
+#: js/src/guide/GuideControls/SkipGuideButton.js:90
+#: js/src/notificationsSettings/TestNotification.js:155
+msgid "Confirm"
+msgstr ""
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
@@ -1013,8 +1036,8 @@ msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
-"Tan pronto como salgas del asistente, tendrás acceso completo a la interfaz "
-"de configuración de este dispositivo."
+"Tan pronto como salgas del asistente, tendrás acceso completo a la "
+"interfaz de configuración de este dispositivo."
 
 #: js/src/guide/GuidePages/GuideFinish.js:27
 msgid ""
@@ -1024,10 +1047,10 @@ msgid ""
 "dynamic firewall updates blocking known attackers."
 msgstr ""
 "Para mejorar aún más su seguridad, considere instalar el complemento de "
-"recopilación de datos (a través de la Administración de paquetes). Esto le "
-"permitirá ser parte de nuestra investigación de seguridad para descubrir "
-"nuevos atacantes y le dará acceso a actualizaciones dinámicas del firewall "
-"que bloquean a los atacantes conocidos."
+"recopilación de datos (a través de la Administración de paquetes). Esto "
+"le permitirá ser parte de nuestra investigación de seguridad para "
+"descubrir nuevos atacantes y le dará acceso a actualizaciones dinámicas "
+"del firewall que bloquean a los atacantes conocidos."
 
 #: js/src/guide/GuidePages/GuideFinish.js:33
 msgid "Continue"
@@ -1060,8 +1083,9 @@ msgid ""
 "Just set your password and you are ready to go. This workflow is aimed to"
 " more advanced users who intend to set everything manually."
 msgstr ""
-"Solo tienes que configurar tu contraseña y listo. Este flujo de trabajo está "
-"dirigido a usuarios más avanzados que quieran configurar todo manualmente."
+"Solo tienes que configurar tu contraseña y listo. Este flujo de trabajo "
+"está dirigido a usuarios más avanzados que quieran configurar todo "
+"manualmente."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:38
 msgid "Local Server"
@@ -1088,8 +1112,8 @@ msgid ""
 "Here you can set the guide walkthrough which will guide you through the "
 "basic configuration of your device."
 msgstr ""
-"Aquí podrás configurar la guía que te guiará a través de la configuración "
-"básica de tu dispositivo."
+"Aquí podrás configurar la guía que te guiará a través de la configuración"
+" básica de tu dispositivo."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:85
 msgid "Recommended"
@@ -1222,7 +1246,9 @@ msgstr "Velocidad de enlace"
 
 #: js/src/interfaces/SelectedInterface.js:135
 #: js/src/interfaces/SelectedInterface.js:140
-#: js/src/overview/Cards/NetmetrCard.js:121
+#: js/src/overview/Cards/LibrespeedCard.js:104
+#: js/src/overview/Cards/LibrespeedCard.js:122
+#: js/src/overview/Cards/LibrespeedCard.js:133
 msgid "N/A"
 msgstr "No disponible"
 
@@ -1389,30 +1415,29 @@ msgid "Reboot Required"
 msgstr ""
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:73
-#: js/src/overview/Cards/NetmetrCard.js:133
 msgid "Details"
 msgstr "Detalles"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:106
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:108
 msgid "Approve Update"
 msgstr ""
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:135
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
 #, fuzzy
 msgid "See details in "
 msgstr "Detalles"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
 #, fuzzy
 msgid " page."
 msgstr "Paquetes"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:144
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:146
 #: js/src/packageManagement/updates/UpdateApproval.js:120
 msgid "Install now"
 msgstr ""
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:154
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:156
 #: js/src/packageManagement/updates/UpdateApproval.js:40
 msgid "Cannot install updates."
 msgstr ""
@@ -1599,10 +1624,6 @@ msgstr ""
 msgid "Send test notification"
 msgstr ""
 
-#: js/src/notificationsSettings/TestNotification.js:155
-msgid "Confirm"
-msgstr ""
-
 #: js/src/notificationsSettings/helpTexts.js:9
 msgid ""
 "If you set SMTP provider to \"Turris\", the servers provided to members "
@@ -1657,73 +1678,90 @@ msgstr "El puerto máximo es 65535."
 msgid "Minimum port is 1."
 msgstr "El puerto mínimo es 1."
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:45
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:46
 msgid "Automatic Updates"
 msgstr ""
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:48
-#: js/src/overview/Cards/DataCollectionCard.js:48
-#: js/src/overview/Cards/DynamicFirewallCard.js:29
+#: js/src/overview/Cards/AutomaticUpdatesCard.js:49
+#, fuzzy
+msgid "Go to update settings"
+msgstr "Configuración del nombre de host"
+
+#: js/src/overview/Cards/Card.js:45
 msgid "Activated"
 msgstr ""
 
-#: js/src/overview/Cards/AutomaticUpdatesCard.js:48
-#: js/src/overview/Cards/DataCollectionCard.js:48
-#: js/src/overview/Cards/DynamicFirewallCard.js:29
+#: js/src/overview/Cards/Card.js:45
 msgid "Disabled"
 msgstr "Desactivado"
 
-#: js/src/overview/Cards/DataCollectionCard.js:45
-msgid "Threat Detection"
-msgstr ""
-
-#: js/src/overview/Cards/DynamicFirewallCard.js:26
+#: js/src/overview/Cards/DynamicFirewallCard.js:23
 msgid "Dynamic Firewall"
 msgstr "Cortafuegos dinámico"
 
-#: js/src/overview/Cards/NetmetrCard.js:52
-msgid "NetMetr"
-msgstr "NetMetr"
+#: js/src/overview/Cards/DynamicFirewallCard.js:26
+#, fuzzy
+msgid "Go to Dynamic Firewall package"
+msgstr "Cortafuegos dinámico"
 
-#: js/src/overview/Cards/NetmetrCard.js:58
-msgid "Go to NetMetr"
+#: js/src/overview/Cards/LibrespeedCard.js:53
+#, fuzzy
+msgid "LibreSpeed"
+msgstr "Velocidad de enlace"
+
+#: js/src/overview/Cards/LibrespeedCard.js:55
+msgid "Go to LibreSpeed"
 msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:77
-#: js/src/overview/Cards/NetmetrCard.js:93
+#: js/src/overview/Cards/LibrespeedCard.js:67
+#: js/src/overview/Cards/LibrespeedCard.js:81
 msgid "Megabit per second"
 msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:108
+#: js/src/overview/Cards/LibrespeedCard.js:92
 msgid "Ping"
 msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:111
+#: js/src/overview/Cards/LibrespeedCard.js:95
+#: js/src/overview/Cards/LibrespeedCard.js:113
 msgid "Millisecond"
 msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:126
-msgid "Link"
-msgstr "Enlace"
+#: js/src/overview/Cards/LibrespeedCard.js:110
+msgid "Jitter"
+msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:149
+#: js/src/overview/Cards/LibrespeedCard.js:127
+#, fuzzy
+msgid "Server"
+msgstr "Nunca"
+
+#: js/src/overview/Cards/LibrespeedCard.js:142
 msgid "Performed"
 msgstr ""
 
-#: js/src/overview/Cards/NetmetrCard.js:157
+#: js/src/overview/Cards/LibrespeedCard.js:148
 msgid "No tests have been performed lately."
 msgstr ""
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:46
+#: js/src/overview/Cards/OpenVPNClientsCard.js:48
 msgid "OpenVPN Clients"
 msgstr ""
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:52
+#: js/src/overview/Cards/OpenVPNClientsCard.js:50
 msgid "Go to OpenVPN Client Settings"
 msgstr ""
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:95
+#: js/src/overview/Cards/OpenVPNClientsCard.js:85
 msgid "There are no clients added yet."
+msgstr ""
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:47
+msgid "Threat Detection"
+msgstr ""
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:50
+msgid "Go to Sentinel license agreement"
 msgstr ""
 
 #: js/src/packageManagement/languages/Languages.js:22
@@ -3101,3 +3139,16 @@ msgstr ""
 #~ " - on most browsers accessible after"
 #~ " pressing Ctrl+Shift+J or F12."
 #~ msgstr ""
+
+#~ msgid "Skip guide"
+#~ msgstr "Omitir guía"
+
+#~ msgid "NetMetr"
+#~ msgstr "NetMetr"
+
+#~ msgid "Go to NetMetr"
+#~ msgstr ""
+
+#~ msgid "Link"
+#~ msgstr "Enlace"
+
