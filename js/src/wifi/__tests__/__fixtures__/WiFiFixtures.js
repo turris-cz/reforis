@@ -24,7 +24,7 @@ export const wifiFixtures = {
                         },
                     ],
                     available_htmodes: ["NOHT", "HT20", "HT40"],
-                    hwmode: "11g",
+                    band: "2g",
                 },
                 {
                     available_channels: [
@@ -47,7 +47,7 @@ export const wifiFixtures = {
                         "VHT40",
                         "VHT80",
                     ],
-                    hwmode: "11a",
+                    band: "5g",
                 },
             ],
             channel: 36,
@@ -60,7 +60,7 @@ export const wifiFixtures = {
             },
             hidden: false,
             htmode: "VHT80",
-            hwmode: "11a",
+            band: "5g",
             id: 0,
             password: "testpass",
         },
@@ -81,7 +81,7 @@ export const wifiFixtures = {
                         },
                     ],
                     available_htmodes: ["NOHT", "HT20", "HT40"],
-                    hwmode: "11g",
+                    band: "2g",
                 },
                 {
                     available_channels: [
@@ -104,7 +104,7 @@ export const wifiFixtures = {
                         "VHT40",
                         "VHT80",
                     ],
-                    hwmode: "11a",
+                    band: "5g",
                 },
             ],
             channel: 36,
@@ -117,7 +117,7 @@ export const wifiFixtures = {
             },
             hidden: false,
             htmode: "VHT80",
-            hwmode: "11a",
+            band: "5g",
             id: 1,
             password: "testpass",
         },
