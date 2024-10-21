@@ -25,7 +25,7 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -59,7 +59,7 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -113,7 +113,7 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -144,7 +144,7 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -164,7 +164,7 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -184,7 +184,7 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -204,7 +204,7 @@ exports[`<Interfaces/> Snapshot after interface moving. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -380,7 +380,7 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -414,7 +414,7 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -468,7 +468,7 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -499,7 +499,7 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -519,7 +519,7 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -539,7 +539,7 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -559,7 +559,7 @@ exports[`<Interfaces/> Snapshot select interface. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -735,7 +735,7 @@ exports[`<Interfaces/> Snapshot. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -769,7 +769,7 @@ exports[`<Interfaces/> Snapshot. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -803,7 +803,7 @@ exports[`<Interfaces/> Snapshot. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -823,7 +823,7 @@ exports[`<Interfaces/> Snapshot. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -854,7 +854,7 @@ exports[`<Interfaces/> Snapshot. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -874,7 +874,7 @@ exports[`<Interfaces/> Snapshot. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -894,7 +894,7 @@ exports[`<Interfaces/> Snapshot. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -914,7 +914,7 @@ exports[`<Interfaces/> Snapshot. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -983,7 +983,7 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -1021,7 +1021,7 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
             class="scrollable"
           >
             <button
-              class="text-body interface "
+              class="text-body interface"
               type="button"
             >
               <span
@@ -1050,7 +1050,7 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
             class="scrollable"
           >
             <button
-              class="text-body interface "
+              class="text-body interface"
               type="button"
             >
               <span
@@ -1089,7 +1089,7 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
             class="scrollable"
           >
             <button
-              class="text-body interface "
+              class="text-body interface"
               type="button"
             >
               <span
@@ -1150,7 +1150,7 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -1170,7 +1170,7 @@ exports[`<Interfaces/> with various modules Snapshot select interface. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -1340,7 +1340,7 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -1378,7 +1378,7 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
             class="scrollable"
           >
             <button
-              class="text-body interface "
+              class="text-body interface"
               type="button"
             >
               <span
@@ -1407,7 +1407,7 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
             class="scrollable"
           >
             <button
-              class="text-body interface "
+              class="text-body interface"
               type="button"
             >
               <span
@@ -1446,7 +1446,7 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
             class="scrollable"
           >
             <button
-              class="text-body interface "
+              class="text-body interface"
               type="button"
             >
               <span
@@ -1475,7 +1475,7 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
             class="scrollable"
           >
             <button
-              class="text-body interface "
+              class="text-body interface"
               type="button"
             >
               <span
@@ -1507,7 +1507,7 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -1527,7 +1527,7 @@ exports[`<Interfaces/> with various modules Snapshot. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
