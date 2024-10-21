@@ -5,7 +5,7 @@
  * See /LICENSE for more information.
  */
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
@@ -24,15 +24,28 @@ NavigationItem.propTypes = {
 
 export default function NavigationItem({ path, children, isLinkOutside }) {
     const history = useHistory();
+    const [isMobileScreen, setIsMobileScreen] = useState(
+        window.innerWidth <= smallScreenWidth
+    );
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobileScreen(window.innerWidth <= smallScreenWidth);
+        };
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
 
     const handleClick = (e) => {
-        if (window.outerWidth <= smallScreenWidth) {
+        if (isMobileScreen) {
             e.preventDefault();
             history.push(path);
         }
     };
-
-    const isMobileScreen = window.outerWidth <= smallScreenWidth;
 
     const mobileNavigationCollapse = {};
     if (isMobileScreen) {
@@ -55,7 +68,8 @@ export default function NavigationItem({ path, children, isLinkOutside }) {
                     <sup>
                         <FontAwesomeIcon
                             icon="fa-solid fa-external-link-alt"
-                            className="fa-xs ms-1"
+                            size="xs"
+                            className="ms-1"
                         />
                     </sup>
                 </a>
