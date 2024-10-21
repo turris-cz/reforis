@@ -23,7 +23,7 @@ export default function DynamicFirewallCard({ enabled }) {
             title={_("Dynamic Firewall")}
             enabled={enabled}
             linkTo={ForisURLs.packageManagementPackages}
-            linkTitle={_("Go to Dynamic Firewall package")}
+            linkTitle={_("Go to Dynamic Firewall package installation")}
         />
     );
 }
