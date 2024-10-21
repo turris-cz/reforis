@@ -209,7 +209,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -243,7 +243,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -277,7 +277,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -297,7 +297,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -328,7 +328,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
           class="scrollable"
         >
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -348,7 +348,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -368,7 +368,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
@@ -388,7 +388,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
             </h5>
           </button>
           <button
-            class="text-body interface "
+            class="text-body interface"
             type="button"
           >
             <span
