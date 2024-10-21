@@ -34,7 +34,7 @@ export default function Interface({
     return (
         <button
             type="button"
-            className={`text-body interface ${isSelected ? "interface-selected" : ""}`}
+            className={`text-body interface ${isSelected ? "interface-selected" : ""}`.trim()}
             onClick={onClick}
         >
             <InterfaceIcon
@@ -82,12 +82,15 @@ function EthInterfaceIcon({ state }) {
         <span className="fa-stack fa-2x">
             <FontAwesomeIcon
                 icon="fa-regular fa-square"
-                className="fa-stack-2x"
+                className={`fa-stack-2x ${
+                    state === "down" ? "opacity-25" : ""
+                }`.trim()}
             />
             <FontAwesomeIcon
                 icon="fa-solid fa-ethernet"
-                className="fa-stack-1x"
-                style={state === "down" ? { color: "lightgrey" } : null}
+                className={`fa-stack-1x ${
+                    state === "down" ? "opacity-25" : ""
+                }`.trim()}
             />
         </span>
     );
