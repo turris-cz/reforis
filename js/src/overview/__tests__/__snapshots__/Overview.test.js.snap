@@ -60,8 +60,8 @@ exports[`Overview Snapshot of the whole page 1`] = `
           >
             <a
               class="align-self-start text-secondary text-decoration-none mb-2"
-              href="/sentinel/agreement"
-              title="Go to Sentinel license agreement"
+              href="/package-management/packages"
+              title="Go to Sentinel package installation"
             >
               <h6
                 class="text-uppercase text-muted mb-0"
@@ -99,7 +99,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
             <a
               class="align-self-start text-secondary text-decoration-none mb-2"
               href="/package-management/packages"
-              title="Go to Dynamic Firewall package"
+              title="Go to Dynamic Firewall package installation"
             >
               <h6
                 class="text-uppercase text-muted mb-0"
