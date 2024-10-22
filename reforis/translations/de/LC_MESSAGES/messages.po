@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-10-09 16:09+0200\n"
-"PO-Revision-Date: 2023-09-08 13:56+0000\n"
-"Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
+"PO-Revision-Date: 2024-10-22 10:40+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/turris/reforis/de/"
+">\n"
 "Language: de\n"
-"Language-Team: German "
-"<https://hosted.weblate.org/projects/turris/reforis/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.8-rc\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: js/src/about/About.js:18
@@ -424,9 +425,8 @@ msgid "Connection test failed"
 msgstr "Verbindung prüfen fehlgeschlagen"
 
 #: js/src/connectionTest/ConnectionTestResult.js:96
-#, fuzzy
 msgid "Connection test cannot be determined"
-msgstr "Verbindungsprüfung nicht gestartet"
+msgstr "Verbindungstest kann nicht ermittelt werden"
 
 #: js/src/connectionTest/ConnectionTestResult.js:101
 msgid "Connection test not started"
@@ -742,16 +742,15 @@ msgid "All network interfaces of this network are currently down."
 msgstr "Alle Netzwerkschnittstellen dieses Netzwerks sind derzeit deaktiviert."
 
 #: js/src/guide/constants.js:13
-#, fuzzy
 msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
 "device. Firstly it is required to set your password. Note the security of"
 " your home network is in your hands, so try not to use weak passwords."
 msgstr ""
-"Willkommen zu Foris. Diese Anleitung wird Ihnen helfen, Ihr Gerät "
-"einzurichten. Als erstes muss ein Passwort gesetzt werden. Bitte beachten"
-" Sie dabei, dass die Sicherheit Ihres Heimnetzwerkes in Ihren Händen "
-"liegt und Sie daher kein zu einfaches Passwort wählen sollten."
+"Willkommen bei der reForis-Weboberfläche. Diese Anleitung hilft Ihnen bei "
+"der Einrichtung Ihres Geräts. Als Erstes müssen Sie Ihr Passwort festlegen. "
+"Beachten Sie, dass die Sicherheit Ihres Heimnetzwerks in Ihren Händen liegt, "
+"also versuchen Sie, keine schwachen Passwörter zu verwenden."
 
 #: js/src/guide/constants.js:17
 msgid "Your password is set. You may proceed to the next step."
@@ -1018,22 +1017,25 @@ msgstr "Nächster Schritt"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:50
 msgid "Skip"
-msgstr ""
+msgstr "Überspringen"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:70
-#, fuzzy
 msgid "Are you sure you want to skip the whole guide?"
-msgstr "Wollen Sie den Router wirklich zurücksetzen?"
+msgstr "Sind Sie sicher, dass Sie die ganze Anleitung überspringen möchten?"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:72
 msgid "This will skip the guide and you will be redirected to the overview page."
 msgstr ""
+"Dadurch wird die Anleitung übersprungen und Sie werden zur Übersichtsseite "
+"weitergeleitet."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:77
 msgid ""
 "Settings that are not set up during the guide will be set to default "
 "values. And you will have to set them up manually."
 msgstr ""
+"Einstellungen, die nicht während der Anleitung vorgenommen werden, werden "
+"auf Standardwerte gesetzt. Sie müssen sie dann manuell einstellen."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:155
@@ -1246,7 +1248,7 @@ msgstr "Netzwerk"
 
 #: js/src/interfaces/SelectedInterface.js:93
 msgid "State"
-msgstr "Zustand"
+msgstr "Status"
 
 #: js/src/interfaces/SelectedInterface.js:107
 msgid "Module ID"
@@ -1261,9 +1263,8 @@ msgid "Interface ID"
 msgstr "Schnittstellen-ID"
 
 #: js/src/interfaces/SelectedInterface.js:120
-#, fuzzy
 msgid "VLAN ID"
-msgstr "LAN-Modus"
+msgstr "VLAN-Kennung"
 
 #: js/src/interfaces/SelectedInterface.js:125
 msgid "Type"
@@ -1434,21 +1435,19 @@ msgstr "Abmelden"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:20
 msgid "Light"
-msgstr ""
+msgstr "Hell"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:25
 msgid "Dark"
-msgstr ""
+msgstr "Dunkel"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:30
-#, fuzzy
 msgid "Auto"
-msgstr "Info"
+msgstr "Automatisch"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
-#, fuzzy
 msgid "Dark Mode"
-msgstr "LAN-Modus"
+msgstr "Dunkler Modus"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:38
 #: js/src/notifications/Notifications/Notifications.js:56
@@ -1473,14 +1472,12 @@ msgid "Approve Update"
 msgstr "Update freigeben"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
-#, fuzzy
 msgid "See details in "
-msgstr "Weitere Details"
+msgstr "Siehe Details in "
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
-#, fuzzy
 msgid " page."
-msgstr "Pakete"
+msgstr " Seite."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:146
 #: js/src/packageManagement/updates/UpdateApproval.js:120
@@ -1561,7 +1558,7 @@ msgstr "System-Log-Beibehaltung aktivieren"
 #: js/src/notifications/Notifications/NotificationsList.js:97
 #: js/src/packageManagement/updateSettings/LicenseModal.js:37
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
@@ -1766,9 +1763,8 @@ msgid "Automatic Updates"
 msgstr "Automatische Updates"
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:49
-#, fuzzy
 msgid "Go to update settings"
-msgstr "Update-Einstellungen"
+msgstr "Zu den Aktualisierungseinstellungen gehen"
 
 #: js/src/overview/Cards/Card.js:45
 msgid "Activated"
@@ -1783,18 +1779,16 @@ msgid "Dynamic Firewall"
 msgstr "Dynamische Firewall"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
-#, fuzzy
 msgid "Go to Dynamic Firewall package"
-msgstr "Dynamische Firewall"
+msgstr "Zum Dynamischen Firewall-Paket gehen"
 
 #: js/src/overview/Cards/LibrespeedCard.js:53
-#, fuzzy
 msgid "LibreSpeed"
-msgstr "Verbindungsgeschwindigkeit"
+msgstr "LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:55
 msgid "Go to LibreSpeed"
-msgstr ""
+msgstr "Zu LibreSpeed gehen"
 
 #: js/src/overview/Cards/LibrespeedCard.js:67
 #: js/src/overview/Cards/LibrespeedCard.js:81
@@ -1815,9 +1809,8 @@ msgid "Jitter"
 msgstr ""
 
 #: js/src/overview/Cards/LibrespeedCard.js:127
-#, fuzzy
 msgid "Server"
-msgstr "Nie"
+msgstr "Server"
 
 #: js/src/overview/Cards/LibrespeedCard.js:142
 msgid "Performed"
@@ -1844,9 +1837,8 @@ msgid "Threat Detection"
 msgstr "Bedrohungserkennung"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:50
-#, fuzzy
 msgid "Go to Sentinel license agreement"
-msgstr "Die wichtigsten Punkte der Lizenzvereinbarung"
+msgstr "Zur Sentinel-Lizenzvereinbarung gehen"
 
 #: js/src/packageManagement/languages/Languages.js:22
 msgid ""
@@ -1886,21 +1878,14 @@ msgid "Most Important License Agreement Points"
 msgstr "Die wichtigsten Punkte der Lizenzvereinbarung"
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:47
-#, fuzzy
 msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the "
 msgstr ""
-"Durch Einschalten der automatischen Updates bestätigen Sie, dass Sie der "
-"Eigentümer dieses Turris-Routers sind der <a href=\"https://www.turris.cz"
-"/omnia-updater-eula\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">Lizenzvereinbarung <sup><i class=\"fas fa-external-link-alt "
-"fa-sm\"></i></sup></a> vollständig zustimmen."
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
-#, fuzzy
 msgid "license agreement"
-msgstr "Die wichtigsten Punkte der Lizenzvereinbarung"
+msgstr "Lizenzvereinbarung"
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
 msgid ""
@@ -1923,16 +1908,15 @@ msgstr ""
 "anfällig bleiben."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
-#, fuzzy
 msgid ""
 "By turning the automatic updates on, you agree to this feature's license "
 "agreement. More information is available <a href=\"\" data-bs-"
 "toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
-"Durch Einschalten der automatischen Updates stimmen Sie der "
-"Lizenzvereinbarung dieser Funktionalität zu. Weitere Informationen sind "
-"<a href=\"\" data-toggle=\"modal\" data-target=\"#licenceModal\">hier</a>"
-" verfügbar."
+"Wenn Sie die automatischen Aktualisierungen aktivieren, stimmen Sie der "
+"Lizenzvereinbarung für diese Funktion zu. Weitere Informationen finden Sie "
+"<a href=\"\" data-bs-toggle=\"modal\" data-bs-target=\"#licenseModal\""
+">hier</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
@@ -2106,14 +2090,12 @@ msgstr[0] "Es gibt %d Paket zu aktualisieren."
 msgstr[1] "Es gibt %d Pakete zu aktualisieren."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:69
-#, fuzzy
 msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
-"Siehe die <a data-toggle=\"collapse\" href=\"#plan-wrapper\" "
-"role=\"button\" aria-expanded=\"false\" aria-controls=\"plan-"
-"wrapper\">Details</a>"
+"Siehe die <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button"
+"\" aria-expanded=\"false\" aria-controls=\"plan-wrapper\">Details</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
 msgid ""
@@ -2444,25 +2426,24 @@ msgid "Rebooting"
 msgstr "Neustart läuft"
 
 #: js/src/utils/ErrorBoundary.js:34
-#, fuzzy
 msgid "An Error Occurred - reForis | Turris"
-msgstr "Ein Fehler ist aufgetreten"
+msgstr "Ein Fehler ist aufgetreten - reForis | Turris"
 
 #: js/src/utils/ErrorBoundary.js:37
 msgid "Oops! Something went wrong:"
-msgstr ""
+msgstr "Hoppla! Etwas ist schiefgelaufen:"
 
 #: js/src/utils/ErrorBoundary.js:43
-#, fuzzy
 msgid ""
 "More detailed information is available in the console of your web "
 "browser. On most browsers accessible after pressing "
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
-"Weitere, detailliertere Informationen sind in der Konsole Ihres "
-"Webbrowsers verfügbar - in den meisten Browsern dazu Strg+Umschalt+J oder"
-" F12 drücken."
+"Ausführlichere Informationen finden Sie in der Konsole Ihres Webbrowsers. "
+"Bei den meisten Browsern können Sie darauf zugreifen, nachdem Sie "
+"<kbd><kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>J</kbd></kbd> oder <kbd>F12</"
+"kbd> gedrückt haben."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
@@ -2474,7 +2455,7 @@ msgstr ""
 
 #: js/src/utils/SkipLink.js:23
 msgid "Skip to main content"
-msgstr ""
+msgstr "Zum Hauptinhalt springen"
 
 #: js/src/wan/MACForm.js:14
 msgid ""
@@ -3368,4 +3349,3 @@ msgstr "500 - Serverfehler"
 
 #~ msgid "Link"
 #~ msgstr "Link"
-
