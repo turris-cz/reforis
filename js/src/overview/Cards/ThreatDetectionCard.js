@@ -18,7 +18,11 @@ import PropTypes from "prop-types";
 import { API_MODULE_URLs } from "common/API";
 import Card from "overview/Cards/Card";
 
-export default function DataCollection() {
+ThreatDetection.propTypes = {
+    isInstalled: PropTypes.bool.isRequired,
+};
+
+export default function ThreatDetection({ isInstalled }) {
     const [getSentinelResponse, getSentinel] = useAPIGet(
         API_MODULE_URLs.sentinel
     );
@@ -30,6 +34,7 @@ export default function DataCollection() {
         <ThreatDetectionCardWithErrorAndSpinner
             apiState={getSentinelResponse.state}
             details={getSentinelResponse.data || {}}
+            isInstalled={isInstalled}
         />
     );
 }
@@ -37,17 +42,27 @@ export default function DataCollection() {
 ThreatDetectionCard.propTypes = {
     details: PropTypes.oneOfType([PropTypes.string, PropTypes.object])
         .isRequired,
+    isInstalled: PropTypes.bool.isRequired,
 };
 
-function ThreatDetectionCard({ details: { eula } }) {
+function ThreatDetectionCard({ details: { eula }, isInstalled }) {
     const enabled = eula === 1;
+
+    const linkToThreatDetection = isInstalled
+        ? ForisURLs.sentinelLicenseAgreement
+        : ForisURLs.packageManagementPackages;
+
+    const sentinelLinkTitle = isInstalled
+        ? _("Go to Sentinel license agreement")
+        : _("Go to Sentinel package installation");
+
     return (
         <Card
             firstRow
             title={_("Threat Detection")}
             enabled={enabled}
-            linkTo={ForisURLs.sentinelLicenseAgreement}
-            linkTitle={_("Go to Sentinel license agreement")}
+            linkTo={linkToThreatDetection}
+            linkTitle={sentinelLinkTitle}
         />
     );
 }

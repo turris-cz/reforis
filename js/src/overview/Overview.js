@@ -60,7 +60,12 @@ function OverviewCards({ packages, ws }) {
         <>
             <div className="row row-cols-1 row-cols-lg-3">
                 <AutomaticUpdatesCard />
-                <ThreatDetectionCard />
+                <ThreatDetectionCard
+                    isInstalled={
+                        displayCard(packages, "datacollect") &&
+                        isPluginInstalled("Sentinel")
+                    }
+                />
                 <DynamicFirewallCard enabled={displayCard(packages, "dynfw")} />
             </div>
             <div className="row row-cols-1 row-cols-lg-3">
