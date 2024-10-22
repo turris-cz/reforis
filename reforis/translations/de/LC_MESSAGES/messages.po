@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-09 16:09+0200\n"
+"POT-Creation-Date: 2024-10-22 13:15+0200\n"
 "PO-Revision-Date: 2024-10-22 10:40+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/turris/reforis/de/"
-">\n"
 "Language: de\n"
+"Language-Team: German "
+"<https://hosted.weblate.org/projects/turris/reforis/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-rc\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: js/src/about/About.js:18
@@ -747,10 +746,11 @@ msgid ""
 "device. Firstly it is required to set your password. Note the security of"
 " your home network is in your hands, so try not to use weak passwords."
 msgstr ""
-"Willkommen bei der reForis-Weboberfläche. Diese Anleitung hilft Ihnen bei "
-"der Einrichtung Ihres Geräts. Als Erstes müssen Sie Ihr Passwort festlegen. "
-"Beachten Sie, dass die Sicherheit Ihres Heimnetzwerks in Ihren Händen liegt, "
-"also versuchen Sie, keine schwachen Passwörter zu verwenden."
+"Willkommen bei der reForis-Weboberfläche. Diese Anleitung hilft Ihnen bei"
+" der Einrichtung Ihres Geräts. Als Erstes müssen Sie Ihr Passwort "
+"festlegen. Beachten Sie, dass die Sicherheit Ihres Heimnetzwerks in Ihren"
+" Händen liegt, also versuchen Sie, keine schwachen Passwörter zu "
+"verwenden."
 
 #: js/src/guide/constants.js:17
 msgid "Your password is set. You may proceed to the next step."
@@ -1026,16 +1026,16 @@ msgstr "Sind Sie sicher, dass Sie die ganze Anleitung überspringen möchten?"
 #: js/src/guide/GuideControls/SkipGuideButton.js:72
 msgid "This will skip the guide and you will be redirected to the overview page."
 msgstr ""
-"Dadurch wird die Anleitung übersprungen und Sie werden zur Übersichtsseite "
-"weitergeleitet."
+"Dadurch wird die Anleitung übersprungen und Sie werden zur "
+"Übersichtsseite weitergeleitet."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:77
 msgid ""
 "Settings that are not set up during the guide will be set to default "
 "values. And you will have to set them up manually."
 msgstr ""
-"Einstellungen, die nicht während der Anleitung vorgenommen werden, werden "
-"auf Standardwerte gesetzt. Sie müssen sie dann manuell einstellen."
+"Einstellungen, die nicht während der Anleitung vorgenommen werden, werden"
+" auf Standardwerte gesetzt. Sie müssen sie dann manuell einstellen."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:155
@@ -1779,7 +1779,8 @@ msgid "Dynamic Firewall"
 msgstr "Dynamische Firewall"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
-msgid "Go to Dynamic Firewall package"
+#, fuzzy
+msgid "Go to Dynamic Firewall package installation"
 msgstr "Zum Dynamischen Firewall-Paket gehen"
 
 #: js/src/overview/Cards/LibrespeedCard.js:53
@@ -1832,13 +1833,18 @@ msgstr "Zu den OpenVPN-Client-Einstellungen gehen"
 msgid "There are no clients added yet."
 msgstr "Noch sind keine Clients hinzugefügt worden."
 
-#: js/src/overview/Cards/ThreatDetectionCard.js:47
-msgid "Threat Detection"
-msgstr "Bedrohungserkennung"
-
-#: js/src/overview/Cards/ThreatDetectionCard.js:50
+#: js/src/overview/Cards/ThreatDetectionCard.js:56
 msgid "Go to Sentinel license agreement"
 msgstr "Zur Sentinel-Lizenzvereinbarung gehen"
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:57
+#, fuzzy
+msgid "Go to Sentinel package installation"
+msgstr "Automatische Installation"
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:62
+msgid "Threat Detection"
+msgstr "Bedrohungserkennung"
 
 #: js/src/packageManagement/languages/Languages.js:22
 msgid ""
@@ -1914,9 +1920,9 @@ msgid ""
 "toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
 "Wenn Sie die automatischen Aktualisierungen aktivieren, stimmen Sie der "
-"Lizenzvereinbarung für diese Funktion zu. Weitere Informationen finden Sie "
-"<a href=\"\" data-bs-toggle=\"modal\" data-bs-target=\"#licenseModal\""
-">hier</a>."
+"Lizenzvereinbarung für diese Funktion zu. Weitere Informationen finden "
+"Sie <a href=\"\" data-bs-toggle=\"modal\" data-bs-"
+"target=\"#licenseModal\">hier</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
@@ -2094,8 +2100,9 @@ msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
-"Siehe die <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button"
-"\" aria-expanded=\"false\" aria-controls=\"plan-wrapper\">Details</a>"
+"Siehe die <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" "
+"role=\"button\" aria-expanded=\"false\" aria-controls=\"plan-"
+"wrapper\">Details</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
 msgid ""
@@ -2440,10 +2447,10 @@ msgid ""
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
-"Ausführlichere Informationen finden Sie in der Konsole Ihres Webbrowsers. "
-"Bei den meisten Browsern können Sie darauf zugreifen, nachdem Sie "
-"<kbd><kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>J</kbd></kbd> oder <kbd>F12</"
-"kbd> gedrückt haben."
+"Ausführlichere Informationen finden Sie in der Konsole Ihres Webbrowsers."
+" Bei den meisten Browsern können Sie darauf zugreifen, nachdem Sie "
+"<kbd><kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>J</kbd></kbd> oder "
+"<kbd>F12</kbd> gedrückt haben."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
@@ -3349,3 +3356,4 @@ msgstr "500 - Serverfehler"
 
 #~ msgid "Link"
 #~ msgstr "Link"
+

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-09 16:09+0200\n"
+"POT-Creation-Date: 2024-10-22 13:15+0200\n"
 "PO-Revision-Date: 2024-08-16 23:09+0000\n"
 "Last-Translator: Maxim <astralfestival@gmail.com>\n"
 "Language: ru\n"
@@ -1758,7 +1758,7 @@ msgstr "Динамический межсетевой экран"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
 #, fuzzy
-msgid "Go to Dynamic Firewall package"
+msgid "Go to Dynamic Firewall package installation"
 msgstr "Динамический межсетевой экран"
 
 #: js/src/overview/Cards/LibrespeedCard.js:53
@@ -1813,14 +1813,19 @@ msgstr "Перейдите в настройки клиента OpenVPN"
 msgid "There are no clients added yet."
 msgstr "Еще нет добавленных клиентов."
 
-#: js/src/overview/Cards/ThreatDetectionCard.js:47
-msgid "Threat Detection"
-msgstr "Обнаружение угроз"
-
-#: js/src/overview/Cards/ThreatDetectionCard.js:50
+#: js/src/overview/Cards/ThreatDetectionCard.js:56
 #, fuzzy
 msgid "Go to Sentinel license agreement"
 msgstr "Наиболее Важные Пункты Лицензионного Соглашения"
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:57
+#, fuzzy
+msgid "Go to Sentinel package installation"
+msgstr "Автоматическая установка"
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:62
+msgid "Threat Detection"
+msgstr "Обнаружение угроз"
 
 #: js/src/packageManagement/languages/Languages.js:22
 msgid ""

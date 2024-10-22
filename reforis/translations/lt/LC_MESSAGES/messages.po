@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-09 16:09+0200\n"
+"POT-Creation-Date: 2024-10-22 13:15+0200\n"
 "PO-Revision-Date: 2019-02-19 13:34+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lt\n"
@@ -1550,7 +1550,7 @@ msgid "Dynamic Firewall"
 msgstr ""
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
-msgid "Go to Dynamic Firewall package"
+msgid "Go to Dynamic Firewall package installation"
 msgstr ""
 
 #: js/src/overview/Cards/LibrespeedCard.js:53
@@ -1603,12 +1603,16 @@ msgstr ""
 msgid "There are no clients added yet."
 msgstr ""
 
-#: js/src/overview/Cards/ThreatDetectionCard.js:47
-msgid "Threat Detection"
+#: js/src/overview/Cards/ThreatDetectionCard.js:56
+msgid "Go to Sentinel license agreement"
 msgstr ""
 
-#: js/src/overview/Cards/ThreatDetectionCard.js:50
-msgid "Go to Sentinel license agreement"
+#: js/src/overview/Cards/ThreatDetectionCard.js:57
+msgid "Go to Sentinel package installation"
+msgstr ""
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:62
+msgid "Threat Detection"
 msgstr ""
 
 #: js/src/packageManagement/languages/Languages.js:22
@@ -3016,5 +3020,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Link"
+#~ msgstr ""
+
+#~ msgid "Go to Dynamic Firewall package"
 #~ msgstr ""
 

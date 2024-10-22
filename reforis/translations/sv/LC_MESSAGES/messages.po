@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-09 16:09+0200\n"
+"POT-Creation-Date: 2024-10-22 13:15+0200\n"
 "PO-Revision-Date: 2023-09-04 17:56+0000\n"
 "Last-Translator: Kristoffer Grundström "
 "<swedishsailfishosuser@tutanota.com>\n"
@@ -1607,7 +1607,7 @@ msgstr "Dynamisk brandvägg"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
 #, fuzzy
-msgid "Go to Dynamic Firewall package"
+msgid "Go to Dynamic Firewall package installation"
 msgstr "Dynamisk brandvägg"
 
 #: js/src/overview/Cards/LibrespeedCard.js:53
@@ -1662,12 +1662,17 @@ msgstr "Gå till inställningarna för OpenVPN-klienten"
 msgid "There are no clients added yet."
 msgstr ""
 
-#: js/src/overview/Cards/ThreatDetectionCard.js:47
-msgid "Threat Detection"
+#: js/src/overview/Cards/ThreatDetectionCard.js:56
+msgid "Go to Sentinel license agreement"
 msgstr ""
 
-#: js/src/overview/Cards/ThreatDetectionCard.js:50
-msgid "Go to Sentinel license agreement"
+#: js/src/overview/Cards/ThreatDetectionCard.js:57
+#, fuzzy
+msgid "Go to Sentinel package installation"
+msgstr "Automatisk installation"
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:62
+msgid "Threat Detection"
 msgstr ""
 
 #: js/src/packageManagement/languages/Languages.js:22

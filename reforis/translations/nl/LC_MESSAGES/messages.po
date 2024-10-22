@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-09 16:09+0200\n"
+"POT-Creation-Date: 2024-10-22 13:15+0200\n"
 "PO-Revision-Date: 2024-01-21 11:01+0000\n"
 "Last-Translator: powerburner-nl <peter.mulder.1981@gmail.com>\n"
 "Language: nl\n"
@@ -1762,7 +1762,7 @@ msgstr "Dynamische Firewall"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
 #, fuzzy
-msgid "Go to Dynamic Firewall package"
+msgid "Go to Dynamic Firewall package installation"
 msgstr "Dynamische Firewall"
 
 #: js/src/overview/Cards/LibrespeedCard.js:53
@@ -1817,14 +1817,19 @@ msgstr "Ga naar OpenVPN Client Instellingen"
 msgid "There are no clients added yet."
 msgstr "Er zijn nog geen clients toegevoegd."
 
-#: js/src/overview/Cards/ThreatDetectionCard.js:47
-msgid "Threat Detection"
-msgstr ""
-
-#: js/src/overview/Cards/ThreatDetectionCard.js:50
+#: js/src/overview/Cards/ThreatDetectionCard.js:56
 #, fuzzy
 msgid "Go to Sentinel license agreement"
 msgstr "De belangrijkste punten uit de Gebruikersovereenkomst"
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:57
+#, fuzzy
+msgid "Go to Sentinel package installation"
+msgstr "Automatische installatie"
+
+#: js/src/overview/Cards/ThreatDetectionCard.js:62
+msgid "Threat Detection"
+msgstr ""
 
 #: js/src/packageManagement/languages/Languages.js:22
 #, fuzzy
