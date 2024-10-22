@@ -8,6 +8,18 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.1.1] - 2024-10-22
+
+### Added
+
+-   Added & updated Weblate translations
+
+### Changed
+
+-   Refactored interface class and icon styling
+-   Refactored DynamicFirewallCard and ThreatDetectionCard
+-   Refactored NavigationItem component to handle mobile screen resizing
+
 ## [3.1.0] - 2024-10-09
 
 ### Added
@@ -606,7 +618,8 @@ and this project adheres to
 
 -   Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.1.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.1.1...master
+[3.1.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.1.0...v3.1.1
 [3.1.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.0.0...v3.1.0
 [3.0.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v2.1.0...v3.0.0
 [2.1.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v2.0.0...v2.1.0
