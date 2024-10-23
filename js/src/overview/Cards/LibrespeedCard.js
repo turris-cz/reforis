@@ -31,30 +31,45 @@ export default function Librespeed() {
         <LibrespeedCardWithErrorAndSpinner
             apiState={getDataState.state}
             tests={getDataState.data || {}}
+            handleRefresh={getDataRequest}
         />
     );
 }
 
 LibrespeedCard.propTypes = {
     tests: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
+    handleRefresh: PropTypes.func.isRequired,
 };
 
-function LibrespeedCard({ tests: { performed_tests: tests } }) {
-    const testsCount = typeof tests !== "undefined" ? tests.length : null;
-    const lastTest = testsCount > 0 ? tests[tests.length - 1] : null;
-    const timeFromNow =
-        testsCount > 0
-            ? moment(
-                  moment(lastTest.time).locale(ForisTranslations.locale)
-              ).fromNow()
-            : null;
+function LibrespeedCard({ tests: { performed_tests: tests }, handleRefresh }) {
+    // Determine the number of tests conducted
+    const numberOfTestsConducted =
+        typeof tests !== "undefined" ? tests.length : null;
+
+    // Get the last test conducted
+    const lastTestConducted =
+        numberOfTestsConducted > 0 ? tests[tests.length - 1] : null;
+
+    // Calculate the time elapsed since the last test
+    const timeElapsedSinceLastTest = () => {
+        if (numberOfTestsConducted > 0) {
+            const lastTestTime = moment(lastTestConducted.time).locale(
+                ForisTranslations.locale
+            );
+            return moment(lastTestTime).fromNow();
+        }
+        return null;
+    };
+    const timeElapsed = timeElapsedSinceLastTest();
+
     return (
         <Card
             title={_("LibreSpeed")}
             linkTo={ForisURLs.librespeedSpeedTest}
             linkTitle={_("Go to LibreSpeed")}
+            onRefresh={handleRefresh}
         >
-            {lastTest ? (
+            {lastTestConducted ? (
                 <>
                     <div className="table-responsive">
                         <table className="table table-borderless table-hover col-12">
@@ -70,7 +85,7 @@ function LibrespeedCard({ tests: { performed_tests: tests } }) {
                                         </span>
                                     </th>
                                     <td className="text-end">
-                                        {lastTest.speed_download}
+                                        {lastTestConducted.speed_download}
                                     </td>
                                 </tr>
                                 <tr>
@@ -84,7 +99,7 @@ function LibrespeedCard({ tests: { performed_tests: tests } }) {
                                         </span>
                                     </th>
                                     <td className="text-end">
-                                        <span>{lastTest.speed_upload}</span>
+                                        {lastTestConducted.speed_upload}
                                     </td>
                                 </tr>
                                 <tr>
@@ -98,11 +113,9 @@ function LibrespeedCard({ tests: { performed_tests: tests } }) {
                                         </span>
                                     </th>
                                     <td className="text-end">
-                                        <span>
-                                            {lastTest.ping >= 0
-                                                ? lastTest.ping
-                                                : _("N/A")}
-                                        </span>
+                                        {lastTestConducted.ping >= 0
+                                            ? lastTestConducted.ping
+                                            : _("N/A")}
                                     </td>
                                 </tr>
                                 <tr>
@@ -116,22 +129,19 @@ function LibrespeedCard({ tests: { performed_tests: tests } }) {
                                         </span>
                                     </th>
                                     <td className="text-end">
-                                        <span>
-                                            {lastTest.jitter >= 0
-                                                ? lastTest.jitter
-                                                : _("N/A")}
-                                        </span>
+                                        {lastTestConducted.jitter >= 0
+                                            ? lastTestConducted.jitter
+                                            : _("N/A")}
                                     </td>
                                 </tr>
-                                <tr className="text-nowrap">
+                                <tr>
                                     <th scope="row">{_("Server")}</th>
-                                    <td className="text-end">
-                                        <span>
-                                            {lastTest.server &&
-                                            lastTest.server.length > 0
-                                                ? lastTest.server
-                                                : _("N/A")}
-                                        </span>
+                                    <td
+                                        className="text-end text-truncate"
+                                        style={{ maxWidth: "5.8rem" }}
+                                        title={lastTestConducted.server}
+                                    >
+                                        {lastTestConducted.server}
                                     </td>
                                 </tr>
                             </tbody>
@@ -139,7 +149,7 @@ function LibrespeedCard({ tests: { performed_tests: tests } }) {
                     </div>
                     <p className="d-flex card-text flex-grow-1">
                         <small className="text-muted mt-auto">
-                            {_("Performed")} {timeFromNow}
+                            {_("Performed")} {timeElapsed}
                         </small>
                     </p>
                 </>
