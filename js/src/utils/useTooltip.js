@@ -13,16 +13,18 @@ function useTooltip(description, placement = "top", trigger = "hover") {
     const tooltipRef = useRef();
 
     useEffect(() => {
-        const tooltip = new Tooltip(tooltipRef.current, {
-            title: description,
-            placement,
-            trigger,
-        });
+        if (tooltipRef.current) {
+            const tooltip = new Tooltip(tooltipRef.current, {
+                title: description,
+                placement,
+                trigger,
+            });
 
-        return () => {
-            tooltip.dispose();
-        };
-    });
+            return () => {
+                tooltip.dispose();
+            };
+        }
+    }, [description, placement, trigger]);
 
     return tooltipRef;
 }

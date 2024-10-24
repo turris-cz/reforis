@@ -23,7 +23,7 @@ function CardHeaderLink({ title, linkTo, linkTitle }) {
             to={{
                 pathname: linkTo,
             }}
-            className="align-self-start text-secondary text-decoration-none mb-2"
+            className="text-secondary text-decoration-none"
             title={linkTitle}
         >
             <h6 className="text-uppercase text-muted mb-0">
