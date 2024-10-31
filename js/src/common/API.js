@@ -73,7 +73,7 @@ export const API_MODULE_URLs = new Proxy(
         // Packages
         sentinel: "/data-collection/api/settings",
         openvpn: "/openvpn/api/server-settings",
-        openvpnClients: "/openvpn/api/client-settings",
+        openvpnClients: "/openvpn/api/clients",
         librespeed: "/librespeed/api/data",
         schnapps: "/snapshots/api/snapshots/factory_reset",
         storage: "/storage/api/settings",

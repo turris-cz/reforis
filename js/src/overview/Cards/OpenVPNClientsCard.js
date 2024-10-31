@@ -8,16 +8,14 @@
 import React, { useEffect } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    useAPIGet,
-    withSpinnerOnSending,
-    withErrorMessage,
-    ForisURLs,
-} from "foris";
+import { useAPIGet, withSpinnerOnSending, withErrorMessage } from "foris";
+import moment from "moment";
 import PropTypes from "prop-types";
+import { renderToString } from "react-dom/server";
 
 import { API_MODULE_URLs } from "common/API";
 import Card from "overview/Cards/Card";
+import usePopover from "utils/usePopover";
 
 export default function OpenVPNClients() {
     const [getOpenVPNClientsResponse, getOpenVPNClients] = useAPIGet(
@@ -31,6 +29,7 @@ export default function OpenVPNClients() {
         <OpenVPNClientsCardWithErrorAndSpinner
             apiState={getOpenVPNClientsResponse.state}
             clients={getOpenVPNClientsResponse.data || {}}
+            handleRefresh={getOpenVPNClients}
         />
     );
 }
@@ -40,49 +39,51 @@ OpenVPNClientsCard.propTypes = {
         PropTypes.string,
         PropTypes.arrayOf(PropTypes.object),
     ]).isRequired,
+    handleRefresh: PropTypes.func.isRequired,
 };
 
-function OpenVPNClientsCard({ clients }) {
+function OpenVPNClientsCard({ clients, handleRefresh }) {
+    const activeOpenVPNClients =
+        clients &&
+        clients
+            .filter(
+                (client) =>
+                    client.status === "valid" && client.connections.length !== 0
+            )
+            .slice(0, 7)
+            .sort((a, b) => a.connected_since - b.connected_since)
+            .map((client) => (
+                <OpenVPNClientsRow key={client.id} client={client} />
+            ));
+
     return (
         <Card
             title={_("OpenVPN Clients")}
-            linkTo={ForisURLs.openvpnClientSettings}
+            linkTo="/openvpn/client-registration"
             linkTitle={_("Go to OpenVPN Client Settings")}
+            refreshBtn
+            onRefresh={handleRefresh}
         >
-            {typeof clients === "object" && clients.length !== 0 ? (
+            {clients && clients.length !== 0 ? (
                 <div className="table-responsive">
-                    <table className="table table-borderless table-hover col-sm-12">
+                    <table className="table table-borderless table-hover col-12 mb-0">
                         <tbody>
-                            {clients.slice(0, 5).map((client) => (
-                                <tr key={client.id}>
-                                    <th scope="row">
-                                        <span>{client.id}</span>
-                                    </th>
-                                    <td className="text-end">
-                                        <span
-                                            className={`text-${
-                                                client.enabled
-                                                    ? "success"
-                                                    : "danger"
-                                            }`}
-                                        >
-                                            <FontAwesomeIcon
-                                                icon={`fa-solid fa-${
-                                                    client.enabled
-                                                        ? "check"
-                                                        : "times"
-                                                }`}
-                                            />
-                                        </span>
-                                    </td>
-                                </tr>
-                            ))}
+                            {activeOpenVPNClients &&
+                            activeOpenVPNClients.length !== 0 ? (
+                                activeOpenVPNClients
+                            ) : (
+                                <p className="text-muted">
+                                    {_(
+                                        "Currently, there are no connected OpenVPN clients."
+                                    )}
+                                </p>
+                            )}
                         </tbody>
                     </table>
                 </div>
             ) : (
                 <p className="text-muted">
-                    {_("There are no clients added yet.")}
+                    {_("There are no OpenVPN clients.")}
                 </p>
             )}
         </Card>
@@ -92,3 +93,90 @@ function OpenVPNClientsCard({ clients }) {
 const OpenVPNClientsCardWithErrorAndSpinner = withSpinnerOnSending(
     withErrorMessage(OpenVPNClientsCard)
 );
+
+OpenVPNClientsRow.propTypes = {
+    client: PropTypes.object.isRequired,
+};
+
+function OpenVPNClientsRow({ client }) {
+    const timeFromNow = (time) =>
+        moment(time).locale(ForisTranslations.locale).fromNow();
+
+    const popoverContent = (
+        <>
+            <p className="mb-0 text-nowrap">
+                {client.connections[0].address}:{client.connections[0].port} -{" "}
+                {timeFromNow(client.connections[0].connected_since)}
+            </p>
+            <hr className="my-2" />
+            <div className="d-flex gap-2 justify-content-between">
+                <div className="text-nowrap">
+                    {_("Total In: ")}
+                    {formatBytes(
+                        client.connections.reduce(
+                            (acc, connection) => acc + connection.out_bytes,
+                            0
+                        )
+                    )}
+                </div>
+                <div className="text-nowrap">
+                    {_("Total Out: ")}
+                    {formatBytes(
+                        client.connections.reduce(
+                            (acc, connection) => acc + connection.in_bytes,
+                            0
+                        )
+                    )}
+                </div>
+            </div>
+        </>
+    );
+    const popoverContentString = renderToString(popoverContent);
+
+    const popoverRef = usePopover(
+        client.name,
+        popoverContentString,
+        "top",
+        "click hover"
+    );
+
+    return (
+        <tr>
+            <th scope="row">
+                {client.name}
+                {client.connections.length !== 0 && (
+                    <FontAwesomeIcon
+                        icon="fa-solid fa-check"
+                        className="ms-2 text-success"
+                        title={_("Connected")}
+                    />
+                )}
+            </th>
+            <td className="text-end">
+                {client.connections.length === 0 ? (
+                    <FontAwesomeIcon
+                        icon="fa-solid fa-minus"
+                        className="text-secondary"
+                        title={_("Disconnected")}
+                    />
+                ) : (
+                    <span ref={popoverRef} className="help">
+                        <FontAwesomeIcon icon="fa-solid fa-info-circle" />
+                    </span>
+                )}
+            </td>
+        </tr>
+    );
+}
+
+function formatBytes(bytes) {
+    if (bytes === 0) {
+        return "0 B";
+    }
+    const k = 1024;
+    const dm = 1;
+
+    const sizes = ["B", "KB", "MB", "GB", "TB"];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return `${parseFloat((bytes / k ** i).toFixed(dm))} ${sizes[i]}`;
+}
