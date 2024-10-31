@@ -57,6 +57,11 @@ $web-font-path: false;
 
 [data-bs-theme="dark"] {
     --bs-tertiary-bg-rgb: 43, 48, 53 !important;
+
+    // Fix tables text color in dark mode
+    .table > :not(caption) > * > * {
+        color: var(--bs-body-color) !important;
+    }
 }
 
 .align-horizontally {
