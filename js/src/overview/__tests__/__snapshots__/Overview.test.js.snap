@@ -21,7 +21,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
             class="d-flex flex-column"
           >
             <a
-              class="align-self-start text-secondary text-decoration-none mb-2"
+              class="text-secondary text-decoration-none"
               href="/package-management/update-settings"
               title="Go to update settings"
             >
@@ -35,7 +35,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
               </h6>
             </a>
             <span
-              class="h3 status mb-0"
+              class="h3 status mb-0 mt-2"
             >
               Activated
             </span>
@@ -59,7 +59,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
             class="d-flex flex-column"
           >
             <a
-              class="align-self-start text-secondary text-decoration-none mb-2"
+              class="text-secondary text-decoration-none"
               href="/package-management/packages"
               title="Go to Sentinel package installation"
             >
@@ -73,7 +73,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
               </h6>
             </a>
             <span
-              class="h3 status mb-0"
+              class="h3 status mb-0 mt-2"
             >
               Activated
             </span>
@@ -97,7 +97,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
             class="d-flex flex-column"
           >
             <a
-              class="align-self-start text-secondary text-decoration-none mb-2"
+              class="text-secondary text-decoration-none"
               href="/package-management/packages"
               title="Go to Dynamic Firewall package installation"
             >
@@ -111,7 +111,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
               </h6>
             </a>
             <span
-              class="h3 status mb-0"
+              class="h3 status mb-0 mt-2"
             >
               Activated
             </span>
@@ -136,10 +136,10 @@ exports[`Overview Snapshot of the whole page 1`] = `
           class="card-body d-flex flex-column"
         >
           <div
-            class="d-flex flex-column"
+            class="d-flex flex-row justify-content-between align-items-center mb-2 "
           >
             <a
-              class="align-self-start text-secondary text-decoration-none mb-2"
+              class="text-secondary text-decoration-none"
               href="/librespeed/speed-test"
               title="Go to LibreSpeed"
             >
@@ -285,10 +285,10 @@ exports[`Overview Snapshot of the whole page 1`] = `
           class="card-body d-flex flex-column"
         >
           <div
-            class="d-flex flex-column"
+            class="d-flex flex-row justify-content-between align-items-center mb-2 "
           >
             <h6
-              class="text-uppercase text-muted mb-2"
+              class="text-uppercase text-muted mb-0 lh-base"
             >
               Connection Test
             </h6>
@@ -432,11 +432,11 @@ exports[`Overview Snapshot of the whole page 1`] = `
           class="card-body d-flex flex-column"
         >
           <div
-            class="d-flex flex-column"
+            class="d-flex flex-row justify-content-between align-items-center mb-2 "
           >
             <a
-              class="align-self-start text-secondary text-decoration-none mb-2"
-              href="/openvpn/client-settings"
+              class="text-secondary text-decoration-none"
+              href="/openvpn/client-registration"
               title="Go to OpenVPN Client Settings"
             >
               <h6
@@ -448,34 +448,27 @@ exports[`Overview Snapshot of the whole page 1`] = `
                 />
               </h6>
             </a>
+            <button
+              class="btn btn-link p-0 text-secondary"
+              type="button"
+            >
+              <i
+                class="fa"
+              />
+            </button>
           </div>
           <div
             class="table-responsive"
           >
             <table
-              class="table table-borderless table-hover col-sm-12"
+              class="table table-borderless table-hover col-12 mb-0"
             >
               <tbody>
-                <tr>
-                  <th
-                    scope="row"
-                  >
-                    <span>
-                      turris
-                    </span>
-                  </th>
-                  <td
-                    class="text-end"
-                  >
-                    <span
-                      class="text-success"
-                    >
-                      <i
-                        class="fa"
-                      />
-                    </span>
-                  </td>
-                </tr>
+                <p
+                  class="text-muted"
+                >
+                  Currently, there are no connected OpenVPN clients.
+                </p>
               </tbody>
             </table>
           </div>

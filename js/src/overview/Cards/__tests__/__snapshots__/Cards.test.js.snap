@@ -15,7 +15,7 @@ exports[`<Cards/> <AutomaticUpdatesCard/> Snapshot: activated 1`] = `
           class="d-flex flex-column"
         >
           <a
-            class="align-self-start text-secondary text-decoration-none mb-2"
+            class="text-secondary text-decoration-none"
             href="/package-management/update-settings"
             title="Go to update settings"
           >
@@ -29,7 +29,7 @@ exports[`<Cards/> <AutomaticUpdatesCard/> Snapshot: activated 1`] = `
             </h6>
           </a>
           <span
-            class="h3 status mb-0"
+            class="h3 status mb-0 mt-2"
           >
             Activated
           </span>
@@ -58,7 +58,7 @@ exports[`<Cards/> <AutomaticUpdatesCard/> Snapshot: disabled 1`] = `
           class="d-flex flex-column"
         >
           <a
-            class="align-self-start text-secondary text-decoration-none mb-2"
+            class="text-secondary text-decoration-none"
             href="/package-management/update-settings"
             title="Go to update settings"
           >
@@ -72,7 +72,7 @@ exports[`<Cards/> <AutomaticUpdatesCard/> Snapshot: disabled 1`] = `
             </h6>
           </a>
           <span
-            class="h3 status mb-0"
+            class="h3 status mb-0 mt-2"
           >
             Disabled
           </span>
@@ -101,7 +101,7 @@ exports[`<Cards/> <DynamicFirewallCard/> Snapshot: activated 1`] = `
           class="d-flex flex-column"
         >
           <a
-            class="align-self-start text-secondary text-decoration-none mb-2"
+            class="text-secondary text-decoration-none"
             href="/package-management/packages"
             title="Go to Dynamic Firewall package installation"
           >
@@ -115,7 +115,7 @@ exports[`<Cards/> <DynamicFirewallCard/> Snapshot: activated 1`] = `
             </h6>
           </a>
           <span
-            class="h3 status mb-0"
+            class="h3 status mb-0 mt-2"
           >
             Activated
           </span>
@@ -144,7 +144,7 @@ exports[`<Cards/> <DynamicFirewallCard/> Snapshot: disabled 1`] = `
           class="d-flex flex-column"
         >
           <a
-            class="align-self-start text-secondary text-decoration-none mb-2"
+            class="text-secondary text-decoration-none"
             href="/package-management/packages"
             title="Go to Dynamic Firewall package installation"
           >
@@ -158,7 +158,7 @@ exports[`<Cards/> <DynamicFirewallCard/> Snapshot: disabled 1`] = `
             </h6>
           </a>
           <span
-            class="h3 status mb-0"
+            class="h3 status mb-0 mt-2"
           >
             Disabled
           </span>
@@ -184,10 +184,10 @@ exports[`<Cards/> <LibrespeedCard/> Snapshot: contains tests 1`] = `
         class="card-body d-flex flex-column"
       >
         <div
-          class="d-flex flex-column"
+          class="d-flex flex-row justify-content-between align-items-center mb-2 "
         >
           <a
-            class="align-self-start text-secondary text-decoration-none mb-2"
+            class="text-secondary text-decoration-none"
             href="/librespeed/speed-test"
             title="Go to LibreSpeed"
           >
@@ -338,10 +338,10 @@ exports[`<Cards/> <LibrespeedCard/> Snapshot: empty 1`] = `
         class="card-body d-flex flex-column"
       >
         <div
-          class="d-flex flex-column"
+          class="d-flex flex-row justify-content-between align-items-center mb-2 "
         >
           <a
-            class="align-self-start text-secondary text-decoration-none mb-2"
+            class="text-secondary text-decoration-none"
             href="/librespeed/speed-test"
             title="Go to LibreSpeed"
           >
@@ -378,11 +378,11 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: contains clients 1`] = `
         class="card-body d-flex flex-column"
       >
         <div
-          class="d-flex flex-column"
+          class="d-flex flex-row justify-content-between align-items-center mb-2 "
         >
           <a
-            class="align-self-start text-secondary text-decoration-none mb-2"
-            href="/openvpn/client-settings"
+            class="text-secondary text-decoration-none"
+            href="/openvpn/client-registration"
             title="Go to OpenVPN Client Settings"
           >
             <h6
@@ -394,34 +394,27 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: contains clients 1`] = `
               />
             </h6>
           </a>
+          <button
+            class="btn btn-link p-0 text-secondary"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+          </button>
         </div>
         <div
           class="table-responsive"
         >
           <table
-            class="table table-borderless table-hover col-sm-12"
+            class="table table-borderless table-hover col-12 mb-0"
           >
             <tbody>
-              <tr>
-                <th
-                  scope="row"
-                >
-                  <span>
-                    turris
-                  </span>
-                </th>
-                <td
-                  class="text-end"
-                >
-                  <span
-                    class="text-success"
-                  >
-                    <i
-                      class="fa"
-                    />
-                  </span>
-                </td>
-              </tr>
+              <p
+                class="text-muted"
+              >
+                Currently, there are no connected OpenVPN clients.
+              </p>
             </tbody>
           </table>
         </div>
@@ -443,11 +436,11 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: empty 1`] = `
         class="card-body d-flex flex-column"
       >
         <div
-          class="d-flex flex-column"
+          class="d-flex flex-row justify-content-between align-items-center mb-2 "
         >
           <a
-            class="align-self-start text-secondary text-decoration-none mb-2"
-            href="/openvpn/client-settings"
+            class="text-secondary text-decoration-none"
+            href="/openvpn/client-registration"
             title="Go to OpenVPN Client Settings"
           >
             <h6
@@ -459,11 +452,19 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: empty 1`] = `
               />
             </h6>
           </a>
+          <button
+            class="btn btn-link p-0 text-secondary"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+          </button>
         </div>
         <p
           class="text-muted"
         >
-          There are no clients added yet.
+          There are no OpenVPN clients.
         </p>
       </div>
     </div>
@@ -486,7 +487,7 @@ exports[`<Cards/> <ThreatDetectionCard/> Snapshot: activated 1`] = `
           class="d-flex flex-column"
         >
           <a
-            class="align-self-start text-secondary text-decoration-none mb-2"
+            class="text-secondary text-decoration-none"
             href="/package-management/packages"
             title="Go to Sentinel package installation"
           >
@@ -500,7 +501,7 @@ exports[`<Cards/> <ThreatDetectionCard/> Snapshot: activated 1`] = `
             </h6>
           </a>
           <span
-            class="h3 status mb-0"
+            class="h3 status mb-0 mt-2"
           >
             Disabled
           </span>
@@ -529,7 +530,7 @@ exports[`<Cards/> <ThreatDetectionCard/> Snapshot: disabled 1`] = `
           class="d-flex flex-column"
         >
           <a
-            class="align-self-start text-secondary text-decoration-none mb-2"
+            class="text-secondary text-decoration-none"
             href="/package-management/packages"
             title="Go to Sentinel package installation"
           >
@@ -543,7 +544,7 @@ exports[`<Cards/> <ThreatDetectionCard/> Snapshot: disabled 1`] = `
             </h6>
           </a>
           <span
-            class="h3 status mb-0"
+            class="h3 status mb-0 mt-2"
           >
             Disabled
           </span>
