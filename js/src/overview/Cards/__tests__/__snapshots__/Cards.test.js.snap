@@ -200,6 +200,14 @@ exports[`<Cards/> <LibrespeedCard/> Snapshot: contains tests 1`] = `
               />
             </h6>
           </a>
+          <button
+            class="btn btn-link p-0 text-secondary"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+          </button>
         </div>
         <div
           class="table-responsive"
@@ -243,9 +251,7 @@ exports[`<Cards/> <LibrespeedCard/> Snapshot: contains tests 1`] = `
                 <td
                   class="text-end"
                 >
-                  <span>
-                    930
-                  </span>
+                  930
                 </td>
               </tr>
               <tr>
@@ -264,9 +270,7 @@ exports[`<Cards/> <LibrespeedCard/> Snapshot: contains tests 1`] = `
                 <td
                   class="text-end"
                 >
-                  <span>
-                    N/A
-                  </span>
+                  N/A
                 </td>
               </tr>
               <tr>
@@ -285,26 +289,19 @@ exports[`<Cards/> <LibrespeedCard/> Snapshot: contains tests 1`] = `
                 <td
                   class="text-end"
                 >
-                  <span>
-                    N/A
-                  </span>
+                  N/A
                 </td>
               </tr>
-              <tr
-                class="text-nowrap"
-              >
+              <tr>
                 <th
                   scope="row"
                 >
                   Server
                 </th>
                 <td
-                  class="text-end"
-                >
-                  <span>
-                    N/A
-                  </span>
-                </td>
+                  class="text-end text-truncate"
+                  style="max-width: 5.8rem;"
+                />
               </tr>
             </tbody>
           </table>
@@ -354,6 +351,14 @@ exports[`<Cards/> <LibrespeedCard/> Snapshot: empty 1`] = `
               />
             </h6>
           </a>
+          <button
+            class="btn btn-link p-0 text-secondary"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+          </button>
         </div>
         <p
           class="text-muted"
@@ -410,11 +415,13 @@ exports[`<Cards/> <OpenVPNClientsCard/> Snapshot: contains clients 1`] = `
             class="table table-borderless table-hover col-12 mb-0"
           >
             <tbody>
-              <p
-                class="text-muted"
-              >
-                Currently, there are no connected OpenVPN clients.
-              </p>
+              <tr>
+                <td
+                  class="text-muted"
+                >
+                  Currently, there are no connected OpenVPN clients.
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

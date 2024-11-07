@@ -72,11 +72,13 @@ function OpenVPNClientsCard({ clients, handleRefresh }) {
                             activeOpenVPNClients.length !== 0 ? (
                                 activeOpenVPNClients
                             ) : (
-                                <p className="text-muted">
-                                    {_(
-                                        "Currently, there are no connected OpenVPN clients."
-                                    )}
-                                </p>
+                                <tr>
+                                    <td className="text-muted">
+                                        {_(
+                                            "Currently, there are no connected OpenVPN clients."
+                                        )}
+                                    </td>
+                                </tr>
                             )}
                         </tbody>
                     </table>
