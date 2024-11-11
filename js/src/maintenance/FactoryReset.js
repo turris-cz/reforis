@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,9 +7,9 @@
 
 import React from "react";
 
-import { formFieldsSize } from "foris";
+import { formFieldsSize, Button, ActionButtonWithModal } from "foris";
 
-import FactoryResetButton from "common/FactoryResetButton";
+import { API_MODULE_URLs } from "common/API";
 
 export default function FactoryReset() {
     return (
@@ -21,8 +21,31 @@ export default function FactoryReset() {
                 )}
             </p>
             <div className="text-end">
-                <FactoryResetButton forisFormSize />
+                <ActionButtonWithModal
+                    actionTrigger={TriggerButton}
+                    actionUrl={API_MODULE_URLs.schnapps}
+                    modalTitle={_("Warning!")}
+                    modalMessage={_(
+                        "Are you sure you want to reset the router?"
+                    )}
+                    modalActionText={_("Reset")}
+                    modalActionProps={{ className: "btn-danger" }}
+                    successMessage={_(
+                        "The router has been reset successfully."
+                    )}
+                    errorMessage={_(
+                        "An error occurred while resetting the router."
+                    )}
+                />
             </div>
         </div>
+    );
+}
+
+function TriggerButton(props) {
+    return (
+        <Button forisFormSize className="btn-danger" {...props}>
+            {_("Factory Reset")}
+        </Button>
     );
 }
