@@ -275,70 +275,117 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
         class="table-responsive"
       >
         <table
-          class="table table-hover"
+          class="table table-hover text-nowrap"
         >
           <thead
             class="thead-light"
           >
             <tr
-              class="text-left"
+              role="row"
             >
-              <th>
-                Hostname
-              </th>
-              <th>
-                IPv4 Address
-              </th>
-              <th>
-                MAC Address
-              </th>
               <th
-                class="text-center"
+                colspan="1"
               >
-                Expires
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  Hostname
+                </button>
               </th>
               <th
-                class="text-center"
+                colspan="1"
               >
-                Active
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  IPv4 Address
+                </button>
               </th>
               <th
-                aria-label="Actions"
-              />
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  MAC Address
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort descending"
+                  type="button"
+                >
+                  Expires
+                </button>
+              </th>
+              <th
+                class="d-flex justify-content-center"
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort descending"
+                  type="button"
+                >
+                  Active
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <div
+                  aria-hidden="true"
+                  class="d-none"
+                >
+                  Actions
+                </div>
+              </th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td
-                class="align-middle"
-              >
+            <tr
+              class="align-middle"
+            >
+              <td>
                 test-client
               </td>
-              <td
-                class="align-middle"
-              >
+              <td>
                 192.168.1.10
               </td>
-              <td
-                class="align-middle"
-              >
+              <td>
                 8F:31:22:89:64:20
               </td>
-              <td
-                class="text-center align-middle"
-              >
-                2021-03-19 00:52
+              <td>
+                3/19/2021 12:52 AM
               </td>
               <td
-                class="text-center align-middle"
+                class="text-center"
               >
                 <i
                   class="fa"
                 />
               </td>
               <td
-                align="right"
-                class="align-middle"
+                class="text-end"
               >
                 <button
                   class="btn btn btn-sm btn-outline-success d-inline-flex justify-content-center align-items-center"
@@ -352,6 +399,120 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             </tr>
           </tbody>
         </table>
+        <nav
+          aria-label="Pagination navigation bar"
+          class="d-flex gap-2 justify-content-start align-items-center mx-2 mb-1 text-nowrap"
+        >
+          <ul
+            class="pagination pagination-sm mb-0"
+          >
+            <li
+              class="page-item disabled"
+              style="cursor: not-allowed;"
+            >
+              <button
+                aria-label="First page"
+                class="page-link"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+              </button>
+            </li>
+            <li
+              class="page-item disabled"
+              style="cursor: not-allowed;"
+            >
+              <button
+                aria-label="Previous page"
+                class="page-link"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+              </button>
+            </li>
+            <li
+              class="page-item disabled"
+              style="cursor: not-allowed;"
+            >
+              <button
+                aria-label="Next page"
+                class="page-link"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+              </button>
+            </li>
+            <li
+              class="page-item disabled"
+              style="cursor: not-allowed;"
+            >
+              <button
+                aria-label="Last page"
+                class="page-link"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+              </button>
+            </li>
+          </ul>
+          <span>
+            Page
+             
+            <span
+              class="fw-bold"
+            >
+              1
+               
+              of
+               
+              1
+            </span>
+          </span>
+          <div
+            class="vr mx-1 align-self-center"
+            style="height: 1.5rem;"
+          />
+          <span>
+            Rows per page:
+          </span>
+          <select
+            aria-label="Select rows per page"
+            class="form-select form-select-sm w-auto"
+          >
+            <option
+              value="5"
+            >
+              5
+            </option>
+            <option
+              value="10"
+            >
+              10
+            </option>
+            <option
+              value="25"
+            >
+              25
+            </option>
+            <option
+              value="1"
+            >
+              All
+            </option>
+          </select>
+        </nav>
       </div>
       <div
         class="text-end"
@@ -379,33 +540,85 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
         class="table-responsive"
       >
         <table
-          class="table table-hover"
+          class="table table-hover text-nowrap"
         >
           <thead
             class="thead-light"
           >
             <tr
-              class="text-left"
+              role="row"
             >
-              <th>
-                Hostname
-              </th>
-              <th>
-                IPv6 Address
-              </th>
-              <th>
-                DUID
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  Hostname
+                </button>
               </th>
               <th
-                class="text-center"
+                colspan="1"
               >
-                Expires
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  IPv6 Address
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  DUID
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  Expires
+                </button>
+              </th>
+              <th
+                class="d-flex justify-content-center"
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort descending"
+                  type="button"
+                >
+                  Active
+                </button>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr
-              class="text-left"
+              class="align-middle"
             >
               <td>
                 test-client-2
@@ -416,14 +629,133 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
               <td>
                 00098f65rfcee3bndu5221d7e7i743a46546p
               </td>
+              <td>
+                2021-03-19 00:52
+              </td>
               <td
                 class="text-center"
               >
-                2021-03-19 00:52
+                <i
+                  class="fa"
+                />
               </td>
             </tr>
           </tbody>
         </table>
+        <nav
+          aria-label="Pagination navigation bar"
+          class="d-flex gap-2 justify-content-start align-items-center mx-2 mb-1 text-nowrap"
+        >
+          <ul
+            class="pagination pagination-sm mb-0"
+          >
+            <li
+              class="page-item disabled"
+              style="cursor: not-allowed;"
+            >
+              <button
+                aria-label="First page"
+                class="page-link"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+              </button>
+            </li>
+            <li
+              class="page-item disabled"
+              style="cursor: not-allowed;"
+            >
+              <button
+                aria-label="Previous page"
+                class="page-link"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+              </button>
+            </li>
+            <li
+              class="page-item disabled"
+              style="cursor: not-allowed;"
+            >
+              <button
+                aria-label="Next page"
+                class="page-link"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+              </button>
+            </li>
+            <li
+              class="page-item disabled"
+              style="cursor: not-allowed;"
+            >
+              <button
+                aria-label="Last page"
+                class="page-link"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+              </button>
+            </li>
+          </ul>
+          <span>
+            Page
+             
+            <span
+              class="fw-bold"
+            >
+              1
+               
+              of
+               
+              1
+            </span>
+          </span>
+          <div
+            class="vr mx-1 align-self-center"
+            style="height: 1.5rem;"
+          />
+          <span>
+            Rows per page:
+          </span>
+          <select
+            aria-label="Select rows per page"
+            class="form-select form-select-sm w-auto"
+          >
+            <option
+              value="5"
+            >
+              5
+            </option>
+            <option
+              value="10"
+            >
+              10
+            </option>
+            <option
+              value="25"
+            >
+              25
+            </option>
+            <option
+              value="1"
+            >
+              All
+            </option>
+          </select>
+        </nav>
       </div>
     </div>
   </div>
@@ -1335,70 +1667,117 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
         class="table-responsive"
       >
         <table
-          class="table table-hover"
+          class="table table-hover text-nowrap"
         >
           <thead
             class="thead-light"
           >
             <tr
-              class="text-left"
+              role="row"
             >
-              <th>
-                Hostname
-              </th>
-              <th>
-                IPv4 Address
-              </th>
-              <th>
-                MAC Address
-              </th>
               <th
-                class="text-center"
+                colspan="1"
               >
-                Expires
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  Hostname
+                </button>
               </th>
               <th
-                class="text-center"
+                colspan="1"
               >
-                Active
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  IPv4 Address
+                </button>
               </th>
               <th
-                aria-label="Actions"
-              />
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  MAC Address
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort descending"
+                  type="button"
+                >
+                  Expires
+                </button>
+              </th>
+              <th
+                class="d-flex justify-content-center"
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort descending"
+                  type="button"
+                >
+                  Active
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <div
+                  aria-hidden="true"
+                  class="d-none"
+                >
+                  Actions
+                </div>
+              </th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td
-                class="align-middle"
-              >
+            <tr
+              class="align-middle"
+            >
+              <td>
                 test-client
               </td>
-              <td
-                class="align-middle"
-              >
+              <td>
                 192.168.1.10
               </td>
-              <td
-                class="align-middle"
-              >
+              <td>
                 8F:31:22:89:64:20
               </td>
-              <td
-                class="text-center align-middle"
-              >
-                2021-03-19 00:52
+              <td>
+                3/19/2021 12:52 AM
               </td>
               <td
-                class="text-center align-middle"
+                class="text-center"
               >
                 <i
                   class="fa"
                 />
               </td>
               <td
-                align="right"
-                class="align-middle"
+                class="text-end"
               >
                 <button
                   class="btn btn btn-sm btn-outline-success d-inline-flex justify-content-center align-items-center"
@@ -1412,6 +1791,120 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
             </tr>
           </tbody>
         </table>
+        <nav
+          aria-label="Pagination navigation bar"
+          class="d-flex gap-2 justify-content-start align-items-center mx-2 mb-1 text-nowrap"
+        >
+          <ul
+            class="pagination pagination-sm mb-0"
+          >
+            <li
+              class="page-item disabled"
+              style="cursor: not-allowed;"
+            >
+              <button
+                aria-label="First page"
+                class="page-link"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+              </button>
+            </li>
+            <li
+              class="page-item disabled"
+              style="cursor: not-allowed;"
+            >
+              <button
+                aria-label="Previous page"
+                class="page-link"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+              </button>
+            </li>
+            <li
+              class="page-item disabled"
+              style="cursor: not-allowed;"
+            >
+              <button
+                aria-label="Next page"
+                class="page-link"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+              </button>
+            </li>
+            <li
+              class="page-item disabled"
+              style="cursor: not-allowed;"
+            >
+              <button
+                aria-label="Last page"
+                class="page-link"
+                disabled=""
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+              </button>
+            </li>
+          </ul>
+          <span>
+            Page
+             
+            <span
+              class="fw-bold"
+            >
+              1
+               
+              of
+               
+              1
+            </span>
+          </span>
+          <div
+            class="vr mx-1 align-self-center"
+            style="height: 1.5rem;"
+          />
+          <span>
+            Rows per page:
+          </span>
+          <select
+            aria-label="Select rows per page"
+            class="form-select form-select-sm w-auto"
+          >
+            <option
+              value="5"
+            >
+              5
+            </option>
+            <option
+              value="10"
+            >
+              10
+            </option>
+            <option
+              value="25"
+            >
+              25
+            </option>
+            <option
+              value="1"
+            >
+              All
+            </option>
+          </select>
+        </nav>
       </div>
       <div
         class="text-end"
