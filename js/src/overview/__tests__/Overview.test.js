@@ -13,7 +13,7 @@ import Overview from "../Overview";
 import displayCard from "../utils";
 import {
     packageListsFixture,
-    dataCollectionCardFixture,
+    threatDetectionCardFixture,
     automaticUpdatesCardFixture,
     librespeedCardFixture,
     openVPNClientsCardFixture,
@@ -50,7 +50,7 @@ describe("Overview", () => {
         mockAxios.mockResponse({ data: automaticUpdatesCardFixture });
         await wait(() => getByText(container, "Automatic Updates"));
 
-        mockAxios.mockResponse({ data: dataCollectionCardFixture });
+        mockAxios.mockResponse({ data: threatDetectionCardFixture });
         await wait(() => getByText(container, "Threat Detection"));
 
         mockAxios.mockResponse({ data: librespeedCardFixture });
