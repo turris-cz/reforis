@@ -20,6 +20,12 @@ DHCP_LEASES_ERRORS = {
     "hostname-exists": _("Hostname is already used by another static lease."),
 }
 
+FORWARDING_ERRORS = {
+    "not-in-lan": _("IP address is not in the LAN network."),
+    "not-user-defined": _("IP address is not a user-defined static lease."),
+    "range-already-used": _("Port range is already used by another port forwarding rule."),
+}
+
 
 def dhcp_response_to_json_or_error(response: typing.Dict[str, str], error_message: str) -> Response:
     """Handle dhcp leases related responses
@@ -32,6 +38,19 @@ def dhcp_response_to_json_or_error(response: typing.Dict[str, str], error_messag
 
     reason_of_failure = response.get("reason", "")
     raise APIError(f"{error_message} {_('Caused by')}: {DHCP_LEASES_ERRORS.get(reason_of_failure, _('Unknown'))}")
+
+
+def port_forwarding_response_to_json_or_error(response: typing.Dict[str, str], error_message: str) -> Response:
+    """Handle port forwarding related responses
+
+    Based on the `response['result']`, return either response as JSON (`flask.Response`)
+    or raise ApiError with detailed description what went wrong.
+    """
+    if response["result"]:
+        return jsonify(response)
+
+    reason_of_failure = response.get("reason", [{}])[0].get("msg", "")
+    raise APIError(f"{error_message} {_('Caused by')}: {FORWARDING_ERRORS.get(reason_of_failure, _('Unknown'))}")
 
 
 def lan_get():
@@ -111,6 +130,43 @@ def lan_delete_client(client_mac: str):
     return dhcp_response_to_json_or_error(response, _("Can't delete DHCP lease."))
 
 
+def lan_port_forwardings_get():
+    """
+    .. http:get:: /api/lan/port-forwarding
+        Get LAN port forwardings.
+        See ``get_port_forwardings`` action in the `foris-controller lan module JSON schema
+        <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/lan/schema/lan.json>`_.
+    """
+    response = current_app.backend.perform("lan", "get_port_forwardings")
+    return jsonify(response)
+
+
+def lan_port_forwardings_set():
+    """
+    .. http:post:: /api/lan/port-forwarding
+        Add LAN port forwarding.
+        See ``port_forwarding_set`` action in the `foris-controller lan module JSON schema
+        <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/lan/schema/lan.json>`_.
+    """
+    data = request.json
+    if not data:
+        return "Malformed request data", 400
+
+    response = current_app.backend.perform("lan", "port_forwarding_set", data)
+    return port_forwarding_response_to_json_or_error(response, _("Can't set port forwarding rule."))
+
+
+def lan_port_forwardings_delete(rule_name: str):
+    """Delete LAN port forwarding.
+    .. http:delete:: /api/lan/port-forwarding/<rule_name>
+        Delete LAN port forwarding.
+        See ``port_forwarding_delete`` action in the `foris-controller lan module JSON schema
+        <https://gitlab.nic.cz/turris/foris-controller/foris-controller/blob/master/foris_controller_modules/lan/schema/lan.json>`_.
+    """
+    response = current_app.backend.perform("lan", "port_forwarding_delete", {"names": [rule_name]})
+    return port_forwarding_response_to_json_or_error(response, _("Can't delete port forwarding rule."))
+
+
 # pylint: disable=invalid-name
 views = [
     {"rule": "/lan", "view_func": lan_get, "methods": ["GET"]},
@@ -119,4 +175,11 @@ views = [
     {"rule": "/lan/clients", "view_func": lan_set_client, "methods": ["POST"]},
     {"rule": "/lan/clients/<client_hostname>", "view_func": lan_update_client, "methods": ["PUT"]},
     {"rule": "/lan/clients/<client_mac>", "view_func": lan_delete_client, "methods": ["DELETE"]},
+    {"rule": "/lan/port-forwarding", "view_func": lan_port_forwardings_get, "methods": ["GET"]},
+    {"rule": "/lan/port-forwarding", "view_func": lan_port_forwardings_set, "methods": ["POST"]},
+    {
+        "rule": "/lan/port-forwarding/<rule_name>",
+        "view_func": lan_port_forwardings_delete,
+        "methods": ["DELETE"],
+    },
 ]
