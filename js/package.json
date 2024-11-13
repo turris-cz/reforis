@@ -21,7 +21,7 @@
         "axios": "^0.21.1",
         "bootstrap": "^5.3.3",
         "bootswatch": "^5.3.3",
-        "foris": "^6.4.0",
+        "foris": "^6.5.0",
         "immutability-helper": "^3.1.1",
         "ipaddr": "npm:ipaddr.js@^1.9.1",
         "moment": "^2.30.1",
