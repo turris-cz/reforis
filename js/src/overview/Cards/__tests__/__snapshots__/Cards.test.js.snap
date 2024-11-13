@@ -495,8 +495,8 @@ exports[`<Cards/> <ThreatDetectionCard/> Snapshot: activated 1`] = `
         >
           <a
             class="text-secondary text-decoration-none"
-            href="/package-management/packages"
-            title="Go to Sentinel package installation"
+            href="/sentinel/agreement"
+            title="Go to Sentinel license agreement"
           >
             <h6
               class="text-uppercase text-muted mb-0"
@@ -510,7 +510,7 @@ exports[`<Cards/> <ThreatDetectionCard/> Snapshot: activated 1`] = `
           <span
             class="h3 status mb-0 mt-2"
           >
-            Disabled
+            Activated
           </span>
         </div>
         <i
