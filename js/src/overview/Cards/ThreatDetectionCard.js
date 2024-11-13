@@ -19,7 +19,7 @@ import { API_MODULE_URLs } from "common/API";
 import Card from "overview/Cards/Card";
 
 ThreatDetection.propTypes = {
-    isInstalled: PropTypes.bool.isRequired,
+    isInstalled: PropTypes.bool,
 };
 
 export default function ThreatDetection({ isInstalled }) {
@@ -34,7 +34,7 @@ export default function ThreatDetection({ isInstalled }) {
         <ThreatDetectionCardWithErrorAndSpinner
             apiState={getSentinelResponse.state}
             details={getSentinelResponse.data || {}}
-            isInstalled={isInstalled}
+            isInstalled={isInstalled || false}
         />
     );
 }
