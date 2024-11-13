@@ -47,7 +47,7 @@ describe("<Cards/>", () => {
 
     describe("<ThreatDetectionCard/>", () => {
         it("Snapshot: activated", async () => {
-            const { container } = render(<ThreatDetectionCard />);
+            const { container } = render(<ThreatDetectionCard isInstalled />);
             mockAxios.mockResponse({ data: threatDetectionCardFixture });
             await wait(() => getByText(container, "Threat Detection"));
 

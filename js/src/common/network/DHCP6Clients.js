@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,7 +7,8 @@
 
 import React from "react";
 
-import { formFieldsSize } from "foris";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { formFieldsSize, RichTable } from "foris";
 import moment from "moment";
 import PropTypes from "prop-types";
 
@@ -20,6 +21,46 @@ DHCP6Clients.defaultProps = {
 };
 
 export default function DHCP6Clients({ ipv6clients }) {
+    function renderActiveIcon({ getValue }) {
+        return <ActiveIcon isActive={getValue()} />;
+    }
+
+    const columns = [
+        {
+            accessorKey: "hostname",
+            header: _("Hostname"),
+        },
+        {
+            accessorKey: "ipv6",
+            header: _("IPv6 Address"),
+        },
+        {
+            accessorKey: "duid",
+            header: _("DUID"),
+        },
+        {
+            accessorKey: "expires",
+            header: _("Expires"),
+        },
+        {
+            accessorKey: "active",
+            header: _("Active"),
+            headerClassName: "d-flex justify-content-center",
+            className: "text-center",
+            cell: renderActiveIcon,
+        },
+    ];
+
+    const data = ipv6clients.map((client) => ({
+        hostname: client.hostname,
+        ipv6: client.ipv6,
+        duid: client.duid,
+        active: client.active,
+        expires: client.expires
+            ? moment.unix(client.expires).format("YYYY-MM-DD HH:mm")
+            : _("Never"),
+    }));
+
     return (
         <div className={formFieldsSize}>
             <h2>{_("IPv6 DHCP Client List")}</h2>
@@ -33,49 +74,31 @@ export default function DHCP6Clients({ ipv6clients }) {
                     {_("No clients found.")}
                 </p>
             ) : (
-                <div className="table-responsive">
-                    <table className="table table-hover">
-                        <thead className="thead-light">
-                            <tr className="text-left">
-                                <th>{_("Hostname")}</th>
-                                <th>{_("IPv6 Address")}</th>
-                                <th>{_("DUID")}</th>
-                                <th className="text-center">{_("Expires")}</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {ipv6clients.map((client) => (
-                                <DHCP6ClientsListItem
-                                    key={client.ipv6}
-                                    {...client}
-                                />
-                            ))}
-                        </tbody>
-                    </table>
-                </div>
+                <RichTable columns={columns} data={data} withPagination />
             )}
         </div>
     );
 }
 
-DHCP6ClientsListItem.propTypes = {
-    ipv6: PropTypes.string.isRequired,
-    expires: PropTypes.number.isRequired,
-    duid: PropTypes.string.isRequired,
-    hostname: PropTypes.string.isRequired,
+ActiveIcon.propTypes = {
+    isActive: PropTypes.bool,
 };
 
-function DHCP6ClientsListItem({ ipv6, expires, duid, hostname }) {
+function ActiveIcon({ isActive }) {
+    if (isActive) {
+        return (
+            <FontAwesomeIcon
+                icon="fa-check"
+                className="text-success text-center"
+                title={_("Device is active")}
+            />
+        );
+    }
     return (
-        <tr className="text-left">
-            <td>{hostname}</td>
-            <td>{ipv6}</td>
-            <td>{duid}</td>
-            <td className="text-center">
-                {expires
-                    ? moment.unix(expires).format("YYYY-MM-DD HH:mm")
-                    : _("Never")}
-            </td>
-        </tr>
+        <FontAwesomeIcon
+            icon="fa-times"
+            className="text-danger"
+            title={_("Device is inactive")}
+        />
     );
 }

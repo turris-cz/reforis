@@ -9,7 +9,7 @@ exports[`<UpdateApproval/> Delayed updates awaiting - alert with timestamp 1`] =
 exports[`<UpdateApproval/> No updates awaiting 1`] = `
 <div>
   <p
-    class="text-center text-muted"
+    class="text-center text-muted mb-0"
   >
     There are no updates awaiting your approval.
   </p>

@@ -122,7 +122,7 @@ export default function UpdateApproval({ update, onSuccess, delay }) {
             </div>
         </>
     ) : (
-        <p className="text-center text-muted">
+        <p className="text-center text-muted mb-0">
             {_("There are no updates awaiting your approval.")}
         </p>
     );

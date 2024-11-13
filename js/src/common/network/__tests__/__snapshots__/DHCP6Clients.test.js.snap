@@ -15,33 +15,85 @@ exports[`<DHCP6Clients/> Test with snapshot. 1`] = `
       class="table-responsive"
     >
       <table
-        class="table table-hover"
+        class="table table-hover text-nowrap"
       >
         <thead
           class="thead-light"
         >
           <tr
-            class="text-left"
+            role="row"
           >
-            <th>
-              Hostname
-            </th>
-            <th>
-              IPv6 Address
-            </th>
-            <th>
-              DUID
+            <th
+              colspan="1"
+            >
+              <button
+                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                title="Sort ascending"
+                type="button"
+              >
+                Hostname
+              </button>
             </th>
             <th
-              class="text-center"
+              colspan="1"
             >
-              Expires
+              <button
+                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                title="Sort ascending"
+                type="button"
+              >
+                IPv6 Address
+              </button>
+            </th>
+            <th
+              colspan="1"
+            >
+              <button
+                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                title="Sort ascending"
+                type="button"
+              >
+                DUID
+              </button>
+            </th>
+            <th
+              colspan="1"
+            >
+              <button
+                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                title="Sort ascending"
+                type="button"
+              >
+                Expires
+              </button>
+            </th>
+            <th
+              class="d-flex justify-content-center"
+              colspan="1"
+            >
+              <button
+                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                title="Sort descending"
+                type="button"
+              >
+                Active
+              </button>
             </th>
           </tr>
         </thead>
         <tbody>
           <tr
-            class="text-left"
+            class="align-middle"
           >
             <td>
               first
@@ -52,14 +104,19 @@ exports[`<DHCP6Clients/> Test with snapshot. 1`] = `
             <td>
               00049367d8183c4e45a4b834f5a92f95d3b9
             </td>
+            <td>
+              2018-10-12 13:16
+            </td>
             <td
               class="text-center"
             >
-              2018-10-12 13:16
+              <i
+                class="fa"
+              />
             </td>
           </tr>
           <tr
-            class="text-left"
+            class="align-middle"
           >
             <td>
               second
@@ -70,14 +127,133 @@ exports[`<DHCP6Clients/> Test with snapshot. 1`] = `
             <td>
               00049367d8183c4c43a4b834f5a92f95d3b9
             </td>
+            <td>
+              2018-10-14 20:49
+            </td>
             <td
               class="text-center"
             >
-              2018-10-14 20:49
+              <i
+                class="fa"
+              />
             </td>
           </tr>
         </tbody>
       </table>
+      <nav
+        aria-label="Pagination navigation bar"
+        class="d-flex gap-2 justify-content-start align-items-center mx-2 mb-1 text-nowrap"
+      >
+        <ul
+          class="pagination pagination-sm mb-0"
+        >
+          <li
+            class="page-item disabled"
+            style="cursor: not-allowed;"
+          >
+            <button
+              aria-label="First page"
+              class="page-link"
+              disabled=""
+              type="button"
+            >
+              <i
+                class="fa"
+              />
+            </button>
+          </li>
+          <li
+            class="page-item disabled"
+            style="cursor: not-allowed;"
+          >
+            <button
+              aria-label="Previous page"
+              class="page-link"
+              disabled=""
+              type="button"
+            >
+              <i
+                class="fa"
+              />
+            </button>
+          </li>
+          <li
+            class="page-item disabled"
+            style="cursor: not-allowed;"
+          >
+            <button
+              aria-label="Next page"
+              class="page-link"
+              disabled=""
+              type="button"
+            >
+              <i
+                class="fa"
+              />
+            </button>
+          </li>
+          <li
+            class="page-item disabled"
+            style="cursor: not-allowed;"
+          >
+            <button
+              aria-label="Last page"
+              class="page-link"
+              disabled=""
+              type="button"
+            >
+              <i
+                class="fa"
+              />
+            </button>
+          </li>
+        </ul>
+        <span>
+          Page
+           
+          <span
+            class="fw-bold"
+          >
+            1
+             
+            of
+             
+            1
+          </span>
+        </span>
+        <div
+          class="vr mx-1 align-self-center"
+          style="height: 1.5rem;"
+        />
+        <span>
+          Rows per page:
+        </span>
+        <select
+          aria-label="Select rows per page"
+          class="form-select form-select-sm w-auto"
+        >
+          <option
+            value="5"
+          >
+            5
+          </option>
+          <option
+            value="10"
+          >
+            10
+          </option>
+          <option
+            value="25"
+          >
+            25
+          </option>
+          <option
+            value="2"
+          >
+            All
+          </option>
+        </select>
+      </nav>
     </div>
   </div>
 </div>

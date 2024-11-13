@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -8,11 +8,25 @@
 import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Button, useAPIDelete, API_STATE } from "foris";
+import { Button, useAPIDelete, API_STATE, RichTable } from "foris";
 import moment from "moment";
 import PropTypes from "prop-types";
 
 import API_URLs from "common/API";
+
+ActiveIcon.propTypes = {
+    isActive: PropTypes.bool.isRequired,
+};
+
+function ActiveIcon({ isActive }) {
+    return (
+        <FontAwesomeIcon
+            icon={`fa-solid ${isActive ? "fa-check" : "fa-times"}`}
+            className={isActive ? "text-success" : "text-danger"}
+            title={isActive ? _("Device is active") : _("Device is inactive")}
+        />
+    );
+}
 
 StaticLeasesTable.propTypes = {
     clients: PropTypes.arrayOf(PropTypes.object),
@@ -26,83 +40,77 @@ export default function StaticLeasesTable({ clients, editStaticLease }) {
         );
     }
 
-    return (
-        <div className="table-responsive">
-            <table className="table table-hover">
-                <thead className="thead-light">
-                    <tr className="text-left">
-                        <th>{_("Hostname")}</th>
-                        <th>{_("IPv4 Address")}</th>
-                        <th>{_("MAC Address")}</th>
-                        <th className="text-center">{_("Expires")}</th>
-                        <th className="text-center">{_("Active")}</th>
-                        <th aria-label={_("Actions")} />
-                    </tr>
-                </thead>
-                <tbody>
-                    {clients.map((client) => (
-                        <DHCPClientsTableItem
-                            key={client.mac}
-                            client={client}
-                            editStaticLease={editStaticLease}
-                        />
-                    ))}
-                </tbody>
-            </table>
-        </div>
-    );
-}
+    function renderActiveIcon({ getValue }) {
+        return <ActiveIcon isActive={getValue()} />;
+    }
 
-DHCPClientsTableItem.propTypes = {
-    client: PropTypes.object,
-    editStaticLease: PropTypes.func,
-};
+    function renderActions({ row }) {
+        const client = row.original;
+        return (
+            <StaticLeaseActions
+                client={client}
+                editStaticLease={editStaticLease}
+            />
+        );
+    }
 
-export function DHCPClientsTableItem({ client, editStaticLease }) {
-    const { hostname, ip, mac, expires, active, static: isStatic } = client;
+    const columns = [
+        {
+            accessorKey: "hostname",
+            header: _("Hostname"),
+        },
+        {
+            accessorKey: "ip",
+            header: _("IPv4 Address"),
+        },
+        {
+            accessorKey: "mac",
+            header: _("MAC Address"),
+        },
+        {
+            accessorKey: "expires",
+            header: _("Expires"),
+            cell: ({ getValue, row }) => {
+                const expires = getValue();
+                const isStatic = row.original.static;
+                return isStatic
+                    ? _("Never")
+                    : moment
+                          .unix(expires)
+                          .locale(ForisTranslations.locale)
+                          .format("l LT");
+            },
+        },
+        {
+            accessorKey: "active",
+            header: _("Active"),
+            headerClassName: "d-flex justify-content-center",
+            className: "text-center",
+            cell: renderActiveIcon,
+        },
+        {
+            accessorKey: "actions",
+            header: _("Actions"),
+            headerIsHidden: true,
+            className: "text-end",
+            cell: renderActions,
+        },
+    ];
 
-    const clientExpires =
-        expires && !isStatic
-            ? moment.unix(expires).format("YYYY-MM-DD HH:mm")
-            : _("Never");
-
-    return (
-        <tr>
-            <td className="align-middle">{hostname}</td>
-            <td className="align-middle">{ip}</td>
-            <td className="align-middle">{mac}</td>
-            <td className="text-center align-middle">{clientExpires}</td>
-            <td className="text-center align-middle">
-                <FontAwesomeIcon
-                    icon={`fa-solid ${active ? "fa-check" : "fa-times"}`}
-                    className={active ? "text-success" : "text-danger"}
-                    title={
-                        active ? _("Device is active") : _("Device is inactive")
-                    }
-                />
-            </td>
-            <td className="align-middle" align="right">
-                <StaticLeaseActions
-                    client={client}
-                    editStaticLease={editStaticLease}
-                />
-            </td>
-        </tr>
-    );
+    return <RichTable columns={columns} data={clients} withPagination />;
 }
 
 StaticLeaseActions.propTypes = {
     client: PropTypes.object,
     editStaticLease: PropTypes.func,
-    disabled: PropTypes.bool,
 };
 
-function StaticLeaseActions({ client, editStaticLease, disabled }) {
+function StaticLeaseActions({ client, editStaticLease }) {
     const [deleteStaticLeaseResponse, deleteStaticLease] = useAPIDelete(
         `${API_URLs.lanClients}/${client.mac}`
     );
     const buttonDisabled =
-        disabled || deleteStaticLeaseResponse.state === API_STATE.SENDING;
+        deleteStaticLeaseResponse.state === API_STATE.SENDING;
 
     return client.static ? (
         <div
