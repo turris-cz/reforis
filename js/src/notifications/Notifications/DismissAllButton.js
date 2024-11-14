@@ -8,6 +8,7 @@
 import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Button } from "foris";
 import PropTypes from "prop-types";
 
 DismissAllButton.propTypes = {
@@ -16,14 +17,13 @@ DismissAllButton.propTypes = {
 
 export default function DismissAllButton({ dismissAll }) {
     return (
-        <button
-            type="button"
+        <Button
             id="btn-dismiss-all"
-            className="btn btn-outline-danger float-end"
+            className="btn-sm btn-outline-danger"
             onClick={dismissAll}
         >
             <FontAwesomeIcon icon="fa-solid fa-trash" className="me-1" />
             {_("Dismiss all")}
-        </button>
+        </Button>
     );
 }
