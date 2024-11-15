@@ -41,6 +41,13 @@ export default function DHCP6Clients({ ipv6clients }) {
         {
             accessorKey: "expires",
             header: _("Expires"),
+            cell: ({ getValue }) => {
+                const expires = getValue();
+                return moment
+                    .utc(expires)
+                    .locale(ForisTranslations.locale)
+                    .format("l LT");
+            },
         },
         {
             accessorKey: "active",
