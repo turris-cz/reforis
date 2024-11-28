@@ -93,7 +93,7 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
           <h5
             class="mb-0 text-body"
           >
-            Dark Mode
+            Theme
           </h5>
         </div>
         <div
@@ -289,7 +289,7 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
           <h5
             class="mb-0 text-body"
           >
-            Dark Mode
+            Theme
           </h5>
         </div>
         <div
@@ -458,7 +458,7 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
           <h5
             class="mb-0 text-body"
           >
-            Dark Mode
+            Theme
           </h5>
         </div>
         <div
@@ -629,7 +629,7 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
           <h5
             class="mb-0 text-body"
           >
-            Dark Mode
+            Theme
           </h5>
         </div>
         <div

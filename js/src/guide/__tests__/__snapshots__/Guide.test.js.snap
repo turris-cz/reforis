@@ -106,7 +106,7 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
             <h5
               class="mb-0 text-body"
             >
-              Dark Mode
+              Theme
             </h5>
           </div>
           <div
