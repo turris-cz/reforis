@@ -57,7 +57,10 @@ export default function DHCP6Clients({ ipv6clients }) {
         duid: client.duid,
         active: client.active,
         expires: client.expires
-            ? moment.unix(client.expires).format("YYYY-MM-DD HH:mm")
+            ? moment
+                  .unix(client.expires)
+                  .locale(ForisTranslations.locale)
+                  .format("l LT")
             : _("Never"),
     }));
 
