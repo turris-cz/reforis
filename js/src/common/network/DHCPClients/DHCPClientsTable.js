@@ -56,9 +56,13 @@ export function DHCPClientsTableItem({ ip, expires, mac, hostname, active }) {
             <td>{mac}</td>
             <td className="text-center">
                 {expires
-                    ? moment.unix(expires).format("YYYY-MM-DD HH:mm")
+                    ? moment
+                          .unix(expires)
+                          .locale(ForisTranslations.locale)
+                          .format("l LT")
                     : _("Never")}
             </td>
+
             <td className="text-center">
                 <FontAwesomeIcon
                     icon={`fa-solid ${active ? "fa-check" : "fa-times"}`}
