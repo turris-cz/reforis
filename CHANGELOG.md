@@ -8,6 +8,25 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.2.0] - 2024-11-29
+
+### Added
+
+-   Added & updated Weblate translations
+
+### Changed
+
+-   Updated Foris JS library to v6.5.0
+-   Updated reforis_screenshot.png
+-   Fixed table text color in dark mode
+-   Refactored OpenVPNCard on Overview page
+-   Refactored LibrespeedCard component
+-   Refactored DHCP client tables to use RichTable component for improved display
+-   Refactored FactoryReset and Reboot to use ActionButtonWithModal component
+-   Refactored LanguageDropdown to use language names instead of codes
+-   Updated ThreatDetectionCard to allow optional isInstalled prop
+-   Renamed "Dark Mode" to "Theme" in dropdown header
+
 ## [3.1.1] - 2024-10-22
 
 ### Added
