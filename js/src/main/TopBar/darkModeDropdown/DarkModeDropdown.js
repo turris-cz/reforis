@@ -74,7 +74,7 @@ function DarkModeDropdown({ className }) {
                 id="darkmode-dropdown-menu"
             >
                 <div className="dropdown-header">
-                    <h5 className="mb-0 text-body">{_("Dark Mode")}</h5>
+                    <h5 className="mb-0 text-body">{_("Theme")}</h5>
                 </div>
                 <div className="dropdown-divider" />
                 {darkModeOptions.map((option) => (
