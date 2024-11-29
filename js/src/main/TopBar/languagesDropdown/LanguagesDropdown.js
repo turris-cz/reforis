@@ -65,30 +65,82 @@ export default function LanguagesDropdown({ ws, className }) {
                 </div>
                 <div className="dropdown-divider" />
                 {langsList ? (
-                    langsList.map((lang) => (
-                        <li key={lang}>
-                            <button
-                                key={lang}
-                                type="button"
-                                className={`dropdown-item d-flex align-items-center ${lang === currentLang ? "active fw-bold" : ""}`.trim()}
-                                onClick={() =>
-                                    post({ data: { language: lang } })
-                                }
-                            >
-                                {lang.toUpperCase()}
-                                {lang === currentLang && (
-                                    <FontAwesomeIcon
-                                        icon="fa-solid fa-check"
-                                        className="ms-auto"
-                                    />
-                                )}
-                            </button>
+                    <>
+                        {langsList.map((lang) => (
+                            <li key={lang}>
+                                <button
+                                    key={lang}
+                                    type="button"
+                                    className={`dropdown-item d-flex align-items-center ${lang === currentLang ? "active fw-bold" : ""}`.trim()}
+                                    onClick={() =>
+                                        post({ data: { language: lang } })
+                                    }
+                                >
+                                    <span className="me-2">
+                                        {mapLangCodeToName()[lang]}
+                                    </span>
+                                    {lang === currentLang && (
+                                        <FontAwesomeIcon
+                                            icon="fa-solid fa-check"
+                                            className="ms-auto"
+                                        />
+                                    )}
+                                </button>
+                            </li>
+                        ))}
+                        <li>
+                            <hr className="dropdown-divider" />
                         </li>
-                    ))
+                        <li>
+                            <a
+                                className="dropdown-item d-flex align-items-center"
+                                href="https://docs.turris.cz/geek/contributing/translation/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {_("Participate in translation")}
+                                <sup>
+                                    <FontAwesomeIcon
+                                        icon="fa-solid fa-external-link-alt"
+                                        className="fa-sm ms-1"
+                                    />
+                                </sup>
+                            </a>
+                        </li>
+                    </>
                 ) : (
                     <SpinnerElement small />
                 )}
             </ul>
         </div>
     );
+}
+
+function mapLangCodeToName() {
+    return {
+        el: "Ελληνικά",
+        en: "English",
+        cs: "Čeština",
+        de: "Deutsch",
+        fo: "Føroyskt",
+        fi: "Suomi",
+        sk: "Slovenčina",
+        da: "Dansk",
+        nl: "Nederlands",
+        sv: "Svenska",
+        pl: "Polski",
+        fr: "Français",
+        es: "Español",
+        ko: "한국어",
+        ja: "日本語",
+        la: "Latina",
+        hu: "Magyar",
+        ru: "Русский",
+        lt: "Lietuvių",
+        nb_NO: "Norsk Bokmål",
+        ro: "Română",
+        hr: "Hrvatski",
+        it: "Italiano",
+        pt_BR: "Português Brasileiro",
+    };
 }

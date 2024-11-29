@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-22 13:15+0200\n"
+"POT-Creation-Date: 2024-11-29 15:11+0100\n"
 "PO-Revision-Date: 2024-10-15 07:15+0000\n"
 "Last-Translator: Moha684 <nahil82466@gmail.com>\n"
 "Language: fr\n"
@@ -69,54 +69,76 @@ msgstr "Branche Turris OS"
 msgid "Kernel version"
 msgstr "Version du noyau"
 
-#: js/src/common/FactoryResetButton.js:51
-msgid "Reset"
-msgstr "Réinitialiser"
+#: js/src/common/RebootButton.js:22 js/src/common/RebootButton.js:42
+#: js/src/maintenance/Reboot.js:17
+msgid "Reboot"
+msgstr "Redémarrer"
 
-#: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:65
-#: js/src/dns/DNSSECDisableModal.js:34
+#: js/src/common/RebootButton.js:40 js/src/dns/DNSSECDisableModal.js:34
 #: js/src/guide/GuideControls/SkipGuideButton.js:68
+#: js/src/maintenance/FactoryReset.js:27
 #: js/src/notificationsSettings/TestNotification.js:148
 msgid "Warning!"
 msgstr "Attention !"
 
-#: js/src/common/FactoryResetButton.js:68
-msgid "Are you sure you want to reset the router?"
+#: js/src/common/RebootButton.js:41
+#, fuzzy
+msgid "Are you sure you want to reboot the router?"
 msgstr "Voulez-vous vraiment réinitialiser le routeur ?"
 
-#: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:70
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
-#: js/src/dns/DNSSECDisableModal.js:48
-#: js/src/guide/GuideControls/SkipGuideButton.js:87
-#: js/src/notificationsSettings/TestNotification.js:153
-msgid "Cancel"
-msgstr "Annuler"
+#: js/src/common/RebootButton.js:44
+#, fuzzy
+msgid "The router has been rebooted successfully."
+msgstr "Bail statique ajouté avec succès."
 
-#: js/src/common/FactoryResetButton.js:73
-msgid "Confirm factory reset"
-msgstr "Confirmer la réinitialisation d'usine"
-
-#: js/src/common/RebootButton.js:50 js/src/maintenance/Reboot.js:17
-msgid "Reboot"
-msgstr "Redémarrer"
-
-#: js/src/common/RebootButton.js:67
-msgid "Are you sure you want to restart the router?"
-msgstr "Voulez-vous vraiment redémarrer le routeur ?"
-
-#: js/src/common/RebootButton.js:72
-msgid "Confirm reboot"
-msgstr "Confirmer le redémarrage"
+#: js/src/common/RebootButton.js:45
+#, fuzzy
+msgid "An error occurred while rebooting the router."
+msgstr "Une erreur s'est produite"
 
 #: js/src/common/ScrollToTopArrow.js:33
 msgid "Go to top"
 msgstr "Aller en haut"
 
-#: js/src/common/network/DHCP6Clients.js:25
+#: js/src/common/network/DHCP6Clients.js:31
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:60
+#: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
+msgid "Hostname"
+msgstr "Nom d’hôte"
+
+#: js/src/common/network/DHCP6Clients.js:35
+msgid "IPv6 Address"
+msgstr "Adresse IPv6"
+
+#: js/src/common/network/DHCP6Clients.js:39
+msgid "DUID"
+msgstr "DUID"
+
+#: js/src/common/network/DHCP6Clients.js:43
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:72
+msgid "Expires"
+msgstr "Expire le"
+
+#: js/src/common/network/DHCP6Clients.js:47
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:86
+msgid "Active"
+msgstr "Actif"
+
+#: js/src/common/network/DHCP6Clients.js:64
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:63
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:77
+msgid "Never"
+msgstr "Jamais"
+
+#: js/src/common/network/DHCP6Clients.js:69
 msgid "IPv6 DHCP Client List"
 msgstr "Liste des clients DHCP IPv6"
 
-#: js/src/common/network/DHCP6Clients.js:27
+#: js/src/common/network/DHCP6Clients.js:71
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
@@ -124,39 +146,23 @@ msgstr ""
 "Cette liste contient tous les périphériques qui sont connectés au réseau "
 "par des connexions filaires ou sans fil utilisant l'IPv6."
 
-#: js/src/common/network/DHCP6Clients.js:33
+#: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:25
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:39
 msgid "No clients found."
 msgstr "Aucun client DHCP trouvé."
 
-#: js/src/common/network/DHCP6Clients.js:40
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
-#: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
-msgid "Hostname"
-msgstr "Nom d’hôte"
+#: js/src/common/network/DHCP6Clients.js:96
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
+msgid "Device is active"
+msgstr "L’appareil est actif"
 
-#: js/src/common/network/DHCP6Clients.js:41
-msgid "IPv6 Address"
-msgstr "Adresse IPv6"
-
-#: js/src/common/network/DHCP6Clients.js:42
-msgid "DUID"
-msgstr "DUID"
-
-#: js/src/common/network/DHCP6Clients.js:43
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:37
-msgid "Expires"
-msgstr "Expire le"
-
-#: js/src/common/network/DHCP6Clients.js:77
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:60
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:67
-msgid "Never"
-msgstr "Jamais"
+#: js/src/common/network/DHCP6Clients.js:104
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
+msgid "Device is inactive"
+msgstr "L’appareil est inactif"
 
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
@@ -284,29 +290,14 @@ msgstr ""
 "par des connexions câblées ou sans fil."
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:64
 msgid "IPv4 Address"
 msgstr "Adresse IPv4"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:36
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:68
 msgid "MAC Address"
 msgstr "Adresse MAC"
-
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
-msgid "Active"
-msgstr "Actif"
-
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:67
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
-msgid "Device is active"
-msgstr "L’appareil est actif"
-
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:67
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
-msgid "Device is inactive"
-msgstr "L’appareil est inactif"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
 msgid "Edit static lease"
@@ -320,6 +311,13 @@ msgstr "Définir bail statique"
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:98
 msgid "Add static lease"
 msgstr "Ajouter bail statique"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
+#: js/src/dns/DNSSECDisableModal.js:48
+#: js/src/guide/GuideControls/SkipGuideButton.js:87
+#: js/src/notificationsSettings/TestNotification.js:153
+msgid "Cancel"
+msgstr "Annuler"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:57
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
@@ -347,23 +345,23 @@ msgstr "Adresse MAC"
 msgid "List of available MAC addresses"
 msgstr "Liste des adresses MAC disponibles"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:39
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:111
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:93
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:119
 #: js/src/dns/Forwarders/ForwardersTable.js:40
 msgid "Actions"
 msgstr "Actions"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:128
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:136
 #: js/src/dns/Forwarders/ForwardersTable.js:142
 msgid "Edit"
 msgstr "Modifier"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:148
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:156
 #: js/src/dns/Forwarders/ForwardersTable.js:153
 msgid "Delete"
 msgstr "Supprimer"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:165
 msgid "Set Static"
 msgstr "Définir route statique"
 
@@ -711,12 +709,12 @@ msgid "Enable QoS"
 msgstr "Activer la QoS"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:159
-#: js/src/overview/Cards/LibrespeedCard.js:64
+#: js/src/overview/Cards/LibrespeedCard.js:79
 msgid "Download"
 msgstr "Télécharger"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
-#: js/src/overview/Cards/LibrespeedCard.js:78
+#: js/src/overview/Cards/LibrespeedCard.js:93
 msgid "Upload"
 msgstr "Téléversement"
 
@@ -1282,9 +1280,8 @@ msgstr "Vitesse du lien"
 
 #: js/src/interfaces/SelectedInterface.js:135
 #: js/src/interfaces/SelectedInterface.js:140
-#: js/src/overview/Cards/LibrespeedCard.js:104
-#: js/src/overview/Cards/LibrespeedCard.js:122
-#: js/src/overview/Cards/LibrespeedCard.js:133
+#: js/src/overview/Cards/LibrespeedCard.js:118
+#: js/src/overview/Cards/LibrespeedCard.js:134
 msgid "N/A"
 msgstr "N/A"
 
@@ -1452,8 +1449,12 @@ msgstr "Automatique"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
 #, fuzzy
-msgid "Dark Mode"
-msgstr "Mode réseau local"
+msgid "Theme"
+msgstr "Heure"
+
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:101
+msgid "Participate in translation"
+msgstr ""
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:38
 #: js/src/notifications/Notifications/Notifications.js:56
@@ -1497,7 +1498,7 @@ msgstr "Installer maintenant"
 msgid "Cannot install updates."
 msgstr "Impossible d'installer les mises à jour."
 
-#: js/src/maintenance/FactoryReset.js:17
+#: js/src/maintenance/FactoryReset.js:17 js/src/maintenance/FactoryReset.js:48
 msgid "Factory Reset"
 msgstr "Retour aux paramètres d'usine"
 
@@ -1513,6 +1514,24 @@ msgstr ""
 " qui leur sont associées. Cela permet de rétablir tous les paramètres par"
 " défaut de l'appareil tels qu'ils étaient lorsque le routeur était neuf, "
 "ce qui vous permet de repartir à zéro."
+
+#: js/src/maintenance/FactoryReset.js:28
+msgid "Are you sure you want to reset the router?"
+msgstr "Voulez-vous vraiment réinitialiser le routeur ?"
+
+#: js/src/maintenance/FactoryReset.js:31
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: js/src/maintenance/FactoryReset.js:33
+#, fuzzy
+msgid "The router has been reset successfully."
+msgstr "Le mot de passe a été changé avec succès."
+
+#: js/src/maintenance/FactoryReset.js:36
+#, fuzzy
+msgid "An error occurred while resetting the router."
+msgstr "Une erreur s'est produite"
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
@@ -1789,11 +1808,15 @@ msgstr "Mises à jour automatiques"
 msgid "Go to update settings"
 msgstr "Paramètres de mise à jour"
 
-#: js/src/overview/Cards/Card.js:45
+#: js/src/overview/Cards/Card.js:35
+msgid "Refresh"
+msgstr ""
+
+#: js/src/overview/Cards/Card.js:58
 msgid "Activated"
 msgstr "Activé"
 
-#: js/src/overview/Cards/Card.js:45
+#: js/src/overview/Cards/Card.js:58
 msgid "Disabled"
 msgstr "Désactivé"
 
@@ -1806,57 +1829,80 @@ msgstr "Pare-feu dynamique"
 msgid "Go to Dynamic Firewall package installation"
 msgstr "Pare-feu dynamique"
 
-#: js/src/overview/Cards/LibrespeedCard.js:53
+#: js/src/overview/Cards/LibrespeedCard.js:67
 #, fuzzy
 msgid "LibreSpeed"
 msgstr "Vitesse du lien"
 
-#: js/src/overview/Cards/LibrespeedCard.js:55
+#: js/src/overview/Cards/LibrespeedCard.js:69
 msgid "Go to LibreSpeed"
 msgstr ""
 
-#: js/src/overview/Cards/LibrespeedCard.js:67
-#: js/src/overview/Cards/LibrespeedCard.js:81
+#: js/src/overview/Cards/LibrespeedCard.js:82
+#: js/src/overview/Cards/LibrespeedCard.js:96
 msgid "Megabit per second"
 msgstr "Mégabit par seconde"
 
-#: js/src/overview/Cards/LibrespeedCard.js:92
+#: js/src/overview/Cards/LibrespeedCard.js:107
 msgid "Ping"
 msgstr "Ping"
 
-#: js/src/overview/Cards/LibrespeedCard.js:95
-#: js/src/overview/Cards/LibrespeedCard.js:113
+#: js/src/overview/Cards/LibrespeedCard.js:110
+#: js/src/overview/Cards/LibrespeedCard.js:126
 msgid "Millisecond"
 msgstr "Milliseconde"
 
-#: js/src/overview/Cards/LibrespeedCard.js:110
+#: js/src/overview/Cards/LibrespeedCard.js:123
 msgid "Jitter"
 msgstr ""
 
-#: js/src/overview/Cards/LibrespeedCard.js:127
+#: js/src/overview/Cards/LibrespeedCard.js:138
 #, fuzzy
 msgid "Server"
 msgstr "Jamais"
 
-#: js/src/overview/Cards/LibrespeedCard.js:142
+#: js/src/overview/Cards/LibrespeedCard.js:152
 msgid "Performed"
 msgstr "Effectué"
 
-#: js/src/overview/Cards/LibrespeedCard.js:148
+#: js/src/overview/Cards/LibrespeedCard.js:158
 msgid "No tests have been performed lately."
 msgstr "Aucun test n'a été effectué dernièrement."
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:48
+#: js/src/overview/Cards/OpenVPNClientsCard.js:61
 msgid "OpenVPN Clients"
 msgstr "Clients OpenVPN"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:50
+#: js/src/overview/Cards/OpenVPNClientsCard.js:63
 msgid "Go to OpenVPN Client Settings"
 msgstr "Accédez aux paramètres du client OpenVPN"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:85
-msgid "There are no clients added yet."
+#: js/src/overview/Cards/OpenVPNClientsCard.js:77
+msgid "Currently, there are no connected OpenVPN clients."
+msgstr ""
+
+#: js/src/overview/Cards/OpenVPNClientsCard.js:88
+#, fuzzy
+msgid "There are no OpenVPN clients."
 msgstr "Il n'y a pas encore de clients ajoutés."
+
+#: js/src/overview/Cards/OpenVPNClientsCard.js:116
+#, fuzzy
+msgid "Total In: "
+msgstr "Broche TLS"
+
+#: js/src/overview/Cards/OpenVPNClientsCard.js:125
+msgid "Total Out: "
+msgstr ""
+
+#: js/src/overview/Cards/OpenVPNClientsCard.js:153
+#, fuzzy
+msgid "Connected"
+msgstr "Reconnexion"
+
+#: js/src/overview/Cards/OpenVPNClientsCard.js:162
+msgid "Disconnected"
+msgstr ""
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
 #, fuzzy
@@ -3296,4 +3342,16 @@ msgstr "500 - Server error"
 
 #~ msgid "Link"
 #~ msgstr "Lien"
+
+#~ msgid "Confirm factory reset"
+#~ msgstr "Confirmer la réinitialisation d'usine"
+
+#~ msgid "Are you sure you want to restart the router?"
+#~ msgstr "Voulez-vous vraiment redémarrer le routeur ?"
+
+#~ msgid "Confirm reboot"
+#~ msgstr "Confirmer le redémarrage"
+
+#~ msgid "Dark Mode"
+#~ msgstr "Mode réseau local"
 

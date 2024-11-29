@@ -107,7 +107,11 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
             <i
               class="fa"
             />
-            Light
+            <span
+              class="me-2"
+            >
+              Light
+            </span>
           </button>
         </li>
         <li>
@@ -118,7 +122,11 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
             <i
               class="fa"
             />
-            Dark
+            <span
+              class="me-2"
+            >
+              Dark
+            </span>
           </button>
         </li>
         <li>
@@ -129,7 +137,11 @@ exports[`<GuideHelp/> displays lan help with completed message 1`] = `
             <i
               class="fa"
             />
-            Auto
+            <span
+              class="me-2"
+            >
+              Auto
+            </span>
             <i
               class="fa"
             />
@@ -303,7 +315,11 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
             <i
               class="fa"
             />
-            Light
+            <span
+              class="me-2"
+            >
+              Light
+            </span>
           </button>
         </li>
         <li>
@@ -314,7 +330,11 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
             <i
               class="fa"
             />
-            Dark
+            <span
+              class="me-2"
+            >
+              Dark
+            </span>
           </button>
         </li>
         <li>
@@ -325,7 +345,11 @@ exports[`<GuideHelp/> displays lan help without completed message - server workf
             <i
               class="fa"
             />
-            Auto
+            <span
+              class="me-2"
+            >
+              Auto
+            </span>
             <i
               class="fa"
             />
@@ -472,7 +496,11 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
             <i
               class="fa"
             />
-            Light
+            <span
+              class="me-2"
+            >
+              Light
+            </span>
           </button>
         </li>
         <li>
@@ -483,7 +511,11 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
             <i
               class="fa"
             />
-            Dark
+            <span
+              class="me-2"
+            >
+              Dark
+            </span>
           </button>
         </li>
         <li>
@@ -494,7 +526,11 @@ exports[`<GuideHelp/> displays lan help without completed message 1`] = `
             <i
               class="fa"
             />
-            Auto
+            <span
+              class="me-2"
+            >
+              Auto
+            </span>
             <i
               class="fa"
             />
@@ -643,7 +679,11 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
             <i
               class="fa"
             />
-            Light
+            <span
+              class="me-2"
+            >
+              Light
+            </span>
           </button>
         </li>
         <li>
@@ -654,7 +694,11 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
             <i
               class="fa"
             />
-            Dark
+            <span
+              class="me-2"
+            >
+              Dark
+            </span>
           </button>
         </li>
         <li>
@@ -665,7 +709,11 @@ exports[`<GuideHelp/> doesn't display completed message if it doesn't exist 1`] 
             <i
               class="fa"
             />
-            Auto
+            <span
+              class="me-2"
+            >
+              Auto
+            </span>
             <i
               class="fa"
             />

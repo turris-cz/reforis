@@ -30,7 +30,7 @@ function DarkModeDropdownButton({ label, icon, onClick, active }) {
                     className="me-1 opacity-50"
                     width="1rem"
                 />
-                {label}
+                <span className="me-2">{label}</span>
                 {active && (
                     <FontAwesomeIcon
                         icon="fa-solid fa-check"

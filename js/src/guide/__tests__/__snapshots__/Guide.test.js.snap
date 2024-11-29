@@ -59,7 +59,11 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
               class="dropdown-item d-flex align-items-center active fw-bold"
               type="button"
             >
-              EN
+              <span
+                class="me-2"
+              >
+                English
+              </span>
               <i
                 class="fa"
               />
@@ -70,7 +74,11 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
               class="dropdown-item d-flex align-items-center"
               type="button"
             >
-              CS
+              <span
+                class="me-2"
+              >
+                Čeština
+              </span>
             </button>
           </li>
           <li>
@@ -78,8 +86,32 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
               class="dropdown-item d-flex align-items-center"
               type="button"
             >
-              RU
+              <span
+                class="me-2"
+              >
+                Русский
+              </span>
             </button>
+          </li>
+          <li>
+            <hr
+              class="dropdown-divider"
+            />
+          </li>
+          <li>
+            <a
+              class="dropdown-item d-flex align-items-center"
+              href="https://docs.turris.cz/geek/contributing/translation/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Participate in translation
+              <sup>
+                <i
+                  class="fa"
+                />
+              </sup>
+            </a>
           </li>
         </ul>
       </div>
@@ -120,7 +152,11 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
               <i
                 class="fa"
               />
-              Light
+              <span
+                class="me-2"
+              >
+                Light
+              </span>
             </button>
           </li>
           <li>
@@ -131,7 +167,11 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
               <i
                 class="fa"
               />
-              Dark
+              <span
+                class="me-2"
+              >
+                Dark
+              </span>
             </button>
           </li>
           <li>
@@ -142,7 +182,11 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
               <i
                 class="fa"
               />
-              Auto
+              <span
+                class="me-2"
+              >
+                Auto
+              </span>
               <i
                 class="fa"
               />

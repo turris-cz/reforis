@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-22 13:15+0200\n"
+"POT-Creation-Date: 2024-11-29 15:11+0100\n"
 "PO-Revision-Date: 2024-11-15 13:00+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
-"\n"
 "Language: cs\n"
+"Language-Team: Czech "
+"<https://hosted.weblate.org/projects/turris/reforis/cs/>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.9-dev\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: js/src/about/About.js:18
@@ -69,54 +68,76 @@ msgstr "Větev Turris OS"
 msgid "Kernel version"
 msgstr "Verze kernelu"
 
-#: js/src/common/FactoryResetButton.js:51
-msgid "Reset"
-msgstr "Reset"
+#: js/src/common/RebootButton.js:22 js/src/common/RebootButton.js:42
+#: js/src/maintenance/Reboot.js:17
+msgid "Reboot"
+msgstr "Restartovat"
 
-#: js/src/common/FactoryResetButton.js:66 js/src/common/RebootButton.js:65
-#: js/src/dns/DNSSECDisableModal.js:34
+#: js/src/common/RebootButton.js:40 js/src/dns/DNSSECDisableModal.js:34
 #: js/src/guide/GuideControls/SkipGuideButton.js:68
+#: js/src/maintenance/FactoryReset.js:27
 #: js/src/notificationsSettings/TestNotification.js:148
 msgid "Warning!"
 msgstr "Varování!"
 
-#: js/src/common/FactoryResetButton.js:68
-msgid "Are you sure you want to reset the router?"
+#: js/src/common/RebootButton.js:41
+#, fuzzy
+msgid "Are you sure you want to reboot the router?"
 msgstr "Opravdu chcete router resetovat do továrního nastavení?"
 
-#: js/src/common/FactoryResetButton.js:71 js/src/common/RebootButton.js:70
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
-#: js/src/dns/DNSSECDisableModal.js:48
-#: js/src/guide/GuideControls/SkipGuideButton.js:87
-#: js/src/notificationsSettings/TestNotification.js:153
-msgid "Cancel"
-msgstr "Zrušit"
+#: js/src/common/RebootButton.js:44
+#, fuzzy
+msgid "The router has been rebooted successfully."
+msgstr "Statická zápůjčka byla úspěšně přidána."
 
-#: js/src/common/FactoryResetButton.js:73
-msgid "Confirm factory reset"
-msgstr "Potvrdit reset do továrního nastavení"
-
-#: js/src/common/RebootButton.js:50 js/src/maintenance/Reboot.js:17
-msgid "Reboot"
-msgstr "Restartovat"
-
-#: js/src/common/RebootButton.js:67
-msgid "Are you sure you want to restart the router?"
-msgstr "Opravdu chcete router restartovat?"
-
-#: js/src/common/RebootButton.js:72
-msgid "Confirm reboot"
-msgstr "Potvrdit restart"
+#: js/src/common/RebootButton.js:45
+#, fuzzy
+msgid "An error occurred while rebooting the router."
+msgstr "Došlo k chybě - reForis | Turris"
 
 #: js/src/common/ScrollToTopArrow.js:33
 msgid "Go to top"
 msgstr "Přejít na začátek"
 
-#: js/src/common/network/DHCP6Clients.js:25
+#: js/src/common/network/DHCP6Clients.js:31
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:60
+#: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
+msgid "Hostname"
+msgstr "Síťový název"
+
+#: js/src/common/network/DHCP6Clients.js:35
+msgid "IPv6 Address"
+msgstr "Adresa IPv6"
+
+#: js/src/common/network/DHCP6Clients.js:39
+msgid "DUID"
+msgstr "DUID"
+
+#: js/src/common/network/DHCP6Clients.js:43
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:72
+msgid "Expires"
+msgstr "Platnost končí"
+
+#: js/src/common/network/DHCP6Clients.js:47
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:86
+msgid "Active"
+msgstr "Aktivní"
+
+#: js/src/common/network/DHCP6Clients.js:64
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:63
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:77
+msgid "Never"
+msgstr "Nikdy"
+
+#: js/src/common/network/DHCP6Clients.js:69
 msgid "IPv6 DHCP Client List"
 msgstr "Seznam klientů IPv6 DHCP"
 
-#: js/src/common/network/DHCP6Clients.js:27
+#: js/src/common/network/DHCP6Clients.js:71
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
@@ -124,39 +145,23 @@ msgstr ""
 "Tento seznam obsahuje všechna zařízení, která jsou připojena k síti přes "
 "drátová nebo bezdrátová připojení pomocí IPv6."
 
-#: js/src/common/network/DHCP6Clients.js:33
+#: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:25
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:39
 msgid "No clients found."
 msgstr "Nebyli nalezeni žádní DHCP klienti."
 
-#: js/src/common/network/DHCP6Clients.js:40
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:34
-#: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
-msgid "Hostname"
-msgstr "Síťový název"
+#: js/src/common/network/DHCP6Clients.js:96
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
+msgid "Device is active"
+msgstr "Zařízení je aktivní"
 
-#: js/src/common/network/DHCP6Clients.js:41
-msgid "IPv6 Address"
-msgstr "Adresa IPv6"
-
-#: js/src/common/network/DHCP6Clients.js:42
-msgid "DUID"
-msgstr "DUID"
-
-#: js/src/common/network/DHCP6Clients.js:43
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:37
-msgid "Expires"
-msgstr "Platnost končí"
-
-#: js/src/common/network/DHCP6Clients.js:77
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:60
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:67
-msgid "Never"
-msgstr "Nikdy"
+#: js/src/common/network/DHCP6Clients.js:104
+#: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
+msgid "Device is inactive"
+msgstr "Zařízení je neaktivní"
 
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
@@ -282,29 +287,14 @@ msgstr ""
 "drátová nebo bezdrátová připojení."
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:64
 msgid "IPv4 Address"
 msgstr "Adresa IPv4"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:36
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:68
 msgid "MAC Address"
 msgstr "MAC adresa"
-
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:38
-msgid "Active"
-msgstr "Aktivní"
-
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:67
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
-msgid "Device is active"
-msgstr "Zařízení je aktivní"
-
-#: js/src/common/network/DHCPClients/DHCPClientsTable.js:67
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
-msgid "Device is inactive"
-msgstr "Zařízení je neaktivní"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
 msgid "Edit static lease"
@@ -318,6 +308,13 @@ msgstr "Nastavit statickou zápůjčku"
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:98
 msgid "Add static lease"
 msgstr "Přidat statickou zápůjčku"
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
+#: js/src/dns/DNSSECDisableModal.js:48
+#: js/src/guide/GuideControls/SkipGuideButton.js:87
+#: js/src/notificationsSettings/TestNotification.js:153
+msgid "Cancel"
+msgstr "Zrušit"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:57
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
@@ -345,23 +342,23 @@ msgstr "Adresa MAC"
 msgid "List of available MAC addresses"
 msgstr "Seznam dostupných adres MAC"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:39
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:111
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:93
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:119
 #: js/src/dns/Forwarders/ForwardersTable.js:40
 msgid "Actions"
 msgstr "Akce"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:128
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:136
 #: js/src/dns/Forwarders/ForwardersTable.js:142
 msgid "Edit"
 msgstr "Upravit"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:148
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:156
 #: js/src/dns/Forwarders/ForwardersTable.js:153
 msgid "Delete"
 msgstr "Smazat"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:157
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:165
 msgid "Set Static"
 msgstr "Nastavit staticky"
 
@@ -700,12 +697,12 @@ msgid "Enable QoS"
 msgstr "Zapnout QoS"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:159
-#: js/src/overview/Cards/LibrespeedCard.js:64
+#: js/src/overview/Cards/LibrespeedCard.js:79
 msgid "Download"
 msgstr "Stáhnout"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
-#: js/src/overview/Cards/LibrespeedCard.js:78
+#: js/src/overview/Cards/LibrespeedCard.js:93
 msgid "Upload"
 msgstr "Odesílání"
 
@@ -736,10 +733,10 @@ msgid ""
 "device. Firstly it is required to set your password. Note the security of"
 " your home network is in your hands, so try not to use weak passwords."
 msgstr ""
-"Vítejte ve webovém rozhraní reForis. Tento průvodce vám pomůže s nastavením "
-"vašeho zařízení. Nejprve je třeba si zvolit heslo. Poznamenejme, že "
-"zabezpečení vaší domácí sítě je ve vašich rukách, proto se snažte vyvarovat "
-"používání slabých hesel."
+"Vítejte ve webovém rozhraní reForis. Tento průvodce vám pomůže s "
+"nastavením vašeho zařízení. Nejprve je třeba si zvolit heslo. "
+"Poznamenejme, že zabezpečení vaší domácí sítě je ve vašich rukách, proto "
+"se snažte vyvarovat používání slabých hesel."
 
 #: js/src/guide/constants.js:17
 msgid "Your password is set. You may proceed to the next step."
@@ -1007,8 +1004,8 @@ msgid ""
 "Settings that are not set up during the guide will be set to default "
 "values. And you will have to set them up manually."
 msgstr ""
-"Nastavení, která neprovedete během průvodce, budou ponechána na výchozích "
-"hodnotách. Budete je muset nastavit ručně."
+"Nastavení, která neprovedete během průvodce, budou ponechána na výchozích"
+" hodnotách. Budete je muset nastavit ručně."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:155
@@ -1249,9 +1246,8 @@ msgstr "Rychlost linky"
 
 #: js/src/interfaces/SelectedInterface.js:135
 #: js/src/interfaces/SelectedInterface.js:140
-#: js/src/overview/Cards/LibrespeedCard.js:104
-#: js/src/overview/Cards/LibrespeedCard.js:122
-#: js/src/overview/Cards/LibrespeedCard.js:133
+#: js/src/overview/Cards/LibrespeedCard.js:118
+#: js/src/overview/Cards/LibrespeedCard.js:134
 msgid "N/A"
 msgstr "N/A"
 
@@ -1414,8 +1410,13 @@ msgid "Auto"
 msgstr "Automaticky"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
-msgid "Dark Mode"
-msgstr "Tmavý režim"
+#, fuzzy
+msgid "Theme"
+msgstr "Čas"
+
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:101
+msgid "Participate in translation"
+msgstr ""
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:38
 #: js/src/notifications/Notifications/Notifications.js:56
@@ -1457,7 +1458,7 @@ msgstr "Nainstalovat nyní"
 msgid "Cannot install updates."
 msgstr "Nelze nainstalovat aktualizace."
 
-#: js/src/maintenance/FactoryReset.js:17
+#: js/src/maintenance/FactoryReset.js:17 js/src/maintenance/FactoryReset.js:48
 msgid "Factory Reset"
 msgstr "Reset do továrního nastavení"
 
@@ -1472,6 +1473,24 @@ msgstr ""
 "nainstalované balíčky a všechna data s nimi spojená. Všechno se vrátí "
 "zpět do výchozích nastavení tak, jako když byl router nový. Získáte tím "
 "možnost začít s čistým routerem úplně od začátku."
+
+#: js/src/maintenance/FactoryReset.js:28
+msgid "Are you sure you want to reset the router?"
+msgstr "Opravdu chcete router resetovat do továrního nastavení?"
+
+#: js/src/maintenance/FactoryReset.js:31
+msgid "Reset"
+msgstr "Reset"
+
+#: js/src/maintenance/FactoryReset.js:33
+#, fuzzy
+msgid "The router has been reset successfully."
+msgstr "Heslo bylo úspěšně změněno."
+
+#: js/src/maintenance/FactoryReset.js:36
+#, fuzzy
+msgid "An error occurred while resetting the router."
+msgstr "Došlo k chybě - reForis | Turris"
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
@@ -1730,11 +1749,15 @@ msgstr "Automatické aktualizace"
 msgid "Go to update settings"
 msgstr "Přejít na nastavení aktualizace"
 
-#: js/src/overview/Cards/Card.js:45
+#: js/src/overview/Cards/Card.js:35
+msgid "Refresh"
+msgstr ""
+
+#: js/src/overview/Cards/Card.js:58
 msgid "Activated"
 msgstr "Aktivováno"
 
-#: js/src/overview/Cards/Card.js:45
+#: js/src/overview/Cards/Card.js:58
 msgid "Disabled"
 msgstr "Vypnuto"
 
@@ -1746,55 +1769,78 @@ msgstr "Dynamický Firewall"
 msgid "Go to Dynamic Firewall package installation"
 msgstr "Přejít na instalaci balíčku Dynamický Firewall"
 
-#: js/src/overview/Cards/LibrespeedCard.js:53
+#: js/src/overview/Cards/LibrespeedCard.js:67
 msgid "LibreSpeed"
 msgstr "LibreSpeed"
 
-#: js/src/overview/Cards/LibrespeedCard.js:55
+#: js/src/overview/Cards/LibrespeedCard.js:69
 msgid "Go to LibreSpeed"
 msgstr "Přejít na LibreSpeed"
 
-#: js/src/overview/Cards/LibrespeedCard.js:67
-#: js/src/overview/Cards/LibrespeedCard.js:81
+#: js/src/overview/Cards/LibrespeedCard.js:82
+#: js/src/overview/Cards/LibrespeedCard.js:96
 msgid "Megabit per second"
 msgstr "Megabity za sekundu"
 
-#: js/src/overview/Cards/LibrespeedCard.js:92
+#: js/src/overview/Cards/LibrespeedCard.js:107
 msgid "Ping"
 msgstr "Ping"
 
-#: js/src/overview/Cards/LibrespeedCard.js:95
-#: js/src/overview/Cards/LibrespeedCard.js:113
+#: js/src/overview/Cards/LibrespeedCard.js:110
+#: js/src/overview/Cards/LibrespeedCard.js:126
 msgid "Millisecond"
 msgstr "Milisekundy"
 
-#: js/src/overview/Cards/LibrespeedCard.js:110
+#: js/src/overview/Cards/LibrespeedCard.js:123
 msgid "Jitter"
 msgstr "Kolísání (jitter)"
 
-#: js/src/overview/Cards/LibrespeedCard.js:127
+#: js/src/overview/Cards/LibrespeedCard.js:138
 msgid "Server"
 msgstr "Server"
 
-#: js/src/overview/Cards/LibrespeedCard.js:142
+#: js/src/overview/Cards/LibrespeedCard.js:152
 msgid "Performed"
 msgstr "Provedeno"
 
-#: js/src/overview/Cards/LibrespeedCard.js:148
+#: js/src/overview/Cards/LibrespeedCard.js:158
 msgid "No tests have been performed lately."
 msgstr "V poslední době nebyly provedeny žádné testy."
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:48
+#: js/src/overview/Cards/OpenVPNClientsCard.js:61
 msgid "OpenVPN Clients"
 msgstr "Klienti OpenVPN"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:50
+#: js/src/overview/Cards/OpenVPNClientsCard.js:63
 msgid "Go to OpenVPN Client Settings"
 msgstr "Přejít na Nastavení klientů OpenVPN"
 
-#: js/src/overview/Cards/OpenVPNClientsCard.js:85
-msgid "There are no clients added yet."
+#: js/src/overview/Cards/OpenVPNClientsCard.js:77
+msgid "Currently, there are no connected OpenVPN clients."
+msgstr ""
+
+#: js/src/overview/Cards/OpenVPNClientsCard.js:88
+#, fuzzy
+msgid "There are no OpenVPN clients."
 msgstr "Zatím nejsou přidáni žádní klienti."
+
+#: js/src/overview/Cards/OpenVPNClientsCard.js:116
+#, fuzzy
+msgid "Total In: "
+msgstr "TLS pin"
+
+#: js/src/overview/Cards/OpenVPNClientsCard.js:125
+msgid "Total Out: "
+msgstr ""
+
+#: js/src/overview/Cards/OpenVPNClientsCard.js:153
+#, fuzzy
+msgid "Connected"
+msgstr "Opětovné navazování spojení"
+
+#: js/src/overview/Cards/OpenVPNClientsCard.js:162
+msgid "Disconnected"
+msgstr ""
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
 msgid "Go to Sentinel license agreement"
@@ -2402,17 +2448,19 @@ msgid ""
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
-"Podrobnější informace jsou k dispozici v konzoli vašeho webového prohlížeče –"
-" ve většině prohlížečů je dostupná stisknutím "
-"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or <kbd>F12</kbd>."
+"Podrobnější informace jsou k dispozici v konzoli vašeho webového "
+"prohlížeče – ve většině prohlížečů je dostupná stisknutím "
+"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
+"<kbd>F12</kbd>."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
 "Please report this error to our support team via e-mail: <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 msgstr ""
-"Prosím nahlaste tuto chybu naší technické podpoře prostřednictvím e-mailu na:"
-" <a href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
+"Prosím nahlaste tuto chybu naší technické podpoře prostřednictvím e-mailu"
+" na: <a "
+"href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 
 #: js/src/utils/SkipLink.js:23
 msgid "Skip to main content"
@@ -3167,3 +3215,16 @@ msgstr "500 - Server error"
 
 #~ msgid "Link"
 #~ msgstr "Odkaz"
+
+#~ msgid "Confirm factory reset"
+#~ msgstr "Potvrdit reset do továrního nastavení"
+
+#~ msgid "Are you sure you want to restart the router?"
+#~ msgstr "Opravdu chcete router restartovat?"
+
+#~ msgid "Confirm reboot"
+#~ msgstr "Potvrdit restart"
+
+#~ msgid "Dark Mode"
+#~ msgstr "Tmavý režim"
+
