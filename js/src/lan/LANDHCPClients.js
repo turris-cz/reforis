@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,9 +7,8 @@
 
 import React from "react";
 
-import { WebSockets } from "foris";
+import { WebSockets, Portal } from "foris";
 import PropTypes from "prop-types";
-import ReactDOM from "react-dom";
 
 import DHCP6Clients from "common/network/DHCP6Clients";
 import DHCPClients from "common/network/DHCPClients/DHCPClients";
@@ -37,10 +36,8 @@ export default function LANDHCPClients({ formData, ws }) {
     )
         return null;
 
-    const lanContainer = document.getElementById("dhcp-clients-container");
-
-    return ReactDOM.createPortal(
-        <>
+    return (
+        <Portal containerId="dhcp-clients-container">
             <DHCPClients
                 clients={formData.mode_managed.dhcp.clients}
                 ws={ws}
@@ -49,7 +46,6 @@ export default function LANDHCPClients({ formData, ws }) {
             <DHCP6Clients
                 ipv6clients={formData.mode_managed.dhcp.ipv6clients}
             />
-        </>,
-        lanContainer
+        </Portal>
     );
 }
