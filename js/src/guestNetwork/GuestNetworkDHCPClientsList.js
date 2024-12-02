@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,8 +7,8 @@
 
 import React from "react";
 
+import { Portal } from "foris";
 import PropTypes from "prop-types";
-import ReactDOM from "react-dom";
 
 import DHCPClients from "common/network/DHCPClients/DHCPClients";
 
@@ -25,9 +25,9 @@ GuestNetworkDHCPClientsList.propTypes = {
 export default function GuestNetworkDHCPClientsList({ formData }) {
     if (!formData.enabled || !formData.dhcp.enabled) return null;
 
-    const container = document.getElementById("dhcp-clients-container");
-    return ReactDOM.createPortal(
-        <DHCPClients clients={formData.dhcp.clients} />,
-        container
+    return (
+        <Portal containerId="dhcp-clients-container">
+            <DHCPClients clients={formData.dhcp.clients} />
+        </Portal>
     );
 }
