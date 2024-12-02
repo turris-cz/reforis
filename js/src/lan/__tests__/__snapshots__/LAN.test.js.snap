@@ -375,7 +375,9 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
                 8F:31:22:89:64:20
               </td>
               <td>
-                3/19/2021 12:52 AM
+                <span>
+                  3/19/2021 12:52 AM
+                </span>
               </td>
               <td
                 class="text-center"
@@ -1767,7 +1769,9 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
                 8F:31:22:89:64:20
               </td>
               <td>
-                3/19/2021 12:52 AM
+                <span>
+                  3/19/2021 12:52 AM
+                </span>
               </td>
               <td
                 class="text-center"
