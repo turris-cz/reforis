@@ -54,6 +54,21 @@ export default function StaticLeasesTable({ clients, editStaticLease }) {
         );
     }
 
+    function renderExpires({ getValue, row }) {
+        const expires = getValue();
+        const isStatic = row.original.static;
+        return isStatic ? (
+            <span>{_("Never")}</span>
+        ) : (
+            <span>
+                {moment
+                    .unix(expires)
+                    .locale(ForisTranslations.locale)
+                    .format("l LT")}
+            </span>
+        );
+    }
+
     const columns = [
         {
             accessorKey: "hostname",
@@ -70,16 +85,7 @@ export default function StaticLeasesTable({ clients, editStaticLease }) {
         {
             accessorKey: "expires",
             header: _("Expires"),
-            cell: ({ getValue, row }) => {
-                const expires = getValue();
-                const isStatic = row.original.static;
-                return isStatic
-                    ? _("Never")
-                    : moment
-                          .unix(expires)
-                          .locale(ForisTranslations.locale)
-                          .format("l LT");
-            },
+            cell: renderExpires,
         },
         {
             accessorKey: "active",
@@ -136,7 +142,6 @@ function StaticLeaseActions({ client, editStaticLease }) {
                     {_("Edit")}
                 </span>
             </Button>
-
             <Button
                 onClick={() => deleteStaticLease(client.mac)}
                 className="btn-danger"
