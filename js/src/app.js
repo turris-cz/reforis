@@ -1,6 +1,6 @@
 // eslint-disable-line
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -13,7 +13,11 @@ import React from "react";
 // eslint-disable-next-line
 import "expose-loader?exposes=ReactRouterDOM!react-router-dom";
 
-import { WebSockets, CustomizationContextProvider } from "foris";
+import {
+    WebSockets,
+    AlertContextProvider,
+    CustomizationContextProvider,
+} from "foris";
 import pdfMake from "pdfmake/build/pdfmake.min";
 import pdfFonts from "pdfmake/build/vfs_fonts";
 import { render } from "react-dom";
@@ -45,7 +49,9 @@ window.addEventListener(
             render(
                 <ThemeContextProvider>
                     <CustomizationContextProvider>
-                        <Guide ws={ws} />
+                        <AlertContextProvider>
+                            <Guide ws={ws} />
+                        </AlertContextProvider>
                     </CustomizationContextProvider>
                 </ThemeContextProvider>,
                 guideContainer
@@ -54,7 +60,9 @@ window.addEventListener(
             render(
                 <ThemeContextProvider>
                     <CustomizationContextProvider>
-                        <Main ws={ws} />
+                        <AlertContextProvider>
+                            <Main ws={ws} />
+                        </AlertContextProvider>
                     </CustomizationContextProvider>
                 </ThemeContextProvider>,
                 mainContainer

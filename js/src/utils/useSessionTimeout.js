@@ -7,21 +7,29 @@
 
 import React, { useState, useEffect, useCallback, useRef } from "react";
 
-import axios from "axios";
 import {
+    API_STATE,
+    ALERT_TYPES,
     Modal,
     ModalHeader,
     ModalBody,
     ModalFooter,
     Button,
     ForisURLs,
+    useAPIPost,
+    useAlert,
 } from "foris";
 import PropTypes from "prop-types";
 
 function useSessionTimeout() {
     const warningTimerRef = useRef(null);
     const logoutTimerRef = useRef(null);
+
     const [showWarning, setShowWarning] = useState(false);
+    const [setAlert] = useAlert();
+    const [sessionPostState, extendSessionPost] = useAPIPost(
+        ForisURLs.extendSession
+    );
 
     const logout = useCallback(() => {
         setShowWarning(false);
@@ -44,19 +52,20 @@ function useSessionTimeout() {
     }, [logout]);
 
     const extendSession = () => {
-        axios
-            .post(ForisURLs.extendSession)
-            .then(() => {
-                setShowWarning(false);
-                clearTimeout(warningTimerRef.current);
-                clearTimeout(logoutTimerRef.current);
-                startTimers();
-            })
-            .catch((error) => {
-                // eslint-disable-next-line no-console
-                console.error("Error extending session:", error);
-            });
+        extendSessionPost();
+        setShowWarning(false);
+        clearTimeout(warningTimerRef.current);
+        clearTimeout(logoutTimerRef.current);
+        startTimers();
     };
+
+    useEffect(() => {
+        if (sessionPostState.state === API_STATE.SUCCESS) {
+            setAlert(_("Session extended successfully."), ALERT_TYPES.SUCCESS);
+        } else if (sessionPostState.state === API_STATE.ERROR) {
+            setAlert(sessionPostState.data);
+        }
+    }, [setAlert, sessionPostState]);
 
     useEffect(() => {
         startTimers();
@@ -80,22 +89,28 @@ SessionTimeoutModal.propTypes = {
 function SessionTimeoutModal({ shown, setShown, logout, extendSession }) {
     return (
         <Modal shown={shown} setShown={setShown}>
-            <ModalHeader setShown={setShown} title="Session Timeout" />
+            <ModalHeader
+                setShown={setShown}
+                title={_("Session Timeout")}
+                showCloseButton={false}
+            />
             <ModalBody>
                 <p>
-                    Your session is about to expire. Do you want to continue
-                    working?
+                    {_(
+                        "Your session is about to expire. Do you want to continue?"
+                    )}
                 </p>
-                <p>
-                    Please note that if you do not respond, you will be logged
-                    out automatically.
+                <p className="mb-0">
+                    {_(
+                        "Please note that if you do not respond, you will be logged out automatically."
+                    )}
                 </p>
             </ModalBody>
             <ModalFooter>
                 <Button className="btn-secondary" onClick={logout}>
-                    Logout
+                    {_("Logout")}
                 </Button>
-                <Button onClick={extendSession}>Continue</Button>
+                <Button onClick={extendSession}>{_("Continue")}</Button>
             </ModalFooter>
         </Modal>
     );

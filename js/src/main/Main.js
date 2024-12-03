@@ -7,12 +7,7 @@
 
 import React from "react";
 
-import {
-    REFORIS_URL_PREFIX,
-    Portal,
-    AlertContextProvider,
-    useCustomizationContext,
-} from "foris";
+import { REFORIS_URL_PREFIX, Portal, useCustomizationContext } from "foris";
 import PropTypes from "prop-types";
 import { BrowserRouter, Redirect, Switch } from "react-router-dom";
 
@@ -42,40 +37,38 @@ export default function Main({ ws }) {
 
     return (
         <ErrorBoundary>
-            <AlertContextProvider>
-                <BrowserRouter basename={REFORIS_URL_PREFIX}>
-                    <SessionTimeoutModal
-                        shown={showWarning}
-                        setShown={setShowWarning}
-                        logout={logout}
-                        extendSession={extendSession}
-                    />
-                    <Portal containerId="app-container">
-                        <SkipLink mode="main" />
-                    </Portal>
-                    <Portal containerId="navigation-container">
-                        <Navigation pages={pages} />
-                    </Portal>
-                    <Portal containerId="top-bar-container">
-                        <TopBar ws={ws} />
-                    </Portal>
-                    <Portal containerId="scroll-to-top">
-                        <ScrollToTopArrow />
-                    </Portal>
-                    <ErrorBoundary>
-                        <Switch>
-                            {pages.map((route) => (
-                                <RouteWithSubRoutes
-                                    key={route.path}
-                                    ws={ws}
-                                    {...route}
-                                />
-                            ))}
-                            <Redirect to={REDIRECT_404_PAGE} />
-                        </Switch>
-                    </ErrorBoundary>
-                </BrowserRouter>
-            </AlertContextProvider>
+            <BrowserRouter basename={REFORIS_URL_PREFIX}>
+                <SessionTimeoutModal
+                    shown={showWarning}
+                    setShown={setShowWarning}
+                    logout={logout}
+                    extendSession={extendSession}
+                />
+                <Portal containerId="app-container">
+                    <SkipLink mode="main" />
+                </Portal>
+                <Portal containerId="navigation-container">
+                    <Navigation pages={pages} />
+                </Portal>
+                <Portal containerId="top-bar-container">
+                    <TopBar ws={ws} />
+                </Portal>
+                <Portal containerId="scroll-to-top">
+                    <ScrollToTopArrow />
+                </Portal>
+                <ErrorBoundary>
+                    <Switch>
+                        {pages.map((route) => (
+                            <RouteWithSubRoutes
+                                key={route.path}
+                                ws={ws}
+                                {...route}
+                            />
+                        ))}
+                        <Redirect to={REDIRECT_404_PAGE} />
+                    </Switch>
+                </ErrorBoundary>
+            </BrowserRouter>
         </ErrorBoundary>
     );
 }
