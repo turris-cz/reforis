@@ -8,6 +8,15 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.2.1] - 2024-12-05
+
+### Changed
+
+-   Created & updated translation messages
+-   Wrapped expiration text in span elements for improved rendering
+-   Refactored Portal usage in DHCP clients components
+-   Refactored session timeout handling with alert context
+
 ## [3.2.0] - 2024-11-29
 
 ### Added
@@ -637,7 +646,9 @@ and this project adheres to
 
 -   Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.1.1...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.2.1...master
+[3.2.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.2.0...v3.2.1
+[3.2.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.1.1...v3.2.0
 [3.1.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.1.0...v3.1.1
 [3.1.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.0.0...v3.1.0
 [3.0.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v2.1.0...v3.0.0
