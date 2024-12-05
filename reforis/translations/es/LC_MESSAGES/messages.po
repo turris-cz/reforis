@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-29 15:11+0100\n"
+"POT-Creation-Date: 2024-12-05 16:08+0100\n"
 "PO-Revision-Date: 2024-10-05 22:15+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language: es\n"
@@ -102,7 +102,7 @@ msgstr "Ir a la parte superior"
 #: js/src/common/network/DHCP6Clients.js:31
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:60
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:75
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
 msgid "Hostname"
 msgstr "Nombre de anfitrión"
@@ -117,19 +117,19 @@ msgstr "DUID"
 
 #: js/src/common/network/DHCP6Clients.js:43
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:72
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:87
 msgid "Expires"
 msgstr "Caducidad"
 
 #: js/src/common/network/DHCP6Clients.js:47
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:86
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:92
 msgid "Active"
 msgstr "Activo"
 
 #: js/src/common/network/DHCP6Clients.js:64
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:63
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:77
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:61
 msgid "Never"
 msgstr "Nunca"
 
@@ -287,12 +287,12 @@ msgstr ""
 "mediante conexiones por cable o inalámbricas."
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:64
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:79
 msgid "IPv4 Address"
 msgstr "Dirección IPv4"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:68
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:83
 msgid "MAC Address"
 msgstr "Dirección MAC"
 
@@ -342,23 +342,23 @@ msgstr "Dirección MAC"
 msgid "List of available MAC addresses"
 msgstr "Listar las direcciones MAC disponibles"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:93
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:119
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:99
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:125
 #: js/src/dns/Forwarders/ForwardersTable.js:40
 msgid "Actions"
 msgstr "Actuaciones"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:136
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:142
 #: js/src/dns/Forwarders/ForwardersTable.js:142
 msgid "Edit"
 msgstr "Editar"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:156
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:161
 #: js/src/dns/Forwarders/ForwardersTable.js:153
 msgid "Delete"
 msgstr "Eliminar"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:165
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:170
 msgid "Set Static"
 msgstr "Establecer estática"
 
@@ -1050,6 +1050,7 @@ msgstr ""
 "del firewall que bloquean a los atacantes conocidos."
 
 #: js/src/guide/GuidePages/GuideFinish.js:33
+#: js/src/utils/useSessionTimeout.js:113
 msgid "Continue"
 msgstr "Continuar"
 
@@ -1376,7 +1377,7 @@ msgstr "Idiomas"
 msgid "Advanced Administration"
 msgstr ""
 
-#: js/src/main/TopBar/LogoutButton.js:16
+#: js/src/main/TopBar/LogoutButton.js:16 js/src/utils/useSessionTimeout.js:111
 msgid "Logout"
 msgstr ""
 
@@ -2328,6 +2329,26 @@ msgstr ""
 
 #: js/src/utils/SkipLink.js:23
 msgid "Skip to main content"
+msgstr ""
+
+#: js/src/utils/useSessionTimeout.js:64
+#, fuzzy
+msgid "Session extended successfully."
+msgstr "La asignación estática se añadió correctamente."
+
+#: js/src/utils/useSessionTimeout.js:94
+#, fuzzy
+msgid "Session Timeout"
+msgstr "Región y hora"
+
+#: js/src/utils/useSessionTimeout.js:99
+msgid "Your session is about to expire. Do you want to continue?"
+msgstr ""
+
+#: js/src/utils/useSessionTimeout.js:104
+msgid ""
+"Please note that if you do not respond, you will be logged out "
+"automatically."
 msgstr ""
 
 #: js/src/wan/MACForm.js:14
