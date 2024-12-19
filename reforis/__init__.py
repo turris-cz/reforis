@@ -13,11 +13,12 @@ place.
 See `Flask Application Factories <http://flask.pocoo.org/docs/1.0/patterns/appfactories/>`_.
 """
 
+
 import json
+from importlib.metadata import distribution, PackageNotFoundError
 from http import HTTPStatus
 from logging.config import dictConfig
 
-import pkg_resources
 from flask import jsonify, render_template
 
 from .locale import get_translations
@@ -93,16 +94,16 @@ def create_app(config):
     @app.context_processor
     def add_version_to_ctx():
         try:
-            version = pkg_resources.get_distribution("reforis").version
-        except pkg_resources.DistributionNotFound:
+            version = distribution("reforis").version
+        except PackageNotFoundError:
             version = None
         return {"version": version}
 
     @app.template_filter("autoversion")
     def autoversion_filter(filename):
         try:
-            version = pkg_resources.get_distribution("reforis").version
-        except pkg_resources.DistributionNotFound:
+            version = distribution("reforis").version
+        except PackageNotFoundError:
             version = None
         if version:
             newfilename = f"{filename}?v={version}"
