@@ -179,8 +179,9 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             value="150"
           />
           <button
-            aria-label="Increase"
+            aria-label="Increase value. Hint: Hold to increase faster."
             class="btn btn-outline-secondary"
+            title="Increase value. Hint: Hold to increase faster."
             type="button"
           >
             <i
@@ -188,8 +189,9 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             />
           </button>
           <button
-            aria-label="Decrease"
+            aria-label="Decrease value. Hint: Hold to decrease faster."
             class="btn btn-outline-secondary"
+            title="Decrease value. Hint: Hold to decrease faster."
             type="button"
           >
             <i
@@ -226,8 +228,9 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             value="43200"
           />
           <button
-            aria-label="Increase"
+            aria-label="Increase value. Hint: Hold to increase faster."
             class="btn btn-outline-secondary"
+            title="Increase value. Hint: Hold to increase faster."
             type="button"
           >
             <i
@@ -235,8 +238,9 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             />
           </button>
           <button
-            aria-label="Decrease"
+            aria-label="Decrease value. Hint: Hold to decrease faster."
             class="btn btn-outline-secondary"
+            title="Decrease value. Hint: Hold to decrease faster."
             type="button"
           >
             <i
@@ -401,120 +405,6 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             </tr>
           </tbody>
         </table>
-        <nav
-          aria-label="Pagination navigation bar"
-          class="d-flex gap-2 justify-content-start align-items-center mx-2 mb-1 text-nowrap"
-        >
-          <ul
-            class="pagination pagination-sm mb-0"
-          >
-            <li
-              class="page-item disabled"
-              style="cursor: not-allowed;"
-            >
-              <button
-                aria-label="First page"
-                class="page-link"
-                disabled=""
-                type="button"
-              >
-                <i
-                  class="fa"
-                />
-              </button>
-            </li>
-            <li
-              class="page-item disabled"
-              style="cursor: not-allowed;"
-            >
-              <button
-                aria-label="Previous page"
-                class="page-link"
-                disabled=""
-                type="button"
-              >
-                <i
-                  class="fa"
-                />
-              </button>
-            </li>
-            <li
-              class="page-item disabled"
-              style="cursor: not-allowed;"
-            >
-              <button
-                aria-label="Next page"
-                class="page-link"
-                disabled=""
-                type="button"
-              >
-                <i
-                  class="fa"
-                />
-              </button>
-            </li>
-            <li
-              class="page-item disabled"
-              style="cursor: not-allowed;"
-            >
-              <button
-                aria-label="Last page"
-                class="page-link"
-                disabled=""
-                type="button"
-              >
-                <i
-                  class="fa"
-                />
-              </button>
-            </li>
-          </ul>
-          <span>
-            Page
-             
-            <span
-              class="fw-bold"
-            >
-              1
-               
-              of
-               
-              1
-            </span>
-          </span>
-          <div
-            class="vr mx-1 align-self-center"
-            style="height: 1.5rem;"
-          />
-          <span>
-            Rows per page:
-          </span>
-          <select
-            aria-label="Select rows per page"
-            class="form-select form-select-sm w-auto"
-          >
-            <option
-              value="5"
-            >
-              5
-            </option>
-            <option
-              value="10"
-            >
-              10
-            </option>
-            <option
-              value="25"
-            >
-              25
-            </option>
-            <option
-              value="1"
-            >
-              All
-            </option>
-          </select>
-        </nav>
       </div>
       <div
         class="text-end"
@@ -644,120 +534,6 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
             </tr>
           </tbody>
         </table>
-        <nav
-          aria-label="Pagination navigation bar"
-          class="d-flex gap-2 justify-content-start align-items-center mx-2 mb-1 text-nowrap"
-        >
-          <ul
-            class="pagination pagination-sm mb-0"
-          >
-            <li
-              class="page-item disabled"
-              style="cursor: not-allowed;"
-            >
-              <button
-                aria-label="First page"
-                class="page-link"
-                disabled=""
-                type="button"
-              >
-                <i
-                  class="fa"
-                />
-              </button>
-            </li>
-            <li
-              class="page-item disabled"
-              style="cursor: not-allowed;"
-            >
-              <button
-                aria-label="Previous page"
-                class="page-link"
-                disabled=""
-                type="button"
-              >
-                <i
-                  class="fa"
-                />
-              </button>
-            </li>
-            <li
-              class="page-item disabled"
-              style="cursor: not-allowed;"
-            >
-              <button
-                aria-label="Next page"
-                class="page-link"
-                disabled=""
-                type="button"
-              >
-                <i
-                  class="fa"
-                />
-              </button>
-            </li>
-            <li
-              class="page-item disabled"
-              style="cursor: not-allowed;"
-            >
-              <button
-                aria-label="Last page"
-                class="page-link"
-                disabled=""
-                type="button"
-              >
-                <i
-                  class="fa"
-                />
-              </button>
-            </li>
-          </ul>
-          <span>
-            Page
-             
-            <span
-              class="fw-bold"
-            >
-              1
-               
-              of
-               
-              1
-            </span>
-          </span>
-          <div
-            class="vr mx-1 align-self-center"
-            style="height: 1.5rem;"
-          />
-          <span>
-            Rows per page:
-          </span>
-          <select
-            aria-label="Select rows per page"
-            class="form-select form-select-sm w-auto"
-          >
-            <option
-              value="5"
-            >
-              5
-            </option>
-            <option
-              value="10"
-            >
-              10
-            </option>
-            <option
-              value="25"
-            >
-              25
-            </option>
-            <option
-              value="1"
-            >
-              All
-            </option>
-          </select>
-        </nav>
       </div>
     </div>
   </div>
@@ -1573,8 +1349,9 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
             value="150"
           />
           <button
-            aria-label="Increase"
+            aria-label="Increase value. Hint: Hold to increase faster."
             class="btn btn-outline-secondary"
+            title="Increase value. Hint: Hold to increase faster."
             type="button"
           >
             <i
@@ -1582,8 +1359,9 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
             />
           </button>
           <button
-            aria-label="Decrease"
+            aria-label="Decrease value. Hint: Hold to decrease faster."
             class="btn btn-outline-secondary"
+            title="Decrease value. Hint: Hold to decrease faster."
             type="button"
           >
             <i
@@ -1620,8 +1398,9 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
             value="43200"
           />
           <button
-            aria-label="Increase"
+            aria-label="Increase value. Hint: Hold to increase faster."
             class="btn btn-outline-secondary"
+            title="Increase value. Hint: Hold to increase faster."
             type="button"
           >
             <i
@@ -1629,8 +1408,9 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
             />
           </button>
           <button
-            aria-label="Decrease"
+            aria-label="Decrease value. Hint: Hold to decrease faster."
             class="btn btn-outline-secondary"
+            title="Decrease value. Hint: Hold to decrease faster."
             type="button"
           >
             <i
@@ -1795,120 +1575,6 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
             </tr>
           </tbody>
         </table>
-        <nav
-          aria-label="Pagination navigation bar"
-          class="d-flex gap-2 justify-content-start align-items-center mx-2 mb-1 text-nowrap"
-        >
-          <ul
-            class="pagination pagination-sm mb-0"
-          >
-            <li
-              class="page-item disabled"
-              style="cursor: not-allowed;"
-            >
-              <button
-                aria-label="First page"
-                class="page-link"
-                disabled=""
-                type="button"
-              >
-                <i
-                  class="fa"
-                />
-              </button>
-            </li>
-            <li
-              class="page-item disabled"
-              style="cursor: not-allowed;"
-            >
-              <button
-                aria-label="Previous page"
-                class="page-link"
-                disabled=""
-                type="button"
-              >
-                <i
-                  class="fa"
-                />
-              </button>
-            </li>
-            <li
-              class="page-item disabled"
-              style="cursor: not-allowed;"
-            >
-              <button
-                aria-label="Next page"
-                class="page-link"
-                disabled=""
-                type="button"
-              >
-                <i
-                  class="fa"
-                />
-              </button>
-            </li>
-            <li
-              class="page-item disabled"
-              style="cursor: not-allowed;"
-            >
-              <button
-                aria-label="Last page"
-                class="page-link"
-                disabled=""
-                type="button"
-              >
-                <i
-                  class="fa"
-                />
-              </button>
-            </li>
-          </ul>
-          <span>
-            Page
-             
-            <span
-              class="fw-bold"
-            >
-              1
-               
-              of
-               
-              1
-            </span>
-          </span>
-          <div
-            class="vr mx-1 align-self-center"
-            style="height: 1.5rem;"
-          />
-          <span>
-            Rows per page:
-          </span>
-          <select
-            aria-label="Select rows per page"
-            class="form-select form-select-sm w-auto"
-          >
-            <option
-              value="5"
-            >
-              5
-            </option>
-            <option
-              value="10"
-            >
-              10
-            </option>
-            <option
-              value="25"
-            >
-              25
-            </option>
-            <option
-              value="1"
-            >
-              All
-            </option>
-          </select>
-        </nav>
       </div>
       <div
         class="text-end"

@@ -11,11 +11,12 @@ exports[`<GuestNetwork/> Snapshot disabled. 1`] = `
   <p>
     The guest network is used for 
     <a
-      href="/reforis/network-settings/wifi"
+      href="/network-settings/wifi"
     >
       guest Wi-Fi
     </a>
-    . It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.
+    . 
+    It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
@@ -79,11 +80,12 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
   <p>
     The guest network is used for 
     <a
-      href="/reforis/network-settings/wifi"
+      href="/network-settings/wifi"
     >
       guest Wi-Fi
     </a>
-    . It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.
+    . 
+    It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
@@ -222,8 +224,9 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
             value="150"
           />
           <button
-            aria-label="Increase"
+            aria-label="Increase value. Hint: Hold to increase faster."
             class="btn btn-outline-secondary"
+            title="Increase value. Hint: Hold to increase faster."
             type="button"
           >
             <i
@@ -231,8 +234,9 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
             />
           </button>
           <button
-            aria-label="Decrease"
+            aria-label="Decrease value. Hint: Hold to decrease faster."
             class="btn btn-outline-secondary"
+            title="Decrease value. Hint: Hold to decrease faster."
             type="button"
           >
             <i
@@ -269,8 +273,9 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
             value="3600"
           />
           <button
-            aria-label="Increase"
+            aria-label="Increase value. Hint: Hold to increase faster."
             class="btn btn-outline-secondary"
+            title="Increase value. Hint: Hold to increase faster."
             type="button"
           >
             <i
@@ -278,8 +283,9 @@ exports[`<GuestNetwork/> Snapshot enabled DHCP. 1`] = `
             />
           </button>
           <button
-            aria-label="Decrease"
+            aria-label="Decrease value. Hint: Hold to decrease faster."
             class="btn btn-outline-secondary"
+            title="Decrease value. Hint: Hold to decrease faster."
             type="button"
           >
             <i
@@ -366,11 +372,12 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
   <p>
     The guest network is used for 
     <a
-      href="/reforis/network-settings/wifi"
+      href="/network-settings/wifi"
     >
       guest Wi-Fi
     </a>
-    . It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.
+    . 
+    It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
@@ -516,8 +523,9 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
             kb/s
           </span>
           <button
-            aria-label="Increase"
+            aria-label="Increase value. Hint: Hold to increase faster."
             class="btn btn-outline-secondary"
+            title="Increase value. Hint: Hold to increase faster."
             type="button"
           >
             <i
@@ -525,8 +533,9 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
             />
           </button>
           <button
-            aria-label="Decrease"
+            aria-label="Decrease value. Hint: Hold to decrease faster."
             class="btn btn-outline-secondary"
+            title="Decrease value. Hint: Hold to decrease faster."
             type="button"
           >
             <i
@@ -568,8 +577,9 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
             kb/s
           </span>
           <button
-            aria-label="Increase"
+            aria-label="Increase value. Hint: Hold to increase faster."
             class="btn btn-outline-secondary"
+            title="Increase value. Hint: Hold to increase faster."
             type="button"
           >
             <i
@@ -577,8 +587,9 @@ exports[`<GuestNetwork/> Snapshot enabled QoS. 1`] = `
             />
           </button>
           <button
-            aria-label="Decrease"
+            aria-label="Decrease value. Hint: Hold to decrease faster."
             class="btn btn-outline-secondary"
+            title="Decrease value. Hint: Hold to decrease faster."
             type="button"
           >
             <i
@@ -633,11 +644,12 @@ exports[`<GuestNetwork/> Snapshot enabled. 1`] = `
   <p>
     The guest network is used for 
     <a
-      href="/reforis/network-settings/wifi"
+      href="/network-settings/wifi"
     >
       guest Wi-Fi
     </a>
-    . It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.
+    . 
+    It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
