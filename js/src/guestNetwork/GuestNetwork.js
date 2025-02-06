@@ -15,6 +15,7 @@ import {
     withoutUndefinedKeys,
 } from "foris";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 import API_URLs from "common/API";
 import validateDHCP from "common/network/DHCPValidators";
@@ -37,13 +38,14 @@ export default function GuestNetwork({ ws }) {
         <>
             <h1>{_("Guest Network")}</h1>
             <div id="guest-notification" />
-            <p
-                dangerouslySetInnerHTML={{
-                    __html: _(
-                        `The guest network is used for <a href="${ForisURLs.wifi}">guest Wi-Fi</a>. It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN.`
-                    ),
-                }}
-            />
+            <p>
+                {_("The guest network is used for ")}
+                <Link to={ForisURLs.wifiSettings}>{_("guest Wi-Fi")}</Link>
+                {". "}
+                {_(
+                    "It is separated from your ordinary LAN. Devices connected to this network are allowed to access the internet but are not allowed to access the configuration interface of this device or the devices in LAN."
+                )}
+            </p>
             <ForisForm
                 ws={ws}
                 forisConfig={{
