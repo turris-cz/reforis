@@ -1,0 +1,385 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PortForwarding/> should open modal when adding rule 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -160,11 +160,11 @@
+      id=\\"modal-container\\"
+    >
+      <div
+        aria-labelledby=\\"modal-title\\"
+        aria-modal=\\"true\\"
+-       class=\\"modal fade\\"
++       class=\\"modal fade show\\"
+        role=\\"dialog\\"
+      >
+        <div
+          class=\\"modal-dialog modal-dialog-centered modal-dialog-scrollable\\"
+          role=\\"document\\""
+`;
+
+exports[`<PortForwarding/> should render page with one rule defined 1`] = `
+<DocumentFragment>
+  <h1>
+    Port Forwarding
+  </h1>
+  <p
+    class="mb-0"
+  >
+    Port forwarding allows you to forward incoming traffic from the WAN interface to a specific device on your LAN.
+  </p>
+  <p>
+    For example, you can forward incoming traffic on port 80 to a web server on your LAN. This way, the web server will be accessible from the internet.
+  </p>
+  <p>
+    You can add a new port forwarding rule by clicking the "Add rule" button. But first, you need to configure a static DHCP lease for the device you want to forward traffic to. You can configure it on the 
+    <a
+      href="/network-settings/lan"
+    >
+      LAN
+    </a>
+     page.
+  </p>
+  <div
+    class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
+  >
+    <h2>
+      Port Forwarding Rules
+    </h2>
+    <div
+      class="table-responsive"
+    >
+      <table
+        class="table table-hover text-nowrap"
+      >
+        <thead
+          class="thead-light"
+        >
+          <tr>
+            <th
+              scope="col"
+            >
+              Name
+            </th>
+            <th
+              scope="col"
+            >
+              Internal IP address
+            </th>
+            <th
+              scope="col"
+            >
+              External port
+            </th>
+            <th
+              scope="col"
+            >
+              Internal port
+            </th>
+            <th
+              class="text-center"
+              scope="col"
+            >
+              Enabled
+            </th>
+            <th
+              aria-label="Actions"
+              scope="col"
+            />
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="align-middle"
+          >
+            <td>
+              Service
+            </td>
+            <td>
+              192.168.2.101
+            </td>
+            <td>
+              8090
+            </td>
+            <td>
+              8090
+            </td>
+            <td
+              class="text-center"
+            >
+              <i
+                class="fa"
+              />
+            </td>
+            <td
+              class="text-end"
+            >
+              <div
+                class="dropdown position-static"
+                data-testid="three-dots-menu"
+              >
+                <button
+                  aria-expanded="false"
+                  class="btn btn-sm btn-link text-body d-inline-flex justify-content-center align-items-center"
+                  data-bs-toggle="dropdown"
+                  type="button"
+                >
+                  <span>
+                    <i
+                      class="fa"
+                    />
+                  </span>
+                </button>
+                <ul
+                  class="dropdown-menu"
+                >
+                  <li>
+                    <button
+                      class="dropdown-item"
+                      data-testid="three-dots-menu-edit"
+                      type="button"
+                    >
+                      <i
+                        class="fa"
+                      />
+                      Edit
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="dropdown-item"
+                      data-testid="three-dots-menu-delete"
+                      type="button"
+                    >
+                      <i
+                        class="fa"
+                      />
+                      Delete
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      class="text-end"
+    >
+      <button
+        class="btn btn-primary btn mb-3 mb-sm-2 mb-md-0 col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+        type="button"
+      >
+        <span>
+          Add rule
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    id="modal-container"
+  >
+    <div
+      aria-labelledby="modal-title"
+      aria-modal="true"
+      class="modal fade"
+      role="dialog"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
+        <div
+          class="modal-content"
+        >
+          <div
+            class="modal-header"
+          >
+            <h1
+              class="modal-title fs-5"
+            >
+              Add port forwarding rule
+            </h1>
+            <button
+              aria-label="Close"
+              class="btn-close"
+              type="button"
+            />
+          </div>
+          <div
+            class="modal-body"
+          >
+            <div
+              class="mb-3"
+            >
+              <label
+                class="form-label"
+                for="1"
+              >
+                Name
+              </label>
+              <div
+                class="input-group"
+              >
+                <input
+                  class="form-control"
+                  id="1"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="form-text"
+              >
+                <small>
+                  Enter the name of the port forwarding rule.
+                </small>
+              </div>
+            </div>
+            <div
+              class="mb-3"
+            >
+              <label
+                class="form-label"
+                for="2"
+              >
+                Internal IPv4 address
+              </label>
+              <div
+                class="input-group"
+              >
+                <input
+                  class="form-control rounded"
+                  id="2"
+                  list="addresses"
+                  type="text"
+                  value=""
+                />
+                <datalist
+                  aria-label="List of available IPv4 addresses"
+                  id="addresses"
+                >
+                  <option
+                    label="MacBook"
+                    value="192.168.2.101"
+                  >
+                    MacBook
+                  </option>
+                </datalist>
+              </div>
+              <div
+                class="form-text"
+              >
+                <small>
+                  Enter a valid IP address of the device to which the port will be forwarded. The best practice is to assign a static lease to the device in advance.
+                </small>
+              </div>
+            </div>
+            <div
+              class="mb-3"
+            >
+              <label
+                class="form-label"
+                for="3"
+              >
+                External port
+              </label>
+              <div
+                class="input-group"
+              >
+                <input
+                  class="form-control"
+                  id="3"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="form-text"
+              >
+                <small>
+                  Enter the external port number to which the rule applies. It can be a single port or a range of ports.
+                </small>
+              </div>
+            </div>
+            <div
+              class="mb-3"
+            >
+              <label
+                class="form-label"
+                for="4"
+              >
+                Internal port
+              </label>
+              <div
+                class="input-group"
+              >
+                <input
+                  class="form-control"
+                  id="4"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="form-text"
+              >
+                <small>
+                  Enter the internal port number to which the rule applies. It can be a single port or a range of ports.
+                </small>
+              </div>
+            </div>
+            <div
+              class="form-check form-switch mb-3"
+            >
+              <input
+                class="form-check-input"
+                id="5"
+                role="switch"
+                type="checkbox"
+              />
+              <label
+                class="form-check-label"
+                for="5"
+              >
+                Enabled
+              </label>
+              <div
+                class="form-text"
+              >
+                <small>
+                  Enable or disable the port forwarding rule.
+                </small>
+              </div>
+            </div>
+          </div>
+          <div
+            class="modal-footer"
+          >
+            <button
+              class="btn btn-secondary d-inline-flex justify-content-center align-items-center"
+              type="button"
+            >
+              <span>
+                Close
+              </span>
+            </button>
+            <button
+              class="btn btn-primary d-inline-flex justify-content-center align-items-center"
+              disabled=""
+              type="button"
+            >
+              <span>
+                Save
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
