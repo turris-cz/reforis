@@ -23,23 +23,11 @@
     color: inherit;
 }
 
-#notifications-center #btn-dismiss-all {
-    margin-bottom: 1rem;
-}
-
 #notifications-center .card-header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
-
-@media screen and (max-width: 402px) {
-    #btn-dismiss-all {
-        position: relative;
-        width: 100%;
-        float: none !important;
-    }
 }
 
 #notifications-center .highlight-danger {

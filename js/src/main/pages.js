@@ -21,6 +21,7 @@ import Packages from "packageManagement/packages/Packages";
 import Updates from "packageManagement/updates/Updates";
 import UpdateSettings from "packageManagement/updateSettings/UpdateSettings";
 import Password from "password/Password";
+import PortForwarding from "portForwarding/PortForwarding";
 import RegionAndTime from "regionAndTime/RegionAndTime";
 import WAN from "wan/WAN";
 import WiFi from "wifi/WiFi";
@@ -45,6 +46,11 @@ const networkSettings = {
                   { name: _("WAN"), path: "/wan", component: WAN },
                   { name: _("LAN"), path: "/lan", component: LAN },
                   { name: _("DNS"), path: "/dns", component: DNS },
+                  {
+                      name: _("Port Forwarding"),
+                      path: "/port-forwarding",
+                      component: PortForwarding,
+                  },
               ]
             : [
                   { name: _("Wi-Fi"), path: "/wifi", component: WiFi },
@@ -60,6 +66,11 @@ const networkSettings = {
                       name: _("Guest Network"),
                       path: "/guest-network",
                       component: GuestNetwork,
+                  },
+                  {
+                      name: _("Port Forwarding"),
+                      path: "/port-forwarding",
+                      component: PortForwarding,
                   },
               ],
 };

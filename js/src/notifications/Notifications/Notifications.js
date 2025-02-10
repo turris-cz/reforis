@@ -67,7 +67,10 @@ function Notifications({ ws, history }) {
 
     return (
         <>
-            <h2 ref={notificationSectionRef}>
+            <h2
+                ref={notificationSectionRef}
+                className="d-flex justify-content-between align-items-center"
+            >
                 {_("Notifications")}
                 {dismissibleNotificationsCount > 0 && (
                     <DismissAllButton dismissAll={dismissAll} />

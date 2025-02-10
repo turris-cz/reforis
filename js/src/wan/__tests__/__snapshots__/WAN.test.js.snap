@@ -255,7 +255,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4), dynamic IPv4 handling enabled. 1`] = `
 - First value
 + Second value
 
-@@ -238,10 +238,109 @@
+@@ -240,10 +240,109 @@
             <small>
               Some tunnel providers allow you to have public dynamic IPv4. Note that you need to fill in some extra fields to make it work.
             </small>
@@ -372,7 +372,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 - First value
 + Second value
 
-@@ -110,10 +110,138 @@
+@@ -110,10 +110,140 @@
             >
               Disable IPv6
             </option>
@@ -460,8 +460,9 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +             value=\\"\\"
 +           />
 +           <button
-+             aria-label=\\"Increase\\"
++             aria-label=\\"Increase value. Hint: Hold to increase faster.\\"
 +             class=\\"btn btn-outline-secondary\\"
++             title=\\"Increase value. Hint: Hold to increase faster.\\"
 +             type=\\"button\\"
 +           >
 +             <i
@@ -469,8 +470,9 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
 +             />
 +           </button>
 +           <button
-+             aria-label=\\"Decrease\\"
++             aria-label=\\"Decrease value. Hint: Hold to decrease faster.\\"
 +             class=\\"btn btn-outline-secondary\\"
++             title=\\"Decrease value. Hint: Hold to decrease faster.\\"
 +             type=\\"button\\"
 +           >
 +             <i
@@ -511,7 +513,7 @@ exports[`<WAN/> Snapshot WAN IPv6 (6in4). 1`] = `
         </h2>
         <div
           class=\\"form-check form-switch mb-3\\"
-@@ -167,10 +295,11 @@
+@@ -167,10 +297,11 @@
         <div
           class=\\"text-end\\"
         >
@@ -885,7 +887,7 @@ exports[`<WAN/> Snapshot: VLAN enabled 1`] = `
 - First value
 + Second value
 
-@@ -163,10 +163,58 @@
+@@ -163,10 +163,60 @@
               Useful in cases when a specific VLAN ID is required by your internet service provider.
             </small>
           </div>
@@ -912,8 +914,9 @@ exports[`<WAN/> Snapshot: VLAN enabled 1`] = `
 +             value=\\"1\\"
 +           />
 +           <button
-+             aria-label=\\"Increase\\"
++             aria-label=\\"Increase value. Hint: Hold to increase faster.\\"
 +             class=\\"btn btn-outline-secondary\\"
++             title=\\"Increase value. Hint: Hold to increase faster.\\"
 +             type=\\"button\\"
 +           >
 +             <i
@@ -921,8 +924,9 @@ exports[`<WAN/> Snapshot: VLAN enabled 1`] = `
 +             />
 +           </button>
 +           <button
-+             aria-label=\\"Decrease\\"
++             aria-label=\\"Decrease value. Hint: Hold to decrease faster.\\"
 +             class=\\"btn btn-outline-secondary\\"
++             title=\\"Decrease value. Hint: Hold to decrease faster.\\"
 +             type=\\"button\\"
 +           >
 +             <i

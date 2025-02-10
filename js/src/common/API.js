@@ -32,6 +32,7 @@ const API_URLs = new Proxy(
         dnsForwarders: "/dns/forwarders",
         connectionTest: "/connection-test",
         dnsTest: "/dns/test",
+        portForwarding: "/lan/port-forwarding",
 
         // Administration
         password: "/password",

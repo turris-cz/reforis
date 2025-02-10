@@ -154,8 +154,9 @@ exports[`<UpdateSettings/> Test with snapshot disabled. 1`] = `
             value="4"
           />
           <button
-            aria-label="Increase"
+            aria-label="Increase value. Hint: Hold to increase faster."
             class="btn btn-outline-secondary"
+            title="Increase value. Hint: Hold to increase faster."
             type="button"
           >
             <i
@@ -163,8 +164,9 @@ exports[`<UpdateSettings/> Test with snapshot disabled. 1`] = `
             />
           </button>
           <button
-            aria-label="Decrease"
+            aria-label="Decrease value. Hint: Hold to decrease faster."
             class="btn btn-outline-secondary"
+            title="Decrease value. Hint: Hold to decrease faster."
             type="button"
           >
             <i
@@ -298,7 +300,7 @@ exports[`<UpdateSettings/> Test with snapshot enabled, delayed. 1`] = `
 - First value
 + Second value
 
-@@ -211,10 +211,50 @@
+@@ -211,10 +211,52 @@
                 </small>
               </div>
             </label>
@@ -325,8 +327,9 @@ exports[`<UpdateSettings/> Test with snapshot enabled, delayed. 1`] = `
 +             value=\\"1\\"
 +           />
 +           <button
-+             aria-label=\\"Increase\\"
++             aria-label=\\"Increase value. Hint: Hold to increase faster.\\"
 +             class=\\"btn btn-outline-secondary\\"
++             title=\\"Increase value. Hint: Hold to increase faster.\\"
 +             type=\\"button\\"
 +           >
 +             <i
@@ -334,8 +337,9 @@ exports[`<UpdateSettings/> Test with snapshot enabled, delayed. 1`] = `
 +             />
 +           </button>
 +           <button
-+             aria-label=\\"Decrease\\"
++             aria-label=\\"Decrease value. Hint: Hold to decrease faster.\\"
 +             class=\\"btn btn-outline-secondary\\"
++             title=\\"Decrease value. Hint: Hold to decrease faster.\\"
 +             type=\\"button\\"
 +           >
 +             <i
