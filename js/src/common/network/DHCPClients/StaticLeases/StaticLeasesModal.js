@@ -7,7 +7,14 @@
 
 import React, { useCallback } from "react";
 
-import { Modal, ModalBody, ModalHeader, ModalFooter, Button } from "foris";
+import {
+    API_STATE,
+    Modal,
+    ModalBody,
+    ModalHeader,
+    ModalFooter,
+    Button,
+} from "foris";
 import PropTypes from "prop-types";
 
 import useStaticLeaseModalForm from "./hooks";
@@ -32,9 +39,13 @@ export default function StaticLeaseModal({
         setShown(false);
     }, [setShown]);
 
-    const [formState, setFormValue, postState, saveLease] =
+    const [formState, setFormValue, postState, putState, saveLease] =
         useStaticLeaseModalForm(lease, postCallback);
 
+    const saveBtnDisabled =
+        postState.state === API_STATE.SENDING ||
+        putState.state === API_STATE.SENDING ||
+        !!formState.errors;
     return (
         <Modal scrollable shown={shown} setShown={setShown}>
             <ModalHeader setShown={setShown} title={title} />
@@ -53,7 +64,7 @@ export default function StaticLeaseModal({
                 >
                     {_("Cancel")}
                 </Button>
-                <Button onClick={saveLease} disabled={!!formState.errors}>
+                <Button onClick={saveLease} disabled={saveBtnDisabled}>
                     {_("Save")}
                 </Button>
             </ModalFooter>
