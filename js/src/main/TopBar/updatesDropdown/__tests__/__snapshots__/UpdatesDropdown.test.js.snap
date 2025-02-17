@@ -35,7 +35,7 @@ exports[`<UpdatesDropdown/> Updates awaiting - snapshot 1`] = `
       />
     </button>
     <ul
-      class="dropdown-menu dropdown-menu- shadow-sm"
+      class="dropdown-menu dropdown-menu-end shadow-sm"
     >
       <div
         class="dropdown-header"
