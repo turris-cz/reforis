@@ -14,14 +14,14 @@ StaticLeasesModalForm.propTypes = {
     formState: PropTypes.object,
     setFormValue: PropTypes.func,
     postState: PropTypes.object,
-    clients: PropTypes.array,
+    staticLeases: PropTypes.array,
 };
 
 export default function StaticLeasesModalForm({
     formState,
     setFormValue,
     postState,
-    clients,
+    staticLeases,
 }) {
     const [hostnameErrorFeedback, setHostnameErrorFeedback] = useState(false);
     const [ipErrorFeedback, setIpErrorFeedback] = useState(false);
@@ -49,12 +49,12 @@ export default function StaticLeasesModalForm({
                     id="hostnames"
                     aria-label={_("List of available hostnames")}
                 >
-                    {clients.map((client, index) => (
+                    {staticLeases.map((lease, index) => (
                         <option
                             // eslint-disable-next-line
                             key={index.toString()}
-                            value={client.hostname}
-                            label={client.hostname}
+                            value={lease.hostname}
+                            label={lease.hostname}
                         />
                     ))}
                 </datalist>
@@ -74,7 +74,7 @@ export default function StaticLeasesModalForm({
                     id="addresses"
                     aria-label={_("List of available IPv4 addresses")}
                 >
-                    {clients.map((client, index) => (
+                    {staticLeases.map((client, index) => (
                         <option
                             // eslint-disable-next-line
                             key={index.toString()}
@@ -101,14 +101,14 @@ export default function StaticLeasesModalForm({
                     id="macs"
                     aria-label={_("List of available MAC addresses")}
                 >
-                    {clients.map((client, index) => (
+                    {staticLeases.map((lease, index) => (
                         <option
                             // eslint-disable-next-line
                             key={index.toString()}
-                            value={client.mac}
-                            label={client.hostname}
+                            value={lease.mac}
+                            label={lease.hostname}
                         >
-                            {client.hostname}
+                            {lease.hostname}
                         </option>
                     ))}
                 </datalist>
