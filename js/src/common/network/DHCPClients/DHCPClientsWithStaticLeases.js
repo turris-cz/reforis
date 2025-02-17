@@ -1,11 +1,11 @@
 /*
- * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 import {
     Button,
@@ -15,42 +15,70 @@ import {
 } from "foris";
 import PropTypes from "prop-types";
 
-import useStaticLeasesList from "./hooks";
-import StaticLeasesModal from "./StaticLeases/StaticLeasesModal";
-import StaticLeasesTable from "./StaticLeases/StaticLeasesTable";
+import useStaticLeases, {
+    useStaticLeaseWS,
+    useStaticLeaseDelete,
+    useStaticLeaseModalForm,
+} from "common/network/DHCPClients/hooks";
+import StaticLeasesModal from "common/network/DHCPClients/StaticLeases/StaticLeasesModal";
+import StaticLeasesTable from "common/network/DHCPClients/StaticLeases/StaticLeasesTable";
 
 DHCPClientsWithStaticLeases.propTypes = {
     ws: PropTypes.instanceOf(WebSockets),
 };
 
 export default function DHCPClientsWithStaticLeases({ ws }) {
-    const [staticLeasesList, staticLeasesListState] = useStaticLeasesList(ws);
+    const { staticLeases, staticLeasesState } = useStaticLeases();
 
     return (
         <StaticLeasesFormWithErrorAndSpinner
-            apiState={staticLeasesListState}
-            leaseList={staticLeasesList}
+            ws={ws}
+            apiState={staticLeasesState}
+            staticLeases={staticLeases}
         />
     );
 }
 
-StaticLeasesForm.propTypes = {
-    leaseList: PropTypes.array,
+StaticLeasesConfigurator.propTypes = {
+    ws: PropTypes.object,
+    staticLeases: PropTypes.array,
 };
 
-function StaticLeasesForm({ leaseList }) {
+function StaticLeasesConfigurator({ ws, staticLeases }) {
     const [leaseToEdit, setLeaseToEdit] = useState(null);
     const [leaseModalShown, setLeaseModalShown] = useState(false);
+    const [leaseToBeDeleted, setLeaseToBeDeleted] = useState(null);
+
+    const { deleteStaticLease } = useStaticLeaseDelete(leaseToBeDeleted);
+
+    const postCallback = useCallback(() => {
+        setLeaseModalShown(false);
+    }, [setLeaseModalShown]);
+
+    const [formState, setFormValue, postState, putState, saveLease] =
+        useStaticLeaseModalForm(leaseToEdit, postCallback, setLeaseModalShown);
+
+    useStaticLeaseWS(ws, () => {});
+
+    const handleAddStaticLease = () => {
+        setLeaseToEdit(null);
+        setLeaseModalShown(true);
+    };
 
     const handleEditStaticLease = (lease) => {
         setLeaseToEdit(lease);
         setLeaseModalShown(true);
     };
 
-    const handleAddStaticLease = () => {
-        setLeaseToEdit(null);
-        setLeaseModalShown(true);
+    const handleDeleteStaticLease = (lease) => {
+        setLeaseToBeDeleted(lease);
     };
+
+    useEffect(() => {
+        if (leaseToBeDeleted) {
+            deleteStaticLease();
+        }
+    }, [leaseToBeDeleted, deleteStaticLease]);
 
     let modalTitle;
     if (leaseToEdit && leaseToEdit.static) {
@@ -64,23 +92,30 @@ function StaticLeasesForm({ leaseList }) {
     return (
         <>
             <StaticLeasesTable
-                clients={leaseList}
-                editStaticLease={handleEditStaticLease}
+                ws={ws}
+                staticLeases={staticLeases}
+                onEditLease={handleEditStaticLease}
+                onDeleteLease={handleDeleteStaticLease}
             />
             <AddStaticLeaseButton addStaticLease={handleAddStaticLease} />
             <StaticLeasesModal
                 shown={leaseModalShown}
                 setShown={setLeaseModalShown}
-                lease={leaseToEdit}
-                clients={leaseList}
                 title={modalTitle}
+                lease={leaseToEdit}
+                staticLeases={staticLeases}
+                formState={formState}
+                setFormValue={setFormValue}
+                postState={postState}
+                putState={putState}
+                saveLease={saveLease}
             />
         </>
     );
 }
 
 const StaticLeasesFormWithErrorAndSpinner = withSpinnerOnSending(
-    withErrorMessage(StaticLeasesForm)
+    withErrorMessage(StaticLeasesConfigurator)
 );
 
 AddStaticLeaseButton.propTypes = {
@@ -91,8 +126,8 @@ function AddStaticLeaseButton({ addStaticLease }) {
     return (
         <div className="text-end">
             <Button
-                className="btn-outline-primary"
                 forisFormSize
+                className="btn-outline-primary"
                 onClick={addStaticLease}
             >
                 {_("Add static lease")}

@@ -22,7 +22,6 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 import API_URLs from "common/API";
-import smallScreenWidth from "utils/constants";
 
 UpdatesDropdown.propTypes = {
     newNotification: PropTypes.bool.isRequired,
@@ -92,11 +91,7 @@ function DropdownContent({ update, onSuccess }) {
                     icon="fa-solid fa-sync-alt"
                 />
             </button>
-            <ul
-                className={`dropdown-menu dropdown-menu-${
-                    window.outerWidth > smallScreenWidth ? "" : "end"
-                } shadow-sm`.trim()}
-            >
+            <ul className="dropdown-menu dropdown-menu-end shadow-sm">
                 <div className="dropdown-header">
                     <Link
                         className="text-decoration-none"

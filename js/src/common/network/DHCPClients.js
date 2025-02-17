@@ -10,8 +10,8 @@ import React from "react";
 import { formFieldsSize, WebSockets } from "foris";
 import PropTypes from "prop-types";
 
-import DHCPClientsTable from "./DHCPClientsTable";
-import DHCPClientsWithStaticLeases from "./DHCPClientsWithStaticLeases";
+import DHCPClientsTable from "common/network/DHCPClients/DHCPClientsTable";
+import DHCPClientsWithStaticLeases from "common/network/DHCPClients/DHCPClientsWithStaticLeases";
 
 DHCPClients.propTypes = {
     clients: PropTypes.arrayOf(PropTypes.object),

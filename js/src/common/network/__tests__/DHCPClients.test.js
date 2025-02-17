@@ -8,7 +8,7 @@
 import React from "react";
 import { render } from "foris/testUtils/customTestRender";
 
-import DHCPClients from "common/network/DHCPClients/DHCPClients";
+import DHCPClients from "common/network/DHCPClients";
 import { clients } from "./__fixtures__/clients";
 
 describe("<DHCPClients/>", () => {

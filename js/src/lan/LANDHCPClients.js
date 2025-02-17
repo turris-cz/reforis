@@ -11,7 +11,7 @@ import { WebSockets, Portal } from "foris";
 import PropTypes from "prop-types";
 
 import DHCP6Clients from "common/network/DHCP6Clients";
-import DHCPClients from "common/network/DHCPClients/DHCPClients";
+import DHCPClients from "common/network/DHCPClients";
 
 import { LAN_MODES } from "./LANForm";
 

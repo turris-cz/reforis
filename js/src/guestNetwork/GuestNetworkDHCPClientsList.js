@@ -10,7 +10,7 @@ import React from "react";
 import { Portal } from "foris";
 import PropTypes from "prop-types";
 
-import DHCPClients from "common/network/DHCPClients/DHCPClients";
+import DHCPClients from "common/network/DHCPClients";
 
 GuestNetworkDHCPClientsList.propTypes = {
     formData: PropTypes.shape({

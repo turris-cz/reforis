@@ -61,7 +61,6 @@ export default function PortForwarding({ ws }) {
                 {_(
                     'You can add a new port forwarding rule by clicking the "Add rule" button. But first, you need to configure a static DHCP lease for the device you want to forward traffic to. You can configure it on the '
                 )}
-                {_("")}
                 <Link to={ForisURLs.lanSettings}>{_("LAN")}</Link>
                 {_(" page.")}
             </p>

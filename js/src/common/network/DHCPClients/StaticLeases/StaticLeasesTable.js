@@ -5,17 +5,17 @@
  * See /LICENSE for more information.
  */
 
-import React from "react";
+import React, { useRef } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Button, useAPIDelete, API_STATE, RichTable } from "foris";
+import { Button, RichTable, ThreeDotsMenu } from "foris";
 import moment from "moment";
 import PropTypes from "prop-types";
 
-import API_URLs from "common/API";
+import { useStaticLeaseWS } from "common/network/DHCPClients/hooks";
 
 ActiveIcon.propTypes = {
-    isActive: PropTypes.bool.isRequired,
+    isActive: PropTypes.bool,
 };
 
 function ActiveIcon({ isActive }) {
@@ -29,19 +29,39 @@ function ActiveIcon({ isActive }) {
 }
 
 StaticLeasesTable.propTypes = {
-    clients: PropTypes.arrayOf(PropTypes.object),
-    editStaticLease: PropTypes.func,
+    ws: PropTypes.object,
+    staticLeases: PropTypes.arrayOf(PropTypes.object),
+    onEditLease: PropTypes.func,
+    onDeleteLease: PropTypes.func,
 };
 
-export default function StaticLeasesTable({ clients, editStaticLease }) {
-    if (!clients || clients.length === 0) {
+export default function StaticLeasesTable({
+    ws,
+    staticLeases,
+    onEditLease,
+    onDeleteLease,
+}) {
+    const richTableRef = useRef();
+
+    const updateTableData = (newData) => {
+        if (richTableRef.current) {
+            richTableRef.current.setTableData(newData);
+        }
+    };
+
+    useStaticLeaseWS(ws, updateTableData);
+
+    if (!staticLeases || staticLeases.length === 0) {
         return (
-            <p className="text-muted text-center">{_("No clients found.")}</p>
+            <p className="text-muted text-center mb-1">
+                {_("No clients found.")}
+            </p>
         );
     }
 
     function renderActiveIcon({ getValue }) {
-        return <ActiveIcon isActive={getValue()} />;
+        const isActive = getValue();
+        return <ActiveIcon isActive={isActive} />;
     }
 
     function renderActions({ row }) {
@@ -49,7 +69,8 @@ export default function StaticLeasesTable({ clients, editStaticLease }) {
         return (
             <StaticLeaseActions
                 client={client}
-                editStaticLease={editStaticLease}
+                onEditLease={onEditLease}
+                onDeleteLease={onDeleteLease}
             />
         );
     }
@@ -103,69 +124,70 @@ export default function StaticLeasesTable({ clients, editStaticLease }) {
         },
     ];
 
-    return <RichTable columns={columns} data={clients} withPagination />;
+    return (
+        <RichTable
+            ref={richTableRef}
+            columns={columns}
+            data={staticLeases}
+            withPagination
+        />
+    );
 }
 
 StaticLeaseActions.propTypes = {
     client: PropTypes.object,
-    editStaticLease: PropTypes.func,
+    onEditLease: PropTypes.func,
+    onDeleteLease: PropTypes.func,
 };
 
-function StaticLeaseActions({ client, editStaticLease }) {
-    const [deleteStaticLeaseResponse, deleteStaticLease] = useAPIDelete(
-        `${API_URLs.lanClients}/${client.mac}`
-    );
-    const buttonDisabled =
-        deleteStaticLeaseResponse.state === API_STATE.SENDING;
+function StaticLeaseActions({ client, onEditLease, onDeleteLease }) {
+    const handleEditStaticLease = () => {
+        onEditLease(client);
+    };
+
+    const handleDeleteStaticLease = () => {
+        onDeleteLease(client);
+    };
+
+    const threeDotsMenuItems = [
+        {
+            id: "edit",
+            onClick: handleEditStaticLease,
+            icon: "fa-solid fa-edit",
+            text: _("Edit"),
+        },
+        {
+            id: "delete",
+            onClick: handleDeleteStaticLease,
+            icon: "fa-solid fa-trash",
+            text: _("Delete"),
+        },
+    ];
 
     return client.static ? (
-        <div
-            className="btn-group btn-group-sm mb-0"
-            role="group"
-            aria-label={_("Actions")}
-        >
-            <Button
-                onClick={() => editStaticLease(client)}
-                disabled={buttonDisabled}
-            >
-                <span className="d-xl-none">
+        <ThreeDotsMenu data-testid="three-dots-menu">
+            {threeDotsMenuItems.map((item) => (
+                <button
+                    type="button"
+                    key={item.id}
+                    onClick={item.onClick}
+                    className="dropdown-item"
+                    data-testid={`three-dots-menu-${item.id}`}
+                >
                     <FontAwesomeIcon
-                        icon="fa-solid fa-edit"
-                        className="fa-sm"
+                        icon={item.icon}
+                        className="me-1"
+                        width="1rem"
+                        size="sm"
                     />
-                </span>
-                <span className="d-none d-xl-block">
-                    <FontAwesomeIcon
-                        icon="fa-solid fa-edit"
-                        className="fa-sm me-1"
-                    />
-                    {_("Edit")}
-                </span>
-            </Button>
-            <Button
-                onClick={() => deleteStaticLease(client.mac)}
-                className="btn-danger"
-                disabled={buttonDisabled}
-            >
-                <span className="d-xl-none">
-                    <FontAwesomeIcon
-                        icon="fa-solid fa-trash"
-                        className="fa-sm"
-                    />
-                </span>
-                <span className="d-none d-xl-block">
-                    <FontAwesomeIcon
-                        icon="fa-solid fa-trash"
-                        className="fa-sm me-1"
-                    />
-                    {_("Delete")}
-                </span>
-            </Button>
-        </div>
+                    {item.text}
+                </button>
+            ))}
+        </ThreeDotsMenu>
     ) : (
         <Button
             className="btn btn-sm btn-outline-success"
-            onClick={() => editStaticLease(client)}
+            onClick={handleEditStaticLease}
         >
             {_("Set Static")}
         </Button>
