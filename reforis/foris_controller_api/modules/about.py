@@ -1,10 +1,10 @@
-#  Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2020-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
 
 import os
-import pkg_resources
+from importlib.metadata import distribution, PackageNotFoundError
 
 from flask import current_app, jsonify
 
@@ -18,8 +18,10 @@ def about():
     data = current_app.backend.perform("about", "get")
     data["serial"] = int(data["serial"], 16)
     # additional reforis version info
-    dist = pkg_resources.get_distribution("reforis")
-    data["reforis_version"] = dist.version if dist else "Unknown"
+    try:
+        data["reforis_version"] = distribution("reforis").version
+    except PackageNotFoundError:
+        data["reforis_version"] = "Unknown"
     return jsonify(data)
 
 

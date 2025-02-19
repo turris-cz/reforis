@@ -1,4 +1,4 @@
-#  Copyright (C) 2019 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -39,7 +39,7 @@ Demo plugin
 See ``reforis_diagnostics`` plugin `repository <https://gitlab.labs.nic.cz/turris/reforis-diagnostics>`_.
 """
 
-import pkg_resources
+from importlib.metadata import entry_points
 
 
 def get_plugins():
@@ -48,4 +48,4 @@ def get_plugins():
 
     :return: list of loaded entry_points
     """
-    return [entry_point.load() for entry_point in pkg_resources.iter_entry_points("foris.plugins")]
+    return [entry_point.load() for entry_point in entry_points().select(group="foris.plugins")]
