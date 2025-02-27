@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-12-05 16:08+0100\n"
-"PO-Revision-Date: 2024-04-15 11:02+0000\n"
+"PO-Revision-Date: 2024-12-14 10:00+0000\n"
 "Last-Translator: Piotr Orzechowski <piotr@orzechowski.tech>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/turris/reforis/pl/"
+">\n"
 "Language: pl\n"
-"Language-Team: Polish "
-"<https://hosted.weblate.org/projects/turris/reforis/pl/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.9-rc\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: js/src/about/About.js:18
@@ -32,7 +33,7 @@ msgstr ""
 
 #: js/src/about/About.js:25 js/src/main/pages.js:94
 msgid "About"
-msgstr "Dowiedz się więcej"
+msgstr "O urządzeniu"
 
 #: js/src/about/About.js:28
 msgid ""
@@ -73,7 +74,7 @@ msgstr "Wersja jądra"
 #: js/src/common/RebootButton.js:22 js/src/common/RebootButton.js:42
 #: js/src/maintenance/Reboot.js:17
 msgid "Reboot"
-msgstr "Ponowne uruchomienie"
+msgstr "Uruchom ponownie"
 
 #: js/src/common/RebootButton.js:40 js/src/dns/DNSSECDisableModal.js:34
 #: js/src/guide/GuideControls/SkipGuideButton.js:68
@@ -83,19 +84,16 @@ msgid "Warning!"
 msgstr "Ostrzeżenie!"
 
 #: js/src/common/RebootButton.js:41
-#, fuzzy
 msgid "Are you sure you want to reboot the router?"
-msgstr "Czy na pewno chcesz przywrócić router do ustawień fabrycznych?"
+msgstr "Czy na pewno chcesz uruchomić router ponownie?"
 
 #: js/src/common/RebootButton.js:44
-#, fuzzy
 msgid "The router has been rebooted successfully."
-msgstr "Pomyślnie dodano dzierżawę statyczną."
+msgstr "Router został pomyślnie uruchomiony ponownie."
 
 #: js/src/common/RebootButton.js:45
-#, fuzzy
 msgid "An error occurred while rebooting the router."
-msgstr "Wystąpił błąd"
+msgstr "Wystąpił błąd podczas ponownego uruchamiania routera."
 
 #: js/src/common/ScrollToTopArrow.js:33
 msgid "Go to top"
@@ -358,7 +356,7 @@ msgstr "Zmień"
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:161
 #: js/src/dns/Forwarders/ForwardersTable.js:153
 msgid "Delete"
-msgstr "Usunąć"
+msgstr "Usuń"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:170
 msgid "Set Static"
@@ -421,9 +419,8 @@ msgid "Connection test failed"
 msgstr "Test połączenia nie powiódł się"
 
 #: js/src/connectionTest/ConnectionTestResult.js:96
-#, fuzzy
 msgid "Connection test cannot be determined"
-msgstr "Test połączenia nie został uruchomiony"
+msgstr "Nie można określić testu połączenia"
 
 #: js/src/connectionTest/ConnectionTestResult.js:101
 msgid "Connection test not started"
@@ -734,16 +731,14 @@ msgid "All network interfaces of this network are currently down."
 msgstr "Wszystkie interfejsy sieciowe tej sieci są obecnie wyłączone."
 
 #: js/src/guide/constants.js:13
-#, fuzzy
 msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
 "device. Firstly it is required to set your password. Note the security of"
 " your home network is in your hands, so try not to use weak passwords."
 msgstr ""
-"Witamy w interfejsie internetowym Foris. Ten przewodnik pomoże Ci "
-"skonfigurować urządzenie. Najpierw należy ustawić hasło. Pamiętaj, że "
-"bezpieczeństwo sieci domowej jest w twoich rękach, więc staraj się nie "
-"używać słabych haseł."
+"Witamy w reForis. Niniejszy przewodnik pomoże Ci skonfigurować Twoje "
+"urządzenie. Najpierw trzeba ustawić hasło. Pamiętaj, że bezpieczeństwo sieci "
+"domowej jest w Twoich rękach, więc staraj się nie używać słabych haseł."
 
 #: js/src/guide/constants.js:17
 msgid "Your password is set. You may proceed to the next step."
@@ -766,8 +761,8 @@ msgid ""
 "You've configured your network interfaces. It seems that you didn't break"
 " any crucial network settings so you can safely proceed to the next step."
 msgstr ""
-"Skonfigurowałeś swoje interfejsy sieciowe. Wygląda na to, że prawidłowo "
-"podałeś kluczowe ustawienia sieci, więc możesz bezpiecznie przejść do "
+"Skonfigurowałeś/-aś swoje interfejsy sieciowe. Wygląda na to, że prawidłowo "
+"podałeś/-aś kluczowe ustawienia sieci, więc możesz bezpiecznie przejść do "
 "następnego kroku."
 
 #: js/src/guide/constants.js:34
@@ -810,9 +805,9 @@ msgid ""
 "whether it is working properly and if so you can safely proceed to the "
 "next step."
 msgstr ""
-"Skonfigurowałeś interfejs WAN. Spróbuj uruchomić test połączenia, aby "
-"sprawdzić, czy działa poprawnie, a jeśli tak, możesz bezpiecznie przejść "
-"do następnego kroku."
+"Skonfigurowałeś/-aś interfejs WAN. Spróbuj uruchomić test połączenia, aby "
+"sprawdzić, czy działa poprawnie, a jeśli tak, możesz bezpiecznie przejść do "
+"następnego kroku."
 
 #: js/src/guide/constants.js:56
 msgid ""
@@ -821,18 +816,19 @@ msgid ""
 "configuration interface unless you restart the network on your current "
 "device."
 msgstr ""
-"Teraz powinieneś skonfigurować interfejs LAN. Zwróć uwagę, że po zmianie "
+"Teraz należy skonfigurować interfejs LAN. Zwróć uwagę, że po zmianie "
 "ustawień sieciowych prawdopodobnie nie będziesz w stanie połączyć się z "
-"interfejsem konfiguracyjnym, chyba że ponownie uruchomisz sieć na obecnym"
-" urządzeniu."
+"interfejsem konfiguracyjnym, chyba że ponownie uruchomisz sieć na obecnym "
+"urządzeniu."
 
 #: js/src/guide/constants.js:59
 msgid ""
 "You've configured your LAN interface. Try to test whether settings work "
 "properly and if so you can safely proceed to the next step."
 msgstr ""
-"Skonfigurowałeś interfejs LAN. Spróbuj sprawdzić, czy ustawienia działają"
-" poprawnie, a jeśli tak, możesz bezpiecznie przejść do następnego kroku."
+"Skonfigurowałeś/-aś interfejs LAN. Spróbuj sprawdzić, czy ustawienia "
+"działają poprawnie, a jeśli tak, możesz bezpiecznie przejść do następnego "
+"kroku."
 
 #: js/src/guide/constants.js:64
 msgid "Now you need to configure automatic updates on your device."
@@ -880,9 +876,10 @@ msgid ""
 " put any interfaces to your WAN and Guest Network. So it is a good idea "
 "to assign all interfaces to LAN."
 msgstr ""
-"Postanowiłeś działać jako serwer lokalny, co oznacza, że nie ma sensu "
-"umieszczać żadnych interfejsów w sieci WAN ani sieci dla gości. Także "
-"dobrym pomysłem jest przypisanie wszystkich interfejsów do sieci LAN."
+"Wybrałeś/-aś działanie w trybie serwera lokalnego, co oznacza, że nie ma "
+"sensu umieszczać żadnych interfejsów w sieci WAN ani w sieci dla gości. W "
+"związku z tym, dobrym pomysłem jest przypisanie wszystkich interfejsów do "
+"sieci LAN."
 
 #: js/src/guide/constants.js:116
 msgid ""
@@ -891,10 +888,10 @@ msgid ""
 "probably want to act as a client here thus select "
 "<strong>Computer</strong> mode here."
 msgstr ""
-"Aby działać jako serwer lokalny, nie trzeba zarządzać siecią LAN (jeśli i"
-" tak chcesz nią zarządzać, zresetuj przewodnik i wybierz tryb pracy "
-"routera). Najpewniej chcesz działać jako klient a do tego wybierz tu tryb"
-" <strong>Komputer</strong>."
+"Aby działać jako serwer lokalny, nie trzeba zarządzać siecią LAN (jeśli "
+"wciąż chcesz nią zarządzać, zresetuj przewodnik i wybierz tryb pracy routera)"
+". Najpewniej chcesz działać jako klient, więc wybierz tryb "
+"<strong>komputer</strong>."
 
 #: js/src/guide/constants.js:119
 msgid ""
@@ -996,22 +993,24 @@ msgstr "Następny krok"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:50
 msgid "Skip"
-msgstr ""
+msgstr "Pomiń"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:70
-#, fuzzy
 msgid "Are you sure you want to skip the whole guide?"
-msgstr "Czy na pewno chcesz przywrócić router do ustawień fabrycznych?"
+msgstr "Na pewno chcesz pominąć cały przewodnik?"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:72
 msgid "This will skip the guide and you will be redirected to the overview page."
 msgstr ""
+"Przewodnik zostanie pominięty i nastąpi przekierowanie do strony przeglądu."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:77
 msgid ""
 "Settings that are not set up during the guide will be set to default "
 "values. And you will have to set them up manually."
 msgstr ""
+"Ustawienia, które nie zostaną zmienione w przewodniku, otrzymają domyślne "
+"wartości. Będziesz musieć zmienić je samodzielnie."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:155
@@ -1150,7 +1149,7 @@ msgstr ""
 
 #: js/src/interfaces/Interfaces.js:52
 msgid "You have to assign at least one interface to this group."
-msgstr "Należy tej grupie przypisać co najmniej jeden interfejs."
+msgstr "Musisz przypisać tej grupie co najmniej jeden interfejs."
 
 #: js/src/interfaces/InterfacesForm.js:63
 msgid ""
@@ -1165,7 +1164,7 @@ msgid ""
 "It acts as an external network connection. Firewall rules should be "
 "applied here. It can only contain a single interface."
 msgstr ""
-"Służy do łączenia z siecią zewnętrzną. Należy tu stosować reguły zapory. "
+"Służy do łączenia z siecią zewnętrzną. Należy tutaj stosować reguły zapory. "
 "Może zawierać tylko jeden interfejs."
 
 #: js/src/interfaces/InterfacesForm.js:119
@@ -1236,9 +1235,8 @@ msgid "Interface ID"
 msgstr "Identyfikator interfejsu"
 
 #: js/src/interfaces/SelectedInterface.js:120
-#, fuzzy
 msgid "VLAN ID"
-msgstr "Tryb LAN"
+msgstr "Identyfikator VLAN"
 
 #: js/src/interfaces/SelectedInterface.js:125
 msgid "Type"
@@ -1407,25 +1405,23 @@ msgstr "Wyloguj"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:20
 msgid "Light"
-msgstr ""
+msgstr "Jasny"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:25
 msgid "Dark"
-msgstr ""
+msgstr "Ciemny"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:30
-#, fuzzy
 msgid "Auto"
-msgstr "Dowiedz się więcej"
+msgstr "Automatyczny"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
-#, fuzzy
 msgid "Theme"
-msgstr "Czas"
+msgstr "Schemat kolorów"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:101
 msgid "Participate in translation"
-msgstr ""
+msgstr "Pomóż w tłumaczeniu"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:38
 #: js/src/notifications/Notifications/Notifications.js:56
@@ -1450,14 +1446,12 @@ msgid "Approve Update"
 msgstr "Zatwierdź aktualizację"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
-#, fuzzy
 msgid "See details in "
-msgstr "Więcej szczegółów"
+msgstr "Więcej szczegółów na stronie "
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
-#, fuzzy
 msgid " page."
-msgstr "Pakiety"
+msgstr " ."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:146
 #: js/src/packageManagement/updates/UpdateApproval.js:120
@@ -1471,7 +1465,7 @@ msgstr "Nie można zainstalować aktualizacji."
 
 #: js/src/maintenance/FactoryReset.js:17 js/src/maintenance/FactoryReset.js:48
 msgid "Factory Reset"
-msgstr "Przywrócenie ustawień fabrycznych"
+msgstr "Przywróć ustawienia fabryczne"
 
 #: js/src/maintenance/FactoryReset.js:19
 msgid ""
@@ -1495,14 +1489,12 @@ msgid "Reset"
 msgstr "Reset"
 
 #: js/src/maintenance/FactoryReset.js:33
-#, fuzzy
 msgid "The router has been reset successfully."
-msgstr "Hasło zostało ustawione pomyślnie."
+msgstr "Pomyślnie przywrócono router do ustawień fabrycznych."
 
 #: js/src/maintenance/FactoryReset.js:36
-#, fuzzy
 msgid "An error occurred while resetting the router."
-msgstr "Wystąpił błąd"
+msgstr "Wystąpił błąd podczas przywracania routera do ustawień fabrycznych."
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
@@ -1557,7 +1549,7 @@ msgstr "Włącz przechowywanie dzienników systemowych"
 #: js/src/notifications/Notifications/NotificationsList.js:97
 #: js/src/packageManagement/updateSettings/LicenseModal.js:37
 msgid "Close"
-msgstr ""
+msgstr "Zamknij"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
@@ -1759,17 +1751,16 @@ msgid "Automatic Updates"
 msgstr "Aktualizacje automatyczne"
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:49
-#, fuzzy
 msgid "Go to update settings"
-msgstr "Ustawienia aktualizacji"
+msgstr "Przejdź do ustawień aktualizacji"
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
-msgstr ""
+msgstr "Odśwież"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Activated"
-msgstr "Aktywowane"
+msgstr "Włączone"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Disabled"
@@ -1780,18 +1771,16 @@ msgid "Dynamic Firewall"
 msgstr "Dynamiczna zapora sieciowa"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
-#, fuzzy
 msgid "Go to Dynamic Firewall package installation"
-msgstr "Dynamiczna zapora sieciowa"
+msgstr "Przejdź do instalacji dynamicznej zapory sieciowej"
 
 #: js/src/overview/Cards/LibrespeedCard.js:67
-#, fuzzy
 msgid "LibreSpeed"
-msgstr "Prędkość łącza"
+msgstr "LibreSpeed (test szybkości łącza)"
 
 #: js/src/overview/Cards/LibrespeedCard.js:69
 msgid "Go to LibreSpeed"
-msgstr ""
+msgstr "Przejdź do LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:82
 #: js/src/overview/Cards/LibrespeedCard.js:96
@@ -1809,12 +1798,11 @@ msgstr "Milisekundy"
 
 #: js/src/overview/Cards/LibrespeedCard.js:123
 msgid "Jitter"
-msgstr ""
+msgstr "Fluktuacje"
 
 #: js/src/overview/Cards/LibrespeedCard.js:138
-#, fuzzy
 msgid "Server"
-msgstr "Nigdy"
+msgstr "Serwer"
 
 #: js/src/overview/Cards/LibrespeedCard.js:152
 msgid "Performed"
@@ -1834,40 +1822,35 @@ msgstr "Przejdź do ustawień klienta OpenVPN"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:77
 msgid "Currently, there are no connected OpenVPN clients."
-msgstr ""
+msgstr "Obecnie nie ma podłączonych żadnych klientów OpenVPN."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:88
-#, fuzzy
 msgid "There are no OpenVPN clients."
-msgstr "Nie dodano jeszcze żadnych klientów."
+msgstr "Nie dodano jeszcze żadnych klientów OpenVPN."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:116
-#, fuzzy
 msgid "Total In: "
-msgstr "Pin TLS"
+msgstr "Razem przychodzących: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:125
 msgid "Total Out: "
-msgstr ""
+msgstr "Razem wychodzących: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:153
-#, fuzzy
 msgid "Connected"
-msgstr "Ponowne łączenie"
+msgstr "Połączono"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:162
 msgid "Disconnected"
-msgstr ""
+msgstr "Rozłączono"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
-#, fuzzy
 msgid "Go to Sentinel license agreement"
-msgstr "Najważniejsze punkty umowy licencyjnej"
+msgstr "Przejdź do licencji Sentinel"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:57
-#, fuzzy
 msgid "Go to Sentinel package installation"
-msgstr "Instalacja automatyczna"
+msgstr "Przejdź do instalacji pakietu Sentinel"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:62
 msgid "Threat Detection"
@@ -1910,21 +1893,19 @@ msgid "Most Important License Agreement Points"
 msgstr "Najważniejsze punkty umowy licencyjnej"
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:47
-#, fuzzy
 msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the "
 msgstr ""
-"Włączając automatyczne aktualizacje, potwierdzasz, że jesteś właścicielem"
-" tego routera Turris i zgadzasz się z pełnym tekstem <a "
-"href=\"https://www.turris.cz/omnia-updater-eula\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">umowy licencyjnej<sup><i class=\"fas fa-"
-"external-link-alt fa-sm\"></i></sup> </a> ."
+"Włączając automatyczne aktualizacje, potwierdzasz, że jesteś właścicielem "
+"tego routera Turris i zgadzasz się z pełną treścią <a href=\"https://www."
+"turris.cz/omnia-updater-eula\" target=\"_blank\" rel=\"noopener noreferrer\""
+">umowy licencyjnej<sup><i class=\"fas fa-external-link-alt fa-sm\"></i></"
+"sup> </a> . "
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
-#, fuzzy
 msgid "license agreement"
-msgstr "Najważniejsze punkty umowy licencyjnej"
+msgstr "Umowa licencyjna"
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
 msgid ""
@@ -1945,15 +1926,14 @@ msgstr ""
 "oprogramowaniu."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
-#, fuzzy
 msgid ""
 "By turning the automatic updates on, you agree to this feature's license "
 "agreement. More information is available <a href=\"\" data-bs-"
 "toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
-"Włączenie automatycznych aktualizacji oznacza zgodę na warunki licencyjne"
-" tej funkcji. Więcej informacji <a href=\"\" data-toggle=\"modal\" data-"
-"target=\"#licenceModal\">tutaj</a>."
+"Włączenie automatycznych aktualizacji oznacza zgodę na umowę licencyjną tej "
+"funkcji. Więcej informacji znajdziesz <a href=\"\" data-bs-toggle=\"modal\" "
+"data-bs-target=\"#licenseModal\">tutaj</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
@@ -2014,7 +1994,7 @@ msgid ""
 "Number of days that must pass between receiving the request for restart "
 "and the automatic restart itself."
 msgstr ""
-"Liczba dni pomiędzy odebraniem żądania ponownego uruchomienia a jego "
+"Liczba dni pomiędzy otrzymaniem prośby o ponowne uruchomienie a jego "
 "automatycznym wykonaniem."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:20
@@ -2039,7 +2019,7 @@ msgstr "Godzina powinna być w formacie GG:MM."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:91
 msgid "Restart can be delayed by at most 10 days"
-msgstr "Ponowne uruchomienie może być opóźnione najdalej o 10 dni"
+msgstr "Ponowne uruchomienie może być opóźnione co najwyżej o 10 dni"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:94
 msgid "Delay must be a positive number"
@@ -2127,13 +2107,12 @@ msgstr[1] "Można zaktualizować %d paczki."
 msgstr[2] "Można zaktualizować %d paczek."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:69
-#, fuzzy
 msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
-"Zobacz <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
-" aria-expanded=\"false\" aria-controls=\"plan-wrapper\">szczegóły</a>"
+"Zobacz <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
+"aria-expanded=\"false\" aria-controls=\"plan-wrapper\">szczegóły</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
 msgid ""
@@ -2439,11 +2418,11 @@ msgstr "Serwery NTP"
 #: js/src/routerStateHandler/NetworkRestartHandler.js:29
 #, python-format
 msgid "Network restart after %d sec."
-msgstr "Restart sieci po %d sekundach."
+msgstr "Ponowne uruchomienie sieci po %d sekundach."
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:34
 msgid "Network restarting"
-msgstr "Restart sieci"
+msgstr "Ponowne uruchamianie sieci"
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:37
 #: js/src/routerStateHandler/RebootHandler.js:34
@@ -2460,25 +2439,23 @@ msgid "Rebooting"
 msgstr "Ponowne uruchamianie"
 
 #: js/src/utils/ErrorBoundary.js:34
-#, fuzzy
 msgid "An Error Occurred - reForis | Turris"
-msgstr "Wystąpił błąd"
+msgstr "Wystąpił błąd - reForis | Turris"
 
 #: js/src/utils/ErrorBoundary.js:37
 msgid "Oops! Something went wrong:"
-msgstr ""
+msgstr "Ojej! Coś poszło nie tak:"
 
 #: js/src/utils/ErrorBoundary.js:43
-#, fuzzy
 msgid ""
 "More detailed information is available in the console of your web "
 "browser. On most browsers accessible after pressing "
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
-"Bardziej szczegółowe informacje dostępne są w konsoli przeglądarki "
+"Bardziej szczegółowe informacje dostępne są w konsoli Twojej przeglądarki "
 "internetowej — w większości przeglądarek dostępnej po naciśnięciu "
-"Ctrl+Shift+J lub F12."
+"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> lub <kbd>F12</kbd>."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
@@ -2490,27 +2467,25 @@ msgstr ""
 
 #: js/src/utils/SkipLink.js:23
 msgid "Skip to main content"
-msgstr ""
+msgstr "Przeskocz do głównej treści"
 
 #: js/src/utils/useSessionTimeout.js:64
-#, fuzzy
 msgid "Session extended successfully."
-msgstr "Pomyślnie dodano dzierżawę statyczną."
+msgstr "Pomyślnie przedłużono sesję."
 
 #: js/src/utils/useSessionTimeout.js:94
-#, fuzzy
 msgid "Session Timeout"
-msgstr "Region i czas"
+msgstr "Limit czasu sesji"
 
 #: js/src/utils/useSessionTimeout.js:99
 msgid "Your session is about to expire. Do you want to continue?"
-msgstr ""
+msgstr "Twoja sesja niebawem wygaśnie. Czy chcesz ją przedłużyć?"
 
 #: js/src/utils/useSessionTimeout.js:104
 msgid ""
 "Please note that if you do not respond, you will be logged out "
 "automatically."
-msgstr ""
+msgstr "Jeśli nie odpowiesz, nastąpi automatyczne wylogowanie."
 
 #: js/src/wan/MACForm.js:14
 msgid ""
@@ -3406,4 +3381,3 @@ msgstr "500 — Błąd serwera"
 
 #~ msgid "Dark Mode"
 #~ msgstr "Tryb LAN"
-

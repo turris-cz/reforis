@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-12-05 16:08+0100\n"
-"PO-Revision-Date: 2021-02-09 16:50+0000\n"
-"Last-Translator: Michalis <michalisntovas@yahoo.gr>\n"
+"PO-Revision-Date: 2025-01-18 08:00+0000\n"
+"Last-Translator: Thanasis <thanasakis11mail@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/turris/reforis/el/>"
+"\n"
 "Language: el\n"
-"Language-Team: Greek "
-"<https://hosted.weblate.org/projects/turris/reforis/el/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: js/src/about/About.js:18
@@ -25,6 +26,9 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
+"Το Turris OS κυκλοφορεί αυτήν τη στιγμή σε διάφορους κλάδους, οι οποίοι "
+"έχουν διαφορετικές λειτουργίες και μεταβαλλόμενη σταθερότητα - μπορείτε να "
+"επιλέξετε ποιο κλάδο θέλετε να δοκιμάσετε."
 
 #: js/src/about/About.js:25 js/src/main/pages.js:94
 msgid "About"
@@ -37,31 +41,34 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Εδώ μπορείτε να βρείτε κάποιες πληροφορίες για τη συσκευή σας. Παρακαλούμε "
+"να τις συμπεριλάβετε στο μήνυμά σας αν έρθετε σε επικοινωνία με την <a href="
+"\"mailto:tech.support@turris.cz\" target=\"_blank\">εξυπηρέτηση πελατών</a> "
+"μας."
 
 #: js/src/about/About.js:37
 msgid "Device"
-msgstr ""
+msgstr "Συσκευή"
 
 #: js/src/about/About.js:45
 msgid "Serial number"
-msgstr ""
+msgstr "Σειριακός αριθμός"
 
 #: js/src/about/About.js:49
-#, fuzzy
 msgid "reForis version"
-msgstr "Εκδοχή Kernel"
+msgstr "Έκδοση reForis"
 
 #: js/src/about/About.js:53
 msgid "Turris OS version"
-msgstr ""
+msgstr "Έκδοση Turris OS"
 
 #: js/src/about/About.js:58
 msgid "Turris OS branch"
-msgstr ""
+msgstr "Κλάδος Turris OS"
 
 #: js/src/about/About.js:80
 msgid "Kernel version"
-msgstr "Εκδοχή Kernel"
+msgstr "Έκδοση Kernel"
 
 #: js/src/common/RebootButton.js:22 js/src/common/RebootButton.js:42
 #: js/src/maintenance/Reboot.js:17
@@ -76,21 +83,20 @@ msgid "Warning!"
 msgstr "Προσοχή!"
 
 #: js/src/common/RebootButton.js:41
-#, fuzzy
 msgid "Are you sure you want to reboot the router?"
-msgstr "Είσται σίγουροι ότι θέλετε να ξαναξεκινήστε το δρομολογητή;"
+msgstr "Είστε σίγουροι ότι θέλετε να επανεκκινήσετε τον δρομολογητή;"
 
 #: js/src/common/RebootButton.js:44
 msgid "The router has been rebooted successfully."
-msgstr ""
+msgstr "Ο δρομολογητής επανεκκινήθηκε με επιτυχία."
 
 #: js/src/common/RebootButton.js:45
 msgid "An error occurred while rebooting the router."
-msgstr ""
+msgstr "Παρουσιάστηκε σφάλμα κατά την επανεκκίνηση του δρομολογητή."
 
 #: js/src/common/ScrollToTopArrow.js:33
 msgid "Go to top"
-msgstr ""
+msgstr "Πήγαινε στην κορυφή"
 
 #: js/src/common/network/DHCP6Clients.js:31
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
@@ -98,153 +104,163 @@ msgstr ""
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:75
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
 msgid "Hostname"
-msgstr ""
+msgstr "Hostname"
 
 #: js/src/common/network/DHCP6Clients.js:35
 msgid "IPv6 Address"
-msgstr ""
+msgstr "Διεύθυνση IPv6"
 
 #: js/src/common/network/DHCP6Clients.js:39
 msgid "DUID"
-msgstr ""
+msgstr "DUID"
 
 #: js/src/common/network/DHCP6Clients.js:43
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:87
 msgid "Expires"
-msgstr ""
+msgstr "Λήγει"
 
 #: js/src/common/network/DHCP6Clients.js:47
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:92
 msgid "Active"
-msgstr ""
+msgstr "Ενεργό"
 
 #: js/src/common/network/DHCP6Clients.js:64
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:63
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:61
 msgid "Never"
-msgstr ""
+msgstr "Ποτέ"
 
 #: js/src/common/network/DHCP6Clients.js:69
 msgid "IPv6 DHCP Client List"
-msgstr ""
+msgstr "Λίστα Πελατών IPv6 DHCP"
 
 #: js/src/common/network/DHCP6Clients.js:71
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
+"Αυτή η λίστα περιέχει όλες τις συσκευές που είναι συνδεδεμένες στο δίκτυο "
+"μέσω ενσύρματων ή ασύρματων συνδέσεων και χρησιμοποιούν IPv6."
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:39
 msgid "No clients found."
-msgstr ""
+msgstr "Δεν βρέθηκαν πελάτες."
 
 #: js/src/common/network/DHCP6Clients.js:96
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
 msgid "Device is active"
-msgstr ""
+msgstr "Η συσκευή είναι ενεργή"
 
 #: js/src/common/network/DHCP6Clients.js:104
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
-#, fuzzy
 msgid "Device is inactive"
-msgstr "Όνομα κεντρικού υπολογιστή DHCP"
+msgstr "Η συσκευή είναι ανενεργή"
 
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
-msgstr "Όνομα κεντρικού υπολογιστή παρέχεται στον διακομιστή DHCP."
+msgstr "Το hostname που θα παρέχεται στον διακομιστή DHCP."
 
 #: js/src/common/network/DHCPClientForm.js:38
 msgid "DHCP hostname"
-msgstr "Όνομα κεντρικού υπολογιστή DHCP"
+msgstr "DHCP hostname"
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
 "Enable this option to automatically assign IP addresses to the devices "
 "connected to the router."
 msgstr ""
+"Ενεργοποιήστε αυτή την επιλογή για αυτόματη εκχώρηση διευθύνσεων IP στις "
+"συσκευές που είναι συνδεδεμένες στοn δρομολογητή."
 
 #: js/src/common/network/DHCPServerForm.js:47
 msgid "DHCP start"
-msgstr ""
+msgstr "Έναρξη DHCP"
 
 #: js/src/common/network/DHCPServerForm.js:57
 msgid "DHCP max leases"
-msgstr ""
+msgstr "Μέγιστα DHCP leases"
 
 #: js/src/common/network/DHCPServerForm.js:58
 msgid "Maximum number of addresses available for DHCP clients."
-msgstr ""
+msgstr "Μέγιστος αριθμός διευθύνσεων διαθέσιμες για πελάτες DHCP."
 
 #: js/src/common/network/DHCPServerForm.js:71
 msgid "Lease time (hours)"
-msgstr ""
+msgstr "Χρόνος lease (ώρες)"
 
 #: js/src/common/network/DHCPValidators.js:70
 msgid "Value must be a number."
-msgstr ""
+msgstr "Η τιμή πρέπει να είναι αριθμός."
 
 #: js/src/common/network/DHCPValidators.js:73
 msgid "Value must be positive."
-msgstr ""
+msgstr "Η τιμή πρέπει να είναι θετική."
 
 #: js/src/common/network/DHCPValidators.js:86
 msgid "Invalid network settings. DHCP settings can't be validated."
 msgstr ""
+"Μη έγκυρες ρυθμίσεις δικτύου. Οι ρυθμίσεις DHCP δεν μπορούν να επικυρωθούν."
 
 #: js/src/common/network/DHCPValidators.js:99
 msgid "Minimum lease time is 1 hour."
-msgstr ""
+msgstr "Ο ελάχιστος χρόνος lease είναι 1 ώρα."
 
 #: js/src/common/network/DHCPValidators.js:114
 msgid "Address is outside current network."
-msgstr ""
+msgstr "Η διεύθυνση βρίσκεται εκτός του τρέχοντος δικτύου."
 
 #: js/src/common/network/DHCPValidators.js:118
 msgid "Address is already reserved for other purposes."
-msgstr ""
+msgstr "Η διεύθυνση έχει ήδη δεσμευτεί για άλλους σκοπούς."
 
 #: js/src/common/network/DHCPValidators.js:129
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr ""
+"Ζητήθηκαν υπερβολικά πολλές διευθύνσεις. Ορίστε έναν μικρότερο αριθμό ή "
+"αλλάξτε την έναρξη DHCP."
 
 #: js/src/common/network/DHCPValidators.js:136
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
+"Το μόνο DHCP lease είναι το ίδιο με τη διεύθυνση του δρομολογητή. Αυξήστε το "
+"όριο ή αλλάξτε την εναρκτική διεύθυνση."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 msgid ""
 "DNS server address is not required as the built-in DNS resolver is "
 "capable of working without it."
 msgstr ""
+"Η διεύθυνση διακομιστή DNS δεν απαιτείται, καθώς ο ενσωματωμένος επιλυτής "
+"DNS μπορεί να λειτουργήσει και χωρίς αυτήν."
 
 #: js/src/common/network/StaticIPForm.js:50
 msgid "IP address"
-msgstr ""
+msgstr "Διεύθυνση IP"
 
 #: js/src/common/network/StaticIPForm.js:60
 #: js/src/guestNetwork/GuestNetworkForm.js:88 js/src/lan/LANManagedForm.js:72
 msgid "Network mask"
-msgstr ""
+msgstr "Μάσκα δικτύου"
 
 #: js/src/common/network/StaticIPForm.js:70 js/src/wan/WAN6Form.js:243
 msgid "Gateway"
-msgstr ""
+msgstr "Πύλη"
 
 #: js/src/common/network/StaticIPForm.js:80 js/src/wan/WAN6Form.js:268
 msgid "DNS server 1"
-msgstr ""
+msgstr "Διακομιστής DNS 1"
 
 #: js/src/common/network/StaticIPForm.js:90 js/src/wan/WAN6Form.js:278
 msgid "DNS server 2"
-msgstr ""
+msgstr "Διακομιστής DNS 2"
 
 #: js/src/common/network/StaticIPForm.js:111
 #: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:91
@@ -252,161 +268,163 @@ msgstr ""
 #: js/src/wan/WAN6Form.js:533 js/src/wan/WAN6Form.js:545
 #: js/src/wan/WANForm.js:173
 msgid "This field is required."
-msgstr ""
+msgstr "Αυτό το πεδίο είναι υποχρεωτικό."
 
 #: js/src/common/network/validators.js:12
 msgid "This is not a valid network mask."
-msgstr ""
+msgstr "Μη έγκυρη μάσκα δικτύου."
 
 #: js/src/common/network/DHCPClients/DHCPClients.js:25
 msgid "DHCP Client List"
-msgstr ""
+msgstr "Λίστα Πελατών DHCP"
 
 #: js/src/common/network/DHCPClients/DHCPClients.js:27
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
+"Αυτή η λίστα περιέχει όλες τις συσκευές που είναι συνδεδεμένες στο δίκτυο "
+"μέσω ενσύρματων ή ασύρματων συνδέσεων."
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:79
 msgid "IPv4 Address"
-msgstr ""
+msgstr "Διεύθυνση IPv4"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:83
 msgid "MAC Address"
-msgstr ""
+msgstr "Διεύθυνση MAC"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
 msgid "Edit static lease"
-msgstr ""
+msgstr "Επεξεργασία στατικού lease"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:59
 msgid "Set static lease"
-msgstr ""
+msgstr "Ορισμός στατικού lease"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:61
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:98
 msgid "Add static lease"
-msgstr ""
+msgstr "Προσθήκη στατικού lease"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
 #: js/src/dns/DNSSECDisableModal.js:48
 #: js/src/guide/GuideControls/SkipGuideButton.js:87
 #: js/src/notificationsSettings/TestNotification.js:153
 msgid "Cancel"
-msgstr "Άκυρο"
+msgstr "Ακύρωση"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:57
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
 msgid "Save"
-msgstr ""
+msgstr "Αποθήκευση"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:45
 msgid "List of available hostnames"
-msgstr ""
+msgstr "Λίστα διαθέσιμων hostname"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:58
 msgid "IPv4 address"
-msgstr ""
+msgstr "Διεύθυνση IPv4"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:69
 msgid "List of available IPv4 addresses"
-msgstr ""
+msgstr "Λίστα διαθέσιμων διευθύνσεων IPv4"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:84
 #: js/src/interfaces/SelectedInterface.js:139
 msgid "MAC address"
-msgstr ""
+msgstr "Διεύθυνση MAC"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:95
 msgid "List of available MAC addresses"
-msgstr ""
+msgstr "Λίστα διαθέσιμων διευθύνσεων MAC"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:99
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:125
 #: js/src/dns/Forwarders/ForwardersTable.js:40
 msgid "Actions"
-msgstr ""
+msgstr "Ενέργειες"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:142
 #: js/src/dns/Forwarders/ForwardersTable.js:142
 msgid "Edit"
-msgstr ""
+msgstr "Επεξεργασία"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:161
 #: js/src/dns/Forwarders/ForwardersTable.js:153
 msgid "Delete"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:170
 msgid "Set Static"
-msgstr ""
+msgstr "Ορισμός Στατικού"
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:47
 msgid "Static lease added successfully."
-msgstr ""
+msgstr "Το στατικό lease προστέθηκε με επιτυχία."
 
 #: js/src/common/network/DHCPClients/StaticLeases/hooks.js:58
 msgid "Static saved successfully."
-msgstr ""
+msgstr "Το στατικό αποθηκεύτηκε με επιτυχία."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
 msgid "Hostname cannot be empty."
-msgstr ""
+msgstr "To hostname δεν μπορεί να είναι κενό."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:24
 msgid "IPv4 address cannot be empty."
-msgstr ""
+msgstr "Η διεύθυνση IPv4 δεν μπορεί να είναι κενή."
 
 #: js/src/common/network/DHCPClients/StaticLeases/validator.js:28
 msgid "MAC address cannot be empty."
-msgstr ""
+msgstr "Η διεύθυνση MAC δεν μπορεί να είναι κενή."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
 msgid "Test is running…"
-msgstr ""
+msgstr "Η δοκιμή εκτελείται…"
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
 msgid "Test connection again"
-msgstr ""
+msgstr "Δοκιμή σύνδεσης ξανά"
 
 #: js/src/connectionTest/ConnectionTestButton.js:33
 msgid "Test connection"
-msgstr ""
+msgstr "Δοκιμή σύνδεσης"
 
 #: js/src/connectionTest/ConnectionTestResult.js:17
 msgid "IPv4 connectivity"
-msgstr ""
+msgstr "Συνδεσιμότητα IPv4"
 
 #: js/src/connectionTest/ConnectionTestResult.js:18
 msgid "IPv4 gateway connectivity"
-msgstr ""
+msgstr "Συνδεσιμότητα πύλης IPv4"
 
 #: js/src/connectionTest/ConnectionTestResult.js:19
 msgid "IPv6 connectivity"
-msgstr ""
+msgstr "Συνδεσιμότητα IPv6"
 
 #: js/src/connectionTest/ConnectionTestResult.js:20
 msgid "IPv6 gateway connectivity"
-msgstr ""
+msgstr "Συνδεσιμότητα πύλης IPv6"
 
 #: js/src/connectionTest/ConnectionTestResult.js:86
 msgid "Connection test successful"
-msgstr ""
+msgstr "Επιτυχής δοκιμή σύνδεσης"
 
 #: js/src/connectionTest/ConnectionTestResult.js:91
 msgid "Connection test failed"
-msgstr ""
+msgstr "Αποτυχία δοκιμής σύνδεσης"
 
 #: js/src/connectionTest/ConnectionTestResult.js:96
 msgid "Connection test cannot be determined"
-msgstr ""
+msgstr "Η δοκιμή σύνδεσης δεν μπορεί να προσδιοριστεί"
 
 #: js/src/connectionTest/ConnectionTestResult.js:101
 msgid "Connection test not started"
-msgstr ""
+msgstr "Η δοκιμή σύνδεσης δεν ξεκίνησε"
 
 #: js/src/dns/DNS.js:33
 msgid ""
@@ -414,6 +432,9 @@ msgid ""
 "capable of working independently or it can forward your DNS queries your "
 "internet service provider's DNS resolver."
 msgstr ""
+"Ο δρομολογητής Turris χρησιμοποιεί τον δικό του επιλυτή DNS με υποστήριξη "
+"DNSSEC. Έχει την δυνατότητα να λειτουργεί αυτόνομα ή να προωθεί τα ερωτήματα "
+"DNS στον επιλυτή DNS του παρόχου υπηρεσιών δικτύου σας."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -422,6 +443,10 @@ msgid ""
 "works properly. If it does not work for some reason, it is necessary to "
 "use direct resolving without forwarding."
 msgstr ""
+"Η ακόλουθη ρύθμιση καθορίζει την συμπεριφορά του επιλυτή DNS. Συνήθως, είναι "
+"καλύτερη η χρήση του επιλυτή του παρόχου σε δίκτυα όπου λειτουργεί σωστά. Αν "
+"για κάποιον λόγο δεν λειτουργεί, είναι απαραίτητη η χρήση της άμεσης "
+"επίλυσης χωρίς προώθηση."
 
 #: js/src/dns/DNS.js:44
 msgid ""
@@ -433,11 +458,19 @@ msgid ""
 "<b>recommend keeping DNSSEC turned on</b> and resolving the situation "
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
+"Σε σπάνιες περιπτώσεις, οι πάροχοι έχουν ακατάλληλα διαμορφωμένο δίκτυο, το "
+"οποίο παρεμβαίνει στην επικύρωση DNSSEC. Εάν αντιμετωπίζετε προβλήματα με το "
+"DNS, μπορείτε να απενεργοποιήσετε <b>προσωρινά</b> την επικύρωση DNSSEC για "
+"να προσδιορίσετε την πηγή του προβλήματος. Ωστόσο, έχετε υπόψη σας ότι χωρίς "
+"επικύρωση DNSSEC, είστε ευάλωτοι σε επιθέσεις πλαστογράφησης DNS! Επομένως "
+"εμείς <b>προτείνουμε την διατήρηση του DNSSEC ενεργοποιημένου</b> και την "
+"επίλυση της κατάστασης με τον πάροχό σας, καθώς αυτό είναι ένα σοβαρό "
+"ελάττωμα από την πλευρά τους."
 
 #: js/src/dns/DNS.js:63 js/src/overview/Cards/ConnectionTestCard.js:21
 #: js/src/wan/WAN.js:51
 msgid "Connection Test"
-msgstr ""
+msgstr "Δοκιμή Σύνδεσης"
 
 #: js/src/dns/DNS.js:66
 msgid ""
@@ -445,44 +478,55 @@ msgid ""
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
+"Εδώ μπορείτε να δοκιμάσετε τη σύνδεσή σας στο διαδίκτυο. Αυτή η δοκιμή είναι "
+"επίσης χρήσιμη όταν χρειάζεται να ελέγξετε ότι η επίλυση DNS λειτουργεί "
+"αναμενόμενα. Θυμηθείτε να κάνετε κλικ στο <b>κουμπί Αποθήκευση</b> εάν "
+"αλλάξατε τη ρύθμιση προωθητή."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
 "This will enable your DNS resolver to place DHCP client's names among the"
 " local DNS records."
 msgstr ""
+"Αυτό θα επιτρέψει στον επιλυτή DNS να τοποθετήσει τα ονόματα των πελατών "
+"DHCP ανάμεσα στα τοπικά DNS records."
 
 #: js/src/dns/DNSForm.js:20
 msgid ""
 "This domain will be used as suffix. E.g. The result for client "
 "\"android-123\" and domain \"my.lan\" will be \"android-123.my.lan\"."
 msgstr ""
+"Αυτός ο τομέας θα χρησιμοποιηθεί ως επίθημα. Π.χ. Το αποτέλεσμα για τον "
+"πελάτη \"android-123\" και τον τομέα \"my.lan\" θα είναι "
+"\"android-123.my.lan\"."
 
 #: js/src/dns/DNSForm.js:67
 msgid "DNS Settings"
-msgstr ""
+msgstr "Ρυθμίσεις DNS"
 
 #: js/src/dns/DNSForm.js:84
 msgid "Use forwarding"
-msgstr ""
+msgstr "Χρήση προώθησης"
 
 #: js/src/dns/DNSForm.js:100
 msgid "Enable DNSSEC"
-msgstr ""
+msgstr "Ενεργοποίηση DNSSEC"
 
 #: js/src/dns/DNSForm.js:106
 msgid "Enable DHCP clients in DNS"
-msgstr ""
+msgstr "Ενεργοποίηση πελατών DHCP στο DNS"
 
 #: js/src/dns/DNSForm.js:116
 msgid "Domain of DHCP clients in DNS"
-msgstr ""
+msgstr "Τομέας των πελατών DHCP στο DNS"
 
 #: js/src/dns/DNSSECDisableModal.js:13
 msgid ""
 "DNSSEC is a security technology that protects DNS communication against "
 "attacks on the DNS infrastructure."
 msgstr ""
+"Το DNSSEC είναι μια τεχνολογία ασφαλείας που προστατεύει την επικοινωνία DNS "
+"από επιθέσεις στην υποδομή DNS."
 
 #: js/src/dns/DNSSECDisableModal.js:17
 msgid ""
@@ -490,113 +534,118 @@ msgid ""
 "that you will be connecting your device to the network where DNSSEC is "
 "broken."
 msgstr ""
+"Συνιστούμε ανεπιφύλακτα να διατηρήσετε ενεργοποιημένη την επικύρωση DNSSEC, "
+"εκτός εάν γνωρίζετε ότι θα συνδέσετε τη συσκευή σας σε δίκτυο όπου το DNSSEC "
+"δεν είναι λειτουργικό."
 
 #: js/src/dns/DNSSECDisableModal.js:21
 msgid "Do you still want to continue and stay unprotected?"
-msgstr ""
+msgstr "Θέλετε ακόμα να συνεχίσετε και να μείνετε απροστάτευτοι;"
 
 #: js/src/dns/DNSSECDisableModal.js:56
 msgid "Disable DNSSEC"
-msgstr ""
+msgstr "Απενεργοποίηση DNSSEC"
 
 #: js/src/dns/Forwarders/Forwarders.js:81
 msgid "Edit forwarder"
-msgstr ""
+msgstr "Επεξεργασία προωθητή"
 
 #: js/src/dns/Forwarders/Forwarders.js:82
 #: js/src/dns/Forwarders/Forwarders.js:104
 msgid "Add custom forwarder"
-msgstr ""
+msgstr "Προσθήκη προσαρμοσμένου προωθητή"
 
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Forwarders"
-msgstr ""
+msgstr "Προωθητές"
 
 #: js/src/dns/Forwarders/ForwardersTable.js:47
 msgid "Use provider's DNS resolver"
-msgstr ""
+msgstr "Χρήση επιλυτή DNS παρόχου"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:24
 msgid "Base 64 encoded SHA-256."
-msgstr ""
+msgstr "SHA-256 κωδικοποιημένο σε Base 64."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:25
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr ""
+"\"Χωρίς TLS\" σημαίνει ότι χρησιμοποιείται το κανονικό πρωτόκολλο DNS με "
+"βάση το UDP."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
 #: js/src/packageManagement/updates/UpdateApproval.js:142
 msgid "Name"
-msgstr ""
+msgstr "Όνομα"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:69
 msgid "TLS type"
-msgstr ""
+msgstr "Τύπος TLS"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:87
 msgid "TLS hostname"
-msgstr ""
+msgstr "TLS hostname"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:99
 msgid "TLS pin"
-msgstr ""
+msgstr "TLS pin"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:15
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:16
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:53
 msgid "${label} Addresses"
-msgstr ""
+msgstr "${label} Διευθύνσεις"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:59
 msgid "${label} #${index + 1}"
-msgstr ""
+msgstr "${label} #${index + 1}"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:83
 msgid "Add ${label} address"
-msgstr ""
+msgstr "Προσθήκη ${label} διεύθυνσης"
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:47
 msgid "Forwarder saved successfully."
-msgstr ""
+msgstr "Ο προωθητής αποθηκεύτηκε με επιτυχία."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:49
 msgid "Can't save forwarder."
-msgstr ""
+msgstr "Αδύνατη η αποθήκευση του προωθητή."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:56
 msgid "Forwarder added successfully."
-msgstr ""
+msgstr "Ο προωθητής προστέθηκε με επιτυχία."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:58
 msgid "Can't add new forwarder."
-msgstr ""
+msgstr "Αδύνατη η προσθήκη νέου προωθητή."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:20
 msgid "Forwarder name should have at least one symbol."
-msgstr ""
+msgstr "Το όνομα προωθητή πρέπει να έχει τουλάχιστον ένα σύμβολο."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:28
 msgid "Hostname should have at least one symbol."
-msgstr ""
+msgstr "Το hostname πρέπει να έχει τουλάχιστον ένα σύμβολο."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:33
 msgid "TLS pin should have at least one symbol."
-msgstr ""
+msgstr "Το TLS pin πρέπει να έχει τουλάχιστον ένα σύμβολο."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:45
 msgid "Define at least one of the IP addresses of the forwarder."
-msgstr ""
+msgstr "Καθορίστε τουλάχιστον μία από τις διευθύνσεις IP του προωθητή."
 
 #: js/src/guestNetwork/GuestNetwork.js:38 js/src/interfaces/constants.js:11
 #: js/src/main/pages.js:60
 msgid "Guest Network"
-msgstr ""
+msgstr "Δίκτυο Επισκεπτών"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
 msgid ""
@@ -605,66 +654,75 @@ msgid ""
 " network are allowed to access the internet but are not allowed to access"
 " the configuration interface of this device or the devices in LAN."
 msgstr ""
+"Το δίκτυο επισκεπτών χρησιμοποιείται για το <a href=\"${ForisURLs.wifi}\">Wi-"
+"Fi επισκεπτών</a>. Διαχωρίζεται από το κανονικό LAN σας. Οι συσκευές που "
+"είναι συνδεδεμένες σε αυτό το δίκτυο επιτρέπεται να έχουν πρόσβαση στο "
+"διαδίκτυο, αλλά δεν επιτρέπεται να έχουν πρόσβαση στη διεπαφή διαμόρφωσης "
+"αυτής της συσκευής ή στις συσκευές στο κανονικό LAN."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
-msgstr ""
+msgstr "Η διεύθυνση IP του δρομολογητή στο εσωτερικό δίκτυο επισκεπτών."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:19
 msgid "Network mask of the guest inner network."
-msgstr ""
+msgstr "Η μάσκα δικτύου του εσωτερικού δικτύου επισκεπτών."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:22
 msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
+"Αυτή η επιλογή σάς δίνει τη δυνατότητα να ορίσετε ένα όριο εύρους ζώνης για "
+"το δίκτυο επισκεπτών, έτσι ώστε το κύριο δίκτυό σας να μην επιβραδύνεται από "
+"αυτό."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
-msgstr ""
+msgstr "Ταχύτητα λήψης στο δίκτυο επισκεπτών (σε kilobit ανά δευτερόλεπτο)."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:28
 msgid "Upload speed in guest network (in kilobits per second)."
 msgstr ""
+"Ταχύτητα μεταφόρτωσης στο δίκτυο επισκεπτών (σε kilobit ανά δευτερόλεπτο)."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:65
 msgid "Guest Network Settings"
-msgstr ""
+msgstr "Ρυθμίσεις Δικτύου Επισκεπτών"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:67
 msgid "Enable Guest Network"
-msgstr ""
+msgstr "Ενεργοποίηση Δικτύου Επισκεπτών"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:77 js/src/lan/LANManagedForm.js:61
 msgid "Router IP address"
-msgstr ""
+msgstr "Διεύθυνση IP δρομολογητή"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:98 js/src/lan/LANManagedForm.js:82
 msgid "Enable DHCP"
-msgstr ""
+msgstr "Ενεργοποίηση DHCP"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:116
 msgid "Enable QoS"
-msgstr ""
+msgstr "Ενεργοποίηση QoS"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:159
 #: js/src/overview/Cards/LibrespeedCard.js:79
 msgid "Download"
-msgstr ""
+msgstr "Λήψη"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
 #: js/src/overview/Cards/LibrespeedCard.js:93
 msgid "Upload"
-msgstr ""
+msgstr "Μεταφόρτωση"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:191
 msgid "Download speed must be positive"
-msgstr ""
+msgstr "Η ταχύτητα λήψης πρέπει να είναι θετική"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:194
 msgid "Upload speed must be positive"
-msgstr ""
+msgstr "Η ταχύτητα μεταφόρτωσης πρέπει να είναι θετική"
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:13
 msgid ""
@@ -672,10 +730,15 @@ msgid ""
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
+"Αυτό το δίκτυο δεν περιέχει συσκευές αυτή την στιγμή. Οι αλλαγές που κάνετε "
+"εδώ θα γίνουν πλήρως λειτουργικές αφού αντιστοιχίσετε μια διεπαφή δικτύου σε "
+"αυτό το δίκτυο."
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:17
 msgid "All network interfaces of this network are currently down."
 msgstr ""
+"Όλες οι διεπαφές δικτύου αυτού του δικτύου είναι απενεργοποιημένες αυτή την "
+"στιγμή."
 
 #: js/src/guide/constants.js:13
 msgid ""
@@ -683,32 +746,42 @@ msgid ""
 "device. Firstly it is required to set your password. Note the security of"
 " your home network is in your hands, so try not to use weak passwords."
 msgstr ""
+"Καλώς ορίσατε στη διεπαφή ιστού reForis. Αυτός ο οδηγός θα σας βοηθήσει να "
+"ρυθμίσετε τη συσκευή σας. Πρώτα είναι απαραίτητο να ορίσετε τον κωδικό "
+"πρόσβασής σας. Λάβετε υπόψη ότι η ασφάλεια του οικιακού σας δικτύου είναι "
+"στα χέρια σας, επομένως προσπαθήστε να μην χρησιμοποιείτε αδύναμους κωδικούς "
+"πρόσβασης."
 
 #: js/src/guide/constants.js:17
 msgid "Your password is set. You may proceed to the next step."
 msgstr ""
+"Ο κωδικός πρόσβασής σας έχει οριστεί. Μπορείτε να προχωρήσετε στο επόμενο "
+"βήμα."
 
 #: js/src/guide/constants.js:20
 msgid "The workflow was set. You may proceed to next step."
-msgstr ""
+msgstr "Η ροή εργασίας έχει οριστεί. Μπορείτε να προχωρήσετε στο επόμενο βήμα."
 
 #: js/src/guide/constants.js:24
 msgid "Here you need to decide which interfaces belong to which network."
-msgstr ""
+msgstr "Εδώ χρειάζεται να αποφασίσετε ποιές διεπαφές ανήκουν σε ποιό δίκτυο."
 
 #: js/src/guide/constants.js:27
 msgid "If you are in doubt use the current settings."
-msgstr ""
+msgstr "Εάν έχετε αμφιβολίες, χρησιμοποιήστε τις τρέχουσες ρυθμίσεις."
 
 #: js/src/guide/constants.js:29
 msgid ""
 "You've configured your network interfaces. It seems that you didn't break"
 " any crucial network settings so you can safely proceed to the next step."
 msgstr ""
+"Έχετε διαμορφώσει τις διεπαφές δικτύου σας. Φαίνεται ότι δεν χαλάσατε καμία "
+"σημαντική ρύθμιση δικτύου, άρα μπορείτε να προχωρήσετε με ασφάλεια στο "
+"επόμενο βήμα."
 
 #: js/src/guide/constants.js:34
 msgid "Now you need to set the time and timezone of your device."
-msgstr ""
+msgstr "Τώρα χρειάζεται να ρυθμίσετε την ώρα και τη ζώνη ώρας της συσκευής σας."
 
 #: js/src/guide/constants.js:35
 msgid ""
@@ -716,22 +789,31 @@ msgid ""
 "matches the time on your computer if not try to update it via NTP or "
 "manually."
 msgstr ""
+"Η ώρα και η ζώνη ώρας φαίνεται να έχουν ρυθμιστεί. Βεβαιωθείτε ότι η ώρα "
+"ταιριάζει με την ώρα στον υπολογιστή σας. Αν δεν ταιριάζει, προσπαθήσετε να "
+"την ενημερώσετε μέσω NTP ή χειροκίνητα."
 
 #: js/src/guide/constants.js:40
 msgid ""
 "A proper DNS resolving is one of the key security features of your "
 "device. Let's configure it now."
 msgstr ""
+"Η σωστή επίλυση DNS είναι ένα από τα βασικά χαρακτηριστικά ασφαλείας της "
+"συσκευής σας. Ας την διαμορφώσουμε τώρα."
 
 #: js/src/guide/constants.js:43
 msgid ""
 "You've updated your DNS configuration. Try to run connection test to see "
 "whether your DNS resolver is properly set."
 msgstr ""
+"Έχετε ενημερώσει την διαμόρφωση DNS. Προσπαθήστε να εκτελέσετε την δοκιμή "
+"σύνδεσης για να δείτε εάν ο επιλυτής DNS έχει ρυθμιστεί σωστά."
 
 #: js/src/guide/constants.js:48
 msgid "In order to access the internet, you need to configure your WAN interface."
 msgstr ""
+"Για να αποκτήσετε πρόσβαση στο διαδίκτυο, χρειάζεται να διαμορφώσετε την "
+"διεπαφή WAN."
 
 #: js/src/guide/constants.js:51
 msgid ""
@@ -739,6 +821,9 @@ msgid ""
 "whether it is working properly and if so you can safely proceed to the "
 "next step."
 msgstr ""
+"Έχετε διαμορφώσει τη διεπαφή WAN σας. Προσπαθήστε να εκτελέσετε την δοκιμή "
+"σύνδεσης για να δείτε εάν λειτουργεί σωστά. Αν λειτουργεί μπορείτε να "
+"προχωρήσετε με ασφάλεια στο επόμενο βήμα."
 
 #: js/src/guide/constants.js:56
 msgid ""
@@ -747,36 +832,51 @@ msgid ""
 "configuration interface unless you restart the network on your current "
 "device."
 msgstr ""
+"Τώρα χρειάζεται να διαμορφώσετε τη διεπαφή LAN σας. Λάβετε υπόψη ότι όταν "
+"αλλάξετε τις ρυθμίσεις του δικτύου σας πιθανόν να μην μπορείτε να συνδεθείτε "
+"στη διεπαφή διαμόρφωσης εκτός εάν κάνετε επανεκκίνηση του δικτύου στην "
+"τρέχουσα συσκευή σας."
 
 #: js/src/guide/constants.js:59
 msgid ""
 "You've configured your LAN interface. Try to test whether settings work "
 "properly and if so you can safely proceed to the next step."
 msgstr ""
+"Έχετε διαμορφώσει τη διεπαφή LAN σας. Δοκιμάστε να ελέγξετε εάν οι ρυθμίσεις "
+"λειτουργούν σωστά και εάν ναι, μπορείτε να προχωρήσετε με ασφάλεια στο "
+"επόμενο βήμα."
 
 #: js/src/guide/constants.js:64
 msgid "Now you need to configure automatic updates on your device."
 msgstr ""
+"Τώρα χρειάζεται να διαμορφώσετε τις αυτόματες ενημερώσεις στη συσκευή σας."
 
 #: js/src/guide/constants.js:67
 msgid "Please wait till the updater finishes its run."
 msgstr ""
+"Παρακαλώ περιμένετε μέχρι το πρόγραμμα ενημέρωσης να ολοκληρώσει την "
+"εκτέλεσή του."
 
 #: js/src/guide/constants.js:76
 msgid "Congratulations! Now your device is ready to be used."
-msgstr ""
+msgstr "Συγχαρητήρια! Τώρα η συσκευή σας είναι έτοιμη για χρήση."
 
 #: js/src/guide/constants.js:82
 msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
 msgstr ""
+"Συγχαρητήρια! Τώρα η συσκευή σας μπορεί να λειτουργεί ως δρομολογητής και να "
+"δρομολογεί την κυκλοφορία του δικτύου μεταξύ LAN, WAN και δικτύου επισκεπτών."
 
 #: js/src/guide/constants.js:90
 msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
 "some further configuration updates to fit the device to your needs."
 msgstr ""
+"Η ελάχιστη διαμόρφωση συσκευής έχει ολοκληρωθεί. Λάβετε υπόψη ότι πιθανότατα "
+"πρέπει να εκτελέσετε ορισμένη περαιτέρω διαμόρφωση για να προσαρμόσετε τη "
+"συσκευή στις ανάγκες σας."
 
 #: js/src/guide/constants.js:98
 msgid ""
@@ -785,6 +885,10 @@ msgid ""
 "Shield will try to connect to the Internet, and you will end up in the "
 "administration interface."
 msgstr ""
+"Η συσκευή σας είναι τώρα έτοιμη για χρήση. Μπορείτε να τροποποιήσετε την "
+"υπόλοιπη ρύθμιση στη διεπαφή διαχείρισης. Μόλις ολοκληρώσετε τον οδηγό το "
+"Shield σας θα προσπαθήσει να συνδεθεί στο Internet και θα καταλήξετε στη "
+"διεπαφή διαχείρισης."
 
 #: js/src/guide/constants.js:109
 msgid ""
@@ -792,6 +896,9 @@ msgid ""
 " put any interfaces to your WAN and Guest Network. So it is a good idea "
 "to assign all interfaces to LAN."
 msgstr ""
+"Επιλέξατε να ενεργείτε ως τοπικός διακομιστής. Αυτό σημαίνει ότι δεν έχει "
+"νόημα να τοποθετήσετε διεπαφές στο WAN και στο Δίκτυο Επισκεπτών σας. "
+"Επομένως είναι καλή ιδέα να εκχωρήσετε όλες τις διεπαφές στο LAN."
 
 #: js/src/guide/constants.js:116
 msgid ""
@@ -800,6 +907,11 @@ msgid ""
 "probably want to act as a client here thus select "
 "<strong>Computer</strong> mode here."
 msgstr ""
+"Για να ενεργείτε ως τοπικός διακομιστής δεν χρειάζεται να διαχειρίζεστε το "
+"LAN (εάν εξακολουθείτε να θέλετε να το διαχειριστείτε επαναφέρετε τον οδηγό "
+"και επιλέξτε τη ροή εργασίας του Δρομολογητή). Πιθανότατα θέλετε να "
+"ενεργήσετε ως πελάτης εδώ, επομένως επιλέξτε τη λειτουργία "
+"<strong>Υπολογιστής</strong> εδώ."
 
 #: js/src/guide/constants.js:119
 msgid ""
@@ -807,6 +919,9 @@ msgid ""
 "IP addresses are entered correctly otherwise you won't be able to access "
 "this configuration interface when the new settings are applied."
 msgstr ""
+"Εάν επιλέξετε τη ρύθμιση παραμέτρων <strong>στατική</strong> βεβαιωθείτε ότι "
+"οι διευθύνσεις IP έχουν εισαχθεί σωστά διαφορετικά δεν θα έχετε πρόσβαση σε "
+"αυτήν τη διεπαφή διαμόρφωσης όταν εφαρμοστούν οι νέες ρυθμίσεις."
 
 #: js/src/guide/constants.js:122
 msgid ""
@@ -815,12 +930,19 @@ msgid ""
 "server which is managing your LAN. Then you need to connect to the new IP"
 " address to proceed the guide."
 msgstr ""
+"Εάν επιλέξετε τη μέθοδο <strong>DHCP</strong> πιθανόν να χρειαστεί να "
+"αποκτήσετε μια νέα διεύθυνση IP αυτής της συσκευής. Μπορείτε να την "
+"αποκτήσετε από τον διακομιστή DHCP που διαχειρίζεται το LAN σας. Στη "
+"συνέχεια θα χρειαστεί να συνδεθείτε στη νέα διεύθυνση IP για να συνεχίσετε "
+"τον οδηγό."
 
 #: js/src/guide/constants.js:125
 msgid ""
 "Note that either way you might need to re-plug your ethernet cables after"
 " you update the settings here."
 msgstr ""
+"Λάβετε υπόψη ότι μπορεί να χρειαστεί έτσι κι αλλιώς να επανασυνδέσετε τα "
+"καλώδια ethernet σας αφού ενημερώσετε τις ρυθμίσεις εδώ."
 
 #: js/src/guide/constants.js:129
 msgid ""
@@ -828,96 +950,105 @@ msgid ""
 "means that you can access the configuration interface of your device, and"
 " your device can access the internet."
 msgstr ""
+"Παρακαλώ ελέγξτε εάν οι ρυθμίσεις που παρείχατε λειτουργούν σωστά. Αυτό "
+"σημαίνει να μπορείτε να έχετε πρόσβαση στη διεπαφή διαμόρφωσης της συσκευής "
+"σας και η συσκευή σας να έχει πρόσβαση στο διαδίκτυο."
 
 #: js/src/guide/constants.js:134
 msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
 msgstr ""
+"Συγχαρητήρια! Τώρα η συσκευή σας θα πρέπει να μπορεί να λειτουργεί ως "
+"διακομιστής στο τοπικό σας δίκτυο."
 
 #: js/src/guide/hooks.js:24
 msgid "Cannot mark guide as finished."
-msgstr ""
+msgstr "Δεν είναι δυνατή η επισήμανση του οδηγού ως ολοκληρωμένου."
 
 #: js/src/guide/steps.js:21 js/src/main/pages.js:73
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
 #: js/src/password/Password.js:175
 msgid "Password"
-msgstr ""
+msgstr "Κωδικός"
 
 #: js/src/guide/steps.js:25
 msgid "Workflow"
-msgstr ""
+msgstr "Ροή Εργασίας"
 
 #: js/src/guide/steps.js:29 js/src/main/pages.js:55
 msgid "Interfaces"
-msgstr ""
+msgstr "Διεπαφές"
 
 #: js/src/guide/steps.js:33 js/src/regionAndTime/TimeForm.js:125
 msgid "Time"
-msgstr ""
+msgstr "Ώρα"
 
 #: js/src/guide/steps.js:37 js/src/main/pages.js:47 js/src/main/pages.js:53
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: js/src/guide/steps.js:41
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:138
 #: js/src/main/pages.js:113 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
-msgstr ""
+msgstr "Ενημερώσεις"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
 #: js/src/main/pages.js:45 js/src/main/pages.js:51 js/src/wan/WAN.js:29
 msgid "WAN"
-msgstr ""
+msgstr "WAN"
 
 #: js/src/guide/steps.js:49 js/src/interfaces/constants.js:10
 #: js/src/main/pages.js:46 js/src/main/pages.js:52
 msgid "LAN"
-msgstr ""
+msgstr "LAN"
 
 #: js/src/guide/steps.js:53
 msgid "Finish"
-msgstr ""
+msgstr "Ολοκλήρωση"
 
 #: js/src/guide/GuideControls/NextStepButton.js:28
 msgid "Next step"
-msgstr ""
+msgstr "Επόμενο βήμα"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:50
 msgid "Skip"
-msgstr ""
+msgstr "Παράληψη"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:70
-#, fuzzy
 msgid "Are you sure you want to skip the whole guide?"
-msgstr "Είσται σίγουροι ότι θέλετε να ξαναξεκινήστε το δρομολογητή;"
+msgstr "Είστε σίγουροι ότι θέλετε να παραλείψετε ολόκληρο τον οδηγό;"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:72
 msgid "This will skip the guide and you will be redirected to the overview page."
 msgstr ""
+"Αυτό θα παραλείψει τον οδηγό και θα ανακατευθυνθείτε στη σελίδα επισκόπησης."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:77
 msgid ""
 "Settings that are not set up during the guide will be set to default "
 "values. And you will have to set them up manually."
 msgstr ""
+"Οι ρυθμίσεις που δεν έχουν οριστεί κατά τη διάρκεια του οδηγού θα οριστούν "
+"στις προεπιλεγμένες τιμές. Θα πρέπει να τα ρυθμίσετε χειροκίνητα."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:155
 msgid "Confirm"
-msgstr ""
+msgstr "Επιβεβαίωση"
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
-msgstr ""
+msgstr "Ο Οδηγός Ολοκληρώθηκε"
 
 #: js/src/guide/GuidePages/GuideFinish.js:22
 msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
+"Μόλις αποχωρήσετε από αυτό τον οδηγό θα σας παραχωρηθεί πρόσβαση στην πλήρη "
+"διεπαφή διαμόρφωσης αυτής της συσκευής."
 
 #: js/src/guide/GuidePages/GuideFinish.js:27
 msgid ""
@@ -926,6 +1057,11 @@ msgid ""
 "security research to discover new attackers and give you access to "
 "dynamic firewall updates blocking known attackers."
 msgstr ""
+"Για να βελτιώσετε περαιτέρω την ασφάλειά σας εξετάστε το ενδεχόμενο να "
+"εγκαταστήσετε το πρόσθετο συλλογής δεδομένων (μέσω της Διαχείρισης Πακέτων). "
+"Αυτό θα σας επιτρέψει να λάβετε μέρος στην έρευνα ασφαλείας μας για να "
+"ανακαλύψετε νέους εισβολείς και θα σας δώσει πρόσβαση σε δυναμικές "
+"ενημερώσεις τείχους προστασίας που εμποδίζουν γνωστούς εισβολείς."
 
 #: js/src/guide/GuidePages/GuideFinish.js:33
 #: js/src/utils/useSessionTimeout.js:113
@@ -939,6 +1075,10 @@ msgid ""
 "other devices within your local network (e.g. act as a network-attached "
 "storage)."
 msgstr ""
+"Αυτή η ροή εργασίας θα σας βοηθήσει να ρυθμίσετε τη συσκευή σας ώστε να "
+"λειτουργεί ως τοπικός διακομιστής. Αυτό σημαίνει ότι η συσκευή θα παρέχει "
+"κάποιου είδους υπηρεσία σε άλλες συσκευές εντός του τοπικού σας δικτύου ("
+"π.χ. θα λειτουργεί ως δικτυακή μονάδα αποθήκευσης)."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:29
 msgid ""
@@ -946,69 +1086,78 @@ msgid ""
 " functional router. It assumes that you want to have more or less "
 "standard network setup."
 msgstr ""
+"Αφού ολοκληρώσετε αυτήν τη ροή εργασίας, η συσκευή σας θα μπορεί να "
+"λειτουργεί ως πλήρως λειτουργικός δρομολογητής. Προϋποθέτει ότι θέλετε να "
+"έχετε μια πάνω-κάτω τυπική ρύθμιση δικτύου."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:32
 msgid ""
 "Just set your password and you are ready to go. This workflow is aimed to"
 " more advanced users who intend to set everything manually."
 msgstr ""
+"Απλώς ορίστε τον κωδικό πρόσβασής σας και είστε έτοιμοι να ξεκινήσετε. Αυτή "
+"η ροή εργασίας απευθύνεται σε πιο προχωρημένους χρήστες που σκοπεύουν να "
+"ρυθμίσουν τα πάντα χειροκίνητα."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:38
 msgid "Local Server"
-msgstr ""
+msgstr "Τοπικός Διακομιστής"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:39 js/src/lan/LANForm.js:33
 msgid "Router"
-msgstr ""
+msgstr "Δρομολογητής"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:40
 msgid "Minimal"
-msgstr ""
+msgstr "Ελάχιστη"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:58
 msgid "Cannot set workflow."
-msgstr ""
+msgstr "Δεν είναι δυνατός ο ορισμός της ροής εργασίας."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:68
 msgid "Guide Workflow"
-msgstr ""
+msgstr "Οδηγός Ροής Εργασίας"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:70
 msgid ""
 "Here you can set the guide walkthrough which will guide you through the "
 "basic configuration of your device."
 msgstr ""
+"Εδώ μπορείτε να ορίσετε τον οδηγό που θα σας καθοδηγήσει στη βασική "
+"διαμόρφωση της συσκευής σας."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:85
 msgid "Recommended"
-msgstr ""
+msgstr "Προτεινόμενο"
 
 #: js/src/hostname/Hostname.js:25
 msgid "Here you can check and set the name of your device."
-msgstr ""
+msgstr "Εδώ μπορείτε να ελέγξετε και να ορίσετε το όνομα της συσκευής σας."
 
 #: js/src/hostname/Hostname.js:44
 msgid ""
 "The hostname can contain only alphanumeric characters, hyphens, "
 "underscores and can't be empty."
 msgstr ""
+"Το hostname μπορεί να περιέχει μόνο αλφαριθμητικούς χαρακτήρες, παύλες, κάτω "
+"παύλες και δεν μπορεί να είναι κενό."
 
 #: js/src/hostname/HostnameForm.js:14
 msgid "Rewrite the hostname to set a new one."
-msgstr ""
+msgstr "Ξαναγράψτε το hostname για να ορίσετε ένα νέο."
 
 #: js/src/hostname/HostnameForm.js:34
 msgid "Hostname Settings"
-msgstr ""
+msgstr "Ρυθμίσεις Hostname"
 
 #: js/src/hostname/HostnameForm.js:36
-#, fuzzy
 msgid "Device hostname"
-msgstr "Όνομα κεντρικού υπολογιστή DHCP"
+msgstr "Hostname Συσκευής"
 
 #: js/src/interfaces/Interfaces.js:27
 msgid "Network Interfaces"
-msgstr ""
+msgstr "Διεπαφές Δικτύου"
 
 #: js/src/interfaces/Interfaces.js:29
 msgid ""
@@ -1016,22 +1165,31 @@ msgid ""
 "device. You can switch the physical network interfaces among networks. If"
 " you are unsure what to set here, use the default settings."
 msgstr ""
+"Εδώ μπορείτε να διαμορφώσετε τις ρυθμίσεις των διεπαφών δικτύου στη συσκευή "
+"σας. Μπορείτε να αλλάξετε τις φυσικές διεπαφές δικτύου μεταξύ δικτύων. Εάν "
+"δεν είστε σίγουροι τι να ορίσετε εδώ, χρησιμοποιήστε τις προεπιλεγμένες "
+"ρυθμίσεις."
 
 #: js/src/interfaces/Interfaces.js:52
 msgid "You have to assign at least one interface to this group."
-msgstr ""
+msgstr "Πρέπει να αντιστοιχίσετε τουλάχιστον μία διεπαφή σε αυτήν την ομάδα."
 
 #: js/src/interfaces/InterfacesForm.js:63
 msgid ""
 "Ports are open on your WAN interface. It's better to reconfigure your "
 "interface settings to avoid security issues."
 msgstr ""
+"Οι θύρες είναι ανοιχτές στη διεπαφή WAN. Είναι προτιμότερο να "
+"αναδιαμορφώσετε τις ρυθμίσεις της διεπαφής σας για να αποφύγετε προβλήματα "
+"ασφαλείας."
 
 #: js/src/interfaces/InterfacesForm.js:107
 msgid ""
 "It acts as an external network connection. Firewall rules should be "
 "applied here. It can only contain a single interface."
 msgstr ""
+"Λειτουργεί ως εξωτερική σύνδεση δικτύου. Οι κανόνες του τείχους προστασίας "
+"θα πρέπει να εφαρμόζονται εδώ. Μπορεί να περιέχει μόνο μία διεπαφή."
 
 #: js/src/interfaces/InterfacesForm.js:119
 msgid ""
@@ -1041,6 +1199,12 @@ msgid ""
 "should contain at least one interface. Otherwise, you might not be able "
 "to configure this device easily."
 msgstr ""
+"Λειτουργεί ως σύνδεση τοπικού δικτύου. Το LAN θα πρέπει να περιέχει συσκευές "
+"που βρίσκονται υπό τον έλεγχό σας και τις οποίες εμπιστεύεστε. Αυτές οι "
+"συσκευές μπορούν να βλέπουν η μία την άλλη και να έχουν πρόσβαση σε αυτήν τη "
+"διεπαφή ιστού. Συνιστάται το LAN να περιέχει τουλάχιστον μία διεπαφή. "
+"Διαφορετικά, ενδέχεται να μην μπορείτε να διαμορφώσετε εύκολα αυτήν τη "
+"συσκευή."
 
 #: js/src/interfaces/InterfacesForm.js:135
 msgid ""
@@ -1050,77 +1214,85 @@ msgid ""
 "that you don't fully trust. Note that you can also limit the "
 "download/upload speed of the devices connected to the guest network."
 msgstr ""
+"Λειτουργεί ως σύνδεση τοπικού δικτύου. Σε αντίθεση με το LAN, οι συσκευές "
+"στο δίκτυο επισκεπτών δεν έχουν πρόσβαση στη διεπαφή διαμόρφωσης αυτής της "
+"συσκευής και έχουν πρόσβαση μόνο στο WAN (διαδίκτυο). Αυτό το δίκτυο θα "
+"πρέπει να χρησιμοποιείται για συσκευές που δεν εμπιστεύεστε πλήρως. Λάβετε "
+"υπόψη ότι μπορείτε επίσης να περιορίσετε την ταχύτητα λήψης/μεταφόρτωσης των "
+"συσκευών που είναι συνδεδεμένες στο δίκτυο επισκεπτών."
 
 #: js/src/interfaces/Network.js:43
 msgid "There are no interfaces in this group."
-msgstr ""
+msgstr "Δεν υπάρχουν διεπαφές σε αυτήν την ομάδα."
 
 #: js/src/interfaces/Network.js:64
 msgid "Base module"
-msgstr ""
+msgstr "Μονάδα βάσης"
 
 #: js/src/interfaces/Network.js:65
 #, python-format
 msgid "Module %s"
-msgstr ""
+msgstr "Μονάδα %s"
 
 #: js/src/interfaces/SelectedInterface.js:82
 #, python-format
 msgid "Interface %s %s"
-msgstr ""
+msgstr "Διεπαφή %s %s"
 
 #: js/src/interfaces/SelectedInterface.js:85
 msgid "Network"
-msgstr ""
+msgstr "Δίκτυο"
 
 #: js/src/interfaces/SelectedInterface.js:93
 msgid "State"
-msgstr ""
+msgstr "Κατάσταση"
 
 #: js/src/interfaces/SelectedInterface.js:107
 msgid "Module ID"
-msgstr ""
+msgstr "ID Μονάδας"
 
 #: js/src/interfaces/SelectedInterface.js:111
 msgid "Slot"
-msgstr ""
+msgstr "Θύρα"
 
 #: js/src/interfaces/SelectedInterface.js:115
 msgid "Interface ID"
-msgstr ""
+msgstr "ID Διεπαφής"
 
 #: js/src/interfaces/SelectedInterface.js:120
 msgid "VLAN ID"
-msgstr ""
+msgstr "VLAD ID"
 
 #: js/src/interfaces/SelectedInterface.js:125
 msgid "Type"
-msgstr ""
+msgstr "Τύπος"
 
 #: js/src/interfaces/SelectedInterface.js:129
 msgid "Bus"
-msgstr ""
+msgstr "Δίαυλος"
 
 #: js/src/interfaces/SelectedInterface.js:133
 msgid "Link speed"
-msgstr ""
+msgstr "Ταχύτητα σύνδεσης"
 
 #: js/src/interfaces/SelectedInterface.js:135
 #: js/src/interfaces/SelectedInterface.js:140
 #: js/src/overview/Cards/LibrespeedCard.js:118
 #: js/src/overview/Cards/LibrespeedCard.js:134
 msgid "N/A"
-msgstr ""
+msgstr "Δ/Υ"
 
 #: js/src/interfaces/constants.js:12
 msgid "Unassigned"
-msgstr ""
+msgstr "Ανεκχώρητο"
 
 #: js/src/lan/LAN.js:25
 msgid ""
 "This section contains settings for the local network (LAN). The provided "
 "defaults are suitable for most networks."
 msgstr ""
+"Αυτή η ενότητα περιέχει ρυθμίσεις για το τοπικό δίκτυο (LAN). Οι παρεχόμενες "
+"προεπιλογές είναι κατάλληλες για τα περισσότερα δίκτυα."
 
 #: js/src/lan/LAN.js:29
 msgid ""
@@ -1132,12 +1304,22 @@ msgid ""
 "obtain a new IP from DHCP (if DHCP is enabled), and you might need to "
 "<b>refresh the page</b> in your browser."
 msgstr ""
+"<b>Σημείωση:</b> Εάν αλλάξετε τη διεύθυνση IP του δρομολογητή, όλοι οι "
+"υπολογιστές στο LAN, πιθανόν συμπεριλαμβανομένου αυτού που χρησιμοποιείτε "
+"τώρα, θα πρέπει να αποκτήσουν μια <b>νέα διεύθυνση IP</b>, κάτι που δεν "
+"συμβαίνει <b>αμέσως</b>. Συνιστάται να αποσυνδέσετε και να επανασυνδέσετε "
+"όλα τα καλώδια LAN μετά την υποβολή των αλλαγών σας για να εξαναγκαστεί η "
+"ενημέρωση. Η επόμενη σελίδα δεν θα φορτώσει έως ότου λάβετε μια νέα IP από "
+"το DHCP (αν είναι ενεργοποιημένο το DHCP) και ίσως χρειαστεί να "
+"<b>ανανεώσετε τη σελίδα</b> στο πρόγραμμα περιήγησής σας."
 
 #: js/src/lan/LANForm.js:19
 msgid ""
 "Router mode means that this device manages the LAN (acts as a router, can"
 " assign IP addresses, etc.)."
 msgstr ""
+"Η λειτουργία δρομολογητή σημαίνει ότι αυτή η συσκευή διαχειρίζεται το LAN ("
+"λειτουργεί ως δρομολογητής, μπορεί να εκχωρήσει διευθύνσεις IP, κ.λπ.)."
 
 #: js/src/lan/LANForm.js:22
 msgid ""
@@ -1145,169 +1327,171 @@ msgid ""
 " acts similarly to WAN, but it has opened ports for configuration "
 "interfaces and other services."
 msgstr ""
+"Η λειτουργία υπολογιστή σημαίνει ότι αυτή η συσκευή λειτουργεί ως πελάτης σε "
+"αυτό το δίκτυο. Λειτουργεί παρόμοια με το WAN, αλλά έχει ανοιχτές θύρες για "
+"διεπαφές διαμόρφωσης και άλλες υπηρεσίες."
 
 #: js/src/lan/LANForm.js:34
 msgid "Computer"
-msgstr ""
+msgstr "Υπολογιστής"
 
 #: js/src/lan/LANForm.js:84
 msgid "LAN Settings"
-msgstr ""
+msgstr "Ρυθμίσεις LAN"
 
 #: js/src/lan/LANForm.js:87
 msgid "LAN mode"
-msgstr ""
+msgstr "Λειτουργία LAN"
 
 #: js/src/lan/LANForm.js:103
 msgid "Redirect to 192.168.1.1"
-msgstr ""
+msgstr "Ανακατεύθυνση σε 192.168.1.1"
 
 #: js/src/lan/LANManagedForm.js:29
 msgid "Router's IP address in the inner network."
-msgstr ""
+msgstr "Η διεύθυνση IP του δρομολογητή στο εσωτερικό δίκτυο."
 
 #: js/src/lan/LANUnmanagedForm.js:25 js/src/wan/WANForm.js:25
 msgid "DHCP (automatic configuration)"
-msgstr ""
+msgstr "DHCP (αυτόματη διαμόρφωση)"
 
 #: js/src/lan/LANUnmanagedForm.js:26 js/src/wan/WAN6Form.js:75
 #: js/src/wan/WANForm.js:26
 msgid "Static IP address (manual configuration)"
-msgstr ""
+msgstr "Στατική διεύθυνση IP (χειροκίνητη διαμόρφωση)"
 
 #: js/src/lan/LANUnmanagedForm.js:27
 msgid "Don't connect this device to LAN"
-msgstr ""
+msgstr "Μην συνδέσετε αυτή τη συσκευή σε LAN"
 
 #: js/src/lan/LANUnmanagedForm.js:87 js/src/wan/WANForm.js:102
 msgid "IPv4 protocol"
-msgstr ""
+msgstr "Πρωτόκολλο IPv4"
 
 #: js/src/main/pages.js:31 js/src/overview/Overview.js:43
 msgid "Overview"
-msgstr ""
+msgstr "Επισκόπηση"
 
 #: js/src/main/pages.js:38
 msgid "Network Settings"
-msgstr ""
+msgstr "Ρυθμίσεις Δικτύου"
 
 #: js/src/main/pages.js:50 js/src/wifi/WiFi.js:40
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #: js/src/main/pages.js:68
 msgid "Administration"
-msgstr ""
+msgstr "Διαχείριση"
 
 #: js/src/main/pages.js:75
 msgid "Region & Time"
-msgstr ""
+msgstr "Περιοχή & Ώρα"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:80
 #: js/src/main/pages.js:80
 #: js/src/notifications/Notifications/Notifications.js:71
 #: js/src/notificationsSettings/NotificationsSettings.js:26
 msgid "Notifications"
-msgstr ""
+msgstr "Ειδοποιήσεις"
 
 #: js/src/main/pages.js:85 js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
-msgstr ""
+msgstr "Συντήρηση"
 
 #: js/src/main/pages.js:101
 msgid "Global Threat Statistics"
-msgstr ""
+msgstr "Παγκόσμια Στατιστικά Απειλών"
 
 #: js/src/main/pages.js:108
 msgid "Package Management"
-msgstr ""
+msgstr "Διαχείριση Πακέτων"
 
 #: js/src/main/pages.js:115
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:29
 msgid "Update Settings"
-msgstr ""
+msgstr "Ρυθμίσεις Ενημέρωσης"
 
 #: js/src/main/pages.js:119 js/src/packageManagement/packages/Packages.js:20
 msgid "Packages"
-msgstr ""
+msgstr "Πακέτα"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:63
 #: js/src/main/pages.js:120 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
-msgstr ""
+msgstr "Γλώσσες"
 
 #: js/src/main/pages.js:125
 msgid "Advanced Administration"
-msgstr ""
+msgstr "Προηγμένη Διαχείριση"
 
 #: js/src/main/TopBar/LogoutButton.js:16 js/src/utils/useSessionTimeout.js:111
 msgid "Logout"
-msgstr ""
+msgstr "Αποσύνδεση"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:20
 msgid "Light"
-msgstr ""
+msgstr "Ανοιχτό"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:25
 msgid "Dark"
-msgstr ""
+msgstr "Σκούρο"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:30
-#, fuzzy
 msgid "Auto"
-msgstr "Σχετικά"
+msgstr "Αυτόματο"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
 msgid "Theme"
-msgstr ""
+msgstr "Θέμα"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:101
 msgid "Participate in translation"
-msgstr ""
+msgstr "Συμμετέχετε στη μετάφραση"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:38
 #: js/src/notifications/Notifications/Notifications.js:56
 msgid "No notifications"
-msgstr ""
+msgstr "Δεν υπάρχουν ειδοποιήσεις"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:108
 #: js/src/notifications/Notifications/DismissAllButton.js:26
 msgid "Dismiss all"
-msgstr ""
+msgstr "Απόρριψη όλων"
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:59
 msgid "Reboot Required"
-msgstr ""
+msgstr "Απαιτείται Επανεκκίνηση"
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:73
 msgid "Details"
-msgstr ""
+msgstr "Λεπτομέρειες"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:108
 msgid "Approve Update"
-msgstr ""
+msgstr "Έγκριση Ενημέρωσης"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
 msgid "See details in "
-msgstr ""
+msgstr "Δείτε λεπτομέρειες στην "
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
 msgid " page."
-msgstr ""
+msgstr " σελίδα."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:146
 #: js/src/packageManagement/updates/UpdateApproval.js:120
 msgid "Install now"
-msgstr ""
+msgstr "Εγκατάσταση τώρα"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:156
 #: js/src/packageManagement/updates/UpdateApproval.js:40
 msgid "Cannot install updates."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η εγκατάσταση των ενημερώσεων."
 
 #: js/src/maintenance/FactoryReset.js:17 js/src/maintenance/FactoryReset.js:48
 msgid "Factory Reset"
-msgstr ""
+msgstr "Επαναφορά Εργοστασιακών Ρυθμίσεων"
 
 #: js/src/maintenance/FactoryReset.js:19
 msgid ""
@@ -1316,29 +1500,36 @@ msgid ""
 "brings back all the default settings of the device as it was when the "
 "router was new, giving you a clean slate to start all over again."
 msgstr ""
+"Κάνοντας επαναφορά εργοστασιακών ρυθμίσεων στη συσκευή Turris θα αφαιρεθούν "
+"όλα τα πακέτα που είναι εγκατεστημένα στη συσκευή μαζί με τα δεδομένα που "
+"σχετίζονται με αυτά. Αυτό επαναφέρει όλες τις προεπιλεγμένες ρυθμίσεις της "
+"συσκευής όπως ήταν όταν ο δρομολογητής ήταν καινούριος, δίνοντάς σας ένα "
+"καθαρό πλάνο για να ξεκινήσετε από την αρχή."
 
 #: js/src/maintenance/FactoryReset.js:28
-#, fuzzy
 msgid "Are you sure you want to reset the router?"
-msgstr "Είσται σίγουροι ότι θέλετε να ξαναξεκινήστε το δρομολογητή;"
+msgstr "Είστε σίγουροι ότι θέλετε να επαναφέρετε τον δρομολογητή;"
 
 #: js/src/maintenance/FactoryReset.js:31
 msgid "Reset"
-msgstr ""
+msgstr "Επαναφορά"
 
 #: js/src/maintenance/FactoryReset.js:33
 msgid "The router has been reset successfully."
-msgstr ""
+msgstr "Η επαναφορά του δρομολογητή έγινε με επιτυχία."
 
 #: js/src/maintenance/FactoryReset.js:36
 msgid "An error occurred while resetting the router."
-msgstr ""
+msgstr "Παρουσιάστηκε σφάλμα κατά την επαναφορά του δρομολογητή."
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
 "The Maintenance tab allows you to reboot the router or bring back all the"
 " default settings by performing a factory reset."
 msgstr ""
+"Η καρτέλα Συντήρηση σας επιτρέπει να κάνετε επανεκκίνηση του δρομολογητή ή "
+"να επαναφέρετε όλες τις προεπιλεγμένες ρυθμίσεις πραγματοποιώντας επαναφορά "
+"εργοστασιακών ρυθμίσεων."
 
 #: js/src/maintenance/Reboot.js:19
 msgid ""
@@ -1346,14 +1537,17 @@ msgid ""
 "reboot process takes approximately 30 seconds, and then you will be "
 "required to log in again."
 msgstr ""
+"Εάν χρειάζεται να επανεκκινήσετε τη συσκευή, κάντε κλικ στο παρακάτω κουμπί. "
+"Η διαδικασία επανεκκίνησης διαρκεί περίπου 30 δευτερόλεπτα και στη συνέχεια "
+"θα σας ζητηθεί να συνδεθείτε ξανά."
 
 #: js/src/maintenance/Syslog/Syslog.js:49
 msgid "A drive has to be configured first."
-msgstr ""
+msgstr "Πρώτα πρέπει να διαμορφωθεί μια μονάδα δίσκου."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:30
 msgid "System Logs Retention"
-msgstr ""
+msgstr "Διατήρηση Αρχείων Καταγραφής Συστήματος"
 
 #: js/src/maintenance/Syslog/SyslogForm.js:32
 msgid ""
@@ -1361,6 +1555,10 @@ msgid ""
 " saving system logs using the Storage plugin. Logs are saved into "
 "'/srv/log/messages'."
 msgstr ""
+"Κατά την επανεκκίνηση της συσκευής, τα αρχεία καταγραφής συστήματος χάνονται "
+"από προεπιλογή. Αυτή η επιλογή επιτρέπει την αποθήκευση αρχείων καταγραφής "
+"συστήματος χρησιμοποιώντας το πρόσθετο Αποθήκευσης. Τα αρχεία καταγραφής "
+"αποθηκεύονται στο '/srv/log/messages'."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:38
 msgid ""
@@ -1368,59 +1566,62 @@ msgid ""
 "href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Storage "
 "plugin</a> first."
 msgstr ""
+"Για να ενεργοποιήσετε αυτήν την επιλογή, πρέπει πρώτα να διαμορφώσετε τον "
+"χώρο αποθήκευσης στο <a href=\"${ForisURLs.storage}\" title="
+"\"Go to Storage plugin\">Πρόσθετο Αποθήκευσης</a>."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:44
 msgid "Enable System Logs Retention"
-msgstr ""
+msgstr "Ενεργοποιήστε την Διατήρηση Αρχείων Καταγραφής Συστήματος"
 
 #: js/src/notifications/Notifications/NotificationsList.js:97
 #: js/src/packageManagement/updateSettings/LicenseModal.js:37
 msgid "Close"
-msgstr ""
+msgstr "Κλείσιμο"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
-msgstr ""
+msgstr "Απαιτείται επανεκκίνηση"
 
 #: js/src/notificationsSettings/CommonForm.js:18
 msgid "Reboot or attention is required"
-msgstr ""
+msgstr "Απαιτείται επανεκκίνηση ή προσοχή"
 
 #: js/src/notificationsSettings/CommonForm.js:19
 msgid "Reboot or attention is required or update was installed"
-msgstr ""
+msgstr "Απαιτείται επανεκκίνηση ή προσοχή ή εγκαταστάθηκε η ενημέρωση"
 
 #: js/src/notificationsSettings/CommonForm.js:50
 msgid "Recipient's email"
-msgstr ""
+msgstr "Email παραλήπτη"
 
 #: js/src/notificationsSettings/CommonForm.js:61
 msgid "Importance"
-msgstr ""
+msgstr "Βαρύτητα"
 
 #: js/src/notificationsSettings/CommonForm.js:70
 msgid "Send news"
-msgstr ""
+msgstr "Αποστολή νέων"
 
 #: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:20
 msgid "Turris"
-msgstr ""
+msgstr "Turris"
 
 #: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:24
 msgid "Custom"
-msgstr ""
+msgstr "Προσαρμοσμένο"
 
 #: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:81
 msgid "Notification Settings"
-msgstr ""
+msgstr "Ρυθμίσεις Ειδοποιήσεων"
 
 #: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:83
 msgid "Enable Email Notifications"
-msgstr ""
+msgstr "Ενεργοποίηση Ειδοποιήσεων μέσω Email"
 
 #: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:93
 msgid "SMTP provider"
-msgstr ""
+msgstr "Πάροχος SMTP"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:28
 msgid ""
@@ -1429,53 +1630,61 @@ msgid ""
 "settings. When done with configuration, you can test it by pressing Send "
 "test notification."
 msgstr ""
+"Η συσκευή σας μπορεί να σας στέλνει ειδοποιήσεις μέσω e-mail σχετικά με "
+"απαιτούμενες επανεκκινήσεις, σημαντικά συμβάντα, εγκατεστημένες ενημερώσεις "
+"και νέες λειτουργίες σύμφωνα με τις ρυθμίσεις σας. Όταν τελειώσετε με τη "
+"διαμόρφωση, μπορείτε να τη δοκιμάσετε πατώντας Αποστολή δοκιμαστικής "
+"ειδοποίησης."
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
-msgstr ""
+msgstr "Κανένα"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:23
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:24
 msgid "STARTTLS"
-msgstr ""
+msgstr "STARTTLS"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:61
 msgid "SMTP Settings"
-msgstr ""
+msgstr "Ρυθμίσεις SMTP"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:63
 msgid "Sender address (From)"
-msgstr ""
+msgstr "Διεύθυνση αποστολέα (Από)"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:75
 msgid "Server address"
-msgstr ""
+msgstr "Διεύθυνση διακομιστή"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:86
 msgid "Server port"
-msgstr ""
+msgstr "Θύρα διακομιστή"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:97
 msgid "Security"
-msgstr ""
+msgstr "Ασφάλεια"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:106
 #: js/src/wan/WAN6Form.js:434
 msgid "Username"
-msgstr ""
+msgstr "Όνομα Χρήστη"
 
 #: js/src/notificationsSettings/SMTPTurrisForm.js:36
 msgid "Sender's name"
-msgstr ""
+msgstr "Όνομα αποστολέα"
 
 #: js/src/notificationsSettings/TestNotification.js:31
 msgid ""
 "There are some unsaved changes in the notifications settings. Do you want"
 " to discard them and test the notifications with the old settings?"
 msgstr ""
+"Υπάρχουν κάποιες μη αποθηκευμένες αλλαγές στις ρυθμίσεις ειδοποιήσεων. "
+"Θέλετε να τις απορρίψετε και να δοκιμάσετε τις ειδοποιήσεις με τις παλιές "
+"ρυθμίσεις;"
 
 #: js/src/notificationsSettings/TestNotification.js:35
 msgid ""
@@ -1484,20 +1693,26 @@ msgid ""
 "\"Reboot or attention is required\" and click \"Save\" button if you want"
 " to get this notification by email."
 msgstr ""
+"Δεν θα λάβετε τη δοκιμαστική ειδοποίηση στα εισερχόμενα του email σας με το "
+"τρέχον επίπεδο βαρύτητας. Αυξήστε το επίπεδο βαρύτητας τουλάχιστον στο "
+"\"Απαιτείται επανεκκίνηση ή προσοχή\" και κάντε κλικ στο κουμπί "
+"\"Αποθήκευση\" εάν θέλετε να λάβετε αυτήν την ειδοποίηση μέσω email."
 
 #: js/src/notificationsSettings/TestNotification.js:112
 msgid "Test Notification"
-msgstr ""
+msgstr "Δοκιμαστική Ειδοποίηση"
 
 #: js/src/notificationsSettings/TestNotification.js:114
 msgid ""
 "Here you can verify whether SMTP is configured correctly by sending a "
 "test notification to your email inbox."
 msgstr ""
+"Εδώ μπορείτε να επαληθεύσετε εάν το SMTP έχει ρυθμιστεί σωστά στέλνοντας μια "
+"δοκιμαστική ειδοποίηση στα εισερχόμενα του email σας."
 
 #: js/src/notificationsSettings/TestNotification.js:125
 msgid "Send test notification"
-msgstr ""
+msgstr "Αποστολή δοκιμαστικής ειδοποίησης"
 
 #: js/src/notificationsSettings/helpTexts.js:9
 msgid ""
@@ -1506,170 +1721,180 @@ msgid ""
 "additional settings. If you want to set your own SMTP server, please "
 "select \"Custom\" and enter required settings."
 msgstr ""
+"Εάν ορίσετε τον πάροχο SMTP σε \"Turris\", θα χρησιμοποιηθούν οι διακομιστές "
+"που παρέχονται στα μέλη του έργου Turris. Αυτοί οι διακομιστές δεν απαιτούν "
+"πρόσθετες ρυθμίσεις. Εάν θέλετε να ορίσετε τον δικό σας διακομιστή SMTP, "
+"επιλέξτε \"Προσαρμοσμένο\" και εισαγάγετε τις απαιτούμενες ρυθμίσεις."
 
 #: js/src/notificationsSettings/helpTexts.js:15
 msgid "Email address of recipient. Separate multiple addresses by comma."
-msgstr ""
+msgstr "Διεύθυνση email του παραλήπτη. Διαχωρίστε πολλές διευθύνσεις με κόμμα."
 
 #: js/src/notificationsSettings/helpTexts.js:18
 msgid "Send emails about new features."
-msgstr ""
+msgstr "Αποστολή email σχετικά με νέες δυνατότητες."
 
 #: js/src/notificationsSettings/helpTexts.js:21
 msgid ""
 "Name of the sender - will be used as a part of the sender's email address"
 " before the \"at\" sign."
 msgstr ""
+"Όνομα του αποστολέα - θα χρησιμοποιηθεί ως μέρος της διεύθυνσης email του "
+"αποστολέα πριν από το σύμβολο \"at\"."
 
 #: js/src/notificationsSettings/helpTexts.js:26
 msgid "This is the address notifications are send from."
-msgstr ""
+msgstr "Αυτή είναι η διεύθυνση από την οποία αποστέλλονται οι ειδοποιήσεις."
 
 #: js/src/notificationsSettings/validator.js:23
 msgid "Can't be empty."
-msgstr ""
+msgstr "Δεν μπορεί να είναι κενό."
 
 #: js/src/notificationsSettings/validator.js:33
 msgid "Sender's name can't be empty."
-msgstr ""
+msgstr "Το όνομα αποστολέα δεν μπορεί να είναι κενό."
 
 #: js/src/notificationsSettings/validator.js:37
 msgid ""
 "Sender's name can contain only alphanumeric characters, dots and "
 "underscores."
 msgstr ""
+"Το όνομα αποστολέα μπορεί να περιέχει μόνο αλφαριθμητικούς χαρακτήρες, "
+"τελείες και κάτω παύλες."
 
 #: js/src/notificationsSettings/validator.js:46
 msgid "Port is an number."
-msgstr ""
+msgstr "Η θύρα είναι ένας αριθμός."
 
 #: js/src/notificationsSettings/validator.js:47
 msgid "Maximum port is 65535."
-msgstr ""
+msgstr "Η μέγιστη θύρα είναι 65535."
 
 #: js/src/notificationsSettings/validator.js:48
 msgid "Minimum port is 1."
-msgstr ""
+msgstr "Η ελάχιστη θύρα είναι 1."
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:46
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Αυτόματες Ενημερώσεις"
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:49
 msgid "Go to update settings"
-msgstr ""
+msgstr "Μεταβείτε στις ρυθμίσεις ενημέρωσης"
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
-msgstr ""
+msgstr "Ανανέωση"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Activated"
-msgstr ""
+msgstr "Ενεργοποιημένο"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Disabled"
-msgstr ""
+msgstr "Απενεργοποιημένο"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:23
 msgid "Dynamic Firewall"
-msgstr ""
+msgstr "Δυναμικό Τοίχος Προστασίας"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
 msgid "Go to Dynamic Firewall package installation"
-msgstr ""
+msgstr "Μεταβείτε στην εγκατάσταση του πακέτου Δυναμικού Τοίχους Προστασίας"
 
 #: js/src/overview/Cards/LibrespeedCard.js:67
 msgid "LibreSpeed"
-msgstr ""
+msgstr "LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:69
 msgid "Go to LibreSpeed"
-msgstr ""
+msgstr "Πήγαινε στο LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:82
 #: js/src/overview/Cards/LibrespeedCard.js:96
 msgid "Megabit per second"
-msgstr ""
+msgstr "Megabit ανά δευτερόλεπτο"
 
 #: js/src/overview/Cards/LibrespeedCard.js:107
 msgid "Ping"
-msgstr ""
+msgstr "Ping"
 
 #: js/src/overview/Cards/LibrespeedCard.js:110
 #: js/src/overview/Cards/LibrespeedCard.js:126
 msgid "Millisecond"
-msgstr ""
+msgstr "Millisecond"
 
 #: js/src/overview/Cards/LibrespeedCard.js:123
 msgid "Jitter"
-msgstr ""
+msgstr "Jitter"
 
 #: js/src/overview/Cards/LibrespeedCard.js:138
 msgid "Server"
-msgstr ""
+msgstr "Διακομιστής"
 
 #: js/src/overview/Cards/LibrespeedCard.js:152
 msgid "Performed"
-msgstr ""
+msgstr "Εκτελεσμένα"
 
 #: js/src/overview/Cards/LibrespeedCard.js:158
 msgid "No tests have been performed lately."
-msgstr ""
+msgstr "Δεν έχουν εκτελεστεί δοκιμές τελευταία."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:61
 msgid "OpenVPN Clients"
-msgstr ""
+msgstr "Πελάτες OpenVPN"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:63
 msgid "Go to OpenVPN Client Settings"
-msgstr ""
+msgstr "Μεταβείτε στις Ρυθμίσεις Πελάτη OpenVPN"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:77
 msgid "Currently, there are no connected OpenVPN clients."
-msgstr ""
+msgstr "Προς το παρόν, δεν υπάρχουν συνδεδεμένοι πελάτες OpenVPN."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:88
 msgid "There are no OpenVPN clients."
-msgstr ""
+msgstr "Δεν υπάρχουν πελάτες OpenVPN."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:116
 msgid "Total In: "
-msgstr ""
+msgstr "Συνολικά Μέσα: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:125
 msgid "Total Out: "
-msgstr ""
+msgstr "Συνολικά Έξω: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:153
 msgid "Connected"
-msgstr ""
+msgstr "Συνεδεμένο"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:162
 msgid "Disconnected"
-msgstr ""
+msgstr "Αποσυνδεδεμένο"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
 msgid "Go to Sentinel license agreement"
-msgstr ""
+msgstr "Μεταβείτε στη συμφωνία άδειας χρήσης Sentinel"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:57
 msgid "Go to Sentinel package installation"
-msgstr ""
+msgstr "Μεταβείτε στην εγκατάσταση πακέτου Sentinel"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:62
 msgid "Threat Detection"
-msgstr ""
+msgstr "Ανίχνευση Aπειλών"
 
 #: js/src/packageManagement/languages/Languages.js:22
 msgid ""
 "If you want to use another language other than English, you can select it"
 " from the following list:"
 msgstr ""
+"Εάν θέλετε να χρησιμοποιήσετε κάποια άλλη γλώσσα εκτός από τα Aγγλικά, "
+"μπορείτε να την επιλέξετε από την παρακάτω λίστα:"
 
 #: js/src/packageManagement/packages/PackageCheckBox.js:54
 msgid "More details"
-msgstr ""
+msgstr "Περισσότερες λεπτομέρειες"
 
 #: js/src/packageManagement/packages/Packages.js:22
 msgid ""
@@ -1680,24 +1905,32 @@ msgid ""
 "package lists and not marked as community-supported is supported by the "
 "Turris team."
 msgstr ""
+"Εκτός από την τυπική εγκατάσταση, μπορείτε προαιρετικά να επιλέξετε πακέτα "
+"πρόσθετου λογισμικού που θα εγκατασταθούν στον δρομολογητή. Αυτό το "
+"λογισμικό μπορεί να επιλεγεί από τις ακόλουθες λίστες. Λάβετε υπόψη ότι μόνο "
+"λογισμικό που αποτελεί μέρος του Turris OS ή που έχει εγκατασταθεί από "
+"λίστες πακέτων και δεν έχει επισημανθεί ως υποστηριζόμενο από την κοινότητα "
+"υποστηρίζεται από την ομάδα Turris."
 
 #: js/src/packageManagement/packages/PackagesForm.js:31
 msgid "Package Lists"
-msgstr ""
+msgstr "Λίστες Πακέτων"
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:31
 msgid "Most Important License Agreement Points"
-msgstr ""
+msgstr "Σημαντικότερα Σημεία Συμφωνίας Άδειας Χρήσης"
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:47
 msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the "
 msgstr ""
+"Ενεργοποιώντας τις αυτόματες ενημερώσεις, επιβεβαιώνετε ότι είστε ο κάτοχος "
+"αυτού του δρομολογητή Turris και συμφωνείτε με το πλήρες κείμενο της "
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
 msgid "license agreement"
-msgstr ""
+msgstr "συμφωνίας άδειας χρήσης"
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
 msgid ""
@@ -1709,6 +1942,14 @@ msgid ""
 "weaken the security of your router and network in case flaws in the "
 "software are found."
 msgstr ""
+"Το σύστημα αυτόματων ενημερώσεων είναι ένα από τα πιο σημαντικά "
+"χαρακτηριστικά του δρομολογητή Turris. Χάρη σε αυτή τη λειτουργία, το "
+"λογισμικό του δρομολογητή σας παραμένει ενημερωμένο και προσφέρει καλύτερη "
+"προστασία από επιθέσεις από το διαδίκτυο.<br><b>Συνιστάται ανεπιφύλακτα</b> "
+"να έχετε <b>ενεργοποιημένη</b> αυτή την δυνατότητα. Εάν αποφασίσετε να την "
+"απενεργοποιήσετε, προειδοποιήστε ότι αυτό μπορεί να αποδυναμώσει την "
+"ασφάλεια του δρομολογητή και του δικτύου σας σε περίπτωση που εντοπιστούν "
+"ελαττώματα στο λογισμικό."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
 msgid ""
@@ -1716,32 +1957,42 @@ msgid ""
 "agreement. More information is available <a href=\"\" data-bs-"
 "toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
+"Ενεργοποιώντας τις αυτόματες ενημερώσεις, συμφωνείτε με την άδεια χρήσης "
+"αυτής της δυνατότητας. Περισσότερες πληροφορίες είναι διαθέσιμες <a href=\""
+"\" data-bs-toggle=\"modal\" data-bs-target=\"#licenseModal\">εδώ</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
 msgstr ""
+"Οι αυτόματες ενημερώσεις προσφέρονται στους δρομολογητές Turris χωρίς χρέωση."
 
 #: js/src/packageManagement/updateSettings/points.js:17
 msgid "Updates are prepared exclusively by CZ.NIC, z. s. p. o."
-msgstr ""
+msgstr "Οι ενημερώσεις προετοιμάζονται αποκλειστικά από την CZ.NIC, z. s. p. o."
 
 #: js/src/packageManagement/updateSettings/points.js:21
 msgid ""
 "Automatic updates must be turned on to get all security features, as some"
 " of them make use of it."
 msgstr ""
+"Οι αυτόματες ενημερώσεις πρέπει να είναι ενεργοποιημένες για να λαμβάνετε "
+"όλες τις δυνατότητες ασφαλείας, καθώς ορισμένες από αυτές τις χρησιμοποιούν."
 
 #: js/src/packageManagement/updateSettings/points.js:27
 msgid ""
 "Automatic updates take place at the time of their release. The time of "
 "installation cannot be influenced by the user."
 msgstr ""
+"Οι αυτόματες ενημερώσεις πραγματοποιούνται τη στιγμή της κυκλοφορίας τους. Ο "
+"χρόνος εγκατάστασης δεν μπορεί να επηρεαστεί από τον χρήστη."
 
 #: js/src/packageManagement/updateSettings/points.js:33
 msgid ""
 "Downloading the automatic updates mean increased Internet traffic. "
 "Potential expenses related to this are covered by you."
 msgstr ""
+"Η λήψη των αυτόματων ενημερώσεων σημαίνει αυξημένη κίνηση διαδικτύου. Πιθανά "
+"έξοδα που σχετίζονται με αυτό καλύπτονται από εσάς."
 
 #: js/src/packageManagement/updateSettings/points.js:39
 msgid ""
@@ -1750,76 +2001,87 @@ msgid ""
 "workstations and other devices by installing antivirus software and "
 "explaining to users how to stay safe on the Internet."
 msgstr ""
+"Οι αυτόματες ενημερώσεις δεν μπορούν να σας προστατεύσουν από κάθε επίθεση "
+"που προέρχεται από το διαδίκτυο. Λάβετε επίσης άλλες προφυλάξεις, όπως η "
+"προστασία των σταθμών εργασίας και άλλων συσκευών σας εγκαθιστώντας "
+"λογισμικό προστασίας από ιούς και εξηγώντας στους χρήστες πώς να παραμείνουν "
+"ασφαλείς στο διαδίκτυο."
 
 #: js/src/packageManagement/updateSettings/points.js:45
 msgid ""
 "CZ.NIC, z. s. p. o. is not responsible for any damages caused by the "
 "automatic updates and does not guarantee its availability."
 msgstr ""
+"Η CZ.NIC, z. s. p. o. δεν ευθύνεται για τυχόν ζημιές που προκαλούνται από "
+"τις αυτόματες ενημερώσεις και δεν εγγυάται τη διαθεσιμότητά τους."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:17
 msgid ""
 "Number of days that must pass between receiving the request for restart "
 "and the automatic restart itself."
 msgstr ""
+"Αριθμός ημερών που πρέπει να περάσουν μεταξύ της λήψης του αιτήματος για "
+"επανεκκίνηση και της ίδιας της αυτόματης επανεκκίνησης."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:20
 msgid "Time of day of automatic reboot in HH:MM format."
-msgstr ""
+msgstr "Ώρα της ημέρας για αυτόματη επανεκκίνηση σε μορφή ΩΩ:ΛΛ."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:49
 msgid "Automatic Restarts After Software Update"
-msgstr ""
+msgstr "Αυτόματη Επανεκκίνηση Μετά Την Ενημέρωση Λογισμικού"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:51
 msgid "Delay (days)"
-msgstr ""
+msgstr "Καθυστέρηση (ημέρες)"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:63
 msgid "Reboot time"
-msgstr ""
+msgstr "Ώρα επανεκκίνησης"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:88
 msgid "Time should be in HH:MM format."
-msgstr ""
+msgstr "Η ώρα πρέπει να είναι σε μορφή ΩΩ:ΛΛ."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:91
 msgid "Restart can be delayed by at most 10 days"
-msgstr ""
+msgstr "Η επανεκκίνηση μπορεί να καθυστερήσει το πολύ 10 ημέρες"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:94
 msgid "Delay must be a positive number"
-msgstr ""
+msgstr "Η καθυστέρηση πρέπει να είναι θετικός αριθμός"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:16
 msgid "Automatic installation"
-msgstr ""
+msgstr "Αυτόματη εγκατάσταση"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:17
 msgid "Updates will be installed without user's intervention."
-msgstr ""
+msgstr "Οι ενημερώσεις θα εγκατασταθούν χωρίς την παρέμβαση του χρήστη."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:21
 msgid "Delayed updates"
-msgstr ""
+msgstr "Καθυστερημένες ενημερώσεις"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:22
 msgid ""
 "Updates will be installed with an adjustable delay. You can also approve "
 "them manually."
 msgstr ""
+"Οι ενημερώσεις θα εγκατασταθούν με μια ρυθμιζόμενη καθυστέρηση. Μπορείτε "
+"επίσης να τα εγκρίνετε χειροκίνητα."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:28
 msgid "Update approval needed"
-msgstr ""
+msgstr "Απαιτείται έγκριση ενημέρωσης"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:29
 msgid "You have to approve the updates, otherwise they won't be installed."
-msgstr ""
+msgstr "Πρέπει να εγκρίνετε τις ενημερώσεις, διαφορετικά δεν θα εγκατασταθούν."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:59
 msgid "Update Approvals"
-msgstr ""
+msgstr "Εγκρίσεις Ενημερώσεων"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:61
 msgid ""
@@ -1832,39 +2094,50 @@ msgid ""
 "            it will be offered to you again together with the next "
 "package installation."
 msgstr ""
+"Οι εγκρίσεις ενημερώσεων μπορεί να είναι χρήσιμες όταν θέλετε να βεβαιωθείτε "
+"ότι οι ενημερώσεις δεν θα βλάψουν την συγκεκριμένη σας\n"
+"            διαμόρφωση. Μπορείτε π.χ. να εγκαταστήστε ενημερώσεις όταν είστε "
+"προετοιμασμένοι για μια πιθανή επαναφορά σε προηγούμενο\n"
+"            στιγμιότυπο και αρνηθείτε προσωρινά την αμφισβητήσιμη ενημέρωση. "
+"Δεν είναι δυνατή η οριστική απόρριψη της ενημέρωσης και\n"
+"            θα σας προσφερθεί ξανά μαζί με την επόμενη εγκατάσταση του "
+"πακέτου."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:79
 msgid "Delayed updates (hours)"
-msgstr ""
+msgstr "Καθυστερημένες ενημερώσεις (ώρες)"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:97
 msgid "Updates must be delayed by least 1 hour and at most by 168 hours"
 msgstr ""
+"Οι ενημερώσεις πρέπει να καθυστερούν τουλάχιστον 1 ώρα και το πολύ 168 ώρες"
 
 #: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:47
 msgid "Automatic Update Settings"
-msgstr ""
+msgstr "Ρυθμίσεις Αυτόματων Ενημερώσεων"
 
 #: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:49
 msgid "Enable Automatic Updates (recommended)"
-msgstr ""
+msgstr "Ενεργοποίηση Αυτόματων Ενημερώσεων (συνιστάται)"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:44
 msgid "Updates will be installed shortly."
-msgstr ""
+msgstr "Οι ενημερώσεις θα εγκατασταθούν σύντομα."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:62
 #, python-format
 msgid "There is %d package to be updated."
 msgid_plural "There are %d packages to be updated."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Υπάρχει %d πακέτο προς ενημέρωση."
+msgstr[1] "Υπάρχουν %d πακέτα προς ενημέρωση."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:69
 msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
+"Δείτε <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
+"aria-expanded=\"false\" aria-controls=\"plan-wrapper\">λεπτομέρειες</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
 msgid ""
@@ -1872,6 +2145,9 @@ msgid ""
 "                                    automatically installed before \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 msgstr ""
+"Αυτές οι ενημερώσεις δεν πρόκειται να \n"
+"                                    εγκατασταθούν αυτόματα πριν από \n"
+"                                    ${toLocaleDateString(delayedTime)}."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:88
 msgid ""
@@ -1882,51 +2158,63 @@ msgid ""
 "                                    and choose the option <b>Update "
 "approval needed</b>."
 msgstr ""
+"Εάν δεν θέλετε να εγκατασταθούν καθόλου οι ενημερώσεις, μεταβείτε στις\n"
+"                                    <a href="
+"\"${ForisURLs.packageManagement.updateSettings}\">Ρυθμίσεις Ενημερώσεων</a> "
+"\n"
+"                                    και διαλέξτε την επιλογή <b>Απαιτείται "
+"έγκριση ενημέρωσης</b>."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:98
 #, python-format
 msgid "Approve Update From %s"
-msgstr ""
+msgstr "Έγκριση ενημέρωσης από %s"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:126
 msgid "There are no updates awaiting your approval."
-msgstr ""
+msgstr "Δεν υπάρχουν ενημερώσεις που να περιμένουν την έγκρισή σας."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:141
 msgid "Action"
-msgstr ""
+msgstr "Ενέργεια"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:143
 msgid "Current"
-msgstr ""
+msgstr "Τρέχον"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:144
 msgid "New"
-msgstr ""
+msgstr "Νέο"
 
 #: js/src/packageManagement/updates/UpdateManager.js:72
 msgid "Updates Check"
-msgstr ""
+msgstr "Έλεγχος Ενημερώσεων"
 
 #: js/src/packageManagement/updates/UpdateManager.js:83
 msgid "Available Updates"
-msgstr ""
+msgstr "Διαθέσιμες Ενημερώσεις"
 
 #: js/src/packageManagement/updates/UpdateManager.js:85
 msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
 msgstr ""
+"Εδώ μπορείτε να βρείτε και να εγκρίνετε διαθέσιμες ενημερώσεις για το Turris "
+"OS και άλλα στοιχεία."
 
 #: js/src/packageManagement/updates/UpdateManager.js:91
 msgid "You're up to date."
-msgstr ""
+msgstr "Είσαι ενημερωμένοι."
 
 #: js/src/packageManagement/updates/Updates.js:30
 msgid ""
 "In Turris OS, you decide when and how to get the latest updates\n"
 "                    to keep your device running smoothly and securely."
 msgstr ""
+"Στο Turris OS, εσείς αποφασίζετε πότε και πώς θα λαμβάνετε τις πιο πρόσφατες "
+"ενημερώσεις\n"
+"                    για να διατηρείτε τη συσκευή σας σε ομαλή και ασφαλή "
+"λειτουργία."
 
 #: js/src/packageManagement/updates/Updates.js:48
 msgid ""
@@ -1935,26 +2223,31 @@ msgid ""
 "href=\"${ForisURLs.packageManagement.updateSettings}\">delayed or \n"
 "            approval-requiring updates</a> to review them."
 msgstr ""
+"Οι αυτόματες ενημερώσεις είναι απενεργοποιημένες. Παρακαλώ ενεργοποιήστε τις "
+"\n"
+"            <a href=\"${ForisURLs.packageManagement.updateSettings}\""
+">καθυστερημένες ενημερώσεις ή \n"
+"            ενημερώσεις που απαιτούν έγκριση</a> για να τις ανασκοπήσετε."
 
 #: js/src/packageManagement/updates/Updates.js:63
 msgid "Check and install updates"
-msgstr ""
+msgstr "Έλεγχος και εγκατάσταση ενημερώσεων"
 
 #: js/src/packageManagement/updates/Updates.js:64
 msgid "Manually check for updates and install them immediately."
-msgstr ""
+msgstr "Χειροκίνητος έλεγχος για ενημερώσεις και άμεση εγκατάστασή τους."
 
 #: js/src/packageManagement/updates/Updates.js:69
 msgid "Check updates"
-msgstr ""
+msgstr "Έλεγχος ενημερώσεων"
 
 #: js/src/packageManagement/updates/Updates.js:71
 msgid "Manually check for updates and review them immediately."
-msgstr ""
+msgstr "Χειροκίνητος έλεγχος για ενημερώσεις και άμεση ανασκόπησή τους."
 
 #: js/src/packageManagement/updates/hooks.js:89
 msgid "Cannot fetch updater status."
-msgstr ""
+msgstr "Δεν είναι δυνατή η ανάκτηση της κατάστασης του προγράμματος ενημέρωσης."
 
 #: js/src/packageManagement/utils/DisabledUpdaterAlert.js:13
 msgid ""
@@ -1962,28 +2255,31 @@ msgid ""
 "href=\"${ForisURLs.packageManagement.updateSettings}\">automatic "
 "updates</a> to manage packages and languages."
 msgstr ""
+"Παρακαλώ ενεργοποιήστε τις <a href="
+"\"${ForisURLs.packageManagement.updateSettings}\">αυτόματες ενημερώσεις</a> "
+"για τη διαχείριση πακέτων και γλωσσών."
 
 #: js/src/password/ForisPasswordForm.js:55
 msgid "Set your password for this administration interface."
-msgstr ""
+msgstr "Ορίστε τον κωδικό πρόσβασής σας για αυτήν τη διεπαφή διαχείρισης."
 
 #: js/src/password/ForisPasswordForm.js:60
 msgid "Current password"
-msgstr ""
+msgstr "Τρέχων κωδικός πρόσβασης"
 
 #: js/src/password/ForisPasswordForm.js:71
 #: js/src/password/RootPasswordForm.js:67
 msgid "New password"
-msgstr ""
+msgstr "Νέος κωδικός πρόσβασης"
 
 #: js/src/password/ForisPasswordForm.js:84
 #: js/src/password/RootPasswordForm.js:79
 msgid "Confirm new password"
-msgstr ""
+msgstr "Επιβεβαίωση νέου κωδικού πρόσβασης"
 
 #: js/src/password/ForisPasswordForm.js:100
 msgid "Use the same password for advanced administration (root)"
-msgstr ""
+msgstr "Χρήση του ίδιου κωδικού πρόσβασης για την προηγμένη διαχείριση (root)"
 
 #: js/src/password/ForisPasswordForm.js:103
 msgid ""
@@ -1993,6 +2289,12 @@ msgid ""
 "configuration here, you will have the option to do so later. Until then, "
 "the root account will be blocked.)"
 msgstr ""
+"Ο ίδιος κωδικός πρόσβασης θα χρησιμοποιηθεί για την πρόσβαση σε αυτήν τη "
+"διεπαφή διαχείρισης, για τον χρήστη root στη διεπαφή ιστού LuCI και για την "
+"σύνδεση SSH. Χρησιμοποιήστε έναν ισχυρό κωδικό πρόσβασης! (Εάν επιλέξετε να "
+"μην ορίσετε τον κωδικό πρόσβασης για προηγμένη διαμόρφωση εδώ, θα έχετε την "
+"επιλογή να το κάνετε αργότερα. Μέχρι τότε, ο λογαριασμός root θα "
+"αποκλειστεί.)"
 
 #: js/src/password/Password.js:102
 msgid ""
@@ -2003,40 +2305,49 @@ msgid ""
 "                            forisPassword.list || rootPassword.list\n"
 "                        } list. Please choose a more secure password."
 msgstr ""
+"Ο κωδικός πρόσβασης που έχετε εισαγάγει δεν αποθηκεύτηκε. Έχει παραβιαστεί "
+"και εμφανίζεται ${\n"
+"                            forisPassword.count || rootPassword.count\n"
+"                        } φορές στην ${\n"
+"                            forisPassword.list || rootPassword.list\n"
+"                        } λίστα. Παρακαλώ επιλέξτε έναν πιο ασφαλή κωδικό "
+"πρόσβασης."
 
 #: js/src/password/Password.js:113
 msgid "Your password was set successfully."
-msgstr ""
+msgstr "Ο κωδικός πρόσβασής σας ορίστηκε με επιτυχία."
 
 #: js/src/password/Password.js:148
 msgid "Password Settings"
-msgstr ""
+msgstr "Ρυθμίσεις Κωδικού Πρόσβασης"
 
 #: js/src/password/Password.js:177
 msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
 msgstr ""
+"Εδώ μπορείτε να ορίσετε έναν κωδικό πρόσβασης για τη διεπαφή διαχείρισης. "
+"Βεβαιωθείτε ότι είναι ασφαλής κάνοντάς τον μακρύ και μοναδικό."
 
 #: js/src/password/Password.js:194 js/src/password/Password.js:198
 msgid "Passwords do not match."
-msgstr ""
+msgstr "Οι κωδικοί πρόσβασης δεν ταιριάζουν."
 
 #: js/src/password/Password.js:213
 msgid "Choose a password."
-msgstr ""
+msgstr "Επιλέξτε έναν κωδικό πρόσβασης."
 
 #: js/src/password/Password.js:216
 msgid "Password should have at least six symbols."
-msgstr ""
+msgstr "Ο κωδικός πρόσβασης πρέπει να έχει τουλάχιστον έξι σύμβολα."
 
 #: js/src/password/Password.js:219
 msgid "Password cannot have more than 128 symbols."
-msgstr ""
+msgstr "Ο κωδικός πρόσβασης δεν μπορεί να έχει πάνω από 128 σύμβολα."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
-msgstr ""
+msgstr "Κωδικός Πρόσβασης Προηγμένης Διαχείρισης"
 
 #: js/src/password/RootPasswordForm.js:55
 #, python-format
@@ -2048,10 +2359,16 @@ msgid ""
 "through the <a href=\"%s\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">LuCI web interface</a> or via SSH."
 msgstr ""
+"Για να αποκτήσετε πρόσβαση στις προηγμένες επιλογές διαμόρφωσης οι οποίες "
+"δεν είναι διαθέσιμες εδώ, πρέπει να\n"
+"ορίσετε τον κωδικό πρόσβασης του χρήστη root. Μπορείτε να διαχειριστείτε τις "
+"προηγμένες επιλογές διαμόρφωσης είτε \n"
+"μέσω της <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\""
+">διεπαφής ιστού LuCI</a> είτε μέσω SSH."
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
-msgstr ""
+msgstr "Περιοχή και Ώρα"
 
 #: js/src/regionAndTime/RegionAndTime.js:33
 msgid ""
@@ -2059,97 +2376,104 @@ msgid ""
 "device's time is delayed, the procedure of SSL certificate verification "
 "might not work correctly."
 msgstr ""
+"Είναι σημαντικό για τη συσκευή σας να έχει ρυθμισμένη την σωστή ώρα. Εάν η "
+"ώρα της συσκευής σας έχει καθυστέρηση, η διαδικασία επαλήθευσης "
+"πιστοποιητικού SSL ενδέχεται να μην λειτουργεί σωστά."
 
 #: js/src/regionAndTime/RegionAndTime.js:56
 msgid "Time should be in YYYY-MM-DD HH:MM:SS format."
-msgstr ""
+msgstr "Η ώρα πρέπει να είναι σε μορφή ΕΕΕΕ-ΜΜ-ΗΗ ΩΩ:ΛΛ:ΔΔ."
 
 #: js/src/regionAndTime/RegionForm.js:72
 msgid "Region Settings"
-msgstr ""
+msgstr "Ρυθμίσεις Περιοχής"
 
 #: js/src/regionAndTime/RegionForm.js:74
 msgid ""
 "Please select the timezone the router is being operated in. Correct "
 "setting is required to display the right time and for related functions."
 msgstr ""
+"Επιλέξτε τη ζώνη ώρας στην οποία λειτουργεί ο δρομολογητής. Απαιτείται σωστή "
+"ρύθμιση για την εμφάνιση της σωστής ώρας και για τις σχετικές λειτουργίες."
 
 #: js/src/regionAndTime/RegionForm.js:81
 msgid "Continent or ocean"
-msgstr ""
+msgstr "Ήπειρος ή ωκεανός"
 
 #: js/src/regionAndTime/RegionForm.js:96
 msgid "Country"
-msgstr ""
+msgstr "Χώρα"
 
 #: js/src/regionAndTime/RegionForm.js:108
 msgid "Timezone"
-msgstr ""
+msgstr "Ζώνη Ώρας"
 
 #: js/src/regionAndTime/TimeForm.js:28
 msgid "Via NTP"
-msgstr ""
+msgstr "Μέσω NTP"
 
 #: js/src/regionAndTime/TimeForm.js:29
 msgid "Manually"
-msgstr ""
+msgstr "Χειροκίνητα"
 
 #: js/src/regionAndTime/TimeForm.js:106
 msgid "Time Settings"
-msgstr ""
+msgstr "Ρυθμίσεις Ώρας"
 
 #: js/src/regionAndTime/TimeForm.js:108
 msgid ""
 "Time should be up-to-date otherwise DNS and other services might not work"
 " properly."
 msgstr ""
+"Η ώρα θα πρέπει να είναι ενημερωμένη, διαφορετικά το DNS και άλλες υπηρεσίες "
+"ενδέχεται να μην λειτουργούν σωστά."
 
 #: js/src/regionAndTime/TimeForm.js:113
 msgid "How to set time"
-msgstr ""
+msgstr "Πώς να ρυθμίσετε την ώρα"
 
 #: js/src/regionAndTime/TimeForm.js:179
 msgid "Hide NTP servers list"
-msgstr ""
+msgstr "Απόκρυψη λίστας διακομιστών NTP"
 
 #: js/src/regionAndTime/TimeForm.js:180
 msgid "Show NTP servers list"
-msgstr ""
+msgstr "Εμφάνιση λίστας διακομιστών NTP"
 
 #: js/src/regionAndTime/TimeForm.js:184
 msgid "NTP Servers"
-msgstr ""
+msgstr "Διακομιστές NTP"
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:29
 #, python-format
 msgid "Network restart after %d sec."
-msgstr ""
+msgstr "Επανεκκίνηση δικτύου μετά από %d δευτερόλεπτο/α."
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:34
 msgid "Network restarting"
-msgstr ""
+msgstr "Το δίκτυο επανεκκινείται"
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:37
 #: js/src/routerStateHandler/RebootHandler.js:34
 msgid "Reconnecting"
-msgstr ""
+msgstr "Γίνεται Επανασύνδεση"
 
 #: js/src/routerStateHandler/RebootHandler.js:28
 #, python-format
 msgid "Reboot after %d sec."
-msgstr ""
+msgstr "Επανεκκίνηση μετά από %d δευτερόλεπτο/α."
 
 #: js/src/routerStateHandler/RebootHandler.js:31
 msgid "Rebooting"
-msgstr ""
+msgstr "Γίνεται Επανεκκίνηση"
 
 #: js/src/utils/ErrorBoundary.js:34
 msgid "An Error Occurred - reForis | Turris"
-msgstr ""
+msgstr "Παρουσιάστηκε Σφάλμα - reForis | Turris"
 
 #: js/src/utils/ErrorBoundary.js:37
 msgid "Oops! Something went wrong:"
-msgstr ""
+msgstr "Ωχ! Κάτι πήγε στραβά:"
 
 #: js/src/utils/ErrorBoundary.js:43
 msgid ""
@@ -2158,94 +2482,106 @@ msgid ""
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
+"Περισσότερο λεπτομερείς πληροφορίες είναι διαθέσιμες στην κονσόλα του "
+"προγράμματος περιήγησής σας. Στα περισσότερα προγράμματα περιήγησης είναι "
+"προσβάσιμη αφού πατήσετε <kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></"
+"kbd> ή <kbd>F12</kbd>."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
 "Please report this error to our support team via e-mail: <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 msgstr ""
+"Παρακαλώ αναφέρετε αυτό το σφάλμα στην ομάδα υποστήριξής μας μέσω e-mail: <a "
+"href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 
 #: js/src/utils/SkipLink.js:23
 msgid "Skip to main content"
-msgstr ""
+msgstr "Μετάβαση στο κύριο περιεχόμενο"
 
 #: js/src/utils/useSessionTimeout.js:64
 msgid "Session extended successfully."
-msgstr ""
+msgstr "Η συνεδρία παρατάθηκε με επιτυχία."
 
 #: js/src/utils/useSessionTimeout.js:94
 msgid "Session Timeout"
-msgstr ""
+msgstr "Χρονικό Όριο Συνεδρίας"
 
 #: js/src/utils/useSessionTimeout.js:99
 msgid "Your session is about to expire. Do you want to continue?"
-msgstr ""
+msgstr "Η συνεδρία σας πρόκειται να λήξει. Θέλετε να συνεχίσετε;"
 
 #: js/src/utils/useSessionTimeout.js:104
 msgid ""
 "Please note that if you do not respond, you will be logged out "
 "automatically."
-msgstr ""
+msgstr "Λάβετε υπόψη ότι εάν δεν απαντήσετε, θα αποσυνδεθείτε αυτόματα."
 
 #: js/src/wan/MACForm.js:14
 msgid ""
 "Useful in cases, when a specific MAC address is required by your internet"
 " service provider."
 msgstr ""
+"Χρήσιμο σε περιπτώσεις που απαιτείται συγκεκριμένη διεύθυνση MAC από τον "
+"πάροχο υπηρεσιών διαδικτύου."
 
 #: js/src/wan/MACForm.js:17
 msgid "Colon is used as a separator, for example 00:11:22:33:44:55"
 msgstr ""
+"Η άνω και κάτω τελεία χρησιμοποιείται ως διαχωριστικό, για παράδειγμα "
+"00:11:22:33:44:55"
 
 #: js/src/wan/MACForm.js:20
 msgid "MAC address of the WAN interface."
-msgstr ""
+msgstr "Διεύθυνση MAC για την διεπαφή WAN."
 
 #: js/src/wan/MACForm.js:53
 msgid "MAC Settings"
-msgstr ""
+msgstr "Ρυθμίσεις MAC"
 
 #: js/src/wan/MACForm.js:55
 msgid "Custom MAC address"
-msgstr ""
+msgstr "Προσαρμοσμένη διεύθυνση MAC"
 
 #: js/src/wan/MACForm.js:66
 msgid "Current MAC address"
-msgstr ""
+msgstr "Τρέχουσα διεύθυνση MAC"
 
 #: js/src/wan/MACForm.js:72
 msgid "Set the new MAC address"
-msgstr ""
+msgstr "Ορισμός της νέας διεύθυνσης MAC"
 
 #: js/src/wan/VLANForm.js:14
 msgid ""
 "Useful in cases when a specific VLAN ID is required by your internet "
 "service provider."
 msgstr ""
+"Χρήσιμο σε περιπτώσεις που απαιτείται συγκεκριμένο αναγνωριστικό VLAN από "
+"τον πάροχο υπηρεσιών διαδικτύου σας."
 
 #: js/src/wan/VLANForm.js:17
 msgid "VLAN ID must be a number in the range between 1 and 4094."
-msgstr ""
+msgstr "Το αναγνωριστικό VLAN πρέπει να είναι ένας αριθμός μεταξύ 1 και 4094."
 
 #: js/src/wan/VLANForm.js:50
 msgid "VLAN Settings"
-msgstr ""
+msgstr "Ρυθμίσεις VLAN"
 
 #: js/src/wan/VLANForm.js:52
 msgid "Enable VLAN"
-msgstr ""
+msgstr "Ενεργοποίηση VLAN"
 
 #: js/src/wan/VLANForm.js:62
 msgid "Set the VLAN ID"
-msgstr ""
+msgstr "Ορισμός του αναγνωριστικού VLAN"
 
 #: js/src/wan/VLANForm.js:86
 msgid "Value must be greater than or equal to 1."
-msgstr ""
+msgstr "Η τιμή πρέπει να είναι μεγαλύτερη ή ίση με 1."
 
 #: js/src/wan/VLANForm.js:89
 msgid "Value must be less than or equal to 4094."
-msgstr ""
+msgstr "Η τιμή πρέπει να είναι μικρότερη ή ίση με 4094."
 
 #: js/src/wan/WAN.js:31
 msgid ""
@@ -2253,6 +2589,10 @@ msgid ""
 "your ISP (internet service provider). Usually, it can be left untouched "
 "if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
+"Εδώ μπορείτε να καθορίσετε τις ρυθμίσεις της θύρας WAN εάν σας ζητηθεί από "
+"τον πάροχο υπηρεσιών σας. Συνήθως, μπορεί να μείνει ανέγγιχτο εάν ο "
+"δρομολογητής σας είναι συνδεδεμένος στο διαδίκτυο μέσω καλωδιακού ή DSL "
+"μόντεμ."
 
 #: js/src/wan/WAN.js:54
 msgid ""
@@ -2260,20 +2600,25 @@ msgid ""
 "the connection. Remember to click the <b>Save</b> button after you have "
 "tested that it works."
 msgstr ""
+"Εδώ μπορείτε να εξετάσετε τις ρυθμίσεις σύνδεσής σας. Περιμένετε λίγο για να "
+"πραγματοποιηθεί η σύνδεση. Θυμηθείτε να κάνετε κλικ στο κουμπί "
+"<b>Αποθήκευση</b> αφού ελέγξετε ότι λειτουργεί."
 
 #: js/src/wan/WAN6Form.js:26
 msgid "DUID which will be provided to the DHCPv6 server."
-msgstr ""
+msgstr "DUID το οποίο θα παρέχεται στον διακομιστή DHCPv6."
 
 #: js/src/wan/WAN6Form.js:30
 msgid ""
 "IPv6 address and prefix length for WAN interface e.g. "
 "2001:db8:be13:37da::1/64"
 msgstr ""
+"Διεύθυνση IPv6 και μήκος προθέματος για διεπαφή WAN π.χ. 2001:db8:be13:37da::"
+"1/64"
 
 #: js/src/wan/WAN6Form.js:33
 msgid "Address range for local network, e.g. 2001:db8:be13:37da::/64"
-msgstr ""
+msgstr "Εύρος διευθύνσεων για τοπικό δίκτυο, π.χ. 2001:db8:be13:37da::/64"
 
 #: js/src/wan/WAN6Form.js:42
 msgid ""
@@ -2281,132 +2626,145 @@ msgid ""
 " address manually (e.g. when your WAN interface has a private address "
 "which is mapped to public IP)."
 msgstr ""
+"Για να χρησιμοποιήσετε το πρωτόκολλο 6to4, ίσως χρειαστεί να καθορίσετε τη "
+"δημόσια διεύθυνση IPv4 σας χειροκίνητα (π.χ. όταν η διεπαφή WAN σας έχει μια "
+"ιδιωτική διεύθυνση που αντιστοιχίζεται σε δημόσια IP)."
 
 #: js/src/wan/WAN6Form.js:49
 msgid ""
 "This address will be used as a endpoint of the tunnel on the provider's "
 "side."
 msgstr ""
+"Αυτή η διεύθυνση θα χρησιμοποιηθεί ως τελικό σημείο επικοινωνίας του tunnel "
+"από την πλευρά του παρόχου."
 
 #: js/src/wan/WAN6Form.js:52
 msgid "IPv6 addresses which will be routed to your network."
-msgstr ""
+msgstr "Διευθύνσεις IPv6 που θα δρομολογηθούν στο δίκτυό σας."
 
 #: js/src/wan/WAN6Form.js:53
 msgid "Maximum Transmission Unit in the tunnel (in bytes)."
-msgstr ""
+msgstr "Μέγιστη μονάδα μετάδοσης στο tunnel (σε byte)."
 
 #: js/src/wan/WAN6Form.js:56
 msgid ""
 "Some tunnel providers allow you to have public dynamic IPv4. Note that "
 "you need to fill in some extra fields to make it work."
 msgstr ""
+"Ορισμένοι πάροχοι tunnel σας επιτρέπουν να έχετε δημόσια δυναμική IPv4. "
+"Λάβετε υπόψη ότι πρέπει να συμπληρώσετε μερικά επιπλέον πεδία για να "
+"λειτουργήσει."
 
 #: js/src/wan/WAN6Form.js:60
 msgid "ID of your tunnel which was assigned to you by the provider."
-msgstr ""
+msgstr "Το αναγνωριστικό του tunnel σας που σας έχει εκχωρηθεί από τον πάροχο."
 
 #: js/src/wan/WAN6Form.js:63
 msgid ""
 "Username which will be used to provide credentials to your tunnel "
 "provider."
 msgstr ""
+"Όνομα χρήστη που θα χρησιμοποιηθεί για την παροχή διαπιστευτηρίων στον "
+"πάροχο του tunnel."
 
 #: js/src/wan/WAN6Form.js:66
 msgid "Key which will be used to provide credentials to your tunnel provider."
 msgstr ""
+"Κλειδί που θα χρησιμοποιηθεί για την παροχή διαπιστευτηρίων στον πάροχο του "
+"tunnel."
 
 #: js/src/wan/WAN6Form.js:74
 msgid "DHCPv6 (automatic configuration)"
-msgstr ""
+msgstr "DHCPv6 (αυτόματη διαμόρφωση)"
 
 #: js/src/wan/WAN6Form.js:76
 msgid "6to4 (public IPv4 address required)"
-msgstr ""
+msgstr "6to4 (απαιτείται δημόσια διεύθυνση IPv4)"
 
 #: js/src/wan/WAN6Form.js:77
 msgid "6in4 (public IPv4 address required)"
-msgstr ""
+msgstr "6in4 (απαιτείται δημόσια διεύθυνση IPv4)"
 
 #: js/src/wan/WAN6Form.js:78
 msgid "Disable IPv6"
-msgstr ""
+msgstr "Απενεργοποίηση IPv6"
 
 #: js/src/wan/WAN6Form.js:162
 msgid "IPv6 Settings"
-msgstr ""
+msgstr "Ρυθμίσεις IPv6"
 
 #: js/src/wan/WAN6Form.js:164
 msgid "IPv6 protocol"
-msgstr ""
+msgstr "Πρωτόκολλο IPv6"
 
 #: js/src/wan/WAN6Form.js:197
 msgid "Custom DUID"
-msgstr ""
+msgstr "Προσαρμοσμένο DUID"
 
 #: js/src/wan/WAN6Form.js:232
 msgid "Address"
-msgstr ""
+msgstr "Διεύθυνση"
 
 #: js/src/wan/WAN6Form.js:255
 msgid "Prefix"
-msgstr ""
+msgstr "Πρόθεμα"
 
 #: js/src/wan/WAN6Form.js:304
 msgid "Public IPv4"
-msgstr ""
+msgstr "Δημόσια IPv4"
 
 #: js/src/wan/WAN6Form.js:338
 msgid "Provider IPv4"
-msgstr ""
+msgstr "IPv4 Παρόχου"
 
 #: js/src/wan/WAN6Form.js:351
 msgid "Routed IPv6 prefix"
-msgstr ""
+msgstr "Δρομολογημένο πρόθεμα IPv6"
 
 #: js/src/wan/WAN6Form.js:363
 msgid "MTU"
-msgstr ""
+msgstr "MTU"
 
 #: js/src/wan/WAN6Form.js:375
 msgid "Dynamic IPv4 handling"
-msgstr ""
+msgstr "Χειρισμός Δυναμικής IPv4"
 
 #: js/src/wan/WAN6Form.js:419
 msgid "Tunnel ID"
-msgstr ""
+msgstr "Αναγνωριστικό Tunnel"
 
 #: js/src/wan/WAN6Form.js:449
 msgid "Key"
-msgstr ""
+msgstr "Κλειδί"
 
 #: js/src/wan/WAN6Form.js:527
 msgid "MTU has to be a number in the range of 1280-1480."
-msgstr ""
+msgstr "Το MTU πρέπει να είναι ένας αριθμός μεταξύ 1280 και 1480."
 
 #: js/src/wan/WAN6Form.js:529
 msgid "MTU has to be in the range of 1280-1480."
-msgstr ""
+msgstr "Το MTU πρέπει να είναι μεταξύ 1280 και 1480."
 
 #: js/src/wan/WANForm.js:27
 msgid "PPPoE (for DSL bridges, etc.)"
-msgstr ""
+msgstr "PPPoE (για γέφυρες DSL, κ.λπ.)"
 
 #: js/src/wan/WANForm.js:100
 msgid "IPv4 Settings"
-msgstr ""
+msgstr "Ρυθμίσεις IPv4"
 
 #: js/src/wan/WANForm.js:128
 msgid "PAP/CHAP username"
-msgstr ""
+msgstr "Όνομα χρήστη PAP/CHAP"
 
 #: js/src/wan/WANForm.js:139
 msgid "PAP/CHAP password"
-msgstr ""
+msgstr "Κωδικός πρόσβασης PAP/CHAP"
 
 #: js/src/wifi/WiFi.js:27
 msgid "Unfortunately, we were unable to detect any wireless cards in your router."
 msgstr ""
+"Δυστυχώς, δεν μπορέσαμε να εντοπίσουμε ασύρματες κάρτες στο δρομολογητή σας."
 
 #: js/src/wifi/WiFi.js:42
 msgid ""
@@ -2415,58 +2773,63 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
+"Εάν θέλετε να χρησιμοποιήσετε το δρομολογητή σας ως σημείο πρόσβασης Wi-Fi, "
+"ενεργοποιήστε το Wi-Fi εδώ και συμπληρώστε ένα SSID (το όνομα του σημείου "
+"πρόσβασης) και έναν αντίστοιχο κωδικό πρόσβασης. Στη συνέχεια μπορείτε να "
+"ρυθμίσετε τις φορητές συσκευές σας χρησιμοποιώντας τον κωδικό QR που είναι "
+"διαθέσιμος μέσω της φόρμας."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
-msgstr ""
+msgstr "Δεν είναι δυνατή η προσθήκη νέου προωθητή DNS."
 
 #: reforis/foris_controller_api/modules/dns.py:52
 msgid "Can't set DNS forwarder."
-msgstr ""
+msgstr "Δεν είναι δυνατός ο ορισμός του προωθητή DNS."
 
 #: reforis/foris_controller_api/modules/dns.py:57
 msgid "Can't delete DNS forwarder."
-msgstr ""
+msgstr "Δεν είναι δυνατή η διαγραφή του προωθητή DNS."
 
 #: reforis/foris_controller_api/modules/lan.py:15
 msgid "IP address does not fit the LAN network."
-msgstr ""
+msgstr "Η διεύθυνση IP δεν ταιριάζει στο δίκτυο LAN."
 
 #: reforis/foris_controller_api/modules/lan.py:16
 msgid "DHCP is disabled for LAN."
-msgstr ""
+msgstr "Το DHCP είναι απενεργοποιημένο για το LAN."
 
 #: reforis/foris_controller_api/modules/lan.py:17
 msgid "IP address is already used by another static lease."
-msgstr ""
+msgstr "Η διεύθυνση IP χρησιμοποιείται ήδη από άλλο στατικό lease."
 
 #: reforis/foris_controller_api/modules/lan.py:18
 msgid "MAC address is already used by another static lease."
-msgstr ""
+msgstr "Η διεύθυνση MAC χρησιμοποιείται ήδη από άλλο στατικό lease."
 
 #: reforis/foris_controller_api/modules/lan.py:19
 msgid "No static lease has this MAC address assigned."
-msgstr ""
+msgstr "Aυτή η διεύθυνση MAC δεν έχει εκχωρηθεί σε κανένα στατικό lease."
 
 #: reforis/foris_controller_api/modules/lan.py:20
 msgid "Hostname is already used by another static lease."
-msgstr ""
+msgstr "Το hostname χρησιμοποιείται ήδη από άλλο στατικό lease."
 
 #: reforis/foris_controller_api/modules/lan.py:85
 msgid "Can't create DHCP lease."
-msgstr ""
+msgstr "Δεν είναι δυνατή η δημιουργία του DHCP lease."
 
 #: reforis/foris_controller_api/modules/lan.py:100
 msgid "Can't update DHCP lease."
-msgstr ""
+msgstr "Δεν είναι δυνατή η ενημέρωση του DHCP lease."
 
 #: reforis/foris_controller_api/modules/lan.py:111
 msgid "Can't delete DHCP lease."
-msgstr ""
+msgstr "Δεν είναι δυνατή η διαγραφή του DHCP lease."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
-msgstr ""
+msgstr "Λανθασμένος τρέχων κωδικός πρόσβασης."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:121
 msgid ""
@@ -2475,68 +2838,76 @@ msgid ""
 "Please note it would be sent to your e-mail address only if you set\n"
 "the importance level to \"Reboot or attention is required\" or higher."
 msgstr ""
+"Αυτή είναι μια δοκιμαστική ειδοποίηση.\n"
+"\n"
+"Παρακαλώ λάβετε υπόψη ότι θα σταλεί στη διεύθυνση e-mail σας μόνο εάν "
+"ορίσετε\n"
+"το επίπεδο βαρύτητας σε \"Απαιτείται επανεκκίνηση ή προσοχή\" ή υψηλότερο."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:133
 msgid "The testing message has been sent, please check your inbox."
-msgstr ""
+msgstr "Το δοκιμαστικό μήνυμα έχει σταλεί, παρακαλώ ελέγξτε τα εισερχόμενά σας."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:136
 msgid ""
 "Sending of the testing message failed, your configuration is possibly "
 "wrong."
 msgstr ""
+"Η αποστολή του δοκιμαστικού μηνύματος απέτυχε, η διαμόρφωσή σας είναι "
+"πιθανόν εσφαλμένη."
 
 #: reforis/foris_controller_api/modules/updater.py:66
 msgid "Cannot change automatic restart settings."
-msgstr ""
+msgstr "Δεν είναι δυνατή η αλλαγή των ρυθμίσεων αυτόματης επανεκκίνησης."
 
 #: reforis/foris_controller_api/modules/updater.py:77
 msgid "Cannot update approvals settings."
-msgstr ""
+msgstr "Δεν είναι δυνατή η ενημέρωση των ρυθμίσεων εγκρίσεων."
 
 #: reforis/foris_controller_api/modules/updater.py:170
 msgid "Cannot start updater"
-msgstr ""
+msgstr "Δεν είναι δυνατή η εκκίνηση του προγράμματος ενημέρωσης"
 
 #: reforis/foris_controller_api/modules/updater.py:199
 msgid "You can't set it with disabled automatic updates."
 msgstr ""
+"Δεν μπορείτε να το ρυθμίσετε με απενεργοποιημένες τις αυτόματες ενημερώσεις."
 
 #: reforis/templates/guide.html:10
 msgid "Guide"
-msgstr ""
+msgstr "Οδηγός"
 
 #: reforis/templates/errors/400.html:4 reforis/templates/errors/400.html:8
 msgid "400 - Bad Request"
-msgstr ""
+msgstr "400 - Bad Request"
 
 #: reforis/templates/errors/400.html:9 reforis/templates/errors/500.html:9
 msgid "Error:"
-msgstr ""
+msgstr "Σφάλμα:"
 
 #: reforis/templates/errors/400.html:12 reforis/templates/errors/500.html:12
 msgid "Extra:"
-msgstr ""
+msgstr "Επιπλέον:"
 
 #: reforis/templates/errors/400.html:16 reforis/templates/errors/500.html:16
 msgid "Trace:"
-msgstr ""
+msgstr "Ίχνος:"
 
 #: reforis/templates/errors/404.html:4
 msgid "404 - Page not found"
-msgstr ""
+msgstr "404 - Page not found"
 
 #: reforis/templates/errors/404.html:9
 msgid "Page not found :("
-msgstr ""
+msgstr "Η σελίδα δεν βρέθηκε :("
 
 #: reforis/templates/errors/500.html:4
 msgid "Server error"
-msgstr ""
+msgstr "Σφάλμα διακομιστή"
 
 #: reforis/templates/errors/500.html:8
 msgid "500 - Server error"
-msgstr ""
+msgstr "500 - Server error"
 
 #~ msgid ""
 #~ "Here you can find some information "
@@ -3102,4 +3473,3 @@ msgstr ""
 
 #~ msgid "There are no clients added yet."
 #~ msgstr ""
-
