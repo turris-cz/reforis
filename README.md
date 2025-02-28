@@ -102,6 +102,15 @@ For more information about the development of plugins, see [reForis
 documentation](#documentation) and [`reforis_diagnostics` demonstration
 plugin](https://gitlab.nic.cz/turris/reforis/reforis-diagnostics).
 
+## Changelog
+
+For the latest changes, see the [CHANGELOG.md](CHANGELOG.md).
+
+## License
+
+reForis is licensed under GPL-3.0.\
+For more information, see [LICENSE](LICENSE).
+
 ## Contributing
 
 All contributions are welcome!\
