@@ -8,6 +8,28 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.3.0] - 2025-02-28
+
+### Added
+
+-   Added & updated Weblate translations
+-   Added Port Forwarding page with basic functionality
+-   Added peer dependency for @tanstack/react-table
+-   Added Changelog and License sections to README.md
+
+### Changed
+
+-   WiFi API update
+-   Refactored DismissAllButton
+-   Updated Foris JS library to version 6.6.1
+-   Updated several dependencies in package.json
+-   Updated Node.js setup script to use version 22.x
+-   Refactored DHCP clients list with static leases
+
+### Removed
+
+-   Removed pkg_resources and replaced with importlib
+
 ## [3.2.1] - 2024-12-05
 
 ### Changed
@@ -646,7 +668,8 @@ and this project adheres to
 
 -   Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.2.1...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.3.0...master
+[3.3.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.2.1...v3.3.0
 [3.2.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.2.0...v3.2.1
 [3.2.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.1.1...v3.2.0
 [3.1.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.1.0...v3.1.1
