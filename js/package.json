@@ -13,6 +13,7 @@
         "extends": "eslint-config-reforis"
     },
     "peerDependencies": {
+        "@tanstack/match-sorter-utils": "^8.19.4",
         "@tanstack/react-table": "^8.20.5"
     },
     "dependencies": {
