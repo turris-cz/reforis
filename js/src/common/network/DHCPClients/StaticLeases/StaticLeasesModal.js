@@ -1,11 +1,11 @@
 /*
- * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
-import React from "react";
+import React, { useCallback } from "react";
 
 import {
     API_STATE,
@@ -17,19 +17,16 @@ import {
 } from "foris";
 import PropTypes from "prop-types";
 
-import StaticLeasesModalForm from "./StaticLeasesModalForm";
+import { useStaticLeaseModalForm } from "common/network/DHCPClients/hooks";
+import StaticLeasesModalForm from "common/network/DHCPClients/StaticLeases/StaticLeasesModalForm";
 
 StaticLeaseModal.propTypes = {
     shown: PropTypes.bool,
     setShown: PropTypes.func,
     title: PropTypes.string,
     lease: PropTypes.object,
-    staticLeases: PropTypes.array,
-    formState: PropTypes.object,
-    setFormValue: PropTypes.func,
-    postState: PropTypes.object,
-    putState: PropTypes.object,
-    saveLease: PropTypes.func,
+    leases: PropTypes.array,
+    getLeases: PropTypes.func,
 };
 
 export default function StaticLeaseModal({
@@ -37,24 +34,33 @@ export default function StaticLeaseModal({
     setShown,
     title,
     lease,
-    staticLeases,
-    formState,
-    setFormValue,
-    postState,
-    putState,
-    saveLease,
+    leases,
+    getLeases,
 }) {
-    const saveBtnDisabled =
+    const closeLeaseModalCallback = useCallback(() => {
+        getLeases();
+        setShown(false);
+    }, [setShown, getLeases]);
+
+    const [formState, setFormValue, postState, putState, saveLease] =
+        useStaticLeaseModalForm(lease, closeLeaseModalCallback, setShown);
+
+    const isLoading =
+        postState.state === API_STATE.SENDING ||
+        putState.state === API_STATE.SENDING;
+
+    const isSaveButtonDisabled =
         postState.state === API_STATE.SENDING ||
         putState.state === API_STATE.SENDING ||
         !!formState.errors;
+
     return (
         <Modal scrollable shown={shown} setShown={setShown}>
             <ModalHeader setShown={setShown} title={title} />
             <ModalBody>
                 <StaticLeasesModalForm
                     lease={lease}
-                    staticLeases={staticLeases}
+                    leases={leases}
                     formState={formState}
                     setFormValue={setFormValue}
                     postState={postState}
@@ -68,7 +74,11 @@ export default function StaticLeaseModal({
                 >
                     {_("Cancel")}
                 </Button>
-                <Button onClick={saveLease} disabled={saveBtnDisabled}>
+                <Button
+                    onClick={saveLease}
+                    loading={isLoading}
+                    disabled={isSaveButtonDisabled}
+                >
                     {_("Save")}
                 </Button>
             </ModalFooter>

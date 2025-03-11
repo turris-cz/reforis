@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -14,14 +14,14 @@ StaticLeasesModalForm.propTypes = {
     formState: PropTypes.object,
     setFormValue: PropTypes.func,
     postState: PropTypes.object,
-    staticLeases: PropTypes.array,
+    leases: PropTypes.array,
 };
 
 export default function StaticLeasesModalForm({
     formState,
     setFormValue,
     postState,
-    staticLeases,
+    leases,
 }) {
     const [hostnameErrorFeedback, setHostnameErrorFeedback] = useState(false);
     const [ipErrorFeedback, setIpErrorFeedback] = useState(false);
@@ -49,10 +49,9 @@ export default function StaticLeasesModalForm({
                     id="hostnames"
                     aria-label={_("List of available hostnames")}
                 >
-                    {staticLeases.map((lease, index) => (
+                    {leases.map((lease) => (
                         <option
-                            // eslint-disable-next-line
-                            key={index.toString()}
+                            key={lease.mac}
                             value={lease.hostname}
                             label={lease.hostname}
                         />
@@ -74,14 +73,13 @@ export default function StaticLeasesModalForm({
                     id="addresses"
                     aria-label={_("List of available IPv4 addresses")}
                 >
-                    {staticLeases.map((client, index) => (
+                    {leases.map((lease) => (
                         <option
-                            // eslint-disable-next-line
-                            key={index.toString()}
-                            value={client.ip}
-                            label={client.hostname}
+                            key={lease.mac}
+                            value={lease.ip}
+                            label={lease.hostname}
                         >
-                            {client.hostname}
+                            {lease.hostname}
                         </option>
                     ))}
                 </datalist>
@@ -101,10 +99,9 @@ export default function StaticLeasesModalForm({
                     id="macs"
                     aria-label={_("List of available MAC addresses")}
                 >
-                    {staticLeases.map((lease, index) => (
+                    {leases.map((lease) => (
                         <option
-                            // eslint-disable-next-line
-                            key={index.toString()}
+                            key={lease.mac}
                             value={lease.mac}
                             label={lease.hostname}
                         >

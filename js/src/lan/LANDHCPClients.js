@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,7 +7,7 @@
 
 import React from "react";
 
-import { WebSockets, Portal } from "foris";
+import { Portal } from "foris";
 import PropTypes from "prop-types";
 
 import DHCP6Clients from "common/network/DHCP6Clients";
@@ -26,10 +26,9 @@ LANDHCPClients.propTypes = {
             }).isRequired,
         }),
     }),
-    ws: PropTypes.instanceOf(WebSockets),
 };
 
-export default function LANDHCPClients({ formData, ws }) {
+export default function LANDHCPClients({ formData }) {
     if (
         formData.mode !== LAN_MODES.managed ||
         !formData.mode_managed.dhcp.enabled
@@ -40,7 +39,6 @@ export default function LANDHCPClients({ formData, ws }) {
         <Portal containerId="dhcp-clients-container">
             <DHCPClients
                 clients={formData.mode_managed.dhcp.clients}
-                ws={ws}
                 withStaticLeases
             />
             <DHCP6Clients
