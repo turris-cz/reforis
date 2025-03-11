@@ -11,135 +11,243 @@ exports[`<DHCP6Clients/> Test with snapshot. 1`] = `
     <p>
       This list contains all devices that are connected to the network through wired or wireless connections using IPv6.
     </p>
-    <div
-      class="table-responsive"
-    >
-      <table
-        class="table table-hover text-nowrap"
+    <div>
+      <div
+        class="d-flex justify-content-between align-items-center"
       >
-        <thead
-          class="thead-light"
+        <div
+          class="mb-3"
         >
-          <tr
-            role="row"
+          <div
+            class="input-group"
           >
-            <th
-              colspan="1"
-            >
-              <button
-                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                title="Sort ascending"
-                type="button"
-              >
-                Hostname
-              </button>
-            </th>
-            <th
-              colspan="1"
-            >
-              <button
-                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                title="Sort ascending"
-                type="button"
-              >
-                IPv6 Address
-              </button>
-            </th>
-            <th
-              colspan="1"
-            >
-              <button
-                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                title="Sort ascending"
-                type="button"
-              >
-                DUID
-              </button>
-            </th>
-            <th
-              colspan="1"
-            >
-              <button
-                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                title="Sort ascending"
-                type="button"
-              >
-                Expires
-              </button>
-            </th>
-            <th
-              class="d-flex justify-content-center"
-              colspan="1"
-            >
-              <button
-                class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                title="Sort descending"
-                type="button"
-              >
-                Active
-              </button>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr
-            class="align-middle"
+            <input
+              class="form-control me-3"
+              id="1"
+              placeholder="Search…"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="dropdown mb-3"
+        >
+          <button
+            class="btn btn btn-outline-secondary dropdown-toggle d-inline-flex justify-content-center align-items-center"
+            data-bs-toggle="dropdown"
+            type="button"
           >
-            <td>
-              first
-            </td>
-            <td>
-              2002:1487:fede:6110
-            </td>
-            <td>
-              00049367d8183c4e45a4b834f5a92f95d3b9
-            </td>
-            <td>
-              10/12/2018 1:16 PM
-            </td>
-            <td
-              class="text-center"
-            >
-              <i
-                class="fa"
-              />
-            </td>
-          </tr>
-          <tr
-            class="align-middle"
+            <span>
+              Columns
+            </span>
+          </button>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
           >
-            <td>
-              second
-            </td>
-            <td>
-              2002:1487:fefd:6130
-            </td>
-            <td>
-              00049367d8183c4c43a4b834f5a92f95d3b9
-            </td>
-            <td>
-              10/14/2018 8:49 PM
-            </td>
-            <td
-              class="text-center"
+            <li>
+              <button
+                class="dropdown-item d-flex align-items-center"
+                style="padding-left: 2rem;"
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+                <span>
+                  Hostname
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="dropdown-item d-flex align-items-center"
+                style="padding-left: 2rem;"
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+                <span>
+                  IPv6 Address
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="dropdown-item d-flex align-items-center"
+                style="padding-left: 2rem;"
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+                <span>
+                  DUID
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="dropdown-item d-flex align-items-center"
+                style="padding-left: 2rem;"
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+                <span>
+                  Expires
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="dropdown-item d-flex align-items-center"
+                style="padding-left: 2rem;"
+                type="button"
+              >
+                <i
+                  class="fa"
+                />
+                <span>
+                  Active
+                </span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="table-responsive"
+      >
+        <table
+          class="table table-hover text-nowrap"
+        >
+          <thead
+            class="table-light"
+          >
+            <tr
+              role="row"
             >
-              <i
-                class="fa"
-              />
-            </td>
-          </tr>
-        </tbody>
-      </table>
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  Hostname
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  IPv6 Address
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  DUID
+                </button>
+              </th>
+              <th
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort ascending"
+                  type="button"
+                >
+                  Expires
+                </button>
+              </th>
+              <th
+                class="d-flex justify-content-center"
+                colspan="1"
+              >
+                <button
+                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                  title="Sort descending"
+                  type="button"
+                >
+                  Active
+                </button>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="align-middle"
+            >
+              <td>
+                first
+              </td>
+              <td>
+                2002:1487:fede:6110
+              </td>
+              <td>
+                00049367d8183c4e45a4b834f5a92f95d3b9
+              </td>
+              <td>
+                10/12/2018 1:16 PM
+              </td>
+              <td
+                class="text-center"
+              >
+                <i
+                  class="fa"
+                />
+              </td>
+            </tr>
+            <tr
+              class="align-middle"
+            >
+              <td>
+                second
+              </td>
+              <td>
+                2002:1487:fefd:6130
+              </td>
+              <td>
+                00049367d8183c4c43a4b834f5a92f95d3b9
+              </td>
+              <td>
+                10/14/2018 8:49 PM
+              </td>
+              <td
+                class="text-center"
+              >
+                <i
+                  class="fa"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </div>

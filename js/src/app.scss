@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2022-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (c) 2022-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -58,9 +58,18 @@ $web-font-path: false;
 [data-bs-theme="dark"] {
     --bs-tertiary-bg-rgb: 43, 48, 53 !important;
     --bs-border-color: #4b4b4b !important;
-    // Fix tables text color in dark mode
+
+    // Fix tables in dark mode
     .table > :not(caption) > * > * {
         color: var(--bs-body-color) !important;
+    }
+
+    thead.table-light > :not(caption) > * {
+        background-color: var(--bs-gray-800) !important;
+    }
+
+    table.table thead.table-light {
+        border-color: var(--bs-border-color) !important;
     }
 }
 

@@ -13,6 +13,7 @@
         "extends": "eslint-config-reforis"
     },
     "peerDependencies": {
+        "@tanstack/match-sorter-utils": "^8.19.4",
         "@tanstack/react-table": "^8.20.5"
     },
     "dependencies": {
@@ -23,7 +24,7 @@
         "axios": "^0.21.1",
         "bootstrap": "^5.3.3",
         "bootswatch": "^5.3.3",
-        "foris": "^6.6.2",
+        "foris": "^6.7.0",
         "immutability-helper": "^3.1.1",
         "ipaddr": "npm:ipaddr.js@^1.9.1",
         "moment": "^2.30.1",

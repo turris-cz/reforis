@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -23,6 +23,7 @@ export default function FactoryReset() {
             <div className="text-end">
                 <ActionButtonWithModal
                     actionTrigger={TriggerButton}
+                    actionMethod="PUT"
                     actionUrl={API_MODULE_URLs.schnapps}
                     modalTitle={_("Warning!")}
                     modalMessage={_(
