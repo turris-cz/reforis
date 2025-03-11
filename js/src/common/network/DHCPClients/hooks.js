@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -10,7 +10,6 @@ import { useEffect, useState } from "react";
 import {
     API_STATE,
     useAPIGet,
-    useWSForisModule,
     ALERT_TYPES,
     useAlert,
     useAPIPost,
@@ -36,32 +35,29 @@ function sortLeasesByStaticPriority(leases) {
     });
 }
 
-export default function useStaticLeases() {
-    const [staticLeases, setStaticLeases] = useState([]);
-
-    const [staticLeasesState, getStaticLeases] = useAPIGet(API_URLs.lanClients);
-
-    useEffect(() => {
-        getStaticLeases();
-    }, [getStaticLeases]);
+export default function useDHCPLeases() {
+    const [leases, setLeases] = useState([]);
+    const [getLeasesResponse, getLeases] = useAPIGet(API_URLs.lanClients);
 
     useEffect(() => {
-        if (staticLeasesState.state === API_STATE.SUCCESS) {
-            setStaticLeases(
-                staticLeasesState.data.mode_managed.dhcp.clients || []
-            );
+        getLeases();
+    }, [getLeases]);
+
+    useEffect(() => {
+        if (getLeasesResponse.state === API_STATE.SUCCESS) {
+            setLeases(getLeasesResponse.data.mode_managed.dhcp.clients || []);
         }
-    }, [staticLeasesState]);
+    }, [getLeasesResponse]);
 
     return {
-        staticLeases: sortLeasesByStaticPriority(staticLeases),
-        staticLeasesState,
-        getStaticLeases,
-        setStaticLeases,
+        getLeases,
+        setLeases,
+        leases: sortLeasesByStaticPriority(leases),
+        getLeasesResponseState: getLeasesResponse.state,
     };
 }
 
-export function useStaticLeaseDelete(leaseToBeDeleted) {
+export function useAddStaticLease(leaseToBeDeleted, getLeases) {
     const [setAlert] = useAlert();
     const [deleteStaticLeaseResponse, deleteStaticLease] = useAPIDelete(
         leaseToBeDeleted
@@ -75,77 +71,13 @@ export function useStaticLeaseDelete(leaseToBeDeleted) {
                 _("Static lease deleted successfully."),
                 ALERT_TYPES.SUCCESS
             );
+            getLeases();
         } else if (deleteStaticLeaseResponse.state === API_STATE.ERROR) {
             setAlert(_("Can't delete static lease."), ALERT_TYPES.ERROR);
         }
-    }, [deleteStaticLeaseResponse, setAlert]);
+    }, [deleteStaticLeaseResponse, getLeases, setAlert]);
 
-    return { deleteStaticLease };
-}
-
-export function useStaticLeaseWS(ws, setStaticLeases) {
-    function useStaticLeaseWSAction(action, func) {
-        const [wsLeaseData] = useWSForisModule(ws, "lan", action);
-        useEffect(() => {
-            if (wsLeaseData) {
-                setStaticLeases((leases) => func(leases, wsLeaseData));
-            }
-        }, [func, wsLeaseData]);
-    }
-
-    useStaticLeaseWSAction("set_dhcp_client", addStaticLease);
-    useStaticLeaseWSAction("update_dhcp_client", setStaticLease);
-    useStaticLeaseWSAction("delete_dhcp_client", removeStaticLease);
-}
-
-function addStaticLease(leases, lease) {
-    const leaseIndex = leases.findIndex(
-        (staticLease) => staticLease.mac === lease.mac
-    );
-    // If the lease is already in the list, update it
-    if (leaseIndex !== -1) {
-        return update(leases, {
-            [leaseIndex]: { $merge: { static: true } },
-        });
-    }
-
-    return update(leases, { $push: [{ static: true, ...lease }] });
-}
-
-function setStaticLease(leases, lease) {
-    if (!leases || leases.length === 0) {
-        return [];
-    }
-    const leaseIndex = leases.findIndex(
-        (staticLease) => staticLease.mac === lease.mac
-    );
-    if (leaseIndex === -1) {
-        return leases;
-    }
-    return update(leases, {
-        [leaseIndex]: { $merge: { static: true, ...lease } },
-    });
-}
-
-function removeStaticLease(leases, lease) {
-    if (!leases || leases.length === 0) {
-        return [];
-    }
-    const leaseIndex = leases.findIndex(
-        (staticLease) => staticLease.mac === lease.mac
-    );
-    if (leaseIndex === -1) {
-        return leases;
-    }
-    const leaseToDelete = leases[leaseIndex];
-    if (!leaseToDelete.expires) {
-        // Remove the lease if it doesn't have an expiration date
-        return update(leases, { $splice: [[leaseIndex, 1]] });
-    }
-    // Mark the lease as non-static if it has an expiration date
-    return update(leases, {
-        [leaseIndex]: { $merge: { static: false } },
-    });
+    return deleteStaticLease;
 }
 
 const EMPTY_LEASE = {
@@ -159,13 +91,13 @@ export function useStaticLeaseModalForm(
     saveStaticLeaseCallback,
     setLeaseModalShown
 ) {
+    const [setAlert, dismissAlert] = useAlert();
     const [formState, setFormValue, initForm] = useForm(validator);
+
     const [postState, post] = useAPIPost(API_URLs.lanClients);
     const [putState, put] = useAPIPut(
         `${API_URLs.lanClients}/${(lease || {}).hostname}`
     );
-
-    const [setAlert, dismissAlert] = useAlert();
 
     useEffect(() => {
         if (postState.state === API_STATE.SUCCESS) {

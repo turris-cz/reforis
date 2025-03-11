@@ -1,77 +1,39 @@
 /*
- * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
  */
 
-import React, { useRef } from "react";
+import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Button, RichTable, ThreeDotsMenu } from "foris";
+import { Button, RichTable, SpinnerElement, ThreeDotsMenu } from "foris";
 import moment from "moment";
 import PropTypes from "prop-types";
 
-import { useStaticLeaseWS } from "common/network/DHCPClients/hooks";
-
-ActiveIcon.propTypes = {
-    isActive: PropTypes.bool,
-};
-
-function ActiveIcon({ isActive }) {
-    return (
-        <FontAwesomeIcon
-            icon={`fa-solid ${isActive ? "fa-check" : "fa-times"}`}
-            className={isActive ? "text-success" : "text-danger"}
-            title={isActive ? _("Device is active") : _("Device is inactive")}
-        />
-    );
-}
-
 StaticLeasesTable.propTypes = {
-    ws: PropTypes.object,
-    staticLeases: PropTypes.arrayOf(PropTypes.object),
+    leases: PropTypes.arrayOf(PropTypes.object),
     onEditLease: PropTypes.func,
     onDeleteLease: PropTypes.func,
+    disabled: PropTypes.bool,
+    loading: PropTypes.bool,
+    leaseToBeDeleted: PropTypes.object,
 };
 
 export default function StaticLeasesTable({
-    ws,
-    staticLeases,
+    leases,
     onEditLease,
     onDeleteLease,
+    disabled,
+    loading,
+    leaseToBeDeleted,
 }) {
-    const richTableRef = useRef();
-
-    const updateTableData = (newData) => {
-        if (richTableRef.current) {
-            richTableRef.current.setTableData(newData);
-        }
-    };
-
-    useStaticLeaseWS(ws, updateTableData);
-
-    if (!staticLeases || staticLeases.length === 0) {
+    if (!leases || leases.length === 0) {
         return (
             <p className="text-muted text-center mb-1">
                 {_("No clients found.")}
             </p>
-        );
-    }
-
-    function renderActiveIcon({ getValue }) {
-        const isActive = getValue();
-        return <ActiveIcon isActive={isActive} />;
-    }
-
-    function renderActions({ row }) {
-        const client = row.original;
-        return (
-            <StaticLeaseActions
-                client={client}
-                onEditLease={onEditLease}
-                onDeleteLease={onDeleteLease}
-            />
         );
     }
 
@@ -87,6 +49,24 @@ export default function StaticLeasesTable({
                     .locale(ForisTranslations.locale)
                     .format("l LT")}
             </span>
+        );
+    }
+
+    function renderActiveIcon({ getValue }) {
+        const isActive = getValue();
+        return <ActiveIcon isActive={isActive} />;
+    }
+
+    function renderActions({ row }) {
+        const client = row.original;
+        return (
+            <StaticLeaseActions
+                client={client}
+                onEditLease={onEditLease}
+                onDeleteLease={onDeleteLease}
+                loading={loading}
+                leaseToBeDeleted={leaseToBeDeleted}
+            />
         );
     }
 
@@ -126,10 +106,10 @@ export default function StaticLeasesTable({
 
     return (
         <RichTable
-            ref={richTableRef}
+            data={leases}
             columns={columns}
-            data={staticLeases}
             withPagination
+            disabled={disabled}
         />
     );
 }
@@ -138,9 +118,17 @@ StaticLeaseActions.propTypes = {
     client: PropTypes.object,
     onEditLease: PropTypes.func,
     onDeleteLease: PropTypes.func,
+    loading: PropTypes.bool,
+    leaseToBeDeleted: PropTypes.object,
 };
 
-function StaticLeaseActions({ client, onEditLease, onDeleteLease }) {
+function StaticLeaseActions({
+    client,
+    onEditLease,
+    onDeleteLease,
+    loading: isLoading,
+    leaseToBeDeleted,
+}) {
     const handleEditStaticLease = () => {
         onEditLease(client);
     };
@@ -164,32 +152,52 @@ function StaticLeaseActions({ client, onEditLease, onDeleteLease }) {
         },
     ];
 
-    return client.static ? (
-        <ThreeDotsMenu data-testid="three-dots-menu">
-            {threeDotsMenuItems.map((item) => (
-                <button
-                    type="button"
-                    key={item.id}
-                    onClick={item.onClick}
-                    className="dropdown-item"
-                    data-testid={`three-dots-menu-${item.id}`}
-                >
-                    <FontAwesomeIcon
-                        icon={item.icon}
-                        className="me-1"
-                        width="1rem"
-                        size="sm"
-                    />
-                    {item.text}
-                </button>
-            ))}
-        </ThreeDotsMenu>
-    ) : (
+    if (isLoading && client.mac === leaseToBeDeleted?.mac) {
+        return <SpinnerElement small className="text-primary" />;
+    }
+    if (client.static) {
+        return (
+            <ThreeDotsMenu data-testid="three-dots-menu">
+                {threeDotsMenuItems.map((item) => (
+                    <button
+                        type="button"
+                        key={item.id}
+                        onClick={item.onClick}
+                        className="dropdown-item"
+                        data-testid={`three-dots-menu-${item.id}`}
+                    >
+                        <FontAwesomeIcon
+                            icon={item.icon}
+                            className="me-1"
+                            width="1rem"
+                            size="sm"
+                        />
+                        {item.text}
+                    </button>
+                ))}
+            </ThreeDotsMenu>
+        );
+    }
+    return (
         <Button
             className="btn btn-sm btn-outline-success"
             onClick={handleEditStaticLease}
         >
             {_("Set Static")}
         </Button>
+    );
+}
+
+ActiveIcon.propTypes = {
+    isActive: PropTypes.bool,
+};
+
+function ActiveIcon({ isActive }) {
+    return (
+        <FontAwesomeIcon
+            icon={`fa-solid ${isActive ? "fa-check" : "fa-times"}`}
+            className={isActive ? "text-success" : "text-danger"}
+            title={isActive ? _("Device is active") : _("Device is inactive")}
+        />
     );
 }

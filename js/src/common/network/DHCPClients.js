@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -7,7 +7,7 @@
 
 import React from "react";
 
-import { formFieldsSize, WebSockets } from "foris";
+import { formFieldsSize } from "foris";
 import PropTypes from "prop-types";
 
 import DHCPClientsTable from "common/network/DHCPClients/DHCPClientsTable";
@@ -16,10 +16,9 @@ import DHCPClientsWithStaticLeases from "common/network/DHCPClients/DHCPClientsW
 DHCPClients.propTypes = {
     clients: PropTypes.arrayOf(PropTypes.object),
     withStaticLeases: PropTypes.bool,
-    ws: PropTypes.instanceOf(WebSockets),
 };
 
-export default function DHCPClients({ clients, withStaticLeases, ws }) {
+export default function DHCPClients({ clients, withStaticLeases }) {
     return (
         <div className={formFieldsSize}>
             <h2>{_("DHCP Client List")}</h2>
@@ -29,7 +28,7 @@ export default function DHCPClients({ clients, withStaticLeases, ws }) {
                 )}
             </p>
             {withStaticLeases ? (
-                <DHCPClientsWithStaticLeases ws={ws} />
+                <DHCPClientsWithStaticLeases />
             ) : (
                 <DHCPClientsTable clients={clients} />
             )}
