@@ -275,136 +275,258 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
       <p>
         This list contains all devices that are connected to the network through wired or wireless connections.
       </p>
-      <div
-        class="table-responsive"
-      >
-        <table
-          class="table table-hover text-nowrap"
+      <div>
+        <div
+          class="d-flex justify-content-between align-items-center"
         >
-          <thead
-            class="thead-light"
+          <div
+            class="mb-3"
           >
-            <tr
-              role="row"
+            <div
+              class="input-group"
             >
-              <th
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort ascending"
-                  type="button"
-                >
-                  Hostname
-                </button>
-              </th>
-              <th
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort ascending"
-                  type="button"
-                >
-                  IPv4 Address
-                </button>
-              </th>
-              <th
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort ascending"
-                  type="button"
-                >
-                  MAC Address
-                </button>
-              </th>
-              <th
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort descending"
-                  type="button"
-                >
-                  Expires
-                </button>
-              </th>
-              <th
-                class="d-flex justify-content-center"
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort descending"
-                  type="button"
-                >
-                  Active
-                </button>
-              </th>
-              <th
-                colspan="1"
-              >
-                <div
-                  aria-hidden="true"
-                  class="d-none"
-                >
-                  Actions
-                </div>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              class="align-middle"
+              <input
+                class="form-control me-3"
+                id="11"
+                placeholder="Search…"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="dropdown mb-3"
+          >
+            <button
+              class="btn btn btn-outline-secondary dropdown-toggle d-inline-flex justify-content-center align-items-center"
+              data-bs-toggle="dropdown"
+              type="button"
             >
-              <td>
-                test-client
-              </td>
-              <td>
-                192.168.1.10
-              </td>
-              <td>
-                8F:31:22:89:64:20
-              </td>
-              <td>
-                <span>
-                  3/19/2021 12:52 AM
-                </span>
-              </td>
-              <td
-                class="text-center"
-              >
-                <i
-                  class="fa"
-                />
-              </td>
-              <td
-                class="text-end"
-              >
+              <span>
+                Columns
+              </span>
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+            >
+              <li>
                 <button
-                  class="btn btn btn-sm btn-outline-success d-inline-flex justify-content-center align-items-center"
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
                   type="button"
                 >
+                  <i
+                    class="fa"
+                  />
                   <span>
-                    Set Static
+                    Hostname
                   </span>
                 </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    IPv4 Address
+                  </span>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    MAC Address
+                  </span>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    Expires
+                  </span>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    Active
+                  </span>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    Actions
+                  </span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="table-responsive"
+        >
+          <table
+            class="table table-hover text-nowrap"
+          >
+            <thead
+              class="table-light"
+            >
+              <tr
+                role="row"
+              >
+                <th
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort ascending"
+                    type="button"
+                  >
+                    Hostname
+                  </button>
+                </th>
+                <th
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort ascending"
+                    type="button"
+                  >
+                    IPv4 Address
+                  </button>
+                </th>
+                <th
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort ascending"
+                    type="button"
+                  >
+                    MAC Address
+                  </button>
+                </th>
+                <th
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort descending"
+                    type="button"
+                  >
+                    Expires
+                  </button>
+                </th>
+                <th
+                  class="d-flex justify-content-center"
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort descending"
+                    type="button"
+                  >
+                    Active
+                  </button>
+                </th>
+                <th
+                  colspan="1"
+                >
+                  <div
+                    aria-hidden="true"
+                    class="d-none"
+                  >
+                    Actions
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="align-middle"
+              >
+                <td>
+                  test-client
+                </td>
+                <td>
+                  192.168.1.10
+                </td>
+                <td>
+                  8F:31:22:89:64:20
+                </td>
+                <td>
+                  <span>
+                    3/19/2021 12:52 AM
+                  </span>
+                </td>
+                <td
+                  class="text-center"
+                >
+                  <i
+                    class="fa"
+                  />
+                </td>
+                <td
+                  class="text-end"
+                >
+                  <button
+                    class="btn btn btn-sm btn-outline-success d-inline-flex justify-content-center align-items-center"
+                    type="button"
+                  >
+                    <span>
+                      Set Static
+                    </span>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
       <div
         class="text-end"
@@ -428,112 +550,220 @@ exports[`<LAN/> Snapshot managed with enabled DHCP. 1`] = `
       <p>
         This list contains all devices that are connected to the network through wired or wireless connections using IPv6.
       </p>
-      <div
-        class="table-responsive"
-      >
-        <table
-          class="table table-hover text-nowrap"
+      <div>
+        <div
+          class="d-flex justify-content-between align-items-center"
         >
-          <thead
-            class="thead-light"
+          <div
+            class="mb-3"
           >
-            <tr
-              role="row"
+            <div
+              class="input-group"
             >
-              <th
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort ascending"
-                  type="button"
-                >
-                  Hostname
-                </button>
-              </th>
-              <th
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort ascending"
-                  type="button"
-                >
-                  IPv6 Address
-                </button>
-              </th>
-              <th
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort ascending"
-                  type="button"
-                >
-                  DUID
-                </button>
-              </th>
-              <th
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort ascending"
-                  type="button"
-                >
-                  Expires
-                </button>
-              </th>
-              <th
-                class="d-flex justify-content-center"
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort descending"
-                  type="button"
-                >
-                  Active
-                </button>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              class="align-middle"
+              <input
+                class="form-control me-3"
+                id="10"
+                placeholder="Search…"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="dropdown mb-3"
+          >
+            <button
+              class="btn btn btn-outline-secondary dropdown-toggle d-inline-flex justify-content-center align-items-center"
+              data-bs-toggle="dropdown"
+              type="button"
             >
-              <td>
-                test-client-2
-              </td>
-              <td>
-                7b00:ce2:a17:41f3::w94
-              </td>
-              <td>
-                00098f65rfcee3bndu5221d7e7i743a46546p
-              </td>
-              <td>
-                3/19/2021 12:52 AM
-              </td>
-              <td
-                class="text-center"
+              <span>
+                Columns
+              </span>
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+            >
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    Hostname
+                  </span>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    IPv6 Address
+                  </span>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    DUID
+                  </span>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    Expires
+                  </span>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    Active
+                  </span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="table-responsive"
+        >
+          <table
+            class="table table-hover text-nowrap"
+          >
+            <thead
+              class="table-light"
+            >
+              <tr
+                role="row"
               >
-                <i
-                  class="fa"
-                />
-              </td>
-            </tr>
-          </tbody>
-        </table>
+                <th
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort ascending"
+                    type="button"
+                  >
+                    Hostname
+                  </button>
+                </th>
+                <th
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort ascending"
+                    type="button"
+                  >
+                    IPv6 Address
+                  </button>
+                </th>
+                <th
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort ascending"
+                    type="button"
+                  >
+                    DUID
+                  </button>
+                </th>
+                <th
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort ascending"
+                    type="button"
+                  >
+                    Expires
+                  </button>
+                </th>
+                <th
+                  class="d-flex justify-content-center"
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort descending"
+                    type="button"
+                  >
+                    Active
+                  </button>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="align-middle"
+              >
+                <td>
+                  test-client-2
+                </td>
+                <td>
+                  7b00:ce2:a17:41f3::w94
+                </td>
+                <td>
+                  00098f65rfcee3bndu5221d7e7i743a46546p
+                </td>
+                <td>
+                  3/19/2021 12:52 AM
+                </td>
+                <td
+                  class="text-center"
+                >
+                  <i
+                    class="fa"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
@@ -1445,136 +1675,258 @@ exports[`Customized <LAN/> Snapshot managed with enabled DHCP. 1`] = `
       <p>
         This list contains all devices that are connected to the network through wired or wireless connections.
       </p>
-      <div
-        class="table-responsive"
-      >
-        <table
-          class="table table-hover text-nowrap"
+      <div>
+        <div
+          class="d-flex justify-content-between align-items-center"
         >
-          <thead
-            class="thead-light"
+          <div
+            class="mb-3"
           >
-            <tr
-              role="row"
+            <div
+              class="input-group"
             >
-              <th
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort ascending"
-                  type="button"
-                >
-                  Hostname
-                </button>
-              </th>
-              <th
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort ascending"
-                  type="button"
-                >
-                  IPv4 Address
-                </button>
-              </th>
-              <th
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort ascending"
-                  type="button"
-                >
-                  MAC Address
-                </button>
-              </th>
-              <th
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort descending"
-                  type="button"
-                >
-                  Expires
-                </button>
-              </th>
-              <th
-                class="d-flex justify-content-center"
-                colspan="1"
-              >
-                <button
-                  class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
-                                                    d-flex align-items-center
-                                                "
-                  title="Sort descending"
-                  type="button"
-                >
-                  Active
-                </button>
-              </th>
-              <th
-                colspan="1"
-              >
-                <div
-                  aria-hidden="true"
-                  class="d-none"
-                >
-                  Actions
-                </div>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              class="align-middle"
+              <input
+                class="form-control me-3"
+                id="8"
+                placeholder="Search…"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="dropdown mb-3"
+          >
+            <button
+              class="btn btn btn-outline-secondary dropdown-toggle d-inline-flex justify-content-center align-items-center"
+              data-bs-toggle="dropdown"
+              type="button"
             >
-              <td>
-                test-client
-              </td>
-              <td>
-                192.168.1.10
-              </td>
-              <td>
-                8F:31:22:89:64:20
-              </td>
-              <td>
-                <span>
-                  3/19/2021 12:52 AM
-                </span>
-              </td>
-              <td
-                class="text-center"
-              >
-                <i
-                  class="fa"
-                />
-              </td>
-              <td
-                class="text-end"
-              >
+              <span>
+                Columns
+              </span>
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+            >
+              <li>
                 <button
-                  class="btn btn btn-sm btn-outline-success d-inline-flex justify-content-center align-items-center"
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
                   type="button"
                 >
+                  <i
+                    class="fa"
+                  />
                   <span>
-                    Set Static
+                    Hostname
                   </span>
                 </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    IPv4 Address
+                  </span>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    MAC Address
+                  </span>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    Expires
+                  </span>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    Active
+                  </span>
+                </button>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item d-flex align-items-center"
+                  style="padding-left: 2rem;"
+                  type="button"
+                >
+                  <i
+                    class="fa"
+                  />
+                  <span>
+                    Actions
+                  </span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="table-responsive"
+        >
+          <table
+            class="table table-hover text-nowrap"
+          >
+            <thead
+              class="table-light"
+            >
+              <tr
+                role="row"
+              >
+                <th
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort ascending"
+                    type="button"
+                  >
+                    Hostname
+                  </button>
+                </th>
+                <th
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort ascending"
+                    type="button"
+                  >
+                    IPv4 Address
+                  </button>
+                </th>
+                <th
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort ascending"
+                    type="button"
+                  >
+                    MAC Address
+                  </button>
+                </th>
+                <th
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort descending"
+                    type="button"
+                  >
+                    Expires
+                  </button>
+                </th>
+                <th
+                  class="d-flex justify-content-center"
+                  colspan="1"
+                >
+                  <button
+                    class="btn btn-link text-decoration-none text-reset fw-bold p-0 d-flex align-items-center
+                                                    d-flex align-items-center
+                                                "
+                    title="Sort descending"
+                    type="button"
+                  >
+                    Active
+                  </button>
+                </th>
+                <th
+                  colspan="1"
+                >
+                  <div
+                    aria-hidden="true"
+                    class="d-none"
+                  >
+                    Actions
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="align-middle"
+              >
+                <td>
+                  test-client
+                </td>
+                <td>
+                  192.168.1.10
+                </td>
+                <td>
+                  8F:31:22:89:64:20
+                </td>
+                <td>
+                  <span>
+                    3/19/2021 12:52 AM
+                  </span>
+                </td>
+                <td
+                  class="text-center"
+                >
+                  <i
+                    class="fa"
+                  />
+                </td>
+                <td
+                  class="text-end"
+                >
+                  <button
+                    class="btn btn btn-sm btn-outline-success d-inline-flex justify-content-center align-items-center"
+                    type="button"
+                  >
+                    <span>
+                      Set Static
+                    </span>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
       <div
         class="text-end"

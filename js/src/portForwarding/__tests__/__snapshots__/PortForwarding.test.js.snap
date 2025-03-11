@@ -55,7 +55,7 @@ exports[`<PortForwarding/> should render page with one rule defined 1`] = `
         class="table table-hover text-nowrap"
       >
         <thead
-          class="thead-light"
+          class="table-light"
         >
           <tr>
             <th
