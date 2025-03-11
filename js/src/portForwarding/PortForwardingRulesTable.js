@@ -24,7 +24,7 @@ export default function RulesTable({ rules, onEditRule, onDeleteRule }) {
             {rules.length > 0 ? (
                 <div className="table-responsive">
                     <table className="table table-hover text-nowrap">
-                        <thead className="thead-light">
+                        <thead className="table-light">
                             <tr>
                                 <th scope="col">{_("Name")}</th>
                                 <th scope="col">{_("Internal IP address")}</th>
