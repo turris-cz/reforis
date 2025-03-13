@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.2.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2024-12-05 16:08+0100\n"
-"PO-Revision-Date: 2025-03-13 06:14+0000\n"
+"PO-Revision-Date: 2025-03-14 13:25+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/turris/reforis/ta/>"
 "\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.3-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: js/src/about/About.js:18
@@ -41,7 +41,7 @@ msgstr ""
 
 #: js/src/about/About.js:37
 msgid "Device"
-msgstr ""
+msgstr "சாதனம்"
 
 #: js/src/about/About.js:45
 msgid "Serial number"
@@ -73,7 +73,7 @@ msgstr ""
 #: js/src/maintenance/FactoryReset.js:27
 #: js/src/notificationsSettings/TestNotification.js:148
 msgid "Warning!"
-msgstr ""
+msgstr "எச்சரிக்கை!"
 
 #: js/src/common/RebootButton.js:41
 msgid "Are you sure you want to reboot the router?"
@@ -294,7 +294,7 @@ msgstr ""
 #: js/src/guide/GuideControls/SkipGuideButton.js:87
 #: js/src/notificationsSettings/TestNotification.js:153
 msgid "Cancel"
-msgstr ""
+msgstr "ரத்துசெய்"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:57
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
@@ -927,7 +927,7 @@ msgstr ""
 #: js/src/guide/GuidePages/GuideFinish.js:33
 #: js/src/utils/useSessionTimeout.js:113
 msgid "Continue"
-msgstr ""
+msgstr "தொடரவும்"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:26
 msgid ""
@@ -1071,7 +1071,7 @@ msgstr ""
 
 #: js/src/interfaces/SelectedInterface.js:93
 msgid "State"
-msgstr ""
+msgstr "மாநிலம்"
 
 #: js/src/interfaces/SelectedInterface.js:107
 msgid "Module ID"
@@ -1106,7 +1106,7 @@ msgstr ""
 #: js/src/overview/Cards/LibrespeedCard.js:118
 #: js/src/overview/Cards/LibrespeedCard.js:134
 msgid "N/A"
-msgstr ""
+msgstr "இதற்கில்லை"
 
 #: js/src/interfaces/constants.js:12
 msgid "Unassigned"
@@ -1181,7 +1181,7 @@ msgstr ""
 
 #: js/src/main/pages.js:31 js/src/overview/Overview.js:43
 msgid "Overview"
-msgstr ""
+msgstr "கண்ணோட்டம்"
 
 #: js/src/main/pages.js:38
 msgid "Network Settings"
@@ -1563,7 +1563,7 @@ msgstr ""
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Disabled"
-msgstr ""
+msgstr "முடக்கப்பட்டது"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:23
 msgid "Dynamic Firewall"
