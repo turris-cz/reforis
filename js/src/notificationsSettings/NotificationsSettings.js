@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -49,16 +49,19 @@ export default function NotificationsSettings({ ws }) {
 }
 
 function prepData(formData) {
-    formData = formData.emails;
-    formData.common.to = formData.common.to.join(", ");
+    formData.emails.common.to = formData.emails.common.to.join(", ");
     return formData;
 }
 
 function prepDataToSubmit(formData) {
-    if (!formData.enabled) return { enabled: false };
-    formData.common.to = formData.common.to.replace(/\s+/g, "").split(",");
+    if (!formData.emails.enabled) return { emails: { enabled: false } };
+    formData.emails.common.to = formData.emails.common.to
+        .replace(/\s+/g, "")
+        .split(",");
 
-    if (formData.smtp_type === "turris") delete formData.smtp_custom;
-    else if (formData.smtp_type === "custom") delete formData.smtp_turris;
+    if (formData.emails.smtp_type === "turris")
+        delete formData.emails.smtp_custom;
+    else if (formData.emails.smtp_type === "custom")
+        delete formData.emails.smtp_turris;
     return formData;
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -8,14 +8,16 @@
 import { validateMultipleEmails } from "foris";
 
 export default function validator(formData) {
-    const errors = {};
-    if (!formData.enabled) return undefined;
+    const { emails: emailsFormData } = formData;
 
-    errors.common = commonValidator(formData.common);
-    if (formData.smtp_type === "turris")
-        errors.smtp_turris = smtpTurrisValidator(formData.smtp_turris);
-    else if (formData.smtp_type === "custom")
-        errors.smtp_custom = smtpCustomValidator(formData.smtp_custom);
+    const errors = {};
+    if (!emailsFormData.enabled) return undefined;
+
+    errors.common = commonValidator(emailsFormData.common);
+    if (emailsFormData.smtp_type === "turris")
+        errors.smtp_turris = smtpTurrisValidator(emailsFormData.smtp_turris);
+    else if (emailsFormData.smtp_type === "custom")
+        errors.smtp_custom = smtpCustomValidator(emailsFormData.smtp_custom);
     return JSON.stringify(errors) !== "{}" ? errors : undefined;
 }
 

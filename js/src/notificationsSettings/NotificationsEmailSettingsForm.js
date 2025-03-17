@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -28,11 +28,13 @@ const SMTP_TYPE_CHOICES = [
 
 NotificationsEmailSettingsForm.propTypes = {
     formData: PropTypes.shape({
-        enabled: PropTypes.bool,
-        smtp_type: PropTypes.oneOf(["turris", "custom"]),
-        common: PropTypes.object,
-        smtp_turris: PropTypes.object,
-        smtp_custom: PropTypes.object,
+        emails: PropTypes.shape({
+            enabled: PropTypes.bool,
+            smtp_type: PropTypes.oneOf(["turris", "custom"]),
+            common: PropTypes.object,
+            smtp_turris: PropTypes.object,
+            smtp_custom: PropTypes.object,
+        }),
     }).isRequired,
     formErrors: PropTypes.shape({
         smtp_turris: PropTypes.object,
@@ -55,20 +57,22 @@ export default function NotificationsEmailSettingsForm({
     setFormValue,
     disabled,
 }) {
+    const { emails: emailsFormData } = formData;
+
     let smtpForm = null;
-    if (formData.smtp_type === "turris") {
+    if (emailsFormData.smtp_type === "turris") {
         smtpForm = (
             <SMTPTurrisForm
-                formData={formData.smtp_turris}
+                formData={emailsFormData.smtp_turris}
                 formErrors={formErrors.smtp_turris}
                 setFormValue={setFormValue}
                 disabled={disabled}
             />
         );
-    } else if (formData.smtp_type === "custom") {
+    } else if (emailsFormData.smtp_type === "custom") {
         smtpForm = (
             <SMTPCustomForm
-                formData={formData.smtp_custom}
+                formData={emailsFormData.smtp_custom}
                 formErrors={formErrors.smtp_custom}
                 setFormValue={setFormValue}
                 disabled={disabled}
@@ -78,31 +82,35 @@ export default function NotificationsEmailSettingsForm({
 
     return (
         <>
-            <h2>{_("Notification Settings")}</h2>
+            <h2>{_("Email Notification Settings")}</h2>
             <Switch
                 label={_("Enable Email Notifications")}
-                checked={formData.enabled}
+                checked={emailsFormData.enabled}
                 onChange={setFormValue((value) => ({
-                    enabled: { $set: value },
+                    emails: {
+                        enabled: { $set: value },
+                    },
                 }))}
                 disabled={disabled}
             />
-            {formData.enabled ? (
+            {emailsFormData.enabled ? (
                 <>
                     <RadioSet
                         label={_("SMTP provider")}
                         name="smtp_provider"
                         choices={SMTP_TYPE_CHOICES}
-                        value={formData.smtp_type}
+                        value={emailsFormData.smtp_type}
                         helpText={HELP_TEXTS.smtp_type}
                         inline
                         onChange={setFormValue((value) => ({
-                            smtp_type: { $set: value },
+                            emails: {
+                                smtp_type: { $set: value },
+                            },
                         }))}
                         disabled={disabled}
                     />
                     <CommonForm
-                        formData={formData.common}
+                        formData={emailsFormData.common}
                         formErrors={formErrors.common}
                         setFormValue={setFormValue}
                         disabled={disabled}
