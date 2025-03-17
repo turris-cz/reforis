@@ -14,7 +14,7 @@ exports[`<NotificationsSettings/> <TestNotification/> Displaying test notificati
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
     <h2>
-      Test Notification
+      Test Email Notification
     </h2>
     <p>
       Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
@@ -43,7 +43,7 @@ exports[`<NotificationsSettings/> <TestNotification/> No test notification impor
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
     <h2>
-      Test Notification
+      Test Email Notification
     </h2>
     <p>
       Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
@@ -72,7 +72,7 @@ exports[`<NotificationsSettings/> <TestNotification/> No test notification impor
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
     <h2>
-      Test Notification
+      Test Email Notification
     </h2>
     <p>
       Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
@@ -107,7 +107,7 @@ exports[`<NotificationsSettings/> <TestNotification/> Should toggle unsaved chan
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
     <h2>
-      Test Notification
+      Test Email Notification
     </h2>
     <p>
       Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
@@ -128,20 +128,33 @@ exports[`<NotificationsSettings/> <TestNotification/> Should toggle unsaved chan
 </div>
 `;
 
-exports[`<NotificationsSettings/> Disabled 1`] = `
+exports[`<NotificationsSettings/> Email notifications Disabled 1`] = `
 <div>
   <h1>
     Notifications
   </h1>
   <p>
-    Your device can send you e-mail notifications about required reboots, important events, installed updates and new features according to your settings. When done with configuration, you can test it by pressing Send test notification.
+    Your device can send you e-mail notifications about required reboots, important events, installed updates, and new features according to your settings. Once you are done with the configuration, you can test it by pressing Send test notification. Additionally, you can use 
+    <a
+      href="https://ntfy.sh/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      ntfy
+      <sup>
+        <i
+          class="fa"
+        />
+      </sup>
+    </a>
+     to receive real-time push notifications directly to your mobile device or desktop. ntfy allows you to subscribe to topics and get instant alerts without the need for email.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
     <form>
       <h2>
-        Notification Settings
+        Email Notification Settings
       </h2>
       <div
         class="form-check form-switch mb-3"
@@ -157,7 +170,26 @@ exports[`<NotificationsSettings/> Disabled 1`] = `
           class="form-check-label"
           for="1"
         >
-          Enable Email Notifications
+          Enable email notifications
+        </label>
+      </div>
+      <h2>
+        ntfy Notification Settings
+      </h2>
+      <div
+        class="form-check form-switch mb-3"
+      >
+        <input
+          class="form-check-input"
+          id="12"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="12"
+        >
+          Enable ntfy notifications
         </label>
       </div>
       <div
@@ -183,20 +215,33 @@ exports[`<NotificationsSettings/> Disabled 1`] = `
 </div>
 `;
 
-exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
+exports[`<NotificationsSettings/> Email notifications Enabled, smtp_type:custom 1`] = `
 <div>
   <h1>
     Notifications
   </h1>
   <p>
-    Your device can send you e-mail notifications about required reboots, important events, installed updates and new features according to your settings. When done with configuration, you can test it by pressing Send test notification.
+    Your device can send you e-mail notifications about required reboots, important events, installed updates, and new features according to your settings. Once you are done with the configuration, you can test it by pressing Send test notification. Additionally, you can use 
+    <a
+      href="https://ntfy.sh/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      ntfy
+      <sup>
+        <i
+          class="fa"
+        />
+      </sup>
+    </a>
+     to receive real-time push notifications directly to your mobile device or desktop. ntfy allows you to subscribe to topics and get instant alerts without the need for email.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
     <form>
       <h2>
-        Notification Settings
+        Email Notification Settings
       </h2>
       <div
         class="form-check form-switch mb-3"
@@ -212,7 +257,7 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
           class="form-check-label"
           for="1"
         >
-          Enable Email Notifications
+          Enable email notifications
         </label>
       </div>
       <div
@@ -523,6 +568,25 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
           </button>
         </div>
       </div>
+      <h2>
+        ntfy Notification Settings
+      </h2>
+      <div
+        class="form-check form-switch mb-3"
+      >
+        <input
+          class="form-check-input"
+          id="12"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="12"
+        >
+          Enable ntfy notifications
+        </label>
+      </div>
       <div
         class="text-end"
       >
@@ -550,7 +614,7 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
       class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
     >
       <h2>
-        Test Notification
+        Test Email Notification
       </h2>
       <p>
         Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
@@ -633,20 +697,33 @@ exports[`<NotificationsSettings/> Enabled, smtp_type:custom 1`] = `
 </div>
 `;
 
-exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
+exports[`<NotificationsSettings/> Email notifications Enabled,smtp_type:turris 1`] = `
 <div>
   <h1>
     Notifications
   </h1>
   <p>
-    Your device can send you e-mail notifications about required reboots, important events, installed updates and new features according to your settings. When done with configuration, you can test it by pressing Send test notification.
+    Your device can send you e-mail notifications about required reboots, important events, installed updates, and new features according to your settings. Once you are done with the configuration, you can test it by pressing Send test notification. Additionally, you can use 
+    <a
+      href="https://ntfy.sh/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      ntfy
+      <sup>
+        <i
+          class="fa"
+        />
+      </sup>
+    </a>
+     to receive real-time push notifications directly to your mobile device or desktop. ntfy allows you to subscribe to topics and get instant alerts without the need for email.
   </p>
   <div
     class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
   >
     <form>
       <h2>
-        Notification Settings
+        Email Notification Settings
       </h2>
       <div
         class="form-check form-switch mb-3"
@@ -662,7 +739,7 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
           class="form-check-label"
           for="1"
         >
-          Enable Email Notifications
+          Enable email notifications
         </label>
       </div>
       <div
@@ -803,7 +880,7 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
       >
         <label
           class="form-label"
-          for="12"
+          for="13"
         >
           Sender's name
         </label>
@@ -812,7 +889,7 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
         >
           <input
             class="form-control"
-            id="12"
+            id="13"
             type="text"
             value="turris"
           />
@@ -822,6 +899,1068 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
         >
           <small>
             Name of the sender - will be used as a part of the sender's email address before the "at" sign.
+          </small>
+        </div>
+      </div>
+      <h2>
+        ntfy Notification Settings
+      </h2>
+      <div
+        class="form-check form-switch mb-3"
+      >
+        <input
+          class="form-check-input"
+          id="12"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="12"
+        >
+          Enable ntfy notifications
+        </label>
+      </div>
+      <div
+        class="text-end"
+      >
+        <button
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          type="submit"
+        >
+          <span>
+            Save
+          </span>
+        </button>
+      </div>
+    </form>
+  </div>
+  <div
+    id="test-notification"
+  >
+    <div
+      class="alert alert-warning alert-fade-in"
+      role="alert"
+    >
+      You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
+    </div>
+    <div
+      class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
+    >
+      <h2>
+        Test Email Notification
+      </h2>
+      <p>
+        Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
+      </p>
+      <div
+        class="text-end"
+      >
+        <button
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          type="button"
+        >
+          <span>
+            Send test notification
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    id="modal-container"
+  >
+    <div
+      aria-labelledby="modal-title"
+      aria-modal="true"
+      class="modal fade"
+      role="dialog"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered"
+        role="document"
+      >
+        <div
+          class="modal-content"
+        >
+          <div
+            class="modal-header"
+          >
+            <h1
+              class="modal-title fs-5"
+            >
+              Warning!
+            </h1>
+            <button
+              aria-label="Close"
+              class="btn-close"
+              type="button"
+            />
+          </div>
+          <div
+            class="modal-body"
+          >
+            <p>
+              There are some unsaved changes in the notifications settings. Do you want to discard them and test the notifications with the old settings?
+            </p>
+          </div>
+          <div
+            class="modal-footer"
+          >
+            <button
+              class="btn btn-primary d-inline-flex justify-content-center align-items-center"
+              type="button"
+            >
+              <span>
+                Cancel
+              </span>
+            </button>
+            <button
+              class="btn btn-danger d-inline-flex justify-content-center align-items-center"
+              type="button"
+            >
+              <span>
+                Confirm
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<NotificationsSettings/> ntfy Disabled 1`] = `
+<div>
+  <h1>
+    Notifications
+  </h1>
+  <p>
+    Your device can send you e-mail notifications about required reboots, important events, installed updates, and new features according to your settings. Once you are done with the configuration, you can test it by pressing Send test notification. Additionally, you can use 
+    <a
+      href="https://ntfy.sh/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      ntfy
+      <sup>
+        <i
+          class="fa"
+        />
+      </sup>
+    </a>
+     to receive real-time push notifications directly to your mobile device or desktop. ntfy allows you to subscribe to topics and get instant alerts without the need for email.
+  </p>
+  <div
+    class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
+  >
+    <form>
+      <h2>
+        Email Notification Settings
+      </h2>
+      <div
+        class="form-check form-switch mb-3"
+      >
+        <input
+          checked=""
+          class="form-check-input"
+          id="1"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="1"
+        >
+          Enable email notifications
+        </label>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="d-block"
+          for="2"
+        >
+          SMTP provider
+        </label>
+        <div
+          class="mb-3 form-check form-check-inline"
+        >
+          <input
+            class="form-check-input me-2"
+            id="smtp_provider-0"
+            name="smtp_provider"
+            type="radio"
+            value="turris"
+          />
+          <label
+            class="form-check-label"
+            for="smtp_provider-0"
+          >
+            Turris
+          </label>
+        </div>
+        <div
+          class="mb-3 form-check form-check-inline"
+        >
+          <input
+            checked=""
+            class="form-check-input me-2"
+            id="smtp_provider-1"
+            name="smtp_provider"
+            type="radio"
+            value="custom"
+          />
+          <label
+            class="form-check-label"
+            for="smtp_provider-1"
+          >
+            Custom
+          </label>
+        </div>
+        <div
+          class="form-text"
+        >
+          <small>
+            If you set SMTP provider to "Turris", the servers provided to members of the Turris project would be used. These servers do not require any additional settings. If you want to set your own SMTP server, please select "Custom" and enter required settings.
+          </small>
+        </div>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="3"
+        >
+          Recipient's email
+        </label>
+        <div
+          class="input-group"
+        >
+          <input
+            class="form-control"
+            id="3"
+            required=""
+            type="text"
+            value="some@example.com"
+          />
+        </div>
+        <div
+          class="form-text"
+        >
+          <small>
+            Email address of recipient. Separate multiple addresses by comma.
+          </small>
+        </div>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="4"
+        >
+          Importance
+        </label>
+        <select
+          class="form-select"
+          id="4"
+        >
+          <option
+            value="1"
+          >
+            Reboot is required
+          </option>
+          <option
+            value="2"
+          >
+            Reboot or attention is required
+          </option>
+          <option
+            value="3"
+          >
+            Reboot or attention is required or update was installed
+          </option>
+        </select>
+      </div>
+      <div
+        class="mb-3 form-check"
+      >
+        <input
+          checked=""
+          class="form-check-input"
+          id="5"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="5"
+        >
+          Send news
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
+            Send emails about new features.
+          </small>
+        </div>
+      </div>
+      <h3>
+        SMTP Settings
+      </h3>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="6"
+        >
+          Sender address (From)
+        </label>
+        <div
+          class="input-group"
+        >
+          <input
+            class="form-control"
+            id="6"
+            placeholder="router@example.com"
+            required=""
+            type="email"
+            value="router@example.com"
+          />
+        </div>
+        <div
+          class="form-text"
+        >
+          <small>
+            This is the address notifications are send from.
+          </small>
+        </div>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="7"
+        >
+          Server address
+        </label>
+        <div
+          class="input-group"
+        >
+          <input
+            class="form-control"
+            id="7"
+            placeholder="example.com"
+            required=""
+            type="text"
+            value="example.com"
+          />
+        </div>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="8"
+        >
+          Server port
+        </label>
+        <div
+          class="input-group"
+        >
+          <input
+            class="form-control"
+            id="8"
+            max="65535"
+            min="1"
+            type="number"
+            value="465"
+          />
+          <button
+            aria-label="Increase value. Hint: Hold to increase faster."
+            class="btn btn-outline-secondary"
+            title="Increase value. Hint: Hold to increase faster."
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+          </button>
+          <button
+            aria-label="Decrease value. Hint: Hold to decrease faster."
+            class="btn btn-outline-secondary"
+            title="Decrease value. Hint: Hold to decrease faster."
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="9"
+        >
+          Security
+        </label>
+        <select
+          class="form-select"
+          id="9"
+        >
+          <option
+            value="none"
+          >
+            None
+          </option>
+          <option
+            value="ssl"
+          >
+            SSL
+          </option>
+          <option
+            value="starttls"
+          >
+            STARTTLS
+          </option>
+        </select>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="10"
+        >
+          Username
+        </label>
+        <div
+          class="input-group"
+        >
+          <input
+            class="form-control"
+            id="10"
+            type="text"
+            value="root"
+          />
+        </div>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="11"
+        >
+          Password
+        </label>
+        <div
+          class="input-group"
+        >
+          <input
+            autocomplete="current-password"
+            class="form-control"
+            id="11"
+            type="password"
+            value="test_password"
+          />
+          <button
+            class="input-group-text"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+          </button>
+        </div>
+      </div>
+      <h2>
+        ntfy Notification Settings
+      </h2>
+      <div
+        class="form-check form-switch mb-3"
+      >
+        <input
+          class="form-check-input"
+          id="12"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="12"
+        >
+          Enable ntfy notifications
+        </label>
+      </div>
+      <div
+        class="text-end"
+      >
+        <button
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          type="submit"
+        >
+          <span>
+            Save
+          </span>
+        </button>
+      </div>
+    </form>
+  </div>
+  <div
+    id="test-notification"
+  >
+    <div
+      class="alert alert-warning alert-fade-in"
+      role="alert"
+    >
+      You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.
+    </div>
+    <div
+      class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
+    >
+      <h2>
+        Test Email Notification
+      </h2>
+      <p>
+        Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
+      </p>
+      <div
+        class="text-end"
+      >
+        <button
+          class="btn btn-primary col-12 col-md-3 col-lg-2 d-inline-flex justify-content-center align-items-center"
+          type="button"
+        >
+          <span>
+            Send test notification
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    id="modal-container"
+  >
+    <div
+      aria-labelledby="modal-title"
+      aria-modal="true"
+      class="modal fade"
+      role="dialog"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered"
+        role="document"
+      >
+        <div
+          class="modal-content"
+        >
+          <div
+            class="modal-header"
+          >
+            <h1
+              class="modal-title fs-5"
+            >
+              Warning!
+            </h1>
+            <button
+              aria-label="Close"
+              class="btn-close"
+              type="button"
+            />
+          </div>
+          <div
+            class="modal-body"
+          >
+            <p>
+              There are some unsaved changes in the notifications settings. Do you want to discard them and test the notifications with the old settings?
+            </p>
+          </div>
+          <div
+            class="modal-footer"
+          >
+            <button
+              class="btn btn-primary d-inline-flex justify-content-center align-items-center"
+              type="button"
+            >
+              <span>
+                Cancel
+              </span>
+            </button>
+            <button
+              class="btn btn-danger d-inline-flex justify-content-center align-items-center"
+              type="button"
+            >
+              <span>
+                Confirm
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<NotificationsSettings/> ntfy Enabled 1`] = `
+<div>
+  <h1>
+    Notifications
+  </h1>
+  <p>
+    Your device can send you e-mail notifications about required reboots, important events, installed updates, and new features according to your settings. Once you are done with the configuration, you can test it by pressing Send test notification. Additionally, you can use 
+    <a
+      href="https://ntfy.sh/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      ntfy
+      <sup>
+        <i
+          class="fa"
+        />
+      </sup>
+    </a>
+     to receive real-time push notifications directly to your mobile device or desktop. ntfy allows you to subscribe to topics and get instant alerts without the need for email.
+  </p>
+  <div
+    class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
+  >
+    <form>
+      <h2>
+        Email Notification Settings
+      </h2>
+      <div
+        class="form-check form-switch mb-3"
+      >
+        <input
+          checked=""
+          class="form-check-input"
+          id="1"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="1"
+        >
+          Enable email notifications
+        </label>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="d-block"
+          for="2"
+        >
+          SMTP provider
+        </label>
+        <div
+          class="mb-3 form-check form-check-inline"
+        >
+          <input
+            class="form-check-input me-2"
+            id="smtp_provider-0"
+            name="smtp_provider"
+            type="radio"
+            value="turris"
+          />
+          <label
+            class="form-check-label"
+            for="smtp_provider-0"
+          >
+            Turris
+          </label>
+        </div>
+        <div
+          class="mb-3 form-check form-check-inline"
+        >
+          <input
+            checked=""
+            class="form-check-input me-2"
+            id="smtp_provider-1"
+            name="smtp_provider"
+            type="radio"
+            value="custom"
+          />
+          <label
+            class="form-check-label"
+            for="smtp_provider-1"
+          >
+            Custom
+          </label>
+        </div>
+        <div
+          class="form-text"
+        >
+          <small>
+            If you set SMTP provider to "Turris", the servers provided to members of the Turris project would be used. These servers do not require any additional settings. If you want to set your own SMTP server, please select "Custom" and enter required settings.
+          </small>
+        </div>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="3"
+        >
+          Recipient's email
+        </label>
+        <div
+          class="input-group"
+        >
+          <input
+            class="form-control"
+            id="3"
+            required=""
+            type="text"
+            value="some@example.com"
+          />
+        </div>
+        <div
+          class="form-text"
+        >
+          <small>
+            Email address of recipient. Separate multiple addresses by comma.
+          </small>
+        </div>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="4"
+        >
+          Importance
+        </label>
+        <select
+          class="form-select"
+          id="4"
+        >
+          <option
+            value="1"
+          >
+            Reboot is required
+          </option>
+          <option
+            value="2"
+          >
+            Reboot or attention is required
+          </option>
+          <option
+            value="3"
+          >
+            Reboot or attention is required or update was installed
+          </option>
+        </select>
+      </div>
+      <div
+        class="mb-3 form-check"
+      >
+        <input
+          checked=""
+          class="form-check-input"
+          id="5"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="5"
+        >
+          Send news
+        </label>
+        <div
+          class="form-text"
+        >
+          <small>
+            Send emails about new features.
+          </small>
+        </div>
+      </div>
+      <h3>
+        SMTP Settings
+      </h3>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="6"
+        >
+          Sender address (From)
+        </label>
+        <div
+          class="input-group"
+        >
+          <input
+            class="form-control"
+            id="6"
+            placeholder="router@example.com"
+            required=""
+            type="email"
+            value="router@example.com"
+          />
+        </div>
+        <div
+          class="form-text"
+        >
+          <small>
+            This is the address notifications are send from.
+          </small>
+        </div>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="7"
+        >
+          Server address
+        </label>
+        <div
+          class="input-group"
+        >
+          <input
+            class="form-control"
+            id="7"
+            placeholder="example.com"
+            required=""
+            type="text"
+            value="example.com"
+          />
+        </div>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="8"
+        >
+          Server port
+        </label>
+        <div
+          class="input-group"
+        >
+          <input
+            class="form-control"
+            id="8"
+            max="65535"
+            min="1"
+            type="number"
+            value="465"
+          />
+          <button
+            aria-label="Increase value. Hint: Hold to increase faster."
+            class="btn btn-outline-secondary"
+            title="Increase value. Hint: Hold to increase faster."
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+          </button>
+          <button
+            aria-label="Decrease value. Hint: Hold to decrease faster."
+            class="btn btn-outline-secondary"
+            title="Decrease value. Hint: Hold to decrease faster."
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="9"
+        >
+          Security
+        </label>
+        <select
+          class="form-select"
+          id="9"
+        >
+          <option
+            value="none"
+          >
+            None
+          </option>
+          <option
+            value="ssl"
+          >
+            SSL
+          </option>
+          <option
+            value="starttls"
+          >
+            STARTTLS
+          </option>
+        </select>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="10"
+        >
+          Username
+        </label>
+        <div
+          class="input-group"
+        >
+          <input
+            class="form-control"
+            id="10"
+            type="text"
+            value="root"
+          />
+        </div>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="11"
+        >
+          Password
+        </label>
+        <div
+          class="input-group"
+        >
+          <input
+            autocomplete="current-password"
+            class="form-control"
+            id="11"
+            type="password"
+            value="test_password"
+          />
+          <button
+            class="input-group-text"
+            type="button"
+          >
+            <i
+              class="fa"
+            />
+          </button>
+        </div>
+      </div>
+      <h2>
+        ntfy Notification Settings
+      </h2>
+      <div
+        class="form-check form-switch mb-3"
+      >
+        <input
+          class="form-check-input"
+          id="12"
+          role="switch"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="12"
+        >
+          Enable ntfy notifications
+        </label>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="13"
+        >
+          URL
+        </label>
+        <div
+          class="input-group"
+        >
+          <input
+            class="form-control"
+            id="13"
+            type="text"
+            value="https://example.com"
+          />
+        </div>
+        <div
+          class="form-text"
+        >
+          <small>
+            URL to send ntfy notifications to.
+          </small>
+        </div>
+      </div>
+      <div
+        class="mb-3"
+      >
+        <label
+          class="form-label"
+          for="14"
+        >
+          Priority
+        </label>
+        <select
+          class="form-select"
+          id="14"
+        >
+          <option
+            value="max"
+          >
+            Max
+          </option>
+          <option
+            value="urgent"
+          >
+            Urgent
+          </option>
+          <option
+            value="high"
+          >
+            High
+          </option>
+          <option
+            value="default"
+          >
+            Default
+          </option>
+          <option
+            value="low"
+          >
+            Low
+          </option>
+          <option
+            value="min"
+          >
+            Min
+          </option>
+        </select>
+        <div
+          class="form-text"
+        >
+          <small>
+            Priority of the ntfy notification.
           </small>
         </div>
       </div>
@@ -852,7 +1991,7 @@ exports[`<NotificationsSettings/> Enabled,smtp_type:turris 1`] = `
       class="card p-4 col-sm-12 col-lg-12 p-0 mb-4"
     >
       <h2>
-        Test Notification
+        Test Email Notification
       </h2>
       <p>
         Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox.
