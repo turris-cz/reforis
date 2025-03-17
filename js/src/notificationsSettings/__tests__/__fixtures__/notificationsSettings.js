@@ -31,45 +31,60 @@ export default function notificationsSettingsFixture() {
             delay: 3,
             time: "03:30",
         },
+        ntfy: {
+            enabled: false,
+            url: "https://example.com",
+            priority: "high",
+        },
     };
 }
 
 export function testNotificationSeverityFixture2() {
     return {
-        common: {
-            send_news: true,
-            severity_filter: 2,
-            to: ["some@example.com"],
+        emails: {
+            common: {
+                send_news: true,
+                severity_filter: 2,
+                to: ["some@example.com"],
+            },
+            enabled: true,
+            smtp_custom: {
+                from: "router@example.com",
+                host: "example.com",
+                password: "test_password",
+                port: 465,
+                security: "ssl",
+                username: "root",
+            },
+            smtp_type: "custom",
         },
-        enabled: true,
-        smtp_custom: {
-            from: "router@example.com",
-            host: "example.com",
-            password: "test_password",
-            port: 465,
-            security: "ssl",
-            username: "root",
+        ntfy: {
+            enabled: false,
         },
-        smtp_type: "custom",
     };
 }
 
 export function testNotificationSeverityFixture3() {
     return {
-        common: {
-            send_news: true,
-            severity_filter: 3,
-            to: ["some@example.com"],
+        emails: {
+            common: {
+                send_news: true,
+                severity_filter: 3,
+                to: ["some@example.com"],
+            },
+            enabled: true,
+            smtp_custom: {
+                from: "router@example.com",
+                host: "example.com",
+                password: "test_password",
+                port: 465,
+                security: "ssl",
+                username: "root",
+            },
+            smtp_type: "custom",
         },
-        enabled: true,
-        smtp_custom: {
-            from: "router@example.com",
-            host: "example.com",
-            password: "test_password",
-            port: 465,
-            security: "ssl",
-            username: "root",
+        ntfy: {
+            enabled: false,
         },
-        smtp_type: "custom",
     };
 }

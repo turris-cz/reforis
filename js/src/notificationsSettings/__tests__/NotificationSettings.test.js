@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2021 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -30,7 +30,7 @@ import {
     SEVERITY_ALERT_MESSAGE,
 } from "../TestNotification";
 
-const ENABLE_CHECKBOX_LABEL = "Enable Email Notifications";
+const ENABLE_CHECKBOX_LABEL = "Enable email notifications";
 
 describe("<NotificationsSettings/>", () => {
     let NotificationsSettingsContainer;
@@ -61,95 +61,180 @@ describe("<NotificationsSettings/>", () => {
         );
     });
 
-    it("Enabled, smtp_type:custom", () => {
-        expect(NotificationsSettingsContainer).toMatchSnapshot();
+    describe("Email notifications", () => {
+        it("Enabled, smtp_type:custom", () => {
+            expect(NotificationsSettingsContainer).toMatchSnapshot();
+        });
+
+        it("Disabled", () => {
+            fireEvent.click(
+                getByLabelText(
+                    NotificationsSettingsContainer,
+                    ENABLE_CHECKBOX_LABEL
+                )
+            );
+            expect(NotificationsSettingsContainer).toMatchSnapshot();
+        });
+
+        it("Enabled,smtp_type:turris", () => {
+            fireEvent.click(
+                getByLabelText(NotificationsSettingsContainer, "Turris")
+            );
+            expect(NotificationsSettingsContainer).toMatchSnapshot();
+        });
+
+        it("Post.", () => {
+            fireEvent.click(getByText(NotificationsSettingsContainer, "Save"));
+
+            expect(mockAxios.post).toBeCalled();
+            const data = {
+                emails: {
+                    common: {
+                        send_news: true,
+                        severity_filter: 1,
+                        to: ["some@example.com"],
+                    },
+                    enabled: true,
+                    smtp_custom: {
+                        from: "router@example.com",
+                        host: "example.com",
+                        password: "test_password",
+                        port: 465,
+                        security: "ssl",
+                        username: "root",
+                    },
+                    smtp_type: "custom",
+                },
+                ntfy: {
+                    enabled: false,
+                },
+            };
+            expect(mockAxios.post).toHaveBeenCalledWith(
+                "/reforis/api/notifications-settings",
+                data,
+                expect.anything()
+            );
+        });
+
+        it("Post smtp_type:turris.", () => {
+            fireEvent.click(
+                getByLabelText(NotificationsSettingsContainer, "Turris")
+            );
+            fireEvent.click(getByText(NotificationsSettingsContainer, "Save"));
+
+            expect(mockAxios.post).toBeCalled();
+            const data = {
+                emails: {
+                    common: {
+                        send_news: true,
+                        severity_filter: 1,
+                        to: ["some@example.com"],
+                    },
+                    enabled: true,
+                    smtp_type: "turris",
+                    smtp_turris: { sender_name: "turris" },
+                },
+                ntfy: {
+                    enabled: false,
+                },
+            };
+            expect(mockAxios.post).toHaveBeenCalledWith(
+                "/reforis/api/notifications-settings",
+                data,
+                expect.anything()
+            );
+        });
+
+        it("Post disabled.", () => {
+            fireEvent.click(
+                getByLabelText(
+                    NotificationsSettingsContainer,
+                    ENABLE_CHECKBOX_LABEL
+                )
+            );
+            fireEvent.click(getByText(NotificationsSettingsContainer, "Save"));
+
+            expect(mockAxios.post).toBeCalled();
+            const data = {
+                emails: { enabled: false },
+                ntfy: {
+                    enabled: false,
+                },
+            };
+            expect(mockAxios.post).toHaveBeenCalledWith(
+                "/reforis/api/notifications-settings",
+                data,
+                expect.anything()
+            );
+        });
     });
 
-    it("Disabled", () => {
-        fireEvent.click(
-            getByLabelText(
-                NotificationsSettingsContainer,
-                ENABLE_CHECKBOX_LABEL
-            )
-        );
-        expect(NotificationsSettingsContainer).toMatchSnapshot();
-    });
+    describe("ntfy", () => {
+        it("Disabled", () => {
+            expect(NotificationsSettingsContainer).toMatchSnapshot();
+        });
 
-    it("Enabled,smtp_type:turris", () => {
-        fireEvent.click(
-            getByLabelText(NotificationsSettingsContainer, "Turris")
-        );
-        expect(NotificationsSettingsContainer).toMatchSnapshot();
-    });
+        it("Enabled", () => {
+            fireEvent.click(
+                getByLabelText(
+                    NotificationsSettingsContainer,
+                    "Enable ntfy notifications"
+                )
+            );
+            expect(NotificationsSettingsContainer).toMatchSnapshot();
+        });
 
-    it("Post.", () => {
-        fireEvent.click(getByText(NotificationsSettingsContainer, "Save"));
+        it("Post.", () => {
+            fireEvent.click(
+                getByLabelText(
+                    NotificationsSettingsContainer,
+                    "Enable ntfy notifications"
+                )
+            );
 
-        expect(mockAxios.post).toBeCalled();
-        const data = {
-            common: {
-                send_news: true,
-                severity_filter: 1,
-                to: ["some@example.com"],
-            },
-            enabled: true,
-            smtp_custom: {
-                from: "router@example.com",
-                host: "example.com",
-                password: "test_password",
-                port: 465,
-                security: "ssl",
-                username: "root",
-            },
-            smtp_type: "custom",
-        };
-        expect(mockAxios.post).toHaveBeenCalledWith(
-            "/reforis/api/notifications-settings",
-            data,
-            expect.anything()
-        );
-    });
+            fireEvent.input(
+                getByLabelText(NotificationsSettingsContainer, "URL"),
+                { target: { value: "https://example.com" } }
+            );
 
-    it("Post smtp_type:turris.", () => {
-        fireEvent.click(
-            getByLabelText(NotificationsSettingsContainer, "Turris")
-        );
-        fireEvent.click(getByText(NotificationsSettingsContainer, "Save"));
+            fireEvent.change(
+                getByLabelText(NotificationsSettingsContainer, "Priority"),
+                { target: { value: "max" } }
+            );
 
-        expect(mockAxios.post).toBeCalled();
-        const data = {
-            common: {
-                send_news: true,
-                severity_filter: 1,
-                to: ["some@example.com"],
-            },
-            enabled: true,
-            smtp_type: "turris",
-            smtp_turris: { sender_name: "turris" },
-        };
-        expect(mockAxios.post).toHaveBeenCalledWith(
-            "/reforis/api/notifications-settings",
-            data,
-            expect.anything()
-        );
-    });
+            fireEvent.click(getByText(NotificationsSettingsContainer, "Save"));
 
-    it("Post disabled.", () => {
-        fireEvent.click(
-            getByLabelText(
-                NotificationsSettingsContainer,
-                ENABLE_CHECKBOX_LABEL
-            )
-        );
-        fireEvent.click(getByText(NotificationsSettingsContainer, "Save"));
-
-        expect(mockAxios.post).toBeCalled();
-        const data = { enabled: false };
-        expect(mockAxios.post).toHaveBeenCalledWith(
-            "/reforis/api/notifications-settings",
-            data,
-            expect.anything()
-        );
+            const data = {
+                emails: {
+                    common: {
+                        send_news: true,
+                        severity_filter: 1,
+                        to: ["some@example.com"],
+                    },
+                    enabled: true,
+                    smtp_custom: {
+                        from: "router@example.com",
+                        host: "example.com",
+                        password: "test_password",
+                        port: 465,
+                        security: "ssl",
+                        username: "root",
+                    },
+                    smtp_type: "custom",
+                },
+                ntfy: {
+                    enabled: true,
+                    url: "https://example.com",
+                    priority: "max",
+                },
+            };
+            expect(mockAxios.post).toBeCalled();
+            expect(mockAxios.post).toHaveBeenCalledWith(
+                "/reforis/api/notifications-settings",
+                data,
+                expect.anything()
+            );
+        });
     });
 
     describe("<TestNotification/>", () => {
