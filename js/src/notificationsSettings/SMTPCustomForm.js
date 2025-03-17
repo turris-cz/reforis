@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -67,7 +67,9 @@ export default function SMTPCustomForm({
                 placeholder="router@example.com"
                 required
                 onChange={setFormValue((value) => ({
-                    smtp_custom: { from: { $set: value } },
+                    emails: {
+                        smtp_custom: { from: { $set: value } },
+                    },
                 }))}
                 disabled={disabled}
             />
@@ -78,7 +80,9 @@ export default function SMTPCustomForm({
                 placeholder="example.com"
                 required
                 onChange={setFormValue((value) => ({
-                    smtp_custom: { host: { $set: value } },
+                    emails: {
+                        smtp_custom: { host: { $set: value } },
+                    },
                 }))}
                 disabled={disabled}
             />
@@ -89,7 +93,9 @@ export default function SMTPCustomForm({
                 min={1}
                 max={65535}
                 onChange={setFormValue((value) => ({
-                    smtp_custom: { port: { $set: value } },
+                    emails: {
+                        smtp_custom: { port: { $set: value } },
+                    },
                 }))}
                 disabled={disabled}
             />
@@ -98,7 +104,9 @@ export default function SMTPCustomForm({
                 value={formData.security}
                 choices={SECURITY_CHOICES}
                 onChange={setFormValue((value) => ({
-                    smtp_custom: { security: { $set: value } },
+                    emails: {
+                        smtp_custom: { security: { $set: value } },
+                    },
                 }))}
                 disabled={disabled}
             />
@@ -106,7 +114,9 @@ export default function SMTPCustomForm({
                 label={_("Username")}
                 value={formData.username || ""}
                 onChange={setFormValue((value) => ({
-                    smtp_custom: { username: { $set: value } },
+                    emails: {
+                        smtp_custom: { username: { $set: value } },
+                    },
                 }))}
                 disabled={disabled}
             />
@@ -115,7 +125,9 @@ export default function SMTPCustomForm({
                 withEye
                 value={formData.password || ""}
                 onChange={setFormValue((value) => ({
-                    smtp_custom: { password: { $set: value } },
+                    emails: {
+                        smtp_custom: { password: { $set: value } },
+                    },
                 }))}
                 disabled={disabled}
             />

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -53,7 +53,9 @@ export default function CommonForm({
                 helpText={HELP_TEXTS.common.to}
                 required
                 onChange={setFormValue((value) => ({
-                    common: { to: { $set: value } },
+                    emails: {
+                        common: { to: { $set: value } },
+                    },
                 }))}
                 disabled={disabled}
             />
@@ -62,7 +64,9 @@ export default function CommonForm({
                 value={formData.severity_filter}
                 choices={SEVERITY_OPTIONS}
                 onChange={setFormValue((value) => ({
-                    common: { severity_filter: { $set: parseInt(value) } },
+                    emails: {
+                        common: { severity_filter: { $set: parseInt(value) } },
+                    },
                 }))}
                 disabled={disabled}
             />
@@ -71,7 +75,9 @@ export default function CommonForm({
                 checked={formData.send_news}
                 helpText={HELP_TEXTS.common.send_news}
                 onChange={setFormValue((value) => ({
-                    common: { send_news: { $set: value } },
+                    emails: {
+                        common: { send_news: { $set: value } },
+                    },
                 }))}
                 disabled={disabled}
             />

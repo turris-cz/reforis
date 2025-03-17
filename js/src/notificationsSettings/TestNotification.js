@@ -1,6 +1,6 @@
 /*
 /*
- * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -117,7 +117,7 @@ export default function TestNotification({
                     </Alert>
                 )}
                 <div className={formFieldsSize}>
-                    <h2>{_("Test Notification")}</h2>
+                    <h2>{_("Test Email Notification")}</h2>
                     <p>
                         {_(
                             "Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox."

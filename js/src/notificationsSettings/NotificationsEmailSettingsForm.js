@@ -84,7 +84,7 @@ export default function NotificationsEmailSettingsForm({
         <>
             <h2>{_("Email Notification Settings")}</h2>
             <Switch
-                label={_("Enable Email Notifications")}
+                label={_("Enable email notifications")}
                 checked={emailsFormData.enabled}
                 onChange={setFormValue((value) => ({
                     emails: {
@@ -93,7 +93,7 @@ export default function NotificationsEmailSettingsForm({
                 }))}
                 disabled={disabled}
             />
-            {emailsFormData.enabled ? (
+            {emailsFormData.enabled && (
                 <>
                     <RadioSet
                         label={_("SMTP provider")}
@@ -117,7 +117,7 @@ export default function NotificationsEmailSettingsForm({
                     />
                     {smtpForm}
                 </>
-            ) : null}
+            )}
         </>
     );
 }

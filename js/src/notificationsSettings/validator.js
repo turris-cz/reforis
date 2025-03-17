@@ -9,15 +9,33 @@ import { validateMultipleEmails } from "foris";
 
 export default function validator(formData) {
     const { emails: emailsFormData } = formData;
+    const { ntfy: ntfyFormData } = formData;
 
     const errors = {};
-    if (!emailsFormData.enabled) return undefined;
 
-    errors.common = commonValidator(emailsFormData.common);
-    if (emailsFormData.smtp_type === "turris")
-        errors.smtp_turris = smtpTurrisValidator(emailsFormData.smtp_turris);
-    else if (emailsFormData.smtp_type === "custom")
-        errors.smtp_custom = smtpCustomValidator(emailsFormData.smtp_custom);
+    if (emailsFormData.enabled) {
+        errors.common = commonValidator(emailsFormData.common);
+        if (emailsFormData.smtp_type === "turris")
+            errors.smtp_turris = smtpTurrisValidator(
+                emailsFormData.smtp_turris
+            );
+        else if (emailsFormData.smtp_type === "custom")
+            errors.smtp_custom = smtpCustomValidator(
+                emailsFormData.smtp_custom
+            );
+    } else {
+        errors.common = undefined;
+        errors.smtp_turris = undefined;
+        errors.smtp_custom = undefined;
+    }
+
+    if (ntfyFormData.enabled) {
+        if (ntfyFormData.url === "")
+            errors.ntfy = { url: _("Can't be empty.") };
+    } else {
+        errors.ntfy = undefined;
+    }
+
     return JSON.stringify(errors) !== "{}" ? errors : undefined;
 }
 

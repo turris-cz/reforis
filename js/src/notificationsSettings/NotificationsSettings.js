@@ -7,12 +7,14 @@
 
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ForisForm } from "foris";
 import PropTypes from "prop-types";
 
 import API_URLs from "common/API";
 
 import NotificationsEmailSettingsForm from "./NotificationsEmailSettingsForm";
+import NotificationsNtfySettingsForm from "./NotificationsNtfySettingsForm";
 import TestNotification from "./TestNotification";
 import validator from "./validator";
 
@@ -26,7 +28,23 @@ export default function NotificationsSettings({ ws }) {
             <h1>{_("Notifications")}</h1>
             <p>
                 {_(
-                    "Your device can send you e-mail notifications about required reboots, important events, installed updates and new features according to your settings. When done with configuration, you can test it by pressing Send test notification."
+                    "Your device can send you e-mail notifications about required reboots, important events, installed updates, and new features according to your settings. Once you are done with the configuration, you can test it by pressing Send test notification. Additionally, you can use "
+                )}
+                <a
+                    href="https://ntfy.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    {_("ntfy")}
+                    <sup>
+                        <FontAwesomeIcon
+                            icon={["fas", "external-link-alt"]}
+                            className="fa-sm ms-1"
+                        />
+                    </sup>
+                </a>
+                {_(
+                    " to receive real-time push notifications directly to your mobile device or desktop. ntfy allows you to subscribe to topics and get instant alerts without the need for email."
                 )}
             </p>
             <ForisForm
@@ -41,6 +59,7 @@ export default function NotificationsSettings({ ws }) {
                 validator={validator}
             >
                 <NotificationsEmailSettingsForm />
+                <NotificationsNtfySettingsForm />
                 <TestNotification />
             </ForisForm>
             <div id="test-notification" />
@@ -54,14 +73,33 @@ function prepData(formData) {
 }
 
 function prepDataToSubmit(formData) {
-    if (!formData.emails.enabled) return { emails: { enabled: false } };
-    formData.emails.common.to = formData.emails.common.to
-        .replace(/\s+/g, "")
-        .split(",");
+    // Emails
+    if (formData.emails.enabled) {
+        formData.emails.common.to = formData.emails.common.to
+            .replace(/\s+/g, "")
+            .split(",");
 
-    if (formData.emails.smtp_type === "turris")
-        delete formData.emails.smtp_custom;
-    else if (formData.emails.smtp_type === "custom")
-        delete formData.emails.smtp_turris;
+        if (formData.emails.smtp_type === "turris")
+            delete formData.emails.smtp_custom;
+        else if (formData.emails.smtp_type === "custom")
+            delete formData.emails.smtp_turris;
+    } else {
+        formData.emails = {
+            enabled: false,
+        };
+    }
+
+    // Ntfy
+    if (formData.ntfy.enabled) {
+        formData.ntfy.url = formData.ntfy.url.trim();
+    } else {
+        formData.ntfy = {
+            enabled: false,
+        };
+    }
+
+    // Reboots
+    delete formData.reboots;
+
     return formData;
 }

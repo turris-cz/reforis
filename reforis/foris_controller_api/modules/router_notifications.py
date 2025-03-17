@@ -1,4 +1,4 @@
-#  Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+#  Copyright (C) 2020-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
 #
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
@@ -65,7 +65,7 @@ def notifications_settings():
     .. http:get:: /api/notifications-settings
         Get router notifications settings.
         See `foris-controller JSON schema
-        <https://gitlab.labs.nic.cz/turris/foris-controller/blob/master/foris_controller_modules/router_notifications/schema/router_notifications.json>`_.
+        <https://gitlab.nic.cz/turris/foris-controller/foris-controller/-/blob/master/foris_controller_modules/router_notifications/schema/router_notifications.json>`_.
 
         **Example response**:
 
@@ -90,6 +90,11 @@ def notifications_settings():
                     "smtp_turris": {"sender_name": "turris"},
                     "smtp_type": "custom"
                 },
+                ntfy: {
+                    "enabled": true,
+                    "priority": "high",
+                    "url": "https://api.example.com",
+                },
                 "reboots": {"delay": 3,"time": "03:30"}
                 }
             }
@@ -97,7 +102,7 @@ def notifications_settings():
     .. http:post:: /api/notifications-settings
         Set router notifications settings.
         See `foris-controller JSON schema
-        <https://gitlab.labs.nic.cz/turris/foris-controller/blob/master/foris_controller_modules/router_notifications/schema/router_notifications.json>`_.
+        <https://gitlab.nic.cz/turris/foris-controller/foris-controller/-/blob/master/foris_controller_modules/router_notifications/schema/router_notifications.json>`_.
         For request example see `GET` method of this endpoint.
     """
     response = None
@@ -108,7 +113,7 @@ def notifications_settings():
         response = current_app.backend.perform(
             "router_notifications",
             "update_settings",
-            {"emails": data},
+            data,
         )
     return jsonify(response)
 
