@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -8,14 +8,34 @@
 import { validateMultipleEmails } from "foris";
 
 export default function validator(formData) {
-    const errors = {};
-    if (!formData.enabled) return undefined;
+    const { emails: emailsFormData } = formData;
+    const { ntfy: ntfyFormData } = formData;
 
-    errors.common = commonValidator(formData.common);
-    if (formData.smtp_type === "turris")
-        errors.smtp_turris = smtpTurrisValidator(formData.smtp_turris);
-    else if (formData.smtp_type === "custom")
-        errors.smtp_custom = smtpCustomValidator(formData.smtp_custom);
+    const errors = {};
+
+    if (emailsFormData.enabled) {
+        errors.common = commonValidator(emailsFormData.common);
+        if (emailsFormData.smtp_type === "turris")
+            errors.smtp_turris = smtpTurrisValidator(
+                emailsFormData.smtp_turris
+            );
+        else if (emailsFormData.smtp_type === "custom")
+            errors.smtp_custom = smtpCustomValidator(
+                emailsFormData.smtp_custom
+            );
+    } else {
+        errors.common = undefined;
+        errors.smtp_turris = undefined;
+        errors.smtp_custom = undefined;
+    }
+
+    if (ntfyFormData.enabled) {
+        if (ntfyFormData.url === "")
+            errors.ntfy = { url: _("Can't be empty.") };
+    } else {
+        errors.ntfy = undefined;
+    }
+
     return JSON.stringify(errors) !== "{}" ? errors : undefined;
 }
 

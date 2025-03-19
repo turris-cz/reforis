@@ -1,6 +1,6 @@
 /*
 /*
- * Copyright (C) 2019-2023 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -38,19 +38,23 @@ export const SEVERITY_ALERT_MESSAGE = _(
 
 TestNotification.propTypes = {
     formData: PropTypes.shape({
-        enabled: PropTypes.bool,
-        common: PropTypes.shape({
-            severity_filter: PropTypes.oneOf(
-                Object.keys(SEVERITY_OPTIONS).map((key) => parseInt(key))
-            ).isRequired,
+        emails: PropTypes.shape({
+            enabled: PropTypes.bool,
+            common: PropTypes.shape({
+                severity_filter: PropTypes.oneOf(
+                    Object.keys(SEVERITY_OPTIONS).map((key) => parseInt(key))
+                ).isRequired,
+            }),
         }),
     }).isRequired,
     initialData: PropTypes.shape({
-        enabled: PropTypes.bool,
-        common: PropTypes.shape({
-            severity_filter: PropTypes.oneOf(
-                Object.keys(SEVERITY_OPTIONS).map((key) => parseInt(key))
-            ).isRequired,
+        emails: PropTypes.shape({
+            enabled: PropTypes.bool,
+            common: PropTypes.shape({
+                severity_filter: PropTypes.oneOf(
+                    Object.keys(SEVERITY_OPTIONS).map((key) => parseInt(key))
+                ).isRequired,
+            }),
         }),
     }).isRequired,
     formErrors: PropTypes.shape({ enabled: PropTypes.bool }),
@@ -66,6 +70,8 @@ export default function TestNotification({
     formErrors,
     initialData,
 }) {
+    const { emails: emailsFormData } = formData;
+    const { emails: initialDataEmails } = initialData;
     const [postState, post] = useAPIPost(API_URLs.sendTestNotification);
     const [setAlert] = useAlert();
     const [modalShown, setModalShown] = useState(false);
@@ -78,12 +84,14 @@ export default function TestNotification({
         }
     }, [setAlert, postState]);
 
-    if (!formData.enabled) {
+    if (!emailsFormData.enabled) {
         return null;
     }
 
     const onTestNotificationHandler = () => {
-        if (JSON.stringify(initialData) !== JSON.stringify(formData)) {
+        if (
+            JSON.stringify(initialDataEmails) !== JSON.stringify(emailsFormData)
+        ) {
             setModalShown(true);
             return;
         }
@@ -96,8 +104,8 @@ export default function TestNotification({
     };
 
     const postIsSending = postState.state === API_STATE.SENDING;
-    const showSeverityAlert = initialData
-        ? initialData.common.severity_filter < 2
+    const showSeverityAlert = initialDataEmails
+        ? initialDataEmails.common.severity_filter < 2
         : false;
 
     return (
@@ -109,7 +117,7 @@ export default function TestNotification({
                     </Alert>
                 )}
                 <div className={formFieldsSize}>
-                    <h2>{_("Test Notification")}</h2>
+                    <h2>{_("Test Email Notification")}</h2>
                     <p>
                         {_(
                             "Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox."
