@@ -496,7 +496,7 @@ exports[`Overview Snapshot of the whole page 1`] = `
     id="notifications-center"
   >
     <div
-      class="card border-info"
+      class="card border-primary"
     >
       <div
         class="card-header"
