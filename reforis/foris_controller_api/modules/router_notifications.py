@@ -123,26 +123,19 @@ def send_test_notification():
         "router_notifications",
         "create",
         {
-            "msg": _(
-                """This is a testing notification.
-
-Please note it would be sent to your e-mail address only if you set
-the importance level to "Reboot or attention is required" or higher."""
-            ),
-            "severity": "error",
+            "msg": _("If you see this message, your notification settings seem to be correct. Have a nice day! 😊"),
+            "severity": "test",
             "immediate": True,
         },
     )
-
     if response["result"]:
-        return jsonify(_("The testing message has been sent, please check your inbox.")), HTTPStatus.OK
+        return jsonify(_("Test notification sent successfully.")), HTTPStatus.OK
 
     return jsonify(
-        _("Sending of the testing message failed, your configuration is possibly wrong.")
+        _("Cannot send test notification. Please check your configuration.")
     ), HTTPStatus.INTERNAL_SERVER_ERROR
 
 
-# pylint: disable=invalid-name
 views = [
     {
         "rule": "/notifications",

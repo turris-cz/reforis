@@ -55,6 +55,7 @@ import {
     faTrash,
     faUserCog,
     faUserShield,
+    faVial,
     faWifi,
     faPenToSquare,
 } from "@fortawesome/free-solid-svg-icons";
@@ -106,6 +107,7 @@ library.add(
     faTrash,
     faUserCog,
     faUserShield,
+    faVial,
     faWifi,
     faPenToSquare
 );

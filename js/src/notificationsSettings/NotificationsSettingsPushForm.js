@@ -19,7 +19,7 @@ const PRIORITY_CHOICES = {
     min: _("Min"),
 };
 
-NotificationsNtfySettingsForm.propTypes = {
+NotificationsPushSettingsForm.propTypes = {
     formData: PropTypes.shape({
         ntfy: PropTypes.shape({
             enabled: PropTypes.bool,
@@ -36,13 +36,13 @@ NotificationsNtfySettingsForm.propTypes = {
     disabled: PropTypes.bool,
 };
 
-NotificationsNtfySettingsForm.defaultProps = {
+NotificationsPushSettingsForm.defaultProps = {
     setFormValue: () => {},
     formData: {},
     formErrors: {},
 };
 
-export default function NotificationsNtfySettingsForm({
+export default function NotificationsPushSettingsForm({
     formData,
     formErrors,
     setFormValue,
@@ -51,9 +51,9 @@ export default function NotificationsNtfySettingsForm({
     const { ntfy: ntfyFormData } = formData;
     return (
         <>
-            <h2>{_("ntfy Notification Settings")}</h2>
+            <h2>{_("Push Notification Settings")}</h2>
             <Switch
-                label={_("Enable ntfy notifications")}
+                label={_("Enable push notifications")}
                 checked={ntfyFormData.enabled}
                 onChange={setFormValue((value) => ({
                     ntfy: {
@@ -73,7 +73,9 @@ export default function NotificationsNtfySettingsForm({
                                 url: { $set: value },
                             },
                         }))}
-                        helpText={_("URL to send ntfy notifications to.")}
+                        helpText={_(
+                            "Specify the URL to the ntfy server topic. Example format: https://ntfy.sh/example"
+                        )}
                         disabled={disabled}
                     />
                     <Select
@@ -88,7 +90,7 @@ export default function NotificationsNtfySettingsForm({
                                 },
                             },
                         }))}
-                        helpText={_("Priority of the ntfy notification.")}
+                        helpText={_("Priority of the push notifications.")}
                     />
                 </>
             )}

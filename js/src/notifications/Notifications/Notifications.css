@@ -30,10 +30,18 @@
     justify-content: space-between;
 }
 
+#notifications-center .highlight-primary {
+    background-color: var(--bs-primary-bg-subtle);
+}
+
 #notifications-center .highlight-danger {
     background-color: var(--bs-danger-bg-subtle);
 }
 
 #notifications-center .highlight-info {
     background-color: var(--bs-info-bg-subtle);
+}
+
+#notifications-center .highlight-success {
+    background-color: var(--bs-success-bg-subtle);
 }

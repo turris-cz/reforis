@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -36,6 +36,10 @@ export default function NotificationIcon({ severity, className }) {
         case SEVERITIES.UPDATE:
             iconName = "sync-alt";
             iconColor = "text-primary";
+            break;
+        case SEVERITIES.TEST:
+            iconName = "vial";
+            iconColor = "text-info";
             break;
         default:
     }

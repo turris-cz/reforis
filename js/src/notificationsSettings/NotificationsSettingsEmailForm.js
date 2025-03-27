@@ -7,10 +7,9 @@
 
 import React from "react";
 
-import { Switch, RadioSet } from "foris";
+import { Switch, RadioSet, TextInput } from "foris";
 import PropTypes from "prop-types";
 
-import CommonForm from "./CommonForm";
 import HELP_TEXTS from "./helpTexts";
 import SMTPCustomForm from "./SMTPCustomForm";
 import SMTPTurrisForm from "./SMTPTurrisForm";
@@ -31,7 +30,11 @@ NotificationsEmailSettingsForm.propTypes = {
         emails: PropTypes.shape({
             enabled: PropTypes.bool,
             smtp_type: PropTypes.oneOf(["turris", "custom"]),
-            common: PropTypes.object,
+            common: PropTypes.shape({
+                to: PropTypes.string,
+                severity_filter: PropTypes.number,
+                send_news: PropTypes.bool,
+            }),
             smtp_turris: PropTypes.object,
             smtp_custom: PropTypes.object,
         }),
@@ -39,7 +42,9 @@ NotificationsEmailSettingsForm.propTypes = {
     formErrors: PropTypes.shape({
         smtp_turris: PropTypes.object,
         smtp_custom: PropTypes.object,
-        common: PropTypes.object,
+        common: PropTypes.shape({
+            to: PropTypes.string,
+        }),
     }),
     setFormValue: PropTypes.func.isRequired,
     disabled: PropTypes.bool,
@@ -102,6 +107,7 @@ export default function NotificationsEmailSettingsForm({
                         value={emailsFormData.smtp_type}
                         helpText={HELP_TEXTS.smtp_type}
                         inline
+                        className="mb-0"
                         onChange={setFormValue((value) => ({
                             emails: {
                                 smtp_type: { $set: value },
@@ -109,10 +115,17 @@ export default function NotificationsEmailSettingsForm({
                         }))}
                         disabled={disabled}
                     />
-                    <CommonForm
-                        formData={emailsFormData.common}
-                        formErrors={formErrors.common}
-                        setFormValue={setFormValue}
+                    <TextInput
+                        label={_("Recipient's email")}
+                        value={emailsFormData.common.to || ""}
+                        error={formErrors.common?.to}
+                        helpText={HELP_TEXTS.common.to}
+                        required
+                        onChange={setFormValue((value) => ({
+                            emails: {
+                                common: { to: { $set: value } },
+                            },
+                        }))}
                         disabled={disabled}
                     />
                     {smtpForm}
