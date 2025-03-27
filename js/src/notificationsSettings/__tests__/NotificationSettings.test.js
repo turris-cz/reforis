@@ -19,18 +19,13 @@ import {
 import { WebSockets } from "foris";
 import { mockJSONError } from "foris/testUtils/network";
 import mockAxios from "jest-mock-axios";
-import notificationsSettings, {
-    testNotificationSeverityFixture2,
-    testNotificationSeverityFixture3,
-} from "./__fixtures__/notificationsSettings";
+import notificationsSettings from "./__fixtures__/notificationsSettings";
 
 import NotificationsSettings from "../NotificationsSettings";
-import {
-    UNSAVED_CHANGES_MODAL_MESSAGE,
-    SEVERITY_ALERT_MESSAGE,
-} from "../TestNotification";
+import { UNSAVED_CHANGES_MODAL_MESSAGE } from "../TestNotification";
 
-const ENABLE_CHECKBOX_LABEL = "Enable email notifications";
+const ENABLE_EMAIL_NOTIFICATIONS = "Enable email notifications";
+const ENABLE_PUSH_NOTIFICATIONS = "Enable push notifications";
 
 describe("<NotificationsSettings/>", () => {
     let NotificationsSettingsContainer;
@@ -47,7 +42,7 @@ describe("<NotificationsSettings/>", () => {
         NotificationsSettingsContainer = container;
         await wait(() => {
             expect(
-                getByLabelText(container, ENABLE_CHECKBOX_LABEL)
+                getByLabelText(container, ENABLE_EMAIL_NOTIFICATIONS)
             ).toBeTruthy();
         });
     });
@@ -70,7 +65,7 @@ describe("<NotificationsSettings/>", () => {
             fireEvent.click(
                 getByLabelText(
                     NotificationsSettingsContainer,
-                    ENABLE_CHECKBOX_LABEL
+                    ENABLE_EMAIL_NOTIFICATIONS
                 )
             );
             expect(NotificationsSettingsContainer).toMatchSnapshot();
@@ -149,7 +144,7 @@ describe("<NotificationsSettings/>", () => {
             fireEvent.click(
                 getByLabelText(
                     NotificationsSettingsContainer,
-                    ENABLE_CHECKBOX_LABEL
+                    ENABLE_EMAIL_NOTIFICATIONS
                 )
             );
             fireEvent.click(getByText(NotificationsSettingsContainer, "Save"));
@@ -169,7 +164,7 @@ describe("<NotificationsSettings/>", () => {
         });
     });
 
-    describe("ntfy", () => {
+    describe("Push notifications", () => {
         it("Disabled", () => {
             expect(NotificationsSettingsContainer).toMatchSnapshot();
         });
@@ -178,7 +173,7 @@ describe("<NotificationsSettings/>", () => {
             fireEvent.click(
                 getByLabelText(
                     NotificationsSettingsContainer,
-                    "Enable ntfy notifications"
+                    ENABLE_PUSH_NOTIFICATIONS
                 )
             );
             expect(NotificationsSettingsContainer).toMatchSnapshot();
@@ -188,7 +183,7 @@ describe("<NotificationsSettings/>", () => {
             fireEvent.click(
                 getByLabelText(
                     NotificationsSettingsContainer,
-                    "Enable ntfy notifications"
+                    ENABLE_PUSH_NOTIFICATIONS
                 )
             );
 
@@ -238,73 +233,29 @@ describe("<NotificationsSettings/>", () => {
     });
 
     describe("<TestNotification/>", () => {
-        let option;
+        it("Should send POST request on send test notification", async () => {
+            fireEvent.click(getByText(NotificationsSettingsContainer, "Send"));
 
-        beforeEach(() => {
-            option = getByLabelText(
-                NotificationsSettingsContainer,
-                /Importance/
-            );
-        });
-
-        it("Displaying test notification importance warning (severity: 1)", () => {
-            expect(
-                NotificationsSettingsContainer.childNodes[3].childNodes[0]
-                    .innerHTML
-            ).toEqual(SEVERITY_ALERT_MESSAGE);
-            expect(
-                NotificationsSettingsContainer.childNodes[3]
-            ).toMatchSnapshot();
-        });
-
-        it("No test notification importance warning (severity: 2)", () => {
-            fireEvent.change(option, {
-                target: {
-                    value: "2",
-                },
-            });
-            fireEvent.click(getByText(NotificationsSettingsContainer, "Save"));
-
+            expect(mockAxios.post).toBeCalled();
             expect(mockAxios.post).toHaveBeenCalledWith(
-                "/reforis/api/notifications-settings",
-                testNotificationSeverityFixture2(),
+                "/reforis/api/send-test-notification",
+                undefined,
                 expect.anything()
             );
-            expect(
-                NotificationsSettingsContainer.childNodes[3]
-            ).toMatchSnapshot();
-        });
-
-        it("No test notification importance warning (severity: 3)", () => {
-            fireEvent.change(option, {
-                target: {
-                    value: "3",
-                },
-            });
-            fireEvent.click(getByText(NotificationsSettingsContainer, "Save"));
-
-            expect(mockAxios.post).toHaveBeenCalledWith(
-                "/reforis/api/notifications-settings",
-                testNotificationSeverityFixture3(),
-                expect.anything()
-            );
-            expect(
-                NotificationsSettingsContainer.childNodes[3]
-            ).toMatchSnapshot();
         });
 
         it("Should toggle unsaved changes warning modal", async () => {
-            fireEvent.change(option, {
+            const importanceLevel = getByLabelText(
+                NotificationsSettingsContainer,
+                /Importance/
+            );
+
+            fireEvent.change(importanceLevel, {
                 target: {
                     value: "2",
                 },
             });
-            fireEvent.click(
-                getByText(
-                    NotificationsSettingsContainer,
-                    "Send test notification"
-                )
-            );
+            fireEvent.click(getByText(NotificationsSettingsContainer, "Send"));
             await waitForElement(() =>
                 getByText(
                     NotificationsSettingsContainer,
