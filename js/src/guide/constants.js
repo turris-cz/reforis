@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2020-2025 CZ.NIC z.s.p.o. (http://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -11,7 +11,10 @@ const HELP_CONTENT_DEFAULTS = {
     password: {
         initial: [
             _(
-                "Welcome to reForis web interface. This guide will help you to setup your device. Firstly it is required to set your password. Note the security of your home network is in your hands, so try not to use weak passwords."
+                "Welcome to reForis web interface. This guide will help you to setup your device."
+            ),
+            _(
+                "Firstly it is required to set your password. Note the security of your home network is in your hands, so try not to use weak passwords."
             ),
         ],
         completed: _("Your password is set. You may proceed to the next step."),
@@ -58,6 +61,17 @@ const HELP_CONTENT_DEFAULTS = {
         ),
         completed: _(
             "You've configured your LAN interface. Try to test whether settings work properly and if so you can safely proceed to the next step."
+        ),
+    },
+    sentinel: {
+        initial: [
+            _("To activate Sentinel, you must accept the licence agreement."),
+            _(
+                "If you choose not to accept it, Sentinel will remain installed and accessible from the sidebar navigation, but it will not be active."
+            ),
+        ],
+        completed: _(
+            "Sentinel is now set up. You can check its status and settings in the sidebar navigation."
         ),
     },
     updater: {
