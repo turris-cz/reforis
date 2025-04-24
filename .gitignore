@@ -116,3 +116,6 @@ venv.bak/
 /reforis_static/reforis/css/main.css
 /js/styleguide/
 /js/stats.json
+
+## Ruff cache
+.ruff_cache/
