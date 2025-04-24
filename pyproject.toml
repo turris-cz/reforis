@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "reforis"
-version = "3.4.0"
+version = "3.5.0"
 description = "reForis is the latest, simple, and most user-friendly interface for Turris routers."
 readme = "README.md"
 license = "GPL-3.0-or-later"
