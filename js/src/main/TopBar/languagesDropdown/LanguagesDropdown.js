@@ -28,10 +28,11 @@ LanguagesDropdown.defaultProps = {
 
 export default function LanguagesDropdown({ ws, className }) {
     const [currentLang, langsList] = useLanguages();
-    useWSSetLanguageRefresh(ws);
-
     const [, post] = useAPIPost(API_URLs.language);
 
+    useWSSetLanguageRefresh(ws);
+
+    const sortedLangsList = langsList ? langsList.sort() : [];
     return (
         <div className="dropdown">
             <button
@@ -66,7 +67,7 @@ export default function LanguagesDropdown({ ws, className }) {
                 <div className="dropdown-divider" />
                 {langsList ? (
                     <>
-                        {langsList.map((lang) => (
+                        {sortedLangsList.map((lang) => (
                             <li key={lang}>
                                 <button
                                     key={lang}
