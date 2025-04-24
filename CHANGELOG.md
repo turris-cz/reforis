@@ -8,6 +8,26 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.5.0] - 2025-04-24
+
+### Added
+
+- Added & updated Weblate translations
+- Added ntfy support for notifications
+- Add Tamil and Traditional Chinese language support in LanguagesDropdown
+
+### Changed
+
+- Sorted languages list in LanguagesDropdown
+- Updated several dependencies in package.json
+- Refactored email notification settings
+- Refactored TestNotification to be unified for email & push notifications
+- NPM audit fix
+
+### Removed
+
+- Removed fsevents from package-lock.json
+
 ## [3.4.0] - 2025-03-12
 
 ### Added
@@ -683,7 +703,8 @@ and this project adheres to
 
 - Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.4.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.5.0...master
+[3.5.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.4.0...v3.5.0
 [3.4.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.3.0...v3.4.0
 [3.3.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.2.1...v3.3.0
 [3.2.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.2.0...v3.2.1

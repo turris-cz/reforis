@@ -56,6 +56,18 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
           />
           <li>
             <button
+              class="dropdown-item d-flex align-items-center"
+              type="button"
+            >
+              <span
+                class="me-2"
+              >
+                Čeština
+              </span>
+            </button>
+          </li>
+          <li>
+            <button
               class="dropdown-item d-flex align-items-center active fw-bold"
               type="button"
             >
@@ -67,18 +79,6 @@ exports[`<Guide/>  Snapshot. Just check if render correct page. 1`] = `
               <i
                 class="fa"
               />
-            </button>
-          </li>
-          <li>
-            <button
-              class="dropdown-item d-flex align-items-center"
-              type="button"
-            >
-              <span
-                class="me-2"
-              >
-                Čeština
-              </span>
             </button>
           </li>
           <li>
