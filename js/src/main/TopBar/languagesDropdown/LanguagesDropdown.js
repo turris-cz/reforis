@@ -142,5 +142,7 @@ function mapLangCodeToName() {
         ru: "Русский",
         sk: "Slovenčina",
         sv: "Svenska",
+        ta: "தமிழ்",
+        zh_Hant: "繁體中文",
     };
 }
