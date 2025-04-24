@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 CZ.NIC z.s.p.o. (http://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -12,14 +12,17 @@ const HELP_TEXTS = {
             'select "Custom" and enter required settings.'
     ),
     common: {
+        severity_filter: _(
+            "Depending on the importance or severity of the notification, you can choose to receive notifications about all events or only about those that require your attention."
+        ),
         to: _(
             "Email address of recipient. Separate multiple addresses by comma."
         ),
-        send_news: _("Send emails about new features."),
+        send_news: _("Send notifications about new releases."),
     },
     smtp_turris: {
         sender_name: _(
-            'Name of the sender - will be used as a part of the sender\'s email address before the "at" sign.'
+            'Name of the sender that will be used before the "at" symbol in the email address. For example: "home-router@notify.turis.cz"'
         ),
     },
     smtp_custom: {

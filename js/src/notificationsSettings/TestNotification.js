@@ -11,7 +11,6 @@ import React, { useEffect, useState } from "react";
 import {
     ALERT_TYPES,
     API_STATE,
-    Alert,
     Button,
     Portal,
     Modal,
@@ -29,11 +28,7 @@ import API_URLs from "common/API";
 import { SEVERITY_OPTIONS } from "./CommonForm";
 
 export const UNSAVED_CHANGES_MODAL_MESSAGE = _(
-    "There are some unsaved changes in the notifications settings. Do you want to discard them and test the notifications with the old settings?"
-);
-
-export const SEVERITY_ALERT_MESSAGE = _(
-    'You will not receive the test notification to your email inbox with current importance level. Please raise the importance level at least to "Reboot or attention is required" and click "Save" button if you want to get this notification by email.'
+    "You have unsaved changes in your notification settings. Do you want to discard them and test notifications using the previous settings?"
 );
 
 TestNotification.propTypes = {
@@ -46,6 +41,9 @@ TestNotification.propTypes = {
                 ).isRequired,
             }),
         }),
+        ntfy: PropTypes.shape({
+            enabled: PropTypes.bool,
+        }),
     }).isRequired,
     initialData: PropTypes.shape({
         emails: PropTypes.shape({
@@ -55,6 +53,9 @@ TestNotification.propTypes = {
                     Object.keys(SEVERITY_OPTIONS).map((key) => parseInt(key))
                 ).isRequired,
             }),
+        }),
+        ntfy: PropTypes.shape({
+            enabled: PropTypes.bool,
         }),
     }).isRequired,
     formErrors: PropTypes.shape({ enabled: PropTypes.bool }),
@@ -72,6 +73,9 @@ export default function TestNotification({
 }) {
     const { emails: emailsFormData } = formData;
     const { emails: initialDataEmails } = initialData;
+    const { ntfy: ntfyFormData } = formData;
+    const { ntfy: initialDataNtfy } = initialData;
+
     const [postState, post] = useAPIPost(API_URLs.sendTestNotification);
     const [setAlert] = useAlert();
     const [modalShown, setModalShown] = useState(false);
@@ -84,13 +88,15 @@ export default function TestNotification({
         }
     }, [setAlert, postState]);
 
-    if (!emailsFormData.enabled) {
+    if (!emailsFormData.enabled && !ntfyFormData.enabled) {
         return null;
     }
 
-    const onTestNotificationHandler = () => {
+    const validateAndPostTestNotification = () => {
         if (
-            JSON.stringify(initialDataEmails) !== JSON.stringify(emailsFormData)
+            JSON.stringify(initialDataEmails) !==
+                JSON.stringify(emailsFormData) ||
+            JSON.stringify(initialDataNtfy) !== JSON.stringify(ntfyFormData)
         ) {
             setModalShown(true);
             return;
@@ -98,49 +104,39 @@ export default function TestNotification({
         post();
     };
 
-    const onPostHandler = () => {
-        post();
+    const submitPostNotification = () => {
         setModalShown(false);
+        post();
     };
 
     const postIsSending = postState.state === API_STATE.SENDING;
-    const showSeverityAlert = initialDataEmails
-        ? initialDataEmails.common.severity_filter < 2
-        : false;
 
     return (
-        <>
-            <Portal containerId="test-notification">
-                {showSeverityAlert && (
-                    <Alert type={ALERT_TYPES.WARNING}>
-                        {SEVERITY_ALERT_MESSAGE}
-                    </Alert>
-                )}
-                <div className={formFieldsSize}>
-                    <h2>{_("Test Email Notification")}</h2>
-                    <p>
-                        {_(
-                            "Here you can verify whether SMTP is configured correctly by sending a test notification to your email inbox."
-                        )}
-                    </p>
-                    <div className="text-end">
-                        <Button
-                            forisFormSize
-                            loading={postIsSending}
-                            disabled={postIsSending || formErrors}
-                            onClick={onTestNotificationHandler}
-                        >
-                            {_("Send test notification")}
-                        </Button>
-                    </div>
+        <Portal containerId="test-notification">
+            <div className={formFieldsSize}>
+                <h2>{_("Send Test Notification")}</h2>
+                <p>
+                    {_(
+                        "Here you can verify whether your SMTP provider or push notifications are configured correctly by sending a test notification."
+                    )}
+                </p>
+                <div className="text-end">
+                    <Button
+                        forisFormSize
+                        loading={postIsSending}
+                        disabled={postIsSending || formErrors}
+                        onClick={validateAndPostTestNotification}
+                    >
+                        {_("Send")}
+                    </Button>
                 </div>
-            </Portal>
+            </div>
             <UnsavedChangesWarningModal
                 shown={modalShown}
                 setShown={setModalShown}
-                callback={onPostHandler}
+                callback={submitPostNotification}
             />
-        </>
+        </Portal>
     );
 }
 
@@ -158,10 +154,13 @@ function UnsavedChangesWarningModal({ shown, setShown, callback }) {
                 <p>{UNSAVED_CHANGES_MODAL_MESSAGE}</p>
             </ModalBody>
             <ModalFooter>
-                <Button onClick={() => setShown(false)}>{_("Cancel")}</Button>
-                <Button className="btn-danger" onClick={callback}>
-                    {_("Confirm")}
+                <Button
+                    className="btn-secondary"
+                    onClick={() => setShown(false)}
+                >
+                    {_("Cancel")}
                 </Button>
+                <Button onClick={callback}>{_("Confirm")}</Button>
             </ModalFooter>
         </Modal>
     );

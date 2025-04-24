@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2019-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -38,17 +38,19 @@ export default function NotificationsList({
 }
 
 const BORDER_TYPES = {
-    news: "border-info",
-    update: "border-info",
+    news: "border-primary",
+    update: "border-primary",
     restart: "border-danger",
     error: "border-danger",
+    test: "border-info",
 };
 
 const HIGHLIGHT_TYPES = {
-    news: "highlight-info",
-    update: "highlight-info",
+    news: "highlight-primary",
+    update: "highlight-primary",
     restart: "highlight-danger",
     error: "highlight-danger",
+    test: "highlight-info",
 };
 
 NotificationsCenterItem.propTypes = {

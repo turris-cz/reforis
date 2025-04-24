@@ -7,7 +7,7 @@
 
 import React from "react";
 
-import { TextInput, Select, CheckBox } from "foris";
+import { Select, CheckBox } from "foris";
 import PropTypes from "prop-types";
 
 import HELP_TEXTS from "./helpTexts";
@@ -38,27 +38,10 @@ CommonForm.defaultProps = {
     formErrors: {},
 };
 
-export default function CommonForm({
-    formData,
-    formErrors,
-    setFormValue,
-    disabled,
-}) {
+export default function CommonForm({ formData, setFormValue, disabled }) {
     return (
         <>
-            <TextInput
-                label={_("Recipient's email")}
-                value={formData.to || ""}
-                error={formErrors.to}
-                helpText={HELP_TEXTS.common.to}
-                required
-                onChange={setFormValue((value) => ({
-                    emails: {
-                        common: { to: { $set: value } },
-                    },
-                }))}
-                disabled={disabled}
-            />
+            <h2>{_("General Notification Settings")}</h2>
             <Select
                 label={_("Importance")}
                 value={formData.severity_filter}
@@ -68,6 +51,7 @@ export default function CommonForm({
                         common: { severity_filter: { $set: parseInt(value) } },
                     },
                 }))}
+                helpText={HELP_TEXTS.common.severity_filter}
                 disabled={disabled}
             />
             <CheckBox

@@ -16,7 +16,7 @@ exports[`<ConnectionTest/> Snapshot after trigger DNS connection test. 1`] = `
           class="text-end"
         >
           <div
-            class="spinner-border spinner-border-sm text-secondary"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -35,7 +35,7 @@ exports[`<ConnectionTest/> Snapshot after trigger DNS connection test. 1`] = `
           class="text-end"
         >
           <div
-            class="spinner-border spinner-border-sm text-secondary"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -83,7 +83,7 @@ exports[`<ConnectionTest/> Snapshot after trigger Overview connection test. 1`] 
           class="text-end"
         >
           <div
-            class="spinner-border spinner-border-sm text-secondary"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -102,7 +102,7 @@ exports[`<ConnectionTest/> Snapshot after trigger Overview connection test. 1`] 
           class="text-end"
         >
           <div
-            class="spinner-border spinner-border-sm text-secondary"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -121,7 +121,7 @@ exports[`<ConnectionTest/> Snapshot after trigger Overview connection test. 1`] 
           class="text-end"
         >
           <div
-            class="spinner-border spinner-border-sm text-secondary"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -140,7 +140,7 @@ exports[`<ConnectionTest/> Snapshot after trigger Overview connection test. 1`] 
           class="text-end"
         >
           <div
-            class="spinner-border spinner-border-sm text-secondary"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -159,7 +159,7 @@ exports[`<ConnectionTest/> Snapshot after trigger Overview connection test. 1`] 
           class="text-end"
         >
           <div
-            class="spinner-border spinner-border-sm text-secondary"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -178,7 +178,7 @@ exports[`<ConnectionTest/> Snapshot after trigger Overview connection test. 1`] 
           class="text-end"
         >
           <div
-            class="spinner-border spinner-border-sm text-secondary"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -226,7 +226,7 @@ exports[`<ConnectionTest/> Snapshot after trigger WAN connection test. 1`] = `
           class="text-end"
         >
           <div
-            class="spinner-border spinner-border-sm text-secondary"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -245,7 +245,7 @@ exports[`<ConnectionTest/> Snapshot after trigger WAN connection test. 1`] = `
           class="text-end"
         >
           <div
-            class="spinner-border spinner-border-sm text-secondary"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -264,7 +264,7 @@ exports[`<ConnectionTest/> Snapshot after trigger WAN connection test. 1`] = `
           class="text-end"
         >
           <div
-            class="spinner-border spinner-border-sm text-secondary"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span
@@ -283,7 +283,7 @@ exports[`<ConnectionTest/> Snapshot after trigger WAN connection test. 1`] = `
           class="text-end"
         >
           <div
-            class="spinner-border spinner-border-sm text-secondary"
+            class="spinner-border spinner-border-sm text-primary"
             role="status"
           >
             <span

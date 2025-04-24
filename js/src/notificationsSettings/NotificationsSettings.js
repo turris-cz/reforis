@@ -13,8 +13,9 @@ import PropTypes from "prop-types";
 
 import API_URLs from "common/API";
 
-import NotificationsEmailSettingsForm from "./NotificationsEmailSettingsForm";
-import NotificationsNtfySettingsForm from "./NotificationsNtfySettingsForm";
+import NotificationsCommonSettingsForm from "./NotificationsSettingsCommonForm";
+import NotificationsEmailSettingsForm from "./NotificationsSettingsEmailForm";
+import NotificationsPushSettingsForm from "./NotificationsSettingsPushForm";
 import TestNotification from "./TestNotification";
 import validator from "./validator";
 
@@ -59,7 +60,8 @@ export default function NotificationsSettings({ ws }) {
                 validator={validator}
             >
                 <NotificationsEmailSettingsForm />
-                <NotificationsNtfySettingsForm />
+                <NotificationsPushSettingsForm />
+                <NotificationsCommonSettingsForm />
                 <TestNotification />
             </ForisForm>
             <div id="test-notification" />
