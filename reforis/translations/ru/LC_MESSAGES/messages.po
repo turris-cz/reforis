@@ -1,25 +1,24 @@
 # Russian translations for reForis.
-# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-05 16:08+0100\n"
+"POT-Creation-Date: 2025-04-24 15:26+0200\n"
 "PO-Revision-Date: 2025-04-18 14:01+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/turris/reforis/"
-"ru/>\n"
 "Language: ru\n"
+"Language-Team: Russian "
+"<https://hosted.weblate.org/projects/turris/reforis/ru/>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.11.1-dev\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
 msgid ""
@@ -31,7 +30,7 @@ msgstr ""
 " разные функции и разную стабильность - вы можете выбрать, какую ветку вы"
 " хотите протестировать."
 
-#: js/src/about/About.js:25 js/src/main/pages.js:94
+#: js/src/about/About.js:25 js/src/main/pages.js:105
 msgid "About"
 msgstr "Сведения"
 
@@ -78,8 +77,8 @@ msgstr "Перезагрузка"
 
 #: js/src/common/RebootButton.js:40 js/src/dns/DNSSECDisableModal.js:34
 #: js/src/guide/GuideControls/SkipGuideButton.js:68
-#: js/src/maintenance/FactoryReset.js:27
-#: js/src/notificationsSettings/TestNotification.js:148
+#: js/src/maintenance/FactoryReset.js:28
+#: js/src/notificationsSettings/TestNotification.js:152
 msgid "Warning!"
 msgstr "Предупреждение!"
 
@@ -101,9 +100,9 @@ msgstr "Наверх"
 
 #: js/src/common/network/DHCP6Clients.js:31
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:75
-#: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:38
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:76
+#: js/src/hostname/Hostname.js:24 js/src/main/pages.js:100
 msgid "Hostname"
 msgstr "Имя хоста"
 
@@ -117,19 +116,19 @@ msgstr "Уникальный идентификатор DHCP (DUID)"
 
 #: js/src/common/network/DHCP6Clients.js:43
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:87
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:88
 msgid "Expires"
 msgstr "Истекает"
 
 #: js/src/common/network/DHCP6Clients.js:47
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:92
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:93
 msgid "Active"
 msgstr "Активный"
 
 #: js/src/common/network/DHCP6Clients.js:64
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:63
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:61
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:44
 msgid "Never"
 msgstr "Никогда"
 
@@ -147,19 +146,19 @@ msgstr ""
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:39
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
 msgid "No clients found."
 msgstr "Клиенты не найдены."
 
 #: js/src/common/network/DHCP6Clients.js:96
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:200
 msgid "Device is active"
 msgstr "Устройство активно"
 
 #: js/src/common/network/DHCP6Clients.js:104
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:200
 msgid "Device is inactive"
 msgstr "Устройство неактивно"
 
@@ -170,6 +169,18 @@ msgstr "Имя хоста, которое будет предоставлено 
 #: js/src/common/network/DHCPClientForm.js:38
 msgid "DHCP hostname"
 msgstr "Имя сервера DHCP"
+
+#: js/src/common/network/DHCPClients.js:24
+msgid "DHCP Client List"
+msgstr "Список клиентов DHCP"
+
+#: js/src/common/network/DHCPClients.js:26
+msgid ""
+"This list contains all devices that are connected to the network through "
+"wired or wireless connections."
+msgstr ""
+"Этот список содержит все устройства, подключенные к сети через проводные "
+"или беспроводные соединения."
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
@@ -274,113 +285,117 @@ msgstr "Обязательное поле."
 msgid "This is not a valid network mask."
 msgstr "Это недопустимая маска подсети."
 
-#: js/src/common/network/DHCPClients/DHCPClients.js:25
-msgid "DHCP Client List"
-msgstr "Список клиентов DHCP"
-
-#: js/src/common/network/DHCPClients/DHCPClients.js:27
-msgid ""
-"This list contains all devices that are connected to the network through "
-"wired or wireless connections."
-msgstr ""
-"Этот список содержит все устройства, подключенные к сети через проводные "
-"или беспроводные соединения."
-
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:79
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
 msgid "IPv4 Address"
 msgstr "Адрес IPv4"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:83
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:84
 msgid "MAC Address"
 msgstr "MAC адрес"
 
-#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
-msgid "Edit static lease"
-msgstr "Изменить постоянную аренду"
-
-#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:59
-msgid "Set static lease"
-msgstr "Установить постоянную аренду"
-
-#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:61
-#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:98
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:66
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:72
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesAddButton.js:25
 msgid "Add static lease"
 msgstr "Добавить постоянную аренду"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:68
+msgid "Edit static lease"
+msgstr "Изменить постоянную аренду"
+
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:70
+msgid "Set static lease"
+msgstr "Установить постоянную аренду"
+
+#: js/src/common/network/DHCPClients/hooks.js:71
+#, fuzzy
+msgid "Static lease deleted successfully."
+msgstr "Постоянная аренда успешно добавлена."
+
+#: js/src/common/network/DHCPClients/hooks.js:76
+#, fuzzy
+msgid "Can't delete static lease."
+msgstr "Невозможно удалить аренду DHCP."
+
+#: js/src/common/network/DHCPClients/hooks.js:107
+msgid "Static lease added successfully."
+msgstr "Постоянная аренда успешно добавлена."
+
+#: js/src/common/network/DHCPClients/hooks.js:125
+msgid "Static saved successfully."
+msgstr "Постоянная аренда успешно сохранена."
+
+#: js/src/common/network/DHCPClients/hooks.js:166
+msgid "Hostname cannot be empty."
+msgstr "Имя хоста не может быть пустым."
+
+#: js/src/common/network/DHCPClients/hooks.js:170
+#: js/src/portForwarding/hooks.js:244
+msgid "IPv4 address cannot be empty."
+msgstr "Адрес IPv4 не может быть пустым."
+
+#: js/src/common/network/DHCPClients/hooks.js:174
+msgid "MAC address cannot be empty."
+msgstr "MAC-адрес не может быть пустым."
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:75
 #: js/src/dns/DNSSECDisableModal.js:48
 #: js/src/guide/GuideControls/SkipGuideButton.js:87
-#: js/src/notificationsSettings/TestNotification.js:153
+#: js/src/notificationsSettings/TestNotification.js:161
 msgid "Cancel"
 msgstr "Отмена"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:57
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:82
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
+#: js/src/portForwarding/PortForwardingRulesModal.js:64
 msgid "Save"
 msgstr "Сохранить"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:45
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:50
 msgid "List of available hostnames"
 msgstr "Список доступных имен хостов"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:58
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:62
 msgid "IPv4 address"
 msgstr "Адрес IPv4"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:69
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:74
+#: js/src/portForwarding/PortForwardingRulesForm.js:71
 msgid "List of available IPv4 addresses"
 msgstr "Список доступных адресов IPv4"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:84
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:88
 #: js/src/interfaces/SelectedInterface.js:139
 msgid "MAC address"
 msgstr "MAC-адрес"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:95
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:100
 msgid "List of available MAC addresses"
 msgstr "Список доступных MAC-адресов"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:99
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:125
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:100
 #: js/src/dns/Forwarders/ForwardersTable.js:40
+#: js/src/portForwarding/PortForwardingRulesTable.js:36
 msgid "Actions"
 msgstr "Действия"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:142
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:145
 #: js/src/dns/Forwarders/ForwardersTable.js:142
+#: js/src/portForwarding/PortForwardingRulesTable.js:82
 msgid "Edit"
 msgstr "Редактировать"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:161
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:151
 #: js/src/dns/Forwarders/ForwardersTable.js:153
+#: js/src/portForwarding/PortForwardingRulesTable.js:88
 msgid "Delete"
 msgstr "Удалить"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:170
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:186
 msgid "Set Static"
 msgstr "Установить постоянный"
-
-#: js/src/common/network/DHCPClients/StaticLeases/hooks.js:47
-msgid "Static lease added successfully."
-msgstr "Постоянная аренда успешно добавлена."
-
-#: js/src/common/network/DHCPClients/StaticLeases/hooks.js:58
-msgid "Static saved successfully."
-msgstr "Постоянная аренда успешно сохранена."
-
-#: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
-msgid "Hostname cannot be empty."
-msgstr "Имя хоста не может быть пустым."
-
-#: js/src/common/network/DHCPClients/StaticLeases/validator.js:24
-msgid "IPv4 address cannot be empty."
-msgstr "Адрес IPv4 не может быть пустым."
-
-#: js/src/common/network/DHCPClients/StaticLeases/validator.js:28
-msgid "MAC address cannot be empty."
-msgstr "MAC-адрес не может быть пустым."
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
 msgid "Test is running…"
@@ -572,6 +587,8 @@ msgstr "«Нет TLS» означает, что используется обы�
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
 #: js/src/packageManagement/updates/UpdateApproval.js:142
+#: js/src/portForwarding/PortForwardingRulesForm.js:46
+#: js/src/portForwarding/PortForwardingRulesTable.js:29
 msgid "Name"
 msgstr "Имя"
 
@@ -596,14 +613,17 @@ msgid "IPv6"
 msgstr "IPv6"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:53
+#, python-brace-format
 msgid "${label} Addresses"
 msgstr "${label} Адреса"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:59
+#, python-brace-format
 msgid "${label} #${index + 1}"
 msgstr "${label} #${index + 1}"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:83
+#, python-brace-format
 msgid "Add ${label} address"
 msgstr "Добавить ${label} адрес"
 
@@ -639,17 +659,27 @@ msgstr "Код TLS должен иметь хотя бы один символ."
 msgid "Define at least one of the IP addresses of the forwarder."
 msgstr "Определите хотя бы один из IP-адресов сервера пересылки."
 
-#: js/src/guestNetwork/GuestNetwork.js:38 js/src/interfaces/constants.js:11
-#: js/src/main/pages.js:60
+#: js/src/guestNetwork/GuestNetwork.js:39 js/src/interfaces/constants.js:11
+#: js/src/main/pages.js:66
 msgid "Guest Network"
 msgstr "Гостевая сеть"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
+#, fuzzy
+msgid "The guest network is used for "
+msgstr "Настройки гостевой сети"
+
+#: js/src/guestNetwork/GuestNetwork.js:43
+#, fuzzy
+msgid "guest Wi-Fi"
+msgstr "Wi-Fi"
+
+#: js/src/guestNetwork/GuestNetwork.js:45
+#, fuzzy, python-brace-format
 msgid ""
-"The guest network is used for <a href=\"${ForisURLs.wifi}\">guest Wi-"
-"Fi</a>. It is separated from your ordinary LAN. Devices connected to this"
-" network are allowed to access the internet but are not allowed to access"
-" the configuration interface of this device or the devices in LAN."
+"It is separated from your ordinary LAN. Devices connected to this network"
+" are allowed to access the internet but are not allowed to access the "
+"configuration interface of this device or the devices in LAN."
 msgstr ""
 "Гостевая сеть используется для <a href=\"${ForisURLs.wifi}\">гостевого "
 "Wi-Fi </a>. Он отделен от вашей обычной локальной сети. Устройствам, "
@@ -947,8 +977,8 @@ msgstr ""
 msgid "Cannot mark guide as finished."
 msgstr "Начальная настройка не завершена."
 
-#: js/src/guide/steps.js:21 js/src/main/pages.js:73
-#: js/src/notificationsSettings/SMTPCustomForm.js:114
+#: js/src/guide/steps.js:21 js/src/main/pages.js:84
+#: js/src/notificationsSettings/SMTPCustomForm.js:124
 #: js/src/password/Password.js:175
 msgid "Password"
 msgstr "Пароль"
@@ -957,7 +987,7 @@ msgstr "Пароль"
 msgid "Workflow"
 msgstr "Конфигурация"
 
-#: js/src/guide/steps.js:29 js/src/main/pages.js:55
+#: js/src/guide/steps.js:29 js/src/main/pages.js:61
 msgid "Interfaces"
 msgstr "Интерфейс"
 
@@ -965,23 +995,24 @@ msgstr "Интерфейс"
 msgid "Time"
 msgstr "Синхронизация"
 
-#: js/src/guide/steps.js:37 js/src/main/pages.js:47 js/src/main/pages.js:53
+#: js/src/guide/steps.js:37 js/src/main/pages.js:48 js/src/main/pages.js:59
 msgid "DNS"
 msgstr "DNS"
 
 #: js/src/guide/steps.js:41
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:138
-#: js/src/main/pages.js:113 js/src/packageManagement/updates/Updates.js:28
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:133
+#: js/src/main/pages.js:124 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
 msgstr "Обновления"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
-#: js/src/main/pages.js:45 js/src/main/pages.js:51 js/src/wan/WAN.js:29
+#: js/src/main/pages.js:46 js/src/main/pages.js:57 js/src/wan/WAN.js:29
 msgid "WAN"
 msgstr "WAN"
 
 #: js/src/guide/steps.js:49 js/src/interfaces/constants.js:10
-#: js/src/main/pages.js:46 js/src/main/pages.js:52
+#: js/src/main/pages.js:47 js/src/main/pages.js:58
+#: js/src/portForwarding/PortForwarding.js:64
 msgid "LAN"
 msgstr "LAN"
 
@@ -1003,19 +1034,18 @@ msgstr "Вы уверены, что хотите пропустить руков
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:72
 msgid "This will skip the guide and you will be redirected to the overview page."
-msgstr ""
-"Это приведет к пропуску руководства и перенаправлению на страницу обзора."
+msgstr "Это приведет к пропуску руководства и перенаправлению на страницу обзора."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:77
 msgid ""
 "Settings that are not set up during the guide will be set to default "
 "values. And you will have to set them up manually."
 msgstr ""
-"Настройки, которые не были выбраны во время руководства, будут установлены "
-"на значения по умолчанию. Надо будет настроить их вручную."
+"Настройки, которые не были выбраны во время руководства, будут "
+"установлены на значения по умолчанию. Надо будет настроить их вручную."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
-#: js/src/notificationsSettings/TestNotification.js:155
+#: js/src/notificationsSettings/TestNotification.js:163
 msgid "Confirm"
 msgstr "Подтвердить"
 
@@ -1348,62 +1378,73 @@ msgstr "Не подключайте это устройство к локаль�
 msgid "IPv4 protocol"
 msgstr "Протокол IPv4"
 
-#: js/src/main/pages.js:31 js/src/overview/Overview.js:43
+#: js/src/main/pages.js:32 js/src/overview/Overview.js:43
 msgid "Overview"
 msgstr "Обзор"
 
-#: js/src/main/pages.js:38
+#: js/src/main/pages.js:39
 msgid "Network Settings"
 msgstr "Сетевые настройки"
 
-#: js/src/main/pages.js:50 js/src/wifi/WiFi.js:40
+#: js/src/main/pages.js:50 js/src/main/pages.js:71
+#: js/src/portForwarding/PortForwarding.js:49
+#, fuzzy
+msgid "Port Forwarding"
+msgstr "Использовать переадресацию"
+
+#: js/src/main/pages.js:56 js/src/wifi/WiFi.js:40
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
-#: js/src/main/pages.js:68
+#: js/src/main/pages.js:79
 msgid "Administration"
 msgstr "Управление"
 
-#: js/src/main/pages.js:75
+#: js/src/main/pages.js:86
 msgid "Region & Time"
 msgstr "Регион и время"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:80
-#: js/src/main/pages.js:80
-#: js/src/notifications/Notifications/Notifications.js:71
-#: js/src/notificationsSettings/NotificationsSettings.js:26
+#: js/src/main/pages.js:91
+#: js/src/notifications/Notifications/Notifications.js:74
+#: js/src/notificationsSettings/NotificationsSettings.js:29
 msgid "Notifications"
 msgstr "Уведомления"
 
-#: js/src/main/pages.js:85 js/src/maintenance/Maintenance.js:19
+#: js/src/main/pages.js:96 js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
 msgstr "Обслуживания"
 
-#: js/src/main/pages.js:101
+#: js/src/main/pages.js:112
 msgid "Global Threat Statistics"
 msgstr "Статистика глобальных угроз"
 
-#: js/src/main/pages.js:108
+#: js/src/main/pages.js:119
 msgid "Package Management"
 msgstr "Управление пакетами"
 
-#: js/src/main/pages.js:115
+#: js/src/main/pages.js:126
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:29
 msgid "Update Settings"
 msgstr "Обновить настройки"
 
-#: js/src/main/pages.js:119 js/src/packageManagement/packages/Packages.js:20
+#: js/src/main/pages.js:130 js/src/packageManagement/packages/Packages.js:20
 msgid "Packages"
 msgstr "Пакеты"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:63
-#: js/src/main/pages.js:120 js/src/packageManagement/languages/Languages.js:20
+#: js/src/main/pages.js:131 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr "Языки"
 
-#: js/src/main/pages.js:125
+#: js/src/main/pages.js:136
 msgid "Advanced Administration"
 msgstr "Расширенное администрирование"
+
+#: js/src/main/pages.js:143
+#, fuzzy
+msgid "Documentation"
+msgstr "Управление"
 
 #: js/src/main/TopBar/LogoutButton.js:16 js/src/utils/useSessionTimeout.js:111
 msgid "Logout"
@@ -1447,29 +1488,30 @@ msgstr "Требуется Перезагрузка"
 msgid "Details"
 msgstr "Подробности"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:108
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:103
 msgid "Approve Update"
 msgstr "Одобрить Обновление"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:132
 msgid "See details in "
 msgstr "Смотрите подробнее в "
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:134
+#: js/src/portForwarding/PortForwarding.js:65
 msgid " page."
 msgstr " странице."
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:146
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
 #: js/src/packageManagement/updates/UpdateApproval.js:120
 msgid "Install now"
 msgstr "Установить сейчас"
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:156
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:151
 #: js/src/packageManagement/updates/UpdateApproval.js:40
 msgid "Cannot install updates."
 msgstr "Не удаётся установить обновление."
 
-#: js/src/maintenance/FactoryReset.js:17 js/src/maintenance/FactoryReset.js:48
+#: js/src/maintenance/FactoryReset.js:17 js/src/maintenance/FactoryReset.js:49
 msgid "Factory Reset"
 msgstr "Сброс к заводским настройкам"
 
@@ -1486,19 +1528,19 @@ msgstr ""
 "какими они были, когда маршрутизатор был новым, давая вам возможность "
 "начать все сначала."
 
-#: js/src/maintenance/FactoryReset.js:28
+#: js/src/maintenance/FactoryReset.js:29
 msgid "Are you sure you want to reset the router?"
 msgstr "Вы уверены, что хотите сбросить настройки маршрутизатора?"
 
-#: js/src/maintenance/FactoryReset.js:31
+#: js/src/maintenance/FactoryReset.js:32
 msgid "Reset"
 msgstr "Сброс"
 
-#: js/src/maintenance/FactoryReset.js:33
+#: js/src/maintenance/FactoryReset.js:34
 msgid "The router has been reset successfully."
 msgstr "Маршрутизатор успешно сброшен."
 
-#: js/src/maintenance/FactoryReset.js:36
+#: js/src/maintenance/FactoryReset.js:37
 msgid "An error occurred while resetting the router."
 msgstr "Произошла ошибка при сбросе настроек маршрутизатора."
 
@@ -1540,6 +1582,7 @@ msgstr ""
 "плагина Хранилище. Журналы сохраняются в /srv/log/messages."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:38
+#, python-brace-format
 msgid ""
 "To enable this option, you have to configure storage in the <a "
 "href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Storage "
@@ -1553,8 +1596,9 @@ msgstr ""
 msgid "Enable System Logs Retention"
 msgstr "Включить сохранение системных журналов"
 
-#: js/src/notifications/Notifications/NotificationsList.js:97
+#: js/src/notifications/Notifications/NotificationsList.js:99
 #: js/src/packageManagement/updateSettings/LicenseModal.js:37
+#: js/src/portForwarding/PortForwardingRulesModal.js:58
 msgid "Close"
 msgstr "Закрыть"
 
@@ -1570,50 +1614,126 @@ msgstr "Требуется перезагрузка или внимание"
 msgid "Reboot or attention is required or update was installed"
 msgstr "Требуется перезагрузка или внимание, иначе обновление будет установлено"
 
-#: js/src/notificationsSettings/CommonForm.js:50
-msgid "Recipient's email"
-msgstr "Электронная почта получателя"
+#: js/src/notificationsSettings/CommonForm.js:44
+#, fuzzy
+msgid "General Notification Settings"
+msgstr "Настройки уведомлений"
 
-#: js/src/notificationsSettings/CommonForm.js:61
+#: js/src/notificationsSettings/CommonForm.js:46
 msgid "Importance"
 msgstr "Важность"
 
-#: js/src/notificationsSettings/CommonForm.js:70
+#: js/src/notificationsSettings/CommonForm.js:58
 msgid "Send news"
 msgstr "Сообщать новости"
 
-#: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:20
-msgid "Turris"
-msgstr "Turris"
-
-#: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:24
-msgid "Custom"
-msgstr "Ручная настройка"
-
-#: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:81
-msgid "Notification Settings"
-msgstr "Настройки уведомлений"
-
-#: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:83
-msgid "Enable Email Notifications"
-msgstr "Включить уведомления по электронной почте"
-
-#: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:93
-msgid "SMTP provider"
-msgstr "Провайдер SMTP"
-
-#: js/src/notificationsSettings/NotificationsSettings.js:28
+#: js/src/notificationsSettings/NotificationsSettings.js:31
+#, fuzzy
 msgid ""
 "Your device can send you e-mail notifications about required reboots, "
-"important events, installed updates and new features according to your "
-"settings. When done with configuration, you can test it by pressing Send "
-"test notification."
+"important events, installed updates, and new features according to your "
+"settings. Once you are done with the configuration, you can test it by "
+"pressing Send test notification. Additionally, you can use "
 msgstr ""
 "Ваше устройство может отправлять вам по электронной почте уведомления о "
 "необходимых перезагрузках, важных событиях, установленных обновлениях и "
 "новых функциях в соответствии с вашими настройками. По завершении "
 "настройки вы можете проверить ее, нажав \"Отправить тестовое "
 "уведомление\"."
+
+#: js/src/notificationsSettings/NotificationsSettings.js:39
+msgid "ntfy"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettings.js:47
+msgid ""
+" to receive real-time push notifications directly to your mobile device "
+"or desktop. ntfy allows you to subscribe to topics and get instant alerts"
+" without the need for email."
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:19
+msgid "Turris"
+msgstr "Turris"
+
+#: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:23
+msgid "Custom"
+msgstr "Ручная настройка"
+
+#: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:90
+#, fuzzy
+msgid "Email Notification Settings"
+msgstr "Настройки уведомлений"
+
+#: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:92
+#, fuzzy
+msgid "Enable email notifications"
+msgstr "Включить уведомления по электронной почте"
+
+#: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:104
+msgid "SMTP provider"
+msgstr "Провайдер SMTP"
+
+#: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:119
+msgid "Recipient's email"
+msgstr "Электронная почта получателя"
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:14
+msgid "Max"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:15
+#, fuzzy
+msgid "Urgent"
+msgstr "Текущий"
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:16
+#, fuzzy
+msgid "High"
+msgstr "Светлая"
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:17
+#, fuzzy
+msgid "Default"
+msgstr "Удалить"
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:18
+msgid "Low"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:19
+#, fuzzy
+msgid "Min"
+msgstr "Минимальная"
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:54
+#, fuzzy
+msgid "Push Notification Settings"
+msgstr "Настройки уведомлений"
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:56
+#, fuzzy
+msgid "Enable push notifications"
+msgstr "Включить уведомления по электронной почте"
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
+msgid "URL"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:76
+msgid ""
+"Specify the URL to the ntfy server topic. Example format: "
+"https://ntfy.sh/example"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:83
+msgid "Priority"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
+#, fuzzy
+msgid "Priority of the push notifications."
+msgstr "Тестовое уведомление"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
@@ -1635,19 +1755,19 @@ msgstr "Настройки SMTP"
 msgid "Sender address (From)"
 msgstr "Адрес отправителя (От)"
 
-#: js/src/notificationsSettings/SMTPCustomForm.js:75
+#: js/src/notificationsSettings/SMTPCustomForm.js:77
 msgid "Server address"
 msgstr "Адрес сервера"
 
-#: js/src/notificationsSettings/SMTPCustomForm.js:86
+#: js/src/notificationsSettings/SMTPCustomForm.js:90
 msgid "Server port"
 msgstr "Порт сервера"
 
-#: js/src/notificationsSettings/SMTPCustomForm.js:97
+#: js/src/notificationsSettings/SMTPCustomForm.js:103
 msgid "Security"
 msgstr "Безопасность"
 
-#: js/src/notificationsSettings/SMTPCustomForm.js:106
+#: js/src/notificationsSettings/SMTPCustomForm.js:114
 #: js/src/wan/WAN6Form.js:434
 msgid "Username"
 msgstr "Имя пользователя"
@@ -1656,41 +1776,33 @@ msgstr "Имя пользователя"
 msgid "Sender's name"
 msgstr "Имя отправителя"
 
-#: js/src/notificationsSettings/TestNotification.js:31
+#: js/src/notificationsSettings/TestNotification.js:30
+#, fuzzy
 msgid ""
-"There are some unsaved changes in the notifications settings. Do you want"
-" to discard them and test the notifications with the old settings?"
+"You have unsaved changes in your notification settings. Do you want to "
+"discard them and test notifications using the previous settings?"
 msgstr ""
 "В настройках уведомлений есть несохраненные изменения. Отменить их и "
 "протестировать уведомления со старыми настройками?"
 
-#: js/src/notificationsSettings/TestNotification.js:35
-msgid ""
-"You will not receive the test notification to your email inbox with "
-"current importance level. Please raise the importance level at least to "
-"\"Reboot or attention is required\" and click \"Save\" button if you want"
-" to get this notification by email."
-msgstr ""
-"Вы не получите тестовое уведомление с текущим уровнем важности на свой "
-"почтовый ящик. Повысьте уровень важности как минимум до «Перезагрузка или"
-" требуется внимание» и нажмите кнопку «Сохранить», если вы хотите "
-"получить это уведомление по электронной почте."
+#: js/src/notificationsSettings/TestNotification.js:117
+#, fuzzy
+msgid "Send Test Notification"
+msgstr "Отправить тестовое уведомление"
 
-#: js/src/notificationsSettings/TestNotification.js:112
-msgid "Test Notification"
-msgstr "Тестовое уведомление"
-
-#: js/src/notificationsSettings/TestNotification.js:114
+#: js/src/notificationsSettings/TestNotification.js:119
+#, fuzzy
 msgid ""
-"Here you can verify whether SMTP is configured correctly by sending a "
-"test notification to your email inbox."
+"Here you can verify whether your SMTP provider or push notifications are "
+"configured correctly by sending a test notification."
 msgstr ""
 "Здесь вы можете проверить, правильно ли настроен SMTP, отправив тестовое "
 "уведомление на свой почтовый ящик."
 
-#: js/src/notificationsSettings/TestNotification.js:125
-msgid "Send test notification"
-msgstr "Отправить тестовое уведомление"
+#: js/src/notificationsSettings/TestNotification.js:130
+#, fuzzy
+msgid "Send"
+msgstr "Сообщать новости"
 
 #: js/src/notificationsSettings/helpTexts.js:9
 msgid ""
@@ -1705,34 +1817,41 @@ msgstr ""
 "SMTP, выберите \"Ручная настройка\" и введите необходимые данные."
 
 #: js/src/notificationsSettings/helpTexts.js:15
+msgid ""
+"Depending on the importance or severity of the notification, you can "
+"choose to receive notifications about all events or only about those that"
+" require your attention."
+msgstr ""
+
+#: js/src/notificationsSettings/helpTexts.js:18
 msgid "Email address of recipient. Separate multiple addresses by comma."
 msgstr "Адрес электронной почты получателя. Разделите несколько адресов запятыми."
 
-#: js/src/notificationsSettings/helpTexts.js:18
-msgid "Send emails about new features."
+#: js/src/notificationsSettings/helpTexts.js:21
+#, fuzzy
+msgid "Send notifications about new releases."
 msgstr "Отправлять сообщение о новых функциях."
 
-#: js/src/notificationsSettings/helpTexts.js:21
+#: js/src/notificationsSettings/helpTexts.js:24
 msgid ""
-"Name of the sender - will be used as a part of the sender's email address"
-" before the \"at\" sign."
+"Name of the sender that will be used before the \"at\" symbol in the "
+"email address. For example: \"home-router@notify.turis.cz\""
 msgstr ""
-"Имя отправителя - будет использовано как часть адреса отправителя до "
-"знака \"@\"."
 
-#: js/src/notificationsSettings/helpTexts.js:26
+#: js/src/notificationsSettings/helpTexts.js:29
 msgid "This is the address notifications are send from."
 msgstr "Адрес, с которого будут отправляться уведомления."
 
-#: js/src/notificationsSettings/validator.js:23
+#: js/src/notificationsSettings/validator.js:34
+#: js/src/notificationsSettings/validator.js:43
 msgid "Can't be empty."
 msgstr "Не может быть пустым."
 
-#: js/src/notificationsSettings/validator.js:33
+#: js/src/notificationsSettings/validator.js:53
 msgid "Sender's name can't be empty."
 msgstr "Имя отправителя не может быть пустым."
 
-#: js/src/notificationsSettings/validator.js:37
+#: js/src/notificationsSettings/validator.js:57
 msgid ""
 "Sender's name can contain only alphanumeric characters, dots and "
 "underscores."
@@ -1740,15 +1859,15 @@ msgstr ""
 "Имя отправителя может содержать только буквы латинского алфавита, цифры, "
 "точки и подчеркивания."
 
-#: js/src/notificationsSettings/validator.js:46
+#: js/src/notificationsSettings/validator.js:66
 msgid "Port is an number."
 msgstr "Порт-это номер."
 
-#: js/src/notificationsSettings/validator.js:47
+#: js/src/notificationsSettings/validator.js:67
 msgid "Maximum port is 65535."
 msgstr "Максимальный порт 65535."
 
-#: js/src/notificationsSettings/validator.js:48
+#: js/src/notificationsSettings/validator.js:68
 msgid "Minimum port is 1."
 msgstr "Минимальный порт 1."
 
@@ -1936,8 +2055,9 @@ msgid ""
 "toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
 "Включая автоматические обновления, вы соглашаетесь с лицензионным "
-"соглашением этой функции. Более подробная информация доступна <a href=\""
-"\" data-bs-toggle=\"modal\" data-bs-target=\"#licenseModal\">здесь</a>."
+"соглашением этой функции. Более подробная информация доступна <a "
+"href=\"\" data-bs-toggle=\"modal\" data-bs-"
+"target=\"#licenseModal\">здесь</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
@@ -2113,10 +2233,11 @@ msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
-"См. <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
-"aria-expanded=\"false\" aria-controls=\"plan-wrapper\">подробности</a>"
+"См. <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
+" aria-expanded=\"false\" aria-controls=\"plan-wrapper\">подробности</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
+#, python-brace-format
 msgid ""
 "These updates are not going to be \n"
 "                                    automatically installed before \n"
@@ -2127,6 +2248,7 @@ msgstr ""
 "                                    ${toLocaleDateString(delayedTime)}."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:88
+#, python-brace-format
 msgid ""
 "If you don't want the updates to be installed at all, go to\n"
 "                                    <a "
@@ -2192,6 +2314,7 @@ msgstr ""
 "                    чтобы ваше устройство работало бесперебойно и надежно."
 
 #: js/src/packageManagement/updates/Updates.js:48
+#, python-brace-format
 msgid ""
 "Automatic updates are disabled. Please enable \n"
 "            <a "
@@ -2224,6 +2347,7 @@ msgid "Cannot fetch updater status."
 msgstr "Невозможно получить статус обновления."
 
 #: js/src/packageManagement/utils/DisabledUpdaterAlert.js:13
+#, python-brace-format
 msgid ""
 "Please enable <a "
 "href=\"${ForisURLs.packageManagement.updateSettings}\">automatic "
@@ -2270,6 +2394,7 @@ msgstr ""
 "этого момента аккаунт root будет заблокирован.)"
 
 #: js/src/password/Password.js:102
+#, python-brace-format
 msgid ""
 "The password you have entered has not been saved. It has been compromised"
 " and appears ${\n"
@@ -2338,6 +2463,138 @@ msgstr ""
 "конфигурации можно управлять либо \n"
 "через <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\"> "
 "веб-интерфейс LuCI </a>, либо через SSH."
+
+#: js/src/portForwarding/PortForwarding.js:51
+msgid ""
+"Port forwarding allows you to forward incoming traffic from the WAN "
+"interface to a specific device on your LAN."
+msgstr ""
+
+#: js/src/portForwarding/PortForwarding.js:56
+msgid ""
+"For example, you can forward incoming traffic on port 80 to a web server "
+"on your LAN. This way, the web server will be accessible from the "
+"internet."
+msgstr ""
+
+#: js/src/portForwarding/PortForwarding.js:61
+msgid ""
+"You can add a new port forwarding rule by clicking the \"Add rule\" "
+"button. But first, you need to configure a static DHCP lease for the "
+"device you want to forward traffic to. You can configure it on the "
+msgstr ""
+
+#: js/src/portForwarding/PortForwarding.js:139
+#, fuzzy
+msgid "Edit port forwarding rule"
+msgstr "Редактировать перенаправление"
+
+#: js/src/portForwarding/PortForwarding.js:140
+#, fuzzy
+msgid "Add port forwarding rule"
+msgstr "Добавить перенаправление вручную"
+
+#: js/src/portForwarding/PortForwarding.js:182
+#, fuzzy
+msgid "Add rule"
+msgstr "Адрес"
+
+#: js/src/portForwarding/PortForwardingRulesForm.js:57
+#, fuzzy
+msgid "Internal IPv4 address"
+msgstr "IP-адрес маршрутизатора"
+
+#: js/src/portForwarding/PortForwardingRulesForm.js:85
+#: js/src/portForwarding/PortForwardingRulesTable.js:31
+msgid "External port"
+msgstr ""
+
+#: js/src/portForwarding/PortForwardingRulesForm.js:96
+#: js/src/portForwarding/PortForwardingRulesTable.js:32
+msgid "Internal port"
+msgstr ""
+
+#: js/src/portForwarding/PortForwardingRulesForm.js:107
+#: js/src/portForwarding/PortForwardingRulesTable.js:34
+#, fuzzy
+msgid "Enabled"
+msgstr "Включить DHCP"
+
+#: js/src/portForwarding/PortForwardingRulesTable.js:23
+#, fuzzy
+msgid "Port Forwarding Rules"
+msgstr "Использовать переадресацию"
+
+#: js/src/portForwarding/PortForwardingRulesTable.js:30
+#, fuzzy
+msgid "Internal IP address"
+msgstr "IP-адрес маршрутизатора"
+
+#: js/src/portForwarding/PortForwardingRulesTable.js:53
+msgid "No port forwarding rules defined."
+msgstr ""
+
+#: js/src/portForwarding/constants.js:17
+msgid "Enter the name of the port forwarding rule."
+msgstr ""
+
+#: js/src/portForwarding/constants.js:18
+msgid ""
+"Enter the external port number to which the rule applies. It can be a "
+"single port or a range of ports."
+msgstr ""
+
+#: js/src/portForwarding/constants.js:21
+msgid ""
+"Enter a valid IP address of the device to which the port will be "
+"forwarded. The best practice is to assign a static lease to the device in"
+" advance."
+msgstr ""
+
+#: js/src/portForwarding/constants.js:24
+msgid ""
+"Enter the internal port number to which the rule applies. It can be a "
+"single port or a range of ports."
+msgstr ""
+
+#: js/src/portForwarding/constants.js:27
+msgid "Enable or disable the port forwarding rule."
+msgstr ""
+
+#: js/src/portForwarding/hooks.js:76
+#, fuzzy
+msgid "Rule deleted successfully."
+msgstr "Сессия успешно продлена."
+
+#: js/src/portForwarding/hooks.js:79
+#, fuzzy
+msgid "Can't delete rule."
+msgstr "Невозможно удалить аренду DHCP."
+
+#: js/src/portForwarding/hooks.js:150
+#, fuzzy
+msgid "Rule added successfully."
+msgstr "Сервер пересылки успешно добавлен."
+
+#: js/src/portForwarding/hooks.js:166
+#, fuzzy
+msgid "Rule saved successfully."
+msgstr "Сервер пересылки успешно сохранен."
+
+#: js/src/portForwarding/hooks.js:214
+#, fuzzy
+msgid "Name should have at least one symbol."
+msgstr "Имя хоста должно содержать хотя бы один символ."
+
+#: js/src/portForwarding/hooks.js:224
+#, python-brace-format
+msgid "${fieldName} should be a positive number or range of numbers."
+msgstr ""
+
+#: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
+#, python-brace-format
+msgid "${fieldName} should be a valid port number or range."
+msgstr ""
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
@@ -2457,7 +2714,8 @@ msgid ""
 msgstr ""
 "Более подробная информация доступна в консоли вашего веб-браузера. В "
 "большинстве браузеров она доступна после нажатия "
-"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> или <kbd>F12</kbd>."
+"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> или "
+"<kbd>F12</kbd>."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
@@ -2487,16 +2745,15 @@ msgstr "Ваша сессия скоро истечет. Хотите продо
 msgid ""
 "Please note that if you do not respond, you will be logged out "
 "automatically."
-msgstr ""
-"Обратите внимание: если вы не ответите, вы будете автоматически отключены."
+msgstr "Обратите внимание: если вы не ответите, вы будете автоматически отключены."
 
 #: js/src/wan/MACForm.js:14
 msgid ""
 "Useful in cases, when a specific MAC address is required by your internet"
 " service provider."
 msgstr ""
-"Полезно в случаях, когда вашему интернет-провайдеру требуется определенный "
-"MAC-адрес."
+"Полезно в случаях, когда вашему интернет-провайдеру требуется "
+"определенный MAC-адрес."
 
 #: js/src/wan/MACForm.js:17
 msgid "Colon is used as a separator, for example 00:11:22:33:44:55"
@@ -2781,44 +3038,61 @@ msgstr "Нет постоянной аренды с этим MAC-адресом.
 msgid "Hostname is already used by another static lease."
 msgstr "Имя хоста уже используется в другой постоянной аренде."
 
-#: reforis/foris_controller_api/modules/lan.py:85
+#: reforis/foris_controller_api/modules/lan.py:24
+#, fuzzy
+msgid "IP address is not in the LAN network."
+msgstr "IP-адрес не соответствует сети LAN."
+
+#: reforis/foris_controller_api/modules/lan.py:25
+#, fuzzy
+msgid "IP address is not a user-defined static lease."
+msgstr "IP-адрес уже используется в другой постоянной аренде."
+
+#: reforis/foris_controller_api/modules/lan.py:26
+#, fuzzy
+msgid "Port range is already used by another port forwarding rule."
+msgstr "Имя хоста уже используется в другой постоянной аренде."
+
+#: reforis/foris_controller_api/modules/lan.py:104
 msgid "Can't create DHCP lease."
 msgstr "Невозможно создать аренду DHCP."
 
-#: reforis/foris_controller_api/modules/lan.py:100
+#: reforis/foris_controller_api/modules/lan.py:119
 msgid "Can't update DHCP lease."
 msgstr "Невозможно обновить аренду DHCP."
 
-#: reforis/foris_controller_api/modules/lan.py:111
+#: reforis/foris_controller_api/modules/lan.py:130
 msgid "Can't delete DHCP lease."
 msgstr "Невозможно удалить аренду DHCP."
+
+#: reforis/foris_controller_api/modules/lan.py:156
+#, fuzzy
+msgid "Can't set port forwarding rule."
+msgstr "Не удается установить DNS-сервер пересылки."
+
+#: reforis/foris_controller_api/modules/lan.py:167
+#, fuzzy
+msgid "Can't delete port forwarding rule."
+msgstr "Не удается удалить сервер пересылки DNS."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
 msgstr "Неверный текущий пароль."
 
-#: reforis/foris_controller_api/modules/router_notifications.py:121
+#: reforis/foris_controller_api/modules/router_notifications.py:126
 msgid ""
-"This is a testing notification.\n"
-"\n"
-"Please note it would be sent to your e-mail address only if you set\n"
-"the importance level to \"Reboot or attention is required\" or higher."
+"If you see this message, your notification settings seem to be correct. "
+"Have a nice day! 😊"
 msgstr ""
-"Это тестовое уведомление.\n"
-"\n"
-"Обратите внимание, что сообщение будет отправлено на ваш адрес "
-"электронной почты, только если вы установите\n"
-"уровень важности «Перезагрузка или требуется внимание» или выше."
 
-#: reforis/foris_controller_api/modules/router_notifications.py:133
-msgid "The testing message has been sent, please check your inbox."
-msgstr "Тестовое сообщение отправлено, проверьте свой почтовый ящик."
+#: reforis/foris_controller_api/modules/router_notifications.py:132
+#, fuzzy
+msgid "Test notification sent successfully."
+msgstr "Постоянная аренда успешно сохранена."
 
-#: reforis/foris_controller_api/modules/router_notifications.py:136
-msgid ""
-"Sending of the testing message failed, your configuration is possibly "
-"wrong."
-msgstr "Не удалось отправить тестовое сообщение, возможно, ошибка в конфигурации."
+#: reforis/foris_controller_api/modules/router_notifications.py:135
+msgid "Cannot send test notification. Please check your configuration."
+msgstr ""
 
 #: reforis/foris_controller_api/modules/updater.py:66
 msgid "Cannot change automatic restart settings."
@@ -3210,3 +3484,53 @@ msgstr "500 - Ошибка сервера"
 
 #~ msgid "Dark Mode"
 #~ msgstr "Тёмный режим"
+
+#~ msgid ""
+#~ "You will not receive the test "
+#~ "notification to your email inbox with"
+#~ " current importance level. Please raise "
+#~ "the importance level at least to "
+#~ "\"Reboot or attention is required\" and"
+#~ " click \"Save\" button if you want"
+#~ " to get this notification by email."
+#~ msgstr ""
+#~ "Вы не получите тестовое уведомление с"
+#~ " текущим уровнем важности на свой "
+#~ "почтовый ящик. Повысьте уровень важности "
+#~ "как минимум до «Перезагрузка или "
+#~ "требуется внимание» и нажмите кнопку "
+#~ "«Сохранить», если вы хотите получить это"
+#~ " уведомление по электронной почте."
+
+#~ msgid ""
+#~ "Name of the sender - will be "
+#~ "used as a part of the sender's "
+#~ "email address before the \"at\" sign."
+#~ msgstr ""
+#~ "Имя отправителя - будет использовано как"
+#~ " часть адреса отправителя до знака "
+#~ "\"@\"."
+
+#~ msgid ""
+#~ "This is a testing notification.\n"
+#~ "\n"
+#~ "Please note it would be sent to your e-mail address only if you set\n"
+#~ "the importance level to \"Reboot or attention is required\" or higher."
+#~ msgstr ""
+#~ "Это тестовое уведомление.\n"
+#~ "\n"
+#~ "Обратите внимание, что сообщение будет "
+#~ "отправлено на ваш адрес электронной "
+#~ "почты, только если вы установите\n"
+#~ "уровень важности «Перезагрузка или требуется внимание» или выше."
+
+#~ msgid "The testing message has been sent, please check your inbox."
+#~ msgstr "Тестовое сообщение отправлено, проверьте свой почтовый ящик."
+
+#~ msgid ""
+#~ "Sending of the testing message failed,"
+#~ " your configuration is possibly wrong."
+#~ msgstr ""
+#~ "Не удалось отправить тестовое сообщение, "
+#~ "возможно, ошибка в конфигурации."
+

@@ -1,13 +1,13 @@
 # Italian translations for reForis.
-# Copyright (C) 2024 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-05 16:08+0100\n"
+"POT-Creation-Date: 2025-04-24 15:26+0200\n"
 "PO-Revision-Date: 2023-11-03 05:15+0000\n"
 "Last-Translator: Anselmo <anselmo@casinadicornia.com>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
 msgid ""
@@ -26,7 +26,7 @@ msgid ""
 " test."
 msgstr ""
 
-#: js/src/about/About.js:25 js/src/main/pages.js:94
+#: js/src/about/About.js:25 js/src/main/pages.js:105
 msgid "About"
 msgstr "Informazioni"
 
@@ -70,8 +70,8 @@ msgstr "Riavvia"
 
 #: js/src/common/RebootButton.js:40 js/src/dns/DNSSECDisableModal.js:34
 #: js/src/guide/GuideControls/SkipGuideButton.js:68
-#: js/src/maintenance/FactoryReset.js:27
-#: js/src/notificationsSettings/TestNotification.js:148
+#: js/src/maintenance/FactoryReset.js:28
+#: js/src/notificationsSettings/TestNotification.js:152
 msgid "Warning!"
 msgstr "Attenzione!"
 
@@ -94,9 +94,9 @@ msgstr ""
 
 #: js/src/common/network/DHCP6Clients.js:31
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:34
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:75
-#: js/src/hostname/Hostname.js:24 js/src/main/pages.js:89
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:38
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:76
+#: js/src/hostname/Hostname.js:24 js/src/main/pages.js:100
 msgid "Hostname"
 msgstr "Nome dell'host"
 
@@ -111,19 +111,19 @@ msgstr ""
 
 #: js/src/common/network/DHCP6Clients.js:43
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:87
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:88
 msgid "Expires"
 msgstr "Scadenza"
 
 #: js/src/common/network/DHCP6Clients.js:47
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:92
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:93
 msgid "Active"
 msgstr "Attivo"
 
 #: js/src/common/network/DHCP6Clients.js:64
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:63
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:61
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:44
 msgid "Never"
 msgstr ""
 
@@ -139,20 +139,20 @@ msgstr ""
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:39
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
 #, fuzzy
 msgid "No clients found."
 msgstr "Nessun client DHCP trovato."
 
 #: js/src/common/network/DHCP6Clients.js:96
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:200
 msgid "Device is active"
 msgstr ""
 
 #: js/src/common/network/DHCP6Clients.js:104
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:26
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:200
 #, fuzzy
 msgid "Device is inactive"
 msgstr "Nome dell'host DHCP"
@@ -164,6 +164,16 @@ msgstr "Il nome dell'host che verrà dato al server DHCP."
 #: js/src/common/network/DHCPClientForm.js:38
 msgid "DHCP hostname"
 msgstr "Nome dell'host DHCP"
+
+#: js/src/common/network/DHCPClients.js:24
+msgid "DHCP Client List"
+msgstr ""
+
+#: js/src/common/network/DHCPClients.js:26
+msgid ""
+"This list contains all devices that are connected to the network through "
+"wired or wireless connections."
+msgstr ""
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
@@ -262,113 +272,117 @@ msgstr "Campo richiesto."
 msgid "This is not a valid network mask."
 msgstr ""
 
-#: js/src/common/network/DHCPClients/DHCPClients.js:25
-msgid "DHCP Client List"
-msgstr ""
-
-#: js/src/common/network/DHCPClients/DHCPClients.js:27
-msgid ""
-"This list contains all devices that are connected to the network through "
-"wired or wireless connections."
-msgstr ""
-
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:79
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
 #, fuzzy
 msgid "IPv4 Address"
 msgstr "Indirizzo IP"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:83
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:84
 msgid "MAC Address"
 msgstr "Indirizzo MAC"
 
-#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:57
-msgid "Edit static lease"
-msgstr ""
-
-#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:59
-msgid "Set static lease"
-msgstr ""
-
-#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:61
-#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:98
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:66
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:72
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesAddButton.js:25
 msgid "Add static lease"
 msgstr ""
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:54
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:68
+msgid "Edit static lease"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:70
+msgid "Set static lease"
+msgstr ""
+
+#: js/src/common/network/DHCPClients/hooks.js:71
+msgid "Static lease deleted successfully."
+msgstr ""
+
+#: js/src/common/network/DHCPClients/hooks.js:76
+msgid "Can't delete static lease."
+msgstr ""
+
+#: js/src/common/network/DHCPClients/hooks.js:107
+msgid "Static lease added successfully."
+msgstr ""
+
+#: js/src/common/network/DHCPClients/hooks.js:125
+msgid "Static saved successfully."
+msgstr ""
+
+#: js/src/common/network/DHCPClients/hooks.js:166
+msgid "Hostname cannot be empty."
+msgstr ""
+
+#: js/src/common/network/DHCPClients/hooks.js:170
+#: js/src/portForwarding/hooks.js:244
+msgid "IPv4 address cannot be empty."
+msgstr ""
+
+#: js/src/common/network/DHCPClients/hooks.js:174
+msgid "MAC address cannot be empty."
+msgstr ""
+
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:75
 #: js/src/dns/DNSSECDisableModal.js:48
 #: js/src/guide/GuideControls/SkipGuideButton.js:87
-#: js/src/notificationsSettings/TestNotification.js:153
+#: js/src/notificationsSettings/TestNotification.js:161
 msgid "Cancel"
 msgstr "Annulla"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:57
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:82
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
+#: js/src/portForwarding/PortForwardingRulesModal.js:64
 msgid "Save"
 msgstr ""
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:45
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:50
 msgid "List of available hostnames"
 msgstr ""
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:58
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:62
 #, fuzzy
 msgid "IPv4 address"
 msgstr "Indirizzo IP"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:69
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:74
+#: js/src/portForwarding/PortForwardingRulesForm.js:71
 msgid "List of available IPv4 addresses"
 msgstr ""
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:84
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:88
 #: js/src/interfaces/SelectedInterface.js:139
 #, fuzzy
 msgid "MAC address"
 msgstr "Indirizzo IP"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:95
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:100
 msgid "List of available MAC addresses"
 msgstr ""
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:99
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:125
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:100
 #: js/src/dns/Forwarders/ForwardersTable.js:40
+#: js/src/portForwarding/PortForwardingRulesTable.js:36
 msgid "Actions"
 msgstr "Azioni"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:142
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:145
 #: js/src/dns/Forwarders/ForwardersTable.js:142
+#: js/src/portForwarding/PortForwardingRulesTable.js:82
 msgid "Edit"
 msgstr ""
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:161
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:151
 #: js/src/dns/Forwarders/ForwardersTable.js:153
+#: js/src/portForwarding/PortForwardingRulesTable.js:88
 msgid "Delete"
 msgstr "Elimina"
 
-#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:170
+#: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:186
 msgid "Set Static"
-msgstr ""
-
-#: js/src/common/network/DHCPClients/StaticLeases/hooks.js:47
-msgid "Static lease added successfully."
-msgstr ""
-
-#: js/src/common/network/DHCPClients/StaticLeases/hooks.js:58
-msgid "Static saved successfully."
-msgstr ""
-
-#: js/src/common/network/DHCPClients/StaticLeases/validator.js:20
-msgid "Hostname cannot be empty."
-msgstr ""
-
-#: js/src/common/network/DHCPClients/StaticLeases/validator.js:24
-msgid "IPv4 address cannot be empty."
-msgstr ""
-
-#: js/src/common/network/DHCPClients/StaticLeases/validator.js:28
-msgid "MAC address cannot be empty."
 msgstr ""
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
@@ -548,6 +562,8 @@ msgstr ""
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
 #: js/src/packageManagement/updates/UpdateApproval.js:142
+#: js/src/portForwarding/PortForwardingRulesForm.js:46
+#: js/src/portForwarding/PortForwardingRulesTable.js:29
 msgid "Name"
 msgstr ""
 
@@ -572,14 +588,17 @@ msgid "IPv6"
 msgstr ""
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:53
+#, python-brace-format
 msgid "${label} Addresses"
 msgstr ""
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:59
+#, python-brace-format
 msgid "${label} #${index + 1}"
 msgstr ""
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:83
+#, python-brace-format
 msgid "Add ${label} address"
 msgstr ""
 
@@ -615,17 +634,24 @@ msgstr ""
 msgid "Define at least one of the IP addresses of the forwarder."
 msgstr ""
 
-#: js/src/guestNetwork/GuestNetwork.js:38 js/src/interfaces/constants.js:11
-#: js/src/main/pages.js:60
+#: js/src/guestNetwork/GuestNetwork.js:39 js/src/interfaces/constants.js:11
+#: js/src/main/pages.js:66
 msgid "Guest Network"
 msgstr ""
 
 #: js/src/guestNetwork/GuestNetwork.js:42
+msgid "The guest network is used for "
+msgstr ""
+
+#: js/src/guestNetwork/GuestNetwork.js:43
+msgid "guest Wi-Fi"
+msgstr ""
+
+#: js/src/guestNetwork/GuestNetwork.js:45
 msgid ""
-"The guest network is used for <a href=\"${ForisURLs.wifi}\">guest Wi-"
-"Fi</a>. It is separated from your ordinary LAN. Devices connected to this"
-" network are allowed to access the internet but are not allowed to access"
-" the configuration interface of this device or the devices in LAN."
+"It is separated from your ordinary LAN. Devices connected to this network"
+" are allowed to access the internet but are not allowed to access the "
+"configuration interface of this device or the devices in LAN."
 msgstr ""
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
@@ -866,8 +892,8 @@ msgstr ""
 msgid "Cannot mark guide as finished."
 msgstr ""
 
-#: js/src/guide/steps.js:21 js/src/main/pages.js:73
-#: js/src/notificationsSettings/SMTPCustomForm.js:114
+#: js/src/guide/steps.js:21 js/src/main/pages.js:84
+#: js/src/notificationsSettings/SMTPCustomForm.js:124
 #: js/src/password/Password.js:175
 msgid "Password"
 msgstr "Password"
@@ -876,7 +902,7 @@ msgstr "Password"
 msgid "Workflow"
 msgstr ""
 
-#: js/src/guide/steps.js:29 js/src/main/pages.js:55
+#: js/src/guide/steps.js:29 js/src/main/pages.js:61
 msgid "Interfaces"
 msgstr ""
 
@@ -884,23 +910,24 @@ msgstr ""
 msgid "Time"
 msgstr ""
 
-#: js/src/guide/steps.js:37 js/src/main/pages.js:47 js/src/main/pages.js:53
+#: js/src/guide/steps.js:37 js/src/main/pages.js:48 js/src/main/pages.js:59
 msgid "DNS"
 msgstr ""
 
 #: js/src/guide/steps.js:41
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:138
-#: js/src/main/pages.js:113 js/src/packageManagement/updates/Updates.js:28
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:133
+#: js/src/main/pages.js:124 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
 msgstr ""
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
-#: js/src/main/pages.js:45 js/src/main/pages.js:51 js/src/wan/WAN.js:29
+#: js/src/main/pages.js:46 js/src/main/pages.js:57 js/src/wan/WAN.js:29
 msgid "WAN"
 msgstr ""
 
 #: js/src/guide/steps.js:49 js/src/interfaces/constants.js:10
-#: js/src/main/pages.js:46 js/src/main/pages.js:52
+#: js/src/main/pages.js:47 js/src/main/pages.js:58
+#: js/src/portForwarding/PortForwarding.js:64
 msgid "LAN"
 msgstr ""
 
@@ -932,7 +959,7 @@ msgid ""
 msgstr ""
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
-#: js/src/notificationsSettings/TestNotification.js:155
+#: js/src/notificationsSettings/TestNotification.js:163
 msgid "Confirm"
 msgstr ""
 
@@ -1210,61 +1237,71 @@ msgstr ""
 msgid "IPv4 protocol"
 msgstr ""
 
-#: js/src/main/pages.js:31 js/src/overview/Overview.js:43
+#: js/src/main/pages.js:32 js/src/overview/Overview.js:43
 msgid "Overview"
 msgstr ""
 
-#: js/src/main/pages.js:38
+#: js/src/main/pages.js:39
 msgid "Network Settings"
 msgstr ""
 
-#: js/src/main/pages.js:50 js/src/wifi/WiFi.js:40
+#: js/src/main/pages.js:50 js/src/main/pages.js:71
+#: js/src/portForwarding/PortForwarding.js:49
+#, fuzzy
+msgid "Port Forwarding"
+msgstr "Usa server inoltratore"
+
+#: js/src/main/pages.js:56 js/src/wifi/WiFi.js:40
 msgid "Wi-Fi"
 msgstr ""
 
-#: js/src/main/pages.js:68
+#: js/src/main/pages.js:79
 msgid "Administration"
 msgstr ""
 
-#: js/src/main/pages.js:75
+#: js/src/main/pages.js:86
 msgid "Region & Time"
 msgstr ""
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:80
-#: js/src/main/pages.js:80
-#: js/src/notifications/Notifications/Notifications.js:71
-#: js/src/notificationsSettings/NotificationsSettings.js:26
+#: js/src/main/pages.js:91
+#: js/src/notifications/Notifications/Notifications.js:74
+#: js/src/notificationsSettings/NotificationsSettings.js:29
 msgid "Notifications"
 msgstr ""
 
-#: js/src/main/pages.js:85 js/src/maintenance/Maintenance.js:19
+#: js/src/main/pages.js:96 js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
 msgstr ""
 
-#: js/src/main/pages.js:101
+#: js/src/main/pages.js:112
 msgid "Global Threat Statistics"
 msgstr ""
 
-#: js/src/main/pages.js:108
+#: js/src/main/pages.js:119
 msgid "Package Management"
 msgstr ""
 
-#: js/src/main/pages.js:115
+#: js/src/main/pages.js:126
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:29
 msgid "Update Settings"
 msgstr ""
 
-#: js/src/main/pages.js:119 js/src/packageManagement/packages/Packages.js:20
+#: js/src/main/pages.js:130 js/src/packageManagement/packages/Packages.js:20
 msgid "Packages"
 msgstr ""
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:63
-#: js/src/main/pages.js:120 js/src/packageManagement/languages/Languages.js:20
+#: js/src/main/pages.js:131 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr ""
 
-#: js/src/main/pages.js:125
+#: js/src/main/pages.js:136
 msgid "Advanced Administration"
+msgstr ""
+
+#: js/src/main/pages.js:143
+msgid "Documentation"
 msgstr ""
 
 #: js/src/main/TopBar/LogoutButton.js:16 js/src/utils/useSessionTimeout.js:111
@@ -1310,29 +1347,30 @@ msgstr ""
 msgid "Details"
 msgstr ""
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:108
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:103
 msgid "Approve Update"
 msgstr ""
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:137
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:132
 msgid "See details in "
 msgstr ""
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:139
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:134
+#: js/src/portForwarding/PortForwarding.js:65
 msgid " page."
 msgstr ""
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:146
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
 #: js/src/packageManagement/updates/UpdateApproval.js:120
 msgid "Install now"
 msgstr ""
 
-#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:156
+#: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:151
 #: js/src/packageManagement/updates/UpdateApproval.js:40
 msgid "Cannot install updates."
 msgstr ""
 
-#: js/src/maintenance/FactoryReset.js:17 js/src/maintenance/FactoryReset.js:48
+#: js/src/maintenance/FactoryReset.js:17 js/src/maintenance/FactoryReset.js:49
 msgid "Factory Reset"
 msgstr ""
 
@@ -1344,20 +1382,20 @@ msgid ""
 "router was new, giving you a clean slate to start all over again."
 msgstr ""
 
-#: js/src/maintenance/FactoryReset.js:28
+#: js/src/maintenance/FactoryReset.js:29
 #, fuzzy
 msgid "Are you sure you want to reset the router?"
 msgstr "Vuoi davvero riavviare il router?"
 
-#: js/src/maintenance/FactoryReset.js:31
+#: js/src/maintenance/FactoryReset.js:32
 msgid "Reset"
 msgstr ""
 
-#: js/src/maintenance/FactoryReset.js:33
+#: js/src/maintenance/FactoryReset.js:34
 msgid "The router has been reset successfully."
 msgstr ""
 
-#: js/src/maintenance/FactoryReset.js:36
+#: js/src/maintenance/FactoryReset.js:37
 msgid "An error occurred while resetting the router."
 msgstr ""
 
@@ -1390,6 +1428,7 @@ msgid ""
 msgstr ""
 
 #: js/src/maintenance/Syslog/SyslogForm.js:38
+#, python-brace-format
 msgid ""
 "To enable this option, you have to configure storage in the <a "
 "href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Storage "
@@ -1400,8 +1439,9 @@ msgstr ""
 msgid "Enable System Logs Retention"
 msgstr ""
 
-#: js/src/notifications/Notifications/NotificationsList.js:97
+#: js/src/notifications/Notifications/NotificationsList.js:99
 #: js/src/packageManagement/updateSettings/LicenseModal.js:37
+#: js/src/portForwarding/PortForwardingRulesModal.js:58
 msgid "Close"
 msgstr ""
 
@@ -1417,44 +1457,110 @@ msgstr ""
 msgid "Reboot or attention is required or update was installed"
 msgstr ""
 
-#: js/src/notificationsSettings/CommonForm.js:50
-msgid "Recipient's email"
+#: js/src/notificationsSettings/CommonForm.js:44
+msgid "General Notification Settings"
 msgstr ""
 
-#: js/src/notificationsSettings/CommonForm.js:61
+#: js/src/notificationsSettings/CommonForm.js:46
 msgid "Importance"
 msgstr ""
 
-#: js/src/notificationsSettings/CommonForm.js:70
+#: js/src/notificationsSettings/CommonForm.js:58
 msgid "Send news"
 msgstr ""
 
-#: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:20
+#: js/src/notificationsSettings/NotificationsSettings.js:31
+msgid ""
+"Your device can send you e-mail notifications about required reboots, "
+"important events, installed updates, and new features according to your "
+"settings. Once you are done with the configuration, you can test it by "
+"pressing Send test notification. Additionally, you can use "
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettings.js:39
+msgid "ntfy"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettings.js:47
+msgid ""
+" to receive real-time push notifications directly to your mobile device "
+"or desktop. ntfy allows you to subscribe to topics and get instant alerts"
+" without the need for email."
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:19
 msgid "Turris"
 msgstr ""
 
-#: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:24
+#: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:23
 msgid "Custom"
 msgstr ""
 
-#: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:81
-msgid "Notification Settings"
+#: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:90
+msgid "Email Notification Settings"
 msgstr ""
 
-#: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:83
-msgid "Enable Email Notifications"
+#: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:92
+msgid "Enable email notifications"
 msgstr ""
 
-#: js/src/notificationsSettings/NotificationsEmailSettingsForm.js:93
+#: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:104
 msgid "SMTP provider"
 msgstr ""
 
-#: js/src/notificationsSettings/NotificationsSettings.js:28
+#: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:119
+msgid "Recipient's email"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:14
+msgid "Max"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:15
+msgid "Urgent"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:16
+msgid "High"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:17
+#, fuzzy
+msgid "Default"
+msgstr "Elimina"
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:18
+msgid "Low"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:19
+msgid "Min"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:54
+msgid "Push Notification Settings"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:56
+msgid "Enable push notifications"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
+msgid "URL"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:76
 msgid ""
-"Your device can send you e-mail notifications about required reboots, "
-"important events, installed updates and new features according to your "
-"settings. When done with configuration, you can test it by pressing Send "
-"test notification."
+"Specify the URL to the ntfy server topic. Example format: "
+"https://ntfy.sh/example"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:83
+msgid "Priority"
+msgstr ""
+
+#: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
+msgid "Priority of the push notifications."
 msgstr ""
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
@@ -1477,19 +1583,19 @@ msgstr ""
 msgid "Sender address (From)"
 msgstr ""
 
-#: js/src/notificationsSettings/SMTPCustomForm.js:75
+#: js/src/notificationsSettings/SMTPCustomForm.js:77
 msgid "Server address"
 msgstr ""
 
-#: js/src/notificationsSettings/SMTPCustomForm.js:86
+#: js/src/notificationsSettings/SMTPCustomForm.js:90
 msgid "Server port"
 msgstr ""
 
-#: js/src/notificationsSettings/SMTPCustomForm.js:97
+#: js/src/notificationsSettings/SMTPCustomForm.js:103
 msgid "Security"
 msgstr ""
 
-#: js/src/notificationsSettings/SMTPCustomForm.js:106
+#: js/src/notificationsSettings/SMTPCustomForm.js:114
 #: js/src/wan/WAN6Form.js:434
 msgid "Username"
 msgstr ""
@@ -1498,32 +1604,24 @@ msgstr ""
 msgid "Sender's name"
 msgstr ""
 
-#: js/src/notificationsSettings/TestNotification.js:31
+#: js/src/notificationsSettings/TestNotification.js:30
 msgid ""
-"There are some unsaved changes in the notifications settings. Do you want"
-" to discard them and test the notifications with the old settings?"
+"You have unsaved changes in your notification settings. Do you want to "
+"discard them and test notifications using the previous settings?"
 msgstr ""
 
-#: js/src/notificationsSettings/TestNotification.js:35
+#: js/src/notificationsSettings/TestNotification.js:117
+msgid "Send Test Notification"
+msgstr ""
+
+#: js/src/notificationsSettings/TestNotification.js:119
 msgid ""
-"You will not receive the test notification to your email inbox with "
-"current importance level. Please raise the importance level at least to "
-"\"Reboot or attention is required\" and click \"Save\" button if you want"
-" to get this notification by email."
+"Here you can verify whether your SMTP provider or push notifications are "
+"configured correctly by sending a test notification."
 msgstr ""
 
-#: js/src/notificationsSettings/TestNotification.js:112
-msgid "Test Notification"
-msgstr ""
-
-#: js/src/notificationsSettings/TestNotification.js:114
-msgid ""
-"Here you can verify whether SMTP is configured correctly by sending a "
-"test notification to your email inbox."
-msgstr ""
-
-#: js/src/notificationsSettings/TestNotification.js:125
-msgid "Send test notification"
+#: js/src/notificationsSettings/TestNotification.js:130
+msgid "Send"
 msgstr ""
 
 #: js/src/notificationsSettings/helpTexts.js:9
@@ -1535,46 +1633,54 @@ msgid ""
 msgstr ""
 
 #: js/src/notificationsSettings/helpTexts.js:15
-msgid "Email address of recipient. Separate multiple addresses by comma."
+msgid ""
+"Depending on the importance or severity of the notification, you can "
+"choose to receive notifications about all events or only about those that"
+" require your attention."
 msgstr ""
 
 #: js/src/notificationsSettings/helpTexts.js:18
-msgid "Send emails about new features."
+msgid "Email address of recipient. Separate multiple addresses by comma."
 msgstr ""
 
 #: js/src/notificationsSettings/helpTexts.js:21
-msgid ""
-"Name of the sender - will be used as a part of the sender's email address"
-" before the \"at\" sign."
+msgid "Send notifications about new releases."
 msgstr ""
 
-#: js/src/notificationsSettings/helpTexts.js:26
+#: js/src/notificationsSettings/helpTexts.js:24
+msgid ""
+"Name of the sender that will be used before the \"at\" symbol in the "
+"email address. For example: \"home-router@notify.turis.cz\""
+msgstr ""
+
+#: js/src/notificationsSettings/helpTexts.js:29
 msgid "This is the address notifications are send from."
 msgstr ""
 
-#: js/src/notificationsSettings/validator.js:23
+#: js/src/notificationsSettings/validator.js:34
+#: js/src/notificationsSettings/validator.js:43
 msgid "Can't be empty."
 msgstr ""
 
-#: js/src/notificationsSettings/validator.js:33
+#: js/src/notificationsSettings/validator.js:53
 msgid "Sender's name can't be empty."
 msgstr ""
 
-#: js/src/notificationsSettings/validator.js:37
+#: js/src/notificationsSettings/validator.js:57
 msgid ""
 "Sender's name can contain only alphanumeric characters, dots and "
 "underscores."
 msgstr ""
 
-#: js/src/notificationsSettings/validator.js:46
+#: js/src/notificationsSettings/validator.js:66
 msgid "Port is an number."
 msgstr ""
 
-#: js/src/notificationsSettings/validator.js:47
+#: js/src/notificationsSettings/validator.js:67
 msgid "Maximum port is 65535."
 msgstr ""
 
-#: js/src/notificationsSettings/validator.js:48
+#: js/src/notificationsSettings/validator.js:68
 msgid "Minimum port is 1."
 msgstr ""
 
@@ -1895,6 +2001,7 @@ msgid ""
 msgstr ""
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
+#, python-brace-format
 msgid ""
 "These updates are not going to be \n"
 "                                    automatically installed before \n"
@@ -1902,6 +2009,7 @@ msgid ""
 msgstr ""
 
 #: js/src/packageManagement/updates/UpdateApproval.js:88
+#, python-brace-format
 msgid ""
 "If you don't want the updates to be installed at all, go to\n"
 "                                    <a "
@@ -1957,6 +2065,7 @@ msgid ""
 msgstr ""
 
 #: js/src/packageManagement/updates/Updates.js:48
+#, python-brace-format
 msgid ""
 "Automatic updates are disabled. Please enable \n"
 "            <a "
@@ -1985,6 +2094,7 @@ msgid "Cannot fetch updater status."
 msgstr ""
 
 #: js/src/packageManagement/utils/DisabledUpdaterAlert.js:13
+#, python-brace-format
 msgid ""
 "Please enable <a "
 "href=\"${ForisURLs.packageManagement.updateSettings}\">automatic "
@@ -2023,6 +2133,7 @@ msgid ""
 msgstr ""
 
 #: js/src/password/Password.js:102
+#, python-brace-format
 msgid ""
 "The password you have entered has not been saved. It has been compromised"
 " and appears ${\n"
@@ -2075,6 +2186,132 @@ msgid ""
 "managed either \n"
 "through the <a href=\"%s\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">LuCI web interface</a> or via SSH."
+msgstr ""
+
+#: js/src/portForwarding/PortForwarding.js:51
+msgid ""
+"Port forwarding allows you to forward incoming traffic from the WAN "
+"interface to a specific device on your LAN."
+msgstr ""
+
+#: js/src/portForwarding/PortForwarding.js:56
+msgid ""
+"For example, you can forward incoming traffic on port 80 to a web server "
+"on your LAN. This way, the web server will be accessible from the "
+"internet."
+msgstr ""
+
+#: js/src/portForwarding/PortForwarding.js:61
+msgid ""
+"You can add a new port forwarding rule by clicking the \"Add rule\" "
+"button. But first, you need to configure a static DHCP lease for the "
+"device you want to forward traffic to. You can configure it on the "
+msgstr ""
+
+#: js/src/portForwarding/PortForwarding.js:139
+#, fuzzy
+msgid "Edit port forwarding rule"
+msgstr "Modifica server inoltratore"
+
+#: js/src/portForwarding/PortForwarding.js:140
+#, fuzzy
+msgid "Add port forwarding rule"
+msgstr "Aggiungi server inoltratore personalizzato"
+
+#: js/src/portForwarding/PortForwarding.js:182
+msgid "Add rule"
+msgstr ""
+
+#: js/src/portForwarding/PortForwardingRulesForm.js:57
+#, fuzzy
+msgid "Internal IPv4 address"
+msgstr "Indirizzo IP"
+
+#: js/src/portForwarding/PortForwardingRulesForm.js:85
+#: js/src/portForwarding/PortForwardingRulesTable.js:31
+msgid "External port"
+msgstr ""
+
+#: js/src/portForwarding/PortForwardingRulesForm.js:96
+#: js/src/portForwarding/PortForwardingRulesTable.js:32
+msgid "Internal port"
+msgstr ""
+
+#: js/src/portForwarding/PortForwardingRulesForm.js:107
+#: js/src/portForwarding/PortForwardingRulesTable.js:34
+#, fuzzy
+msgid "Enabled"
+msgstr "Abilita DNSSEC"
+
+#: js/src/portForwarding/PortForwardingRulesTable.js:23
+#, fuzzy
+msgid "Port Forwarding Rules"
+msgstr "Usa server inoltratore"
+
+#: js/src/portForwarding/PortForwardingRulesTable.js:30
+#, fuzzy
+msgid "Internal IP address"
+msgstr "Indirizzo IP"
+
+#: js/src/portForwarding/PortForwardingRulesTable.js:53
+msgid "No port forwarding rules defined."
+msgstr ""
+
+#: js/src/portForwarding/constants.js:17
+msgid "Enter the name of the port forwarding rule."
+msgstr ""
+
+#: js/src/portForwarding/constants.js:18
+msgid ""
+"Enter the external port number to which the rule applies. It can be a "
+"single port or a range of ports."
+msgstr ""
+
+#: js/src/portForwarding/constants.js:21
+msgid ""
+"Enter a valid IP address of the device to which the port will be "
+"forwarded. The best practice is to assign a static lease to the device in"
+" advance."
+msgstr ""
+
+#: js/src/portForwarding/constants.js:24
+msgid ""
+"Enter the internal port number to which the rule applies. It can be a "
+"single port or a range of ports."
+msgstr ""
+
+#: js/src/portForwarding/constants.js:27
+msgid "Enable or disable the port forwarding rule."
+msgstr ""
+
+#: js/src/portForwarding/hooks.js:76
+msgid "Rule deleted successfully."
+msgstr ""
+
+#: js/src/portForwarding/hooks.js:79
+msgid "Can't delete rule."
+msgstr ""
+
+#: js/src/portForwarding/hooks.js:150
+msgid "Rule added successfully."
+msgstr ""
+
+#: js/src/portForwarding/hooks.js:166
+msgid "Rule saved successfully."
+msgstr ""
+
+#: js/src/portForwarding/hooks.js:214
+msgid "Name should have at least one symbol."
+msgstr ""
+
+#: js/src/portForwarding/hooks.js:224
+#, python-brace-format
+msgid "${fieldName} should be a positive number or range of numbers."
+msgstr ""
+
+#: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
+#, python-brace-format
+msgid "${fieldName} should be a valid port number or range."
 msgstr ""
 
 #: js/src/regionAndTime/RegionAndTime.js:31
@@ -2483,38 +2720,54 @@ msgstr ""
 msgid "Hostname is already used by another static lease."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/lan.py:85
+#: reforis/foris_controller_api/modules/lan.py:24
+msgid "IP address is not in the LAN network."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:25
+msgid "IP address is not a user-defined static lease."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:26
+msgid "Port range is already used by another port forwarding rule."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:104
 msgid "Can't create DHCP lease."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/lan.py:100
+#: reforis/foris_controller_api/modules/lan.py:119
 msgid "Can't update DHCP lease."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/lan.py:111
+#: reforis/foris_controller_api/modules/lan.py:130
 msgid "Can't delete DHCP lease."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:156
+msgid "Can't set port forwarding rule."
+msgstr ""
+
+#: reforis/foris_controller_api/modules/lan.py:167
+msgid "Can't delete port forwarding rule."
 msgstr ""
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/router_notifications.py:121
+#: reforis/foris_controller_api/modules/router_notifications.py:126
 msgid ""
-"This is a testing notification.\n"
-"\n"
-"Please note it would be sent to your e-mail address only if you set\n"
-"the importance level to \"Reboot or attention is required\" or higher."
+"If you see this message, your notification settings seem to be correct. "
+"Have a nice day! 😊"
 msgstr ""
 
-#: reforis/foris_controller_api/modules/router_notifications.py:133
-msgid "The testing message has been sent, please check your inbox."
+#: reforis/foris_controller_api/modules/router_notifications.py:132
+msgid "Test notification sent successfully."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/router_notifications.py:136
-msgid ""
-"Sending of the testing message failed, your configuration is possibly "
-"wrong."
+#: reforis/foris_controller_api/modules/router_notifications.py:135
+msgid "Cannot send test notification. Please check your configuration."
 msgstr ""
 
 #: reforis/foris_controller_api/modules/updater.py:66
@@ -3118,5 +3371,85 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "There are no clients added yet."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The guest network is used for <a"
+#~ " href=\"${ForisURLs.wifi}\">guest Wi-Fi</a>. It"
+#~ " is separated from your ordinary LAN."
+#~ " Devices connected to this network "
+#~ "are allowed to access the internet "
+#~ "but are not allowed to access the"
+#~ " configuration interface of this device "
+#~ "or the devices in LAN."
+#~ msgstr ""
+
+#~ msgid "Notification Settings"
+#~ msgstr ""
+
+#~ msgid "Enable Email Notifications"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your device can send you e-mail "
+#~ "notifications about required reboots, "
+#~ "important events, installed updates and "
+#~ "new features according to your settings."
+#~ " When done with configuration, you "
+#~ "can test it by pressing Send test"
+#~ " notification."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are some unsaved changes in "
+#~ "the notifications settings. Do you want"
+#~ " to discard them and test the "
+#~ "notifications with the old settings?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You will not receive the test "
+#~ "notification to your email inbox with"
+#~ " current importance level. Please raise "
+#~ "the importance level at least to "
+#~ "\"Reboot or attention is required\" and"
+#~ " click \"Save\" button if you want"
+#~ " to get this notification by email."
+#~ msgstr ""
+
+#~ msgid "Test Notification"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Here you can verify whether SMTP "
+#~ "is configured correctly by sending a "
+#~ "test notification to your email inbox."
+#~ msgstr ""
+
+#~ msgid "Send test notification"
+#~ msgstr ""
+
+#~ msgid "Send emails about new features."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Name of the sender - will be "
+#~ "used as a part of the sender's "
+#~ "email address before the \"at\" sign."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is a testing notification.\n"
+#~ "\n"
+#~ "Please note it would be sent to your e-mail address only if you set\n"
+#~ "the importance level to \"Reboot or attention is required\" or higher."
+#~ msgstr ""
+
+#~ msgid "The testing message has been sent, please check your inbox."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sending of the testing message failed,"
+#~ " your configuration is possibly wrong."
 #~ msgstr ""
 
