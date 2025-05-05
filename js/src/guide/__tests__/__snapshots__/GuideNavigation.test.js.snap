@@ -85,6 +85,16 @@ exports[`<GuideNavigation/> Snapshot. 1`] = `
         <i
           class="fa"
         />
+        Sentinel
+      </a>
+    </li>
+    <li>
+      <a
+        class="disabled"
+      >
+        <i
+          class="fa"
+        />
         Finish
       </a>
     </li>
