@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-04-24 15:26+0200\n"
-"PO-Revision-Date: 2024-12-18 11:00+0000\n"
+"PO-Revision-Date: 2025-05-05 14:54+0000\n"
 "Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
+"\n"
 "Language: cs\n"
-"Language-Team: Czech "
-"<https://hosted.weblate.org/projects/turris/reforis/cs/>\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -308,12 +309,10 @@ msgid "Set static lease"
 msgstr "Nastavit statickou zápůjčku"
 
 #: js/src/common/network/DHCPClients/hooks.js:71
-#, fuzzy
 msgid "Static lease deleted successfully."
-msgstr "Statická zápůjčka byla úspěšně přidána."
+msgstr "Statická zápůjčka byla úspěšně smazána."
 
 #: js/src/common/network/DHCPClients/hooks.js:76
-#, fuzzy
 msgid "Can't delete static lease."
 msgstr "Nelze smazat zápůjčku DHCP."
 
@@ -659,26 +658,23 @@ msgid "Guest Network"
 msgstr "Síť pro hosty"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
-#, fuzzy
 msgid "The guest network is used for "
-msgstr "Nastavení sítě pro hosty"
+msgstr "Síť pro hosty se používá pro "
 
 #: js/src/guestNetwork/GuestNetwork.js:43
-#, fuzzy
 msgid "guest Wi-Fi"
-msgstr "Wi-Fi"
+msgstr "Wi-Fi pro hosty"
 
 #: js/src/guestNetwork/GuestNetwork.js:45
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "It is separated from your ordinary LAN. Devices connected to this network"
 " are allowed to access the internet but are not allowed to access the "
 "configuration interface of this device or the devices in LAN."
 msgstr ""
-"Síť pro hosty slouží pro <a href=\"${ForisURLs.wifi}\">Wi-Fi pro "
-"hosty</a>. Je oddělena od vaší běžné LAN. Zařízením připojených do této "
-"sítě je umožněn přístup do Internetu, ale už ne ke administračnímu "
-"rozhraní tohoto routeru ani ostatním zařízením v LAN."
+"Je oddělena od vaší běžné LAN. Zařízení připojená do této sítě mají povolen "
+"přístup k Internetu, ale nemohou přistupovat ke konfiguračnímu rozhraní na "
+"tomto zařízení ani k zařízením v LAN."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
@@ -1376,9 +1372,8 @@ msgstr "Nastavení sítě"
 
 #: js/src/main/pages.js:50 js/src/main/pages.js:71
 #: js/src/portForwarding/PortForwarding.js:49
-#, fuzzy
 msgid "Port Forwarding"
-msgstr "Používat přeposílání"
+msgstr "Přesměrování portů"
 
 #: js/src/main/pages.js:56 js/src/wifi/WiFi.js:40
 msgid "Wi-Fi"
@@ -1430,9 +1425,8 @@ msgid "Advanced Administration"
 msgstr "Pokročilá správa"
 
 #: js/src/main/pages.js:143
-#, fuzzy
 msgid "Documentation"
-msgstr "Správa"
+msgstr "Dokumentace"
 
 #: js/src/main/TopBar/LogoutButton.js:16 js/src/utils/useSessionTimeout.js:111
 msgid "Logout"
@@ -1628,7 +1622,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
-msgstr ""
+msgstr "ntfy"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:47
 msgid ""
@@ -1636,6 +1630,9 @@ msgid ""
 "or desktop. ntfy allows you to subscribe to topics and get instant alerts"
 " without the need for email."
 msgstr ""
+" pro příjem push notifikací v reálném čase přímo na vaše mobilní zařízení "
+"nebo stolní počítač. ntfy vám umožňuje přihlásit se k tématům a dostávat "
+"okamžitá upozornění bez nutnosti používat e-mail."
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:19
 msgid "Turris"
@@ -1665,7 +1662,7 @@ msgstr "E-mail příjemce"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:14
 msgid "Max"
-msgstr ""
+msgstr "Max"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:15
 #, fuzzy
@@ -1684,7 +1681,7 @@ msgstr "Smazat"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:18
 msgid "Low"
-msgstr ""
+msgstr "Nízká"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:19
 #, fuzzy
@@ -1703,17 +1700,17 @@ msgstr "Zapnout notifikace e-mailem"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:76
 msgid ""
 "Specify the URL to the ntfy server topic. Example format: "
 "https://ntfy.sh/example"
-msgstr ""
+msgstr "Uveďte URL tématu na serveru nfty. Příklad: https://ntfy.sh/example"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:83
 msgid "Priority"
-msgstr ""
+msgstr "Priorita"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
 #, fuzzy
@@ -1808,6 +1805,9 @@ msgid ""
 "choose to receive notifications about all events or only about those that"
 " require your attention."
 msgstr ""
+"V závislosti na důležitosti nebo závažnosti notifikace, můžete si vybrat, "
+"zda chcete přijímat notifikace o všech událostech nebo o těch, které "
+"vyžadují vaši pozornost."
 
 #: js/src/notificationsSettings/helpTexts.js:18
 msgid "Email address of recipient. Separate multiple addresses by comma."
@@ -1823,6 +1823,8 @@ msgid ""
 "Name of the sender that will be used before the \"at\" symbol in the "
 "email address. For example: \"home-router@notify.turis.cz\""
 msgstr ""
+"Jméno odesílatele, které se bude používat před zavináčem v e-mailové adrese. "
+"Například: \"home-router@notify.turis.cz\""
 
 #: js/src/notificationsSettings/helpTexts.js:29
 msgid "This is the address notifications are send from."
@@ -2457,6 +2459,8 @@ msgid ""
 "Port forwarding allows you to forward incoming traffic from the WAN "
 "interface to a specific device on your LAN."
 msgstr ""
+"Přesměrování portů vám umožňuje přesměrovávat příchozí provoz z rozhraní WAN "
+"na určité zařízení ve vaší LAN."
 
 #: js/src/portForwarding/PortForwarding.js:56
 msgid ""
@@ -2464,6 +2468,8 @@ msgid ""
 "on your LAN. This way, the web server will be accessible from the "
 "internet."
 msgstr ""
+"Například můžete příchozí provoz na port 80 přesměrovávat na webový server "
+"ve vaší LAN. Takto bude webový server přístupný z Internetu."
 
 #: js/src/portForwarding/PortForwarding.js:61
 msgid ""
@@ -2471,6 +2477,9 @@ msgid ""
 "button. But first, you need to configure a static DHCP lease for the "
 "device you want to forward traffic to. You can configure it on the "
 msgstr ""
+"Můžete přidat pravidlo pro přesměrování portu stiskem tlačítka "
+"\"Přidat pravidlo\". Ale nejdříve musíte nakonfigurovat statickou zápůjčku "
+"DHCP pro zařízení, kam chcete provoz směrovat. Můžete ho nakonfigurovat na "
 
 #: js/src/portForwarding/PortForwarding.js:139
 #, fuzzy
@@ -2495,12 +2504,12 @@ msgstr "IP adresa routeru"
 #: js/src/portForwarding/PortForwardingRulesForm.js:85
 #: js/src/portForwarding/PortForwardingRulesTable.js:31
 msgid "External port"
-msgstr ""
+msgstr "Vnější port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:96
 #: js/src/portForwarding/PortForwardingRulesTable.js:32
 msgid "Internal port"
-msgstr ""
+msgstr "Vnitřní port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:107
 #: js/src/portForwarding/PortForwardingRulesTable.js:34
@@ -2520,17 +2529,19 @@ msgstr "IP adresa routeru"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:53
 msgid "No port forwarding rules defined."
-msgstr ""
+msgstr "Nejsou definována žádná pravidla přesměrování portů."
 
 #: js/src/portForwarding/constants.js:17
 msgid "Enter the name of the port forwarding rule."
-msgstr ""
+msgstr "Vložte název pravidla přesměrování portu."
 
 #: js/src/portForwarding/constants.js:18
 msgid ""
 "Enter the external port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"Vložte číslo vnějšího portu, na který se bude pravidlo vztahovat. Může to "
+"být jeden port nebo rozsah portů."
 
 #: js/src/portForwarding/constants.js:21
 msgid ""
@@ -2538,16 +2549,20 @@ msgid ""
 "forwarded. The best practice is to assign a static lease to the device in"
 " advance."
 msgstr ""
+"Vložte platnou IP adresu zařízení, na které se bude port přesměrovávat. "
+"Nejlepší praxí je nastavit pro cílové zařízení statickou zápůjčku DHCP."
 
 #: js/src/portForwarding/constants.js:24
 msgid ""
 "Enter the internal port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"Vložte číslo vnitřního portu, na který se bude pravidlo vztahovat. Může to "
+"být jeden port nebo rozsah portů."
 
 #: js/src/portForwarding/constants.js:27
 msgid "Enable or disable the port forwarding rule."
-msgstr ""
+msgstr "Povolit nebo zakázat pravidlo přesměrování portu."
 
 #: js/src/portForwarding/hooks.js:76
 #, fuzzy
@@ -2577,12 +2592,12 @@ msgstr "Síťový název by měl obsahovat alespoň jeden symbol."
 #: js/src/portForwarding/hooks.js:224
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
-msgstr ""
+msgstr "${fieldName} musí být kladné číslo nebo rozsah čísel."
 
 #: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
-msgstr ""
+msgstr "${fieldName} musí být platné číslo nebo rozsah."
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
@@ -3075,6 +3090,8 @@ msgid ""
 "If you see this message, your notification settings seem to be correct. "
 "Have a nice day! 😊"
 msgstr ""
+"Vidíte-li tuto zprávu, vaše nastavení notifikací se zdá být správné. Přejeme "
+"vám krásný den! 😊"
 
 #: reforis/foris_controller_api/modules/router_notifications.py:132
 #, fuzzy
@@ -3084,6 +3101,7 @@ msgstr "Statické nastavení úspěšně uloženo."
 #: reforis/foris_controller_api/modules/router_notifications.py:135
 msgid "Cannot send test notification. Please check your configuration."
 msgstr ""
+"Nelze odeslat testovací notifikaci. Zkontrolujte prosím svou konfiguraci."
 
 #: reforis/foris_controller_api/modules/updater.py:66
 msgid "Cannot change automatic restart settings."
@@ -3561,4 +3579,3 @@ msgstr "500 - Server error"
 #~ "Odeslání testovací zprávy se nezdařilo –"
 #~ " je možné, že vaše nastavení nejsou"
 #~ " správná."
-
