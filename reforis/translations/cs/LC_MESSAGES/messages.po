@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-04-24 15:26+0200\n"
-"PO-Revision-Date: 2025-05-05 14:54+0000\n"
+"PO-Revision-Date: 2025-05-06 15:05+0000\n"
 "Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
 "\n"
@@ -1595,9 +1595,8 @@ msgid "Reboot or attention is required or update was installed"
 msgstr "Vyžadován restart, pozornost nebo byla nainstalována aktualizace"
 
 #: js/src/notificationsSettings/CommonForm.js:44
-#, fuzzy
 msgid "General Notification Settings"
-msgstr "Nastavení notifikací"
+msgstr "Obecné nastavení notifikací"
 
 #: js/src/notificationsSettings/CommonForm.js:46
 msgid "Importance"
@@ -1608,17 +1607,16 @@ msgid "Send news"
 msgstr "Posílat novinky"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:31
-#, fuzzy
 msgid ""
 "Your device can send you e-mail notifications about required reboots, "
 "important events, installed updates, and new features according to your "
 "settings. Once you are done with the configuration, you can test it by "
 "pressing Send test notification. Additionally, you can use "
 msgstr ""
-"Vaše zařízení vám může podle vašich nastavení zasílat e-mailová oznámení "
-"o požadovaných restartech, důležitých událostech, nainstalovaných "
+"Vaše zařízení vám může podle vašich nastavení zasílat e-mailová oznámení o "
+"požadovaných restartech, důležitých událostech, nainstalovaných "
 "aktualizacích a nových funkcích. Po dokončení konfigurace to můžete "
-"otestovat stisknutím Odeslat testovací oznámení."
+"otestovat stisknutím Odeslat testovací oznámení. Navíc můžete použít "
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
@@ -1643,12 +1641,10 @@ msgid "Custom"
 msgstr "Uživatelsky určené"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:90
-#, fuzzy
 msgid "Email Notification Settings"
-msgstr "Nastavení notifikací"
+msgstr "Nastavení e-mailových notifikací"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:92
-#, fuzzy
 msgid "Enable email notifications"
 msgstr "Zapnout notifikace e-mailem"
 
@@ -1665,38 +1661,32 @@ msgid "Max"
 msgstr "Max"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:15
-#, fuzzy
 msgid "Urgent"
-msgstr "Stávající"
+msgstr "Urgentní"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:16
-#, fuzzy
 msgid "High"
-msgstr "Světlý"
+msgstr "Vysoká"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:17
-#, fuzzy
 msgid "Default"
-msgstr "Smazat"
+msgstr "Výchozí"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:18
 msgid "Low"
 msgstr "Nízká"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:19
-#, fuzzy
 msgid "Min"
 msgstr "Minimální"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:54
-#, fuzzy
 msgid "Push Notification Settings"
-msgstr "Nastavení notifikací"
+msgstr "Nastavení push notifikací"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:56
-#, fuzzy
 msgid "Enable push notifications"
-msgstr "Zapnout notifikace e-mailem"
+msgstr "Zapnout push notifikace"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
 msgid "URL"
@@ -1713,9 +1703,8 @@ msgid "Priority"
 msgstr "Priorita"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
-#, fuzzy
 msgid "Priority of the push notifications."
-msgstr "Testovací oznámení"
+msgstr "Priorita push notifikací."
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
@@ -1759,22 +1748,18 @@ msgid "Sender's name"
 msgstr "Jméno odesilatele"
 
 #: js/src/notificationsSettings/TestNotification.js:30
-#, fuzzy
 msgid ""
 "You have unsaved changes in your notification settings. Do you want to "
 "discard them and test notifications using the previous settings?"
 msgstr ""
-"V nastavení upozorňování byly provedeny změny, které doposud nebyly "
-"uloženy. Chcete je zahodit a odeslat testovací zprávu s původními "
-"nastaveními?"
+"V nastavení notifikací byly provedeny změny, které doposud nebyly uloženy. "
+"Chcete je zahodit a odeslat testovací zprávu s původními nastaveními?"
 
 #: js/src/notificationsSettings/TestNotification.js:117
-#, fuzzy
 msgid "Send Test Notification"
-msgstr "Odeslat testovací oznámení"
+msgstr "Odeslat testovací notifikaci"
 
 #: js/src/notificationsSettings/TestNotification.js:119
-#, fuzzy
 msgid ""
 "Here you can verify whether your SMTP provider or push notifications are "
 "configured correctly by sending a test notification."
@@ -1783,9 +1768,8 @@ msgstr ""
 "odesláním testovací notifikace do své e-mailové schránky."
 
 #: js/src/notificationsSettings/TestNotification.js:130
-#, fuzzy
 msgid "Send"
-msgstr "Posílat novinky"
+msgstr "Odeslat"
 
 #: js/src/notificationsSettings/helpTexts.js:9
 msgid ""
@@ -1814,9 +1798,8 @@ msgid "Email address of recipient. Separate multiple addresses by comma."
 msgstr "E-mailová adresa příjemce. Vícero adres oddělujte čárkami."
 
 #: js/src/notificationsSettings/helpTexts.js:21
-#, fuzzy
 msgid "Send notifications about new releases."
-msgstr "Zasílat notifikace e-mailem na nové funkce."
+msgstr "Zasílat notifikace o nových verzích."
 
 #: js/src/notificationsSettings/helpTexts.js:24
 msgid ""
@@ -2482,24 +2465,20 @@ msgstr ""
 "DHCP pro zařízení, kam chcete provoz směrovat. Můžete ho nakonfigurovat na "
 
 #: js/src/portForwarding/PortForwarding.js:139
-#, fuzzy
 msgid "Edit port forwarding rule"
-msgstr "Upravit přeposílání"
+msgstr "Upravit pravidlo přesměrování portu"
 
 #: js/src/portForwarding/PortForwarding.js:140
-#, fuzzy
 msgid "Add port forwarding rule"
-msgstr "Přidat uživatelsky určené přeposílání"
+msgstr "Přidat pravidlo přesměrování portu"
 
 #: js/src/portForwarding/PortForwarding.js:182
-#, fuzzy
 msgid "Add rule"
-msgstr "Adresa"
+msgstr "Přidat pravidlo"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:57
-#, fuzzy
 msgid "Internal IPv4 address"
-msgstr "IP adresa routeru"
+msgstr "Vnitřní adresa IPv4"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:85
 #: js/src/portForwarding/PortForwardingRulesTable.js:31
@@ -2513,19 +2492,16 @@ msgstr "Vnitřní port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:107
 #: js/src/portForwarding/PortForwardingRulesTable.js:34
-#, fuzzy
 msgid "Enabled"
-msgstr "Zapnout DHCP"
+msgstr "Povoleno"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:23
-#, fuzzy
 msgid "Port Forwarding Rules"
-msgstr "Používat přeposílání"
+msgstr "Pravidla přesměrování portů"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:30
-#, fuzzy
 msgid "Internal IP address"
-msgstr "IP adresa routeru"
+msgstr "Vnitřní IP adresa"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:53
 msgid "No port forwarding rules defined."
@@ -2565,29 +2541,24 @@ msgid "Enable or disable the port forwarding rule."
 msgstr "Povolit nebo zakázat pravidlo přesměrování portu."
 
 #: js/src/portForwarding/hooks.js:76
-#, fuzzy
 msgid "Rule deleted successfully."
-msgstr "Přihlášení bylo úspěšně prodlouženo."
+msgstr "Pravidlo bylo úspěšně smazáno."
 
 #: js/src/portForwarding/hooks.js:79
-#, fuzzy
 msgid "Can't delete rule."
-msgstr "Nelze smazat zápůjčku DHCP."
+msgstr "Pravidlo nelze smazat."
 
 #: js/src/portForwarding/hooks.js:150
-#, fuzzy
 msgid "Rule added successfully."
-msgstr "Přeposílání DNS dotazů bylo úspěšně přidáno."
+msgstr "Pravidlo úspěšně přidáno."
 
 #: js/src/portForwarding/hooks.js:166
-#, fuzzy
 msgid "Rule saved successfully."
-msgstr "Nastavení přeposílání DNS dotazů bylo úspěšně uloženo."
+msgstr "Pravidlo úspěšně uloženo."
 
 #: js/src/portForwarding/hooks.js:214
-#, fuzzy
 msgid "Name should have at least one symbol."
-msgstr "Síťový název by měl obsahovat alespoň jeden symbol."
+msgstr "Název by měl obsahovat alespoň jeden symbol."
 
 #: js/src/portForwarding/hooks.js:224
 #, python-brace-format
@@ -3045,19 +3016,16 @@ msgid "Hostname is already used by another static lease."
 msgstr "Síťový název je již používán jinou statickou zápůjčkou."
 
 #: reforis/foris_controller_api/modules/lan.py:24
-#, fuzzy
 msgid "IP address is not in the LAN network."
-msgstr "IP adresa neodpovídá síti LAN."
+msgstr "IP adresa není v síti LAN."
 
 #: reforis/foris_controller_api/modules/lan.py:25
-#, fuzzy
 msgid "IP address is not a user-defined static lease."
-msgstr "IP adresa je již používána pro jinou statickou zápůjčku."
+msgstr "IP adresa není uživatelsky definovanou statickou zápůjčkou."
 
 #: reforis/foris_controller_api/modules/lan.py:26
-#, fuzzy
 msgid "Port range is already used by another port forwarding rule."
-msgstr "Síťový název je již používán jinou statickou zápůjčkou."
+msgstr "Rozsah portů se už používá pro jiné pravidlo přesměrování."
 
 #: reforis/foris_controller_api/modules/lan.py:104
 msgid "Can't create DHCP lease."
@@ -3072,14 +3040,12 @@ msgid "Can't delete DHCP lease."
 msgstr "Nelze smazat zápůjčku DHCP."
 
 #: reforis/foris_controller_api/modules/lan.py:156
-#, fuzzy
 msgid "Can't set port forwarding rule."
-msgstr "Nedaří se nastavit DNS přeposílání."
+msgstr "Nelze nastavit pravidlo přesměrování."
 
 #: reforis/foris_controller_api/modules/lan.py:167
-#, fuzzy
 msgid "Can't delete port forwarding rule."
-msgstr "Nedaří se smazat DNS přeposílání."
+msgstr "Nelze smazat pravidlo přesměrování portu."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
@@ -3094,9 +3060,8 @@ msgstr ""
 "vám krásný den! 😊"
 
 #: reforis/foris_controller_api/modules/router_notifications.py:132
-#, fuzzy
 msgid "Test notification sent successfully."
-msgstr "Statické nastavení úspěšně uloženo."
+msgstr "Testovací notifikace byla úspěšně odeslána."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:135
 msgid "Cannot send test notification. Please check your configuration."
