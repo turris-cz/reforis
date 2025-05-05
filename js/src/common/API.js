@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020-2024 CZ.NIC z.s.p.o. (https://www.nic.cz/)
+ * Copyright (C) 2020-2025 CZ.NIC z.s.p.o. (https://www.nic.cz/)
  *
  * This is free software, licensed under the GNU General Public License v3.
  * See /LICENSE for more information.
@@ -72,7 +72,8 @@ const API_URL_MODULES_PREFIX = `${REFORIS_URL_PREFIX}`;
 export const API_MODULE_URLs = new Proxy(
     {
         // Packages
-        sentinel: "/data-collection/api/settings",
+        sentinel: "/sentinel/api/settings",
+        sentinelEula: "/sentinel/api/eula",
         openvpn: "/openvpn/api/server-settings",
         openvpnClients: "/openvpn/api/clients",
         librespeed: "/librespeed/api/data",

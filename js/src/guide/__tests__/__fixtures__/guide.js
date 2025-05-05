@@ -21,6 +21,7 @@ export const guideFixtures = {
         "time",
         "dns",
         "updater",
+        "sentinel",
         "finished",
     ],
 };
