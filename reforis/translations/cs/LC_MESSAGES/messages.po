@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-04-24 15:26+0200\n"
-"PO-Revision-Date: 2025-05-13 11:01+0000\n"
+"PO-Revision-Date: 2025-05-14 20:02+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
 "\n"
@@ -40,10 +40,9 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
-"Zde můžete najít některé informace o svém zařízení. Vložte je prosím do "
-"své zprávy, pokud kontaktujete naši <a "
-"href=\"mailto:tech.support@turris.cz\" target=\"_blank\">zákaznickou "
-"podporu</a>."
+"Zde jsou k dispozici některé informace o vašem zařízení. Když se budete "
+"obracet na naši <a href=\"mailto:tech.support@turris.cz\" target=\"_blank\""
+">zákaznickou podporu</a>, dejte do zprávy prosím i tyto."
 
 #: js/src/about/About.js:37
 msgid "Device"
@@ -87,11 +86,11 @@ msgstr "Opravdu chcete směrovač zrestartovat?"
 
 #: js/src/common/RebootButton.js:44
 msgid "The router has been rebooted successfully."
-msgstr "Router byl úspěšně restartován."
+msgstr "Směrovač byl úspěšně restartován."
 
 #: js/src/common/RebootButton.js:45
 msgid "An error occurred while rebooting the router."
-msgstr "Při restartu routeru došlo k chybě."
+msgstr "Při restartu směrovače došlo k chybě."
 
 #: js/src/common/ScrollToTopArrow.js:33
 msgid "Go to top"
@@ -107,7 +106,7 @@ msgstr "Síťový název"
 
 #: js/src/common/network/DHCP6Clients.js:35
 msgid "IPv6 Address"
-msgstr "Adresa IPv6"
+msgstr "IPv6 adresa"
 
 #: js/src/common/network/DHCP6Clients.js:39
 msgid "DUID"
@@ -186,8 +185,8 @@ msgid ""
 "Enable this option to automatically assign IP addresses to the devices "
 "connected to the router."
 msgstr ""
-"Tuto volbu zapněte pro automatické přiřazování IP adres zařízením "
-"připojeným k routeru."
+"Tuto volbu zapněte pro automatické přiřazování IP adres zařízením připojeným "
+"ke směrovači."
 
 #: js/src/common/network/DHCPServerForm.js:47
 msgid "DHCP start"
@@ -207,11 +206,11 @@ msgstr "Zápůjční doba (hodiny)"
 
 #: js/src/common/network/DHCPValidators.js:70
 msgid "Value must be a number."
-msgstr "Hodnota musí být číslo."
+msgstr "Je třeba, aby hodnota byla číslo."
 
 #: js/src/common/network/DHCPValidators.js:73
 msgid "Value must be positive."
-msgstr "Hodnota musí být kladná."
+msgstr "Je třeba, a by hodnota byla kladná."
 
 #: js/src/common/network/DHCPValidators.js:86
 msgid "Invalid network settings. DHCP settings can't be validated."
@@ -227,7 +226,7 @@ msgstr "Adresa je mimo aktuální síť."
 
 #: js/src/common/network/DHCPValidators.js:118
 msgid "Address is already reserved for other purposes."
-msgstr "Adresa je již rezervována pro jiné účely."
+msgstr "Adresa je už rezervována pro jiné účely."
 
 #: js/src/common/network/DHCPValidators.js:129
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
@@ -240,7 +239,7 @@ msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
-"Jediná zápůjčka DHCP je totožná s adresou routeru. Zvyšte limit nebo "
+"Jediná zápůjčka DHCP je totožná s adresou směrovače. Zvyšte limit nebo "
 "změňte začátek rozsahu."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
@@ -622,11 +621,11 @@ msgstr "Přidat adresu ${label}"
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:47
 msgid "Forwarder saved successfully."
-msgstr "Nastavení přeposílání DNS dotazů bylo úspěšně uloženo."
+msgstr "Nastavení přeposílání DNS dotazů úspěšně uloženo."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:49
 msgid "Can't save forwarder."
-msgstr "Přeposílání se nedaří uložit."
+msgstr "Nastavení přeposílání DNS dotazů nebylo možné uložit."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:56
 msgid "Forwarder added successfully."
@@ -634,7 +633,7 @@ msgstr "Přeposílání DNS dotazů bylo úspěšně přidáno."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:58
 msgid "Can't add new forwarder."
-msgstr "Nedaří se přidat nové přeposílání."
+msgstr "Nebylo možné přidat nové přeposílání DNS dotazů."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:20
 msgid "Forwarder name should have at least one symbol."
@@ -642,7 +641,7 @@ msgstr "Název přeposílání by měl obsahovat alespoň jeden symbol."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:28
 msgid "Hostname should have at least one symbol."
-msgstr "Síťový název by měl obsahovat alespoň jeden symbol."
+msgstr "Název hostitele by měl obsahovat alespoň jeden symbol."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:33
 msgid "TLS pin should have at least one symbol."
@@ -659,7 +658,7 @@ msgstr "Síť pro hosty"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
 msgid "The guest network is used for "
-msgstr "Síť pro hosty se používá pro "
+msgstr "Síť pro hosty slouží pro "
 
 #: js/src/guestNetwork/GuestNetwork.js:43
 msgid "guest Wi-Fi"
@@ -673,12 +672,12 @@ msgid ""
 "configuration interface of this device or the devices in LAN."
 msgstr ""
 "Je oddělena od vaší běžné LAN. Zařízení připojená do této sítě mají povolen "
-"přístup k Internetu, ale nemohou přistupovat ke konfiguračnímu rozhraní na "
-"tomto zařízení ani k zařízením v LAN."
+"přístup k Internetu, ale nemohou přistupovat k rozhraní pro nastavování "
+"tohoto zařízení ani k ostatním zařízením v LAN."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
-msgstr "IP adresa routeru ve vnitřní síti pro hosty."
+msgstr "IP adresa směrovače ve vnitřní síti pro hosty."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:19
 msgid "Network mask of the guest inner network."
@@ -689,8 +688,8 @@ msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
-"Tato volba vám umožňuje nastavit limit přenosové rychlosti sítě pro "
-"hosty, takže nebude zpomalovat vaši hlavní síť."
+"Tato volba umožňuje nastavit limit přenosové rychlosti sítě pro hosty, takže "
+"nebude zpomalovat vaši hlavní síť."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
@@ -710,7 +709,7 @@ msgstr "Zapnout síť pro hosty"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:77 js/src/lan/LANManagedForm.js:61
 msgid "Router IP address"
-msgstr "IP adresa routeru"
+msgstr "IP adresa směrovače"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:98 js/src/lan/LANManagedForm.js:82
 msgid "Enable DHCP"
@@ -757,10 +756,10 @@ msgid ""
 "device. Firstly it is required to set your password. Note the security of"
 " your home network is in your hands, so try not to use weak passwords."
 msgstr ""
-"Vítejte ve webovém rozhraní reForis. Tento průvodce vám pomůže s "
-"nastavením vašeho zařízení. Nejprve je třeba si zvolit heslo. "
-"Poznamenejme, že zabezpečení vaší domácí sítě je ve vašich rukách, proto "
-"se snažte vyvarovat používání slabých hesel."
+"Vítejte ve webovém rozhraní reForis. Tento průvodce vám pomůže s nastavením "
+"vašeho zařízení. Nejprve je třeba si zvolit heslo. Uvědomte si, že "
+"zabezpečení vaší domácí sítě je ve vašich rukách, proto se snažte vyvarovat "
+"používání slabých hesel."
 
 #: js/src/guide/constants.js:17
 msgid "Your password is set. You may proceed to the next step."
@@ -886,9 +885,8 @@ msgid ""
 "administration interface."
 msgstr ""
 "Vaše zařízení je nyní připraveno k použití. Další nastavení si můžete si "
-"přizpůsobit v administračním rozhraní. Jakmile dokončíte průvodce, váš "
-"Shield se pokusí připojit na Internet a zobrazí se vám administrační "
-"rozhraní."
+"přizpůsobit v rozhraní pro správu. Jakmile dokončíte průvodce, váš Shield se "
+"pokusí připojit na Internet a zobrazí se vám rozhraní pro správu."
 
 #: js/src/guide/constants.js:109
 msgid ""
@@ -896,9 +894,9 @@ msgid ""
 " put any interfaces to your WAN and Guest Network. So it is a good idea "
 "to assign all interfaces to LAN."
 msgstr ""
-"Zvolíte chování jako místní server což znamená, že nedává smysl umisťovat"
-" jakékoli rozhraní do WAN nebo sítě pro hosty. Takže je dobrý nápad "
-"přiřadit veškerá rozhraní do LAN."
+"Zvolíte fungovat jako místní server což znamená, že nedává smysl umisťovat "
+"jakékoli rozhraní do WAN nebo sítě pro hosty. Takže je dobrý nápad přiřadit "
+"veškerá rozhraní do LAN."
 
 #: js/src/guide/constants.js:116
 msgid ""
@@ -907,9 +905,9 @@ msgid ""
 "probably want to act as a client here thus select "
 "<strong>Computer</strong> mode here."
 msgstr ""
-"Pro fungování jako místní server, není potřeba spravovat LAN (pokud ji i "
-"tak chcete spravovat, resetuje průvodce a zvolte scénář Router). Nejspíš "
-"chcete aby fungovalo jako klient a proto vyberte režim "
+"Pro fungování jako místní server není potřeba spravovat LAN (pokud ji i tak "
+"chcete spravovat, resetuje průvodce a zvolte scénář Směrovač). Sami nejspíš "
+"chcete fungovat jako klient a proto zde vyberte režim "
 "<strong>Počítač</strong>."
 
 #: js/src/guide/constants.js:119
@@ -929,10 +927,10 @@ msgid ""
 "server which is managing your LAN. Then you need to connect to the new IP"
 " address to proceed the guide."
 msgstr ""
-"Pokud vyberete metodu <strong>DHCP</strong>, pravděpodobně pro tohle "
-"zařízení obdržíte novou IP adresu. Tu můžete zjistit z DHCP serveru, "
-"který spravuje vaši síť. Na tuto novou IP adresu se budete potřebovat "
-"připojit pro dokončení průvodce."
+"Pokud vyberete metodu <strong>DHCP</strong>, toto zařízení pravděpodobně "
+"obdrží novou IP adresu. Tu je možné si zjistit z DHCP serveru, který "
+"spravuje vaši síť. Aby bylo možné dokončit průvodce, bude třeba se připojit "
+"už na tuto novou IP adresu."
 
 #: js/src/guide/constants.js:125
 msgid ""
@@ -963,7 +961,7 @@ msgstr ""
 
 #: js/src/guide/hooks.js:24
 msgid "Cannot mark guide as finished."
-msgstr "Nelze označit průvodce jako dokončený."
+msgstr "Nebylo možné označit průvodce za dokončený."
 
 #: js/src/guide/steps.js:21 js/src/main/pages.js:84
 #: js/src/notificationsSettings/SMTPCustomForm.js:124
@@ -1018,19 +1016,19 @@ msgstr "Přeskočit"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:70
 msgid "Are you sure you want to skip the whole guide?"
-msgstr "Opravdu chcete přeskočit celý průvodce?"
+msgstr "Opravdu chcete průvodce úplně přeskočit?"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:72
 msgid "This will skip the guide and you will be redirected to the overview page."
-msgstr "Tímto přeskočíte průvodce budete přesměrováni na stránku přehledu."
+msgstr "Tímto přeskočíte průvodce a budete přesměrováni na stránku přehledu."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:77
 msgid ""
 "Settings that are not set up during the guide will be set to default "
 "values. And you will have to set them up manually."
 msgstr ""
-"Nastavení, která neprovedete během průvodce, budou ponechána na výchozích"
-" hodnotách. Budete je muset nastavit ručně."
+"Nastavení, která neprovedete během průvodce, budou ponechána na výchozích "
+"hodnotách. Bude třeba je nastavit ručně."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:163
@@ -1046,8 +1044,8 @@ msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
-"Jakmile tuto příručku opustíte, bude vám udělen přístup k úplnému "
-"konfiguračnímu rozhraní tohoto zařízení."
+"Jakmile tohoto průvodce opustíte, bude vám udělen přístup k úplnému rozhraní "
+"pro správu tohoto zařízení."
 
 #: js/src/guide/GuidePages/GuideFinish.js:27
 msgid ""
@@ -1056,9 +1054,9 @@ msgid ""
 "security research to discover new attackers and give you access to "
 "dynamic firewall updates blocking known attackers."
 msgstr ""
-"Chcete-li dále zlepšit své zabezpečení, zvažte instalaci pluginu Sběr dat"
-" (prostřednictvím správy balíčků). To vám umožní být součástí našeho "
-"výzkumu zabezpečení, abychom objevili nové útočníky a poskytli vám "
+"Pokud chcete ještě dále zlepšit své zabezpečení, zvažte instalaci zásuvného "
+"modulu Sběr dat (prostřednictvím správy balíčků). To vám umožní být součástí "
+"našeho výzkumu zabezpečení, abychom objevili nové útočníky a poskytli vám "
 "přístup k dynamickým aktualizacím brány firewall, které blokují známé "
 "útočníky."
 
@@ -1085,9 +1083,9 @@ msgid ""
 " functional router. It assumes that you want to have more or less "
 "standard network setup."
 msgstr ""
-"Po dokončení tohoto scénáře bude vaše zařízení schopné fungovat jako plně"
-" funkční router. Předpokládá se, že chcete více méně standardní "
-"uspořádání sítě."
+"Po dokončení tohoto scénáře bude vaše zařízení schopné fungovat jako plně "
+"funkční směrovač. Předpokládá se, že chcete více méně standardní uspořádání "
+"sítě."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:32
 msgid ""
@@ -1095,7 +1093,7 @@ msgid ""
 " more advanced users who intend to set everything manually."
 msgstr ""
 "Stačí jen nastavit si heslo a jste připraveni. Tento postup je cílen na "
-"pokročilejší uživatele, kteří nezamýšlejí použít webové rozhraní."
+"pokročilejší uživatele, kteří zamýšlejí si vše nastavit ručně."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:38
 msgid "Local Server"
@@ -1103,7 +1101,7 @@ msgstr "Místní server"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:39 js/src/lan/LANForm.js:33
 msgid "Router"
-msgstr "Router"
+msgstr "Směrovač"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:40
 msgid "Minimal"
@@ -1111,7 +1109,7 @@ msgstr "Minimální"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:58
 msgid "Cannot set workflow."
-msgstr "Nelze nastavit scénář."
+msgstr "Nebylo možné nastavit daný scénář."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:68
 msgid "Guide Workflow"
@@ -1138,20 +1136,20 @@ msgid ""
 "The hostname can contain only alphanumeric characters, hyphens, "
 "underscores and can't be empty."
 msgstr ""
-"Síťový název může obsahovat pouze písmena a číslice, spojovníky a "
-"podtržítka. Nesmí být prázdný."
+"Název hostitele může obsahovat pouze písmena a číslice, spojovníky a "
+"podtržítka. Nemůže zůstat nevyplněný."
 
 #: js/src/hostname/HostnameForm.js:14
 msgid "Rewrite the hostname to set a new one."
-msgstr "Přepsat síťový název na nový."
+msgstr "Pokud chcete nastavit nový, přepište název hostitele."
 
 #: js/src/hostname/HostnameForm.js:34
 msgid "Hostname Settings"
-msgstr "Nastavení síťového názvu"
+msgstr "Nastavení názvu hostitele"
 
 #: js/src/hostname/HostnameForm.js:36
 msgid "Device hostname"
-msgstr "Síťový název zařízení"
+msgstr "Název hostitele (zařízení)"
 
 #: js/src/interfaces/Interfaces.js:27
 msgid "Network Interfaces"
@@ -1852,7 +1850,7 @@ msgstr "Přejít na nastavení aktualizace"
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
-msgstr "Obnovit"
+msgstr "Znovu načíst"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Activated"
@@ -2683,10 +2681,9 @@ msgid ""
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
-"Podrobnější informace jsou k dispozici v konzoli vašeho webového "
-"prohlížeče – ve většině prohlížečů je dostupná stisknutím "
-"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
-"<kbd>F12</kbd>."
+"Podrobnější informace jsou k dispozici v konzoli vašeho webového prohlížeče –"
+" ve většině prohlížečů je dostupná stisknutím "
+"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> nebo <kbd>F12</kbd>."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
