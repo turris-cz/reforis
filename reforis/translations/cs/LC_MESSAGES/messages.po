@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-04-24 15:26+0200\n"
-"PO-Revision-Date: 2025-05-06 15:05+0000\n"
-"Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
+"PO-Revision-Date: 2025-05-13 11:01+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
 "\n"
 "Language: cs\n"
@@ -26,8 +26,8 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
-"Turris OS se nyní vydává v různých větvích, které mají různé funkce a "
-"rozdílnou stabilitu – můžete si vybrat, kterou větev chcete testovat."
+"Turris OS je nyní vydáván v různých větvích, které mají různé funkce a liší "
+"se stabilitou – můžete si vybrat, kterou větev chcete testovat."
 
 #: js/src/about/About.js:25 js/src/main/pages.js:105
 msgid "About"
@@ -67,7 +67,7 @@ msgstr "Větev Turris OS"
 
 #: js/src/about/About.js:80
 msgid "Kernel version"
-msgstr "Verze kernelu"
+msgstr "Verze jádra systému"
 
 #: js/src/common/RebootButton.js:22 js/src/common/RebootButton.js:42
 #: js/src/maintenance/Reboot.js:17
@@ -83,7 +83,7 @@ msgstr "Varování!"
 
 #: js/src/common/RebootButton.js:41
 msgid "Are you sure you want to reboot the router?"
-msgstr "Opravdu chcete restartovat router?"
+msgstr "Opravdu chcete směrovač zrestartovat?"
 
 #: js/src/common/RebootButton.js:44
 msgid "The router has been rebooted successfully."
@@ -2216,8 +2216,8 @@ msgid ""
 "                                    automatically installed before \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 msgstr ""
-"Tyto aktualizace se nebudou \n"
-"                                    automaticky instalovat před \n"
+"Tyto aktualizace nebudou \n"
+"                                    automaticky instalovány před \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:88
@@ -2283,7 +2283,7 @@ msgid ""
 "In Turris OS, you decide when and how to get the latest updates\n"
 "                    to keep your device running smoothly and securely."
 msgstr ""
-"V Turris OS rozhodnete, kdy a jak získávat nejnovější aktualizace,\n"
+"V Turris OS rozhodujete vy, kdy a jak získávat nejnovější aktualizace,\n"
 "                    aby vaše zařízení fungovalo hladce a bezpečně."
 
 #: js/src/packageManagement/updates/Updates.js:48
@@ -2377,12 +2377,11 @@ msgid ""
 "                            forisPassword.list || rootPassword.list\n"
 "                        } list. Please choose a more secure password."
 msgstr ""
-"Heslo, které jste vložili, nebylo uloženo. Bylo prolomeno a vyskytuje se "
-"${\n"
+"Heslo, které jste zadali, nebylo uloženo. Bylo prolomeno a vyskytuje se ${\n"
 "                            forisPassword.count || rootPassword.count\n"
 "                        }krát v seznamu ${\n"
 "                            forisPassword.list || rootPassword.list\n"
-"                        }. Vložte prosím jiné, bezpečnější heslo."
+"                        }. Zadejte prosím jiné, bezpečnější heslo."
 
 #: js/src/password/Password.js:113
 msgid "Your password was set successfully."
@@ -2397,12 +2396,12 @@ msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
 msgstr ""
-"Zde můžete nastavit heslo do administračního rozhraní. Ujistěte se, že "
-"nastavujete bezpečné heslo, které je dlouhé a jedinečné."
+"Zde je možné nastavit heslo do rozhraní pro správu. Ujistěte se, že "
+"nastavujete bezpečné heslo, které je dlouhé a nepoužíváte ho i jinde."
 
 #: js/src/password/Password.js:194 js/src/password/Password.js:198
 msgid "Passwords do not match."
-msgstr "Zadaná hesla se neshodují."
+msgstr "Zadání hesla se neshodují."
 
 #: js/src/password/Password.js:213
 msgid "Choose a password."
@@ -2414,7 +2413,7 @@ msgstr "Heslo by mělo mít nejméně šest znaků."
 
 #: js/src/password/Password.js:219
 msgid "Password cannot have more than 128 symbols."
-msgstr "Heslo nesmí mít více než 128 znaků."
+msgstr "Heslo nemůže být delší než 128 znaků."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -2430,12 +2429,12 @@ msgid ""
 "through the <a href=\"%s\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">LuCI web interface</a> or via SSH."
 msgstr ""
-"Abyste měli přístup k pokročilým možnostem konfigurace, které zde nejsou "
-"k dispozici, musíte\n"
-"nastavit heslo uživatele root. Pokročilé možnosti konfigurace lze "
+"Pro získání přístupu k pokročilým možnostem nastavení, které odsud nejsou k "
+"dispozici, je třeba\n"
+"nastavit heslo uživateli root. Pokročilé možnosti nastavení pak lze "
 "spravovat buď \n"
-"přes webové rozhraní <a href=\"%s\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">LuCI</a> nebo prostřednictvím SSH."
+"přes webové rozhraní <a href=\"%s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">LuCI</a> nebo prostřednictvím SSH."
 
 #: js/src/portForwarding/PortForwarding.js:51
 msgid ""
@@ -2451,7 +2450,7 @@ msgid ""
 "on your LAN. This way, the web server will be accessible from the "
 "internet."
 msgstr ""
-"Například můžete příchozí provoz na port 80 přesměrovávat na webový server "
+"Například je možné příchozí provoz na port 80 přesměrovávat na webový server "
 "ve vaší LAN. Takto bude webový server přístupný z Internetu."
 
 #: js/src/portForwarding/PortForwarding.js:61
@@ -2460,9 +2459,9 @@ msgid ""
 "button. But first, you need to configure a static DHCP lease for the "
 "device you want to forward traffic to. You can configure it on the "
 msgstr ""
-"Můžete přidat pravidlo pro přesměrování portu stiskem tlačítka "
-"\"Přidat pravidlo\". Ale nejdříve musíte nakonfigurovat statickou zápůjčku "
-"DHCP pro zařízení, kam chcete provoz směrovat. Můžete ho nakonfigurovat na "
+"Nové pravidlo pro přesměrování portu je možné přidat kliknutím na „Přidat "
+"pravidlo“. Jako první je ale třeba pro zařízení, na které chcete směrovat "
+"provoz, nastavit statickou DHCP zápůjčku. To je možné provést na "
 
 #: js/src/portForwarding/PortForwarding.js:139
 msgid "Edit port forwarding rule"
@@ -2478,7 +2477,7 @@ msgstr "Přidat pravidlo"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:57
 msgid "Internal IPv4 address"
-msgstr "Vnitřní adresa IPv4"
+msgstr "Vnitřní IPv4 adresa"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:85
 #: js/src/portForwarding/PortForwardingRulesTable.js:31
@@ -2597,7 +2596,7 @@ msgid ""
 "Please select the timezone the router is being operated in. Correct "
 "setting is required to display the right time and for related functions."
 msgstr ""
-"Vyberte časovou zónu ve které je router používán. Korektní nastavení je "
+"Vyberte časové pásmo ve které je směrovač používán. Korektní nastavení je "
 "nutné pro zobrazování správného času a pro související funkce."
 
 #: js/src/regionAndTime/RegionForm.js:81
@@ -2610,7 +2609,7 @@ msgstr "Země"
 
 #: js/src/regionAndTime/RegionForm.js:108
 msgid "Timezone"
-msgstr "Časová zóna"
+msgstr "Časové pásmo"
 
 #: js/src/regionAndTime/TimeForm.js:28
 msgid "Via NTP"
@@ -2964,8 +2963,7 @@ msgstr "Heslo pro PAP/CHAP"
 #: js/src/wifi/WiFi.js:27
 msgid "Unfortunately, we were unable to detect any wireless cards in your router."
 msgstr ""
-"Bohužel nebyly ve vašem routeru detekovány žádné karty pro bezdrátové "
-"připojení."
+"Ve vašem směrovači žel nebyly zjištěny žádné karty pro bezdrátové připojení."
 
 #: js/src/wifi/WiFi.js:42
 msgid ""
@@ -2974,10 +2972,9 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
-"Pokud chcete používat váš router jako přístupový bod Wi-Fi, povolte zde "
-"Wi-Fi a vyplňte SSID (název přístupového bodu) a příslušné heslo. Potom "
-"můžete nastavit svá mobilní zařízení pomocí QR kódu zobrazovaného uvnitř "
-"formuláře."
+"Pokud chcete používat váš směrovač jako přístupový bod Wi-Fi, povolte zde Wi-"
+"Fi a vyplňte SSID (název přístupového bodu) a příslušné heslo. Potom můžete "
+"nastavit svá mobilní zařízení pomocí QR kódu zobrazovaného uvnitř formuláře."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -3001,11 +2998,11 @@ msgstr "Služba DHCP je pro síť LAN zakázána."
 
 #: reforis/foris_controller_api/modules/lan.py:17
 msgid "IP address is already used by another static lease."
-msgstr "IP adresa je již používána pro jinou statickou zápůjčku."
+msgstr "IP adresa je už používána pro jinou statickou zápůjčku."
 
 #: reforis/foris_controller_api/modules/lan.py:18
 msgid "MAC address is already used by another static lease."
-msgstr "MAC adresa je již používána pro jinou statickou zápůjčku."
+msgstr "MAC adresa je už používána pro jinou statickou zápůjčku."
 
 #: reforis/foris_controller_api/modules/lan.py:19
 msgid "No static lease has this MAC address assigned."
@@ -3013,7 +3010,7 @@ msgstr "Tuto MAC adresu nemá přiřazenu žádná statická zápůjčka."
 
 #: reforis/foris_controller_api/modules/lan.py:20
 msgid "Hostname is already used by another static lease."
-msgstr "Síťový název je již používán jinou statickou zápůjčkou."
+msgstr "Síťový název je už používán jinou statickou zápůjčkou."
 
 #: reforis/foris_controller_api/modules/lan.py:24
 msgid "IP address is not in the LAN network."
@@ -3025,7 +3022,7 @@ msgstr "IP adresa není uživatelsky definovanou statickou zápůjčkou."
 
 #: reforis/foris_controller_api/modules/lan.py:26
 msgid "Port range is already used by another port forwarding rule."
-msgstr "Rozsah portů se už používá pro jiné pravidlo přesměrování."
+msgstr "Rozsah portů je už používán pro jiné pravidlo přesměrování."
 
 #: reforis/foris_controller_api/modules/lan.py:104
 msgid "Can't create DHCP lease."
@@ -3056,17 +3053,16 @@ msgid ""
 "If you see this message, your notification settings seem to be correct. "
 "Have a nice day! 😊"
 msgstr ""
-"Vidíte-li tuto zprávu, vaše nastavení notifikací se zdá být správné. Přejeme "
-"vám krásný den! 😊"
+"Pokud vidíte tuto zprávu, vaše nastavení notifikací se zdá být správné. "
+"Přejeme vám krásný den! 😊"
 
 #: reforis/foris_controller_api/modules/router_notifications.py:132
 msgid "Test notification sent successfully."
-msgstr "Testovací notifikace byla úspěšně odeslána."
+msgstr "Testovací notifikace úspěšně odeslána."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:135
 msgid "Cannot send test notification. Please check your configuration."
-msgstr ""
-"Nelze odeslat testovací notifikaci. Zkontrolujte prosím svou konfiguraci."
+msgstr "Nelze odeslat testovací notifikaci. Zkontrolujte prosím své nastavení."
 
 #: reforis/foris_controller_api/modules/updater.py:66
 msgid "Cannot change automatic restart settings."
@@ -3082,7 +3078,7 @@ msgstr "Nástroj pro aktualizaci není možné spustit"
 
 #: reforis/foris_controller_api/modules/updater.py:199
 msgid "You can't set it with disabled automatic updates."
-msgstr "Nelze nastavit s vypnutými automatickými aktualizacemi."
+msgstr "Nelze nastavit, pokud jsou vypnuté automatické aktualizace."
 
 #: reforis/templates/guide.html:10
 msgid "Guide"
@@ -3090,7 +3086,7 @@ msgstr "Příručka"
 
 #: reforis/templates/errors/400.html:4 reforis/templates/errors/400.html:8
 msgid "400 - Bad Request"
-msgstr "400 - Bad Request"
+msgstr "400 – Nesprávný požadavek"
 
 #: reforis/templates/errors/400.html:9 reforis/templates/errors/500.html:9
 msgid "Error:"
@@ -3118,7 +3114,7 @@ msgstr "Chyba serveru"
 
 #: reforis/templates/errors/500.html:8
 msgid "500 - Server error"
-msgstr "500 - Server error"
+msgstr "500 – Chyba serveru"
 
 #~ msgid ""
 #~ "\n"
