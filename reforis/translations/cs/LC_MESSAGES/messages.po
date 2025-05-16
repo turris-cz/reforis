@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-04-24 15:26+0200\n"
-"PO-Revision-Date: 2025-05-14 20:02+0000\n"
+"PO-Revision-Date: 2025-05-17 10:01+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
 "\n"
@@ -210,7 +210,7 @@ msgstr "Je třeba, aby hodnota byla číslo."
 
 #: js/src/common/network/DHCPValidators.js:73
 msgid "Value must be positive."
-msgstr "Je třeba, a by hodnota byla kladná."
+msgstr "Je třeba, aby hodnota byla kladná."
 
 #: js/src/common/network/DHCPValidators.js:86
 msgid "Invalid network settings. DHCP settings can't be validated."
@@ -222,7 +222,7 @@ msgstr "Minimální doba zápůjčky je 1 hodina."
 
 #: js/src/common/network/DHCPValidators.js:114
 msgid "Address is outside current network."
-msgstr "Adresa je mimo aktuální síť."
+msgstr "Adresa nespadá do rozsahu stávající sítě."
 
 #: js/src/common/network/DHCPValidators.js:118
 msgid "Address is already reserved for other purposes."
@@ -629,7 +629,7 @@ msgstr "Nastavení přeposílání DNS dotazů nebylo možné uložit."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:56
 msgid "Forwarder added successfully."
-msgstr "Přeposílání DNS dotazů bylo úspěšně přidáno."
+msgstr "Přeposílání DNS dotazů úspěšně přidáno."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:58
 msgid "Can't add new forwarder."
@@ -649,7 +649,7 @@ msgstr "TLS pin by měl obsahovat alespoň jeden symbol."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:45
 msgid "Define at least one of the IP addresses of the forwarder."
-msgstr "Zadejte alespoň jednu z IP adres přeposílání."
+msgstr "Zadejte alespoň jednu z IP adres na kterou přeposílat."
 
 #: js/src/guestNetwork/GuestNetwork.js:39 js/src/interfaces/constants.js:11
 #: js/src/main/pages.js:66
@@ -1207,16 +1207,15 @@ msgid ""
 "that you don't fully trust. Note that you can also limit the "
 "download/upload speed of the devices connected to the guest network."
 msgstr ""
-"Slouží jako připojení do místní sítě. Na rozdíl od zařízení v LAN, "
-"zařízení v síti pro hosty nemohou přistupovat k rozhraní pro správu "
-"tohoto routeru a mohou přistupovat pouze k WAN (Internet). Tato síť by "
-"měla být používána pro zařízení, kterým tak úplně nedůvěřujete. "
-"Poznamenejme, že zařízením v síti pro hosty také můžete omezit rychlost "
-"stahování/odesílání."
+"Slouží jako připojení do místní sítě. Na rozdíl od zařízení v LAN, zařízení "
+"v síti pro hosty nemohou přistupovat k rozhraní pro správu tohoto směrovače "
+"a mohou přistupovat pouze k WAN (Internet). Tato síť by měla být používána "
+"pro zařízení, kterým tak úplně nedůvěřujete. Poznamenejme, že zařízením v "
+"síti pro hosty také můžete omezit rychlost stahování/odesílání."
 
 #: js/src/interfaces/Network.js:43
 msgid "There are no interfaces in this group."
-msgstr "Ve skupině nejsou žádná rozhraní."
+msgstr "V této skupině se nenachází žádná rozhraní."
 
 #: js/src/interfaces/Network.js:64
 msgid "Base module"
@@ -1250,11 +1249,11 @@ msgstr "Slot"
 
 #: js/src/interfaces/SelectedInterface.js:115
 msgid "Interface ID"
-msgstr "ID Rozhraní"
+msgstr "Identif. rozhraní"
 
 #: js/src/interfaces/SelectedInterface.js:120
 msgid "VLAN ID"
-msgstr "VLAN ID"
+msgstr "Identif. VLAN sítě"
 
 #: js/src/interfaces/SelectedInterface.js:125
 msgid "Type"
@@ -1297,21 +1296,21 @@ msgid ""
 "obtain a new IP from DHCP (if DHCP is enabled), and you might need to "
 "<b>refresh the page</b> in your browser."
 msgstr ""
-"<b>Poznámka:</b> Změníte-li IP adresu routeru, všechny počítače v LAN, "
+"<b>Poznámka:</b> Pokud změníte IP adresu směrovače, všechny počítače v LAN, "
 "pravděpodobně včetně toho, který právě používáte, budou muset získat "
-"<b>novou IP adresu</b> což neproběhne <b>okamžitě</b>. Doporučuje se k "
-"vynucení aktualizace odpojit a znovu připojit všechny síťové kabely, poté"
-" co uložíte provedené změny. Následující stránka se nenačte, dokud "
-"nezískáte novou IP adresu z DHCP (pokud je DHCP zapnuto), a možná budete "
-"muset <b>obnovit stránku</b> v prohlížeči."
+"<b>novou IP adresu</b> což neproběhne <b>okamžitě</b>. Doporučuje se tedy ("
+"poté co uložíte provedené změny) vynutit tuto aktualizaci odpojením a "
+"opětovným připojením všech síťových kabelů. Následující stránka se nenačte, "
+"dokud nezískáte novou IP adresu z DHCP (pokud je zapnuto), a možná bude "
+"třeba <b>znovu načíst stránku</b> v prohlížeči."
 
 #: js/src/lan/LANForm.js:19
 msgid ""
 "Router mode means that this device manages the LAN (acts as a router, can"
 " assign IP addresses, etc.)."
 msgstr ""
-"Režim routeru znamená, že toto zařízení spravuje LAN (funguje jako "
-"router, může přidělovat IP adresy apod.)."
+"Režim směrovač znamená, že toto zařízení spravuje LAN (provádí směrování "
+"síťového provozu, může přidělovat IP adresy apod.)."
 
 #: js/src/lan/LANForm.js:22
 msgid ""
@@ -1319,9 +1318,9 @@ msgid ""
 " acts similarly to WAN, but it has opened ports for configuration "
 "interfaces and other services."
 msgstr ""
-"Režim počítače znamená, že toto zařízení vystupuje v této síti jako "
-"klient. Funguje podobně jako WAN, ale má otevřené porty pro konfigurační "
-"rozhraní a jiné služby."
+"Režim počítač znamená, že toto zařízení vystupuje v této síti jako klient. "
+"Chová se podobně jako vůči WAN, ale má otevřené porty pro správní rozhraní a "
+"další služby."
 
 #: js/src/lan/LANForm.js:34
 msgid "Computer"
@@ -1341,7 +1340,7 @@ msgstr "Přesměrovat na 192.168.1.1"
 
 #: js/src/lan/LANManagedForm.js:29
 msgid "Router's IP address in the inner network."
-msgstr "IP adresa routeru na vnitřní síti."
+msgstr "IP adresa směrovače na vnitřní síti."
 
 #: js/src/lan/LANUnmanagedForm.js:25 js/src/wan/WANForm.js:25
 msgid "DHCP (automatic configuration)"
@@ -1407,7 +1406,7 @@ msgstr "Správa balíčků"
 #: js/src/main/pages.js:126
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:29
 msgid "Update Settings"
-msgstr "Nastavení aktualizace"
+msgstr "Nastavení aktualizací"
 
 #: js/src/main/pages.js:130 js/src/packageManagement/packages/Packages.js:20
 msgid "Packages"
@@ -1444,7 +1443,7 @@ msgstr "Automaticky"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
 msgid "Theme"
-msgstr "Téma"
+msgstr "Motiv vzhledu"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:101
 msgid "Participate in translation"
@@ -1489,11 +1488,11 @@ msgstr "Nainstalovat nyní"
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:151
 #: js/src/packageManagement/updates/UpdateApproval.js:40
 msgid "Cannot install updates."
-msgstr "Nelze nainstalovat aktualizace."
+msgstr "Nebylo možné nainstalovat aktualizace."
 
 #: js/src/maintenance/FactoryReset.js:17 js/src/maintenance/FactoryReset.js:49
 msgid "Factory Reset"
-msgstr "Reset do továrního nastavení"
+msgstr "Navrátit do továrního nastavení"
 
 #: js/src/maintenance/FactoryReset.js:19
 msgid ""
@@ -1502,34 +1501,34 @@ msgid ""
 "brings back all the default settings of the device as it was when the "
 "router was new, giving you a clean slate to start all over again."
 msgstr ""
-"Provedení resetu zařízení Turris do továrního nastavení odstraní všechny "
-"nainstalované balíčky a všechna data s nimi spojená. Všechno se vrátí "
-"zpět do výchozích nastavení tak, jako když byl router nový. Získáte tím "
-"možnost začít s čistým routerem úplně od začátku."
+"Provedením navrácení zařízení Turris do továrního nastavení budou odstraněny "
+"všechny nainstalované balíčky a všechna data s nimi spojená. Vše se vrátí "
+"zpět do výchozích nastavení tak, jako když byl směrovač nový a bude tak "
+"možné začít načisto úplně od začátku."
 
 #: js/src/maintenance/FactoryReset.js:29
 msgid "Are you sure you want to reset the router?"
-msgstr "Opravdu chcete router resetovat do továrního nastavení?"
+msgstr "Opravdu chcete směrovač navrátit do továrního nastavení?"
 
 #: js/src/maintenance/FactoryReset.js:32
 msgid "Reset"
-msgstr "Reset"
+msgstr "Navrátit"
 
 #: js/src/maintenance/FactoryReset.js:34
 msgid "The router has been reset successfully."
-msgstr "Router byl úspěšně resetován."
+msgstr "Směrovač byl úspěšně navrácen do továrního stavu."
 
 #: js/src/maintenance/FactoryReset.js:37
 msgid "An error occurred while resetting the router."
-msgstr "Při resetu routeru došlo k chybě."
+msgstr "Při navracení směrovače do továrního stavu došlo k chybě."
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
 "The Maintenance tab allows you to reboot the router or bring back all the"
 " default settings by performing a factory reset."
 msgstr ""
-"Záložka Údržba vám umožňuje restartovat router nebo ho vrátit do "
-"výchozích nastavení provedením továrního resetu."
+"Záložka Údržba vám umožňuje směrovač restartovat nebo ho vrátit do výchozích "
+"nastavení provedením navrácení do továrního stavu."
 
 #: js/src/maintenance/Reboot.js:19
 msgid ""
@@ -1537,17 +1536,17 @@ msgid ""
 "reboot process takes approximately 30 seconds, and then you will be "
 "required to log in again."
 msgstr ""
-"Pokud potřebujete restartovat zařízení, stiskněte následující tlačítko. "
-"Proces restartu bude trvat přibližně 30 sekund, po restartu se budete "
-"muset znovu přihlásit."
+"Pokud zařízení potřebujete restartovat, klikněte na následující tlačítko. "
+"Proces restartu bude trvat přibližně 30 sekund a po jeho dokončení se bude "
+"třeba znovu přihlásit."
 
 #: js/src/maintenance/Syslog/Syslog.js:49
 msgid "A drive has to be configured first."
-msgstr "Disk musí být nejdříve nakonfigurován."
+msgstr "Jednotku je třeba nejprve nastavit."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:30
 msgid "System Logs Retention"
-msgstr "Uchovávání systémových záznamů"
+msgstr "Uchovávání záznamů o událostech v systému"
 
 #: js/src/maintenance/Syslog/SyslogForm.js:32
 msgid ""
@@ -1555,9 +1554,9 @@ msgid ""
 " saving system logs using the Storage plugin. Logs are saved into "
 "'/srv/log/messages'."
 msgstr ""
-"Při resetu zařízení se systémové záznamy ve výchozím nastavení ztratí. "
-"Tato volba umožňuje systémové záznamy ukládat pomocí pluginu Storage. "
-"Ukládají se to adresáře '/srv/log/messages'."
+"Ve výchozím nastavení jsou při restartu zařízení záznamy o událostech v "
+"systému ztraceny. Tato volba umožňuje tyto záznamy ukládat pomocí zásuvného "
+"modulu Úložiště. Jsou ukládány do složky „/srv/log/messages“."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:38
 #, python-brace-format
@@ -1566,13 +1565,13 @@ msgid ""
 "href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Storage "
 "plugin</a> first."
 msgstr ""
-"K povolení této volby je potřeba nejdříve nakonfigurovat úložiště pomocí "
-"<a href=\"${ForisURLs.storage}\" title=\"Jít na plugin Storage\">pluginu "
-"Storage</a>."
+"Aby bylo možné zapnout tuto volbu, je třeba nejdříve nastavit úložiště "
+"pomocí <a href=\"${ForisURLs.storage}\" title="
+"\"Přejít na zásuvný modul Úložiště\">zásuvného modulu Úložiště</a>."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:44
 msgid "Enable System Logs Retention"
-msgstr "Zapnout uchovávání systémových záznamů"
+msgstr "Zapnout uchovávání záznamů o událostech v systému"
 
 #: js/src/notifications/Notifications/NotificationsList.js:99
 #: js/src/packageManagement/updateSettings/LicenseModal.js:37
@@ -1613,8 +1612,8 @@ msgid ""
 msgstr ""
 "Vaše zařízení vám může podle vašich nastavení zasílat e-mailová oznámení o "
 "požadovaných restartech, důležitých událostech, nainstalovaných "
-"aktualizacích a nových funkcích. Po dokončení konfigurace to můžete "
-"otestovat stisknutím Odeslat testovací oznámení. Navíc můžete použít "
+"aktualizacích a nových funkcích. Po dokončení nastavení to můžete vyzkoušet "
+"stisknutím Odeslat testovací oznámení. Dále je možné použít "
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
@@ -1627,8 +1626,8 @@ msgid ""
 " without the need for email."
 msgstr ""
 " pro příjem push notifikací v reálném čase přímo na vaše mobilní zařízení "
-"nebo stolní počítač. ntfy vám umožňuje přihlásit se k tématům a dostávat "
-"okamžitá upozornění bez nutnosti používat e-mail."
+"nebo počítač. ntfy vám umožňuje přihlásit se k tématům a dostávat okamžitá "
+"upozornění bez nutnosti používat e-mail."
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:19
 msgid "Turris"
@@ -1743,7 +1742,7 @@ msgstr "Uživatelské jméno"
 
 #: js/src/notificationsSettings/SMTPTurrisForm.js:36
 msgid "Sender's name"
-msgstr "Jméno odesilatele"
+msgstr "Název odesilatele"
 
 #: js/src/notificationsSettings/TestNotification.js:30
 msgid ""
@@ -1762,7 +1761,7 @@ msgid ""
 "Here you can verify whether your SMTP provider or push notifications are "
 "configured correctly by sending a test notification."
 msgstr ""
-"Zde můžete zkontrolovat, zda je komunikace SMTP správně nakonfigurována, "
+"Zde je možné zkontrolovat, zda je SMTP komunikace správně nastavená a to "
 "odesláním testovací notifikace do své e-mailové schránky."
 
 #: js/src/notificationsSettings/TestNotification.js:130
@@ -1778,8 +1777,8 @@ msgid ""
 msgstr ""
 "Pokud nastavíte poskytovatele SMTP na „Turris“, budou použity servery "
 "poskytované členům projektu Turris. Tyto servery nevyžadují žádná další "
-"nastavování. Pokud chcete nastavit svůj vlastní SMTP server, vyberte "
-"„Uživatelsky určený“ a zadejte potřebná nastavení."
+"nastavování. Pokud chcete nastavit jiný SMTP server, vyberte „Uživatelsky "
+"určený“ a zadejte potřebná nastavení."
 
 #: js/src/notificationsSettings/helpTexts.js:15
 msgid ""
@@ -1787,13 +1786,13 @@ msgid ""
 "choose to receive notifications about all events or only about those that"
 " require your attention."
 msgstr ""
-"V závislosti na důležitosti nebo závažnosti notifikace, můžete si vybrat, "
-"zda chcete přijímat notifikace o všech událostech nebo o těch, které "
+"V závislosti na důležitosti nebo závažnosti notifikace je možné si vybrat, "
+"zda chcete přijímat notifikace o všech událostech nebo jen o těch, které "
 "vyžadují vaši pozornost."
 
 #: js/src/notificationsSettings/helpTexts.js:18
 msgid "Email address of recipient. Separate multiple addresses by comma."
-msgstr "E-mailová adresa příjemce. Vícero adres oddělujte čárkami."
+msgstr "E-mailová adresa příjemce. Vícero adres oddělujte čárkou."
 
 #: js/src/notificationsSettings/helpTexts.js:21
 msgid "Send notifications about new releases."
@@ -1804,8 +1803,8 @@ msgid ""
 "Name of the sender that will be used before the \"at\" symbol in the "
 "email address. For example: \"home-router@notify.turis.cz\""
 msgstr ""
-"Jméno odesílatele, které se bude používat před zavináčem v e-mailové adrese. "
-"Například: \"home-router@notify.turis.cz\""
+"Název odesílatele, který bude používán před zavináčem v e-mailové adrese. "
+"Například: „domaci_smerovac@notify.turis.cz“"
 
 #: js/src/notificationsSettings/helpTexts.js:29
 msgid "This is the address notifications are send from."
@@ -1818,15 +1817,14 @@ msgstr "Je třeba vyplnit."
 
 #: js/src/notificationsSettings/validator.js:53
 msgid "Sender's name can't be empty."
-msgstr "Jméno odesilatele je třeba vyplnit."
+msgstr "Název odesilatele je třeba vyplnit."
 
 #: js/src/notificationsSettings/validator.js:57
 msgid ""
 "Sender's name can contain only alphanumeric characters, dots and "
 "underscores."
 msgstr ""
-"Jméno odesilatele může obsahovat pouze písmena a číslice, tečky a "
-"podtržítka."
+"Název odesilatele může obsahovat pouze písmena a číslice, tečky a podtržítka."
 
 #: js/src/notificationsSettings/validator.js:66
 msgid "Port is an number."
@@ -1846,7 +1844,7 @@ msgstr "Automatické aktualizace"
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:49
 msgid "Go to update settings"
-msgstr "Přejít na nastavení aktualizace"
+msgstr "Přejít do nastavení aktualizací"
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
@@ -1862,11 +1860,11 @@ msgstr "Vypnuto"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:23
 msgid "Dynamic Firewall"
-msgstr "Dynamický Firewall"
+msgstr "Dynamický firewall"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
 msgid "Go to Dynamic Firewall package installation"
-msgstr "Přejít na instalaci balíčku Dynamický Firewall"
+msgstr "Přejít na instalaci balíčku Dynamický firewall"
 
 #: js/src/overview/Cards/LibrespeedCard.js:67
 msgid "LibreSpeed"
@@ -1912,11 +1910,11 @@ msgstr "Klienti OpenVPN"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:63
 msgid "Go to OpenVPN Client Settings"
-msgstr "Přejít na Nastavení klientů OpenVPN"
+msgstr "Přejít do Nastavení klientů OpenVPN"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:77
 msgid "Currently, there are no connected OpenVPN clients."
-msgstr "Aktuálně nejsou připojeni žádní klienti OpenVPN."
+msgstr "V tuto chvíli nejsou připojení žádní klienti OpenVPN."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:88
 msgid "There are no OpenVPN clients."
@@ -1924,11 +1922,11 @@ msgstr "Zatím nejsou přidáni žádní klienti OpenVPN."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:116
 msgid "Total In: "
-msgstr "Celkem vstup: "
+msgstr "Celkem příchozí: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:125
 msgid "Total Out: "
-msgstr "Celkem výstup: "
+msgstr "Celkem odchozí: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:153
 msgid "Connected"
@@ -1940,7 +1938,7 @@ msgstr "Odpojeno"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
 msgid "Go to Sentinel license agreement"
-msgstr "Přejít na licenční smlouvu Sentinel"
+msgstr "Přejít na licenční smlouvu k Sentinel"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:57
 msgid "Go to Sentinel package installation"
@@ -1971,12 +1969,11 @@ msgid ""
 "package lists and not marked as community-supported is supported by the "
 "Turris team."
 msgstr ""
-"Kromě standardní instalace můžete volitelně vybrat balíčky dalšího "
-"softwaru, které by byly nainstalovány na router. Tento software lze "
-"vybrat z následujícího seznamu. Vezměte prosím na vědomí, že týmem Turris"
-" je podporován pouze software, který je součástí Turris OS nebo který byl"
-" nainstalován ze seznamu balíčků a není označen jako podporovaný "
-"komunitou."
+"Kromě standardní instalace můžete volitelně vybrat balíčky dalšího softwaru, "
+"které by byly nainstalovány na směrovač. Tento software lze vybrat z "
+"následujícího seznamu. Vezměte prosím na vědomí, že týmem Turris je "
+"podporován pouze software, který je součástí Turris OS nebo který byl "
+"nainstalován ze seznamu balíčků a není označen jako podporovaný komunitou."
 
 #: js/src/packageManagement/packages/PackagesForm.js:31
 msgid "Package Lists"
@@ -1991,8 +1988,8 @@ msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the "
 msgstr ""
-"Povolením automatických aktualizací potvrzujete, že jste vlastníkem "
-"tohoto routeru Turris a souhlasíte s úplným zněním "
+"Povolením automatických aktualizací potvrzujete, že jste vlastníkem tohoto "
+"směrovače Turris a souhlasíte s úplným zněním "
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
 msgid "license agreement"
@@ -2008,21 +2005,12 @@ msgid ""
 "weaken the security of your router and network in case flaws in the "
 "software are found."
 msgstr ""
-"Jednou z nejdůležitějších funkcí routeru Turris je systém automatických "
-"aktualizací. Díky této funkci\n"
-"zůstane software vašeho routeru aktuální a nabídne lepší ochranu proti "
-"útokům z Internetu.\n"
-"<br/>\n"
-"<b>Velmi doporučujeme</b>, abyste tuto funkci ponechali <b>zapnutou</b>. "
-"Pokud se rozhodnete\n"
-"ji vypnout, uvědomte si, že to může snížit bezpečnost vašeho routeru a "
-"sítě, pokud se v softwaru\n"
-"objeví bezpečnostní chyby.\n"
-"<br/>\n"
-"Zapnutím automatických aktualizací souhlasíte s licenčním ujednáním této "
-"funkce. Více informací\n"
-"najdete <a href=\"\" data-toggle=\"modal\" data-"
-"target=\"#licenceModal\">zde</a>."
+"Jeho automatické aktualizace jsou jednou z nejdůležitějších funkcí směrovače "
+"Turris. Díky ní zůstává software tohoto zařízení aktuální a nabízí tak lepší "
+"ochranu proti útokům z Internetu.<br/><b>Velmi doporučujeme</b>, abyste tuto "
+"funkci ponechali <b>zapnutou</b>. Pokud se rozhodnete ji vypnout, uvědomte "
+"si, že to může snížit bezpečnost vašeho směrovače (a tím i celé sítě), pokud "
+"budou v softwaru objeveny bezpečnostní chyby."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
 msgid ""
@@ -2030,13 +2018,13 @@ msgid ""
 "agreement. More information is available <a href=\"\" data-bs-"
 "toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
-"Zapnutím automatických aktualizací souhlasíte s licenčními podmínkami "
-"této funkce. Více informací je k dispozici <a href=\"\" data-bs-"
-"toggle=\"modal\" data-bs-target=\"#licenceModal\">zde</a>."
+"Zapnutím automatických aktualizací souhlasíte s licenčními podmínkami této "
+"funkce. Další informace naleznete <a href=\"\" data-bs-toggle=\"modal\" data-"
+"bs-target=\"#licenceModal\">zde</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
-msgstr "Automatické aktualizace routerů Turris jsou poskytovány zdarma."
+msgstr "Automatické aktualizace pro směrovače Turris jsou poskytovány zdarma."
 
 #: js/src/packageManagement/updateSettings/points.js:17
 msgid "Updates are prepared exclusively by CZ.NIC, z. s. p. o."
@@ -2063,8 +2051,10 @@ msgid ""
 "Downloading the automatic updates mean increased Internet traffic. "
 "Potential expenses related to this are covered by you."
 msgstr ""
-"Stahování automatických aktualizací znamená zvýšený internetový provoz. "
-"Případné náklady s tím spojené hradíte vy."
+"Stahování automatických aktualizací znamená zvýšení objemu dat, přenášených "
+"vaší přípojkou k Internetu. Pokud za ní neplatíte pevný paušál bez ohledu na "
+"využitá data, ale naopak platíte za ta využitá (stejně jako za ta nad rámec "
+"tarifu), případné náklady s tím spojené hradíte vy."
 
 #: js/src/packageManagement/updateSettings/points.js:39
 msgid ""
@@ -2073,10 +2063,10 @@ msgid ""
 "workstations and other devices by installing antivirus software and "
 "explaining to users how to stay safe on the Internet."
 msgstr ""
-"Automatické aktualizace vás nemohou ochránit před každým útokem z "
-"Internetu. Přijměte také další opatření, jako je ochrana pracovních "
-"stanic a dalších zařízení instalací antivirového softwaru a vysvětlování "
-"uživatelům, jak zůstat na Internetu v bezpečí."
+"Automatické aktualizace vás nemohou ochránit před každým útokem z Internetu. "
+"Přijměte také další opatření, jako je ochrana počítačů a dalších zařízení "
+"instalací antivirového softwaru a vysvětlování uživatelům, jak se na "
+"Internetu chovat bezpečně."
 
 #: js/src/packageManagement/updateSettings/points.js:45
 msgid ""
@@ -2163,13 +2153,14 @@ msgid ""
 "            it will be offered to you again together with the next "
 "package installation."
 msgstr ""
-"Schvalování aktualizací může být užitečné, pokud chcete mít jistotu, že "
-"aktualizace nepoškodí vaši specifickou\n"
-"            konfiguraci. Můžete například instalovat aktualizace, pokud "
-"jste připraveni na případný návrat k předchozímu\n"
-"            snímku a dočasně odmítnout otaznou aktualizaci. Aktualizaci "
-"nelze odmítat trvale, bude vám nabídnuta\n"
-"            znovu společně s instalací dalšího balíčku."
+"Schvalování aktualizací se může hodit, pokud chcete mít jistotu, že "
+"nepoškodí vaše specifická\n"
+"            nastavení. Můžete například instalovat aktualizace, pokud jste "
+"připravení na případný návrat k předchozímu\n"
+"            zachycenému stavu a dočasně odmítnout aktualizaci, u které máte "
+"pochyby. Nicméně nelze aktualizaci\n"
+"            odmítnout definitivně – bude vám znovu nabídnuta při instalaci "
+"dalšího balíčku."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:79
 msgid "Delayed updates (hours)"
@@ -2229,9 +2220,9 @@ msgid ""
 "approval needed</b>."
 msgstr ""
 "Pokud nechce, aby se aktualizace vůbec instalovaly,\n"
-"                                    přejděte na <a "
-"href=\"${ForisURLs.packageManagement.updateSettings}\">Nastavení "
-"aktualizací</a> \n"
+"                                    přejděte do <a href="
+"\"${ForisURLs.packageManagement.updateSettings}\">Nastavení aktualizací</a> "
+"\n"
 "                                    a vyberte volbu  <b>Aktualizace bude "
 "třeba schvalovat</b>."
 
@@ -2242,7 +2233,7 @@ msgstr "Schválit aktualizaci od %s"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:126
 msgid "There are no updates awaiting your approval."
-msgstr "Neexistují žádné aktualizace čekající na schválení."
+msgstr "Nemáte žádné aktualizace čekající na schválení."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:141
 msgid "Action"
@@ -2262,15 +2253,15 @@ msgstr "Kontrola aktualizací"
 
 #: js/src/packageManagement/updates/UpdateManager.js:83
 msgid "Available Updates"
-msgstr "Dostupné aktualizace"
+msgstr "Aktualizace k dispozici"
 
 #: js/src/packageManagement/updates/UpdateManager.js:85
 msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
 msgstr ""
-"Zde můžete najít a schválit dostupné aktualizace pro Turris OS a jiné "
-"komponenty."
+"Zde naleznete a můžete schvalovat aktualizace dostupné pro Turris OS a "
+"ostatní součásti."
 
 #: js/src/packageManagement/updates/UpdateManager.js:91
 msgid "You're up to date."
@@ -2375,7 +2366,8 @@ msgid ""
 "                            forisPassword.list || rootPassword.list\n"
 "                        } list. Please choose a more secure password."
 msgstr ""
-"Heslo, které jste zadali, nebylo uloženo. Bylo prolomeno a vyskytuje se ${\n"
+"Heslo, které jste zadali, nebylo uloženo. To proto, že se vyskytuje mezi už "
+"prolomenými a to ${\n"
 "                            forisPassword.count || rootPassword.count\n"
 "                        }krát v seznamu ${\n"
 "                            forisPassword.list || rootPassword.list\n"
@@ -2394,8 +2386,9 @@ msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
 msgstr ""
-"Zde je možné nastavit heslo do rozhraní pro správu. Ujistěte se, že "
-"nastavujete bezpečné heslo, které je dlouhé a nepoužíváte ho i jinde."
+"Zde je možné si nastavit heslo do rozhraní pro správu. Ujistěte se, že "
+"nastavujete bezpečné heslo, které je dlouhé a nepoužíváte ho ještě někde "
+"jinde."
 
 #: js/src/password/Password.js:194 js/src/password/Password.js:198
 msgid "Passwords do not match."
@@ -2458,8 +2451,8 @@ msgid ""
 "device you want to forward traffic to. You can configure it on the "
 msgstr ""
 "Nové pravidlo pro přesměrování portu je možné přidat kliknutím na „Přidat "
-"pravidlo“. Jako první je ale třeba pro zařízení, na které chcete směrovat "
-"provoz, nastavit statickou DHCP zápůjčku. To je možné provést na "
+"pravidlo“. Nejprve je ale třeba pro zařízení, na které chcete směrovat "
+"provoz, nastavit statickou DHCP zápůjčku. To je možné provést v "
 
 #: js/src/portForwarding/PortForwarding.js:139
 msgid "Edit port forwarding rule"
@@ -2513,8 +2506,8 @@ msgid ""
 "Enter the external port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
-"Vložte číslo vnějšího portu, na který se bude pravidlo vztahovat. Může to "
-"být jeden port nebo rozsah portů."
+"Zadejte číslo vnějšího portu, na který se bude pravidlo vztahovat. Může to "
+"být jeden port nebo jejich rozsah."
 
 #: js/src/portForwarding/constants.js:21
 msgid ""
@@ -2539,11 +2532,11 @@ msgstr "Povolit nebo zakázat pravidlo přesměrování portu."
 
 #: js/src/portForwarding/hooks.js:76
 msgid "Rule deleted successfully."
-msgstr "Pravidlo bylo úspěšně smazáno."
+msgstr "Pravidlo úspěšně smazáno."
 
 #: js/src/portForwarding/hooks.js:79
 msgid "Can't delete rule."
-msgstr "Pravidlo nelze smazat."
+msgstr "Pravidlo není možné smazat."
 
 #: js/src/portForwarding/hooks.js:150
 msgid "Rule added successfully."
@@ -2560,12 +2553,12 @@ msgstr "Název by měl obsahovat alespoň jeden symbol."
 #: js/src/portForwarding/hooks.js:224
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
-msgstr "${fieldName} musí být kladné číslo nebo rozsah čísel."
+msgstr "${fieldName} by mělo být kladné číslo nebo jejich rozsah."
 
 #: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
-msgstr "${fieldName} musí být platné číslo nebo rozsah."
+msgstr "${fieldName} by mělo být platné číslo portu nebo jejich rozsah."
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
@@ -2625,7 +2618,9 @@ msgstr "Nastavení času"
 msgid ""
 "Time should be up-to-date otherwise DNS and other services might not work"
 " properly."
-msgstr "Čas by měl být aktuální, jinak nemusí správně fungovat DNS a další služby."
+msgstr ""
+"Čas by měl být aktuální – jinak se může stát, že nebude správně fungovat DNS "
+"a další služby."
 
 #: js/src/regionAndTime/TimeForm.js:113
 msgid "How to set time"
