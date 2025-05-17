@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-04-24 15:26+0200\n"
-"PO-Revision-Date: 2025-05-17 10:01+0000\n"
+"PO-Revision-Date: 2025-05-18 10:50+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
 "\n"
@@ -231,16 +231,16 @@ msgstr "Adresa je už rezervována pro jiné účely."
 #: js/src/common/network/DHCPValidators.js:129
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr ""
-"Požadováno příliš mnoho adres. Nastavte nižší číslo nebo změňte začátek "
-"rozsahu DHCP."
+"Požadováno příliš mnoho adres. Nastavte nižší počet nebo změňte začátek "
+"rozsahu pro DHCP."
 
 #: js/src/common/network/DHCPValidators.js:136
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
-"Jediná zápůjčka DHCP je totožná s adresou směrovače. Zvyšte limit nebo "
-"změňte začátek rozsahu."
+"Jediná možná DHCP zápůjčka by byla totožná s adresou směrovače. Zvyšte limit "
+"nebo změňte začátek rozsahu."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 msgid ""
@@ -286,7 +286,7 @@ msgstr "Toto není správná síťová maska."
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
 msgid "IPv4 Address"
-msgstr "Adresa IPv4"
+msgstr "IPv4 adresa"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:84
@@ -309,7 +309,7 @@ msgstr "Nastavit statickou zápůjčku"
 
 #: js/src/common/network/DHCPClients/hooks.js:71
 msgid "Static lease deleted successfully."
-msgstr "Statická zápůjčka byla úspěšně smazána."
+msgstr "Statická zápůjčka úspěšně smazána."
 
 #: js/src/common/network/DHCPClients/hooks.js:76
 msgid "Can't delete static lease."
@@ -325,16 +325,16 @@ msgstr "Statické nastavení úspěšně uloženo."
 
 #: js/src/common/network/DHCPClients/hooks.js:166
 msgid "Hostname cannot be empty."
-msgstr "Síťový název nemůže být prázdný."
+msgstr "Název hostitele nemůže zůstat nevyplněný."
 
 #: js/src/common/network/DHCPClients/hooks.js:170
 #: js/src/portForwarding/hooks.js:244
 msgid "IPv4 address cannot be empty."
-msgstr "Adresa IPv4 nemůže být prázdná."
+msgstr "IPv4 adresa nemůže zůstat nevyplněná."
 
 #: js/src/common/network/DHCPClients/hooks.js:174
 msgid "MAC address cannot be empty."
-msgstr "Adresa MAC nemůže být prázdná."
+msgstr "MAC nemůže zůstat nevyplněná."
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:75
 #: js/src/dns/DNSSECDisableModal.js:48
