@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-24 15:26+0200\n"
+"POT-Creation-Date: 2025-06-16 18:52+0300\n"
 "PO-Revision-Date: 2025-05-18 10:50+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
-"\n"
 "Language: cs\n"
+"Language-Team: Czech "
+"<https://hosted.weblate.org/projects/turris/reforis/cs/>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -26,8 +25,8 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
-"Turris OS je nyní vydáván v různých větvích, které mají různé funkce a liší "
-"se stabilitou – můžete si vybrat, kterou větev chcete testovat."
+"Turris OS je nyní vydáván v různých větvích, které mají různé funkce a "
+"liší se stabilitou – můžete si vybrat, kterou větev chcete testovat."
 
 #: js/src/about/About.js:25 js/src/main/pages.js:105
 msgid "About"
@@ -41,8 +40,8 @@ msgid ""
 "support</a>."
 msgstr ""
 "Zde jsou k dispozici některé informace o vašem zařízení. Když se budete "
-"obracet na naši <a href=\"mailto:tech.support@turris.cz\" target=\"_blank\""
-">zákaznickou podporu</a>, dejte do zprávy prosím i tyto."
+"obracet na naši <a href=\"mailto:tech.support@turris.cz\" "
+"target=\"_blank\">zákaznickou podporu</a>, dejte do zprávy prosím i tyto."
 
 #: js/src/about/About.js:37
 msgid "Device"
@@ -185,8 +184,8 @@ msgid ""
 "Enable this option to automatically assign IP addresses to the devices "
 "connected to the router."
 msgstr ""
-"Tuto volbu zapněte pro automatické přiřazování IP adres zařízením připojeným "
-"ke směrovači."
+"Tuto volbu zapněte pro automatické přiřazování IP adres zařízením "
+"připojeným ke směrovači."
 
 #: js/src/common/network/DHCPServerForm.js:47
 msgid "DHCP start"
@@ -239,8 +238,8 @@ msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
-"Jediná možná DHCP zápůjčka by byla totožná s adresou směrovače. Zvyšte limit "
-"nebo změňte začátek rozsahu."
+"Jediná možná DHCP zápůjčka by byla totožná s adresou směrovače. Zvyšte "
+"limit nebo změňte začátek rozsahu."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 msgid ""
@@ -665,15 +664,14 @@ msgid "guest Wi-Fi"
 msgstr "Wi-Fi pro hosty"
 
 #: js/src/guestNetwork/GuestNetwork.js:45
-#, python-brace-format
 msgid ""
 "It is separated from your ordinary LAN. Devices connected to this network"
 " are allowed to access the internet but are not allowed to access the "
 "configuration interface of this device or the devices in LAN."
 msgstr ""
-"Je oddělena od vaší běžné LAN. Zařízení připojená do této sítě mají povolen "
-"přístup k Internetu, ale nemohou přistupovat k rozhraní pro nastavování "
-"tohoto zařízení ani k ostatním zařízením v LAN."
+"Je oddělena od vaší běžné LAN. Zařízení připojená do této sítě mají "
+"povolen přístup k Internetu, ale nemohou přistupovat k rozhraní pro "
+"nastavování tohoto zařízení ani k ostatním zařízením v LAN."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
@@ -688,8 +686,8 @@ msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
-"Tato volba umožňuje nastavit limit přenosové rychlosti sítě pro hosty, takže "
-"nebude zpomalovat vaši hlavní síť."
+"Tato volba umožňuje nastavit limit přenosové rychlosti sítě pro hosty, "
+"takže nebude zpomalovat vaši hlavní síť."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
@@ -753,31 +751,37 @@ msgstr "Všechna síťová rozhraní této sítě jsou nyní bez komunikace."
 #: js/src/guide/constants.js:13
 msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
-"device. Firstly it is required to set your password. Note the security of"
-" your home network is in your hands, so try not to use weak passwords."
+"device."
 msgstr ""
-"Vítejte ve webovém rozhraní reForis. Tento průvodce vám pomůže s nastavením "
-"vašeho zařízení. Nejprve je třeba si zvolit heslo. Uvědomte si, že "
-"zabezpečení vaší domácí sítě je ve vašich rukách, proto se snažte vyvarovat "
-"používání slabých hesel."
 
-#: js/src/guide/constants.js:17
+#: js/src/guide/constants.js:16
+#, fuzzy
+msgid ""
+"Firstly it is required to set your password. Note the security of your "
+"home network is in your hands, so try not to use weak passwords."
+msgstr ""
+"Vítejte ve webovém rozhraní reForis. Tento průvodce vám pomůže s "
+"nastavením vašeho zařízení. Nejprve je třeba si zvolit heslo. Uvědomte "
+"si, že zabezpečení vaší domácí sítě je ve vašich rukách, proto se snažte "
+"vyvarovat používání slabých hesel."
+
+#: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
 msgstr "Vaše heslo je nastaveno. Můžete pokračovat na další krok."
 
-#: js/src/guide/constants.js:20
+#: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
 msgstr "Scénář byl nastaven, můžete pokračovat k dalšímu kroku."
 
-#: js/src/guide/constants.js:24
+#: js/src/guide/constants.js:27
 msgid "Here you need to decide which interfaces belong to which network."
 msgstr "Zde je třeba rozhodnout, která síťová rozhraní patří do které sítě."
 
-#: js/src/guide/constants.js:27
+#: js/src/guide/constants.js:30
 msgid "If you are in doubt use the current settings."
 msgstr "Pokud váháte, použijte stávající nastavení."
 
-#: js/src/guide/constants.js:29
+#: js/src/guide/constants.js:32
 msgid ""
 "You've configured your network interfaces. It seems that you didn't break"
 " any crucial network settings so you can safely proceed to the next step."
@@ -785,11 +789,11 @@ msgstr ""
 "Nastavili jste sítová rozhraní. Zdá se, že jste si nerozbili žádná "
 "důležitá nastavení sítě a tak můžete pokračovat na další krok."
 
-#: js/src/guide/constants.js:34
+#: js/src/guide/constants.js:37
 msgid "Now you need to set the time and timezone of your device."
 msgstr "Nyní je třeba nastavit čas a časové pásmo, ve kterém se zařízení nachází."
 
-#: js/src/guide/constants.js:35
+#: js/src/guide/constants.js:38
 msgid ""
 "Your time and timezone seem to be set. Please make sure that the time "
 "matches the time on your computer if not try to update it via NTP or "
@@ -799,7 +803,7 @@ msgstr ""
 "odpovídá skutečnému času. Pokud ne, zaktualizujte ho pomocí ntp nebo "
 "ručně."
 
-#: js/src/guide/constants.js:40
+#: js/src/guide/constants.js:43
 msgid ""
 "A proper DNS resolving is one of the key security features of your "
 "device. Let's configure it now."
@@ -807,7 +811,7 @@ msgstr ""
 "Správný DNS překlad je jeden z klíčových bezpečnostních prvků vašeho "
 "zařízení. Pojďme ho proto nyní nastavit."
 
-#: js/src/guide/constants.js:43
+#: js/src/guide/constants.js:46
 msgid ""
 "You've updated your DNS configuration. Try to run connection test to see "
 "whether your DNS resolver is properly set."
@@ -815,11 +819,11 @@ msgstr ""
 "Aktualizovali jste nastavení DNS. Zkuste spustit test připojení, abyste "
 "si ověřili, že překlad DNS funguje správně."
 
-#: js/src/guide/constants.js:48
+#: js/src/guide/constants.js:51
 msgid "In order to access the internet, you need to configure your WAN interface."
 msgstr "Pro přístup k Internetu potřebujete nastavit WAN rozhraní."
 
-#: js/src/guide/constants.js:51
+#: js/src/guide/constants.js:54
 msgid ""
 "You've configured your WAN interface. Try to run connection test to see "
 "whether it is working properly and if so you can safely proceed to the "
@@ -828,7 +832,7 @@ msgstr ""
 "Nastavili jste WAN rozhraní. Zkuste spustit test připojení, abyste si "
 "ověřili, že vše funguje, jak má. Poté můžete pokračovat na další krok."
 
-#: js/src/guide/constants.js:56
+#: js/src/guide/constants.js:59
 msgid ""
 "Now you should configure your LAN interface. Note that when you change "
 "your network settings you probably won't be able to connect to the "
@@ -840,7 +844,7 @@ msgstr ""
 " pro nastavování, dokud nerestartujete síť na zařízení, ze kterého "
 "přistupujete."
 
-#: js/src/guide/constants.js:59
+#: js/src/guide/constants.js:62
 msgid ""
 "You've configured your LAN interface. Try to test whether settings work "
 "properly and if so you can safely proceed to the next step."
@@ -848,19 +852,36 @@ msgstr ""
 "Nastavili jste LAN rozhraní. Zkuste si ověřit, zda nastavení funguje "
 "správně a pokud ano, můžete pokračovat na další krok."
 
-#: js/src/guide/constants.js:64
+#: js/src/guide/constants.js:68
+#, fuzzy
+msgid "To activate Sentinel, you must accept the licence agreement."
+msgstr "Přejít na licenční smlouvu k Sentinel"
+
+#: js/src/guide/constants.js:69
+msgid ""
+"If you choose not to accept it, Sentinel will remain installed and "
+"accessible from the sidebar navigation, but it will not be active."
+msgstr ""
+
+#: js/src/guide/constants.js:73
+msgid ""
+"Sentinel is now set up. You can check its status and settings in the "
+"sidebar navigation."
+msgstr ""
+
+#: js/src/guide/constants.js:78
 msgid "Now you need to configure automatic updates on your device."
 msgstr "Nyní je potřeba nastavit automatické aktualizace vašeho zařízení."
 
-#: js/src/guide/constants.js:67
+#: js/src/guide/constants.js:81
 msgid "Please wait till the updater finishes its run."
 msgstr "Počkejte prosím, dokud automatické aktualizace nebudou dokončeny."
 
-#: js/src/guide/constants.js:76
+#: js/src/guide/constants.js:90
 msgid "Congratulations! Now your device is ready to be used."
 msgstr "Gratulujeme! Vaše zařízení je nyní připraveno k použití."
 
-#: js/src/guide/constants.js:82
+#: js/src/guide/constants.js:96
 msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
@@ -868,7 +889,7 @@ msgstr ""
 "Gratulujeme! Nyní je vaše zařízení schopné fungovat jako router a "
 "směrovat síťový provoz mezi LAN, WAN a sítí pro hosty."
 
-#: js/src/guide/constants.js:90
+#: js/src/guide/constants.js:104
 msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
 "some further configuration updates to fit the device to your needs."
@@ -877,7 +898,7 @@ msgstr ""
 "přizpůsobení zařízení vašim potřebám bude nejspíš třeba provést v "
 "nastavení ještě další změny."
 
-#: js/src/guide/constants.js:98
+#: js/src/guide/constants.js:112
 msgid ""
 "Your device is now ready to be used. You can tweak the rest of the "
 "setting in the administration interface. Once you finish the guide, your "
@@ -885,32 +906,32 @@ msgid ""
 "administration interface."
 msgstr ""
 "Vaše zařízení je nyní připraveno k použití. Další nastavení si můžete si "
-"přizpůsobit v rozhraní pro správu. Jakmile dokončíte průvodce, váš Shield se "
-"pokusí připojit na Internet a zobrazí se vám rozhraní pro správu."
+"přizpůsobit v rozhraní pro správu. Jakmile dokončíte průvodce, váš Shield"
+" se pokusí připojit na Internet a zobrazí se vám rozhraní pro správu."
 
-#: js/src/guide/constants.js:109
+#: js/src/guide/constants.js:123
 msgid ""
 "You chose to act as local server this means that it doesn't make sense to"
 " put any interfaces to your WAN and Guest Network. So it is a good idea "
 "to assign all interfaces to LAN."
 msgstr ""
-"Zvolíte fungovat jako místní server což znamená, že nedává smysl umisťovat "
-"jakékoli rozhraní do WAN nebo sítě pro hosty. Takže je dobrý nápad přiřadit "
-"veškerá rozhraní do LAN."
+"Zvolíte fungovat jako místní server což znamená, že nedává smysl "
+"umisťovat jakékoli rozhraní do WAN nebo sítě pro hosty. Takže je dobrý "
+"nápad přiřadit veškerá rozhraní do LAN."
 
-#: js/src/guide/constants.js:116
+#: js/src/guide/constants.js:130
 msgid ""
 "To act as a local server, there's no need to manage LAN (if you still "
 "want to manage it reset the guide and choose the Router workflow). You "
 "probably want to act as a client here thus select "
 "<strong>Computer</strong> mode here."
 msgstr ""
-"Pro fungování jako místní server není potřeba spravovat LAN (pokud ji i tak "
-"chcete spravovat, resetuje průvodce a zvolte scénář Směrovač). Sami nejspíš "
-"chcete fungovat jako klient a proto zde vyberte režim "
+"Pro fungování jako místní server není potřeba spravovat LAN (pokud ji i "
+"tak chcete spravovat, resetuje průvodce a zvolte scénář Směrovač). Sami "
+"nejspíš chcete fungovat jako klient a proto zde vyberte režim "
 "<strong>Počítač</strong>."
 
-#: js/src/guide/constants.js:119
+#: js/src/guide/constants.js:133
 msgid ""
 "If you select the <strong>static</strong> configuration be sure that the "
 "IP addresses are entered correctly otherwise you won't be able to access "
@@ -920,7 +941,7 @@ msgstr ""
 "adresy zadali správně. Jinak po uplatnění tohoto nového nastavení nebude "
 "rozhraní pro nastavování přístupné."
 
-#: js/src/guide/constants.js:122
+#: js/src/guide/constants.js:136
 msgid ""
 "If you select the <strong>DHCP</strong> method you probably you need to "
 "obtain a new IP address of this device. You can obtain it from the DHCP "
@@ -929,10 +950,10 @@ msgid ""
 msgstr ""
 "Pokud vyberete metodu <strong>DHCP</strong>, toto zařízení pravděpodobně "
 "obdrží novou IP adresu. Tu je možné si zjistit z DHCP serveru, který "
-"spravuje vaši síť. Aby bylo možné dokončit průvodce, bude třeba se připojit "
-"už na tuto novou IP adresu."
+"spravuje vaši síť. Aby bylo možné dokončit průvodce, bude třeba se "
+"připojit už na tuto novou IP adresu."
 
-#: js/src/guide/constants.js:125
+#: js/src/guide/constants.js:139
 msgid ""
 "Note that either way you might need to re-plug your ethernet cables after"
 " you update the settings here."
@@ -940,7 +961,7 @@ msgstr ""
 "Poznamenejme že v obou případech může po změně nastavení zde být třeba "
 "odpojit a znovu připojit ethernetové kabely."
 
-#: js/src/guide/constants.js:129
+#: js/src/guide/constants.js:143
 msgid ""
 "Please test whether the settings you provided are working correctly. It "
 "means that you can access the configuration interface of your device, and"
@@ -951,7 +972,7 @@ msgstr ""
 "schopné přistupovat k Internetu (k tomu je možné využít test připojení "
 "níže)."
 
-#: js/src/guide/constants.js:134
+#: js/src/guide/constants.js:148
 msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
@@ -1002,7 +1023,12 @@ msgstr "WAN"
 msgid "LAN"
 msgstr "LAN"
 
-#: js/src/guide/steps.js:53
+#: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
+#, fuzzy
+msgid "Sentinel"
+msgstr "Pokračovat"
+
+#: js/src/guide/steps.js:57
 msgid "Finish"
 msgstr "Dokončit"
 
@@ -1027,8 +1053,8 @@ msgid ""
 "Settings that are not set up during the guide will be set to default "
 "values. And you will have to set them up manually."
 msgstr ""
-"Nastavení, která neprovedete během průvodce, budou ponechána na výchozích "
-"hodnotách. Bude třeba je nastavit ručně."
+"Nastavení, která neprovedete během průvodce, budou ponechána na výchozích"
+" hodnotách. Bude třeba je nastavit ručně."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:163
@@ -1044,8 +1070,8 @@ msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
-"Jakmile tohoto průvodce opustíte, bude vám udělen přístup k úplnému rozhraní "
-"pro správu tohoto zařízení."
+"Jakmile tohoto průvodce opustíte, bude vám udělen přístup k úplnému "
+"rozhraní pro správu tohoto zařízení."
 
 #: js/src/guide/GuidePages/GuideFinish.js:27
 msgid ""
@@ -1054,16 +1080,91 @@ msgid ""
 "security research to discover new attackers and give you access to "
 "dynamic firewall updates blocking known attackers."
 msgstr ""
-"Pokud chcete ještě dále zlepšit své zabezpečení, zvažte instalaci zásuvného "
-"modulu Sběr dat (prostřednictvím správy balíčků). To vám umožní být součástí "
-"našeho výzkumu zabezpečení, abychom objevili nové útočníky a poskytli vám "
-"přístup k dynamickým aktualizacím brány firewall, které blokují známé "
-"útočníky."
+"Pokud chcete ještě dále zlepšit své zabezpečení, zvažte instalaci "
+"zásuvného modulu Sběr dat (prostřednictvím správy balíčků). To vám umožní"
+" být součástí našeho výzkumu zabezpečení, abychom objevili nové útočníky "
+"a poskytli vám přístup k dynamickým aktualizacím brány firewall, které "
+"blokují známé útočníky."
 
 #: js/src/guide/GuidePages/GuideFinish.js:33
 #: js/src/utils/useSessionTimeout.js:113
 msgid "Continue"
 msgstr "Pokračovat"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:9
+msgid ""
+"Turris Sentinel is an advanced security system designed to protect your "
+"router and network from cyber threats. It continuously monitors and "
+"analyzes reports from Turris devices worldwide to detect and block "
+"attackers in real time. Sentinel is made up of several key components, "
+"including "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:17
+#: js/src/overview/Cards/ThreatDetectionCard.js:62
+msgid "Threat Detection"
+msgstr "Detekce hrozeb"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:25
+msgid ", which utilizes minimal honeypots and firewall logging, the "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:33
+#, fuzzy
+msgid "Dynamic Firewall (DynFW)"
+msgstr "Dynamický firewall"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:41
+msgid ""
+"for real-time threat prevention, and a centralized database that tracks "
+"and identifies potential attackers."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:46
+msgid ""
+"By enabling Sentinel, you contribute to a global security network that "
+"helps protect not only your own device but also other users. You can "
+"explore real-time security insights and attack statistics on "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:54
+msgid "Sentinel View"
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:63
+msgid " For a detailed overview of how Sentinel works, visit the "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:71
+#, fuzzy
+msgid "Sentinel documentation"
+msgstr "Dokumentace"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:31
+#, fuzzy
+msgid "Licence Agreement"
+msgstr "licenčních podmínek"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:34
+#, fuzzy
+msgid "Agreement"
+msgstr "licenčních podmínek"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:71
+msgid ""
+"I accept the <a href='#'>Terms of Participation in Turris Project (Data "
+"Collection)</a>."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelEULA.js:86
+msgid ""
+"I do not accept the <a href='#'>Terms of Participation in Turris Project "
+"(Data Collection)</a>."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelEULAModal.js:59
+msgid "Terms of Participation in Turris Project (Data Collection)"
+msgstr ""
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:26
 msgid ""
@@ -1083,9 +1184,9 @@ msgid ""
 " functional router. It assumes that you want to have more or less "
 "standard network setup."
 msgstr ""
-"Po dokončení tohoto scénáře bude vaše zařízení schopné fungovat jako plně "
-"funkční směrovač. Předpokládá se, že chcete více méně standardní uspořádání "
-"sítě."
+"Po dokončení tohoto scénáře bude vaše zařízení schopné fungovat jako plně"
+" funkční směrovač. Předpokládá se, že chcete více méně standardní "
+"uspořádání sítě."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:32
 msgid ""
@@ -1207,11 +1308,12 @@ msgid ""
 "that you don't fully trust. Note that you can also limit the "
 "download/upload speed of the devices connected to the guest network."
 msgstr ""
-"Slouží jako připojení do místní sítě. Na rozdíl od zařízení v LAN, zařízení "
-"v síti pro hosty nemohou přistupovat k rozhraní pro správu tohoto směrovače "
-"a mohou přistupovat pouze k WAN (Internet). Tato síť by měla být používána "
-"pro zařízení, kterým tak úplně nedůvěřujete. Poznamenejme, že zařízením v "
-"síti pro hosty také můžete omezit rychlost stahování/odesílání."
+"Slouží jako připojení do místní sítě. Na rozdíl od zařízení v LAN, "
+"zařízení v síti pro hosty nemohou přistupovat k rozhraní pro správu "
+"tohoto směrovače a mohou přistupovat pouze k WAN (Internet). Tato síť by "
+"měla být používána pro zařízení, kterým tak úplně nedůvěřujete. "
+"Poznamenejme, že zařízením v síti pro hosty také můžete omezit rychlost "
+"stahování/odesílání."
 
 #: js/src/interfaces/Network.js:43
 msgid "There are no interfaces in this group."
@@ -1296,13 +1398,13 @@ msgid ""
 "obtain a new IP from DHCP (if DHCP is enabled), and you might need to "
 "<b>refresh the page</b> in your browser."
 msgstr ""
-"<b>Poznámka:</b> Pokud změníte IP adresu směrovače, všechny počítače v LAN, "
-"pravděpodobně včetně toho, který právě používáte, budou muset získat "
-"<b>novou IP adresu</b> což neproběhne <b>okamžitě</b>. Doporučuje se tedy ("
-"poté co uložíte provedené změny) vynutit tuto aktualizaci odpojením a "
-"opětovným připojením všech síťových kabelů. Následující stránka se nenačte, "
-"dokud nezískáte novou IP adresu z DHCP (pokud je zapnuto), a možná bude "
-"třeba <b>znovu načíst stránku</b> v prohlížeči."
+"<b>Poznámka:</b> Pokud změníte IP adresu směrovače, všechny počítače v "
+"LAN, pravděpodobně včetně toho, který právě používáte, budou muset získat"
+" <b>novou IP adresu</b> což neproběhne <b>okamžitě</b>. Doporučuje se "
+"tedy (poté co uložíte provedené změny) vynutit tuto aktualizaci odpojením"
+" a opětovným připojením všech síťových kabelů. Následující stránka se "
+"nenačte, dokud nezískáte novou IP adresu z DHCP (pokud je zapnuto), a "
+"možná bude třeba <b>znovu načíst stránku</b> v prohlížeči."
 
 #: js/src/lan/LANForm.js:19
 msgid ""
@@ -1318,9 +1420,9 @@ msgid ""
 " acts similarly to WAN, but it has opened ports for configuration "
 "interfaces and other services."
 msgstr ""
-"Režim počítač znamená, že toto zařízení vystupuje v této síti jako klient. "
-"Chová se podobně jako vůči WAN, ale má otevřené porty pro správní rozhraní a "
-"další služby."
+"Režim počítač znamená, že toto zařízení vystupuje v této síti jako "
+"klient. Chová se podobně jako vůči WAN, ale má otevřené porty pro správní"
+" rozhraní a další služby."
 
 #: js/src/lan/LANForm.js:34
 msgid "Computer"
@@ -1412,7 +1514,7 @@ msgstr "Nastavení aktualizací"
 msgid "Packages"
 msgstr "Balíčky"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:63
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:64
 #: js/src/main/pages.js:131 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr "Jazyky"
@@ -1445,7 +1547,7 @@ msgstr "Automaticky"
 msgid "Theme"
 msgstr "Motiv vzhledu"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:101
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:102
 msgid "Participate in translation"
 msgstr "Podílejte se na překladu"
 
@@ -1501,10 +1603,10 @@ msgid ""
 "brings back all the default settings of the device as it was when the "
 "router was new, giving you a clean slate to start all over again."
 msgstr ""
-"Provedením navrácení zařízení Turris do továrního nastavení budou odstraněny "
-"všechny nainstalované balíčky a všechna data s nimi spojená. Vše se vrátí "
-"zpět do výchozích nastavení tak, jako když byl směrovač nový a bude tak "
-"možné začít načisto úplně od začátku."
+"Provedením navrácení zařízení Turris do továrního nastavení budou "
+"odstraněny všechny nainstalované balíčky a všechna data s nimi spojená. "
+"Vše se vrátí zpět do výchozích nastavení tak, jako když byl směrovač nový"
+" a bude tak možné začít načisto úplně od začátku."
 
 #: js/src/maintenance/FactoryReset.js:29
 msgid "Are you sure you want to reset the router?"
@@ -1527,8 +1629,8 @@ msgid ""
 "The Maintenance tab allows you to reboot the router or bring back all the"
 " default settings by performing a factory reset."
 msgstr ""
-"Záložka Údržba vám umožňuje směrovač restartovat nebo ho vrátit do výchozích "
-"nastavení provedením navrácení do továrního stavu."
+"Záložka Údržba vám umožňuje směrovač restartovat nebo ho vrátit do "
+"výchozích nastavení provedením navrácení do továrního stavu."
 
 #: js/src/maintenance/Reboot.js:19
 msgid ""
@@ -1536,9 +1638,9 @@ msgid ""
 "reboot process takes approximately 30 seconds, and then you will be "
 "required to log in again."
 msgstr ""
-"Pokud zařízení potřebujete restartovat, klikněte na následující tlačítko. "
-"Proces restartu bude trvat přibližně 30 sekund a po jeho dokončení se bude "
-"třeba znovu přihlásit."
+"Pokud zařízení potřebujete restartovat, klikněte na následující tlačítko."
+" Proces restartu bude trvat přibližně 30 sekund a po jeho dokončení se "
+"bude třeba znovu přihlásit."
 
 #: js/src/maintenance/Syslog/Syslog.js:49
 msgid "A drive has to be configured first."
@@ -1555,8 +1657,8 @@ msgid ""
 "'/srv/log/messages'."
 msgstr ""
 "Ve výchozím nastavení jsou při restartu zařízení záznamy o událostech v "
-"systému ztraceny. Tato volba umožňuje tyto záznamy ukládat pomocí zásuvného "
-"modulu Úložiště. Jsou ukládány do složky „/srv/log/messages“."
+"systému ztraceny. Tato volba umožňuje tyto záznamy ukládat pomocí "
+"zásuvného modulu Úložiště. Jsou ukládány do složky „/srv/log/messages“."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:38
 #, python-brace-format
@@ -1566,8 +1668,8 @@ msgid ""
 "plugin</a> first."
 msgstr ""
 "Aby bylo možné zapnout tuto volbu, je třeba nejdříve nastavit úložiště "
-"pomocí <a href=\"${ForisURLs.storage}\" title="
-"\"Přejít na zásuvný modul Úložiště\">zásuvného modulu Úložiště</a>."
+"pomocí <a href=\"${ForisURLs.storage}\" title=\"Přejít na zásuvný modul "
+"Úložiště\">zásuvného modulu Úložiště</a>."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:44
 msgid "Enable System Logs Retention"
@@ -1610,10 +1712,10 @@ msgid ""
 "settings. Once you are done with the configuration, you can test it by "
 "pressing Send test notification. Additionally, you can use "
 msgstr ""
-"Vaše zařízení vám může podle vašich nastavení zasílat e-mailová oznámení o "
-"požadovaných restartech, důležitých událostech, nainstalovaných "
-"aktualizacích a nových funkcích. Po dokončení nastavení to můžete vyzkoušet "
-"stisknutím Odeslat testovací oznámení. Dále je možné použít "
+"Vaše zařízení vám může podle vašich nastavení zasílat e-mailová oznámení "
+"o požadovaných restartech, důležitých událostech, nainstalovaných "
+"aktualizacích a nových funkcích. Po dokončení nastavení to můžete "
+"vyzkoušet stisknutím Odeslat testovací oznámení. Dále je možné použít "
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
@@ -1625,9 +1727,9 @@ msgid ""
 "or desktop. ntfy allows you to subscribe to topics and get instant alerts"
 " without the need for email."
 msgstr ""
-" pro příjem push notifikací v reálném čase přímo na vaše mobilní zařízení "
-"nebo počítač. ntfy vám umožňuje přihlásit se k tématům a dostávat okamžitá "
-"upozornění bez nutnosti používat e-mail."
+" pro příjem push notifikací v reálném čase přímo na vaše mobilní zařízení"
+" nebo počítač. ntfy vám umožňuje přihlásit se k tématům a dostávat "
+"okamžitá upozornění bez nutnosti používat e-mail."
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:19
 msgid "Turris"
@@ -1749,8 +1851,9 @@ msgid ""
 "You have unsaved changes in your notification settings. Do you want to "
 "discard them and test notifications using the previous settings?"
 msgstr ""
-"V nastavení notifikací byly provedeny změny, které doposud nebyly uloženy. "
-"Chcete je zahodit a odeslat testovací zprávu s původními nastaveními?"
+"V nastavení notifikací byly provedeny změny, které doposud nebyly "
+"uloženy. Chcete je zahodit a odeslat testovací zprávu s původními "
+"nastaveními?"
 
 #: js/src/notificationsSettings/TestNotification.js:117
 msgid "Send Test Notification"
@@ -1777,8 +1880,8 @@ msgid ""
 msgstr ""
 "Pokud nastavíte poskytovatele SMTP na „Turris“, budou použity servery "
 "poskytované členům projektu Turris. Tyto servery nevyžadují žádná další "
-"nastavování. Pokud chcete nastavit jiný SMTP server, vyberte „Uživatelsky "
-"určený“ a zadejte potřebná nastavení."
+"nastavování. Pokud chcete nastavit jiný SMTP server, vyberte „Uživatelsky"
+" určený“ a zadejte potřebná nastavení."
 
 #: js/src/notificationsSettings/helpTexts.js:15
 msgid ""
@@ -1786,9 +1889,9 @@ msgid ""
 "choose to receive notifications about all events or only about those that"
 " require your attention."
 msgstr ""
-"V závislosti na důležitosti nebo závažnosti notifikace je možné si vybrat, "
-"zda chcete přijímat notifikace o všech událostech nebo jen o těch, které "
-"vyžadují vaši pozornost."
+"V závislosti na důležitosti nebo závažnosti notifikace je možné si "
+"vybrat, zda chcete přijímat notifikace o všech událostech nebo jen o "
+"těch, které vyžadují vaši pozornost."
 
 #: js/src/notificationsSettings/helpTexts.js:18
 msgid "Email address of recipient. Separate multiple addresses by comma."
@@ -1803,8 +1906,8 @@ msgid ""
 "Name of the sender that will be used before the \"at\" symbol in the "
 "email address. For example: \"home-router@notify.turis.cz\""
 msgstr ""
-"Název odesílatele, který bude používán před zavináčem v e-mailové adrese. "
-"Například: „domaci_smerovac@notify.turis.cz“"
+"Název odesílatele, který bude používán před zavináčem v e-mailové adrese."
+" Například: „domaci_smerovac@notify.turis.cz“"
 
 #: js/src/notificationsSettings/helpTexts.js:29
 msgid "This is the address notifications are send from."
@@ -1824,7 +1927,8 @@ msgid ""
 "Sender's name can contain only alphanumeric characters, dots and "
 "underscores."
 msgstr ""
-"Název odesilatele může obsahovat pouze písmena a číslice, tečky a podtržítka."
+"Název odesilatele může obsahovat pouze písmena a číslice, tečky a "
+"podtržítka."
 
 #: js/src/notificationsSettings/validator.js:66
 msgid "Port is an number."
@@ -1944,10 +2048,6 @@ msgstr "Přejít na licenční smlouvu k Sentinel"
 msgid "Go to Sentinel package installation"
 msgstr "Přejít na instalaci balíčku Sentinel"
 
-#: js/src/overview/Cards/ThreatDetectionCard.js:62
-msgid "Threat Detection"
-msgstr "Detekce hrozeb"
-
 #: js/src/packageManagement/languages/Languages.js:22
 msgid ""
 "If you want to use another language other than English, you can select it"
@@ -1969,11 +2069,12 @@ msgid ""
 "package lists and not marked as community-supported is supported by the "
 "Turris team."
 msgstr ""
-"Kromě standardní instalace můžete volitelně vybrat balíčky dalšího softwaru, "
-"které by byly nainstalovány na směrovač. Tento software lze vybrat z "
-"následujícího seznamu. Vezměte prosím na vědomí, že týmem Turris je "
-"podporován pouze software, který je součástí Turris OS nebo který byl "
-"nainstalován ze seznamu balíčků a není označen jako podporovaný komunitou."
+"Kromě standardní instalace můžete volitelně vybrat balíčky dalšího "
+"softwaru, které by byly nainstalovány na směrovač. Tento software lze "
+"vybrat z následujícího seznamu. Vezměte prosím na vědomí, že týmem Turris"
+" je podporován pouze software, který je součástí Turris OS nebo který byl"
+" nainstalován ze seznamu balíčků a není označen jako podporovaný "
+"komunitou."
 
 #: js/src/packageManagement/packages/PackagesForm.js:31
 msgid "Package Lists"
@@ -1988,8 +2089,8 @@ msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the "
 msgstr ""
-"Povolením automatických aktualizací potvrzujete, že jste vlastníkem tohoto "
-"směrovače Turris a souhlasíte s úplným zněním "
+"Povolením automatických aktualizací potvrzujete, že jste vlastníkem "
+"tohoto směrovače Turris a souhlasíte s úplným zněním "
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
 msgid "license agreement"
@@ -2005,12 +2106,13 @@ msgid ""
 "weaken the security of your router and network in case flaws in the "
 "software are found."
 msgstr ""
-"Jeho automatické aktualizace jsou jednou z nejdůležitějších funkcí směrovače "
-"Turris. Díky ní zůstává software tohoto zařízení aktuální a nabízí tak lepší "
-"ochranu proti útokům z Internetu.<br/><b>Velmi doporučujeme</b>, abyste tuto "
-"funkci ponechali <b>zapnutou</b>. Pokud se rozhodnete ji vypnout, uvědomte "
-"si, že to může snížit bezpečnost vašeho směrovače (a tím i celé sítě), pokud "
-"budou v softwaru objeveny bezpečnostní chyby."
+"Jeho automatické aktualizace jsou jednou z nejdůležitějších funkcí "
+"směrovače Turris. Díky ní zůstává software tohoto zařízení aktuální a "
+"nabízí tak lepší ochranu proti útokům z Internetu.<br/><b>Velmi "
+"doporučujeme</b>, abyste tuto funkci ponechali <b>zapnutou</b>. Pokud se "
+"rozhodnete ji vypnout, uvědomte si, že to může snížit bezpečnost vašeho "
+"směrovače (a tím i celé sítě), pokud budou v softwaru objeveny "
+"bezpečnostní chyby."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
 msgid ""
@@ -2018,9 +2120,9 @@ msgid ""
 "agreement. More information is available <a href=\"\" data-bs-"
 "toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
-"Zapnutím automatických aktualizací souhlasíte s licenčními podmínkami této "
-"funkce. Další informace naleznete <a href=\"\" data-bs-toggle=\"modal\" data-"
-"bs-target=\"#licenceModal\">zde</a>."
+"Zapnutím automatických aktualizací souhlasíte s licenčními podmínkami "
+"této funkce. Další informace naleznete <a href=\"\" data-bs-"
+"toggle=\"modal\" data-bs-target=\"#licenceModal\">zde</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
@@ -2051,10 +2153,11 @@ msgid ""
 "Downloading the automatic updates mean increased Internet traffic. "
 "Potential expenses related to this are covered by you."
 msgstr ""
-"Stahování automatických aktualizací znamená zvýšení objemu dat, přenášených "
-"vaší přípojkou k Internetu. Pokud za ní neplatíte pevný paušál bez ohledu na "
-"využitá data, ale naopak platíte za ta využitá (stejně jako za ta nad rámec "
-"tarifu), případné náklady s tím spojené hradíte vy."
+"Stahování automatických aktualizací znamená zvýšení objemu dat, "
+"přenášených vaší přípojkou k Internetu. Pokud za ní neplatíte pevný "
+"paušál bez ohledu na využitá data, ale naopak platíte za ta využitá "
+"(stejně jako za ta nad rámec tarifu), případné náklady s tím spojené "
+"hradíte vy."
 
 #: js/src/packageManagement/updateSettings/points.js:39
 msgid ""
@@ -2063,10 +2166,10 @@ msgid ""
 "workstations and other devices by installing antivirus software and "
 "explaining to users how to stay safe on the Internet."
 msgstr ""
-"Automatické aktualizace vás nemohou ochránit před každým útokem z Internetu. "
-"Přijměte také další opatření, jako je ochrana počítačů a dalších zařízení "
-"instalací antivirového softwaru a vysvětlování uživatelům, jak se na "
-"Internetu chovat bezpečně."
+"Automatické aktualizace vás nemohou ochránit před každým útokem z "
+"Internetu. Přijměte také další opatření, jako je ochrana počítačů a "
+"dalších zařízení instalací antivirového softwaru a vysvětlování "
+"uživatelům, jak se na Internetu chovat bezpečně."
 
 #: js/src/packageManagement/updateSettings/points.js:45
 msgid ""
@@ -2155,12 +2258,12 @@ msgid ""
 msgstr ""
 "Schvalování aktualizací se může hodit, pokud chcete mít jistotu, že "
 "nepoškodí vaše specifická\n"
-"            nastavení. Můžete například instalovat aktualizace, pokud jste "
-"připravení na případný návrat k předchozímu\n"
-"            zachycenému stavu a dočasně odmítnout aktualizaci, u které máte "
-"pochyby. Nicméně nelze aktualizaci\n"
-"            odmítnout definitivně – bude vám znovu nabídnuta při instalaci "
-"dalšího balíčku."
+"            nastavení. Můžete například instalovat aktualizace, pokud "
+"jste připravení na případný návrat k předchozímu\n"
+"            zachycenému stavu a dočasně odmítnout aktualizaci, u které "
+"máte pochyby. Nicméně nelze aktualizaci\n"
+"            odmítnout definitivně – bude vám znovu nabídnuta při "
+"instalaci dalšího balíčku."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:79
 msgid "Delayed updates (hours)"
@@ -2220,9 +2323,9 @@ msgid ""
 "approval needed</b>."
 msgstr ""
 "Pokud nechce, aby se aktualizace vůbec instalovaly,\n"
-"                                    přejděte do <a href="
-"\"${ForisURLs.packageManagement.updateSettings}\">Nastavení aktualizací</a> "
-"\n"
+"                                    přejděte do <a "
+"href=\"${ForisURLs.packageManagement.updateSettings}\">Nastavení "
+"aktualizací</a> \n"
 "                                    a vyberte volbu  <b>Aktualizace bude "
 "třeba schvalovat</b>."
 
@@ -2366,8 +2469,8 @@ msgid ""
 "                            forisPassword.list || rootPassword.list\n"
 "                        } list. Please choose a more secure password."
 msgstr ""
-"Heslo, které jste zadali, nebylo uloženo. To proto, že se vyskytuje mezi už "
-"prolomenými a to ${\n"
+"Heslo, které jste zadali, nebylo uloženo. To proto, že se vyskytuje mezi "
+"už prolomenými a to ${\n"
 "                            forisPassword.count || rootPassword.count\n"
 "                        }krát v seznamu ${\n"
 "                            forisPassword.list || rootPassword.list\n"
@@ -2420,20 +2523,20 @@ msgid ""
 "through the <a href=\"%s\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">LuCI web interface</a> or via SSH."
 msgstr ""
-"Pro získání přístupu k pokročilým možnostem nastavení, které odsud nejsou k "
-"dispozici, je třeba\n"
+"Pro získání přístupu k pokročilým možnostem nastavení, které odsud nejsou"
+" k dispozici, je třeba\n"
 "nastavit heslo uživateli root. Pokročilé možnosti nastavení pak lze "
 "spravovat buď \n"
-"přes webové rozhraní <a href=\"%s\" target=\"_blank\" rel="
-"\"noopener noreferrer\">LuCI</a> nebo prostřednictvím SSH."
+"přes webové rozhraní <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">LuCI</a> nebo prostřednictvím SSH."
 
 #: js/src/portForwarding/PortForwarding.js:51
 msgid ""
 "Port forwarding allows you to forward incoming traffic from the WAN "
 "interface to a specific device on your LAN."
 msgstr ""
-"Přesměrování portů vám umožňuje přesměrovávat příchozí provoz z rozhraní WAN "
-"na určité zařízení ve vaší LAN."
+"Přesměrování portů vám umožňuje přesměrovávat příchozí provoz z rozhraní "
+"WAN na určité zařízení ve vaší LAN."
 
 #: js/src/portForwarding/PortForwarding.js:56
 msgid ""
@@ -2441,8 +2544,8 @@ msgid ""
 "on your LAN. This way, the web server will be accessible from the "
 "internet."
 msgstr ""
-"Například je možné příchozí provoz na port 80 přesměrovávat na webový server "
-"ve vaší LAN. Takto bude webový server přístupný z Internetu."
+"Například je možné příchozí provoz na port 80 přesměrovávat na webový "
+"server ve vaší LAN. Takto bude webový server přístupný z Internetu."
 
 #: js/src/portForwarding/PortForwarding.js:61
 msgid ""
@@ -2450,8 +2553,8 @@ msgid ""
 "button. But first, you need to configure a static DHCP lease for the "
 "device you want to forward traffic to. You can configure it on the "
 msgstr ""
-"Nové pravidlo pro přesměrování portu je možné přidat kliknutím na „Přidat "
-"pravidlo“. Nejprve je ale třeba pro zařízení, na které chcete směrovat "
+"Nové pravidlo pro přesměrování portu je možné přidat kliknutím na „Přidat"
+" pravidlo“. Nejprve je ale třeba pro zařízení, na které chcete směrovat "
 "provoz, nastavit statickou DHCP zápůjčku. To je možné provést v "
 
 #: js/src/portForwarding/PortForwarding.js:139
@@ -2506,8 +2609,8 @@ msgid ""
 "Enter the external port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
-"Zadejte číslo vnějšího portu, na který se bude pravidlo vztahovat. Může to "
-"být jeden port nebo jejich rozsah."
+"Zadejte číslo vnějšího portu, na který se bude pravidlo vztahovat. Může "
+"to být jeden port nebo jejich rozsah."
 
 #: js/src/portForwarding/constants.js:21
 msgid ""
@@ -2523,8 +2626,8 @@ msgid ""
 "Enter the internal port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
-"Vložte číslo vnitřního portu, na který se bude pravidlo vztahovat. Může to "
-"být jeden port nebo rozsah portů."
+"Vložte číslo vnitřního portu, na který se bude pravidlo vztahovat. Může "
+"to být jeden port nebo rozsah portů."
 
 #: js/src/portForwarding/constants.js:27
 msgid "Enable or disable the port forwarding rule."
@@ -2587,8 +2690,8 @@ msgid ""
 "Please select the timezone the router is being operated in. Correct "
 "setting is required to display the right time and for related functions."
 msgstr ""
-"Vyberte časové pásmo ve které je směrovač používán. Korektní nastavení je "
-"nutné pro zobrazování správného času a pro související funkce."
+"Vyberte časové pásmo ve které je směrovač používán. Korektní nastavení je"
+" nutné pro zobrazování správného času a pro související funkce."
 
 #: js/src/regionAndTime/RegionForm.js:81
 msgid "Continent or ocean"
@@ -2619,8 +2722,8 @@ msgid ""
 "Time should be up-to-date otherwise DNS and other services might not work"
 " properly."
 msgstr ""
-"Čas by měl být aktuální – jinak se může stát, že nebude správně fungovat DNS "
-"a další služby."
+"Čas by měl být aktuální – jinak se může stát, že nebude správně fungovat "
+"DNS a další služby."
 
 #: js/src/regionAndTime/TimeForm.js:113
 msgid "How to set time"
@@ -2676,9 +2779,10 @@ msgid ""
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
-"Podrobnější informace jsou k dispozici v konzoli vašeho webového prohlížeče –"
-" ve většině prohlížečů je dostupná stisknutím "
-"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> nebo <kbd>F12</kbd>."
+"Podrobnější informace jsou k dispozici v konzoli vašeho webového "
+"prohlížeče – ve většině prohlížečů je dostupná stisknutím "
+"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> nebo "
+"<kbd>F12</kbd>."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
@@ -2955,7 +3059,8 @@ msgstr "Heslo pro PAP/CHAP"
 #: js/src/wifi/WiFi.js:27
 msgid "Unfortunately, we were unable to detect any wireless cards in your router."
 msgstr ""
-"Ve vašem směrovači žel nebyly zjištěny žádné karty pro bezdrátové připojení."
+"Ve vašem směrovači žel nebyly zjištěny žádné karty pro bezdrátové "
+"připojení."
 
 #: js/src/wifi/WiFi.js:42
 msgid ""
@@ -2964,9 +3069,10 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
-"Pokud chcete používat váš směrovač jako přístupový bod Wi-Fi, povolte zde Wi-"
-"Fi a vyplňte SSID (název přístupového bodu) a příslušné heslo. Potom můžete "
-"nastavit svá mobilní zařízení pomocí QR kódu zobrazovaného uvnitř formuláře."
+"Pokud chcete používat váš směrovač jako přístupový bod Wi-Fi, povolte zde"
+" Wi-Fi a vyplňte SSID (název přístupového bodu) a příslušné heslo. Potom "
+"můžete nastavit svá mobilní zařízení pomocí QR kódu zobrazovaného uvnitř "
+"formuláře."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -3532,3 +3638,4 @@ msgstr "500 – Chyba serveru"
 #~ "Odeslání testovací zprávy se nezdařilo –"
 #~ " je možné, že vaše nastavení nejsou"
 #~ " správná."
+
