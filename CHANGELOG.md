@@ -8,6 +8,18 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.6.0] - 2025-06-16
+
+### Added
+
+- Added & updated Weblate translations
+- Added Sentinel step to reForis Guide (wizard)
+
+### Changed
+
+- Updated several dependencies in package.json
+- NPM audit fix
+
 ## [3.5.0] - 2025-04-24
 
 ### Added
@@ -703,7 +715,8 @@ and this project adheres to
 
 - Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.5.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.6.0...master
+[3.5.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.5.0...v3.6.0
 [3.5.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.4.0...v3.5.0
 [3.4.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.3.0...v3.4.0
 [3.3.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.2.1...v3.3.0
