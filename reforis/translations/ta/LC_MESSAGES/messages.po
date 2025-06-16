@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reForis 3.2.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2025-04-24 15:26+0200\n"
-"PO-Revision-Date: 2025-04-19 23:59+0000\n"
+"POT-Creation-Date: 2025-06-16 18:52+0300\n"
+"PO-Revision-Date: 2025-06-13 14:01+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language: ta\n"
 "Language-Team: Tamil "
@@ -40,8 +40,8 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
-"உங்கள் சாதனத்தைப் பற்றிய சில தகவல்களை இங்கே காணலாம். எங்கள் <a href = "
-"\"mailto: tech.support@turris.cz\" இலக்கு = \"_ வெற்று\"> வாடிக்கையாளர் "
+"உங்கள் சாதனத்தைப் பற்றிய சில தகவல்களை இங்கே காணலாம். எங்கள் <a "
+"href=\"mailto:tech.support@turris.cz\" target=\"_blank\">வாடிக்கையாளர் "
 "உதவி </a> ஐ தொடர்பு கொண்டால் தயவுசெய்து அதை உங்கள் செய்தியில் "
 "சேர்க்கவும்."
 
@@ -309,14 +309,12 @@ msgid "Set static lease"
 msgstr "நிலையான குத்தகையை அமைக்கவும்"
 
 #: js/src/common/network/DHCPClients/hooks.js:71
-#, fuzzy
 msgid "Static lease deleted successfully."
-msgstr "நிலையான குத்தகை வெற்றிகரமாக சேர்க்கப்பட்டது."
+msgstr "நிலையான குத்தகை வெற்றிகரமாக நீக்கப்பட்டது."
 
 #: js/src/common/network/DHCPClients/hooks.js:76
-#, fuzzy
 msgid "Can't delete static lease."
-msgstr "DHCP குத்தகையை நீக்க முடியாது."
+msgstr "நிலையான குத்தகையை நீக்க முடியாது."
 
 #: js/src/common/network/DHCPClients/hooks.js:107
 msgid "Static lease added successfully."
@@ -477,8 +475,11 @@ msgstr ""
 "கொண்டுள்ளது, இது DNSSEC சரிபார்ப்பில் தலையிடுகிறது. நீங்கள் டி.என்.எச் "
 "உடன் சிக்கல்களை அனுபவித்தால், நீங்கள் <b> தற்காலிகமாக </b> சிக்கலின் "
 "மூலத்தைத் தீர்மானிக்க டி.என்.எச்.எச்.இ.சி சரிபார்ப்பை முடக்கலாம். "
-"இருப்பினும், டி.என்.எச்.எச்.இ.சி சரிபார்ப்பு இல்லாமல், டி.என்.எச். ஆகவே, "
-"டி.என்.எச்.எச்.இ.சி."
+"இருப்பினும், டி.என்.எச்.எச்.இ.சி சரிபார்ப்பு இல்லாமல், நீங்கள் DNS "
+"ஏமாற்று தாக்குதல்களுக்கு ஆளாக நேரிடும்! எனவே, <b>DNSSEC-ஐ தொடர்ந்து "
+"இயக்கி வைக்குமாறு நாங்கள் பரிந்துரைக்கிறோம்</b> மேலும் இது அவர்களின் "
+"தரப்பில் ஒரு கடுமையான குறைபாடாக இருப்பதால், உங்கள் ISP-யுடன் நிலைமையைத் "
+"தீர்க்கவும்."
 
 #: js/src/dns/DNS.js:63 js/src/overview/Cards/ConnectionTestCard.js:21
 #: js/src/wan/WAN.js:51
@@ -622,7 +623,7 @@ msgstr "$ {label} முகவரிகள்"
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:59
 #, python-brace-format
 msgid "${label} #${index + 1}"
-msgstr "$ {label} #$ {குறியீட்டு + 1}"
+msgstr "${label} #${index + 1}"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:83
 #, python-brace-format
@@ -667,27 +668,23 @@ msgid "Guest Network"
 msgstr "விருந்தினர் பிணையம்"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
-#, fuzzy
 msgid "The guest network is used for "
-msgstr "விருந்தினர் பிணையம் அமைப்புகள்"
+msgstr "விருந்தினர் பிணையம் பயன்படுத்தப்படுகிறது "
 
 #: js/src/guestNetwork/GuestNetwork.js:43
-#, fuzzy
 msgid "guest Wi-Fi"
-msgstr "இல்"
+msgstr "விருந்தினர் வைஃபை"
 
 #: js/src/guestNetwork/GuestNetwork.js:45
-#, fuzzy, python-brace-format
 msgid ""
 "It is separated from your ordinary LAN. Devices connected to this network"
 " are allowed to access the internet but are not allowed to access the "
 "configuration interface of this device or the devices in LAN."
 msgstr ""
-"விருந்தினர் பிணையம் <a href = \"$ {ForisURLs.wifi}\"> விருந்தினர் வைஃபை "
-"</a> க்கு பயன்படுத்தப்படுகிறது. இது உங்கள் சாதாரண லானிலிருந்து "
-"பிரிக்கப்பட்டுள்ளது. இந்த நெட்வொர்க்குடன் இணைக்கப்பட்ட சாதனங்கள் இணையத்தை"
-" அணுக அனுமதிக்கப்படுகின்றன, ஆனால் இந்த சாதனத்தின் உள்ளமைவு இடைமுகத்தை "
-"அல்லது LAN இல் உள்ள சாதனங்களை அணுக அனுமதிக்கப்படவில்லை."
+"இது உங்கள் சாதாரண லானிலிருந்து பிரிக்கப்பட்டுள்ளது. இந்த நெட்வொர்க்குடன் "
+"இணைக்கப்பட்ட சாதனங்கள் இணையத்தை அணுக அனுமதிக்கப்படுகின்றன, ஆனால் இந்த "
+"சாதனத்தின் உள்ளமைவு இடைமுகத்தை அல்லது LAN இல் உள்ள சாதனங்களை அணுக "
+"அனுமதிக்கப்படவில்லை."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
@@ -772,35 +769,41 @@ msgstr "இந்த நெட்வொர்க்கின் அனைத்�
 #: js/src/guide/constants.js:13
 msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
-"device. Firstly it is required to set your password. Note the security of"
-" your home network is in your hands, so try not to use weak passwords."
+"device."
+msgstr ""
+
+#: js/src/guide/constants.js:16
+#, fuzzy
+msgid ""
+"Firstly it is required to set your password. Note the security of your "
+"home network is in your hands, so try not to use weak passwords."
 msgstr ""
 "மறுசீரமைப்பு வலை இடைமுகத்திற்கு வருக. உங்கள் சாதனத்தை அமைக்க இந்த "
 "வழிகாட்டி உதவும். முதலில் உங்கள் கடவுச்சொல்லை அமைக்க வேண்டும். உங்கள் "
 "வீட்டு நெட்வொர்க்கின் பாதுகாப்பு உங்கள் கைகளில் உள்ளது என்பதைக் "
 "கவனியுங்கள், எனவே பலவீனமான கடவுச்சொற்களைப் பயன்படுத்த வேண்டாம்."
 
-#: js/src/guide/constants.js:17
+#: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
 msgstr ""
 "உங்கள் கடவுச்சொல் அமைக்கப்பட்டுள்ளது. நீங்கள் அடுத்த கட்டத்திற்கு "
 "செல்லலாம்."
 
-#: js/src/guide/constants.js:20
+#: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
 msgstr "பணிப்பாய்வு அமைக்கப்பட்டது. நீங்கள் அடுத்த கட்டத்திற்கு செல்லலாம்."
 
-#: js/src/guide/constants.js:24
+#: js/src/guide/constants.js:27
 msgid "Here you need to decide which interfaces belong to which network."
 msgstr ""
 "எந்த நெட்வொர்க்குக்கு எந்த இடைமுகங்கள் சொந்தமானவை என்பதை இங்கே நீங்கள் "
 "தீர்மானிக்க வேண்டும்."
 
-#: js/src/guide/constants.js:27
+#: js/src/guide/constants.js:30
 msgid "If you are in doubt use the current settings."
 msgstr "உங்களுக்கு ஐயம் இருந்தால் தற்போதைய அமைப்புகளைப் பயன்படுத்துங்கள்."
 
-#: js/src/guide/constants.js:29
+#: js/src/guide/constants.js:32
 msgid ""
 "You've configured your network interfaces. It seems that you didn't break"
 " any crucial network settings so you can safely proceed to the next step."
@@ -809,11 +812,13 @@ msgstr ""
 "பிணைய அமைப்புகளையும் உடைக்கவில்லை என்று தெரிகிறது, எனவே நீங்கள் அடுத்த "
 "கட்டத்திற்கு பாதுகாப்பாக செல்லலாம்."
 
-#: js/src/guide/constants.js:34
+#: js/src/guide/constants.js:37
 msgid "Now you need to set the time and timezone of your device."
-msgstr "இப்போது நீங்கள் உங்கள் சாதனத்தின் நேரத்தையும் நேரத்தையும் அமைக்க வேண்டும்."
+msgstr ""
+"இப்போது நீங்கள் உங்கள் சாதனத்தின் நேரத்தையும் நேர மண்டலத்தையும் அமைக்க "
+"வேண்டும்."
 
-#: js/src/guide/constants.js:35
+#: js/src/guide/constants.js:38
 msgid ""
 "Your time and timezone seem to be set. Please make sure that the time "
 "matches the time on your computer if not try to update it via NTP or "
@@ -824,7 +829,7 @@ msgstr ""
 "கொள்ளுங்கள் என்றால் அதை NTP வழியாக அல்லது கைமுறையாக புதுப்பிக்க "
 "முயற்சிக்காதீர்கள்."
 
-#: js/src/guide/constants.js:40
+#: js/src/guide/constants.js:43
 msgid ""
 "A proper DNS resolving is one of the key security features of your "
 "device. Let's configure it now."
@@ -832,7 +837,7 @@ msgstr ""
 "சரியான டி.என்.எச் தீர்க்கும் உங்கள் சாதனத்தின் முக்கிய பாதுகாப்பு "
 "அம்சங்களில் ஒன்றாகும். இப்போது அதை உள்ளமைக்கலாம்."
 
-#: js/src/guide/constants.js:43
+#: js/src/guide/constants.js:46
 msgid ""
 "You've updated your DNS configuration. Try to run connection test to see "
 "whether your DNS resolver is properly set."
@@ -841,11 +846,11 @@ msgstr ""
 "சரியாக அமைக்கப்பட்டுள்ளதா என்பதைப் பார்க்க இணைப்பு சோதனையை இயக்க "
 "முயற்சிக்கவும்."
 
-#: js/src/guide/constants.js:48
+#: js/src/guide/constants.js:51
 msgid "In order to access the internet, you need to configure your WAN interface."
 msgstr "இணையத்தை அணுக, உங்கள் வான் இடைமுகத்தை உள்ளமைக்க வேண்டும்."
 
-#: js/src/guide/constants.js:51
+#: js/src/guide/constants.js:54
 msgid ""
 "You've configured your WAN interface. Try to run connection test to see "
 "whether it is working properly and if so you can safely proceed to the "
@@ -855,7 +860,7 @@ msgstr ""
 "செய்கிறதா என்பதைப் பார்க்க முயற்சிக்கவும், அப்படியானால் நீங்கள் அடுத்த "
 "கட்டத்திற்கு பாதுகாப்பாக செல்லலாம்."
 
-#: js/src/guide/constants.js:56
+#: js/src/guide/constants.js:59
 msgid ""
 "Now you should configure your LAN interface. Note that when you change "
 "your network settings you probably won't be able to connect to the "
@@ -867,7 +872,7 @@ msgstr ""
 " செய்யாவிட்டால், உள்ளமைவு இடைமுகத்துடன் இணைக்க முடியாது என்பதை நினைவில் "
 "கொள்க."
 
-#: js/src/guide/constants.js:59
+#: js/src/guide/constants.js:62
 msgid ""
 "You've configured your LAN interface. Try to test whether settings work "
 "properly and if so you can safely proceed to the next step."
@@ -876,21 +881,38 @@ msgstr ""
 "செயல்படுகின்றனவா என்பதை சோதிக்க முயற்சிக்கவும், அப்படியானால் நீங்கள் "
 "பாதுகாப்பாக அடுத்த கட்டத்திற்கு செல்லலாம்."
 
-#: js/src/guide/constants.js:64
+#: js/src/guide/constants.js:68
+#, fuzzy
+msgid "To activate Sentinel, you must accept the licence agreement."
+msgstr "சென்டினல் உரிம ஒப்பந்தத்திற்குச் செல்லவும்"
+
+#: js/src/guide/constants.js:69
+msgid ""
+"If you choose not to accept it, Sentinel will remain installed and "
+"accessible from the sidebar navigation, but it will not be active."
+msgstr ""
+
+#: js/src/guide/constants.js:73
+msgid ""
+"Sentinel is now set up. You can check its status and settings in the "
+"sidebar navigation."
+msgstr ""
+
+#: js/src/guide/constants.js:78
 msgid "Now you need to configure automatic updates on your device."
 msgstr ""
 "இப்போது நீங்கள் உங்கள் சாதனத்தில் தானியங்கி புதுப்பிப்புகளை உள்ளமைக்க "
 "வேண்டும்."
 
-#: js/src/guide/constants.js:67
+#: js/src/guide/constants.js:81
 msgid "Please wait till the updater finishes its run."
 msgstr "புதுப்பிப்பு அதன் ஓட்டத்தை முடிக்கும் வரை தயவுசெய்து காத்திருங்கள்."
 
-#: js/src/guide/constants.js:76
+#: js/src/guide/constants.js:90
 msgid "Congratulations! Now your device is ready to be used."
 msgstr "வாழ்த்துக்கள்! இப்போது உங்கள் சாதனம் பயன்படுத்த தயாராக உள்ளது."
 
-#: js/src/guide/constants.js:82
+#: js/src/guide/constants.js:96
 msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
@@ -899,7 +921,7 @@ msgstr ""
 "நெட்வொர்க்கில் ஒரு திசைவி மற்றும் பாதை பிணையம் போக்குவரமாக செயல்பட "
 "முடியும்."
 
-#: js/src/guide/constants.js:90
+#: js/src/guide/constants.js:104
 msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
 "some further configuration updates to fit the device to your needs."
@@ -908,7 +930,7 @@ msgstr ""
 " நீங்கள் மேலும் சில உள்ளமைவு புதுப்பிப்புகளைச் செய்ய வேண்டும் என்பதை "
 "நினைவில் கொள்க."
 
-#: js/src/guide/constants.js:98
+#: js/src/guide/constants.js:112
 msgid ""
 "Your device is now ready to be used. You can tweak the rest of the "
 "setting in the administration interface. Once you finish the guide, your "
@@ -920,7 +942,7 @@ msgstr ""
 "கேடயம் இணையத்துடன் இணைக்க முயற்சிக்கும், மேலும் நீங்கள் நிர்வாக "
 "இடைமுகத்தில் முடிவடையும்."
 
-#: js/src/guide/constants.js:109
+#: js/src/guide/constants.js:123
 msgid ""
 "You chose to act as local server this means that it doesn't make sense to"
 " put any interfaces to your WAN and Guest Network. So it is a good idea "
@@ -930,7 +952,7 @@ msgstr ""
 "வான் மற்றும் விருந்தினர் நெட்வொர்க்கில் எந்த இடைமுகங்களையும் வைப்பது "
 "அர்த்தமல்ல. எனவே அனைத்து இடைமுகங்களையும் LAN க்கு ஒதுக்குவது நல்லது."
 
-#: js/src/guide/constants.js:116
+#: js/src/guide/constants.js:130
 msgid ""
 "To act as a local server, there's no need to manage LAN (if you still "
 "want to manage it reset the guide and choose the Router workflow). You "
@@ -942,7 +964,7 @@ msgstr ""
 "விரும்பினால்). நீங்கள் இங்கே ஒரு கிளையண்டாக செயல்பட விரும்பலாம், இதனால் "
 "<strong> கணினி </strong> பயன்முறையைத் தேர்ந்தெடுக்கவும்."
 
-#: js/src/guide/constants.js:119
+#: js/src/guide/constants.js:133
 msgid ""
 "If you select the <strong>static</strong> configuration be sure that the "
 "IP addresses are entered correctly otherwise you won't be able to access "
@@ -953,7 +975,7 @@ msgstr ""
 "இல்லையெனில் புதிய அமைப்புகள் பயன்படுத்தப்படும்போது இந்த உள்ளமைவு "
 "இடைமுகத்தை அணுக முடியாது."
 
-#: js/src/guide/constants.js:122
+#: js/src/guide/constants.js:136
 msgid ""
 "If you select the <strong>DHCP</strong> method you probably you need to "
 "obtain a new IP address of this device. You can obtain it from the DHCP "
@@ -965,7 +987,7 @@ msgstr ""
 "நிர்வகிக்கும் DHCP சேவையகத்திலிருந்து அதைப் பெறலாம். வழிகாட்டியைத் தொடர "
 "நீங்கள் புதிய ஐபி முகவரியுடன் இணைக்க வேண்டும்."
 
-#: js/src/guide/constants.js:125
+#: js/src/guide/constants.js:139
 msgid ""
 "Note that either way you might need to re-plug your ethernet cables after"
 " you update the settings here."
@@ -973,7 +995,7 @@ msgstr ""
 "நீங்கள் இங்கே அமைப்புகளை புதுப்பித்த பிறகு உங்கள் ஈதர்நெட் கேபிள்களை "
 "மீண்டும் விளக்க வேண்டும் என்பதை நினைவில் கொள்க."
 
-#: js/src/guide/constants.js:129
+#: js/src/guide/constants.js:143
 msgid ""
 "Please test whether the settings you provided are working correctly. It "
 "means that you can access the configuration interface of your device, and"
@@ -983,7 +1005,7 @@ msgstr ""
 "உங்கள் சாதனத்தின் உள்ளமைவு இடைமுகத்தை அணுகலாம் என்பதே இதன் பொருள், மேலும்"
 " உங்கள் சாதனம் இணையத்தை அணுகலாம்."
 
-#: js/src/guide/constants.js:134
+#: js/src/guide/constants.js:148
 msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
@@ -1034,7 +1056,12 @@ msgstr "வான்"
 msgid "LAN"
 msgstr "லேன்"
 
-#: js/src/guide/steps.js:53
+#: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
+#, fuzzy
+msgid "Sentinel"
+msgstr "தொடரவும்"
+
+#: js/src/guide/steps.js:57
 msgid "Finish"
 msgstr "முடிக்க"
 
@@ -1088,9 +1115,9 @@ msgid ""
 "security research to discover new attackers and give you access to "
 "dynamic firewall updates blocking known attackers."
 msgstr ""
-"உங்கள் பாதுகாப்பை மேலும் மேம்படுத்த தரவு சேகரிப்பு சொருகி (தொகுப்பு "
+"உங்கள் பாதுகாப்பை மேலும் மேம்படுத்தத் தரவு சேகரிப்பு சொருகி (தொகுப்பு "
 "மேலாண்மை வழியாக) நிறுவுவதைக் கருத்தில் கொள்ளுங்கள். புதிய தாக்குபவர்களைக்"
-" கண்டுபிடிப்பதற்கும், அறியப்பட்ட தாக்குபவர்களைத் தடுப்பதை மாறும் மாறும் "
+" கண்டுபிடிப்பதற்கும், அறியப்பட்ட தாக்குபவர்களைத் தடுப்பதை மாறும் "
 "ஃபயர்வால் புதுப்பிப்புகளை அணுகுவதற்கும் இது எங்கள் பாதுகாப்பு "
 "ஆராய்ச்சியின் ஒரு பகுதியாக இருக்க உங்களை அனுமதிக்கும்."
 
@@ -1098,6 +1125,81 @@ msgstr ""
 #: js/src/utils/useSessionTimeout.js:113
 msgid "Continue"
 msgstr "தொடரவும்"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:9
+msgid ""
+"Turris Sentinel is an advanced security system designed to protect your "
+"router and network from cyber threats. It continuously monitors and "
+"analyzes reports from Turris devices worldwide to detect and block "
+"attackers in real time. Sentinel is made up of several key components, "
+"including "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:17
+#: js/src/overview/Cards/ThreatDetectionCard.js:62
+msgid "Threat Detection"
+msgstr "அச்சுறுத்தல் கண்டறிதல்"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:25
+msgid ", which utilizes minimal honeypots and firewall logging, the "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:33
+#, fuzzy
+msgid "Dynamic Firewall (DynFW)"
+msgstr "மாறும் ஃபயர்வால்"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:41
+msgid ""
+"for real-time threat prevention, and a centralized database that tracks "
+"and identifies potential attackers."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:46
+msgid ""
+"By enabling Sentinel, you contribute to a global security network that "
+"helps protect not only your own device but also other users. You can "
+"explore real-time security insights and attack statistics on "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:54
+msgid "Sentinel View"
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:63
+msgid " For a detailed overview of how Sentinel works, visit the "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:71
+#, fuzzy
+msgid "Sentinel documentation"
+msgstr "ஆவணப்படுத்துதல்"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:31
+#, fuzzy
+msgid "Licence Agreement"
+msgstr "உரிம ஒப்பந்தத்தின்"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:34
+#, fuzzy
+msgid "Agreement"
+msgstr "உரிம ஒப்பந்தத்தின்"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:71
+msgid ""
+"I accept the <a href='#'>Terms of Participation in Turris Project (Data "
+"Collection)</a>."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelEULA.js:86
+msgid ""
+"I do not accept the <a href='#'>Terms of Participation in Turris Project "
+"(Data Collection)</a>."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelEULAModal.js:59
+msgid "Terms of Participation in Turris Project (Data Collection)"
+msgstr ""
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:26
 msgid ""
@@ -1409,9 +1511,8 @@ msgstr "பிணைய அமைப்புகள்"
 
 #: js/src/main/pages.js:50 js/src/main/pages.js:71
 #: js/src/portForwarding/PortForwarding.js:49
-#, fuzzy
 msgid "Port Forwarding"
-msgstr "பகிர்தல் பயன்படுத்தவும்"
+msgstr "துறைமுகம் பகிர்தல்"
 
 #: js/src/main/pages.js:56 js/src/wifi/WiFi.js:40
 msgid "Wi-Fi"
@@ -1453,7 +1554,7 @@ msgstr "அமைப்புகளை புதுப்பிக்கவு�
 msgid "Packages"
 msgstr "தொகுப்பு"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:63
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:64
 #: js/src/main/pages.js:131 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr "மொழிகள்"
@@ -1463,9 +1564,8 @@ msgid "Advanced Administration"
 msgstr "மேம்பட்ட நிர்வாகம்"
 
 #: js/src/main/pages.js:143
-#, fuzzy
 msgid "Documentation"
-msgstr "நிர்வாகம்"
+msgstr "ஆவணப்படுத்துதல்"
 
 #: js/src/main/TopBar/LogoutButton.js:16 js/src/utils/useSessionTimeout.js:111
 msgid "Logout"
@@ -1487,7 +1587,7 @@ msgstr "தானி"
 msgid "Theme"
 msgstr "கருப்பொருள்"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:101
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:102
 msgid "Participate in translation"
 msgstr "மொழிபெயர்ப்பில் பங்கேற்கவும்"
 
@@ -1609,9 +1709,9 @@ msgid ""
 "href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Storage "
 "plugin</a> first."
 msgstr ""
-"இந்த விருப்பத்தை இயக்க, நீங்கள் <a href = \"$ {ForisURLs.storage}\" "
-"தலைப்பு = \"சேமிப்பக சொருகி\"> சேமிப்பக சொருகி </a> முதலில் சேமிப்பிடத்தை"
-" உள்ளமைக்க வேண்டும்."
+"இந்த விருப்பத்தை இயக்க, நீங்கள் <a href=\"${ForisURLs.storage}\" "
+"title=\"Go to Storage plugin\"> சேமிப்பக சொருகி </a> முதலில் "
+"சேமிப்பிடத்தை உள்ளமைக்க வேண்டும்."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:44
 msgid "Enable System Logs Retention"
@@ -1636,9 +1736,8 @@ msgid "Reboot or attention is required or update was installed"
 msgstr "மறுதொடக்கம் அல்லது கவனம் தேவை அல்லது புதுப்பிப்பு நிறுவப்பட்டது"
 
 #: js/src/notificationsSettings/CommonForm.js:44
-#, fuzzy
 msgid "General Notification Settings"
-msgstr "அறிவிப்பு அமைப்புகள்"
+msgstr "பொது அறிவிப்பு அமைப்புகள்"
 
 #: js/src/notificationsSettings/CommonForm.js:46
 msgid "Importance"
@@ -1649,22 +1748,21 @@ msgid "Send news"
 msgstr "செய்திகளை அனுப்பவும்"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:31
-#, fuzzy
 msgid ""
 "Your device can send you e-mail notifications about required reboots, "
 "important events, installed updates, and new features according to your "
 "settings. Once you are done with the configuration, you can test it by "
 "pressing Send test notification. Additionally, you can use "
 msgstr ""
-"உங்கள் அமைப்புகளுக்கு ஏற்ப தேவையான மறுதொடக்கங்கள், முக்கியமான நிகழ்வுகள்,"
-" நிறுவப்பட்ட புதுப்பிப்புகள் மற்றும் புதிய நற்பொருத்தங்கள் பற்றிய "
-"மின்னஞ்சல் அறிவிப்புகளை உங்கள் சாதனம் உங்களுக்கு அனுப்ப முடியும். "
-"உள்ளமைவுடன் செய்யும்போது, சோதனை அறிவிப்பை அனுப்புவதன் மூலம் அதை "
-"சோதிக்கலாம்."
+"தேவையான மறுதொடக்கங்கள், முக்கியமான நிகழ்வுகள், நிறுவப்பட்ட "
+"புதுப்பிப்புகள் மற்றும் உங்கள் அமைப்புகளுக்கு ஏற்ப புதிய நற்பொருத்தங்கள் "
+"பற்றிய மின்னஞ்சல் அறிவிப்புகளை உங்கள் சாதனம் உங்களுக்கு அனுப்ப முடியும். "
+"நீங்கள் உள்ளமைவைச் செய்தவுடன், சோதனை அறிவிப்பை அனுப்புவதன் மூலம் அதை "
+"சோதிக்கலாம். கூடுதலாக, நீங்கள் பயன்படுத்தலாம் "
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
-msgstr ""
+msgstr "என்டிஎப்ஒய்"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:47
 msgid ""
@@ -1672,6 +1770,9 @@ msgid ""
 "or desktop. ntfy allows you to subscribe to topics and get instant alerts"
 " without the need for email."
 msgstr ""
+" நிகழ்நேர புச் அறிவிப்புகளை உங்கள் மொபைல் சாதனம் அல்லது டெச்க்டாப்பிற்கு "
+"நேரடியாகப் பெற. தலைப்புகளுக்கு குழுசேரவும், மின்னஞ்சல் தேவையில்லாமல் "
+"உடனடி விழிப்பூட்டல்களைப் பெறவும் NTFY உங்களை அனுமதிக்கிறது."
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:19
 msgid "Turris"
@@ -1682,12 +1783,10 @@ msgid "Custom"
 msgstr "தனிப்பயன்"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:90
-#, fuzzy
 msgid "Email Notification Settings"
-msgstr "அறிவிப்பு அமைப்புகள்"
+msgstr "அறிவிப்பு அமைப்புகள் மின்னஞ்சல்"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:92
-#, fuzzy
 msgid "Enable email notifications"
 msgstr "மின்னஞ்சல் அறிவிப்புகளை இயக்கவும்"
 
@@ -1701,60 +1800,55 @@ msgstr "பெறுநரின் மின்னஞ்சல்"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:14
 msgid "Max"
-msgstr ""
+msgstr "அதிகபட்சம்"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:15
-#, fuzzy
 msgid "Urgent"
-msgstr "மின்னோட்ட்ம், ஓட்டம்"
+msgstr "விரைவு"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:16
-#, fuzzy
 msgid "High"
-msgstr "ஒளி"
+msgstr "உயர்ந்த"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:17
-#, fuzzy
 msgid "Default"
-msgstr "நீக்கு"
+msgstr "இயல்புநிலை"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:18
 msgid "Low"
-msgstr ""
+msgstr "குறைந்த"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:19
-#, fuzzy
 msgid "Min"
-msgstr "குறைந்தபட்ச"
+msgstr "மணித்துளி"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:54
-#, fuzzy
 msgid "Push Notification Settings"
-msgstr "அறிவிப்பு அமைப்புகள்"
+msgstr "அறிவிப்பு அமைப்புகளை அழுத்தவும்"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:56
-#, fuzzy
 msgid "Enable push notifications"
-msgstr "மின்னஞ்சல் அறிவிப்புகளை இயக்கவும்"
+msgstr "புச் அறிவிப்புகளை இயக்கவும்"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
 msgid "URL"
-msgstr ""
+msgstr "வளமுகவரி"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:76
 msgid ""
 "Specify the URL to the ntfy server topic. Example format: "
 "https://ntfy.sh/example"
 msgstr ""
+"NTFY சேவையக தலைப்பில் முகவரி ஐக் குறிப்பிடவும். எடுத்துக்காட்டு வடிவம்: "
+"https://ntfy.sh/example"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:83
 msgid "Priority"
-msgstr ""
+msgstr "முன்னுரிமை"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
-#, fuzzy
 msgid "Priority of the push notifications."
-msgstr "சோதனை அறிவிப்பு"
+msgstr "புச் அறிவிப்புகளின் முன்னுரிமை."
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
@@ -1798,32 +1892,30 @@ msgid "Sender's name"
 msgstr "அனுப்புநரின் பெயர்"
 
 #: js/src/notificationsSettings/TestNotification.js:30
-#, fuzzy
 msgid ""
 "You have unsaved changes in your notification settings. Do you want to "
 "discard them and test notifications using the previous settings?"
 msgstr ""
-"அறிவிப்புகள் அமைப்புகளில் சேமிக்கப்படாத சில மாற்றங்கள் உள்ளன. அவற்றை "
-"நிராகரித்து பழைய அமைப்புகளுடன் அறிவிப்புகளை சோதிக்க விரும்புகிறீர்களா?"
+"உங்கள் அறிவிப்பு அமைப்புகளில் சேமிக்கப்படாத மாற்றங்கள் உள்ளன. முந்தைய "
+"அமைப்புகளைப் பயன்படுத்தி அவற்றை நிராகரித்து அறிவிப்புகளை சோதிக்க "
+"விரும்புகிறீர்களா?"
 
 #: js/src/notificationsSettings/TestNotification.js:117
-#, fuzzy
 msgid "Send Test Notification"
 msgstr "சோதனை அறிவிப்பை அனுப்பவும்"
 
 #: js/src/notificationsSettings/TestNotification.js:119
-#, fuzzy
 msgid ""
 "Here you can verify whether your SMTP provider or push notifications are "
 "configured correctly by sending a test notification."
 msgstr ""
-"உங்கள் மின்னஞ்சல் இன்பாக்சில் சோதனை அறிவிப்பை அனுப்புவதன் மூலம் SMTP "
-"சரியாக கட்டமைக்கப்பட்டுள்ளதா என்பதை இங்கே நீங்கள் சரிபார்க்கலாம்."
+"சோதனை அறிவிப்பை அனுப்புவதன் மூலம் உங்கள் SMTP வழங்குநர் அல்லது புச் "
+"அறிவிப்புகள் சரியாக கட்டமைக்கப்பட்டுள்ளதா என்பதை இங்கே நீங்கள் "
+"சரிபார்க்கலாம்."
 
 #: js/src/notificationsSettings/TestNotification.js:130
-#, fuzzy
 msgid "Send"
-msgstr "செய்திகளை அனுப்பவும்"
+msgstr "அனுப்பு"
 
 #: js/src/notificationsSettings/helpTexts.js:9
 msgid ""
@@ -1844,21 +1936,25 @@ msgid ""
 "choose to receive notifications about all events or only about those that"
 " require your attention."
 msgstr ""
+"அறிவிப்பின் முக்கியத்துவம் அல்லது தீவிரத்தைப் பொறுத்து, எல்லா "
+"நிகழ்வுகளையும் பற்றிய அறிவிப்புகளைப் பெற அல்லது உங்கள் கவனம் "
+"தேவைப்படுபவர்களைப் பற்றி மட்டுமே நீங்கள் தேர்வு செய்யலாம்."
 
 #: js/src/notificationsSettings/helpTexts.js:18
 msgid "Email address of recipient. Separate multiple addresses by comma."
 msgstr "பெறுநரின் மின்னஞ்சல் முகவரி. கமாவால் பல முகவரிகளைப் பிரிக்கவும்."
 
 #: js/src/notificationsSettings/helpTexts.js:21
-#, fuzzy
 msgid "Send notifications about new releases."
-msgstr "புதிய அம்சங்களைப் பற்றிய மின்னஞ்சல்களை அனுப்பவும்."
+msgstr "புதிய வெளியீடுகளைப் பற்றிய அறிவிப்புகளை அனுப்பவும்."
 
 #: js/src/notificationsSettings/helpTexts.js:24
 msgid ""
 "Name of the sender that will be used before the \"at\" symbol in the "
 "email address. For example: \"home-router@notify.turis.cz\""
 msgstr ""
+"மின்னஞ்சல் முகவரியில் உள்ள \"அட்\" சின்னத்திற்கு முன் பயன்படுத்தப்படும் "
+"அனுப்புநரின் பெயர். எடுத்துக்காட்டாக: \"home-ruter@notify.turis.cz\""
 
 #: js/src/notificationsSettings/helpTexts.js:29
 msgid "This is the address notifications are send from."
@@ -1998,10 +2094,6 @@ msgstr "சென்டினல் உரிம ஒப்பந்தத்த�
 #: js/src/overview/Cards/ThreatDetectionCard.js:57
 msgid "Go to Sentinel package installation"
 msgstr "சென்டினல் தொகுப்பு நிறுவலுக்குச் செல்லவும்"
-
-#: js/src/overview/Cards/ThreatDetectionCard.js:62
-msgid "Threat Detection"
-msgstr "அச்சுறுத்தல் கண்டறிதல்"
 
 #: js/src/packageManagement/languages/Languages.js:22
 msgid ""
@@ -2262,9 +2354,9 @@ msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
-"<A data-bs-toggle = \"சரிவு\" href = \"#plan-wrapper\" reware = "
-"\"பொத்தான்\" ஏரியா-விரிவாக்கப்பட்ட = \"தவறான\" ஏரியா-கட்டுப்பாடுகள் = "
-"\"திட்ட-ரேப்பர்\"> விவரங்கள் </a>"
+"<a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
+"aria-expanded=\"false\" aria-controls=\"plan-wrapper\">விவரங்கள் </a> "
+"பார்"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
 #, python-brace-format
@@ -2273,9 +2365,9 @@ msgid ""
 "                                    automatically installed before \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 msgstr ""
-"இந்த புதுப்பிப்புகள் இருக்கப்போவதில்லை\n"
-" முன் தானாக நிறுவப்பட்டது\n"
-" $ {tolocaledatestring (தாமதமான நேரம்)}."
+"இந்தப் புதுப்பிப்புகள் இருக்கப்போவதில்லை\n"
+"                                    முன் தானாக நிறுவப்பட்டது\n"
+"                                    ${toLocaleDateString(delayedTime)}."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:88
 #, python-brace-format
@@ -2435,11 +2527,12 @@ msgid ""
 "                        } list. Please choose a more secure password."
 msgstr ""
 "நீங்கள் உள்ளிட்ட கடவுச்சொல் சேமிக்கப்படவில்லை. இது வேறுபாடின்மை "
-"செய்யப்பட்டு $ {தோன்றும்\n"
-" forispassword.count || rootpassword.count\n"
-" $ {{{முறை\n"
-" forispassword.list || rootpassword.list\n"
-" } பட்டியல். மேலும் பாதுகாப்பான கடவுச்சொல்லைத் தேர்வுசெய்க."
+"செய்யப்பட்டு தோன்றும் ${\n"
+"                            forispassword.count || rootpassword.count\n"
+"                        }முறை இதற்குள் ${\n"
+"                             forispassword.list || rootpassword.list\n"
+"                        } பட்டியல். மேலும் பாதுகாப்பான கடவுச்சொல்லைத் "
+"தேர்வுசெய்க."
 
 #: js/src/password/Password.js:113
 msgid "Your password was set successfully."
@@ -2490,14 +2583,16 @@ msgstr ""
 "இங்கே கிடைக்காத மேம்பட்ட உள்ளமைவு விருப்பங்களை அணுக, நீங்கள் வேண்டும்\n"
 " ரூட் பயனரின் கடவுச்சொல்லை அமைக்கவும். மேம்பட்ட உள்ளமைவு விருப்பங்களையும்"
 " நிர்வகிக்க முடியும்\n"
-" <a href = \"%s\" இலக்கு = \"_ வெற்று\" rel = \"noopener noreferrer\"> "
-"லூசி வலை இடைமுகம் </a> அல்லது பாஓடு வழியாக."
+"<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">லூசி வலை "
+"இடைமுகம் </a> அல்லது பாஓடு வழியாக."
 
 #: js/src/portForwarding/PortForwarding.js:51
 msgid ""
 "Port forwarding allows you to forward incoming traffic from the WAN "
 "interface to a specific device on your LAN."
 msgstr ""
+"வான் இடைமுகத்திலிருந்து உள்வரும் போக்குவரத்தை உங்கள் LAN இல் ஒரு "
+"குறிப்பிட்ட சாதனத்திற்கு அனுப்ப துறைமுகம் பகிர்தல் உங்களை அனுமதிக்கிறது."
 
 #: js/src/portForwarding/PortForwarding.js:56
 msgid ""
@@ -2505,6 +2600,9 @@ msgid ""
 "on your LAN. This way, the web server will be accessible from the "
 "internet."
 msgstr ""
+"எடுத்துக்காட்டாக, உள்வரும் போக்குவரத்தை துறைமுகம் 80 இல் உங்கள் LAN இல் "
+"உள்ள வலை சேவையகத்திற்கு அனுப்பலாம். இந்த வழியில், வலை சேவையகம் "
+"இணையத்திலிருந்து அணுகக்கூடியதாக இருக்கும்."
 
 #: js/src/portForwarding/PortForwarding.js:61
 msgid ""
@@ -2512,66 +2610,65 @@ msgid ""
 "button. But first, you need to configure a static DHCP lease for the "
 "device you want to forward traffic to. You can configure it on the "
 msgstr ""
+"\"விதியைச் சேர்\" பொத்தானைக் சொடுக்கு செய்வதன் மூலம் புதிய துறைமுகம் "
+"பகிர்தல் விதியைச் சேர்க்கலாம். ஆனால் முதலில், நீங்கள் போக்குவரத்தை அனுப்ப"
+" விரும்பும் சாதனத்திற்கு நிலையான DHCP குத்தகையை உள்ளமைக்க வேண்டும். "
+"நீங்கள் அதை உள்ளமைக்கலாம் "
 
 #: js/src/portForwarding/PortForwarding.js:139
-#, fuzzy
 msgid "Edit port forwarding rule"
-msgstr "முன்னோக்கி திருத்து"
+msgstr "துறைமுகம் பகிர்தல் விதியைத் திருத்தவும்"
 
 #: js/src/portForwarding/PortForwarding.js:140
-#, fuzzy
 msgid "Add port forwarding rule"
-msgstr "தனிப்பயன் முன்னோக்கி சேர்க்கவும்"
+msgstr "துறைமுகம் பகிர்தல் விதியைச் சேர்க்கவும்"
 
 #: js/src/portForwarding/PortForwarding.js:182
-#, fuzzy
 msgid "Add rule"
-msgstr "முகவரி"
+msgstr "விதியைச் சேர்க்கவும்"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:57
-#, fuzzy
 msgid "Internal IPv4 address"
-msgstr "திசைவி ஐபி முகவரி"
+msgstr "உள் ஐபிவி 4 முகவரி"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:85
 #: js/src/portForwarding/PortForwardingRulesTable.js:31
 msgid "External port"
-msgstr ""
+msgstr "வெளிப்புற துறைமுகம்"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:96
 #: js/src/portForwarding/PortForwardingRulesTable.js:32
 msgid "Internal port"
-msgstr ""
+msgstr "உள் துறைமுகம்"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:107
 #: js/src/portForwarding/PortForwardingRulesTable.js:34
-#, fuzzy
 msgid "Enabled"
-msgstr "DHCP ஐ இயக்கு"
+msgstr "இயக்கப்பட்டது"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:23
-#, fuzzy
 msgid "Port Forwarding Rules"
-msgstr "பகிர்தல் பயன்படுத்தவும்"
+msgstr "துறைமுகம் பகிர்தல் விதிகள்"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:30
-#, fuzzy
 msgid "Internal IP address"
-msgstr "திசைவி ஐபி முகவரி"
+msgstr "உள் ஐபி முகவரி"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:53
 msgid "No port forwarding rules defined."
-msgstr ""
+msgstr "துறைமுகம் பகிர்தல் விதிகள் வரையறுக்கப்படவில்லை."
 
 #: js/src/portForwarding/constants.js:17
 msgid "Enter the name of the port forwarding rule."
-msgstr ""
+msgstr "துறைமுகம் பகிர்தல் விதியின் பெயரை உள்ளிடவும்."
 
 #: js/src/portForwarding/constants.js:18
 msgid ""
 "Enter the external port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"விதி பொருந்தும் வெளிப்புற துறைமுகம் எண்ணை உள்ளிடவும். இது ஒரு துறைமுகமாக "
+"அல்லது துறைமுகங்களின் வரம்பாக இருக்கலாம்."
 
 #: js/src/portForwarding/constants.js:21
 msgid ""
@@ -2579,51 +2676,53 @@ msgid ""
 "forwarded. The best practice is to assign a static lease to the device in"
 " advance."
 msgstr ""
+"துறைமுகம் அனுப்பப்படும் சாதனத்தின் செல்லுபடியாகும் ஐபி முகவரியை "
+"உள்ளிடவும். சாதனத்திற்கு ஒரு நிலையான குத்தகையை முன்கூட்டியே ஒதுக்குவதே "
+"சிறந்த நடைமுறை."
 
 #: js/src/portForwarding/constants.js:24
 msgid ""
 "Enter the internal port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"விதி பொருந்தும் உள் துறைமுகம் எண்ணை உள்ளிடவும். இது ஒரு துறைமுகமாக அல்லது"
+" துறைமுகங்களின் வரம்பாக இருக்கலாம்."
 
 #: js/src/portForwarding/constants.js:27
 msgid "Enable or disable the port forwarding rule."
-msgstr ""
+msgstr "துறைமுகம் பகிர்தல் விதியை இயக்கவும் அல்லது முடக்கவும்."
 
 #: js/src/portForwarding/hooks.js:76
-#, fuzzy
 msgid "Rule deleted successfully."
-msgstr "அமர்வு வெற்றிகரமாக நீட்டிக்கப்பட்டது."
+msgstr "விதி வெற்றிகரமாக நீக்கப்பட்டது."
 
 #: js/src/portForwarding/hooks.js:79
-#, fuzzy
 msgid "Can't delete rule."
-msgstr "DHCP குத்தகையை நீக்க முடியாது."
+msgstr "விதியை நீக்க முடியாது."
 
 #: js/src/portForwarding/hooks.js:150
-#, fuzzy
 msgid "Rule added successfully."
-msgstr "முன்னோக்கி வெற்றிகரமாக சேர்க்கப்பட்டது."
+msgstr "விதி வெற்றிகரமாக சேர்க்கப்பட்டது."
 
 #: js/src/portForwarding/hooks.js:166
-#, fuzzy
 msgid "Rule saved successfully."
-msgstr "முன்னோக்கி வெற்றிகரமாக சேமிக்கப்பட்டது."
+msgstr "விதி வெற்றிகரமாக சேமிக்கப்பட்டது."
 
 #: js/src/portForwarding/hooks.js:214
-#, fuzzy
 msgid "Name should have at least one symbol."
-msgstr "ஓச்ட்பெயரில் குறைந்தது ஒரு அடையாளம் இருக்க வேண்டும்."
+msgstr "பெயருக்கு குறைந்தது ஒரு அடையாளம் இருக்க வேண்டும்."
 
 #: js/src/portForwarding/hooks.js:224
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
-msgstr ""
+msgstr "$ {fieldName} நேர்மறை எண் அல்லது எண்களின் வரம்பாக இருக்க வேண்டும்."
 
 #: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
 msgstr ""
+"$ {fieldName} செல்லுபடியாகும் துறைமுகம் எண் அல்லது வரம்பாக இருக்க "
+"வேண்டும்."
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
@@ -2742,8 +2841,8 @@ msgid ""
 "<kbd>F12</kbd>."
 msgstr ""
 "உங்கள் வலை உலாவியின் கன்சோலில் மேலும் விரிவான தகவல்கள் கிடைக்கின்றன. "
-"<kbd> <kbd> கட்டுப்பாடு</kbd>+<kbd>உயர்த்து</kbd>+<kbd>ப</kbd></kbd> "
-"அல்லது <kbd>செ12</kbd>ஐ அழுத்தியபின் அணுகக்கூடிய பெரும்பாலான உலாவிகளில்."
+"<kbd><kbd> கட்டு</kbd>+<kbd>உயர்த்து</kbd>+<kbd>ப</kbd></kbd> அல்லது "
+"<kbd>செ12</kbd>ஐ அழுத்தியபின் அணுகக்கூடிய பெரும்பாலான உலாவிகளில்."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
@@ -3075,19 +3174,18 @@ msgid "Hostname is already used by another static lease."
 msgstr "ஓச்ட்பெயர் ஏற்கனவே மற்றொரு நிலையான குத்தகையால் பயன்படுத்தப்படுகிறது."
 
 #: reforis/foris_controller_api/modules/lan.py:24
-#, fuzzy
 msgid "IP address is not in the LAN network."
-msgstr "ஐபி முகவரி லேன் நெட்வொர்க்குக்கு பொருந்தாது."
+msgstr "ஐபி முகவரி லேன் நெட்வொர்க்கில் இல்லை."
 
 #: reforis/foris_controller_api/modules/lan.py:25
-#, fuzzy
 msgid "IP address is not a user-defined static lease."
-msgstr "ஐபி முகவரி ஏற்கனவே மற்றொரு நிலையான குத்தகையால் பயன்படுத்தப்படுகிறது."
+msgstr "ஐபி முகவரி பயனர் வரையறுக்கப்பட்ட நிலையான குத்தகை அல்ல."
 
 #: reforis/foris_controller_api/modules/lan.py:26
-#, fuzzy
 msgid "Port range is already used by another port forwarding rule."
-msgstr "ஓச்ட்பெயர் ஏற்கனவே மற்றொரு நிலையான குத்தகையால் பயன்படுத்தப்படுகிறது."
+msgstr ""
+"துறைமுகம் ரேஞ்ச் ஏற்கனவே மற்றொரு துறைமுகம் பகிர்தல் விதியால் "
+"பயன்படுத்தப்படுகிறது."
 
 #: reforis/foris_controller_api/modules/lan.py:104
 msgid "Can't create DHCP lease."
@@ -3102,14 +3200,12 @@ msgid "Can't delete DHCP lease."
 msgstr "DHCP குத்தகையை நீக்க முடியாது."
 
 #: reforis/foris_controller_api/modules/lan.py:156
-#, fuzzy
 msgid "Can't set port forwarding rule."
-msgstr "டிஎன்எச் முன்னோக்கி அமைக்க முடியாது."
+msgstr "துறைமுகம் பகிர்தல் விதியை அமைக்க முடியாது."
 
 #: reforis/foris_controller_api/modules/lan.py:167
-#, fuzzy
 msgid "Can't delete port forwarding rule."
-msgstr "டிஎன்எச் முன்னோக்கி நீக்க முடியாது."
+msgstr "துறைமுகம் பகிர்தல் விதியை நீக்க முடியாது."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
@@ -3120,15 +3216,16 @@ msgid ""
 "If you see this message, your notification settings seem to be correct. "
 "Have a nice day! 😊"
 msgstr ""
+"இந்தச் செய்தியை நீங்கள் கண்டால், உங்கள் அறிவிப்பு அமைப்புகள் சரியானதாகத் "
+"தெரிகிறது. ஒரு நல்ல நாள்!😊"
 
 #: reforis/foris_controller_api/modules/router_notifications.py:132
-#, fuzzy
 msgid "Test notification sent successfully."
-msgstr "நிலையானது வெற்றிகரமாக சேமிக்கப்பட்டது."
+msgstr "சோதனை அறிவிப்பு வெற்றிகரமாக அனுப்பப்பட்டது."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:135
 msgid "Cannot send test notification. Please check your configuration."
-msgstr ""
+msgstr "சோதனை அறிவிப்பை அனுப்ப முடியாது. உங்கள் உள்ளமைவை சரிபார்க்கவும்."
 
 #: reforis/foris_controller_api/modules/updater.py:66
 msgid "Cannot change automatic restart settings."

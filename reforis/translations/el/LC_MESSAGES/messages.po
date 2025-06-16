@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-24 15:26+0200\n"
+"POT-Creation-Date: 2025-06-16 18:52+0300\n"
 "PO-Revision-Date: 2025-01-18 08:00+0000\n"
 "Last-Translator: Thanasis <thanasakis11mail@gmail.com>\n"
 "Language: el\n"
@@ -679,7 +679,7 @@ msgid "guest Wi-Fi"
 msgstr "Wi-Fi"
 
 #: js/src/guestNetwork/GuestNetwork.js:45
-#, fuzzy, python-brace-format
+#, fuzzy
 msgid ""
 "It is separated from your ordinary LAN. Devices connected to this network"
 " are allowed to access the internet but are not allowed to access the "
@@ -773,8 +773,14 @@ msgstr ""
 #: js/src/guide/constants.js:13
 msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
-"device. Firstly it is required to set your password. Note the security of"
-" your home network is in your hands, so try not to use weak passwords."
+"device."
+msgstr ""
+
+#: js/src/guide/constants.js:16
+#, fuzzy
+msgid ""
+"Firstly it is required to set your password. Note the security of your "
+"home network is in your hands, so try not to use weak passwords."
 msgstr ""
 "Καλώς ορίσατε στη διεπαφή ιστού reForis. Αυτός ο οδηγός θα σας βοηθήσει "
 "να ρυθμίσετε τη συσκευή σας. Πρώτα είναι απαραίτητο να ορίσετε τον κωδικό"
@@ -782,25 +788,25 @@ msgstr ""
 "είναι στα χέρια σας, επομένως προσπαθήστε να μην χρησιμοποιείτε αδύναμους"
 " κωδικούς πρόσβασης."
 
-#: js/src/guide/constants.js:17
+#: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
 msgstr ""
 "Ο κωδικός πρόσβασής σας έχει οριστεί. Μπορείτε να προχωρήσετε στο επόμενο"
 " βήμα."
 
-#: js/src/guide/constants.js:20
+#: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
 msgstr "Η ροή εργασίας έχει οριστεί. Μπορείτε να προχωρήσετε στο επόμενο βήμα."
 
-#: js/src/guide/constants.js:24
+#: js/src/guide/constants.js:27
 msgid "Here you need to decide which interfaces belong to which network."
 msgstr "Εδώ χρειάζεται να αποφασίσετε ποιές διεπαφές ανήκουν σε ποιό δίκτυο."
 
-#: js/src/guide/constants.js:27
+#: js/src/guide/constants.js:30
 msgid "If you are in doubt use the current settings."
 msgstr "Εάν έχετε αμφιβολίες, χρησιμοποιήστε τις τρέχουσες ρυθμίσεις."
 
-#: js/src/guide/constants.js:29
+#: js/src/guide/constants.js:32
 msgid ""
 "You've configured your network interfaces. It seems that you didn't break"
 " any crucial network settings so you can safely proceed to the next step."
@@ -809,11 +815,11 @@ msgstr ""
 "καμία σημαντική ρύθμιση δικτύου, άρα μπορείτε να προχωρήσετε με ασφάλεια "
 "στο επόμενο βήμα."
 
-#: js/src/guide/constants.js:34
+#: js/src/guide/constants.js:37
 msgid "Now you need to set the time and timezone of your device."
 msgstr "Τώρα χρειάζεται να ρυθμίσετε την ώρα και τη ζώνη ώρας της συσκευής σας."
 
-#: js/src/guide/constants.js:35
+#: js/src/guide/constants.js:38
 msgid ""
 "Your time and timezone seem to be set. Please make sure that the time "
 "matches the time on your computer if not try to update it via NTP or "
@@ -823,7 +829,7 @@ msgstr ""
 "ταιριάζει με την ώρα στον υπολογιστή σας. Αν δεν ταιριάζει, προσπαθήσετε "
 "να την ενημερώσετε μέσω NTP ή χειροκίνητα."
 
-#: js/src/guide/constants.js:40
+#: js/src/guide/constants.js:43
 msgid ""
 "A proper DNS resolving is one of the key security features of your "
 "device. Let's configure it now."
@@ -831,7 +837,7 @@ msgstr ""
 "Η σωστή επίλυση DNS είναι ένα από τα βασικά χαρακτηριστικά ασφαλείας της "
 "συσκευής σας. Ας την διαμορφώσουμε τώρα."
 
-#: js/src/guide/constants.js:43
+#: js/src/guide/constants.js:46
 msgid ""
 "You've updated your DNS configuration. Try to run connection test to see "
 "whether your DNS resolver is properly set."
@@ -839,13 +845,13 @@ msgstr ""
 "Έχετε ενημερώσει την διαμόρφωση DNS. Προσπαθήστε να εκτελέσετε την δοκιμή"
 " σύνδεσης για να δείτε εάν ο επιλυτής DNS έχει ρυθμιστεί σωστά."
 
-#: js/src/guide/constants.js:48
+#: js/src/guide/constants.js:51
 msgid "In order to access the internet, you need to configure your WAN interface."
 msgstr ""
 "Για να αποκτήσετε πρόσβαση στο διαδίκτυο, χρειάζεται να διαμορφώσετε την "
 "διεπαφή WAN."
 
-#: js/src/guide/constants.js:51
+#: js/src/guide/constants.js:54
 msgid ""
 "You've configured your WAN interface. Try to run connection test to see "
 "whether it is working properly and if so you can safely proceed to the "
@@ -855,7 +861,7 @@ msgstr ""
 "δοκιμή σύνδεσης για να δείτε εάν λειτουργεί σωστά. Αν λειτουργεί μπορείτε"
 " να προχωρήσετε με ασφάλεια στο επόμενο βήμα."
 
-#: js/src/guide/constants.js:56
+#: js/src/guide/constants.js:59
 msgid ""
 "Now you should configure your LAN interface. Note that when you change "
 "your network settings you probably won't be able to connect to the "
@@ -867,7 +873,7 @@ msgstr ""
 "συνδεθείτε στη διεπαφή διαμόρφωσης εκτός εάν κάνετε επανεκκίνηση του "
 "δικτύου στην τρέχουσα συσκευή σας."
 
-#: js/src/guide/constants.js:59
+#: js/src/guide/constants.js:62
 msgid ""
 "You've configured your LAN interface. Try to test whether settings work "
 "properly and if so you can safely proceed to the next step."
@@ -876,21 +882,38 @@ msgstr ""
 "ρυθμίσεις λειτουργούν σωστά και εάν ναι, μπορείτε να προχωρήσετε με "
 "ασφάλεια στο επόμενο βήμα."
 
-#: js/src/guide/constants.js:64
+#: js/src/guide/constants.js:68
+#, fuzzy
+msgid "To activate Sentinel, you must accept the licence agreement."
+msgstr "Μεταβείτε στη συμφωνία άδειας χρήσης Sentinel"
+
+#: js/src/guide/constants.js:69
+msgid ""
+"If you choose not to accept it, Sentinel will remain installed and "
+"accessible from the sidebar navigation, but it will not be active."
+msgstr ""
+
+#: js/src/guide/constants.js:73
+msgid ""
+"Sentinel is now set up. You can check its status and settings in the "
+"sidebar navigation."
+msgstr ""
+
+#: js/src/guide/constants.js:78
 msgid "Now you need to configure automatic updates on your device."
 msgstr "Τώρα χρειάζεται να διαμορφώσετε τις αυτόματες ενημερώσεις στη συσκευή σας."
 
-#: js/src/guide/constants.js:67
+#: js/src/guide/constants.js:81
 msgid "Please wait till the updater finishes its run."
 msgstr ""
 "Παρακαλώ περιμένετε μέχρι το πρόγραμμα ενημέρωσης να ολοκληρώσει την "
 "εκτέλεσή του."
 
-#: js/src/guide/constants.js:76
+#: js/src/guide/constants.js:90
 msgid "Congratulations! Now your device is ready to be used."
 msgstr "Συγχαρητήρια! Τώρα η συσκευή σας είναι έτοιμη για χρήση."
 
-#: js/src/guide/constants.js:82
+#: js/src/guide/constants.js:96
 msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
@@ -899,7 +922,7 @@ msgstr ""
 " να δρομολογεί την κυκλοφορία του δικτύου μεταξύ LAN, WAN και δικτύου "
 "επισκεπτών."
 
-#: js/src/guide/constants.js:90
+#: js/src/guide/constants.js:104
 msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
 "some further configuration updates to fit the device to your needs."
@@ -908,7 +931,7 @@ msgstr ""
 "πιθανότατα πρέπει να εκτελέσετε ορισμένη περαιτέρω διαμόρφωση για να "
 "προσαρμόσετε τη συσκευή στις ανάγκες σας."
 
-#: js/src/guide/constants.js:98
+#: js/src/guide/constants.js:112
 msgid ""
 "Your device is now ready to be used. You can tweak the rest of the "
 "setting in the administration interface. Once you finish the guide, your "
@@ -920,7 +943,7 @@ msgstr ""
 " Shield σας θα προσπαθήσει να συνδεθεί στο Internet και θα καταλήξετε στη"
 " διεπαφή διαχείρισης."
 
-#: js/src/guide/constants.js:109
+#: js/src/guide/constants.js:123
 msgid ""
 "You chose to act as local server this means that it doesn't make sense to"
 " put any interfaces to your WAN and Guest Network. So it is a good idea "
@@ -930,7 +953,7 @@ msgstr ""
 " νόημα να τοποθετήσετε διεπαφές στο WAN και στο Δίκτυο Επισκεπτών σας. "
 "Επομένως είναι καλή ιδέα να εκχωρήσετε όλες τις διεπαφές στο LAN."
 
-#: js/src/guide/constants.js:116
+#: js/src/guide/constants.js:130
 msgid ""
 "To act as a local server, there's no need to manage LAN (if you still "
 "want to manage it reset the guide and choose the Router workflow). You "
@@ -943,7 +966,7 @@ msgstr ""
 " ενεργήσετε ως πελάτης εδώ, επομένως επιλέξτε τη λειτουργία "
 "<strong>Υπολογιστής</strong> εδώ."
 
-#: js/src/guide/constants.js:119
+#: js/src/guide/constants.js:133
 msgid ""
 "If you select the <strong>static</strong> configuration be sure that the "
 "IP addresses are entered correctly otherwise you won't be able to access "
@@ -954,7 +977,7 @@ msgstr ""
 "πρόσβαση σε αυτήν τη διεπαφή διαμόρφωσης όταν εφαρμοστούν οι νέες "
 "ρυθμίσεις."
 
-#: js/src/guide/constants.js:122
+#: js/src/guide/constants.js:136
 msgid ""
 "If you select the <strong>DHCP</strong> method you probably you need to "
 "obtain a new IP address of this device. You can obtain it from the DHCP "
@@ -967,7 +990,7 @@ msgstr ""
 "συνέχεια θα χρειαστεί να συνδεθείτε στη νέα διεύθυνση IP για να "
 "συνεχίσετε τον οδηγό."
 
-#: js/src/guide/constants.js:125
+#: js/src/guide/constants.js:139
 msgid ""
 "Note that either way you might need to re-plug your ethernet cables after"
 " you update the settings here."
@@ -975,7 +998,7 @@ msgstr ""
 "Λάβετε υπόψη ότι μπορεί να χρειαστεί έτσι κι αλλιώς να επανασυνδέσετε τα "
 "καλώδια ethernet σας αφού ενημερώσετε τις ρυθμίσεις εδώ."
 
-#: js/src/guide/constants.js:129
+#: js/src/guide/constants.js:143
 msgid ""
 "Please test whether the settings you provided are working correctly. It "
 "means that you can access the configuration interface of your device, and"
@@ -985,7 +1008,7 @@ msgstr ""
 "σημαίνει να μπορείτε να έχετε πρόσβαση στη διεπαφή διαμόρφωσης της "
 "συσκευής σας και η συσκευή σας να έχει πρόσβαση στο διαδίκτυο."
 
-#: js/src/guide/constants.js:134
+#: js/src/guide/constants.js:148
 msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
@@ -1036,7 +1059,12 @@ msgstr "WAN"
 msgid "LAN"
 msgstr "LAN"
 
-#: js/src/guide/steps.js:53
+#: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
+#, fuzzy
+msgid "Sentinel"
+msgstr "Συνέχεια"
+
+#: js/src/guide/steps.js:57
 msgid "Finish"
 msgstr "Ολοκλήρωση"
 
@@ -1102,6 +1130,81 @@ msgstr ""
 #: js/src/utils/useSessionTimeout.js:113
 msgid "Continue"
 msgstr "Συνέχεια"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:9
+msgid ""
+"Turris Sentinel is an advanced security system designed to protect your "
+"router and network from cyber threats. It continuously monitors and "
+"analyzes reports from Turris devices worldwide to detect and block "
+"attackers in real time. Sentinel is made up of several key components, "
+"including "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:17
+#: js/src/overview/Cards/ThreatDetectionCard.js:62
+msgid "Threat Detection"
+msgstr "Ανίχνευση Aπειλών"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:25
+msgid ", which utilizes minimal honeypots and firewall logging, the "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:33
+#, fuzzy
+msgid "Dynamic Firewall (DynFW)"
+msgstr "Δυναμικό Τοίχος Προστασίας"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:41
+msgid ""
+"for real-time threat prevention, and a centralized database that tracks "
+"and identifies potential attackers."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:46
+msgid ""
+"By enabling Sentinel, you contribute to a global security network that "
+"helps protect not only your own device but also other users. You can "
+"explore real-time security insights and attack statistics on "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:54
+msgid "Sentinel View"
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:63
+msgid " For a detailed overview of how Sentinel works, visit the "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:71
+#, fuzzy
+msgid "Sentinel documentation"
+msgstr "Διαχείριση"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:31
+#, fuzzy
+msgid "Licence Agreement"
+msgstr "συμφωνίας άδειας χρήσης"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:34
+#, fuzzy
+msgid "Agreement"
+msgstr "συμφωνίας άδειας χρήσης"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:71
+msgid ""
+"I accept the <a href='#'>Terms of Participation in Turris Project (Data "
+"Collection)</a>."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelEULA.js:86
+msgid ""
+"I do not accept the <a href='#'>Terms of Participation in Turris Project "
+"(Data Collection)</a>."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelEULAModal.js:59
+msgid "Terms of Participation in Turris Project (Data Collection)"
+msgstr ""
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:26
 msgid ""
@@ -1459,7 +1562,7 @@ msgstr "Ρυθμίσεις Ενημέρωσης"
 msgid "Packages"
 msgstr "Πακέτα"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:63
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:64
 #: js/src/main/pages.js:131 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr "Γλώσσες"
@@ -1493,7 +1596,7 @@ msgstr "Αυτόματο"
 msgid "Theme"
 msgstr "Θέμα"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:101
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:102
 msgid "Participate in translation"
 msgstr "Συμμετέχετε στη μετάφραση"
 
@@ -2006,10 +2109,6 @@ msgstr "Μεταβείτε στη συμφωνία άδειας χρήσης Sen
 #: js/src/overview/Cards/ThreatDetectionCard.js:57
 msgid "Go to Sentinel package installation"
 msgstr "Μεταβείτε στην εγκατάσταση πακέτου Sentinel"
-
-#: js/src/overview/Cards/ThreatDetectionCard.js:62
-msgid "Threat Detection"
-msgstr "Ανίχνευση Aπειλών"
 
 #: js/src/packageManagement/languages/Languages.js:22
 msgid ""

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-24 15:26+0200\n"
-"PO-Revision-Date: 2024-12-14 10:00+0000\n"
+"POT-Creation-Date: 2025-06-16 18:52+0300\n"
+"PO-Revision-Date: 2025-06-10 21:01+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language: sk\n"
 "Language-Team: Slovak "
@@ -309,14 +309,12 @@ msgid "Set static lease"
 msgstr "Nastaviť statickú výpožičku"
 
 #: js/src/common/network/DHCPClients/hooks.js:71
-#, fuzzy
 msgid "Static lease deleted successfully."
-msgstr "Statická výpožička bola úspešne pridaná."
+msgstr "Statická výpožička bola úspešne vymazaná."
 
 #: js/src/common/network/DHCPClients/hooks.js:76
-#, fuzzy
 msgid "Can't delete static lease."
-msgstr "DHCP výpožička sa nedá vymazať."
+msgstr "Statická výpožička sa nedá vymazať."
 
 #: js/src/common/network/DHCPClients/hooks.js:107
 msgid "Static lease added successfully."
@@ -663,27 +661,23 @@ msgid "Guest Network"
 msgstr "Sieť pre hostí"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
-#, fuzzy
 msgid "The guest network is used for "
-msgstr "Nastavenia siete pre hostí"
+msgstr "Sieť pre hostí sa používa na "
 
 #: js/src/guestNetwork/GuestNetwork.js:43
-#, fuzzy
 msgid "guest Wi-Fi"
-msgstr "Wi-Fi"
+msgstr "Wi-Fi pre hostí"
 
 #: js/src/guestNetwork/GuestNetwork.js:45
-#, fuzzy, python-brace-format
 msgid ""
 "It is separated from your ordinary LAN. Devices connected to this network"
 " are allowed to access the internet but are not allowed to access the "
 "configuration interface of this device or the devices in LAN."
 msgstr ""
-"Sieť pre hostí sa používa na vytvorenie <a href=\"${ForisURLs.wifi}\">Wi-"
-"Fi pre hostí</a>. Je oddelená od vašej bežnej siete LAN. Zariadenia "
-"pripojené do tejto siete majú povolený prístup na internet, ale nemajú "
-"povolený prístup do konfiguračného rozhrania tohto zariadenia ani k iným "
-"zariadeniam v miestej sieti."
+"Je oddelená od vašej bežnej lokálnej siete. Zariadenia pripojené k tejto "
+"sieti majú prístup na internet, ale nemajú povolený prístup do "
+"konfiguračnégho rozhrania tohto zariadenia ani k ostatným zariadeniam v "
+"LAN."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
@@ -763,31 +757,37 @@ msgstr "Všetky sieťové rozhrania tejto siete sú aktuálne vypnuté."
 #: js/src/guide/constants.js:13
 msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
-"device. Firstly it is required to set your password. Note the security of"
-" your home network is in your hands, so try not to use weak passwords."
+"device."
+msgstr ""
+
+#: js/src/guide/constants.js:16
+#, fuzzy
+msgid ""
+"Firstly it is required to set your password. Note the security of your "
+"home network is in your hands, so try not to use weak passwords."
 msgstr ""
 "Vitajte vo webovom rozhraní Foris. Tento sprievodca vám pomôže s "
 "nastavením vášho zariadenia. Najprv je potrebné nastaviť vaše heslo. "
 "Nezabudnite, že bezpečnosť vašej domácej siete je vo vašich rukách, preto"
 " nepoužívajte slabé heslá."
 
-#: js/src/guide/constants.js:17
+#: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
 msgstr "Vaše heslo je nastavené. Môžete pokračovať na ďalší krok."
 
-#: js/src/guide/constants.js:20
+#: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
 msgstr "Scenár bol nastavený. Môžete pokračovať na ďalší krok."
 
-#: js/src/guide/constants.js:24
+#: js/src/guide/constants.js:27
 msgid "Here you need to decide which interfaces belong to which network."
 msgstr "Teraz treba rozhodnúť, ktoré rozhrania patria do ktorej siete."
 
-#: js/src/guide/constants.js:27
+#: js/src/guide/constants.js:30
 msgid "If you are in doubt use the current settings."
 msgstr "Ak si nie ste istí, ponechajte aktuálne nastavenia."
 
-#: js/src/guide/constants.js:29
+#: js/src/guide/constants.js:32
 msgid ""
 "You've configured your network interfaces. It seems that you didn't break"
 " any crucial network settings so you can safely proceed to the next step."
@@ -796,11 +796,11 @@ msgstr ""
 "zásadných nastavení siete, takže môžete bezpečne pokračovať na ďalší "
 "krok."
 
-#: js/src/guide/constants.js:34
+#: js/src/guide/constants.js:37
 msgid "Now you need to set the time and timezone of your device."
 msgstr "Teraz je potrebné nastaviť čas a časovú zónu vášho zariadenia."
 
-#: js/src/guide/constants.js:35
+#: js/src/guide/constants.js:38
 msgid ""
 "Your time and timezone seem to be set. Please make sure that the time "
 "matches the time on your computer if not try to update it via NTP or "
@@ -809,7 +809,7 @@ msgstr ""
 "Čas a časové pásmo sú nastavené. Skontrolujte, či čas zodpovedá "
 "skutočnosti. Ak nie, zaktualizujte ho pomocou NTP alebo ručne."
 
-#: js/src/guide/constants.js:40
+#: js/src/guide/constants.js:43
 msgid ""
 "A proper DNS resolving is one of the key security features of your "
 "device. Let's configure it now."
@@ -817,7 +817,7 @@ msgstr ""
 "Správny DNS preklad je jeden z kľúčových bezpečnostných prvkov vášho "
 "zariadenia. Teraz ho nastavíme."
 
-#: js/src/guide/constants.js:43
+#: js/src/guide/constants.js:46
 msgid ""
 "You've updated your DNS configuration. Try to run connection test to see "
 "whether your DNS resolver is properly set."
@@ -825,11 +825,11 @@ msgstr ""
 "Aktualizovali ste konfiguráciu DNS. Teraz spustite test pripojenia, čím "
 "sa overí správnosť nastavenia DNS prekladu."
 
-#: js/src/guide/constants.js:48
+#: js/src/guide/constants.js:51
 msgid "In order to access the internet, you need to configure your WAN interface."
 msgstr "Aby ste mali prístup na internet, je potrebné nastaviť rozhranie WAN."
 
-#: js/src/guide/constants.js:51
+#: js/src/guide/constants.js:54
 msgid ""
 "You've configured your WAN interface. Try to run connection test to see "
 "whether it is working properly and if so you can safely proceed to the "
@@ -838,7 +838,7 @@ msgstr ""
 "Rozhranie WAN je nastavené. Znovu spustite test pripojenia a overte, že "
 "všetko funguje. Potom môžete bezpečne postúpiť na ďalší krok."
 
-#: js/src/guide/constants.js:56
+#: js/src/guide/constants.js:59
 msgid ""
 "Now you should configure your LAN interface. Note that when you change "
 "your network settings you probably won't be able to connect to the "
@@ -849,7 +849,7 @@ msgstr ""
 " siete, pravdepodobne sa nebudete môcť pripojiť na konfiguračné "
 "rozhranie, kým sa nereštartuje sieť v zariadení, z ktorého sa pripájate."
 
-#: js/src/guide/constants.js:59
+#: js/src/guide/constants.js:62
 msgid ""
 "You've configured your LAN interface. Try to test whether settings work "
 "properly and if so you can safely proceed to the next step."
@@ -857,19 +857,36 @@ msgstr ""
 "Rozhranie LAN je nastavené. Vyskúšajte, či všetko funguje a potom "
 "postúpte na ďalší krok."
 
-#: js/src/guide/constants.js:64
+#: js/src/guide/constants.js:68
+#, fuzzy
+msgid "To activate Sentinel, you must accept the licence agreement."
+msgstr "Prejsť na licenčnú zmluvu Sentinel"
+
+#: js/src/guide/constants.js:69
+msgid ""
+"If you choose not to accept it, Sentinel will remain installed and "
+"accessible from the sidebar navigation, but it will not be active."
+msgstr ""
+
+#: js/src/guide/constants.js:73
+msgid ""
+"Sentinel is now set up. You can check its status and settings in the "
+"sidebar navigation."
+msgstr ""
+
+#: js/src/guide/constants.js:78
 msgid "Now you need to configure automatic updates on your device."
 msgstr "Teraz je potrebné nastaviť automatické aktualizácie vášho zariadenia."
 
-#: js/src/guide/constants.js:67
+#: js/src/guide/constants.js:81
 msgid "Please wait till the updater finishes its run."
 msgstr "Prosím, počkajte na dokončenie automatických aktualizácií."
 
-#: js/src/guide/constants.js:76
+#: js/src/guide/constants.js:90
 msgid "Congratulations! Now your device is ready to be used."
 msgstr "Blahoželáme! Vaše zariadenie je teraz pripravené na používanie."
 
-#: js/src/guide/constants.js:82
+#: js/src/guide/constants.js:96
 msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
@@ -877,7 +894,7 @@ msgstr ""
 "Blahoželáme! Teraz je vaše zariadenie nastavené ako router a je schopné "
 "smerovať sieťovú prevádzku medzi WAN, LAN a sieťou pre hostí."
 
-#: js/src/guide/constants.js:90
+#: js/src/guide/constants.js:104
 msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
 "some further configuration updates to fit the device to your needs."
@@ -886,7 +903,7 @@ msgstr ""
 "úplné prispôsobenie zariadenia vašim potrebám bude pravdepodobne potrebné"
 " vykonať v nastaveniach ďalšie zmeny."
 
-#: js/src/guide/constants.js:98
+#: js/src/guide/constants.js:112
 msgid ""
 "Your device is now ready to be used. You can tweak the rest of the "
 "setting in the administration interface. Once you finish the guide, your "
@@ -898,7 +915,7 @@ msgstr ""
 "sprievodcu sa Shield pokúsi pripojiť na internet a zobrazí sa vám "
 "administračné rozhranie."
 
-#: js/src/guide/constants.js:109
+#: js/src/guide/constants.js:123
 msgid ""
 "You chose to act as local server this means that it doesn't make sense to"
 " put any interfaces to your WAN and Guest Network. So it is a good idea "
@@ -908,7 +925,7 @@ msgstr ""
 "akékoľvek rozhranie do WAN alebo do siete pre hostí. Vhodnejšie bude "
 "pridať všetky rozhrania do LAN."
 
-#: js/src/guide/constants.js:116
+#: js/src/guide/constants.js:130
 msgid ""
 "To act as a local server, there's no need to manage LAN (if you still "
 "want to manage it reset the guide and choose the Router workflow). You "
@@ -920,7 +937,7 @@ msgstr ""
 "router.) Ak chcete, aby sa zariadenie správalo ako klient, zvoľte režim "
 "<strong>Počítač</strong>."
 
-#: js/src/guide/constants.js:119
+#: js/src/guide/constants.js:133
 msgid ""
 "If you select the <strong>static</strong> configuration be sure that the "
 "IP addresses are entered correctly otherwise you won't be able to access "
@@ -930,7 +947,7 @@ msgstr ""
 "správne zadanie IP adries. V opačnom prípade po potvrdení nastavení "
 "nebude možné pripojenie k tomuto konfiguračnému rozhraniu."
 
-#: js/src/guide/constants.js:122
+#: js/src/guide/constants.js:136
 msgid ""
 "If you select the <strong>DHCP</strong> method you probably you need to "
 "obtain a new IP address of this device. You can obtain it from the DHCP "
@@ -942,7 +959,7 @@ msgstr ""
 "spravuje vašu miestnu sieť. Potom sa pripojte na túto novú IP adresu a "
 "dokončite sprievodcu."
 
-#: js/src/guide/constants.js:125
+#: js/src/guide/constants.js:139
 msgid ""
 "Note that either way you might need to re-plug your ethernet cables after"
 " you update the settings here."
@@ -950,7 +967,7 @@ msgstr ""
 "Upozorňujeme, že po zmene nastavení, ktoré tu vykonáte, môže byť potrebné"
 " odpojiť a znovu pripojiť sieťové káble."
 
-#: js/src/guide/constants.js:129
+#: js/src/guide/constants.js:143
 msgid ""
 "Please test whether the settings you provided are working correctly. It "
 "means that you can access the configuration interface of your device, and"
@@ -960,7 +977,7 @@ msgstr ""
 " schopní pripojiť sa na konfiguračné rozhranie vášho zariadenia a vaše "
 "zariadenie má prístup na internet. Môžete použiť test nižšie."
 
-#: js/src/guide/constants.js:134
+#: js/src/guide/constants.js:148
 msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
@@ -1009,7 +1026,12 @@ msgstr "WAN"
 msgid "LAN"
 msgstr "LAN"
 
-#: js/src/guide/steps.js:53
+#: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
+#, fuzzy
+msgid "Sentinel"
+msgstr "Pokračovať"
+
+#: js/src/guide/steps.js:57
 msgid "Finish"
 msgstr "Dokončiť"
 
@@ -1071,6 +1093,81 @@ msgstr ""
 #: js/src/utils/useSessionTimeout.js:113
 msgid "Continue"
 msgstr "Pokračovať"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:9
+msgid ""
+"Turris Sentinel is an advanced security system designed to protect your "
+"router and network from cyber threats. It continuously monitors and "
+"analyzes reports from Turris devices worldwide to detect and block "
+"attackers in real time. Sentinel is made up of several key components, "
+"including "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:17
+#: js/src/overview/Cards/ThreatDetectionCard.js:62
+msgid "Threat Detection"
+msgstr "Detekcia hrozieb"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:25
+msgid ", which utilizes minimal honeypots and firewall logging, the "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:33
+#, fuzzy
+msgid "Dynamic Firewall (DynFW)"
+msgstr "Dynamický firewall"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:41
+msgid ""
+"for real-time threat prevention, and a centralized database that tracks "
+"and identifies potential attackers."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:46
+msgid ""
+"By enabling Sentinel, you contribute to a global security network that "
+"helps protect not only your own device but also other users. You can "
+"explore real-time security insights and attack statistics on "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:54
+msgid "Sentinel View"
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:63
+msgid " For a detailed overview of how Sentinel works, visit the "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:71
+#, fuzzy
+msgid "Sentinel documentation"
+msgstr "Dokumentácia"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:31
+#, fuzzy
+msgid "Licence Agreement"
+msgstr "licenčnej zmluy"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:34
+#, fuzzy
+msgid "Agreement"
+msgstr "licenčnej zmluy"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:71
+msgid ""
+"I accept the <a href='#'>Terms of Participation in Turris Project (Data "
+"Collection)</a>."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelEULA.js:86
+msgid ""
+"I do not accept the <a href='#'>Terms of Participation in Turris Project "
+"(Data Collection)</a>."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelEULAModal.js:59
+msgid "Terms of Participation in Turris Project (Data Collection)"
+msgstr ""
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:26
 msgid ""
@@ -1377,9 +1474,8 @@ msgstr "Nastavenia siete"
 
 #: js/src/main/pages.js:50 js/src/main/pages.js:71
 #: js/src/portForwarding/PortForwarding.js:49
-#, fuzzy
 msgid "Port Forwarding"
-msgstr "Používať preposielanie (forwarding)"
+msgstr "Presmerovanie portov"
 
 #: js/src/main/pages.js:56 js/src/wifi/WiFi.js:40
 msgid "Wi-Fi"
@@ -1421,7 +1517,7 @@ msgstr "Nastavenia aktualizácií"
 msgid "Packages"
 msgstr "Balíčky"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:63
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:64
 #: js/src/main/pages.js:131 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr "Jazyky"
@@ -1431,9 +1527,8 @@ msgid "Advanced Administration"
 msgstr "Pokročilá administrácia"
 
 #: js/src/main/pages.js:143
-#, fuzzy
 msgid "Documentation"
-msgstr "Administrácia"
+msgstr "Dokumentácia"
 
 #: js/src/main/TopBar/LogoutButton.js:16 js/src/utils/useSessionTimeout.js:111
 msgid "Logout"
@@ -1455,7 +1550,7 @@ msgstr "Automaticky"
 msgid "Theme"
 msgstr "Téma"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:101
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:102
 msgid "Participate in translation"
 msgstr "Pomôžte s prekladom"
 
@@ -1601,9 +1696,8 @@ msgid "Reboot or attention is required or update was installed"
 msgstr "Je potrebný reštart, pozornosť, alebo sa nainštalovala aktualizácia"
 
 #: js/src/notificationsSettings/CommonForm.js:44
-#, fuzzy
 msgid "General Notification Settings"
-msgstr "Nastavenia notifikácií"
+msgstr "Hlavné nastavenie notifikácií"
 
 #: js/src/notificationsSettings/CommonForm.js:46
 msgid "Importance"
@@ -1614,21 +1708,21 @@ msgid "Send news"
 msgstr "Posielať novinky"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:31
-#, fuzzy
 msgid ""
 "Your device can send you e-mail notifications about required reboots, "
 "important events, installed updates, and new features according to your "
 "settings. Once you are done with the configuration, you can test it by "
 "pressing Send test notification. Additionally, you can use "
 msgstr ""
-"Podľa vašich nastavení vám zariadenie bude posielať e-mailové notifikácie"
-" o potrebe reštartu, dôležitých udalostiach, nainštalovaných "
-"aktualizáciách a nových funkciách. Po dokončení nastavovania môžete "
-"notifikáciu vyskúšať kliknutím na Odoslať testovaciu notifikáciu."
+"Vaše zariadenie vám môže podľa vašich nastavení posielať e-mailové "
+"upozornenia o potrebných reštartoch, dôležitých udalostiach, "
+"nainštalovaných aktualizáciách a nových funkciách. Po dokončení "
+"konfigurácie môžete notifikácie vyskúšať kliknutím na Odoslať testovaciu "
+"notifikáciu. Okrem toho môžete použiť "
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
-msgstr ""
+msgstr "ntfy"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:47
 msgid ""
@@ -1636,6 +1730,9 @@ msgid ""
 "or desktop. ntfy allows you to subscribe to topics and get instant alerts"
 " without the need for email."
 msgstr ""
+" na prijímanie push notifikácií v reálnom čase priamo do svojho mobilného"
+" zariadenia alebo počítača. ntfy vám umožňuje prihlásiť sa na odber tém a"
+" dostávať okamžité upozornenia bez potreby e-mailu."
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:19
 msgid "Turris"
@@ -1646,14 +1743,12 @@ msgid "Custom"
 msgstr "Vlastné"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:90
-#, fuzzy
 msgid "Email Notification Settings"
-msgstr "Nastavenia notifikácií"
+msgstr "Nastavenie e-mailových notifikácií"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:92
-#, fuzzy
 msgid "Enable email notifications"
-msgstr "Povoliť notifikácie e-mailom"
+msgstr "Povoliť e-mailové notifikácie"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:104
 msgid "SMTP provider"
@@ -1665,60 +1760,53 @@ msgstr "E-mail príjemcu"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:14
 msgid "Max"
-msgstr ""
+msgstr "Max"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:15
-#, fuzzy
 msgid "Urgent"
-msgstr "Aktuálna"
+msgstr "Urgentná"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:16
-#, fuzzy
 msgid "High"
-msgstr "Svetlá"
+msgstr "Vysoká"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:17
-#, fuzzy
 msgid "Default"
-msgstr "Vymazať"
+msgstr "Štandardná"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:18
 msgid "Low"
-msgstr ""
+msgstr "Nízka"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:19
-#, fuzzy
 msgid "Min"
-msgstr "Minimálny"
+msgstr "Minimálna"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:54
-#, fuzzy
 msgid "Push Notification Settings"
-msgstr "Nastavenia notifikácií"
+msgstr "Nastavenie push notifikácií"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:56
-#, fuzzy
 msgid "Enable push notifications"
-msgstr "Povoliť notifikácie e-mailom"
+msgstr "Povoliť push notifikácie"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:76
 msgid ""
 "Specify the URL to the ntfy server topic. Example format: "
 "https://ntfy.sh/example"
-msgstr ""
+msgstr "Zadajte URL témy na serveri ntfy. Príklad: https://ntfy.sh/priklad"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:83
 msgid "Priority"
-msgstr ""
+msgstr "Priorita"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
-#, fuzzy
 msgid "Priority of the push notifications."
-msgstr "Testovacia notifikácia"
+msgstr "Priorita push notifikácií."
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
@@ -1762,32 +1850,28 @@ msgid "Sender's name"
 msgstr "Meno odosielateľa"
 
 #: js/src/notificationsSettings/TestNotification.js:30
-#, fuzzy
 msgid ""
 "You have unsaved changes in your notification settings. Do you want to "
 "discard them and test notifications using the previous settings?"
 msgstr ""
-"V nastaveniach notifikácií sú neuložené zmeny. Chcete ich zrušiť a "
-"odoslať testovaciu notifikáciu s pôvodnými nastaveniami?"
+"V nastaveniach notifikácií sú neuložené zmeny . Chcete ich zrušiť a "
+"otestovať notifikácie s pôvodnými nastaveniami?"
 
 #: js/src/notificationsSettings/TestNotification.js:117
-#, fuzzy
 msgid "Send Test Notification"
 msgstr "Odoslať testovaciu notifikáciu"
 
 #: js/src/notificationsSettings/TestNotification.js:119
-#, fuzzy
 msgid ""
 "Here you can verify whether your SMTP provider or push notifications are "
 "configured correctly by sending a test notification."
 msgstr ""
-"Tu môžete overiť správnosť nastavení SMTP odoslaním testovacej "
-"notifikácie do vašej e-mailovej schránky."
+"Tu môžete overiť správnosť nastavení SMTP alebo push notifikácií "
+"odoslaním testovacej notifikácie."
 
 #: js/src/notificationsSettings/TestNotification.js:130
-#, fuzzy
 msgid "Send"
-msgstr "Posielať novinky"
+msgstr "Odoslať"
 
 #: js/src/notificationsSettings/helpTexts.js:9
 msgid ""
@@ -1807,21 +1891,25 @@ msgid ""
 "choose to receive notifications about all events or only about those that"
 " require your attention."
 msgstr ""
+"V závislosti od dôležitosti alebo závažnosti notifikácie si môžete "
+"zvoliť, či chcete dostávať notifikácie o všetkých udalostiach, alebo len "
+"o tých, ktoré si vyžadujú vašu pozornosť."
 
 #: js/src/notificationsSettings/helpTexts.js:18
 msgid "Email address of recipient. Separate multiple addresses by comma."
 msgstr "E-mailová adresa prijímateľa. Viaceré adresy oddeľujte čiarkami."
 
 #: js/src/notificationsSettings/helpTexts.js:21
-#, fuzzy
 msgid "Send notifications about new releases."
-msgstr "Posielať e-maily o nových funkciách."
+msgstr "Posielať notifikácie o nových vydaniach."
 
 #: js/src/notificationsSettings/helpTexts.js:24
 msgid ""
 "Name of the sender that will be used before the \"at\" symbol in the "
 "email address. For example: \"home-router@notify.turis.cz\""
 msgstr ""
+"Meno odosielateľa, ktoré sa bude používať pred symbolom „at“ v e-mailovej"
+" adrese. Príklad: „domaci-router@notify.turis.cz“"
 
 #: js/src/notificationsSettings/helpTexts.js:29
 msgid "This is the address notifications are send from."
@@ -1961,10 +2049,6 @@ msgstr "Prejsť na licenčnú zmluvu Sentinel"
 #: js/src/overview/Cards/ThreatDetectionCard.js:57
 msgid "Go to Sentinel package installation"
 msgstr "Prejsť na inštaláciu balíčka Sentinel"
-
-#: js/src/overview/Cards/ThreatDetectionCard.js:62
-msgid "Threat Detection"
-msgstr "Detekcia hrozieb"
 
 #: js/src/packageManagement/languages/Languages.js:22
 msgid ""
@@ -2224,8 +2308,8 @@ msgid ""
 "                                    ${toLocaleDateString(delayedTime)}."
 msgstr ""
 "Tieto aktualizácie \n"
-"                                     sa nebudú automaticky inštalovať "
-"pred \n"
+"                                    sa nebudú automaticky inštalovať pred"
+" \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:88
@@ -2450,6 +2534,8 @@ msgid ""
 "Port forwarding allows you to forward incoming traffic from the WAN "
 "interface to a specific device on your LAN."
 msgstr ""
+"Presmerovanie portov umožňuje presmerovať prichádzajúcu prevádzku z "
+"rozhrania WAN na konkrétne zariadenie vo vašej sieti LAN."
 
 #: js/src/portForwarding/PortForwarding.js:56
 msgid ""
@@ -2457,6 +2543,9 @@ msgid ""
 "on your LAN. This way, the web server will be accessible from the "
 "internet."
 msgstr ""
+"Napríklad môžete presmerovať prichádzajúcu prevádzku na port 80 na webový"
+" server vo vašej lokálnej sieti. Takto bude webový server prístupný z "
+"internetu."
 
 #: js/src/portForwarding/PortForwarding.js:61
 msgid ""
@@ -2464,66 +2553,65 @@ msgid ""
 "button. But first, you need to configure a static DHCP lease for the "
 "device you want to forward traffic to. You can configure it on the "
 msgstr ""
+"Nové pravidlo presmerovania portov môžete pridať kliknutím na „Pridať "
+"pravidlo“. Predtým je však potrebné nakonfigurovať statický DHCP prenájom"
+" pre zariadenie, na ktoré sa má prevádzka presmerovať. Tieto nastavenia "
+"sú v "
 
 #: js/src/portForwarding/PortForwarding.js:139
-#, fuzzy
 msgid "Edit port forwarding rule"
-msgstr "Upraviť preposielanie (forwarder)"
+msgstr "Upraviť pravidlo presmerovania portu"
 
 #: js/src/portForwarding/PortForwarding.js:140
-#, fuzzy
 msgid "Add port forwarding rule"
-msgstr "Pridať vlastné preposielanie"
+msgstr "Pridať pravidlo presmerovania portu"
 
 #: js/src/portForwarding/PortForwarding.js:182
-#, fuzzy
 msgid "Add rule"
-msgstr "Adresa"
+msgstr "Pridať pravidlo"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:57
-#, fuzzy
 msgid "Internal IPv4 address"
-msgstr "IP adresa routera"
+msgstr "Interná IPv4 adresa"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:85
 #: js/src/portForwarding/PortForwardingRulesTable.js:31
 msgid "External port"
-msgstr ""
+msgstr "Externý port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:96
 #: js/src/portForwarding/PortForwardingRulesTable.js:32
 msgid "Internal port"
-msgstr ""
+msgstr "Interný port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:107
 #: js/src/portForwarding/PortForwardingRulesTable.js:34
-#, fuzzy
 msgid "Enabled"
-msgstr "Povoliť DHCP"
+msgstr "Povolené"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:23
-#, fuzzy
 msgid "Port Forwarding Rules"
-msgstr "Používať preposielanie (forwarding)"
+msgstr "Pravidlá presmerovania portov"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:30
-#, fuzzy
 msgid "Internal IP address"
-msgstr "IP adresa routera"
+msgstr "Interná IP adresa"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:53
 msgid "No port forwarding rules defined."
-msgstr ""
+msgstr "Pre presmerovanie portov nie sú definované žiadne pravidlá."
 
 #: js/src/portForwarding/constants.js:17
 msgid "Enter the name of the port forwarding rule."
-msgstr ""
+msgstr "Zadajte názov pravidla presmerovania portov."
 
 #: js/src/portForwarding/constants.js:18
 msgid ""
 "Enter the external port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"Zadajte číslo externého portu, na ktorý sa pravidlo bude vzťahovať. Môže "
+"to byť jeden port alebo rozsah portov."
 
 #: js/src/portForwarding/constants.js:21
 msgid ""
@@ -2531,51 +2619,50 @@ msgid ""
 "forwarded. The best practice is to assign a static lease to the device in"
 " advance."
 msgstr ""
+"Zadajte platnú IP adresu zariadenia, na ktoré bude port presmerovaný. "
+"Najlepším postupom je vopred prideliť zariadeniu statickú DHCP výpožičku."
 
 #: js/src/portForwarding/constants.js:24
 msgid ""
 "Enter the internal port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"Zadajte číslo interného portu, na ktorý sa pravidlo bude vzťahovať. Môže "
+"to byť jeden port alebo rozsah portov."
 
 #: js/src/portForwarding/constants.js:27
 msgid "Enable or disable the port forwarding rule."
-msgstr ""
+msgstr "Povoliť alebo zakázať pravidlo presmerovania portov."
 
 #: js/src/portForwarding/hooks.js:76
-#, fuzzy
 msgid "Rule deleted successfully."
-msgstr "Relácia úspešne predĺžená."
+msgstr "Pravidlo úspešne vymazané."
 
 #: js/src/portForwarding/hooks.js:79
-#, fuzzy
 msgid "Can't delete rule."
-msgstr "DHCP výpožička sa nedá vymazať."
+msgstr "Pravidlo nie je možné vymazať."
 
 #: js/src/portForwarding/hooks.js:150
-#, fuzzy
 msgid "Rule added successfully."
-msgstr "DNS preposielanie bolo úspešne pridané."
+msgstr "Pravidlo úspešne pridané."
 
 #: js/src/portForwarding/hooks.js:166
-#, fuzzy
 msgid "Rule saved successfully."
-msgstr "Nastavenie DNS preposielania bolo uložené."
+msgstr "Pravidlo úspešne uložené."
 
 #: js/src/portForwarding/hooks.js:214
-#, fuzzy
 msgid "Name should have at least one symbol."
-msgstr "Sieťový názov musí obsahovať aspoň jeden znak."
+msgstr "Názov musí obsahovať aspoň jeden symbol."
 
 #: js/src/portForwarding/hooks.js:224
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
-msgstr ""
+msgstr "${fieldName} by malo byť kladné číslo alebo ich rozsah."
 
 #: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
-msgstr ""
+msgstr "${fieldName} by malo byť platné číslo portu alebo ich rozsahu."
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
@@ -3019,19 +3106,16 @@ msgid "Hostname is already used by another static lease."
 msgstr "Sieťový názov sa už používa pre inú statickú výpožičku."
 
 #: reforis/foris_controller_api/modules/lan.py:24
-#, fuzzy
 msgid "IP address is not in the LAN network."
-msgstr "IP adresa nepatrí do aktuálnej LAN siete."
+msgstr "IP adresa sa v LAN sieti nenachádza."
 
 #: reforis/foris_controller_api/modules/lan.py:25
-#, fuzzy
 msgid "IP address is not a user-defined static lease."
-msgstr "IP adresa sa už používa pre inú statickú výpožičku."
+msgstr "IP adresa nie je užívateľom definovanou statickou výpožičkou."
 
 #: reforis/foris_controller_api/modules/lan.py:26
-#, fuzzy
 msgid "Port range is already used by another port forwarding rule."
-msgstr "Sieťový názov sa už používa pre inú statickú výpožičku."
+msgstr "Rozsah portov sa už používa pre iné pravidlo presmerovania."
 
 #: reforis/foris_controller_api/modules/lan.py:104
 msgid "Can't create DHCP lease."
@@ -3046,14 +3130,12 @@ msgid "Can't delete DHCP lease."
 msgstr "DHCP výpožička sa nedá vymazať."
 
 #: reforis/foris_controller_api/modules/lan.py:156
-#, fuzzy
 msgid "Can't set port forwarding rule."
-msgstr "Nedá sa nastaviť DNS preposielanie (forwarder)."
+msgstr "Pravidlo presmerovania portov nie je možné nastaviť."
 
 #: reforis/foris_controller_api/modules/lan.py:167
-#, fuzzy
 msgid "Can't delete port forwarding rule."
-msgstr "Nedá sa vymazať DNS preposielanie (forwarder)."
+msgstr "Pravidlo presmerovania portov nie je možné vymazať."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
@@ -3064,15 +3146,18 @@ msgid ""
 "If you see this message, your notification settings seem to be correct. "
 "Have a nice day! 😊"
 msgstr ""
+"Ak sa vám zobrazuje táto správa, vaše nastavenia notifikácií vyzrajú byť "
+"správne. Užite si pekný deň! 😊"
 
 #: reforis/foris_controller_api/modules/router_notifications.py:132
-#, fuzzy
 msgid "Test notification sent successfully."
-msgstr "Statické nastavenie bolo úspešne uložené."
+msgstr "Testovacia notifikácia úspešne odoslaná."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:135
 msgid "Cannot send test notification. Please check your configuration."
 msgstr ""
+"Nie je možné odoslať testovaciu notifikáciu. Skontrolujte, prosím, svoje "
+"nastavenia."
 
 #: reforis/foris_controller_api/modules/updater.py:66
 msgid "Cannot change automatic restart settings."

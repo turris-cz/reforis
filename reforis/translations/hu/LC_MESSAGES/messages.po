@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-24 15:26+0200\n"
+"POT-Creation-Date: 2025-06-16 18:52+0300\n"
 "PO-Revision-Date: 2021-01-08 14:32+0000\n"
 "Last-Translator: Zoli <boritek@gmail.com>\n"
 "Language: hu\n"
@@ -666,7 +666,7 @@ msgid "guest Wi-Fi"
 msgstr "Wi-Fi"
 
 #: js/src/guestNetwork/GuestNetwork.js:45
-#, fuzzy, python-brace-format
+#, fuzzy
 msgid ""
 "It is separated from your ordinary LAN. Devices connected to this network"
 " are allowed to access the internet but are not allowed to access the "
@@ -755,34 +755,39 @@ msgid "All network interfaces of this network are currently down."
 msgstr "A hálózat összes hálózati csatolója jelenleg nem elérhető."
 
 #: js/src/guide/constants.js:13
-#, fuzzy
 msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
-"device. Firstly it is required to set your password. Note the security of"
-" your home network is in your hands, so try not to use weak passwords."
+"device."
+msgstr ""
+
+#: js/src/guide/constants.js:16
+#, fuzzy
+msgid ""
+"Firstly it is required to set your password. Note the security of your "
+"home network is in your hands, so try not to use weak passwords."
 msgstr ""
 "Üdvözöljük a Foris web felületén. Ez az útmutató segít beállítani a "
 "készülékét. Először is a jelszót beállítása szükséges. Vegye figyelembe, "
 "hogy az otthoni hálózatának biztonsága az Ön kezében van, így próbálja "
 "meg a gyenge jelszavakat elkerülni."
 
-#: js/src/guide/constants.js:17
+#: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
 msgstr "A jelszó beállítva. Jöhet a következő lépés."
 
-#: js/src/guide/constants.js:20
+#: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
 msgstr "A munkafolyamat beállítva, jöhet a következő lépés."
 
-#: js/src/guide/constants.js:24
+#: js/src/guide/constants.js:27
 msgid "Here you need to decide which interfaces belong to which network."
 msgstr "Itt kell eldönteni, hogy melyik csatoló mely hálózathoz tartozik."
 
-#: js/src/guide/constants.js:27
+#: js/src/guide/constants.js:30
 msgid "If you are in doubt use the current settings."
 msgstr "Ha bizonytalan, használja a jelenlegi beállításokat."
 
-#: js/src/guide/constants.js:29
+#: js/src/guide/constants.js:32
 msgid ""
 "You've configured your network interfaces. It seems that you didn't break"
 " any crucial network settings so you can safely proceed to the next step."
@@ -790,11 +795,11 @@ msgstr ""
 "Hálózati interfészek beállítva. Úgy tűnik, nem romlott el semmilyen "
 "fontos hálózati beállítás, így nyugodtan jöhet a következő lépés."
 
-#: js/src/guide/constants.js:34
+#: js/src/guide/constants.js:37
 msgid "Now you need to set the time and timezone of your device."
 msgstr "Most be kell állítania a készülék idejét és időzónáját."
 
-#: js/src/guide/constants.js:35
+#: js/src/guide/constants.js:38
 msgid ""
 "Your time and timezone seem to be set. Please make sure that the time "
 "matches the time on your computer if not try to update it via NTP or "
@@ -804,7 +809,7 @@ msgstr ""
 "számítógépe idejével, ha nem, akkor frissítse azt ntp-vel vagy "
 "manuálisan."
 
-#: js/src/guide/constants.js:40
+#: js/src/guide/constants.js:43
 msgid ""
 "A proper DNS resolving is one of the key security features of your "
 "device. Let's configure it now."
@@ -812,7 +817,7 @@ msgstr ""
 "A megfelelő DNS-feloldás a készülék legfontosabb biztonsági funkcióinak "
 "egyike. Állítsuk be most."
 
-#: js/src/guide/constants.js:43
+#: js/src/guide/constants.js:46
 msgid ""
 "You've updated your DNS configuration. Try to run connection test to see "
 "whether your DNS resolver is properly set."
@@ -820,11 +825,11 @@ msgstr ""
 "DNS beállítások frissítve. Futtasson csatlakozási tesztet, hogy "
 "kiderüljön a DNS feloldás megfelelően van-e beállítva."
 
-#: js/src/guide/constants.js:48
+#: js/src/guide/constants.js:51
 msgid "In order to access the internet, you need to configure your WAN interface."
 msgstr "Az internet hozzáférése érdekében a WAN interfészt kell beállítani."
 
-#: js/src/guide/constants.js:51
+#: js/src/guide/constants.js:54
 msgid ""
 "You've configured your WAN interface. Try to run connection test to see "
 "whether it is working properly and if so you can safely proceed to the "
@@ -833,7 +838,7 @@ msgstr ""
 "WAN interfész beállítva. Próbáljon meg csatlakozási tesztet futtatni, "
 "hogy vajon rendesen működik-e és, ha igen, jöhet a következő lépés."
 
-#: js/src/guide/constants.js:56
+#: js/src/guide/constants.js:59
 msgid ""
 "Now you should configure your LAN interface. Note that when you change "
 "your network settings you probably won't be able to connect to the "
@@ -844,7 +849,7 @@ msgstr ""
 "megváltoztatja a hálózati beállításokat, akkor a beállítási felületet nem"
 " fogja tudni elérni, hacsak újra nem indítja a hálózatot az eszközön."
 
-#: js/src/guide/constants.js:59
+#: js/src/guide/constants.js:62
 msgid ""
 "You've configured your LAN interface. Try to test whether settings work "
 "properly and if so you can safely proceed to the next step."
@@ -852,19 +857,36 @@ msgstr ""
 "LAN interfész beállítva. Próbálja meg ellenőrizni, hogy a beállítások jól"
 " működnek-e, és ha igen, jöhet a következő lépés."
 
-#: js/src/guide/constants.js:64
+#: js/src/guide/constants.js:68
+#, fuzzy
+msgid "To activate Sentinel, you must accept the licence agreement."
+msgstr "Legfontosabb licencszerződési pontok"
+
+#: js/src/guide/constants.js:69
+msgid ""
+"If you choose not to accept it, Sentinel will remain installed and "
+"accessible from the sidebar navigation, but it will not be active."
+msgstr ""
+
+#: js/src/guide/constants.js:73
+msgid ""
+"Sentinel is now set up. You can check its status and settings in the "
+"sidebar navigation."
+msgstr ""
+
+#: js/src/guide/constants.js:78
 msgid "Now you need to configure automatic updates on your device."
 msgstr "Most be kell állítania az automatikus frissítéseket a készüléken."
 
-#: js/src/guide/constants.js:67
+#: js/src/guide/constants.js:81
 msgid "Please wait till the updater finishes its run."
 msgstr "Kérem várjon, míg a Frissítéskezelő befejezi a munkát."
 
-#: js/src/guide/constants.js:76
+#: js/src/guide/constants.js:90
 msgid "Congratulations! Now your device is ready to be used."
 msgstr ""
 
-#: js/src/guide/constants.js:82
+#: js/src/guide/constants.js:96
 msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
@@ -872,7 +894,7 @@ msgstr ""
 "Gratulálunk! Most a készülék képes útválasztóként működni és a hálózati "
 "forgalmat a LAN, WAN és a vendéghálózat között irányítani."
 
-#: js/src/guide/constants.js:90
+#: js/src/guide/constants.js:104
 msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
 "some further configuration updates to fit the device to your needs."
@@ -881,7 +903,7 @@ msgstr ""
 "valószínűleg további konfigurációs frissítéseket kell végrehajtania, hogy"
 " az eszköz megfeleljen az igényeinek."
 
-#: js/src/guide/constants.js:98
+#: js/src/guide/constants.js:112
 msgid ""
 "Your device is now ready to be used. You can tweak the rest of the "
 "setting in the administration interface. Once you finish the guide, your "
@@ -889,7 +911,7 @@ msgid ""
 "administration interface."
 msgstr ""
 
-#: js/src/guide/constants.js:109
+#: js/src/guide/constants.js:123
 msgid ""
 "You chose to act as local server this means that it doesn't make sense to"
 " put any interfaces to your WAN and Guest Network. So it is a good idea "
@@ -899,7 +921,7 @@ msgstr ""
 "nincs értelme semmilyen interfészt a WAN-ba és Vendég hálózatba tenni. "
 "Ezért jó ötlet minden interfészt a LAN-ba helyezni."
 
-#: js/src/guide/constants.js:116
+#: js/src/guide/constants.js:130
 msgid ""
 "To act as a local server, there's no need to manage LAN (if you still "
 "want to manage it reset the guide and choose the Router workflow). You "
@@ -911,7 +933,7 @@ msgstr ""
 "munkafolyamatot). Valószínűleg ügyfélként szeretne működni most, ezért "
 "válassza a <strong>Számítógép</strong> módot itt."
 
-#: js/src/guide/constants.js:119
+#: js/src/guide/constants.js:133
 msgid ""
 "If you select the <strong>static</strong> configuration be sure that the "
 "IP addresses are entered correctly otherwise you won't be able to access "
@@ -921,7 +943,7 @@ msgstr ""
 " IP címek helyesen legyenek, egyébként nem fogja tudni ezt a beállítási "
 "felületet elérni, miután az új beállítások alkalmazásra kerültek."
 
-#: js/src/guide/constants.js:122
+#: js/src/guide/constants.js:136
 msgid ""
 "If you select the <strong>DHCP</strong> method you probably you need to "
 "obtain a new IP address of this device. You can obtain it from the DHCP "
@@ -933,7 +955,7 @@ msgstr ""
 "szerezheti be, ami felügyeli a LAN-t. Ezután az új IP-címhez kell "
 "csatlakoznia, hogy folytassa az útmutatót."
 
-#: js/src/guide/constants.js:125
+#: js/src/guide/constants.js:139
 msgid ""
 "Note that either way you might need to re-plug your ethernet cables after"
 " you update the settings here."
@@ -941,7 +963,7 @@ msgstr ""
 "Vegye figyelembe, hogy lehet, hogy újra kell csatlakoztatnia az ethernet "
 "kábelt, miután frissítette az itteni beállításokat."
 
-#: js/src/guide/constants.js:129
+#: js/src/guide/constants.js:143
 #, fuzzy
 msgid ""
 "Please test whether the settings you provided are working correctly. It "
@@ -952,7 +974,7 @@ msgstr ""
 "jelenti, hogy el tudja érni a készülék beállítási felületét és a készülék"
 " eléri az internet (az alábbival tudja tesztelni a kapcsolatot)."
 
-#: js/src/guide/constants.js:134
+#: js/src/guide/constants.js:148
 msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
@@ -1003,7 +1025,12 @@ msgstr "WAN"
 msgid "LAN"
 msgstr "LAN"
 
-#: js/src/guide/steps.js:53
+#: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
+#, fuzzy
+msgid "Sentinel"
+msgstr "Folytatás"
+
+#: js/src/guide/steps.js:57
 msgid "Finish"
 msgstr "Befejezés"
 
@@ -1064,6 +1091,81 @@ msgstr ""
 #: js/src/utils/useSessionTimeout.js:113
 msgid "Continue"
 msgstr "Folytatás"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:9
+msgid ""
+"Turris Sentinel is an advanced security system designed to protect your "
+"router and network from cyber threats. It continuously monitors and "
+"analyzes reports from Turris devices worldwide to detect and block "
+"attackers in real time. Sentinel is made up of several key components, "
+"including "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:17
+#: js/src/overview/Cards/ThreatDetectionCard.js:62
+msgid "Threat Detection"
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:25
+msgid ", which utilizes minimal honeypots and firewall logging, the "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:33
+#, fuzzy
+msgid "Dynamic Firewall (DynFW)"
+msgstr "Dinamikus tűzfal"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:41
+msgid ""
+"for real-time threat prevention, and a centralized database that tracks "
+"and identifies potential attackers."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:46
+msgid ""
+"By enabling Sentinel, you contribute to a global security network that "
+"helps protect not only your own device but also other users. You can "
+"explore real-time security insights and attack statistics on "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:54
+msgid "Sentinel View"
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:63
+msgid " For a detailed overview of how Sentinel works, visit the "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:71
+#, fuzzy
+msgid "Sentinel documentation"
+msgstr "Felügyelet"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:31
+#, fuzzy
+msgid "Licence Agreement"
+msgstr "Legfontosabb licencszerződési pontok"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:34
+#, fuzzy
+msgid "Agreement"
+msgstr "Legfontosabb licencszerződési pontok"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:71
+msgid ""
+"I accept the <a href='#'>Terms of Participation in Turris Project (Data "
+"Collection)</a>."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelEULA.js:86
+msgid ""
+"I do not accept the <a href='#'>Terms of Participation in Turris Project "
+"(Data Collection)</a>."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelEULAModal.js:59
+msgid "Terms of Participation in Turris Project (Data Collection)"
+msgstr ""
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:26
 msgid ""
@@ -1423,7 +1525,7 @@ msgstr "Frissítés beállítása"
 msgid "Packages"
 msgstr "Csomagok"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:63
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:64
 #: js/src/main/pages.js:131 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr "Nyelvek"
@@ -1459,7 +1561,7 @@ msgstr "Névjegy"
 msgid "Theme"
 msgstr "Idő"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:101
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:102
 msgid "Participate in translation"
 msgstr ""
 
@@ -1968,10 +2070,6 @@ msgstr "Legfontosabb licencszerződési pontok"
 #, fuzzy
 msgid "Go to Sentinel package installation"
 msgstr "Automatikus telepítés"
-
-#: js/src/overview/Cards/ThreatDetectionCard.js:62
-msgid "Threat Detection"
-msgstr ""
 
 #: js/src/packageManagement/languages/Languages.js:22
 #, fuzzy

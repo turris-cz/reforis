@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-24 15:26+0200\n"
+"POT-Creation-Date: 2025-06-16 18:52+0300\n"
 "PO-Revision-Date: 2024-06-16 18:09+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language: nb_NO\n"
@@ -696,7 +696,7 @@ msgid "guest Wi-Fi"
 msgstr "Wi-Fi"
 
 #: js/src/guestNetwork/GuestNetwork.js:45
-#, fuzzy, python-brace-format
+#, fuzzy
 msgid ""
 "It is separated from your ordinary LAN. Devices connected to this network"
 " are allowed to access the internet but are not allowed to access the "
@@ -788,34 +788,39 @@ msgid "All network interfaces of this network are currently down."
 msgstr "Alle nettverksgrensesnitt på dette nettverket er nede for tiden."
 
 #: js/src/guide/constants.js:13
-#, fuzzy
 msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
-"device. Firstly it is required to set your password. Note the security of"
-" your home network is in your hands, so try not to use weak passwords."
+"device."
+msgstr ""
+
+#: js/src/guide/constants.js:16
+#, fuzzy
+msgid ""
+"Firstly it is required to set your password. Note the security of your "
+"home network is in your hands, so try not to use weak passwords."
 msgstr ""
 "Velkommen til Foris-vevgrensesnittet. Denne guiden hjelper deg å sette "
 "opp din enhet. Først må du sette opp passordet ditt. Merk at sikkerheten "
 "til ditt hjemmenettverk i dine hender, så ikke bruk et usikkert passord."
 
-#: js/src/guide/constants.js:17
+#: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
 msgstr "Passordet ditt er satt. Du kan gå videre til neste steg."
 
-#: js/src/guide/constants.js:20
+#: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
 msgstr "Arbeidsflyt oppsatt. Du kan gå videre til neste steg."
 
-#: js/src/guide/constants.js:24
+#: js/src/guide/constants.js:27
 #, fuzzy
 msgid "Here you need to decide which interfaces belong to which network."
 msgstr "Her kan du avgjøre hvilke grensesnitt som tilhører hvilke nettverk."
 
-#: js/src/guide/constants.js:27
+#: js/src/guide/constants.js:30
 msgid "If you are in doubt use the current settings."
 msgstr "Bruk nåværende innstillinger hvis du er i tvil."
 
-#: js/src/guide/constants.js:29
+#: js/src/guide/constants.js:32
 msgid ""
 "You've configured your network interfaces. It seems that you didn't break"
 " any crucial network settings so you can safely proceed to the next step."
@@ -824,12 +829,12 @@ msgstr ""
 "viktige nettverksinnstillinger tok skade av det, så du kan trygt gå "
 "videre til neste steg."
 
-#: js/src/guide/constants.js:34
+#: js/src/guide/constants.js:37
 #, fuzzy
 msgid "Now you need to set the time and timezone of your device."
 msgstr "Du må nå sette tid og tidssone for enheten din."
 
-#: js/src/guide/constants.js:35
+#: js/src/guide/constants.js:38
 #, fuzzy
 msgid ""
 "Your time and timezone seem to be set. Please make sure that the time "
@@ -840,7 +845,7 @@ msgstr ""
 "samsvarer med klokken på datamaskinen din. Hvis ikke kan du oppdatere via"
 " NTP, eller manuelt."
 
-#: js/src/guide/constants.js:40
+#: js/src/guide/constants.js:43
 msgid ""
 "A proper DNS resolving is one of the key security features of your "
 "device. Let's configure it now."
@@ -848,7 +853,7 @@ msgstr ""
 "Ordentlig DNS-utledelse er én av de viktigste funksjonene på enheten din."
 " La oss sette det opp nå."
 
-#: js/src/guide/constants.js:43
+#: js/src/guide/constants.js:46
 msgid ""
 "You've updated your DNS configuration. Try to run connection test to see "
 "whether your DNS resolver is properly set."
@@ -856,12 +861,12 @@ msgstr ""
 "Du har oppdatert ditt DNS-oppsett. Prøv å kjøre tilkoblingstest for å se "
 "hvorvidt din DNS-utleder er satt opp ordentlig."
 
-#: js/src/guide/constants.js:48
+#: js/src/guide/constants.js:51
 #, fuzzy
 msgid "In order to access the internet, you need to configure your WAN interface."
 msgstr "For å få tilgang til Internett må du sette opp ditt WAN-grensesnitt."
 
-#: js/src/guide/constants.js:51
+#: js/src/guide/constants.js:54
 #, fuzzy
 msgid ""
 "You've configured your WAN interface. Try to run connection test to see "
@@ -872,7 +877,7 @@ msgstr ""
 " å se hvorvidt det fungerer ordentlig. Hvis så er tilfelle kan du gå "
 "videre til neste steg."
 
-#: js/src/guide/constants.js:56
+#: js/src/guide/constants.js:59
 msgid ""
 "Now you should configure your LAN interface. Note that when you change "
 "your network settings you probably won't be able to connect to the "
@@ -884,7 +889,7 @@ msgstr ""
 "oppsettsgrensesnittet, med mindre du starter nettverket på din enheten på"
 " nytt."
 
-#: js/src/guide/constants.js:59
+#: js/src/guide/constants.js:62
 msgid ""
 "You've configured your LAN interface. Try to test whether settings work "
 "properly and if so you can safely proceed to the next step."
@@ -893,20 +898,37 @@ msgstr ""
 "innstillingene fungerer ordentlig, og hvis de gjør det kan du trygt "
 "fortsette til neste steg."
 
-#: js/src/guide/constants.js:64
+#: js/src/guide/constants.js:68
+#, fuzzy
+msgid "To activate Sentinel, you must accept the licence agreement."
+msgstr "De viktigste lisensgodkjennelsespunketene"
+
+#: js/src/guide/constants.js:69
+msgid ""
+"If you choose not to accept it, Sentinel will remain installed and "
+"accessible from the sidebar navigation, but it will not be active."
+msgstr ""
+
+#: js/src/guide/constants.js:73
+msgid ""
+"Sentinel is now set up. You can check its status and settings in the "
+"sidebar navigation."
+msgstr ""
+
+#: js/src/guide/constants.js:78
 msgid "Now you need to configure automatic updates on your device."
 msgstr "Nå må du sette opp automatiske oppgraderinger på enheten din."
 
-#: js/src/guide/constants.js:67
+#: js/src/guide/constants.js:81
 #, fuzzy
 msgid "Please wait till the updater finishes its run."
 msgstr "Vent til oppdatereren er ferdigkjørt."
 
-#: js/src/guide/constants.js:76
+#: js/src/guide/constants.js:90
 msgid "Congratulations! Now your device is ready to be used."
 msgstr "Gratulerer. Enheten din er nå klar til bruk."
 
-#: js/src/guide/constants.js:82
+#: js/src/guide/constants.js:96
 msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
@@ -914,7 +936,7 @@ msgstr ""
 "Din enhet kan nå fungere som ruter og sende nettverkstrafikk mellom "
 "lokalnett, WAN og gjestenettverk."
 
-#: js/src/guide/constants.js:90
+#: js/src/guide/constants.js:104
 #, fuzzy
 msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
@@ -923,7 +945,7 @@ msgstr ""
 "Minimalt enhetsoppsett fullført. Merk deg at du antagelig må utføre "
 "ytterligere oppsett for å tilpasse enheten til dine behov."
 
-#: js/src/guide/constants.js:98
+#: js/src/guide/constants.js:112
 #, fuzzy
 msgid ""
 "Your device is now ready to be used. You can tweak the rest of the "
@@ -936,7 +958,7 @@ msgstr ""
 "Sheild prøve å koble til Internett, og du vil ende opp i "
 "administrasjonsgrensesnittet."
 
-#: js/src/guide/constants.js:109
+#: js/src/guide/constants.js:123
 msgid ""
 "You chose to act as local server this means that it doesn't make sense to"
 " put any interfaces to your WAN and Guest Network. So it is a good idea "
@@ -946,7 +968,7 @@ msgstr ""
 " mening å velge noe grensesnitt som finnes på ditt WAN- og gjestenett. "
 "Det er en god idé å tildele alle grensesnitt til lokalnett."
 
-#: js/src/guide/constants.js:116
+#: js/src/guide/constants.js:130
 #, fuzzy
 msgid ""
 "To act as a local server, there's no need to manage LAN (if you still "
@@ -959,7 +981,7 @@ msgstr ""
 "veiledningen og velge ruter-arbeidsflyt). Du ønsker antalgeig klient-"
 "oppførsel her, og kan dermed velge <strong>Datamaskin</strong>-modus her."
 
-#: js/src/guide/constants.js:119
+#: js/src/guide/constants.js:133
 msgid ""
 "If you select the <strong>static</strong> configuration be sure that the "
 "IP addresses are entered correctly otherwise you won't be able to access "
@@ -969,7 +991,7 @@ msgstr ""
 "IP-adresser skrives inn rett. Ellers vil du ikke kunne nå dette "
 "oppsettsgrensesnittet når de nye innstillingene er tatt i bruk."
 
-#: js/src/guide/constants.js:122
+#: js/src/guide/constants.js:136
 msgid ""
 "If you select the <strong>DHCP</strong> method you probably you need to "
 "obtain a new IP address of this device. You can obtain it from the DHCP "
@@ -981,7 +1003,7 @@ msgstr ""
 "som håndterer lokalnettet ditt. Deretter må du koble til den nye IP-"
 "adressen for å fortsette veiledningen."
 
-#: js/src/guide/constants.js:125
+#: js/src/guide/constants.js:139
 #, fuzzy
 msgid ""
 "Note that either way you might need to re-plug your ethernet cables after"
@@ -990,7 +1012,7 @@ msgstr ""
 "Merk at du uansett må plugge inn Ethernet-kablene dine igjen etter at du "
 "oppdaterer innstillingene her."
 
-#: js/src/guide/constants.js:129
+#: js/src/guide/constants.js:143
 #, fuzzy
 msgid ""
 "Please test whether the settings you provided are working correctly. It "
@@ -1001,7 +1023,7 @@ msgstr ""
 "at du kan nå oppsettsgrensesnittet for din enhet og at din enhet kan nå "
 "Internett (du kan bruke tilkoblingstesten nedenfor)."
 
-#: js/src/guide/constants.js:134
+#: js/src/guide/constants.js:148
 msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
@@ -1051,7 +1073,12 @@ msgstr "WAN"
 msgid "LAN"
 msgstr "LAN"
 
-#: js/src/guide/steps.js:53
+#: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
+#, fuzzy
+msgid "Sentinel"
+msgstr "Fortsett"
+
+#: js/src/guide/steps.js:57
 msgid "Finish"
 msgstr "Fullfør"
 
@@ -1112,6 +1139,81 @@ msgstr ""
 #: js/src/utils/useSessionTimeout.js:113
 msgid "Continue"
 msgstr "Fortsett"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:9
+msgid ""
+"Turris Sentinel is an advanced security system designed to protect your "
+"router and network from cyber threats. It continuously monitors and "
+"analyzes reports from Turris devices worldwide to detect and block "
+"attackers in real time. Sentinel is made up of several key components, "
+"including "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:17
+#: js/src/overview/Cards/ThreatDetectionCard.js:62
+msgid "Threat Detection"
+msgstr "Trusselsoppdagelse"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:25
+msgid ", which utilizes minimal honeypots and firewall logging, the "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:33
+#, fuzzy
+msgid "Dynamic Firewall (DynFW)"
+msgstr "Dynamisk brannmur"
+
+#: js/src/guide/GuidePages/SentinelDescription.js:41
+msgid ""
+"for real-time threat prevention, and a centralized database that tracks "
+"and identifies potential attackers."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:46
+msgid ""
+"By enabling Sentinel, you contribute to a global security network that "
+"helps protect not only your own device but also other users. You can "
+"explore real-time security insights and attack statistics on "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:54
+msgid "Sentinel View"
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:63
+msgid " For a detailed overview of how Sentinel works, visit the "
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelDescription.js:71
+#, fuzzy
+msgid "Sentinel documentation"
+msgstr "Administrasjon"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:31
+#, fuzzy
+msgid "Licence Agreement"
+msgstr "De viktigste lisensgodkjennelsespunketene"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:34
+#, fuzzy
+msgid "Agreement"
+msgstr "De viktigste lisensgodkjennelsespunketene"
+
+#: js/src/guide/GuidePages/SentinelEULA.js:71
+msgid ""
+"I accept the <a href='#'>Terms of Participation in Turris Project (Data "
+"Collection)</a>."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelEULA.js:86
+msgid ""
+"I do not accept the <a href='#'>Terms of Participation in Turris Project "
+"(Data Collection)</a>."
+msgstr ""
+
+#: js/src/guide/GuidePages/SentinelEULAModal.js:59
+msgid "Terms of Participation in Turris Project (Data Collection)"
+msgstr ""
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:26
 msgid ""
@@ -1469,7 +1571,7 @@ msgstr "Oppdateringsinnstillinger"
 msgid "Packages"
 msgstr "Pakker"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:63
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:64
 #: js/src/main/pages.js:131 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
 msgstr "Språk"
@@ -1506,7 +1608,7 @@ msgstr "Om"
 msgid "Theme"
 msgstr "Tid"
 
-#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:101
+#: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:102
 msgid "Participate in translation"
 msgstr ""
 
@@ -2041,10 +2143,6 @@ msgstr "De viktigste lisensgodkjennelsespunketene"
 #, fuzzy
 msgid "Go to Sentinel package installation"
 msgstr "Automatisk installasjon"
-
-#: js/src/overview/Cards/ThreatDetectionCard.js:62
-msgid "Threat Detection"
-msgstr "Trusselsoppdagelse"
 
 #: js/src/packageManagement/languages/Languages.js:22
 #, fuzzy
