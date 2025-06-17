@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-16 18:52+0300\n"
-"PO-Revision-Date: 2025-05-18 10:50+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"PO-Revision-Date: 2025-06-18 06:01+0000\n"
+"Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
+"\n"
 "Language: cs\n"
-"Language-Team: Czech "
-"<https://hosted.weblate.org/projects/turris/reforis/cs/>\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.1\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -753,17 +754,16 @@ msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
 "device."
 msgstr ""
+"Vítejte ve webovém rozhraní reForis. Tento průvodce vám pomůže nastavit vaše "
+"zařízení."
 
 #: js/src/guide/constants.js:16
-#, fuzzy
 msgid ""
 "Firstly it is required to set your password. Note the security of your "
 "home network is in your hands, so try not to use weak passwords."
 msgstr ""
-"Vítejte ve webovém rozhraní reForis. Tento průvodce vám pomůže s "
-"nastavením vašeho zařízení. Nejprve je třeba si zvolit heslo. Uvědomte "
-"si, že zabezpečení vaší domácí sítě je ve vašich rukách, proto se snažte "
-"vyvarovat používání slabých hesel."
+"Nejprve je třeba si zvolit heslo. Uvědomte si, že zabezpečení vaší domácí "
+"sítě je ve vašich rukách, proto se snažte vyvarovat používání slabých hesel."
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
@@ -853,21 +853,24 @@ msgstr ""
 "správně a pokud ano, můžete pokračovat na další krok."
 
 #: js/src/guide/constants.js:68
-#, fuzzy
 msgid "To activate Sentinel, you must accept the licence agreement."
-msgstr "Přejít na licenční smlouvu k Sentinel"
+msgstr "Pro aktivaci Sentinelu musíte souhlasit s licenčními podmínkami."
 
 #: js/src/guide/constants.js:69
 msgid ""
 "If you choose not to accept it, Sentinel will remain installed and "
 "accessible from the sidebar navigation, but it will not be active."
 msgstr ""
+"Pokud zvolíte nepřijetí podmínek, Sentinel zůstane nainstalovaný a přístupný "
+"z bočního navigačního panelu, ale nebude aktivní."
 
 #: js/src/guide/constants.js:73
 msgid ""
 "Sentinel is now set up. You can check its status and settings in the "
 "sidebar navigation."
 msgstr ""
+"Sentinel je nyní nastaven. Můžete zkontrolovat jaho stav a nastavení v "
+"bočním navigačním panelu."
 
 #: js/src/guide/constants.js:78
 msgid "Now you need to configure automatic updates on your device."
@@ -1024,9 +1027,8 @@ msgid "LAN"
 msgstr "LAN"
 
 #: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
-#, fuzzy
 msgid "Sentinel"
-msgstr "Pokračovat"
+msgstr "Sentinel"
 
 #: js/src/guide/steps.js:57
 msgid "Finish"
@@ -1099,6 +1101,11 @@ msgid ""
 "attackers in real time. Sentinel is made up of several key components, "
 "including "
 msgstr ""
+"Turris Sentinel je pokročilý bezpečnostní systém navržený k ochraně vašeho "
+"routeru a sítě proti kybernetickým hrozbám. Nepřetržitě monitoruje a "
+"analyzuje reporty ze zařízení Turris po celém světě, aby detekoval a "
+"blokoval útočníky v reálném čase. Sentinel je složen z několika klíčových "
+"komponent, včetně "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:17
 #: js/src/overview/Cards/ThreatDetectionCard.js:62
@@ -1107,18 +1114,19 @@ msgstr "Detekce hrozeb"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:25
 msgid ", which utilizes minimal honeypots and firewall logging, the "
-msgstr ""
+msgstr ", který využívá minimální honeypoty a logování firewallu, "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:33
-#, fuzzy
 msgid "Dynamic Firewall (DynFW)"
-msgstr "Dynamický firewall"
+msgstr "Dynamický firewall (DynFW)"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:41
 msgid ""
 "for real-time threat prevention, and a centralized database that tracks "
 "and identifies potential attackers."
 msgstr ""
+"pro prevenci proti hrozbám v reálném čase a centralizovanou databázi, která "
+"sleduje a identifikuje potenciální útočníky."
 
 #: js/src/guide/GuidePages/SentinelDescription.js:46
 msgid ""
@@ -1126,45 +1134,47 @@ msgid ""
 "helps protect not only your own device but also other users. You can "
 "explore real-time security insights and attack statistics on "
 msgstr ""
+"Zapnutím Sentinelu přispíváte do globální bezpečnostní sítě, která pomáhá "
+"chránit nejen vaše vlastní zařízení, ale i ostatní uživatele. Přehledy a "
+"statistiky v reálném čase si můžete prohlížet na "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:54
 msgid "Sentinel View"
-msgstr ""
+msgstr "Sentinel View"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:63
 msgid " For a detailed overview of how Sentinel works, visit the "
-msgstr ""
+msgstr " Pro podrobný přehled, jak Sentinel funguje, navštivte "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:71
-#, fuzzy
 msgid "Sentinel documentation"
-msgstr "Dokumentace"
+msgstr "Dokumentace Sentinelu"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:31
-#, fuzzy
 msgid "Licence Agreement"
-msgstr "licenčních podmínek"
+msgstr "Licenční podmínky"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:34
-#, fuzzy
 msgid "Agreement"
-msgstr "licenčních podmínek"
+msgstr "Podmínky"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:71
 msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
+"Souhlasím s <a href='#'>Podmínkami účasti v projektu Turris (sběr dat)</a>."
 
 #: js/src/guide/GuidePages/SentinelEULA.js:86
 msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
+"Nesouhlasím s <a href='#'>Podmínkami účasti v projektu Turris (sběr dat)</a>."
 
 #: js/src/guide/GuidePages/SentinelEULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr ""
+msgstr "Podmínky účasti v projektu Turris (sběr dat)"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:26
 msgid ""
@@ -3638,4 +3648,3 @@ msgstr "500 – Chyba serveru"
 #~ "Odeslání testovací zprávy se nezdařilo –"
 #~ " je možné, že vaše nastavení nejsou"
 #~ " správná."
-
