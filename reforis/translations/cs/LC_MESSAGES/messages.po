@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-16 18:52+0300\n"
-"PO-Revision-Date: 2025-06-18 06:01+0000\n"
+"PO-Revision-Date: 2025-06-25 12:01+0000\n"
 "Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
 "\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12.1\n"
+"X-Generator: Weblate 5.13-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -313,7 +313,7 @@ msgstr "Statická zápůjčka úspěšně smazána."
 
 #: js/src/common/network/DHCPClients/hooks.js:76
 msgid "Can't delete static lease."
-msgstr "Nelze smazat zápůjčku DHCP."
+msgstr "Nelze smazat statickou zápůjčku DHCP."
 
 #: js/src/common/network/DHCPClients/hooks.js:107
 msgid "Static lease added successfully."
@@ -431,7 +431,7 @@ msgstr "Test připojení selhal"
 
 #: js/src/connectionTest/ConnectionTestResult.js:96
 msgid "Connection test cannot be determined"
-msgstr "Test připojení nebyl spuštěn"
+msgstr "Stav testu připojení nelze zjistit"
 
 #: js/src/connectionTest/ConnectionTestResult.js:101
 msgid "Connection test not started"
