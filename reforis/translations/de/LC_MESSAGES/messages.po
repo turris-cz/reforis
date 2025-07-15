@@ -1779,6 +1779,9 @@ msgid ""
 "or desktop. ntfy allows you to subscribe to topics and get instant alerts"
 " without the need for email."
 msgstr ""
+" Push-Benachrichtigungen in Echtzeit direkt auf Ihr Mobilgerät oder Ihren "
+"Desktop zu erhalten. ntfy ermöglicht es Ihnen, Themen zu abonnieren und "
+"Instant-Alarme zu bekommen, ohne auf E-Mails warten zu müssen."
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:19
 msgid "Turris"
@@ -1789,12 +1792,10 @@ msgid "Custom"
 msgstr "Benutzerdefiniert"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:90
-#, fuzzy
 msgid "Email Notification Settings"
-msgstr "Einstellungen für Benachrichtigungen"
+msgstr "Einstellungen für E-Mail-Benachrichtigungen"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:92
-#, fuzzy
 msgid "Enable email notifications"
 msgstr "E-Mail-Benachrichtigungen aktivieren"
 
@@ -1808,60 +1809,55 @@ msgstr "E-Mail Empfänger"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:14
 msgid "Max"
-msgstr ""
+msgstr "Maximal"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:15
-#, fuzzy
 msgid "Urgent"
-msgstr "Derzeit"
+msgstr "Dringend"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:16
-#, fuzzy
 msgid "High"
-msgstr "Hell"
+msgstr "Hoch"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:17
-#, fuzzy
 msgid "Default"
-msgstr "Löschen"
+msgstr "Standard"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:18
 msgid "Low"
-msgstr ""
+msgstr "Niedrig"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:19
-#, fuzzy
 msgid "Min"
 msgstr "Minimal"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:54
-#, fuzzy
 msgid "Push Notification Settings"
-msgstr "Einstellungen für Benachrichtigungen"
+msgstr "Einstellungen für Push-Benachrichtigungen"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:56
-#, fuzzy
 msgid "Enable push notifications"
-msgstr "E-Mail-Benachrichtigungen aktivieren"
+msgstr "Push-Benachrichtigungen aktivieren"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:76
 msgid ""
 "Specify the URL to the ntfy server topic. Example format: "
 "https://ntfy.sh/example"
 msgstr ""
+"Geben Sie den URL des ntfy-Server-Themas an. Beispiel: https://ntfy.sh/"
+"example"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:83
 msgid "Priority"
-msgstr ""
+msgstr "Priorität"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
-#, fuzzy
 msgid "Priority of the push notifications."
-msgstr "Testbenachrichtigung"
+msgstr "Wichtigkeit der Push-Benachrichtigung"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
@@ -1905,33 +1901,29 @@ msgid "Sender's name"
 msgstr "Name des Absenders"
 
 #: js/src/notificationsSettings/TestNotification.js:30
-#, fuzzy
 msgid ""
 "You have unsaved changes in your notification settings. Do you want to "
 "discard them and test notifications using the previous settings?"
 msgstr ""
-"Es gibt einige ungespeicherte Änderungen in den "
+"Es gibt einige ungespeicherte Änderungen in Ihren "
 "Benachrichtigungseinstellungen. Möchten Sie sie verwerfen und die "
 "Benachrichtigungen mit den bisherigen Einstellungen testen?"
 
 #: js/src/notificationsSettings/TestNotification.js:117
-#, fuzzy
 msgid "Send Test Notification"
 msgstr "Testbenachrichtigung senden"
 
 #: js/src/notificationsSettings/TestNotification.js:119
-#, fuzzy
 msgid ""
 "Here you can verify whether your SMTP provider or push notifications are "
 "configured correctly by sending a test notification."
 msgstr ""
 "Hier können Sie sich eine Test-Benachrichtigung senden lassen, um zu "
-"überprüfen, ob SMTP richtig konfiguriert ist."
+"überprüfen, ob SMTP oder Push richtig konfiguriert ist."
 
 #: js/src/notificationsSettings/TestNotification.js:130
-#, fuzzy
 msgid "Send"
-msgstr "Neuigkeiten senden"
+msgstr "Senden"
 
 #: js/src/notificationsSettings/helpTexts.js:9
 msgid ""
@@ -1952,21 +1944,25 @@ msgid ""
 "choose to receive notifications about all events or only about those that"
 " require your attention."
 msgstr ""
+"Abhängig von der Wichtigkeit oder Dringlichkeit der Benachrichtigung können "
+"Sie entscheiden, ob Sie über alle Ereignisse benachrichtigt werden möchten "
+"oder nur diejenigen, die Ihre Aufmerksamkeit erfordern."
 
 #: js/src/notificationsSettings/helpTexts.js:18
 msgid "Email address of recipient. Separate multiple addresses by comma."
 msgstr "E-Mail-Adresse des Empfängers. Trennen Sie mehrere Adressen durch Komma."
 
 #: js/src/notificationsSettings/helpTexts.js:21
-#, fuzzy
 msgid "Send notifications about new releases."
-msgstr "E-Mails über neue Funktionen senden."
+msgstr "Über neue Veröffentlichung benachrichtigen."
 
 #: js/src/notificationsSettings/helpTexts.js:24
 msgid ""
 "Name of the sender that will be used before the \"at\" symbol in the "
 "email address. For example: \"home-router@notify.turis.cz\""
 msgstr ""
+"Name des Absenders, also dem Teil vor dem At-Symbol in der E-Mail-Adresse. "
+"Beispiel: \"zuhause-router@notify.turis.cz\""
 
 #: js/src/notificationsSettings/helpTexts.js:29
 msgid "This is the address notifications are send from."
@@ -2011,7 +2007,7 @@ msgstr "Zu den Aktualisierungseinstellungen gehen"
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
-msgstr ""
+msgstr "Neuladen"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Activated"
@@ -2026,9 +2022,8 @@ msgid "Dynamic Firewall"
 msgstr "Dynamische Firewall"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
-#, fuzzy
 msgid "Go to Dynamic Firewall package installation"
-msgstr "Zum Dynamischen Firewall-Paket gehen"
+msgstr "Zur Installation des Dynamische-Firewall-Pakets gehen"
 
 #: js/src/overview/Cards/LibrespeedCard.js:67
 msgid "LibreSpeed"
@@ -2054,7 +2049,7 @@ msgstr "Millisekunde"
 
 #: js/src/overview/Cards/LibrespeedCard.js:123
 msgid "Jitter"
-msgstr ""
+msgstr "Jitter"
 
 #: js/src/overview/Cards/LibrespeedCard.js:138
 msgid "Server"
@@ -2078,39 +2073,35 @@ msgstr "Zu den OpenVPN-Client-Einstellungen gehen"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:77
 msgid "Currently, there are no connected OpenVPN clients."
-msgstr ""
+msgstr "Zur Zeit sind keine OpenVPN-Clients verbunden."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:88
-#, fuzzy
 msgid "There are no OpenVPN clients."
-msgstr "Noch sind keine Clients hinzugefügt worden."
+msgstr "Es gibt keine OpenVPN-Clients."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:116
-#, fuzzy
 msgid "Total In: "
-msgstr "TLS-Pin"
+msgstr "Total eingehend: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:125
 msgid "Total Out: "
-msgstr ""
+msgstr "Total ausgehend: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:153
-#, fuzzy
 msgid "Connected"
-msgstr "Neuverbindung läuft"
+msgstr "Verbunden"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:162
 msgid "Disconnected"
-msgstr ""
+msgstr "Nicht verbunden"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
 msgid "Go to Sentinel license agreement"
 msgstr "Zur Sentinel-Lizenzvereinbarung gehen"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:57
-#, fuzzy
 msgid "Go to Sentinel package installation"
-msgstr "Automatische Installation"
+msgstr "Zur Sentinel-Paketinstallation gehen"
 
 #: js/src/packageManagement/languages/Languages.js:22
 msgid ""
@@ -2154,10 +2145,12 @@ msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the "
 msgstr ""
+"Durch Einschalten der automatischen Updates bestätigen Sie, dass Sie der "
+"Eigentümer dieses Turris-Router sind und dass Sie mit dem vollen Text der "
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
 msgid "license agreement"
-msgstr "Lizenzvereinbarung"
+msgstr "Lizenzvereinbarung zustimmen."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
 msgid ""
@@ -2170,14 +2163,13 @@ msgid ""
 "software are found."
 msgstr ""
 "Das automatische Aktualisierungssystem ist eines der wichtigsten "
-"Funktionsmerkmale des Turris-Routers. Dank dieser Funktionalität bleibt "
-"die Software auf Ihrem Router auf dem neuesten Stand und schützt besser "
-"vor Angriffen aus dem Internet.<br>Wir <b>empfehlen nachdrücklich,</b> "
-"diese Funktionalität <b>einzuschalten</b>. Falls Sie sich dazu "
-"entscheiden, die Update-Automatik auszuschalten, seien Sie gewarnt, dass "
-"dies die Sicherheit ihres Routers und Ihres Netzwerks beeinträchtigen "
-"kann, weil diese für neu entdeckte Schwachstellen in der Software "
-"anfällig bleiben."
+"Funktionsmerkmale des Turris-Routers. Dank dieser Funktionalität bleibt die "
+"Software auf Ihrem Router auf dem neuesten Stand und schützt besser vor "
+"Angriffen aus dem Internet.<br>Wir <b>empfehlen nachdrücklich,</b> diese "
+"Funktionalität <b>einzuschalten</b>. Falls Sie sich dazu entscheiden, die "
+"Update-Automatik abzuschalten, seien Sie gewarnt, dass dies die Sicherheit "
+"ihres Routers und Ihres Netzwerks beeinträchtigen kann, weil diese für neu "
+"entdeckte Schwachstellen in der Software anfällig bleiben."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
 msgid ""
