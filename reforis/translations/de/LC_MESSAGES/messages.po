@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-16 18:52+0300\n"
-"PO-Revision-Date: 2025-07-16 23:01+0000\n"
+"PO-Revision-Date: 2025-07-16 23:02+0000\n"
 "Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris/reforis/de/"
 ">\n"
@@ -2675,8 +2675,8 @@ msgid ""
 "Enter the external port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
-"Geben Sie externe Portnummer ein, auf welche die Regel zutreffen soll. Es "
-"kann ein einzelner Port sein oder ein Bereich von mehreren."
+"Geben Sie die externe Portnummer ein, auf welche die Regel zutreffen soll. "
+"Es kann ein einzelner Port sein oder ein Bereich von mehreren."
 
 #: js/src/portForwarding/constants.js:21
 msgid ""
@@ -2684,39 +2684,39 @@ msgid ""
 "forwarded. The best practice is to assign a static lease to the device in"
 " advance."
 msgstr ""
+"Geben Sie eine gültige IP-Adresse des Geräts ein, auf welches der Port "
+"weitergeleitet werden soll. Die beste Vorgehensweise ist es, dem Gerät "
+"vorher einen statischen Lease zuzuweisen."
 
 #: js/src/portForwarding/constants.js:24
 msgid ""
 "Enter the internal port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"Geben Sie den internen Port ein, auf den die Regel zutreffen soll. Es kann "
+"ein einzelner Port sein oder ein Bereich von mehreren."
 
 #: js/src/portForwarding/constants.js:27
 msgid "Enable or disable the port forwarding rule."
-msgstr ""
+msgstr "Setzen Sie die Portweiterleitungsregel in Kraft oder außer Kraft."
 
 #: js/src/portForwarding/hooks.js:76
-#, fuzzy
 msgid "Rule deleted successfully."
-msgstr "Statischen Lease erfolgreich hinzugefügt."
+msgstr "Regel erfolgreich gelöscht."
 
 #: js/src/portForwarding/hooks.js:79
-#, fuzzy
 msgid "Can't delete rule."
-msgstr "DHCP-Lease kann nicht gelöscht werden."
+msgstr "Regel kann nicht gelöscht werden."
 
 #: js/src/portForwarding/hooks.js:150
-#, fuzzy
 msgid "Rule added successfully."
-msgstr "Weiterleitung erfolgreich hinzugefügt."
+msgstr "Regel erfolgreich hinzugefügt."
 
 #: js/src/portForwarding/hooks.js:166
-#, fuzzy
 msgid "Rule saved successfully."
-msgstr "Weiterleitung erfolgreich gespeichert."
+msgstr "Regel erfolgreich gespeichert."
 
 #: js/src/portForwarding/hooks.js:214
-#, fuzzy
 msgid "Name should have at least one symbol."
 msgstr "Der Hostname muss mindestens ein Zeichen enthalten."
 
