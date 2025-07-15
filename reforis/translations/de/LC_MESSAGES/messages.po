@@ -1857,7 +1857,7 @@ msgstr "Priorität"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
 msgid "Priority of the push notifications."
-msgstr "Wichtigkeit der Push-Benachrichtigung"
+msgstr "Wichtigkeit der Push-Benachrichtigung."
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
@@ -3178,17 +3178,17 @@ msgstr "Der Hostname wird bereits für eine statische Reservierung verwendet."
 
 #: reforis/foris_controller_api/modules/lan.py:24
 msgid "IP address is not in the LAN network."
-msgstr "Die IP-Adresse passt nicht zum aktuellen Netzwerk."
+msgstr "IP-Adresse gehört nicht zum aktuellen Netzwerk."
 
 #: reforis/foris_controller_api/modules/lan.py:25
-#, fuzzy
 msgid "IP address is not a user-defined static lease."
-msgstr "Die IP-Adresse wird bereits für eine statische Reservierung verwendet."
+msgstr "IP-Adresse wird bereits für einen statische Lease verwendet."
 
 #: reforis/foris_controller_api/modules/lan.py:26
-#, fuzzy
 msgid "Port range is already used by another port forwarding rule."
-msgstr "Der Hostname wird bereits für eine statische Reservierung verwendet."
+msgstr ""
+"Der Portbereich wird bereits für eine andere Portweiterleitungsregel "
+"verwendet."
 
 #: reforis/foris_controller_api/modules/lan.py:104
 msgid "Can't create DHCP lease."
@@ -3203,14 +3203,12 @@ msgid "Can't delete DHCP lease."
 msgstr "DHCP-Lease kann nicht gelöscht werden."
 
 #: reforis/foris_controller_api/modules/lan.py:156
-#, fuzzy
 msgid "Can't set port forwarding rule."
-msgstr "DNS-Forwarder kann nicht gesetzt werden."
+msgstr "Die Portweiterleitungsregel kann nicht gesetzt werden."
 
 #: reforis/foris_controller_api/modules/lan.py:167
-#, fuzzy
 msgid "Can't delete port forwarding rule."
-msgstr "DNS-Forwarder kann nicht gelöscht werden."
+msgstr "Die Portweiterleitungsregel kann nicht gelöscht werden."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
@@ -3221,15 +3219,18 @@ msgid ""
 "If you see this message, your notification settings seem to be correct. "
 "Have a nice day! 😊"
 msgstr ""
+"Falls Sie diese Nachricht sehen, sind Ihre Benachrichtigungseinstellungen "
+"offensichtlich korrekt. Haben Sie einen schönen Tag! 😊"
 
 #: reforis/foris_controller_api/modules/router_notifications.py:132
-#, fuzzy
 msgid "Test notification sent successfully."
-msgstr "Statische IP erfolgreich gespeichert."
+msgstr "Testnachricht erfolgreich gesendet."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:135
 msgid "Cannot send test notification. Please check your configuration."
 msgstr ""
+"Die Testnachricht kann nicht versendet werden. Bitte überprüfen Sie Ihre "
+"Konfiguration."
 
 #: reforis/foris_controller_api/modules/updater.py:66
 msgid "Cannot change automatic restart settings."
