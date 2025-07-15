@@ -2642,42 +2642,41 @@ msgstr "Interne IPv4-Adresse"
 #: js/src/portForwarding/PortForwardingRulesForm.js:85
 #: js/src/portForwarding/PortForwardingRulesTable.js:31
 msgid "External port"
-msgstr "Port nach außen"
+msgstr "Externer Port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:96
 #: js/src/portForwarding/PortForwardingRulesTable.js:32
 msgid "Internal port"
-msgstr ""
+msgstr "Interner Port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:107
 #: js/src/portForwarding/PortForwardingRulesTable.js:34
-#, fuzzy
 msgid "Enabled"
-msgstr "DHCP aktivieren"
+msgstr "Aktiv"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:23
-#, fuzzy
 msgid "Port Forwarding Rules"
-msgstr "Weiterleitung benutzen"
+msgstr "Portweiterleitungsregeln"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:30
-#, fuzzy
 msgid "Internal IP address"
-msgstr "IP-Adresse des Routers"
+msgstr "Interne IP-Adresse"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:53
 msgid "No port forwarding rules defined."
-msgstr ""
+msgstr "Keine Portweiterleitungsregeln angelegt."
 
 #: js/src/portForwarding/constants.js:17
 msgid "Enter the name of the port forwarding rule."
-msgstr ""
+msgstr "Geben Sie der Portweiterleitungsregel einen Namen."
 
 #: js/src/portForwarding/constants.js:18
 msgid ""
 "Enter the external port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"Geben Sie externe Portnummer ein, auf welche die Regel zutreffen soll. Es "
+"kann ein einzelner Port sein oder ein Bereich von mehreren."
 
 #: js/src/portForwarding/constants.js:21
 msgid ""
