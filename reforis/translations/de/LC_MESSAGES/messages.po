@@ -83,19 +83,16 @@ msgid "Warning!"
 msgstr "Warnung!"
 
 #: js/src/common/RebootButton.js:41
-#, fuzzy
 msgid "Are you sure you want to reboot the router?"
-msgstr "Wollen Sie den Router wirklich zurücksetzen?"
+msgstr "Wollen Sie den Router wirklich neu starten?"
 
 #: js/src/common/RebootButton.js:44
-#, fuzzy
 msgid "The router has been rebooted successfully."
-msgstr "Statischen Lease erfolgreich hinzugefügt."
+msgstr "Der Router wurde erfolgreich neu gestartet."
 
 #: js/src/common/RebootButton.js:45
-#, fuzzy
 msgid "An error occurred while rebooting the router."
-msgstr "Ein Fehler ist aufgetreten - reForis | Turris"
+msgstr "Beim Neustart des Routers gab es ein Problem."
 
 #: js/src/common/ScrollToTopArrow.js:33
 msgid "Go to top"
@@ -315,7 +312,6 @@ msgid "Set static lease"
 msgstr "Statischen Lease festlegen"
 
 #: js/src/common/network/DHCPClients/hooks.js:71
-#, fuzzy
 msgid "Static lease deleted successfully."
 msgstr "Statischen Lease erfolgreich hinzugefügt."
 
@@ -1218,10 +1214,12 @@ msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
+"Ich akzeptiere die <a href='#'>Teilnahmebedingungen des Turris-Projekts "
+"(Datensammlung)</a> nicht."
 
 #: js/src/guide/GuidePages/SentinelEULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr ""
+msgstr "Teilnahmebedingungen des Turris-Projekts (Datensammlung)"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:26
 msgid ""
