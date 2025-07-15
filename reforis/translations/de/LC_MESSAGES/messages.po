@@ -2718,17 +2718,19 @@ msgstr "Regel erfolgreich gespeichert."
 
 #: js/src/portForwarding/hooks.js:214
 msgid "Name should have at least one symbol."
-msgstr "Der Hostname muss mindestens ein Zeichen enthalten."
+msgstr "Der Name muss mindestens ein Zeichen enthalten."
 
 #: js/src/portForwarding/hooks.js:224
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
 msgstr ""
+"${fieldName} muss eine Zahl sein oder ein Bereich von Zahlen, aber nicht "
+"negativ."
 
 #: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
-msgstr ""
+msgstr "${fieldName] muss ein gültiger Port oder ein Bereich sein."
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
