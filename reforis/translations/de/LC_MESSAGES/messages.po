@@ -2145,12 +2145,13 @@ msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the "
 msgstr ""
-"Durch Einschalten der automatischen Updates bestätigen Sie, dass Sie der "
-"Eigentümer dieses Turris-Router sind und dass Sie mit dem vollen Text der "
+"Durch Einschalten der automatischen Aktualisierungen bestätigen Sie, dass "
+"Sie der Eigentümer dieses Turris-Router sind und dass Sie mit dem vollen "
+"Text der "
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
 msgid "license agreement"
-msgstr "Lizenzvereinbarung zustimmen."
+msgstr "Lizenzvereinbarung zustimmen"
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
 msgid ""
@@ -2598,6 +2599,8 @@ msgid ""
 "Port forwarding allows you to forward incoming traffic from the WAN "
 "interface to a specific device on your LAN."
 msgstr ""
+"Port-Forwarding ermöglicht es Ihnen, eingehenden Verkehr von der WAN-"
+"Schnittstelle auf ein bestimmtes Gerät in Ihrem LAN durchzuleiten."
 
 #: js/src/portForwarding/PortForwarding.js:56
 msgid ""
@@ -2605,6 +2608,9 @@ msgid ""
 "on your LAN. This way, the web server will be accessible from the "
 "internet."
 msgstr ""
+"Beispielsweise können Sie Anfragen auf Port 80 an einen Webserver in Ihrem "
+"LAN durchleiten. Auf diese Weise ist Ihr Webserver aus dem Internet "
+"erreichbar."
 
 #: js/src/portForwarding/PortForwarding.js:61
 msgid ""
@@ -2612,31 +2618,31 @@ msgid ""
 "button. But first, you need to configure a static DHCP lease for the "
 "device you want to forward traffic to. You can configure it on the "
 msgstr ""
+"Sie könenn eine neue Regel zur Portweiterleitung einrichten, indem Sie auf "
+"\"Regel hinzufügen\" klicken. Zuerst müssen Sie aber einen statischen DHCP-"
+"Lease für das Gerät, das die eingehenden Daten erhalten soll, vergeben. Sie "
+"konfigurieren ihn unter "
 
 #: js/src/portForwarding/PortForwarding.js:139
-#, fuzzy
 msgid "Edit port forwarding rule"
-msgstr "Weiterleitung bearbeiten"
+msgstr "Portweiterleitungsregel bearbeiten"
 
 #: js/src/portForwarding/PortForwarding.js:140
-#, fuzzy
 msgid "Add port forwarding rule"
-msgstr "Benutzerdefinierte Weiterleitung hinzufügen"
+msgstr "Portweiterleitungsregel hinzufügen"
 
 #: js/src/portForwarding/PortForwarding.js:182
-#, fuzzy
 msgid "Add rule"
-msgstr "Adresse"
+msgstr "Regel hinzufügen"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:57
-#, fuzzy
 msgid "Internal IPv4 address"
-msgstr "IP-Adresse des Routers"
+msgstr "Interne IPv4-Adresse"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:85
 #: js/src/portForwarding/PortForwardingRulesTable.js:31
 msgid "External port"
-msgstr ""
+msgstr "Port nach außen"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:96
 #: js/src/portForwarding/PortForwardingRulesTable.js:32
