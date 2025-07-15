@@ -317,7 +317,7 @@ msgstr "Statischen Lease erfolgreich gelöscht."
 
 #: js/src/common/network/DHCPClients/hooks.js:76
 msgid "Can't delete static lease."
-msgstr "DHCP-Lease kann nicht gelöscht werden."
+msgstr "Statischer Lease kann nicht gelöscht werden."
 
 #: js/src/common/network/DHCPClients/hooks.js:107
 msgid "Static lease added successfully."
@@ -667,27 +667,22 @@ msgid "Guest Network"
 msgstr "Gastnetzwerk"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
-#, fuzzy
 msgid "The guest network is used for "
-msgstr "Gastnetzwerk Einstellungen"
+msgstr "Das Gastnetzwerk wird verwendet für "
 
 #: js/src/guestNetwork/GuestNetwork.js:43
-#, fuzzy
 msgid "guest Wi-Fi"
-msgstr "Wi-Fi"
+msgstr "Gäste-WLAN"
 
 #: js/src/guestNetwork/GuestNetwork.js:45
-#, fuzzy
 msgid ""
 "It is separated from your ordinary LAN. Devices connected to this network"
 " are allowed to access the internet but are not allowed to access the "
 "configuration interface of this device or the devices in LAN."
 msgstr ""
-"Das Gastnetzwerk wird für <a href=\"${ForisURLs.wifi}\">Gast-WLAN</a> "
-"verwendet. Es ist von Ihrem normalen Netzwerk getrennt. Geräte, die mit "
-"diesem Netzwerk verbunden sind, können auf das Internet zugreifen, dürfen"
-" aber nicht auf den Router oder anderen Geräte in Ihrem normalen Netzwerk"
-" zugreifen."
+"Es ist von Ihrem üblichen LAN abgeschottet. Geräte, die mit diesem Netzwerk "
+"verbunden sind, können ins Internet, haben aber keinen Zugriff auf die "
+"Konfigurationsoberfläche dieses Geräts oder die anderen Geräte im LAN."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
@@ -774,16 +769,13 @@ msgstr ""
 "Einrichten Ihres Geräts."
 
 #: js/src/guide/constants.js:16
-#, fuzzy
 msgid ""
 "Firstly it is required to set your password. Note the security of your "
 "home network is in your hands, so try not to use weak passwords."
 msgstr ""
-"Willkommen bei der reForis-Weboberfläche. Diese Anleitung hilft Ihnen bei"
-" der Einrichtung Ihres Geräts. Als Erstes müssen Sie Ihr Passwort "
-"festlegen. Beachten Sie, dass die Sicherheit Ihres Heimnetzwerks in Ihren"
-" Händen liegt, also versuchen Sie, keine schwachen Passwörter zu "
-"verwenden."
+"Zuerst müssen Sie Ihr Passwort setzen. Beachten Sie, dass die Sicherheit "
+"Ihres Heimnetzwerks in Ihren Händen liegt, also verwenden Sie möglichst kein "
+"schwaches Passwort."
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
@@ -885,9 +877,9 @@ msgstr ""
 "dem nächsten Schritt fortfahren."
 
 #: js/src/guide/constants.js:68
-#, fuzzy
 msgid "To activate Sentinel, you must accept the licence agreement."
-msgstr "Zur Sentinel-Lizenzvereinbarung gehen"
+msgstr ""
+"Zum Aktivieren von Sentinel müssen Sie der Lizenzvereinbarung zustimmen."
 
 #: js/src/guide/constants.js:69
 msgid ""
@@ -1063,9 +1055,8 @@ msgid "LAN"
 msgstr "LAN"
 
 #: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
-#, fuzzy
 msgid "Sentinel"
-msgstr "Weiter"
+msgstr "Sentinel"
 
 #: js/src/guide/steps.js:57
 msgid "Finish"
@@ -1157,9 +1148,8 @@ msgid ", which utilizes minimal honeypots and firewall logging, the "
 msgstr ", die Minimal-Honeypots und Firewall-Protokolle verwendet, die "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:33
-#, fuzzy
 msgid "Dynamic Firewall (DynFW)"
-msgstr "Dynamische Firewall"
+msgstr "Dynamische Firewall (DynFW)"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:41
 msgid ""
@@ -1530,9 +1520,8 @@ msgstr "Netzwerkeinstellungen"
 
 #: js/src/main/pages.js:50 js/src/main/pages.js:71
 #: js/src/portForwarding/PortForwarding.js:49
-#, fuzzy
 msgid "Port Forwarding"
-msgstr "Weiterleitung benutzen"
+msgstr "Portweiterleitung"
 
 #: js/src/main/pages.js:56 js/src/wifi/WiFi.js:40
 msgid "Wi-Fi"
@@ -1584,9 +1573,8 @@ msgid "Advanced Administration"
 msgstr "Erweiterte Administration"
 
 #: js/src/main/pages.js:143
-#, fuzzy
 msgid "Documentation"
-msgstr "Verwaltung"
+msgstr "Dokumentation"
 
 #: js/src/main/TopBar/LogoutButton.js:16 js/src/utils/useSessionTimeout.js:111
 msgid "Logout"
@@ -1605,13 +1593,12 @@ msgid "Auto"
 msgstr "Automatisch"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
-#, fuzzy
 msgid "Theme"
-msgstr "Zeit"
+msgstr "Thema"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:102
 msgid "Participate in translation"
-msgstr ""
+msgstr "Bei der Übersetzung mithelfen"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:38
 #: js/src/notifications/Notifications/Notifications.js:56
@@ -1679,14 +1666,12 @@ msgid "Reset"
 msgstr "Zurücksetzen"
 
 #: js/src/maintenance/FactoryReset.js:34
-#, fuzzy
 msgid "The router has been reset successfully."
-msgstr "Ihr Passwort wurde erfolgreich gespeichert."
+msgstr "Der Router wurde erfolgreich zurückgesetzt."
 
 #: js/src/maintenance/FactoryReset.js:37
-#, fuzzy
 msgid "An error occurred while resetting the router."
-msgstr "Ein Fehler ist aufgetreten - reForis | Turris"
+msgstr "Beim Zurücksetzen des Routers gab es ein Problem."
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
@@ -1760,9 +1745,8 @@ msgstr ""
 "wurden installiert"
 
 #: js/src/notificationsSettings/CommonForm.js:44
-#, fuzzy
 msgid "General Notification Settings"
-msgstr "Einstellungen für Benachrichtigungen"
+msgstr "Allgemeine Benachrichtigungs-Einstellungen"
 
 #: js/src/notificationsSettings/CommonForm.js:46
 msgid "Importance"
@@ -1773,21 +1757,21 @@ msgid "Send news"
 msgstr "Neuigkeiten senden"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:31
-#, fuzzy
 msgid ""
 "Your device can send you e-mail notifications about required reboots, "
 "important events, installed updates, and new features according to your "
 "settings. Once you are done with the configuration, you can test it by "
 "pressing Send test notification. Additionally, you can use "
 msgstr ""
-"Ihr Gerät kann Ihnen E-Mail-Benachrichtigungen über notwendige Neustarts,"
-" wichtige Ereignisse, installierte Updates oder neue Features zusenden. "
-"Diese Benachrichtigungen sind einstellbar und können durch Anklicken von "
-"Testbenachrichtigung senden ausprobiert werden."
+"Ihr Gerät kann Ihnen E-Mail-Benachrichtigungen über notwendige Neustarts, "
+"wichtige Ereignisse, installierte Updates oder neue Features zusenden. Diese "
+"Benachrichtigungen sind einstellbar und können durch Anklicken von "
+"\"Testbenachrichtigung senden\" ausprobiert werden. Außerdem haben Sie die "
+"Möglichkeit, "
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
-msgstr ""
+msgstr "ntfy"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:47
 msgid ""
