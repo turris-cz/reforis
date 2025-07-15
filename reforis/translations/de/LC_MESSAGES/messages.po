@@ -2730,7 +2730,7 @@ msgstr ""
 #: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
-msgstr "${fieldName] muss ein gültiger Port oder ein Bereich sein."
+msgstr "${fieldName} muss ein gültiger Port oder ein Bereich sein."
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
@@ -2867,24 +2867,24 @@ msgid "Skip to main content"
 msgstr "Zum Hauptinhalt springen"
 
 #: js/src/utils/useSessionTimeout.js:64
-#, fuzzy
 msgid "Session extended successfully."
-msgstr "Statischen Lease erfolgreich hinzugefügt."
+msgstr "Sitzung erfolgreich verlängert."
 
 #: js/src/utils/useSessionTimeout.js:94
-#, fuzzy
 msgid "Session Timeout"
-msgstr "Region & Zeit"
+msgstr "Sitzung abgelaufen"
 
 #: js/src/utils/useSessionTimeout.js:99
 msgid "Your session is about to expire. Do you want to continue?"
-msgstr ""
+msgstr "Ihre Sitzung läuft bald ab. Möchten Sie fortfahren?"
 
 #: js/src/utils/useSessionTimeout.js:104
 msgid ""
 "Please note that if you do not respond, you will be logged out "
 "automatically."
 msgstr ""
+"Bitte beachten Sie, dass wenn Sie nicht antworten, Sie automatsich "
+"abgemeldet werden."
 
 #: js/src/wan/MACForm.js:14
 msgid ""
@@ -3177,7 +3177,6 @@ msgid "Hostname is already used by another static lease."
 msgstr "Der Hostname wird bereits für eine statische Reservierung verwendet."
 
 #: reforis/foris_controller_api/modules/lan.py:24
-#, fuzzy
 msgid "IP address is not in the LAN network."
 msgstr "Die IP-Adresse passt nicht zum aktuellen Netzwerk."
 
