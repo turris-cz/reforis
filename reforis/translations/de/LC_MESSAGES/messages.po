@@ -313,10 +313,9 @@ msgstr "Statischen Lease festlegen"
 
 #: js/src/common/network/DHCPClients/hooks.js:71
 msgid "Static lease deleted successfully."
-msgstr "Statischen Lease erfolgreich hinzugefügt."
+msgstr "Statischen Lease erfolgreich gelöscht."
 
 #: js/src/common/network/DHCPClients/hooks.js:76
-#, fuzzy
 msgid "Can't delete static lease."
 msgstr "DHCP-Lease kann nicht gelöscht werden."
 
