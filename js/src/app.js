@@ -33,7 +33,8 @@ import Guide from "guide/Guide";
 import Main from "main/Main";
 import RouterStateHandler from "routerStateHandler/RouterStateHandler";
 
-pdfMake.vfs = pdfFonts.pdfMake.vfs;
+// Set pdfMake fonts
+pdfMake.addVirtualFileSystem(pdfFonts);
 
 const ws = new WebSockets();
 
