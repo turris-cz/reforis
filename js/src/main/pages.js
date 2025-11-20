@@ -146,15 +146,19 @@ const documentation = {
     isLinkOutside: true,
 };
 
-const getBasePages = (isCustomized) => [
-    overviewPage,
-    { ...networkSettings, pages: networkSettings.pages(isCustomized) },
-    administration,
-    isCustomized ? globalThreatStatistics : packageManagement,
-    advancedAdministration,
-    documentation,
-    aboutPage,
-];
+const getBasePages = (isCustomized) => {
+    const start = [
+        overviewPage,
+        { ...networkSettings, pages: networkSettings.pages(isCustomized) },
+        administration,
+    ];
+    const middle = isCustomized
+        ? [globalThreatStatistics]
+        : [packageManagement, advancedAdministration];
+    const end = [documentation, aboutPage];
+
+    return [...start, ...middle, ...end];
+};
 
 export default function getPages(isCustomized) {
     const PAGES = getBasePages(isCustomized);
