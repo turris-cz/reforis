@@ -212,11 +212,11 @@ function validator(formData) {
 function validatePassword(password) {
     if (password === "") return _("Choose a password.");
 
-    if (password.length < 6)
-        return _("Password should have at least six symbols.");
+    if (password.length < 8)
+        return _("Password should have at least eight symbols.");
 
-    if (password.length > 128)
-        return _("Password cannot have more than 128 symbols.");
+    if (password.length > 256)
+        return _("Password cannot have more than 256 symbols.");
 
     return null;
 }

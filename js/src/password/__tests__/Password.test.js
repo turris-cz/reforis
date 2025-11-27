@@ -71,7 +71,7 @@ describe("<Password/>", () => {
         fireEvent.change(
             getAllByLabelText(passwordContainer, "New password")[0],
             {
-                target: { value: "testing" },
+                target: { value: "testing1" },
             }
         );
         fireEvent.focus(
@@ -79,7 +79,7 @@ describe("<Password/>", () => {
         );
         fireEvent.change(
             getAllByLabelText(passwordContainer, "Confirm new password")[0],
-            { target: { value: "testingg" } }
+            { target: { value: "testingg1" } }
         );
         expect(passwordContainer).toMatchSnapshot();
     });
@@ -91,7 +91,7 @@ describe("<Password/>", () => {
         fireEvent.change(
             getAllByLabelText(passwordContainer, "New password")[1],
             {
-                target: { value: "testing" },
+                target: { value: "testing2" },
             }
         );
         fireEvent.focus(
@@ -99,7 +99,7 @@ describe("<Password/>", () => {
         );
         fireEvent.change(
             getAllByLabelText(passwordContainer, "Confirm new password")[1],
-            { target: { value: "testingg" } }
+            { target: { value: "testingg2" } }
         );
         expect(passwordContainer).toMatchSnapshot();
     });
@@ -109,22 +109,25 @@ describe("<Password/>", () => {
             // Fill form data
             fireEvent.change(
                 getByLabelText(passwordContainer, "Current password"),
-                { target: { value: "foobar" } }
+                { target: { value: "foobar11" } }
             );
             fireEvent.change(
                 getAllByLabelText(passwordContainer, "New password")[0],
-                { target: { value: "foobar" } }
+                { target: { value: "foobar11" } }
             );
             fireEvent.change(
                 getAllByLabelText(passwordContainer, "Confirm new password")[0],
-                { target: { value: "foobar" } }
+                { target: { value: "foobar11" } }
             );
 
             // Save form
             fireEvent.click(getAllByText(passwordContainer, "Save")[0]);
             expect(mockAxios.post).toBeCalledWith(
                 "/reforis/api/password",
-                { foris_current_password: "foobar", foris_password: "foobar" },
+                {
+                    foris_current_password: "foobar11",
+                    foris_password: "foobar11",
+                },
                 expect.anything()
             );
         });
@@ -181,15 +184,15 @@ describe("Customized <Password/>", () => {
             // Fill form data
             fireEvent.change(
                 getByLabelText(passwordContainer, "Current password"),
-                { target: { value: "foobar" } }
+                { target: { value: "foobar22" } }
             );
             fireEvent.change(
                 getByLabelText(passwordContainer, "New password"),
-                { target: { value: "foobar" } }
+                { target: { value: "foobar22" } }
             );
             fireEvent.change(
                 getByLabelText(passwordContainer, "Confirm new password"),
-                { target: { value: "foobar" } }
+                { target: { value: "foobar22" } }
             );
 
             // Save form
@@ -197,9 +200,9 @@ describe("Customized <Password/>", () => {
             expect(mockAxios.post).toBeCalledWith(
                 "/reforis/api/password",
                 {
-                    foris_current_password: "foobar",
-                    foris_password: "foobar",
-                    root_password: "foobar",
+                    foris_current_password: "foobar22",
+                    foris_password: "foobar22",
+                    root_password: "foobar22",
                 },
                 expect.anything()
             );
