@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-22 15:14+0300\n"
+"POT-Creation-Date: 2025-12-03 13:38+0300\n"
 "PO-Revision-Date: 2024-10-15 07:15+0000\n"
 "Last-Translator: Moha684 <nahil82466@gmail.com>\n"
 "Language: fr\n"
@@ -2618,12 +2618,12 @@ msgstr "Mot de passe erroné."
 
 #: js/src/password/Password.js:216
 #, fuzzy
-msgid "Password should have at least six symbols."
+msgid "Password should have at least eight symbols."
 msgstr "Le mot de passe doit comporter maximum 128 symboles."
 
 #: js/src/password/Password.js:219
 #, fuzzy
-msgid "Password cannot have more than 128 symbols."
+msgid "Password cannot have more than 256 symbols."
 msgstr "Le mot de passe doit comporter maximum 128 symboles."
 
 #: js/src/password/RootPasswordForm.js:51

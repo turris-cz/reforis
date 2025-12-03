@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-22 15:14+0300\n"
+"POT-Creation-Date: 2025-12-03 13:38+0300\n"
 "PO-Revision-Date: 2025-03-01 04:02+0000\n"
 "Last-Translator: Kristoffer Grundström "
 "<swedishsailfishosuser@tutanota.com>\n"
@@ -2322,12 +2322,12 @@ msgstr "Fel lösenord."
 
 #: js/src/password/Password.js:216
 #, fuzzy
-msgid "Password should have at least six symbols."
+msgid "Password should have at least eight symbols."
 msgstr "PIN-kod för TLS bör ha åtminstone en symbol."
 
 #: js/src/password/Password.js:219
 #, fuzzy
-msgid "Password cannot have more than 128 symbols."
+msgid "Password cannot have more than 256 symbols."
 msgstr "PIN-kod för TLS bör ha åtminstone en symbol."
 
 #: js/src/password/RootPasswordForm.js:51

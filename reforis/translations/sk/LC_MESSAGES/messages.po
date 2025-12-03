@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-22 15:14+0300\n"
+"POT-Creation-Date: 2025-12-03 13:38+0300\n"
 "PO-Revision-Date: 2025-11-05 13:51+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/sk/"
-">\n"
 "Language: sk\n"
+"Language-Team: Slovak "
+"<https://hosted.weblate.org/projects/turris/reforis/sk/>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.14.1-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -768,8 +767,8 @@ msgid ""
 "Firstly it is required to set your password. Note the security of your "
 "home network is in your hands, so try not to use weak passwords."
 msgstr ""
-"Najprv je potrebné nastaviť heslo. Nazabúdajte, že bezpečnosť vašej domácej "
-"siete je vo vašich rukách, preto nepoužívajte slabé heslá."
+"Najprv je potrebné nastaviť heslo. Nazabúdajte, že bezpečnosť vašej "
+"domácej siete je vo vašich rukách, preto nepoužívajte slabé heslá."
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
@@ -866,16 +865,16 @@ msgid ""
 "If you choose not to accept it, Sentinel will remain installed and "
 "accessible from the sidebar navigation, but it will not be active."
 msgstr ""
-"Ak sa ju rozhodnete neprijať, Sentinel zostane nainštalovaný a dostupný z "
-"bočného navigačného panela, ale nebude aktívny."
+"Ak sa ju rozhodnete neprijať, Sentinel zostane nainštalovaný a dostupný z"
+" bočného navigačného panela, ale nebude aktívny."
 
 #: js/src/guide/constants.js:73
 msgid ""
 "Sentinel is now set up. You can check its status and settings in the "
 "sidebar navigation."
 msgstr ""
-"Sentinel je teraz nastavený. Jeho stav a nastavenia môžete skontrolovať v "
-"bočnom navigačnom paneli."
+"Sentinel je teraz nastavený. Jeho stav a nastavenia môžete skontrolovať v"
+" bočnom navigačnom paneli."
 
 #: js/src/guide/constants.js:78
 msgid "Now you need to configure automatic updates on your device."
@@ -1104,9 +1103,9 @@ msgid ""
 "attackers in real time. Sentinel is made up of several key components, "
 "including "
 msgstr ""
-"Turris Sentinel je pokročilý bezpečnostný systém navrhnutý na ochranu vášho "
-"routera a siete pred kybernetickými hrozbami. Neustále monitoruje a "
-"analyzuje správy zo zariadení Turris po celom svete, aby v reálnom čase "
+"Turris Sentinel je pokročilý bezpečnostný systém navrhnutý na ochranu "
+"vášho routera a siete pred kybernetickými hrozbami. Neustále monitoruje a"
+" analyzuje správy zo zariadení Turris po celom svete, aby v reálnom čase "
 "detekoval a blokoval útočníkov. Sentinel sa skladá z viacerých kľúčových "
 "komponentov, ku ktorým patria "
 
@@ -1128,8 +1127,8 @@ msgid ""
 "for real-time threat prevention, and a centralized database that tracks "
 "and identifies potential attackers."
 msgstr ""
-"na prevenciu hrozieb v reálnom čase a centralizovanú databázu, ktorá sleduje "
-"a identifikuje potenciálnych útočníkov."
+"na prevenciu hrozieb v reálnom čase a centralizovanú databázu, ktorá "
+"sleduje a identifikuje potenciálnych útočníkov."
 
 #: js/src/guide/GuidePages/SentinelDescription.js:46
 msgid ""
@@ -1139,8 +1138,8 @@ msgid ""
 msgstr ""
 "Aktiváciou služby Sentinel prispievate ku globálnej bezpečnostnej sieti, "
 "ktorá pomáha chrániť nielen vaše vlastné zariadenie, ale aj ostatných "
-"používateľov. Informácie o bezpečnosti v reálnom čase a štatistiky útokov "
-"nôžete preskúmať na "
+"používateľov. Informácie o bezpečnosti v reálnom čase a štatistiky útokov"
+" nôžete preskúmať na "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:54
 msgid "Sentinel View"
@@ -1167,16 +1166,16 @@ msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
-"Súhlasím s <a href='#'>Podmienkami účasti v projekte Turris (zber údajov)"
-"</a>."
+"Súhlasím s <a href='#'>Podmienkami účasti v projekte Turris (zber "
+"údajov)</a>."
 
 #: js/src/guide/GuidePages/SentinelEULA.js:86
 msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
-"Nesúhlasím s <a href='#'>Podmienkami účasti v projekte Turris (zber údajov)"
-"</a>."
+"Nesúhlasím s <a href='#'>Podmienkami účasti v projekte Turris (zber "
+"údajov)</a>."
 
 #: js/src/guide/GuidePages/SentinelEULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
@@ -2514,11 +2513,13 @@ msgid "Choose a password."
 msgstr "Zvoľte si heslo."
 
 #: js/src/password/Password.js:216
-msgid "Password should have at least six symbols."
+#, fuzzy
+msgid "Password should have at least eight symbols."
 msgstr "Heslo by malo mať aspoň šesť znakov."
 
 #: js/src/password/Password.js:219
-msgid "Password cannot have more than 128 symbols."
+#, fuzzy
+msgid "Password cannot have more than 256 symbols."
 msgstr "Heslo nemôže mať viac ako 128 znakov."
 
 #: js/src/password/RootPasswordForm.js:51
@@ -3636,3 +3637,4 @@ msgstr "500 – Chyba servera"
 #~ "Odoslanie testovacej notifikácie bolo "
 #~ "neúspešné, vaše nastavenie sú pravdepodobne"
 #~ " nesprávne."
+

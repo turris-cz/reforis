@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-22 15:14+0300\n"
+"POT-Creation-Date: 2025-12-03 13:38+0300\n"
 "PO-Revision-Date: 2019-02-19 13:34+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: da\n"
@@ -2220,11 +2220,11 @@ msgid "Choose a password."
 msgstr ""
 
 #: js/src/password/Password.js:216
-msgid "Password should have at least six symbols."
+msgid "Password should have at least eight symbols."
 msgstr ""
 
 #: js/src/password/Password.js:219
-msgid "Password cannot have more than 128 symbols."
+msgid "Password cannot have more than 256 symbols."
 msgstr ""
 
 #: js/src/password/RootPasswordForm.js:51
@@ -3520,5 +3520,11 @@ msgstr ""
 #~ "security of your home network is "
 #~ "in your hands, so try not to "
 #~ "use weak passwords."
+#~ msgstr ""
+
+#~ msgid "Password should have at least six symbols."
+#~ msgstr ""
+
+#~ msgid "Password cannot have more than 128 symbols."
 #~ msgstr ""
 
