@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-22 15:14+0300\n"
+"POT-Creation-Date: 2025-12-03 13:38+0300\n"
 "PO-Revision-Date: 2025-03-22 20:09+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language: es\n"
@@ -2408,12 +2408,12 @@ msgstr "Elija una contraseña."
 
 #: js/src/password/Password.js:216
 #, fuzzy
-msgid "Password should have at least six symbols."
+msgid "Password should have at least eight symbols."
 msgstr "TLS pin deberìa tener al menos un sìmbolo."
 
 #: js/src/password/Password.js:219
 #, fuzzy
-msgid "Password cannot have more than 128 symbols."
+msgid "Password cannot have more than 256 symbols."
 msgstr "TLS pin deberìa tener al menos un sìmbolo."
 
 #: js/src/password/RootPasswordForm.js:51

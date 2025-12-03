@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-22 15:14+0300\n"
+"POT-Creation-Date: 2025-12-03 13:38+0300\n"
 "PO-Revision-Date: 2025-07-10 01:14+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
 "Language: ru\n"
@@ -2533,11 +2533,13 @@ msgid "Choose a password."
 msgstr "Придумайте пароль."
 
 #: js/src/password/Password.js:216
-msgid "Password should have at least six symbols."
+#, fuzzy
+msgid "Password should have at least eight symbols."
 msgstr "Пароль должен содержать не менее шести символов."
 
 #: js/src/password/Password.js:219
-msgid "Password cannot have more than 128 symbols."
+#, fuzzy
+msgid "Password cannot have more than 256 symbols."
 msgstr "Пароль не может содержать более 128 символов."
 
 #: js/src/password/RootPasswordForm.js:51

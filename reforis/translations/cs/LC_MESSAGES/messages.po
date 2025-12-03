@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-22 15:14+0300\n"
-"PO-Revision-Date: 2025-06-25 12:01+0000\n"
+"POT-Creation-Date: 2025-12-03 13:38+0300\n"
+"PO-Revision-Date: 2025-11-05 13:51+0000\n"
 "Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
 "Language: cs\n"
 "Language-Team: Czech "
@@ -81,15 +81,15 @@ msgstr "Varování!"
 
 #: js/src/common/RebootButton.js:41
 msgid "Are you sure you want to reboot the router?"
-msgstr "Opravdu chcete směrovač zrestartovat?"
+msgstr "Opravdu chcete restartovat router?"
 
 #: js/src/common/RebootButton.js:44
 msgid "The router has been rebooted successfully."
-msgstr "Směrovač byl úspěšně restartován."
+msgstr "Router byl úspěšně restartován."
 
 #: js/src/common/RebootButton.js:45
 msgid "An error occurred while rebooting the router."
-msgstr "Při restartu směrovače došlo k chybě."
+msgstr "Při restartu routeru došlo k chybě."
 
 #: js/src/common/ScrollToTopArrow.js:33
 msgid "Go to top"
@@ -2514,11 +2514,13 @@ msgid "Choose a password."
 msgstr "Zvolte heslo."
 
 #: js/src/password/Password.js:216
-msgid "Password should have at least six symbols."
+#, fuzzy
+msgid "Password should have at least eight symbols."
 msgstr "Heslo by mělo mít nejméně šest znaků."
 
 #: js/src/password/Password.js:219
-msgid "Password cannot have more than 128 symbols."
+#, fuzzy
+msgid "Password cannot have more than 256 symbols."
 msgstr "Heslo nemůže být delší než 128 znaků."
 
 #: js/src/password/RootPasswordForm.js:51

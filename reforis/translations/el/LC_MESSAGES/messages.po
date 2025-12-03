@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-22 15:14+0300\n"
+"POT-Creation-Date: 2025-12-03 13:38+0300\n"
 "PO-Revision-Date: 2025-01-18 08:00+0000\n"
 "Last-Translator: Thanasis <thanasakis11mail@gmail.com>\n"
 "Language: el\n"
@@ -2576,11 +2576,13 @@ msgid "Choose a password."
 msgstr "Επιλέξτε έναν κωδικό πρόσβασης."
 
 #: js/src/password/Password.js:216
-msgid "Password should have at least six symbols."
+#, fuzzy
+msgid "Password should have at least eight symbols."
 msgstr "Ο κωδικός πρόσβασης πρέπει να έχει τουλάχιστον έξι σύμβολα."
 
 #: js/src/password/Password.js:219
-msgid "Password cannot have more than 128 symbols."
+#, fuzzy
+msgid "Password cannot have more than 256 symbols."
 msgstr "Ο κωδικός πρόσβασης δεν μπορεί να έχει πάνω από 128 σύμβολα."
 
 #: js/src/password/RootPasswordForm.js:51
