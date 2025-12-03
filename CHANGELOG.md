@@ -8,6 +8,20 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.8.0] - 2025-12-03
+
+### Added
+
+- Added & updated Weblate translations
+
+### Changed
+
+- Removed LuCI link when device is shield
+- Refactored DynamicFirewallCard to include additional condition for enabling
+- Increased password limits to at least 8 characters and max 256 characters
+- Updated Foris JS library to version 6.9.0
+- Updated several dependencies in package.json
+
 ## [3.7.0] - 2025-09-25
 
 ### Added
@@ -727,7 +741,8 @@ and this project adheres to
 
 - Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.7.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.8.0...master
+[3.8.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.7.0...v3.8.0
 [3.7.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.6.0...v3.7.0
 [3.6.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.5.1...v3.6.0
 [3.5.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.5.0...v3.6.0
