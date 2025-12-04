@@ -66,7 +66,12 @@ function OverviewCards({ packages, ws }) {
                         isPluginInstalled("Sentinel")
                     }
                 />
-                <DynamicFirewallCard enabled={displayCard(packages, "dynfw")} />
+                <DynamicFirewallCard
+                    enabled={
+                        displayCard(packages, "dynfw") ||
+                        displayCard(packages, "dynfw_new")
+                    }
+                />
             </div>
             <div className="row row-cols-1 row-cols-lg-3">
                 {displayCard(packages, "librespeed") &&
