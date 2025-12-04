@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-03 13:38+0300\n"
-"PO-Revision-Date: 2025-11-05 13:51+0000\n"
+"PO-Revision-Date: 2025-12-05 19:00+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/"
+"sk/>\n"
 "Language: sk\n"
-"Language-Team: Slovak "
-"<https://hosted.weblate.org/projects/turris/reforis/sk/>\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.15-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -2513,14 +2514,12 @@ msgid "Choose a password."
 msgstr "Zvoľte si heslo."
 
 #: js/src/password/Password.js:216
-#, fuzzy
 msgid "Password should have at least eight symbols."
-msgstr "Heslo by malo mať aspoň šesť znakov."
+msgstr "Heslo by malo mať aspoň osem znakov."
 
 #: js/src/password/Password.js:219
-#, fuzzy
 msgid "Password cannot have more than 256 symbols."
-msgstr "Heslo nemôže mať viac ako 128 znakov."
+msgstr "Heslo nemôže mať viac ako 256 znakov."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -3637,4 +3636,3 @@ msgstr "500 – Chyba servera"
 #~ "Odoslanie testovacej notifikácie bolo "
 #~ "neúspešné, vaše nastavenie sú pravdepodobne"
 #~ " nesprávne."
-
