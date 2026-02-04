@@ -1,15 +1,15 @@
 # Czech translations for reForis.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-03 13:38+0300\n"
-"PO-Revision-Date: 2025-11-05 13:51+0000\n"
-"Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
+"POT-Creation-Date: 2026-02-04 18:54+0300\n"
+"PO-Revision-Date: 2025-12-12 12:00+0000\n"
+"Last-Translator: Lukáš Jelínek <devel@aiken.cz>\n"
 "Language: cs\n"
 "Language-Team: Czech "
 "<https://hosted.weblate.org/projects/turris/reforis/cs/>\n"
@@ -2514,14 +2514,12 @@ msgid "Choose a password."
 msgstr "Zvolte heslo."
 
 #: js/src/password/Password.js:216
-#, fuzzy
 msgid "Password should have at least eight symbols."
-msgstr "Heslo by mělo mít nejméně šest znaků."
+msgstr "Heslo by mělo mít nejméně osm znaků."
 
 #: js/src/password/Password.js:219
-#, fuzzy
 msgid "Password cannot have more than 256 symbols."
-msgstr "Heslo nemůže být delší než 128 znaků."
+msgstr "Heslo nemůže být delší než 256 znaků."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"

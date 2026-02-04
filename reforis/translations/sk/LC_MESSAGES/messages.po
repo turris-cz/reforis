@@ -1,14 +1,14 @@
 # Slovak translations for reForis.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-03 13:38+0300\n"
-"PO-Revision-Date: 2025-11-05 13:51+0000\n"
+"POT-Creation-Date: 2026-02-04 18:54+0300\n"
+"PO-Revision-Date: 2025-12-12 12:00+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
 "Language: sk\n"
 "Language-Team: Slovak "
@@ -455,7 +455,7 @@ msgid ""
 "works properly. If it does not work for some reason, it is necessary to "
 "use direct resolving without forwarding."
 msgstr ""
-"Nasledujúce nastavenie určuje správanie DNS prekladača (resolvera). V "
+"Nasledujúce nastavenia určujú správanie DNS prekladača (resolvera). V "
 "sieťach, kde funguje správne, je zvyčajne lepšie používať prekladač "
 "poskytovateľa internetových služieb. Ak z nejakého dôvodu nefunguje, je "
 "potrebné použiť priamy prekladač bez presmerovania."
@@ -1399,8 +1399,8 @@ msgid ""
 "This section contains settings for the local network (LAN). The provided "
 "defaults are suitable for most networks."
 msgstr ""
-"Táto časť obsahuje nastavenia miestnej siete (LAN). Predvolené nastavenia"
-" sú vhodné pre väčšinu sietí."
+"Táto stránka obsahuje nastavenia miestnej siete (LAN). Predvolené "
+"nastavenia sú vhodné pre väčšinu sietí."
 
 #: js/src/lan/LAN.js:29
 msgid ""
@@ -1726,11 +1726,11 @@ msgid ""
 "settings. Once you are done with the configuration, you can test it by "
 "pressing Send test notification. Additionally, you can use "
 msgstr ""
-"Vaše zariadenie vám môže podľa vašich nastavení posielať e-mailové "
-"upozornenia o potrebných reštartoch, dôležitých udalostiach, "
-"nainštalovaných aktualizáciách a nových funkciách. Po dokončení "
-"konfigurácie môžete notifikácie vyskúšať kliknutím na Odoslať testovaciu "
-"notifikáciu. Okrem toho môžete použiť "
+"Vaše zariadenie vám môže podľa nastavení posielať e-mailové upozornenia o"
+" potrebných reštartoch, dôležitých udalostiach, nainštalovaných "
+"aktualizáciách a nových funkciách. Po dokončení konfigurácie môžete "
+"notifikácie vyskúšať kliknutím na Odoslať testovaciu notifikáciu. Okrem "
+"toho môžete použiť "
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
@@ -2387,8 +2387,8 @@ msgid ""
 "In Turris OS, you decide when and how to get the latest updates\n"
 "                    to keep your device running smoothly and securely."
 msgstr ""
-"V Turris OS sami rozhodujete, kedy a ako sa majú získavať najnovšie "
-"aktualizácie,\n"
+"V Turris OS sami rozhodujete o čase a spôsobe získavania najnovších "
+"aktualizácií,\n"
 "                    aby vaše zariadenie fungovalo hladko a bezpečne."
 
 #: js/src/packageManagement/updates/Updates.js:48
@@ -2513,14 +2513,12 @@ msgid "Choose a password."
 msgstr "Zvoľte si heslo."
 
 #: js/src/password/Password.js:216
-#, fuzzy
 msgid "Password should have at least eight symbols."
-msgstr "Heslo by malo mať aspoň šesť znakov."
+msgstr "Heslo by malo mať aspoň osem znakov."
 
 #: js/src/password/Password.js:219
-#, fuzzy
 msgid "Password cannot have more than 256 symbols."
-msgstr "Heslo nemôže mať viac ako 128 znakov."
+msgstr "Heslo nemôže mať viac ako 256 znakov."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -2689,7 +2687,7 @@ msgid ""
 "might not work correctly."
 msgstr ""
 "Vaše zariadenie potrebuje na svoju činnosť správne nastavenie času. Ak "
-"hodiny v zariadení meškajú, postup overovania SSL certifikátu nemusí "
+"hodiny v zariadení meškajú, procedúra overovania SSL certifikátu nemusí "
 "prebiehať správne."
 
 #: js/src/regionAndTime/RegionAndTime.js:56
@@ -2897,10 +2895,10 @@ msgid ""
 "your ISP (internet service provider). Usually, it can be left untouched "
 "if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
-"Tu môžete zadať nastavenia portu WAN podľa inštrukcií vášho poskytovateľa"
-" internetových služieb. Ak je váš router pripojený k internetu "
-"prostredníctvom káblového alebo DSL modemu, obvykle môžu byť ponechané "
-"bez zmeny."
+"Na tejto stránke môžete zadať nastavenia portu WAN podľa inštrukcií od "
+"vášho poskytovateľa internetových služieb. Ak je váš router pripojený k "
+"internetu prostredníctvom káblového alebo DSL modemu, zvyčajne je možné "
+"ponechať nastavenia bez zmeny."
 
 #: js/src/wan/WAN.js:54
 msgid ""
@@ -3078,10 +3076,10 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
-"Ak chcete používať router ako prístupový bod Wi-Fi, povoľte tu Wi-Fi a "
-"vyplňte SSID (názov prístupového bodu) a príslušné heslo. Potom môžete "
-"nastaviť svoje mobilné zariadenia pomocou QR kódu, ktorý je k dispozícii "
-"vo formulári."
+"Ak chcete používať router ako prístupový bod Wi-Fi, povoľte na tejto "
+"stránke Wi-Fi, vyplňte SSID (názov prístupového bodu) a príslušné heslo. "
+"Svoje mobilné zariadenia potom môžete nastaviť pomocou QR kódu, ktorý "
+"nájdete v tomto formulári."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."

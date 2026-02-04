@@ -1,14 +1,14 @@
 # Swedish translations for reForis.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-03 13:38+0300\n"
-"PO-Revision-Date: 2025-03-01 04:02+0000\n"
+"POT-Creation-Date: 2026-02-04 18:54+0300\n"
+"PO-Revision-Date: 2026-01-08 18:01+0000\n"
 "Last-Translator: Kristoffer Grundström "
 "<swedishsailfishosuser@tutanota.com>\n"
 "Language: sv\n"
@@ -547,7 +547,7 @@ msgstr "Inaktivera DNSSEC"
 
 #: js/src/dns/Forwarders/Forwarders.js:81
 msgid "Edit forwarder"
-msgstr ""
+msgstr "Redigera vidarebefordrare"
 
 #: js/src/dns/Forwarders/Forwarders.js:82
 #: js/src/dns/Forwarders/Forwarders.js:104
@@ -583,7 +583,7 @@ msgstr "TLS-typ"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:87
 msgid "TLS hostname"
-msgstr ""
+msgstr "TLS-värdnamn"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:99
 msgid "TLS pin"
@@ -614,15 +614,15 @@ msgstr "Lägg till ${label}-address"
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:47
 msgid "Forwarder saved successfully."
-msgstr ""
+msgstr "Sparandet av vidarebefordraren lyckades."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:49
 msgid "Can't save forwarder."
-msgstr ""
+msgstr "Kan inte spara vidarebefordraren."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:56
 msgid "Forwarder added successfully."
-msgstr ""
+msgstr "Tilläggning av vidarebefordraren lyckades."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:58
 msgid "Can't add new forwarder."
@@ -647,7 +647,7 @@ msgstr ""
 #: js/src/guestNetwork/GuestNetwork.js:39 js/src/interfaces/constants.js:11
 #: js/src/main/pages.js:66
 msgid "Guest Network"
-msgstr ""
+msgstr "Gästnätverk"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
 msgid "The guest network is used for "
@@ -689,11 +689,11 @@ msgstr "Uppladdningshastighet i gästnätverket (i kilobits per sekund)."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:65
 msgid "Guest Network Settings"
-msgstr ""
+msgstr "Gästens nätverksinställningar"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:67
 msgid "Enable Guest Network"
-msgstr ""
+msgstr "Aktivera gästnätverk"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:77 js/src/lan/LANManagedForm.js:61
 msgid "Router IP address"
@@ -710,12 +710,12 @@ msgstr "Aktivera QoS"
 #: js/src/guestNetwork/GuestNetworkForm.js:159
 #: js/src/overview/Cards/LibrespeedCard.js:79
 msgid "Download"
-msgstr ""
+msgstr "Hämta"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
 #: js/src/overview/Cards/LibrespeedCard.js:93
 msgid "Upload"
-msgstr ""
+msgstr "Uppladdning"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:191
 msgid "Download speed must be positive"
@@ -977,7 +977,7 @@ msgstr "Nästa steg"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:50
 msgid "Skip"
-msgstr ""
+msgstr "Hoppa över"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:70
 #, fuzzy
@@ -997,7 +997,7 @@ msgstr ""
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:163
 msgid "Confirm"
-msgstr ""
+msgstr "Bekräfta"
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
@@ -1034,7 +1034,7 @@ msgstr ""
 #: js/src/guide/GuidePages/SentinelDescription.js:17
 #: js/src/overview/Cards/ThreatDetectionCard.js:62
 msgid "Threat Detection"
-msgstr ""
+msgstr "Hot-detektering"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:25
 msgid ", which utilizes minimal honeypots and firewall logging, the "
@@ -1073,11 +1073,11 @@ msgstr "Administration"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:31
 msgid "Licence Agreement"
-msgstr ""
+msgstr "Licensavtal"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:34
 msgid "Agreement"
-msgstr ""
+msgstr "Överrenskommelse"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:71
 msgid ""
@@ -1126,7 +1126,7 @@ msgstr "Router"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:40
 msgid "Minimal"
-msgstr ""
+msgstr "Minimal"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:58
 msgid "Cannot set workflow."
@@ -1134,7 +1134,7 @@ msgstr "Kan inte ställa in arbetsflöde."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:68
 msgid "Guide Workflow"
-msgstr ""
+msgstr "Arbetsflöde för guiden"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:70
 msgid ""
@@ -1144,7 +1144,7 @@ msgstr ""
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:85
 msgid "Recommended"
-msgstr ""
+msgstr "Rekommenderas"
 
 #: js/src/hostname/Hostname.js:25
 msgid "Here you can check and set the name of your device."
@@ -1165,7 +1165,7 @@ msgstr "Skriv värdnamnet igen för att ställa in ett nytt."
 
 #: js/src/hostname/HostnameForm.js:34
 msgid "Hostname Settings"
-msgstr ""
+msgstr "Inställningar för värdnamnet"
 
 #: js/src/hostname/HostnameForm.js:36
 #, fuzzy
@@ -1253,7 +1253,7 @@ msgstr ""
 
 #: js/src/interfaces/SelectedInterface.js:115
 msgid "Interface ID"
-msgstr ""
+msgstr "ID för gränssnittet"
 
 #: js/src/interfaces/SelectedInterface.js:120
 #, fuzzy
@@ -1281,7 +1281,7 @@ msgstr "N/A"
 
 #: js/src/interfaces/constants.js:12
 msgid "Unassigned"
-msgstr ""
+msgstr "Ej tilldelad"
 
 #: js/src/lan/LAN.js:25
 msgid ""
@@ -1402,7 +1402,7 @@ msgstr "Inställningar för uppdateringar"
 
 #: js/src/main/pages.js:130 js/src/packageManagement/packages/Packages.js:20
 msgid "Packages"
-msgstr ""
+msgstr "Paket"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:64
 #: js/src/main/pages.js:131 js/src/packageManagement/languages/Languages.js:20
@@ -1435,13 +1435,12 @@ msgid "Auto"
 msgstr "Auto"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
-#, fuzzy
 msgid "Theme"
-msgstr "Tid"
+msgstr "Tema"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:102
 msgid "Participate in translation"
-msgstr ""
+msgstr "Delta i översättning"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:38
 #: js/src/notifications/Notifications/Notifications.js:56
@@ -1473,7 +1472,7 @@ msgstr "Fler detaljer"
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:134
 #: js/src/portForwarding/PortForwarding.js:65
 msgid " page."
-msgstr ""
+msgstr " sida."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
 #: js/src/packageManagement/updates/UpdateApproval.js:120
@@ -1483,7 +1482,7 @@ msgstr "Installera nu"
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:151
 #: js/src/packageManagement/updates/UpdateApproval.js:40
 msgid "Cannot install updates."
-msgstr ""
+msgstr "Kan inte installera uppdateringar."
 
 #: js/src/maintenance/FactoryReset.js:17 js/src/maintenance/FactoryReset.js:49
 msgid "Factory Reset"
@@ -1558,7 +1557,7 @@ msgstr ""
 #: js/src/packageManagement/updateSettings/LicenseModal.js:37
 #: js/src/portForwarding/PortForwardingRulesModal.js:58
 msgid "Close"
-msgstr ""
+msgstr "Stäng"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
@@ -1595,7 +1594,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
-msgstr ""
+msgstr "ntfy"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:47
 msgid ""
@@ -1632,7 +1631,7 @@ msgstr "Mottagarens e-postadress"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:14
 msgid "Max"
-msgstr ""
+msgstr "Max"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:15
 #, fuzzy
@@ -1651,11 +1650,11 @@ msgstr "Ta bort"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:18
 msgid "Low"
-msgstr ""
+msgstr "Låg"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:19
 msgid "Min"
-msgstr ""
+msgstr "Min"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:54
 #, fuzzy
@@ -1669,7 +1668,7 @@ msgstr "Aviseringar"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:76
 msgid ""
@@ -1679,7 +1678,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:83
 msgid "Priority"
-msgstr ""
+msgstr "Prioritet"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
 #, fuzzy
@@ -1827,7 +1826,7 @@ msgstr "Inställningar för uppdateringar"
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
-msgstr ""
+msgstr "Uppdatera"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Activated"
@@ -1847,13 +1846,12 @@ msgid "Go to Dynamic Firewall package installation"
 msgstr "Dynamisk brandvägg"
 
 #: js/src/overview/Cards/LibrespeedCard.js:67
-#, fuzzy
 msgid "LibreSpeed"
-msgstr "Länkhastighet"
+msgstr "LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:69
 msgid "Go to LibreSpeed"
-msgstr ""
+msgstr "Gå till LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:82
 #: js/src/overview/Cards/LibrespeedCard.js:96
@@ -1862,7 +1860,7 @@ msgstr "Megabit per sekund"
 
 #: js/src/overview/Cards/LibrespeedCard.js:107
 msgid "Ping"
-msgstr ""
+msgstr "Pinga"
 
 #: js/src/overview/Cards/LibrespeedCard.js:110
 #: js/src/overview/Cards/LibrespeedCard.js:126
@@ -1871,16 +1869,15 @@ msgstr "Millisekund"
 
 #: js/src/overview/Cards/LibrespeedCard.js:123
 msgid "Jitter"
-msgstr ""
+msgstr "Jitter"
 
 #: js/src/overview/Cards/LibrespeedCard.js:138
-#, fuzzy
 msgid "Server"
-msgstr "Aldrig"
+msgstr "Server"
 
 #: js/src/overview/Cards/LibrespeedCard.js:152
 msgid "Performed"
-msgstr ""
+msgstr "Utfört"
 
 #: js/src/overview/Cards/LibrespeedCard.js:158
 msgid "No tests have been performed lately."
@@ -1905,20 +1902,19 @@ msgstr "OpenVPN-klienter"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:116
 msgid "Total In: "
-msgstr ""
+msgstr "Totalt in: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:125
 msgid "Total Out: "
-msgstr ""
+msgstr "Totalt ut: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:153
-#, fuzzy
 msgid "Connected"
-msgstr "Återansluter"
+msgstr "Ansluten"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:162
 msgid "Disconnected"
-msgstr ""
+msgstr "Urkopplad"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
 msgid "Go to Sentinel license agreement"
@@ -1951,7 +1947,7 @@ msgstr ""
 
 #: js/src/packageManagement/packages/PackagesForm.js:31
 msgid "Package Lists"
-msgstr ""
+msgstr "Paketlistor"
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:31
 msgid "Most Important License Agreement Points"
@@ -1965,7 +1961,7 @@ msgstr ""
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
 msgid "license agreement"
-msgstr ""
+msgstr "licensavtal"
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
 msgid ""
@@ -2186,7 +2182,7 @@ msgstr "Ny"
 
 #: js/src/packageManagement/updates/UpdateManager.js:72
 msgid "Updates Check"
-msgstr ""
+msgstr "Uppdateringskontroll"
 
 #: js/src/packageManagement/updates/UpdateManager.js:83
 msgid "Available Updates"
@@ -2388,12 +2384,12 @@ msgstr "Routerns IP-adress"
 #: js/src/portForwarding/PortForwardingRulesForm.js:85
 #: js/src/portForwarding/PortForwardingRulesTable.js:31
 msgid "External port"
-msgstr ""
+msgstr "Extern port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:96
 #: js/src/portForwarding/PortForwardingRulesTable.js:32
 msgid "Internal port"
-msgstr ""
+msgstr "Intern port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:107
 #: js/src/portForwarding/PortForwardingRulesTable.js:34
@@ -2582,7 +2578,7 @@ msgstr "Ett fel inträffade"
 
 #: js/src/utils/ErrorBoundary.js:37
 msgid "Oops! Something went wrong:"
-msgstr ""
+msgstr "Hoppsan! Någonting gick fel:"
 
 #: js/src/utils/ErrorBoundary.js:43
 msgid ""
@@ -2591,6 +2587,10 @@ msgid ""
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
+"Mer detaljerad information finns tillgängligt i din webbläsares konsol. "
+"Tillgänglig i flest webbläsare efter att man trycker "
+"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> eller "
+"<kbd>F12</kbd>."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
@@ -2672,7 +2672,7 @@ msgstr "IPv6-inställningar"
 
 #: js/src/wan/VLANForm.js:52
 msgid "Enable VLAN"
-msgstr ""
+msgstr "Aktivera VLAN"
 
 #: js/src/wan/VLANForm.js:62
 msgid "Set the VLAN ID"
@@ -2795,7 +2795,7 @@ msgstr "Adress"
 
 #: js/src/wan/WAN6Form.js:255
 msgid "Prefix"
-msgstr ""
+msgstr "Prefix"
 
 #: js/src/wan/WAN6Form.js:304
 msgid "Public IPv4"
@@ -2843,7 +2843,7 @@ msgstr "IPv4-inställningar"
 
 #: js/src/wan/WANForm.js:128
 msgid "PAP/CHAP username"
-msgstr ""
+msgstr "Användarnamn för PAP/CHAP"
 
 #: js/src/wan/WANForm.js:139
 msgid "PAP/CHAP password"
