@@ -1,23 +1,22 @@
 # Czech translations for reForis.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-03 13:38+0300\n"
+"POT-Creation-Date: 2026-02-04 18:54+0300\n"
 "PO-Revision-Date: 2025-12-12 12:00+0000\n"
 "Last-Translator: Lukáš Jelínek <devel@aiken.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
-"\n"
 "Language: cs\n"
+"Language-Team: Czech "
+"<https://hosted.weblate.org/projects/turris/reforis/cs/>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -3651,3 +3650,4 @@ msgstr "500 – Chyba serveru"
 #~ "Odeslání testovací zprávy se nezdařilo –"
 #~ " je možné, že vaše nastavení nejsou"
 #~ " správná."
+

@@ -1,23 +1,22 @@
 # Slovak translations for reForis.
-# Copyright (C) 2025 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
+# Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-03 13:38+0300\n"
+"POT-Creation-Date: 2026-02-04 18:54+0300\n"
 "PO-Revision-Date: 2025-12-12 12:00+0000\n"
 "Last-Translator: Atec <dr.atec@gmail.com>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/reforis/"
-"sk/>\n"
 "Language: sk\n"
+"Language-Team: Slovak "
+"<https://hosted.weblate.org/projects/turris/reforis/sk/>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -1400,8 +1399,8 @@ msgid ""
 "This section contains settings for the local network (LAN). The provided "
 "defaults are suitable for most networks."
 msgstr ""
-"Táto stránka obsahuje nastavenia miestnej siete (LAN). Predvolené nastavenia "
-"sú vhodné pre väčšinu sietí."
+"Táto stránka obsahuje nastavenia miestnej siete (LAN). Predvolené "
+"nastavenia sú vhodné pre väčšinu sietí."
 
 #: js/src/lan/LAN.js:29
 msgid ""
@@ -1727,11 +1726,11 @@ msgid ""
 "settings. Once you are done with the configuration, you can test it by "
 "pressing Send test notification. Additionally, you can use "
 msgstr ""
-"Vaše zariadenie vám môže podľa nastavení posielať e-mailové upozornenia o "
-"potrebných reštartoch, dôležitých udalostiach, nainštalovaných "
+"Vaše zariadenie vám môže podľa nastavení posielať e-mailové upozornenia o"
+" potrebných reštartoch, dôležitých udalostiach, nainštalovaných "
 "aktualizáciách a nových funkciách. Po dokončení konfigurácie môžete "
-"notifikácie vyskúšať kliknutím na Odoslať testovaciu notifikáciu. Okrem toho "
-"môžete použiť "
+"notifikácie vyskúšať kliknutím na Odoslať testovaciu notifikáciu. Okrem "
+"toho môžete použiť "
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
@@ -2896,10 +2895,10 @@ msgid ""
 "your ISP (internet service provider). Usually, it can be left untouched "
 "if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
-"Na tejto stránke môžete zadať nastavenia portu WAN podľa inštrukcií od vášho "
-"poskytovateľa internetových služieb. Ak je váš router pripojený k internetu "
-"prostredníctvom káblového alebo DSL modemu, zvyčajne je možné ponechať "
-"nastavenia bez zmeny."
+"Na tejto stránke môžete zadať nastavenia portu WAN podľa inštrukcií od "
+"vášho poskytovateľa internetových služieb. Ak je váš router pripojený k "
+"internetu prostredníctvom káblového alebo DSL modemu, zvyčajne je možné "
+"ponechať nastavenia bez zmeny."
 
 #: js/src/wan/WAN.js:54
 msgid ""
@@ -3077,10 +3076,10 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
-"Ak chcete používať router ako prístupový bod Wi-Fi, povoľte na tejto stránke "
-"Wi-Fi, vyplňte SSID (názov prístupového bodu) a príslušné heslo. Svoje "
-"mobilné zariadenia potom môžete nastaviť pomocou QR kódu, ktorý nájdete v "
-"tomto formulári."
+"Ak chcete používať router ako prístupový bod Wi-Fi, povoľte na tejto "
+"stránke Wi-Fi, vyplňte SSID (názov prístupového bodu) a príslušné heslo. "
+"Svoje mobilné zariadenia potom môžete nastaviť pomocou QR kódu, ktorý "
+"nájdete v tomto formulári."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -3636,3 +3635,4 @@ msgstr "500 – Chyba servera"
 #~ "Odoslanie testovacej notifikácie bolo "
 #~ "neúspešné, vaše nastavenie sú pravdepodobne"
 #~ " nesprávne."
+
