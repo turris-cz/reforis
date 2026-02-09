@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2025-12-12 12:00+0000\n"
-"Last-Translator: Lukáš Jelínek <devel@aiken.cz>\n"
+"PO-Revision-Date: 2026-02-10 22:09+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
+"\n"
 "Language: cs\n"
-"Language-Team: Czech "
-"<https://hosted.weblate.org/projects/turris/reforis/cs/>\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.16-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -81,7 +82,7 @@ msgstr "Varování!"
 
 #: js/src/common/RebootButton.js:41
 msgid "Are you sure you want to reboot the router?"
-msgstr "Opravdu chcete restartovat router?"
+msgstr "Opravdu chcete router restartovat?"
 
 #: js/src/common/RebootButton.js:44
 msgid "The router has been rebooted successfully."
@@ -3650,4 +3651,3 @@ msgstr "500 – Chyba serveru"
 #~ "Odeslání testovací zprávy se nezdařilo –"
 #~ " je možné, že vaše nastavení nejsou"
 #~ " správná."
-
