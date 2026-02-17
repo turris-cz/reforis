@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-02-10 22:09+0000\n"
+"PO-Revision-Date: 2026-02-18 15:09+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/turris/reforis/cs/>"
 "\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -146,7 +146,7 @@ msgstr ""
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
 msgid "No clients found."
-msgstr "Nebyli nalezeni žádní DHCP klienti."
+msgstr "Nenalezeni žádní klienti."
 
 #: js/src/common/network/DHCP6Clients.js:96
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
@@ -313,7 +313,7 @@ msgstr "Statická zápůjčka úspěšně smazána."
 
 #: js/src/common/network/DHCPClients/hooks.js:76
 msgid "Can't delete static lease."
-msgstr "Nelze smazat statickou zápůjčku DHCP."
+msgstr "Nelze smazat statickou zápůjčku."
 
 #: js/src/common/network/DHCPClients/hooks.js:107
 msgid "Static lease added successfully."
