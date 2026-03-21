@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
 "PO-Revision-Date: 2026-03-22 18:09+0000\n"
-"Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
+"Last-Translator: XVI <social-xvi@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/turris/reforis/"
 "fr/>\n"
 "Language: fr\n"
@@ -882,9 +882,8 @@ msgstr ""
 "passer à l’étape suivante."
 
 #: js/src/guide/constants.js:68
-#, fuzzy
 msgid "To activate Sentinel, you must accept the licence agreement."
-msgstr "Points de l'accord de licence les plus importants"
+msgstr "Pour activer Sentinel, vous devez accepter le contrat de licence."
 
 #: js/src/guide/constants.js:69
 msgid ""
@@ -1441,15 +1440,15 @@ msgid ""
 "obtain a new IP from DHCP (if DHCP is enabled), and you might need to "
 "<b>refresh the page</b> in your browser."
 msgstr ""
-"<b>Remarque :</b> Si vous modifiez l'adresse IP du routeur, tous les "
-"ordinateurs du réseau local, y compris probablement celui que vous "
-"utilisez actuellement, devront obtenir une nouvelle adresse IP <b></b> ce"
-" qui ne se produit pas immédiatement <b></b> . Il est recommandé de "
-"déconnecter et de reconnecter tous les câbles du réseau local après avoir"
-" soumis vos modifications afin de forcer la mise à jour. La page suivante"
-" ne se chargera pas tant que vous n'aurez pas obtenu une nouvelle IP à "
-"partir du DHCP (si le DHCP est activé), et il se peut que vous deviez "
-"<b>rafraîchir la page</b> dans votre navigateur."
+"<b>Remarque :</b> Si vous modifiez l'adresse IP du routeur, tous les "
+"ordinateurs du réseau local, y compris probablement celui que vous utilisez "
+"actuellement, devront obtenir une nouvelle <b>adresse IP </b> ce qui ne se "
+"produit pas <b>immédiatement </b> . Il est recommandé de déconnecter et de "
+"reconnecter tous les câbles du réseau local après avoir soumis vos "
+"modifications afin de forcer la mise à jour. La page suivante ne se chargera "
+"pas tant que vous n'aurez pas obtenu une nouvelle IP à partir du DHCP (si le "
+"DHCP est activé), et il se peut que vous deviez <b>rafraîchir la page</b> "
+"dans votre navigateur."
 
 #: js/src/lan/LANForm.js:19
 msgid ""
@@ -1624,7 +1623,7 @@ msgstr "Approuver la mise à jour"
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:132
 #, fuzzy
 msgid "See details in "
-msgstr "Plus de détails"
+msgstr "Plus de détails "
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:134
 #: js/src/portForwarding/PortForwarding.js:65
@@ -1672,9 +1671,8 @@ msgid "The router has been reset successfully."
 msgstr "Le mot de passe a été changé avec succès."
 
 #: js/src/maintenance/FactoryReset.js:37
-#, fuzzy
 msgid "An error occurred while resetting the router."
-msgstr "Une erreur s'est produite"
+msgstr "Une erreur s'est produite lors de la réinitialisation du routeur."
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
