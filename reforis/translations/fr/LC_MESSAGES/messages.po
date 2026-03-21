@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
 "PO-Revision-Date: 2026-03-22 18:09+0000\n"
-"Last-Translator: XVI <social-xvi@protonmail.com>\n"
+"Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/turris/reforis/"
 "fr/>\n"
 "Language: fr\n"
@@ -1075,7 +1075,7 @@ msgstr "Étape suivante"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:50
 msgid "Skip"
-msgstr ""
+msgstr "Ignorer"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:70
 #, fuzzy
@@ -1094,9 +1094,8 @@ msgstr ""
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:163
-#, fuzzy
 msgid "Confirm"
-msgstr "Confirmer le redémarrage"
+msgstr "Confirmer"
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
@@ -1584,7 +1583,6 @@ msgid "Light"
 msgstr "Clair"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:25
-#, fuzzy
 msgid "Dark"
 msgstr "Sombre"
 
@@ -1599,7 +1597,7 @@ msgstr "Heure"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:102
 msgid "Participate in translation"
-msgstr ""
+msgstr "Participer à la traduction"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:38
 #: js/src/notifications/Notifications/Notifications.js:56
@@ -1630,9 +1628,8 @@ msgstr "Plus de détails"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:134
 #: js/src/portForwarding/PortForwarding.js:65
-#, fuzzy
 msgid " page."
-msgstr "Paquets"
+msgstr " page."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
 #: js/src/packageManagement/updates/UpdateApproval.js:120
@@ -2032,7 +2029,7 @@ msgstr "Paramètres de mise à jour"
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
-msgstr ""
+msgstr "Actualiser"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Activated"
@@ -2057,7 +2054,7 @@ msgstr "LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:69
 msgid "Go to LibreSpeed"
-msgstr ""
+msgstr "Aller à LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:82
 #: js/src/overview/Cards/LibrespeedCard.js:96
@@ -2078,9 +2075,8 @@ msgid "Jitter"
 msgstr ""
 
 #: js/src/overview/Cards/LibrespeedCard.js:138
-#, fuzzy
 msgid "Server"
-msgstr "Jamais"
+msgstr "Serveur"
 
 #: js/src/overview/Cards/LibrespeedCard.js:152
 msgid "Performed"
@@ -2117,9 +2113,8 @@ msgid "Total Out: "
 msgstr ""
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:153
-#, fuzzy
 msgid "Connected"
-msgstr "Reconnexion"
+msgstr "Connecté"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:162
 msgid "Disconnected"
