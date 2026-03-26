@@ -8,6 +8,19 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.9.0] - 2026-03-25
+
+### Added
+
+- Added & updated Weblate translations
+
+### Changed
+
+- Updated Foris JS library to version 6.11.0
+- Updated several dependencies in package.json
+- Downgraded sass to 1.78.0 due to warnings in the build
+- NPM audit fix
+
 ## [3.8.0] - 2025-12-03
 
 ### Added
@@ -741,7 +754,8 @@ and this project adheres to
 
 - Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.8.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.0...master
+[3.9.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.8.0...v3.9.0
 [3.8.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.7.0...v3.8.0
 [3.7.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.6.0...v3.7.0
 [3.6.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.5.1...v3.6.0
