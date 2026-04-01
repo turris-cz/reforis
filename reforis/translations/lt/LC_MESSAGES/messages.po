@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-03-30 21:09+0000\n"
+"PO-Revision-Date: 2026-04-01 21:10+0000\n"
 "Last-Translator: Fln <weblate.org@fln.lt>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/turris/"
 "reforis/lt/>\n"
@@ -490,18 +490,25 @@ msgid ""
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
+"Čia galite patikrinti interneto ryšį. Šis testas taip pat gali būti "
+"naudingas patikrinimui ar DNS sistema veikia tinkamai. Nepamirškite "
+"paspausti <b>Išsaugoti mygtuko</b> jei buvo pakeisti persiuntimo nustatymai."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
 "This will enable your DNS resolver to place DHCP client's names among the"
 " local DNS records."
 msgstr ""
+"Tai įjungs DNS serviso funkcionalumą pridėti DHCP klientų vardus prie "
+"vietinių DNS įrašų."
 
 #: js/src/dns/DNSForm.js:20
 msgid ""
 "This domain will be used as suffix. E.g. The result for client "
 "\"android-123\" and domain \"my.lan\" will be \"android-123.my.lan\"."
 msgstr ""
+"Šis domenas bus naudojamas kaip galūnė. Pvz. iš kliento vardo \"android-"
+"123\" ir domeno \"my.lan\" bus gaunama \"android-123.my.lan\"."
 
 #: js/src/dns/DNSForm.js:67
 msgid "DNS Settings"
@@ -537,126 +544,129 @@ msgid ""
 "that you will be connecting your device to the network where DNSSEC is "
 "broken."
 msgstr ""
+"Primygtinai rekomenduojame palikti DNSSEC tikrinimą įjungtą, nebent esate "
+"įsitikinęs kad jūsų įrenginys bus prijungtas prie tinklo kuriame DNSSEC "
+"neveikia."
 
 #: js/src/dns/DNSSECDisableModal.js:21
 msgid "Do you still want to continue and stay unprotected?"
-msgstr ""
+msgstr "Ar tikrai norite tęsti ir likti neapsaugotas?"
 
 #: js/src/dns/DNSSECDisableModal.js:56
 msgid "Disable DNSSEC"
-msgstr ""
+msgstr "Išjungti DNSSEC"
 
 #: js/src/dns/Forwarders/Forwarders.js:81
 msgid "Edit forwarder"
-msgstr ""
+msgstr "Keisti persiuntimo serverius"
 
 #: js/src/dns/Forwarders/Forwarders.js:82
 #: js/src/dns/Forwarders/Forwarders.js:104
 msgid "Add custom forwarder"
-msgstr ""
+msgstr "Pridėti kitus persiuntimo serverius"
 
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Forwarders"
-msgstr ""
+msgstr "Persiuntimo serveriai"
 
 #: js/src/dns/Forwarders/ForwardersTable.js:47
 msgid "Use provider's DNS resolver"
-msgstr ""
+msgstr "Naudoti tiekėjo DNS serverį"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:24
 msgid "Base 64 encoded SHA-256."
-msgstr ""
+msgstr "Base64 koduota SHA-256 reikšmė."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:25
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
-msgstr ""
+msgstr "\"Be TLS\" reiškia, kad bus naudojamas įprastas DNS protokolas per UDP."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
 #: js/src/packageManagement/updates/UpdateApproval.js:142
 #: js/src/portForwarding/PortForwardingRulesForm.js:46
 #: js/src/portForwarding/PortForwardingRulesTable.js:29
 msgid "Name"
-msgstr ""
+msgstr "Pavadinimas"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:69
 msgid "TLS type"
-msgstr ""
+msgstr "TLS tipas"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:87
 msgid "TLS hostname"
-msgstr ""
+msgstr "TLS serverio vardas"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:99
 msgid "TLS pin"
-msgstr ""
+msgstr "TLS prisegimas"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:15
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:16
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:53
 #, python-brace-format
 msgid "${label} Addresses"
-msgstr ""
+msgstr "${label} adresas"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:59
 #, python-brace-format
 msgid "${label} #${index + 1}"
-msgstr ""
+msgstr "${label} #${index + 1}"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:83
 #, python-brace-format
 msgid "Add ${label} address"
-msgstr ""
+msgstr "Pridėti ${label} adresą"
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:47
 msgid "Forwarder saved successfully."
-msgstr ""
+msgstr "Persiuntimo serveriai sėkmingai išsaugoti."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:49
 msgid "Can't save forwarder."
-msgstr ""
+msgstr "Nepavyko išsaugoti persiuntimo serverių."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:56
 msgid "Forwarder added successfully."
-msgstr ""
+msgstr "Persiuntimo serveriai sėkmingai pridėti."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:58
 msgid "Can't add new forwarder."
-msgstr ""
+msgstr "Nepavyko pridėti persiuntimo serverių."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:20
 msgid "Forwarder name should have at least one symbol."
-msgstr ""
+msgstr "Persiuntimo pavadinime turi būti bent vienas simbolis."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:28
 msgid "Hostname should have at least one symbol."
-msgstr ""
+msgstr "Serverio varde turi būti bent vienas simbolis."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:33
 msgid "TLS pin should have at least one symbol."
-msgstr ""
+msgstr "TLS prisegime turi būti bent vienas simbolis."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:45
 msgid "Define at least one of the IP addresses of the forwarder."
-msgstr ""
+msgstr "Nurodykite bent vieną persiuntimo serverio IP adresą."
 
 #: js/src/guestNetwork/GuestNetwork.js:39 js/src/interfaces/constants.js:11
 #: js/src/main/pages.js:66
 msgid "Guest Network"
-msgstr ""
+msgstr "Svečių tinklas"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
 msgid "The guest network is used for "
-msgstr ""
+msgstr "Svečių tinklas naudojamas "
 
 #: js/src/guestNetwork/GuestNetwork.js:43
 msgid "guest Wi-Fi"
-msgstr ""
+msgstr "svečių Wi-Fi"
 
 #: js/src/guestNetwork/GuestNetwork.js:45
 msgid ""
@@ -664,66 +674,71 @@ msgid ""
 " are allowed to access the internet but are not allowed to access the "
 "configuration interface of this device or the devices in LAN."
 msgstr ""
+"Jis atskirtas nuo jūsų įprasto vietinio tinklo. Įrenginiai prijungti prie "
+"šio tinklo gali naudoti interneto, tačiau negali pasiekti maršrutizatoriaus "
+"valdymo interfeiso bei kitų įrenginių esančių vietiniame tinkle."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
-msgstr ""
+msgstr "Maršrutizatoriaus IP adresas svečių tinklo viduje."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:19
 msgid "Network mask of the guest inner network."
-msgstr ""
+msgstr "Vidinio svečių tinklo kaukė."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:22
 msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
+"Šis nustatymas leidžia nustatyti duomenų pralaidumo ribą svečių tinklui, kad "
+"jis nestabdytų pagrindinio jūsų tinklo."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
-msgstr ""
+msgstr "Atsisiuntimo greitis svečių tinkle (kilobitais per sekundę)."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:28
 msgid "Upload speed in guest network (in kilobits per second)."
-msgstr ""
+msgstr "Išsiuntimo greitis svečių tinkle (kilobitais per sekundę)."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:65
 msgid "Guest Network Settings"
-msgstr ""
+msgstr "Svečių tinklo nustatymai"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:67
 msgid "Enable Guest Network"
-msgstr ""
+msgstr "Įjungti svečių tinklą"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:77 js/src/lan/LANManagedForm.js:61
 msgid "Router IP address"
-msgstr ""
+msgstr "Maršrutizatoriaus IP adresas"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:98 js/src/lan/LANManagedForm.js:82
 msgid "Enable DHCP"
-msgstr ""
+msgstr "Įjungti DHCP"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:116
 msgid "Enable QoS"
-msgstr ""
+msgstr "Įjungti QoS"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:159
 #: js/src/overview/Cards/LibrespeedCard.js:79
 msgid "Download"
-msgstr ""
+msgstr "Atsisiuntimas"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
 #: js/src/overview/Cards/LibrespeedCard.js:93
 msgid "Upload"
-msgstr ""
+msgstr "Išsiuntimas"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:191
 msgid "Download speed must be positive"
-msgstr ""
+msgstr "Atsisiuntimo greitis turi būti teigiamas"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:194
 msgid "Upload speed must be positive"
-msgstr ""
+msgstr "Išsiuntimo greitis turi būti teigiamas"
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:13
 msgid ""
@@ -731,38 +746,45 @@ msgid ""
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
+"Šiuo metu šiame tinkle nėra įrenginiu. Pakeitimai kuriuos čia atliekate "
+"pradės veikti tik tuomet kai šiam tinklui priskirsite interfeisą."
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:17
 msgid "All network interfaces of this network are currently down."
-msgstr ""
+msgstr "Visi šio tinklo interfeisai šiuo metu yra neaktyvūs."
 
 #: js/src/guide/constants.js:13
 msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
 "device."
 msgstr ""
+"Sveiki prisijungę prie reForis tinklo sąsajos. Šis gidas padės jūsų įrenginį "
+"paruošti naudojimui."
 
 #: js/src/guide/constants.js:16
 msgid ""
 "Firstly it is required to set your password. Note the security of your "
 "home network is in your hands, so try not to use weak passwords."
 msgstr ""
+"Pirmiausia nustatykite slaptažodį. Nepamirškite, kad nuo to priklauso jūsų "
+"tinklo saugumas, nenaudokite silpnų slaptažodžių."
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
-msgstr ""
+msgstr "Slaptažodis nustatytas. Galite eiti prie kito žingsnio."
 
 #: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
-msgstr ""
+msgstr "Darbo rėžimas nustatytas. Galite eiti prie kito žingsnio."
 
 #: js/src/guide/constants.js:27
 msgid "Here you need to decide which interfaces belong to which network."
 msgstr ""
+"Čia reikia pasirinkti kurie interfeisai bus susieti su kuriais tinklais."
 
 #: js/src/guide/constants.js:30
 msgid "If you are in doubt use the current settings."
-msgstr ""
+msgstr "Jei dvejojate naudokite dabartinius nustatymus."
 
 #: js/src/guide/constants.js:32
 msgid ""
