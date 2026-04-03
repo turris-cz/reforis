@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-04-01 21:10+0000\n"
+"PO-Revision-Date: 2026-04-04 18:09+0000\n"
 "Last-Translator: Fln <weblate.org@fln.lt>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/turris/"
 "reforis/lt/>\n"
@@ -791,10 +791,12 @@ msgid ""
 "You've configured your network interfaces. It seems that you didn't break"
 " any crucial network settings so you can safely proceed to the next step."
 msgstr ""
+"Tinklo interfeisai sukonfigūruoti. Panašu, kad pakeitimai nesukėlė tinklo "
+"problemų, galite saugiai eiti prie kito žingsnio."
 
 #: js/src/guide/constants.js:37
 msgid "Now you need to set the time and timezone of your device."
-msgstr ""
+msgstr "Reikia įrenginiui nustatyti laiką ir parinkti laiko juostą."
 
 #: js/src/guide/constants.js:38
 msgid ""
@@ -802,22 +804,29 @@ msgid ""
 "matches the time on your computer if not try to update it via NTP or "
 "manually."
 msgstr ""
+"Laikas ir laiko juosta nustatyti. Patikrinkite ar laikas sutampa su laiku "
+"jūsų kompiuteryje, jei ne pamėginkite patikslinti laiką per NTP arba "
+"rankiniu būdu."
 
 #: js/src/guide/constants.js:43
 msgid ""
 "A proper DNS resolving is one of the key security features of your "
 "device. Let's configure it now."
 msgstr ""
+"Tinkamas DNS veikimas yra viena iš pagrindinių šio įrenginio saugumo "
+"savybių. Laikas jį sukonfigūruoti."
 
 #: js/src/guide/constants.js:46
 msgid ""
 "You've updated your DNS configuration. Try to run connection test to see "
 "whether your DNS resolver is properly set."
 msgstr ""
+"DNS konfigūracija atnaujinta. Išbandykite ryšio testą, jis parodys ar DNS "
+"veikia tinkamai."
 
 #: js/src/guide/constants.js:51
 msgid "In order to access the internet, you need to configure your WAN interface."
-msgstr ""
+msgstr "Kad galėtumėte pasiekti internetą reikia sukonfigūruoti WAN interfeisą."
 
 #: js/src/guide/constants.js:54
 msgid ""
@@ -825,6 +834,8 @@ msgid ""
 "whether it is working properly and if so you can safely proceed to the "
 "next step."
 msgstr ""
+"Sukonfigūravote WAN interfeisą. Išmėginkite ryšio testą, jis parodys ar "
+"viskas veikia tinkamai ir galėsite eiti prie kito žingsnio."
 
 #: js/src/guide/constants.js:59
 msgid ""
@@ -833,52 +844,67 @@ msgid ""
 "configuration interface unless you restart the network on your current "
 "device."
 msgstr ""
+"Dabar reikia sukonfigūruoti LAN interfeisą. Atkreipkite dėmesį, kad pakeitus "
+"tinklo nustatymui tikriausiai nebegalėsite pasiekti valdymo sąsajos nebent "
+"perkrausite tinklo nustatymus ir įrenginyje iš kurio jungiatės."
 
 #: js/src/guide/constants.js:62
 msgid ""
 "You've configured your LAN interface. Try to test whether settings work "
 "properly and if so you can safely proceed to the next step."
 msgstr ""
+"Sukonfigūravote LAN interfeisą. Pamėginkite patikrinti ar nustatymai veikia "
+"teisingai ir eikite prie kito žingsnio."
 
 #: js/src/guide/constants.js:68
 msgid "To activate Sentinel, you must accept the licence agreement."
 msgstr ""
+"Tam, kad aktyvuotumėte Sentinel, turite sutikti su licencijos sutartimi."
 
 #: js/src/guide/constants.js:69
 msgid ""
 "If you choose not to accept it, Sentinel will remain installed and "
 "accessible from the sidebar navigation, but it will not be active."
 msgstr ""
+"Jei pasirinksite nesutikti, Sentinel liks instaliuotas ir pasiekiamas per "
+"šoninį meniu, tačiau nebus aktyvus."
 
 #: js/src/guide/constants.js:73
 msgid ""
 "Sentinel is now set up. You can check its status and settings in the "
 "sidebar navigation."
 msgstr ""
+"Sentinel paruoštas darbui. Galite patikrinti jo būsena ir nustatymus per "
+"šoninį meniu."
 
 #: js/src/guide/constants.js:78
 msgid "Now you need to configure automatic updates on your device."
-msgstr ""
+msgstr "Dabar reikia parinkti automatinio šio įrenginio atnaujinimo nustatymus."
 
 #: js/src/guide/constants.js:81
 msgid "Please wait till the updater finishes its run."
-msgstr ""
+msgstr "Palaukite kol atnaujinimo programa pabaigs darbą."
 
 #: js/src/guide/constants.js:90
 msgid "Congratulations! Now your device is ready to be used."
-msgstr ""
+msgstr "Sveikiname! Jūsų įrenginys paruoštas naudojimui."
 
 #: js/src/guide/constants.js:96
 msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
 msgstr ""
+"Sveikiname! Dabar jūsų įrenginys gali veikti kaip maršrutizatorius ir "
+"valdyti duomenų srautus tarp LAN, WAN ir svečių tinklų."
 
 #: js/src/guide/constants.js:104
 msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
 "some further configuration updates to fit the device to your needs."
 msgstr ""
+"Minimalus įrenginio konfigūravimas baigtas. Atkreipkite dėmesį, kad "
+"tikriausiai reikės atlikti daugiau konfigūracijos pakeitimų, norint įrenginį "
+"pilnai pritaikyti prie savo poreikių."
 
 #: js/src/guide/constants.js:112
 msgid ""
@@ -887,6 +913,9 @@ msgid ""
 "Shield will try to connect to the Internet, and you will end up in the "
 "administration interface."
 msgstr ""
+"Įrenginys paruoštas naudojimui. Galite valdyti likusius nustatymus per "
+"valdymo sąsają. Kai uždarysite šį gidą, jūsų Shield įrenginys bandys "
+"prisijungti prie Interneto, ir jūs būsite nukreipti į valdymo sąsają."
 
 #: js/src/guide/constants.js:123
 msgid ""
@@ -894,6 +923,9 @@ msgid ""
 " put any interfaces to your WAN and Guest Network. So it is a good idea "
 "to assign all interfaces to LAN."
 msgstr ""
+"Pasirinkote įrenginį naudoti kaip vietinį serverį, nelabai prasminga "
+"priskirti interfeisus prie WAN ir svečių tinklo. Rekomenduojame visus "
+"interfeisus priskirti prie LAN."
 
 #: js/src/guide/constants.js:130
 msgid ""
@@ -902,6 +934,11 @@ msgid ""
 "probably want to act as a client here thus select "
 "<strong>Computer</strong> mode here."
 msgstr ""
+"Kad įrenginys veiktų kaip vietinis serveris jam nereikia valdyti LAN (jei "
+"vis tik norite jį valdyti iš naujo paleiskite gidą ir pasirinkite "
+"Maršrutizatoriaus darbo rėžimą). Tikriausiai norėsite, kad įrenginys veiktų "
+"kaip tinklo klientas, todėl čia pasirinkite <strong>Kompiuterio</strong> "
+"rėžimą."
 
 #: js/src/guide/constants.js:133
 msgid ""
@@ -909,6 +946,9 @@ msgid ""
 "IP addresses are entered correctly otherwise you won't be able to access "
 "this configuration interface when the new settings are applied."
 msgstr ""
+"Jei pasirinksite <strong>statinę</strong> įsitikinkite, kad IP adresai "
+"įvesti teisingai, kitu atveju nebegalėsite pasiekti šios valdymo sąsajos kai "
+"nauji nustatymai bus pritaikyti."
 
 #: js/src/guide/constants.js:136
 msgid ""
@@ -917,12 +957,18 @@ msgid ""
 "server which is managing your LAN. Then you need to connect to the new IP"
 " address to proceed the guide."
 msgstr ""
+"Jeigu pasirinksite <strong>DHCP</strong> metodą tikriausiai šis įrenginys "
+"gaus naują IP adresą. Jį sužinoti galite iš jūsų tinklą valdančio DHCP "
+"serverio. Kad galėtumėte tęsti šį gidą reikės prisijungti prie naujo IP "
+"adreso."
 
 #: js/src/guide/constants.js:139
 msgid ""
 "Note that either way you might need to re-plug your ethernet cables after"
 " you update the settings here."
 msgstr ""
+"Atkreipkite dėmesį, kad gali reikėti ištraukti ir vėl prijungti kompiuterių "
+"tinklo kabelius, bet kuriuo atveju, po šių nustatymų pakeitimo."
 
 #: js/src/guide/constants.js:143
 msgid ""
@@ -930,16 +976,20 @@ msgid ""
 "means that you can access the configuration interface of your device, and"
 " your device can access the internet."
 msgstr ""
+"Patikrinkite ar įvesti nustatymai veikia tinkamai. Jūs turėtumėte galėti "
+"pasiekti šio įrenginio valdymo sąsają, o šis įrenginys turėti prieiga prie "
+"interneto."
 
 #: js/src/guide/constants.js:148
 msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
 msgstr ""
+"Sveikiname! Jūsų įrenginys galės veikti kaip vietinis serveris jūsų tinkle."
 
 #: js/src/guide/hooks.js:24
 msgid "Cannot mark guide as finished."
-msgstr ""
+msgstr "Nepavyko gido pažymėti kaip užbaigto."
 
 #: js/src/guide/steps.js:21 js/src/main/pages.js:84
 #: js/src/notificationsSettings/SMTPCustomForm.js:124
@@ -949,36 +999,36 @@ msgstr "Slaptažodis"
 
 #: js/src/guide/steps.js:25
 msgid "Workflow"
-msgstr ""
+msgstr "Darbo rėžimas"
 
 #: js/src/guide/steps.js:29 js/src/main/pages.js:61
 msgid "Interfaces"
-msgstr ""
+msgstr "Intefeisai"
 
 #: js/src/guide/steps.js:33 js/src/regionAndTime/TimeForm.js:125
 msgid "Time"
-msgstr ""
+msgstr "Laikas"
 
 #: js/src/guide/steps.js:37 js/src/main/pages.js:48 js/src/main/pages.js:59
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: js/src/guide/steps.js:41
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:133
 #: js/src/main/pages.js:124 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
-msgstr ""
+msgstr "Atnaujinimai"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
 #: js/src/main/pages.js:46 js/src/main/pages.js:57 js/src/wan/WAN.js:29
 msgid "WAN"
-msgstr ""
+msgstr "WAN"
 
 #: js/src/guide/steps.js:49 js/src/interfaces/constants.js:10
 #: js/src/main/pages.js:47 js/src/main/pages.js:58
 #: js/src/portForwarding/PortForwarding.js:64
 msgid "LAN"
-msgstr ""
+msgstr "LAN"
 
 #: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
 msgid "Sentinel"
@@ -986,44 +1036,48 @@ msgstr "Sentinel"
 
 #: js/src/guide/steps.js:57
 msgid "Finish"
-msgstr ""
+msgstr "Užbaigti"
 
 #: js/src/guide/GuideControls/NextStepButton.js:28
 msgid "Next step"
-msgstr ""
+msgstr "Kitas žingsnis"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:50
 msgid "Skip"
-msgstr ""
+msgstr "Praleisti"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:70
 msgid "Are you sure you want to skip the whole guide?"
-msgstr ""
+msgstr "Ar tikrai norite praleisti visą gidą?"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:72
 msgid "This will skip the guide and you will be redirected to the overview page."
-msgstr ""
+msgstr "Tai praleis gidą ir būsite nukreipti į apžvalgos puslapį."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:77
 msgid ""
 "Settings that are not set up during the guide will be set to default "
 "values. And you will have to set them up manually."
 msgstr ""
+"Nustatymai kurie nebuvo pakeisti gido metu bus nustatyti į numatytas "
+"reikšmes. Juos reikės pakeisti rankiniu būdu."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:163
 msgid "Confirm"
-msgstr ""
+msgstr "Patvirtinti"
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
-msgstr ""
+msgstr "Gidas užbaigtas"
 
 #: js/src/guide/GuidePages/GuideFinish.js:22
 msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
+"Kai išeisite iš šio gido gausite prieigą prie pilnos šio įrenginio valdymo "
+"sąsajos."
 
 #: js/src/guide/GuidePages/GuideFinish.js:27
 msgid ""
@@ -1032,11 +1086,15 @@ msgid ""
 "security research to discover new attackers and give you access to "
 "dynamic firewall updates blocking known attackers."
 msgstr ""
+"Jei norite dar labiau padidinti apsaugos lygį rekomenduojame įdiegti duomenų "
+"rinkimo priedą (per Paketų valdymą). Tai leis jums būti mūsų saugumo tyrimų "
+"dalimi, atpažinti naujas atakas ir suteiks jums prieigą prie dinaminės "
+"ugniasienės atnaujinimų kurie blokuoja atpažintas atakas."
 
 #: js/src/guide/GuidePages/GuideFinish.js:33
 #: js/src/utils/useSessionTimeout.js:113
 msgid "Continue"
-msgstr ""
+msgstr "Tęsti"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:9
 msgid ""
@@ -1046,25 +1104,32 @@ msgid ""
 "attackers in real time. Sentinel is made up of several key components, "
 "including "
 msgstr ""
+"Turris Sentinel yra pažangi saugumo sistema skirta apsaugoti jūrų "
+"maršrutizatorių ir tinklą nuo kibernetinių atakų. Ji nuolat stebi ir "
+"analizuoja ataskaitas iš Turris įrenginių visame pasaulyje tam, kad "
+"atpažintų ir užblokuotų atakas realiu laiku. Sentinel susideda iš kelių "
+"komponentų, įskaitant "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:17
 #: js/src/overview/Cards/ThreatDetectionCard.js:62
 msgid "Threat Detection"
-msgstr ""
+msgstr "Grėsmių aptikimas"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:25
 msgid ", which utilizes minimal honeypots and firewall logging, the "
-msgstr ""
+msgstr ", jis naudoja minimalius honeypotus ir ugniasienės žurnalus, bei "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:33
 msgid "Dynamic Firewall (DynFW)"
-msgstr ""
+msgstr "Dinaminė ugniasienė (DynFW)"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:41
 msgid ""
 "for real-time threat prevention, and a centralized database that tracks "
 "and identifies potential attackers."
 msgstr ""
+"grėsmių aptikimui realiu laiku, bei centralizuota duomenų bazė kuri seka ir "
+"identifikuoja potencialius užpuolikus."
 
 #: js/src/guide/GuidePages/SentinelDescription.js:46
 msgid ""
@@ -1072,22 +1137,25 @@ msgid ""
 "helps protect not only your own device but also other users. You can "
 "explore real-time security insights and attack statistics on "
 msgstr ""
+"Įjungdami Sentinel, jūs prisidedate prie globalaus saugumo tinklo, kuris "
+"padeda apsaugoti ne tik jūsų įrenginį bet ir kitų įrenginius. Galite stebėti "
+"realaus laiko saugumo įžvalgas bei atakų statistiką naudodami "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:54
 msgid "Sentinel View"
-msgstr ""
+msgstr "Sentinel vaizdas"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:63
 msgid " For a detailed overview of how Sentinel works, visit the "
-msgstr ""
+msgstr " Detalesnį aprašymą kaip veikia Sentinel rasite "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:71
 msgid "Sentinel documentation"
-msgstr ""
+msgstr "Sentinel dokumentacijoje"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:31
 msgid "Licence Agreement"
-msgstr ""
+msgstr "Licencijos sutartis"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:34
 msgid "Agreement"
