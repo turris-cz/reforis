@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-04-08 10:09+0000\n"
+"PO-Revision-Date: 2026-04-19 07:09+0000\n"
 "Last-Translator: Priit Jõerüüt <jrthwlate@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/turris/reforis/"
 "et/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -712,10 +712,13 @@ msgid ""
 "Firstly it is required to set your password. Note the security of your "
 "home network is in your hands, so try not to use weak passwords."
 msgstr ""
+"Esmalt pead sisestama oma salasõna. Pane tähele, et sinu koduvõrgu "
+"turvalisus sõltub sinust endast, seega ära kasuta nõrku salasõnu."
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
 msgstr ""
+"Sinu sisestatud salasõna on kasutusel. Võid liikuda järgmise sammu juurde."
 
 #: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
@@ -1336,7 +1339,7 @@ msgstr ""
 
 #: js/src/main/pages.js:96 js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
-msgstr ""
+msgstr "Hooldus"
 
 #: js/src/main/pages.js:112
 msgid "Global Threat Statistics"
@@ -1466,6 +1469,8 @@ msgid ""
 "The Maintenance tab allows you to reboot the router or bring back all the"
 " default settings by performing a factory reset."
 msgstr ""
+"Hoolduse vahekaardilt leiad võimaluse oma ruuteri uuesti käivitamiseks või "
+"tehaseseadistuste taastamiseks."
 
 #: js/src/maintenance/Reboot.js:19
 msgid ""
@@ -2159,21 +2164,21 @@ msgstr ""
 
 #: js/src/password/ForisPasswordForm.js:55
 msgid "Set your password for this administration interface."
-msgstr ""
+msgstr "Sisesta haldusliidese salasõna."
 
 #: js/src/password/ForisPasswordForm.js:60
 msgid "Current password"
-msgstr ""
+msgstr "Senine salasõna"
 
 #: js/src/password/ForisPasswordForm.js:71
 #: js/src/password/RootPasswordForm.js:67
 msgid "New password"
-msgstr ""
+msgstr "Uus salasõna"
 
 #: js/src/password/ForisPasswordForm.js:84
 #: js/src/password/RootPasswordForm.js:79
 msgid "Confirm new password"
-msgstr ""
+msgstr "Korda uut salasõna"
 
 #: js/src/password/ForisPasswordForm.js:100
 msgid "Use the same password for advanced administration (root)"
@@ -2201,33 +2206,35 @@ msgstr ""
 
 #: js/src/password/Password.js:113
 msgid "Your password was set successfully."
-msgstr ""
+msgstr "Sinu salasõna sisestamine õnnestus."
 
 #: js/src/password/Password.js:148
 msgid "Password Settings"
-msgstr ""
+msgstr "Salasõna seadistused"
 
 #: js/src/password/Password.js:177
 msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
 msgstr ""
+"Siin võid sisestada haldusliidese salasõna. Palun teeta pikk ja unikaalne "
+"ning sellega tagad turvalise salasõna."
 
 #: js/src/password/Password.js:194 js/src/password/Password.js:198
 msgid "Passwords do not match."
-msgstr ""
+msgstr "Salasõnad ei klapi omavahel."
 
 #: js/src/password/Password.js:213
 msgid "Choose a password."
-msgstr ""
+msgstr "Sisesta salasõna."
 
 #: js/src/password/Password.js:216
 msgid "Password should have at least eight symbols."
-msgstr ""
+msgstr "Salasõna peab olema vähemalt kaheksa tähemärki pikk."
 
 #: js/src/password/Password.js:219
 msgid "Password cannot have more than 256 symbols."
-msgstr ""
+msgstr "Salasõna ei tohiks olla pikem 256-st tähemärgist."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -2722,7 +2729,7 @@ msgstr ""
 
 #: js/src/wan/WANForm.js:139
 msgid "PAP/CHAP password"
-msgstr ""
+msgstr "PAP/CHAP-i salasõna"
 
 #: js/src/wifi/WiFi.js:27
 msgid "Unfortunately, we were unable to detect any wireless cards in your router."
@@ -2735,6 +2742,9 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
+"Kui soovid kasutada ruuterit WiFi juurdepääsupunktina, lülita WiFi siin "
+"sisse ning sisesta SSID (juurdepääsupunkti nimi) ja vastav salasõna. "
+"Seejärel saad oma mobiilseadmed seadistada vormil lediuva QR-koodi abil."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -2806,7 +2816,7 @@ msgstr ""
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
-msgstr ""
+msgstr "Kehtiv salasõna on vale."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:126
 msgid ""
