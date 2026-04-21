@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-04-19 07:09+0000\n"
+"PO-Revision-Date: 2026-04-22 14:09+0000\n"
 "Last-Translator: Priit Jõerüüt <jrthwlate@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/turris/reforis/"
 "et/>\n"
@@ -26,10 +26,12 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
+"Turris OS on praegu saadaval mitmes eri harus, millel on erinev "
+"funktsionaalsus ja stabiilsus - saad ise valida, millist haru soovid testida."
 
 #: js/src/about/About.js:25 js/src/main/pages.js:105
 msgid "About"
-msgstr ""
+msgstr "Teave"
 
 #: js/src/about/About.js:28
 msgid ""
@@ -38,6 +40,9 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Siit leiad teavet seadme kohta. Kui võtad ühendust meie <a "
+"href=\"mailto:tech.support@turris.cz\" target=\"_blank\">kasutajatoega</a>, "
+"siis palun lisa see oma kirjale."
 
 #: js/src/about/About.js:37
 msgid "Device"
@@ -45,23 +50,23 @@ msgstr "Seade"
 
 #: js/src/about/About.js:45
 msgid "Serial number"
-msgstr ""
+msgstr "Seerianumber"
 
 #: js/src/about/About.js:49
 msgid "reForis version"
-msgstr ""
+msgstr "reForise versioon"
 
 #: js/src/about/About.js:53
 msgid "Turris OS version"
-msgstr ""
+msgstr "Turris OS-i versioon"
 
 #: js/src/about/About.js:58
 msgid "Turris OS branch"
-msgstr ""
+msgstr "Turris OS-i haru"
 
 #: js/src/about/About.js:80
 msgid "Kernel version"
-msgstr ""
+msgstr "Kerneli versioon"
 
 #: js/src/common/RebootButton.js:22 js/src/common/RebootButton.js:42
 #: js/src/maintenance/Reboot.js:17
@@ -134,42 +139,46 @@ msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
+"See loend sisaldab kõiki seadmeid, mis on ühendatud võrguga traadiga või "
+"traadita ühenduse kaudu, kasutades IPv6-protokolli."
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
 msgid "No clients found."
-msgstr ""
+msgstr "Ühtegi klienti ei leidu."
 
 #: js/src/common/network/DHCP6Clients.js:96
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:200
 msgid "Device is active"
-msgstr ""
+msgstr "Seade on aktiivne"
 
 #: js/src/common/network/DHCP6Clients.js:104
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:200
 msgid "Device is inactive"
-msgstr ""
+msgstr "Seade pole aktiivne"
 
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
-msgstr ""
+msgstr "DHCP-serverile saadetav hostinimi."
 
 #: js/src/common/network/DHCPClientForm.js:38
 msgid "DHCP hostname"
-msgstr ""
+msgstr "DHCP-hostinimi"
 
 #: js/src/common/network/DHCPClients.js:24
 msgid "DHCP Client List"
-msgstr ""
+msgstr "DHCP klientide loend"
 
 #: js/src/common/network/DHCPClients.js:26
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
+"See loend sisaldab kõiki seadmeid, mis on ühendatud võrguga traadiga või "
+"traadita ühenduse kaudu."
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
@@ -324,7 +333,7 @@ msgstr ""
 #: js/src/guide/GuideControls/SkipGuideButton.js:87
 #: js/src/notificationsSettings/TestNotification.js:161
 msgid "Cancel"
-msgstr ""
+msgstr "Katkesta"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:82
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
@@ -334,91 +343,91 @@ msgstr "Salvesta"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:50
 msgid "List of available hostnames"
-msgstr ""
+msgstr "Saadaval hostinimede loend"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:62
 msgid "IPv4 address"
-msgstr ""
+msgstr "IPv4 aadress"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:74
 #: js/src/portForwarding/PortForwardingRulesForm.js:71
 msgid "List of available IPv4 addresses"
-msgstr ""
+msgstr "Saadaval IPv4 aadresside loend"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:88
 #: js/src/interfaces/SelectedInterface.js:139
 msgid "MAC address"
-msgstr ""
+msgstr "MAC-aadress"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:100
 msgid "List of available MAC addresses"
-msgstr ""
+msgstr "Saadaval MAC-aadresside loend"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:100
 #: js/src/dns/Forwarders/ForwardersTable.js:40
 #: js/src/portForwarding/PortForwardingRulesTable.js:36
 msgid "Actions"
-msgstr ""
+msgstr "Tegevused"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:145
 #: js/src/dns/Forwarders/ForwardersTable.js:142
 #: js/src/portForwarding/PortForwardingRulesTable.js:82
 msgid "Edit"
-msgstr ""
+msgstr "Muuda"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:151
 #: js/src/dns/Forwarders/ForwardersTable.js:153
 #: js/src/portForwarding/PortForwardingRulesTable.js:88
 msgid "Delete"
-msgstr ""
+msgstr "Kustuta"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:186
 msgid "Set Static"
-msgstr ""
+msgstr "Määra staatiliseks"
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
 msgid "Test is running…"
-msgstr ""
+msgstr "Testimine on töös…"
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
 msgid "Test connection again"
-msgstr ""
+msgstr "Testi ühendust uuesti"
 
 #: js/src/connectionTest/ConnectionTestButton.js:33
 msgid "Test connection"
-msgstr ""
+msgstr "Testi ühendust"
 
 #: js/src/connectionTest/ConnectionTestResult.js:17
 msgid "IPv4 connectivity"
-msgstr ""
+msgstr "IPv4 ühenduvus"
 
 #: js/src/connectionTest/ConnectionTestResult.js:18
 msgid "IPv4 gateway connectivity"
-msgstr ""
+msgstr "IPv4 lüüsi ühenduvus"
 
 #: js/src/connectionTest/ConnectionTestResult.js:19
 msgid "IPv6 connectivity"
-msgstr ""
+msgstr "IPv6 ühenduvus"
 
 #: js/src/connectionTest/ConnectionTestResult.js:20
 msgid "IPv6 gateway connectivity"
-msgstr ""
+msgstr "IPv6 lüüsi ühenduvus"
 
 #: js/src/connectionTest/ConnectionTestResult.js:86
 msgid "Connection test successful"
-msgstr ""
+msgstr "Ühendusvustest toimis"
 
 #: js/src/connectionTest/ConnectionTestResult.js:91
 msgid "Connection test failed"
-msgstr ""
+msgstr "Ühendusvustest ei toiminud"
 
 #: js/src/connectionTest/ConnectionTestResult.js:96
 msgid "Connection test cannot be determined"
-msgstr ""
+msgstr "Ühendusvustesti oleku tuvastamine ei õnnestu"
 
 #: js/src/connectionTest/ConnectionTestResult.js:101
 msgid "Connection test not started"
-msgstr ""
+msgstr "Ühendusvustest pole käivitatud"
 
 #: js/src/dns/DNS.js:33
 msgid ""
@@ -522,7 +531,7 @@ msgstr ""
 
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Forwarders"
-msgstr ""
+msgstr "Edastajad"
 
 #: js/src/dns/Forwarders/ForwardersTable.js:47
 msgid "Use provider's DNS resolver"
@@ -541,7 +550,7 @@ msgstr ""
 #: js/src/portForwarding/PortForwardingRulesForm.js:46
 #: js/src/portForwarding/PortForwardingRulesTable.js:29
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:69
 msgid "TLS type"
@@ -557,11 +566,11 @@ msgstr ""
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:15
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:16
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:53
 #, python-brace-format
@@ -675,12 +684,12 @@ msgstr ""
 #: js/src/guestNetwork/GuestNetworkForm.js:159
 #: js/src/overview/Cards/LibrespeedCard.js:79
 msgid "Download"
-msgstr ""
+msgstr "Allalaadimine"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
 #: js/src/overview/Cards/LibrespeedCard.js:93
 msgid "Upload"
-msgstr ""
+msgstr "Üleslaadimine"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:191
 msgid "Download speed must be positive"
@@ -895,44 +904,44 @@ msgstr "Salasõna"
 
 #: js/src/guide/steps.js:25
 msgid "Workflow"
-msgstr ""
+msgstr "Töövoog"
 
 #: js/src/guide/steps.js:29 js/src/main/pages.js:61
 msgid "Interfaces"
-msgstr ""
+msgstr "Liidesed"
 
 #: js/src/guide/steps.js:33 js/src/regionAndTime/TimeForm.js:125
 msgid "Time"
-msgstr ""
+msgstr "Kellaaeg"
 
 #: js/src/guide/steps.js:37 js/src/main/pages.js:48 js/src/main/pages.js:59
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: js/src/guide/steps.js:41
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:133
 #: js/src/main/pages.js:124 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
-msgstr ""
+msgstr "Tarkvarauuendused"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
 #: js/src/main/pages.js:46 js/src/main/pages.js:57 js/src/wan/WAN.js:29
 msgid "WAN"
-msgstr ""
+msgstr "Laivõrk"
 
 #: js/src/guide/steps.js:49 js/src/interfaces/constants.js:10
 #: js/src/main/pages.js:47 js/src/main/pages.js:58
 #: js/src/portForwarding/PortForwarding.js:64
 msgid "LAN"
-msgstr ""
+msgstr "Kohtvõrk"
 
 #: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
 msgid "Sentinel"
-msgstr ""
+msgstr "Sentinel"
 
 #: js/src/guide/steps.js:57
 msgid "Finish"
-msgstr ""
+msgstr "Lõpeta"
 
 #: js/src/guide/GuideControls/NextStepButton.js:28
 msgid "Next step"
@@ -940,7 +949,7 @@ msgstr ""
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:50
 msgid "Skip"
-msgstr ""
+msgstr "Jäta vahele"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:70
 msgid "Are you sure you want to skip the whole guide?"
@@ -959,7 +968,7 @@ msgstr ""
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:163
 msgid "Confirm"
-msgstr ""
+msgstr "Kinnita"
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
@@ -982,7 +991,7 @@ msgstr ""
 #: js/src/guide/GuidePages/GuideFinish.js:33
 #: js/src/utils/useSessionTimeout.js:113
 msgid "Continue"
-msgstr ""
+msgstr "Jätka"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:9
 msgid ""
@@ -1037,7 +1046,7 @@ msgstr ""
 
 #: js/src/guide/GuidePages/SentinelEULA.js:34
 msgid "Agreement"
-msgstr ""
+msgstr "Tarkvara litsentsileping"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:71
 msgid ""
@@ -1082,11 +1091,11 @@ msgstr ""
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:39 js/src/lan/LANForm.js:33
 msgid "Router"
-msgstr ""
+msgstr "Ruuter"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:40
 msgid "Minimal"
-msgstr ""
+msgstr "Minimaalne"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:58
 msgid "Cannot set workflow."
@@ -1104,7 +1113,7 @@ msgstr ""
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:85
 msgid "Recommended"
-msgstr ""
+msgstr "Soovitatud"
 
 #: js/src/hostname/Hostname.js:25
 msgid "Here you can check and set the name of your device."
@@ -1193,11 +1202,11 @@ msgstr ""
 
 #: js/src/interfaces/SelectedInterface.js:85
 msgid "Network"
-msgstr ""
+msgstr "Võrk"
 
 #: js/src/interfaces/SelectedInterface.js:93
 msgid "State"
-msgstr ""
+msgstr "Olek"
 
 #: js/src/interfaces/SelectedInterface.js:107
 msgid "Module ID"
@@ -1205,7 +1214,7 @@ msgstr ""
 
 #: js/src/interfaces/SelectedInterface.js:111
 msgid "Slot"
-msgstr ""
+msgstr "Pesa"
 
 #: js/src/interfaces/SelectedInterface.js:115
 msgid "Interface ID"
@@ -1217,11 +1226,11 @@ msgstr ""
 
 #: js/src/interfaces/SelectedInterface.js:125
 msgid "Type"
-msgstr ""
+msgstr "Tüüp"
 
 #: js/src/interfaces/SelectedInterface.js:129
 msgid "Bus"
-msgstr ""
+msgstr "Siin"
 
 #: js/src/interfaces/SelectedInterface.js:133
 msgid "Link speed"
@@ -1232,11 +1241,11 @@ msgstr ""
 #: js/src/overview/Cards/LibrespeedCard.js:118
 #: js/src/overview/Cards/LibrespeedCard.js:134
 msgid "N/A"
-msgstr ""
+msgstr "pole teada"
 
 #: js/src/interfaces/constants.js:12
 msgid "Unassigned"
-msgstr ""
+msgstr "Määramata"
 
 #: js/src/lan/LAN.js:25
 msgid ""
@@ -1270,7 +1279,7 @@ msgstr ""
 
 #: js/src/lan/LANForm.js:34
 msgid "Computer"
-msgstr ""
+msgstr "Arvuti"
 
 #: js/src/lan/LANForm.js:84
 msgid "LAN Settings"
@@ -1307,7 +1316,7 @@ msgstr ""
 
 #: js/src/main/pages.js:32 js/src/overview/Overview.js:43
 msgid "Overview"
-msgstr ""
+msgstr "Ülevaade"
 
 #: js/src/main/pages.js:39
 msgid "Network Settings"
@@ -1320,11 +1329,11 @@ msgstr ""
 
 #: js/src/main/pages.js:56 js/src/wifi/WiFi.js:40
 msgid "Wi-Fi"
-msgstr ""
+msgstr "WiFi"
 
 #: js/src/main/pages.js:79
 msgid "Administration"
-msgstr ""
+msgstr "Haldus"
 
 #: js/src/main/pages.js:86
 msgid "Region & Time"
@@ -1335,7 +1344,7 @@ msgstr ""
 #: js/src/notifications/Notifications/Notifications.js:74
 #: js/src/notificationsSettings/NotificationsSettings.js:29
 msgid "Notifications"
-msgstr ""
+msgstr "Teavitused"
 
 #: js/src/main/pages.js:96 js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
@@ -1356,12 +1365,12 @@ msgstr ""
 
 #: js/src/main/pages.js:130 js/src/packageManagement/packages/Packages.js:20
 msgid "Packages"
-msgstr ""
+msgstr "Paketid"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:64
 #: js/src/main/pages.js:131 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
-msgstr ""
+msgstr "Keeled"
 
 #: js/src/main/pages.js:136
 msgid "Advanced Administration"
@@ -1369,11 +1378,11 @@ msgstr ""
 
 #: js/src/main/pages.js:143
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentatsioon"
 
 #: js/src/main/TopBar/LogoutButton.js:16 js/src/utils/useSessionTimeout.js:111
 msgid "Logout"
-msgstr ""
+msgstr "Logi välja"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:20
 msgid "Light"
@@ -1389,7 +1398,7 @@ msgstr "Automaatne"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
 msgid "Theme"
-msgstr ""
+msgstr "Kujundus"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:102
 msgid "Participate in translation"
@@ -1411,7 +1420,7 @@ msgstr ""
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:73
 msgid "Details"
-msgstr ""
+msgstr "Üksikasjad"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:103
 msgid "Approve Update"
@@ -1424,7 +1433,7 @@ msgstr ""
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:134
 #: js/src/portForwarding/PortForwarding.js:65
 msgid " page."
-msgstr ""
+msgstr " leht."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
 #: js/src/packageManagement/updates/UpdateApproval.js:120
@@ -1454,7 +1463,7 @@ msgstr ""
 
 #: js/src/maintenance/FactoryReset.js:32
 msgid "Reset"
-msgstr ""
+msgstr "Lähtesta"
 
 #: js/src/maintenance/FactoryReset.js:34
 msgid "The router has been reset successfully."
@@ -1530,7 +1539,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/CommonForm.js:46
 msgid "Importance"
-msgstr ""
+msgstr "Olulisus"
 
 #: js/src/notificationsSettings/CommonForm.js:58
 msgid "Send news"
@@ -1546,7 +1555,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
-msgstr ""
+msgstr "ntfy"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:47
 msgid ""
@@ -1557,11 +1566,11 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:19
 msgid "Turris"
-msgstr ""
+msgstr "Turris"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:23
 msgid "Custom"
-msgstr ""
+msgstr "Kohandatud"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:90
 msgid "Email Notification Settings"
@@ -1581,27 +1590,27 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:14
 msgid "Max"
-msgstr ""
+msgstr "Maksimaalne"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:15
 msgid "Urgent"
-msgstr ""
+msgstr "Ülioluline"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:16
 msgid "High"
-msgstr ""
+msgstr "Oluline"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:17
 msgid "Default"
-msgstr ""
+msgstr "Vaikimisi"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:18
 msgid "Low"
-msgstr ""
+msgstr "Vähetähtis"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:19
 msgid "Min"
-msgstr ""
+msgstr "Väikseim tähtsus"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:54
 msgid "Push Notification Settings"
@@ -1613,7 +1622,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
 msgid "URL"
-msgstr ""
+msgstr "Võrguaadress"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:76
 msgid ""
@@ -1623,43 +1632,43 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:83
 msgid "Priority"
-msgstr ""
+msgstr "Prioriteet"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
 msgid "Priority of the push notifications."
-msgstr ""
+msgstr "Tõuketeavituste prioriteet."
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
-msgstr ""
+msgstr "Puudub"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:23
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:24
 msgid "STARTTLS"
-msgstr ""
+msgstr "STARTTLS"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:61
 msgid "SMTP Settings"
-msgstr ""
+msgstr "SMTP seadistused"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:63
 msgid "Sender address (From)"
-msgstr ""
+msgstr "Saatja e-posti aadress"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:77
 msgid "Server address"
-msgstr ""
+msgstr "Serveri aadress"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:90
 msgid "Server port"
-msgstr ""
+msgstr "Serveri port"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:103
 msgid "Security"
-msgstr ""
+msgstr "Turvalisus"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
 #: js/src/wan/WAN6Form.js:434
@@ -1668,27 +1677,31 @@ msgstr "Kasutajanimi"
 
 #: js/src/notificationsSettings/SMTPTurrisForm.js:36
 msgid "Sender's name"
-msgstr ""
+msgstr "Saatja nimi"
 
 #: js/src/notificationsSettings/TestNotification.js:30
 msgid ""
 "You have unsaved changes in your notification settings. Do you want to "
 "discard them and test notifications using the previous settings?"
 msgstr ""
+"Sinu teavituste seadistustes on salvestamata muudatusi. Kas soovid need "
+"tühistada ja testida teavitusi eelmiste seadistuste alusel?"
 
 #: js/src/notificationsSettings/TestNotification.js:117
 msgid "Send Test Notification"
-msgstr ""
+msgstr "Saada testteavitus"
 
 #: js/src/notificationsSettings/TestNotification.js:119
 msgid ""
 "Here you can verify whether your SMTP provider or push notifications are "
 "configured correctly by sending a test notification."
 msgstr ""
+"Siin saad testteate saatmise abil kontrollida, kas sinu SMTP-teenusepakkuja "
+"või tõuketeavitused on korrektselt seadistatud."
 
 #: js/src/notificationsSettings/TestNotification.js:130
 msgid "Send"
-msgstr ""
+msgstr "Saada"
 
 #: js/src/notificationsSettings/helpTexts.js:9
 msgid ""
@@ -1721,132 +1734,133 @@ msgstr ""
 
 #: js/src/notificationsSettings/helpTexts.js:29
 msgid "This is the address notifications are send from."
-msgstr ""
+msgstr "See on aadress, millelt teavitusi saadetakse."
 
 #: js/src/notificationsSettings/validator.js:34
 #: js/src/notificationsSettings/validator.js:43
 msgid "Can't be empty."
-msgstr ""
+msgstr "Ei või jääda tühjaks."
 
 #: js/src/notificationsSettings/validator.js:53
 msgid "Sender's name can't be empty."
-msgstr ""
+msgstr "Saatja nimi ei või jääda tühjaks."
 
 #: js/src/notificationsSettings/validator.js:57
 msgid ""
 "Sender's name can contain only alphanumeric characters, dots and "
 "underscores."
 msgstr ""
+"Saatja nimes võib olla vaid ASCII-tähti, numbreid, punkte ja alakriipse."
 
 #: js/src/notificationsSettings/validator.js:66
 msgid "Port is an number."
-msgstr ""
+msgstr "Pordi number peab olema täisarv."
 
 #: js/src/notificationsSettings/validator.js:67
 msgid "Maximum port is 65535."
-msgstr ""
+msgstr "Pordi number ei tohi olla suurem, kui 65535."
 
 #: js/src/notificationsSettings/validator.js:68
 msgid "Minimum port is 1."
-msgstr ""
+msgstr "Pordi number ei tohi olla väiksem, kui 1."
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:46
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Automaatsed uuendused"
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:49
 msgid "Go to update settings"
-msgstr ""
+msgstr "Ava uuendamise seadistused"
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
-msgstr ""
+msgstr "Värskenda andmeid"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Activated"
-msgstr ""
+msgstr "Aktiivne"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Disabled"
-msgstr ""
+msgstr "Pole kasutusel"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:23
 msgid "Dynamic Firewall"
-msgstr ""
+msgstr "Dünaamiline tulemüür"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
 msgid "Go to Dynamic Firewall package installation"
-msgstr ""
+msgstr "Ava dünaamilise tulemüüri paketi paigaldus"
 
 #: js/src/overview/Cards/LibrespeedCard.js:67
 msgid "LibreSpeed"
-msgstr ""
+msgstr "LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:69
 msgid "Go to LibreSpeed"
-msgstr ""
+msgstr "Ava LibreSpeedi vaade"
 
 #: js/src/overview/Cards/LibrespeedCard.js:82
 #: js/src/overview/Cards/LibrespeedCard.js:96
 msgid "Megabit per second"
-msgstr ""
+msgstr "Megabitti sekundis"
 
 #: js/src/overview/Cards/LibrespeedCard.js:107
 msgid "Ping"
-msgstr ""
+msgstr "Pingiaeg"
 
 #: js/src/overview/Cards/LibrespeedCard.js:110
 #: js/src/overview/Cards/LibrespeedCard.js:126
 msgid "Millisecond"
-msgstr ""
+msgstr "Millisekund"
 
 #: js/src/overview/Cards/LibrespeedCard.js:123
 msgid "Jitter"
-msgstr ""
+msgstr "Faasivärin"
 
 #: js/src/overview/Cards/LibrespeedCard.js:138
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: js/src/overview/Cards/LibrespeedCard.js:152
 msgid "Performed"
-msgstr ""
+msgstr "Tehtud"
 
 #: js/src/overview/Cards/LibrespeedCard.js:158
 msgid "No tests have been performed lately."
-msgstr ""
+msgstr "Sa pole hiljuti kiirusteste teinud."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:61
 msgid "OpenVPN Clients"
-msgstr ""
+msgstr "OpenVPN-i kliendid"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:63
 msgid "Go to OpenVPN Client Settings"
-msgstr ""
+msgstr "Ava OpenVPN-i kliendi seadistused"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:77
 msgid "Currently, there are no connected OpenVPN clients."
-msgstr ""
+msgstr "Hetkel pole ühtegi ühendatud OpenVPN-i klienti."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:88
 msgid "There are no OpenVPN clients."
-msgstr ""
+msgstr "Pole ühtegi OpenVPN-i klienti."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:116
 msgid "Total In: "
-msgstr ""
+msgstr "Saabuv liiklus kokku: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:125
 msgid "Total Out: "
-msgstr ""
+msgstr "Väljuv liiklus kokku: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:153
 msgid "Connected"
-msgstr ""
+msgstr "Ühendatud"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:162
 msgid "Disconnected"
-msgstr ""
+msgstr "Katkestatud"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
 msgid "Go to Sentinel license agreement"
@@ -2091,15 +2105,15 @@ msgstr ""
 
 #: js/src/packageManagement/updates/UpdateApproval.js:141
 msgid "Action"
-msgstr ""
+msgstr "Tegevus"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:143
 msgid "Current"
-msgstr ""
+msgstr "Praegune"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:144
 msgid "New"
-msgstr ""
+msgstr "Uus"
 
 #: js/src/packageManagement/updates/UpdateManager.js:72
 msgid "Updates Check"
@@ -2300,7 +2314,7 @@ msgstr ""
 #: js/src/portForwarding/PortForwardingRulesForm.js:107
 #: js/src/portForwarding/PortForwardingRulesTable.js:34
 msgid "Enabled"
-msgstr ""
+msgstr "Sisselülitatud"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:23
 msgid "Port Forwarding Rules"
@@ -2402,11 +2416,11 @@ msgstr ""
 
 #: js/src/regionAndTime/RegionForm.js:96
 msgid "Country"
-msgstr ""
+msgstr "Riik"
 
 #: js/src/regionAndTime/RegionForm.js:108
 msgid "Timezone"
-msgstr ""
+msgstr "Ajavöönd"
 
 #: js/src/regionAndTime/TimeForm.js:28
 msgid "Via NTP"
@@ -2414,7 +2428,7 @@ msgstr ""
 
 #: js/src/regionAndTime/TimeForm.js:29
 msgid "Manually"
-msgstr ""
+msgstr "Käsitsi"
 
 #: js/src/regionAndTime/TimeForm.js:106
 msgid "Time Settings"
@@ -2454,20 +2468,20 @@ msgstr ""
 #: js/src/routerStateHandler/NetworkRestartHandler.js:37
 #: js/src/routerStateHandler/RebootHandler.js:34
 msgid "Reconnecting"
-msgstr ""
+msgstr "Ühendan uuesti"
 
 #: js/src/routerStateHandler/RebootHandler.js:28
 #, python-format
 msgid "Reboot after %d sec."
-msgstr ""
+msgstr "Taaskäivituseni on jäänud %d sekundit."
 
 #: js/src/routerStateHandler/RebootHandler.js:31
 msgid "Rebooting"
-msgstr ""
+msgstr "Käivitan uuesti"
 
 #: js/src/utils/ErrorBoundary.js:34
 msgid "An Error Occurred - reForis | Turris"
-msgstr ""
+msgstr "Tekkis viga - reForis | Turris"
 
 #: js/src/utils/ErrorBoundary.js:37
 msgid "Oops! Something went wrong:"
@@ -2673,11 +2687,11 @@ msgstr ""
 
 #: js/src/wan/WAN6Form.js:232
 msgid "Address"
-msgstr ""
+msgstr "Aadress"
 
 #: js/src/wan/WAN6Form.js:255
 msgid "Prefix"
-msgstr ""
+msgstr "Prefiks"
 
 #: js/src/wan/WAN6Form.js:304
 msgid "Public IPv4"
@@ -2693,7 +2707,7 @@ msgstr ""
 
 #: js/src/wan/WAN6Form.js:363
 msgid "MTU"
-msgstr ""
+msgstr "MTU"
 
 #: js/src/wan/WAN6Form.js:375
 msgid "Dynamic IPv4 handling"
@@ -2705,7 +2719,7 @@ msgstr ""
 
 #: js/src/wan/WAN6Form.js:449
 msgid "Key"
-msgstr ""
+msgstr "Võti"
 
 #: js/src/wan/WAN6Form.js:527
 msgid "MTU has to be a number in the range of 1280-1480."
@@ -2850,7 +2864,7 @@ msgstr ""
 
 #: reforis/templates/guide.html:10
 msgid "Guide"
-msgstr ""
+msgstr "Kasutusjuhend"
 
 #: reforis/templates/errors/400.html:4 reforis/templates/errors/400.html:8
 msgid "400 - Bad Request"
@@ -2858,7 +2872,7 @@ msgstr ""
 
 #: reforis/templates/errors/400.html:9 reforis/templates/errors/500.html:9
 msgid "Error:"
-msgstr ""
+msgstr "Viga:"
 
 #: reforis/templates/errors/400.html:12 reforis/templates/errors/500.html:12
 msgid "Extra:"
@@ -2866,7 +2880,7 @@ msgstr ""
 
 #: reforis/templates/errors/400.html:16 reforis/templates/errors/500.html:16
 msgid "Trace:"
-msgstr ""
+msgstr "Tagasijälitus:"
 
 #: reforis/templates/errors/404.html:4
 msgid "404 - Page not found"
