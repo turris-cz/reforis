@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2025-07-16 23:02+0000\n"
+"PO-Revision-Date: 2026-04-22 14:09+0000\n"
 "Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/turris/reforis/"
+"de/>\n"
 "Language: de\n"
-"Language-Team: German "
-"<https://hosted.weblate.org/projects/turris/reforis/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -2565,14 +2566,12 @@ msgid "Choose a password."
 msgstr "Wählen Sie ein Passwort."
 
 #: js/src/password/Password.js:216
-#, fuzzy
 msgid "Password should have at least eight symbols."
-msgstr "Das Passwort sollte wenigstens sechs Zeichen enthalten."
+msgstr "Das Passwort sollte wenigstens acht Zeichen enthalten."
 
 #: js/src/password/Password.js:219
-#, fuzzy
 msgid "Password cannot have more than 256 symbols."
-msgstr "Das Passwort kann nicht mehr als 128 Zeichen enthalten."
+msgstr "Das Passwort kann nicht mehr als 256 Zeichen enthalten."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -3861,4 +3860,3 @@ msgstr "500 - Serverfehler"
 #~ "Das Absenden der Testnachricht ist "
 #~ "fehlgeschlagen, vielleicht stimmt etwas an "
 #~ "der Konfiguration nicht."
-
