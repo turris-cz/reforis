@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-05-04 00:09+0000\n"
+"Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
+"reforis/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.17.1\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -24,10 +26,12 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
+"O SO Turris é lançado atualmente em vários ramos, que têm diferentes funções "
+"e estabilidade variada - você pode escolher qual ramo deseja testar."
 
 #: js/src/about/About.js:25 js/src/main/pages.js:105
 msgid "About"
-msgstr ""
+msgstr "Acerca de"
 
 #: js/src/about/About.js:28
 msgid ""
@@ -39,43 +43,43 @@ msgstr ""
 
 #: js/src/about/About.js:37
 msgid "Device"
-msgstr ""
+msgstr "Dispositivo"
 
 #: js/src/about/About.js:45
 msgid "Serial number"
-msgstr ""
+msgstr "Número de série"
 
 #: js/src/about/About.js:49
 msgid "reForis version"
-msgstr ""
+msgstr "Versão de reForis"
 
 #: js/src/about/About.js:53
 msgid "Turris OS version"
-msgstr ""
+msgstr "Versão do SO Turris"
 
 #: js/src/about/About.js:58
 msgid "Turris OS branch"
-msgstr ""
+msgstr "Ramo do SO Turris"
 
 #: js/src/about/About.js:80
 msgid "Kernel version"
-msgstr ""
+msgstr "Versão de Kernel"
 
 #: js/src/common/RebootButton.js:22 js/src/common/RebootButton.js:42
 #: js/src/maintenance/Reboot.js:17
 msgid "Reboot"
-msgstr ""
+msgstr "Reiniciar"
 
 #: js/src/common/RebootButton.js:40 js/src/dns/DNSSECDisableModal.js:34
 #: js/src/guide/GuideControls/SkipGuideButton.js:68
 #: js/src/maintenance/FactoryReset.js:28
 #: js/src/notificationsSettings/TestNotification.js:152
 msgid "Warning!"
-msgstr ""
+msgstr "Aviso!"
 
 #: js/src/common/RebootButton.js:41
 msgid "Are you sure you want to reboot the router?"
-msgstr ""
+msgstr "Tem certeza que deseja reiniciar o router?"
 
 #: js/src/common/RebootButton.js:44
 msgid "The router has been rebooted successfully."
@@ -103,7 +107,7 @@ msgstr ""
 
 #: js/src/common/network/DHCP6Clients.js:39
 msgid "DUID"
-msgstr ""
+msgstr "DUID"
 
 #: js/src/common/network/DHCP6Clients.js:43
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
@@ -923,7 +927,7 @@ msgstr ""
 
 #: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
 msgid "Sentinel"
-msgstr ""
+msgstr "Sentinela"
 
 #: js/src/guide/steps.js:57
 msgid "Finish"
@@ -1302,7 +1306,7 @@ msgstr ""
 
 #: js/src/main/pages.js:32 js/src/overview/Overview.js:43
 msgid "Overview"
-msgstr ""
+msgstr "Visão geral"
 
 #: js/src/main/pages.js:39
 msgid "Network Settings"
@@ -1372,15 +1376,15 @@ msgstr ""
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:20
 msgid "Light"
-msgstr ""
+msgstr "Claro"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:25
 msgid "Dark"
-msgstr ""
+msgstr "Escuro"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:30
 msgid "Auto"
-msgstr ""
+msgstr "Automático"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
 msgid "Theme"
@@ -1503,7 +1507,7 @@ msgstr ""
 #: js/src/packageManagement/updateSettings/LicenseModal.js:37
 #: js/src/portForwarding/PortForwardingRulesModal.js:58
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
@@ -1765,7 +1769,7 @@ msgstr ""
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:23
 msgid "Dynamic Firewall"
-msgstr ""
+msgstr "Firewall Dinâmica"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
 msgid "Go to Dynamic Firewall package installation"
@@ -2084,7 +2088,7 @@ msgstr ""
 
 #: js/src/packageManagement/updates/UpdateApproval.js:141
 msgid "Action"
-msgstr ""
+msgstr "Ação"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:143
 msgid "Current"
@@ -2462,7 +2466,7 @@ msgstr ""
 
 #: js/src/utils/ErrorBoundary.js:37
 msgid "Oops! Something went wrong:"
-msgstr ""
+msgstr "Oops! Algo correu mal:"
 
 #: js/src/utils/ErrorBoundary.js:43
 msgid ""
@@ -2471,12 +2475,17 @@ msgid ""
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
+"Informação mais detalhada está disponível na consola do seu navegador web. "
+"Na maioria dos navegadores é acessível pressionando <kbd><kbd>Ctrl</kbd>"
+"+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> ou <kbd>F12</kbd>."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
 "Please report this error to our support team via e-mail: <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 msgstr ""
+"Por favor reporte este erro à nossa equipa de suporte via e-mail: <a "
+"href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 
 #: js/src/utils/SkipLink.js:23
 msgid "Skip to main content"
