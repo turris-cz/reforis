@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-04 00:09+0000\n"
+"PO-Revision-Date: 2026-05-06 19:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -91,7 +91,7 @@ msgstr ""
 
 #: js/src/common/ScrollToTopArrow.js:33
 msgid "Go to top"
-msgstr ""
+msgstr "Ir para topo"
 
 #: js/src/common/network/DHCP6Clients.js:31
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
@@ -125,11 +125,11 @@ msgstr ""
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:63
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:44
 msgid "Never"
-msgstr ""
+msgstr "Nunca"
 
 #: js/src/common/network/DHCP6Clients.js:69
 msgid "IPv6 DHCP Client List"
-msgstr ""
+msgstr "Lista de Clientes DHCP de IPv6"
 
 #: js/src/common/network/DHCP6Clients.js:71
 msgid ""
