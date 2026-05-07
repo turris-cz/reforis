@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-06 19:11+0000\n"
+"PO-Revision-Date: 2026-05-08 00:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -40,6 +40,10 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Aqui pode encontrar alguma informação sobre o seu dispositivo. Por favor "
+"inclua-a na sua mensagem se contactar o nosso <a "
+"href=\"mailto:tech.support@turris.cz\" target=\"_blank\">suporte a clientes</"
+"a>."
 
 #: js/src/about/About.js:37
 msgid "Device"
@@ -83,11 +87,11 @@ msgstr "Tem certeza que deseja reiniciar o router?"
 
 #: js/src/common/RebootButton.js:44
 msgid "The router has been rebooted successfully."
-msgstr ""
+msgstr "O router foi reiniciado com sucesso."
 
 #: js/src/common/RebootButton.js:45
 msgid "An error occurred while rebooting the router."
-msgstr ""
+msgstr "Ocorreu um erro ao reiniciar o router."
 
 #: js/src/common/ScrollToTopArrow.js:33
 msgid "Go to top"
@@ -99,11 +103,11 @@ msgstr "Ir para topo"
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:76
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:100
 msgid "Hostname"
-msgstr ""
+msgstr "Nome de máquina"
 
 #: js/src/common/network/DHCP6Clients.js:35
 msgid "IPv6 Address"
-msgstr ""
+msgstr "Endereço IPv6"
 
 #: js/src/common/network/DHCP6Clients.js:39
 msgid "DUID"
@@ -113,13 +117,13 @@ msgstr "DUID"
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:88
 msgid "Expires"
-msgstr ""
+msgstr "Expira"
 
 #: js/src/common/network/DHCP6Clients.js:47
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:93
 msgid "Active"
-msgstr ""
+msgstr "Ativo"
 
 #: js/src/common/network/DHCP6Clients.js:64
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:63
@@ -360,7 +364,7 @@ msgstr ""
 #: js/src/dns/Forwarders/ForwardersTable.js:40
 #: js/src/portForwarding/PortForwardingRulesTable.js:36
 msgid "Actions"
-msgstr ""
+msgstr "Ações"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:145
 #: js/src/dns/Forwarders/ForwardersTable.js:142
@@ -372,7 +376,7 @@ msgstr ""
 #: js/src/dns/Forwarders/ForwardersTable.js:153
 #: js/src/portForwarding/PortForwardingRulesTable.js:88
 msgid "Delete"
-msgstr ""
+msgstr "Apagar"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:186
 msgid "Set Static"
@@ -543,7 +547,7 @@ msgstr ""
 #: js/src/portForwarding/PortForwardingRulesForm.js:46
 #: js/src/portForwarding/PortForwardingRulesTable.js:29
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:69
 msgid "TLS type"
@@ -677,7 +681,7 @@ msgstr ""
 #: js/src/guestNetwork/GuestNetworkForm.js:159
 #: js/src/overview/Cards/LibrespeedCard.js:79
 msgid "Download"
-msgstr ""
+msgstr "Descarregar"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
 #: js/src/overview/Cards/LibrespeedCard.js:93
