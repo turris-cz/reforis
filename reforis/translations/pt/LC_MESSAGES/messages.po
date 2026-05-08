@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-08 00:11+0000\n"
+"PO-Revision-Date: 2026-05-09 02:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.5-dev\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -140,125 +140,138 @@ msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
+"Esta lista contém todos os dispositivos que estão ligados à rede através de "
+"ligações com fio e sem fios usando IPv6."
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
 msgid "No clients found."
-msgstr ""
+msgstr "Nenhuns clientes encontrados."
 
 #: js/src/common/network/DHCP6Clients.js:96
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:200
 msgid "Device is active"
-msgstr ""
+msgstr "Dispositivo está ativo"
 
 #: js/src/common/network/DHCP6Clients.js:104
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:200
 msgid "Device is inactive"
-msgstr ""
+msgstr "Dispositivo está inativo"
 
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
-msgstr ""
+msgstr "Nome de máquina que será fornecido ao servidor DHCP."
 
 #: js/src/common/network/DHCPClientForm.js:38
 msgid "DHCP hostname"
-msgstr ""
+msgstr "Nome de máquina DHCP"
 
 #: js/src/common/network/DHCPClients.js:24
 msgid "DHCP Client List"
-msgstr ""
+msgstr "Lista de Clientes DHCP"
 
 #: js/src/common/network/DHCPClients.js:26
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
+"Esta lista contém todos os dispositivos que estão ligados à rede através de "
+"ligações com fio e sem fios."
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
 "Enable this option to automatically assign IP addresses to the devices "
 "connected to the router."
 msgstr ""
+"Ative esta opção para atribuir automaticamente endereços IP aos dispositivos "
+"ligados ao router."
 
 #: js/src/common/network/DHCPServerForm.js:47
 msgid "DHCP start"
-msgstr ""
+msgstr "Inicio de DHCP"
 
 #: js/src/common/network/DHCPServerForm.js:57
 msgid "DHCP max leases"
-msgstr ""
+msgstr "Alugueres máximos de DHCP"
 
 #: js/src/common/network/DHCPServerForm.js:58
 msgid "Maximum number of addresses available for DHCP clients."
-msgstr ""
+msgstr "Número máximo de endereços disponíveis para clientes DHCP."
 
 #: js/src/common/network/DHCPServerForm.js:71
 msgid "Lease time (hours)"
-msgstr ""
+msgstr "Tempo de aluguer (horas)"
 
 #: js/src/common/network/DHCPValidators.js:70
 msgid "Value must be a number."
-msgstr ""
+msgstr "Valor tem de ser um número."
 
 #: js/src/common/network/DHCPValidators.js:73
 msgid "Value must be positive."
-msgstr ""
+msgstr "Valor tem de ser positivo."
 
 #: js/src/common/network/DHCPValidators.js:86
 msgid "Invalid network settings. DHCP settings can't be validated."
 msgstr ""
+"Definições de rede inválidas. As definições de DHCP não podem ser validadas."
 
 #: js/src/common/network/DHCPValidators.js:99
 msgid "Minimum lease time is 1 hour."
-msgstr ""
+msgstr "Tempo de aluguer mínimo é de 1 hora."
 
 #: js/src/common/network/DHCPValidators.js:114
 msgid "Address is outside current network."
-msgstr ""
+msgstr "Endereço fica fora da rede atual."
 
 #: js/src/common/network/DHCPValidators.js:118
 msgid "Address is already reserved for other purposes."
-msgstr ""
+msgstr "Endereço já está reservado para outros objetivos."
 
 #: js/src/common/network/DHCPValidators.js:129
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr ""
+"Demasiados endereços pedidos. Defina um número mais baixo ou mude o inicio "
+"do DHCP."
 
 #: js/src/common/network/DHCPValidators.js:136
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
+"O único aluguer DHCP é o mesmo que o endereço do router. Aumente o limite ou "
+"mude o endereço de inicio."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 msgid ""
 "DNS server address is not required as the built-in DNS resolver is "
 "capable of working without it."
 msgstr ""
+"O endereço do servidor DNS não é requerido pois o resolvedor DNS embutido é "
+"capaz de trabalhar sem ele."
 
 #: js/src/common/network/StaticIPForm.js:50
 msgid "IP address"
-msgstr ""
+msgstr "Endereço IP"
 
 #: js/src/common/network/StaticIPForm.js:60
 #: js/src/guestNetwork/GuestNetworkForm.js:88 js/src/lan/LANManagedForm.js:72
 msgid "Network mask"
-msgstr ""
+msgstr "Máscara de rede"
 
 #: js/src/common/network/StaticIPForm.js:70 js/src/wan/WAN6Form.js:243
 msgid "Gateway"
-msgstr ""
+msgstr "Gateway"
 
 #: js/src/common/network/StaticIPForm.js:80 js/src/wan/WAN6Form.js:268
 msgid "DNS server 1"
-msgstr ""
+msgstr "Servidor DNS 1"
 
 #: js/src/common/network/StaticIPForm.js:90 js/src/wan/WAN6Form.js:278
 msgid "DNS server 2"
-msgstr ""
+msgstr "Servidor DNS 2"
 
 #: js/src/common/network/StaticIPForm.js:111
 #: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:91
@@ -266,47 +279,47 @@ msgstr ""
 #: js/src/wan/WAN6Form.js:533 js/src/wan/WAN6Form.js:545
 #: js/src/wan/WANForm.js:173
 msgid "This field is required."
-msgstr ""
+msgstr "Este campo é obrigatório."
 
 #: js/src/common/network/validators.js:12
 msgid "This is not a valid network mask."
-msgstr ""
+msgstr "Esta não é uma máscara de rede válida."
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
 msgid "IPv4 Address"
-msgstr ""
+msgstr "Endereço IPv4"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:84
 msgid "MAC Address"
-msgstr ""
+msgstr "Endereço MAC"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:66
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:72
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesAddButton.js:25
 msgid "Add static lease"
-msgstr ""
+msgstr "Adicionar aluguer estático"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:68
 msgid "Edit static lease"
-msgstr ""
+msgstr "Editar aluguer estático"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:70
 msgid "Set static lease"
-msgstr ""
+msgstr "Definir aluguer estático"
 
 #: js/src/common/network/DHCPClients/hooks.js:71
 msgid "Static lease deleted successfully."
-msgstr ""
+msgstr "Aluguer estático apagado com sucesso."
 
 #: js/src/common/network/DHCPClients/hooks.js:76
 msgid "Can't delete static lease."
-msgstr ""
+msgstr "Não pode apagar aluguer estático."
 
 #: js/src/common/network/DHCPClients/hooks.js:107
 msgid "Static lease added successfully."
-msgstr ""
+msgstr "Aluguer estático adicionado com sucesso."
 
 #: js/src/common/network/DHCPClients/hooks.js:125
 msgid "Static saved successfully."
@@ -336,7 +349,7 @@ msgstr ""
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
 #: js/src/portForwarding/PortForwardingRulesModal.js:64
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:50
 msgid "List of available hostnames"
@@ -894,7 +907,7 @@ msgstr ""
 #: js/src/notificationsSettings/SMTPCustomForm.js:124
 #: js/src/password/Password.js:175
 msgid "Password"
-msgstr ""
+msgstr "Palavra passe"
 
 #: js/src/guide/steps.js:25
 msgid "Workflow"
@@ -1665,7 +1678,7 @@ msgstr ""
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
 #: js/src/wan/WAN6Form.js:434
 msgid "Username"
-msgstr ""
+msgstr "Nome de utilizador"
 
 #: js/src/notificationsSettings/SMTPTurrisForm.js:36
 msgid "Sender's name"
