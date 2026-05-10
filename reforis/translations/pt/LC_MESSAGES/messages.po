@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-09 02:11+0000\n"
+"PO-Revision-Date: 2026-05-10 08:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -323,27 +323,27 @@ msgstr "Aluguer estático adicionado com sucesso."
 
 #: js/src/common/network/DHCPClients/hooks.js:125
 msgid "Static saved successfully."
-msgstr ""
+msgstr "Estático salvo com sucesso."
 
 #: js/src/common/network/DHCPClients/hooks.js:166
 msgid "Hostname cannot be empty."
-msgstr ""
+msgstr "Nome de máquina não pode ser vazio."
 
 #: js/src/common/network/DHCPClients/hooks.js:170
 #: js/src/portForwarding/hooks.js:244
 msgid "IPv4 address cannot be empty."
-msgstr ""
+msgstr "Endereço IPv4 não pode ser vazio."
 
 #: js/src/common/network/DHCPClients/hooks.js:174
 msgid "MAC address cannot be empty."
-msgstr ""
+msgstr "Endereço MAC não pode ser vazio."
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:75
 #: js/src/dns/DNSSECDisableModal.js:48
 #: js/src/guide/GuideControls/SkipGuideButton.js:87
 #: js/src/notificationsSettings/TestNotification.js:161
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:82
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
@@ -353,25 +353,25 @@ msgstr "Salvar"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:50
 msgid "List of available hostnames"
-msgstr ""
+msgstr "Lista de nomes de máquina disponíveis"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:62
 msgid "IPv4 address"
-msgstr ""
+msgstr "endereço IPv4"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:74
 #: js/src/portForwarding/PortForwardingRulesForm.js:71
 msgid "List of available IPv4 addresses"
-msgstr ""
+msgstr "Lista de endereços IPv4 disponíveis"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:88
 #: js/src/interfaces/SelectedInterface.js:139
 msgid "MAC address"
-msgstr ""
+msgstr "endereço MAC"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:100
 msgid "List of available MAC addresses"
-msgstr ""
+msgstr "Lista de endereços MAC disponíveis"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:100
 #: js/src/dns/Forwarders/ForwardersTable.js:40
@@ -383,7 +383,7 @@ msgstr "Ações"
 #: js/src/dns/Forwarders/ForwardersTable.js:142
 #: js/src/portForwarding/PortForwardingRulesTable.js:82
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:151
 #: js/src/dns/Forwarders/ForwardersTable.js:153
@@ -393,51 +393,51 @@ msgstr "Apagar"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:186
 msgid "Set Static"
-msgstr ""
+msgstr "Definir Estático"
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
 msgid "Test is running…"
-msgstr ""
+msgstr "Teste a correr…"
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
 msgid "Test connection again"
-msgstr ""
+msgstr "Testar ligação outra vez"
 
 #: js/src/connectionTest/ConnectionTestButton.js:33
 msgid "Test connection"
-msgstr ""
+msgstr "Testar ligação"
 
 #: js/src/connectionTest/ConnectionTestResult.js:17
 msgid "IPv4 connectivity"
-msgstr ""
+msgstr "Conectividade de IPv4"
 
 #: js/src/connectionTest/ConnectionTestResult.js:18
 msgid "IPv4 gateway connectivity"
-msgstr ""
+msgstr "Conectividade de porta gateway IPv4"
 
 #: js/src/connectionTest/ConnectionTestResult.js:19
 msgid "IPv6 connectivity"
-msgstr ""
+msgstr "Conectividade de IPv6"
 
 #: js/src/connectionTest/ConnectionTestResult.js:20
 msgid "IPv6 gateway connectivity"
-msgstr ""
+msgstr "Conectividade de porta gateway IPv6"
 
 #: js/src/connectionTest/ConnectionTestResult.js:86
 msgid "Connection test successful"
-msgstr ""
+msgstr "Teste de ligação com sucesso"
 
 #: js/src/connectionTest/ConnectionTestResult.js:91
 msgid "Connection test failed"
-msgstr ""
+msgstr "Teste de ligação falhado"
 
 #: js/src/connectionTest/ConnectionTestResult.js:96
 msgid "Connection test cannot be determined"
-msgstr ""
+msgstr "Teste de ligação não pode ser determinado"
 
 #: js/src/connectionTest/ConnectionTestResult.js:101
 msgid "Connection test not started"
-msgstr ""
+msgstr "Teste de ligação não iniciado"
 
 #: js/src/dns/DNS.js:33
 msgid ""
@@ -445,6 +445,9 @@ msgid ""
 "capable of working independently or it can forward your DNS queries your "
 "internet service provider's DNS resolver."
 msgstr ""
+"O Router Turris usa o seu próprio resolvedor DNS com suporte a DNSSEC. Ele é "
+"capaz de trabalhar independentemente ou pode reencaminhar as suas consultas "
+"DNS ao resolvedor DNS do seu provedor de serviço de Internet."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -453,6 +456,10 @@ msgid ""
 "works properly. If it does not work for some reason, it is necessary to "
 "use direct resolving without forwarding."
 msgstr ""
+"A seguinte definição determina o comportamento do resolvedor DNS. "
+"Geralmente, é melhor usar o resolvedor do ISP em redes onde ele funciona de "
+"maneira apropriada. Se não funcionar por alguma razão, é necessário usar a "
+"resolução direta sem o reencaminhamento."
 
 #: js/src/dns/DNS.js:44
 msgid ""
@@ -468,7 +475,7 @@ msgstr ""
 #: js/src/dns/DNS.js:63 js/src/overview/Cards/ConnectionTestCard.js:21
 #: js/src/wan/WAN.js:51
 msgid "Connection Test"
-msgstr ""
+msgstr "Teste de Ligação"
 
 #: js/src/dns/DNS.js:66
 msgid ""
@@ -488,32 +495,36 @@ msgid ""
 "This domain will be used as suffix. E.g. The result for client "
 "\"android-123\" and domain \"my.lan\" will be \"android-123.my.lan\"."
 msgstr ""
+"Este domínio vai ser usado como sufixo. Ex. O resultado para cliente "
+"\"android-123\" e domínio \"my.lan\" vai ser \"android-123.my.lan\"."
 
 #: js/src/dns/DNSForm.js:67
 msgid "DNS Settings"
-msgstr ""
+msgstr "Definições DNS"
 
 #: js/src/dns/DNSForm.js:84
 msgid "Use forwarding"
-msgstr ""
+msgstr "Usar encaminhamento"
 
 #: js/src/dns/DNSForm.js:100
 msgid "Enable DNSSEC"
-msgstr ""
+msgstr "Ativar DNSSEC"
 
 #: js/src/dns/DNSForm.js:106
 msgid "Enable DHCP clients in DNS"
-msgstr ""
+msgstr "Ativar clientes DHCP em DNS"
 
 #: js/src/dns/DNSForm.js:116
 msgid "Domain of DHCP clients in DNS"
-msgstr ""
+msgstr "Domínio de clientes DHCP em DNS"
 
 #: js/src/dns/DNSSECDisableModal.js:13
 msgid ""
 "DNSSEC is a security technology that protects DNS communication against "
 "attacks on the DNS infrastructure."
 msgstr ""
+"DNSSEC é uma tecnologia de segurança que protege a comunicação DNS contra "
+"ataques na infraestrutura do DNS."
 
 #: js/src/dns/DNSSECDisableModal.js:17
 msgid ""
@@ -524,32 +535,32 @@ msgstr ""
 
 #: js/src/dns/DNSSECDisableModal.js:21
 msgid "Do you still want to continue and stay unprotected?"
-msgstr ""
+msgstr "Ainda deseja continuar e permanecer desprotegido?"
 
 #: js/src/dns/DNSSECDisableModal.js:56
 msgid "Disable DNSSEC"
-msgstr ""
+msgstr "Desativar DNSSEC"
 
 #: js/src/dns/Forwarders/Forwarders.js:81
 msgid "Edit forwarder"
-msgstr ""
+msgstr "Editar reencaminhador"
 
 #: js/src/dns/Forwarders/Forwarders.js:82
 #: js/src/dns/Forwarders/Forwarders.js:104
 msgid "Add custom forwarder"
-msgstr ""
+msgstr "Adicionar reencaminhador personalizado"
 
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Forwarders"
-msgstr ""
+msgstr "Reencaminhadores"
 
 #: js/src/dns/Forwarders/ForwardersTable.js:47
 msgid "Use provider's DNS resolver"
-msgstr ""
+msgstr "Usar resolvedor DNS do provedor"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:24
 msgid "Base 64 encoded SHA-256."
-msgstr ""
+msgstr "SHA-256 codificado em Base 64."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:25
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
@@ -564,11 +575,11 @@ msgstr "Nome"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:69
 msgid "TLS type"
-msgstr ""
+msgstr "Tipo de TLS"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:87
 msgid "TLS hostname"
-msgstr ""
+msgstr "Nome de máquina de TLS"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:99
 msgid "TLS pin"
@@ -975,7 +986,7 @@ msgstr ""
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:163
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmar"
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
@@ -1774,7 +1785,7 @@ msgstr ""
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
-msgstr ""
+msgstr "Refrescar"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Activated"
@@ -1794,7 +1805,7 @@ msgstr ""
 
 #: js/src/overview/Cards/LibrespeedCard.js:67
 msgid "LibreSpeed"
-msgstr ""
+msgstr "LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:69
 msgid "Go to LibreSpeed"
@@ -1820,7 +1831,7 @@ msgstr ""
 
 #: js/src/overview/Cards/LibrespeedCard.js:138
 msgid "Server"
-msgstr ""
+msgstr "Servidor"
 
 #: js/src/overview/Cards/LibrespeedCard.js:152
 msgid "Performed"
