@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-10 08:11+0000\n"
+"PO-Revision-Date: 2026-05-10 14:03+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -471,6 +471,13 @@ msgid ""
 "<b>recommend keeping DNSSEC turned on</b> and resolving the situation "
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
+"Em casos raros, os ISPs têm uma rede configurada de maneira não apropriada, "
+"que interfere com a validação DNSSEC. Se tiver problemas com DNS, pode "
+"desativar <b>temporariamente</b> a validação DNSSEC para determinar a origem "
+"dos problemas. No entanto, tenha em mente que sem a validação DNSSEC , fica "
+"vulnerável a ataques de falsificação de DNS! Assim nós <b>recomendamos "
+"manter o DNSSEC ligado</b> e resolver a situação com o seu ISP pois isto é "
+"uma falha séria do lado deles."
 
 #: js/src/dns/DNS.js:63 js/src/overview/Cards/ConnectionTestCard.js:21
 #: js/src/wan/WAN.js:51
@@ -483,12 +490,18 @@ msgid ""
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
+"Aqui pode testar a sua ligação à internet. Este teste é também útil se "
+"precisar de verificar se o seu resolvedor DNS funciona como esperado. Lembre-"
+"se de clicar no <b>botão de Salvar</b> se mudar a sua definição de "
+"reencaminhador."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
 "This will enable your DNS resolver to place DHCP client's names among the"
 " local DNS records."
 msgstr ""
+"Isto vai ativar o seu resolvedor DNS a colocar os nomes dos clientes DHCP "
+"junto dos registos DNS locais."
 
 #: js/src/dns/DNSForm.js:20
 msgid ""
@@ -532,6 +545,8 @@ msgid ""
 "that you will be connecting your device to the network where DNSSEC is "
 "broken."
 msgstr ""
+"Nós recomendamos fortemente manter a validação DNSSEC ativa a menos que "
+"saiba que vai ligar o seu dispositivo a uma rede onde o DNSSEC está avariado."
 
 #: js/src/dns/DNSSECDisableModal.js:21
 msgid "Do you still want to continue and stay unprotected?"
@@ -565,6 +580,7 @@ msgstr "SHA-256 codificado em Base 64."
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:25
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr ""
+"\"Nenhum TLS\" significa que é usado protocolo DNS baseado em UDP regular."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
 #: js/src/packageManagement/updates/UpdateApproval.js:142
@@ -583,75 +599,75 @@ msgstr "Nome de máquina de TLS"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:99
 msgid "TLS pin"
-msgstr ""
+msgstr "Pin de TLS"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:15
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:16
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:53
 #, python-brace-format
 msgid "${label} Addresses"
-msgstr ""
+msgstr "Endereços ${label}"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:59
 #, python-brace-format
 msgid "${label} #${index + 1}"
-msgstr ""
+msgstr "${label} #${index + 1}"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:83
 #, python-brace-format
 msgid "Add ${label} address"
-msgstr ""
+msgstr "Adicionar endereço ${label}"
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:47
 msgid "Forwarder saved successfully."
-msgstr ""
+msgstr "Encaminhador salvo com sucesso."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:49
 msgid "Can't save forwarder."
-msgstr ""
+msgstr "Não pode salvar encaminhador."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:56
 msgid "Forwarder added successfully."
-msgstr ""
+msgstr "Encaminhador adicionado com sucesso."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:58
 msgid "Can't add new forwarder."
-msgstr ""
+msgstr "Não pode adicionar novo encaminhador."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:20
 msgid "Forwarder name should have at least one symbol."
-msgstr ""
+msgstr "Nome do encaminhador deve ter pelo menos um símbolo."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:28
 msgid "Hostname should have at least one symbol."
-msgstr ""
+msgstr "Nome de máquina deve ter pelo menos um símbolo."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:33
 msgid "TLS pin should have at least one symbol."
-msgstr ""
+msgstr "Pin de TLS deve ter pelo menos um símbolo."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:45
 msgid "Define at least one of the IP addresses of the forwarder."
-msgstr ""
+msgstr "Defina pelo menos um dos endereços IP para o encaminhador."
 
 #: js/src/guestNetwork/GuestNetwork.js:39 js/src/interfaces/constants.js:11
 #: js/src/main/pages.js:66
 msgid "Guest Network"
-msgstr ""
+msgstr "Rede de Convidados"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
 msgid "The guest network is used for "
-msgstr ""
+msgstr "A rede de convidados é usada para "
 
 #: js/src/guestNetwork/GuestNetwork.js:43
 msgid "guest Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi de convidados"
 
 #: js/src/guestNetwork/GuestNetwork.js:45
 msgid ""
@@ -659,66 +675,71 @@ msgid ""
 " are allowed to access the internet but are not allowed to access the "
 "configuration interface of this device or the devices in LAN."
 msgstr ""
+"Fica separada da sua LAN normal. Os dispositivos ligados a esta rede têm "
+"permissão de aceder à internet mas não têm permissão de aceder à interface "
+"de configuração deste dispositivo nem aos dispositivos na LAN."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
-msgstr ""
+msgstr "Endereço IP do router na rede interna de convidados."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:19
 msgid "Network mask of the guest inner network."
-msgstr ""
+msgstr "Máscara de rede da rede interna de convidados."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:22
 msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
+"Esta opção permite-lhe definir um limite de largura de banda para a rede de "
+"convidados, para que a rede principal não seja abrandada por ela."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
-msgstr ""
+msgstr "Velocidade de descarga na rede de convidados (em kilobits por segundo)."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:28
 msgid "Upload speed in guest network (in kilobits per second)."
-msgstr ""
+msgstr "Velocidade de envio na rede de convidados (em kilobits por segundo)."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:65
 msgid "Guest Network Settings"
-msgstr ""
+msgstr "Definições da Rede de Convidados"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:67
 msgid "Enable Guest Network"
-msgstr ""
+msgstr "Ativar Rede de Convidados"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:77 js/src/lan/LANManagedForm.js:61
 msgid "Router IP address"
-msgstr ""
+msgstr "Endereço IP do router"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:98 js/src/lan/LANManagedForm.js:82
 msgid "Enable DHCP"
-msgstr ""
+msgstr "Ativar DHCP"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:116
 msgid "Enable QoS"
-msgstr ""
+msgstr "Ativar QoS"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:159
 #: js/src/overview/Cards/LibrespeedCard.js:79
 msgid "Download"
-msgstr "Descarregar"
+msgstr "Descarga"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
 #: js/src/overview/Cards/LibrespeedCard.js:93
 msgid "Upload"
-msgstr ""
+msgstr "Envio"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:191
 msgid "Download speed must be positive"
-msgstr ""
+msgstr "A velocidade de descarga tem de ser positiva"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:194
 msgid "Upload speed must be positive"
-msgstr ""
+msgstr "A velocidade de envio tem de ser positiva"
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:13
 msgid ""
@@ -726,26 +747,35 @@ msgid ""
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
+"Esta rede atualmente não contém nenhuns dispositivos. As alterações que "
+"fizer aqui vão ficar completamente funcionais após atribuir uma interface de "
+"rede a esta rede."
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:17
 msgid "All network interfaces of this network are currently down."
-msgstr ""
+msgstr "Todas as interfaces de rede nesta rede estão atualmente inativas."
 
 #: js/src/guide/constants.js:13
 msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
 "device."
 msgstr ""
+"Bem vindo à interface web do reForis. Este guia vai ajuda-lo a configurar o "
+"seu dispositivo."
 
 #: js/src/guide/constants.js:16
 msgid ""
 "Firstly it is required to set your password. Note the security of your "
 "home network is in your hands, so try not to use weak passwords."
 msgstr ""
+"Em primeiro lugar é necessário definir a sua palavra passe. Note que a "
+"segurança da sua rede caseira está nas suas mãos, portanto tente não usar "
+"palavras passe fáceis de adivinhar."
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
 msgstr ""
+"A sua palavra passe está definida. Pode prosseguir para o próximo passo."
 
 #: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
@@ -1656,7 +1686,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
-msgstr ""
+msgstr "Nenhum"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:23
 msgid "SSL"
