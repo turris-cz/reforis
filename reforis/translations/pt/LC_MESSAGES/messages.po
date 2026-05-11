@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-10 14:03+0000\n"
+"PO-Revision-Date: 2026-05-11 17:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -779,25 +779,28 @@ msgstr ""
 
 #: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
-msgstr ""
+msgstr "O fluxo de trabalho foi definido. Pode prosseguir para o próximo passo."
 
 #: js/src/guide/constants.js:27
 msgid "Here you need to decide which interfaces belong to which network."
-msgstr ""
+msgstr "Aqui precisa decidir quais interfaces pertencem a qual rede."
 
 #: js/src/guide/constants.js:30
 msgid "If you are in doubt use the current settings."
-msgstr ""
+msgstr "Se estiver com dúvidas use as definições atuais."
 
 #: js/src/guide/constants.js:32
 msgid ""
 "You've configured your network interfaces. It seems that you didn't break"
 " any crucial network settings so you can safely proceed to the next step."
 msgstr ""
+"Você configurou as suas interfaces de rede. Parece que não estragou nenhumas "
+"definições de rede cruciais, assim pode prosseguir em segurança para o "
+"próximo passo."
 
 #: js/src/guide/constants.js:37
 msgid "Now you need to set the time and timezone of your device."
-msgstr ""
+msgstr "Agora precisa definir a hora e o fuso horário do seu dispositivo."
 
 #: js/src/guide/constants.js:38
 msgid ""
@@ -805,22 +808,29 @@ msgid ""
 "matches the time on your computer if not try to update it via NTP or "
 "manually."
 msgstr ""
+"A sua hora e fuso horário parecer estar definidos. Certifique que a hora "
+"corresponde à hora do seu computador, se não, tente atualiza-la via NTP ou "
+"manualmente."
 
 #: js/src/guide/constants.js:43
 msgid ""
 "A proper DNS resolving is one of the key security features of your "
 "device. Let's configure it now."
 msgstr ""
+"Um resolvedor DNS apropriado é uma das funcionalidades de segurança chave do "
+"seu dispositivo. Vamos configura-lo agora."
 
 #: js/src/guide/constants.js:46
 msgid ""
 "You've updated your DNS configuration. Try to run connection test to see "
 "whether your DNS resolver is properly set."
 msgstr ""
+"Atualizou a sua configuração DNS. Tente correr testes de ligação para ver se "
+"o seu resolvedor DNS está definido de maneira apropriada."
 
 #: js/src/guide/constants.js:51
 msgid "In order to access the internet, you need to configure your WAN interface."
-msgstr ""
+msgstr "De modo a aceder à internet, precisa configurar a sua interface WAN."
 
 #: js/src/guide/constants.js:54
 msgid ""
@@ -828,6 +838,9 @@ msgid ""
 "whether it is working properly and if so you can safely proceed to the "
 "next step."
 msgstr ""
+"Configurou a sua interface WAN. Tente correr testes de ligação para ver se "
+"está a trabalhar de modo apropriado, e se sim, pode prosseguir em segurança "
+"para o próximo passo."
 
 #: js/src/guide/constants.js:59
 msgid ""
@@ -836,52 +849,68 @@ msgid ""
 "configuration interface unless you restart the network on your current "
 "device."
 msgstr ""
+"Agora deve configurar a sua interface LAN. Note que quando mudar as suas "
+"definições de rede provavelmente não vai ser capaz de ligar à interface de "
+"configuração a menos que reinicie a rede no seu dispositivo atual."
 
 #: js/src/guide/constants.js:62
 msgid ""
 "You've configured your LAN interface. Try to test whether settings work "
 "properly and if so you can safely proceed to the next step."
 msgstr ""
+"Configurou a sua interface LAN. Tente testar se as definições estão a "
+"trabalhar de modo apropriado, e se sim, pode prosseguir em segurança para o "
+"próximo passo."
 
 #: js/src/guide/constants.js:68
 msgid "To activate Sentinel, you must accept the licence agreement."
-msgstr ""
+msgstr "Para ativar o Sentinela, tem de aceitar o contrato de licença."
 
 #: js/src/guide/constants.js:69
 msgid ""
 "If you choose not to accept it, Sentinel will remain installed and "
 "accessible from the sidebar navigation, but it will not be active."
 msgstr ""
+"Se escolher não o aceitar, o Sentinela vai permanecer instalado e acessível "
+"a partir da barra lateral de navegação, mas não vai estar ativo."
 
 #: js/src/guide/constants.js:73
 msgid ""
 "Sentinel is now set up. You can check its status and settings in the "
 "sidebar navigation."
 msgstr ""
+"O Sentinela agora está configurado. Pode verificar o seu estado e definições "
+"na barra lateral de navegação."
 
 #: js/src/guide/constants.js:78
 msgid "Now you need to configure automatic updates on your device."
 msgstr ""
+"Agora precisa configurar as atualizações automáticas no seu dispositivo."
 
 #: js/src/guide/constants.js:81
 msgid "Please wait till the updater finishes its run."
-msgstr ""
+msgstr "Por favor espere até que o atualizador termine a sua execução."
 
 #: js/src/guide/constants.js:90
 msgid "Congratulations! Now your device is ready to be used."
-msgstr ""
+msgstr "Parabéns! Agora o seu dispositivo está pronto a ser usado."
 
 #: js/src/guide/constants.js:96
 msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
 msgstr ""
+"Parabéns! Agora o seu dispositivo está capaz de atuar como um router e "
+"rotear tráfego de rede entre LAN, WAN e rede de convidados."
 
 #: js/src/guide/constants.js:104
 msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
 "some further configuration updates to fit the device to your needs."
 msgstr ""
+"A configuração mínima de dispositivo está concluída. Note que provavelmente "
+"precisa efetuar mais atualizações de configuração para adaptar o dispositivo "
+"às suas necessidades."
 
 #: js/src/guide/constants.js:112
 msgid ""
@@ -890,6 +919,10 @@ msgid ""
 "Shield will try to connect to the Internet, and you will end up in the "
 "administration interface."
 msgstr ""
+"O seu dispositivo está agora pronto a usar. Pode afinar o resto das "
+"definições na interface de administração. Após terminar o guia , o seu "
+"Escudo vai tentar ligar à Internet, e você vai chegar à interface de "
+"administração."
 
 #: js/src/guide/constants.js:123
 msgid ""
@@ -942,7 +975,7 @@ msgstr ""
 
 #: js/src/guide/hooks.js:24
 msgid "Cannot mark guide as finished."
-msgstr ""
+msgstr "Não se pode marcar o guia como terminado."
 
 #: js/src/guide/steps.js:21 js/src/main/pages.js:84
 #: js/src/notificationsSettings/SMTPCustomForm.js:124
@@ -1094,7 +1127,7 @@ msgstr ""
 
 #: js/src/guide/GuidePages/SentinelEULA.js:34
 msgid "Agreement"
-msgstr ""
+msgstr "Contrato"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:71
 msgid ""
@@ -1254,7 +1287,7 @@ msgstr ""
 
 #: js/src/interfaces/SelectedInterface.js:93
 msgid "State"
-msgstr ""
+msgstr "Estado"
 
 #: js/src/interfaces/SelectedInterface.js:107
 msgid "Module ID"
@@ -1823,7 +1856,7 @@ msgstr ""
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Disabled"
-msgstr ""
+msgstr "Desativado"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:23
 msgid "Dynamic Firewall"
@@ -1897,7 +1930,7 @@ msgstr ""
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:153
 msgid "Connected"
-msgstr ""
+msgstr "Ligado"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:162
 msgid "Disconnected"
