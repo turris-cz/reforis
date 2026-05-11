@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-11 17:11+0000\n"
+"PO-Revision-Date: 2026-05-12 18:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -930,6 +930,9 @@ msgid ""
 " put any interfaces to your WAN and Guest Network. So it is a good idea "
 "to assign all interfaces to LAN."
 msgstr ""
+"Escolheu atuar como servidor local e isto significa que não faz sentido "
+"colocar quaisquer interfaces na sua WAN e Rede de Convidados. Assim é boa "
+"ideia atribuir todas as interfaces à LAN."
 
 #: js/src/guide/constants.js:130
 msgid ""
@@ -938,6 +941,10 @@ msgid ""
 "probably want to act as a client here thus select "
 "<strong>Computer</strong> mode here."
 msgstr ""
+"Para atuar como servidor local, não há necessidade de gerir a LAN (se mesmo "
+"assim a quiser gerir reinicie o guia e escolha o fluxo de trabalho do Router)"
+". Provavelmente quer atuar como cliente aqui, assim selecione o modo <strong>"
+"Computador</strong> aqui."
 
 #: js/src/guide/constants.js:133
 msgid ""
@@ -945,6 +952,10 @@ msgid ""
 "IP addresses are entered correctly otherwise you won't be able to access "
 "this configuration interface when the new settings are applied."
 msgstr ""
+"Se selecionar a configuração <strong>estática</strong> certifique que o "
+"endereço IP é inserido corretamente, caso contrário não vai ser capaz de "
+"aceder a esta interface de configuração quando as novas definições forem "
+"aplicadas."
 
 #: js/src/guide/constants.js:136
 msgid ""
@@ -953,12 +964,18 @@ msgid ""
 "server which is managing your LAN. Then you need to connect to the new IP"
 " address to proceed the guide."
 msgstr ""
+"Se selecionar o método <strong>DHCP</strong> vai provavelmente precisar de "
+"obter um novo endereço IP deste dispositivo. Pode obtê-lo do servidor DHCP "
+"que está a gerir a sua LAN. Depois precisa de ligar ao novo endereço IP para "
+"prosseguir com o guia."
 
 #: js/src/guide/constants.js:139
 msgid ""
 "Note that either way you might need to re-plug your ethernet cables after"
 " you update the settings here."
 msgstr ""
+"Note que de qualquer maneira pode precisar de desligar e ligar os seus cabos "
+"ethernet após atualizar as definições aqui."
 
 #: js/src/guide/constants.js:143
 msgid ""
@@ -966,12 +983,17 @@ msgid ""
 "means that you can access the configuration interface of your device, and"
 " your device can access the internet."
 msgstr ""
+"Por favor teste se as definições que forneceu estão a trabalhar "
+"corretamente. Isso significa que consegue aceder à interface de configuração "
+"do seu dispositivo, e o seu dispositivo consegue aceder à internet."
 
 #: js/src/guide/constants.js:148
 msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
 msgstr ""
+"Parabéns! Agora o se dispositivo deverá ser capaz de atuar como um servidor "
+"na sua rede local."
 
 #: js/src/guide/hooks.js:24
 msgid "Cannot mark guide as finished."
@@ -985,36 +1007,36 @@ msgstr "Palavra passe"
 
 #: js/src/guide/steps.js:25
 msgid "Workflow"
-msgstr ""
+msgstr "Fluxo de Trabalho"
 
 #: js/src/guide/steps.js:29 js/src/main/pages.js:61
 msgid "Interfaces"
-msgstr ""
+msgstr "Interfaces"
 
 #: js/src/guide/steps.js:33 js/src/regionAndTime/TimeForm.js:125
 msgid "Time"
-msgstr ""
+msgstr "Hora"
 
 #: js/src/guide/steps.js:37 js/src/main/pages.js:48 js/src/main/pages.js:59
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: js/src/guide/steps.js:41
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:133
 #: js/src/main/pages.js:124 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
-msgstr ""
+msgstr "Atualizações"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
 #: js/src/main/pages.js:46 js/src/main/pages.js:57 js/src/wan/WAN.js:29
 msgid "WAN"
-msgstr ""
+msgstr "WAN"
 
 #: js/src/guide/steps.js:49 js/src/interfaces/constants.js:10
 #: js/src/main/pages.js:47 js/src/main/pages.js:58
 #: js/src/portForwarding/PortForwarding.js:64
 msgid "LAN"
-msgstr ""
+msgstr "LAN"
 
 #: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
 msgid "Sentinel"
@@ -1022,23 +1044,24 @@ msgstr "Sentinela"
 
 #: js/src/guide/steps.js:57
 msgid "Finish"
-msgstr ""
+msgstr "Terminar"
 
 #: js/src/guide/GuideControls/NextStepButton.js:28
 msgid "Next step"
-msgstr ""
+msgstr "Próximo passo"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:50
 msgid "Skip"
-msgstr ""
+msgstr "Saltar"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:70
 msgid "Are you sure you want to skip the whole guide?"
-msgstr ""
+msgstr "Tem certeza que pretende saltar o guia completo?"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:72
 msgid "This will skip the guide and you will be redirected to the overview page."
 msgstr ""
+"Isto vai saltar o guia e vai ser redirecionado para a página de vista geral."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:77
 msgid ""
@@ -1053,7 +1076,7 @@ msgstr "Confirmar"
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
-msgstr ""
+msgstr "Guia Terminado"
 
 #: js/src/guide/GuidePages/GuideFinish.js:22
 msgid ""
@@ -1086,7 +1109,7 @@ msgstr ""
 #: js/src/guide/GuidePages/SentinelDescription.js:17
 #: js/src/overview/Cards/ThreatDetectionCard.js:62
 msgid "Threat Detection"
-msgstr ""
+msgstr "Detecção de Ameaças"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:25
 msgid ", which utilizes minimal honeypots and firewall logging, the "
@@ -1119,11 +1142,11 @@ msgstr ""
 
 #: js/src/guide/GuidePages/SentinelDescription.js:71
 msgid "Sentinel documentation"
-msgstr ""
+msgstr "Documentação do Sentinela"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:31
 msgid "Licence Agreement"
-msgstr ""
+msgstr "Contrato de Licença"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:34
 msgid "Agreement"
@@ -1168,7 +1191,7 @@ msgstr ""
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:38
 msgid "Local Server"
-msgstr ""
+msgstr "Servidor Local"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:39 js/src/lan/LANForm.js:33
 msgid "Router"
