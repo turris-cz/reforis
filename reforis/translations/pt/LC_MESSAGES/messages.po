@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-12 18:11+0000\n"
+"PO-Revision-Date: 2026-05-13 22:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.5-dev\n"
+"X-Generator: Weblate 2026.5.dev0\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -72,7 +72,7 @@ msgstr "Versão de Kernel"
 #: js/src/common/RebootButton.js:22 js/src/common/RebootButton.js:42
 #: js/src/maintenance/Reboot.js:17
 msgid "Reboot"
-msgstr "Reiniciar"
+msgstr "Reiniciar o sistema"
 
 #: js/src/common/RebootButton.js:40 js/src/dns/DNSSECDisableModal.js:34
 #: js/src/guide/GuideControls/SkipGuideButton.js:68
@@ -1068,6 +1068,8 @@ msgid ""
 "Settings that are not set up during the guide will be set to default "
 "values. And you will have to set them up manually."
 msgstr ""
+"As definições que não forem configuradas durante o guia são definidas para "
+"os valores predefinidos. E terá de as configurar manualmente."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:163
@@ -1083,6 +1085,8 @@ msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
+"Assim que deixar este guia ser-lhe-à concedido acesso à inteface de "
+"configuração total deste dispositivo."
 
 #: js/src/guide/GuidePages/GuideFinish.js:27
 msgid ""
@@ -1091,11 +1095,15 @@ msgid ""
 "security research to discover new attackers and give you access to "
 "dynamic firewall updates blocking known attackers."
 msgstr ""
+"Para melhorar mais a sua segurança considere instalar o plugin de recolha de "
+"dados (via Gestão de Pacotes). Isto vai permitir-lhe fazer parte da nossa "
+"pesquisa de segurança para descobrir novos atacantes e dar-lhe acesso a "
+"atualizações da firewall dinâmica que bloqueia atacantes conhecidos."
 
 #: js/src/guide/GuidePages/GuideFinish.js:33
 #: js/src/utils/useSessionTimeout.js:113
 msgid "Continue"
-msgstr ""
+msgstr "Continuar"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:9
 msgid ""
@@ -1105,6 +1113,11 @@ msgid ""
 "attackers in real time. Sentinel is made up of several key components, "
 "including "
 msgstr ""
+"O Sentinela Turris é um sistema de segurança avançado desenhado para "
+"proteger o seu router e rede de ameaças cibernéticas. Ele monitoriza "
+"continuamente e analisa relatórios de dispositivos Turris de todo o mundo "
+"para detetar e bloquear atacantes em tempo real. O Sentinela é feito de "
+"vários componentes chave, incluindo "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:17
 #: js/src/overview/Cards/ThreatDetectionCard.js:62
@@ -1113,17 +1126,19 @@ msgstr "Detecção de Ameaças"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:25
 msgid ", which utilizes minimal honeypots and firewall logging, the "
-msgstr ""
+msgstr ", que utiliza potes de mel mínimos e os relatórios da firewall, a "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:33
 msgid "Dynamic Firewall (DynFW)"
-msgstr ""
+msgstr "Firewall Dinâmica (DynFW)"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:41
 msgid ""
 "for real-time threat prevention, and a centralized database that tracks "
 "and identifies potential attackers."
 msgstr ""
+"para prevenção de ameaças em tempo real, e uma base de dados centralizada "
+"que segue e identifica potenciais atacantes."
 
 #: js/src/guide/GuidePages/SentinelDescription.js:46
 msgid ""
@@ -1134,11 +1149,11 @@ msgstr ""
 
 #: js/src/guide/GuidePages/SentinelDescription.js:54
 msgid "Sentinel View"
-msgstr ""
+msgstr "Vista do Sentinela"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:63
 msgid " For a detailed overview of how Sentinel works, visit the "
-msgstr ""
+msgstr " Para uma visão geral detalhada de como o Sentinela funciona, visite a "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:71
 msgid "Sentinel documentation"
@@ -1157,16 +1172,20 @@ msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
+"Eu aceito os <a href='#'>Termos de Participação no Projeto Turris (Recolha "
+"de Dados)</a>."
 
 #: js/src/guide/GuidePages/SentinelEULA.js:86
 msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
+"Eu não aceito os <a href='#'>Termos de Participação no Projeto Turris "
+"(Recolha de Dados)</a>."
 
 #: js/src/guide/GuidePages/SentinelEULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr ""
+msgstr "Termos de Participação no Projeto Turris (Recolha de Dados)"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:26
 msgid ""
@@ -1188,6 +1207,9 @@ msgid ""
 "Just set your password and you are ready to go. This workflow is aimed to"
 " more advanced users who intend to set everything manually."
 msgstr ""
+"Apenas defina a sua palavra passe e está pronto para seguir. Este fluxo de "
+"trabalho é orientado para utilizadores mais avançados que pretendem definir "
+"tudo manualmente."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:38
 msgid "Local Server"
@@ -1195,29 +1217,31 @@ msgstr "Servidor Local"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:39 js/src/lan/LANForm.js:33
 msgid "Router"
-msgstr ""
+msgstr "Router"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:40
 msgid "Minimal"
-msgstr ""
+msgstr "Mínimo"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:58
 msgid "Cannot set workflow."
-msgstr ""
+msgstr "Não pode definir fluxo de trabalho."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:68
 msgid "Guide Workflow"
-msgstr ""
+msgstr "Fluxo de trabalho do Guia"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:70
 msgid ""
 "Here you can set the guide walkthrough which will guide you through the "
 "basic configuration of your device."
 msgstr ""
+"Aqui pode definir o guia passo a passo que vai guiá-lo pelo processo básico "
+"de configuração do seu dispositivo."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:85
 msgid "Recommended"
-msgstr ""
+msgstr "Recomendado"
 
 #: js/src/hostname/Hostname.js:25
 msgid "Here you can check and set the name of your device."
@@ -1235,7 +1259,7 @@ msgstr ""
 
 #: js/src/hostname/HostnameForm.js:34
 msgid "Hostname Settings"
-msgstr ""
+msgstr "Definições do Nome de Máquina"
 
 #: js/src/hostname/HostnameForm.js:36
 msgid "Device hostname"
@@ -1567,7 +1591,7 @@ msgstr ""
 
 #: js/src/maintenance/FactoryReset.js:32
 msgid "Reset"
-msgstr ""
+msgstr "Reiniciar"
 
 #: js/src/maintenance/FactoryReset.js:34
 msgid "The router has been reset successfully."
