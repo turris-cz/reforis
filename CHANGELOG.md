@@ -8,6 +8,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.10.0] - 2026-05-14
+
+### Changed
+
+- Remove flup (fastcgi) use WSGIServer (debug) or eventlet instead
+
 ## [3.9.1] - 2026-04-02
 
 ### Changed
@@ -761,7 +767,8 @@ and this project adheres to
 
 - Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.1...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.10.0...master
+[3.10.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.1...v3.10.0
 [3.9.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.0...v3.9.1
 [3.9.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.8.0...v3.9.0
 [3.8.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.7.0...v3.8.0
