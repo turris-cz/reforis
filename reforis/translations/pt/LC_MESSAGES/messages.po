@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-13 22:11+0000\n"
+"PO-Revision-Date: 2026-05-15 20:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.5.dev0\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: js/src/about/About.js:18
@@ -1146,6 +1146,10 @@ msgid ""
 "helps protect not only your own device but also other users. You can "
 "explore real-time security insights and attack statistics on "
 msgstr ""
+"Ao ativar o Sentinela, você contribui para uma rede de segurança global que "
+"ajuda a proteger não apenas o seu próprio dispositivo mas também outros "
+"utilizadores. Pode explorar em tempo real perspetivas de segurança e "
+"estatísticas de ataques em "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:54
 msgid "Sentinel View"
@@ -1194,6 +1198,10 @@ msgid ""
 "other devices within your local network (e.g. act as a network-attached "
 "storage)."
 msgstr ""
+"Este fluxo de trabalho vai ajuda-lo a configurar o seu dispositivo para "
+"atuar como servidor local. Significa que o dispositivo vai fornecer algum "
+"tipo de serviço a outros dispositivos dentro da rede local (ex. atuar como "
+"armazenamento anexado à rede)."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:29
 msgid ""
@@ -1201,6 +1209,9 @@ msgid ""
 " functional router. It assumes that you want to have more or less "
 "standard network setup."
 msgstr ""
+"Após terminar este fluxo de trabalho o seu dispositivo vai ser capaz de "
+"atuar como um router totalmente funcional. Assume que você deseja ter uma "
+"configuração de rede mais ou menos standard."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:32
 msgid ""
@@ -1245,17 +1256,19 @@ msgstr "Recomendado"
 
 #: js/src/hostname/Hostname.js:25
 msgid "Here you can check and set the name of your device."
-msgstr ""
+msgstr "Aqui pode verificar e definir o nome do seu dispositivo."
 
 #: js/src/hostname/Hostname.js:44
 msgid ""
 "The hostname can contain only alphanumeric characters, hyphens, "
 "underscores and can't be empty."
 msgstr ""
+"O nome de máquina só pode conter caracteres alfanuméricos, hífens, "
+"underscores e não pode ser vazio."
 
 #: js/src/hostname/HostnameForm.js:14
 msgid "Rewrite the hostname to set a new one."
-msgstr ""
+msgstr "Reescrever o nome de máquina para definir um novo."
 
 #: js/src/hostname/HostnameForm.js:34
 msgid "Hostname Settings"
@@ -1263,11 +1276,11 @@ msgstr "Definições do Nome de Máquina"
 
 #: js/src/hostname/HostnameForm.js:36
 msgid "Device hostname"
-msgstr ""
+msgstr "Nome de máquina do dispositivo"
 
 #: js/src/interfaces/Interfaces.js:27
 msgid "Network Interfaces"
-msgstr ""
+msgstr "Interfaces de Rede"
 
 #: js/src/interfaces/Interfaces.js:29
 msgid ""
@@ -1275,22 +1288,29 @@ msgid ""
 "device. You can switch the physical network interfaces among networks. If"
 " you are unsure what to set here, use the default settings."
 msgstr ""
+"Aqui pode configurar as definições das interfaces de rede do seu "
+"dispositivo. Pode mudar as interfaces de rede físicas entre redes. Se não "
+"tem certeza do que definir aqui, use as predefinições."
 
 #: js/src/interfaces/Interfaces.js:52
 msgid "You have to assign at least one interface to this group."
-msgstr ""
+msgstr "Tem de atribuir pelo menos uma interface a este grupo."
 
 #: js/src/interfaces/InterfacesForm.js:63
 msgid ""
 "Ports are open on your WAN interface. It's better to reconfigure your "
 "interface settings to avoid security issues."
 msgstr ""
+"Portos estão abertos na sua interface WAN. É melhor reconfigurar as "
+"definições da sua interface para evitar problemas de segurança."
 
 #: js/src/interfaces/InterfacesForm.js:107
 msgid ""
 "It acts as an external network connection. Firewall rules should be "
 "applied here. It can only contain a single interface."
 msgstr ""
+"Atua como ligação de rede externa. As regras de firewall devem ser aplicadas "
+"aqui. Só pode conter uma única interface."
 
 #: js/src/interfaces/InterfacesForm.js:119
 msgid ""
@@ -1312,7 +1332,7 @@ msgstr ""
 
 #: js/src/interfaces/Network.js:43
 msgid "There are no interfaces in this group."
-msgstr ""
+msgstr "Não há interfaces neste grupo."
 
 #: js/src/interfaces/Network.js:64
 msgid "Base module"
@@ -1321,16 +1341,16 @@ msgstr ""
 #: js/src/interfaces/Network.js:65
 #, python-format
 msgid "Module %s"
-msgstr ""
+msgstr "Módulo %s"
 
 #: js/src/interfaces/SelectedInterface.js:82
 #, python-format
 msgid "Interface %s %s"
-msgstr ""
+msgstr "Interface %s %s"
 
 #: js/src/interfaces/SelectedInterface.js:85
 msgid "Network"
-msgstr ""
+msgstr "Rede"
 
 #: js/src/interfaces/SelectedInterface.js:93
 msgid "State"
@@ -1342,7 +1362,7 @@ msgstr ""
 
 #: js/src/interfaces/SelectedInterface.js:111
 msgid "Slot"
-msgstr ""
+msgstr "Slot"
 
 #: js/src/interfaces/SelectedInterface.js:115
 msgid "Interface ID"
@@ -1354,11 +1374,11 @@ msgstr ""
 
 #: js/src/interfaces/SelectedInterface.js:125
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: js/src/interfaces/SelectedInterface.js:129
 msgid "Bus"
-msgstr ""
+msgstr "Barramento"
 
 #: js/src/interfaces/SelectedInterface.js:133
 msgid "Link speed"
@@ -1369,11 +1389,11 @@ msgstr ""
 #: js/src/overview/Cards/LibrespeedCard.js:118
 #: js/src/overview/Cards/LibrespeedCard.js:134
 msgid "N/A"
-msgstr ""
+msgstr "N/D"
 
 #: js/src/interfaces/constants.js:12
 msgid "Unassigned"
-msgstr ""
+msgstr "Não atribuído"
 
 #: js/src/lan/LAN.js:25
 msgid ""
@@ -1407,19 +1427,19 @@ msgstr ""
 
 #: js/src/lan/LANForm.js:34
 msgid "Computer"
-msgstr ""
+msgstr "Computador"
 
 #: js/src/lan/LANForm.js:84
 msgid "LAN Settings"
-msgstr ""
+msgstr "Definições de LAN"
 
 #: js/src/lan/LANForm.js:87
 msgid "LAN mode"
-msgstr ""
+msgstr "Modo de LAN"
 
 #: js/src/lan/LANForm.js:103
 msgid "Redirect to 192.168.1.1"
-msgstr ""
+msgstr "Redirecionar para 192.168.1.1"
 
 #: js/src/lan/LANManagedForm.js:29
 msgid "Router's IP address in the inner network."
@@ -1440,7 +1460,7 @@ msgstr ""
 
 #: js/src/lan/LANUnmanagedForm.js:87 js/src/wan/WANForm.js:102
 msgid "IPv4 protocol"
-msgstr ""
+msgstr "Protocolo IPv4"
 
 #: js/src/main/pages.js:32 js/src/overview/Overview.js:43
 msgid "Overview"
@@ -1448,69 +1468,69 @@ msgstr "Visão geral"
 
 #: js/src/main/pages.js:39
 msgid "Network Settings"
-msgstr ""
+msgstr "Definições de Rede"
 
 #: js/src/main/pages.js:50 js/src/main/pages.js:71
 #: js/src/portForwarding/PortForwarding.js:49
 msgid "Port Forwarding"
-msgstr ""
+msgstr "Encaminhamento de Porto"
 
 #: js/src/main/pages.js:56 js/src/wifi/WiFi.js:40
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 #: js/src/main/pages.js:79
 msgid "Administration"
-msgstr ""
+msgstr "Administração"
 
 #: js/src/main/pages.js:86
 msgid "Region & Time"
-msgstr ""
+msgstr "Região & Hora"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:80
 #: js/src/main/pages.js:91
 #: js/src/notifications/Notifications/Notifications.js:74
 #: js/src/notificationsSettings/NotificationsSettings.js:29
 msgid "Notifications"
-msgstr ""
+msgstr "Notificações"
 
 #: js/src/main/pages.js:96 js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
-msgstr ""
+msgstr "Manutenção"
 
 #: js/src/main/pages.js:112
 msgid "Global Threat Statistics"
-msgstr ""
+msgstr "Estatísticas de Ameaças Globais"
 
 #: js/src/main/pages.js:119
 msgid "Package Management"
-msgstr ""
+msgstr "Gestão de Pacotes"
 
 #: js/src/main/pages.js:126
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:29
 msgid "Update Settings"
-msgstr ""
+msgstr "Atualizar Definições"
 
 #: js/src/main/pages.js:130 js/src/packageManagement/packages/Packages.js:20
 msgid "Packages"
-msgstr ""
+msgstr "Pacotes"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:64
 #: js/src/main/pages.js:131 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
-msgstr ""
+msgstr "Linguagens"
 
 #: js/src/main/pages.js:136
 msgid "Advanced Administration"
-msgstr ""
+msgstr "Administração Avançada"
 
 #: js/src/main/pages.js:143
 msgid "Documentation"
-msgstr ""
+msgstr "Documentação"
 
 #: js/src/main/TopBar/LogoutButton.js:16 js/src/utils/useSessionTimeout.js:111
 msgid "Logout"
-msgstr ""
+msgstr "Terminar sessão"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:20
 msgid "Light"
@@ -1526,47 +1546,47 @@ msgstr "Automático"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
 msgid "Theme"
-msgstr ""
+msgstr "Tema"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:102
 msgid "Participate in translation"
-msgstr ""
+msgstr "Participar em tradução"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:38
 #: js/src/notifications/Notifications/Notifications.js:56
 msgid "No notifications"
-msgstr ""
+msgstr "Nenhumas notificações"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:108
 #: js/src/notifications/Notifications/DismissAllButton.js:26
 msgid "Dismiss all"
-msgstr ""
+msgstr "Dispensar tudo"
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:59
 msgid "Reboot Required"
-msgstr ""
+msgstr "Reiniciar de Sistema Requerido"
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:73
 msgid "Details"
-msgstr ""
+msgstr "Detalhes"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:103
 msgid "Approve Update"
-msgstr ""
+msgstr "Aprovar Atualização"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:132
 msgid "See details in "
-msgstr ""
+msgstr "Veja detalhes em "
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:134
 #: js/src/portForwarding/PortForwarding.js:65
 msgid " page."
-msgstr ""
+msgstr " página."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
 #: js/src/packageManagement/updates/UpdateApproval.js:120
 msgid "Install now"
-msgstr ""
+msgstr "Instalar agora"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:151
 #: js/src/packageManagement/updates/UpdateApproval.js:40
@@ -1575,7 +1595,7 @@ msgstr ""
 
 #: js/src/maintenance/FactoryReset.js:17 js/src/maintenance/FactoryReset.js:49
 msgid "Factory Reset"
-msgstr ""
+msgstr "Reiniciar para Valores de Fábrica"
 
 #: js/src/maintenance/FactoryReset.js:19
 msgid ""
@@ -1587,7 +1607,7 @@ msgstr ""
 
 #: js/src/maintenance/FactoryReset.js:29
 msgid "Are you sure you want to reset the router?"
-msgstr ""
+msgstr "Tem certeza que deseja reiniciar o router?"
 
 #: js/src/maintenance/FactoryReset.js:32
 msgid "Reset"
@@ -1595,11 +1615,11 @@ msgstr "Reiniciar"
 
 #: js/src/maintenance/FactoryReset.js:34
 msgid "The router has been reset successfully."
-msgstr ""
+msgstr "O router foi reiniciado com sucesso."
 
 #: js/src/maintenance/FactoryReset.js:37
 msgid "An error occurred while resetting the router."
-msgstr ""
+msgstr "Ocorreu um erro ao reiniciar o router."
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
@@ -1620,7 +1640,7 @@ msgstr ""
 
 #: js/src/maintenance/Syslog/SyslogForm.js:30
 msgid "System Logs Retention"
-msgstr ""
+msgstr "Retenção de Relatórios do Sistema"
 
 #: js/src/maintenance/Syslog/SyslogForm.js:32
 msgid ""
@@ -1649,7 +1669,7 @@ msgstr "Fechar"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
-msgstr ""
+msgstr "Reiniciar de sistema é requerido"
 
 #: js/src/notificationsSettings/CommonForm.js:18
 msgid "Reboot or attention is required"
@@ -1665,7 +1685,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/CommonForm.js:46
 msgid "Importance"
-msgstr ""
+msgstr "Importância"
 
 #: js/src/notificationsSettings/CommonForm.js:58
 msgid "Send news"
@@ -1716,27 +1736,27 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:14
 msgid "Max"
-msgstr ""
+msgstr "Máxima"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:15
 msgid "Urgent"
-msgstr ""
+msgstr "Urgente"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:16
 msgid "High"
-msgstr ""
+msgstr "Alta"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:17
 msgid "Default"
-msgstr ""
+msgstr "Predefinida"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:18
 msgid "Low"
-msgstr ""
+msgstr "Baixa"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:19
 msgid "Min"
-msgstr ""
+msgstr "Mínima"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:54
 msgid "Push Notification Settings"
@@ -1748,7 +1768,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:76
 msgid ""
