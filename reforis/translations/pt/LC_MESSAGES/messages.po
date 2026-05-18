@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-17 08:11+0000\n"
+"PO-Revision-Date: 2026-05-18 10:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -1424,6 +1424,13 @@ msgid ""
 "obtain a new IP from DHCP (if DHCP is enabled), and you might need to "
 "<b>refresh the page</b> in your browser."
 msgstr ""
+"<b>Nota:</b> Se alterar o endereço IP do router, todos os computadores na "
+"LAN, incluindo provavelmente o que está a usar agora, vão precisar de obter "
+"um <b>novo endereço IP</b> o que não acontece <b>imediatamente</b>. É "
+"recomendado desligar e ligar todos os cabos de rede LAN após submeter as "
+"suas alterações para forçar a atualização. A próxima página não vai carregar "
+"até que obtenha um novo IP do DHCP (se o DHCP estiver ativo), e pode "
+"precisar de <b>refrescar a página</b> no seu navegador."
 
 #: js/src/lan/LANForm.js:19
 msgid ""
@@ -1622,6 +1629,11 @@ msgid ""
 "brings back all the default settings of the device as it was when the "
 "router was new, giving you a clean slate to start all over again."
 msgstr ""
+"Efetuar um reiniciar de valores de fábrica no dispositivo Turris vai remover "
+"todos os pacotes instalados no dispositivo juntamente com os dados "
+"associados a eles. Isto traz de volta todas as predefinições do dispositivo "
+"como quando o router era novo, dando-lhe um estado limpo para começar tudo "
+"de novo."
 
 #: js/src/maintenance/FactoryReset.js:29
 msgid "Are you sure you want to reset the router?"
@@ -1654,6 +1666,9 @@ msgid ""
 "reboot process takes approximately 30 seconds, and then you will be "
 "required to log in again."
 msgstr ""
+"Se precisar de reiniciar o dispositivo, clique no botão seguinte. O processo "
+"de reiniciar o sistema demora aproximadamente 30 segundos, e vai ter de "
+"iniciar sessão outra vez."
 
 #: js/src/maintenance/Syslog/Syslog.js:49
 msgid "A drive has to be configured first."
@@ -1669,6 +1684,10 @@ msgid ""
 " saving system logs using the Storage plugin. Logs are saved into "
 "'/srv/log/messages'."
 msgstr ""
+"Durante o reiniciar do dispositivo, por predefinição os relatórios de "
+"sistema são perdidos. Esta opção permite guardar os relatórios do sistema "
+"usando o plugin de Armazenamento. Os relatórios são guardados em '/srv/log/"
+"messages'."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:38
 #, python-brace-format
@@ -1677,6 +1696,9 @@ msgid ""
 "href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Storage "
 "plugin</a> first."
 msgstr ""
+"Para ativar esta opção, tem primeiro de configurar o armazenamento no <a "
+"href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">plugin de "
+"Armazenamento</a>."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:44
 msgid "Enable System Logs Retention"
@@ -1690,19 +1712,20 @@ msgstr "Fechar"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
-msgstr "Reiniciar de sistema é requerido"
+msgstr "É requerido reiniciar de sistema"
 
 #: js/src/notificationsSettings/CommonForm.js:18
 msgid "Reboot or attention is required"
-msgstr ""
+msgstr "É requerido reiniciar de sistema ou atenção"
 
 #: js/src/notificationsSettings/CommonForm.js:19
 msgid "Reboot or attention is required or update was installed"
 msgstr ""
+"É requerido reiniciar de sistema ou atenção ou atualização foi instalada"
 
 #: js/src/notificationsSettings/CommonForm.js:44
 msgid "General Notification Settings"
-msgstr ""
+msgstr "Definições de Notificação Geral"
 
 #: js/src/notificationsSettings/CommonForm.js:46
 msgid "Importance"
@@ -1710,7 +1733,7 @@ msgstr "Importância"
 
 #: js/src/notificationsSettings/CommonForm.js:58
 msgid "Send news"
-msgstr ""
+msgstr "Enviar notícias"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:31
 msgid ""
@@ -1737,23 +1760,23 @@ msgstr "Turris"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:23
 msgid "Custom"
-msgstr ""
+msgstr "Personalizado"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:90
 msgid "Email Notification Settings"
-msgstr ""
+msgstr "Definições de Notificação por Email"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:92
 msgid "Enable email notifications"
-msgstr ""
+msgstr "Ativar notificação por email"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:104
 msgid "SMTP provider"
-msgstr ""
+msgstr "Provedor de SMTP"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:119
 msgid "Recipient's email"
-msgstr ""
+msgstr "Email do destinatário"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:14
 msgid "Max"
@@ -1799,7 +1822,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:83
 msgid "Priority"
-msgstr ""
+msgstr "Prioridade"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
 msgid "Priority of the push notifications."
@@ -1811,31 +1834,31 @@ msgstr "Nenhum"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:23
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:24
 msgid "STARTTLS"
-msgstr ""
+msgstr "STARTTLS"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:61
 msgid "SMTP Settings"
-msgstr ""
+msgstr "Definições de SMTP"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:63
 msgid "Sender address (From)"
-msgstr ""
+msgstr "Endereço de remetente (De)"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:77
 msgid "Server address"
-msgstr ""
+msgstr "Endereço do servidor"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:90
 msgid "Server port"
-msgstr ""
+msgstr "Porto do servidor"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:103
 msgid "Security"
-msgstr ""
+msgstr "Segurança"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
 #: js/src/wan/WAN6Form.js:434
@@ -1844,7 +1867,7 @@ msgstr "Nome de utilizador"
 
 #: js/src/notificationsSettings/SMTPTurrisForm.js:36
 msgid "Sender's name"
-msgstr ""
+msgstr "Nome do remetente"
 
 #: js/src/notificationsSettings/TestNotification.js:30
 msgid ""
@@ -1906,7 +1929,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/validator.js:53
 msgid "Sender's name can't be empty."
-msgstr ""
+msgstr "Nome do remetente não pode ser vazio."
 
 #: js/src/notificationsSettings/validator.js:57
 msgid ""
@@ -1916,7 +1939,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/validator.js:66
 msgid "Port is an number."
-msgstr ""
+msgstr "Porto é um número."
 
 #: js/src/notificationsSettings/validator.js:67
 msgid "Maximum port is 65535."
@@ -1928,7 +1951,7 @@ msgstr ""
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:46
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Atualizações Automáticas"
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:49
 msgid "Go to update settings"
@@ -1965,11 +1988,11 @@ msgstr ""
 #: js/src/overview/Cards/LibrespeedCard.js:82
 #: js/src/overview/Cards/LibrespeedCard.js:96
 msgid "Megabit per second"
-msgstr ""
+msgstr "Megabit por segundo"
 
 #: js/src/overview/Cards/LibrespeedCard.js:107
 msgid "Ping"
-msgstr ""
+msgstr "Ping"
 
 #: js/src/overview/Cards/LibrespeedCard.js:110
 #: js/src/overview/Cards/LibrespeedCard.js:126
@@ -2022,7 +2045,7 @@ msgstr "Ligado"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:162
 msgid "Disconnected"
-msgstr ""
+msgstr "Desligado"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
 msgid "Go to Sentinel license agreement"
@@ -2068,7 +2091,7 @@ msgstr ""
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
 msgid "license agreement"
-msgstr ""
+msgstr "contrato de licença"
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
 msgid ""
@@ -2144,7 +2167,7 @@ msgstr ""
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:51
 msgid "Delay (days)"
-msgstr ""
+msgstr "Atraso (dias)"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:63
 msgid "Reboot time"
@@ -2152,7 +2175,7 @@ msgstr ""
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:88
 msgid "Time should be in HH:MM format."
-msgstr ""
+msgstr "Hora deve estar no formato HH:MM."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:91
 msgid "Restart can be delayed by at most 10 days"
