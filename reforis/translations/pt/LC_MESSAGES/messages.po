@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-18 10:11+0000\n"
+"PO-Revision-Date: 2026-05-19 19:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -1742,6 +1742,11 @@ msgid ""
 "settings. Once you are done with the configuration, you can test it by "
 "pressing Send test notification. Additionally, you can use "
 msgstr ""
+"O seu dispositivo pode enviar notificações por e-mail acerca de reinícios "
+"pedidos, eventos importantes, atualizações instaladas, e novas "
+"funcionalidades de acordo com as suas definições. Assim que terminar a "
+"configuração, pode testar isto ao pressionar Enviar notificação de teste. "
+"Adicionalmente pode usar "
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
@@ -1753,6 +1758,9 @@ msgid ""
 "or desktop. ntfy allows you to subscribe to topics and get instant alerts"
 " without the need for email."
 msgstr ""
+" para receber os envios de notificações em tempo real diretamente no seu "
+"dispositivo móvel ou ambiente de trabalho. O ntfy permite-lhe subscrever a "
+"tópicos e obter alertas instantâneos sem a necessidade de email."
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:19
 msgid "Turris"
@@ -1804,11 +1812,11 @@ msgstr "Mínima"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:54
 msgid "Push Notification Settings"
-msgstr ""
+msgstr "Definições de Envio de Notificação"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:56
 msgid "Enable push notifications"
-msgstr ""
+msgstr "Ativar envio de notificações"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
 msgid "URL"
@@ -1819,6 +1827,8 @@ msgid ""
 "Specify the URL to the ntfy server topic. Example format: "
 "https://ntfy.sh/example"
 msgstr ""
+"Especificar o URL para o tópico de servidor ntfy. Formato exemplo: https://"
+"ntfy.sh/example"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:83
 msgid "Priority"
@@ -1826,7 +1836,7 @@ msgstr "Prioridade"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
 msgid "Priority of the push notifications."
-msgstr ""
+msgstr "Prioridade do envio de notificações."
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
@@ -1874,20 +1884,24 @@ msgid ""
 "You have unsaved changes in your notification settings. Do you want to "
 "discard them and test notifications using the previous settings?"
 msgstr ""
+"Tem alterações não gravadas nas suas definições de notificação. Deseja "
+"descarta-las e testar as notificações usando as definições anteriores?"
 
 #: js/src/notificationsSettings/TestNotification.js:117
 msgid "Send Test Notification"
-msgstr ""
+msgstr "Enviar Notificação de Teste"
 
 #: js/src/notificationsSettings/TestNotification.js:119
 msgid ""
 "Here you can verify whether your SMTP provider or push notifications are "
 "configured correctly by sending a test notification."
 msgstr ""
+"Aqui pode verificar se o seu provedor de SMTP ou o enviar de notificações "
+"estão configurados corretamente ao enviar uma notificação de teste."
 
 #: js/src/notificationsSettings/TestNotification.js:130
 msgid "Send"
-msgstr ""
+msgstr "Enviar"
 
 #: js/src/notificationsSettings/helpTexts.js:9
 msgid ""
@@ -1896,6 +1910,11 @@ msgid ""
 "additional settings. If you want to set your own SMTP server, please "
 "select \"Custom\" and enter required settings."
 msgstr ""
+"Se definiu o provedor SMTP para \"Turris\", vão ser usados os servidores "
+"fornecidos ao membros do projeto Turris. Estes servidores não requerem "
+"nenhumas definições adicionais. Se deseja configurar o seu próprio servidor "
+"SMTP, por favor selecione \"Personalizado\" e insira as definições "
+"necessárias."
 
 #: js/src/notificationsSettings/helpTexts.js:15
 msgid ""
@@ -1903,29 +1922,35 @@ msgid ""
 "choose to receive notifications about all events or only about those that"
 " require your attention."
 msgstr ""
+"Dependendo da importância ou severidade da notificação, pode escolher "
+"receber notificações sobre todos os eventos ou apenas de aqueles que "
+"requerem a sua atenção."
 
 #: js/src/notificationsSettings/helpTexts.js:18
 msgid "Email address of recipient. Separate multiple addresses by comma."
 msgstr ""
+"Endereço de email do destinatário. Separar múltiplos endereços com virgulas."
 
 #: js/src/notificationsSettings/helpTexts.js:21
 msgid "Send notifications about new releases."
-msgstr ""
+msgstr "Enviar notificações sobre novos lançamentos."
 
 #: js/src/notificationsSettings/helpTexts.js:24
 msgid ""
 "Name of the sender that will be used before the \"at\" symbol in the "
 "email address. For example: \"home-router@notify.turis.cz\""
 msgstr ""
+"Nome do remetente que vai ser usado antes do símbolo \"at\" no endereço de "
+"email. Por exemplo: \"home-router@notify.turis.cz\""
 
 #: js/src/notificationsSettings/helpTexts.js:29
 msgid "This is the address notifications are send from."
-msgstr ""
+msgstr "Este é o endereço de onde as notificações são enviadas."
 
 #: js/src/notificationsSettings/validator.js:34
 #: js/src/notificationsSettings/validator.js:43
 msgid "Can't be empty."
-msgstr ""
+msgstr "Não pode estar vazio."
 
 #: js/src/notificationsSettings/validator.js:53
 msgid "Sender's name can't be empty."
@@ -1936,6 +1961,8 @@ msgid ""
 "Sender's name can contain only alphanumeric characters, dots and "
 "underscores."
 msgstr ""
+"Nome do remetente só pode conter caracteres alfanuméricos, pontos e "
+"underscores."
 
 #: js/src/notificationsSettings/validator.js:66
 msgid "Port is an number."
@@ -1943,11 +1970,11 @@ msgstr "Porto é um número."
 
 #: js/src/notificationsSettings/validator.js:67
 msgid "Maximum port is 65535."
-msgstr ""
+msgstr "Porto máximo é 65535."
 
 #: js/src/notificationsSettings/validator.js:68
 msgid "Minimum port is 1."
-msgstr ""
+msgstr "Porto mínimo é 1."
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:46
 msgid "Automatic Updates"
@@ -1955,7 +1982,7 @@ msgstr "Atualizações Automáticas"
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:49
 msgid "Go to update settings"
-msgstr ""
+msgstr "Ir para definições de atualizações"
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
@@ -1963,7 +1990,7 @@ msgstr "Refrescar"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Activated"
-msgstr ""
+msgstr "Ativado"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Disabled"
@@ -1975,7 +2002,7 @@ msgstr "Firewall Dinâmica"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
 msgid "Go to Dynamic Firewall package installation"
-msgstr ""
+msgstr "Ir para instalação do pacote de Firewall Dinâmica"
 
 #: js/src/overview/Cards/LibrespeedCard.js:67
 msgid "LibreSpeed"
@@ -1983,7 +2010,7 @@ msgstr "LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:69
 msgid "Go to LibreSpeed"
-msgstr ""
+msgstr "Ir para LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:82
 #: js/src/overview/Cards/LibrespeedCard.js:96
@@ -1997,11 +2024,11 @@ msgstr "Ping"
 #: js/src/overview/Cards/LibrespeedCard.js:110
 #: js/src/overview/Cards/LibrespeedCard.js:126
 msgid "Millisecond"
-msgstr ""
+msgstr "Milissegundo"
 
 #: js/src/overview/Cards/LibrespeedCard.js:123
 msgid "Jitter"
-msgstr ""
+msgstr "Flutuação"
 
 #: js/src/overview/Cards/LibrespeedCard.js:138
 msgid "Server"
@@ -2009,7 +2036,7 @@ msgstr "Servidor"
 
 #: js/src/overview/Cards/LibrespeedCard.js:152
 msgid "Performed"
-msgstr ""
+msgstr "Efetuado"
 
 #: js/src/overview/Cards/LibrespeedCard.js:158
 msgid "No tests have been performed lately."
@@ -2017,7 +2044,7 @@ msgstr ""
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:61
 msgid "OpenVPN Clients"
-msgstr ""
+msgstr "Clientes OpenVPN"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:63
 msgid "Go to OpenVPN Client Settings"
@@ -2029,7 +2056,7 @@ msgstr ""
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:88
 msgid "There are no OpenVPN clients."
-msgstr ""
+msgstr "Não existem clientes OpenVPN."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:116
 msgid "Total In: "
