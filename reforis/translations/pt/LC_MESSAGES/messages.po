@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-19 19:11+0000\n"
+"PO-Revision-Date: 2026-05-20 22:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -2040,7 +2040,7 @@ msgstr "Efetuado"
 
 #: js/src/overview/Cards/LibrespeedCard.js:158
 msgid "No tests have been performed lately."
-msgstr ""
+msgstr "Nenhuns testes foram efetuados ultimamente."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:61
 msgid "OpenVPN Clients"
@@ -2048,11 +2048,11 @@ msgstr "Clientes OpenVPN"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:63
 msgid "Go to OpenVPN Client Settings"
-msgstr ""
+msgstr "Ir para Definições de Cliente OpenVPN"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:77
 msgid "Currently, there are no connected OpenVPN clients."
-msgstr ""
+msgstr "Presentemente, não há clientes OpenVPN ligados."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:88
 msgid "There are no OpenVPN clients."
@@ -2060,11 +2060,11 @@ msgstr "Não existem clientes OpenVPN."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:116
 msgid "Total In: "
-msgstr ""
+msgstr "Total de entrada: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:125
 msgid "Total Out: "
-msgstr ""
+msgstr "Total de saída: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:153
 msgid "Connected"
@@ -2076,21 +2076,23 @@ msgstr "Desligado"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
 msgid "Go to Sentinel license agreement"
-msgstr ""
+msgstr "Ir para contrato de licença do Sentinela"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:57
 msgid "Go to Sentinel package installation"
-msgstr ""
+msgstr "Ir para instalação do pacote do Sentinela"
 
 #: js/src/packageManagement/languages/Languages.js:22
 msgid ""
 "If you want to use another language other than English, you can select it"
 " from the following list:"
 msgstr ""
+"Se desejar usar outra linguagem diferente de Inglês, pode seleciona-la na "
+"seguinte lista:"
 
 #: js/src/packageManagement/packages/PackageCheckBox.js:54
 msgid "More details"
-msgstr ""
+msgstr "Mais detalhes"
 
 #: js/src/packageManagement/packages/Packages.js:22
 msgid ""
@@ -2101,20 +2103,28 @@ msgid ""
 "package lists and not marked as community-supported is supported by the "
 "Turris team."
 msgstr ""
+"Aparte da instalação standard, pode opcionalmente selecionar pacotes de "
+"software adicional que serão instalados no router. Este software pode ser "
+"selecionado a partir das seguintes listas. Por favor note que apenas "
+"software que faz parte do SO Turris ou que foi instalado de listas de "
+"pacotes e não foi marcado como suportado-pela-comunidade é suportado pela "
+"equipa do Turris."
 
 #: js/src/packageManagement/packages/PackagesForm.js:31
 msgid "Package Lists"
-msgstr ""
+msgstr "Listas de Pacotes"
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:31
 msgid "Most Important License Agreement Points"
-msgstr ""
+msgstr "Pontos Mais Importantes do Contrato de Licença"
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:47
 msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the "
 msgstr ""
+"Ao ativar as atualizações automáticas, você confirma que é o dono deste "
+"router Turris, e concorda com o texto completo do "
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
 msgid "license agreement"
@@ -2141,16 +2151,20 @@ msgstr ""
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
 msgstr ""
+"As atualizações automáticas são oferecidas aos routers Turris livres de "
+"custos."
 
 #: js/src/packageManagement/updateSettings/points.js:17
 msgid "Updates are prepared exclusively by CZ.NIC, z. s. p. o."
-msgstr ""
+msgstr "Atualizações são preparadas exclusivamente por CZ.NIC, z. s. p. o."
 
 #: js/src/packageManagement/updateSettings/points.js:21
 msgid ""
 "Automatic updates must be turned on to get all security features, as some"
 " of them make use of it."
 msgstr ""
+"As atualizações automáticas têm de estar ligadas para obter todas as "
+"funcionalidades de segurança, pois algumas delas fazem uso disso."
 
 #: js/src/packageManagement/updateSettings/points.js:27
 msgid ""
@@ -2186,7 +2200,7 @@ msgstr ""
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:20
 msgid "Time of day of automatic reboot in HH:MM format."
-msgstr ""
+msgstr "Hora do dia do reiniciar automático em formato HH:MM."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:49
 msgid "Automatic Restarts After Software Update"
@@ -2198,7 +2212,7 @@ msgstr "Atraso (dias)"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:63
 msgid "Reboot time"
-msgstr ""
+msgstr "Hora de reiniciar"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:88
 msgid "Time should be in HH:MM format."
@@ -2206,15 +2220,15 @@ msgstr "Hora deve estar no formato HH:MM."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:91
 msgid "Restart can be delayed by at most 10 days"
-msgstr ""
+msgstr "O reiniciar pode ser adiado no máximo 10 dias"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:94
 msgid "Delay must be a positive number"
-msgstr ""
+msgstr "O atraso tem de ser um número positivo"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:16
 msgid "Automatic installation"
-msgstr ""
+msgstr "Instalação automática"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:17
 msgid "Updates will be installed without user's intervention."
@@ -2222,7 +2236,7 @@ msgstr ""
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:21
 msgid "Delayed updates"
-msgstr ""
+msgstr "Atualizações adiadas"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:22
 msgid ""
@@ -2240,7 +2254,7 @@ msgstr ""
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:59
 msgid "Update Approvals"
-msgstr ""
+msgstr "Aprovações de Atualização"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:61
 msgid ""
@@ -2256,7 +2270,7 @@ msgstr ""
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:79
 msgid "Delayed updates (hours)"
-msgstr ""
+msgstr "Atualizações adiadas (horas)"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:97
 msgid "Updates must be delayed by least 1 hour and at most by 168 hours"
@@ -2264,7 +2278,7 @@ msgstr ""
 
 #: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:47
 msgid "Automatic Update Settings"
-msgstr ""
+msgstr "Definições de Atualização Automática"
 
 #: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:49
 msgid "Enable Automatic Updates (recommended)"
@@ -2278,8 +2292,8 @@ msgstr ""
 #, python-format
 msgid "There is %d package to be updated."
 msgid_plural "There are %d packages to be updated."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Existe %d pacote a ser atualizado."
+msgstr[1] "Existe %d pacotes a serem atualizados."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:69
 msgid ""
