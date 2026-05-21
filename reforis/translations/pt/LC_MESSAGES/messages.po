@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-20 22:11+0000\n"
+"PO-Revision-Date: 2026-05-22 00:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -2140,6 +2140,13 @@ msgid ""
 "weaken the security of your router and network in case flaws in the "
 "software are found."
 msgstr ""
+"O sistema de atualizações automáticas é uma das funcionalidades mais "
+"importantes do router Turris. Graças a esta função, o software do seu router "
+"mantêm-se atualizado e oferece melhor proteção contra ataques a partir da "
+"Internet.<br>É <b>altamente recomendado</b> ter esta funcionalidade <b>"
+"ligada</b>. Se decidir desativa-la, fique avisado que isto pode enfraquecer "
+"a segurança do seu router e rede em caso de serem encontradas falhas no "
+"software."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
 msgid ""
@@ -2147,6 +2154,9 @@ msgid ""
 "agreement. More information is available <a href=\"\" data-bs-"
 "toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
+"Ao ligar as atualizações automáticas, você concorda com o contrato de "
+"licença desta funcionalidade. Mais informação está disponível <a href=\"\" "
+"data-bs-toggle=\"modal\" data-bs-target=\"#licenseModal\">aqui</a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
@@ -2171,12 +2181,16 @@ msgid ""
 "Automatic updates take place at the time of their release. The time of "
 "installation cannot be influenced by the user."
 msgstr ""
+"As atualizações automáticas acontecem na hora do seu lançamento. A hora de "
+"instalação não pode ser influenciada pelo utilizador."
 
 #: js/src/packageManagement/updateSettings/points.js:33
 msgid ""
 "Downloading the automatic updates mean increased Internet traffic. "
 "Potential expenses related to this are covered by you."
 msgstr ""
+"O descarregar das atualizações automáticas significa um tráfego de Internet "
+"aumentado. As potenciais despesas relacionadas com isto são cobertas por si."
 
 #: js/src/packageManagement/updateSettings/points.js:39
 msgid ""
@@ -2185,18 +2199,26 @@ msgid ""
 "workstations and other devices by installing antivirus software and "
 "explaining to users how to stay safe on the Internet."
 msgstr ""
+"As atualizações automáticas não podem protegê-lo de todos os ataques que "
+"venham da Internet. Por favor tome outras precauções como proteger as suas "
+"estações de trabalho e outros dispositivos ao instalar software anti vírus e "
+"explicar aos utilizadores como se manterem seguros na Internet."
 
 #: js/src/packageManagement/updateSettings/points.js:45
 msgid ""
 "CZ.NIC, z. s. p. o. is not responsible for any damages caused by the "
 "automatic updates and does not guarantee its availability."
 msgstr ""
+"A CZ.NIC, z. s. p. o. não é responsável por quaisquer danos possíveis "
+"causados pelas atualizações automáticas e não garante a sua disponibilidade."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:17
 msgid ""
 "Number of days that must pass between receiving the request for restart "
 "and the automatic restart itself."
 msgstr ""
+"Número de dias que têm de passar entre a recepção do pedido para reiniciar e "
+"o próprio reiniciar automático."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:20
 msgid "Time of day of automatic reboot in HH:MM format."
@@ -2204,7 +2226,7 @@ msgstr "Hora do dia do reiniciar automático em formato HH:MM."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:49
 msgid "Automatic Restarts After Software Update"
-msgstr ""
+msgstr "Reiniciar Automático Após Atualização de Software"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:51
 msgid "Delay (days)"
@@ -2232,7 +2254,7 @@ msgstr "Instalação automática"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:17
 msgid "Updates will be installed without user's intervention."
-msgstr ""
+msgstr "As atualizações serão instaladas sem intervenção do utilizador."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:21
 msgid "Delayed updates"
@@ -2243,14 +2265,16 @@ msgid ""
 "Updates will be installed with an adjustable delay. You can also approve "
 "them manually."
 msgstr ""
+"As atualizações serão instaladas com um atraso ajustável. Também as pode "
+"aprovar manualmente."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:28
 msgid "Update approval needed"
-msgstr ""
+msgstr "Necessária aprovação de atualização"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:29
 msgid "You have to approve the updates, otherwise they won't be installed."
-msgstr ""
+msgstr "Tem de aprovar as atualizações, caso contrário não serão instaladas."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:59
 msgid "Update Approvals"
@@ -2267,6 +2291,14 @@ msgid ""
 "            it will be offered to you again together with the next "
 "package installation."
 msgstr ""
+"Aprovações de atualização podem ser úteis quando quer ter certeza que as "
+"atualizações não vão danificar a sua configuração\n"
+"            específica. Pode por ex. instalar atualizações quando está "
+"preparado para uma possível reversão a um instantâneo\n"
+"            anterior e negar a atualização questionável temporariamente. Não "
+"é possível declinar a atualização para sempre, ela\n"
+"            vai ser-lhe oferecida outra vez juntamente com a próxima "
+"instalação de pacote."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:79
 msgid "Delayed updates (hours)"
@@ -2275,6 +2307,7 @@ msgstr "Atualizações adiadas (horas)"
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:97
 msgid "Updates must be delayed by least 1 hour and at most by 168 hours"
 msgstr ""
+"As atualizações têm de ser atrasadas pelo menos 1 hora e no máximo 168 horas"
 
 #: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:47
 msgid "Automatic Update Settings"
@@ -2282,11 +2315,11 @@ msgstr "Definições de Atualização Automática"
 
 #: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:49
 msgid "Enable Automatic Updates (recommended)"
-msgstr ""
+msgstr "Ativar Atualizações Automáticas (recomendado)"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:44
 msgid "Updates will be installed shortly."
-msgstr ""
+msgstr "A atualizações vão ser instaladas em breve."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:62
 #, python-format
@@ -2300,6 +2333,8 @@ msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
+"Veja <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
+"aria-expanded=\"false\" aria-controls=\"plan-wrapper\">detalhes</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
 #, python-brace-format
@@ -2323,7 +2358,7 @@ msgstr ""
 #: js/src/packageManagement/updates/UpdateApproval.js:98
 #, python-format
 msgid "Approve Update From %s"
-msgstr ""
+msgstr "Aprovar Atualização A Partir De %s"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:126
 msgid "There are no updates awaiting your approval."
