@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-22 00:11+0000\n"
+"PO-Revision-Date: 2026-05-23 08:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -2343,6 +2343,9 @@ msgid ""
 "                                    automatically installed before \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 msgstr ""
+"Estas atualizações vão ser \n"
+"                                    instaladas automaticamente antes de \n"
+"                                    ${toLocaleDateString(delayedTime)}."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:88
 #, python-brace-format
@@ -2354,6 +2357,12 @@ msgid ""
 "                                    and choose the option <b>Update "
 "approval needed</b>."
 msgstr ""
+"Se não desejar que as atualizações sejam instaladas, vá a\n"
+"                                    <a href=\"$"
+"{ForisURLs.packageManagement.updateSettings}\">Definições de Atualização</a> "
+"\n"
+"                                    e escolha a opção <b>Necessária "
+"aprovação de atualização</b>."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:98
 #, python-format
@@ -2362,7 +2371,7 @@ msgstr "Aprovar Atualização A Partir De %s"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:126
 msgid "There are no updates awaiting your approval."
-msgstr ""
+msgstr "Não há atualizações à espera da sua aprovação."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:141
 msgid "Action"
@@ -2370,35 +2379,39 @@ msgstr "Ação"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:143
 msgid "Current"
-msgstr ""
+msgstr "Atual"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:144
 msgid "New"
-msgstr ""
+msgstr "Nova"
 
 #: js/src/packageManagement/updates/UpdateManager.js:72
 msgid "Updates Check"
-msgstr ""
+msgstr "Verificação de Atualizações"
 
 #: js/src/packageManagement/updates/UpdateManager.js:83
 msgid "Available Updates"
-msgstr ""
+msgstr "Atualizações Disponíveis"
 
 #: js/src/packageManagement/updates/UpdateManager.js:85
 msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
 msgstr ""
+"Aqui pode encontrar e aprovar atualizações disponíveis para o SO Turris e "
+"outros componentes."
 
 #: js/src/packageManagement/updates/UpdateManager.js:91
 msgid "You're up to date."
-msgstr ""
+msgstr "Você esta atualizado."
 
 #: js/src/packageManagement/updates/Updates.js:30
 msgid ""
 "In Turris OS, you decide when and how to get the latest updates\n"
 "                    to keep your device running smoothly and securely."
 msgstr ""
+"No SO Turris, você decide quando e como obter as atualizações mais recentes\n"
+"                    para manter o seu dispositivo a correr suave e seguro."
 
 #: js/src/packageManagement/updates/Updates.js:48
 #, python-brace-format
@@ -2408,26 +2421,30 @@ msgid ""
 "href=\"${ForisURLs.packageManagement.updateSettings}\">delayed or \n"
 "            approval-requiring updates</a> to review them."
 msgstr ""
+"As atualizações autoáticas estão desativadas. Por favor ative \n"
+"            <a href=\"${ForisURLs.packageManagement.updateSettings}\">"
+"atualizações \n"
+"            atrasadas ou a requerer aprovação</a> para as rever."
 
 #: js/src/packageManagement/updates/Updates.js:63
 msgid "Check and install updates"
-msgstr ""
+msgstr "Verificar e instalar atualizações"
 
 #: js/src/packageManagement/updates/Updates.js:64
 msgid "Manually check for updates and install them immediately."
-msgstr ""
+msgstr "Verificar manualmente por atualizações e instala-las imediatamente."
 
 #: js/src/packageManagement/updates/Updates.js:69
 msgid "Check updates"
-msgstr ""
+msgstr "Verificar atualizações"
 
 #: js/src/packageManagement/updates/Updates.js:71
 msgid "Manually check for updates and review them immediately."
-msgstr ""
+msgstr "Verificar manualmente por atualizações e revê-las imediatamente."
 
 #: js/src/packageManagement/updates/hooks.js:89
 msgid "Cannot fetch updater status."
-msgstr ""
+msgstr "Não pode obter estado do atualizador."
 
 #: js/src/packageManagement/utils/DisabledUpdaterAlert.js:13
 #, python-brace-format
@@ -2436,28 +2453,30 @@ msgid ""
 "href=\"${ForisURLs.packageManagement.updateSettings}\">automatic "
 "updates</a> to manage packages and languages."
 msgstr ""
+"Por favor ative <a href=\"${ForisURLs.packageManagement.updateSettings}\">"
+"atualizações automaticas</a> para gerir pacotes e linguagens."
 
 #: js/src/password/ForisPasswordForm.js:55
 msgid "Set your password for this administration interface."
-msgstr ""
+msgstr "Definir a sua palavra passe para esta interface de administração."
 
 #: js/src/password/ForisPasswordForm.js:60
 msgid "Current password"
-msgstr ""
+msgstr "Palavra passe actual"
 
 #: js/src/password/ForisPasswordForm.js:71
 #: js/src/password/RootPasswordForm.js:67
 msgid "New password"
-msgstr ""
+msgstr "Nova palavra passe"
 
 #: js/src/password/ForisPasswordForm.js:84
 #: js/src/password/RootPasswordForm.js:79
 msgid "Confirm new password"
-msgstr ""
+msgstr "Confirmar a nova palavra passe"
 
 #: js/src/password/ForisPasswordForm.js:100
 msgid "Use the same password for advanced administration (root)"
-msgstr ""
+msgstr "Usar a mesma palavra passe para administração avançada (root)"
 
 #: js/src/password/ForisPasswordForm.js:103
 msgid ""
@@ -2550,11 +2569,11 @@ msgstr ""
 
 #: js/src/portForwarding/PortForwarding.js:140
 msgid "Add port forwarding rule"
-msgstr ""
+msgstr "Adicionar porto a regra de encaminhamento"
 
 #: js/src/portForwarding/PortForwarding.js:182
 msgid "Add rule"
-msgstr ""
+msgstr "Adicionar regra"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:57
 msgid "Internal IPv4 address"
