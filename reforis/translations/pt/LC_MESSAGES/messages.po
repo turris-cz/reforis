@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-23 08:11+0000\n"
+"PO-Revision-Date: 2026-05-24 09:11+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -2486,6 +2486,11 @@ msgid ""
 "configuration here, you will have the option to do so later. Until then, "
 "the root account will be blocked.)"
 msgstr ""
+"A mesma palavra passe deve ser usada para aceder a esta interface de "
+"configuração, para o utilizador root na interface web LuCI e para login SSH. "
+"Use uma palavra passe forte! (Se escolher não definir aqui a palavra passe "
+"para configuração avançada, vai ter a opção de o fazer mais tarde. Até lá, a "
+"conta de root vai ficar bloqueada.)"
 
 #: js/src/password/Password.js:102
 #, python-brace-format
@@ -2497,40 +2502,48 @@ msgid ""
 "                            forisPassword.list || rootPassword.list\n"
 "                        } list. Please choose a more secure password."
 msgstr ""
+"A palavra passe que inseriu não foi guardada. Já foi comprometida e aparece $"
+"{\n"
+"                            forisPassword.count || rootPassword.count\n"
+"                        } vezes na lista ${\n"
+"                            forisPassword.list || rootPassword.list\n"
+"                        } . Por favor escolha uma palavra passe mais segura."
 
 #: js/src/password/Password.js:113
 msgid "Your password was set successfully."
-msgstr ""
+msgstr "A sua palavra passe foi definida com sucesso."
 
 #: js/src/password/Password.js:148
 msgid "Password Settings"
-msgstr ""
+msgstr "Definições de Palavra Passe"
 
 #: js/src/password/Password.js:177
 msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
 msgstr ""
+"Aqui pode definir uma palavra passe para a interface de administração. "
+"Certifique que é segura sendo longa e única."
 
 #: js/src/password/Password.js:194 js/src/password/Password.js:198
 msgid "Passwords do not match."
-msgstr ""
+msgstr "Palavras passe não correspondem."
 
 #: js/src/password/Password.js:213
 msgid "Choose a password."
-msgstr ""
+msgstr "Escolher uma palavra passe."
 
 #: js/src/password/Password.js:216
 msgid "Password should have at least eight symbols."
-msgstr ""
+msgstr "A palavra passe deve ter pelo menos 8 símbolos."
 
 #: js/src/password/Password.js:219
 msgid "Password cannot have more than 256 symbols."
-msgstr ""
+msgstr "A palavra passe não pode ter mais de 256 símbolos."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
-msgstr ""
+msgstr "Palavra Passe de Administração Avançada"
 
 #: js/src/password/RootPasswordForm.js:55
 #, python-format
@@ -2542,12 +2555,20 @@ msgid ""
 "through the <a href=\"%s\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">LuCI web interface</a> or via SSH."
 msgstr ""
+"De modo a aceder às opções de configuração avançada que não estão "
+"disponíveis aqui, você tem de\n"
+"definir a palavra passe do utilizador root. As opções de configuração "
+"avançada podem ser geridas ou \n"
+"através da <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">"
+"interface web LuCI</a> ou via SSH."
 
 #: js/src/portForwarding/PortForwarding.js:51
 msgid ""
 "Port forwarding allows you to forward incoming traffic from the WAN "
 "interface to a specific device on your LAN."
 msgstr ""
+"O encaminhamento de porto permite-lhe encaminhar tráfego vindo da interface "
+"WAN para um dispositivo específico na sua LAN."
 
 #: js/src/portForwarding/PortForwarding.js:56
 msgid ""
@@ -2555,6 +2576,9 @@ msgid ""
 "on your LAN. This way, the web server will be accessible from the "
 "internet."
 msgstr ""
+"Por exemplo, pode reencaminhar o tráfego que chega no porto 80 para um "
+"servidor web na sua LAN. Deste modo o servidor web vai ficar acessível a "
+"partir da internet."
 
 #: js/src/portForwarding/PortForwarding.js:61
 msgid ""
@@ -2562,10 +2586,14 @@ msgid ""
 "button. But first, you need to configure a static DHCP lease for the "
 "device you want to forward traffic to. You can configure it on the "
 msgstr ""
+"Pode adicionar uma nova regra de encaminhamento de porto ao clicar no botão "
+"\"Adicionar regra\". Mas primeiro, precisa de configurar um aluguer DHCP "
+"estático para o dispositivo para onde quer reencaminhar o tráfego. Pode "
+"configurar isso em "
 
 #: js/src/portForwarding/PortForwarding.js:139
 msgid "Edit port forwarding rule"
-msgstr ""
+msgstr "Editar regra de reencaminhamento de porto"
 
 #: js/src/portForwarding/PortForwarding.js:140
 msgid "Add port forwarding rule"
@@ -2577,44 +2605,46 @@ msgstr "Adicionar regra"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:57
 msgid "Internal IPv4 address"
-msgstr ""
+msgstr "Endereço IPv4 interno"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:85
 #: js/src/portForwarding/PortForwardingRulesTable.js:31
 msgid "External port"
-msgstr ""
+msgstr "Porto externo"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:96
 #: js/src/portForwarding/PortForwardingRulesTable.js:32
 msgid "Internal port"
-msgstr ""
+msgstr "Porto interno"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:107
 #: js/src/portForwarding/PortForwardingRulesTable.js:34
 msgid "Enabled"
-msgstr ""
+msgstr "Ativo"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:23
 msgid "Port Forwarding Rules"
-msgstr ""
+msgstr "Regras de Encaminhamento de Porto"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:30
 msgid "Internal IP address"
-msgstr ""
+msgstr "Endereço IP interno"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:53
 msgid "No port forwarding rules defined."
-msgstr ""
+msgstr "Nenhuma regra de encaminhamento de porto definida."
 
 #: js/src/portForwarding/constants.js:17
 msgid "Enter the name of the port forwarding rule."
-msgstr ""
+msgstr "Insira o nome da regra de encaminhamento de porto."
 
 #: js/src/portForwarding/constants.js:18
 msgid ""
 "Enter the external port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"Insira o número do porto externo ao qual a regra se aplica. Pode ser um "
+"porto único ou uma gama de portos."
 
 #: js/src/portForwarding/constants.js:21
 msgid ""
@@ -2622,50 +2652,55 @@ msgid ""
 "forwarded. The best practice is to assign a static lease to the device in"
 " advance."
 msgstr ""
+"Insira um endereço IP válido do dispositivo para o qual o porto vai ser "
+"encaminhado. A melhor prática é primeiro atribuir um aluguer estático ao "
+"dispositivo."
 
 #: js/src/portForwarding/constants.js:24
 msgid ""
 "Enter the internal port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"Insira o número do porto interno ao qual a regra se aplica. Pode ser um "
+"porto único ou uma gama de portos."
 
 #: js/src/portForwarding/constants.js:27
 msgid "Enable or disable the port forwarding rule."
-msgstr ""
+msgstr "Ativar ou desativar a regra de encaminhamento de porto."
 
 #: js/src/portForwarding/hooks.js:76
 msgid "Rule deleted successfully."
-msgstr ""
+msgstr "Regra apagada com sucesso."
 
 #: js/src/portForwarding/hooks.js:79
 msgid "Can't delete rule."
-msgstr ""
+msgstr "Não pode apagar regra."
 
 #: js/src/portForwarding/hooks.js:150
 msgid "Rule added successfully."
-msgstr ""
+msgstr "Regra adicionada com sucesso."
 
 #: js/src/portForwarding/hooks.js:166
 msgid "Rule saved successfully."
-msgstr ""
+msgstr "Regra salvada com sucesso."
 
 #: js/src/portForwarding/hooks.js:214
 msgid "Name should have at least one symbol."
-msgstr ""
+msgstr "Nome deve ter pelo menos um símbolo."
 
 #: js/src/portForwarding/hooks.js:224
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
-msgstr ""
+msgstr "${fieldName} deve ser um número positivo ou uma gama de números."
 
 #: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
-msgstr ""
+msgstr "${fieldName} deve ser um número de porto válido ou gama."
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
-msgstr ""
+msgstr "Região e Hora"
 
 #: js/src/regionAndTime/RegionAndTime.js:33
 msgid ""
@@ -2676,11 +2711,11 @@ msgstr ""
 
 #: js/src/regionAndTime/RegionAndTime.js:56
 msgid "Time should be in YYYY-MM-DD HH:MM:SS format."
-msgstr ""
+msgstr "Hora deve estar no formato AAAA-MM-DD HH:MM:SS."
 
 #: js/src/regionAndTime/RegionForm.js:72
 msgid "Region Settings"
-msgstr ""
+msgstr "Definições de Região"
 
 #: js/src/regionAndTime/RegionForm.js:74
 msgid ""
@@ -2690,27 +2725,27 @@ msgstr ""
 
 #: js/src/regionAndTime/RegionForm.js:81
 msgid "Continent or ocean"
-msgstr ""
+msgstr "Continente ou oceano"
 
 #: js/src/regionAndTime/RegionForm.js:96
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 #: js/src/regionAndTime/RegionForm.js:108
 msgid "Timezone"
-msgstr ""
+msgstr "Fuso horário"
 
 #: js/src/regionAndTime/TimeForm.js:28
 msgid "Via NTP"
-msgstr ""
+msgstr "Via NTP"
 
 #: js/src/regionAndTime/TimeForm.js:29
 msgid "Manually"
-msgstr ""
+msgstr "Manualmente"
 
 #: js/src/regionAndTime/TimeForm.js:106
 msgid "Time Settings"
-msgstr ""
+msgstr "Definições de Hora"
 
 #: js/src/regionAndTime/TimeForm.js:108
 msgid ""
@@ -2720,19 +2755,19 @@ msgstr ""
 
 #: js/src/regionAndTime/TimeForm.js:113
 msgid "How to set time"
-msgstr ""
+msgstr "Como definir a hora"
 
 #: js/src/regionAndTime/TimeForm.js:179
 msgid "Hide NTP servers list"
-msgstr ""
+msgstr "Esconder lista de servidores NTP"
 
 #: js/src/regionAndTime/TimeForm.js:180
 msgid "Show NTP servers list"
-msgstr ""
+msgstr "Mostrar lista de servidores NTP"
 
 #: js/src/regionAndTime/TimeForm.js:184
 msgid "NTP Servers"
-msgstr ""
+msgstr "Servidores NTP"
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:29
 #, python-format
@@ -2741,25 +2776,25 @@ msgstr ""
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:34
 msgid "Network restarting"
-msgstr ""
+msgstr "Reiniciar de rede"
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:37
 #: js/src/routerStateHandler/RebootHandler.js:34
 msgid "Reconnecting"
-msgstr ""
+msgstr "A re-ligar"
 
 #: js/src/routerStateHandler/RebootHandler.js:28
 #, python-format
 msgid "Reboot after %d sec."
-msgstr ""
+msgstr "Reiniciar após %d segundos."
 
 #: js/src/routerStateHandler/RebootHandler.js:31
 msgid "Rebooting"
-msgstr ""
+msgstr "A reiniciar"
 
 #: js/src/utils/ErrorBoundary.js:34
 msgid "An Error Occurred - reForis | Turris"
-msgstr ""
+msgstr "Ocorreu Um Erro - reForis | Turris"
 
 #: js/src/utils/ErrorBoundary.js:37
 msgid "Oops! Something went wrong:"
@@ -2786,19 +2821,19 @@ msgstr ""
 
 #: js/src/utils/SkipLink.js:23
 msgid "Skip to main content"
-msgstr ""
+msgstr "Saltar para conteúdo principal"
 
 #: js/src/utils/useSessionTimeout.js:64
 msgid "Session extended successfully."
-msgstr ""
+msgstr "Sessão estendida com sucesso."
 
 #: js/src/utils/useSessionTimeout.js:94
 msgid "Session Timeout"
-msgstr ""
+msgstr "Tempo Limite de Sessão"
 
 #: js/src/utils/useSessionTimeout.js:99
 msgid "Your session is about to expire. Do you want to continue?"
-msgstr ""
+msgstr "A sua sessão está prestes a expirar. Deseja continuar?"
 
 #: js/src/utils/useSessionTimeout.js:104
 msgid ""
@@ -2814,27 +2849,27 @@ msgstr ""
 
 #: js/src/wan/MACForm.js:17
 msgid "Colon is used as a separator, for example 00:11:22:33:44:55"
-msgstr ""
+msgstr "Dois pontos usado como separador, por exemplo 00:11:22:33:44:55"
 
 #: js/src/wan/MACForm.js:20
 msgid "MAC address of the WAN interface."
-msgstr ""
+msgstr "Endereço MAC da interface WAN."
 
 #: js/src/wan/MACForm.js:53
 msgid "MAC Settings"
-msgstr ""
+msgstr "Definições de MAC"
 
 #: js/src/wan/MACForm.js:55
 msgid "Custom MAC address"
-msgstr ""
+msgstr "Endereço MAC personalizado"
 
 #: js/src/wan/MACForm.js:66
 msgid "Current MAC address"
-msgstr ""
+msgstr "Endereço MAC atual"
 
 #: js/src/wan/MACForm.js:72
 msgid "Set the new MAC address"
-msgstr ""
+msgstr "Definir o novo endereço MAC"
 
 #: js/src/wan/VLANForm.js:14
 msgid ""
@@ -2848,11 +2883,11 @@ msgstr ""
 
 #: js/src/wan/VLANForm.js:50
 msgid "VLAN Settings"
-msgstr ""
+msgstr "Definições de VLAN"
 
 #: js/src/wan/VLANForm.js:52
 msgid "Enable VLAN"
-msgstr ""
+msgstr "Ativar VLAN"
 
 #: js/src/wan/VLANForm.js:62
 msgid "Set the VLAN ID"
