@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-24 09:11+0000\n"
+"PO-Revision-Date: 2026-05-25 11:12+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -2708,6 +2708,9 @@ msgid ""
 "device's time is delayed, the procedure of SSL certificate verification "
 "might not work correctly."
 msgstr ""
+"É importante para o seu dispositivo ter a hora correta definida. Se a hora "
+"do seu dispositivo estiver atrasada, o procedimento da verificação SSL pode "
+"não funcionar corretamente."
 
 #: js/src/regionAndTime/RegionAndTime.js:56
 msgid "Time should be in YYYY-MM-DD HH:MM:SS format."
@@ -2722,6 +2725,8 @@ msgid ""
 "Please select the timezone the router is being operated in. Correct "
 "setting is required to display the right time and for related functions."
 msgstr ""
+"Por favor selecione o fuso horário onde o router está a operar. É requerida "
+"definição correta para mostrar a hora certa e as funções relacionadas."
 
 #: js/src/regionAndTime/RegionForm.js:81
 msgid "Continent or ocean"
@@ -2752,6 +2757,8 @@ msgid ""
 "Time should be up-to-date otherwise DNS and other services might not work"
 " properly."
 msgstr ""
+"A hora deve estar atualizada caso contrário o DNS e outros serviços podem "
+"não funcionar corretamente."
 
 #: js/src/regionAndTime/TimeForm.js:113
 msgid "How to set time"
@@ -2772,7 +2779,7 @@ msgstr "Servidores NTP"
 #: js/src/routerStateHandler/NetworkRestartHandler.js:29
 #, python-format
 msgid "Network restart after %d sec."
-msgstr ""
+msgstr "Reiniciar de rede após %d segundos."
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:34
 msgid "Network restarting"
@@ -2840,12 +2847,16 @@ msgid ""
 "Please note that if you do not respond, you will be logged out "
 "automatically."
 msgstr ""
+"Por favor note que se não responder, a sua sessão vai ser terminada "
+"automaticamente."
 
 #: js/src/wan/MACForm.js:14
 msgid ""
 "Useful in cases, when a specific MAC address is required by your internet"
 " service provider."
 msgstr ""
+"Útil em casos onde um endereço MAC especifico é requerido pelo seu provedor "
+"de serviço de internet."
 
 #: js/src/wan/MACForm.js:17
 msgid "Colon is used as a separator, for example 00:11:22:33:44:55"
@@ -2876,10 +2887,12 @@ msgid ""
 "Useful in cases when a specific VLAN ID is required by your internet "
 "service provider."
 msgstr ""
+"Útil em casos onde um endereço ID VLAN especifico é requerido pelo seu "
+"provedor de serviço de internet."
 
 #: js/src/wan/VLANForm.js:17
 msgid "VLAN ID must be a number in the range between 1 and 4094."
-msgstr ""
+msgstr "ID VLAN tem de ser um número na gama entre 1 e 4094."
 
 #: js/src/wan/VLANForm.js:50
 msgid "VLAN Settings"
@@ -2891,15 +2904,15 @@ msgstr "Ativar VLAN"
 
 #: js/src/wan/VLANForm.js:62
 msgid "Set the VLAN ID"
-msgstr ""
+msgstr "Definir o ID VLAN"
 
 #: js/src/wan/VLANForm.js:86
 msgid "Value must be greater than or equal to 1."
-msgstr ""
+msgstr "Valor tem de ser maior ou igual a 1."
 
 #: js/src/wan/VLANForm.js:89
 msgid "Value must be less than or equal to 4094."
-msgstr ""
+msgstr "Valor tem de ser menor ou igual a 4094."
 
 #: js/src/wan/WAN.js:31
 msgid ""
@@ -2907,6 +2920,9 @@ msgid ""
 "your ISP (internet service provider). Usually, it can be left untouched "
 "if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
+"Aqui pode especificar as suas definições de porto WAN se instruído pelo seu "
+"ISP (provedor de serviço de internet). Geralmente pode ser deixado intocado "
+"se o seu router estiver ligado à Internet via cabo ou modem DSL."
 
 #: js/src/wan/WAN.js:54
 msgid ""
@@ -2914,20 +2930,25 @@ msgid ""
 "the connection. Remember to click the <b>Save</b> button after you have "
 "tested that it works."
 msgstr ""
+"Aqui pode examinar as suas definições de ligação. Espere um pouco para "
+"estabilizar a ligação. Lembre-se de clicar no botão <b>Salvar</b> após ter "
+"testado que funciona."
 
 #: js/src/wan/WAN6Form.js:26
 msgid "DUID which will be provided to the DHCPv6 server."
-msgstr ""
+msgstr "DUID que vai ser fornecido ao servidor DHCPv6."
 
 #: js/src/wan/WAN6Form.js:30
 msgid ""
 "IPv6 address and prefix length for WAN interface e.g. "
 "2001:db8:be13:37da::1/64"
 msgstr ""
+"Endereço IPv6 e comprimento de prefixo para interface WAN ex. "
+"2001:db8:be13:37da::1/64"
 
 #: js/src/wan/WAN6Form.js:33
 msgid "Address range for local network, e.g. 2001:db8:be13:37da::/64"
-msgstr ""
+msgstr "Gama de endereço para rede local, ex. 2001:db8:be13:37da::/64"
 
 #: js/src/wan/WAN6Form.js:42
 msgid ""
@@ -2935,120 +2956,129 @@ msgid ""
 " address manually (e.g. when your WAN interface has a private address "
 "which is mapped to public IP)."
 msgstr ""
+"De modo a usar o protocolo 6to4, pode precisar de especificar manualmente o "
+"seu endereço IPv4 público (ex. quando a sua interface WAN tem um endereço "
+"privado que está mapeado para IP público)."
 
 #: js/src/wan/WAN6Form.js:49
 msgid ""
 "This address will be used as a endpoint of the tunnel on the provider's "
 "side."
 msgstr ""
+"Este endereço vai ser usado como um ponto final do túnel no lado do provedor."
 
 #: js/src/wan/WAN6Form.js:52
 msgid "IPv6 addresses which will be routed to your network."
-msgstr ""
+msgstr "Endereços IPv6 que vão ser roteados para a sua rede."
 
 #: js/src/wan/WAN6Form.js:53
 msgid "Maximum Transmission Unit in the tunnel (in bytes)."
-msgstr ""
+msgstr "Unidade de Transmissão Máxima no túnel (em bytes)."
 
 #: js/src/wan/WAN6Form.js:56
 msgid ""
 "Some tunnel providers allow you to have public dynamic IPv4. Note that "
 "you need to fill in some extra fields to make it work."
 msgstr ""
+"Alguns provedores de túnel permitem-lhe ter IPv4 dinâmico público. Note que "
+"precisa de preencher alguns campos extra para o fazer funcionar."
 
 #: js/src/wan/WAN6Form.js:60
 msgid "ID of your tunnel which was assigned to you by the provider."
-msgstr ""
+msgstr "ID do seu túnel que lhe foi atribuído pelo seu provedor."
 
 #: js/src/wan/WAN6Form.js:63
 msgid ""
 "Username which will be used to provide credentials to your tunnel "
 "provider."
 msgstr ""
+"Nome de utilizador que vai ser usado para fornecer credenciais ao seu "
+"provedor de túnel."
 
 #: js/src/wan/WAN6Form.js:66
 msgid "Key which will be used to provide credentials to your tunnel provider."
 msgstr ""
+"Chave que vai ser usada para fornecer credenciais ao seu provedor de túnel."
 
 #: js/src/wan/WAN6Form.js:74
 msgid "DHCPv6 (automatic configuration)"
-msgstr ""
+msgstr "DHCPv6 (configuração automática)"
 
 #: js/src/wan/WAN6Form.js:76
 msgid "6to4 (public IPv4 address required)"
-msgstr ""
+msgstr "6to4 (endereço IPv4 público obrigatório)"
 
 #: js/src/wan/WAN6Form.js:77
 msgid "6in4 (public IPv4 address required)"
-msgstr ""
+msgstr "6in4 (endereço IPv4 público obrigatório)"
 
 #: js/src/wan/WAN6Form.js:78
 msgid "Disable IPv6"
-msgstr ""
+msgstr "Desativar IPv6"
 
 #: js/src/wan/WAN6Form.js:162
 msgid "IPv6 Settings"
-msgstr ""
+msgstr "Definições de IPv6"
 
 #: js/src/wan/WAN6Form.js:164
 msgid "IPv6 protocol"
-msgstr ""
+msgstr "Protocolo de IPv6"
 
 #: js/src/wan/WAN6Form.js:197
 msgid "Custom DUID"
-msgstr ""
+msgstr "DUID personalizado"
 
 #: js/src/wan/WAN6Form.js:232
 msgid "Address"
-msgstr ""
+msgstr "Endereço"
 
 #: js/src/wan/WAN6Form.js:255
 msgid "Prefix"
-msgstr ""
+msgstr "Prefixo"
 
 #: js/src/wan/WAN6Form.js:304
 msgid "Public IPv4"
-msgstr ""
+msgstr "IPv4 Público"
 
 #: js/src/wan/WAN6Form.js:338
 msgid "Provider IPv4"
-msgstr ""
+msgstr "IPv4 de provedor"
 
 #: js/src/wan/WAN6Form.js:351
 msgid "Routed IPv6 prefix"
-msgstr ""
+msgstr "Prefixo IPv6 roteado"
 
 #: js/src/wan/WAN6Form.js:363
 msgid "MTU"
-msgstr ""
+msgstr "MTU"
 
 #: js/src/wan/WAN6Form.js:375
 msgid "Dynamic IPv4 handling"
-msgstr ""
+msgstr "Manuseamento de IPv4 dinâmico"
 
 #: js/src/wan/WAN6Form.js:419
 msgid "Tunnel ID"
-msgstr ""
+msgstr "ID de túnel"
 
 #: js/src/wan/WAN6Form.js:449
 msgid "Key"
-msgstr ""
+msgstr "Chave"
 
 #: js/src/wan/WAN6Form.js:527
 msgid "MTU has to be a number in the range of 1280-1480."
-msgstr ""
+msgstr "MTU tem de ser um número na gama de 1280-1480."
 
 #: js/src/wan/WAN6Form.js:529
 msgid "MTU has to be in the range of 1280-1480."
-msgstr ""
+msgstr "MTU tem de estar na gama de 1280-1480."
 
 #: js/src/wan/WANForm.js:27
 msgid "PPPoE (for DSL bridges, etc.)"
-msgstr ""
+msgstr "PPPoE (para pontes DSL, etc.)"
 
 #: js/src/wan/WANForm.js:100
 msgid "IPv4 Settings"
-msgstr ""
+msgstr "Definições de IPv4"
 
 #: js/src/wan/WANForm.js:128
 msgid "PAP/CHAP username"
