@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-05-25 11:12+0000\n"
+"PO-Revision-Date: 2026-05-26 20:15+0000\n"
 "Last-Translator: Américo Monteiro <a_monteiro@gmx.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/turris/"
 "reforis/pt/>\n"
@@ -3082,15 +3082,17 @@ msgstr "Definições de IPv4"
 
 #: js/src/wan/WANForm.js:128
 msgid "PAP/CHAP username"
-msgstr ""
+msgstr "Nome de utilizador PAP/CHAP"
 
 #: js/src/wan/WANForm.js:139
 msgid "PAP/CHAP password"
-msgstr ""
+msgstr "palavra passe de PAP/CHAP"
 
 #: js/src/wifi/WiFi.js:27
 msgid "Unfortunately, we were unable to detect any wireless cards in your router."
 msgstr ""
+"Infelizmente, fomos incapazes de detetar quaisquer placas de rede sem fios "
+"no seu router."
 
 #: js/src/wifi/WiFi.js:42
 msgid ""
@@ -3099,141 +3101,149 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
+"Se deseja usar o seu router como um ponto de acesso Wi-Fi, ative o Wi-Fi "
+"aqui e preencha um SSID (o nome do ponto de acesso) e uma palavra passe "
+"correspondente. Pode depois configurar os seus dispositivos móveis usando o "
+"código QR disponível dentro do formulário."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
-msgstr ""
+msgstr "Não pode adicionar novo encaminhador de DNS."
 
 #: reforis/foris_controller_api/modules/dns.py:52
 msgid "Can't set DNS forwarder."
-msgstr ""
+msgstr "Não pode definir encaminhador DNS."
 
 #: reforis/foris_controller_api/modules/dns.py:57
 msgid "Can't delete DNS forwarder."
-msgstr ""
+msgstr "Não pode apagar encaminhador DNS."
 
 #: reforis/foris_controller_api/modules/lan.py:15
 msgid "IP address does not fit the LAN network."
-msgstr ""
+msgstr "Endereço IP não pertence à rede LAN."
 
 #: reforis/foris_controller_api/modules/lan.py:16
 msgid "DHCP is disabled for LAN."
-msgstr ""
+msgstr "DHCP está desativado para LAN."
 
 #: reforis/foris_controller_api/modules/lan.py:17
 msgid "IP address is already used by another static lease."
-msgstr ""
+msgstr "Endereço IP já está a ser usado por outro aluguer estático."
 
 #: reforis/foris_controller_api/modules/lan.py:18
 msgid "MAC address is already used by another static lease."
-msgstr ""
+msgstr "Endereço MAC já está a ser usado por outro aluguer estático."
 
 #: reforis/foris_controller_api/modules/lan.py:19
 msgid "No static lease has this MAC address assigned."
-msgstr ""
+msgstr "Nenhum aluguer estático tem este endereço MAC atribuído."
 
 #: reforis/foris_controller_api/modules/lan.py:20
 msgid "Hostname is already used by another static lease."
-msgstr ""
+msgstr "Nome de máquina já está a ser usado por outro aluguer estático."
 
 #: reforis/foris_controller_api/modules/lan.py:24
 msgid "IP address is not in the LAN network."
-msgstr ""
+msgstr "Endereço IP não está na rede LAN."
 
 #: reforis/foris_controller_api/modules/lan.py:25
 msgid "IP address is not a user-defined static lease."
-msgstr ""
+msgstr "Endereço IP não é um aluguer estático definido pelo utilizador."
 
 #: reforis/foris_controller_api/modules/lan.py:26
 msgid "Port range is already used by another port forwarding rule."
 msgstr ""
+"Gama de porto já está a ser usada por outra regra de encaminhamento de porto."
 
 #: reforis/foris_controller_api/modules/lan.py:104
 msgid "Can't create DHCP lease."
-msgstr ""
+msgstr "Não pode criar aluguer DHCP."
 
 #: reforis/foris_controller_api/modules/lan.py:119
 msgid "Can't update DHCP lease."
-msgstr ""
+msgstr "Não pode atualizar aluguer DHCP."
 
 #: reforis/foris_controller_api/modules/lan.py:130
 msgid "Can't delete DHCP lease."
-msgstr ""
+msgstr "Não pode apagar aluguer DHCP."
 
 #: reforis/foris_controller_api/modules/lan.py:156
 msgid "Can't set port forwarding rule."
-msgstr ""
+msgstr "Não pode definir regra de encaminhamento de porto."
 
 #: reforis/foris_controller_api/modules/lan.py:167
 msgid "Can't delete port forwarding rule."
-msgstr ""
+msgstr "Não pode apagar regra de encaminhamento de porto."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
-msgstr ""
+msgstr "Palavra passe atual errada."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:126
 msgid ""
 "If you see this message, your notification settings seem to be correct. "
 "Have a nice day! 😊"
 msgstr ""
+"Se está a ver esta mensagem, as suas definições de notificação parecem estar "
+"corretas. Tenha um bom dia! 😊"
 
 #: reforis/foris_controller_api/modules/router_notifications.py:132
 msgid "Test notification sent successfully."
-msgstr ""
+msgstr "Notificação de teste enviada com sucesso."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:135
 msgid "Cannot send test notification. Please check your configuration."
 msgstr ""
+"Não pode enviar notificação de teste. Por favor verifique a sua configuração."
 
 #: reforis/foris_controller_api/modules/updater.py:66
 msgid "Cannot change automatic restart settings."
-msgstr ""
+msgstr "Não pode mudar definições de reiniciar automático."
 
 #: reforis/foris_controller_api/modules/updater.py:77
 msgid "Cannot update approvals settings."
-msgstr ""
+msgstr "Não pode atualizar definições de aprovação."
 
 #: reforis/foris_controller_api/modules/updater.py:170
 msgid "Cannot start updater"
-msgstr ""
+msgstr "Não pode iniciar o atualizador"
 
 #: reforis/foris_controller_api/modules/updater.py:199
 msgid "You can't set it with disabled automatic updates."
-msgstr ""
+msgstr "Não o pode definir com as atualizações automáticas desativadas."
 
 #: reforis/templates/guide.html:10
 msgid "Guide"
-msgstr ""
+msgstr "Guia"
 
 #: reforis/templates/errors/400.html:4 reforis/templates/errors/400.html:8
 msgid "400 - Bad Request"
-msgstr ""
+msgstr "400 - Mau Pedido"
 
 #: reforis/templates/errors/400.html:9 reforis/templates/errors/500.html:9
 msgid "Error:"
-msgstr ""
+msgstr "Erro:"
 
 #: reforis/templates/errors/400.html:12 reforis/templates/errors/500.html:12
 msgid "Extra:"
-msgstr ""
+msgstr "Extra:"
 
 #: reforis/templates/errors/400.html:16 reforis/templates/errors/500.html:16
 msgid "Trace:"
-msgstr ""
+msgstr "Rastro:"
 
 #: reforis/templates/errors/404.html:4
 msgid "404 - Page not found"
-msgstr ""
+msgstr "404 - Página não encontrada"
 
 #: reforis/templates/errors/404.html:9
 msgid "Page not found :("
-msgstr ""
+msgstr "Página não encontrada :("
 
 #: reforis/templates/errors/500.html:4
 msgid "Server error"
-msgstr ""
+msgstr "Erro do servidor"
 
 #: reforis/templates/errors/500.html:8
 msgid "500 - Server error"
-msgstr ""
+msgstr "500 - Erro do servidor"
