@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-01-08 18:01+0000\n"
-"Last-Translator: Kristoffer Grundström "
-"<swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2026-07-04 23:01+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language: sv\n"
-"Language-Team: Swedish "
-"<https://hosted.weblate.org/projects/turris/reforis/sv/>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/turris/reforis/"
+"sv/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
+"X-Generator: Weblate 2026.7.1.dev0\n"
 
 #: js/src/about/About.js:18
 msgid ""
@@ -41,7 +41,7 @@ msgid ""
 "support</a>."
 msgstr ""
 "Här kan du hitta lite information om din enhet. Vänligen inkludera det i "
-"ditt meddelande om du kontaktar vår<a "
+"ditt meddelande om du kontaktar vår <a "
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">kundsupport</a>."
 
 #: js/src/about/About.js:37
@@ -315,9 +315,8 @@ msgid "Static lease deleted successfully."
 msgstr "Sparningen av statisk lyckades."
 
 #: js/src/common/network/DHCPClients/hooks.js:76
-#, fuzzy
 msgid "Can't delete static lease."
-msgstr "Kan inte ta bort vidarebefordrare av DNS."
+msgstr "Kan inte ta bort den statiska tilldelningstiden."
 
 #: js/src/common/network/DHCPClients/hooks.js:107
 msgid "Static lease added successfully."
@@ -963,9 +962,8 @@ msgid "LAN"
 msgstr "LAN"
 
 #: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
-#, fuzzy
 msgid "Sentinel"
-msgstr "Fortsätt"
+msgstr "Sentinel"
 
 #: js/src/guide/steps.js:57
 msgid "Finish"
@@ -1084,6 +1082,8 @@ msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
+"Jag accepterar <a href='#'>Villkor för deltagande i Turris-projektet "
+"(Insamling av data)</a>."
 
 #: js/src/guide/GuidePages/SentinelEULA.js:86
 msgid ""
@@ -1126,7 +1126,7 @@ msgstr "Router"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:40
 msgid "Minimal"
-msgstr "Minimal"
+msgstr "Minimalt"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:58
 msgid "Cannot set workflow."
@@ -1249,7 +1249,7 @@ msgstr ""
 
 #: js/src/interfaces/SelectedInterface.js:111
 msgid "Slot"
-msgstr ""
+msgstr "Kortplats"
 
 #: js/src/interfaces/SelectedInterface.js:115
 msgid "Interface ID"
@@ -1465,9 +1465,8 @@ msgid "Approve Update"
 msgstr "Godkänn uppdatering"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:132
-#, fuzzy
 msgid "See details in "
-msgstr "Fler detaljer"
+msgstr "Se fler detaljer i "
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:134
 #: js/src/portForwarding/PortForwarding.js:65
@@ -1509,9 +1508,8 @@ msgid "The router has been reset successfully."
 msgstr ""
 
 #: js/src/maintenance/FactoryReset.js:37
-#, fuzzy
 msgid "An error occurred while resetting the router."
-msgstr "Ett fel inträffade"
+msgstr "Ett fel inträffade när routern återställdes."
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
@@ -1681,9 +1679,8 @@ msgid "Priority"
 msgstr "Prioritet"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
-#, fuzzy
 msgid "Priority of the push notifications."
-msgstr "Aviseringar"
+msgstr "Prioritering för push-meddelandena."
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
@@ -1834,7 +1831,7 @@ msgstr "Aktiverat"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Disabled"
-msgstr "Avstängt"
+msgstr "Inaktiverat"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:23
 msgid "Dynamic Firewall"
@@ -1896,9 +1893,8 @@ msgid "Currently, there are no connected OpenVPN clients."
 msgstr ""
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:88
-#, fuzzy
 msgid "There are no OpenVPN clients."
-msgstr "OpenVPN-klienter"
+msgstr "Det finns inga OpenVPN-klienter."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:116
 msgid "Total In: "
@@ -2130,15 +2126,13 @@ msgstr[0] "Det finns %d paket som ska uppdateras."
 msgstr[1] "Det finns %d paket som ska bli uppdaterade."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:69
-#, fuzzy
 msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
-"Se\n"
-"<a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" aria-"
-"expanded=\"false\" aria-controls=\"plan-wrapper\">\n"
-"detaljer</a>"
+"Se <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" aria-"
+"expanded=\"false\" aria-controls=\"plan-\n"
+"wrapper\">detaljer</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
 #, python-brace-format
@@ -2189,13 +2183,12 @@ msgid "Available Updates"
 msgstr "Tillgängliga uppdateringar"
 
 #: js/src/packageManagement/updates/UpdateManager.js:85
-#, fuzzy
 msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
 msgstr ""
-"Här kan du hitta och godkänna tillgängliga uppdateringar för \n"
-"                    Turris OS och andra komponenter."
+"Här kan du hitta och godkänna tillgängliga uppdateringar för Turris OS och "
+"andra komponenter."
 
 #: js/src/packageManagement/updates/UpdateManager.js:91
 msgid "You're up to date."
@@ -2317,14 +2310,12 @@ msgid "Choose a password."
 msgstr "Fel lösenord."
 
 #: js/src/password/Password.js:216
-#, fuzzy
 msgid "Password should have at least eight symbols."
-msgstr "PIN-kod för TLS bör ha åtminstone en symbol."
+msgstr "Lösenordet bör ha minst åtta symboler."
 
 #: js/src/password/Password.js:219
-#, fuzzy
 msgid "Password cannot have more than 256 symbols."
-msgstr "PIN-kod för TLS bör ha åtminstone en symbol."
+msgstr "Lösenordet bör inte ha mer än 256 symboler."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -2393,9 +2384,8 @@ msgstr "Intern port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:107
 #: js/src/portForwarding/PortForwardingRulesTable.js:34
-#, fuzzy
 msgid "Enabled"
-msgstr "Aktivera DHCP"
+msgstr "Aktiverat"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:23
 #, fuzzy
@@ -2444,9 +2434,8 @@ msgid "Rule deleted successfully."
 msgstr "Sparningen av statisk lyckades."
 
 #: js/src/portForwarding/hooks.js:79
-#, fuzzy
 msgid "Can't delete rule."
-msgstr "Kan inte ta bort vidarebefordrare av DNS."
+msgstr "Kan inte ta regeln."
 
 #: js/src/portForwarding/hooks.js:150
 #, fuzzy
@@ -2929,14 +2918,12 @@ msgid "Can't delete DHCP lease."
 msgstr "Kan inte ta bort vidarebefordrare av DNS."
 
 #: reforis/foris_controller_api/modules/lan.py:156
-#, fuzzy
 msgid "Can't set port forwarding rule."
-msgstr "Kan inte ställa in vidarebefordrare av DNS."
+msgstr "Kan inte ställa in regeln för vidarebefordring av port."
 
 #: reforis/foris_controller_api/modules/lan.py:167
-#, fuzzy
 msgid "Can't delete port forwarding rule."
-msgstr "Kan inte ta bort vidarebefordrare av DNS."
+msgstr "Kan inte ta bort regeln för vidarebefordring av port."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
@@ -3626,4 +3613,3 @@ msgstr "500 Server-fel"
 #~ "in your hands, so try not to "
 #~ "use weak passwords."
 #~ msgstr ""
-
