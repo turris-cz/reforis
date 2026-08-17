@@ -8,6 +8,17 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.9.2] - 2026-08-17
+
+### Added
+
+- Added lint-web-js command to Makefile
+
+### Changed
+
+- Updated ForisJS library to v6.11.2
+- Fixed linting issues
+
 ## [3.9.1] - 2026-04-02
 
 ### Changed
@@ -761,7 +772,8 @@ and this project adheres to
 
 - Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.1...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.2...master
+[3.9.2]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.1...v3.9.2
 [3.9.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.0...v3.9.1
 [3.9.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.8.0...v3.9.0
 [3.8.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.7.0...v3.8.0
