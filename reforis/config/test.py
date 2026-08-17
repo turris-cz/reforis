@@ -3,7 +3,6 @@
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
 
-# ruff: noqa: F403, F405
 
 from reforis.config.dev import *
 

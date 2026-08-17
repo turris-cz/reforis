@@ -5,8 +5,8 @@
 
 from flask import current_app, jsonify, request
 from flask_babel import gettext as _
-from reforis.utils import APIError, _decode_password_to_base64, check_password
 
+from reforis.utils import APIError, _decode_password_to_base64, check_password
 
 from .utils import validate_json
 

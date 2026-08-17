@@ -68,10 +68,10 @@ class Backend(ABC):
             # This may occure when e.g. calling function is not present in backend
             current_app.logger.error("RuntimeError occurred during the communication with backend. (%s)", e)
             if raise_exception_on_failure:
-                raise e
+                raise
         except Exception as e:
             current_app.logger.error("Exception occurred during the communication with backend. (%s)", e)
-            raise e
+            raise
         finally:
             current_app.logger.debug("Query took %f: %s.%s - %s", time.time() - start_time, module, action, data)
 

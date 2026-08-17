@@ -7,4 +7,4 @@
 
 # Fix backward compatibility with plugins
 from reforis.foris_controller_api.modules.utils import validate_json
-from reforis.utils import log_error, APIError
+from reforis.utils import APIError, log_error

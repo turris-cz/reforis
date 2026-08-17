@@ -3,12 +3,12 @@
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
 
-import typing
 
-from flask import request, current_app, jsonify, Response
+from flask import Response, current_app, jsonify, request
 from flask_babel import _
 
 from reforis.utils import APIError
+
 from .utils import process_dhcp_get, process_dhcp_post
 
 DHCP_LEASES_ERRORS = {
@@ -27,7 +27,7 @@ FORWARDING_ERRORS = {
 }
 
 
-def dhcp_response_to_json_or_error(response: typing.Dict[str, str], error_message: str) -> Response:
+def dhcp_response_to_json_or_error(response: dict[str, str], error_message: str) -> Response:
     """Handle dhcp leases related responses
 
     Based on the `response['result']`, return either response as JSON (`flask.Response`)
@@ -40,7 +40,7 @@ def dhcp_response_to_json_or_error(response: typing.Dict[str, str], error_messag
     raise APIError(f"{error_message} {_('Caused by')}: {DHCP_LEASES_ERRORS.get(reason_of_failure, _('Unknown'))}")
 
 
-def port_forwarding_response_to_json_or_error(response: typing.Dict[str, str], error_message: str) -> Response:
+def port_forwarding_response_to_json_or_error(response: dict[str, str], error_message: str) -> Response:
     """Handle port forwarding related responses
 
     Based on the `response['result']`, return either response as JSON (`flask.Response`)

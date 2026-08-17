@@ -15,8 +15,8 @@ See `Flask Application Factories <http://flask.pocoo.org/docs/1.0/patterns/appfa
 
 
 import json
-from importlib.metadata import distribution, PackageNotFoundError
 from http import HTTPStatus
+from importlib.metadata import PackageNotFoundError, distribution
 from logging.config import dictConfig
 
 from flask import jsonify, render_template
