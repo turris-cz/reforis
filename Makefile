@@ -158,6 +158,10 @@ lint-js-fix:
 lint-web: venv
 	$(VENV_BIN)/$(PYTHON) -m ruff check reforis
 
+.PHONY: lint-web-fix
+lint-web-fix: venv
+	$(VENV_BIN)/$(PYTHON) -m ruff check reforis --fix
+
 
 # Testing
 
