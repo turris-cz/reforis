@@ -8,6 +8,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.9.3] - 2026-08-31
+
+### Changed
+
+- Updated ForisJS library to v6.11.3
+
 ## [3.9.2] - 2026-08-17
 
 ### Added
@@ -772,7 +778,8 @@ and this project adheres to
 
 - Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.2...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.3...master
+[3.9.3]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.2...v3.9.3
 [3.9.2]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.1...v3.9.2
 [3.9.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.0...v3.9.1
 [3.9.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.8.0...v3.9.0
