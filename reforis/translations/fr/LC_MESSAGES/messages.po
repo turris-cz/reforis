@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
 "PO-Revision-Date: 2026-09-04 13:43+0000\n"
-"Last-Translator: Florian <flo.site@zaclys.net>\n"
+"Last-Translator: XoD DarK <xod@xoddark.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/turris/reforis/"
 "fr/>\n"
 "Language: fr\n"
@@ -181,8 +181,8 @@ msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
-"Cette liste contient tous les périphériques qui sont connectés au réseau "
-"par des connexions câblées ou sans fil."
+"Cette liste contient tous les périphériques qui sont connectés au réseau par "
+"des connexions câblées ou sans fil."
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
@@ -245,8 +245,8 @@ msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
-"Le seul bail DHCP est le même que l'adresse du routeur. Augmentez la "
-"limite ou modifiez l'adresse de début."
+"Le seul bail DHCP est le même que l'adresse du routeur. Augmentez la limite "
+"ou modifiez l'adresse de début."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 msgid ""
@@ -589,8 +589,8 @@ msgstr "sha256 encodé en base64."
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:25
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr ""
-"\"No TLS\" signifie que le protocole DNS normal basé sur le protocole UDP"
-" est utilisé."
+"\"No TLS\" signifie que le protocole DNS normal basé sur le protocole UDP "
+"est utilisé."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
 #: js/src/packageManagement/updates/UpdateApproval.js:142
@@ -767,7 +767,8 @@ msgstr ""
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:17
 msgid "All network interfaces of this network are currently down."
-msgstr "Toutes les interfaces réseau de ce réseau sont actuellement hors service."
+msgstr ""
+"Toutes les interfaces réseau de ce réseau sont actuellement hors service."
 
 #: js/src/guide/constants.js:13
 msgid ""
@@ -823,8 +824,8 @@ msgid ""
 "manually."
 msgstr ""
 "Votre heure et votre fuseau horaire semblent être définis. Veuillez vous "
-"assurer que l'heure correspond à l'heure de votre ordinateur, sinon "
-"essayez de la mettre à jour via NTP ou manuellement."
+"assurer que l'heure correspond à l'heure de votre ordinateur, sinon essayez "
+"de la mettre à jour via NTP ou manuellement."
 
 #: js/src/guide/constants.js:43
 msgid ""
@@ -915,8 +916,8 @@ msgid ""
 "network traffic among LAN, WAN and guest network."
 msgstr ""
 "Félicitations ! Votre appareil est maintenant capable d'agir comme un "
-"routeur et d'acheminer le trafic réseau entre le LAN, le WAN et le réseau"
-" invité."
+"routeur et d'acheminer le trafic réseau entre le LAN, le WAN et le réseau "
+"invité."
 
 #: js/src/guide/constants.js:104
 msgid ""
@@ -1103,8 +1104,8 @@ msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
-"Une fois que vous aurez quitté ce guide, vous aurez accès à l'interface "
-"de configuration complète de cet appareil."
+"Une fois que vous aurez quitté ce guide, vous aurez accès à l'interface de "
+"configuration complète de cet appareil."
 
 #: js/src/guide/GuidePages/GuideFinish.js:27
 msgid ""
@@ -1116,8 +1117,8 @@ msgstr ""
 "Pour améliorer encore votre sécurité, envisagez d'installer le plugin de "
 "collecte de données (via la gestion des paquets). Cela vous permettra de "
 "participer à nos recherches en matière de sécurité pour découvrir de "
-"nouveaux attaquants et vous donnera accès à des mises à jour dynamiques "
-"du pare-feu bloquant les attaquants connus."
+"nouveaux attaquants et vous donnera accès à des mises à jour dynamiques du "
+"pare-feu bloquant les attaquants connus."
 
 #: js/src/guide/GuidePages/GuideFinish.js:33
 #: js/src/utils/useSessionTimeout.js:113
@@ -1227,8 +1228,8 @@ msgid ""
 "Just set your password and you are ready to go. This workflow is aimed to"
 " more advanced users who intend to set everything manually."
 msgstr ""
-"Définissez simplement votre mot de passe et vous êtes prêt à démarrer. Ce"
-" flux de travail est destiné aux utilisateurs plus avancés qui ont "
+"Définissez simplement votre mot de passe et vous êtes prêt à démarrer. Ce "
+"flux de travail est destiné aux utilisateurs plus avancés qui ont "
 "l'intention de tout définir manuellement."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:38
@@ -1676,8 +1677,7 @@ msgid ""
 " default settings by performing a factory reset."
 msgstr ""
 "L'onglet Maintenance vous permet de redémarrer le routeur ou de rétablir "
-"tous les paramètres par défaut en effectuant une réinitialisation "
-"d'usine."
+"tous les paramètres par défaut en effectuant une réinitialisation d'usine."
 
 #: js/src/maintenance/Reboot.js:19
 msgid ""
@@ -1965,8 +1965,7 @@ msgstr ""
 #: js/src/notificationsSettings/helpTexts.js:18
 msgid "Email address of recipient. Separate multiple addresses by comma."
 msgstr ""
-"Adresse e-mail des destinataires. Séparez plusieurs adresses par une "
-"virgule."
+"Adresse e-mail des destinataires. Séparez plusieurs adresses par une virgule."
 
 #: js/src/notificationsSettings/helpTexts.js:21
 #, fuzzy
@@ -2347,10 +2346,10 @@ msgid ""
 msgstr ""
 "L’approbation de mise à jour peux être utile lorsque vous voulez vous "
 "assurer que les mises à jour ne nuiront pas à votre\n"
-"\tconfiguration spécifique. Vous pouvez par exemple installez les mises à"
-" jour lorsque vous êtes prêt pour un possible retour à\n"
-"\tun instantané précédent et refusez temporairement la mise à jour "
-"douteuse. Il n'est pas possible de refuser la mise à jour\n"
+"\tconfiguration spécifique. Vous pouvez par exemple installez les mises à "
+"jour lorsque vous êtes prêt pour un possible retour à\n"
+"\tun instantané précédent et refusez temporairement la mise à jour douteuse. "
+"Il n'est pas possible de refuser la mise à jour\n"
 "\tpour toujours et elle vous sera de nouveau proposée avec la prochaine "
 "installation du package."
 
@@ -2361,8 +2360,8 @@ msgstr "Mises à jour différées (heures)"
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:97
 msgid "Updates must be delayed by least 1 hour and at most by 168 hours"
 msgstr ""
-"Les mises à jour doivent être différées d'au moins 1 heure et d'au plus "
-"168 heures"
+"Les mises à jour doivent être différées d'au moins 1 heure et d'au plus 168 "
+"heures"
 
 #: js/src/packageManagement/updateSettings/forms/UpdatesForm.js:47
 msgid "Automatic Update Settings"
@@ -2515,9 +2514,8 @@ msgid ""
 "href=\"${ForisURLs.packageManagement.updateSettings}\">automatic "
 "updates</a> to manage packages and languages."
 msgstr ""
-"Veuillez activer les <a "
-"href=\"${ForisURLs.packageManagement.updateSettings}\">mises à jour "
-"automatiques</a> pour gérer les packages et les langues."
+"Veuillez activer les <a href=\"${ForisURLs.packageManagement.updateSettings}"
+"\">mises à jour automatiques</a> pour gérer les packages et les langues."
 
 #: js/src/password/ForisPasswordForm.js:55
 msgid "Set your password for this administration interface."
@@ -2893,8 +2891,8 @@ msgid ""
 "Please report this error to our support team via e-mail: <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 msgstr ""
-"Veuillez signaler cette erreur à notre équipe d'assistance par e-mail : "
-"<a href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
+"Veuillez signaler cette erreur à notre équipe d'assistance par e-mail : <a "
+"href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 
 #: js/src/utils/SkipLink.js:23
 msgid "Skip to main content"
