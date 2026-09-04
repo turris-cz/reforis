@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
 "PO-Revision-Date: 2026-09-04 13:42+0000\n"
-"Last-Translator: \"BMT[UA]\" <weblate@yopmail.com>\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/turris/reforis/"
 "de/>\n"
 "Language: de\n"
@@ -1075,16 +1075,16 @@ msgstr "Sind Sie sicher, dass Sie die ganze Anleitung überspringen möchten?"
 #: js/src/guide/GuideControls/SkipGuideButton.js:72
 msgid "This will skip the guide and you will be redirected to the overview page."
 msgstr ""
-"Dadurch wird die Anleitung übersprungen und Sie werden zur "
-"Übersichtsseite weitergeleitet."
+"Dadurch wird die Anleitung übersprungen und Sie werden zur Übersichtsseite "
+"weitergeleitet."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:77
 msgid ""
 "Settings that are not set up during the guide will be set to default "
 "values. And you will have to set them up manually."
 msgstr ""
-"Einstellungen, die nicht während der Anleitung vorgenommen werden, werden"
-" auf Standardwerte gesetzt. Sie müssen sie dann manuell einstellen."
+"Einstellungen, die nicht während der Anleitung vorgenommen werden, werden "
+"auf Standardwerte gesetzt. Sie müssen sie dann manuell einstellen."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:163
@@ -2178,9 +2178,9 @@ msgid ""
 "toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
 "Wenn Sie die automatischen Aktualisierungen aktivieren, stimmen Sie der "
-"Lizenzvereinbarung für diese Funktion zu. Weitere Informationen finden "
-"Sie <a href=\"\" data-bs-toggle=\"modal\" data-bs-"
-"target=\"#licenseModal\">hier</a>."
+"Lizenzvereinbarung für diese Funktion zu. Weitere Informationen finden Sie "
+"<a href=\"\" data-bs-toggle=\"modal\" data-bs-target=\"#licenseModal\">hier</"
+"a>."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
@@ -2359,8 +2359,8 @@ msgid ""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
 "Siehe die <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" "
-"role=\"button\" aria-expanded=\"false\" aria-controls=\"plan-"
-"wrapper\">Details</a>"
+"role=\"button\" aria-expanded=\"false\" aria-controls=\"plan-wrapper\">"
+"Details</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
 #, python-brace-format
@@ -2846,10 +2846,10 @@ msgid ""
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
-"Ausführlichere Informationen finden Sie in der Konsole Ihres Webbrowsers."
-" Bei den meisten Browsern können Sie darauf zugreifen, nachdem Sie "
-"<kbd><kbd>Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>J</kbd></kbd> oder "
-"<kbd>F12</kbd> gedrückt haben."
+"Ausführlichere Informationen finden Sie in der Konsole Ihres Webbrowsers. "
+"Bei den meisten Browsern können Sie darauf zugreifen, nachdem Sie <kbd><kbd>"
+"Strg</kbd>+<kbd>Umschalt</kbd>+<kbd>J</kbd></kbd> oder <kbd>F12</kbd> "
+"gedrückt haben."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
