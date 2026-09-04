@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
 "PO-Revision-Date: 2026-09-04 13:46+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: c10l <weblate.org@a.c10l.cc>\n"
 "Language: pt_BR\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "turris/reforis/pt_BR/>\n"
@@ -180,8 +180,8 @@ msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
-"Esta lista contém todos os dispositivos que estão conectados à rede com "
-"ou sem fio."
+"Esta lista contém todos os dispositivos que estão conectados à rede com ou "
+"sem fio."
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
@@ -217,7 +217,8 @@ msgstr "O valor deve ser positivo."
 
 #: js/src/common/network/DHCPValidators.js:86
 msgid "Invalid network settings. DHCP settings can't be validated."
-msgstr "Configuração de rede inválida. Configurações DHCP não podem ser validadas."
+msgstr ""
+"Configuração de rede inválida. Configurações DHCP não podem ser validadas."
 
 #: js/src/common/network/DHCPValidators.js:99
 msgid "Minimum lease time is 1 hour."
@@ -242,8 +243,8 @@ msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
-"O único lease DHCP é o mesmo que o endereço do roteador. Aumente o limite"
-" ou mude o endereço inicial."
+"O único lease DHCP é o mesmo que o endereço do roteador. Aumente o limite ou "
+"mude o endereço inicial."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 msgid ""
