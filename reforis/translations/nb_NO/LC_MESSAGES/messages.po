@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
 "PO-Revision-Date: 2026-09-04 13:44+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: nb_NO\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
 "reforis/nb_NO/>\n"
@@ -41,9 +41,9 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
-"Her kan du finne mer info om enheten din. Inkluder det i meldingen hvis "
-"du kontakter vår <a href=\"mailto:tech.support@turris.cz\" "
-"target=\"_blank\">brukerstøtte</a>"
+"Her kan du finne mer info om enheten din. Inkluder det i meldingen hvis du "
+"kontakter vår <a href=\"mailto:tech.support@turris.cz\" target=\"_blank\">"
+"brukerstøtte</a>"
 
 #: js/src/about/About.js:37
 msgid "Device"
@@ -701,12 +701,11 @@ msgid ""
 " are allowed to access the internet but are not allowed to access the "
 "configuration interface of this device or the devices in LAN."
 msgstr ""
-"Gjestenettverk brukes for <a href=\"${ForisURLs.wifi}\">gjeste-Wi-Fi</a>."
-"\n"
+"Gjestenettverk brukes for <a href=\"${ForisURLs.wifi}\">gjeste-Wi-Fi</a>.\n"
 "Det er adskilt fra ditt ordinære lokalnett. Enheter tilkoblet dette "
 "nettverket tillates adgang til Internett,\n"
-"men tillates ikke tilgang til oppsettsgrensesnittet på hverken enheten "
-"eller enhetene i lokalnettet."
+"men tillates ikke tilgang til oppsettsgrensesnittet på hverken enheten eller "
+"enhetene i lokalnettet."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 #, fuzzy
@@ -798,9 +797,9 @@ msgid ""
 "Firstly it is required to set your password. Note the security of your "
 "home network is in your hands, so try not to use weak passwords."
 msgstr ""
-"Velkommen til Foris-vevgrensesnittet. Denne guiden hjelper deg å sette "
-"opp din enhet. Først må du sette opp passordet ditt. Merk at sikkerheten "
-"til ditt hjemmenettverk i dine hender, så ikke bruk et usikkert passord."
+"Velkommen til Foris-vevgrensesnittet. Denne guiden hjelper deg å sette opp "
+"din enhet. Først må du sette opp passordet ditt. Merk at sikkerheten til "
+"ditt hjemmenettverk i dine hender, så ikke bruk et usikkert passord."
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
@@ -1018,8 +1017,8 @@ msgid ""
 "means that you can access the configuration interface of your device, and"
 " your device can access the internet."
 msgstr ""
-"Test hvorvidt innstillingene du angav fungerer som de skal. Dette betyr "
-"at du kan nå oppsettsgrensesnittet for din enhet og at din enhet kan nå "
+"Test hvorvidt innstillingene du angav fungerer som de skal. Dette betyr at "
+"du kan nå oppsettsgrensesnittet for din enhet og at din enhet kan nå "
 "Internett (du kan bruke tilkoblingstesten nedenfor)."
 
 #: js/src/guide/constants.js:148
@@ -1287,8 +1286,7 @@ msgid ""
 "The hostname can contain only alphanumeric characters, hyphens, "
 "underscores and can't be empty."
 msgstr ""
-"Avsendernavn kan kun inneholde alfanumeriske tegn, punktum og "
-"understreker."
+"Avsendernavn kan kun inneholde alfanumeriske tegn, punktum og understreker."
 
 #: js/src/hostname/HostnameForm.js:14
 msgid "Rewrite the hostname to set a new one."
@@ -1725,11 +1723,11 @@ msgid ""
 " saving system logs using the Storage plugin. Logs are saved into "
 "'/srv/log/messages'."
 msgstr ""
-"Ved enhetsomstart går systemlogger tapt som forvalg. Dette valget "
-"tillater lagring av dem ved bruk av lagringsprogramtillegget. Logger "
-"lagres i /srv/log/messages. For å skru dette på må du sette opp et lager "
-"i <a href=\"${ForisURLs.storage}\" title=\"Go to Storage "
-"plugin\">Lagringsprogramtillegget</a> først."
+"Ved enhetsomstart går systemlogger tapt som forvalg. Dette valget tillater "
+"lagring av dem ved bruk av lagringsprogramtillegget. Logger lagres i /srv/"
+"log/messages. For å skru dette på må du sette opp et lager i <a href=\"$"
+"{ForisURLs.storage}\" title=\"Go to Storage plugin\">"
+"Lagringsprogramtillegget</a> først."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:38
 #, fuzzy, python-brace-format
@@ -1738,11 +1736,11 @@ msgid ""
 "href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Storage "
 "plugin</a> first."
 msgstr ""
-"Ved enhetsomstart går systemlogger tapt som forvalg. Dette valget "
-"tillater lagring av dem ved bruk av lagringsprogramtillegget. Logger "
-"lagres i /srv/log/messages. For å skru dette på må du sette opp et lager "
-"i <a href=\"${ForisURLs.storage}\" title=\"Go to Storage "
-"plugin\">Lagringsprogramtillegget</a> først."
+"Ved enhetsomstart går systemlogger tapt som forvalg. Dette valget tillater "
+"lagring av dem ved bruk av lagringsprogramtillegget. Logger lagres i /srv/"
+"log/messages. For å skru dette på må du sette opp et lager i <a href=\"$"
+"{ForisURLs.storage}\" title=\"Go to Storage plugin\">"
+"Lagringsprogramtillegget</a> først."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:44
 #, fuzzy
@@ -1790,8 +1788,8 @@ msgid ""
 msgstr ""
 "Din enhet kan sende deg e-postmerknader om påkrevde omstarter, viktige "
 "hendelser, installerte oppdateringer og nye funksjoner i henhold til "
-"innstillingene dine. Når du er ferdig med oppsettet kan du teste det ved "
-"å trykke «Send testmerknad»."
+"innstillingene dine. Når du er ferdig med oppsettet kan du teste det ved å "
+"trykke «Send testmerknad»."
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
@@ -1934,8 +1932,8 @@ msgid ""
 "You have unsaved changes in your notification settings. Do you want to "
 "discard them and test notifications using the previous settings?"
 msgstr ""
-"Det er ulagrede endringer i merknadsinnstillingene. Ønsker du å forkaste "
-"dem og teste merknadene med de gamle innstillingene?"
+"Det er ulagrede endringer i merknadsinnstillingene. Ønsker du å forkaste dem "
+"og teste merknadene med de gamle innstillingene?"
 
 #: js/src/notificationsSettings/TestNotification.js:117
 #, fuzzy
@@ -1948,8 +1946,8 @@ msgid ""
 "Here you can verify whether your SMTP provider or push notifications are "
 "configured correctly by sending a test notification."
 msgstr ""
-"Har kan du bekrefte hvorvidt SMTP er satt opp rett, ved å sende deg selv "
-"en testmerknad til din e-postinnboks."
+"Har kan du bekrefte hvorvidt SMTP er satt opp rett, ved å sende deg selv en "
+"testmerknad til din e-postinnboks."
 
 #: js/src/notificationsSettings/TestNotification.js:130
 #, fuzzy
@@ -2148,8 +2146,8 @@ msgid ""
 "If you want to use another language other than English, you can select it"
 " from the following list:"
 msgstr ""
-"Hvis du ønsker å bruke et annet språk enn engelsk kan du velge det i "
-"denne listen:"
+"Hvis du ønsker å bruke et annet språk enn engelsk kan du velge det i denne "
+"listen:"
 
 #: js/src/packageManagement/packages/PackageCheckBox.js:54
 msgid "More details"
@@ -2187,10 +2185,10 @@ msgid ""
 "this Turris router, and you agree with the full text of the "
 msgstr ""
 "Ved å skru på automatiske oppgraderinger bekrefter du at du eier denne "
-"Turris-ruteren og at du samtykker med hele teksten i <a "
-"href=\"https://www.turris.cz/omnia-updater-eula\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">lisenssamtykket<sup><i class=\"fas fa-"
-"external-link-alt fa-sm\"></i></sup></a>."
+"Turris-ruteren og at du samtykker med hele teksten i <a href=\"https://"
+"www.turris.cz/omnia-updater-eula\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">lisenssamtykket<sup><i class=\"fas fa-external-link-alt fa-sm\">"
+"</i></sup></a>."
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
 #, fuzzy
@@ -2250,8 +2248,8 @@ msgid ""
 "Automatic updates take place at the time of their release. The time of "
 "installation cannot be influenced by the user."
 msgstr ""
-"Automatiske oppgraderinger finner sted når de slippes. Når de installeres"
-" kan ikke bestemmes av brukeren."
+"Automatiske oppgraderinger finner sted når de slippes. Når de installeres "
+"kan ikke bestemmes av brukeren."
 
 #: js/src/packageManagement/updateSettings/points.js:33
 #, fuzzy
@@ -2259,9 +2257,9 @@ msgid ""
 "Downloading the automatic updates mean increased Internet traffic. "
 "Potential expenses related to this are covered by you."
 msgstr ""
-"Å ha automatiske oppgraderinger påslått fører til økt Internett-trafikk "
-"på ruteren. Kostnader som evt. tilkommer som følge av dette er det du som"
-" betaler for."
+"Å ha automatiske oppgraderinger påslått fører til økt Internett-trafikk på "
+"ruteren. Kostnader som evt. tilkommer som følge av dette er det du som "
+"betaler for."
 
 #: js/src/packageManagement/updateSettings/points.js:39
 #, fuzzy
@@ -2283,8 +2281,7 @@ msgid ""
 "automatic updates and does not guarantee its availability."
 msgstr ""
 "CZ.NIC, z. s. p. o. er ikke ansvarlige for skade som forårsakes av "
-"automatiske oppgraderinger og garanterer ikke for tilgjengeligheten av "
-"dem."
+"automatiske oppgraderinger og garanterer ikke for tilgjengeligheten av dem."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:17
 msgid ""
@@ -2411,8 +2408,8 @@ msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
-"Vis <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
-"aria-expanded=\"false\" aria-controls=\"plan-wrapper\">detaljer</a>"
+"Vis <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" aria-"
+"expanded=\"false\" aria-controls=\"plan-wrapper\">detaljer</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
 #, fuzzy, python-brace-format
@@ -2605,8 +2602,8 @@ msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
 msgstr ""
-"Har kan du sette et passord for administrasjonsgrensesnittet. Forsikre "
-"deg om at det er et sikkert passord som er langt og unikt."
+"Har kan du sette et passord for administrasjonsgrensesnittet. Forsikre deg "
+"om at det er et sikkert passord som er langt og unikt."
 
 #: js/src/password/Password.js:194 js/src/password/Password.js:198
 #, fuzzy
@@ -2906,8 +2903,7 @@ msgid ""
 "<kbd>F12</kbd>."
 msgstr ""
 "Mer detaljert info er å finne i konsollen i din nettlser. På de fleste "
-"nettlesere er dette tilgjengelig etter å ha trykket Ctrl+Shift+J eller "
-"F12."
+"nettlesere er dette tilgjengelig etter å ha trykket Ctrl+Shift+J eller F12."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
