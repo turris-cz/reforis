@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-07-04 23:01+0000\n"
+"PO-Revision-Date: 2026-09-04 13:45+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language: sv\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/turris/reforis/"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
-"X-Generator: Weblate 2026.7.1.dev0\n"
+"X-Generator: Weblate 2026.9\n"
 
 #: js/src/about/About.js:18
 msgid ""
@@ -26,8 +26,8 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
-"Turris OS släpps för närvarande i olika grenar som har olika funktioner "
-"och varierande stabilitet - du kan välja vilken gren som du vill testa."
+"Turris OS släpps för närvarande i olika grenar som har olika funktioner och "
+"varierande stabilitet - du kan välja vilken gren som du vill testa."
 
 #: js/src/about/About.js:25 js/src/main/pages.js:105
 msgid "About"
@@ -141,8 +141,8 @@ msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
-"Den här listan innehåller alla enheter som är anslutna till nätverket via"
-" trådbundna eller trådlösa anslutningar som använder IPv6."
+"Den här listan innehåller alla enheter som är anslutna till nätverket via "
+"trådbundna eller trådlösa anslutningar som använder IPv6."
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
@@ -179,16 +179,16 @@ msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
-"Den här listan innehåller alla enheter som är anslutna till nätverket via"
-" trådbundna eller trådlösa anslutningar."
+"Den här listan innehåller alla enheter som är anslutna till nätverket via "
+"trådbundna eller trådlösa anslutningar."
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
 "Enable this option to automatically assign IP addresses to the devices "
 "connected to the router."
 msgstr ""
-"Aktivera det här alternativet för att automatiskt tilldela IP-adresser "
-"till enheterna som är ansluten till routern."
+"Aktivera det här alternativet för att automatiskt tilldela IP-adresser till "
+"enheterna som är ansluten till routern."
 
 #: js/src/common/network/DHCPServerForm.js:47
 msgid "DHCP start"
@@ -217,8 +217,7 @@ msgstr "Värdet måste vara positivt."
 #: js/src/common/network/DHCPValidators.js:86
 msgid "Invalid network settings. DHCP settings can't be validated."
 msgstr ""
-"Ogiltiga nätverksinställningar. DHCP-inställningar kan inte bli "
-"bekräftade."
+"Ogiltiga nätverksinställningar. DHCP-inställningar kan inte bli bekräftade."
 
 #: js/src/common/network/DHCPValidators.js:99
 msgid "Minimum lease time is 1 hour."
@@ -234,23 +233,24 @@ msgstr "Adressen är redan reserverat för andra ändamål."
 
 #: js/src/common/network/DHCPValidators.js:129
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
-msgstr "För många adresser begärdes. Ställ i en lägre siffra eller byt DHCP-start."
+msgstr ""
+"För många adresser begärdes. Ställ i en lägre siffra eller byt DHCP-start."
 
 #: js/src/common/network/DHCPValidators.js:136
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
-"Den enda DHCP-tilldelningen är samma som routerns adress. Öka gränsen "
-"eller byt startadress."
+"Den enda DHCP-tilldelningen är samma som routerns adress. Öka gränsen eller "
+"byt startadress."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 msgid ""
 "DNS server address is not required as the built-in DNS resolver is "
 "capable of working without it."
 msgstr ""
-"DNS-serverns adress krävs inte då den inbyggda DNS-resolvern är kapabel "
-"att fungera utan den."
+"DNS-serverns adress krävs inte då den inbyggda DNS-resolvern är kapabel att "
+"fungera utan den."
 
 #: js/src/common/network/StaticIPForm.js:50
 msgid "IP address"
@@ -482,18 +482,18 @@ msgid ""
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
-"Här kan du testa din internetanslutning. Det här testet är också "
-"användbart när du behöver kontrollera att din DNS-lösning fungera som "
-"förväntat. Kom ihåg att klicka på <b>Spara</b>-knappen om du har ändrat "
-"inställningarna för din vidarebefordrare."
+"Här kan du testa din internetanslutning. Det här testet är också användbart "
+"när du behöver kontrollera att din DNS-lösning fungera som förväntat. Kom "
+"ihåg att klicka på <b>Spara</b>-knappen om du har ändrat inställningarna för "
+"din vidarebefordrare."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
 "This will enable your DNS resolver to place DHCP client's names among the"
 " local DNS records."
 msgstr ""
-"Det här kommer att aktivera din DNS-resolver att placera DHCP-klienternas"
-" namn bland de lokala DNS-inrapporteringarna."
+"Det här kommer att aktivera din DNS-resolver att placera DHCP-klienternas "
+"namn bland de lokala DNS-inrapporteringarna."
 
 #: js/src/dns/DNSForm.js:20
 msgid ""
@@ -526,8 +526,8 @@ msgid ""
 "DNSSEC is a security technology that protects DNS communication against "
 "attacks on the DNS infrastructure."
 msgstr ""
-"DNSSEC är en säkerhetsteknologi som skyddar DNS-kommunikation mot "
-"attacker på DNS-infrastrukturen."
+"DNSSEC är en säkerhetsteknologi som skyddar DNS-kommunikation mot attacker "
+"på DNS-infrastrukturen."
 
 #: js/src/dns/DNSSECDisableModal.js:17
 msgid ""
@@ -795,8 +795,7 @@ msgstr ""
 #: js/src/guide/constants.js:51
 msgid "In order to access the internet, you need to configure your WAN interface."
 msgstr ""
-"Du behöver konfigurera ditt WAN-gränssnitt för att få åtkomst till "
-"internet."
+"Du behöver konfigurera ditt WAN-gränssnitt för att få åtkomst till internet."
 
 #: js/src/guide/constants.js:54
 msgid ""
@@ -2070,8 +2069,8 @@ msgid ""
 "Updates will be installed with an adjustable delay. You can also approve "
 "them manually."
 msgstr ""
-"Uppdateringar kommer att installeras med en justerbar fördröjning. Du kan"
-" även godkänna dem manuellt."
+"Uppdateringar kommer att installeras med en justerbar fördröjning. Du kan "
+"även godkänna dem manuellt."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:28
 msgid "Update approval needed"
@@ -2268,11 +2267,11 @@ msgid ""
 "the root account will be blocked.)"
 msgstr ""
 "Samma lösenord kommer att användas för åtkomst till detta "
-"administrationsgränssnitt, för root-användaren i webbgränssnittet LuCI "
-"och för SSH-inloggningar. Använd ett starkt lösenord! (Om du väljer att "
-"inte ställa in lösenordet för avancerad konfigurering här så kommer du ha"
-" möjlighet att göra det senare. Root-kontot kommer att vara blockerat "
-"tills dess.)"
+"administrationsgränssnitt, för root-användaren i webbgränssnittet LuCI och "
+"för SSH-inloggningar. Använd ett starkt lösenord! (Om du väljer att inte "
+"ställa in lösenordet för avancerad konfigurering här så kommer du ha "
+"möjlighet att göra det senare. Root-kontot kommer att vara blockerat tills "
+"dess.)"
 
 #: js/src/password/Password.js:102
 #, python-brace-format
@@ -2486,8 +2485,8 @@ msgid ""
 "Please select the timezone the router is being operated in. Correct "
 "setting is required to display the right time and for related functions."
 msgstr ""
-"Välj tidszonen som routern används i. Rätt inställning krävs för att visa"
-" den rätta tiden och för relaterade funktioner."
+"Välj tidszonen som routern används i. Rätt inställning krävs för att visa "
+"den rätta tiden och för relaterade funktioner."
 
 #: js/src/regionAndTime/RegionForm.js:81
 msgid "Continent or ocean"
@@ -2577,9 +2576,8 @@ msgid ""
 "<kbd>F12</kbd>."
 msgstr ""
 "Mer detaljerad information finns tillgängligt i din webbläsares konsol. "
-"Tillgänglig i flest webbläsare efter att man trycker "
-"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> eller "
-"<kbd>F12</kbd>."
+"Tillgänglig i flest webbläsare efter att man trycker <kbd><kbd>Ctrl</kbd>"
+"+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> eller <kbd>F12</kbd>."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
@@ -2729,8 +2727,8 @@ msgid ""
 "Some tunnel providers allow you to have public dynamic IPv4. Note that "
 "you need to fill in some extra fields to make it work."
 msgstr ""
-"En del tunnel-leverantörer tillåter dig att ha publikt dynamisk IPv4. "
-"Notera att du behöver fylla i lite extra fält för att få det att fungera."
+"En del tunnel-leverantörer tillåter dig att ha publikt dynamisk IPv4. Notera "
+"att du behöver fylla i lite extra fält för att få det att fungera."
 
 #: js/src/wan/WAN6Form.js:60
 msgid "ID of your tunnel which was assigned to you by the provider."
@@ -2741,8 +2739,8 @@ msgid ""
 "Username which will be used to provide credentials to your tunnel "
 "provider."
 msgstr ""
-"Användarnamn som kommer att användas för att tillhandahålla uppgifter "
-"till din tunnel-leverantör."
+"Användarnamn som kommer att användas för att tillhandahålla uppgifter till "
+"din tunnel-leverantör."
 
 #: js/src/wan/WAN6Form.js:66
 msgid "Key which will be used to provide credentials to your tunnel provider."
