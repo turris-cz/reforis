@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
 "PO-Revision-Date: 2026-09-04 13:44+0000\n"
-"Last-Translator: Johan van de Wetering <accounts@weterberg.nl>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: nl\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/turris/reforis/nl/>"
 "\n"
@@ -84,7 +84,8 @@ msgstr "Waarschuwing!"
 #: js/src/common/RebootButton.js:41
 #, fuzzy
 msgid "Are you sure you want to reboot the router?"
-msgstr "Weet u zeker dat u de router terug wilt zetten naar fabrieksinstellingen?"
+msgstr ""
+"Weet u zeker dat u de router terug wilt zetten naar fabrieksinstellingen?"
 
 #: js/src/common/RebootButton.js:44
 #, fuzzy
@@ -689,11 +690,11 @@ msgid ""
 " are allowed to access the internet but are not allowed to access the "
 "configuration interface of this device or the devices in LAN."
 msgstr ""
-"Het gastnetwerk wordt gebruikt voor <a href=\"${ForisURLs.wifi}\">gast-"
-"WiFi</a>. Dit netwerk is gescheiden van uw eigen LAN. Apparaten die zijn "
-"verbonden met het gastnetwerk hebben toegang tot het internet, maar "
-"hebben geen toegang tot de configuratie-interface van dit apparaat of tot"
-" andere apparaten in uw eigen LAN."
+"Het gastnetwerk wordt gebruikt voor <a href=\"${ForisURLs.wifi}\">gast-WiFi</"
+"a>. Dit netwerk is gescheiden van uw eigen LAN. Apparaten die zijn verbonden "
+"met het gastnetwerk hebben toegang tot het internet, maar hebben geen "
+"toegang tot de configuratie-interface van dit apparaat of tot andere "
+"apparaten in uw eigen LAN."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
@@ -783,10 +784,10 @@ msgid ""
 "Firstly it is required to set your password. Note the security of your "
 "home network is in your hands, so try not to use weak passwords."
 msgstr ""
-"Welkom op de Foris webinterface. Dit stappenplan helpt u om uw apparaat "
-"in te stellen. Ten eerste is het van belang dat u een wachtwoord instelt."
-" Besef dat de beveiliging van het netwerk in uw handen ligt. Probeer "
-"daarom zwakke wachtwoorden te voorkomen."
+"Welkom op de Foris webinterface. Dit stappenplan helpt u om uw apparaat in "
+"te stellen. Ten eerste is het van belang dat u een wachtwoord instelt. Besef "
+"dat de beveiliging van het netwerk in uw handen ligt. Probeer daarom zwakke "
+"wachtwoorden te voorkomen."
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
@@ -1072,7 +1073,8 @@ msgstr ""
 #: js/src/guide/GuideControls/SkipGuideButton.js:70
 #, fuzzy
 msgid "Are you sure you want to skip the whole guide?"
-msgstr "Weet u zeker dat u de router terug wilt zetten naar fabrieksinstellingen?"
+msgstr ""
+"Weet u zeker dat u de router terug wilt zetten naar fabrieksinstellingen?"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:72
 msgid "This will skip the guide and you will be redirected to the overview page."
@@ -1744,8 +1746,8 @@ msgid ""
 msgstr ""
 "Uw apparaat kan e-mail meldingen versturen over vereiste herstarts, "
 "belangrijke gebeurtenissen, geïnstalleerde updates en nieuwe features "
-"conform uw instellingen. Nadat u de configuratie heeft afgerond, kunt u "
-"de meldingen testen door op 'Verzend testmelding' te klikken."
+"conform uw instellingen. Nadat u de configuratie heeft afgerond, kunt u de "
+"meldingen testen door op 'Verzend testmelding' te klikken."
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
@@ -1887,9 +1889,9 @@ msgid ""
 "You have unsaved changes in your notification settings. Do you want to "
 "discard them and test notifications using the previous settings?"
 msgstr ""
-"Er zijn niet-opgeslagen wijzigingen aangebracht in het configuratiescherm"
-" van de meldingen. Wilt u de wijzigingen verwerpen en de meldingen testen"
-" met de oude instellingen?"
+"Er zijn niet-opgeslagen wijzigingen aangebracht in het configuratiescherm "
+"van de meldingen. Wilt u de wijzigingen verwerpen en de meldingen testen met "
+"de oude instellingen?"
 
 #: js/src/notificationsSettings/TestNotification.js:117
 #, fuzzy
@@ -2135,9 +2137,9 @@ msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the "
 msgstr ""
-"Door automatische updates in te schakelen bevestigt u dat u de eigenaar "
-"bent van deze Turris router en stemt u in met de volledige tekst van de "
-"<a href=\"https://www.turris.cz/omnia-updater-eula\" target=\"_blank\" "
+"Door automatische updates in te schakelen bevestigt u dat u de eigenaar bent "
+"van deze Turris router en stemt u in met de volledige tekst van de <a "
+"href=\"https://www.turris.cz/omnia-updater-eula\" target=\"_blank\" "
 "rel=\"noopener noreferrer\">gebruikersovereenkomst</a>."
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
@@ -2336,8 +2338,8 @@ msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
-"Zie <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
-"aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
+"Zie <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" aria-"
+"expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
 #, python-brace-format
