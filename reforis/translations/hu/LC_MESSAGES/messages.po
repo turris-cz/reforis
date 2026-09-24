@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-09-24 15:51+0000\n"
+"PO-Revision-Date: 2026-09-25 14:33+0000\n"
 "Last-Translator: Kövecses József <kovecses@gmail.com>\n"
 "Language: hu\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/turris/reforis/"
@@ -1856,7 +1856,7 @@ msgstr "Címzett e-mail címe"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:14
 msgid "Max"
-msgstr ""
+msgstr "Maximális"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:15
 #, fuzzy
@@ -1865,7 +1865,7 @@ msgstr "Jelenlegi"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:16
 msgid "High"
-msgstr ""
+msgstr "Magas"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:17
 #, fuzzy
@@ -1874,7 +1874,7 @@ msgstr "Törlés"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:18
 msgid "Low"
-msgstr ""
+msgstr "Alacsony"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:19
 #, fuzzy
@@ -1893,17 +1893,17 @@ msgstr "E-mail értesítések engedélyezése"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
 msgid "URL"
-msgstr ""
+msgstr "URL-cím"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:76
 msgid ""
 "Specify the URL to the ntfy server topic. Example format: "
 "https://ntfy.sh/example"
-msgstr ""
+msgstr "Adja meg az ntfy-téma URL-jét. Példa: https://ntfy.sh/example"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:83
 msgid "Priority"
-msgstr ""
+msgstr "Prioritás"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
 #, fuzzy
@@ -1970,6 +1970,8 @@ msgid ""
 "Here you can verify whether your SMTP provider or push notifications are "
 "configured correctly by sending a test notification."
 msgstr ""
+"Itt ellenőrizheti, hogy az SMTP-szolgáltatója vagy a push értesítések "
+"megfelelően vannak-e konfigurálva egy tesztértesítés küldésével."
 
 #: js/src/notificationsSettings/TestNotification.js:130
 #, fuzzy
@@ -1994,6 +1996,9 @@ msgid ""
 "choose to receive notifications about all events or only about those that"
 " require your attention."
 msgstr ""
+"Az értesítés fontosságától vagy súlyosságától függően kiválaszthatja, hogy "
+"minden eseményről, vagy csak azokról kapjon értesítést, amelyek figyelmet "
+"igényelnek."
 
 #: js/src/notificationsSettings/helpTexts.js:18
 msgid "Email address of recipient. Separate multiple addresses by comma."
@@ -2010,6 +2015,8 @@ msgid ""
 "Name of the sender that will be used before the \"at\" symbol in the "
 "email address. For example: \"home-router@notify.turis.cz\""
 msgstr ""
+"A feladó neve, amelyet az e-mail címben a \"kukac\" szimbólum előtt kell "
+"használni. Például: \"home-router@notify.turis.cz\""
 
 #: js/src/notificationsSettings/helpTexts.js:29
 msgid "This is the address notifications are send from."
@@ -2049,17 +2056,16 @@ msgid "Automatic Updates"
 msgstr "Automatikus frissítések"
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:49
-#, fuzzy
 msgid "Go to update settings"
-msgstr "Frissítés beállítása"
+msgstr "Ugrás a frissítési beállításokhoz"
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
-msgstr ""
+msgstr "Frissítés"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Activated"
-msgstr "Aktivált"
+msgstr "Aktiválva"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Disabled"
@@ -2070,18 +2076,16 @@ msgid "Dynamic Firewall"
 msgstr "Dinamikus tűzfal"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
-#, fuzzy
 msgid "Go to Dynamic Firewall package installation"
-msgstr "Dinamikus tűzfal"
+msgstr "Ugrás a Dinamikus Tűzfal csomagjának telepítéséhez"
 
 #: js/src/overview/Cards/LibrespeedCard.js:67
-#, fuzzy
 msgid "LibreSpeed"
-msgstr "Kapcsolat sebessége"
+msgstr "LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:69
 msgid "Go to LibreSpeed"
-msgstr ""
+msgstr "Ugrás a LibreSpeedhez"
 
 #: js/src/overview/Cards/LibrespeedCard.js:82
 #: js/src/overview/Cards/LibrespeedCard.js:96
@@ -2099,20 +2103,19 @@ msgstr "Ezredmásodperc"
 
 #: js/src/overview/Cards/LibrespeedCard.js:123
 msgid "Jitter"
-msgstr ""
+msgstr "Késleltetés-ingadozás"
 
 #: js/src/overview/Cards/LibrespeedCard.js:138
-#, fuzzy
 msgid "Server"
-msgstr "Kiszolgáló port"
+msgstr "Szerver"
 
 #: js/src/overview/Cards/LibrespeedCard.js:152
 msgid "Performed"
-msgstr "Elvégzett"
+msgstr "Elvégezve"
 
 #: js/src/overview/Cards/LibrespeedCard.js:158
 msgid "No tests have been performed lately."
-msgstr "Az utóbbi időben nem végeztek vizsgálatokat."
+msgstr "Mostanában nem végeztek teszteket."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:61
 msgid "OpenVPN Clients"
@@ -2120,58 +2123,53 @@ msgstr "OpenVPN Ügyfelek"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:63
 msgid "Go to OpenVPN Client Settings"
-msgstr "Ugrás az OpenVPN-ügyfélbeállításaira"
+msgstr "Ugrás az OpenVPN kliensbeállításaihoz"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:77
 msgid "Currently, there are no connected OpenVPN clients."
-msgstr ""
+msgstr "Jelenleg nincsenek csatlakoztatott OpenVPN-kliensek."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:88
-#, fuzzy
 msgid "There are no OpenVPN clients."
-msgstr "Még nincsenek hozzáadva ügyfelek."
+msgstr "Nincsenek OpenVPN-kliensek."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:116
-#, fuzzy
 msgid "Total In: "
-msgstr "TLS rögzítés"
+msgstr "Összes bejövő: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:125
 msgid "Total Out: "
-msgstr ""
+msgstr "Összes kimenő: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:153
-#, fuzzy
 msgid "Connected"
-msgstr "Újracsatlakozás"
+msgstr "Csatlakozva"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:162
 msgid "Disconnected"
-msgstr ""
+msgstr "Lecsatlakozva"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
-#, fuzzy
 msgid "Go to Sentinel license agreement"
-msgstr "Legfontosabb licencszerződési pontok"
+msgstr "Ugrás a Sentinel licencszerződéshez"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:57
-#, fuzzy
 msgid "Go to Sentinel package installation"
-msgstr "Automatikus telepítés"
+msgstr "Ugrás a Sentinel csomag telepítéséhez"
 
 #: js/src/packageManagement/languages/Languages.js:22
-#, fuzzy
 msgid ""
 "If you want to use another language other than English, you can select it"
 " from the following list:"
-msgstr "Angol helyett más nyelv is választható az alábbi listából:"
+msgstr ""
+"Ha az angoltól eltérő nyelvet szeretne használni, kiválaszthatja azt az "
+"alábbi listából:"
 
 #: js/src/packageManagement/packages/PackageCheckBox.js:54
 msgid "More details"
 msgstr "További részletek"
 
 #: js/src/packageManagement/packages/Packages.js:22
-#, fuzzy
 msgid ""
 "Apart from the standard installation, you can optionally select bundles "
 "of additional software that would be installed on the router. This "
@@ -2180,15 +2178,11 @@ msgid ""
 "package lists and not marked as community-supported is supported by the "
 "Turris team."
 msgstr ""
-"\n"
-"A szabványos telepítés mellett lehetősége van kiválasztani további "
-"szoftvercsomagokat, amelyek az útválasztóra lesznek\n"
-"telepítve. Ez a szoftver az alábbi listából választható ki. Kérjük, vegye "
-"figyelembe, hogy csak olyan szoftvereket támogat\n"
-"a Turris csapata , amelyek turrisOS részei vagy egy csomaglistából "
-"telepítettek, amelyek nem jelölték meg, mint közösség\n"
-"által támogatottak.\n"
-"        "
+"A standard telepítésen felül opcionálisan további szoftvercsomagokat is "
+"kiválaszthat, amelyek telepítésre kerülnek az útválasztóra. Ezek a "
+"szoftverek a következő listákból választhatók ki. Felhívjuk figyelmét, hogy "
+"a Turris csapata csak a Turris OS részét képező, illetve a csomaglistákból "
+"telepített és közösségi támogatásúként nem megjelölt szoftvereket támogatja."
 
 #: js/src/packageManagement/packages/PackagesForm.js:31
 #, fuzzy
@@ -2200,23 +2194,18 @@ msgid "Most Important License Agreement Points"
 msgstr "Legfontosabb licencszerződési pontok"
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:47
-#, fuzzy
 msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the "
 msgstr ""
 "Az automatikus frissítések engedélyezésével megerősíti, hogy Ön a "
-"tulajdonosa a Turris Omnia útválasztónak, és egyetért a <a href=\"https://"
-"www.turris.cz/omnia-updater-eula\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">licencszerződés</a> teljes szövegével."
+"tulajdonosa a Turris útválasztónak, és egyetért teljes szövegével a "
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
-#, fuzzy
 msgid "license agreement"
-msgstr "Legfontosabb licencszerződési pontok"
+msgstr "licencszerződésnek"
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
-#, fuzzy
 msgid ""
 "The automatic updates system is one of the most important features of the"
 " Turris router. Thanks to this function, your router's software stays up "
@@ -2226,22 +2215,12 @@ msgid ""
 "weaken the security of your router and network in case flaws in the "
 "software are found."
 msgstr ""
-"\n"
-"A Turris útválasztó egyik legfontosabb funkciója az automatikus "
-"rendszerfrissítés. \n"
-"Ennek köszönhetően az útválasztó szoftvere naprakész marad, és jobb védelmet "
-"nyújt az internetes támadások ellen.\n"
-"<br/>\n"
-"Ez a funkció <b>nagyon ajánlott</b>-, hogy  <b>bekapcsolva </b> legyen. Ha "
-"úgy dönt, hogy letiltja, \n"
-"legyen figyelmeztve, hogy ez gyengítheti az útválasztó és a hálózat "
-"biztonságát, ha a szoftver hibája kiderül.\n"
-"<br/>\n"
-"Azzal, hogy bekapcsolja az automatikus frissítéseket, beleegyezik ennek a "
-"funkciónak liszensz megállapodásába. \n"
-"További információ <a href=\"\" data-toggle=\"modal\" data-"
-"target=\"#licenceModal\">itt</a>\n"
-"            "
+"Az automatikus frissítési rendszer a Turris útválasztó egyik legfontosabb "
+"funkciója. Ennek köszönhetően a router szoftvere mindig naprakész marad, és "
+"jobb védelmet nyújt az interneten keresztül érkező támadások ellen.<br><b>"
+"Erősen ajánlott</b>, hogy ez a funkció <b>be legyen kapcsolva</b>. Ha mégis "
+"kikapcsolja, számoljon azzal, hogy ez gyengítheti az útválasztó és a hálózat "
+"biztonságát, amennyiben a szoftverben hibákat fedeznek fel."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
 msgid ""
@@ -2249,32 +2228,41 @@ msgid ""
 "agreement. More information is available <a href=\"\" data-bs-"
 "toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
+"Az automatikus frissítések bekapcsolásával elfogadja ennek a funkciónak a "
+"licencszerződését. További információ <a href=\"\" data-bs-toggle=\"modal\" "
+"data-bs-target=\"#licenseModal\">itt</a> érhető el."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
-msgstr ""
+msgstr "Automatikus frissítések ingyenesen elérhetők a Turris útválasztókhoz."
 
 #: js/src/packageManagement/updateSettings/points.js:17
 msgid "Updates are prepared exclusively by CZ.NIC, z. s. p. o."
-msgstr ""
+msgstr "A frissítéseket kizárólag a CZ.NIC, z. s. p. o. készíti."
 
 #: js/src/packageManagement/updateSettings/points.js:21
 msgid ""
 "Automatic updates must be turned on to get all security features, as some"
 " of them make use of it."
 msgstr ""
+"Az automatikus frissítéseket be kell kapcsolni az összes biztonsági funkció "
+"használatához, mert ezek egy része erre támaszkodik."
 
 #: js/src/packageManagement/updateSettings/points.js:27
 msgid ""
 "Automatic updates take place at the time of their release. The time of "
 "installation cannot be influenced by the user."
 msgstr ""
+"Az automatikus frissítések a megjelenésükkor települnek. A telepítés "
+"időpontját a felhasználó nem befolyásolhatja."
 
 #: js/src/packageManagement/updateSettings/points.js:33
 msgid ""
 "Downloading the automatic updates mean increased Internet traffic. "
 "Potential expenses related to this are covered by you."
 msgstr ""
+"Az automatikus frissítések letöltése megnövekedett internetforgalommal jár. "
+"Az ezzel járó esetleges költségeket Ön viseli."
 
 #: js/src/packageManagement/updateSettings/points.js:39
 msgid ""
@@ -2283,32 +2271,38 @@ msgid ""
 "workstations and other devices by installing antivirus software and "
 "explaining to users how to stay safe on the Internet."
 msgstr ""
+"Az automatikus frissítések nem védenek meg minden, az internetről érkező "
+"támadástól. Tegyen más óvintézkedéseket is: védje a munkaállomásokat és a "
+"többi eszközt vírusirtó telepítésével, és magyarázza el a felhasználóknak, "
+"hogyan maradhatnak biztonságban az interneten."
 
 #: js/src/packageManagement/updateSettings/points.js:45
 msgid ""
 "CZ.NIC, z. s. p. o. is not responsible for any damages caused by the "
 "automatic updates and does not guarantee its availability."
 msgstr ""
+"A CZ.NIC, z. s. p. o. nem vállal felelősséget az automatikus frissítések "
+"által okozott károkért, és nem garantálja azok rendelkezésre állását."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:17
 msgid ""
 "Number of days that must pass between receiving the request for restart "
 "and the automatic restart itself."
 msgstr ""
-"Az újraindítási kérelem és a tényleges automatikus újraindulás között "
-"eltelni szükséges napok száma."
+"Azon napok száma, amelyeknek el kell telniük az újraindítási kérelem "
+"beérkezése és a tényleges automatikus újraindítás között."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:20
 msgid "Time of day of automatic reboot in HH:MM format."
-msgstr "Automatikus újraindulás ideje ÓÓ:PP formátumban."
+msgstr "Automatikus újraindulás ideje Óra:Perc formátumban."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:49
 msgid "Automatic Restarts After Software Update"
-msgstr "Automatikus újraindítás szoftverfrissítés után"
+msgstr "Automatikus újraindítás szoftverfrissítés követően"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:51
 msgid "Delay (days)"
-msgstr "Késleltetés (nap)"
+msgstr "Késleltetés (napok)"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:63
 msgid "Reboot time"
@@ -2316,11 +2310,11 @@ msgstr "Újraindítás ideje"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:88
 msgid "Time should be in HH:MM format."
-msgstr "Az időnek HH:MM formátumban kell lennie."
+msgstr "Az időnek Óra:Perc formátumban kell lennie."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:91
 msgid "Restart can be delayed by at most 10 days"
-msgstr "Az újraindítás maximum 10 nappal késleltethető"
+msgstr "Az újraindítás legfeljebb 10 nappal késleltethető"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:94
 msgid "Delay must be a positive number"
@@ -2332,7 +2326,7 @@ msgstr "Automatikus telepítés"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:17
 msgid "Updates will be installed without user's intervention."
-msgstr "Frissítések telepítése felhasználói beavatkozás nélkül."
+msgstr "Frissítések felhasználói beavatkozás nélkül kerülnek majd telepítésre."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:21
 msgid "Delayed updates"
@@ -2343,19 +2337,20 @@ msgid ""
 "Updates will be installed with an adjustable delay. You can also approve "
 "them manually."
 msgstr ""
-"Frissítések telepítése állítható késleltetéssel. Manuálisan is jóváhagyhatók."
+"A frissítések telepítése állítható késleltetéssel történik. Manuálisan is "
+"jóváhagyhatja őket."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:28
 msgid "Update approval needed"
-msgstr "Frissítés jóváhagyása szükséges"
+msgstr "A frissítés jóváhagyása szükséges"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:29
 msgid "You have to approve the updates, otherwise they won't be installed."
-msgstr "Jóvá kell hagyni a frissítéseket, különben nem fognak települni."
+msgstr "Jóvá kell hagynia a frissítéseket, különben nem fognak települni."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:59
 msgid "Update Approvals"
-msgstr "Frissítések jóváhagyása"
+msgstr "Frissítési jóváhagyások"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:61
 msgid ""
