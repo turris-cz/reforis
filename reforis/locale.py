@@ -13,15 +13,12 @@ The translations catalog is generated using TranslationsHelper object. It’s a 
 format. Then it is uploaded into JS code with Jinja2 template system.
 """
 
-import typing
 
 from babel import Locale
-from babel.messages.plurals import get_plural
-from babel.support import Translations, NullTranslations
 from babel.dates import get_timezone, get_timezone_name
-
-
-from flask import json, current_app
+from babel.messages.plurals import get_plural
+from babel.support import NullTranslations, Translations
+from flask import current_app, json
 from flask_babel import get_locale
 
 
@@ -98,7 +95,7 @@ def get_translations():
     }
 
 
-def _get_babel_catalog(domain: str, with_plugins: bool = False) -> typing.Dict[str, str]:
+def _get_babel_catalog(domain: str, with_plugins: bool = False) -> dict[str, str]:
     """Return babel message catalog or no messages if loading of catalog fails"""
     translations = _get_translations(domain, with_plugins)
 
@@ -109,7 +106,7 @@ def _get_babel_catalog(domain: str, with_plugins: bool = False) -> typing.Dict[s
     return translations.json_catalog
 
 
-def _get_translations(domain: str, with_plugins: bool = False) -> typing.Union[TranslationsHelper, NullTranslations]:
+def _get_translations(domain: str, with_plugins: bool = False) -> TranslationsHelper | NullTranslations:
     """
     Load translations by domain into :class:`locale.TranslationsHelper` object.
 
@@ -135,7 +132,7 @@ def _get_translations(domain: str, with_plugins: bool = False) -> typing.Union[T
     return translations
 
 
-def _get_plugins_translations(domain: str) -> typing.List[typing.Union[Translations, NullTranslations]]:
+def _get_plugins_translations(domain: str) -> list[Translations | NullTranslations]:
     translations = []
     for translation_path in current_app.plugin_translations:
         translation = Translations.load(translation_path, [get_locale()], domain)
@@ -143,5 +140,5 @@ def _get_plugins_translations(domain: str) -> typing.List[typing.Union[Translati
     return translations
 
 
-def is_null_translations(translations: typing.Union[TranslationsHelper, Translations, NullTranslations]) -> bool:
+def is_null_translations(translations: TranslationsHelper | Translations | NullTranslations) -> bool:
     return type(translations) is NullTranslations  # pylint: disable=unidiomatic-typecheck

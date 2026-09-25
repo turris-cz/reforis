@@ -6,7 +6,7 @@
 import base64
 from http import HTTPStatus
 
-from flask import request, current_app
+from flask import current_app, request
 
 
 class APIError(Exception):

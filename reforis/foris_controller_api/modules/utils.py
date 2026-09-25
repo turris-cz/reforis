@@ -6,7 +6,7 @@
 import ipaddress
 from http import HTTPStatus
 
-from flask import request, current_app, jsonify
+from flask import current_app, jsonify, request
 
 from reforis.utils import APIError
 

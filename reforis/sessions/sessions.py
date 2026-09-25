@@ -12,8 +12,8 @@ from uuid import uuid4
 
 from flask.sessions import SessionInterface as FlaskSessionInterface
 from flask.sessions import SessionMixin
+from itsdangerous import BadSignature, Signer, want_bytes
 from werkzeug.datastructures import CallbackDict
-from itsdangerous import Signer, BadSignature, want_bytes
 
 
 def total_seconds(datetime):

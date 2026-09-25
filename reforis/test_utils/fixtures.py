@@ -4,14 +4,15 @@
 #  See /LICENSE for more information.
 
 
+from unittest import mock
+
 import pytest
 from flask import Flask, jsonify
 from flask_babel import Babel
-from unittest import mock
 
 from reforis import create_app
-from reforis.utils import APIError
 from reforis.test_utils.mocked_send import get_mocked_send
+from reforis.utils import APIError
 
 
 @pytest.fixture(scope="module")

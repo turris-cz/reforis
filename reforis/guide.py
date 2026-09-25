@@ -8,7 +8,7 @@ The ForisGuide Blueprints provides a simple page with rendering guide template w
 application can put all required content into that.
 """
 
-from flask import Blueprint, render_template, current_app, redirect, url_for
+from flask import Blueprint, current_app, redirect, render_template, url_for
 
 # pylint: disable=invalid-name
 guide = Blueprint("ForisGuide", __name__, url_prefix="/guide")

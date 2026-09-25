@@ -19,10 +19,11 @@
 
 
 import logging
-import socket
 import pathlib
+import socket
 
 import click
+
 from . import create_app
 
 logger = logging.getLogger(__name__)
@@ -36,7 +37,7 @@ try:
     use_eventlet = True
 except ImportError:
     use_eventlet = False
-    logger.warn("Flask debug server is used")
+    logger.warning("Flask debug server is used")
 
 
 class ScriptNameMidleware:
@@ -51,7 +52,7 @@ class ScriptNameMidleware:
             return self.app(environ, start_response)
         else:
             start_response("404", [("Content-Type", "text/plain")])
-            return ["This url does not belong to the app.".encode()]
+            return [b"This url does not belong to the app."]
 
 
 @click.command()

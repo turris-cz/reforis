@@ -3,7 +3,7 @@
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
 
-from flask import jsonify, current_app
+from flask import current_app, jsonify
 
 
 def reboot():
