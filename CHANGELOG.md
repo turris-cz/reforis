@@ -8,11 +8,35 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [3.10.1] - 2026-09-25
+
+### Changed
+
+- Updated Foris JS library to version 6.11.4
+- Fixed TypeError in port forwarding validation for undefined port
+
+## [3.9.3] - 2026-08-31
+
+### Changed
+
+- Updated Foris JS library to version 6.11.3
+
+## [3.9.2] - 2026-08-17
+
+### Added
+
+- Added lint-web-js command to Makefile
+
+### Changed
+
+- Updated ForisJS library to v6.11.2
+- Fixed linting issues
+
 ## [3.10.0] - 2026-05-14
 
 ### Changed
 
-- Remove flup (fastcgi) use WSGIServer (debug) or eventlet instead
+- Removed flup (fastcgi) used WSGIServer (debug) or eventlet instead
 
 ## [3.9.1] - 2026-04-02
 
@@ -767,7 +791,10 @@ and this project adheres to
 
 - Initial version
 
-[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.10.0...master
+[unreleased]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.10.1...master
+[3.10.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.10.0...v3.10.1
+[3.9.3]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.2...v3.9.3
+[3.9.2]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.1...v3.9.2
 [3.10.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.1...v3.10.0
 [3.9.1]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.9.0...v3.9.1
 [3.9.0]: https://gitlab.nic.cz/turris/reforis/reforis/-/compare/v3.8.0...v3.9.0
