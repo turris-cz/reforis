@@ -4,7 +4,7 @@
 #  See /LICENSE for more information.
 import click
 from flask import current_app
-from flask.cli import with_appcontext, FlaskGroup
+from flask.cli import FlaskGroup, with_appcontext
 
 from . import create_app
 

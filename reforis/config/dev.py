@@ -3,7 +3,7 @@
 #  This is free software, licensed under the GNU General Public License v3.
 #  See /LICENSE for more information.
 
-from reforis.config.prod import *  # noqa: F403
+from reforis.config.prod import *
 
 DEBUG = False
 

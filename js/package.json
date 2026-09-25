@@ -6,7 +6,7 @@
         "url": "https://gitlab.nic.cz/turris/reforis/reforis.git"
     },
     "license": "GPL-3.0",
-    "version": "3.10.0",
+    "version": "3.10.1",
     "description": "reForis is the latest, simple, and most user-friendly interface for Turris routers.",
     "main": "./src/app.js",
     "eslintConfig": {
@@ -24,7 +24,7 @@
         "axios": "^0.21.1",
         "bootstrap": "^5.3.8",
         "bootswatch": "^5.3.8",
-        "foris": "^6.11.0",
+        "foris": "^6.11.4",
         "immutability-helper": "^3.1.1",
         "ipaddr": "npm:ipaddr.js@^1.9.1",
         "moment": "^2.30.1",

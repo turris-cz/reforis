@@ -4,7 +4,7 @@
 #  See /LICENSE for more information.
 
 import os
-from importlib.metadata import distribution, PackageNotFoundError
+from importlib.metadata import PackageNotFoundError, distribution
 
 from flask import current_app, jsonify
 
