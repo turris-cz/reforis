@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-09-25 14:33+0000\n"
+"PO-Revision-Date: 2026-09-27 09:51+0000\n"
 "Last-Translator: Kövecses József <kovecses@gmail.com>\n"
 "Language: hu\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/turris/reforis/"
@@ -360,7 +360,7 @@ msgstr "Nem lehet üres."
 #: js/src/guide/GuideControls/SkipGuideButton.js:87
 #: js/src/notificationsSettings/TestNotification.js:161
 msgid "Cancel"
-msgstr "Mégse"
+msgstr "Mégsem"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:82
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
@@ -1114,7 +1114,7 @@ msgstr ""
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:163
 msgid "Confirm"
-msgstr "Megerősítés"
+msgstr "Megerősít"
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
@@ -2401,13 +2401,12 @@ msgid_plural "There are %d packages to be updated."
 msgstr[0] "%d csomagot frissíteni kell."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:69
-#, fuzzy
 msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
-"Lásd <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" aria-"
-"expanded=\"false\" aria-controls=\"plan-wrapper\">részletek</a>"
+"Lásd <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
+"aria-expanded=\"false\" aria-controls=\"plan-wrapper\">részletek</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
 #, python-brace-format
@@ -2416,6 +2415,9 @@ msgid ""
 "                                    automatically installed before \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 msgstr ""
+"Ezek a frissítések késleltetve lesznek \n"
+"                                    telepítve az adott időt követően \n"
+"                                    ${toLocaleDateString(delayedTime)}."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:88
 #, python-brace-format
@@ -2427,6 +2429,11 @@ msgid ""
 "                                    and choose the option <b>Update "
 "approval needed</b>."
 msgstr ""
+"Ha egyáltalán nem szeretné, hogy a frissítések települjenek, lépjen a \n"
+"                                    <a href=\"$"
+"{ForisURLs.packageManagement.updateSettings}\">Frissítési beállítások</a> \n"
+"                                    oldalra, és válassza a <b>Frissítés "
+"jóváhagyása szükséges</b> lehetőséget."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:98
 #, python-format
@@ -2464,27 +2471,35 @@ msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
 msgstr ""
+"Itt találhatja és hagyhatja jóvá a Turris OS-hez és más összetevőkhöz "
+"elérhető frissítéseket."
 
 #: js/src/packageManagement/updates/UpdateManager.js:91
 msgid "You're up to date."
-msgstr ""
+msgstr "Minden naprakész."
 
 #: js/src/packageManagement/updates/Updates.js:30
 msgid ""
 "In Turris OS, you decide when and how to get the latest updates\n"
 "                    to keep your device running smoothly and securely."
 msgstr ""
+"A Turris OS-ben ön dönti el, hogy mikor és hogyan kapja meg a legfrissebb "
+"frissítéseket,\n"
+"                    A Turris OS-ben ön dönti el, hogy mikor és hogyan kapja "
+"meg a legfrissebb frissítéseket."
 
 #: js/src/packageManagement/updates/Updates.js:48
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "Automatic updates are disabled. Please enable \n"
 "            <a "
 "href=\"${ForisURLs.packageManagement.updateSettings}\">delayed or \n"
 "            approval-requiring updates</a> to review them."
 msgstr ""
-"Az automatikus frissítések le vannak tiltva. Kérjük, engedélyezze a "
-"késleltetett vagy jóváhagyást igénylő frissítéseket azok áttekintéséhez."
+"Az automatikus frissítések le vannak tiltva. Kérjük, engedélyezze a \n"
+"<a href=\"${ForisURLs.packageManagement.updateSettings}\">késleltetett vagy "
+"\n"
+"jóváhagyást igénylő frissítéseket</a> a felülvizsgálatukhoz."
 
 #: js/src/packageManagement/updates/Updates.js:63
 msgid "Check and install updates"
@@ -2492,7 +2507,7 @@ msgstr "Frissítések ellenőrzése és telepítése"
 
 #: js/src/packageManagement/updates/Updates.js:64
 msgid "Manually check for updates and install them immediately."
-msgstr "Manuálisan ellenőrizze a frissítéseket, és telepítse őket azonnal."
+msgstr "Manuálisan ellenőrizze a frissítéseket, és azonnal telepítse azokat."
 
 #: js/src/packageManagement/updates/Updates.js:69
 msgid "Check updates"
@@ -2500,7 +2515,7 @@ msgstr "Frissítések ellenőrzése"
 
 #: js/src/packageManagement/updates/Updates.js:71
 msgid "Manually check for updates and review them immediately."
-msgstr "Manuálisan ellenőrizze a frissítéseket és azonnal tekintse át őket."
+msgstr "Manuálisan ellenőrizze a frissítéseket, és azonnal tekintse át azokat."
 
 #: js/src/packageManagement/updates/hooks.js:89
 msgid "Cannot fetch updater status."
@@ -2513,7 +2528,7 @@ msgid ""
 "href=\"${ForisURLs.packageManagement.updateSettings}\">automatic "
 "updates</a> to manage packages and languages."
 msgstr ""
-"Engedélyezze a <a href=\"${ForisURLs.packageManagement.updateSettings}\">"
+"Engedélyezze az <a href=\"${ForisURLs.packageManagement.updateSettings}\">"
 "automatikus frissítéseket</a> a csomagok és nyelvek kezeléséhez."
 
 #: js/src/password/ForisPasswordForm.js:55
@@ -2521,21 +2536,18 @@ msgid "Set your password for this administration interface."
 msgstr "Állítsa be a jelszót ehhez a felügyeleti felülethez."
 
 #: js/src/password/ForisPasswordForm.js:60
-#, fuzzy
 msgid "Current password"
-msgstr "Rossz jelenlegi jelszó."
+msgstr "Aktuális jelszó"
 
 #: js/src/password/ForisPasswordForm.js:71
 #: js/src/password/RootPasswordForm.js:67
-#, fuzzy
 msgid "New password"
-msgstr "Rossz jelszó."
+msgstr "Új jelszó"
 
 #: js/src/password/ForisPasswordForm.js:84
 #: js/src/password/RootPasswordForm.js:79
-#, fuzzy
 msgid "Confirm new password"
-msgstr "Rossz jelszó."
+msgstr "Erősítsd meg az új jelszót"
 
 #: js/src/password/ForisPasswordForm.js:100
 #, fuzzy
@@ -2550,11 +2562,11 @@ msgid ""
 "configuration here, you will have the option to do so later. Until then, "
 "the root account will be blocked.)"
 msgstr ""
-"Ugyanaz a jelszó lesz használva ennek a felügyeleti felületnek az "
-"eléréséhez, a LuCI webes felület root felhasználójához és az SSH "
-"bejelentkezéshez. Használj erős jelszót! (Ha itt most nem lesz a haladó "
-"beállításokhoz jelszó beállítva, akkor erre később is lesz lehetőség. Addig "
-"is a root fiók le lesz tiltva.)"
+"Ugyanaz a jelszó lesz használva ehhez az adminisztrációs felülethez, a LuCI "
+"webes felületén a root felhasználóhoz és az SSH bejelentkezéshez. Használjon "
+"erős jelszót! (Ha úgy dönt, hogy nem állítja be a jelszót a speciális "
+"konfigurációhoz, később is lehetősége lesz erre. Addig a root fiók blokkolva "
+"lesz.)"
 
 #: js/src/password/Password.js:102
 #, python-brace-format
@@ -2566,46 +2578,48 @@ msgid ""
 "                            forisPassword.list || rootPassword.list\n"
 "                        } list. Please choose a more secure password."
 msgstr ""
+"A megadott jelszó nem elfogadott.Korábban már kompromittálták, és megjelenik "
+"${ \n"
+"                            forisPassword.count || rootPassword.count\n"
+"                        } alkalommal ${ \n"
+"                            forisPassword.list || rootPassword.list\n"
+"                        } listákon. Kérem, válasszon biztonságosabb jelszót."
 
 #: js/src/password/Password.js:113
-#, fuzzy
 msgid "Your password was set successfully."
-msgstr "A továbbító mentése sikeresen megtörtént."
+msgstr "A jelszavad beállításra került."
 
 #: js/src/password/Password.js:148
-#, fuzzy
 msgid "Password Settings"
-msgstr "Hálózati beállítások"
+msgstr "Jelszóbeállítások"
 
 #: js/src/password/Password.js:177
 msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
 msgstr ""
+"Itt beállíthatsz egy jelszót az adminisztrációs felülethez. Ügyeljen arra, "
+"hogy hosszúra, egyedivé és biztonságossá tegye."
 
 #: js/src/password/Password.js:194 js/src/password/Password.js:198
 msgid "Passwords do not match."
-msgstr ""
+msgstr "Jelszavak nem egyeznek."
 
 #: js/src/password/Password.js:213
-#, fuzzy
 msgid "Choose a password."
-msgstr "Rossz jelszó."
+msgstr "Válasszon jelszót."
 
 #: js/src/password/Password.js:216
-#, fuzzy
 msgid "Password should have at least eight symbols."
-msgstr "A TLS-tűnek legalább egy szimbólummal kell rendelkeznie."
+msgstr "A jelszónak legalább nyolc karakterből kell állnia."
 
 #: js/src/password/Password.js:219
-#, fuzzy
 msgid "Password cannot have more than 256 symbols."
-msgstr "A TLS-tűnek legalább egy szimbólummal kell rendelkeznie."
+msgstr "A jelszó nem tartalmazhat 256 karakternél többet."
 
 #: js/src/password/RootPasswordForm.js:51
-#, fuzzy
 msgid "Advanced Administration Password"
-msgstr "Új haladó felügyeleti jelszó"
+msgstr "Speciális rendszergazda jelszó"
 
 #: js/src/password/RootPasswordForm.js:55
 #, python-format
@@ -2629,6 +2643,8 @@ msgid ""
 "Port forwarding allows you to forward incoming traffic from the WAN "
 "interface to a specific device on your LAN."
 msgstr ""
+"A porttovábbítás lehetővé teszi a bejövő forgalom továbbítását a WAN "
+"interfészről a LAN hálózaton lévő adott készülékre."
 
 #: js/src/portForwarding/PortForwarding.js:56
 msgid ""
@@ -2636,6 +2652,8 @@ msgid ""
 "on your LAN. This way, the web server will be accessible from the "
 "internet."
 msgstr ""
+"Például a 80-as porton beérkező forgalmat átirányíthatod a LAN-hálózatodon "
+"található webszerverre. Így a webszerver az internetről is elérhetővé válik."
 
 #: js/src/portForwarding/PortForwarding.js:61
 msgid ""
@@ -2643,66 +2661,64 @@ msgid ""
 "button. But first, you need to configure a static DHCP lease for the "
 "device you want to forward traffic to. You can configure it on the "
 msgstr ""
+"Az „Új szabály” gombra kattintva új porttovábbítási szabályt adhat hozzá. "
+"Először azonban be kell állítania egy statikus DHCP-bérletet annak az "
+"eszköznek, amelyre a forgalmat továbbítani szeretné. Ezt a "
 
 #: js/src/portForwarding/PortForwarding.js:139
-#, fuzzy
 msgid "Edit port forwarding rule"
-msgstr "Továbbító szerkesztése"
+msgstr "Portátirányítási szabály szerkesztése"
 
 #: js/src/portForwarding/PortForwarding.js:140
-#, fuzzy
 msgid "Add port forwarding rule"
-msgstr "Egyéni továbbító hozzáadása"
+msgstr "Portátirányítási szabály hozzáadása"
 
 #: js/src/portForwarding/PortForwarding.js:182
-#, fuzzy
 msgid "Add rule"
-msgstr "Cím"
+msgstr "Új szabály"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:57
-#, fuzzy
 msgid "Internal IPv4 address"
-msgstr "Útválasztó IP-címe"
+msgstr "Belső IPv4 cím"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:85
 #: js/src/portForwarding/PortForwardingRulesTable.js:31
 msgid "External port"
-msgstr ""
+msgstr "Külső port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:96
 #: js/src/portForwarding/PortForwardingRulesTable.js:32
 msgid "Internal port"
-msgstr ""
+msgstr "Belső port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:107
 #: js/src/portForwarding/PortForwardingRulesTable.js:34
-#, fuzzy
 msgid "Enabled"
-msgstr "DHCP engedélyezése"
+msgstr "Engedélyezve"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:23
-#, fuzzy
 msgid "Port Forwarding Rules"
-msgstr "Továbbítás használata"
+msgstr "Portátirányítási szabályok"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:30
-#, fuzzy
 msgid "Internal IP address"
-msgstr "Útválasztó IP-címe"
+msgstr "Belső IP-cím"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:53
 msgid "No port forwarding rules defined."
-msgstr ""
+msgstr "Nincsenek portátirányítási szabályok megadva."
 
 #: js/src/portForwarding/constants.js:17
 msgid "Enter the name of the port forwarding rule."
-msgstr ""
+msgstr "Adja meg a portátirányítási szabály nevét."
 
 #: js/src/portForwarding/constants.js:18
 msgid ""
 "Enter the external port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"Írja be azt a külső portszámot, amelyre a szabály vonatkozik. Ez lehet "
+"egyetlen port vagy porttartomány."
 
 #: js/src/portForwarding/constants.js:21
 msgid ""
@@ -2710,72 +2726,70 @@ msgid ""
 "forwarded. The best practice is to assign a static lease to the device in"
 " advance."
 msgstr ""
+"Írja be annak az eszköznek az érvényes IP-címét, amelyre a portot "
+"továbbítani kívánja. A legjobb gyakorlat az, ha előzetesen statikus IP-címet "
+"rendel az eszközhöz."
 
 #: js/src/portForwarding/constants.js:24
 msgid ""
 "Enter the internal port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"Adja meg a belső portszámot, amelyre a szabály vonatkozik. Ez lehet egyetlen "
+"port vagy porttartomány."
 
 #: js/src/portForwarding/constants.js:27
 msgid "Enable or disable the port forwarding rule."
-msgstr ""
+msgstr "A portátirányítási szabály engedélyezése vagy letiltása."
 
 #: js/src/portForwarding/hooks.js:76
-#, fuzzy
 msgid "Rule deleted successfully."
-msgstr "A továbbító hozzáadása sikeresen megtörtént."
+msgstr "A szabály törlése sikeresen megtörtént."
 
 #: js/src/portForwarding/hooks.js:79
-#, fuzzy
 msgid "Can't delete rule."
-msgstr "A DNS-továbbító nem törölhető."
+msgstr "A szabály nem törölhető."
 
 #: js/src/portForwarding/hooks.js:150
-#, fuzzy
 msgid "Rule added successfully."
-msgstr "A továbbító hozzáadása sikeresen megtörtént."
+msgstr "A szabály hozzáadása sikeresen megtörtént."
 
 #: js/src/portForwarding/hooks.js:166
-#, fuzzy
 msgid "Rule saved successfully."
-msgstr "A továbbító mentése sikeresen megtörtént."
+msgstr "A szabály mentése sikeresen megtörtént."
 
 #: js/src/portForwarding/hooks.js:214
-#, fuzzy
 msgid "Name should have at least one symbol."
-msgstr "Az gépnévnek legalább egy szimbólummal kell rendelkeznie."
+msgstr "A névnek legalább egy karaktert kell tartalmaznia."
 
 #: js/src/portForwarding/hooks.js:224
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
 msgstr ""
+"${fieldName} értékének pozitív számnak vagy számtartománynak kell lennie."
 
 #: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
 msgstr ""
+"${fieldName} értéknek érvényes portszámnak vagy porttartománynak kell lennie."
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
 msgstr "Régió és idő"
 
 #: js/src/regionAndTime/RegionAndTime.js:33
-#, fuzzy
 msgid ""
 "It is important for your device to have the correct time set. If your "
 "device's time is delayed, the procedure of SSL certificate verification "
 "might not work correctly."
 msgstr ""
-"\n"
-"Fontos, hogy a készüléken megfelelő idő legyen beállítva. Ha a készülék "
-"ideje késik, a\n"
-"az SSL-tanúsítvány ellenőrzési folyamata nem működik megfelelően.\n"
-"        "
+"Fontos, hogy az eszközén a helyes időt állítsa be. Ha az eszköz ideje késik, "
+"az SSL-tanúsítvány ellenőrzésének folyamata esetleg nem működik megfelelően."
 
 #: js/src/regionAndTime/RegionAndTime.js:56
 msgid "Time should be in YYYY-MM-DD HH:MM:SS format."
-msgstr "Az időnek ÉÉÉÉ-HH-NN ÓÓ:PP:MM formátumban kell lennie."
+msgstr "Az időnek ÉV-HÓ-NAP ÓÓ:PP:MP formátumban kell lennie."
 
 #: js/src/regionAndTime/RegionForm.js:72
 msgid "Region Settings"
@@ -2786,8 +2800,9 @@ msgid ""
 "Please select the timezone the router is being operated in. Correct "
 "setting is required to display the right time and for related functions."
 msgstr ""
-"Válaszd ki az időzónát, melyben a router működik. Helyes beállítás szükséges "
-"a megfelelő idő megjelenítéséhez, illetve a kapcsolódó funkciókhoz."
+"Kérjük, válassza ki azt az időzónát, amelyben az útválasztó üzemel. A helyes "
+"beállítás szükséges a pontos idő megjelenítéséhez és a kapcsolódó funkciók "
+"működéséhez."
 
 #: js/src/regionAndTime/RegionForm.js:81
 msgid "Continent or ocean"
@@ -2861,13 +2876,12 @@ msgid "Rebooting"
 msgstr "Újraindítás"
 
 #: js/src/utils/ErrorBoundary.js:34
-#, fuzzy
 msgid "An Error Occurred - reForis | Turris"
-msgstr "Hiba történt"
+msgstr "Hiba történt - reForis | Turris"
 
 #: js/src/utils/ErrorBoundary.js:37
 msgid "Oops! Something went wrong:"
-msgstr ""
+msgstr "Hoppá! Valami hiba történt:"
 
 #: js/src/utils/ErrorBoundary.js:43
 #, fuzzy
@@ -2891,33 +2905,34 @@ msgstr ""
 
 #: js/src/utils/SkipLink.js:23
 msgid "Skip to main content"
-msgstr ""
+msgstr "Ugrás a fő tartalomhoz"
 
 #: js/src/utils/useSessionTimeout.js:64
-#, fuzzy
 msgid "Session extended successfully."
-msgstr "A továbbító hozzáadása sikeresen megtörtént."
+msgstr "A munkamenet meghosszabbítása sikeresen megtörtént."
 
 #: js/src/utils/useSessionTimeout.js:94
-#, fuzzy
 msgid "Session Timeout"
-msgstr "Régió és idő"
+msgstr "Munkamenet időtúllépés"
 
 #: js/src/utils/useSessionTimeout.js:99
 msgid "Your session is about to expire. Do you want to continue?"
-msgstr ""
+msgstr "A munkameneted hamarosan lejár. Szeretnéd folytatni?"
 
 #: js/src/utils/useSessionTimeout.js:104
 msgid ""
 "Please note that if you do not respond, you will be logged out "
 "automatically."
 msgstr ""
+"Kérjük, vegye figyelembe, hogy ha nem válaszol, a rendszer automatikusan "
+"kijelentkezteti."
 
 #: js/src/wan/MACForm.js:14
 msgid ""
 "Useful in cases, when a specific MAC address is required by your internet"
 " service provider."
 msgstr ""
+"Hasznos abban az esetben, ha az internetszolgáltatód egy adott MAC-címet kér."
 
 #: js/src/wan/MACForm.js:17
 msgid "Colon is used as a separator, for example 00:11:22:33:44:55"
@@ -2925,57 +2940,55 @@ msgstr "A kettőspont elválasztóként használatos, például 00:11:22:33:44:5
 
 #: js/src/wan/MACForm.js:20
 msgid "MAC address of the WAN interface."
-msgstr ""
+msgstr "A WAN-interfész MAC-címe."
 
 #: js/src/wan/MACForm.js:53
-#, fuzzy
 msgid "MAC Settings"
-msgstr "Idő beállítások"
+msgstr "MAC-beállítások"
 
 #: js/src/wan/MACForm.js:55
 msgid "Custom MAC address"
 msgstr "Egyéni MAC-cím"
 
 #: js/src/wan/MACForm.js:66
-#, fuzzy
 msgid "Current MAC address"
-msgstr "Útválasztó IP-címe"
+msgstr "Jelenlegi MAC-cím"
 
 #: js/src/wan/MACForm.js:72
 msgid "Set the new MAC address"
-msgstr ""
+msgstr "Az új MAC-cím beállítása"
 
 #: js/src/wan/VLANForm.js:14
 msgid ""
 "Useful in cases when a specific VLAN ID is required by your internet "
 "service provider."
 msgstr ""
+"Hasznos abban az esetben, ha az internetszolgáltatód egy adott VLAN-"
+"azonosítót ír elő."
 
 #: js/src/wan/VLANForm.js:17
-#, fuzzy
 msgid "VLAN ID must be a number in the range between 1 and 4094."
-msgstr "Az MTU-nak 1280-1500 tartományban lévő számnak kell lennie."
+msgstr "A VLAN azonosítónak 1 és 4094 közötti számnak kell lennie."
 
 #: js/src/wan/VLANForm.js:50
-#, fuzzy
 msgid "VLAN Settings"
-msgstr "Idő beállítások"
+msgstr "VLAN-beállítások"
 
 #: js/src/wan/VLANForm.js:52
 msgid "Enable VLAN"
-msgstr ""
+msgstr "VLAN engedélyezése"
 
 #: js/src/wan/VLANForm.js:62
 msgid "Set the VLAN ID"
-msgstr ""
+msgstr "VLAN-azonosító beállítása"
 
 #: js/src/wan/VLANForm.js:86
 msgid "Value must be greater than or equal to 1."
-msgstr ""
+msgstr "Az értéknek 1-nél nagyobbnak vagy azzal egyenlőnek kell lennie."
 
 #: js/src/wan/VLANForm.js:89
 msgid "Value must be less than or equal to 4094."
-msgstr ""
+msgstr "Az értéknek 4094-nél kisebbnek vagy azzal egyenlőnek kell lennie."
 
 #: js/src/wan/WAN.js:31
 msgid ""
@@ -2983,6 +2996,9 @@ msgid ""
 "your ISP (internet service provider). Usually, it can be left untouched "
 "if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
+"Itt adhatja meg a WAN port beállításait, ha az internetszolgáltatója (ISP) "
+"erre utasítja. Ez a beállítás általában nem igényel módosítást, ha az "
+"útválasztó kábel- vagy DSL-modemen keresztül csatlakozik az internethez."
 
 #: js/src/wan/WAN.js:54
 msgid ""
@@ -2990,17 +3006,20 @@ msgid ""
 "the connection. Remember to click the <b>Save</b> button after you have "
 "tested that it works."
 msgstr ""
+"Itt megvizsgálhatja a kapcsolat beállításait. Várjon egy kicsit, amíg a "
+"kapcsolat létrejön. Ne feledje megnyomni a <b>Mentés</b> gombot, miután "
+"letesztelte, hogy működik."
 
 #: js/src/wan/WAN6Form.js:26
 msgid "DUID which will be provided to the DHCPv6 server."
-msgstr "DUID, amelyet a DHCPv6-kiszolgálónak biztosítunk."
+msgstr "DUID, amely a DHCPv6 szervernek lesz megadva."
 
 #: js/src/wan/WAN6Form.js:30
 msgid ""
 "IPv6 address and prefix length for WAN interface e.g. "
 "2001:db8:be13:37da::1/64"
 msgstr ""
-"IPv6-cím és előtag méret a WAN-interfészhez, pl. 2001:db8:be13:37da::1 / 64"
+"IPv6 cím és prefixhossz a WAN interfészhez, pl. 2001:db8:be13:37da::1/64"
 
 #: js/src/wan/WAN6Form.js:33
 msgid "Address range for local network, e.g. 2001:db8:be13:37da::/64"
@@ -3020,7 +3039,8 @@ msgstr ""
 msgid ""
 "This address will be used as a endpoint of the tunnel on the provider's "
 "side."
-msgstr "A cím, mint a szolgáltató oldali alagútvégpont lesz használva."
+msgstr ""
+"Ezt a címet fogják az alagút szolgáltatói oldali végpontjaként használni."
 
 #: js/src/wan/WAN6Form.js:52
 msgid "IPv6 addresses which will be routed to your network."
@@ -3028,7 +3048,7 @@ msgstr "IPv6-címek, amelyek a hálózatához lesznek irányítva."
 
 #: js/src/wan/WAN6Form.js:53
 msgid "Maximum Transmission Unit in the tunnel (in bytes)."
-msgstr "Maximális Átviteli Egység az alagútban (byte-ban)."
+msgstr "A maximális átviteli egység (MTU) az alagútban (bájtban)."
 
 #: js/src/wan/WAN6Form.js:56
 msgid ""
@@ -3069,9 +3089,8 @@ msgid "Disable IPv6"
 msgstr "IPv6 letiltása"
 
 #: js/src/wan/WAN6Form.js:162
-#, fuzzy
 msgid "IPv6 Settings"
-msgstr "Idő beállítások"
+msgstr "IPv6 beállítások"
 
 #: js/src/wan/WAN6Form.js:164
 msgid "IPv6 protocol"
@@ -3107,7 +3126,7 @@ msgstr "MTU"
 
 #: js/src/wan/WAN6Form.js:375
 msgid "Dynamic IPv4 handling"
-msgstr ""
+msgstr "Dinamikus IPv4-kezelés"
 
 #: js/src/wan/WAN6Form.js:419
 msgid "Tunnel ID"
@@ -3118,23 +3137,20 @@ msgid "Key"
 msgstr "Kulcs"
 
 #: js/src/wan/WAN6Form.js:527
-#, fuzzy
 msgid "MTU has to be a number in the range of 1280-1480."
-msgstr "Az MTU-nak 1280-1500 tartományban lévő számnak kell lennie."
+msgstr "Az MTU-nak 1280 és 1480 közötti számnak kell lennie."
 
 #: js/src/wan/WAN6Form.js:529
-#, fuzzy
 msgid "MTU has to be in the range of 1280-1480."
-msgstr "Az MTU-nak 1280-1500 tartományban lévő számnak kell lennie."
+msgstr "Az MTU-nak 1280 és 1480 közötti tartományba kell esnie."
 
 #: js/src/wan/WANForm.js:27
 msgid "PPPoE (for DSL bridges, etc.)"
 msgstr "PPPoE (DSL-hidakhoz stb.)"
 
 #: js/src/wan/WANForm.js:100
-#, fuzzy
 msgid "IPv4 Settings"
-msgstr "Idő beállítások"
+msgstr "IPv4 beállítások"
 
 #: js/src/wan/WANForm.js:128
 msgid "PAP/CHAP username"
@@ -3147,6 +3163,7 @@ msgstr "PAP/CHAP jelszó"
 #: js/src/wifi/WiFi.js:27
 msgid "Unfortunately, we were unable to detect any wireless cards in your router."
 msgstr ""
+"Sajnos nem sikerült érzékelnünk vezeték nélküli kártyát az útválasztóban."
 
 #: js/src/wifi/WiFi.js:42
 msgid ""
@@ -3155,6 +3172,10 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
+"Ha útválasztóját Wi-Fi hozzáférési pontként szeretné használni, engedélyezze "
+"a Wi-Fi-t itt, és adja meg az SSID-t (a hozzáférési pont nevét) a hozzá "
+"tartozó jelszóval együtt. Ezt követően az űrlapon található QR-kód "
+"segítségével beállíthatja a mobileszközeit."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -3169,85 +3190,82 @@ msgid "Can't delete DNS forwarder."
 msgstr "A DNS-továbbító nem törölhető."
 
 #: reforis/foris_controller_api/modules/lan.py:15
-#, fuzzy
 msgid "IP address does not fit the LAN network."
-msgstr "Az útválasztó IP-címe a vendég belső hálózatában."
+msgstr "Az IP-cím nem illeszkedik a LAN hálózathoz."
 
 #: reforis/foris_controller_api/modules/lan.py:16
 msgid "DHCP is disabled for LAN."
-msgstr ""
+msgstr "A DHCP a LAN-hálózaton le van tiltva."
 
 #: reforis/foris_controller_api/modules/lan.py:17
 msgid "IP address is already used by another static lease."
-msgstr ""
+msgstr "Az IP-címet már egy másik statikus bérlet használja."
 
 #: reforis/foris_controller_api/modules/lan.py:18
 msgid "MAC address is already used by another static lease."
-msgstr ""
+msgstr "A MAC-címet már egy másik statikus bérlet használja."
 
 #: reforis/foris_controller_api/modules/lan.py:19
 msgid "No static lease has this MAC address assigned."
-msgstr ""
+msgstr "Ehhez a MAC-címhez nincs hozzárendelve statikus bérlet."
 
 #: reforis/foris_controller_api/modules/lan.py:20
 msgid "Hostname is already used by another static lease."
-msgstr ""
+msgstr "A gazdanevet már egy másik statikus bérlet használja."
 
 #: reforis/foris_controller_api/modules/lan.py:24
-#, fuzzy
 msgid "IP address is not in the LAN network."
-msgstr "Az útválasztó IP-címe a vendég belső hálózatában."
+msgstr "Az IP-cím nincs a LAN-hálózatban."
 
 #: reforis/foris_controller_api/modules/lan.py:25
-#, fuzzy
 msgid "IP address is not a user-defined static lease."
-msgstr "Az útválasztó IP-címe a vendég belső hálózatában."
+msgstr "Az IP-cím nem felhasználó által megadott statikus bérlet."
 
 #: reforis/foris_controller_api/modules/lan.py:26
 msgid "Port range is already used by another port forwarding rule."
-msgstr ""
+msgstr "A porttartományt már egy másik port-továbbítási szabály használja."
 
 #: reforis/foris_controller_api/modules/lan.py:104
 msgid "Can't create DHCP lease."
-msgstr ""
+msgstr "Nem sikerült DHCP-bérletet létrehozni."
 
 #: reforis/foris_controller_api/modules/lan.py:119
 msgid "Can't update DHCP lease."
-msgstr ""
+msgstr "Nem sikerült frissíteni a DHCP-bérletet."
 
 #: reforis/foris_controller_api/modules/lan.py:130
-#, fuzzy
 msgid "Can't delete DHCP lease."
-msgstr "A DNS-továbbító nem törölhető."
+msgstr "Nem lehet törölni a DHCP-bérletet."
 
 #: reforis/foris_controller_api/modules/lan.py:156
-#, fuzzy
 msgid "Can't set port forwarding rule."
-msgstr "A DNS-továbbító nem állítható be."
+msgstr "Nem sikerült beállítani a portátirányítási szabályt."
 
 #: reforis/foris_controller_api/modules/lan.py:167
-#, fuzzy
 msgid "Can't delete port forwarding rule."
-msgstr "A DNS-továbbító nem törölhető."
+msgstr "Nem sikerült törölni a porttovábbítási szabályt."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
-msgstr "Rossz jelenlegi jelszó."
+msgstr "A jelenlegi jelszó helytelen."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:126
 msgid ""
 "If you see this message, your notification settings seem to be correct. "
 "Have a nice day! 😊"
 msgstr ""
+"Ha látod ezt az üzenetet, az értesítési beállításaid rendben vannak. Szép "
+"napot kívánok! 😊"
 
 #: reforis/foris_controller_api/modules/router_notifications.py:132
-#, fuzzy
 msgid "Test notification sent successfully."
-msgstr "A továbbító mentése sikeresen megtörtént."
+msgstr "A tesztértesítés sikeresen elküldésre került."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:135
 msgid "Cannot send test notification. Please check your configuration."
 msgstr ""
+"A tesztértesítést nem sikerült elküldeni. Kérjük, ellenőrizze a "
+"beállításokat."
 
 #: reforis/foris_controller_api/modules/updater.py:66
 msgid "Cannot change automatic restart settings."
