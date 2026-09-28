@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2026-09-27 09:51+0000\n"
+"PO-Revision-Date: 2026-09-29 17:51+0000\n"
 "Last-Translator: Kövecses József <kovecses@gmail.com>\n"
 "Language: hu\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/turris/reforis/"
@@ -297,9 +297,8 @@ msgstr "Ez nem érvényes hálózati maszk."
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
-#, fuzzy
 msgid "IPv4 Address"
-msgstr "IP-cím"
+msgstr "IPv4 cím"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:84
@@ -321,29 +320,24 @@ msgid "Set static lease"
 msgstr "Statikus bérlet beállítása"
 
 #: js/src/common/network/DHCPClients/hooks.js:71
-#, fuzzy
 msgid "Static lease deleted successfully."
-msgstr "A továbbító hozzáadása sikeresen megtörtént."
+msgstr "A statikus bérlet sikeresen törölve."
 
 #: js/src/common/network/DHCPClients/hooks.js:76
-#, fuzzy
 msgid "Can't delete static lease."
-msgstr "A DNS-továbbító nem törölhető."
+msgstr "Nem sikerült törölni a statikus bérletet."
 
 #: js/src/common/network/DHCPClients/hooks.js:107
-#, fuzzy
 msgid "Static lease added successfully."
-msgstr "A továbbító hozzáadása sikeresen megtörtént."
+msgstr "A statikus bérlet hozzáadása sikeresen megtörtént."
 
 #: js/src/common/network/DHCPClients/hooks.js:125
-#, fuzzy
 msgid "Static saved successfully."
-msgstr "A továbbító mentése sikeresen megtörtént."
+msgstr "Statikus bérlet sikeresen mentve."
 
 #: js/src/common/network/DHCPClients/hooks.js:166
-#, fuzzy
 msgid "Hostname cannot be empty."
-msgstr "A feladó neve nem lehet üres."
+msgstr "A gazdanév nem lehet üres."
 
 #: js/src/common/network/DHCPClients/hooks.js:170
 #: js/src/portForwarding/hooks.js:244
@@ -351,9 +345,8 @@ msgid "IPv4 address cannot be empty."
 msgstr "Az IPv4-cím nem lehet üres."
 
 #: js/src/common/network/DHCPClients/hooks.js:174
-#, fuzzy
 msgid "MAC address cannot be empty."
-msgstr "Nem lehet üres."
+msgstr "A MAC-cím nem lehet üres."
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:75
 #: js/src/dns/DNSSECDisableModal.js:48
@@ -373,9 +366,8 @@ msgid "List of available hostnames"
 msgstr "Az elérhető hostnevek listája"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:62
-#, fuzzy
 msgid "IPv4 address"
-msgstr "IP-cím"
+msgstr "IPv4-cím"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:74
 #: js/src/portForwarding/PortForwardingRulesForm.js:71
@@ -384,9 +376,8 @@ msgstr "Elérhető IPv4-címek listája"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:88
 #: js/src/interfaces/SelectedInterface.js:139
-#, fuzzy
 msgid "MAC address"
-msgstr "IP-cím"
+msgstr "MAC-cím"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:100
 msgid "List of available MAC addresses"
@@ -444,24 +435,20 @@ msgid "IPv6 gateway connectivity"
 msgstr "IPv6-átjáró kapcsolat"
 
 #: js/src/connectionTest/ConnectionTestResult.js:86
-#, fuzzy
 msgid "Connection test successful"
-msgstr "Kapcsolat ellenőrzése"
+msgstr "A hálózati kapcsolat tesztelése sikeres"
 
 #: js/src/connectionTest/ConnectionTestResult.js:91
-#, fuzzy
 msgid "Connection test failed"
-msgstr "Kapcsolat ellenőrzése"
+msgstr "A kapcsolat tesztelése nem sikerült"
 
 #: js/src/connectionTest/ConnectionTestResult.js:96
-#, fuzzy
 msgid "Connection test cannot be determined"
-msgstr "Kapcsolat ellenőrzése"
+msgstr "Kapcsolat tesztelésének eredménye nem állapítható meg"
 
 #: js/src/connectionTest/ConnectionTestResult.js:101
-#, fuzzy
 msgid "Connection test not started"
-msgstr "Kapcsolat ellenőrzése"
+msgstr "A kapcsolat tesztelése nem indult el"
 
 #: js/src/dns/DNS.js:33
 msgid ""
@@ -469,9 +456,9 @@ msgid ""
 "capable of working independently or it can forward your DNS queries your "
 "internet service provider's DNS resolver."
 msgstr ""
-"A Turris router saját, DNSSEC-támogatással rendelkező DNS-feloldót használ. "
-"Képes önállóan működni, vagy továbbíthatja a DNS-lekérdezéseit az "
-"internetszolgáltatója DNS-feloldójához."
+"A Turris útválasztór saját, DNSSEC-támogatással rendelkező DNS-feloldót "
+"használ. Képes önállóan működni, vagy továbbíthatja a DNS-lekérdezéseit az "
+"internetszolgáltató DNS-feloldójához."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -510,18 +497,15 @@ msgid "Connection Test"
 msgstr "Kapcsolat ellenőrzése"
 
 #: js/src/dns/DNS.js:66
-#, fuzzy
 msgid ""
 "Here you can test your internet connection. This test is also useful when"
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
-"\n"
 "Itt tesztelheti az internetkapcsolatot. Ez a teszt akkor is hasznos, ha "
-"ellenőriznie kell, hogy a DNS-feloldás \n"
-"a várt módon működik. Ne felejtsen el a <b>Mentés gombra</b> kattintani, ha "
-"módosította a továbbító beállítást.\n"
-"        "
+"ellenőriznie kell, hogy a DNS-feloldás a várt módon működik. Ne felejtsen el "
+"a <b>Mentés gombra</b> kattintani, ha módosította az átirányítás "
+"beállításait."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
@@ -540,13 +524,12 @@ msgstr ""
 "\"my.lan\" tartomány eredménye \"android-123.my.lan\" lesz."
 
 #: js/src/dns/DNSForm.js:67
-#, fuzzy
 msgid "DNS Settings"
-msgstr "Frissítés beállítása"
+msgstr "DNS-beállítások"
 
 #: js/src/dns/DNSForm.js:84
 msgid "Use forwarding"
-msgstr "Továbbítás használata"
+msgstr "Átirányítás használata"
 
 #: js/src/dns/DNSForm.js:100
 msgid "Enable DNSSEC"
@@ -604,14 +587,13 @@ msgid "Use provider's DNS resolver"
 msgstr "A szolgáltató DNS-feloldójának használata"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:24
-#, fuzzy
 msgid "Base 64 encoded SHA-256."
-msgstr "base64 kódolt sha256."
+msgstr "Base64 kódolású SHA-256."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:25
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr ""
-"„Nincs TLS” azt jelenti, hogy a szokásos UDP-alapú DNS-protokollt használják."
+"„Nincs TLS” azt jelenti, hogy a szokásos UDP-alapú DNS-protokolt használják."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
 #: js/src/packageManagement/updates/UpdateApproval.js:142
