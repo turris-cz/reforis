@@ -7,19 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-02-04 18:54+0300\n"
+"POT-Creation-Date: 2026-10-07 15:24+0300\n"
 "PO-Revision-Date: 2026-09-04 13:44+0000\n"
 "Last-Translator: Fln <weblate.org@fln.lt>\n"
-"Language-Team: Lithuanian <https://hosted.weblate.org/projects/turris/"
-"reforis/lt/>\n"
 "Language: lt\n"
+"Language-Team: Lithuanian "
+"<https://hosted.weblate.org/projects/turris/reforis/lt/>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.9\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/about/About.js:18
 msgid ""
@@ -27,8 +26,8 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
-"Turis OS yra išleista skirtingais leidimais, jie skiriasi funkcionalumu ir "
-"yra stabilumu - galite pasirinkti, kurį leidimą norite išbandyti."
+"Turis OS yra išleista skirtingais leidimais, jie skiriasi funkcionalumu "
+"ir yra stabilumu - galite pasirinkti, kurį leidimą norite išbandyti."
 
 #: js/src/about/About.js:25 js/src/main/pages.js:105
 msgid "About"
@@ -141,8 +140,8 @@ msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
-"Šiame sąraše yra visi įrenginiai kurie prisijungė prie tinklo laidiniu ar "
-"belaidžiu ryšiu ir naudoja IPv6."
+"Šiame sąraše yra visi įrenginiai kurie prisijungė prie tinklo laidiniu ar"
+" belaidžiu ryšiu ir naudoja IPv6."
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
@@ -179,8 +178,8 @@ msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
-"Šiame sąraše yra visi įrenginiai kurie prisijungė prie tinklo laidiniu ar "
-"belaidžiu ryšiu."
+"Šiame sąraše yra visi įrenginiai kurie prisijungė prie tinklo laidiniu ar"
+" belaidžiu ryšiu."
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
@@ -249,8 +248,8 @@ msgid ""
 "DNS server address is not required as the built-in DNS resolver is "
 "capable of working without it."
 msgstr ""
-"DNS serverio adresas nėra privalomas, integruota DNS paslauga gali veikti ir "
-"be jo."
+"DNS serverio adresas nėra privalomas, integruota DNS paslauga gali veikti"
+" ir be jo."
 
 #: js/src/common/network/StaticIPForm.js:50
 msgid "IP address"
@@ -330,7 +329,7 @@ msgid "Hostname cannot be empty."
 msgstr "Įrenginio vardas negali būti tuščias."
 
 #: js/src/common/network/DHCPClients/hooks.js:170
-#: js/src/portForwarding/hooks.js:244
+#: js/src/portForwarding/hooks.js:246
 msgid "IPv4 address cannot be empty."
 msgstr "IPv4 adresas negali būti tuščias."
 
@@ -446,8 +445,8 @@ msgid ""
 "internet service provider's DNS resolver."
 msgstr ""
 "Turris maršrutizatorius naudoja savo vidinį DNS servisą, kuris palaiko "
-"DNSSEC. Jis gali veikti savarankiškai arba gali persiųsti DNS užklausas į "
-"jūsų interneto paslaugų tiekėjo DNS serverius."
+"DNSSEC. Jis gali veikti savarankiškai arba gali persiųsti DNS užklausas į"
+" jūsų interneto paslaugų tiekėjo DNS serverius."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -457,8 +456,8 @@ msgid ""
 "use direct resolving without forwarding."
 msgstr ""
 "Šis nustatymas keičia kaip DNS paslaugos veikimą. Kai interneto paslaugų "
-"tiekėjo serveriai veikia gerai, dažniausiai geriau juos ir naudoti. Jeigu "
-"jie dėl kokių nors priežasčių neveikia, tenka naudoti tiesioginį vardų "
+"tiekėjo serveriai veikia gerai, dažniausiai geriau juos ir naudoti. Jeigu"
+" jie dėl kokių nors priežasčių neveikia, tenka naudoti tiesioginį vardų "
 "sprendimą nenaudojant persiuntimo."
 
 #: js/src/dns/DNS.js:44
@@ -471,13 +470,13 @@ msgid ""
 "<b>recommend keeping DNSSEC turned on</b> and resolving the situation "
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
-"Retais atvejais, interneto paslaugų tiekėjas gali turi netinkamai valdoma "
-"tinklą, kuris trukdo DNSSEC patvirtinimui. Jei turite problemų su DNS, "
-"galite <b>laikinai</b> išjungti DNSSEC patvirtinimus, tai gali padėti rasti "
-"problemų priežastis. Tačiau atkreipkite dėmesį, kad be DNSSEC patvirtinimų "
-"esate pažeidžiami DNS klastojimo atakoms! Dėl to <b>rekomenduojame palikti "
-"DNSSEC įjungtą</b> ir mėginti išspręsti problemą esančia jūsų interneto "
-"paslaugų tiekėjo pusėje kartu su juo."
+"Retais atvejais, interneto paslaugų tiekėjas gali turi netinkamai valdoma"
+" tinklą, kuris trukdo DNSSEC patvirtinimui. Jei turite problemų su DNS, "
+"galite <b>laikinai</b> išjungti DNSSEC patvirtinimus, tai gali padėti "
+"rasti problemų priežastis. Tačiau atkreipkite dėmesį, kad be DNSSEC "
+"patvirtinimų esate pažeidžiami DNS klastojimo atakoms! Dėl to "
+"<b>rekomenduojame palikti DNSSEC įjungtą</b> ir mėginti išspręsti "
+"problemą esančia jūsų interneto paslaugų tiekėjo pusėje kartu su juo."
 
 #: js/src/dns/DNS.js:63 js/src/overview/Cards/ConnectionTestCard.js:21
 #: js/src/wan/WAN.js:51
@@ -492,7 +491,8 @@ msgid ""
 msgstr ""
 "Čia galite patikrinti interneto ryšį. Šis testas taip pat gali būti "
 "naudingas patikrinimui ar DNS sistema veikia tinkamai. Nepamirškite "
-"paspausti <b>Išsaugoti mygtuko</b> jei buvo pakeisti persiuntimo nustatymai."
+"paspausti <b>Išsaugoti mygtuko</b> jei buvo pakeisti persiuntimo "
+"nustatymai."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
@@ -507,8 +507,8 @@ msgid ""
 "This domain will be used as suffix. E.g. The result for client "
 "\"android-123\" and domain \"my.lan\" will be \"android-123.my.lan\"."
 msgstr ""
-"Šis domenas bus naudojamas kaip galūnė. Pvz. iš kliento vardo \"android-"
-"123\" ir domeno \"my.lan\" bus gaunama \"android-123.my.lan\"."
+"Šis domenas bus naudojamas kaip galūnė. Pvz. iš kliento vardo "
+"\"android-123\" ir domeno \"my.lan\" bus gaunama \"android-123.my.lan\"."
 
 #: js/src/dns/DNSForm.js:67
 msgid "DNS Settings"
@@ -535,8 +535,8 @@ msgid ""
 "DNSSEC is a security technology that protects DNS communication against "
 "attacks on the DNS infrastructure."
 msgstr ""
-"DNSSEC yra saugumo technologija, kuri apsaugo DNS komunikacijas nuo atakų "
-"nukreiptų prieš DNS infrastruktūrą."
+"DNSSEC yra saugumo technologija, kuri apsaugo DNS komunikacijas nuo atakų"
+" nukreiptų prieš DNS infrastruktūrą."
 
 #: js/src/dns/DNSSECDisableModal.js:17
 msgid ""
@@ -544,8 +544,8 @@ msgid ""
 "that you will be connecting your device to the network where DNSSEC is "
 "broken."
 msgstr ""
-"Primygtinai rekomenduojame palikti DNSSEC tikrinimą įjungtą, nebent esate "
-"įsitikinęs kad jūsų įrenginys bus prijungtas prie tinklo kuriame DNSSEC "
+"Primygtinai rekomenduojame palikti DNSSEC tikrinimą įjungtą, nebent esate"
+" įsitikinęs kad jūsų įrenginys bus prijungtas prie tinklo kuriame DNSSEC "
 "neveikia."
 
 #: js/src/dns/DNSSECDisableModal.js:21
@@ -674,9 +674,10 @@ msgid ""
 " are allowed to access the internet but are not allowed to access the "
 "configuration interface of this device or the devices in LAN."
 msgstr ""
-"Jis atskirtas nuo jūsų įprasto vietinio tinklo. Įrenginiai prijungti prie "
-"šio tinklo gali naudoti interneto, tačiau negali pasiekti maršrutizatoriaus "
-"valdymo interfeiso bei kitų įrenginių esančių vietiniame tinkle."
+"Jis atskirtas nuo jūsų įprasto vietinio tinklo. Įrenginiai prijungti prie"
+" šio tinklo gali naudoti interneto, tačiau negali pasiekti "
+"maršrutizatoriaus valdymo interfeiso bei kitų įrenginių esančių "
+"vietiniame tinkle."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
@@ -691,8 +692,8 @@ msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
-"Šis nustatymas leidžia nustatyti duomenų pralaidumo ribą svečių tinklui, kad "
-"jis nestabdytų pagrindinio jūsų tinklo."
+"Šis nustatymas leidžia nustatyti duomenų pralaidumo ribą svečių tinklui, "
+"kad jis nestabdytų pagrindinio jūsų tinklo."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
@@ -758,16 +759,16 @@ msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
 "device."
 msgstr ""
-"Sveiki prisijungę prie reForis tinklo sąsajos. Šis gidas padės jūsų įrenginį "
-"paruošti naudojimui."
+"Sveiki prisijungę prie reForis tinklo sąsajos. Šis gidas padės jūsų "
+"įrenginį paruošti naudojimui."
 
 #: js/src/guide/constants.js:16
 msgid ""
 "Firstly it is required to set your password. Note the security of your "
 "home network is in your hands, so try not to use weak passwords."
 msgstr ""
-"Pirmiausia nustatykite slaptažodį. Nepamirškite, kad nuo to priklauso jūsų "
-"tinklo saugumas, nenaudokite silpnų slaptažodžių."
+"Pirmiausia nustatykite slaptažodį. Nepamirškite, kad nuo to priklauso "
+"jūsų tinklo saugumas, nenaudokite silpnų slaptažodžių."
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
@@ -779,8 +780,7 @@ msgstr "Darbo rėžimas nustatytas. Galite eiti prie kito žingsnio."
 
 #: js/src/guide/constants.js:27
 msgid "Here you need to decide which interfaces belong to which network."
-msgstr ""
-"Čia reikia pasirinkti kurie interfeisai bus susieti su kuriais tinklais."
+msgstr "Čia reikia pasirinkti kurie interfeisai bus susieti su kuriais tinklais."
 
 #: js/src/guide/constants.js:30
 msgid "If you are in doubt use the current settings."
@@ -791,8 +791,8 @@ msgid ""
 "You've configured your network interfaces. It seems that you didn't break"
 " any crucial network settings so you can safely proceed to the next step."
 msgstr ""
-"Tinklo interfeisai sukonfigūruoti. Panašu, kad pakeitimai nesukėlė tinklo "
-"problemų, galite saugiai eiti prie kito žingsnio."
+"Tinklo interfeisai sukonfigūruoti. Panašu, kad pakeitimai nesukėlė tinklo"
+" problemų, galite saugiai eiti prie kito žingsnio."
 
 #: js/src/guide/constants.js:37
 msgid "Now you need to set the time and timezone of your device."
@@ -804,8 +804,8 @@ msgid ""
 "matches the time on your computer if not try to update it via NTP or "
 "manually."
 msgstr ""
-"Laikas ir laiko juosta nustatyti. Patikrinkite ar laikas sutampa su laiku "
-"jūsų kompiuteryje, jei ne pamėginkite patikslinti laiką per NTP arba "
+"Laikas ir laiko juosta nustatyti. Patikrinkite ar laikas sutampa su laiku"
+" jūsų kompiuteryje, jei ne pamėginkite patikslinti laiką per NTP arba "
 "rankiniu būdu."
 
 #: js/src/guide/constants.js:43
@@ -821,8 +821,8 @@ msgid ""
 "You've updated your DNS configuration. Try to run connection test to see "
 "whether your DNS resolver is properly set."
 msgstr ""
-"DNS konfigūracija atnaujinta. Išbandykite ryšio testą, jis parodys ar DNS "
-"veikia tinkamai."
+"DNS konfigūracija atnaujinta. Išbandykite ryšio testą, jis parodys ar DNS"
+" veikia tinkamai."
 
 #: js/src/guide/constants.js:51
 msgid "In order to access the internet, you need to configure your WAN interface."
@@ -844,30 +844,30 @@ msgid ""
 "configuration interface unless you restart the network on your current "
 "device."
 msgstr ""
-"Dabar reikia sukonfigūruoti LAN interfeisą. Atkreipkite dėmesį, kad pakeitus "
-"tinklo nustatymui tikriausiai nebegalėsite pasiekti valdymo sąsajos nebent "
-"perkrausite tinklo nustatymus ir įrenginyje iš kurio jungiatės."
+"Dabar reikia sukonfigūruoti LAN interfeisą. Atkreipkite dėmesį, kad "
+"pakeitus tinklo nustatymui tikriausiai nebegalėsite pasiekti valdymo "
+"sąsajos nebent perkrausite tinklo nustatymus ir įrenginyje iš kurio "
+"jungiatės."
 
 #: js/src/guide/constants.js:62
 msgid ""
 "You've configured your LAN interface. Try to test whether settings work "
 "properly and if so you can safely proceed to the next step."
 msgstr ""
-"Sukonfigūravote LAN interfeisą. Pamėginkite patikrinti ar nustatymai veikia "
-"teisingai ir eikite prie kito žingsnio."
+"Sukonfigūravote LAN interfeisą. Pamėginkite patikrinti ar nustatymai "
+"veikia teisingai ir eikite prie kito žingsnio."
 
 #: js/src/guide/constants.js:68
 msgid "To activate Sentinel, you must accept the licence agreement."
-msgstr ""
-"Tam, kad aktyvuotumėte Sentinel, turite sutikti su licencijos sutartimi."
+msgstr "Tam, kad aktyvuotumėte Sentinel, turite sutikti su licencijos sutartimi."
 
 #: js/src/guide/constants.js:69
 msgid ""
 "If you choose not to accept it, Sentinel will remain installed and "
 "accessible from the sidebar navigation, but it will not be active."
 msgstr ""
-"Jei pasirinksite nesutikti, Sentinel liks instaliuotas ir pasiekiamas per "
-"šoninį meniu, tačiau nebus aktyvus."
+"Jei pasirinksite nesutikti, Sentinel liks instaliuotas ir pasiekiamas per"
+" šoninį meniu, tačiau nebus aktyvus."
 
 #: js/src/guide/constants.js:73
 msgid ""
@@ -903,8 +903,8 @@ msgid ""
 "some further configuration updates to fit the device to your needs."
 msgstr ""
 "Minimalus įrenginio konfigūravimas baigtas. Atkreipkite dėmesį, kad "
-"tikriausiai reikės atlikti daugiau konfigūracijos pakeitimų, norint įrenginį "
-"pilnai pritaikyti prie savo poreikių."
+"tikriausiai reikės atlikti daugiau konfigūracijos pakeitimų, norint "
+"įrenginį pilnai pritaikyti prie savo poreikių."
 
 #: js/src/guide/constants.js:112
 msgid ""
@@ -934,11 +934,11 @@ msgid ""
 "probably want to act as a client here thus select "
 "<strong>Computer</strong> mode here."
 msgstr ""
-"Kad įrenginys veiktų kaip vietinis serveris jam nereikia valdyti LAN (jei "
-"vis tik norite jį valdyti iš naujo paleiskite gidą ir pasirinkite "
-"Maršrutizatoriaus darbo rėžimą). Tikriausiai norėsite, kad įrenginys veiktų "
-"kaip tinklo klientas, todėl čia pasirinkite <strong>Kompiuterio</strong> "
-"rėžimą."
+"Kad įrenginys veiktų kaip vietinis serveris jam nereikia valdyti LAN (jei"
+" vis tik norite jį valdyti iš naujo paleiskite gidą ir pasirinkite "
+"Maršrutizatoriaus darbo rėžimą). Tikriausiai norėsite, kad įrenginys "
+"veiktų kaip tinklo klientas, todėl čia pasirinkite "
+"<strong>Kompiuterio</strong> rėžimą."
 
 #: js/src/guide/constants.js:133
 msgid ""
@@ -947,8 +947,8 @@ msgid ""
 "this configuration interface when the new settings are applied."
 msgstr ""
 "Jei pasirinksite <strong>statinę</strong> įsitikinkite, kad IP adresai "
-"įvesti teisingai, kitu atveju nebegalėsite pasiekti šios valdymo sąsajos kai "
-"nauji nustatymai bus pritaikyti."
+"įvesti teisingai, kitu atveju nebegalėsite pasiekti šios valdymo sąsajos "
+"kai nauji nustatymai bus pritaikyti."
 
 #: js/src/guide/constants.js:136
 msgid ""
@@ -957,8 +957,8 @@ msgid ""
 "server which is managing your LAN. Then you need to connect to the new IP"
 " address to proceed the guide."
 msgstr ""
-"Jeigu pasirinksite <strong>DHCP</strong> metodą tikriausiai šis įrenginys "
-"gaus naują IP adresą. Jį sužinoti galite iš jūsų tinklą valdančio DHCP "
+"Jeigu pasirinksite <strong>DHCP</strong> metodą tikriausiai šis įrenginys"
+" gaus naują IP adresą. Jį sužinoti galite iš jūsų tinklą valdančio DHCP "
 "serverio. Kad galėtumėte tęsti šį gidą reikės prisijungti prie naujo IP "
 "adreso."
 
@@ -967,8 +967,9 @@ msgid ""
 "Note that either way you might need to re-plug your ethernet cables after"
 " you update the settings here."
 msgstr ""
-"Atkreipkite dėmesį, kad gali reikėti ištraukti ir vėl prijungti kompiuterių "
-"tinklo kabelius, bet kuriuo atveju, po šių nustatymų pakeitimo."
+"Atkreipkite dėmesį, kad gali reikėti ištraukti ir vėl prijungti "
+"kompiuterių tinklo kabelius, bet kuriuo atveju, po šių nustatymų "
+"pakeitimo."
 
 #: js/src/guide/constants.js:143
 msgid ""
@@ -977,15 +978,16 @@ msgid ""
 " your device can access the internet."
 msgstr ""
 "Patikrinkite ar įvesti nustatymai veikia tinkamai. Jūs turėtumėte galėti "
-"pasiekti šio įrenginio valdymo sąsają, o šis įrenginys turėti prieiga prie "
-"interneto."
+"pasiekti šio įrenginio valdymo sąsają, o šis įrenginys turėti prieiga "
+"prie interneto."
 
 #: js/src/guide/constants.js:148
 msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
 msgstr ""
-"Sveikiname! Jūsų įrenginys galės veikti kaip vietinis serveris jūsų tinkle."
+"Sveikiname! Jūsų įrenginys galės veikti kaip vietinis serveris jūsų "
+"tinkle."
 
 #: js/src/guide/hooks.js:24
 msgid "Cannot mark guide as finished."
@@ -1076,8 +1078,8 @@ msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
-"Kai išeisite iš šio gido gausite prieigą prie pilnos šio įrenginio valdymo "
-"sąsajos."
+"Kai išeisite iš šio gido gausite prieigą prie pilnos šio įrenginio "
+"valdymo sąsajos."
 
 #: js/src/guide/GuidePages/GuideFinish.js:27
 msgid ""
@@ -1086,10 +1088,10 @@ msgid ""
 "security research to discover new attackers and give you access to "
 "dynamic firewall updates blocking known attackers."
 msgstr ""
-"Jei norite dar labiau padidinti apsaugos lygį rekomenduojame įdiegti duomenų "
-"rinkimo priedą (per Paketų valdymą). Tai leis jums būti mūsų saugumo tyrimų "
-"dalimi, atpažinti naujas atakas ir suteiks jums prieigą prie dinaminės "
-"ugniasienės atnaujinimų kurie blokuoja atpažintas atakas."
+"Jei norite dar labiau padidinti apsaugos lygį rekomenduojame įdiegti "
+"duomenų rinkimo priedą (per Paketų valdymą). Tai leis jums būti mūsų "
+"saugumo tyrimų dalimi, atpažinti naujas atakas ir suteiks jums prieigą "
+"prie dinaminės ugniasienės atnaujinimų kurie blokuoja atpažintas atakas."
 
 #: js/src/guide/GuidePages/GuideFinish.js:33
 #: js/src/utils/useSessionTimeout.js:113
@@ -1128,8 +1130,8 @@ msgid ""
 "for real-time threat prevention, and a centralized database that tracks "
 "and identifies potential attackers."
 msgstr ""
-"grėsmių aptikimui realiu laiku, bei centralizuota duomenų bazė kuri seka ir "
-"identifikuoja potencialius užpuolikus."
+"grėsmių aptikimui realiu laiku, bei centralizuota duomenų bazė kuri seka "
+"ir identifikuoja potencialius užpuolikus."
 
 #: js/src/guide/GuidePages/SentinelDescription.js:46
 msgid ""
@@ -1138,8 +1140,8 @@ msgid ""
 "explore real-time security insights and attack statistics on "
 msgstr ""
 "Įjungdami Sentinel, jūs prisidedate prie globalaus saugumo tinklo, kuris "
-"padeda apsaugoti ne tik jūsų įrenginį bet ir kitų įrenginius. Galite stebėti "
-"realaus laiko saugumo įžvalgas bei atakų statistiką naudodami "
+"padeda apsaugoti ne tik jūsų įrenginį bet ir kitų įrenginius. Galite "
+"stebėti realaus laiko saugumo įžvalgas bei atakų statistiką naudodami "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:54
 msgid "Sentinel View"
@@ -1166,16 +1168,16 @@ msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
-"Aš priimu <a href='#'>Dalyvavimo Turris Projekte Sąlygas (Duomenų rinkimas)</"
-"a>."
+"Aš priimu <a href='#'>Dalyvavimo Turris Projekte Sąlygas (Duomenų "
+"rinkimas)</a>."
 
 #: js/src/guide/GuidePages/SentinelEULA.js:86
 msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
-"Aš nesutinku su <a href='#'>Dalyvavimo Turris Projekte Sąlygomis (Duomenų "
-"rinkimas)</a>."
+"Aš nesutinku su <a href='#'>Dalyvavimo Turris Projekte Sąlygomis (Duomenų"
+" rinkimas)</a>."
 
 #: js/src/guide/GuidePages/SentinelEULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
@@ -1188,9 +1190,9 @@ msgid ""
 "other devices within your local network (e.g. act as a network-attached "
 "storage)."
 msgstr ""
-"Šis darbo rėžimas leis naudoti šį įrenginį kaip lokalų serverį. Tai reiškia, "
-"kad įrenginys teiks paslaugas kitiems įrenginiams jūsų tinkle (pvz. veiks "
-"kaip per tinklą pasiekiama duomenų saugykla)."
+"Šis darbo rėžimas leis naudoti šį įrenginį kaip lokalų serverį. Tai "
+"reiškia, kad įrenginys teiks paslaugas kitiems įrenginiams jūsų tinkle "
+"(pvz. veiks kaip per tinklą pasiekiama duomenų saugykla)."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:29
 msgid ""
@@ -1199,16 +1201,16 @@ msgid ""
 "standard network setup."
 msgstr ""
 "Parinkus šį darbo rėžimą jūsų įrenginys galės veikti kaip tinklo "
-"maršrutizatorius. Daroma prielaida, kad norėsite daugiau ar mažiau įprastos "
-"vietinio tinklo konfigūracijos."
+"maršrutizatorius. Daroma prielaida, kad norėsite daugiau ar mažiau "
+"įprastos vietinio tinklo konfigūracijos."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:32
 msgid ""
 "Just set your password and you are ready to go. This workflow is aimed to"
 " more advanced users who intend to set everything manually."
 msgstr ""
-"Nustatykite slaptažodį ir bus baigta. Šis darbo rėžimas tinka patyrusiems "
-"naudotojams, kurie planuoja viską nustatyti patys rankiniu būdu."
+"Nustatykite slaptažodį ir bus baigta. Šis darbo rėžimas tinka patyrusiems"
+" naudotojams, kurie planuoja viską nustatyti patys rankiniu būdu."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:38
 msgid "Local Server"
@@ -1235,8 +1237,8 @@ msgid ""
 "Here you can set the guide walkthrough which will guide you through the "
 "basic configuration of your device."
 msgstr ""
-"Čia galite parinkti gido darbo rėžimą, jis padės pereiti per pagrindinius "
-"įrenginio nustatymus."
+"Čia galite parinkti gido darbo rėžimą, jis padės pereiti per pagrindinius"
+" įrenginio nustatymus."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:85
 msgid "Recommended"
@@ -2496,12 +2498,12 @@ msgstr ""
 msgid "Name should have at least one symbol."
 msgstr ""
 
-#: js/src/portForwarding/hooks.js:224
+#: js/src/portForwarding/hooks.js:226
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
 msgstr ""
 
-#: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
+#: js/src/portForwarding/hooks.js:232 js/src/portForwarding/hooks.js:239
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
 msgstr ""
@@ -2959,19 +2961,19 @@ msgstr ""
 msgid "Cannot send test notification. Please check your configuration."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:66
+#: reforis/foris_controller_api/modules/updater.py:67
 msgid "Cannot change automatic restart settings."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:77
+#: reforis/foris_controller_api/modules/updater.py:78
 msgid "Cannot update approvals settings."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:170
+#: reforis/foris_controller_api/modules/updater.py:171
 msgid "Cannot start updater"
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:199
+#: reforis/foris_controller_api/modules/updater.py:200
 msgid "You can't set it with disabled automatic updates."
 msgstr ""
 
@@ -3671,3 +3673,4 @@ msgstr ""
 
 #~ msgid "Password cannot have more than 128 symbols."
 #~ msgstr ""
+

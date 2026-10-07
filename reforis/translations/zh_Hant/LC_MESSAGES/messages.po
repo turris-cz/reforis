@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-02-04 18:54+0300\n"
+"POT-Creation-Date: 2026-10-07 15:24+0300\n"
 "PO-Revision-Date: 2026-09-04 13:46+0000\n"
 "Last-Translator: Ricky From Hong Kong <lamricky11@hotmail.com>\n"
 "Language: zh_Hant\n"
-"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
-"projects/turris/reforis/zh_Hant/>\n"
+"Language-Team: Chinese (Traditional Han script) "
+"<https://hosted.weblate.org/projects/turris/reforis/zh_Hant/>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"X-Generator: Weblate 2026.9\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/about/About.js:18
 msgid ""
@@ -321,7 +320,7 @@ msgid "Hostname cannot be empty."
 msgstr ""
 
 #: js/src/common/network/DHCPClients/hooks.js:170
-#: js/src/portForwarding/hooks.js:244
+#: js/src/portForwarding/hooks.js:246
 msgid "IPv4 address cannot be empty."
 msgstr ""
 
@@ -475,8 +474,7 @@ msgid ""
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
 "\n"
-"在這裡提供互聯網連接的正常測試。對於測試DNS供應商運作是否正常這一工具則提供十"
-"分有用的參考。\n"
+"在這裡提供互聯網連接的正常測試。對於測試DNS供應商運作是否正常這一工具則提供十分有用的參考。\n"
 "但請記得如果更改了DNS供應商的設置，請確定已經點擊了<b>保存按鈕</b> 。\n"
 "        "
 
@@ -490,9 +488,7 @@ msgstr "這將使您的DNS解析器可以將DHCP客戶端的名稱放在本地DN
 msgid ""
 "This domain will be used as suffix. E.g. The result for client "
 "\"android-123\" and domain \"my.lan\" will be \"android-123.my.lan\"."
-msgstr ""
-"該域將用作後綴。 例如。 客戶端“ android-123”和域“ my.lan”的結果將是“ android-"
-"123.my.lan”。"
+msgstr "該域將用作後綴。 例如。 客戶端“ android-123”和域“ my.lan”的結果將是“ android-123.my.lan”。"
 
 #: js/src/dns/DNSForm.js:67
 msgid "DNS Settings"
@@ -747,9 +743,7 @@ msgstr ""
 msgid ""
 "Firstly it is required to set your password. Note the security of your "
 "home network is in your hands, so try not to use weak passwords."
-msgstr ""
-"歡迎使用Foris網站界面。 本指南將幫助您設置設備。 首先，需要設置您的密碼。 請"
-"注意，家庭網絡的安全性掌握在您手中，因此請不要使用弱密碼。"
+msgstr "歡迎使用Foris網站界面。 本指南將幫助您設置設備。 首先，需要設置您的密碼。 請注意，家庭網絡的安全性掌握在您手中，因此請不要使用弱密碼。"
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
@@ -2417,12 +2411,12 @@ msgstr "轉發器已成功保存。"
 msgid "Name should have at least one symbol."
 msgstr "主機名應至少包含一個符號。"
 
-#: js/src/portForwarding/hooks.js:224
+#: js/src/portForwarding/hooks.js:226
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
 msgstr ""
 
-#: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
+#: js/src/portForwarding/hooks.js:232 js/src/portForwarding/hooks.js:239
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
 msgstr ""
@@ -2892,19 +2886,19 @@ msgstr "轉發器已成功保存。"
 msgid "Cannot send test notification. Please check your configuration."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:66
+#: reforis/foris_controller_api/modules/updater.py:67
 msgid "Cannot change automatic restart settings."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:77
+#: reforis/foris_controller_api/modules/updater.py:78
 msgid "Cannot update approvals settings."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:170
+#: reforis/foris_controller_api/modules/updater.py:171
 msgid "Cannot start updater"
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:199
+#: reforis/foris_controller_api/modules/updater.py:200
 msgid "You can't set it with disabled automatic updates."
 msgstr ""
 
@@ -3562,3 +3556,4 @@ msgstr ""
 #~ "Sending of the testing message failed,"
 #~ " your configuration is possibly wrong."
 #~ msgstr ""
+

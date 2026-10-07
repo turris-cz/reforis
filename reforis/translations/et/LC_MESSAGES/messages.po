@@ -1,4 +1,4 @@
-# Translations template for reForis.
+# Estonian translations for reForis.
 # Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reForis 3.8.0\n"
 "Report-Msgid-Bugs-To: tech.support@turris.cz\n"
-"POT-Creation-Date: 2026-02-04 18:54+0300\n"
+"POT-Creation-Date: 2026-10-07 15:24+0300\n"
 "PO-Revision-Date: 2026-09-04 13:47+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Estonian <https://hosted.weblate.org/projects/turris/reforis/"
-"et/>\n"
 "Language: et\n"
+"Language-Team: Estonian "
+"<https://hosted.weblate.org/projects/turris/reforis/et/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/about/About.js:18
 msgid ""
@@ -27,7 +26,8 @@ msgid ""
 " test."
 msgstr ""
 "Turris OS on praegu saadaval mitmes eri harus, millel on erinev "
-"funktsionaalsus ja stabiilsus - saad ise valida, millist haru soovid testida."
+"funktsionaalsus ja stabiilsus - saad ise valida, millist haru soovid "
+"testida."
 
 #: js/src/about/About.js:25 js/src/main/pages.js:105
 msgid "About"
@@ -41,8 +41,8 @@ msgid ""
 "support</a>."
 msgstr ""
 "Siit leiad teavet seadme kohta. Kui võtad ühendust meie <a "
-"href=\"mailto:tech.support@turris.cz\" target=\"_blank\">kasutajatoega</a>, "
-"siis palun lisa see oma kirjale."
+"href=\"mailto:tech.support@turris.cz\" "
+"target=\"_blank\">kasutajatoega</a>, siis palun lisa see oma kirjale."
 
 #: js/src/about/About.js:37
 msgid "Device"
@@ -320,7 +320,7 @@ msgid "Hostname cannot be empty."
 msgstr ""
 
 #: js/src/common/network/DHCPClients/hooks.js:170
-#: js/src/portForwarding/hooks.js:244
+#: js/src/portForwarding/hooks.js:246
 msgid "IPv4 address cannot be empty."
 msgstr ""
 
@@ -726,8 +726,7 @@ msgstr ""
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
-msgstr ""
-"Sinu sisestatud salasõna on kasutusel. Võid liikuda järgmise sammu juurde."
+msgstr "Sinu sisestatud salasõna on kasutusel. Võid liikuda järgmise sammu juurde."
 
 #: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
@@ -1478,8 +1477,8 @@ msgid ""
 "The Maintenance tab allows you to reboot the router or bring back all the"
 " default settings by performing a factory reset."
 msgstr ""
-"Hoolduse vahekaardilt leiad võimaluse oma ruuteri uuesti käivitamiseks või "
-"tehaseseadistuste taastamiseks."
+"Hoolduse vahekaardilt leiad võimaluse oma ruuteri uuesti käivitamiseks "
+"või tehaseseadistuste taastamiseks."
 
 #: js/src/maintenance/Reboot.js:19
 msgid ""
@@ -1696,8 +1695,8 @@ msgid ""
 "Here you can verify whether your SMTP provider or push notifications are "
 "configured correctly by sending a test notification."
 msgstr ""
-"Siin saad testteate saatmise abil kontrollida, kas sinu SMTP-teenusepakkuja "
-"või tõuketeavitused on korrektselt seadistatud."
+"Siin saad testteate saatmise abil kontrollida, kas sinu SMTP-"
+"teenusepakkuja või tõuketeavitused on korrektselt seadistatud."
 
 #: js/src/notificationsSettings/TestNotification.js:130
 msgid "Send"
@@ -1749,8 +1748,7 @@ msgstr "Saatja nimi ei või jääda tühjaks."
 msgid ""
 "Sender's name can contain only alphanumeric characters, dots and "
 "underscores."
-msgstr ""
-"Saatja nimes võib olla vaid ASCII-tähti, numbreid, punkte ja alakriipse."
+msgstr "Saatja nimes võib olla vaid ASCII-tähti, numbreid, punkte ja alakriipse."
 
 #: js/src/notificationsSettings/validator.js:66
 msgid "Port is an number."
@@ -2231,8 +2229,8 @@ msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
 msgstr ""
-"Siin võid sisestada haldusliidese salasõna. Palun teeta pikk ja unikaalne "
-"ning sellega tagad turvalise salasõna."
+"Siin võid sisestada haldusliidese salasõna. Palun teeta pikk ja unikaalne"
+" ning sellega tagad turvalise salasõna."
 
 #: js/src/password/Password.js:194 js/src/password/Password.js:198
 msgid "Passwords do not match."
@@ -2375,12 +2373,12 @@ msgstr ""
 msgid "Name should have at least one symbol."
 msgstr ""
 
-#: js/src/portForwarding/hooks.js:224
+#: js/src/portForwarding/hooks.js:226
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
 msgstr ""
 
-#: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
+#: js/src/portForwarding/hooks.js:232 js/src/portForwarding/hooks.js:239
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
 msgstr ""
@@ -2439,8 +2437,8 @@ msgid ""
 "Time should be up-to-date otherwise DNS and other services might not work"
 " properly."
 msgstr ""
-"Kellaaeg peab olema täpne, vastasel juhul nimelahendus, krüptimine ja paljud "
-"teenused ei toimi korrektselt."
+"Kellaaeg peab olema täpne, vastasel juhul nimelahendus, krüptimine ja "
+"paljud teenused ei toimi korrektselt."
 
 #: js/src/regionAndTime/TimeForm.js:113
 msgid "How to set time"
@@ -2496,8 +2494,9 @@ msgid ""
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
-"Lisateavet leiad oma veebibrauseri arenduskonsoolilt. Enamustes brauserites "
-"on ta nähtav <kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> või "
+"Lisateavet leiad oma veebibrauseri arenduskonsoolilt. Enamustes "
+"brauserites on ta nähtav "
+"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> või "
 "<kbd>F12</kbd> vajutamisel."
 
 #: js/src/utils/ErrorBoundary.js:50
@@ -2848,19 +2847,19 @@ msgstr ""
 msgid "Cannot send test notification. Please check your configuration."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:66
+#: reforis/foris_controller_api/modules/updater.py:67
 msgid "Cannot change automatic restart settings."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:77
+#: reforis/foris_controller_api/modules/updater.py:78
 msgid "Cannot update approvals settings."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:170
+#: reforis/foris_controller_api/modules/updater.py:171
 msgid "Cannot start updater"
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:199
+#: reforis/foris_controller_api/modules/updater.py:200
 msgid "You can't set it with disabled automatic updates."
 msgstr ""
 
@@ -2899,3 +2898,4 @@ msgstr ""
 #: reforis/templates/errors/500.html:8
 msgid "500 - Server error"
 msgstr ""
+

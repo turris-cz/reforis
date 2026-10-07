@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-02-04 18:54+0300\n"
+"POT-Creation-Date: 2026-10-07 15:24+0300\n"
 "PO-Revision-Date: 2026-09-04 13:46+0000\n"
 "Last-Translator: Mattias Münster <mattiasmun@gmail.com>\n"
 "Language: sv\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/turris/reforis/"
-"sv/>\n"
+"Language-Team: Swedish "
+"<https://hosted.weblate.org/projects/turris/reforis/sv/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"X-Generator: Weblate 2026.9\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/about/About.js:18
 msgid ""
@@ -26,8 +25,8 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
-"Turris OS släpps för närvarande i olika grenar som har olika funktioner och "
-"varierande stabilitet - du kan välja vilken gren som du vill testa."
+"Turris OS släpps för närvarande i olika grenar som har olika funktioner "
+"och varierande stabilitet - du kan välja vilken gren som du vill testa."
 
 #: js/src/about/About.js:25 js/src/main/pages.js:105
 msgid "About"
@@ -141,8 +140,8 @@ msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
-"Den här listan innehåller alla enheter som är anslutna till nätverket via "
-"trådbundna eller trådlösa anslutningar som använder IPv6."
+"Den här listan innehåller alla enheter som är anslutna till nätverket via"
+" trådbundna eller trådlösa anslutningar som använder IPv6."
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
@@ -179,16 +178,16 @@ msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
-"Den här listan innehåller alla enheter som är anslutna till nätverket via "
-"trådbundna eller trådlösa anslutningar."
+"Den här listan innehåller alla enheter som är anslutna till nätverket via"
+" trådbundna eller trådlösa anslutningar."
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
 "Enable this option to automatically assign IP addresses to the devices "
 "connected to the router."
 msgstr ""
-"Aktivera det här alternativet för att automatiskt tilldela IP-adresser till "
-"enheterna som är ansluten till routern."
+"Aktivera det här alternativet för att automatiskt tilldela IP-adresser "
+"till enheterna som är ansluten till routern."
 
 #: js/src/common/network/DHCPServerForm.js:47
 msgid "DHCP start"
@@ -217,7 +216,8 @@ msgstr "Värdet måste vara positivt."
 #: js/src/common/network/DHCPValidators.js:86
 msgid "Invalid network settings. DHCP settings can't be validated."
 msgstr ""
-"Ogiltiga nätverksinställningar. DHCP-inställningar kan inte bli bekräftade."
+"Ogiltiga nätverksinställningar. DHCP-inställningar kan inte bli "
+"bekräftade."
 
 #: js/src/common/network/DHCPValidators.js:99
 msgid "Minimum lease time is 1 hour."
@@ -233,24 +233,23 @@ msgstr "Adressen är redan reserverat för andra ändamål."
 
 #: js/src/common/network/DHCPValidators.js:129
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
-msgstr ""
-"För många adresser begärdes. Ställ i en lägre siffra eller byt DHCP-start."
+msgstr "För många adresser begärdes. Ställ i en lägre siffra eller byt DHCP-start."
 
 #: js/src/common/network/DHCPValidators.js:136
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
-"Den enda DHCP-tilldelningen är samma som routerns adress. Öka gränsen eller "
-"byt startadress."
+"Den enda DHCP-tilldelningen är samma som routerns adress. Öka gränsen "
+"eller byt startadress."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 msgid ""
 "DNS server address is not required as the built-in DNS resolver is "
 "capable of working without it."
 msgstr ""
-"DNS-serverns adress krävs inte då den inbyggda DNS-resolvern är kapabel att "
-"fungera utan den."
+"DNS-serverns adress krävs inte då den inbyggda DNS-resolvern är kapabel "
+"att fungera utan den."
 
 #: js/src/common/network/StaticIPForm.js:50
 msgid "IP address"
@@ -332,7 +331,7 @@ msgid "Hostname cannot be empty."
 msgstr "Värdnamnet kan inte vara tomt."
 
 #: js/src/common/network/DHCPClients/hooks.js:170
-#: js/src/portForwarding/hooks.js:244
+#: js/src/portForwarding/hooks.js:246
 msgid "IPv4 address cannot be empty."
 msgstr "IPv4-adress kan inte vara tomt."
 
@@ -482,18 +481,18 @@ msgid ""
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
-"Här kan du testa din internetanslutning. Det här testet är också användbart "
-"när du behöver kontrollera att din DNS-lösning fungera som förväntat. Kom "
-"ihåg att klicka på <b>Spara</b>-knappen om du har ändrat inställningarna för "
-"din vidarebefordrare."
+"Här kan du testa din internetanslutning. Det här testet är också "
+"användbart när du behöver kontrollera att din DNS-lösning fungera som "
+"förväntat. Kom ihåg att klicka på <b>Spara</b>-knappen om du har ändrat "
+"inställningarna för din vidarebefordrare."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
 "This will enable your DNS resolver to place DHCP client's names among the"
 " local DNS records."
 msgstr ""
-"Det här kommer att aktivera din DNS-resolver att placera DHCP-klienternas "
-"namn bland de lokala DNS-inrapporteringarna."
+"Det här kommer att aktivera din DNS-resolver att placera DHCP-klienternas"
+" namn bland de lokala DNS-inrapporteringarna."
 
 #: js/src/dns/DNSForm.js:20
 msgid ""
@@ -526,8 +525,8 @@ msgid ""
 "DNSSEC is a security technology that protects DNS communication against "
 "attacks on the DNS infrastructure."
 msgstr ""
-"DNSSEC är en säkerhetsteknologi som skyddar DNS-kommunikation mot attacker "
-"på DNS-infrastrukturen."
+"DNSSEC är en säkerhetsteknologi som skyddar DNS-kommunikation mot "
+"attacker på DNS-infrastrukturen."
 
 #: js/src/dns/DNSSECDisableModal.js:17
 msgid ""
@@ -795,7 +794,8 @@ msgstr ""
 #: js/src/guide/constants.js:51
 msgid "In order to access the internet, you need to configure your WAN interface."
 msgstr ""
-"Du behöver konfigurera ditt WAN-gränssnitt för att få åtkomst till internet."
+"Du behöver konfigurera ditt WAN-gränssnitt för att få åtkomst till "
+"internet."
 
 #: js/src/guide/constants.js:54
 msgid ""
@@ -1753,8 +1753,8 @@ msgid ""
 msgstr ""
 "Om du sätter SMTP-leverantör till \"Turris\" kommer servrar som "
 "tillhandahålls till medlemmar av Turris projektet att användas. Dessa "
-"servrar behöver inga ytterligare inställningar. Om du vill använda en egen "
-"SMTP server, välj \"Anpassad\" och mata in nödvändiga inställningar."
+"servrar behöver inga ytterligare inställningar. Om du vill använda en "
+"egen SMTP server, välj \"Anpassad\" och mata in nödvändiga inställningar."
 
 #: js/src/notificationsSettings/helpTexts.js:15
 msgid ""
@@ -2021,8 +2021,8 @@ msgid ""
 "Number of days that must pass between receiving the request for restart "
 "and the automatic restart itself."
 msgstr ""
-"Antal dagar som måste förflyta från motttangadet av omstartsbegäran till att "
-"den automatiska omstarten utförs."
+"Antal dagar som måste förflyta från motttangadet av omstartsbegäran till "
+"att den automatiska omstarten utförs."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:20
 msgid "Time of day of automatic reboot in HH:MM format."
@@ -2069,8 +2069,8 @@ msgid ""
 "Updates will be installed with an adjustable delay. You can also approve "
 "them manually."
 msgstr ""
-"Uppdateringar kommer att installeras med en justerbar fördröjning. Du kan "
-"även godkänna dem manuellt."
+"Uppdateringar kommer att installeras med en justerbar fördröjning. Du kan"
+" även godkänna dem manuellt."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:28
 msgid "Update approval needed"
@@ -2129,8 +2129,8 @@ msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
-"Se <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" aria-"
-"expanded=\"false\" aria-controls=\"plan-\n"
+"Se <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
+"aria-expanded=\"false\" aria-controls=\"plan-\n"
 "wrapper\">detaljer</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
@@ -2186,8 +2186,8 @@ msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
 msgstr ""
-"Här kan du hitta och godkänna tillgängliga uppdateringar för Turris OS och "
-"andra komponenter."
+"Här kan du hitta och godkänna tillgängliga uppdateringar för Turris OS "
+"och andra komponenter."
 
 #: js/src/packageManagement/updates/UpdateManager.js:91
 msgid "You're up to date."
@@ -2267,11 +2267,11 @@ msgid ""
 "the root account will be blocked.)"
 msgstr ""
 "Samma lösenord kommer att användas för åtkomst till detta "
-"administrationsgränssnitt, för root-användaren i webbgränssnittet LuCI och "
-"för SSH-inloggningar. Använd ett starkt lösenord! (Om du väljer att inte "
-"ställa in lösenordet för avancerad konfigurering här så kommer du ha "
-"möjlighet att göra det senare. Root-kontot kommer att vara blockerat tills "
-"dess.)"
+"administrationsgränssnitt, för root-användaren i webbgränssnittet LuCI "
+"och för SSH-inloggningar. Använd ett starkt lösenord! (Om du väljer att "
+"inte ställa in lösenordet för avancerad konfigurering här så kommer du ha"
+" möjlighet att göra det senare. Root-kontot kommer att vara blockerat "
+"tills dess.)"
 
 #: js/src/password/Password.js:102
 #, python-brace-format
@@ -2451,12 +2451,12 @@ msgstr "Sparningen av statisk lyckades."
 msgid "Name should have at least one symbol."
 msgstr "Värdnamnet bör ha åtminstone en symbol."
 
-#: js/src/portForwarding/hooks.js:224
+#: js/src/portForwarding/hooks.js:226
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
 msgstr ""
 
-#: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
+#: js/src/portForwarding/hooks.js:232 js/src/portForwarding/hooks.js:239
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
 msgstr ""
@@ -2485,8 +2485,8 @@ msgid ""
 "Please select the timezone the router is being operated in. Correct "
 "setting is required to display the right time and for related functions."
 msgstr ""
-"Välj tidszonen som routern används i. Rätt inställning krävs för att visa "
-"den rätta tiden och för relaterade funktioner."
+"Välj tidszonen som routern används i. Rätt inställning krävs för att visa"
+" den rätta tiden och för relaterade funktioner."
 
 #: js/src/regionAndTime/RegionForm.js:81
 msgid "Continent or ocean"
@@ -2576,8 +2576,9 @@ msgid ""
 "<kbd>F12</kbd>."
 msgstr ""
 "Mer detaljerad information finns tillgängligt i din webbläsares konsol. "
-"Tillgänglig i flest webbläsare efter att man trycker <kbd><kbd>Ctrl</kbd>"
-"+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> eller <kbd>F12</kbd>."
+"Tillgänglig i flest webbläsare efter att man trycker "
+"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> eller "
+"<kbd>F12</kbd>."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
@@ -2727,8 +2728,8 @@ msgid ""
 "Some tunnel providers allow you to have public dynamic IPv4. Note that "
 "you need to fill in some extra fields to make it work."
 msgstr ""
-"En del tunnel-leverantörer tillåter dig att ha publikt dynamisk IPv4. Notera "
-"att du behöver fylla i lite extra fält för att få det att fungera."
+"En del tunnel-leverantörer tillåter dig att ha publikt dynamisk IPv4. "
+"Notera att du behöver fylla i lite extra fält för att få det att fungera."
 
 #: js/src/wan/WAN6Form.js:60
 msgid "ID of your tunnel which was assigned to you by the provider."
@@ -2739,8 +2740,8 @@ msgid ""
 "Username which will be used to provide credentials to your tunnel "
 "provider."
 msgstr ""
-"Användarnamn som kommer att användas för att tillhandahålla uppgifter till "
-"din tunnel-leverantör."
+"Användarnamn som kommer att användas för att tillhandahålla uppgifter "
+"till din tunnel-leverantör."
 
 #: js/src/wan/WAN6Form.js:66
 msgid "Key which will be used to provide credentials to your tunnel provider."
@@ -2942,19 +2943,19 @@ msgstr "Sparningen av statisk lyckades."
 msgid "Cannot send test notification. Please check your configuration."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:66
+#: reforis/foris_controller_api/modules/updater.py:67
 msgid "Cannot change automatic restart settings."
 msgstr "Kan inte ändra inställningarna för automatisk omstart."
 
-#: reforis/foris_controller_api/modules/updater.py:77
+#: reforis/foris_controller_api/modules/updater.py:78
 msgid "Cannot update approvals settings."
 msgstr "Kan inte uppdatera inställningarna för godkännanden."
 
-#: reforis/foris_controller_api/modules/updater.py:170
+#: reforis/foris_controller_api/modules/updater.py:171
 msgid "Cannot start updater"
 msgstr "Kan inte starta uppdateraren"
 
-#: reforis/foris_controller_api/modules/updater.py:199
+#: reforis/foris_controller_api/modules/updater.py:200
 msgid "You can't set it with disabled automatic updates."
 msgstr "Du kan inte ställa in det med automatiska uppdateringar avstängt."
 
@@ -3611,3 +3612,4 @@ msgstr "500 Server-fel"
 #~ "in your hands, so try not to "
 #~ "use weak passwords."
 #~ msgstr ""
+

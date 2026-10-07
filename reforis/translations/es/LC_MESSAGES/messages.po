@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-02-04 18:54+0300\n"
+"POT-Creation-Date: 2026-10-07 15:24+0300\n"
 "PO-Revision-Date: 2026-09-04 13:46+0000\n"
 "Last-Translator: Dan Cybersec <dan.cybersec@protonmail.com>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/turris/reforis/"
-"es/>\n"
+"Language-Team: Spanish "
+"<https://hosted.weblate.org/projects/turris/reforis/es/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"X-Generator: Weblate 2026.9\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/about/About.js:18
 msgid ""
@@ -217,7 +216,8 @@ msgstr "Valor debe ser positivo."
 #: js/src/common/network/DHCPValidators.js:86
 msgid "Invalid network settings. DHCP settings can't be validated."
 msgstr ""
-"Configuración de red incorrecta. La configuración de DHCP no puede validarse."
+"Configuración de red incorrecta. La configuración de DHCP no puede "
+"validarse."
 
 #: js/src/common/network/DHCPValidators.js:99
 msgid "Minimum lease time is 1 hour."
@@ -234,24 +234,24 @@ msgstr "La dirección IP ya se encuentra reservada para otros propósitos."
 #: js/src/common/network/DHCPValidators.js:129
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr ""
-"Demasiadas direcciones solicitadas. Define un número más bajo o cambia el "
-"inicio del DHCP."
+"Demasiadas direcciones solicitadas. Define un número más bajo o cambia el"
+" inicio del DHCP."
 
 #: js/src/common/network/DHCPValidators.js:136
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
-"La única concesión DHCP es la misma dirección del enrutador. Incremente el "
-"límite o cambie la dirección inicial."
+"La única concesión DHCP es la misma dirección del enrutador. Incremente "
+"el límite o cambie la dirección inicial."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 msgid ""
 "DNS server address is not required as the built-in DNS resolver is "
 "capable of working without it."
 msgstr ""
-"No es necesaria la dirección del servidor DNS, ya que la resolución de DNS "
-"incorporada es capaz de funcionar sin esta."
+"No es necesaria la dirección del servidor DNS, ya que la resolución de "
+"DNS incorporada es capaz de funcionar sin esta."
 
 #: js/src/common/network/StaticIPForm.js:50
 msgid "IP address"
@@ -333,7 +333,7 @@ msgid "Hostname cannot be empty."
 msgstr "El nombre de máquina no puede estar vacío."
 
 #: js/src/common/network/DHCPClients/hooks.js:170
-#: js/src/portForwarding/hooks.js:244
+#: js/src/portForwarding/hooks.js:246
 msgid "IPv4 address cannot be empty."
 msgstr "La dirección IPv4 no puede estar vacía."
 
@@ -448,9 +448,9 @@ msgid ""
 "capable of working independently or it can forward your DNS queries your "
 "internet service provider's DNS resolver."
 msgstr ""
-"El enrutador Turris usa su propio servidor de DNS compatible con DNSSEC. Es "
-"capaz de funcionar de forma independiente o también puede reenviar sus "
-"peticiones DNS al servidor DNS de su proveedor de internet."
+"El enrutador Turris usa su propio servidor de DNS compatible con DNSSEC. "
+"Es capaz de funcionar de forma independiente o también puede reenviar sus"
+" peticiones DNS al servidor DNS de su proveedor de internet."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -461,8 +461,8 @@ msgid ""
 msgstr ""
 "Esta configuración determina el comportamiento del resolvedor DNS. "
 "Normalmente, es mejor usar el resolvedor del ISP en las redes en las que "
-"funciona correctamente. Si no funciona correctamente por alguna razón, es "
-"necesario usar la resolución directa sin reenvío."
+"funciona correctamente. Si no funciona correctamente por alguna razón, es"
+" necesario usar la resolución directa sin reenvío."
 
 #: js/src/dns/DNS.js:44
 msgid ""
@@ -474,14 +474,14 @@ msgid ""
 "<b>recommend keeping DNSSEC turned on</b> and resolving the situation "
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
-"En raras ocasiones, los proveedores de Internet tienen una red configurada "
-"incorrectamente que interfiere con la validación de DNSSEC. Si tienes "
-"problemas con las DNS, puedes <b>temporalmente</b> deshabilitar la "
-"validación de DNSSEC para aislar la raíz del problema. Sin embargo, ten en "
-"cuenta que sin la validación DNSSEC eres vulnerable a ataques de "
-"suplantación de DNS. Por consiguiente: <b>te recomendamos que dejes DNSSEC "
-"activado</b> y ponerte en contacto con tu proveedor de servicios de Internet "
-"porque se trata de una deficiencia grave en tu servicio."
+"En raras ocasiones, los proveedores de Internet tienen una red "
+"configurada incorrectamente que interfiere con la validación de DNSSEC. "
+"Si tienes problemas con las DNS, puedes <b>temporalmente</b> deshabilitar"
+" la validación de DNSSEC para aislar la raíz del problema. Sin embargo, "
+"ten en cuenta que sin la validación DNSSEC eres vulnerable a ataques de "
+"suplantación de DNS. Por consiguiente: <b>te recomendamos que dejes "
+"DNSSEC activado</b> y ponerte en contacto con tu proveedor de servicios "
+"de Internet porque se trata de una deficiencia grave en tu servicio."
 
 #: js/src/dns/DNS.js:63 js/src/overview/Cards/ConnectionTestCard.js:21
 #: js/src/wan/WAN.js:51
@@ -495,24 +495,25 @@ msgid ""
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
 "Aquí puedes probar tu conexión a Internet. Esta prueba también es útil "
-"cuando necesitas verificar que la resolución de las DNS funcionan como se "
-"espera. Recuerda hacer clic en el <b>Guardar</b> si cambió la configuración."
+"cuando necesitas verificar que la resolución de las DNS funcionan como se"
+" espera. Recuerda hacer clic en el <b>Guardar</b> si cambió la "
+"configuración."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
 "This will enable your DNS resolver to place DHCP client's names among the"
 " local DNS records."
 msgstr ""
-"Esto permitirá que la resolución de DNS coloque los nombres de los clientes "
-"DHCP en los registros locales de DNS."
+"Esto permitirá que la resolución de DNS coloque los nombres de los "
+"clientes DHCP en los registros locales de DNS."
 
 #: js/src/dns/DNSForm.js:20
 msgid ""
 "This domain will be used as suffix. E.g. The result for client "
 "\"android-123\" and domain \"my.lan\" will be \"android-123.my.lan\"."
 msgstr ""
-"Se utilizará este dominio como sufijo; por ejemplo, el resultado del cliente "
-"«android-123» y el dominio «my.lan» será «android-123.my.lan»."
+"Se utilizará este dominio como sufijo; por ejemplo, el resultado del "
+"cliente «android-123» y el dominio «my.lan» será «android-123.my.lan»."
 
 #: js/src/dns/DNSForm.js:67
 msgid "DNS Settings"
@@ -538,8 +539,7 @@ msgstr "Dominio de clientes DHCP en DNS"
 msgid ""
 "DNSSEC is a security technology that protects DNS communication against "
 "attacks on the DNS infrastructure."
-msgstr ""
-"DNSSEC es una tecnología de seguridad que protege las DNS contra ataques."
+msgstr "DNSSEC es una tecnología de seguridad que protege las DNS contra ataques."
 
 #: js/src/dns/DNSSECDisableModal.js:17
 msgid ""
@@ -547,9 +547,9 @@ msgid ""
 "that you will be connecting your device to the network where DNSSEC is "
 "broken."
 msgstr ""
-"Recomendamos encarecidamente mantener habilitada la validación de DNSSEC a "
-"menos que sepas que vas a conectar tu dispositivo a la red donde DNSSEC no "
-"funciona."
+"Recomendamos encarecidamente mantener habilitada la validación de DNSSEC "
+"a menos que sepas que vas a conectar tu dispositivo a la red donde DNSSEC"
+" no funciona."
 
 #: js/src/dns/DNSSECDisableModal.js:21
 msgid "Do you still want to continue and stay unprotected?"
@@ -583,7 +583,8 @@ msgstr "SHA-256 codificado en base 64."
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:25
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr ""
-"\"Sin TLS\" significa que se utiliza el protocolo DNS normal basado en UDP."
+"\"Sin TLS\" significa que se utiliza el protocolo DNS normal basado en "
+"UDP."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
 #: js/src/packageManagement/updates/UpdateApproval.js:142
@@ -681,10 +682,11 @@ msgid ""
 " are allowed to access the internet but are not allowed to access the "
 "configuration interface of this device or the devices in LAN."
 msgstr ""
-"La red de invitados se utiliza para <a href=\"${ForisURLs.wifi}\">guest Wi-"
-"Fi</a>. Está separada de su LAN ordinaria. Los dispositivos conectados a "
-"esta red pueden acceder a Internet, pero no pueden acceder a la interfaz de "
-"configuración de este dispositivo ni a los dispositivos de LAN."
+"La red de invitados se utiliza para <a href=\"${ForisURLs.wifi}\">guest "
+"Wi-Fi</a>. Está separada de su LAN ordinaria. Los dispositivos conectados"
+" a esta red pueden acceder a Internet, pero no pueden acceder a la "
+"interfaz de configuración de este dispositivo ni a los dispositivos de "
+"LAN."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
@@ -699,8 +701,9 @@ msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
-"Esta opción te permite establecer un límite de ancho de banda para la red de "
-"invitados, de modo que tu red principal no se vea ralentizada por ella."
+"Esta opción te permite establecer un límite de ancho de banda para la red"
+" de invitados, de modo que tu red principal no se vea ralentizada por "
+"ella."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
@@ -754,9 +757,9 @@ msgid ""
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
-"Esta red no contiene actualmente ningún dispositivo. Los cambios que realice "
-"aquí serán totalmente funcionales una vez que asigne una interfaz de red a "
-"esta red."
+"Esta red no contiene actualmente ningún dispositivo. Los cambios que "
+"realice aquí serán totalmente funcionales una vez que asigne una interfaz"
+" de red a esta red."
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:17
 msgid "All network interfaces of this network are currently down."
@@ -774,10 +777,10 @@ msgid ""
 "Firstly it is required to set your password. Note the security of your "
 "home network is in your hands, so try not to use weak passwords."
 msgstr ""
-"Le damos la bienvenida a la interfaz web de reForis. Esta guía le ayudará a "
-"poner a punto el dispositivo. Ante todo debe establecer su contraseña. "
-"Observe que la seguridad de su red doméstica está en sus manos; trate de "
-"evitar las contraseñas débiles."
+"Le damos la bienvenida a la interfaz web de reForis. Esta guía le ayudará"
+" a poner a punto el dispositivo. Ante todo debe establecer su contraseña."
+" Observe que la seguridad de su red doméstica está en sus manos; trate de"
+" evitar las contraseñas débiles."
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
@@ -785,8 +788,7 @@ msgstr "Se ha establecido la contraseña. Puede continuar al paso siguiente."
 
 #: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
-msgstr ""
-"Se ha establecido el flujo de trabajo. Puede continuar al paso siguiente."
+msgstr "Se ha establecido el flujo de trabajo. Puede continuar al paso siguiente."
 
 #: js/src/guide/constants.js:27
 msgid "Here you need to decide which interfaces belong to which network."
@@ -815,17 +817,17 @@ msgid ""
 "matches the time on your computer if not try to update it via NTP or "
 "manually."
 msgstr ""
-"Parece que se han establecido la hora y el huso horario. Cerciórese de que "
-"la hora coincida con la del reloj de su equipo; si no es así, actualícela "
-"mediante NTP o manualmente."
+"Parece que se han establecido la hora y el huso horario. Cerciórese de "
+"que la hora coincida con la del reloj de su equipo; si no es así, "
+"actualícela mediante NTP o manualmente."
 
 #: js/src/guide/constants.js:43
 msgid ""
 "A proper DNS resolving is one of the key security features of your "
 "device. Let's configure it now."
 msgstr ""
-"Una resolución de DNS correcta es una de las prestaciones de seguridad más "
-"importantes del dispositivo. Configurémosla ahora."
+"Una resolución de DNS correcta es una de las prestaciones de seguridad "
+"más importantes del dispositivo. Configurémosla ahora."
 
 #: js/src/guide/constants.js:46
 msgid ""
@@ -833,7 +835,8 @@ msgid ""
 "whether your DNS resolver is properly set."
 msgstr ""
 "Ha actualizado la configuración de DNS. Pruebe a ejecutar una prueba de "
-"conexión para saber si se ha configurado correctamente la resolución de DNS."
+"conexión para saber si se ha configurado correctamente la resolución de "
+"DNS."
 
 #: js/src/guide/constants.js:51
 msgid "In order to access the internet, you need to configure your WAN interface."
@@ -865,8 +868,8 @@ msgid ""
 "You've configured your LAN interface. Try to test whether settings work "
 "properly and if so you can safely proceed to the next step."
 msgstr ""
-"Ha configurado el interfaz LAN. Intente probar que las opciones funcionan "
-"correctamente. Si es asì, puede proceder con el siguiente paso."
+"Ha configurado el interfaz LAN. Intente probar que las opciones funcionan"
+" correctamente. Si es asì, puede proceder con el siguiente paso."
 
 #: js/src/guide/constants.js:68
 msgid "To activate Sentinel, you must accept the licence agreement."
@@ -903,16 +906,16 @@ msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
 msgstr ""
-"¡Felicitaciones! Ahora su dispositivo puede actuar como enrutador y enrutar "
-"el tráfico de red entre redes LAN, WAN y de invitados."
+"¡Felicitaciones! Ahora su dispositivo puede actuar como enrutador y "
+"enrutar el tráfico de red entre redes LAN, WAN y de invitados."
 
 #: js/src/guide/constants.js:104
 msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
 "some further configuration updates to fit the device to your needs."
 msgstr ""
-"La configuración mínima del dispositivo ha finalizado. Tenga en cuenta que "
-"probablemente deba realizar algunas actualizaciones de configuración "
+"La configuración mínima del dispositivo ha finalizado. Tenga en cuenta "
+"que probablemente deba realizar algunas actualizaciones de configuración "
 "adicionales para adaptar el dispositivo a sus necesidades."
 
 #: js/src/guide/constants.js:112
@@ -922,10 +925,10 @@ msgid ""
 "Shield will try to connect to the Internet, and you will end up in the "
 "administration interface."
 msgstr ""
-"Tu dispositivo ya está listo para usarse. Puedes modificar el resto de la "
-"configuración en la interfaz de administración. Una vez que termines la "
-"guía, tu Shield intentará conectarse a Internet y accederás a la interfaz de "
-"administración."
+"Tu dispositivo ya está listo para usarse. Puedes modificar el resto de la"
+" configuración en la interfaz de administración. Una vez que termines la "
+"guía, tu Shield intentará conectarse a Internet y accederás a la interfaz"
+" de administración."
 
 #: js/src/guide/constants.js:123
 msgid ""
@@ -933,9 +936,9 @@ msgid ""
 " put any interfaces to your WAN and Guest Network. So it is a good idea "
 "to assign all interfaces to LAN."
 msgstr ""
-"Ha elegido actuar como servidor local, lo que significa que no tiene sentido "
-"poner ningùn interfaz a su WAN y a su red de invitados. Con lo caul, es una "
-"buena idea asignar todos los interfazes a la LAN."
+"Ha elegido actuar como servidor local, lo que significa que no tiene "
+"sentido poner ningùn interfaz a su WAN y a su red de invitados. Con lo "
+"caul, es una buena idea asignar todos los interfazes a la LAN."
 
 #: js/src/guide/constants.js:130
 msgid ""
@@ -944,10 +947,10 @@ msgid ""
 "probably want to act as a client here thus select "
 "<strong>Computer</strong> mode here."
 msgstr ""
-"Para actuar como servidor locak, no es necesario administrar LAN (si todavìa "
-"quiere administrar, reinicia la guìa y elija el flujo de trabajo del router)"
-". Probablemente quiere actuar como cliente aqui, por lo cual, seleccione "
-"modo de <strong>Equipo </strong>aqui."
+"Para actuar como servidor locak, no es necesario administrar LAN (si "
+"todavìa quiere administrar, reinicia la guìa y elija el flujo de trabajo "
+"del router). Probablemente quiere actuar como cliente aqui, por lo cual, "
+"seleccione modo de <strong>Equipo </strong>aqui."
 
 #: js/src/guide/constants.js:133
 msgid ""
@@ -956,8 +959,9 @@ msgid ""
 "this configuration interface when the new settings are applied."
 msgstr ""
 "Si seleccionò configuraciòn<strong>estàtica</strong>, asegùreseque las "
-"direcciones IP son correctas ya que de no serlo, no serà posible acceder a "
-"la configuraciòn del interface cuando la nueva configuraciòn sea aplicada."
+"direcciones IP son correctas ya que de no serlo, no serà posible acceder "
+"a la configuraciòn del interface cuando la nueva configuraciòn sea "
+"aplicada."
 
 #: js/src/guide/constants.js:136
 msgid ""
@@ -995,8 +999,8 @@ msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
 msgstr ""
-"¡Enhorabuena! Ahora tu dispositivo debería poder actuar como servidor en tu "
-"red local."
+"¡Enhorabuena! Ahora tu dispositivo debería poder actuar como servidor en "
+"tu red local."
 
 #: js/src/guide/hooks.js:24
 msgid "Cannot mark guide as finished."
@@ -1086,8 +1090,8 @@ msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
-"Tan pronto como salga del asistente, tendrá acceso completo a la interfaz de "
-"configuración de este dispositivo."
+"Tan pronto como salga del asistente, tendrá acceso completo a la interfaz"
+" de configuración de este dispositivo."
 
 #: js/src/guide/GuidePages/GuideFinish.js:27
 msgid ""
@@ -1097,10 +1101,10 @@ msgid ""
 "dynamic firewall updates blocking known attackers."
 msgstr ""
 "Para mejorar aún más su seguridad, considere instalar el complemento de "
-"recopilación de datos (a través de la Administración de paquetes). Esto le "
-"permitirá ser parte de nuestra investigación de seguridad para descubrir "
-"nuevos atacantes y le dará acceso a actualizaciones dinámicas del firewall "
-"que bloquean a los atacantes conocidos."
+"recopilación de datos (a través de la Administración de paquetes). Esto "
+"le permitirá ser parte de nuestra investigación de seguridad para "
+"descubrir nuevos atacantes y le dará acceso a actualizaciones dinámicas "
+"del firewall que bloquean a los atacantes conocidos."
 
 #: js/src/guide/GuidePages/GuideFinish.js:33
 #: js/src/utils/useSessionTimeout.js:113
@@ -1189,8 +1193,8 @@ msgid ""
 msgstr ""
 "Este flujo de trabajo le ayudarà a configurar su dispositivo para actuar "
 "como servidor local. Esto significa que el equipo proveerà algùn tipo de "
-"servicio a otros equipos en su red local(ejemplo: unidad de almacenamiento "
-"de red)."
+"servicio a otros equipos en su red local(ejemplo: unidad de "
+"almacenamiento de red)."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:29
 msgid ""
@@ -1198,8 +1202,8 @@ msgid ""
 " functional router. It assumes that you want to have more or less "
 "standard network setup."
 msgstr ""
-"Despuès de finalizar este flujo de trabajo, su equipo serà capaz de actuar "
-"como un router. Se\n"
+"Despuès de finalizar este flujo de trabajo, su equipo serà capaz de "
+"actuar como un router. Se\n"
 "asume que usted quiere tener mas o menos una configuraciòn estàndar."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:32
@@ -1207,8 +1211,9 @@ msgid ""
 "Just set your password and you are ready to go. This workflow is aimed to"
 " more advanced users who intend to set everything manually."
 msgstr ""
-"Solo tienes que configurar tu contraseña y listo. Este flujo de trabajo está "
-"dirigido a usuarios más avanzados que quieran configurar todo manualmente."
+"Solo tienes que configurar tu contraseña y listo. Este flujo de trabajo "
+"está dirigido a usuarios más avanzados que quieran configurar todo "
+"manualmente."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:38
 msgid "Local Server"
@@ -1235,8 +1240,8 @@ msgid ""
 "Here you can set the guide walkthrough which will guide you through the "
 "basic configuration of your device."
 msgstr ""
-"Aquí podrás configurar la guía que te guiará a través de la configuración "
-"básica de tu dispositivo."
+"Aquí podrás configurar la guía que te guiará a través de la configuración"
+" básica de tu dispositivo."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:85
 msgid "Recommended"
@@ -1286,8 +1291,8 @@ msgid ""
 "Ports are open on your WAN interface. It's better to reconfigure your "
 "interface settings to avoid security issues."
 msgstr ""
-"Los puertos están abiertos en su interfaz WAN. Más vale reconfigurarla para "
-"evitar problemas de seguridad."
+"Los puertos están abiertos en su interfaz WAN. Más vale reconfigurarla "
+"para evitar problemas de seguridad."
 
 #: js/src/interfaces/InterfacesForm.js:107
 msgid ""
@@ -1591,10 +1596,10 @@ msgid ""
 "brings back all the default settings of the device as it was when the "
 "router was new, giving you a clean slate to start all over again."
 msgstr ""
-"El restablecimiento de fábrica del dispositivo Turris eliminará todos los "
-"paquetes instalados en él, así como los datos asociados. Se recuperará la "
-"configuración de cuando el enrutador era nuevo para que pueda recomenzar a "
-"configurarlo."
+"El restablecimiento de fábrica del dispositivo Turris eliminará todos los"
+" paquetes instalados en él, así como los datos asociados. Se recuperará "
+"la configuración de cuando el enrutador era nuevo para que pueda "
+"recomenzar a configurarlo."
 
 #: js/src/maintenance/FactoryReset.js:29
 msgid "Are you sure you want to reset the router?"
@@ -1617,8 +1622,8 @@ msgid ""
 "The Maintenance tab allows you to reboot the router or bring back all the"
 " default settings by performing a factory reset."
 msgstr ""
-"La pestaña Mantenimiento le permite reiniciar el enrutador o devolverlo a la "
-"configuración original mediante un restablecimiento de fábrica."
+"La pestaña Mantenimiento le permite reiniciar el enrutador o devolverlo a"
+" la configuración original mediante un restablecimiento de fábrica."
 
 #: js/src/maintenance/Reboot.js:19
 msgid ""
@@ -1627,8 +1632,8 @@ msgid ""
 "required to log in again."
 msgstr ""
 "Si necesita reiniciar el dispositivo, pulse en el siguiente botón. El "
-"proceso de reinicio demorará unos 30 segundos, tras lo cual deberá acceder a "
-"su cuenta nuevamente."
+"proceso de reinicio demorará unos 30 segundos, tras lo cual deberá "
+"acceder a su cuenta nuevamente."
 
 #: js/src/maintenance/Syslog/Syslog.js:49
 msgid "A drive has to be configured first."
@@ -1646,7 +1651,8 @@ msgid ""
 msgstr ""
 "De manera predeterminada, al reiniciar el dispositivo se pierden los "
 "registros del sistema. Esta opción permite guardarlos a través del "
-"complemento Almacenamiento. Los registros se guardan en «/srv/log/messages»."
+"complemento Almacenamiento. Los registros se guardan en "
+"«/srv/log/messages»."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:38
 #, python-brace-format
@@ -1904,8 +1910,8 @@ msgid ""
 "Sender's name can contain only alphanumeric characters, dots and "
 "underscores."
 msgstr ""
-"El nombre de remitente puede contener únicamente caracteres alfanuméricos, "
-"puntos y guiones bajos."
+"El nombre de remitente puede contener únicamente caracteres "
+"alfanuméricos, puntos y guiones bajos."
 
 #: js/src/notificationsSettings/validator.js:66
 msgid "Port is an number."
@@ -2129,8 +2135,8 @@ msgid ""
 "Number of days that must pass between receiving the request for restart "
 "and the automatic restart itself."
 msgstr ""
-"Número de días que deben transcurrir entre la recepción de la solicitud de "
-"reinicio y el reinicio automático."
+"Número de días que deben transcurrir entre la recepción de la solicitud "
+"de reinicio y el reinicio automático."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:20
 msgid "Time of day of automatic reboot in HH:MM format."
@@ -2546,12 +2552,12 @@ msgstr "Reenviador salvado satisfactoriamente."
 msgid "Name should have at least one symbol."
 msgstr "Nombre del equipo deberìa tener al menos un sìmbolo."
 
-#: js/src/portForwarding/hooks.js:224
+#: js/src/portForwarding/hooks.js:226
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
 msgstr ""
 
-#: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
+#: js/src/portForwarding/hooks.js:232 js/src/portForwarding/hooks.js:239
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
 msgstr ""
@@ -2665,18 +2671,19 @@ msgid ""
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
-"Hallará más información a detalle en la consola del navegador web. Acceda a "
-"ella en la mayoría de navegadores con las teclas <kbd><kbd>Ctrl</kbd>+<kbd>"
-"Mayús</kbd>+<kbd>J</kbd></kbd> o <kbd>F12</kbd>."
+"Hallará más información a detalle en la consola del navegador web. Acceda"
+" a ella en la mayoría de navegadores con las teclas "
+"<kbd><kbd>Ctrl</kbd>+<kbd>Mayús</kbd>+<kbd>J</kbd></kbd> o "
+"<kbd>F12</kbd>."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
 "Please report this error to our support team via e-mail: <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 msgstr ""
-"Informe de este error a nuestro equipo de asistencia por correo electrónico "
-"(en inglés): <a href=\"mailto:tech.support@turris.cz\">"
-"tech.support@turris.cz</a>."
+"Informe de este error a nuestro equipo de asistencia por correo "
+"electrónico (en inglés): <a "
+"href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 
 #: js/src/utils/SkipLink.js:23
 msgid "Skip to main content"
@@ -3023,19 +3030,19 @@ msgstr "Estática guardado correctamente."
 msgid "Cannot send test notification. Please check your configuration."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:66
+#: reforis/foris_controller_api/modules/updater.py:67
 msgid "Cannot change automatic restart settings."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:77
+#: reforis/foris_controller_api/modules/updater.py:78
 msgid "Cannot update approvals settings."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:170
+#: reforis/foris_controller_api/modules/updater.py:171
 msgid "Cannot start updater"
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:199
+#: reforis/foris_controller_api/modules/updater.py:200
 msgid "You can't set it with disabled automatic updates."
 msgstr ""
 
@@ -3659,3 +3666,4 @@ msgstr ""
 #~ "Sending of the testing message failed,"
 #~ " your configuration is possibly wrong."
 #~ msgstr ""
+
