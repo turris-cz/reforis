@@ -1,18 +1,18 @@
-# Finnish translations for reForis.
+# Estonian translations for reForis.
 # Copyright (C) 2026 CZ.NIC, z.s.p.o. (https://www.nic.cz/)
 # This file is distributed under the same license as the reForis project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"Project-Id-Version: reForis 3.8.0\n"
+"Report-Msgid-Bugs-To: tech.support@turris.cz\n"
 "POT-Creation-Date: 2026-10-07 15:24+0300\n"
-"PO-Revision-Date: 2026-09-04 13:42+0000\n"
+"PO-Revision-Date: 2026-09-04 13:47+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language: fi\n"
-"Language-Team: Finnish "
-"<https://hosted.weblate.org/projects/turris/reforis/fi/>\n"
+"Language: et\n"
+"Language-Team: Estonian "
+"<https://hosted.weblate.org/projects/turris/reforis/et/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -25,10 +25,13 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
+"Turris OS on praegu saadaval mitmes eri harus, millel on erinev "
+"funktsionaalsus ja stabiilsus - saad ise valida, millist haru soovid "
+"testida."
 
 #: js/src/about/About.js:25 js/src/main/pages.js:105
 msgid "About"
-msgstr ""
+msgstr "Teave"
 
 #: js/src/about/About.js:28
 msgid ""
@@ -37,58 +40,61 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Siit leiad teavet seadme kohta. Kui võtad ühendust meie <a "
+"href=\"mailto:tech.support@turris.cz\" "
+"target=\"_blank\">kasutajatoega</a>, siis palun lisa see oma kirjale."
 
 #: js/src/about/About.js:37
 msgid "Device"
-msgstr ""
+msgstr "Seade"
 
 #: js/src/about/About.js:45
 msgid "Serial number"
-msgstr ""
+msgstr "Seerianumber"
 
 #: js/src/about/About.js:49
 msgid "reForis version"
-msgstr ""
+msgstr "reForise versioon"
 
 #: js/src/about/About.js:53
 msgid "Turris OS version"
-msgstr ""
+msgstr "Turris OS-i versioon"
 
 #: js/src/about/About.js:58
 msgid "Turris OS branch"
-msgstr ""
+msgstr "Turris OS-i haru"
 
 #: js/src/about/About.js:80
 msgid "Kernel version"
-msgstr ""
+msgstr "Kerneli versioon"
 
 #: js/src/common/RebootButton.js:22 js/src/common/RebootButton.js:42
 #: js/src/maintenance/Reboot.js:17
 msgid "Reboot"
-msgstr ""
+msgstr "Käivita uuesti"
 
 #: js/src/common/RebootButton.js:40 js/src/dns/DNSSECDisableModal.js:34
 #: js/src/guide/GuideControls/SkipGuideButton.js:68
 #: js/src/maintenance/FactoryReset.js:28
 #: js/src/notificationsSettings/TestNotification.js:152
 msgid "Warning!"
-msgstr ""
+msgstr "Hoiatus!"
 
 #: js/src/common/RebootButton.js:41
 msgid "Are you sure you want to reboot the router?"
-msgstr ""
+msgstr "Kas oled kindel, et soovid ruuteri uuesti käivitada?"
 
 #: js/src/common/RebootButton.js:44
 msgid "The router has been rebooted successfully."
-msgstr ""
+msgstr "Ruuteri uuestikäivitamine õnnestus."
 
 #: js/src/common/RebootButton.js:45
 msgid "An error occurred while rebooting the router."
-msgstr ""
+msgstr "Ruuteri uuestikäivitamisel tekkis viga."
 
 #: js/src/common/ScrollToTopArrow.js:33
 msgid "Go to top"
-msgstr ""
+msgstr "Mine lehe ülemisse äärde"
 
 #: js/src/common/network/DHCP6Clients.js:31
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
@@ -96,79 +102,83 @@ msgstr ""
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:76
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:100
 msgid "Hostname"
-msgstr ""
+msgstr "Hostinimi"
 
 #: js/src/common/network/DHCP6Clients.js:35
 msgid "IPv6 Address"
-msgstr ""
+msgstr "IPv6 aadress"
 
 #: js/src/common/network/DHCP6Clients.js:39
 msgid "DUID"
-msgstr ""
+msgstr "DUID"
 
 #: js/src/common/network/DHCP6Clients.js:43
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:88
 msgid "Expires"
-msgstr ""
+msgstr "Aegub"
 
 #: js/src/common/network/DHCP6Clients.js:47
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:93
 msgid "Active"
-msgstr ""
+msgstr "Aktiivne"
 
 #: js/src/common/network/DHCP6Clients.js:64
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:63
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:44
 msgid "Never"
-msgstr ""
+msgstr "Mitte kunagi"
 
 #: js/src/common/network/DHCP6Clients.js:69
 msgid "IPv6 DHCP Client List"
-msgstr ""
+msgstr "IPv6 DHCP klientide loend"
 
 #: js/src/common/network/DHCP6Clients.js:71
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
+"See loend sisaldab kõiki seadmeid, mis on ühendatud võrguga traadiga või "
+"traadita ühenduse kaudu, kasutades IPv6-protokolli."
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
 msgid "No clients found."
-msgstr ""
+msgstr "Ühtegi klienti ei leidu."
 
 #: js/src/common/network/DHCP6Clients.js:96
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:200
 msgid "Device is active"
-msgstr ""
+msgstr "Seade on aktiivne"
 
 #: js/src/common/network/DHCP6Clients.js:104
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:200
 msgid "Device is inactive"
-msgstr ""
+msgstr "Seade pole aktiivne"
 
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
-msgstr ""
+msgstr "DHCP-serverile saadetav hostinimi."
 
 #: js/src/common/network/DHCPClientForm.js:38
 msgid "DHCP hostname"
-msgstr ""
+msgstr "DHCP-hostinimi"
 
 #: js/src/common/network/DHCPClients.js:24
 msgid "DHCP Client List"
-msgstr ""
+msgstr "DHCP klientide loend"
 
 #: js/src/common/network/DHCPClients.js:26
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
+"See loend sisaldab kõiki seadmeid, mis on ühendatud võrguga traadiga või "
+"traadita ühenduse kaudu."
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
@@ -234,24 +244,24 @@ msgstr ""
 
 #: js/src/common/network/StaticIPForm.js:50
 msgid "IP address"
-msgstr ""
+msgstr "IP-aadress"
 
 #: js/src/common/network/StaticIPForm.js:60
 #: js/src/guestNetwork/GuestNetworkForm.js:88 js/src/lan/LANManagedForm.js:72
 msgid "Network mask"
-msgstr ""
+msgstr "Võrgumask"
 
 #: js/src/common/network/StaticIPForm.js:70 js/src/wan/WAN6Form.js:243
 msgid "Gateway"
-msgstr ""
+msgstr "Lüüs"
 
 #: js/src/common/network/StaticIPForm.js:80 js/src/wan/WAN6Form.js:268
 msgid "DNS server 1"
-msgstr ""
+msgstr "1. nimeserver"
 
 #: js/src/common/network/StaticIPForm.js:90 js/src/wan/WAN6Form.js:278
 msgid "DNS server 2"
-msgstr ""
+msgstr "2. nimeserver"
 
 #: js/src/common/network/StaticIPForm.js:111
 #: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:91
@@ -259,21 +269,21 @@ msgstr ""
 #: js/src/wan/WAN6Form.js:533 js/src/wan/WAN6Form.js:545
 #: js/src/wan/WANForm.js:173
 msgid "This field is required."
-msgstr ""
+msgstr "See väli on kohustuslik."
 
 #: js/src/common/network/validators.js:12
 msgid "This is not a valid network mask."
-msgstr ""
+msgstr "See pole korrektne võrgumask."
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
 msgid "IPv4 Address"
-msgstr ""
+msgstr "IPv4 aadress"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:84
 msgid "MAC Address"
-msgstr ""
+msgstr "MAC-aadress"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:66
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:72
@@ -323,101 +333,101 @@ msgstr ""
 #: js/src/guide/GuideControls/SkipGuideButton.js:87
 #: js/src/notificationsSettings/TestNotification.js:161
 msgid "Cancel"
-msgstr ""
+msgstr "Katkesta"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:82
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
 #: js/src/portForwarding/PortForwardingRulesModal.js:64
 msgid "Save"
-msgstr ""
+msgstr "Salvesta"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:50
 msgid "List of available hostnames"
-msgstr ""
+msgstr "Saadaval hostinimede loend"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:62
 msgid "IPv4 address"
-msgstr ""
+msgstr "IPv4 aadress"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:74
 #: js/src/portForwarding/PortForwardingRulesForm.js:71
 msgid "List of available IPv4 addresses"
-msgstr ""
+msgstr "Saadaval IPv4 aadresside loend"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:88
 #: js/src/interfaces/SelectedInterface.js:139
 msgid "MAC address"
-msgstr ""
+msgstr "MAC-aadress"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:100
 msgid "List of available MAC addresses"
-msgstr ""
+msgstr "Saadaval MAC-aadresside loend"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:100
 #: js/src/dns/Forwarders/ForwardersTable.js:40
 #: js/src/portForwarding/PortForwardingRulesTable.js:36
 msgid "Actions"
-msgstr ""
+msgstr "Tegevused"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:145
 #: js/src/dns/Forwarders/ForwardersTable.js:142
 #: js/src/portForwarding/PortForwardingRulesTable.js:82
 msgid "Edit"
-msgstr ""
+msgstr "Muuda"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:151
 #: js/src/dns/Forwarders/ForwardersTable.js:153
 #: js/src/portForwarding/PortForwardingRulesTable.js:88
 msgid "Delete"
-msgstr ""
+msgstr "Kustuta"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:186
 msgid "Set Static"
-msgstr ""
+msgstr "Määra staatiliseks"
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
 msgid "Test is running…"
-msgstr ""
+msgstr "Testimine on töös…"
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
 msgid "Test connection again"
-msgstr ""
+msgstr "Testi ühendust uuesti"
 
 #: js/src/connectionTest/ConnectionTestButton.js:33
 msgid "Test connection"
-msgstr ""
+msgstr "Testi ühendust"
 
 #: js/src/connectionTest/ConnectionTestResult.js:17
 msgid "IPv4 connectivity"
-msgstr ""
+msgstr "IPv4 ühenduvus"
 
 #: js/src/connectionTest/ConnectionTestResult.js:18
 msgid "IPv4 gateway connectivity"
-msgstr ""
+msgstr "IPv4 lüüsi ühenduvus"
 
 #: js/src/connectionTest/ConnectionTestResult.js:19
 msgid "IPv6 connectivity"
-msgstr ""
+msgstr "IPv6 ühenduvus"
 
 #: js/src/connectionTest/ConnectionTestResult.js:20
 msgid "IPv6 gateway connectivity"
-msgstr ""
+msgstr "IPv6 lüüsi ühenduvus"
 
 #: js/src/connectionTest/ConnectionTestResult.js:86
 msgid "Connection test successful"
-msgstr ""
+msgstr "Ühendusvustest toimis"
 
 #: js/src/connectionTest/ConnectionTestResult.js:91
 msgid "Connection test failed"
-msgstr ""
+msgstr "Ühendusvustest ei toiminud"
 
 #: js/src/connectionTest/ConnectionTestResult.js:96
 msgid "Connection test cannot be determined"
-msgstr ""
+msgstr "Ühendusvustesti oleku tuvastamine ei õnnestu"
 
 #: js/src/connectionTest/ConnectionTestResult.js:101
 msgid "Connection test not started"
-msgstr ""
+msgstr "Ühendusvustest pole käivitatud"
 
 #: js/src/dns/DNS.js:33
 msgid ""
@@ -521,7 +531,7 @@ msgstr ""
 
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Forwarders"
-msgstr ""
+msgstr "Edastajad"
 
 #: js/src/dns/Forwarders/ForwardersTable.js:47
 msgid "Use provider's DNS resolver"
@@ -540,7 +550,7 @@ msgstr ""
 #: js/src/portForwarding/PortForwardingRulesForm.js:46
 #: js/src/portForwarding/PortForwardingRulesTable.js:29
 msgid "Name"
-msgstr ""
+msgstr "Nimi"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:69
 msgid "TLS type"
@@ -556,11 +566,11 @@ msgstr ""
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:15
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:16
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:53
 #, python-brace-format
@@ -674,12 +684,12 @@ msgstr ""
 #: js/src/guestNetwork/GuestNetworkForm.js:159
 #: js/src/overview/Cards/LibrespeedCard.js:79
 msgid "Download"
-msgstr ""
+msgstr "Allalaadimine"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
 #: js/src/overview/Cards/LibrespeedCard.js:93
 msgid "Upload"
-msgstr ""
+msgstr "Üleslaadimine"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:191
 msgid "Download speed must be positive"
@@ -711,10 +721,12 @@ msgid ""
 "Firstly it is required to set your password. Note the security of your "
 "home network is in your hands, so try not to use weak passwords."
 msgstr ""
+"Esmalt pead sisestama oma salasõna. Pane tähele, et sinu koduvõrgu "
+"turvalisus sõltub sinust endast, seega ära kasuta nõrku salasõnu."
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
-msgstr ""
+msgstr "Sinu sisestatud salasõna on kasutusel. Võid liikuda järgmise sammu juurde."
 
 #: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
@@ -887,48 +899,48 @@ msgstr ""
 #: js/src/notificationsSettings/SMTPCustomForm.js:124
 #: js/src/password/Password.js:175
 msgid "Password"
-msgstr ""
+msgstr "Salasõna"
 
 #: js/src/guide/steps.js:25
 msgid "Workflow"
-msgstr ""
+msgstr "Töövoog"
 
 #: js/src/guide/steps.js:29 js/src/main/pages.js:61
 msgid "Interfaces"
-msgstr ""
+msgstr "Liidesed"
 
 #: js/src/guide/steps.js:33 js/src/regionAndTime/TimeForm.js:125
 msgid "Time"
-msgstr ""
+msgstr "Kellaaeg"
 
 #: js/src/guide/steps.js:37 js/src/main/pages.js:48 js/src/main/pages.js:59
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: js/src/guide/steps.js:41
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:133
 #: js/src/main/pages.js:124 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
-msgstr ""
+msgstr "Tarkvarauuendused"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
 #: js/src/main/pages.js:46 js/src/main/pages.js:57 js/src/wan/WAN.js:29
 msgid "WAN"
-msgstr ""
+msgstr "Laivõrk"
 
 #: js/src/guide/steps.js:49 js/src/interfaces/constants.js:10
 #: js/src/main/pages.js:47 js/src/main/pages.js:58
 #: js/src/portForwarding/PortForwarding.js:64
 msgid "LAN"
-msgstr ""
+msgstr "Kohtvõrk"
 
 #: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
 msgid "Sentinel"
-msgstr ""
+msgstr "Sentinel"
 
 #: js/src/guide/steps.js:57
 msgid "Finish"
-msgstr ""
+msgstr "Lõpeta"
 
 #: js/src/guide/GuideControls/NextStepButton.js:28
 msgid "Next step"
@@ -936,7 +948,7 @@ msgstr ""
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:50
 msgid "Skip"
-msgstr ""
+msgstr "Jäta vahele"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:70
 msgid "Are you sure you want to skip the whole guide?"
@@ -955,7 +967,7 @@ msgstr ""
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:163
 msgid "Confirm"
-msgstr ""
+msgstr "Kinnita"
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
@@ -978,7 +990,7 @@ msgstr ""
 #: js/src/guide/GuidePages/GuideFinish.js:33
 #: js/src/utils/useSessionTimeout.js:113
 msgid "Continue"
-msgstr ""
+msgstr "Jätka"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:9
 msgid ""
@@ -1033,7 +1045,7 @@ msgstr ""
 
 #: js/src/guide/GuidePages/SentinelEULA.js:34
 msgid "Agreement"
-msgstr ""
+msgstr "Tarkvara litsentsileping"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:71
 msgid ""
@@ -1078,11 +1090,11 @@ msgstr ""
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:39 js/src/lan/LANForm.js:33
 msgid "Router"
-msgstr ""
+msgstr "Ruuter"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:40
 msgid "Minimal"
-msgstr ""
+msgstr "Minimaalne"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:58
 msgid "Cannot set workflow."
@@ -1100,7 +1112,7 @@ msgstr ""
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:85
 msgid "Recommended"
-msgstr ""
+msgstr "Soovitatud"
 
 #: js/src/hostname/Hostname.js:25
 msgid "Here you can check and set the name of your device."
@@ -1189,11 +1201,11 @@ msgstr ""
 
 #: js/src/interfaces/SelectedInterface.js:85
 msgid "Network"
-msgstr ""
+msgstr "Võrk"
 
 #: js/src/interfaces/SelectedInterface.js:93
 msgid "State"
-msgstr ""
+msgstr "Olek"
 
 #: js/src/interfaces/SelectedInterface.js:107
 msgid "Module ID"
@@ -1201,7 +1213,7 @@ msgstr ""
 
 #: js/src/interfaces/SelectedInterface.js:111
 msgid "Slot"
-msgstr ""
+msgstr "Pesa"
 
 #: js/src/interfaces/SelectedInterface.js:115
 msgid "Interface ID"
@@ -1213,11 +1225,11 @@ msgstr ""
 
 #: js/src/interfaces/SelectedInterface.js:125
 msgid "Type"
-msgstr ""
+msgstr "Tüüp"
 
 #: js/src/interfaces/SelectedInterface.js:129
 msgid "Bus"
-msgstr ""
+msgstr "Siin"
 
 #: js/src/interfaces/SelectedInterface.js:133
 msgid "Link speed"
@@ -1228,11 +1240,11 @@ msgstr ""
 #: js/src/overview/Cards/LibrespeedCard.js:118
 #: js/src/overview/Cards/LibrespeedCard.js:134
 msgid "N/A"
-msgstr ""
+msgstr "pole teada"
 
 #: js/src/interfaces/constants.js:12
 msgid "Unassigned"
-msgstr ""
+msgstr "Määramata"
 
 #: js/src/lan/LAN.js:25
 msgid ""
@@ -1266,7 +1278,7 @@ msgstr ""
 
 #: js/src/lan/LANForm.js:34
 msgid "Computer"
-msgstr ""
+msgstr "Arvuti"
 
 #: js/src/lan/LANForm.js:84
 msgid "LAN Settings"
@@ -1303,7 +1315,7 @@ msgstr ""
 
 #: js/src/main/pages.js:32 js/src/overview/Overview.js:43
 msgid "Overview"
-msgstr ""
+msgstr "Ülevaade"
 
 #: js/src/main/pages.js:39
 msgid "Network Settings"
@@ -1316,11 +1328,11 @@ msgstr ""
 
 #: js/src/main/pages.js:56 js/src/wifi/WiFi.js:40
 msgid "Wi-Fi"
-msgstr ""
+msgstr "WiFi"
 
 #: js/src/main/pages.js:79
 msgid "Administration"
-msgstr ""
+msgstr "Haldus"
 
 #: js/src/main/pages.js:86
 msgid "Region & Time"
@@ -1331,11 +1343,11 @@ msgstr ""
 #: js/src/notifications/Notifications/Notifications.js:74
 #: js/src/notificationsSettings/NotificationsSettings.js:29
 msgid "Notifications"
-msgstr ""
+msgstr "Teavitused"
 
 #: js/src/main/pages.js:96 js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
-msgstr ""
+msgstr "Hooldus"
 
 #: js/src/main/pages.js:112
 msgid "Global Threat Statistics"
@@ -1352,12 +1364,12 @@ msgstr ""
 
 #: js/src/main/pages.js:130 js/src/packageManagement/packages/Packages.js:20
 msgid "Packages"
-msgstr ""
+msgstr "Paketid"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:64
 #: js/src/main/pages.js:131 js/src/packageManagement/languages/Languages.js:20
 msgid "Languages"
-msgstr ""
+msgstr "Keeled"
 
 #: js/src/main/pages.js:136
 msgid "Advanced Administration"
@@ -1365,27 +1377,27 @@ msgstr ""
 
 #: js/src/main/pages.js:143
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentatsioon"
 
 #: js/src/main/TopBar/LogoutButton.js:16 js/src/utils/useSessionTimeout.js:111
 msgid "Logout"
-msgstr ""
+msgstr "Logi välja"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:20
 msgid "Light"
-msgstr ""
+msgstr "Hele kujundus"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:25
 msgid "Dark"
-msgstr ""
+msgstr "Tume kujundus"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:30
 msgid "Auto"
-msgstr ""
+msgstr "Automaatne"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
 msgid "Theme"
-msgstr ""
+msgstr "Kujundus"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:102
 msgid "Participate in translation"
@@ -1407,7 +1419,7 @@ msgstr ""
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:73
 msgid "Details"
-msgstr ""
+msgstr "Üksikasjad"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:103
 msgid "Approve Update"
@@ -1420,7 +1432,7 @@ msgstr ""
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:134
 #: js/src/portForwarding/PortForwarding.js:65
 msgid " page."
-msgstr ""
+msgstr " leht."
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
 #: js/src/packageManagement/updates/UpdateApproval.js:120
@@ -1450,7 +1462,7 @@ msgstr ""
 
 #: js/src/maintenance/FactoryReset.js:32
 msgid "Reset"
-msgstr ""
+msgstr "Lähtesta"
 
 #: js/src/maintenance/FactoryReset.js:34
 msgid "The router has been reset successfully."
@@ -1465,6 +1477,8 @@ msgid ""
 "The Maintenance tab allows you to reboot the router or bring back all the"
 " default settings by performing a factory reset."
 msgstr ""
+"Hoolduse vahekaardilt leiad võimaluse oma ruuteri uuesti käivitamiseks "
+"või tehaseseadistuste taastamiseks."
 
 #: js/src/maintenance/Reboot.js:19
 msgid ""
@@ -1504,7 +1518,7 @@ msgstr ""
 #: js/src/packageManagement/updateSettings/LicenseModal.js:37
 #: js/src/portForwarding/PortForwardingRulesModal.js:58
 msgid "Close"
-msgstr ""
+msgstr "Sulge"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
@@ -1524,7 +1538,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/CommonForm.js:46
 msgid "Importance"
-msgstr ""
+msgstr "Olulisus"
 
 #: js/src/notificationsSettings/CommonForm.js:58
 msgid "Send news"
@@ -1540,7 +1554,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
-msgstr ""
+msgstr "ntfy"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:47
 msgid ""
@@ -1551,11 +1565,11 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:19
 msgid "Turris"
-msgstr ""
+msgstr "Turris"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:23
 msgid "Custom"
-msgstr ""
+msgstr "Kohandatud"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:90
 msgid "Email Notification Settings"
@@ -1575,27 +1589,27 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:14
 msgid "Max"
-msgstr ""
+msgstr "Maksimaalne"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:15
 msgid "Urgent"
-msgstr ""
+msgstr "Ülioluline"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:16
 msgid "High"
-msgstr ""
+msgstr "Oluline"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:17
 msgid "Default"
-msgstr ""
+msgstr "Vaikimisi"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:18
 msgid "Low"
-msgstr ""
+msgstr "Vähetähtis"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:19
 msgid "Min"
-msgstr ""
+msgstr "Väikseim tähtsus"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:54
 msgid "Push Notification Settings"
@@ -1607,7 +1621,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
 msgid "URL"
-msgstr ""
+msgstr "Võrguaadress"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:76
 msgid ""
@@ -1617,72 +1631,76 @@ msgstr ""
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:83
 msgid "Priority"
-msgstr ""
+msgstr "Prioriteet"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
 msgid "Priority of the push notifications."
-msgstr ""
+msgstr "Tõuketeavituste prioriteet."
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
-msgstr ""
+msgstr "Puudub"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:23
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:24
 msgid "STARTTLS"
-msgstr ""
+msgstr "STARTTLS"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:61
 msgid "SMTP Settings"
-msgstr ""
+msgstr "SMTP seadistused"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:63
 msgid "Sender address (From)"
-msgstr ""
+msgstr "Saatja e-posti aadress"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:77
 msgid "Server address"
-msgstr ""
+msgstr "Serveri aadress"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:90
 msgid "Server port"
-msgstr ""
+msgstr "Serveri port"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:103
 msgid "Security"
-msgstr ""
+msgstr "Turvalisus"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
 #: js/src/wan/WAN6Form.js:434
 msgid "Username"
-msgstr ""
+msgstr "Kasutajanimi"
 
 #: js/src/notificationsSettings/SMTPTurrisForm.js:36
 msgid "Sender's name"
-msgstr ""
+msgstr "Saatja nimi"
 
 #: js/src/notificationsSettings/TestNotification.js:30
 msgid ""
 "You have unsaved changes in your notification settings. Do you want to "
 "discard them and test notifications using the previous settings?"
 msgstr ""
+"Sinu teavituste seadistustes on salvestamata muudatusi. Kas soovid need "
+"tühistada ja testida teavitusi eelmiste seadistuste alusel?"
 
 #: js/src/notificationsSettings/TestNotification.js:117
 msgid "Send Test Notification"
-msgstr ""
+msgstr "Saada testteavitus"
 
 #: js/src/notificationsSettings/TestNotification.js:119
 msgid ""
 "Here you can verify whether your SMTP provider or push notifications are "
 "configured correctly by sending a test notification."
 msgstr ""
+"Siin saad testteate saatmise abil kontrollida, kas sinu SMTP-"
+"teenusepakkuja või tõuketeavitused on korrektselt seadistatud."
 
 #: js/src/notificationsSettings/TestNotification.js:130
 msgid "Send"
-msgstr ""
+msgstr "Saada"
 
 #: js/src/notificationsSettings/helpTexts.js:9
 msgid ""
@@ -1715,132 +1733,132 @@ msgstr ""
 
 #: js/src/notificationsSettings/helpTexts.js:29
 msgid "This is the address notifications are send from."
-msgstr ""
+msgstr "See on aadress, millelt teavitusi saadetakse."
 
 #: js/src/notificationsSettings/validator.js:34
 #: js/src/notificationsSettings/validator.js:43
 msgid "Can't be empty."
-msgstr ""
+msgstr "Ei või jääda tühjaks."
 
 #: js/src/notificationsSettings/validator.js:53
 msgid "Sender's name can't be empty."
-msgstr ""
+msgstr "Saatja nimi ei või jääda tühjaks."
 
 #: js/src/notificationsSettings/validator.js:57
 msgid ""
 "Sender's name can contain only alphanumeric characters, dots and "
 "underscores."
-msgstr ""
+msgstr "Saatja nimes võib olla vaid ASCII-tähti, numbreid, punkte ja alakriipse."
 
 #: js/src/notificationsSettings/validator.js:66
 msgid "Port is an number."
-msgstr ""
+msgstr "Pordi number peab olema täisarv."
 
 #: js/src/notificationsSettings/validator.js:67
 msgid "Maximum port is 65535."
-msgstr ""
+msgstr "Pordi number ei tohi olla suurem, kui 65535."
 
 #: js/src/notificationsSettings/validator.js:68
 msgid "Minimum port is 1."
-msgstr ""
+msgstr "Pordi number ei tohi olla väiksem, kui 1."
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:46
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Automaatsed uuendused"
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:49
 msgid "Go to update settings"
-msgstr ""
+msgstr "Ava uuendamise seadistused"
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
-msgstr ""
+msgstr "Värskenda andmeid"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Activated"
-msgstr ""
+msgstr "Aktiivne"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Disabled"
-msgstr ""
+msgstr "Pole kasutusel"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:23
 msgid "Dynamic Firewall"
-msgstr ""
+msgstr "Dünaamiline tulemüür"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
 msgid "Go to Dynamic Firewall package installation"
-msgstr ""
+msgstr "Ava dünaamilise tulemüüri paketi paigaldus"
 
 #: js/src/overview/Cards/LibrespeedCard.js:67
 msgid "LibreSpeed"
-msgstr ""
+msgstr "LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:69
 msgid "Go to LibreSpeed"
-msgstr ""
+msgstr "Ava LibreSpeedi vaade"
 
 #: js/src/overview/Cards/LibrespeedCard.js:82
 #: js/src/overview/Cards/LibrespeedCard.js:96
 msgid "Megabit per second"
-msgstr ""
+msgstr "Megabitti sekundis"
 
 #: js/src/overview/Cards/LibrespeedCard.js:107
 msgid "Ping"
-msgstr ""
+msgstr "Pingiaeg"
 
 #: js/src/overview/Cards/LibrespeedCard.js:110
 #: js/src/overview/Cards/LibrespeedCard.js:126
 msgid "Millisecond"
-msgstr ""
+msgstr "Millisekund"
 
 #: js/src/overview/Cards/LibrespeedCard.js:123
 msgid "Jitter"
-msgstr ""
+msgstr "Faasivärin"
 
 #: js/src/overview/Cards/LibrespeedCard.js:138
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: js/src/overview/Cards/LibrespeedCard.js:152
 msgid "Performed"
-msgstr ""
+msgstr "Tehtud"
 
 #: js/src/overview/Cards/LibrespeedCard.js:158
 msgid "No tests have been performed lately."
-msgstr ""
+msgstr "Sa pole hiljuti kiirusteste teinud."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:61
 msgid "OpenVPN Clients"
-msgstr ""
+msgstr "OpenVPN-i kliendid"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:63
 msgid "Go to OpenVPN Client Settings"
-msgstr ""
+msgstr "Ava OpenVPN-i kliendi seadistused"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:77
 msgid "Currently, there are no connected OpenVPN clients."
-msgstr ""
+msgstr "Hetkel pole ühtegi ühendatud OpenVPN-i klienti."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:88
 msgid "There are no OpenVPN clients."
-msgstr ""
+msgstr "Pole ühtegi OpenVPN-i klienti."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:116
 msgid "Total In: "
-msgstr ""
+msgstr "Saabuv liiklus kokku: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:125
 msgid "Total Out: "
-msgstr ""
+msgstr "Väljuv liiklus kokku: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:153
 msgid "Connected"
-msgstr ""
+msgstr "Ühendatud"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:162
 msgid "Disconnected"
-msgstr ""
+msgstr "Katkestatud"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
 msgid "Go to Sentinel license agreement"
@@ -2085,15 +2103,15 @@ msgstr ""
 
 #: js/src/packageManagement/updates/UpdateApproval.js:141
 msgid "Action"
-msgstr ""
+msgstr "Tegevus"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:143
 msgid "Current"
-msgstr ""
+msgstr "Praegune"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:144
 msgid "New"
-msgstr ""
+msgstr "Uus"
 
 #: js/src/packageManagement/updates/UpdateManager.js:72
 msgid "Updates Check"
@@ -2158,21 +2176,21 @@ msgstr ""
 
 #: js/src/password/ForisPasswordForm.js:55
 msgid "Set your password for this administration interface."
-msgstr ""
+msgstr "Sisesta haldusliidese salasõna."
 
 #: js/src/password/ForisPasswordForm.js:60
 msgid "Current password"
-msgstr ""
+msgstr "Senine salasõna"
 
 #: js/src/password/ForisPasswordForm.js:71
 #: js/src/password/RootPasswordForm.js:67
 msgid "New password"
-msgstr ""
+msgstr "Uus salasõna"
 
 #: js/src/password/ForisPasswordForm.js:84
 #: js/src/password/RootPasswordForm.js:79
 msgid "Confirm new password"
-msgstr ""
+msgstr "Korda uut salasõna"
 
 #: js/src/password/ForisPasswordForm.js:100
 msgid "Use the same password for advanced administration (root)"
@@ -2200,33 +2218,35 @@ msgstr ""
 
 #: js/src/password/Password.js:113
 msgid "Your password was set successfully."
-msgstr ""
+msgstr "Sinu salasõna sisestamine õnnestus."
 
 #: js/src/password/Password.js:148
 msgid "Password Settings"
-msgstr ""
+msgstr "Salasõna seadistused"
 
 #: js/src/password/Password.js:177
 msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
 msgstr ""
+"Siin võid sisestada haldusliidese salasõna. Palun teeta pikk ja unikaalne"
+" ning sellega tagad turvalise salasõna."
 
 #: js/src/password/Password.js:194 js/src/password/Password.js:198
 msgid "Passwords do not match."
-msgstr ""
+msgstr "Salasõnad ei klapi omavahel."
 
 #: js/src/password/Password.js:213
 msgid "Choose a password."
-msgstr ""
+msgstr "Sisesta salasõna."
 
 #: js/src/password/Password.js:216
 msgid "Password should have at least eight symbols."
-msgstr ""
+msgstr "Salasõna peab olema vähemalt kaheksa tähemärki pikk."
 
 #: js/src/password/Password.js:219
 msgid "Password cannot have more than 256 symbols."
-msgstr ""
+msgstr "Salasõna ei tohiks olla pikem 256-st tähemärgist."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -2292,7 +2312,7 @@ msgstr ""
 #: js/src/portForwarding/PortForwardingRulesForm.js:107
 #: js/src/portForwarding/PortForwardingRulesTable.js:34
 msgid "Enabled"
-msgstr ""
+msgstr "Sisselülitatud"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:23
 msgid "Port Forwarding Rules"
@@ -2394,76 +2414,78 @@ msgstr ""
 
 #: js/src/regionAndTime/RegionForm.js:96
 msgid "Country"
-msgstr ""
+msgstr "Riik"
 
 #: js/src/regionAndTime/RegionForm.js:108
 msgid "Timezone"
-msgstr ""
+msgstr "Ajavöönd"
 
 #: js/src/regionAndTime/TimeForm.js:28
 msgid "Via NTP"
-msgstr ""
+msgstr "NTP abil"
 
 #: js/src/regionAndTime/TimeForm.js:29
 msgid "Manually"
-msgstr ""
+msgstr "Käsitsi"
 
 #: js/src/regionAndTime/TimeForm.js:106
 msgid "Time Settings"
-msgstr ""
+msgstr "Ajaseadistused"
 
 #: js/src/regionAndTime/TimeForm.js:108
 msgid ""
 "Time should be up-to-date otherwise DNS and other services might not work"
 " properly."
 msgstr ""
+"Kellaaeg peab olema täpne, vastasel juhul nimelahendus, krüptimine ja "
+"paljud teenused ei toimi korrektselt."
 
 #: js/src/regionAndTime/TimeForm.js:113
 msgid "How to set time"
-msgstr ""
+msgstr "Kuidas saad aega seadistada"
 
 #: js/src/regionAndTime/TimeForm.js:179
 msgid "Hide NTP servers list"
-msgstr ""
+msgstr "Peida NTP-serverite loend"
 
 #: js/src/regionAndTime/TimeForm.js:180
 msgid "Show NTP servers list"
-msgstr ""
+msgstr "Näita NTP-serverite loendit"
 
 #: js/src/regionAndTime/TimeForm.js:184
 msgid "NTP Servers"
-msgstr ""
+msgstr "NTP-serverid"
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:29
 #, python-format
 msgid "Network restart after %d sec."
-msgstr ""
+msgstr "Võrgundus käivitub uuesti %d sekundi möödumisel."
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:34
 msgid "Network restarting"
-msgstr ""
+msgstr "Võrgundus on uuesti käivitamisel"
 
 #: js/src/routerStateHandler/NetworkRestartHandler.js:37
 #: js/src/routerStateHandler/RebootHandler.js:34
 msgid "Reconnecting"
-msgstr ""
+msgstr "Ühendan uuesti"
 
 #: js/src/routerStateHandler/RebootHandler.js:28
 #, python-format
 msgid "Reboot after %d sec."
-msgstr ""
+msgstr "Taaskäivituseni on jäänud %d sekundit."
 
 #: js/src/routerStateHandler/RebootHandler.js:31
 msgid "Rebooting"
-msgstr ""
+msgstr "Käivitan uuesti"
 
 #: js/src/utils/ErrorBoundary.js:34
 msgid "An Error Occurred - reForis | Turris"
-msgstr ""
+msgstr "Tekkis viga - reForis | Turris"
 
 #: js/src/utils/ErrorBoundary.js:37
 msgid "Oops! Something went wrong:"
-msgstr ""
+msgstr "Vaat kus lops! Midagi läks nüüd viltu:"
 
 #: js/src/utils/ErrorBoundary.js:43
 msgid ""
@@ -2472,12 +2494,18 @@ msgid ""
 "<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> or "
 "<kbd>F12</kbd>."
 msgstr ""
+"Lisateavet leiad oma veebibrauseri arenduskonsoolilt. Enamustes "
+"brauserites on ta nähtav "
+"<kbd><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd></kbd> või "
+"<kbd>F12</kbd> vajutamisel."
 
 #: js/src/utils/ErrorBoundary.js:50
 msgid ""
 "Please report this error to our support team via e-mail: <a "
 "href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 msgstr ""
+"Palun teata sellest veast meie kasutajatoe tiimile aadressil: <a "
+"href=\"mailto:tech.support@turris.cz\">tech.support@turris.cz</a>."
 
 #: js/src/utils/SkipLink.js:23
 msgid "Skip to main content"
@@ -2555,7 +2583,7 @@ msgstr ""
 
 #: js/src/wan/VLANForm.js:86
 msgid "Value must be greater than or equal to 1."
-msgstr ""
+msgstr "Väärtus peab olema võrdne ühega või sellest suurem."
 
 #: js/src/wan/VLANForm.js:89
 msgid "Value must be less than or equal to 4094."
@@ -2660,11 +2688,11 @@ msgstr ""
 
 #: js/src/wan/WAN6Form.js:232
 msgid "Address"
-msgstr ""
+msgstr "Aadress"
 
 #: js/src/wan/WAN6Form.js:255
 msgid "Prefix"
-msgstr ""
+msgstr "Prefiks"
 
 #: js/src/wan/WAN6Form.js:304
 msgid "Public IPv4"
@@ -2680,7 +2708,7 @@ msgstr ""
 
 #: js/src/wan/WAN6Form.js:363
 msgid "MTU"
-msgstr ""
+msgstr "MTU"
 
 #: js/src/wan/WAN6Form.js:375
 msgid "Dynamic IPv4 handling"
@@ -2688,11 +2716,11 @@ msgstr ""
 
 #: js/src/wan/WAN6Form.js:419
 msgid "Tunnel ID"
-msgstr ""
+msgstr "Tunneli tunnus"
 
 #: js/src/wan/WAN6Form.js:449
 msgid "Key"
-msgstr ""
+msgstr "Võti"
 
 #: js/src/wan/WAN6Form.js:527
 msgid "MTU has to be a number in the range of 1280-1480."
@@ -2716,7 +2744,7 @@ msgstr ""
 
 #: js/src/wan/WANForm.js:139
 msgid "PAP/CHAP password"
-msgstr ""
+msgstr "PAP/CHAP-i salasõna"
 
 #: js/src/wifi/WiFi.js:27
 msgid "Unfortunately, we were unable to detect any wireless cards in your router."
@@ -2729,6 +2757,9 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
+"Kui soovid kasutada ruuterit WiFi juurdepääsupunktina, lülita WiFi siin "
+"sisse ning sisesta SSID (juurdepääsupunkti nimi) ja vastav salasõna. "
+"Seejärel saad oma mobiilseadmed seadistada vormil lediuva QR-koodi abil."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -2800,7 +2831,7 @@ msgstr ""
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
-msgstr ""
+msgstr "Kehtiv salasõna on vale."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:126
 msgid ""
@@ -2834,23 +2865,23 @@ msgstr ""
 
 #: reforis/templates/guide.html:10
 msgid "Guide"
-msgstr ""
+msgstr "Kasutusjuhend"
 
 #: reforis/templates/errors/400.html:4 reforis/templates/errors/400.html:8
 msgid "400 - Bad Request"
-msgstr ""
+msgstr "400 - Vigane päring"
 
 #: reforis/templates/errors/400.html:9 reforis/templates/errors/500.html:9
 msgid "Error:"
-msgstr ""
+msgstr "Viga:"
 
 #: reforis/templates/errors/400.html:12 reforis/templates/errors/500.html:12
 msgid "Extra:"
-msgstr ""
+msgstr "Täiendav:"
 
 #: reforis/templates/errors/400.html:16 reforis/templates/errors/500.html:16
 msgid "Trace:"
-msgstr ""
+msgstr "Tagasijälitus:"
 
 #: reforis/templates/errors/404.html:4
 msgid "404 - Page not found"
@@ -2867,665 +2898,4 @@ msgstr ""
 #: reforis/templates/errors/500.html:8
 msgid "500 - Server error"
 msgstr ""
-
-#~ msgid ""
-#~ "Here you can find some information "
-#~ "about your device. Please include it "
-#~ "into your message if you contact "
-#~ "our <a href=\"mailto:tech.support@turris.cz\" "
-#~ "target=\"_blank\">customer support</a>."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "<p>Router Turris uses its own DNS "
-#~ "resolver with DNSSEC support. It is "
-#~ "capable of working independently or it"
-#~ "\n"
-#~ "can forward your DNS queries your "
-#~ "internet service provider's DNS resolver.<p/>"
-#~ "\n"
-#~ "<p>The following setting determines the "
-#~ "behavior of the DNS resolver. Usually,"
-#~ " it is better to use the ISP's"
-#~ "\n"
-#~ "resolver in networks where it works "
-#~ "properly. If it does not work for"
-#~ " some reason, it is necessary to "
-#~ "use\n"
-#~ "direct resolving without forwarding.<p/>\n"
-#~ "<p>In rare cases ISP's have improperly"
-#~ " configured network which interferes with"
-#~ " DNSSEC validation. If you\n"
-#~ "experience problems with DNS, you can"
-#~ " <b>temporarily</b> disable DNSSEC validation "
-#~ "to determine the source\n"
-#~ "of the problem. However, keep in "
-#~ "mind that without DNSSEC validation, you"
-#~ " are vulnerable to DNS spoofing\n"
-#~ "attacks! Therefore we <b>recommend keeping "
-#~ "DNSSEC turned on</b> and resolving the"
-#~ " situation with your ISP as\n"
-#~ "this is a serious flaw on their side.</p>\n"
-#~ "            "
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "Here you can test your internet "
-#~ "connection. This test is also useful "
-#~ "when you need to check that your"
-#~ " DNS resolving \n"
-#~ "works as expected. Remember to click "
-#~ "on the <b>Save button</b> if you "
-#~ "changed your forwarder setting.\n"
-#~ "        "
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "DNSSEC is a security technology that "
-#~ "protects the DNS communication against "
-#~ "attacks on the DNS infrastructure.\n"
-#~ "We strongly recommend keeping DNSSEC "
-#~ "validation enabled unless you know that"
-#~ " you will be connecting your device"
-#~ " in the\n"
-#~ "network where DNSSEC is broken. \n"
-#~ "\n"
-#~ "Do you still want to continue and stay unprotected?\n"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "Guest network is used for <a "
-#~ "href=\"${ForisURLs.wifi}\">guest Wi-Fi</a>.\n"
-#~ "It is separated from your ordinary "
-#~ "LAN. Devices connected to this network"
-#~ " are allowed to access the\n"
-#~ "internet, but are not allowed to "
-#~ "access the configuration interface of "
-#~ "the this device nor the devices\n"
-#~ "in LAN.\n"
-#~ "        "
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "Here you can configure the settings "
-#~ "of the network interfaces on your "
-#~ "device. You can switch the physical\n"
-#~ ""
-#~ "network interfaces among networks. If "
-#~ "you are unsure what to set here"
-#~ " use the default settings.\n"
-#~ "        "
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "It acts as an external network "
-#~ "connection. Firewall rules should be "
-#~ "applied here. It can only contain "
-#~ "a\n"
-#~ "single interface.\n"
-#~ "        "
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "It acts as a local network "
-#~ "connection. LAN should contain devices "
-#~ "which are under your control and "
-#~ "you\n"
-#~ "trust them. These devices can see "
-#~ "each other and can access this web"
-#~ " interface. It is recommended that "
-#~ "the\n"
-#~ "LAN should contain at least one "
-#~ "interface otherwise you might not be "
-#~ "able to configure this device in "
-#~ "an\n"
-#~ "easy way.\n"
-#~ "        "
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "It acts as a local network "
-#~ "connection. Unlike LAN the devices in"
-#~ " the guest network can't access\n"
-#~ "the configuration interface of this "
-#~ "device and are only able to access"
-#~ " WAN (internet). This network should\n"
-#~ ""
-#~ "be used for devices which you "
-#~ "don't fully trust. Note that you "
-#~ "can also limit download/upload speed of"
-#~ " the\n"
-#~ "devices connected to the guest network.\n"
-#~ "        "
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "This section contains settings for the"
-#~ " local network (LAN). The provided "
-#~ "defaults are suitable for most\n"
-#~ "networks.\n"
-#~ "<br/>\n"
-#~ "<b>Note:</b> If you change the router"
-#~ " IP address, all computers in LAN,"
-#~ " probably including the one you are"
-#~ "\n"
-#~ "using now, will need to obtain a"
-#~ " <b>new IP address</b> which does not"
-#~ " happen <b>immediately</b>. It is\n"
-#~ "recommended to disconnect and reconnect "
-#~ "all LAN cables after submitting your "
-#~ "changes to force the update.\n"
-#~ "The next page will not load until"
-#~ " you obtain a new IP from DHCP"
-#~ " (if DHCP enabled) and you might "
-#~ "need to\n"
-#~ "<b>refresh the page</b> in your browser.\n"
-#~ "            "
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Doing a factory reset on the "
-#~ "Turris device will remove all the "
-#~ "packages \n"
-#~ "                installed on the device "
-#~ "along with the data associated with "
-#~ "them. This brings\n"
-#~ "                back all the default "
-#~ "settings of the device as it was"
-#~ " when the router was new,\n"
-#~ "                giving you a clean slate to start all over again.\n"
-#~ "    "
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "If you need to reboot the device,"
-#~ " click on the following button. The"
-#~ " reboot process takes approximately 30 "
-#~ "seconds, you\n"
-#~ "will be required to log in again after the reboot.\n"
-#~ "    "
-#~ msgstr ""
-
-#~ msgid "System logs retention"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "During device reboot, system logs are"
-#~ " lost by default. This option allows"
-#~ " to save system logs using Storage"
-#~ " plugin. Logs are saved into "
-#~ "/srv/log/messages. To enable this option, "
-#~ "you have to configure a storage in"
-#~ " the <a href=\"${ForisURLs.storage}\" title=\"Go"
-#~ " to Storage plugin\">Storage plugin</a> "
-#~ "first."
-#~ msgstr ""
-
-#~ msgid "Enable system logs retention"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you want to use another "
-#~ "language other than English you can "
-#~ "select it from the following list:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Apart from the standard installation, "
-#~ "you can optionally select bundles of "
-#~ "additional software that'd be installed "
-#~ "on the router. This software can "
-#~ "be selected from the following list. "
-#~ "Please note that only software that "
-#~ "is part of TurrisOS or that has"
-#~ " been installed from a package list"
-#~ " and not marked as community-"
-#~ "supported is actually supported by "
-#~ "Turris team."
-#~ msgstr ""
-
-#~ msgid "Packages List"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "                    <li>Automatic updates are "
-#~ "offered to the Turris router owners "
-#~ "free of charge.</li>\n"
-#~ "                    <li>Updates are prepared "
-#~ "exclusively by CZ.NIC, z. s. p. "
-#~ "o.</li>\n"
-#~ "                    <li>\n"
-#~ "                        Enabling of the "
-#~ "automatic updates is a prerequisite for"
-#~ " additional security features of\n"
-#~ "                        Turris router.\n"
-#~ "                    </li>\n"
-#~ "                    <li>\n"
-#~ "                        Automatic updates take "
-#~ "place at the time of their "
-#~ "release, the time of installation\n"
-#~ "                        cannot be influenced by the user.\n"
-#~ "                    </li>\n"
-#~ "                    <li>\n"
-#~ "                        Having the automatic "
-#~ "updates turned on can result in "
-#~ "increased Internet traffic on your\n"
-#~ "                        router. Expenses related "
-#~ "to this increase are covered by "
-#~ "you.\n"
-#~ "                    </li>\n"
-#~ "                    <li>\n"
-#~ "                        Automatic updates cannot "
-#~ "protect you against every attack coming"
-#~ " from the Internet.\n"
-#~ "                        Please do not forget"
-#~ " to protect your workstations and "
-#~ "other devices by installing\n"
-#~ "                        antivirus software and "
-#~ "explaining to your family members how"
-#~ " to stay safe on the\n"
-#~ "                        Internet.\n"
-#~ "                    </li>\n"
-#~ "                    <li>\n"
-#~ "                        CZ.NIC, z. s. p. "
-#~ "o. does not guarantee the availability"
-#~ " of this service and is not\n"
-#~ "                        responsible for any "
-#~ "damages caused by the automatic updates."
-#~ "\n"
-#~ "                    </li>\n"
-#~ "                    "
-#~ msgstr ""
-
-#~ msgid ""
-#~ "By enabling of the automatic updates, \n"
-#~ "                                    you confirm that"
-#~ " you are the owner of this "
-#~ "Turris \n"
-#~ "                                    router and you"
-#~ " agree with the full text of "
-#~ "the \n"
-#~ "                                    <a "
-#~ "href=\"https://www.turris.cz/omnia-updater-eula\" "
-#~ "target=\"_blank\" rel=\"noopener noreferrer\">license "
-#~ "agreement <sup><i class=\"fas fa-external-"
-#~ "link-alt fa-sm\"></i></sup></a>."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "One of the most important features "
-#~ "of router Turris are automatic system"
-#~ " updates. Thanks to this function\n"
-#~ "your router's software stays up to "
-#~ "date and offers better protection "
-#~ "against attacks from the Internet.\n"
-#~ "<br/>\n"
-#~ "It is <b>highly recommended</b> to have"
-#~ " this feature <b>turned on</b>. If "
-#~ "you decide to disable it, be\n"
-#~ "warned that this might weaken the "
-#~ "security of your router and network "
-#~ "in case flaws in the software are"
-#~ "\n"
-#~ "found.\n"
-#~ "<br/>\n"
-#~ "By turning the automatic updates on, "
-#~ "you agree to this feature's license "
-#~ "agreement. More information is\n"
-#~ "available <a href=\"\" data-toggle=\"modal\""
-#~ " data-target=\"#licenceModal\">here</a>.\n"
-#~ "            "
-#~ msgstr ""
-
-#~ msgid "Enable automatic updates (recommended)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Here you can find and approve available updates for \n"
-#~ "                    Turris OS and other components."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The password you've entered has not "
-#~ "been saved. It has been compromised "
-#~ "and appears ${\n"
-#~ "                            forisPassword.count || rootPassword.count\n"
-#~ "                        } times in ${\n"
-#~ "                            forisPassword.list || rootPassword.list\n"
-#~ "                        } list. Please enter"
-#~ " another, more secure password."
-#~ msgstr ""
-
-#~ msgid "Password changed successfully."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Here you can set password for the"
-#~ " administration interface. Make sure to "
-#~ "set a secure password that is long"
-#~ " and unique."
-#~ msgstr ""
-
-#~ msgid "The password confirmation does not match."
-#~ msgstr ""
-
-#~ msgid "Password can't be empty."
-#~ msgstr ""
-
-#~ msgid "Password should have min 6 symbols."
-#~ msgstr ""
-
-#~ msgid "Password should have max 128 symbols."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "It is important for your device to"
-#~ " have the correct time set. If "
-#~ "your device's time is delayed, the\n"
-#~ ""
-#~ "procedure of SSL certificate verification might not work correctly.\n"
-#~ "        "
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Here you specify your WAN port "
-#~ "settings. Usually, you can leave these"
-#~ " options untouched unless instructed "
-#~ "otherwise by your internet service "
-#~ "provider. Also, in case there is a"
-#~ " cable or DSL modem connecting your"
-#~ " router to the network, it is "
-#~ "usually not necessary to change this "
-#~ "setting."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Here you can test you connection "
-#~ "settings. Remember to click on the "
-#~ "<b>Save button</b> before running the "
-#~ "test. Note that sometimes it takes "
-#~ "a while before the connection is "
-#~ "fully initialized. So it might be "
-#~ "useful to wait for a while before"
-#~ " running this test."
-#~ msgstr ""
-
-#~ msgid "Wrong password."
-#~ msgstr ""
-
-#~ msgid "Log in"
-#~ msgstr ""
-
-#~ msgid "Go to LuCI"
-#~ msgstr ""
-
-#~ msgid "or"
-#~ msgstr ""
-
-#~ msgid "back to select"
-#~ msgstr ""
-
-#~ msgid "401 - Unauthorized"
-#~ msgstr ""
-
-#~ msgid "You have to authenticate first."
-#~ msgstr ""
-
-#~ msgid "Do you want to <a href=\"%(link)s\">log in</a>?"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Automatic updates are offered to the "
-#~ "Turris router owners free of charge."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Enabling of the automatic updates is "
-#~ "a prerequisite for additional security "
-#~ "features of Turris router."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Automatic updates take place at the "
-#~ "time of their release, the time of"
-#~ " installation cannot be influenced by "
-#~ "the user."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Having the automatic updates turned on"
-#~ " can result in increased Internet "
-#~ "traffic on your router. Expenses related"
-#~ " to this increase are covered by "
-#~ "you."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Automatic updates cannot protect you "
-#~ "against every attack coming from the "
-#~ "Internet. Please do not forget to "
-#~ "protect your workstations and other "
-#~ "devices by installing antivirus software "
-#~ "and explaining to your family members"
-#~ " how to stay safe on the "
-#~ "Internet."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "CZ.NIC, z. s. p. o. does not "
-#~ "guarantee the availability of this "
-#~ "service and is not responsible for "
-#~ "any damages caused by the automatic "
-#~ "updates."
-#~ msgstr ""
-
-#~ msgid "Test is running..."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Please test whether the settings you "
-#~ "provided are correctly working. This "
-#~ "means that you can access the "
-#~ "configuration interface of your device "
-#~ "and your device is able to access"
-#~ " the internet (you can use the "
-#~ "connection test below)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "See details in <a "
-#~ "href=${ForisURLs.packageManagement.updates}>Updates</a> page."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "See <a data-toggle=\"collapse\" href"
-#~ "=\"#plan-wrapper\" role=\"button\" aria-"
-#~ "expanded=\"false\" aria-controls=\"plan-"
-#~ "wrapper\">details</a>"
-#~ msgstr ""
-
-#~ msgid "Caused by"
-#~ msgstr ""
-
-#~ msgid "Unknown"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "By enabling the automatic updates, you"
-#~ " confirm that you are the owner "
-#~ "of this Turris router, and you "
-#~ "agree with the full text of the"
-#~ " <a href=\"https://www.turris.cz/omnia-updater-"
-#~ "eula\" target=\"_blank\" rel=\"noopener "
-#~ "noreferrer\">license agreement <sup><i class=\"fas"
-#~ " fa-external-link-alt fa-"
-#~ "sm\"></i></sup></a>."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "By turning the automatic updates on, "
-#~ "you agree to this feature's license "
-#~ "agreement. More information is available "
-#~ "<a href=\"\" data-toggle=\"modal\" data-"
-#~ "target=\"#licenceModal\">here</a>."
-#~ msgstr ""
-
-#~ msgid "An Error Occurred"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "More detailed information is available "
-#~ "in the console of your web browser"
-#~ " - on most browsers accessible after"
-#~ " pressing Ctrl+Shift+J or F12."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Welcome to Foris web interface. This "
-#~ "guide will help you to setup your"
-#~ " device. Firstly it is required to"
-#~ " set your password. Note the security"
-#~ " of your home network is in "
-#~ "your hands, so try not to use "
-#~ "weak passwords."
-#~ msgstr ""
-
-#~ msgid "Skip guide"
-#~ msgstr ""
-
-#~ msgid "NetMetr"
-#~ msgstr ""
-
-#~ msgid "Go to NetMetr"
-#~ msgstr ""
-
-#~ msgid "Link"
-#~ msgstr ""
-
-#~ msgid "Go to Dynamic Firewall package"
-#~ msgstr ""
-
-#~ msgid "Confirm factory reset"
-#~ msgstr ""
-
-#~ msgid "Are you sure you want to restart the router?"
-#~ msgstr ""
-
-#~ msgid "Confirm reboot"
-#~ msgstr ""
-
-#~ msgid "Dark Mode"
-#~ msgstr ""
-
-#~ msgid "There are no clients added yet."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The guest network is used for <a"
-#~ " href=\"${ForisURLs.wifi}\">guest Wi-Fi</a>. It"
-#~ " is separated from your ordinary LAN."
-#~ " Devices connected to this network "
-#~ "are allowed to access the internet "
-#~ "but are not allowed to access the"
-#~ " configuration interface of this device "
-#~ "or the devices in LAN."
-#~ msgstr ""
-
-#~ msgid "Notification Settings"
-#~ msgstr ""
-
-#~ msgid "Enable Email Notifications"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Your device can send you e-mail "
-#~ "notifications about required reboots, "
-#~ "important events, installed updates and "
-#~ "new features according to your settings."
-#~ " When done with configuration, you "
-#~ "can test it by pressing Send test"
-#~ " notification."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "There are some unsaved changes in "
-#~ "the notifications settings. Do you want"
-#~ " to discard them and test the "
-#~ "notifications with the old settings?"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You will not receive the test "
-#~ "notification to your email inbox with"
-#~ " current importance level. Please raise "
-#~ "the importance level at least to "
-#~ "\"Reboot or attention is required\" and"
-#~ " click \"Save\" button if you want"
-#~ " to get this notification by email."
-#~ msgstr ""
-
-#~ msgid "Test Notification"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Here you can verify whether SMTP "
-#~ "is configured correctly by sending a "
-#~ "test notification to your email inbox."
-#~ msgstr ""
-
-#~ msgid "Send test notification"
-#~ msgstr ""
-
-#~ msgid "Send emails about new features."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Name of the sender - will be "
-#~ "used as a part of the sender's "
-#~ "email address before the \"at\" sign."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This is a testing notification.\n"
-#~ "\n"
-#~ "Please note it would be sent to your e-mail address only if you set\n"
-#~ "the importance level to \"Reboot or attention is required\" or higher."
-#~ msgstr ""
-
-#~ msgid "The testing message has been sent, please check your inbox."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Sending of the testing message failed,"
-#~ " your configuration is possibly wrong."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Welcome to reForis web interface. This"
-#~ " guide will help you to setup "
-#~ "your device. Firstly it is required "
-#~ "to set your password. Note the "
-#~ "security of your home network is "
-#~ "in your hands, so try not to "
-#~ "use weak passwords."
-#~ msgstr ""
-
-#~ msgid "Password should have at least six symbols."
-#~ msgstr ""
-
-#~ msgid "Password cannot have more than 128 symbols."
-#~ msgstr ""
 

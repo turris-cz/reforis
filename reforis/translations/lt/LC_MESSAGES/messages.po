@@ -7,17 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2019-02-19 13:34+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-10-07 15:24+0300\n"
+"PO-Revision-Date: 2026-09-04 13:44+0000\n"
+"Last-Translator: Fln <weblate.org@fln.lt>\n"
 "Language: lt\n"
-"Language-Team: lt <LL@li.org>\n"
+"Language-Team: Lithuanian "
+"<https://hosted.weblate.org/projects/turris/reforis/lt/>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/about/About.js:18
 msgid ""
@@ -25,10 +26,12 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
+"Turis OS yra išleista skirtingais leidimais, jie skiriasi funkcionalumu "
+"ir yra stabilumu - galite pasirinkti, kurį leidimą norite išbandyti."
 
 #: js/src/about/About.js:25 js/src/main/pages.js:105
 msgid "About"
-msgstr ""
+msgstr "Apie"
 
 #: js/src/about/About.js:28
 msgid ""
@@ -37,58 +40,62 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Čia galite rasti informaciją apie jūsų įrenginį. Prašome pridėti šią "
+"informaciją prie žinutės, jeigu kreipsitės į mūsų <a "
+"href=\"mailto:tech.support@turris.cz\" target=\"_blank\">klientų "
+"aptarnavimą</a>."
 
 #: js/src/about/About.js:37
 msgid "Device"
-msgstr ""
+msgstr "Įrenginys"
 
 #: js/src/about/About.js:45
 msgid "Serial number"
-msgstr ""
+msgstr "Serijos numeris"
 
 #: js/src/about/About.js:49
 msgid "reForis version"
-msgstr ""
+msgstr "reForis versija"
 
 #: js/src/about/About.js:53
 msgid "Turris OS version"
-msgstr ""
+msgstr "Turris OS versija"
 
 #: js/src/about/About.js:58
 msgid "Turris OS branch"
-msgstr ""
+msgstr "Turris OS leidimas"
 
 #: js/src/about/About.js:80
 msgid "Kernel version"
-msgstr ""
+msgstr "Sistemos branduolio versija"
 
 #: js/src/common/RebootButton.js:22 js/src/common/RebootButton.js:42
 #: js/src/maintenance/Reboot.js:17
 msgid "Reboot"
-msgstr ""
+msgstr "Perkrauti"
 
 #: js/src/common/RebootButton.js:40 js/src/dns/DNSSECDisableModal.js:34
 #: js/src/guide/GuideControls/SkipGuideButton.js:68
 #: js/src/maintenance/FactoryReset.js:28
 #: js/src/notificationsSettings/TestNotification.js:152
 msgid "Warning!"
-msgstr ""
+msgstr "Įspėjimas!"
 
 #: js/src/common/RebootButton.js:41
 msgid "Are you sure you want to reboot the router?"
-msgstr ""
+msgstr "Ar tikrai norite perkrauti maršrutizatorių?"
 
 #: js/src/common/RebootButton.js:44
 msgid "The router has been rebooted successfully."
-msgstr ""
+msgstr "Maršrutizatorius buvo sėkmingai perkrautas."
 
 #: js/src/common/RebootButton.js:45
 msgid "An error occurred while rebooting the router."
-msgstr ""
+msgstr "Perkraunant maršrutizatorių įvyko klaida."
 
 #: js/src/common/ScrollToTopArrow.js:33
 msgid "Go to top"
-msgstr ""
+msgstr "Grįžti į viršų"
 
 #: js/src/common/network/DHCP6Clients.js:31
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:26
@@ -96,162 +103,174 @@ msgstr ""
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:76
 #: js/src/hostname/Hostname.js:24 js/src/main/pages.js:100
 msgid "Hostname"
-msgstr ""
+msgstr "Įrenginio vardas"
 
 #: js/src/common/network/DHCP6Clients.js:35
 msgid "IPv6 Address"
-msgstr ""
+msgstr "IPv6 adresas"
 
 #: js/src/common/network/DHCP6Clients.js:39
 msgid "DUID"
-msgstr ""
+msgstr "DUID"
 
 #: js/src/common/network/DHCP6Clients.js:43
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:29
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:88
 msgid "Expires"
-msgstr ""
+msgstr "Pasibaigia"
 
 #: js/src/common/network/DHCP6Clients.js:47
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:30
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:93
 msgid "Active"
-msgstr ""
+msgstr "Aktyvus"
 
 #: js/src/common/network/DHCP6Clients.js:64
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:63
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:44
 msgid "Never"
-msgstr ""
+msgstr "Niekada"
 
 #: js/src/common/network/DHCP6Clients.js:69
 msgid "IPv6 DHCP Client List"
-msgstr ""
+msgstr "IPv6 DHCP klientų sąrašas"
 
 #: js/src/common/network/DHCP6Clients.js:71
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
+"Šiame sąraše yra visi įrenginiai kurie prisijungė prie tinklo laidiniu ar"
+" belaidžiu ryšiu ir naudoja IPv6."
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:35
 msgid "No clients found."
-msgstr ""
+msgstr "Klientų nerasta."
 
 #: js/src/common/network/DHCP6Clients.js:96
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:200
 msgid "Device is active"
-msgstr ""
+msgstr "Įrenginys yra aktyvus"
 
 #: js/src/common/network/DHCP6Clients.js:104
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:200
 msgid "Device is inactive"
-msgstr ""
+msgstr "Įrenginys nėra aktyvus"
 
 #: js/src/common/network/DHCPClientForm.js:14
 msgid "Hostname which will be provided to DHCP server."
-msgstr ""
+msgstr "Vardas kuris bus pateiktas DHCP serveriui."
 
 #: js/src/common/network/DHCPClientForm.js:38
 msgid "DHCP hostname"
-msgstr ""
+msgstr "DHCP įrenginio vardas"
 
 #: js/src/common/network/DHCPClients.js:24
 msgid "DHCP Client List"
-msgstr ""
+msgstr "DHCP klientų sąrašas"
 
 #: js/src/common/network/DHCPClients.js:26
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
+"Šiame sąraše yra visi įrenginiai kurie prisijungė prie tinklo laidiniu ar"
+" belaidžiu ryšiu."
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
 "Enable this option to automatically assign IP addresses to the devices "
 "connected to the router."
 msgstr ""
+"Įjungus šį nustatymą visiems prie maršrutizatoriaus prisijungusiems "
+"įrenginiams bus automatiškai suteikiamas IP adresas."
 
 #: js/src/common/network/DHCPServerForm.js:47
 msgid "DHCP start"
-msgstr ""
+msgstr "DHCP pradinis adresas"
 
 #: js/src/common/network/DHCPServerForm.js:57
 msgid "DHCP max leases"
-msgstr ""
+msgstr "DHCP max leidimų"
 
 #: js/src/common/network/DHCPServerForm.js:58
 msgid "Maximum number of addresses available for DHCP clients."
-msgstr ""
+msgstr "Maksimalus skaičius adresų kuriuos galima išduoti DHCP klientams."
 
 #: js/src/common/network/DHCPServerForm.js:71
 msgid "Lease time (hours)"
-msgstr ""
+msgstr "Leidimo laikas (valandomis)"
 
 #: js/src/common/network/DHCPValidators.js:70
 msgid "Value must be a number."
-msgstr ""
+msgstr "Reikšmė turi būti skaičius."
 
 #: js/src/common/network/DHCPValidators.js:73
 msgid "Value must be positive."
-msgstr ""
+msgstr "Reikšmė turi būti teigiama."
 
 #: js/src/common/network/DHCPValidators.js:86
 msgid "Invalid network settings. DHCP settings can't be validated."
-msgstr ""
+msgstr "Netinkami tinklo nustatymai. DHCP nustatymų nepavyko patvirtinti."
 
 #: js/src/common/network/DHCPValidators.js:99
 msgid "Minimum lease time is 1 hour."
-msgstr ""
+msgstr "Trumpiausias leidimo laikas yra 1 valanda."
 
 #: js/src/common/network/DHCPValidators.js:114
 msgid "Address is outside current network."
-msgstr ""
+msgstr "Adresas nepatinka į tinklo ribas."
 
 #: js/src/common/network/DHCPValidators.js:118
 msgid "Address is already reserved for other purposes."
-msgstr ""
+msgstr "Adresas jau rezervuotas kitiems tikslams."
 
 #: js/src/common/network/DHCPValidators.js:129
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr ""
+"Prašoma per daug adresų. Nustatykite mažesnį kiekį arba pakeiskite DHCP "
+"pradinį adresą."
 
 #: js/src/common/network/DHCPValidators.js:136
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
+"Vienintelis DHCP leidimas galimas maršrutizatoriaus adresui. Padidinkite "
+"kiekį arba pakeiskite pradinį adresą."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 msgid ""
 "DNS server address is not required as the built-in DNS resolver is "
 "capable of working without it."
 msgstr ""
+"DNS serverio adresas nėra privalomas, integruota DNS paslauga gali veikti"
+" ir be jo."
 
 #: js/src/common/network/StaticIPForm.js:50
 msgid "IP address"
-msgstr ""
+msgstr "IP adresas"
 
 #: js/src/common/network/StaticIPForm.js:60
 #: js/src/guestNetwork/GuestNetworkForm.js:88 js/src/lan/LANManagedForm.js:72
 msgid "Network mask"
-msgstr ""
+msgstr "Tinklo kaukė"
 
 #: js/src/common/network/StaticIPForm.js:70 js/src/wan/WAN6Form.js:243
 msgid "Gateway"
-msgstr ""
+msgstr "Šliuzas"
 
 #: js/src/common/network/StaticIPForm.js:80 js/src/wan/WAN6Form.js:268
 msgid "DNS server 1"
-msgstr ""
+msgstr "DNS serveris 1"
 
 #: js/src/common/network/StaticIPForm.js:90 js/src/wan/WAN6Form.js:278
 msgid "DNS server 2"
-msgstr ""
+msgstr "DNS serveris 2"
 
 #: js/src/common/network/StaticIPForm.js:111
 #: js/src/common/network/validators.js:19 js/src/wan/MACForm.js:91
@@ -259,165 +278,165 @@ msgstr ""
 #: js/src/wan/WAN6Form.js:533 js/src/wan/WAN6Form.js:545
 #: js/src/wan/WANForm.js:173
 msgid "This field is required."
-msgstr ""
+msgstr "Šis laukas yra privalomas."
 
 #: js/src/common/network/validators.js:12
 msgid "This is not a valid network mask."
-msgstr ""
+msgstr "Pateikta netinkama tinklo kaukė."
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
 msgid "IPv4 Address"
-msgstr ""
+msgstr "IPv4 adresas"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:84
 msgid "MAC Address"
-msgstr ""
+msgstr "MAC adresas"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:66
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:72
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesAddButton.js:25
 msgid "Add static lease"
-msgstr ""
+msgstr "Pridėti statinį susiejimą"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:68
 msgid "Edit static lease"
-msgstr ""
+msgstr "Keisti statinį susiejimą"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:70
 msgid "Set static lease"
-msgstr ""
+msgstr "Nustatyti statinį susiejimą"
 
 #: js/src/common/network/DHCPClients/hooks.js:71
 msgid "Static lease deleted successfully."
-msgstr ""
+msgstr "Statinis susiejimas sėkmingai pašalintas."
 
 #: js/src/common/network/DHCPClients/hooks.js:76
 msgid "Can't delete static lease."
-msgstr ""
+msgstr "Nepavyksta pašalinti statinio susiejimo."
 
 #: js/src/common/network/DHCPClients/hooks.js:107
 msgid "Static lease added successfully."
-msgstr ""
+msgstr "Statinis susiejimas sėkmingai pridėtas."
 
 #: js/src/common/network/DHCPClients/hooks.js:125
 msgid "Static saved successfully."
-msgstr ""
+msgstr "Statinis susiejimas sėkmingai išsaugotas."
 
 #: js/src/common/network/DHCPClients/hooks.js:166
 msgid "Hostname cannot be empty."
-msgstr ""
+msgstr "Įrenginio vardas negali būti tuščias."
 
 #: js/src/common/network/DHCPClients/hooks.js:170
-#: js/src/portForwarding/hooks.js:244
+#: js/src/portForwarding/hooks.js:246
 msgid "IPv4 address cannot be empty."
-msgstr ""
+msgstr "IPv4 adresas negali būti tuščias."
 
 #: js/src/common/network/DHCPClients/hooks.js:174
 msgid "MAC address cannot be empty."
-msgstr ""
+msgstr "MAC adresas negali būti tuščias."
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:75
 #: js/src/dns/DNSSECDisableModal.js:48
 #: js/src/guide/GuideControls/SkipGuideButton.js:87
 #: js/src/notificationsSettings/TestNotification.js:161
 msgid "Cancel"
-msgstr ""
+msgstr "Atšaukti"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:82
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
 #: js/src/portForwarding/PortForwardingRulesModal.js:64
 msgid "Save"
-msgstr ""
+msgstr "Išsaugoti"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:50
 msgid "List of available hostnames"
-msgstr ""
+msgstr "Sąrašas gailimų vardų"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:62
 msgid "IPv4 address"
-msgstr ""
+msgstr "IPv4 adresas"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:74
 #: js/src/portForwarding/PortForwardingRulesForm.js:71
 msgid "List of available IPv4 addresses"
-msgstr ""
+msgstr "Sąrašas galimų IPv4 adresų"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:88
 #: js/src/interfaces/SelectedInterface.js:139
 msgid "MAC address"
-msgstr ""
+msgstr "MAC adresas"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:100
 msgid "List of available MAC addresses"
-msgstr ""
+msgstr "Sąrašas galimų MAC adresų"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:100
 #: js/src/dns/Forwarders/ForwardersTable.js:40
 #: js/src/portForwarding/PortForwardingRulesTable.js:36
 msgid "Actions"
-msgstr ""
+msgstr "Veiksmai"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:145
 #: js/src/dns/Forwarders/ForwardersTable.js:142
 #: js/src/portForwarding/PortForwardingRulesTable.js:82
 msgid "Edit"
-msgstr ""
+msgstr "Pakeisti"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:151
 #: js/src/dns/Forwarders/ForwardersTable.js:153
 #: js/src/portForwarding/PortForwardingRulesTable.js:88
 msgid "Delete"
-msgstr ""
+msgstr "Šalinti"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:186
 msgid "Set Static"
-msgstr ""
+msgstr "Padaryti statiniu"
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
 msgid "Test is running…"
-msgstr ""
+msgstr "Tikrinama…"
 
 #: js/src/connectionTest/ConnectionTestButton.js:30
 msgid "Test connection again"
-msgstr ""
+msgstr "Tikrinti ryšį dar kartą"
 
 #: js/src/connectionTest/ConnectionTestButton.js:33
 msgid "Test connection"
-msgstr ""
+msgstr "Tikrinti ryšį"
 
 #: js/src/connectionTest/ConnectionTestResult.js:17
 msgid "IPv4 connectivity"
-msgstr ""
+msgstr "IPv4 pasiekiamumas"
 
 #: js/src/connectionTest/ConnectionTestResult.js:18
 msgid "IPv4 gateway connectivity"
-msgstr ""
+msgstr "IPv4 šliuzo pasiekiamumas"
 
 #: js/src/connectionTest/ConnectionTestResult.js:19
 msgid "IPv6 connectivity"
-msgstr ""
+msgstr "IPv6 pasiekiamumas"
 
 #: js/src/connectionTest/ConnectionTestResult.js:20
 msgid "IPv6 gateway connectivity"
-msgstr ""
+msgstr "IPv6 šliuzo pasiekiamumas"
 
 #: js/src/connectionTest/ConnectionTestResult.js:86
 msgid "Connection test successful"
-msgstr ""
+msgstr "Ryšio testas atliktas sėkmingai"
 
 #: js/src/connectionTest/ConnectionTestResult.js:91
 msgid "Connection test failed"
-msgstr ""
+msgstr "Ryšio testas nepavyko"
 
 #: js/src/connectionTest/ConnectionTestResult.js:96
 msgid "Connection test cannot be determined"
-msgstr ""
+msgstr "Ryšio testo baigtis neaiški"
 
 #: js/src/connectionTest/ConnectionTestResult.js:101
 msgid "Connection test not started"
-msgstr ""
+msgstr "Ryšio testas nepradėtas"
 
 #: js/src/dns/DNS.js:33
 msgid ""
@@ -425,6 +444,9 @@ msgid ""
 "capable of working independently or it can forward your DNS queries your "
 "internet service provider's DNS resolver."
 msgstr ""
+"Turris maršrutizatorius naudoja savo vidinį DNS servisą, kuris palaiko "
+"DNSSEC. Jis gali veikti savarankiškai arba gali persiųsti DNS užklausas į"
+" jūsų interneto paslaugų tiekėjo DNS serverius."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -433,6 +455,10 @@ msgid ""
 "works properly. If it does not work for some reason, it is necessary to "
 "use direct resolving without forwarding."
 msgstr ""
+"Šis nustatymas keičia kaip DNS paslaugos veikimą. Kai interneto paslaugų "
+"tiekėjo serveriai veikia gerai, dažniausiai geriau juos ir naudoti. Jeigu"
+" jie dėl kokių nors priežasčių neveikia, tenka naudoti tiesioginį vardų "
+"sprendimą nenaudojant persiuntimo."
 
 #: js/src/dns/DNS.js:44
 msgid ""
@@ -444,11 +470,18 @@ msgid ""
 "<b>recommend keeping DNSSEC turned on</b> and resolving the situation "
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
+"Retais atvejais, interneto paslaugų tiekėjas gali turi netinkamai valdoma"
+" tinklą, kuris trukdo DNSSEC patvirtinimui. Jei turite problemų su DNS, "
+"galite <b>laikinai</b> išjungti DNSSEC patvirtinimus, tai gali padėti "
+"rasti problemų priežastis. Tačiau atkreipkite dėmesį, kad be DNSSEC "
+"patvirtinimų esate pažeidžiami DNS klastojimo atakoms! Dėl to "
+"<b>rekomenduojame palikti DNSSEC įjungtą</b> ir mėginti išspręsti "
+"problemą esančia jūsų interneto paslaugų tiekėjo pusėje kartu su juo."
 
 #: js/src/dns/DNS.js:63 js/src/overview/Cards/ConnectionTestCard.js:21
 #: js/src/wan/WAN.js:51
 msgid "Connection Test"
-msgstr ""
+msgstr "Ryšio testas"
 
 #: js/src/dns/DNS.js:66
 msgid ""
@@ -456,44 +489,54 @@ msgid ""
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
+"Čia galite patikrinti interneto ryšį. Šis testas taip pat gali būti "
+"naudingas patikrinimui ar DNS sistema veikia tinkamai. Nepamirškite "
+"paspausti <b>Išsaugoti mygtuko</b> jei buvo pakeisti persiuntimo "
+"nustatymai."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
 "This will enable your DNS resolver to place DHCP client's names among the"
 " local DNS records."
 msgstr ""
+"Tai įjungs DNS serviso funkcionalumą pridėti DHCP klientų vardus prie "
+"vietinių DNS įrašų."
 
 #: js/src/dns/DNSForm.js:20
 msgid ""
 "This domain will be used as suffix. E.g. The result for client "
 "\"android-123\" and domain \"my.lan\" will be \"android-123.my.lan\"."
 msgstr ""
+"Šis domenas bus naudojamas kaip galūnė. Pvz. iš kliento vardo "
+"\"android-123\" ir domeno \"my.lan\" bus gaunama \"android-123.my.lan\"."
 
 #: js/src/dns/DNSForm.js:67
 msgid "DNS Settings"
-msgstr ""
+msgstr "DNS nustatymai"
 
 #: js/src/dns/DNSForm.js:84
 msgid "Use forwarding"
-msgstr ""
+msgstr "Naudoti persiuntimą"
 
 #: js/src/dns/DNSForm.js:100
 msgid "Enable DNSSEC"
-msgstr ""
+msgstr "Įjungti DNSSEC"
 
 #: js/src/dns/DNSForm.js:106
 msgid "Enable DHCP clients in DNS"
-msgstr ""
+msgstr "Pasiekti DHCP klientus per DNS"
 
 #: js/src/dns/DNSForm.js:116
 msgid "Domain of DHCP clients in DNS"
-msgstr ""
+msgstr "Domenas DHCP klientų pasiekimui per DNS"
 
 #: js/src/dns/DNSSECDisableModal.js:13
 msgid ""
 "DNSSEC is a security technology that protects DNS communication against "
 "attacks on the DNS infrastructure."
 msgstr ""
+"DNSSEC yra saugumo technologija, kuri apsaugo DNS komunikacijas nuo atakų"
+" nukreiptų prieš DNS infrastruktūrą."
 
 #: js/src/dns/DNSSECDisableModal.js:17
 msgid ""
@@ -501,126 +544,129 @@ msgid ""
 "that you will be connecting your device to the network where DNSSEC is "
 "broken."
 msgstr ""
+"Primygtinai rekomenduojame palikti DNSSEC tikrinimą įjungtą, nebent esate"
+" įsitikinęs kad jūsų įrenginys bus prijungtas prie tinklo kuriame DNSSEC "
+"neveikia."
 
 #: js/src/dns/DNSSECDisableModal.js:21
 msgid "Do you still want to continue and stay unprotected?"
-msgstr ""
+msgstr "Ar tikrai norite tęsti ir likti neapsaugotas?"
 
 #: js/src/dns/DNSSECDisableModal.js:56
 msgid "Disable DNSSEC"
-msgstr ""
+msgstr "Išjungti DNSSEC"
 
 #: js/src/dns/Forwarders/Forwarders.js:81
 msgid "Edit forwarder"
-msgstr ""
+msgstr "Keisti persiuntimo serverius"
 
 #: js/src/dns/Forwarders/Forwarders.js:82
 #: js/src/dns/Forwarders/Forwarders.js:104
 msgid "Add custom forwarder"
-msgstr ""
+msgstr "Pridėti kitus persiuntimo serverius"
 
 #: js/src/dns/Forwarders/ForwardersTable.js:39
 msgid "Forwarders"
-msgstr ""
+msgstr "Persiuntimo serveriai"
 
 #: js/src/dns/Forwarders/ForwardersTable.js:47
 msgid "Use provider's DNS resolver"
-msgstr ""
+msgstr "Naudoti tiekėjo DNS serverį"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:24
 msgid "Base 64 encoded SHA-256."
-msgstr ""
+msgstr "Base64 koduota SHA-256 reikšmė."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:25
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
-msgstr ""
+msgstr "\"Be TLS\" reiškia, kad bus naudojamas įprastas DNS protokolas per UDP."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
 #: js/src/packageManagement/updates/UpdateApproval.js:142
 #: js/src/portForwarding/PortForwardingRulesForm.js:46
 #: js/src/portForwarding/PortForwardingRulesTable.js:29
 msgid "Name"
-msgstr ""
+msgstr "Pavadinimas"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:69
 msgid "TLS type"
-msgstr ""
+msgstr "TLS tipas"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:87
 msgid "TLS hostname"
-msgstr ""
+msgstr "TLS serverio vardas"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:99
 msgid "TLS pin"
-msgstr ""
+msgstr "TLS prisegimas"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:15
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:16
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:53
 #, python-brace-format
 msgid "${label} Addresses"
-msgstr ""
+msgstr "${label} adresas"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:59
 #, python-brace-format
 msgid "${label} #${index + 1}"
-msgstr ""
+msgstr "${label} #${index + 1}"
 
 #: js/src/dns/Forwarders/Forwarder/IPAddressesForm.js:83
 #, python-brace-format
 msgid "Add ${label} address"
-msgstr ""
+msgstr "Pridėti ${label} adresą"
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:47
 msgid "Forwarder saved successfully."
-msgstr ""
+msgstr "Persiuntimo serveriai sėkmingai išsaugoti."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:49
 msgid "Can't save forwarder."
-msgstr ""
+msgstr "Nepavyko išsaugoti persiuntimo serverių."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:56
 msgid "Forwarder added successfully."
-msgstr ""
+msgstr "Persiuntimo serveriai sėkmingai pridėti."
 
 #: js/src/dns/Forwarders/Forwarder/hooks.js:58
 msgid "Can't add new forwarder."
-msgstr ""
+msgstr "Nepavyko pridėti persiuntimo serverių."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:20
 msgid "Forwarder name should have at least one symbol."
-msgstr ""
+msgstr "Persiuntimo pavadinime turi būti bent vienas simbolis."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:28
 msgid "Hostname should have at least one symbol."
-msgstr ""
+msgstr "Serverio varde turi būti bent vienas simbolis."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:33
 msgid "TLS pin should have at least one symbol."
-msgstr ""
+msgstr "TLS prisegime turi būti bent vienas simbolis."
 
 #: js/src/dns/Forwarders/Forwarder/validator.js:45
 msgid "Define at least one of the IP addresses of the forwarder."
-msgstr ""
+msgstr "Nurodykite bent vieną persiuntimo serverio IP adresą."
 
 #: js/src/guestNetwork/GuestNetwork.js:39 js/src/interfaces/constants.js:11
 #: js/src/main/pages.js:66
 msgid "Guest Network"
-msgstr ""
+msgstr "Svečių tinklas"
 
 #: js/src/guestNetwork/GuestNetwork.js:42
 msgid "The guest network is used for "
-msgstr ""
+msgstr "Svečių tinklas naudojamas "
 
 #: js/src/guestNetwork/GuestNetwork.js:43
 msgid "guest Wi-Fi"
-msgstr ""
+msgstr "svečių Wi-Fi"
 
 #: js/src/guestNetwork/GuestNetwork.js:45
 msgid ""
@@ -628,66 +674,72 @@ msgid ""
 " are allowed to access the internet but are not allowed to access the "
 "configuration interface of this device or the devices in LAN."
 msgstr ""
+"Jis atskirtas nuo jūsų įprasto vietinio tinklo. Įrenginiai prijungti prie"
+" šio tinklo gali naudoti interneto, tačiau negali pasiekti "
+"maršrutizatoriaus valdymo interfeiso bei kitų įrenginių esančių "
+"vietiniame tinkle."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:18
 msgid "Router's IP address in the guest inner network."
-msgstr ""
+msgstr "Maršrutizatoriaus IP adresas svečių tinklo viduje."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:19
 msgid "Network mask of the guest inner network."
-msgstr ""
+msgstr "Vidinio svečių tinklo kaukė."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:22
 msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
+"Šis nustatymas leidžia nustatyti duomenų pralaidumo ribą svečių tinklui, "
+"kad jis nestabdytų pagrindinio jūsų tinklo."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
-msgstr ""
+msgstr "Atsisiuntimo greitis svečių tinkle (kilobitais per sekundę)."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:28
 msgid "Upload speed in guest network (in kilobits per second)."
-msgstr ""
+msgstr "Išsiuntimo greitis svečių tinkle (kilobitais per sekundę)."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:65
 msgid "Guest Network Settings"
-msgstr ""
+msgstr "Svečių tinklo nustatymai"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:67
 msgid "Enable Guest Network"
-msgstr ""
+msgstr "Įjungti svečių tinklą"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:77 js/src/lan/LANManagedForm.js:61
 msgid "Router IP address"
-msgstr ""
+msgstr "Maršrutizatoriaus IP adresas"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:98 js/src/lan/LANManagedForm.js:82
 msgid "Enable DHCP"
-msgstr ""
+msgstr "Įjungti DHCP"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:116
 msgid "Enable QoS"
-msgstr ""
+msgstr "Įjungti QoS"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:159
 #: js/src/overview/Cards/LibrespeedCard.js:79
 msgid "Download"
-msgstr ""
+msgstr "Atsisiuntimas"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:172
 #: js/src/overview/Cards/LibrespeedCard.js:93
 msgid "Upload"
-msgstr ""
+msgstr "Išsiuntimas"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:191
 msgid "Download speed must be positive"
-msgstr ""
+msgstr "Atsisiuntimo greitis turi būti teigiamas"
 
 #: js/src/guestNetwork/GuestNetworkForm.js:194
 msgid "Upload speed must be positive"
-msgstr ""
+msgstr "Išsiuntimo greitis turi būti teigiamas"
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:13
 msgid ""
@@ -695,48 +747,56 @@ msgid ""
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
+"Šiuo metu šiame tinkle nėra įrenginiu. Pakeitimai kuriuos čia atliekate "
+"pradės veikti tik tuomet kai šiam tinklui priskirsite interfeisą."
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:17
 msgid "All network interfaces of this network are currently down."
-msgstr ""
+msgstr "Visi šio tinklo interfeisai šiuo metu yra neaktyvūs."
 
 #: js/src/guide/constants.js:13
 msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
 "device."
 msgstr ""
+"Sveiki prisijungę prie reForis tinklo sąsajos. Šis gidas padės jūsų "
+"įrenginį paruošti naudojimui."
 
 #: js/src/guide/constants.js:16
 msgid ""
 "Firstly it is required to set your password. Note the security of your "
 "home network is in your hands, so try not to use weak passwords."
 msgstr ""
+"Pirmiausia nustatykite slaptažodį. Nepamirškite, kad nuo to priklauso "
+"jūsų tinklo saugumas, nenaudokite silpnų slaptažodžių."
 
 #: js/src/guide/constants.js:20
 msgid "Your password is set. You may proceed to the next step."
-msgstr ""
+msgstr "Slaptažodis nustatytas. Galite eiti prie kito žingsnio."
 
 #: js/src/guide/constants.js:23
 msgid "The workflow was set. You may proceed to next step."
-msgstr ""
+msgstr "Darbo rėžimas nustatytas. Galite eiti prie kito žingsnio."
 
 #: js/src/guide/constants.js:27
 msgid "Here you need to decide which interfaces belong to which network."
-msgstr ""
+msgstr "Čia reikia pasirinkti kurie interfeisai bus susieti su kuriais tinklais."
 
 #: js/src/guide/constants.js:30
 msgid "If you are in doubt use the current settings."
-msgstr ""
+msgstr "Jei dvejojate naudokite dabartinius nustatymus."
 
 #: js/src/guide/constants.js:32
 msgid ""
 "You've configured your network interfaces. It seems that you didn't break"
 " any crucial network settings so you can safely proceed to the next step."
 msgstr ""
+"Tinklo interfeisai sukonfigūruoti. Panašu, kad pakeitimai nesukėlė tinklo"
+" problemų, galite saugiai eiti prie kito žingsnio."
 
 #: js/src/guide/constants.js:37
 msgid "Now you need to set the time and timezone of your device."
-msgstr ""
+msgstr "Reikia įrenginiui nustatyti laiką ir parinkti laiko juostą."
 
 #: js/src/guide/constants.js:38
 msgid ""
@@ -744,22 +804,29 @@ msgid ""
 "matches the time on your computer if not try to update it via NTP or "
 "manually."
 msgstr ""
+"Laikas ir laiko juosta nustatyti. Patikrinkite ar laikas sutampa su laiku"
+" jūsų kompiuteryje, jei ne pamėginkite patikslinti laiką per NTP arba "
+"rankiniu būdu."
 
 #: js/src/guide/constants.js:43
 msgid ""
 "A proper DNS resolving is one of the key security features of your "
 "device. Let's configure it now."
 msgstr ""
+"Tinkamas DNS veikimas yra viena iš pagrindinių šio įrenginio saugumo "
+"savybių. Laikas jį sukonfigūruoti."
 
 #: js/src/guide/constants.js:46
 msgid ""
 "You've updated your DNS configuration. Try to run connection test to see "
 "whether your DNS resolver is properly set."
 msgstr ""
+"DNS konfigūracija atnaujinta. Išbandykite ryšio testą, jis parodys ar DNS"
+" veikia tinkamai."
 
 #: js/src/guide/constants.js:51
 msgid "In order to access the internet, you need to configure your WAN interface."
-msgstr ""
+msgstr "Kad galėtumėte pasiekti internetą reikia sukonfigūruoti WAN interfeisą."
 
 #: js/src/guide/constants.js:54
 msgid ""
@@ -767,6 +834,8 @@ msgid ""
 "whether it is working properly and if so you can safely proceed to the "
 "next step."
 msgstr ""
+"Sukonfigūravote WAN interfeisą. Išmėginkite ryšio testą, jis parodys ar "
+"viskas veikia tinkamai ir galėsite eiti prie kito žingsnio."
 
 #: js/src/guide/constants.js:59
 msgid ""
@@ -775,52 +844,67 @@ msgid ""
 "configuration interface unless you restart the network on your current "
 "device."
 msgstr ""
+"Dabar reikia sukonfigūruoti LAN interfeisą. Atkreipkite dėmesį, kad "
+"pakeitus tinklo nustatymui tikriausiai nebegalėsite pasiekti valdymo "
+"sąsajos nebent perkrausite tinklo nustatymus ir įrenginyje iš kurio "
+"jungiatės."
 
 #: js/src/guide/constants.js:62
 msgid ""
 "You've configured your LAN interface. Try to test whether settings work "
 "properly and if so you can safely proceed to the next step."
 msgstr ""
+"Sukonfigūravote LAN interfeisą. Pamėginkite patikrinti ar nustatymai "
+"veikia teisingai ir eikite prie kito žingsnio."
 
 #: js/src/guide/constants.js:68
 msgid "To activate Sentinel, you must accept the licence agreement."
-msgstr ""
+msgstr "Tam, kad aktyvuotumėte Sentinel, turite sutikti su licencijos sutartimi."
 
 #: js/src/guide/constants.js:69
 msgid ""
 "If you choose not to accept it, Sentinel will remain installed and "
 "accessible from the sidebar navigation, but it will not be active."
 msgstr ""
+"Jei pasirinksite nesutikti, Sentinel liks instaliuotas ir pasiekiamas per"
+" šoninį meniu, tačiau nebus aktyvus."
 
 #: js/src/guide/constants.js:73
 msgid ""
 "Sentinel is now set up. You can check its status and settings in the "
 "sidebar navigation."
 msgstr ""
+"Sentinel paruoštas darbui. Galite patikrinti jo būsena ir nustatymus per "
+"šoninį meniu."
 
 #: js/src/guide/constants.js:78
 msgid "Now you need to configure automatic updates on your device."
-msgstr ""
+msgstr "Dabar reikia parinkti automatinio šio įrenginio atnaujinimo nustatymus."
 
 #: js/src/guide/constants.js:81
 msgid "Please wait till the updater finishes its run."
-msgstr ""
+msgstr "Palaukite kol atnaujinimo programa pabaigs darbą."
 
 #: js/src/guide/constants.js:90
 msgid "Congratulations! Now your device is ready to be used."
-msgstr ""
+msgstr "Sveikiname! Jūsų įrenginys paruoštas naudojimui."
 
 #: js/src/guide/constants.js:96
 msgid ""
 "Congratulations! Now your device is able to act as a router and route "
 "network traffic among LAN, WAN and guest network."
 msgstr ""
+"Sveikiname! Dabar jūsų įrenginys gali veikti kaip maršrutizatorius ir "
+"valdyti duomenų srautus tarp LAN, WAN ir svečių tinklų."
 
 #: js/src/guide/constants.js:104
 msgid ""
 "Minimal device setup is finished. Note that you probably need to perform "
 "some further configuration updates to fit the device to your needs."
 msgstr ""
+"Minimalus įrenginio konfigūravimas baigtas. Atkreipkite dėmesį, kad "
+"tikriausiai reikės atlikti daugiau konfigūracijos pakeitimų, norint "
+"įrenginį pilnai pritaikyti prie savo poreikių."
 
 #: js/src/guide/constants.js:112
 msgid ""
@@ -829,6 +913,9 @@ msgid ""
 "Shield will try to connect to the Internet, and you will end up in the "
 "administration interface."
 msgstr ""
+"Įrenginys paruoštas naudojimui. Galite valdyti likusius nustatymus per "
+"valdymo sąsają. Kai uždarysite šį gidą, jūsų Shield įrenginys bandys "
+"prisijungti prie Interneto, ir jūs būsite nukreipti į valdymo sąsają."
 
 #: js/src/guide/constants.js:123
 msgid ""
@@ -836,6 +923,9 @@ msgid ""
 " put any interfaces to your WAN and Guest Network. So it is a good idea "
 "to assign all interfaces to LAN."
 msgstr ""
+"Pasirinkote įrenginį naudoti kaip vietinį serverį, nelabai prasminga "
+"priskirti interfeisus prie WAN ir svečių tinklo. Rekomenduojame visus "
+"interfeisus priskirti prie LAN."
 
 #: js/src/guide/constants.js:130
 msgid ""
@@ -844,6 +934,11 @@ msgid ""
 "probably want to act as a client here thus select "
 "<strong>Computer</strong> mode here."
 msgstr ""
+"Kad įrenginys veiktų kaip vietinis serveris jam nereikia valdyti LAN (jei"
+" vis tik norite jį valdyti iš naujo paleiskite gidą ir pasirinkite "
+"Maršrutizatoriaus darbo rėžimą). Tikriausiai norėsite, kad įrenginys "
+"veiktų kaip tinklo klientas, todėl čia pasirinkite "
+"<strong>Kompiuterio</strong> rėžimą."
 
 #: js/src/guide/constants.js:133
 msgid ""
@@ -851,6 +946,9 @@ msgid ""
 "IP addresses are entered correctly otherwise you won't be able to access "
 "this configuration interface when the new settings are applied."
 msgstr ""
+"Jei pasirinksite <strong>statinę</strong> įsitikinkite, kad IP adresai "
+"įvesti teisingai, kitu atveju nebegalėsite pasiekti šios valdymo sąsajos "
+"kai nauji nustatymai bus pritaikyti."
 
 #: js/src/guide/constants.js:136
 msgid ""
@@ -859,12 +957,19 @@ msgid ""
 "server which is managing your LAN. Then you need to connect to the new IP"
 " address to proceed the guide."
 msgstr ""
+"Jeigu pasirinksite <strong>DHCP</strong> metodą tikriausiai šis įrenginys"
+" gaus naują IP adresą. Jį sužinoti galite iš jūsų tinklą valdančio DHCP "
+"serverio. Kad galėtumėte tęsti šį gidą reikės prisijungti prie naujo IP "
+"adreso."
 
 #: js/src/guide/constants.js:139
 msgid ""
 "Note that either way you might need to re-plug your ethernet cables after"
 " you update the settings here."
 msgstr ""
+"Atkreipkite dėmesį, kad gali reikėti ištraukti ir vėl prijungti "
+"kompiuterių tinklo kabelius, bet kuriuo atveju, po šių nustatymų "
+"pakeitimo."
 
 #: js/src/guide/constants.js:143
 msgid ""
@@ -872,100 +977,109 @@ msgid ""
 "means that you can access the configuration interface of your device, and"
 " your device can access the internet."
 msgstr ""
+"Patikrinkite ar įvesti nustatymai veikia tinkamai. Jūs turėtumėte galėti "
+"pasiekti šio įrenginio valdymo sąsają, o šis įrenginys turėti prieiga "
+"prie interneto."
 
 #: js/src/guide/constants.js:148
 msgid ""
 "Congratulations! Now your device should be able to act as a server on "
 "your local network."
 msgstr ""
+"Sveikiname! Jūsų įrenginys galės veikti kaip vietinis serveris jūsų "
+"tinkle."
 
 #: js/src/guide/hooks.js:24
 msgid "Cannot mark guide as finished."
-msgstr ""
+msgstr "Nepavyko gido pažymėti kaip užbaigto."
 
 #: js/src/guide/steps.js:21 js/src/main/pages.js:84
 #: js/src/notificationsSettings/SMTPCustomForm.js:124
 #: js/src/password/Password.js:175
 msgid "Password"
-msgstr ""
+msgstr "Slaptažodis"
 
 #: js/src/guide/steps.js:25
 msgid "Workflow"
-msgstr ""
+msgstr "Darbo rėžimas"
 
 #: js/src/guide/steps.js:29 js/src/main/pages.js:61
 msgid "Interfaces"
-msgstr ""
+msgstr "Intefeisai"
 
 #: js/src/guide/steps.js:33 js/src/regionAndTime/TimeForm.js:125
 msgid "Time"
-msgstr ""
+msgstr "Laikas"
 
 #: js/src/guide/steps.js:37 js/src/main/pages.js:48 js/src/main/pages.js:59
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: js/src/guide/steps.js:41
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:133
 #: js/src/main/pages.js:124 js/src/packageManagement/updates/Updates.js:28
 msgid "Updates"
-msgstr ""
+msgstr "Atnaujinimai"
 
 #: js/src/guide/steps.js:45 js/src/interfaces/constants.js:9
 #: js/src/main/pages.js:46 js/src/main/pages.js:57 js/src/wan/WAN.js:29
 msgid "WAN"
-msgstr ""
+msgstr "WAN"
 
 #: js/src/guide/steps.js:49 js/src/interfaces/constants.js:10
 #: js/src/main/pages.js:47 js/src/main/pages.js:58
 #: js/src/portForwarding/PortForwarding.js:64
 msgid "LAN"
-msgstr ""
+msgstr "LAN"
 
 #: js/src/guide/GuidePages/Sentinel.js:28 js/src/guide/steps.js:53
 msgid "Sentinel"
-msgstr ""
+msgstr "Sentinel"
 
 #: js/src/guide/steps.js:57
 msgid "Finish"
-msgstr ""
+msgstr "Užbaigti"
 
 #: js/src/guide/GuideControls/NextStepButton.js:28
 msgid "Next step"
-msgstr ""
+msgstr "Kitas žingsnis"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:50
 msgid "Skip"
-msgstr ""
+msgstr "Praleisti"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:70
 msgid "Are you sure you want to skip the whole guide?"
-msgstr ""
+msgstr "Ar tikrai norite praleisti visą gidą?"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:72
 msgid "This will skip the guide and you will be redirected to the overview page."
-msgstr ""
+msgstr "Tai praleis gidą ir būsite nukreipti į apžvalgos puslapį."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:77
 msgid ""
 "Settings that are not set up during the guide will be set to default "
 "values. And you will have to set them up manually."
 msgstr ""
+"Nustatymai kurie nebuvo pakeisti gido metu bus nustatyti į numatytas "
+"reikšmes. Juos reikės pakeisti rankiniu būdu."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:163
 msgid "Confirm"
-msgstr ""
+msgstr "Patvirtinti"
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
-msgstr ""
+msgstr "Gidas užbaigtas"
 
 #: js/src/guide/GuidePages/GuideFinish.js:22
 msgid ""
 "Once you leave this guide you'll be granted access to the full "
 "configuration interface of this device."
 msgstr ""
+"Kai išeisite iš šio gido gausite prieigą prie pilnos šio įrenginio "
+"valdymo sąsajos."
 
 #: js/src/guide/GuidePages/GuideFinish.js:27
 msgid ""
@@ -974,11 +1088,15 @@ msgid ""
 "security research to discover new attackers and give you access to "
 "dynamic firewall updates blocking known attackers."
 msgstr ""
+"Jei norite dar labiau padidinti apsaugos lygį rekomenduojame įdiegti "
+"duomenų rinkimo priedą (per Paketų valdymą). Tai leis jums būti mūsų "
+"saugumo tyrimų dalimi, atpažinti naujas atakas ir suteiks jums prieigą "
+"prie dinaminės ugniasienės atnaujinimų kurie blokuoja atpažintas atakas."
 
 #: js/src/guide/GuidePages/GuideFinish.js:33
 #: js/src/utils/useSessionTimeout.js:113
 msgid "Continue"
-msgstr ""
+msgstr "Tęsti"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:9
 msgid ""
@@ -988,25 +1106,32 @@ msgid ""
 "attackers in real time. Sentinel is made up of several key components, "
 "including "
 msgstr ""
+"Turris Sentinel yra pažangi saugumo sistema skirta apsaugoti jūrų "
+"maršrutizatorių ir tinklą nuo kibernetinių atakų. Ji nuolat stebi ir "
+"analizuoja ataskaitas iš Turris įrenginių visame pasaulyje tam, kad "
+"atpažintų ir užblokuotų atakas realiu laiku. Sentinel susideda iš kelių "
+"komponentų, įskaitant "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:17
 #: js/src/overview/Cards/ThreatDetectionCard.js:62
 msgid "Threat Detection"
-msgstr ""
+msgstr "Grėsmių aptikimas"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:25
 msgid ", which utilizes minimal honeypots and firewall logging, the "
-msgstr ""
+msgstr ", jis naudoja minimalius honeypotus ir ugniasienės žurnalus, bei "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:33
 msgid "Dynamic Firewall (DynFW)"
-msgstr ""
+msgstr "Dinaminė ugniasienė (DynFW)"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:41
 msgid ""
 "for real-time threat prevention, and a centralized database that tracks "
 "and identifies potential attackers."
 msgstr ""
+"grėsmių aptikimui realiu laiku, bei centralizuota duomenų bazė kuri seka "
+"ir identifikuoja potencialius užpuolikus."
 
 #: js/src/guide/GuidePages/SentinelDescription.js:46
 msgid ""
@@ -1014,42 +1139,49 @@ msgid ""
 "helps protect not only your own device but also other users. You can "
 "explore real-time security insights and attack statistics on "
 msgstr ""
+"Įjungdami Sentinel, jūs prisidedate prie globalaus saugumo tinklo, kuris "
+"padeda apsaugoti ne tik jūsų įrenginį bet ir kitų įrenginius. Galite "
+"stebėti realaus laiko saugumo įžvalgas bei atakų statistiką naudodami "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:54
 msgid "Sentinel View"
-msgstr ""
+msgstr "Sentinel vaizdas"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:63
 msgid " For a detailed overview of how Sentinel works, visit the "
-msgstr ""
+msgstr " Detalesnį aprašymą kaip veikia Sentinel rasite "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:71
 msgid "Sentinel documentation"
-msgstr ""
+msgstr "Sentinel dokumentacijoje"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:31
 msgid "Licence Agreement"
-msgstr ""
+msgstr "Licencijos sutartis"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:34
 msgid "Agreement"
-msgstr ""
+msgstr "Sutartis"
 
 #: js/src/guide/GuidePages/SentinelEULA.js:71
 msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
+"Aš priimu <a href='#'>Dalyvavimo Turris Projekte Sąlygas (Duomenų "
+"rinkimas)</a>."
 
 #: js/src/guide/GuidePages/SentinelEULA.js:86
 msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
+"Aš nesutinku su <a href='#'>Dalyvavimo Turris Projekte Sąlygomis (Duomenų"
+" rinkimas)</a>."
 
 #: js/src/guide/GuidePages/SentinelEULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr ""
+msgstr "Dalyvavimo Turris Projekte Sąlygos (Duomenų rinkimas)"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:26
 msgid ""
@@ -1058,6 +1190,9 @@ msgid ""
 "other devices within your local network (e.g. act as a network-attached "
 "storage)."
 msgstr ""
+"Šis darbo rėžimas leis naudoti šį įrenginį kaip lokalų serverį. Tai "
+"reiškia, kad įrenginys teiks paslaugas kitiems įrenginiams jūsų tinkle "
+"(pvz. veiks kaip per tinklą pasiekiama duomenų saugykla)."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:29
 msgid ""
@@ -1065,52 +1200,61 @@ msgid ""
 " functional router. It assumes that you want to have more or less "
 "standard network setup."
 msgstr ""
+"Parinkus šį darbo rėžimą jūsų įrenginys galės veikti kaip tinklo "
+"maršrutizatorius. Daroma prielaida, kad norėsite daugiau ar mažiau "
+"įprastos vietinio tinklo konfigūracijos."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:32
 msgid ""
 "Just set your password and you are ready to go. This workflow is aimed to"
 " more advanced users who intend to set everything manually."
 msgstr ""
+"Nustatykite slaptažodį ir bus baigta. Šis darbo rėžimas tinka patyrusiems"
+" naudotojams, kurie planuoja viską nustatyti patys rankiniu būdu."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:38
 msgid "Local Server"
-msgstr ""
+msgstr "Lokalus serveris"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:39 js/src/lan/LANForm.js:33
 msgid "Router"
-msgstr ""
+msgstr "Maršrutizatorius"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:40
 msgid "Minimal"
-msgstr ""
+msgstr "Minimalus"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:58
 msgid "Cannot set workflow."
-msgstr ""
+msgstr "Nepavyko pakeisti darbo rėžimo."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:68
 msgid "Guide Workflow"
-msgstr ""
+msgstr "Gido darbo rėžimas"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:70
 msgid ""
 "Here you can set the guide walkthrough which will guide you through the "
 "basic configuration of your device."
 msgstr ""
+"Čia galite parinkti gido darbo rėžimą, jis padės pereiti per pagrindinius"
+" įrenginio nustatymus."
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:85
 msgid "Recommended"
-msgstr ""
+msgstr "Rekomenduojama"
 
 #: js/src/hostname/Hostname.js:25
 msgid "Here you can check and set the name of your device."
-msgstr ""
+msgstr "Čia galite patikrinti ir pakeisti jūsų įrenginio vardą."
 
 #: js/src/hostname/Hostname.js:44
 msgid ""
 "The hostname can contain only alphanumeric characters, hyphens, "
 "underscores and can't be empty."
 msgstr ""
+"Vardas gali būti sudarytas iš skaičių, raidžių, brūkšnio, bei apatinio "
+"brūkšnio, taip pat negali būti tuščias."
 
 #: js/src/hostname/HostnameForm.js:14
 msgid "Rewrite the hostname to set a new one."
@@ -1303,7 +1447,7 @@ msgstr ""
 
 #: js/src/main/pages.js:32 js/src/overview/Overview.js:43
 msgid "Overview"
-msgstr ""
+msgstr "Apžvalga"
 
 #: js/src/main/pages.js:39
 msgid "Network Settings"
@@ -1373,15 +1517,15 @@ msgstr ""
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:20
 msgid "Light"
-msgstr ""
+msgstr "Šviesi"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:25
 msgid "Dark"
-msgstr ""
+msgstr "Tamsi"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:30
 msgid "Auto"
-msgstr ""
+msgstr "Auto"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
 msgid "Theme"
@@ -1504,7 +1648,7 @@ msgstr ""
 #: js/src/packageManagement/updateSettings/LicenseModal.js:37
 #: js/src/portForwarding/PortForwardingRulesModal.js:58
 msgid "Close"
-msgstr ""
+msgstr "Uždaryti"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
@@ -1625,7 +1769,7 @@ msgstr ""
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:22
 msgid "None"
-msgstr ""
+msgstr "Nenaudojamas"
 
 #: js/src/notificationsSettings/SMTPCustomForm.js:23
 msgid "SSL"
@@ -1658,7 +1802,7 @@ msgstr ""
 #: js/src/notificationsSettings/SMTPCustomForm.js:114
 #: js/src/wan/WAN6Form.js:434
 msgid "Username"
-msgstr ""
+msgstr "Naudotojo vardas"
 
 #: js/src/notificationsSettings/SMTPTurrisForm.js:36
 msgid "Sender's name"
@@ -1754,7 +1898,7 @@ msgstr ""
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
-msgstr ""
+msgstr "Pakartoti"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Activated"
@@ -1774,7 +1918,7 @@ msgstr ""
 
 #: js/src/overview/Cards/LibrespeedCard.js:67
 msgid "LibreSpeed"
-msgstr ""
+msgstr "LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:69
 msgid "Go to LibreSpeed"
@@ -1800,7 +1944,7 @@ msgstr ""
 
 #: js/src/overview/Cards/LibrespeedCard.js:138
 msgid "Server"
-msgstr ""
+msgstr "Serveris"
 
 #: js/src/overview/Cards/LibrespeedCard.js:152
 msgid "Performed"
@@ -2086,7 +2230,7 @@ msgstr ""
 
 #: js/src/packageManagement/updates/UpdateApproval.js:141
 msgid "Action"
-msgstr ""
+msgstr "Veiksmas"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:143
 msgid "Current"
@@ -2354,12 +2498,12 @@ msgstr ""
 msgid "Name should have at least one symbol."
 msgstr ""
 
-#: js/src/portForwarding/hooks.js:224
+#: js/src/portForwarding/hooks.js:226
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
 msgstr ""
 
-#: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
+#: js/src/portForwarding/hooks.js:232 js/src/portForwarding/hooks.js:239
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
 msgstr ""
@@ -2817,19 +2961,19 @@ msgstr ""
 msgid "Cannot send test notification. Please check your configuration."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:66
+#: reforis/foris_controller_api/modules/updater.py:67
 msgid "Cannot change automatic restart settings."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:77
+#: reforis/foris_controller_api/modules/updater.py:78
 msgid "Cannot update approvals settings."
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:170
+#: reforis/foris_controller_api/modules/updater.py:171
 msgid "Cannot start updater"
 msgstr ""
 
-#: reforis/foris_controller_api/modules/updater.py:199
+#: reforis/foris_controller_api/modules/updater.py:200
 msgid "You can't set it with disabled automatic updates."
 msgstr ""
 

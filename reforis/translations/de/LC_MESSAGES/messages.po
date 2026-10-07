@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2025-07-16 23:02+0000\n"
-"Last-Translator: Erik Pfannenstein <debianignatz@gmx.de>\n"
+"POT-Creation-Date: 2026-10-07 15:24+0300\n"
+"PO-Revision-Date: 2026-09-04 13:42+0000\n"
+"Last-Translator: nautilusx <translate@disroot.org>\n"
 "Language: de\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/turris/reforis/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/about/About.js:18
 msgid ""
@@ -331,7 +331,7 @@ msgid "Hostname cannot be empty."
 msgstr "Der Hostname darf nicht leer sein."
 
 #: js/src/common/network/DHCPClients/hooks.js:170
-#: js/src/portForwarding/hooks.js:244
+#: js/src/portForwarding/hooks.js:246
 msgid "IPv4 address cannot be empty."
 msgstr "Die IPv4-Adresse darf nicht leer sein."
 
@@ -2092,7 +2092,7 @@ msgstr "Verbunden"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:162
 msgid "Disconnected"
-msgstr "Nicht verbunden"
+msgstr "Getrennt"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
 msgid "Go to Sentinel license agreement"
@@ -2565,14 +2565,12 @@ msgid "Choose a password."
 msgstr "Wählen Sie ein Passwort."
 
 #: js/src/password/Password.js:216
-#, fuzzy
 msgid "Password should have at least eight symbols."
-msgstr "Das Passwort sollte wenigstens sechs Zeichen enthalten."
+msgstr "Das Passwort sollte wenigstens acht Zeichen enthalten."
 
 #: js/src/password/Password.js:219
-#, fuzzy
 msgid "Password cannot have more than 256 symbols."
-msgstr "Das Passwort kann nicht mehr als 128 Zeichen enthalten."
+msgstr "Das Passwort kann nicht mehr als 256 Zeichen enthalten."
 
 #: js/src/password/RootPasswordForm.js:51
 msgid "Advanced Administration Password"
@@ -2722,14 +2720,14 @@ msgstr "Regel erfolgreich gespeichert."
 msgid "Name should have at least one symbol."
 msgstr "Der Name muss mindestens ein Zeichen enthalten."
 
-#: js/src/portForwarding/hooks.js:224
+#: js/src/portForwarding/hooks.js:226
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
 msgstr ""
 "${fieldName} muss eine Zahl sein oder ein Bereich von Zahlen, aber nicht "
 "negativ."
 
-#: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
+#: js/src/portForwarding/hooks.js:232 js/src/portForwarding/hooks.js:239
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
 msgstr "${fieldName} muss ein gültiger Port oder ein Bereich sein."
@@ -3234,19 +3232,19 @@ msgstr ""
 "Die Testnachricht kann nicht versendet werden. Bitte überprüfen Sie Ihre "
 "Konfiguration."
 
-#: reforis/foris_controller_api/modules/updater.py:66
+#: reforis/foris_controller_api/modules/updater.py:67
 msgid "Cannot change automatic restart settings."
 msgstr "Einstellungen für automatischen Neustart können nicht geändert werden."
 
-#: reforis/foris_controller_api/modules/updater.py:77
+#: reforis/foris_controller_api/modules/updater.py:78
 msgid "Cannot update approvals settings."
 msgstr "Freigabe-Eintstellungen können nicht geändert werden."
 
-#: reforis/foris_controller_api/modules/updater.py:170
+#: reforis/foris_controller_api/modules/updater.py:171
 msgid "Cannot start updater"
 msgstr "Updater kann nicht gestartet werden"
 
-#: reforis/foris_controller_api/modules/updater.py:199
+#: reforis/foris_controller_api/modules/updater.py:200
 msgid "You can't set it with disabled automatic updates."
 msgstr ""
 "Sie können das nicht einstellen, wenn die automatischen Updates "

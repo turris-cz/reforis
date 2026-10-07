@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-02-04 18:54+0300\n"
-"PO-Revision-Date: 2021-01-08 14:32+0000\n"
-"Last-Translator: Zoli <boritek@gmail.com>\n"
+"POT-Creation-Date: 2026-10-07 15:24+0300\n"
+"PO-Revision-Date: 2026-09-29 17:51+0000\n"
+"Last-Translator: Kövecses József <kovecses@gmail.com>\n"
 "Language: hu\n"
 "Language-Team: Hungarian "
 "<https://hosted.weblate.org/projects/turris/reforis/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: js/src/about/About.js:18
 msgid ""
@@ -25,6 +25,9 @@ msgid ""
 " functions and varying stability - you can pick, which branch you want to"
 " test."
 msgstr ""
+"A Turris OS jelenleg több ágban is elérhető, amelyek különböző "
+"funkciókkal és eltérő stabilitási szinttel rendelkeznek – te magad "
+"választhatod ki, melyik ágat szeretnéd tesztelni."
 
 #: js/src/about/About.js:25 js/src/main/pages.js:105
 msgid "About"
@@ -37,10 +40,14 @@ msgid ""
 "href=\"mailto:tech.support@turris.cz\" target=\"_blank\">customer "
 "support</a>."
 msgstr ""
+"Itt talál néhány információt a készülékéről. Kérjük, mellékelje az "
+"üzenetéhez, ha kapcsolatba lép az <a "
+"href=\"mailto:tech.support@turris.cz\" "
+"target=\"_blank\">ügyfélszolgálatunkkal</a>."
 
 #: js/src/about/About.js:37
 msgid "Device"
-msgstr ""
+msgstr "Készülék"
 
 #: js/src/about/About.js:45
 #, fuzzy
@@ -54,11 +61,11 @@ msgstr "Kernel verzió"
 
 #: js/src/about/About.js:53
 msgid "Turris OS version"
-msgstr ""
+msgstr "Turris OS verzió"
 
 #: js/src/about/About.js:58
 msgid "Turris OS branch"
-msgstr ""
+msgstr "Turris OS fejlesztési ág"
 
 #: js/src/about/About.js:80
 msgid "Kernel version"
@@ -129,17 +136,20 @@ msgstr "Aktív"
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:63
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:44
 msgid "Never"
-msgstr ""
+msgstr "Soha"
 
 #: js/src/common/network/DHCP6Clients.js:69
 msgid "IPv6 DHCP Client List"
-msgstr ""
+msgstr "IPv6 DHCP klienslista"
 
 #: js/src/common/network/DHCP6Clients.js:71
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections using IPv6."
 msgstr ""
+"Ez a lista tartalmazza az összes olyan eszközt, amely vezetékes vagy "
+"vezeték nélküli kapcsolaton keresztül csatlakozik a hálózathoz IPv6 "
+"használatával."
 
 #: js/src/common/network/DHCP6Clients.js:77
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:20
@@ -152,7 +162,7 @@ msgstr "Nincs DHCP ügyfél."
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:200
 msgid "Device is active"
-msgstr ""
+msgstr "A készülék aktív"
 
 #: js/src/common/network/DHCP6Clients.js:104
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:71
@@ -171,13 +181,15 @@ msgstr "DHCP-gépnév"
 
 #: js/src/common/network/DHCPClients.js:24
 msgid "DHCP Client List"
-msgstr ""
+msgstr "DHCP-kliensek listája"
 
 #: js/src/common/network/DHCPClients.js:26
 msgid ""
 "This list contains all devices that are connected to the network through "
 "wired or wireless connections."
 msgstr ""
+"Ez a lista tartalmazza az összes olyan eszközt, amely vezetékes vagy "
+"vezeték nélküli kapcsolaton keresztül csatlakozik a hálózathoz."
 
 #: js/src/common/network/DHCPServerForm.js:13
 msgid ""
@@ -213,7 +225,7 @@ msgstr "Az értéknek pozitívnak kell lennie."
 
 #: js/src/common/network/DHCPValidators.js:86
 msgid "Invalid network settings. DHCP settings can't be validated."
-msgstr ""
+msgstr "Érvénytelen hálózati beállítások. A DHCP-beállítások nem érvényesíthetők."
 
 #: js/src/common/network/DHCPValidators.js:99
 msgid "Minimum lease time is 1 hour."
@@ -226,17 +238,21 @@ msgstr "Az útválasztó IP-címe a vendég belső hálózatában."
 
 #: js/src/common/network/DHCPValidators.js:118
 msgid "Address is already reserved for other purposes."
-msgstr ""
+msgstr "A cím már más célokra van fenntartva."
 
 #: js/src/common/network/DHCPValidators.js:129
 msgid "Too many addresses requested. Set a lower number or change DHCP start."
 msgstr ""
+"Túl sok cím lett igényelve. Állítson be alacsonyabb számot, vagy "
+"módosítsa a DHCP kezdőcímét."
 
 #: js/src/common/network/DHCPValidators.js:136
 msgid ""
 "The only DHCP lease is the same as router's address. Increase limit or "
 "change start address."
 msgstr ""
+"Az egyetlen DHCP-bérlet megegyezik az útválasztó címével. Növelje a "
+"korlátot, vagy módosítsa a kezdőcímet."
 
 #: js/src/common/network/StaticIPForm.js:14 js/src/wan/WAN6Form.js:36
 msgid ""
@@ -281,9 +297,8 @@ msgstr "Ez nem érvényes hálózati maszk."
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:27
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:80
-#, fuzzy
 msgid "IPv4 Address"
-msgstr "IP-cím"
+msgstr "IPv4 cím"
 
 #: js/src/common/network/DHCPClients/DHCPClientsTable.js:28
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:84
@@ -294,57 +309,51 @@ msgstr "MAC-cím"
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:72
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesAddButton.js:25
 msgid "Add static lease"
-msgstr ""
+msgstr "Statikus bérlet hozzáadása"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:68
 msgid "Edit static lease"
-msgstr ""
+msgstr "Statikus bérlet szerkesztése"
 
 #: js/src/common/network/DHCPClients/DHCPClientsWithStaticLeases.js:70
 msgid "Set static lease"
-msgstr ""
+msgstr "Statikus bérlet beállítása"
 
 #: js/src/common/network/DHCPClients/hooks.js:71
-#, fuzzy
 msgid "Static lease deleted successfully."
-msgstr "A továbbító hozzáadása sikeresen megtörtént."
+msgstr "A statikus bérlet sikeresen törölve."
 
 #: js/src/common/network/DHCPClients/hooks.js:76
-#, fuzzy
 msgid "Can't delete static lease."
-msgstr "A DNS-továbbító nem törölhető."
+msgstr "Nem sikerült törölni a statikus bérletet."
 
 #: js/src/common/network/DHCPClients/hooks.js:107
-#, fuzzy
 msgid "Static lease added successfully."
-msgstr "A továbbító hozzáadása sikeresen megtörtént."
+msgstr "A statikus bérlet hozzáadása sikeresen megtörtént."
 
 #: js/src/common/network/DHCPClients/hooks.js:125
-#, fuzzy
 msgid "Static saved successfully."
-msgstr "A továbbító mentése sikeresen megtörtént."
+msgstr "Statikus bérlet sikeresen mentve."
 
 #: js/src/common/network/DHCPClients/hooks.js:166
-#, fuzzy
 msgid "Hostname cannot be empty."
-msgstr "A feladó neve nem lehet üres."
+msgstr "A gazdanév nem lehet üres."
 
 #: js/src/common/network/DHCPClients/hooks.js:170
-#: js/src/portForwarding/hooks.js:244
+#: js/src/portForwarding/hooks.js:246
 msgid "IPv4 address cannot be empty."
-msgstr ""
+msgstr "Az IPv4-cím nem lehet üres."
 
 #: js/src/common/network/DHCPClients/hooks.js:174
-#, fuzzy
 msgid "MAC address cannot be empty."
-msgstr "Nem lehet üres."
+msgstr "A MAC-cím nem lehet üres."
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:75
 #: js/src/dns/DNSSECDisableModal.js:48
 #: js/src/guide/GuideControls/SkipGuideButton.js:87
 #: js/src/notificationsSettings/TestNotification.js:161
 msgid "Cancel"
-msgstr "Mégse"
+msgstr "Mégsem"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModal.js:82
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:115
@@ -354,27 +363,25 @@ msgstr "Mentés"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:50
 msgid "List of available hostnames"
-msgstr ""
+msgstr "Az elérhető hostnevek listája"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:62
-#, fuzzy
 msgid "IPv4 address"
-msgstr "IP-cím"
+msgstr "IPv4-cím"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:74
 #: js/src/portForwarding/PortForwardingRulesForm.js:71
 msgid "List of available IPv4 addresses"
-msgstr ""
+msgstr "Elérhető IPv4-címek listája"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:88
 #: js/src/interfaces/SelectedInterface.js:139
-#, fuzzy
 msgid "MAC address"
-msgstr "IP-cím"
+msgstr "MAC-cím"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesModalForm.js:100
 msgid "List of available MAC addresses"
-msgstr ""
+msgstr "Az elérhető MAC-címek listája"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:100
 #: js/src/dns/Forwarders/ForwardersTable.js:40
@@ -396,7 +403,7 @@ msgstr "Törlés"
 
 #: js/src/common/network/DHCPClients/StaticLeases/StaticLeasesTable.js:186
 msgid "Set Static"
-msgstr ""
+msgstr "Állítsd statikusra"
 
 #: js/src/connectionTest/ConnectionTestButton.js:27
 #, fuzzy
@@ -428,24 +435,20 @@ msgid "IPv6 gateway connectivity"
 msgstr "IPv6-átjáró kapcsolat"
 
 #: js/src/connectionTest/ConnectionTestResult.js:86
-#, fuzzy
 msgid "Connection test successful"
-msgstr "Kapcsolat ellenőrzése"
+msgstr "A hálózati kapcsolat tesztelése sikeres"
 
 #: js/src/connectionTest/ConnectionTestResult.js:91
-#, fuzzy
 msgid "Connection test failed"
-msgstr "Kapcsolat ellenőrzése"
+msgstr "A kapcsolat tesztelése nem sikerült"
 
 #: js/src/connectionTest/ConnectionTestResult.js:96
-#, fuzzy
 msgid "Connection test cannot be determined"
-msgstr "Kapcsolat ellenőrzése"
+msgstr "Kapcsolat tesztelésének eredménye nem állapítható meg"
 
 #: js/src/connectionTest/ConnectionTestResult.js:101
-#, fuzzy
 msgid "Connection test not started"
-msgstr "Kapcsolat ellenőrzése"
+msgstr "A kapcsolat tesztelése nem indult el"
 
 #: js/src/dns/DNS.js:33
 msgid ""
@@ -453,6 +456,9 @@ msgid ""
 "capable of working independently or it can forward your DNS queries your "
 "internet service provider's DNS resolver."
 msgstr ""
+"A Turris útválasztór saját, DNSSEC-támogatással rendelkező DNS-feloldót "
+"használ. Képes önállóan működni, vagy továbbíthatja a DNS-lekérdezéseit "
+"az internetszolgáltató DNS-feloldójához."
 
 #: js/src/dns/DNS.js:38
 msgid ""
@@ -461,6 +467,10 @@ msgid ""
 "works properly. If it does not work for some reason, it is necessary to "
 "use direct resolving without forwarding."
 msgstr ""
+"A következő beállítás határozza meg a DNS-feloldó viselkedését. Általában"
+" jobb az internetszolgáltató feloldóját használni azokban a hálózatokban,"
+" ahol megfelelően működik. Ha valamilyen okból nem működik, akkor "
+"közvetlen feloldást kell használni továbbítás nélkül."
 
 #: js/src/dns/DNS.js:44
 msgid ""
@@ -472,6 +482,14 @@ msgid ""
 "<b>recommend keeping DNSSEC turned on</b> and resolving the situation "
 "with your ISP as this is a serious flaw on their side."
 msgstr ""
+"Ritka esetekben az internetszolgáltatók nem megfelelően konfigurált "
+"hálózattal rendelkeznek, ami zavarja a DNSSEC érvényesítését. Ha "
+"problémákat tapasztal a DNS-sel, <b>ideiglenesen</b> letilthatja a DNSSEC"
+" érvényesítését, hogy megállapítsa a probléma forrását. Ne feledje "
+"azonban, hogy DNSSEC érvényesítés nélkül sebezhető a DNS-hamisítási "
+"támadásokkal szemben! Ezért <b>javasoljuk, hogy tartsa bekapcsolva a "
+"DNSSEC-et</b> és rendezze a helyzetet az internetszolgáltatójával, mivel "
+"ez az ő oldalukon fennálló súlyos hiba."
 
 #: js/src/dns/DNS.js:63 js/src/overview/Cards/ConnectionTestCard.js:21
 #: js/src/wan/WAN.js:51
@@ -479,18 +497,15 @@ msgid "Connection Test"
 msgstr "Kapcsolat ellenőrzése"
 
 #: js/src/dns/DNS.js:66
-#, fuzzy
 msgid ""
 "Here you can test your internet connection. This test is also useful when"
 " you need to check that your DNS resolving works as expected. Remember to"
 " click on the <b>Save button</b> if you changed your forwarder setting."
 msgstr ""
-"\n"
 "Itt tesztelheti az internetkapcsolatot. Ez a teszt akkor is hasznos, ha "
-"ellenőriznie kell, hogy a DNS-feloldás \n"
-"a várt módon működik. Ne felejtsen el a <b>Mentés gombra</b> kattintani, "
-"ha módosította a továbbító beállítást.\n"
-"        "
+"ellenőriznie kell, hogy a DNS-feloldás a várt módon működik. Ne felejtsen"
+" el a <b>Mentés gombra</b> kattintani, ha módosította az átirányítás "
+"beállításait."
 
 #: js/src/dns/DNSForm.js:17
 msgid ""
@@ -509,13 +524,12 @@ msgstr ""
 "és \"my.lan\" tartomány eredménye \"android-123.my.lan\" lesz."
 
 #: js/src/dns/DNSForm.js:67
-#, fuzzy
 msgid "DNS Settings"
-msgstr "Frissítés beállítása"
+msgstr "DNS-beállítások"
 
 #: js/src/dns/DNSForm.js:84
 msgid "Use forwarding"
-msgstr "Továbbítás használata"
+msgstr "Átirányítás használata"
 
 #: js/src/dns/DNSForm.js:100
 msgid "Enable DNSSEC"
@@ -534,6 +548,8 @@ msgid ""
 "DNSSEC is a security technology that protects DNS communication against "
 "attacks on the DNS infrastructure."
 msgstr ""
+"A DNSSEC egy olyan biztonsági technológia, amely megvédi a DNS-"
+"kommunikációt a DNS-infrastruktúrát érő támadásokkal szemben."
 
 #: js/src/dns/DNSSECDisableModal.js:17
 msgid ""
@@ -541,10 +557,13 @@ msgid ""
 "that you will be connecting your device to the network where DNSSEC is "
 "broken."
 msgstr ""
+"Nyomatékosan javasoljuk, hogy hagyja bekapcsolva a DNSSEC-ellenőrzést, "
+"kivéve, ha tudja, hogy olyan hálózathoz fogja csatlakoztatni az eszközét,"
+" ahol a DNSSEC hibásan működik."
 
 #: js/src/dns/DNSSECDisableModal.js:21
 msgid "Do you still want to continue and stay unprotected?"
-msgstr ""
+msgstr "Még mindig folytatni szeretnéd és védtelen maradni?"
 
 #: js/src/dns/DNSSECDisableModal.js:56
 msgid "Disable DNSSEC"
@@ -568,13 +587,14 @@ msgid "Use provider's DNS resolver"
 msgstr "A szolgáltató DNS-feloldójának használata"
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:24
-#, fuzzy
 msgid "Base 64 encoded SHA-256."
-msgstr "base64 kódolt sha256."
+msgstr "Base64 kódolású SHA-256."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:25
 msgid "\"No TLS\" means that the regular UDP-base DNS protocol is used."
 msgstr ""
+"„Nincs TLS” azt jelenti, hogy a szokásos UDP-alapú DNS-protokolt "
+"használják."
 
 #: js/src/dns/Forwarders/Forwarder/ForwarderForm.js:46
 #: js/src/packageManagement/updates/UpdateApproval.js:142
@@ -694,6 +714,8 @@ msgid ""
 "This option enables you to set a bandwidth limit for the guest network, "
 "so that your main network doesn't get slowed-down by it."
 msgstr ""
+"Ezzel a beállítással sávszélesség-korlátot állíthat be a "
+"vendéghálózathoz, hogy az ne lassítsa le a fő hálózatot."
 
 #: js/src/guestNetwork/GuestNetworkForm.js:25
 msgid "Download speed in guest network (in kilobits per second)."
@@ -749,6 +771,9 @@ msgid ""
 "here will become fully functional after you assign a network interface to"
 " this network."
 msgstr ""
+"Ez a hálózat jelenleg nem tartalmaz eszközöket. Az itt végrehajtott "
+"módosítások akkor válnak teljesen működőképessé, miután hozzárendel egy "
+"hálózati interfészt ehhez a hálózathoz."
 
 #: js/src/guestNetwork/GuestNetworkNotification.js:17
 msgid "All network interfaces of this network are currently down."
@@ -759,6 +784,8 @@ msgid ""
 "Welcome to reForis web interface. This guide will help you to setup your "
 "device."
 msgstr ""
+"Üdvözöljük a reForis webes felületén. Ez az útmutató segít a készülék "
+"beállításában."
 
 #: js/src/guide/constants.js:16
 #, fuzzy
@@ -867,12 +894,16 @@ msgid ""
 "If you choose not to accept it, Sentinel will remain installed and "
 "accessible from the sidebar navigation, but it will not be active."
 msgstr ""
+"Ha úgy dönt, hogy nem fogadja el, a Sentinel továbbra is telepítve marad,"
+" és elérhető lesz az oldalsáv navigációjából, de nem lesz aktív."
 
 #: js/src/guide/constants.js:73
 msgid ""
 "Sentinel is now set up. You can check its status and settings in the "
 "sidebar navigation."
 msgstr ""
+"A Sentinel most be van állítva. Ellenőrizheti állapotát és beállításait "
+"az oldalsáv navigációjában."
 
 #: js/src/guide/constants.js:78
 msgid "Now you need to configure automatic updates on your device."
@@ -884,7 +915,7 @@ msgstr "Kérem várjon, míg a Frissítéskezelő befejezi a munkát."
 
 #: js/src/guide/constants.js:90
 msgid "Congratulations! Now your device is ready to be used."
-msgstr ""
+msgstr "Gratulálunk! Készüléke most már használatra kész."
 
 #: js/src/guide/constants.js:96
 msgid ""
@@ -910,6 +941,10 @@ msgid ""
 "Shield will try to connect to the Internet, and you will end up in the "
 "administration interface."
 msgstr ""
+"A készülék már készen áll a használatra. A beállítás többi részét "
+"módosíthatja az adminisztrációs felületen. Miután befejezte az útmutatót,"
+" a Shield megpróbál csatlakozni az internethez, és visszalépteti az "
+"adminisztrációs felületre."
 
 #: js/src/guide/constants.js:123
 msgid ""
@@ -1040,7 +1075,7 @@ msgstr "Következő lépés"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:50
 msgid "Skip"
-msgstr ""
+msgstr "Kihagyás"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:70
 #, fuzzy
@@ -1049,18 +1084,21 @@ msgstr "Biztosan újraindítja az útválasztót?"
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:72
 msgid "This will skip the guide and you will be redirected to the overview page."
-msgstr ""
+msgstr "Ez kihagyja az útmutatót, és átirányít az áttekintő oldalra."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:77
 msgid ""
 "Settings that are not set up during the guide will be set to default "
 "values. And you will have to set them up manually."
 msgstr ""
+"Azok a beállítások, amelyeket az útmutató során nem állít be, az "
+"alapértelmezett értékekre kerülnek. Ezeket később kézzel kell majd "
+"beállítania."
 
 #: js/src/guide/GuideControls/SkipGuideButton.js:90
 #: js/src/notificationsSettings/TestNotification.js:163
 msgid "Confirm"
-msgstr "Megerősítés"
+msgstr "Megerősít"
 
 #: js/src/guide/GuidePages/GuideFinish.js:20
 msgid "Guide Finished"
@@ -1100,15 +1138,20 @@ msgid ""
 "attackers in real time. Sentinel is made up of several key components, "
 "including "
 msgstr ""
+"A Turris Sentinel egy fejlett biztonsági rendszer, amelyet arra "
+"terveztek, hogy megvédje routerét és hálózatát a kiberfenyegetésekkel "
+"szemben. Folyamatosan figyeli és elemzi a Turris eszközök jelentéseit "
+"világszerte, hogy valós időben észlelje és blokkolja a támadókat. A "
+"Sentinel több kulcsfontosságú összetevőből áll, többek között "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:17
 #: js/src/overview/Cards/ThreatDetectionCard.js:62
 msgid "Threat Detection"
-msgstr ""
+msgstr "Fenyegetésészlelés"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:25
 msgid ", which utilizes minimal honeypots and firewall logging, the "
-msgstr ""
+msgstr ", amely minimális csalikat és tűzfalnaplózást használ, a "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:33
 #, fuzzy
@@ -1120,6 +1163,8 @@ msgid ""
 "for real-time threat prevention, and a centralized database that tracks "
 "and identifies potential attackers."
 msgstr ""
+"valós idejű fenyegetésmegelőzéshez, valamint egy központosított "
+"adatbázist, amely nyomon követi és azonosítja a potenciális támadókat."
 
 #: js/src/guide/GuidePages/SentinelDescription.js:46
 msgid ""
@@ -1127,14 +1172,18 @@ msgid ""
 "helps protect not only your own device but also other users. You can "
 "explore real-time security insights and attack statistics on "
 msgstr ""
+"A Sentinel engedélyezésével hozzájárulsz egy globális biztonsági "
+"hálózathoz, amely nemcsak a saját eszközöd, hanem más felhasználók "
+"védelmét is segíti. Valós idejű biztonsági információkat és támadási "
+"statisztikákat tekinthetsz meg a(z) "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:54
 msgid "Sentinel View"
-msgstr ""
+msgstr "Sentinel nézet"
 
 #: js/src/guide/GuidePages/SentinelDescription.js:63
 msgid " For a detailed overview of how Sentinel works, visit the "
-msgstr ""
+msgstr " A Sentinel működésének részletes áttekintéséhez látogasson el a "
 
 #: js/src/guide/GuidePages/SentinelDescription.js:71
 #, fuzzy
@@ -1156,16 +1205,20 @@ msgid ""
 "I accept the <a href='#'>Terms of Participation in Turris Project (Data "
 "Collection)</a>."
 msgstr ""
+"Elfogadom a <a href='#'>Turris Projekt (Adatgyűjtés) részvételi "
+"feltételeit</a>."
 
 #: js/src/guide/GuidePages/SentinelEULA.js:86
 msgid ""
 "I do not accept the <a href='#'>Terms of Participation in Turris Project "
 "(Data Collection)</a>."
 msgstr ""
+"Nem fogadom el a <a href='#'>Turris projektben való részvétel feltételeit"
+" (adatgyűjtés)</a>."
 
 #: js/src/guide/GuidePages/SentinelEULAModal.js:59
 msgid "Terms of Participation in Turris Project (Data Collection)"
-msgstr ""
+msgstr "A Turris projektben való részvétel feltételei (adatgyűjtés)"
 
 #: js/src/guide/GuidePages/WorkflowSelect.js:26
 msgid ""
@@ -1246,7 +1299,7 @@ msgstr ""
 
 #: js/src/hostname/HostnameForm.js:14
 msgid "Rewrite the hostname to set a new one."
-msgstr ""
+msgstr "Írja át a gazdagépnevet, hogy újat állítson be."
 
 #: js/src/hostname/HostnameForm.js:34
 #, fuzzy
@@ -1409,6 +1462,8 @@ msgid ""
 "This section contains settings for the local network (LAN). The provided "
 "defaults are suitable for most networks."
 msgstr ""
+"Ez a szakasz a helyi hálózat (LAN) beállításait tartalmazza. A megadott "
+"alapértelmezett beállítások a legtöbb hálózathoz megfelelőek."
 
 #: js/src/lan/LAN.js:29
 msgid ""
@@ -1420,12 +1475,22 @@ msgid ""
 "obtain a new IP from DHCP (if DHCP is enabled), and you might need to "
 "<b>refresh the page</b> in your browser."
 msgstr ""
+"<b>Megjegyzés:</b> Ha megváltoztatja az útválasztó IP-címét, a LAN-on "
+"található összes számítógépnek, valószínűleg az Ön által jelenleg "
+"használt számítógépnek is <b>új IP-címet</b> kell kapnia, ami nem "
+"történik meg <b>azonnal</b>. A módosítások elküldése után ajánlott az "
+"összes LAN-kábelt kihúzni, majd újra csatlakoztatni a frissítés "
+"kikényszerítéséhez. A következő oldal nem töltődik be addig, amíg nem kap"
+" új IP-címet a DHCP-től (ha a DHCP engedélyezve van), és előfordulhat, "
+"hogy <b>frissítenie kell az oldalt</b> a böngészőben."
 
 #: js/src/lan/LANForm.js:19
 msgid ""
 "Router mode means that this device manages the LAN (acts as a router, can"
 " assign IP addresses, etc.)."
 msgstr ""
+"A router mód azt jelenti, hogy ez az eszköz kezeli a LAN-t (routerként "
+"működik, IP-címeket tud kiosztani stb.)."
 
 #: js/src/lan/LANForm.js:22
 msgid ""
@@ -1433,6 +1498,9 @@ msgid ""
 " acts similarly to WAN, but it has opened ports for configuration "
 "interfaces and other services."
 msgstr ""
+"A számítógépes mód azt jelenti, hogy ez az eszköz kliensként működik "
+"ebben a hálózatban. Hasonlóan működik, mint a WAN, de nyitott portokkal "
+"rendelkezik a konfigurációs interfészek és más szolgáltatások számára."
 
 #: js/src/lan/LANForm.js:34
 msgid "Computer"
@@ -1506,11 +1574,11 @@ msgstr "Értesítések"
 
 #: js/src/main/pages.js:96 js/src/maintenance/Maintenance.js:19
 msgid "Maintenance"
-msgstr ""
+msgstr "Karbantartás"
 
 #: js/src/main/pages.js:112
 msgid "Global Threat Statistics"
-msgstr ""
+msgstr "Globális fenyegetési statisztikák"
 
 #: js/src/main/pages.js:119
 msgid "Package Management"
@@ -1545,35 +1613,33 @@ msgstr "Kijelentkezés"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:20
 msgid "Light"
-msgstr ""
+msgstr "Világos"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:25
 msgid "Dark"
-msgstr ""
+msgstr "Sötét"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:30
-#, fuzzy
 msgid "Auto"
-msgstr "Névjegy"
+msgstr "Automatikus"
 
 #: js/src/main/TopBar/darkModeDropdown/DarkModeDropdown.js:77
-#, fuzzy
 msgid "Theme"
-msgstr "Idő"
+msgstr "Téma"
 
 #: js/src/main/TopBar/languagesDropdown/LanguagesDropdown.js:102
 msgid "Participate in translation"
-msgstr ""
+msgstr "Vegyen részt a fordításban"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:38
 #: js/src/notifications/Notifications/Notifications.js:56
 msgid "No notifications"
-msgstr "Nincs értesítés"
+msgstr "Nincsenek értesítések"
 
 #: js/src/main/TopBar/notificationsDropdown/NotificationsDropdownMenu.js:108
 #: js/src/notifications/Notifications/DismissAllButton.js:26
 msgid "Dismiss all"
-msgstr "Mindet elvetni"
+msgstr "Összes elvetése"
 
 #: js/src/main/TopBar/rebootDropdown/RebootDropdown.js:59
 msgid "Reboot Required"
@@ -1588,15 +1654,13 @@ msgid "Approve Update"
 msgstr "Frissítés jóváhagyása"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:132
-#, fuzzy
 msgid "See details in "
-msgstr "További részletek"
+msgstr "További részleteket lásd "
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:134
 #: js/src/portForwarding/PortForwarding.js:65
-#, fuzzy
 msgid " page."
-msgstr "Csomagok"
+msgstr " oldalon"
 
 #: js/src/main/TopBar/updatesDropdown/UpdatesDropdown.js:141
 #: js/src/packageManagement/updates/UpdateApproval.js:120
@@ -1610,7 +1674,7 @@ msgstr "A frissítések nem telepíthetők."
 
 #: js/src/maintenance/FactoryReset.js:17 js/src/maintenance/FactoryReset.js:49
 msgid "Factory Reset"
-msgstr ""
+msgstr "Gyári beállítások visszaállítása"
 
 #: js/src/maintenance/FactoryReset.js:19
 msgid ""
@@ -1619,52 +1683,53 @@ msgid ""
 "brings back all the default settings of the device as it was when the "
 "router was new, giving you a clean slate to start all over again."
 msgstr ""
+"A Turris eszközön végzett gyári visszaállítás eltávolítja az eszközre "
+"telepített összes csomagot, a velük kapcsolatos adatokkal együtt. Ez "
+"visszaállítja az eszköz alapértelmezett állapotába, ahogy új korában "
+"volt, így tiszta lappal kezdheti újra elölről a beállításokat."
 
 #: js/src/maintenance/FactoryReset.js:29
-#, fuzzy
 msgid "Are you sure you want to reset the router?"
-msgstr "Biztosan újraindítja az útválasztót?"
+msgstr "Biztosan visszaállítja alapállapotba az útválasztót?"
 
 #: js/src/maintenance/FactoryReset.js:32
 msgid "Reset"
-msgstr ""
+msgstr "Visszaállítás"
 
 #: js/src/maintenance/FactoryReset.js:34
-#, fuzzy
 msgid "The router has been reset successfully."
-msgstr "A továbbító mentése sikeresen megtörtént."
+msgstr "Az útválasztó alaphelyzetbe állítása sikeresen megtörtént."
 
 #: js/src/maintenance/FactoryReset.js:37
-#, fuzzy
 msgid "An error occurred while resetting the router."
-msgstr "Hiba történt"
+msgstr "Hiba történt a router visszaállítása közben."
 
 #: js/src/maintenance/Maintenance.js:21
 msgid ""
 "The Maintenance tab allows you to reboot the router or bring back all the"
 " default settings by performing a factory reset."
 msgstr ""
+"A Karbantartás fül lehetővé teszi az útválasztó újraindítását, vagy az "
+"összes alapértelmezett beállítás visszaállítását gyári visszaállítás "
+"elvégzésével."
 
 #: js/src/maintenance/Reboot.js:19
-#, fuzzy
 msgid ""
 "If you need to reboot the device, click on the following button. The "
 "reboot process takes approximately 30 seconds, and then you will be "
 "required to log in again."
 msgstr ""
-"\n"
-"A készülék újraindításához kattintson a következő gombra. Az újraindítás "
-"folyamata körülbelül 30 másodpercet vesz igénybe,\n"
-"amely után újra be kell jelentkeznie.\n"
-"    "
+"Ha újra kell indítania az eszközt, kattintson a következő gombra. Az "
+"újraindítási folyamat körülbelül 30 másodpercet vesz igénybe, majd újra "
+"be kell jelentkeznie."
 
 #: js/src/maintenance/Syslog/Syslog.js:49
 msgid "A drive has to be configured first."
-msgstr ""
+msgstr "Először be kell állítani egy meghajtót."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:30
 msgid "System Logs Retention"
-msgstr ""
+msgstr "Rendszernaplók megőrzése"
 
 #: js/src/maintenance/Syslog/SyslogForm.js:32
 msgid ""
@@ -1672,6 +1737,10 @@ msgid ""
 " saving system logs using the Storage plugin. Logs are saved into "
 "'/srv/log/messages'."
 msgstr ""
+"Az eszköz újraindításakor, a rendszernaplók alapértelmezés szerint "
+"elvesznek. Ez a beállítás lehetővé teszi a rendszernaplók mentését a "
+"Storage bővítmény használatával. A naplók a következő helyre kerülnek "
+"mentésre: '/srv/log/messages'."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:38
 #, python-brace-format
@@ -1680,16 +1749,19 @@ msgid ""
 "href=\"${ForisURLs.storage}\" title=\"Go to Storage plugin\">Storage "
 "plugin</a> first."
 msgstr ""
+"Hogy engedélyezze ezt az opciót, először konfigurálnia kell a tárolást a "
+"<a href=\"${ForisURLs.storage}\" title=\"Ugrás a Tárolás "
+"bővítményre\">Tárolás bővítmény</a>ben."
 
 #: js/src/maintenance/Syslog/SyslogForm.js:44
 msgid "Enable System Logs Retention"
-msgstr ""
+msgstr "Rendszernaplók megőrzésének engedélyezése"
 
 #: js/src/notifications/Notifications/NotificationsList.js:99
 #: js/src/packageManagement/updateSettings/LicenseModal.js:37
 #: js/src/portForwarding/PortForwardingRulesModal.js:58
 msgid "Close"
-msgstr ""
+msgstr "Bezárás"
 
 #: js/src/notificationsSettings/CommonForm.js:17
 msgid "Reboot is required"
@@ -1701,12 +1773,11 @@ msgstr "Újraindítás vagy figyelem szükséges"
 
 #: js/src/notificationsSettings/CommonForm.js:19
 msgid "Reboot or attention is required or update was installed"
-msgstr "Újraindítás, figyelem szükséges vagy frissítés történt"
+msgstr "Újraindítás vagy figyelem szükséges, vagy a frissítés települt"
 
 #: js/src/notificationsSettings/CommonForm.js:44
-#, fuzzy
 msgid "General Notification Settings"
-msgstr "Értesítések"
+msgstr "Általános értesítési beállítások"
 
 #: js/src/notificationsSettings/CommonForm.js:46
 msgid "Importance"
@@ -1717,21 +1788,20 @@ msgid "Send news"
 msgstr "Hírek küldése"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:31
-#, fuzzy
 msgid ""
 "Your device can send you e-mail notifications about required reboots, "
 "important events, installed updates, and new features according to your "
 "settings. Once you are done with the configuration, you can test it by "
 "pressing Send test notification. Additionally, you can use "
 msgstr ""
-"A készülék e-mailben értesítéseket küldhet a szükséges újraindításokról, "
+"Az eszközöd e-mailes értesítéseket küldhet a szükséges újraindításokról, "
 "fontos eseményekről, telepített frissítésekről és új funkciókról a "
-"beállításoknak megfelelően. Ha végzett a konfigurációval, tesztelheti a "
-"Tesztértesítés küldése gomb megnyomásával."
+"beállításaid szerint. Miután végeztél a konfigurációval, tesztelheted a "
+"Tesztértesítés küldése gombra kattintva. Ezen felül használhatod "
 
 #: js/src/notificationsSettings/NotificationsSettings.js:39
 msgid "ntfy"
-msgstr ""
+msgstr "ntfy"
 
 #: js/src/notificationsSettings/NotificationsSettings.js:47
 msgid ""
@@ -1739,6 +1809,9 @@ msgid ""
 "or desktop. ntfy allows you to subscribe to topics and get instant alerts"
 " without the need for email."
 msgstr ""
+" hogy valós idejű push értesítéseket kapjon közvetlenül mobileszközére "
+"vagy asztali számítógépére. Az ntfy lehetővé teszi, hogy témákra "
+"iratkozzon fel, és azonnali értesítéseket kapjon e-mail nélkül."
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:19
 msgid "Turris"
@@ -1749,9 +1822,8 @@ msgid "Custom"
 msgstr "Egyéni"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:90
-#, fuzzy
 msgid "Email Notification Settings"
-msgstr "Értesítések"
+msgstr "E-mail értesítési beállítások"
 
 #: js/src/notificationsSettings/NotificationsSettingsEmailForm.js:92
 #, fuzzy
@@ -1768,7 +1840,7 @@ msgstr "Címzett e-mail címe"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:14
 msgid "Max"
-msgstr ""
+msgstr "Maximális"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:15
 #, fuzzy
@@ -1777,7 +1849,7 @@ msgstr "Jelenlegi"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:16
 msgid "High"
-msgstr ""
+msgstr "Magas"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:17
 #, fuzzy
@@ -1786,7 +1858,7 @@ msgstr "Törlés"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:18
 msgid "Low"
-msgstr ""
+msgstr "Alacsony"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:19
 #, fuzzy
@@ -1805,17 +1877,17 @@ msgstr "E-mail értesítések engedélyezése"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:68
 msgid "URL"
-msgstr ""
+msgstr "URL-cím"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:76
 msgid ""
 "Specify the URL to the ntfy server topic. Example format: "
 "https://ntfy.sh/example"
-msgstr ""
+msgstr "Adja meg az ntfy-téma URL-jét. Példa: https://ntfy.sh/example"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:83
 msgid "Priority"
-msgstr ""
+msgstr "Prioritás"
 
 #: js/src/notificationsSettings/NotificationsSettingsPushForm.js:93
 #, fuzzy
@@ -1882,6 +1954,8 @@ msgid ""
 "Here you can verify whether your SMTP provider or push notifications are "
 "configured correctly by sending a test notification."
 msgstr ""
+"Itt ellenőrizheti, hogy az SMTP-szolgáltatója vagy a push értesítések "
+"megfelelően vannak-e konfigurálva egy tesztértesítés küldésével."
 
 #: js/src/notificationsSettings/TestNotification.js:130
 #, fuzzy
@@ -1907,6 +1981,9 @@ msgid ""
 "choose to receive notifications about all events or only about those that"
 " require your attention."
 msgstr ""
+"Az értesítés fontosságától vagy súlyosságától függően kiválaszthatja, "
+"hogy minden eseményről, vagy csak azokról kapjon értesítést, amelyek "
+"figyelmet igényelnek."
 
 #: js/src/notificationsSettings/helpTexts.js:18
 msgid "Email address of recipient. Separate multiple addresses by comma."
@@ -1922,6 +1999,8 @@ msgid ""
 "Name of the sender that will be used before the \"at\" symbol in the "
 "email address. For example: \"home-router@notify.turis.cz\""
 msgstr ""
+"A feladó neve, amelyet az e-mail címben a \"kukac\" szimbólum előtt kell "
+"használni. Például: \"home-router@notify.turis.cz\""
 
 #: js/src/notificationsSettings/helpTexts.js:29
 msgid "This is the address notifications are send from."
@@ -1961,17 +2040,16 @@ msgid "Automatic Updates"
 msgstr "Automatikus frissítések"
 
 #: js/src/overview/Cards/AutomaticUpdatesCard.js:49
-#, fuzzy
 msgid "Go to update settings"
-msgstr "Frissítés beállítása"
+msgstr "Ugrás a frissítési beállításokhoz"
 
 #: js/src/overview/Cards/Card.js:35
 msgid "Refresh"
-msgstr ""
+msgstr "Frissítés"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Activated"
-msgstr "Aktivált"
+msgstr "Aktiválva"
 
 #: js/src/overview/Cards/Card.js:58
 msgid "Disabled"
@@ -1982,18 +2060,16 @@ msgid "Dynamic Firewall"
 msgstr "Dinamikus tűzfal"
 
 #: js/src/overview/Cards/DynamicFirewallCard.js:26
-#, fuzzy
 msgid "Go to Dynamic Firewall package installation"
-msgstr "Dinamikus tűzfal"
+msgstr "Ugrás a Dinamikus Tűzfal csomagjának telepítéséhez"
 
 #: js/src/overview/Cards/LibrespeedCard.js:67
-#, fuzzy
 msgid "LibreSpeed"
-msgstr "Kapcsolat sebessége"
+msgstr "LibreSpeed"
 
 #: js/src/overview/Cards/LibrespeedCard.js:69
 msgid "Go to LibreSpeed"
-msgstr ""
+msgstr "Ugrás a LibreSpeedhez"
 
 #: js/src/overview/Cards/LibrespeedCard.js:82
 #: js/src/overview/Cards/LibrespeedCard.js:96
@@ -2011,20 +2087,19 @@ msgstr "Ezredmásodperc"
 
 #: js/src/overview/Cards/LibrespeedCard.js:123
 msgid "Jitter"
-msgstr ""
+msgstr "Késleltetés-ingadozás"
 
 #: js/src/overview/Cards/LibrespeedCard.js:138
-#, fuzzy
 msgid "Server"
-msgstr "Kiszolgáló port"
+msgstr "Szerver"
 
 #: js/src/overview/Cards/LibrespeedCard.js:152
 msgid "Performed"
-msgstr "Elvégzett"
+msgstr "Elvégezve"
 
 #: js/src/overview/Cards/LibrespeedCard.js:158
 msgid "No tests have been performed lately."
-msgstr "Az utóbbi időben nem végeztek vizsgálatokat."
+msgstr "Mostanában nem végeztek teszteket."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:61
 msgid "OpenVPN Clients"
@@ -2032,58 +2107,53 @@ msgstr "OpenVPN Ügyfelek"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:63
 msgid "Go to OpenVPN Client Settings"
-msgstr "Ugrás az OpenVPN-ügyfélbeállításaira"
+msgstr "Ugrás az OpenVPN kliensbeállításaihoz"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:77
 msgid "Currently, there are no connected OpenVPN clients."
-msgstr ""
+msgstr "Jelenleg nincsenek csatlakoztatott OpenVPN-kliensek."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:88
-#, fuzzy
 msgid "There are no OpenVPN clients."
-msgstr "Még nincsenek hozzáadva ügyfelek."
+msgstr "Nincsenek OpenVPN-kliensek."
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:116
-#, fuzzy
 msgid "Total In: "
-msgstr "TLS rögzítés"
+msgstr "Összes bejövő: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:125
 msgid "Total Out: "
-msgstr ""
+msgstr "Összes kimenő: "
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:153
-#, fuzzy
 msgid "Connected"
-msgstr "Újracsatlakozás"
+msgstr "Csatlakozva"
 
 #: js/src/overview/Cards/OpenVPNClientsCard.js:162
 msgid "Disconnected"
-msgstr ""
+msgstr "Lecsatlakozva"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:56
-#, fuzzy
 msgid "Go to Sentinel license agreement"
-msgstr "Legfontosabb licencszerződési pontok"
+msgstr "Ugrás a Sentinel licencszerződéshez"
 
 #: js/src/overview/Cards/ThreatDetectionCard.js:57
-#, fuzzy
 msgid "Go to Sentinel package installation"
-msgstr "Automatikus telepítés"
+msgstr "Ugrás a Sentinel csomag telepítéséhez"
 
 #: js/src/packageManagement/languages/Languages.js:22
-#, fuzzy
 msgid ""
 "If you want to use another language other than English, you can select it"
 " from the following list:"
-msgstr "Angol helyett más nyelv is választható az alábbi listából:"
+msgstr ""
+"Ha az angoltól eltérő nyelvet szeretne használni, kiválaszthatja azt az "
+"alábbi listából:"
 
 #: js/src/packageManagement/packages/PackageCheckBox.js:54
 msgid "More details"
 msgstr "További részletek"
 
 #: js/src/packageManagement/packages/Packages.js:22
-#, fuzzy
 msgid ""
 "Apart from the standard installation, you can optionally select bundles "
 "of additional software that would be installed on the router. This "
@@ -2092,15 +2162,12 @@ msgid ""
 "package lists and not marked as community-supported is supported by the "
 "Turris team."
 msgstr ""
-"\n"
-"A szabványos telepítés mellett lehetősége van kiválasztani további "
-"szoftvercsomagokat, amelyek az útválasztóra lesznek\n"
-"telepítve. Ez a szoftver az alábbi listából választható ki. Kérjük, vegye"
-" figyelembe, hogy csak olyan szoftvereket támogat\n"
-"a Turris csapata , amelyek turrisOS részei vagy egy csomaglistából "
-"telepítettek, amelyek nem jelölték meg, mint közösség\n"
-"által támogatottak.\n"
-"        "
+"A standard telepítésen felül opcionálisan további szoftvercsomagokat is "
+"kiválaszthat, amelyek telepítésre kerülnek az útválasztóra. Ezek a "
+"szoftverek a következő listákból választhatók ki. Felhívjuk figyelmét, "
+"hogy a Turris csapata csak a Turris OS részét képező, illetve a "
+"csomaglistákból telepített és közösségi támogatásúként nem megjelölt "
+"szoftvereket támogatja."
 
 #: js/src/packageManagement/packages/PackagesForm.js:31
 #, fuzzy
@@ -2112,23 +2179,18 @@ msgid "Most Important License Agreement Points"
 msgstr "Legfontosabb licencszerződési pontok"
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:47
-#, fuzzy
 msgid ""
 "By enabling the automatic updates, you confirm that you are the owner of "
 "this Turris router, and you agree with the full text of the "
 msgstr ""
 "Az automatikus frissítések engedélyezésével megerősíti, hogy Ön a "
-"tulajdonosa a Turris Omnia útválasztónak, és egyetért a <a "
-"href=\"https://www.turris.cz/omnia-updater-eula\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">licencszerződés</a> teljes szövegével."
+"tulajdonosa a Turris útválasztónak, és egyetért teljes szövegével a "
 
 #: js/src/packageManagement/updateSettings/LicenseModal.js:55
-#, fuzzy
 msgid "license agreement"
-msgstr "Legfontosabb licencszerződési pontok"
+msgstr "licencszerződésnek"
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:32
-#, fuzzy
 msgid ""
 "The automatic updates system is one of the most important features of the"
 " Turris router. Thanks to this function, your router's software stays up "
@@ -2138,22 +2200,13 @@ msgid ""
 "weaken the security of your router and network in case flaws in the "
 "software are found."
 msgstr ""
-"\n"
-"A Turris útválasztó egyik legfontosabb funkciója az automatikus "
-"rendszerfrissítés. \n"
-"Ennek köszönhetően az útválasztó szoftvere naprakész marad, és jobb "
-"védelmet nyújt az internetes támadások ellen.\n"
-"<br/>\n"
-"Ez a funkció <b>nagyon ajánlott</b>-, hogy  <b>bekapcsolva </b> legyen. "
-"Ha úgy dönt, hogy letiltja, \n"
-"legyen figyelmeztve, hogy ez gyengítheti az útválasztó és a hálózat "
-"biztonságát, ha a szoftver hibája kiderül.\n"
-"<br/>\n"
-"Azzal, hogy bekapcsolja az automatikus frissítéseket, beleegyezik ennek a"
-" funkciónak liszensz megállapodásába. \n"
-"További információ <a href=\"\" data-toggle=\"modal\" data-"
-"target=\"#licenceModal\">itt</a>\n"
-"            "
+"Az automatikus frissítési rendszer a Turris útválasztó egyik legfontosabb"
+" funkciója. Ennek köszönhetően a router szoftvere mindig naprakész marad,"
+" és jobb védelmet nyújt az interneten keresztül érkező támadások "
+"ellen.<br><b>Erősen ajánlott</b>, hogy ez a funkció <b>be legyen "
+"kapcsolva</b>. Ha mégis kikapcsolja, számoljon azzal, hogy ez gyengítheti"
+" az útválasztó és a hálózat biztonságát, amennyiben a szoftverben hibákat"
+" fedeznek fel."
 
 #: js/src/packageManagement/updateSettings/UpdateSettings.js:39
 msgid ""
@@ -2161,32 +2214,41 @@ msgid ""
 "agreement. More information is available <a href=\"\" data-bs-"
 "toggle=\"modal\" data-bs-target=\"#licenseModal\">here</a>."
 msgstr ""
+"Az automatikus frissítések bekapcsolásával elfogadja ennek a funkciónak a"
+" licencszerződését. További információ <a href=\"\" data-bs-"
+"toggle=\"modal\" data-bs-target=\"#licenseModal\">itt</a> érhető el."
 
 #: js/src/packageManagement/updateSettings/points.js:11
 msgid "Automatic updates are offered to Turris routers free of charge."
-msgstr ""
+msgstr "Automatikus frissítések ingyenesen elérhetők a Turris útválasztókhoz."
 
 #: js/src/packageManagement/updateSettings/points.js:17
 msgid "Updates are prepared exclusively by CZ.NIC, z. s. p. o."
-msgstr ""
+msgstr "A frissítéseket kizárólag a CZ.NIC, z. s. p. o. készíti."
 
 #: js/src/packageManagement/updateSettings/points.js:21
 msgid ""
 "Automatic updates must be turned on to get all security features, as some"
 " of them make use of it."
 msgstr ""
+"Az automatikus frissítéseket be kell kapcsolni az összes biztonsági "
+"funkció használatához, mert ezek egy része erre támaszkodik."
 
 #: js/src/packageManagement/updateSettings/points.js:27
 msgid ""
 "Automatic updates take place at the time of their release. The time of "
 "installation cannot be influenced by the user."
 msgstr ""
+"Az automatikus frissítések a megjelenésükkor települnek. A telepítés "
+"időpontját a felhasználó nem befolyásolhatja."
 
 #: js/src/packageManagement/updateSettings/points.js:33
 msgid ""
 "Downloading the automatic updates mean increased Internet traffic. "
 "Potential expenses related to this are covered by you."
 msgstr ""
+"Az automatikus frissítések letöltése megnövekedett internetforgalommal "
+"jár. Az ezzel járó esetleges költségeket Ön viseli."
 
 #: js/src/packageManagement/updateSettings/points.js:39
 msgid ""
@@ -2195,32 +2257,38 @@ msgid ""
 "workstations and other devices by installing antivirus software and "
 "explaining to users how to stay safe on the Internet."
 msgstr ""
+"Az automatikus frissítések nem védenek meg minden, az internetről érkező "
+"támadástól. Tegyen más óvintézkedéseket is: védje a munkaállomásokat és a"
+" többi eszközt vírusirtó telepítésével, és magyarázza el a "
+"felhasználóknak, hogyan maradhatnak biztonságban az interneten."
 
 #: js/src/packageManagement/updateSettings/points.js:45
 msgid ""
 "CZ.NIC, z. s. p. o. is not responsible for any damages caused by the "
 "automatic updates and does not guarantee its availability."
 msgstr ""
+"A CZ.NIC, z. s. p. o. nem vállal felelősséget az automatikus frissítések "
+"által okozott károkért, és nem garantálja azok rendelkezésre állását."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:17
 msgid ""
 "Number of days that must pass between receiving the request for restart "
 "and the automatic restart itself."
 msgstr ""
-"Az újraindítási kérelem és a tényleges automatikus újraindulás között "
-"eltelni szükséges napok száma."
+"Azon napok száma, amelyeknek el kell telniük az újraindítási kérelem "
+"beérkezése és a tényleges automatikus újraindítás között."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:20
 msgid "Time of day of automatic reboot in HH:MM format."
-msgstr "Automatikus újraindulás ideje ÓÓ:PP formátumban."
+msgstr "Automatikus újraindulás ideje Óra:Perc formátumban."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:49
 msgid "Automatic Restarts After Software Update"
-msgstr "Automatikus újraindítás szoftverfrissítés után"
+msgstr "Automatikus újraindítás szoftverfrissítés követően"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:51
 msgid "Delay (days)"
-msgstr "Késleltetés (nap)"
+msgstr "Késleltetés (napok)"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:63
 msgid "Reboot time"
@@ -2228,11 +2296,11 @@ msgstr "Újraindítás ideje"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:88
 msgid "Time should be in HH:MM format."
-msgstr "Az időnek HH:MM formátumban kell lennie."
+msgstr "Az időnek Óra:Perc formátumban kell lennie."
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:91
 msgid "Restart can be delayed by at most 10 days"
-msgstr "Az újraindítás maximum 10 nappal késleltethető"
+msgstr "Az újraindítás legfeljebb 10 nappal késleltethető"
 
 #: js/src/packageManagement/updateSettings/forms/RestartAfterUpdateForm.js:94
 msgid "Delay must be a positive number"
@@ -2244,7 +2312,7 @@ msgstr "Automatikus telepítés"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:17
 msgid "Updates will be installed without user's intervention."
-msgstr "Frissítések telepítése felhasználói beavatkozás nélkül."
+msgstr "Frissítések felhasználói beavatkozás nélkül kerülnek majd telepítésre."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:21
 msgid "Delayed updates"
@@ -2255,20 +2323,20 @@ msgid ""
 "Updates will be installed with an adjustable delay. You can also approve "
 "them manually."
 msgstr ""
-"Frissítések telepítése állítható késleltetéssel. Manuálisan is "
-"jóváhagyhatók."
+"A frissítések telepítése állítható késleltetéssel történik. Manuálisan is"
+" jóváhagyhatja őket."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:28
 msgid "Update approval needed"
-msgstr "Frissítés jóváhagyása szükséges"
+msgstr "A frissítés jóváhagyása szükséges"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:29
 msgid "You have to approve the updates, otherwise they won't be installed."
-msgstr "Jóvá kell hagyni a frissítéseket, különben nem fognak települni."
+msgstr "Jóvá kell hagynia a frissítéseket, különben nem fognak települni."
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:59
 msgid "Update Approvals"
-msgstr "Frissítések jóváhagyása"
+msgstr "Frissítési jóváhagyások"
 
 #: js/src/packageManagement/updateSettings/forms/UpdateApprovalForm.js:61
 msgid ""
@@ -2318,13 +2386,13 @@ msgid_plural "There are %d packages to be updated."
 msgstr[0] "%d csomagot frissíteni kell."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:69
-#, fuzzy
 msgid ""
 "See <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\""
 " aria-expanded=\"false\" aria-controls=\"plan-wrapper\">details</a>"
 msgstr ""
-"Lásd <a data-toggle=\"collapse\" href=\"#plan-wrapper\" role=\"button\" "
-"aria-expanded=\"false\" aria-controls=\"plan-wrapper\">részletek</a>"
+"Lásd <a data-bs-toggle=\"collapse\" href=\"#plan-wrapper\" "
+"role=\"button\" aria-expanded=\"false\" aria-controls=\"plan-"
+"wrapper\">részletek</a>"
 
 #: js/src/packageManagement/updates/UpdateApproval.js:79
 #, python-brace-format
@@ -2333,6 +2401,9 @@ msgid ""
 "                                    automatically installed before \n"
 "                                    ${toLocaleDateString(delayedTime)}."
 msgstr ""
+"Ezek a frissítések késleltetve lesznek \n"
+"                                    telepítve az adott időt követően \n"
+"                                    ${toLocaleDateString(delayedTime)}."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:88
 #, python-brace-format
@@ -2344,6 +2415,12 @@ msgid ""
 "                                    and choose the option <b>Update "
 "approval needed</b>."
 msgstr ""
+"Ha egyáltalán nem szeretné, hogy a frissítések települjenek, lépjen a \n"
+"                                    <a "
+"href=\"${ForisURLs.packageManagement.updateSettings}\">Frissítési "
+"beállítások</a> \n"
+"                                    oldalra, és válassza a <b>Frissítés "
+"jóváhagyása szükséges</b> lehetőséget."
 
 #: js/src/packageManagement/updates/UpdateApproval.js:98
 #, python-format
@@ -2381,27 +2458,35 @@ msgid ""
 "Here you can find and approve available updates for Turris OS and other "
 "components."
 msgstr ""
+"Itt találhatja és hagyhatja jóvá a Turris OS-hez és más összetevőkhöz "
+"elérhető frissítéseket."
 
 #: js/src/packageManagement/updates/UpdateManager.js:91
 msgid "You're up to date."
-msgstr ""
+msgstr "Minden naprakész."
 
 #: js/src/packageManagement/updates/Updates.js:30
 msgid ""
 "In Turris OS, you decide when and how to get the latest updates\n"
 "                    to keep your device running smoothly and securely."
 msgstr ""
+"A Turris OS-ben ön dönti el, hogy mikor és hogyan kapja meg a legfrissebb"
+" frissítéseket,\n"
+"                    A Turris OS-ben ön dönti el, hogy mikor és hogyan "
+"kapja meg a legfrissebb frissítéseket."
 
 #: js/src/packageManagement/updates/Updates.js:48
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "Automatic updates are disabled. Please enable \n"
 "            <a "
 "href=\"${ForisURLs.packageManagement.updateSettings}\">delayed or \n"
 "            approval-requiring updates</a> to review them."
 msgstr ""
-"Az automatikus frissítések le vannak tiltva. Kérjük, engedélyezze a "
-"késleltetett vagy jóváhagyást igénylő frissítéseket azok áttekintéséhez."
+"Az automatikus frissítések le vannak tiltva. Kérjük, engedélyezze a \n"
+"<a href=\"${ForisURLs.packageManagement.updateSettings}\">késleltetett "
+"vagy \n"
+"jóváhagyást igénylő frissítéseket</a> a felülvizsgálatukhoz."
 
 #: js/src/packageManagement/updates/Updates.js:63
 msgid "Check and install updates"
@@ -2409,7 +2494,7 @@ msgstr "Frissítések ellenőrzése és telepítése"
 
 #: js/src/packageManagement/updates/Updates.js:64
 msgid "Manually check for updates and install them immediately."
-msgstr "Manuálisan ellenőrizze a frissítéseket, és telepítse őket azonnal."
+msgstr "Manuálisan ellenőrizze a frissítéseket, és azonnal telepítse azokat."
 
 #: js/src/packageManagement/updates/Updates.js:69
 msgid "Check updates"
@@ -2417,7 +2502,7 @@ msgstr "Frissítések ellenőrzése"
 
 #: js/src/packageManagement/updates/Updates.js:71
 msgid "Manually check for updates and review them immediately."
-msgstr "Manuálisan ellenőrizze a frissítéseket és azonnal tekintse át őket."
+msgstr "Manuálisan ellenőrizze a frissítéseket, és azonnal tekintse át azokat."
 
 #: js/src/packageManagement/updates/hooks.js:89
 msgid "Cannot fetch updater status."
@@ -2430,7 +2515,7 @@ msgid ""
 "href=\"${ForisURLs.packageManagement.updateSettings}\">automatic "
 "updates</a> to manage packages and languages."
 msgstr ""
-"Engedélyezze a <a "
+"Engedélyezze az <a "
 "href=\"${ForisURLs.packageManagement.updateSettings}\">automatikus "
 "frissítéseket</a> a csomagok és nyelvek kezeléséhez."
 
@@ -2439,21 +2524,18 @@ msgid "Set your password for this administration interface."
 msgstr "Állítsa be a jelszót ehhez a felügyeleti felülethez."
 
 #: js/src/password/ForisPasswordForm.js:60
-#, fuzzy
 msgid "Current password"
-msgstr "Rossz jelenlegi jelszó."
+msgstr "Aktuális jelszó"
 
 #: js/src/password/ForisPasswordForm.js:71
 #: js/src/password/RootPasswordForm.js:67
-#, fuzzy
 msgid "New password"
-msgstr "Rossz jelszó."
+msgstr "Új jelszó"
 
 #: js/src/password/ForisPasswordForm.js:84
 #: js/src/password/RootPasswordForm.js:79
-#, fuzzy
 msgid "Confirm new password"
-msgstr "Rossz jelszó."
+msgstr "Erősítsd meg az új jelszót"
 
 #: js/src/password/ForisPasswordForm.js:100
 #, fuzzy
@@ -2468,11 +2550,11 @@ msgid ""
 "configuration here, you will have the option to do so later. Until then, "
 "the root account will be blocked.)"
 msgstr ""
-"Ugyanaz a jelszó lesz használva ennek a felügyeleti felületnek az "
-"eléréséhez, a LuCI webes felület root felhasználójához és az SSH "
-"bejelentkezéshez. Használj erős jelszót! (Ha itt most nem lesz a haladó "
-"beállításokhoz jelszó beállítva, akkor erre később is lesz lehetőség. "
-"Addig is a root fiók le lesz tiltva.)"
+"Ugyanaz a jelszó lesz használva ehhez az adminisztrációs felülethez, a "
+"LuCI webes felületén a root felhasználóhoz és az SSH bejelentkezéshez. "
+"Használjon erős jelszót! (Ha úgy dönt, hogy nem állítja be a jelszót a "
+"speciális konfigurációhoz, később is lehetősége lesz erre. Addig a root "
+"fiók blokkolva lesz.)"
 
 #: js/src/password/Password.js:102
 #, python-brace-format
@@ -2484,46 +2566,49 @@ msgid ""
 "                            forisPassword.list || rootPassword.list\n"
 "                        } list. Please choose a more secure password."
 msgstr ""
+"A megadott jelszó nem elfogadott.Korábban már kompromittálták, és "
+"megjelenik ${ \n"
+"                            forisPassword.count || rootPassword.count\n"
+"                        } alkalommal ${ \n"
+"                            forisPassword.list || rootPassword.list\n"
+"                        } listákon. Kérem, válasszon biztonságosabb "
+"jelszót."
 
 #: js/src/password/Password.js:113
-#, fuzzy
 msgid "Your password was set successfully."
-msgstr "A továbbító mentése sikeresen megtörtént."
+msgstr "A jelszavad beállításra került."
 
 #: js/src/password/Password.js:148
-#, fuzzy
 msgid "Password Settings"
-msgstr "Hálózati beállítások"
+msgstr "Jelszóbeállítások"
 
 #: js/src/password/Password.js:177
 msgid ""
 "Here you can set a password for the administration interface. Ensure it "
 "is secure by making it long and unique."
 msgstr ""
+"Itt beállíthatsz egy jelszót az adminisztrációs felülethez. Ügyeljen "
+"arra, hogy hosszúra, egyedivé és biztonságossá tegye."
 
 #: js/src/password/Password.js:194 js/src/password/Password.js:198
 msgid "Passwords do not match."
-msgstr ""
+msgstr "Jelszavak nem egyeznek."
 
 #: js/src/password/Password.js:213
-#, fuzzy
 msgid "Choose a password."
-msgstr "Rossz jelszó."
+msgstr "Válasszon jelszót."
 
 #: js/src/password/Password.js:216
-#, fuzzy
 msgid "Password should have at least eight symbols."
-msgstr "A TLS-tűnek legalább egy szimbólummal kell rendelkeznie."
+msgstr "A jelszónak legalább nyolc karakterből kell állnia."
 
 #: js/src/password/Password.js:219
-#, fuzzy
 msgid "Password cannot have more than 256 symbols."
-msgstr "A TLS-tűnek legalább egy szimbólummal kell rendelkeznie."
+msgstr "A jelszó nem tartalmazhat 256 karakternél többet."
 
 #: js/src/password/RootPasswordForm.js:51
-#, fuzzy
 msgid "Advanced Administration Password"
-msgstr "Új haladó felügyeleti jelszó"
+msgstr "Speciális rendszergazda jelszó"
 
 #: js/src/password/RootPasswordForm.js:55
 #, python-format
@@ -2547,6 +2632,8 @@ msgid ""
 "Port forwarding allows you to forward incoming traffic from the WAN "
 "interface to a specific device on your LAN."
 msgstr ""
+"A porttovábbítás lehetővé teszi a bejövő forgalom továbbítását a WAN "
+"interfészről a LAN hálózaton lévő adott készülékre."
 
 #: js/src/portForwarding/PortForwarding.js:56
 msgid ""
@@ -2554,6 +2641,9 @@ msgid ""
 "on your LAN. This way, the web server will be accessible from the "
 "internet."
 msgstr ""
+"Például a 80-as porton beérkező forgalmat átirányíthatod a LAN-"
+"hálózatodon található webszerverre. Így a webszerver az internetről is "
+"elérhetővé válik."
 
 #: js/src/portForwarding/PortForwarding.js:61
 msgid ""
@@ -2561,66 +2651,64 @@ msgid ""
 "button. But first, you need to configure a static DHCP lease for the "
 "device you want to forward traffic to. You can configure it on the "
 msgstr ""
+"Az „Új szabály” gombra kattintva új porttovábbítási szabályt adhat hozzá."
+" Először azonban be kell állítania egy statikus DHCP-bérletet annak az "
+"eszköznek, amelyre a forgalmat továbbítani szeretné. Ezt a "
 
 #: js/src/portForwarding/PortForwarding.js:139
-#, fuzzy
 msgid "Edit port forwarding rule"
-msgstr "Továbbító szerkesztése"
+msgstr "Portátirányítási szabály szerkesztése"
 
 #: js/src/portForwarding/PortForwarding.js:140
-#, fuzzy
 msgid "Add port forwarding rule"
-msgstr "Egyéni továbbító hozzáadása"
+msgstr "Portátirányítási szabály hozzáadása"
 
 #: js/src/portForwarding/PortForwarding.js:182
-#, fuzzy
 msgid "Add rule"
-msgstr "Cím"
+msgstr "Új szabály"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:57
-#, fuzzy
 msgid "Internal IPv4 address"
-msgstr "Útválasztó IP-címe"
+msgstr "Belső IPv4 cím"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:85
 #: js/src/portForwarding/PortForwardingRulesTable.js:31
 msgid "External port"
-msgstr ""
+msgstr "Külső port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:96
 #: js/src/portForwarding/PortForwardingRulesTable.js:32
 msgid "Internal port"
-msgstr ""
+msgstr "Belső port"
 
 #: js/src/portForwarding/PortForwardingRulesForm.js:107
 #: js/src/portForwarding/PortForwardingRulesTable.js:34
-#, fuzzy
 msgid "Enabled"
-msgstr "DHCP engedélyezése"
+msgstr "Engedélyezve"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:23
-#, fuzzy
 msgid "Port Forwarding Rules"
-msgstr "Továbbítás használata"
+msgstr "Portátirányítási szabályok"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:30
-#, fuzzy
 msgid "Internal IP address"
-msgstr "Útválasztó IP-címe"
+msgstr "Belső IP-cím"
 
 #: js/src/portForwarding/PortForwardingRulesTable.js:53
 msgid "No port forwarding rules defined."
-msgstr ""
+msgstr "Nincsenek portátirányítási szabályok megadva."
 
 #: js/src/portForwarding/constants.js:17
 msgid "Enter the name of the port forwarding rule."
-msgstr ""
+msgstr "Adja meg a portátirányítási szabály nevét."
 
 #: js/src/portForwarding/constants.js:18
 msgid ""
 "Enter the external port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"Írja be azt a külső portszámot, amelyre a szabály vonatkozik. Ez lehet "
+"egyetlen port vagy porttartomány."
 
 #: js/src/portForwarding/constants.js:21
 msgid ""
@@ -2628,72 +2716,71 @@ msgid ""
 "forwarded. The best practice is to assign a static lease to the device in"
 " advance."
 msgstr ""
+"Írja be annak az eszköznek az érvényes IP-címét, amelyre a portot "
+"továbbítani kívánja. A legjobb gyakorlat az, ha előzetesen statikus IP-"
+"címet rendel az eszközhöz."
 
 #: js/src/portForwarding/constants.js:24
 msgid ""
 "Enter the internal port number to which the rule applies. It can be a "
 "single port or a range of ports."
 msgstr ""
+"Adja meg a belső portszámot, amelyre a szabály vonatkozik. Ez lehet "
+"egyetlen port vagy porttartomány."
 
 #: js/src/portForwarding/constants.js:27
 msgid "Enable or disable the port forwarding rule."
-msgstr ""
+msgstr "A portátirányítási szabály engedélyezése vagy letiltása."
 
 #: js/src/portForwarding/hooks.js:76
-#, fuzzy
 msgid "Rule deleted successfully."
-msgstr "A továbbító hozzáadása sikeresen megtörtént."
+msgstr "A szabály törlése sikeresen megtörtént."
 
 #: js/src/portForwarding/hooks.js:79
-#, fuzzy
 msgid "Can't delete rule."
-msgstr "A DNS-továbbító nem törölhető."
+msgstr "A szabály nem törölhető."
 
 #: js/src/portForwarding/hooks.js:150
-#, fuzzy
 msgid "Rule added successfully."
-msgstr "A továbbító hozzáadása sikeresen megtörtént."
+msgstr "A szabály hozzáadása sikeresen megtörtént."
 
 #: js/src/portForwarding/hooks.js:166
-#, fuzzy
 msgid "Rule saved successfully."
-msgstr "A továbbító mentése sikeresen megtörtént."
+msgstr "A szabály mentése sikeresen megtörtént."
 
 #: js/src/portForwarding/hooks.js:214
-#, fuzzy
 msgid "Name should have at least one symbol."
-msgstr "Az gépnévnek legalább egy szimbólummal kell rendelkeznie."
+msgstr "A névnek legalább egy karaktert kell tartalmaznia."
 
-#: js/src/portForwarding/hooks.js:224
+#: js/src/portForwarding/hooks.js:226
 #, python-brace-format
 msgid "${fieldName} should be a positive number or range of numbers."
-msgstr ""
+msgstr "${fieldName} értékének pozitív számnak vagy számtartománynak kell lennie."
 
-#: js/src/portForwarding/hooks.js:230 js/src/portForwarding/hooks.js:237
+#: js/src/portForwarding/hooks.js:232 js/src/portForwarding/hooks.js:239
 #, python-brace-format
 msgid "${fieldName} should be a valid port number or range."
 msgstr ""
+"${fieldName} értéknek érvényes portszámnak vagy porttartománynak kell "
+"lennie."
 
 #: js/src/regionAndTime/RegionAndTime.js:31
 msgid "Region and Time"
 msgstr "Régió és idő"
 
 #: js/src/regionAndTime/RegionAndTime.js:33
-#, fuzzy
 msgid ""
 "It is important for your device to have the correct time set. If your "
 "device's time is delayed, the procedure of SSL certificate verification "
 "might not work correctly."
 msgstr ""
-"\n"
-"Fontos, hogy a készüléken megfelelő idő legyen beállítva. Ha a készülék "
-"ideje késik, a\n"
-"az SSL-tanúsítvány ellenőrzési folyamata nem működik megfelelően.\n"
-"        "
+"Fontos, hogy az eszközén a helyes időt állítsa be. Ha az eszköz ideje "
+"késik, az SSL-tanúsítvány ellenőrzésének folyamata esetleg nem működik "
+"megfelelően."
 
 #: js/src/regionAndTime/RegionAndTime.js:56
 msgid "Time should be in YYYY-MM-DD HH:MM:SS format."
-msgstr "Az időnek ÉÉÉÉ-HH-NN ÓÓ:PP:MM formátumban kell lennie."
+msgstr "Az időnek ÉV-HÓ-NAP ÓÓ:PP:MP formátumban kell lennie."
 
 #: js/src/regionAndTime/RegionForm.js:72
 msgid "Region Settings"
@@ -2704,9 +2791,9 @@ msgid ""
 "Please select the timezone the router is being operated in. Correct "
 "setting is required to display the right time and for related functions."
 msgstr ""
-"Válaszd ki az időzónát, melyben a router működik. Helyes beállítás "
-"szükséges a megfelelő idő megjelenítéséhez, illetve a kapcsolódó "
-"funkciókhoz."
+"Kérjük, válassza ki azt az időzónát, amelyben az útválasztó üzemel. A "
+"helyes beállítás szükséges a pontos idő megjelenítéséhez és a kapcsolódó "
+"funkciók működéséhez."
 
 #: js/src/regionAndTime/RegionForm.js:81
 msgid "Continent or ocean"
@@ -2780,13 +2867,12 @@ msgid "Rebooting"
 msgstr "Újraindítás"
 
 #: js/src/utils/ErrorBoundary.js:34
-#, fuzzy
 msgid "An Error Occurred - reForis | Turris"
-msgstr "Hiba történt"
+msgstr "Hiba történt - reForis | Turris"
 
 #: js/src/utils/ErrorBoundary.js:37
 msgid "Oops! Something went wrong:"
-msgstr ""
+msgstr "Hoppá! Valami hiba történt:"
 
 #: js/src/utils/ErrorBoundary.js:43
 #, fuzzy
@@ -2810,33 +2896,35 @@ msgstr ""
 
 #: js/src/utils/SkipLink.js:23
 msgid "Skip to main content"
-msgstr ""
+msgstr "Ugrás a fő tartalomhoz"
 
 #: js/src/utils/useSessionTimeout.js:64
-#, fuzzy
 msgid "Session extended successfully."
-msgstr "A továbbító hozzáadása sikeresen megtörtént."
+msgstr "A munkamenet meghosszabbítása sikeresen megtörtént."
 
 #: js/src/utils/useSessionTimeout.js:94
-#, fuzzy
 msgid "Session Timeout"
-msgstr "Régió és idő"
+msgstr "Munkamenet időtúllépés"
 
 #: js/src/utils/useSessionTimeout.js:99
 msgid "Your session is about to expire. Do you want to continue?"
-msgstr ""
+msgstr "A munkameneted hamarosan lejár. Szeretnéd folytatni?"
 
 #: js/src/utils/useSessionTimeout.js:104
 msgid ""
 "Please note that if you do not respond, you will be logged out "
 "automatically."
 msgstr ""
+"Kérjük, vegye figyelembe, hogy ha nem válaszol, a rendszer automatikusan "
+"kijelentkezteti."
 
 #: js/src/wan/MACForm.js:14
 msgid ""
 "Useful in cases, when a specific MAC address is required by your internet"
 " service provider."
 msgstr ""
+"Hasznos abban az esetben, ha az internetszolgáltatód egy adott MAC-címet "
+"kér."
 
 #: js/src/wan/MACForm.js:17
 msgid "Colon is used as a separator, for example 00:11:22:33:44:55"
@@ -2844,57 +2932,55 @@ msgstr "A kettőspont elválasztóként használatos, például 00:11:22:33:44:5
 
 #: js/src/wan/MACForm.js:20
 msgid "MAC address of the WAN interface."
-msgstr ""
+msgstr "A WAN-interfész MAC-címe."
 
 #: js/src/wan/MACForm.js:53
-#, fuzzy
 msgid "MAC Settings"
-msgstr "Idő beállítások"
+msgstr "MAC-beállítások"
 
 #: js/src/wan/MACForm.js:55
 msgid "Custom MAC address"
 msgstr "Egyéni MAC-cím"
 
 #: js/src/wan/MACForm.js:66
-#, fuzzy
 msgid "Current MAC address"
-msgstr "Útválasztó IP-címe"
+msgstr "Jelenlegi MAC-cím"
 
 #: js/src/wan/MACForm.js:72
 msgid "Set the new MAC address"
-msgstr ""
+msgstr "Az új MAC-cím beállítása"
 
 #: js/src/wan/VLANForm.js:14
 msgid ""
 "Useful in cases when a specific VLAN ID is required by your internet "
 "service provider."
 msgstr ""
+"Hasznos abban az esetben, ha az internetszolgáltatód egy adott VLAN-"
+"azonosítót ír elő."
 
 #: js/src/wan/VLANForm.js:17
-#, fuzzy
 msgid "VLAN ID must be a number in the range between 1 and 4094."
-msgstr "Az MTU-nak 1280-1500 tartományban lévő számnak kell lennie."
+msgstr "A VLAN azonosítónak 1 és 4094 közötti számnak kell lennie."
 
 #: js/src/wan/VLANForm.js:50
-#, fuzzy
 msgid "VLAN Settings"
-msgstr "Idő beállítások"
+msgstr "VLAN-beállítások"
 
 #: js/src/wan/VLANForm.js:52
 msgid "Enable VLAN"
-msgstr ""
+msgstr "VLAN engedélyezése"
 
 #: js/src/wan/VLANForm.js:62
 msgid "Set the VLAN ID"
-msgstr ""
+msgstr "VLAN-azonosító beállítása"
 
 #: js/src/wan/VLANForm.js:86
 msgid "Value must be greater than or equal to 1."
-msgstr ""
+msgstr "Az értéknek 1-nél nagyobbnak vagy azzal egyenlőnek kell lennie."
 
 #: js/src/wan/VLANForm.js:89
 msgid "Value must be less than or equal to 4094."
-msgstr ""
+msgstr "Az értéknek 4094-nél kisebbnek vagy azzal egyenlőnek kell lennie."
 
 #: js/src/wan/WAN.js:31
 msgid ""
@@ -2902,6 +2988,10 @@ msgid ""
 "your ISP (internet service provider). Usually, it can be left untouched "
 "if your router is connected to the Internet via a cable or DSL modem."
 msgstr ""
+"Itt adhatja meg a WAN port beállításait, ha az internetszolgáltatója "
+"(ISP) erre utasítja. Ez a beállítás általában nem igényel módosítást, ha "
+"az útválasztó kábel- vagy DSL-modemen keresztül csatlakozik az "
+"internethez."
 
 #: js/src/wan/WAN.js:54
 msgid ""
@@ -2909,18 +2999,19 @@ msgid ""
 "the connection. Remember to click the <b>Save</b> button after you have "
 "tested that it works."
 msgstr ""
+"Itt megvizsgálhatja a kapcsolat beállításait. Várjon egy kicsit, amíg a "
+"kapcsolat létrejön. Ne feledje megnyomni a <b>Mentés</b> gombot, miután "
+"letesztelte, hogy működik."
 
 #: js/src/wan/WAN6Form.js:26
 msgid "DUID which will be provided to the DHCPv6 server."
-msgstr "DUID, amelyet a DHCPv6-kiszolgálónak biztosítunk."
+msgstr "DUID, amely a DHCPv6 szervernek lesz megadva."
 
 #: js/src/wan/WAN6Form.js:30
 msgid ""
 "IPv6 address and prefix length for WAN interface e.g. "
 "2001:db8:be13:37da::1/64"
-msgstr ""
-"IPv6-cím és előtag méret a WAN-interfészhez, pl. 2001:db8:be13:37da::1 / "
-"64"
+msgstr "IPv6 cím és prefixhossz a WAN interfészhez, pl. 2001:db8:be13:37da::1/64"
 
 #: js/src/wan/WAN6Form.js:33
 msgid "Address range for local network, e.g. 2001:db8:be13:37da::/64"
@@ -2940,7 +3031,7 @@ msgstr ""
 msgid ""
 "This address will be used as a endpoint of the tunnel on the provider's "
 "side."
-msgstr "A cím, mint a szolgáltató oldali alagútvégpont lesz használva."
+msgstr "Ezt a címet fogják az alagút szolgáltatói oldali végpontjaként használni."
 
 #: js/src/wan/WAN6Form.js:52
 msgid "IPv6 addresses which will be routed to your network."
@@ -2948,7 +3039,7 @@ msgstr "IPv6-címek, amelyek a hálózatához lesznek irányítva."
 
 #: js/src/wan/WAN6Form.js:53
 msgid "Maximum Transmission Unit in the tunnel (in bytes)."
-msgstr "Maximális Átviteli Egység az alagútban (byte-ban)."
+msgstr "A maximális átviteli egység (MTU) az alagútban (bájtban)."
 
 #: js/src/wan/WAN6Form.js:56
 msgid ""
@@ -2989,9 +3080,8 @@ msgid "Disable IPv6"
 msgstr "IPv6 letiltása"
 
 #: js/src/wan/WAN6Form.js:162
-#, fuzzy
 msgid "IPv6 Settings"
-msgstr "Idő beállítások"
+msgstr "IPv6 beállítások"
 
 #: js/src/wan/WAN6Form.js:164
 msgid "IPv6 protocol"
@@ -3027,7 +3117,7 @@ msgstr "MTU"
 
 #: js/src/wan/WAN6Form.js:375
 msgid "Dynamic IPv4 handling"
-msgstr ""
+msgstr "Dinamikus IPv4-kezelés"
 
 #: js/src/wan/WAN6Form.js:419
 msgid "Tunnel ID"
@@ -3038,23 +3128,20 @@ msgid "Key"
 msgstr "Kulcs"
 
 #: js/src/wan/WAN6Form.js:527
-#, fuzzy
 msgid "MTU has to be a number in the range of 1280-1480."
-msgstr "Az MTU-nak 1280-1500 tartományban lévő számnak kell lennie."
+msgstr "Az MTU-nak 1280 és 1480 közötti számnak kell lennie."
 
 #: js/src/wan/WAN6Form.js:529
-#, fuzzy
 msgid "MTU has to be in the range of 1280-1480."
-msgstr "Az MTU-nak 1280-1500 tartományban lévő számnak kell lennie."
+msgstr "Az MTU-nak 1280 és 1480 közötti tartományba kell esnie."
 
 #: js/src/wan/WANForm.js:27
 msgid "PPPoE (for DSL bridges, etc.)"
 msgstr "PPPoE (DSL-hidakhoz stb.)"
 
 #: js/src/wan/WANForm.js:100
-#, fuzzy
 msgid "IPv4 Settings"
-msgstr "Idő beállítások"
+msgstr "IPv4 beállítások"
 
 #: js/src/wan/WANForm.js:128
 msgid "PAP/CHAP username"
@@ -3066,7 +3153,7 @@ msgstr "PAP/CHAP jelszó"
 
 #: js/src/wifi/WiFi.js:27
 msgid "Unfortunately, we were unable to detect any wireless cards in your router."
-msgstr ""
+msgstr "Sajnos nem sikerült érzékelnünk vezeték nélküli kártyát az útválasztóban."
 
 #: js/src/wifi/WiFi.js:42
 msgid ""
@@ -3075,6 +3162,10 @@ msgid ""
 "password. You can then set up your mobile devices using the QR code "
 "available within the form."
 msgstr ""
+"Ha útválasztóját Wi-Fi hozzáférési pontként szeretné használni, "
+"engedélyezze a Wi-Fi-t itt, és adja meg az SSID-t (a hozzáférési pont "
+"nevét) a hozzá tartozó jelszóval együtt. Ezt követően az űrlapon "
+"található QR-kód segítségével beállíthatja a mobileszközeit."
 
 #: reforis/foris_controller_api/modules/dns.py:46
 msgid "Can't add new DNS forwarder."
@@ -3089,99 +3180,96 @@ msgid "Can't delete DNS forwarder."
 msgstr "A DNS-továbbító nem törölhető."
 
 #: reforis/foris_controller_api/modules/lan.py:15
-#, fuzzy
 msgid "IP address does not fit the LAN network."
-msgstr "Az útválasztó IP-címe a vendég belső hálózatában."
+msgstr "Az IP-cím nem illeszkedik a LAN hálózathoz."
 
 #: reforis/foris_controller_api/modules/lan.py:16
 msgid "DHCP is disabled for LAN."
-msgstr ""
+msgstr "A DHCP a LAN-hálózaton le van tiltva."
 
 #: reforis/foris_controller_api/modules/lan.py:17
 msgid "IP address is already used by another static lease."
-msgstr ""
+msgstr "Az IP-címet már egy másik statikus bérlet használja."
 
 #: reforis/foris_controller_api/modules/lan.py:18
 msgid "MAC address is already used by another static lease."
-msgstr ""
+msgstr "A MAC-címet már egy másik statikus bérlet használja."
 
 #: reforis/foris_controller_api/modules/lan.py:19
 msgid "No static lease has this MAC address assigned."
-msgstr ""
+msgstr "Ehhez a MAC-címhez nincs hozzárendelve statikus bérlet."
 
 #: reforis/foris_controller_api/modules/lan.py:20
 msgid "Hostname is already used by another static lease."
-msgstr ""
+msgstr "A gazdanevet már egy másik statikus bérlet használja."
 
 #: reforis/foris_controller_api/modules/lan.py:24
-#, fuzzy
 msgid "IP address is not in the LAN network."
-msgstr "Az útválasztó IP-címe a vendég belső hálózatában."
+msgstr "Az IP-cím nincs a LAN-hálózatban."
 
 #: reforis/foris_controller_api/modules/lan.py:25
-#, fuzzy
 msgid "IP address is not a user-defined static lease."
-msgstr "Az útválasztó IP-címe a vendég belső hálózatában."
+msgstr "Az IP-cím nem felhasználó által megadott statikus bérlet."
 
 #: reforis/foris_controller_api/modules/lan.py:26
 msgid "Port range is already used by another port forwarding rule."
-msgstr ""
+msgstr "A porttartományt már egy másik port-továbbítási szabály használja."
 
 #: reforis/foris_controller_api/modules/lan.py:104
 msgid "Can't create DHCP lease."
-msgstr ""
+msgstr "Nem sikerült DHCP-bérletet létrehozni."
 
 #: reforis/foris_controller_api/modules/lan.py:119
 msgid "Can't update DHCP lease."
-msgstr ""
+msgstr "Nem sikerült frissíteni a DHCP-bérletet."
 
 #: reforis/foris_controller_api/modules/lan.py:130
-#, fuzzy
 msgid "Can't delete DHCP lease."
-msgstr "A DNS-továbbító nem törölhető."
+msgstr "Nem lehet törölni a DHCP-bérletet."
 
 #: reforis/foris_controller_api/modules/lan.py:156
-#, fuzzy
 msgid "Can't set port forwarding rule."
-msgstr "A DNS-továbbító nem állítható be."
+msgstr "Nem sikerült beállítani a portátirányítási szabályt."
 
 #: reforis/foris_controller_api/modules/lan.py:167
-#, fuzzy
 msgid "Can't delete port forwarding rule."
-msgstr "A DNS-továbbító nem törölhető."
+msgstr "Nem sikerült törölni a porttovábbítási szabályt."
 
 #: reforis/foris_controller_api/modules/password.py:47
 msgid "Wrong current password."
-msgstr "Rossz jelenlegi jelszó."
+msgstr "A jelenlegi jelszó helytelen."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:126
 msgid ""
 "If you see this message, your notification settings seem to be correct. "
 "Have a nice day! 😊"
 msgstr ""
+"Ha látod ezt az üzenetet, az értesítési beállításaid rendben vannak. Szép"
+" napot kívánok! 😊"
 
 #: reforis/foris_controller_api/modules/router_notifications.py:132
-#, fuzzy
 msgid "Test notification sent successfully."
-msgstr "A továbbító mentése sikeresen megtörtént."
+msgstr "A tesztértesítés sikeresen elküldésre került."
 
 #: reforis/foris_controller_api/modules/router_notifications.py:135
 msgid "Cannot send test notification. Please check your configuration."
 msgstr ""
+"A tesztértesítést nem sikerült elküldeni. Kérjük, ellenőrizze a "
+"beállításokat."
 
-#: reforis/foris_controller_api/modules/updater.py:66
+#: reforis/foris_controller_api/modules/updater.py:67
 msgid "Cannot change automatic restart settings."
 msgstr "Az automatikus újraindítási beállítások nem módosíthatók."
 
-#: reforis/foris_controller_api/modules/updater.py:77
+#: reforis/foris_controller_api/modules/updater.py:78
 msgid "Cannot update approvals settings."
 msgstr "A jóváhagyási beállítások nem frissíthetők."
 
-#: reforis/foris_controller_api/modules/updater.py:170
+#: reforis/foris_controller_api/modules/updater.py:171
 msgid "Cannot start updater"
 msgstr "Nem lehet elindítani a Frissítéskezelőt"
 
-#: reforis/foris_controller_api/modules/updater.py:199
+#: reforis/foris_controller_api/modules/updater.py:200
 msgid "You can't set it with disabled automatic updates."
 msgstr "A letiltott automatikus frissítésekkel nem állítható be."
 
